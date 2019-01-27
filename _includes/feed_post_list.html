@@ -1,0 +1,28 @@
+<div class="row">
+  {% if include.post_limit %}
+  {% assign post_limit = include.post_limit %}
+  {% else %}
+  <!-- TODO: Need to cope with paginator -->
+  {% assign post_limit = 100 %}
+  {% endif %}
+
+  {% assign feedposts = include.filtered_posts %}
+
+  {% for feedpost in feedposts | limit: post_limit %}
+  <div class="column">
+    <div class="image">
+      <!--  TODO: How to make responsive? -->
+      <img src="{{ feedpost[1].top_image_url | remove: "\" }}" />
+    </div>
+    <div class="combiheading">
+      <h3>
+        <a href="{{ feedpost[1].resolved_url }}" rel="canonical">{{ feedpost[1].resolved_title }}</a>
+      </h3>
+      from {{ feedpost[1].domain_metadata.name }}
+    </div>
+    <div class="">{{ feedpost[1].excerpt }}</div>
+
+    <a class="post-link" href="{{ feedpost[1].resolved_url }}" rel="canonical">Read More</a>
+  </div>
+  {% endfor %}
+</div>

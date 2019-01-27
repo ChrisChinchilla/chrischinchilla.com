@@ -1,0 +1,74 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-column {
+  flex-grow: 1;
+  width: 50%;
+}
+
+.column {
+  flex-grow: 1;
+  // TODO: Better way?
+  width: 32%;
+  // margin: $spacing-unit / 6;
+  padding: $spacing-unit / 6;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+
+h2 {
+  display: inline;
+}
+
+a.more-link {
+
+}
+
+a.more-link::before {
+  content: " - ";
+}
+
+  * {
+    padding-bottom: $spacing-unit / 6;
+  }
+
+  h3 {
+    display: inline;
+  }
+
+  .image {
+    max-width: 320px;
+    padding-top: $spacing-unit / 6;
+  }
+
+  .post-link {
+    display: block;
+    font-size: $base-font-size;
+  }
+
+  .tags {
+    h4 {
+      display: inline;
+    }
+
+    a {
+      font-size: $small-font-size;
+    }
+  }
+}
+// TODO: This seems crazy
+.home {
+  .row {
+    .column {
+      .row {
+        display: block;
+
+        .column {
+          width: 97%;
+          border-left: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+podcasts:
+    posts_directory: _posts/
+    templates_directory: _imported/
+    whitelisted_tags: []
+    # sanitize_html: true
+
+blogs:
+  # Bare minimum to get it working
+  - feed:   "https://anchor.fm/s/2ab8734/podcast/rss"
+    image:  "https://www.rss-specifications.com/rss-spec-rss.gif"
+    twitter: "poteland"
+    categories: "Both media podcast"
+    podcast_embed: ""
+    type: podcast
+    layout: podcast
+  - feed:   "https://podcast.writethedocs.org/itunes.rss"
+    image:  "https://www.rss-specifications.com/rss-spec-rss.gif"
+    twitter: "poteland"
+    categories: "Chris media podcast"
+    podcast_embed: ""
+    type: podcast
+    layout: podcast

@@ -1,0 +1,13 @@
+---
+layout: page
+title: General Newsletter
+permalink: /fav/
+---
+
+<ul>
+    {% for favpost in site.data.favposts.list %}
+    <li>
+        {{ favpost[1].resolved_title }}
+    </li>
+    {% endfor %}
+</ul>

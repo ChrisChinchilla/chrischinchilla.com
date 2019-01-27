@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /events/
+menu: true
+---
+
+{%- if page.title -%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+<div class="row">
+  <main class="top-column">
+    <p>TBD</p>
+    <a href="/events/past/">Past events</a>
+  </main>
+  <aside class="top-column">
+    {% if page.image %} {% picture listings {{ page.image }} alt="{{
+      page.title
+    }}" %} {% endif %}
+  </aside>
+</div>
+
+{% assign future_events = "" | split: "" %} {% capture nowunix %}{{
+  "now" | date: "%s"
+}}{% endcapture %} {% for post in site.events %} {% capture posttime %}{{
+  post.start_date | date: "%s"
+}}{% endcapture %} {% if posttime > nowunix %} {% assign future_events =
+future_events | push: post %} {% endif %} {% endfor %} {% include
+event_list.html filtered_events = future_events %}

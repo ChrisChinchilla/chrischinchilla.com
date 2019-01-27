@@ -1,0 +1,67 @@
+<div class="row">
+  {% if include.filtered_posts %}
+    {% assign posts = include.filtered_posts %}
+  {% else %}
+    {% assign posts = paginator.posts %}
+  {% endif %}
+
+  {% if include.post_limit %}
+  {% assign post_limit = include.post_limit %}
+  {% else %}
+  <!-- TODO: Need to cope with paginator -->
+  {% assign post_limit = 100 %}
+  {% endif %}
+
+  {% assign feedposts = include.filtered_posts %}
+
+  {% for post in posts | limit: post_limit %}
+  <div class="column">
+    <div class="image">
+      {% if post.image %} {% picture listings {{ post.image }} alt="{{
+        post.title
+      }}" %} {% endif %}
+    </div>
+    <div class="combiheading">
+      {% if post.publication_url %}
+      <h3>
+        <a href="{{ post.publication_url }}" rel="canonical">
+          {{ post.title }}</a>
+      </h3>
+      {% else %}
+      <h3>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h3>
+      {% endif %} {% if post.categories[2] == 'sitepoint' or post.categories[2]
+      == 'crate' or post.categories[2] == 'theweeklysqueak' or
+      post.categories[2] == 'codeship' or post.categories[2] == 'sqreen' or
+      post.categories[2] == 'dzone' or post.categories[2] == 'thenextweb' or
+      post.categories[2] == 'cultofmac' or post.categories[2] == 'podcast' or
+      post.categories[2] == 'hackernoon' or post.categories[2] == 'envato' or
+      post.categories[2] == 'readwrite' or post.categories[2] == 'overops' or
+      post.categories[2] == 'techbeacon' or post.categories[2] == 'coralogix' %}
+      <b>for </b>{{ post.categories[2] }} {% else %} From the {% case
+      post.categories[2] %} {% when 'odtwe' %}
+      <a href="/projects/odtwe">One Day the World Ended</a> {% when 'chipshop'
+      %} <a href="/projects/chipshop">Chip Shop</a> {% when 'leantraveller' %}
+      <a href="/projects/leantraveller">Lean Traveller</a> {% when
+      'chrischinchilla' %}
+      <a href="/writing/chrischinchilla">Chris Chinchilla</a> {% when 'software'
+      %} <a href="/projects/software">Software</a> {% when 'presentations' %}
+      <a href="/writing/presentations">Presentations</a> {% when
+      'atravellingcook' %}
+      <a href="/writing/a-travelling-cook">A Travelling Cook</a> {% when
+      'not-profit-handbook' %}
+      <a href="/projects/not-profit-handbook">The Not-for-Profit Handbook</a> {%
+      endcase %} project {% endif %}
+    </div>
+    <p>{{ post.excerpt }}</p>
+    <div class="tags">
+      {% if post.tags %}
+      <h4>Tags</h4>
+      {% for tag in post.tags %}
+      <a href="topics#{{ tag | slugify }}"> {{ tag }} </a> {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

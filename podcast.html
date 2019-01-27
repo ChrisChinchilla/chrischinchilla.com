@@ -1,0 +1,42 @@
+---
+layout: page
+permalink: /podcasts
+title: Podcasts
+---
+
+
+<div class="home page">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  <div class="row">
+    <main class="top-column">
+      <p>
+        Our podcast is a regular ramble that covers technology, robots, coding, IoT, current affairs, travels, writing
+        and so much more.</p>
+
+      <a class=" jsOutboundLink" href="https://anch.co/get_anchor" data-vars-outbound-link="https://anch.co/get_anchor" target="_blank" rel="noopener noreferrer"><img alt="Anchor Podcasts" class="styles__anchorPodcasts___CJAQT" width="130" height="40"
+          src="https://d12xoj7p9moygp.cloudfront.net/images/podcast/anchor-podcasts-3.png" srcset="https://d12xoj7p9moygp.cloudfront.net/images/podcast/anchor-podcasts-3.png 1x, https://d12xoj7p9moygp.cloudfront.net/images/podcast/anchor-podcasts-3@2x.png 2x"></a>
+
+      <a class=" jsOutboundLink" href="https://itunes.apple.com/au/podcast/gregarious-mammal/id1071207052" data-vars-outbound-link="https://itunes.apple.com/au/podcast/gregarious-mammal/id1071207052" target="_blank" rel="noopener noreferrer"><img
+          alt="Apple Podcasts" class="styles__applePodcasts___1BGG3" width="130" height="33" src="https://d12xoj7p9moygp.cloudfront.net/images/podcast/apple-podcasts-3.png" srcset="https://d12xoj7p9moygp.cloudfront.net/images/podcast/apple-podcasts-3.png 1x, https://d12xoj7p9moygp.cloudfront.net/images/podcast/apple-podcasts-3@2x.png 2x"></a>
+
+
+      <a class=" jsOutboundLink" href="https://pca.st/nNqR" data-vars-outbound-link="https://pca.st/nNqR" target="_blank" rel="noopener noreferrer"><img alt="PocketCasts" class="styles__pocketCasts___iURED" width="131" height="40" src="https://d12xoj7p9moygp.cloudfront.net/images/podcast/pocketcasts-4.png"
+          srcset="https://d12xoj7p9moygp.cloudfront.net/images/podcast/pocketcasts-4.png 1x, https://d12xoj7p9moygp.cloudfront.net/images/podcast/pocketcasts-4@2x.png 2x"></a>
+
+      <a href="https://radiopublic.com/gregarious-mammal-6VDEeb"><img src="/images/icons/radio-public.png" height="40"></a>
+      <a href="https://tunein.com/podcasts/Technology-Podcasts/Gregarious-Mammal-p1158875/"><img src="/images/icons/tunein.png" height="40"></a>
+
+    </main>
+    <aside class="top-column">
+      {% if page.image %}
+      {% picture listings {{ page.image }} alt="{{ page.title }}" %}
+      {% endif %}
+    </aside>
+  </div>
+
+
+  {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'podcast'" %}
+  {% include post_list.html filtered_posts=latest_posts %}
+</div>

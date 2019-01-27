@@ -1,0 +1,24 @@
+---
+layout: page
+title: Language
+permalink: /language/
+---
+
+{%- if page.title -%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+<div class="row">
+  <main class="top-column">
+    <p>TBD</p>
+  </main>
+  <aside class="top-column">
+    {% if page.image %} {% picture listings {{ page.image }} alt="{{
+      page.title
+    }}" %} {% endif %}
+  </aside>
+</div>
+
+{% assign latest_posts = site.data.languageposts.list %}
+{% include feed_post_list.html filtered_posts=latest_posts %}
+
+<p><a href="/language">Read all my posts</a>.</p>

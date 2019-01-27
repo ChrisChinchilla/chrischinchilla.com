@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="merchandise">
+
+  <header class="post-header">
+    <aside class="image">
+      {% if page.image %}
+      {% picture listings {{page.image}} alt="{{page.title}}" %}
+      {% endif %}
+    </aside>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+
+    <div class="buy-links">
+      <h3>Where to buy</h3>
+      {% for link in page.store_links %}
+      <p><a href="{{ link.link }}">Buy on {{ link.store }}</a></p>
+      {% endfor %}
+    </div>
+  </article>
+
+</div>

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="event">
+
+  <header class="post-header">
+    <aside class="image">
+      {% if page.image %}
+      {% picture listings {{post.image}} alt="{{post.title}}" %}
+      {% endif %}
+    </aside>
+    <h1 class="post-title">{{ page.event }}</h1>
+    <h2>{{ page.title }}</h2>
+    <b class="event-details">{{ page.date | date: '%B %d %Y' }}</b>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <div class="post-meta">
+    <p>{{ page.venue }}</p>
+    {% if page.type == "presentation" %}
+    <p><a class="post-link" href="{{ page.pres_url }}" target="_blank">Presentation</a></p>
+    <p><a class="post-link" href="{{ page.pres_source }}" target="_blank">Presentation File</a></p>
+    {% endif %}
+
+    {% if page.type == "press" %}
+    <p><a class="post-link" href="{{ page.pres_url }}" target="_blank">Presentation</a></p>
+    <p><a class="post-link" href="{{ page.pres_source }}" target="_blank">Presentation File</a></p>
+    {% endif %}
+  </div>
+  <!-- {% include articleFooter.html %}
+
+  {% if page.comments %}
+  {% include comments.html %}
+  {% endif %} -->
+</div>
