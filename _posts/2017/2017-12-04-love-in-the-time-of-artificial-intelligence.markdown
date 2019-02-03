@@ -5,7 +5,7 @@ created_at: 2017-12-04 05:09:07 UTC
 author: ""
 categories: Both media podcast
 tags: 
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---
 In this episode Cate and Chris tackle the rise of cryptocurrencies, love (past and present) in the time of artificial intelligence, the prevalence of software bugs, net neutrality from a non-American perspective, and more.

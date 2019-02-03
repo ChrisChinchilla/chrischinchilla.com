@@ -5,7 +5,7 @@ created_at: 2016-05-18 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2016/05/18/move-fast-doc-things-ruthie-bendor/
+publication_url: https://podcast.writethedocs.org/2016/05/18/move-fast-doc-things-ruthie-bendor/
 layout: podcast
 ---
 

@@ -5,7 +5,7 @@ created_at: 2017-08-22 07:59:48 UTC
 author: ""
 categories: Both media podcast
 tags: 
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---
 I spoke with Robert Reeves, CTO and Co-founder of Datical, a company that aims to remove the pain that database administrators (DBAs) experience on a regular basis attempting to make changes to database heavy applications.

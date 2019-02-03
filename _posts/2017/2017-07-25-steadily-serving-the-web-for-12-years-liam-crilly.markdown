@@ -5,7 +5,7 @@ created_at: 2017-07-25 08:19:52 UTC
 author: ""
 categories: Both media podcast
 tags: 
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---
 NGINX is one of the most popular web servers on the internet. Just a shade behind the market leader it emerged roughly ten years ago to provide an alternative to the venerable Apache, designed to suit modern traffic demands better and more appropriately.

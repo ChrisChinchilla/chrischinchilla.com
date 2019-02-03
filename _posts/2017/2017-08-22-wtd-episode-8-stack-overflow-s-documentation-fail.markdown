@@ -5,7 +5,7 @@ created_at: 2017-08-22 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2017/08/22/stack-overflow-failure-open-source-challenges/
+publication_url: https://podcast.writethedocs.org/2017/08/22/stack-overflow-failure-open-source-challenges/
 layout: podcast
 ---
 

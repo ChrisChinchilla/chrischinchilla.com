@@ -5,7 +5,7 @@ created_at: 2017-10-26 06:17:27 UTC
 author: ""
 categories: Both media podcast
 tags: 
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---
 Robots are appearing everywhere in our lives and workplaces, but how does a developer actually program one?

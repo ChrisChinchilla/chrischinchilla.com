@@ -5,7 +5,7 @@ created_at: 2017-09-19 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2017/09/19/chatbots-and-ai-in-documentation/
+publication_url: https://podcast.writethedocs.org/2017/09/19/chatbots-and-ai-in-documentation/
 layout: podcast
 ---
 

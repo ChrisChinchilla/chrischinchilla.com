@@ -9,7 +9,7 @@ tags:
   - jupyter notebook
   - data science
   - big data
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Computational-Knowledge-with-Stephen-Wolfram-e1kg09" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---

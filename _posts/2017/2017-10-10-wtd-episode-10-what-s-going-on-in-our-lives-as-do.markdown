@@ -5,7 +5,7 @@ created_at: 2017-10-10 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2017/10/10/whats-going-on-in-our-lives/
+publication_url: https://podcast.writethedocs.org/2017/10/10/whats-going-on-in-our-lives/
 layout: podcast
 ---
 

@@ -5,7 +5,7 @@ created_at: 2017-07-19 06:10:39 UTC
 author: ""
 categories: Both media podcast
 tags: 
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---
 Chris speaks to Jeff Luszcz about how Flexera aims to make software that relies on open source components more secure, compliant and sustainable.

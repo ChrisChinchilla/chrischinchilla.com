@@ -5,7 +5,7 @@ created_at: 2016-11-17 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2016/11/17/modern-tech-writing-etter-wtdsf/
+publication_url: https://podcast.writethedocs.org/2016/11/17/modern-tech-writing-etter-wtdsf/
 layout: podcast
 ---
 

@@ -5,7 +5,7 @@ created_at: 2017-06-06 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2017/06/06/episode-6-the-power-of-metadata/
+publication_url: https://podcast.writethedocs.org/2017/06/06/episode-6-the-power-of-metadata/
 layout: podcast
 ---
 

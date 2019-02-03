@@ -5,7 +5,7 @@ created_at: 2015-12-17 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2015/12/17/create-doc-for-startups/
+publication_url: https://podcast.writethedocs.org/2015/12/17/create-doc-for-startups/
 layout: podcast
 ---
 

@@ -5,7 +5,7 @@ created_at: 2016-03-29 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2016/03/29/mediawiki-as-doc-platform-juan-laura/
+publication_url: https://podcast.writethedocs.org/2016/03/29/mediawiki-as-doc-platform-juan-laura/
 layout: podcast
 ---
 

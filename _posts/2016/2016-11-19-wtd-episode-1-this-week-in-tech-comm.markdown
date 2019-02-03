@@ -5,7 +5,7 @@ created_at: 2016-11-19 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2016/11/19/episode-1-this-week-in-tech-comm/
+publication_url: https://podcast.writethedocs.org/2016/11/19/episode-1-this-week-in-tech-comm/
 layout: podcast
 ---
 

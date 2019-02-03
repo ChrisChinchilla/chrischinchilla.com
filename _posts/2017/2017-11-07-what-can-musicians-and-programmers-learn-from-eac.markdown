@@ -5,7 +5,7 @@ created_at: 2017-11-07 08:06:57 UTC
 author: ""
 categories: Both media podcast
 tags: 
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---
 Chris speaks with Ryan Blunden about what programmers and musicians can learn from each other, the affects of music on coding, what genres might be what programming language, computer generated music and much more.

@@ -5,7 +5,7 @@ created_at: 2017-08-31 08:35:57 UTC
 author: ""
 categories: Both media podcast
 tags: 
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---
 This week Cate and Chris discuss the intersections of journalism, immortality, music, romance and government with technology.

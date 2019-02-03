@@ -5,7 +5,7 @@ created_at: 2016-03-29 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2016/03/29/writing-effective-app-copy/
+publication_url: https://podcast.writethedocs.org/2016/03/29/writing-effective-app-copy/
 layout: podcast
 ---
 

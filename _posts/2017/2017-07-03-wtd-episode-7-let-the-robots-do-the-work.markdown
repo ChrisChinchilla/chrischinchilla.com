@@ -5,7 +5,7 @@ created_at: 2017-07-03 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2017/07/03/episode-7-machine-automation-and-poland/
+publication_url: https://podcast.writethedocs.org/2017/07/03/episode-7-machine-automation-and-poland/
 layout: podcast
 ---
 

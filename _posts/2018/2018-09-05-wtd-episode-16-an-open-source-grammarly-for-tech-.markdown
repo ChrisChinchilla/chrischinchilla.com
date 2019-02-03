@@ -5,7 +5,7 @@ created_at: 2018-09-05 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: http://podcast.writethedocs.org/2018/09/05/linters-templates-starting-out/
+publication_url: http://podcast.writethedocs.org/2018/09/05/linters-templates-starting-out/
 layout: podcast
 ---
 

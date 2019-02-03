@@ -5,7 +5,7 @@ created_at: 2016-03-29 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2016/03/29/create-professional-graphics-tom-johnson/
+publication_url: https://podcast.writethedocs.org/2016/03/29/create-professional-graphics-tom-johnson/
 layout: podcast
 ---
 

@@ -5,7 +5,7 @@ created_at: 2016-04-21 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: https://podcast.writethedocs.org/2016/04/21/video-documentation-alicia-avrach/
+publication_url: https://podcast.writethedocs.org/2016/04/21/video-documentation-alicia-avrach/
 layout: podcast
 ---
 

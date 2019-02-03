@@ -5,7 +5,7 @@ created_at: '2018-10-22 00:00:00 UTC'
 author: ''
 categories: Chris media podcast
 tags: null
-orig_url: 'http://podcast.writethedocs.org/2018/10/22/structured-authoring-mark-baker/'
+publication_url: 'http://podcast.writethedocs.org/2018/10/22/structured-authoring-mark-baker/'
 layout: podcast
 ---
 

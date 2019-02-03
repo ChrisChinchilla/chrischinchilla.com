@@ -5,7 +5,7 @@ created_at: 2018-08-02 14:00:00 UTC
 author: ""
 categories: Both media podcast
 tags: 
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---
 We speak with Donatas Malinauskas of deeper, a smart device for anglers to find the fish they are looking for.

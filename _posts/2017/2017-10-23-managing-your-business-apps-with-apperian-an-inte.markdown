@@ -5,7 +5,7 @@ created_at: 2017-10-23 08:40:29 UTC
 author: ""
 categories: Both media podcast
 tags: 
-orig_url: https://anchor.fm/gregarious-mammal
+publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---
 To those of us addicted to our smartphones, the myriad of applications we can install and what we can achieve (or time waste) with them is astounding.

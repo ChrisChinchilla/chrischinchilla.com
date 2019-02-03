@@ -5,7 +5,7 @@ created_at: 2018-11-25 00:00:00 UTC
 author: ""
 categories: Chris media podcast
 tags: 
-orig_url: http://podcast.writethedocs.org/2018/11/25/episode-18-wtd-australia-recap/
+publication_url: http://podcast.writethedocs.org/2018/11/25/episode-18-wtd-australia-recap/
 layout: podcast
 ---
 
