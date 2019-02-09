@@ -1,0 +1,65 @@
+---
+layout: page
+title: Newsletters
+permalink: /newsletters
+---
+
+<div class="row">
+  <main class="top-column">
+    <h2 id="blockchain">Blockchain newsletter</h2>
+    <p>
+      My curated recommended articles on blockchain.
+      </p>
+    <p>
+      Newsletter coming soon, for now enjoy the posts below, updated regularly.
+    </p>
+    </main>
+  <aside class="top-column">
+    {% if page.image %} {% picture listings {{ page.image }} alt="{{
+      page.title
+    }}" %} {% endif %}
+  </aside>
+</div>
+
+{% assign latest_posts = site.data.blockchainposts.list %} {% include
+feed_post_list.html filtered_posts=latest_posts %}
+
+<div class="row">
+  <main class="top-column">
+    <h2  id="ethics">Ethics newsletter</h2>
+<p>
+  My curated recommended articles on ethics and technology.
+</p>
+<p>
+  Newsletter coming soon, for now enjoy the posts below, updated regularly .
+</p>
+    </main>
+  <aside class="top-column">
+    {% if page.image %} {% picture listings {{ page.image }} alt="{{
+      page.title
+    }}" %} {% endif %}
+  </aside>
+</div>
+
+{% assign latest_posts = site.data.ethicsposts.list %}
+{% include feed_post_list.html filtered_posts=latest_posts %}
+
+<div class="row">
+  <main class="top-column">
+    <h2  id="language">Language newsletter</h2>
+    <p>
+      My curated recommended articles on linguistics, natural language processing and interactive fiction.
+    </p>
+    <p>
+      Newsletter coming soon, for now enjoy the posts below, updated regularly .
+    </p>
+  </main>
+  <aside class="top-column">
+    {% if page.image %} {% picture listings {{ page.image }} alt="{{
+      page.title
+    }}" %} {% endif %}
+  </aside>
+</div>
+
+{% assign latest_posts = site.data.languageposts.list %}
+{% include feed_post_list.html filtered_posts=latest_posts %}

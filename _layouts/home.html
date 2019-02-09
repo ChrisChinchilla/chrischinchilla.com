@@ -15,17 +15,17 @@ layout: default
       {% picture listings {{ page.image }} alt="{{ page.title}}" %}
       {% endif %}
       <div class="connect">
-  <div class="icon_bar">
-    {% for post in site.connect %}
-    {% if post.image %}
-    <a href="{{ post.network_link }}">{% picture icon {{ post.image }} alt={{ post.title }} %}</a>
-    {% else %}
-    {{ post.network_link }}
-    {% endif %}
-    {% endfor %}
-  </div>
+        <div class="icon_bar">
+          {% for post in site.connect %}
+          {% if post.image %}
+          <a href="{{ post.network_link }}">{% picture icon {{ post.image }} alt={{ post.title }} %}</a>
+          {% else %}
+          {{ post.network_link }}
+          {% endif %}
+          {% endfor %}
+        </div>
 
-</div>
+      </div>
     </aside>
   </div>
   <div class="row">
@@ -34,16 +34,11 @@ layout: default
       {% assign future_events = "" | split: "" %} {% assign counter = 0 %} {%
       assign currentDate = site.time | date: '%s' %} {% for post in site.events
       reversed %} {% assign postDate = post.start_date | date: '%s' %} {% if
-      postDate > currentDate and counter < 5 %} {% assign
-      future_events=future_events | push: post %} {% assign counter=counter |
-      plus: 1 %} {% endif %} {% endfor %} {% include event_list.html
-      filtered_events=future_events %}
-    </div>
-    <div class="column">
-      <h2>Latest posts</h2> - <a class=more-link" href="/writing">more</a>
+      postDate > currentDate and counter < 5 %} {% assign future_events=future_events | push: post %} {% assign counter=counter | plus: 1 %} {% endif %} {% endfor %} {% include event_list.html filtered_events=future_events %} </div> <div class="column">
+        <h2>Latest posts</h2> - <a class=more-link" href="/writing">more</a>
 
-      {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'writing'" %}
-      {% include post_list.html filtered_posts=latest_posts post_limit=5 %}
+        {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'writing'" %}
+        {% include post_list.html filtered_posts=latest_posts post_limit=5 %}
 
     </div>
     <div class="column">
@@ -54,22 +49,47 @@ layout: default
 
     </div>
   </div>
+  <div class="row colspan3">
+    <div class="column colspan3">
+      <h2>Recommendations and Newsletters</h2>
+      <p>
+        I currently curate 4 newsletters on Ethics (moslty in technology), Blockchain, Language and Linguistics, see my latest recommendations and join those newsletters below.
+      </p>
+      <h3>The Weekly Squeak Newsletter</h3>
+      <p>
+        My general newsletter "The Weekly Squeak" draws content from all these sources and a couple more, sign up to that below.
+      </p>
+      <div id="revue-embed">
+        <form action="https://www.getrevue.co/profile/gregariousmammal/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+          <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
+          <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+        </form>
+      </div>
+
+    </div>
+  </div>
   <div class="row">
     <div class="column">
-      <h2>Latest ethics posts</h2><a class="more-link" href="/ethics">more</a>
-
+      <h2>Latest ethics posts</h2><a class="more-link" href="/newsletters#ethics">more</a>
+      <p>
+        Newsletter coming soon, for now enjoy the posts below.
+      </p>
       {% assign latest_posts = site.data.ethicsposts.list %} {% include
       feed_post_list.html filtered_posts=latest_posts post_limit=5 %}
     </div>
     <div class="column">
-      <h2>Latest laguage posts</h2><a class="more-link" href="/language">more</a>
-
+      <h2>Latest language posts</h2><a class="more-link" href="/newsletters#language">more</a>
+      <p>
+        Newsletter coming soon, for now enjoy the posts below.
+      </p>
       {% assign latest_posts = site.data.languageposts.list %} {% include
       feed_post_list.html filtered_posts=latest_posts post_limit=5 %}
     </div>
     <div class="column">
-      <h2>Latest blockchain posts</h2><a class="more-link" href="/blockchain">more</a>
-
+      <h2>Latest blockchain posts</h2><a class="more-link" href="/newsletters#blockchain">more</a>
+      <p>
+        Newsletter coming soon, for now enjoy the posts below.
+      </p>
       {% assign latest_posts = site.data.blockchainposts.list %} {% include
       feed_post_list.html filtered_posts=latest_posts post_limit=5 %}
     </div>

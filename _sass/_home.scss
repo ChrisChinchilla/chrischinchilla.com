@@ -1,33 +1,43 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  display: flex; // flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .top-column {
   flex-grow: 1;
-  width: 50%;
+  flex-basis: 49%;
+  width: 49%;
+  -ms-flex: auto;
+  position: relative;
+  box-sizing: border-box;
+  margin: $spacing-unit / 6;
+  padding: $spacing-unit / 6;
 }
 
 .column {
+  flex-basis: 32%;
+  width: 32%;
+  -ms-flex: auto;
+  position: relative;
+  box-sizing: border-box;
   flex-grow: 1;
   // TODO: Better way?
-  width: 32%;
-  // margin: $spacing-unit / 6;
+  margin: $spacing-unit / 6;
   padding: $spacing-unit / 6;
   border-bottom: 1px solid grey;
   border-left: 1px solid grey;
 
-h2 {
-  display: inline;
-}
+  h2 {
+    display: inline;
+  }
 
-a.more-link {
+  a.more-link {}
 
-}
-
-a.more-link::before {
-  content: " - ";
-}
+  a.more-link::before {
+    content: " - ";
+  }
 
   * {
     padding-bottom: $spacing-unit / 6;
@@ -57,6 +67,11 @@ a.more-link::before {
     }
   }
 }
+
+.colspan3 {
+  width: 100%;
+}
+
 // TODO: This seems crazy
 .home {
   .row {
@@ -70,5 +85,16 @@ a.more-link::before {
         }
       }
     }
+  }
+}
+@media screen and (max-width: $on-medium) {
+  .top-column {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  .column {
+    width: 100%;
+    flex-basis: 100%;
   }
 }

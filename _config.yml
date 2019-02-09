@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Chris Chinchilla
 email: chris@chrischinchilla.com
-description: Blah, to come
+description: Technical communicator
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chrischinch
@@ -44,6 +44,7 @@ header_pages:
   - events.html
   - writing.html
   - podcast.html
+  - newsletters.html
   - support.html
 
 collections:
