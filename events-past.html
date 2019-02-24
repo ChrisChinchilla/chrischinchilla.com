@@ -5,12 +5,10 @@ pagination:
   enabled: true
   permalink: /:num/
   collection: events
-  sort_reverse: true
 ---
 
 <div class="home events">
     <div class="description">
-      <p>You will frequently find us out and about, delivering a presentation, or attending an event to hear about your great ideas and projects. Here are our next confirmed events, though we are also to be found at many Berlin meetups that wont always be listed here.</p>
       <p>
         <a href="/events">Current and future events</a>
       </p>
@@ -18,7 +16,7 @@ pagination:
     <section>
       {% assign past_events = "" | split: "" %}
       {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-      {% for post in site.events %}
+      {% for post in site.events reversed %}
       {% capture posttime %}{{post.start_date | date: '%s'}}{% endcapture %}
       {% if posttime < nowunix %}
 
