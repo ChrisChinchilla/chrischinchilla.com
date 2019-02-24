@@ -19,7 +19,8 @@
   float: left;
 
   @include media-query($on-palm) {
-    padding-right: 45px;
+    // TODO: Temp
+    // padding-right: 45px;
   }
 
   &,
