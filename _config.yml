@@ -40,13 +40,31 @@ exclude:
   - vendor/ruby/
   - chipshop.html
 
-header_pages:
-  - about.md
-  - events.html
-  - writing.html
-  - podcast.html
-  - newsletters.html
-  - support.html
+toc:
+  - title: About
+    url: about.html
+  - title: Events
+    url: /events
+    subitems:
+      - title: Past Events
+        url: /events/past
+  - title: Writing
+    url: /writing
+    subitems:
+      - title: Non-fiction
+        url: /writing/non-fiction
+      - title: Fiction
+        url: /writing/fiction
+      - title: Games
+        url: /writing/games
+      - title: Courses
+        url: /writing/courses
+  - title: Podcasts
+    url: /podcast
+  - title: Newsletters
+    url: newsletters.html
+  - title: Support
+    url: /support
 
 collections:
   events:
