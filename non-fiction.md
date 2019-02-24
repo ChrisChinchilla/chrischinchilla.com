@@ -1,8 +1,8 @@
 ---
-title: Books
-layout: page
-categories: Chris writing books
-permalink: /writing/books
+title: Non-fiction
+layout: default
+categories: Chris writing non-fiction
+permalink: /writing/non-fiction/index.html
 ---
 
 If you're interested in me writing a book for you, then please [connect](/connect) with me.
