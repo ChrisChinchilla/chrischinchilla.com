@@ -1,16 +1,20 @@
 ---
 title: "Computational Knowledge With Stephen Wolfram"
+kind: article
 created_at: 2018-06-14 17:01:00 UTC
 author: "Chris Ward"
 categories: Chris writing dzone
 tags: 
-  - wolfram alpha
-  - jupyter notebook
-  - data science
-  - big data
-publication_url: "https://dzone.com/articles/computational-knowledge-with-stephen-wolfram"
-image: 9444041.jpeg
+orig_url: https://dzone.com/articles/computational-knowledge-with-stephen-wolfram
 layout: post
 ---
 For decades Wolfram has created tools to help scientists, mathematicians, and programmers get answers. We speak with Stephen about his work and computational computing.
 
+
+{::options parse_block_html="true" /}
+<div class="author">
+   <img src="https://www.rss-specifications.com/rss-spec-rss.gif" style="width: 96px; height: 96;">
+   <span style="position: absolute; padding: 32px 15px;">{% comment %}Remark that post_url refers to the *original* post url, not Jekyll's post_url variable. Moreover, planet.rb preprocesses the substitutions with Mustache.{% endcomment %}
+      <i>{% if "https://dzone.com/articles/computational-knowledge-with-stephen-wolfram" != "" %}<a href="https://dzone.com/articles/computational-knowledge-with-stephen-wolfram">Original post</a>{% else %}Original post{% endif %} by {% if "http://twitter.com/poteland" != "" %}<a href="http://twitter.com/poteland">Chris Ward</a>{% else %}Chris Ward{% endif %} &mdash; check out <a href="https://dzone.com">Dzone</a>.</i>
+  </span>
+</div>

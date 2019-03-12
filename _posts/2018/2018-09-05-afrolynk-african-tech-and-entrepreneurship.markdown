@@ -1,20 +1,20 @@
 ---
 title: "Afrolynk- African Tech and Entrepreneurship"
+kind: article
 created_at: 2018-09-05 16:03:01 UTC
 author: "Chris Ward"
 categories: Chris writing dzone
 tags: 
-  - africa
-  - startups
-  - entrepreneur
-  - conference
-  - event
-  - cloud
-  - ai
-  - fintech
-publication_url: "https://dzone.com/articles/afrolynk-african-tech-and-entrepreneurship"
-image: 10154014.jpeg
+orig_url: https://dzone.com/articles/afrolynk-african-tech-and-entrepreneurship
 layout: post
 ---
 Take a look at this developer's reflection on African involvement in technology and the challenges that African entrepreneurs and technologists face.
 
+
+{::options parse_block_html="true" /}
+<div class="author">
+   <img src="https://www.rss-specifications.com/rss-spec-rss.gif" style="width: 96px; height: 96;">
+   <span style="position: absolute; padding: 32px 15px;">{% comment %}Remark that post_url refers to the *original* post url, not Jekyll's post_url variable. Moreover, planet.rb preprocesses the substitutions with Mustache.{% endcomment %}
+      <i>{% if "https://dzone.com/articles/afrolynk-african-tech-and-entrepreneurship" != "" %}<a href="https://dzone.com/articles/afrolynk-african-tech-and-entrepreneurship">Original post</a>{% else %}Original post{% endif %} by {% if "http://twitter.com/poteland" != "" %}<a href="http://twitter.com/poteland">Chris Ward</a>{% else %}Chris Ward{% endif %} &mdash; check out <a href="https://dzone.com">Dzone</a>.</i>
+  </span>
+</div>

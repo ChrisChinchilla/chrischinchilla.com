@@ -1,13 +1,18 @@
 ---
 title: "What Is Blockchain?"
+kind: article
 created_at: 2018-06-26 15:15:30 UTC
 author: "Chris Ward"
 categories: Chris writing codeship
 tags: 
-  - Development
-publication_url: "https://blog.codeship.com/what-is-blockchain/"
-image: 
+orig_url: https://blog.codeship.com/what-is-blockchain/
 layout: post
 ---
-The world and its dog has gone crazy for blockchain (and related technologies, which is a whole other post). The past two years have been a hype roller coaster for the technology with stories of equally insane valuations, technical proposals, media exposure, regulatory nightmares, frauds, and unrealized dreams.
 
+{::options parse_block_html="true" /}
+<div class="author">
+   <img src="https://www.rss-specifications.com/rss-spec-rss.gif" style="width: 96px; height: 96;">
+   <span style="position: absolute; padding: 32px 15px;">{% comment %}Remark that post_url refers to the *original* post url, not Jekyll's post_url variable. Moreover, planet.rb preprocesses the substitutions with Mustache.{% endcomment %}
+      <i>{% if "https://blog.codeship.com/what-is-blockchain/" != "" %}<a href="https://blog.codeship.com/what-is-blockchain/">Original post</a>{% else %}Original post{% endif %} by {% if "http://twitter.com/poteland" != "" %}<a href="http://twitter.com/poteland">Chris Ward</a>{% else %}Chris Ward{% endif %} &mdash; check out <a href="https://blog.codeship.com">Chris Ward – via @codeship</a>.</i>
+  </span>
+</div>

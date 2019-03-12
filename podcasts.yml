@@ -9,7 +9,7 @@ blogs:
   - feed:   "https://anchor.fm/s/2ab8734/podcast/rss"
     image:  "https://www.rss-specifications.com/rss-spec-rss.gif"
     twitter: "poteland"
-    categories: "Both media podcast"
+    categories: "Chris media podcast"
     podcast_embed: ""
     type: podcast
     layout: podcast

@@ -1,13 +1,18 @@
 ---
 title: "Testing Code Examples in Documentation"
+kind: article
 created_at: 2016-12-21 16:15:22 UTC
 author: "Chris Ward"
 categories: Chris writing codeship
 tags: 
-  - Development
-publication_url: "https://blog.codeship.com/testing-code-examples-in-documentation/"
-image: tca-setup.png
+orig_url: https://blog.codeship.com/testing-code-examples-in-documentation/
 layout: post
 ---
-In my last post, I covered how to improve the written component of your documentation with automated spell-checking and suggestions for better writing. In this post, I’ll cover the code component of good documentation; trying an example and finding it doesn’t work is a sure-fire way to annoy a reader.
 
+{::options parse_block_html="true" /}
+<div class="author">
+   <img src="https://www.rss-specifications.com/rss-spec-rss.gif" style="width: 96px; height: 96;">
+   <span style="position: absolute; padding: 32px 15px;">{% comment %}Remark that post_url refers to the *original* post url, not Jekyll's post_url variable. Moreover, planet.rb preprocesses the substitutions with Mustache.{% endcomment %}
+      <i>{% if "https://blog.codeship.com/testing-code-examples-in-documentation/" != "" %}<a href="https://blog.codeship.com/testing-code-examples-in-documentation/">Original post</a>{% else %}Original post{% endif %} by {% if "http://twitter.com/poteland" != "" %}<a href="http://twitter.com/poteland">Chris Ward</a>{% else %}Chris Ward{% endif %} &mdash; check out <a href="https://blog.codeship.com">Chris Ward – via @codeship</a>.</i>
+  </span>
+</div>

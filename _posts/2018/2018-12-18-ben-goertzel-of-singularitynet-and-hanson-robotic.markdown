@@ -3,7 +3,7 @@ title: "Ben Goertzel of SingularityNET and Hanson Robotics"
 kind: article
 created_at: 2018-12-18 15:00:00 UTC
 author: ""
-categories: Both media podcast
+categories: Chris media podcast
 tags: 
 publication_url: https://anchor.fm/theweeklysqueak/episodes/Ben-Goertzel-of-SingularityNET-and-Hanson-Robotics-e2podg
 layout: post
