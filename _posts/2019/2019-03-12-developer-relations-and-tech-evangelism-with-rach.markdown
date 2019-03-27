@@ -1,20 +1,17 @@
 ---
 title: "Developer Relations and Tech Evangelism With Rachel Black of Lisk"
-kind: article
 created_at: 2019-03-12 09:02:03 UTC
 author: "Chris Ward"
 categories: Chris writing dzone
 tags: 
-orig_url: https://dzone.com/articles/developer-relations-and-tech-evangelism-with-rache
+  - blockchain
+  - lisk
+  - developer relations
+  - developer evangelism
+  - web dev
+publication_url: "https://dzone.com/articles/developer-relations-and-tech-evangelism-with-rache"
+image: 11429278.jpeg
 layout: post
 ---
 Chris speaks with Lisk's new tech evangelist to find out what the developer experience focussed blockchain project has been up to since summer 2018.
 
-
-{::options parse_block_html="true" /}
-<div class="author">
-   <img src="https://www.rss-specifications.com/rss-spec-rss.gif" style="width: 96px; height: 96;">
-   <span style="position: absolute; padding: 32px 15px;">{% comment %}Remark that post_url refers to the *original* post url, not Jekyll's post_url variable. Moreover, planet.rb preprocesses the substitutions with Mustache.{% endcomment %}
-      <i>{% if "https://dzone.com/articles/developer-relations-and-tech-evangelism-with-rache" != "" %}<a href="https://dzone.com/articles/developer-relations-and-tech-evangelism-with-rache">Original post</a>{% else %}Original post{% endif %} by {% if "http://twitter.com/poteland" != "" %}<a href="http://twitter.com/poteland">Chris Ward</a>{% else %}Chris Ward{% endif %} &mdash; check out <a href="https://dzone.com">Dzone</a>.</i>
-  </span>
-</div>

@@ -1,20 +1,21 @@
 ---
 title: "Ready for Bionic Beaver? What&#39;s New in Ubuntu 18.04"
-kind: article
 created_at: 2018-05-01 09:03:11 UTC
 author: "Chris Ward"
 categories: Chris writing dzone
 tags: 
-orig_url: https://dzone.com/articles/ready-for-bionic-beaver-whats-new-in-ubuntu-1804
+  - ubuntu
+  - linux
+  - gnome
+  - kubernetes
+  - snaps
+  - bare metal
+  - hybrid cloud
+  - cloud
+  - devops
+publication_url: "https://dzone.com/articles/ready-for-bionic-beaver-whats-new-in-ubuntu-1804"
+image: 8983114.jpeg
 layout: post
 ---
 This week brought the release of the latest version of Ubuntu - 18.04 - so read up on the details about the newest LTS release.
 
-
-{::options parse_block_html="true" /}
-<div class="author">
-   <img src="https://www.rss-specifications.com/rss-spec-rss.gif" style="width: 96px; height: 96;">
-   <span style="position: absolute; padding: 32px 15px;">{% comment %}Remark that post_url refers to the *original* post url, not Jekyll's post_url variable. Moreover, planet.rb preprocesses the substitutions with Mustache.{% endcomment %}
-      <i>{% if "https://dzone.com/articles/ready-for-bionic-beaver-whats-new-in-ubuntu-1804" != "" %}<a href="https://dzone.com/articles/ready-for-bionic-beaver-whats-new-in-ubuntu-1804">Original post</a>{% else %}Original post{% endif %} by {% if "http://twitter.com/poteland" != "" %}<a href="http://twitter.com/poteland">Chris Ward</a>{% else %}Chris Ward{% endif %} &mdash; check out <a href="https://dzone.com">Dzone</a>.</i>
-  </span>
-</div>

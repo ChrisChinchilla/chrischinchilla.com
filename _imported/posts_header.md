@@ -1,10 +1,10 @@
 ---
 title: "{{ post_title }}"
-kind: article
 created_at: {{ post_date }}
 author: "{{ author }}"
 categories: {{ blog_categories }}
-tags: {{ blog_tags }}
-orig_url: {{ post_url }}
+tags: {{ post_tags }}
+publication_url: "{{ post_publication_url }}"
+image: {{ image }}
 layout: post
 ---
