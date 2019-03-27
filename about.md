@@ -1,5 +1,6 @@
 ---
-layout: default: value
+layout: default
 title: About
 ---
+
 About me
