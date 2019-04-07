@@ -1,8 +1,8 @@
 <div class="row">
   {% if include.filtered_posts %}
-    {% assign posts = include.filtered_posts %}
+  {% assign posts = include.filtered_posts %}
   {% else %}
-    {% assign posts = paginator.posts %}
+  {% assign posts = paginator.posts %}
   {% endif %}
 
   {% if include.post_limit %}
@@ -55,13 +55,13 @@
       endcase %} project {% endif %}
     </div>
     <p>{{ post.excerpt }}</p>
-    <div class="tags">
+    <!-- <div class="tags">
       {% if post.tags %}
       <h4>Tags</h4>
       {% for tag in post.tags %}
       <a href="topics#{{ tag | slugify }}"> {{ tag }} </a> {% endfor %}
       {% endif %}
-    </div>
+    </div> -->
   </div>
   {% endfor %}
 </div>

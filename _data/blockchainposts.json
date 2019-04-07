@@ -2,18 +2,48 @@
     "status": 1,
     "complete": 1,
     "list": {
+        "2543661765": {
+            "item_id": "2543661765",
+            "resolved_id": "2275780705",
+            "given_url": "https://buff.ly/2CImX4P",
+            "given_title": "",
+            "favorite": "1",
+            "status": "1",
+            "time_added": "1554123780",
+            "time_updated": "1554181474",
+            "time_read": "1554181474",
+            "time_favorited": "1554181381",
+            "sort_id": 0,
+            "resolved_title": "The fightback against the bitcoin energy guzzlers has begun",
+            "resolved_url": "https://www.wired.co.uk/article/bitcoin-mining-energy-consumption-new-york",
+            "excerpt": "Plattsburgh, New York, perches on the shores of the vast Lake Champlain on the US-Canada border. It\u2019s a small city \u2013 population less than 20,000 \u2013 with clapboard houses and an impressive city hall.",
+            "is_article": "1",
+            "is_index": "0",
+            "has_video": "0",
+            "has_image": "1",
+            "word_count": "1276",
+            "lang": "en",
+            "time_to_read": 6,
+            "top_image_url": "https://wi-images.condecdn.net/image/BQkXPpxnJe6/crop/1440/0.5235602094240838/f/gettyimages-818469044.jpg",
+            "domain_metadata": {
+                "name": "WIRED UK",
+                "logo": "https://logo.clearbit.com/wired.co.uk?size=800",
+                "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
+            },
+            "listen_duration_estimate": 494
+        },
         "2460521583": {
             "item_id": "2460521583",
             "resolved_id": "2460521583",
             "given_url": "https://hackernoon.com/did-the-cryptocurrency-revolution-fail-988bf9b2fc90",
             "given_title": "Did the Cryptocurrency Revolution Fail? \u2013 Hacker Noon",
-            "favorite": "0",
-            "status": "0",
+            "favorite": "1",
+            "status": "1",
             "time_added": "1553780811",
-            "time_updated": "1553780816",
-            "time_read": "0",
-            "time_favorited": "0",
-            "sort_id": 0,
+            "time_updated": "1554182262",
+            "time_read": "1554182260",
+            "time_favorited": "1554182113",
+            "sort_id": 1,
             "resolved_title": "Did the Cryptocurrency Revolution Fail?",
             "resolved_url": "https://hackernoon.com/did-the-cryptocurrency-revolution-fail-988bf9b2fc90",
             "excerpt": "Nothing brings change like a revolution. If successful, they disrupt the status quo and nothing is ever the same again. If they fail, they fail in catastrophe, with bodies swinging from the gallows.",
@@ -31,36 +61,6 @@
                 "greyscale_logo": "https://logo.clearbit.com/hackernoon.com?size=800&greyscale=true"
             },
             "listen_duration_estimate": 1239
-        },
-        "2458965011": {
-            "item_id": "2458965011",
-            "resolved_id": "2458965011",
-            "given_url": "https://hackernoon.com/the-year-of-the-ethereum-experiment-62e0d46c4f82",
-            "given_title": "The Year of The Ethereum Experiment \u2013 Hacker Noon",
-            "favorite": "0",
-            "status": "0",
-            "time_added": "1553780797",
-            "time_updated": "1553780803",
-            "time_read": "0",
-            "time_favorited": "0",
-            "sort_id": 1,
-            "resolved_title": "The Year of The Ethereum Experiment",
-            "resolved_url": "https://hackernoon.com/the-year-of-the-ethereum-experiment-62e0d46c4f82",
-            "excerpt": "Ethereum began as a bold experiment. Can we build a universal platform for digital money and assets, un-censorable applications, and decentralized organizations?",
-            "is_article": "1",
-            "is_index": "0",
-            "has_video": "0",
-            "has_image": "1",
-            "word_count": "5048",
-            "lang": "en",
-            "time_to_read": 23,
-            "top_image_url": "https://cdn-images-1.medium.com/max/1200/1*pkNa754VEo68915IJNkkCw.png",
-            "domain_metadata": {
-                "name": "Hacker Noon",
-                "logo": "https://logo.clearbit.com/hackernoon.com?size=800",
-                "greyscale_logo": "https://logo.clearbit.com/hackernoon.com?size=800&greyscale=true"
-            },
-            "listen_duration_estimate": 1954
         },
         "2509644442": {
             "item_id": "2509644442",
@@ -757,5 +757,5 @@
     "search_meta": {
         "search_type": "normal"
     },
-    "since": 1554117304
+    "since": 1554633426
 }

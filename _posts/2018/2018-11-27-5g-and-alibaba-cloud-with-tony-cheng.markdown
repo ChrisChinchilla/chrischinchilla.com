@@ -3,7 +3,7 @@ title: "5G and Alibaba Cloud With Tony Cheng"
 created_at: 2018-11-27 11:02:03 UTC
 author: "Chris Ward"
 categories: Chris writing dzone
-tags: 
+tags:
   - alibaba cloud
   - iot
   - 5g
@@ -17,5 +17,5 @@ publication_url: "https://dzone.com/articles/5g-and-alibaba-cloud-with-tony-chen
 image: 10734974.jpeg
 layout: post
 ---
-Let's take a look at Alibaba Cloud and their plans for growth in European markets and push towards 5G.
 
+Let's take a look at Alibaba Cloud and their plans for growth in European markets and push towards 5G.

@@ -1,0 +1,9 @@
+.podcast-available {
+    div {
+        display: inline;
+        margin-right: $spacing-unit / 7;
+        span {
+            margin-left: $spacing-unit / 7;
+        }
+    }
+}
