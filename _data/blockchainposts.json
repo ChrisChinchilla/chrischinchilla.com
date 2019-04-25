@@ -143,17 +143,17 @@
             "is_index": "0",
             "has_video": "0",
             "has_image": "1",
-            "word_count": "2000",
+            "word_count": "1974",
             "lang": "en",
             "time_to_read": 9,
             "amp_url": "https://www.technologyreview.com/s/612974/once-hailed-as-unhackable-blockchains-are-now-getting-hacked/amp/",
-            "top_image_url": "https://cdn.technologyreview.com/i/images/hackingblockchain0.jpg?cx=0&cy=80&cw=3200&ch=1800&sw=1200",
+            "top_image_url": "https://cdn.technologyreview.com/i/images/hackingblockchain0.jpg?cx=0&cy=80&cw=3200&ch=1800&sw1200",
             "domain_metadata": {
                 "name": "MIT Technology Review",
                 "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
                 "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
             },
-            "listen_duration_estimate": 774
+            "listen_duration_estimate": 764
         },
         "2419825921": {
             "item_id": "2419825921",
@@ -788,5 +788,5 @@
     "search_meta": {
         "search_type": "normal"
     },
-    "since": 1555890610
+    "since": 1556151034
 }
