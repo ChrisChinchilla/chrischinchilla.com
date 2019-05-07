@@ -4,8 +4,8 @@ layout: event
 categories: Chris
 title: AI, friend or foe for tech writers?
 event: Soap! Conf
-start_date: 2019-05-22
-end_date: 2019-05-24
+start_date: 2019-06-05
+end_date: 2019-06-07
 venue: Krakow, Poland
 pres_source: https://soapconf.com
 pres_url: https://soapconf.com
