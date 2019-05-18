@@ -32,21 +32,25 @@ layout: default
     <div class="column">
       <h2>Next events</h2><a class="more-link" href="/events">more</a>
 
-      {% assign future_events = "" | split: "" %} {% assign counter = 0 %} {% capture nowunix %}{{
-        "now" | date: "%s"
-      }}{% endcapture %} {% for post in site.events %} {% capture posttime %}{{
-        post.start_date | date: "%s"
-      }}{% endcapture %} {% if posttime > nowunix > currentDate and counter < 5 %} {% assign future_events =
-      future_events | push: post %} {% assign counter=counter | plus: 1 %} {% endif %} {% endfor %} {% include
-      event_list.html filtered_events = future_events %}
+      {% assign future_events = "" | split: "" %}
+      {% assign counter = 0 %}
+      {% capture nowunix %}{{"now" | date: "%s"}}{% endcapture %}
+      {% for post in site.events %}
+      {% capture posttime %}{{ post.start_date | date: "%s" }}{% endcapture %}
+      {% if posttime > nowunix > currentDate and counter < 5 %}
+      {% assign future_events = future_events | push: post %}
+      {% assign counter=counter | plus: 1 %}
+      {% endif %}
+      {% endfor %}
+      {% include event_list.html filtered_events = future_events %}
 
     </div>
 
-      <div class="column">
-        <h2>Latest posts</h2> - <a class=more-link" href="/writing">more</a>
+    <div class="column">
+      <h2>Latest posts</h2> - <a class=more-link" href="/writing">more</a>
 
-        {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'writing'" %}
-        {% include post_list.html filtered_posts=latest_posts post_limit=5 %}
+      {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'writing'" %}
+      {% include post_list.html filtered_posts=latest_posts post_limit=5 %}
 
     </div>
     <div class="column">
@@ -61,15 +65,19 @@ layout: default
     <div class="column colspan3">
       <h2>Recommendations and Newsletters</h2>
       <p>
-        I currently curate 4 newsletters on Ethics (moslty in technology), Blockchain, Language and Linguistics, see my latest recommendations and join those newsletters below.
+        I currently curate 4 newsletters on Ethics (moslty in technology), Blockchain, Language and Linguistics, see my
+        latest recommendations and join those newsletters below.
       </p>
       <h3>The Weekly Squeak Newsletter</h3>
       <p>
-        My general newsletter "The Weekly Squeak" draws content from all these sources and a couple more, sign up to that below.
+        My general newsletter "The Weekly Squeak" draws content from all these sources and a couple more, sign up to
+        that below.
       </p>
       <div id="revue-embed">
-        <form action="https://www.getrevue.co/profile/gregariousmammal/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
-          <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
+        <form action="https://www.getrevue.co/profile/gregariousmammal/add_subscriber" method="post" id="revue-form"
+          name="revue-form" target="_blank">
+          <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]"
+            id="member_email">
           <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
         </form>
       </div>

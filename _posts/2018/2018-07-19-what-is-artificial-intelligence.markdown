@@ -9,3 +9,5 @@ publication_url: "https://blog.codeship.com/what-is-artificial-intelligence/"
 image: 
 layout: post
 ---
+Before we begin, let’s get definitions straight — what is artificial intelligence (AI)? Or more specifically, what isn’t it? As you might expect, ask any technical person for a definition of something, and you’ll get a dozen different responses, and at least half of them will be, “It depends.”
+

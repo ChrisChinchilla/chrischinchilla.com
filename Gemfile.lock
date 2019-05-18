@@ -29,12 +29,12 @@ GEM
       mini_magick (~> 3.8.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.5.0)
+    jekyll-seo-tag (2.6.0)
       jekyll (~> 3.3)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     kramdown (1.17.0)
-    liquid (4.0.2)
+    liquid (4.0.3)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -55,7 +55,7 @@ GEM
     rouge (2.2.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.5)
-    sass (3.7.3)
+    sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -72,4 +72,4 @@ DEPENDENCIES
   minima (~> 2.0)
 
 BUNDLED WITH
-   1.16.0
+   1.17.3

@@ -6,6 +6,8 @@ categories: Chris writing codeship
 tags: 
   - Development
 publication_url: "https://blog.codeship.com/docker-trusted-registry/"
-image: 
+image: trusted_reg_ov.png
 layout: post
 ---
+Many of us start our Docker journey pulling images from the Docker Hub with the time-honored docker pull command.
+

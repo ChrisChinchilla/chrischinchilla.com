@@ -9,3 +9,5 @@ publication_url: "https://blog.codeship.com/the-promises-payoff-and-products-of-
 image: 
 layout: post
 ---
+The cloud promised to provide us all flexibility. The opportunity to access infinite resources as and when we need them and pay accordingly. We would no longer have to spend time installing, configuring and maintaining servers; we were promised more time to “just code.”
+

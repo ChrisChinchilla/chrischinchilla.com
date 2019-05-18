@@ -6,6 +6,8 @@ categories: Chris writing codeship
 tags: 
   - Development
 publication_url: "https://blog.codeship.com/improve-documentation-by-automating-spelling-and-grammar-checks/"
-image: 
+image: setup-commands.png
 layout: post
 ---
+What’s one of the first things you look at when trying a new piece of software? Or after you’ve hit that tempting Download button, what’s your usual next step? I will take a bet that for at least 70 percent of you, it’s the documentation that you check out next.
+
