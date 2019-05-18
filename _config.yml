@@ -79,39 +79,6 @@ picture:
   source: /images
   output: generated
   markup: picture
-  presets:
-    icon:
-      ppi: [1, 2]
-      attr:
-        class: small-screen
-        itemprop: image
-      source_medium:
-        # media: "(min-width: 40em)"
-        width: 45
-        # height: 200
-      source_default:
-        width: 45
-    merch:
-      ppi: [1, 2]
-      attr:
-        class: small-screen
-        itemprop: image
-      source_medium:
-        # media: "(min-width: 40em)"
-        width: 120
-        # height: 200
-      source_default:
-        width: 120
-    listings:
-      ppi: [1, 2]
-      attr:
-        class: listings
-        itemprop: image
-      source_medium:
-        media: "(min-width: 40em)"
-        width: 280
-      source_default:
-        width: 280
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

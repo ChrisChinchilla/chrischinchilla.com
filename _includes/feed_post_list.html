@@ -11,8 +11,10 @@
   {% for feedpost in feedposts | limit: post_limit %}
   <div class="column">
     <div class="image">
+      {% if feedpost[1].top_image_url %}
       <!--  TODO: How to make responsive? -->
       <img src="{{ feedpost[1].top_image_url | remove: "\" }}" />
+      {% endif %}
     </div>
     <div class="combiheading">
       <h3>
