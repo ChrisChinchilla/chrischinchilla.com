@@ -79,6 +79,7 @@ picture:
   source: /images
   output: generated
   markup: picture
+  nomarkdown: false
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
