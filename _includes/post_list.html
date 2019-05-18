@@ -17,7 +17,6 @@
   {% for post in posts | limit: post_limit %}
   <div class="column">
     <div class="image">
-      {{post.image}}
       {% if post.image %} {% picture listings {{ post.image }} alt="{{
         post.title
       }}" %} {% endif %}
