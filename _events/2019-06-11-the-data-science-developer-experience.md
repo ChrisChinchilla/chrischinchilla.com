@@ -9,4 +9,5 @@ pre_url: 'https://www.ibm.com/de-de/events/thinkatibm/events/datadev.html'
 start_date: 19-06-11
 end_date: 19-06-12
 ---
+
 I am speaking about the responsibility of developers when it comes to the ethics of big data.
