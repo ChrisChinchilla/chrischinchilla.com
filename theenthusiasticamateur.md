@@ -25,7 +25,7 @@ If you fit into one of these categories, and want to share your enthusiasm, I wa
         <label for="why_others">Why should others share your enthusiasm?</label> <textarea id="why_others" name="why_others" rows="15" columns="80"></textarea>
     </p>
         <p>
-        <label>What time zone are you in? (UTC plus offset) <input type="email" name="timezone" /></label>
+        <label>What time zone are you in? (UTC plus offset) <input type="text" name="timezone" /></label>
     </p>
     <p>
         <button type="submit">Send</button>
