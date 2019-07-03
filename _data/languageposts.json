@@ -236,7 +236,7 @@
             "time_favorited": "0",
             "sort_id": 8,
             "resolved_title": "What Makes a Sentence a Masterpiece?",
-            "resolved_url": "http://getpocket.com/explore/item/what-makes-a-sentence-a-masterpiece",
+            "resolved_url": "https://getpocket.com/explore/item/what-makes-a-sentence-a-masterpiece",
             "excerpt": "A great sentence makes you want to chew it over slowly in your mouth the first time you read it. A great sentence compels you to rehearse it again in your mind\u2019s ear, and then again later on.",
             "is_article": "1",
             "is_index": "0",
@@ -370,5 +370,5 @@
     "search_meta": {
         "search_type": "normal"
     },
-    "since": 1559897694
+    "since": 1562165354
 }
