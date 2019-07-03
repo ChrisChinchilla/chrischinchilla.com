@@ -27,11 +27,17 @@
         <a href="{{ post.publication_url }}" rel="canonical">
           {{ post.title }}</a>
       </h3>
+      {% elsif post.orig_url %}
+      <h3>
+        <a href="{{ post.orig_url }}" rel="canonical">
+          {{ post.title }}</a>
+      </h3>
       {% else %}
       <h3>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h3>
-      {% endif %} {% if post.categories[2] == 'sitepoint' or post.categories[2]
+      {% endif %}
+      {% if post.categories[2] == 'sitepoint' or post.categories[2]
       == 'crate' or post.categories[2] == 'theweeklysqueak' or
       post.categories[2] == 'codeship' or post.categories[2] == 'sqreen' or
       post.categories[2] == 'dzone' or post.categories[2] == 'thenextweb' or
