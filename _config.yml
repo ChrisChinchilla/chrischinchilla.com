@@ -40,6 +40,9 @@ exclude:
   - vendor/ruby/
   - chipshop.html
 
+include:
+  - _redirects
+
 toc:
   - title: About
     url: about.html
