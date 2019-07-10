@@ -19,6 +19,6 @@ gem "minima", "~> 2.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-picture-tag', git: 'https://github.com/robwierzbowski/jekyll-picture-tag/'
+  gem 'jekyll_picture_tag'
   gem 'jekyll-paginate-v2', '2.0.0'
 end
