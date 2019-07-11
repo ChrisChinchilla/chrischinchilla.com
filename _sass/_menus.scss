@@ -21,6 +21,7 @@
 
 #primary_nav_wrap ul ul {
   display: none;
+  z-index: 999;
 }
 
 @media screen and (min-width: $on-medium) {

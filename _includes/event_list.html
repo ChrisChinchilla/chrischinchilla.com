@@ -3,7 +3,7 @@
 {% else %}
 {% assign events = site.events %}
 {% endif %}
-
+{% if events.size > 0 %}
 <ul class="post-list">
   {% for post in events %}
   <li>
@@ -14,10 +14,14 @@
       <p>{{ post.venue }}</p>
       <div>{{ post.excerpt }}</div>
       <p class="post-link">
-        <a href="{{ post.pres_url }}" target="_blank">Presentation</a> | <a href="{{ post.pres_source }}" target="_blank">Presentation
+        <a href="{{ post.pres_url }}" target="_blank">Presentation</a> | <a href="{{ post.pres_source }}"
+          target="_blank">Presentation
           File</a>
       </p>
     </div>
   </li>
   {% endfor %}
 </ul>
+{% else %}
+<p>Currently taking a break 😌</p>
+{% endif %}
