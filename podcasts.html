@@ -72,5 +72,5 @@ title: Podcasts
 
 </div>
 
-{% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'podcast'" %}
+{% assign latest_posts = site.posts | where_exp: "post", "post.layout contains 'podcast'" %}
 {% include post_list.html filtered_posts=latest_posts %}
