@@ -6,10 +6,10 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title type="text" xml:lang="en">Latest Ethics News</title>
-    <link type="application/atom+xml" href="{{ site.baseurl }}/atom.xml" rel="self"/>
-    <link href="{{ site.baseurl }}/"/>
+    <link type="application/rss+xml" href="{{ site.url }}/atom.xml" rel="self"/>
+    <link href="{{ site.url }}/"/>
   <updated>{{ site.time | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
-  <id>{{ site.baseurl }}/</id>
+  <id>{{ site.url }}/</id>
   <author>
     <name>{{ site.title }}</name>
     <email>{{ site.email }}</email>
@@ -21,7 +21,7 @@ layout: null
     <link rel="alternate" type="text/html" href="{{ site.baseurl }}{{ post.url }}/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','' | replace: ' ', '' | xml_escape }}" />
     <published>{{ post[1].time_added | date: "%Y-%m-%dT%H:%M:%SZ" }}</published>
     <updated>{{ post[1].time_added | date_to_xmlschema }}</updated>
-    <id>{{ site.baseurl }}{{ post[1].item_id }}</id>
+    <id>{{ post[1].resolved_url }}</id>
     <content type="html"><![CDATA[ {{ post[1].excerpt | markdownify }} ]]></content>
   </entry>
   {% endfor %}
