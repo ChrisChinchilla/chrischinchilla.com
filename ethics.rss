@@ -6,15 +6,15 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title type="text" xml:lang="en">Latest Ethics News</title>
-    <link type="application/rss+xml" href="{{ site.url }}/atom.xml" rel="self"/>
-    <link href="{{ site.url }}/"/>
+    <link type="application/rss+xml" href="https://chrischinchilla.com/ethics.rss" rel="self"/>
+    <link href="https://chrischinchilla.com/"/>
   <updated>{{ site.time | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
-  <id>{{ site.url }}/</id>
+  <id>https://chrischinchilla.com/</id>
   <author>
     <name>{{ site.title }}</name>
     <email>{{ site.email }}</email>
   </author>
-  <rights type="text">Copyright Â© {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.</rights>
+  <rights type="text">Copyright {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.</rights>
   {% for post in site.data.ethicsposts.list limit:10 %}
   <entry>
     <title>{{ post[1].resolved_title | xml_escape }} from {{post[1].domain_metadata.name}}</title>
