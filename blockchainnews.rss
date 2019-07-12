@@ -2,28 +2,18 @@
 layout: null
 ---
 
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
-  <title type="text" xml:lang="en">Latest Blockchain News</title>
-    <link type="application/xml" href="https://chrischinchilla.com/blockchainposts.rss" rel="self"/>
-    <link href="https://chrischinchilla.com/"/>
-  <updated>{{ site.time | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
-  <id>https://chrischinchilla.com/</id>
-  <author>
-    <name>{{ site.title }}</name>
-    <email>{{ site.email }}</email>
-  </author>
-  <rights type="text">Copyright {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.</rights>
-  {% for post in site.data.blockchainposts.list limit:10 %}
-  <entry>
-    <title>{{ post[1].resolved_title | xml_escape }} from {{post[1].domain_metadata.name}}</title>
-    <link rel="alternate" type="text/html" href="{{ site.baseurl }}{{ post.url }}/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','' | replace: ' ', '' | xml_escape }}" />
-    <published>{{ post[1].time_added | date: "%Y-%m-%dT%H:%M:%SZ" }}</published>
-    <updated>{{ post[1].time_added | date_to_xmlschema }}</updated>
-    <id>{{ post[1].resolved_url }}</id>
-    <content type="html"><![CDATA[ {{ post[1].excerpt | markdownify }} ]]></content>
-  </entry>
-  {% endfor %}
-
-</feed>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <ttl>30</ttl>
+      {% for post in site.data.blockchainposts.list limit:10 %}
+    <item>
+      <title>{{ post[1].resolved_title | xml_escape }} from {{post[1].domain_metadata.name}}</title>
+      <link>{{ post[1].resolved_url }}</link>
+      <pubDate>{{ post[1].time_added | date: "%Y-%m-%dT%H:%M:%SZ" }}</pubDate>
+      <description>{{ post[1].excerpt | markdownify }}</description>
+      <guid>urn:uuid:{{post[1].item_id}}</guid>
+    </item>
+      {% endfor %}
+  </channel>
+</rss>
