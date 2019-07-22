@@ -10,10 +10,10 @@ METHOD:PUBLISH
 {{newLine}}
 {%- for event in site.events -%}
 BEGIN:VEVENT
-UID:{{ event.start_date | date: "%Y%m%d" }}@gregariousmammal.com
-DTSTAMP:{{ event.start_date | date: "%Y%m%d" }}
-DTSTART:{{ event.start_date | date: "%Y%m%d" }}
-DTEND:{{ event.end_date | date: "%Y%m%d" }}
+UID:{{ event.start_date | date: "%Y%m%d%H%M%S" }}@gregariousmammal.com
+DTSTAMP:{{ event.start_date | date: "%Y%m%d%H%M%S" }}
+DTSTART:{{ event.start_date | date: "%Y%m%d%H%M%S" }}
+DTEND:{{ event.end_date | date: "%Y%m%d%H%M%S" }}
 ORGANIZER;CN="Organizer Name":MAILTO:chris@gregariousmammal.com
 LOCATION:{{event.address}}
 SUMMARY:{{ event.event }}
