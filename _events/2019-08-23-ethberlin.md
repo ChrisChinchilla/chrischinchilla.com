@@ -3,7 +3,7 @@ action: Creating the knowledge base for
 title:
 event: ETHBerlin
 layout: event
-venue: Factory Berlin G?rlitzer Park
+venue: Factory Berlin Goerlitzer Park
 categories: Chris
 pre_url: 'https://ethberlinzwei.com/'
 start_date: 19-08-23
