@@ -1,12 +1,13 @@
 ---
-action: to speak about
-title: '???'
+action: Creating the knowledge base for
+title:
 event: ETHBerlin
 layout: event
-venue: Factory Berlin Görlitzer Park
+venue: Factory Berlin G?rlitzer Park
 categories: Chris
 pre_url: 'https://ethberlinzwei.com/'
 start_date: 19-08-23
 end_date: 19-08-25
 ---
-???
+
+I am volunteering with ETHBerlin to create the knowledge base hackers use during the legendary hackathonn to find the information they need to participate.
