@@ -4,65 +4,52 @@ permalink: support/index.html
 title: Support
 ---
 
-<div class="home">
-  <div class="support">
-    <div class="image">
-    </div>
-    <h1 class="post-title">Support Us</h1>
-    <div class="description">
-      <p>If you like our writing, podcast, software contributions, presentations, maybe consider making a small contribution. There are a number of ways you can do this:
+<div class="home page">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  <div class="row">
+    <main class="top-column">
+      <p>If you like our writing, podcast, software contributions, presentations, maybe consider making a small
+        contribution. There are a number of ways you can do this:
         <ul>
           <li>Clicking an affiliate link in an article or below (always identified).</li>
           <li>Clicking an Ad.</li>
           <li>Donating through one of the services below.</li>
           <li>Buy some merchandise, see the separate section below.</li>
-        </ul></p>
-      </div>
-    </div>
+        </ul>
+      </p>
+    </main>
 
-    <div class="support_links">
-      <div>
-        <script data-gratipay-username="ChrisChinchilla"
-        src="//grtp.co/v1.js"></script>
-      </div>
-      <div>
-        <a href="bitcoin:1F3xGP1rjZVPMqXAWG9dPSzoZMjQfRWko1">{% picture icon icons/payments/bitcoin.png alt="Donate with BitCoin" %}</a>
-        <p>1F3xGP1rjZVPMqXAWG9dPSzoZMjQfRWko1</p>
-      </div>
-      <div>
+    <aside class="top-column">
+      <div class="paypal">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="NK8D4W9XZZLE2">
-          <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+          <input type="image" width="92" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_LG.gif" border="0"
+            name="submit" alt="PayPal – The safer, easier way to pay online!">
           <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
-        </form><p>Donate with PayPal</p>
+        </form>
+        <p>Donate with PayPal</p>
       </div>
-      <div>
-        <a href="https://m.do.co/c/bd395f13620e" target="_blank">{% picture icon icons/payments/digitalocean.png alt="Digital Ocean" %}</a><p>Looking for great hosting? I recommend Digital Ocean.</p>
-      </div>
-    </div>
-
-    <div class="stickers" id="stickers">
-      <h2 class="post-title">Stickers</h2>
+    </aside>
+  </div>
+  <div class="row">
+    <main class="top-column">
+      <h2>Stickers</h2>
       {% picture listings new-logos.jpg alt={{ post.title }} %}
       <p>Want one of our stickers? We'll send you one of each for free if you join our mailing list.</p>
+    </main>
+    <aside class="top-column">
       <div class="full_ml">
         {% include mailingListFull.html %}
       </div>
-    </div>
-      <div class="support_links">
-        <h2 class="post-title">Merchandise</h2>
-        <p>I'm pretty happy with my Chinchilla mascot(s) and hope that you like it too. The various designs across the site are available from Red Bubble as stickers, phone cases, note books and a whole lot more. Click through to see all that's on offer.</p>
-        {% for post in site.merchandise %}
-        <div>
-          <h3>{{ post.title }}</h3>
-          <a href="{{ post.url }}">{% picture merch {{ post.image }} alt={{ post.title }} %}</a>
-          {% if post.url %}
-          <p>
-            <a href="{{ post.url }}">Find out more</a>
-          </p>
-          {% endif %}
-        </div>
-        {% endfor %}
-      </div>
-    </div>
+    </aside>
+  </div>
+  <h2>Merchandise</h2>
+  <p>I'm pretty happy with my Chinchilla mascot(s) and hope that you like it too. The various designs across the site
+    are available from Red Bubble as stickers, phone cases, note books and a whole lot more. Click through to see all
+    that's on offer.</p>
+  {% assign latest_posts = site.merchandise %}
+  {% include post_list.html filtered_posts=latest_posts %}
+</div>

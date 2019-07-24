@@ -1,0 +1,10 @@
+.image {
+    max-width: 320px;
+    padding-top: $spacing-unit / 6;
+  }
+
+  .paypal {
+      input[type=image] {
+          min-width: auto;
+      }
+  }
