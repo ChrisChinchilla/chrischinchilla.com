@@ -7,7 +7,7 @@ tags:
   - kauri
   - writing
   - community
-publication_url: "https://dev2.kauri.io/article/de927174d7b54ac2a33d8a37c43f9797"
+publication_url: "https://kauri.io/article/de927174d7b54ac2a33d8a37c43f9797"
 image: 
 layout: post
 ---

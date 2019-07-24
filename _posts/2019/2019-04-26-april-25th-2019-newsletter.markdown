@@ -7,7 +7,7 @@ tags:
   - newsletter
   - kauri
   - updates
-publication_url: "https://dev2.kauri.io/article/81555225559743089665e46d2619037a"
+publication_url: "https://kauri.io/article/81555225559743089665e46d2619037a"
 image: 
 layout: post
 ---

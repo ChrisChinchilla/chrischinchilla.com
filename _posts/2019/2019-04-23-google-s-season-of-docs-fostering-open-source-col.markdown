@@ -7,7 +7,7 @@ tags:
   - documentation
   - hackathons
   - community
-publication_url: "https://dev2.kauri.io/article/b2c15b0fc0ef49dfa4f4656590398d55"
+publication_url: "https://kauri.io/article/b2c15b0fc0ef49dfa4f4656590398d55"
 image: 
 layout: post
 ---
