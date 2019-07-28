@@ -4,9 +4,8 @@ GEM
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
-    fastimage (1.6.8)
-      addressable (~> 2.3, >= 2.3.5)
-    ffi (1.10.0)
+    fastimage (2.1.5)
+    ffi (1.11.1)
     forwardable-extended (2.6.0)
     jekyll (3.6.3)
       addressable (~> 2.4)
@@ -23,16 +22,18 @@ GEM
       jekyll (~> 3.3)
     jekyll-paginate-v2 (2.0.0)
       jekyll (~> 3.0)
-    jekyll-picture-tag (0.3.0)
-      fastimage (~> 1.6.4)
-      jekyll (< 4)
-      mini_magick (~> 3.8.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.6.0)
-      jekyll (~> 3.3)
+    jekyll-seo-tag (2.6.1)
+      jekyll (>= 3.3, < 5.0)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
+    jekyll_picture_tag (1.6.0)
+      fastimage (~> 2)
+      jekyll (< 5)
+      mime-types (~> 3)
+      mini_magick (~> 4)
+      objective_elements (~> 1.1)
     kramdown (1.17.0)
     liquid (4.0.3)
     listen (3.1.5)
@@ -40,15 +41,18 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
-    mini_magick (3.8.1)
-      subexec (~> 0.2.1)
+    mime-types (3.2.2)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.0331)
+    mini_magick (4.9.5)
     minima (2.5.0)
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    objective_elements (1.1.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (3.0.3)
+    public_suffix (3.1.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -60,16 +64,15 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    subexec (0.2.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jekyll (~> 3.6.3)
-  jekyll-paginate-v2 (= 2.0.0)
-  jekyll-picture-tag
+  jekyll-paginate-v2
+  jekyll_picture_tag
   minima (~> 2.0)
 
 BUNDLED WITH
-   1.17.3
+   2.0.2
