@@ -73,6 +73,3 @@ DEPENDENCIES
   jekyll-paginate-v2
   jekyll_picture_tag
   minima (~> 2.0)
-
-BUNDLED WITH
-   2.0.2
