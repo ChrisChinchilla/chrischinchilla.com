@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 21 - On career growth, leadership, and mentoring in Tech Writing "
+title: "WTD Episode 21 - On career growth, leadership, and mentoring in tech writing, with Becky Todd"
 kind: podcast
 created_at: 2019-03-31 00:00:00 UTC
 author: ""
