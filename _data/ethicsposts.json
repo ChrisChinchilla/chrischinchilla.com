@@ -499,15 +499,15 @@
       "sort_id": 16,
       "resolved_title": "Ctrl-Alt-Delete: The Planned Obsolescence of Old Coders",
       "resolved_url": "https://onezero.medium.com/ctrl-alt-delete-the-planned-obsolescence-of-old-coders-9c5f440ee68",
-      "excerpt": "ach year, 600 coders gather to talk shop at a conference in New York called PyGotham. The organizers know how male and white the tech industry is, so they make a special effort to recruit a diverse speaker lineup. They promote the event on mailing lists for women and people of…",
-      "is_article": "1",
+      "excerpt": "",
+      "is_article": "0",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
-      "word_count": "57",
+      "has_image": "0",
+      "word_count": "0",
       "lang": "en",
-      "top_image_url": "https://miro.medium.com/max/1200/1*94_yXQz5iO_o4BWA1x9nJA.png",
-      "listen_duration_estimate": 22
+      "top_image_url": "https://miro.medium.com/focal/1200/632/50/20/1*94_yXQz5iO_o4BWA1x9nJA.png",
+      "listen_duration_estimate": 0
     },
     "2516929250": {
       "item_id": "2516929250",
@@ -531,7 +531,6 @@
       "word_count": "2161",
       "lang": "en",
       "time_to_read": 10,
-      "top_image_url": "http://static.nautil.us/14861_7274f01abe1fc0622bd2ff06724950c1.png",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
@@ -752,5 +751,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1565765562
+  "since": 1566892740
 }

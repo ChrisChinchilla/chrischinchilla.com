@@ -402,10 +402,10 @@
       "given_url": "https://medium.com/streamrblog/ending-network-gas-costs-bad-for-web3-decentralization-7ef9ce036f09",
       "given_title": "",
       "favorite": "0",
-      "status": "0",
+      "status": "1",
       "time_added": "1545401089",
-      "time_updated": "1545569472",
-      "time_read": "0",
+      "time_updated": "1566201326",
+      "time_read": "1566201323",
       "time_favorited": "0",
       "sort_id": 14,
       "resolved_title": "Gwei or die: Is eradicating user gas costs a dangerous move for Web3?",
@@ -637,17 +637,17 @@
       "time_read": "1540888886",
       "time_favorited": "0",
       "sort_id": 22,
-      "resolved_title": "How does Ethereum work, anyway?",
+      "resolved_title": "How does Ethereum work, anyway?",
       "resolved_url": "https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369",
       "excerpt": "Odds are you’ve heard about the Ethereum blockchain, whether or not you know what it is. It’s been in the news a lot lately, including the cover of some major magazines, but reading those articles can be like gibberish if you don’t have a foundation for what exactly Ethereum is.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "7992",
+      "word_count": "7994",
       "lang": "en",
       "time_to_read": 36,
-      "top_image_url": "https://cdn-images-1.medium.com/max/1200/1*wV984lYiBGX8Tep88bf16w.jpeg",
+      "top_image_url": "https://miro.medium.com/max/1200/1*wV984lYiBGX8Tep88bf16w.jpeg",
       "domain_metadata": {
         "name": "Medium",
         "logo": "https://logo.clearbit.com/medium.com?size=800",
@@ -1029,5 +1029,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1565765564
+  "since": 1566892741
 }
