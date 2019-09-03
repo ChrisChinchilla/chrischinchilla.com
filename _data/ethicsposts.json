@@ -346,22 +346,22 @@
       "sort_id": 11,
       "resolved_title": "Coders’ Primal Urge to Kill Inefficiency—Everywhere",
       "resolved_url": "https://www.wired.com/story/coders-efficiency-is-beautiful/",
-      "excerpt": "Shelley Chang was working as a business analyst for a computer company in 2010 when she met Jason Ho through some mutual friends. Ho was tall and slender with a sly smile, and they hit it off right away. A computer programmer, Ho ran his own company from San Francisco. He also loved to travel.",
+      "excerpt": "The apparition of these faces in the crowd; Petals on a wet, black bough. Back in 2016, I visited Ryan Olson, a lead engineer for Instagram. His team had just pushed out the platform’s Stories function. It was a massive update.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "3878",
+      "word_count": "617",
       "lang": "en",
-      "time_to_read": 18,
+      "time_to_read": 3,
       "amp_url": "https://www.wired.com/story/coders-efficiency-is-beautiful/amp",
-      "top_image_url": "https://media.wired.com/photos/5c87e3dfb235600ed9239266/191:100/pass/engineersweb.jpg",
+      "top_image_url": "https://media.wired.com/photos/5c87e3dfb235600ed9239266/master/w_1280,c_limit/engineersweb.jpg",
       "domain_metadata": {
         "name": "WIRED",
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1501
+      "listen_duration_estimate": 239
     },
     "2539397923": {
       "item_id": "2539397923",
@@ -531,6 +531,7 @@
       "word_count": "2161",
       "lang": "en",
       "time_to_read": 10,
+      "top_image_url": "https://pocket-image-cache.com/2000x/http%3A%2F%2Fstatic.nautil.us%2F14861_7274f01abe1fc0622bd2ff06724950c1.png",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
@@ -751,5 +752,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1566892740
+  "since": 1567501707
 }
