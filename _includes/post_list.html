@@ -63,7 +63,7 @@
       <a href="/projects/not-profit-handbook">The Not-for-Profit Handbook</a>
       {% when
         'theweeklysqueak' or 'writethedocs' %}
-      <a href="/projects/not-profit-handbook">{{ post.podcast }}</a>
+      <a href="/podcasts">{{ post.podcast }}</a>
       {%
       endcase %}
       {% endif %}
@@ -77,6 +77,11 @@
     </div>
     {% endif %}
     <p>{{ post.excerpt }}</p>
+    {% if post.transcript %}
+    <div>
+      <a href="{{ post.url }}">Transcript</a>
+    </div>
+    {% endif %}
     <!-- <div class="tags">
       {% if post.tags %}
       <h4>Tags</h4>
