@@ -1,10 +1,10 @@
 ---
 title: "Chaos Engineering with Kolton Andrus of Gremlin"
-kind: podcast
+layout: podcast
 created_at: 2018-12-06 14:40:01 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Chaos-Engineering-with-Kolton-Andrus-of-Gremlin-e2n9e8
 layout: podcast
 ---

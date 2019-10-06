@@ -3,8 +3,8 @@ title: "The Future of 5G at 5GTechritory"
 kind: article
 created_at: 2018-11-19 15:00:00 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 publication_url: https://anchor.fm/theweeklysqueak/episodes/The-Future-of-5G-at-5GTechritory-e2gh5m
 layout: post
 ---

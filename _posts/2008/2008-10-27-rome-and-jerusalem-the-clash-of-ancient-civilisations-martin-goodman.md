@@ -2,7 +2,7 @@
 layout: post
 title: 'Rome & Jerusalem, The Clash of ancient Civilisations - Martin Goodman'
 created: 1225147722
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: books reviews history
 ---
 

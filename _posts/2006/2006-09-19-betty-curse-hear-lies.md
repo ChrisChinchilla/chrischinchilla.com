@@ -2,7 +2,7 @@
 layout: post
 title: Betty Curse - Hear Lies
 created: 1158652042
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

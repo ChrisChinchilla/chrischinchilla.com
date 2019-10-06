@@ -2,7 +2,7 @@
 title: "March 13th - An improved reading and writing experience"
 created_at: 2019-03-14 14:19:22 UTC
 author: "Chris Ward"
-categories: Chris writing kauri
+categories: writing kauri
 tags:
   - news
   - collaboration

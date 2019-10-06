@@ -2,8 +2,8 @@
 title: "Tokenize All the Things and What Happens Next?"
 created_at: 2018-04-12 05:03:27 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - blockchain
   - cryptocurrencies
   - security

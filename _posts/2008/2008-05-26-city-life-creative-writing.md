@@ -2,7 +2,7 @@
 layout: post
 title: City Life - Creative Writing
 created: 2008-05-26T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: creative
 ---
 

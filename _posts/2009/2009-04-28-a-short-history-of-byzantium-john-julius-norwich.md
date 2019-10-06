@@ -2,7 +2,7 @@
 layout: post
 title: A Short History of Byzantium - John Julius Norwich
 created: 2009-04-28T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: books reviews
 ---
 

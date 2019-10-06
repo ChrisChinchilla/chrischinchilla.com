@@ -3,7 +3,7 @@ layout: post
 title: Teaching Children to Code
 date: '2017-03-09 18:13:30 +0100'
 image: children-coding.jpeg
-categories: Chris writing dzone
+categories: writing dzone
 tags: education children coding
 publication_url: https://dzone.com/articles/teaching-children-to-code
 ---

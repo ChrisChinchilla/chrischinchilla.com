@@ -4,7 +4,7 @@ title: your ideas and projects
 event: 5G Techritory Conference
 layout: event
 venue: 'Riga, Latvia'
-categories: Both
+categories:
 pre_url: 'https://www.5gtechritory.com/'
 start_date: 2018-09-27
 end_date: 2018-09-28

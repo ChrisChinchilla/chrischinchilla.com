@@ -2,7 +2,7 @@
 layout: post
 title: New Rhodes - History of Britain
 created: 1159276663
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Degrowth 2014 - Cultural Agency, potentials and limits of current civic movement
 created: 2014-09-07T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: politics degrowth activism
 ---
 

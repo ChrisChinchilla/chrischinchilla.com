@@ -1211,21 +1211,21 @@
       "sort_id": 42,
       "resolved_title": "Behavioral Crypto-Economics: The Challenge and Promise of Blockchain Incentive Design",
       "resolved_url": "https://medium.com/berlin-innovation-ventures/behavioral-crypto-economics-6d8befbf2175",
-      "excerpt": "Written by Elad Verbin and Al Esmail.  Bitcoin-style cryptoeconomic incentive design is a new economic design paradigm, that has already achieved incredible results, creating the first widespread digital currency.",
+      "excerpt": "Written by Elad Verbin and Al Esmail. Bitcoin-style cryptoeconomic incentive design is a new economic design paradigm, that has already achieved incredible results, creating the first widespread digital currency.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2411",
+      "word_count": "2363",
       "lang": "en",
       "time_to_read": 11,
-      "top_image_url": "https://cdn-images-1.medium.com/max/1200/0*7rRsw9lRtv2Rccqw.",
+      "top_image_url": "https://miro.medium.com/max/939/0*7rRsw9lRtv2Rccqw.",
       "domain_metadata": {
         "name": "Medium",
         "logo": "https://logo.clearbit.com/medium.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/medium.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 933
+      "listen_duration_estimate": 915
     },
     "2227032119": {
       "item_id": "2227032119",
@@ -1321,5 +1321,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1570172504
+  "since": 1570335191
 }

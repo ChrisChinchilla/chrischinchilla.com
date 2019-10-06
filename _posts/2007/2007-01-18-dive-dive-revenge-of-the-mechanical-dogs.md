@@ -2,7 +2,7 @@
 layout: post
 title: Dive Dive - Revenge of the Mechanical Dogs
 created: 2007-01-18T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Non-fiction
 layout: default
-categories: Chris writing non-fiction
+categories: writing non-fiction
 permalink: /writing/non-fiction/index.html
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: World Environment Day and Debut Gigs
 date: '2007-06-08T16:21:56+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: australia environment
 ---
 

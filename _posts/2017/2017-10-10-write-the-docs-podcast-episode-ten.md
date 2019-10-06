@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: "WTD Episode 10 - What's going on in our lives as documentarians and product owners"
 date: 2017-10-10
 image: podcast/wtd-10.png

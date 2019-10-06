@@ -2,7 +2,7 @@
 layout: post
 title: ThinkFree Office review
 created: 2003-01-04T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: apple reviews software
 ---
 

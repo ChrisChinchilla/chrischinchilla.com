@@ -2,7 +2,7 @@
 layout: post
 title: 'Drupal Melbourne meetup, Sep 2013'
 created: 1378896926
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: events drupal
 ---
 

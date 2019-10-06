@@ -2,7 +2,7 @@
 layout: post
 title: NinetyNine - The Northcote Social Club
 created: 1179516359
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

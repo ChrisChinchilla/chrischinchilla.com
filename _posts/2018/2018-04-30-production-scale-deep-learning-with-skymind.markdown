@@ -2,8 +2,8 @@
 title: "Production-Scale Deep Learning With Skymind"
 created_at: 2018-04-30 09:01:03 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - deep learning
   - data science
   - model training

@@ -2,8 +2,8 @@
 title: "Pepperdata- Bringing DevOps Practices to the Big Data World [Audio]"
 created_at: 2017-08-18 05:01:59 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - big data
   - data analytics
   - devops adoption

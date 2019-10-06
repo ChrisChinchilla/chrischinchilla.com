@@ -1,11 +1,11 @@
 ---
 title: "WTD Episode 12 - Founding ideas behind Write the Docs"
-kind: podcast
+layout: podcast
 created_at: 2017-12-13 00:00:00 UTC
 author: ""
-categories: Chris podcast writethedocs
+categories: podcast writethedocs
 podcast: "Write the Docs"
-tags: 
+tags:
 orig_url: http://podcast.writethedocs.org/2017/12/13/founding-principles-of-write-the-docs/
 layout: podcast
 podcast_embed: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtdpodcast_episode_12_founding_ideas.mp3

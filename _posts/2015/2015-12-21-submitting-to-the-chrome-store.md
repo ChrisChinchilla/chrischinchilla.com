@@ -3,7 +3,7 @@ title: Video - Submitting to the Chrome Store
 created: 2015-12-21T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/submitting-to-the-chrome-store'
 image: image-submitting-to-the-chrome-store.jpg
-categories: Chris writing sitepoint
+categories: writing sitepoint
 tags: chrome javascript html
 ---
 

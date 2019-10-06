@@ -2,7 +2,7 @@
 title: "Red Hat acquires CoreOS, an interview with Brian Gracely"
 created_at: 2018-02-28 08:48:58 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
   - red hat
   - coreos

@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: Wtd Episode 1 - This Week in Tech Comm
 date: '2016-11-14 09:37:12 +0200'
 image: podcast/wtd-1.png

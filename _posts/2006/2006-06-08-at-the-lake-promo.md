@@ -2,7 +2,7 @@
 layout: post
 title: At The Lake - Promo
 created: 1149735577
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

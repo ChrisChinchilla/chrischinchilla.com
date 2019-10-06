@@ -2,7 +2,7 @@
 layout: post
 title: New Categories added
 created: 1421395032
-categories: Chris writing leantraveller
+categories: writing leantraveller
 ---
 
 I added a set of new categories and related resources to the Lean Traveller site yesterday including [Communication](https://theleantraveller.com/communication), [travel](https://theleantraveller.com/travel) and some resources under [archiving](https://theleantraveller.com/archiving).

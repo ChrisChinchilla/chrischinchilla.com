@@ -2,7 +2,7 @@
 layout: post
 title: 'Weekly Squeak, 9th September - Apple vs the Prosumer'
 date: '2016-09-10 21:44:51 +0200'
-categories: Chris writing theweeklysqueak
+categories: writing theweeklysqueak
 tags: apple tech berlin meetups
 publication_url: https://medium.com/@ChrisChinchilla/-b2a90319090f#.2w0ctuqzj
 ---

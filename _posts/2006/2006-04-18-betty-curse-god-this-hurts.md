@@ -2,7 +2,7 @@
 layout: post
 title: Betty Curse - God This Hurts
 created: 1145373036
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

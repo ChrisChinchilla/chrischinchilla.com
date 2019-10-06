@@ -2,7 +2,7 @@
 title: A documentation crash course for developers
 created: 2016-10-11T00:00:00.000Z
 image: wtd-prague.jpg
-categories: Chris writing hackernoon
+categories: writing hackernoon
 tags: writing techwriting
 layout: post
 publication_url: https://hackernoon.com/a-documentation-crash-course-45006a85c15c#.8kqz1lau4

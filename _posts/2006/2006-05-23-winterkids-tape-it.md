@@ -2,7 +2,7 @@
 layout: post
 title: Winterkids - Tape it
 created: 1148402615
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

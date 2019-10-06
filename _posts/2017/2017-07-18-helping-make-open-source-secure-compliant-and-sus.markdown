@@ -2,8 +2,8 @@
 title: "Helping Make Open Source Secure, Compliant, and Sustainable With Jeff..."
 created_at: 2017-07-18 05:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - open souce
   - compliance
   - security

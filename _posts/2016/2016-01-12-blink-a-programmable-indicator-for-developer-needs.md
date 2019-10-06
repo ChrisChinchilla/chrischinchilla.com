@@ -3,7 +3,7 @@ title: 'Blink(1), a Programmable Indicator for All Developer Needs'
 created: 2016-01-12T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/blink1-a-programmable-indicator-for-all-developer-needs/'
 image: image-blink1.png
-categories: Chris writing sitepoint
+categories: writing sitepoint
 tags: tutorial devops iot
 ---
 

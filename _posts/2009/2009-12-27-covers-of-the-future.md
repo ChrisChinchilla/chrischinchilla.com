@@ -2,7 +2,7 @@
 layout: post
 title: Covers of the Future
 created: 2009-12-27T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music design
 ---
 

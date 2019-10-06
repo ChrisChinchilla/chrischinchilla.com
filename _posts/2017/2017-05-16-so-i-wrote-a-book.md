@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris writing books
+categories: writing books
 title: So, I wrote my first book
 date: '2017-05-16 10:13:30 +0100'
 image: resp-book.png

@@ -1,11 +1,11 @@
 ---
 title: "WTD Episode 13 - Postman for API development and docs &amp;mdash; Interview with Postman Founder"
-kind: podcast
+layout: podcast
 created_at: 2018-01-22 00:00:00 UTC
 author: ""
-categories: Chris podcast writethedocs
+categories: podcast writethedocs
 podcast: "Write the Docs"
-tags: 
+tags:
 orig_url: http://podcast.writethedocs.org/2018/01/22/postman-for-api-docs-write-the-docs/
 layout: podcast
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_13_postman.mp3

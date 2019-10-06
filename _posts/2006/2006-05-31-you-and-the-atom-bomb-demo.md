@@ -2,7 +2,7 @@
 layout: post
 title: 'You & The Atom Bomb - Demo'
 created: 1149088236
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

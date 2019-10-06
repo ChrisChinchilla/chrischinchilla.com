@@ -2,8 +2,8 @@
 title: "HashiCorp Tools Useful for Continuous Integration"
 created_at: 2017-06-26 14:01:39 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - hashicorp
   - continuous integration
   - devops

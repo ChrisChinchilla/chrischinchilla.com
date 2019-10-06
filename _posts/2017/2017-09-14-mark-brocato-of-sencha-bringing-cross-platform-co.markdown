@@ -1,10 +1,10 @@
 ---
 title: "Mark Brocato of Sencha - Bringing cross platform components to React"
-kind: podcast
+layout: podcast
 created_at: 2017-09-14 08:04:04 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

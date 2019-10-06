@@ -2,7 +2,7 @@
 title: "Peer-to-peer hypermedia with IPFS"
 created_at: 2019-03-19 18:47:26 UTC
 author: "Chris Ward"
-categories: Chris writing kauri
+categories: writing kauri
 tags:
   - server
   - ipfs

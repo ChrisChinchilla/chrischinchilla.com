@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 title: 'SWSW, social credit, and the right to be forgotten'
 date: '2018-03-21T09:44:48+01:00'
 image: 29257853_10159995396820567_3810555909122293760_o.jpg

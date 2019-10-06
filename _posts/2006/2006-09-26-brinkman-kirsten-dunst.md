@@ -2,7 +2,7 @@
 layout: post
 title: Brinkman - Kirsten Dunst
 created: 1159276612
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

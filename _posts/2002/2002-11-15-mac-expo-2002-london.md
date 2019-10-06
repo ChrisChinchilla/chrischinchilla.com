@@ -2,7 +2,7 @@
 layout: post
 title: Mac Expo 2002 - London
 created: 2002-11-15T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: reviews apple conference
 ---
 

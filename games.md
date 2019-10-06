@@ -1,7 +1,7 @@
 ---
 title: Games
 layout: default
-categories: Chris writing games
+categories: writing games
 permalink: /writing/games/index.html
 ---
 

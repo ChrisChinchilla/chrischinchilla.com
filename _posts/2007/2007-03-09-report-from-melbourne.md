@@ -2,7 +2,7 @@
 layout: post
 title: Report from Melbourne
 date: '2007-03-09T18:14:41+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: life melbourne
 ---
 

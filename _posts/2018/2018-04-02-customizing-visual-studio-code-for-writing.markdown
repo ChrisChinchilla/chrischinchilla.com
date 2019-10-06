@@ -2,8 +2,8 @@
 title: "Customizing Visual Studio Code for Writing"
 created_at: 2018-04-02 05:01:02 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - technical writing
   - atom
   - visual studio code

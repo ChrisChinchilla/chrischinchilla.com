@@ -2,7 +2,7 @@
 layout: post
 title: The Currency - The Currency
 created: 1262530073
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

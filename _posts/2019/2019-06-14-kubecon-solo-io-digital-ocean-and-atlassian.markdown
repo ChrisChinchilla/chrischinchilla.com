@@ -1,11 +1,11 @@
 ---
 title: "KubeCon - Solo.io, Digital Ocean and Atlassian"
-kind: podcast
+layout: podcast
 created_at: 2019-06-14 16:00:00 UTC
 author: ""
-categories: Chris podcast theweeklysqueak
+categories: podcast theweeklysqueak
 podcast: "The Weekly Squeak"
-tags: 
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/KubeCon---Solo-io--Digital-Ocean-and-Atlassian-e4b9k9
 layout: podcast
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/3564617/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-5-14%2F16963718-44100-2-b0462cd2cf58c.m4a

@@ -3,7 +3,7 @@ layout: post
 title: Node logging best practices and tips
 date: 2017-11-11
 image: ruby-logo.png
-categories: Chris writing coralogix
+categories: writing coralogix
 tags: logging ruby rails
 publication_url: https://coralogix.com/log-analytics-blog/ruby-logging-best-practices-tips/
 ---

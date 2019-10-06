@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 title: CES 2018 - The woeful and the wonderful
 date: 2018-01-15T08:54:30.979Z
 image: scout_future_front_2_a34c54c1-96cc-4399-b48a-18f10088a8e2_1024x1024.jpg

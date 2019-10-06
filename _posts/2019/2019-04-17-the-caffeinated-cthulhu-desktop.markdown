@@ -1,11 +1,11 @@
 ---
 title: "The Caffeinated Cthulhu Desktop"
-kind: podcast
+layout: podcast
 created_at: 2019-04-17 13:00:00 UTC
 author: ""
-categories: Chris podcast theweeklysqueak
+categories: podcast theweeklysqueak
 podcast: "The Weekly Squeak"
-tags: 
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/The-Caffeinated-Cthulhu-Desktop-e3osc8
 layout: podcast
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/2961224/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-3-17%2F12949259-44100-2-e3c57a9152a62.m4a

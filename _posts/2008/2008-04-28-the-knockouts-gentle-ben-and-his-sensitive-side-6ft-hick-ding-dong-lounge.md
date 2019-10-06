@@ -2,7 +2,7 @@
 layout: post
 title: 'The Knockouts, Gentle Ben and his Sensitive side, 6ft Hick - Ding Dong Lounge'
 created: 1209399637
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

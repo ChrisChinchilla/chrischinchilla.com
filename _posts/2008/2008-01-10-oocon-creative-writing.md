@@ -2,7 +2,7 @@
 layout: post
 title: OOCON
 created: 1199978925
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: creative
 ---
 

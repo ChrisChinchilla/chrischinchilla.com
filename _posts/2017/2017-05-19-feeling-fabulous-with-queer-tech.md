@@ -3,7 +3,7 @@ layout: post
 title: 'Feeling Fabulous With Queer Tech at #UNIT Berlin'
 date: 2017-05-19T00:00:00.000Z
 image: unit.jpg
-categories: Chris writing hackernoon
+categories: writing hackernoon
 tags: UNIT2017 event technology culture history
 publication_url: https://hackernoon.com/feeling-fabulous-with-queer-tech-at-unit-berlin-8b60b09800e0
 ---

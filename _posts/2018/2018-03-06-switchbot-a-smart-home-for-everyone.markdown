@@ -3,8 +3,8 @@ title: "SwitchBot- A Smart Home for Everyone?"
 kind: article
 created_at: 2018-03-06 06:02:39 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
 orig_url: https://dzone.com/articles/switchbot-a-smart-home-for-everyone
 layout: post
 ---

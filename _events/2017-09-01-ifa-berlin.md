@@ -1,7 +1,7 @@
 ---
 action: to hear about
 layout: event
-categories: Both
+categories:
 title: the latest tech news
 event: IFA
 start_date: 2017-09-01

@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 title: Mobile World Congress 2018
 date: 2018-03-06T15:11:45.346Z
 image: 6f9a1781-ed.jpg

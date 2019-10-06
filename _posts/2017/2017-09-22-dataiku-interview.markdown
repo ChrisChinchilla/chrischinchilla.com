@@ -1,10 +1,10 @@
 ---
 title: "Dataiku Interview"
-kind: podcast
+layout: podcast
 created_at: 2017-09-22 14:31:29 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

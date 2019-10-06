@@ -2,8 +2,8 @@
 title: "Are We All Doomed? Your Role in the Ethics of Tech"
 created_at: 2017-11-06 06:01:03 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - machine learning
   - ai
   - agile

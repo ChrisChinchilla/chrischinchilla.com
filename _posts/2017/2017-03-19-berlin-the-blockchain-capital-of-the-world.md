@@ -3,7 +3,7 @@ layout: post
 title: Berlin-the blockchain capital of the world?
 date: '2017-03-19 18:13:30 +0100'
 image: berlin.jpg
-categories: Chris writing dzone
+categories: writing dzone
 tags: berlin blockchain cryptocurrency
 publication_url: https://dzone.com/articles/berlin-the-blockchain-capital-of-the-world
 ---

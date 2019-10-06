@@ -2,7 +2,7 @@
 layout: post
 title: Little Red - The Tote
 created: 1182014910
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

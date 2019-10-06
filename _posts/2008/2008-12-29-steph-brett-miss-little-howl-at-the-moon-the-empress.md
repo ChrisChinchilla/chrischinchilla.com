@@ -2,7 +2,7 @@
 layout: post
 title: 'Steph Brett, Miss Little, Howl at the Moon  - The Empress'
 created: 1230591332
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Online Video and The Kaiser Chiefs
 date: '2007-08-08T23:23:59+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music video
 ---
 

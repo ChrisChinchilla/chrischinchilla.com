@@ -2,7 +2,7 @@
 layout: post
 title: Australian Festivals
 created: 1240942231
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music opinion australia
 ---
 

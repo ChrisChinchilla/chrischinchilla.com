@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: WTD Episode 6 - Metadata and UI copy
 date: '2017-06-06 23:37:12 +0200'
 image: podcast/wtd-6.png

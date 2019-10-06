@@ -1,7 +1,7 @@
 ---
 action: to hear about
 layout: event
-categories: Both
+categories:
 title: your ideas and projects
 event: Mobile World Congress
 venue: Fira Gran Via

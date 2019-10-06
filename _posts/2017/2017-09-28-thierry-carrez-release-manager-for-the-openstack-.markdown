@@ -1,10 +1,10 @@
 ---
 title: "Thierry Carrez, release manager for the OpenStack project"
-kind: podcast
+layout: podcast
 created_at: 2017-09-28 10:26:32 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

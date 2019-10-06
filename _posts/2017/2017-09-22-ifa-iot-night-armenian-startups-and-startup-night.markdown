@@ -1,10 +1,10 @@
 ---
 title: "IFA, IoT night, Armenian startups and Startup night - The Berlin week that was"
-kind: podcast
+layout: podcast
 created_at: 2017-09-22 06:52:05 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

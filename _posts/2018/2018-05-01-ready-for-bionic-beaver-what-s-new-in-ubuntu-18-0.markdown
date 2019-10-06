@@ -2,8 +2,8 @@
 title: "Ready for Bionic Beaver? What&#39;s New in Ubuntu 18.04"
 created_at: 2018-05-01 09:03:11 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - ubuntu
   - linux
   - gnome

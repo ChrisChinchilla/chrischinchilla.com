@@ -2,8 +2,8 @@
 title: "Bringing Touch Bar Support to the Atom Text Editor"
 created_at: 2017-08-30 17:01:11 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - atom.io
   - atom
   - text editor

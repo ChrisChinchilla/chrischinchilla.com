@@ -2,7 +2,7 @@
 layout: post
 title: 'Does it offend you, yeah? - Billboard'
 created: 1262530290
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

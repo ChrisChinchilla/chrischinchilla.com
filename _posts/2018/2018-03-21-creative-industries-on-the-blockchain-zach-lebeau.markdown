@@ -2,7 +2,7 @@
 title: "Creative Industries on the Blockchain - Zach LeBeau of SingularDTV"
 created_at: 2018-03-21 12:26:51 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
   - Blockchain
   - Music

@@ -1,7 +1,7 @@
 ---
 action: to hear about
 layout: event
-categories: Both
+categories:
 title: your projects and ideas
 event: Web Summit
 start_date: 2018-11-05

@@ -2,7 +2,7 @@
 layout: post
 title: 'Bones, Damn Terran, Will Stoker and the Embers - The Tote'
 created: 1262530001
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

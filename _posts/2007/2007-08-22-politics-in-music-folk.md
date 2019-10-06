@@ -2,7 +2,7 @@
 layout: post
 title: Politics in Music - Folk
 date: '2007-08-22T04:40:11+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music politics folk
 ---
 Politics in Folk music, part 1...

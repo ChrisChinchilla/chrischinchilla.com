@@ -2,8 +2,8 @@
 title: "Writing on Kauri"
 created_at: 2019-03-12 16:53:43 UTC
 author: "Chris Ward"
-categories: Chris writing kauri
-tags: 
+categories: writing kauri
+tags:
   - help
   - kauri
 publication_url: "https://dev2.kauri.io/article/cc1cefd3523b4faeafc700a44698e43d"

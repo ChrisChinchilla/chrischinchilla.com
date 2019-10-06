@@ -2,8 +2,8 @@
 title: "Graphcool, the GraphQL Backend Development Framework"
 created_at: 2017-11-27 15:01:04 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - graphql
   - database
   - graph query

@@ -2,7 +2,7 @@
 layout: post
 title: Ladyfuzz - Kerfuffle
 created: 1142439036
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Michael Franti - The Prince of Wales
 created: 1240940912
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

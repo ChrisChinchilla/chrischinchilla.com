@@ -2,7 +2,7 @@
 layout: post
 title: 'Mark Steiner, Rowland S Howard - The Toff in Town'
 created: 1225147624
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

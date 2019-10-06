@@ -3,7 +3,7 @@ layout: post
 title: Interview With Manish Gupta of Redis Labs
 date: '2017-05-27 11:13:30 +0100'
 image: redis.png
-categories: Chris writing dzone
+categories: writing dzone
 tags: redis databases storage nosql
 publication_url: https://dzone.com/articles/interview-with-manish-gupta-of-redis-labs
 ---

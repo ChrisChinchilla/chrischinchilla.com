@@ -1,10 +1,10 @@
 ---
 title: "Becoming the First Cyborg with Liviu Babitz"
-kind: podcast
+layout: podcast
 created_at: 2017-07-19 09:27:03 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

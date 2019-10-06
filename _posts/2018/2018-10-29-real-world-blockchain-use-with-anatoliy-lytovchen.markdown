@@ -1,10 +1,10 @@
 ---
 title: "Real World Blockchain Use with Anatoliy Lytovchenko"
-kind: podcast
+layout: podcast
 created_at: 2018-10-29 16:00:00 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

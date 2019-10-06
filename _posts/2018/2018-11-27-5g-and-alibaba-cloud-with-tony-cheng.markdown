@@ -2,7 +2,7 @@
 title: "5G and Alibaba Cloud With Tony Cheng"
 created_at: 2018-11-27 11:02:03 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
+categories: writing dzone
 tags:
   - alibaba cloud
   - iot

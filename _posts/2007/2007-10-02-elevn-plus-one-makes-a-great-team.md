@@ -2,7 +2,7 @@
 layout: post
 title: Eleven plus one is a great team
 date: '2007-10-02T06:27:29+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: life music
 ---
 

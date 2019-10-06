@@ -2,8 +2,8 @@
 title: "Going Serverless? Compare Your FaaS Options"
 created_at: 2017-12-05 05:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - cloud
   - serverless
   - faas

@@ -2,7 +2,7 @@
 layout: post
 title: Mira Calix - Eyes Set against the Sky
 created: 1168574377
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

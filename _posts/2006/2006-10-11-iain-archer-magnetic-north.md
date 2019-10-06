@@ -2,7 +2,7 @@
 layout: post
 title: Iain Archer - Magnetic North
 created: 1160586357
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

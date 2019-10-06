@@ -2,7 +2,7 @@
 layout: post
 title: Various Artists - FOPP Award for new Music 2006
 created: 1172475046
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

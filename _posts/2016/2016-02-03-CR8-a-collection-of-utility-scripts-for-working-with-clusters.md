@@ -3,7 +3,7 @@ title: 'CR8: A collection of utility scripts for working with Clusters '
 created: 2016-02-03T00:00:00.000Z
 publication_url: 'https://crate.io/a/cr8-utility-scripts/'
 image: ss_jordi.jpg
-categories: Chris writing crate
+categories: writing crate
 tags: cli tools
 ---
 

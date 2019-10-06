@@ -2,7 +2,7 @@
 layout: post
 title: Larrikin Love - Kings College
 created: 1149952236
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

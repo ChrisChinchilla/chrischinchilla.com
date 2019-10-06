@@ -2,8 +2,8 @@
 title: "What Can Musicians and Programmers Learn From Each Other? [Audio]"
 created_at: 2017-11-10 15:01:40 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - agile
   - devlife
   - career growth

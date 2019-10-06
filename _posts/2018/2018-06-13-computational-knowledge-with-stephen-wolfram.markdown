@@ -1,9 +1,9 @@
 ---
 title: "Computational Knowledge with Stephen Wolfram"
-kind: podcast
+layout: podcast
 created_at: 2018-06-13 14:00:00 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
   - wolfram alpha
   - jupyter notebook

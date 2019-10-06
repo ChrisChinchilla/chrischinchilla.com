@@ -2,7 +2,7 @@
 layout: post
 title: Grafton Primary - The East Brunswick Club
 created: 1262529938
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Interview with The Dardanelles
 date: '2007-11-08T23:28:14+00:00'
 tags: music interview
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 ---
 
 My latest Indieoma.com post is an interview with Melbourne hipsters (or are they?) Dardanelles...

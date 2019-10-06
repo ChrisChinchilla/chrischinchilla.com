@@ -3,7 +3,7 @@ layout: post
 title: Hands on with the Lenovo Yoga Book
 date: '2016-10-25 09:36:36 +0200'
 image: yoga_book.jpg
-categories: Chris writing theweeklysqueak
+categories: writing theweeklysqueak
 tags: android devices reviews
 ---
 

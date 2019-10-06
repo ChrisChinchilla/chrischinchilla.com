@@ -2,7 +2,7 @@
 layout: post
 title: Glen Tilbrook - in Melbourne
 created: 1176507183
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

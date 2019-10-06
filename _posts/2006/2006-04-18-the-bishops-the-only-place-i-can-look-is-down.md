@@ -2,7 +2,7 @@
 layout: post
 title: The Bishops - The only place I can look is down
 created: 1145373036
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

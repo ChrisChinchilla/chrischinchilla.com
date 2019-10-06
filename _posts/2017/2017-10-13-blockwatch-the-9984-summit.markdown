@@ -2,8 +2,8 @@
 title: "Blockwatch - The 9984 Summit"
 created_at: 2017-10-13 17:02:04 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - blockchain
   - ico
   - bitcoin

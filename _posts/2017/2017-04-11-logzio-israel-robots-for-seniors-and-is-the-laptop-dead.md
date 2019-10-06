@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 title: Logz.io, Tech in Israel, Robots for Seniors and is the Laptop dead?
 date: '2017-04-11 18:13:30 +0100'
 podcast_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317204341&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>

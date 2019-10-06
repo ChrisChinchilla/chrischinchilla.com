@@ -2,7 +2,7 @@
 layout: post
 title: The Needles - In Search of The Needles
 created: 1152717036
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

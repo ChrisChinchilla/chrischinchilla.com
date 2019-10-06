@@ -2,7 +2,7 @@
 layout: post
 title: Nosferatu D2 - Album Demos
 created: 1163465251
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

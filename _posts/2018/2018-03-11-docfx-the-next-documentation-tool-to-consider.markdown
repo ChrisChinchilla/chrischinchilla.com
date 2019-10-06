@@ -2,8 +2,8 @@
 title: "DocFX- The Next Documentation Tool to Consider?"
 created_at: 2018-03-11 06:01:02 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - documentation
   - c#
   - rest api

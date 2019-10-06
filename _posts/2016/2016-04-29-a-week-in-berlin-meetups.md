@@ -3,7 +3,7 @@ title: A week in Berlin Meetups 29 April
 created: 2016-04-29T00:00:00.000Z
 publication_url: 'https://medium.com/@ChrisChinchilla/a-week-in-berlin-meetups-29th-april-d392b505a75a#.sgy49u2qy'
 image: berlin_meetups.jpg
-categories: Chris writing theweeklysqueak
+categories: writing theweeklysqueak
 tags: berlin meetups events
 ---
 

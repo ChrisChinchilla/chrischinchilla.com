@@ -2,7 +2,7 @@
 layout: post
 title: Camera - Ashes and Dim Light
 created: 1158652282
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

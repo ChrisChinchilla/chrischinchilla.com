@@ -3,7 +3,7 @@ title: Creating PDFs from Markdown with Pandoc and LaTeX
 created: 20150930
 publication_url: 'https://www.sitepoint.com/creating-pdfs-from-markdown-with-pandoc-and-latex/'
 image: image-pandoc-latex.jpg
-categories: Chris writing sitepoint
+categories: writing sitepoint
 ---
 
 If you've read some of my previous posts on SitePoint or elsewhere, you may know that I'm working on a board game. In the game, called Chip Shop, you get to run a computer company in 1980s America.

@@ -4,7 +4,7 @@ title: Estonia-between East West and the World
 published: 2016-01-08
 link: https://thenextweb.com/insider/2016/01/08/estonia-between-east-west-and-the-world/
 image: image-estonia.jpg
-categories: Chris writing thenextweb
+categories: writing thenextweb
 tags: estonia tech startups
 ---
 

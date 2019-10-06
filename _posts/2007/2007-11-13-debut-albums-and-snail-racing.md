@@ -2,7 +2,7 @@
 layout: post
 title: Debut Albums and Snail Racing
 date: '2007-11-13T17:03:11+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music holidays
 ---
 

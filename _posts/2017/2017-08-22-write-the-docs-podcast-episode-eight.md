@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: "WTD Episode 8 - Stack Overflow's Documentation Failure and Open Source Challenges"
 date: '2017-08-22 09:37:12 +0200'
 image: podcast/wtd-8.png

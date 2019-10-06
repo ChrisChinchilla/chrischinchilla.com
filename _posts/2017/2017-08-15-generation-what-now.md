@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 title: Generation what now?
 date: 2017-08-15
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Generation-what-now-e14p6q/a-a2io9r" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>

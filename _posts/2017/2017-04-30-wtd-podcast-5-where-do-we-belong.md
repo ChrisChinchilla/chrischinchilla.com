@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: "WTD Episode 5: Where do we belong?"
 date: '2017-04-30 23:37:12 +0200'
 image: podcast/wtd-5.png

@@ -1,7 +1,7 @@
 ---
 title: Courses
 layout: page
-categories: Chris writing courses
+categories: writing courses
 permalink: /writing/courses/index.html
 ---
 

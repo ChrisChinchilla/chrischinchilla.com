@@ -1,10 +1,10 @@
 ---
 title: "Datical - Bringing DevOps practices to Database Administrators"
-kind: podcast
+layout: podcast
 created_at: 2017-08-22 07:59:48 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

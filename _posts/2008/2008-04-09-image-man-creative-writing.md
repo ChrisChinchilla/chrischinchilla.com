@@ -2,7 +2,7 @@
 layout: post
 title: Image Man - Creative Writing
 created: 1207717422
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: creative
 ---
 

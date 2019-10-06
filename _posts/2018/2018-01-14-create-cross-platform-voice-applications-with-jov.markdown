@@ -2,8 +2,8 @@
 title: "Create Cross-Platform Voice Applications With Jovo"
 created_at: 2018-01-14 10:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - alexa
   - google assistant
   - voice interfaces

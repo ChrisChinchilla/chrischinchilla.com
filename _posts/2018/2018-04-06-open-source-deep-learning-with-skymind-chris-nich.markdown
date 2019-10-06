@@ -2,7 +2,7 @@
 title: "Open Source Deep Learning with Skymind - Chris Nicholson"
 created_at: 2018-04-06 11:00:00 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
  - Deep learning
  - Machine learning

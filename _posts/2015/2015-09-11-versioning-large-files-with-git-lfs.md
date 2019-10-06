@@ -3,7 +3,7 @@ title: Versioning Large Files with git LFS
 created: 2015-09-11T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/versioning-large-files-with-git-lfs/'
 image: image-versioning-large-files-withgit-lfs.png
-categories: Chris writing sitepoint
+categories: writing sitepoint
 tags: git
 ---
 

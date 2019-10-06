@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 title: Love in the time of artificial intelligence
 date: "2017-12-04 14:16"
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Love-in-the-time-of-artificial-intelligence-e14p66/a-a2io99" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>

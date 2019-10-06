@@ -2,7 +2,7 @@
 layout: post
 title: How long did that website really take to make?
 created: 2013-01-21T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: web html  internet
 image: Internet_map_1024_0.jpg
 ---

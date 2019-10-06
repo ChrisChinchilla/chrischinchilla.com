@@ -2,7 +2,7 @@
 title: "Putting your brain in control - With Max Newton of BrainCo"
 created_at: 2018-04-12 14:00:00 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
  - Brain control
  - Wearables

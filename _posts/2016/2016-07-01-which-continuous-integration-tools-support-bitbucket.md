@@ -3,7 +3,7 @@ title: Video - Which Continuous Integration Tools Support Bitbucket?
 created: 2016-07-01T00:00:00.000Z
 publication_url: https://www.sitepoint.com/premium/screencasts/which-continuous-integration-tools-support-bitbucket
 image: bitbucket.png
-categories: Chris writing sitepoint
+categories: writing sitepoint
 tags: git bitbucket video
 ---
 

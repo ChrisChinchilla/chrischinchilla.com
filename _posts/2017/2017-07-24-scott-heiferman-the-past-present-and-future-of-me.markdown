@@ -1,10 +1,10 @@
 ---
 title: "Scott Heiferman - The past, present and future of meeting people with meetup founder"
-kind: podcast
+layout: podcast
 created_at: 2017-07-24 06:20:00 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

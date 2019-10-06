@@ -2,7 +2,7 @@
 layout: post
 title: 'Degrowth 2014 - ShareEconomy, P2P, Transition Town - What do they share?'
 created: 2014-09-07T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: politics degrowth activism
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Currently Looking for Opportunities
 created: 1421770903
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 ---
 
 I am currently open to opportunities for full-time and part-time work. Ideally with an enterprising startup or with a larger agency or internal development team.

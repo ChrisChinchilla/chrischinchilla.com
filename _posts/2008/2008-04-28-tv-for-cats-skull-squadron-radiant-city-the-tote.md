@@ -2,7 +2,7 @@
 layout: post
 title: 'TV for Cats, Skull Squadron, Radiant City - The Tote'
 created: 1209399830
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

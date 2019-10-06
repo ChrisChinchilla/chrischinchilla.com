@@ -2,7 +2,7 @@
 layout: post
 title: Art Brut battle of the franchises - Kilburn Luminaire
 created: 2005-09-19T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

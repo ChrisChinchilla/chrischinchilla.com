@@ -2,8 +2,8 @@
 title: "Postman Pro Features Now Free For Smaller Projects"
 created_at: 2017-07-19 05:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - api
   - postman
   - mocking

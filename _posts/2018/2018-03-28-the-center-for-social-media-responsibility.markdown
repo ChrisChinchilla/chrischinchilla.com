@@ -2,7 +2,7 @@
 title: "The Center for Social Media Responsibility"
 created_at: 2018-03-28 13:00:00 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
  - Social media
  - Ethics

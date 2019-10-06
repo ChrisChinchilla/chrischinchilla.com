@@ -2,7 +2,7 @@
 layout: post
 title: Bright Eyes - Noise Floor
 created: 1159276588
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

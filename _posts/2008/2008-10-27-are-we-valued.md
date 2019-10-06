@@ -2,7 +2,7 @@
 layout: post
 title: Are We Valued
 created: 2008-10-27T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: opinion cycling
 ---
 

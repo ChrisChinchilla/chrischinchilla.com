@@ -2,7 +2,7 @@
 layout: post
 title: The Rip - I Heart Hiroshima
 created: 1262530430
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: The Immediate - Scala
 created: 1151593836
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

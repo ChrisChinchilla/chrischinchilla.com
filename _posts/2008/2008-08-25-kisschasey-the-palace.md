@@ -2,7 +2,7 @@
 layout: post
 title: Kisschasey - The Palace
 created: 1219690571
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

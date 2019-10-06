@@ -1,10 +1,10 @@
 ---
 title: "Decentralised Privacy with Loki Network"
-kind: podcast
+layout: podcast
 created_at: 2019-02-13 17:00:00 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Decentralised-Privacy-with-Loki-Network-e36f94
 layout: podcast
 ---

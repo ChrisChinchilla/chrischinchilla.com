@@ -2,7 +2,7 @@
 layout: post
 title: Jay Bennett - The Magnificent Defeat
 created: 1158650925
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

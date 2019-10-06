@@ -2,8 +2,8 @@
 title: "Screeps: The MMO Sandbox Game for Programmers"
 created_at: 2017-06-18 05:01:07 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - javascript
   - coding challenges
   - web dev

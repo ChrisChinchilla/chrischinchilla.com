@@ -2,7 +2,7 @@
 layout: post
 title: Broken Family Band - Balls
 created: 1147014636
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

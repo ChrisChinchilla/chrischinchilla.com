@@ -2,7 +2,7 @@
 layout: post
 title: How I Wrote the Atom Medium Exporter and How You Can Help Make It Better
 date: '2016-10-18 16:20:32 +0200'
-categories: Chris writing hackernoon
+categories: writing hackernoon
 tags: writing techwriting medium atom
 layout: post
 image: projects/medium-export.png

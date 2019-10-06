@@ -2,7 +2,7 @@
 layout: post
 title: Pink Grease - Ordinary Girl
 created: 1148483436
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: The Spoils - Toff in Town
 created: 1262530210
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

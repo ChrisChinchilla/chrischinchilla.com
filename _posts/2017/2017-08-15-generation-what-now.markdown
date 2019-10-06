@@ -1,10 +1,10 @@
 ---
 title: "Generation what now?"
-kind: podcast
+layout: podcast
 created_at: 2017-08-15 06:52:17 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

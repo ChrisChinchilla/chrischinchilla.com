@@ -1,7 +1,7 @@
 ---
 action: to hear about
 layout: event
-categories: Both
+categories:
 
 title: null
 event: Web Summit

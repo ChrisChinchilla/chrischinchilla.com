@@ -3,7 +3,7 @@ layout: post
 title: An Australian Band and Warehouse Parties
 date: '2007-04-28T20:15:38+00:00'
 tags: melbourne music
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 ---
 
 I haven't made any personal posts for a while, not due to lack of anything to say or to talk about, just haven't got round to it, I've been quite busy, beavering away trying to sort a load of things with varying degrees of success. I wont bother getting everything up to date, just a few highlights from the past few weeks and I'll try to be more regular from now on.

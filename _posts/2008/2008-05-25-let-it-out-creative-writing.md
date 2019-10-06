@@ -2,7 +2,7 @@
 layout: post
 title: Let it Out - Creative Writing
 created: 2008-05-25T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: creative
 ---
 

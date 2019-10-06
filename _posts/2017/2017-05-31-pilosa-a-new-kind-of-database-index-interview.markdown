@@ -2,8 +2,8 @@
 title: "Pilosa: A New Kind of Database Index [Interview]"
 created_at: 2017-05-31 05:02:08 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - database
   - database indexes
   - pilosa

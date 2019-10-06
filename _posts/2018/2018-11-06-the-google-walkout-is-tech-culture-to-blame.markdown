@@ -1,10 +1,10 @@
 ---
 title: "The Google Walkout - Is Tech Culture to Blame?"
-kind: podcast
+layout: podcast
 created_at: 2018-11-06 07:52:35 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

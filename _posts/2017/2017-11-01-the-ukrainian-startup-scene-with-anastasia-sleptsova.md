@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: The Ukrainian Startup scene with Anastasia Sleptsova
 date: "2017-11-01 14:16"
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/The-Ukrainian-Startup-scene-with-Anastasia-Sleptsova-e14p6b" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>

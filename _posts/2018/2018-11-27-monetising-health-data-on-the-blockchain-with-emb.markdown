@@ -3,8 +3,8 @@ title: "Monetising Health Data on the Blockchain with Embleema"
 kind: article
 created_at: 2018-11-27 15:00:00 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 publication_url: https://anchor.fm/theweeklysqueak/episodes/Monetising-Health-Data-on-the-Blockchain-with-Embleema-e2l6ct
 layout: post
 ---

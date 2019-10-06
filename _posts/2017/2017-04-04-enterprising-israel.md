@@ -3,7 +3,7 @@ layout: post
 title: Enterprising Israel
 date: '2017-04-04 11:13:30 +0100'
 image: Tel-Aviv-startup-hub.jpg
-categories: Chris writing dzone
+categories: writing dzone
 tags:
   - israel
   - tel aviv

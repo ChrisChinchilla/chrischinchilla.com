@@ -2,7 +2,7 @@
 title: "WTD Episode 11 - Combining Forces for Documentation Sources -- Exploring the Mozilla Developer Network's Web Docs project"
 created_at: 2017-11-27 00:00:00 UTC
 author: ""
-categories: Chris media podcast
+categories: media podcast
 tags:
   - Documentation
   - Mozilla

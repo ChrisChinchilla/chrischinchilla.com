@@ -2,7 +2,7 @@
 title: "Aiva - The Ai that composes music"
 created_at: 2018-02-16 08:05:34 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
   - music
   - generative

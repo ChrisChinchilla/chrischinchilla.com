@@ -2,7 +2,7 @@
 layout: post
 title: White Party and the Burning of the Cutty Sark
 date: '2007-05-22T15:53:36+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: parties art
 ---
 

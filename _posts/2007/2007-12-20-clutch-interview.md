@@ -2,7 +2,7 @@
 layout: post
 title: Clutch - Interview
 created: 1198178014
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

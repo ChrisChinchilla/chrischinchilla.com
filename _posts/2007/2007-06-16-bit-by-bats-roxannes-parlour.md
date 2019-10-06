@@ -2,7 +2,7 @@
 layout: post
 title: "Bit by Bats - Roxanne's Parlour"
 created: 1182014910
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

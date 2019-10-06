@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: What can musicians and programmers learn from each other? A conversation with Ryan Blunden
 date: "2017-11-07 14:16"
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/What-can-musicians-and-programmers-learn-from-each-other--A-conversation-with-Ryan-Blunden-e14p6a/a-a2io9c" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>

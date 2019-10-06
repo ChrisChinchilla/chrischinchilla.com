@@ -2,7 +2,7 @@
 layout: post
 title: 'Goofang, Spun Rivals, Worlds End Press - Ding Dong, Melbourne'
 created: 1198177896
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Ranking full stop"
-kind: podcast
+layout: podcast
 created_at: 2019-03-27 15:00:00 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Ranking-full-stop-e3ijv8
 layout: podcast
 ---

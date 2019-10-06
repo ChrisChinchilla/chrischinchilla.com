@@ -2,8 +2,8 @@
 title: "Does GraphQL Reduce the Need for Documentation?"
 created_at: 2017-09-26 14:03:06 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - graphql
   - rest api
   - api documentation

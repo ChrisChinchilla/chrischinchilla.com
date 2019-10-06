@@ -2,7 +2,7 @@
 title: "Optimize your cloud native infrastructure with Replex.io"
 created_at: 2018-01-29 08:00:21 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
   - cloud
   - cloud native

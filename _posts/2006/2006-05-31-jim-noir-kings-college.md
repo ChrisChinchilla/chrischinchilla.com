@@ -2,7 +2,7 @@
 layout: post
 title: Jim Noir - Kings College
 created: 1149088236
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

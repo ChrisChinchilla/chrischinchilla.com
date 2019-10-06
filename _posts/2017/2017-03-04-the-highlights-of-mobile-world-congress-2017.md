@@ -3,7 +3,7 @@ layout: post
 title: The Highlights of Mobile World Congress 2017
 date: '2017-03-04 18:13:30 +0100'
 image: mwc-2017.jpg
-categories: Chris writing dzone
+categories: writing dzone
 tags: events conferences mobile iot MWC MWC2017
 publication_url: https://dzone.com/articles/the-highlights-of-mobile-world-congress-2017
 ---

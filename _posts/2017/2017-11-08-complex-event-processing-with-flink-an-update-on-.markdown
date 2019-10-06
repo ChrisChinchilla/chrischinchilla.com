@@ -2,8 +2,8 @@
 title: "Complex Event Processing with Flink - An Update on the State of Flink CEP"
 created_at: 2017-11-08 15:01:51 UTC
 author: "Chris Ward"
-categories: Chris writing dataartisans
-tags: 
+categories: writing dataartisans
+tags:
   - Flink Features
   - Use Cases
   - alerting

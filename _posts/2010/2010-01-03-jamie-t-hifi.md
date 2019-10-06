@@ -2,7 +2,7 @@
 layout: post
 title: Jamie T - HiFi
 created: 1262530338
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

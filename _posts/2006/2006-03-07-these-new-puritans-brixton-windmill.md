@@ -2,7 +2,7 @@
 layout: post
 title: These New Puritans - Brixton Windmill
 created: 1141747836
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

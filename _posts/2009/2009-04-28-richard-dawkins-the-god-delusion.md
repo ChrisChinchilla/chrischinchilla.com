@@ -2,7 +2,7 @@
 layout: post
 title: Richard Dawkins - The God Delusion
 created: 1240941092
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: books reviews religion
 ---
 

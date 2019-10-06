@@ -2,7 +2,7 @@
 layout: post
 title: NetSquared meetup Aug 2013
 created: 1377816841
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: events
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: The Stranglers - The Palace
 created: 1240940728
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

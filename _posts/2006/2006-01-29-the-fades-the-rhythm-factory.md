@@ -2,7 +2,7 @@
 layout: post
 title: The Fades - The Rhythm Factory
 created: 1138551036
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

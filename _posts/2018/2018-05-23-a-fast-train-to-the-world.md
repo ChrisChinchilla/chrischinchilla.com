@@ -1,11 +1,11 @@
 ---
 title: "A fast train to the world"
-kind: podcast
+layout: podcast
 created_at: 2018-05-23 15:57:36 UTC
 author: ""
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 image: 347957-1527086909766-890a5c21430f9.jpg
 tags:
   - GDPR

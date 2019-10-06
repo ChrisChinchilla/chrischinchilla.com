@@ -2,8 +2,8 @@
 title: "Data Science in a Box With Dataiku"
 created_at: 2017-09-06 05:02:21 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - data science
   - data analysis
   - python

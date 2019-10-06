@@ -2,7 +2,7 @@
 layout: post
 title: DrupalGov and Canberra 2013
 created: 2013-08-25T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: drupal crm conference
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: The realities and challenges of being a digital nomad
 date: '2017-04-11 18:13:30 +0100'
 image: how-to-become-a-digital-nomad.jpg
-categories: Chris writing envato
+categories: writing envato
 tags:
   - digital nomad
   - freelance

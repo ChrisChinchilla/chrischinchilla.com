@@ -2,7 +2,7 @@
 layout: post
 title: Job Interviews and Playing in Geelong
 date: '2007-10-08T22:27:39+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music work
 ---
 

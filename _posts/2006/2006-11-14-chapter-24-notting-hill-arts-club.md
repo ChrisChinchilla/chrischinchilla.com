@@ -2,7 +2,7 @@
 layout: post
 title: Chapter 24 - Notting Hill Arts Club
 created: 1163466190
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

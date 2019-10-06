@@ -1,10 +1,10 @@
 ---
 title: "Tech in Board Games, an Interview with Ben Maddox"
-kind: podcast
+layout: podcast
 created_at: 2017-09-06 14:24:19 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

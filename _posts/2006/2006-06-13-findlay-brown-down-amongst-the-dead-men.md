@@ -2,7 +2,7 @@
 layout: post
 title: Findlay Brown - Down amongst the Dead men
 created: 1150211436
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

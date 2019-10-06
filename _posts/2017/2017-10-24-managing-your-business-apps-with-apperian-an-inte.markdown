@@ -2,8 +2,8 @@
 title: "Managing Your Business Apps With Apperian- An Interview With Mark Lorion..."
 created_at: 2017-10-24 09:01:38 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - app management
   - enterprise
   - mobile

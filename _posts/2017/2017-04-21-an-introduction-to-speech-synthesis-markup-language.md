@@ -3,7 +3,7 @@ layout: post
 title: An Introduction to Speech Synthesis Markup Language
 date: '2017-04-21 10:13:30 +0100'
 image: SSML.jpg
-categories: Chris writing dzone
+categories: writing dzone
 tags: speech synthesis SSML tutorial
 publication_url: https://dzone.com/articles/an-introduction-to-speech-synthesis-markup-languag
 ---

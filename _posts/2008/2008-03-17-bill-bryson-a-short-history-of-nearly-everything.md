@@ -2,7 +2,7 @@
 layout: post
 title: Bill Bryson - A Short History of nearly everything
 created: 2008-03-17T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: reviews books history
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 'Teenager, Damn Arms - Bootleg'
 created: 1179517507
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

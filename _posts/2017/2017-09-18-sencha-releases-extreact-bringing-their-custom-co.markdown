@@ -2,8 +2,8 @@
 title: "Sencha Releases ExtReact, Bringing Their Custom Components to the React..."
 created_at: 2017-09-18 14:01:46 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - react
   - ext js
   - javascript

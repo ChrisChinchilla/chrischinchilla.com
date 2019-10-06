@@ -3,7 +3,7 @@ layout: post
 title: Skegness wind farm
 created: 1313092211
 image: skeg2.jpg
-categories: chrischinchilla writing
+categories: writing
 tags: travel uk greatidea
 ---
 

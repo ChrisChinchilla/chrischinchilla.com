@@ -4,7 +4,7 @@ date: '2018-04-18T19:16:18+02:00'
 image: robotjob.jpg
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 tags:
   - AI
   - Artificial Intelligence

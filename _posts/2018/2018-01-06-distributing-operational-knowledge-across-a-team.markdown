@@ -2,8 +2,8 @@
 title: "Distributing Operational Knowledge Across a Team"
 created_at: 2018-01-06 20:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - agile
   - communication &amp;amp; collaboration
   - operational agility

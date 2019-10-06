@@ -2,7 +2,7 @@
 layout: post
 title: MC Lars Horris - 93ft East
 created: 1145459436
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

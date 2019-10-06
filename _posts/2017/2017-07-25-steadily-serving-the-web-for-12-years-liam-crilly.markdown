@@ -1,10 +1,10 @@
 ---
 title: "Steadily Serving the Web for 12 years, Liam Crilly from NGINX"
-kind: podcast
+layout: podcast
 created_at: 2017-07-25 08:19:52 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

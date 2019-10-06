@@ -2,7 +2,7 @@
 layout: post
 title: 'Findlay Brown - The Social, London'
 created: 1148483436
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

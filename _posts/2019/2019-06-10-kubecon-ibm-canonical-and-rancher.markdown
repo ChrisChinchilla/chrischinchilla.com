@@ -1,11 +1,11 @@
 ---
 title: "KubeCon - IBM, Canonical and Rancher"
-kind: podcast
+layout: podcast
 created_at: 2019-06-10 14:00:00 UTC
 author: ""
-categories: Chris podcast theweeklysqueak
+categories: podcast theweeklysqueak
 podcast: "The Weekly Squeak"
-tags: 
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/KubeCon---IBM--Canonical-and-Rancher-e48qmp
 layout: podcast
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/3483801/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-5-6%2F16527616-44100-2-0f10f8b98c827.m4a

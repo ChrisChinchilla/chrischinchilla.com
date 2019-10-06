@@ -2,7 +2,7 @@
 layout: post
 title: Blah blah blah - 93ft East
 created: 1159847449
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

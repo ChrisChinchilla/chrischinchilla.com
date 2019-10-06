@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: "Wtd Episode 2 - Findability, Helping Users Find What They're Looking for in Documentation"
 date: '2016-12-18 09:37:12 +0200'
 image: podcast/wtd-2.png

@@ -2,7 +2,7 @@
 title: "Will the Opera web3 wallet drive adoption?"
 created_at: 2019-04-24 02:16:11 UTC
 author: "Chris Ward"
-categories: Chris writing kauri
+categories: writing kauri
 tags:
   - opera
   - ux

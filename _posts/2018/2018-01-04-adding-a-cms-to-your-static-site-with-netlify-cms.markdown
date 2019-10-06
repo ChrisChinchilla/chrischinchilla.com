@@ -2,8 +2,8 @@
 title: "Adding a CMS to Your Static Site With Netlify CMS"
 created_at: 2018-01-04 15:01:33 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - cms
   - content management system
   - static site generator

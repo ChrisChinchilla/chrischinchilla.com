@@ -2,7 +2,7 @@
 layout: post
 title: The Maccabees - ULU
 created: 2007-01-16T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

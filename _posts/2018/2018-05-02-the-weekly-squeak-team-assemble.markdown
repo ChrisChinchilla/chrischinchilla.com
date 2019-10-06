@@ -1,11 +1,11 @@
 ---
 title: "The Weekly Squeak - Team Assemble!"
-kind: podcast
+layout: podcast
 created_at: 2018-05-02 15:57:36 UTC
 author: ""
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 tags:
   - GDPR
   - Board games

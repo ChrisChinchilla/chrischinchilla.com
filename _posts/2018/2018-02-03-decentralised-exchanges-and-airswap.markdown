@@ -2,7 +2,7 @@
 title: "Decentralised exchanges and AirSwap"
 created_at: 2018-02-03 13:18:15 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
   - blockchain
   - cryptocurrencies

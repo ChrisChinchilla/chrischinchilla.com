@@ -1,7 +1,7 @@
 ---
 title: The Enthusiastic Amateur
 layout: page
-categories: Chris media podcast
+categories: media podcast
 permalink: /podcasts/theenthusiasticamateur/index.html
 ---
 

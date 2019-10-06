@@ -1,10 +1,10 @@
 ---
 title: "Revolutionising health data with Arkhn"
-kind: podcast
+layout: podcast
 created_at: 2019-03-14 15:00:00 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Revolutionising-health-data-with-Arkhn-e3f4lc
 layout: podcast
 ---

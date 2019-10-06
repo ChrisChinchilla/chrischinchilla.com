@@ -2,7 +2,7 @@
 layout: post
 title: 'Dr Invisiablo, Assassination Collective - The Old Bar'
 created: 1225146916
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

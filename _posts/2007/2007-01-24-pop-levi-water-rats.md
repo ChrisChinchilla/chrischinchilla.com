@@ -2,7 +2,7 @@
 layout: post
 title: Pop Levi - Water Rats
 created: 2007-01-24T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

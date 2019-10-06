@@ -2,7 +2,7 @@
 layout: post
 title: Clayton Blizzard - The Notting Hill Arts Club
 created: 2007-01-13T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

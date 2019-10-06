@@ -2,7 +2,7 @@
 layout: post
 title: VWF - Wont do you any harm
 created: 1155726227
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

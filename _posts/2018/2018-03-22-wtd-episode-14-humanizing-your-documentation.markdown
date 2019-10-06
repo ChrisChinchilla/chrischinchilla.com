@@ -1,11 +1,11 @@
 ---
 title: "WTD Episode 14 - Humanizing your documentation"
-kind: podcast
+layout: podcast
 created_at: 2018-03-22 00:00:00 UTC
 author: ""
-categories: Chris podcast writethedocs
+categories: podcast writethedocs
 podcast: "Write the Docs"
-tags: 
+tags:
 orig_url: http://podcast.writethedocs.org/2018/03/22/humanizing-documentation/
 layout: podcast
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_14_humanizing_docs.mp3

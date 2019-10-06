@@ -10,7 +10,14 @@ layout: default
   </header>
 
   <article class="post-content">
-    {{ page.podcast_embed }}
+    {% if page.podcast_embed %}
+    <div>
+      <audio controls>
+        <source src={{page.podcast_embed}}>
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    {% endif %}
     {{ content }}
   </article>
   <!-- {% include articleFooter.html %}

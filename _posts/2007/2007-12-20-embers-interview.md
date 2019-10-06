@@ -2,7 +2,7 @@
 layout: post
 title: Embers - Interview
 created: 1198178336
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

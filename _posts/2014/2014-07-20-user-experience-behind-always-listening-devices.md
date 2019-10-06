@@ -2,7 +2,7 @@
 title: The User Experience behind always listening devices
 created: 20140720
 publication_url: 'https://www.sitepoint.com/user-experience-behind-always-listening-devices/'
-categories: Chris writing sitepoint
+categories: writing sitepoint
 ---
 
 A couple of months ago I watched the movies 'Her' and 'Computer Chess'.

@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: "WTD Episode 9 - Chatbots in Documentation"
 date: 2017-09-19
 image: podcast/wtd-9.png

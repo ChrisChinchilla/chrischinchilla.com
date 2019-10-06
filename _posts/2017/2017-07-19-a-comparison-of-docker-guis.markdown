@@ -2,8 +2,8 @@
 title: "A Comparison of Docker GUIs"
 created_at: 2017-07-19 18:01:00 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - devops
   - docker
   - gui

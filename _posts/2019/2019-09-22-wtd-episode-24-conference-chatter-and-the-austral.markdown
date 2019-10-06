@@ -1,14 +1,14 @@
 ---
 title: "WTD Episode 24 - Conference chatter and the Australian scene, with Swapnil Ogale"
-kind: podcast
+layout: podcast
 created_at: 2019-09-22 00:00:00 UTC
 author: ""
-categories: Chris podcast writethedocs
+categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
 orig_url: http://podcast.writethedocs.org/2019/09/22/episode-24-swapnil-and-wtd-australia/
-layout: podcast
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_24_wtd_community_australia.mp3
 image: wtdpodcastlogo.png
+permalink: /:categories/:title/
 ---
 In this episode, we're joined by the Write the Docs Australia initiator Swapnil Ogale. We talk about conference wind-downs and ramp-ups, highlights from the just-finished WTD Prague conference, speakers announced for upcoming Write the Docs Australia conference, the "Good Docs Project," the tech writing scene in Australia, and more.

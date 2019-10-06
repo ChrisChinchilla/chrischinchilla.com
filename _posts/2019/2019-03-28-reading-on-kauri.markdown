@@ -2,7 +2,7 @@
 title: "Reading on Kauri"
 created_at: 2019-03-28 13:24:47 UTC
 author: "Chris Ward"
-categories: Chris writing kauri
+categories: writing kauri
 tags:
   - kauri
   - reading

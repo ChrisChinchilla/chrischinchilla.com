@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 title: Daniel G. Siegel - the bullet hole misconception
 date: 2018-01-09T08:54:30.979Z
 image: podcast/dan-siegel.jpg

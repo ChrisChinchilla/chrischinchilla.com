@@ -2,8 +2,8 @@
 title: "An Interview With Brian Gracely on Red Hat&#39;s Acquisition of CoreOS..."
 created_at: 2018-03-07 20:28:57 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - red hat
   - coreos
   - open shift

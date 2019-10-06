@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: "WTD Episode 4: Continuous Integration and Docs like Code"
 date: '2017-03-05 09:37:12 +0200'
 image: podcast/wtd-4.png

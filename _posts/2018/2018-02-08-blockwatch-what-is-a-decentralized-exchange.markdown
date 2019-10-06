@@ -2,8 +2,8 @@
 title: "Blockwatch- What Is a Decentralized Exchange?"
 created_at: 2018-02-08 14:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - blockchain
   - cryptocurrencies
   - security

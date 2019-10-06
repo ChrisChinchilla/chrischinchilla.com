@@ -1,7 +1,7 @@
 ---
 title: Fiction
 layout: default
-categories: Chris writing fiction
+categories: writing fiction
 permalink: /writing/fiction/index.html
 ---
 

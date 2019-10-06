@@ -2,8 +2,8 @@
 title: "Lucas Carlson of Automic - Taking DevOps Beyond Developers [Audio]"
 created_at: 2017-07-18 14:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - devops
   - automation
   - ai

@@ -2,8 +2,8 @@
 title: "Creating Augmented Reality and IoT Experiences With Thingworx"
 created_at: 2017-12-04 06:01:04 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - iot
   - augmented reality
   - thingworx

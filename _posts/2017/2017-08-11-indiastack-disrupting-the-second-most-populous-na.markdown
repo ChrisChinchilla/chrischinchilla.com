@@ -2,8 +2,8 @@
 title: "IndiaStack- Disrupting the Second Most Populous Nation in the World"
 created_at: 2017-08-11 18:01:08 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - big data
   - data analytics
   - app development

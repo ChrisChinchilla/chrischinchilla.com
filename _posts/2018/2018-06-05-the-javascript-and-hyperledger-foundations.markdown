@@ -1,10 +1,10 @@
 ---
 title: "The JavaScript and Hyperledger foundations"
-kind: podcast
+layout: podcast
 created_at: 2018-06-05 15:00:00 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

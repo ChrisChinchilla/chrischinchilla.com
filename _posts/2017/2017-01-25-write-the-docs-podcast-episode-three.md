@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: "Wtd Episode 3 - Technical writing trends for 2017"
 date: '2017-01-25 09:37:12 +0200'
 image: podcast/wtd-3.png

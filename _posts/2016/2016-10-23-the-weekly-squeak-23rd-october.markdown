@@ -3,7 +3,7 @@ layout: post
 title: 'The Weekly Squeak, 23rd October'
 date: '2016-10-23 09:37:12 +0200'
 image: essen.jpg
-categories: Chris writing theweeklysqueak
+categories: writing theweeklysqueak
 tags: links cyanogen android sailfish security
 ---
 

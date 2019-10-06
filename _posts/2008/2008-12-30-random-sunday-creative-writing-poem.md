@@ -3,7 +3,7 @@ layout: post
 title: Random Sunday - Creative Writing (poem)
 created: 2008-12-30T00:00:00.000Z
 tags: poetry creative
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 ---
 
 Let down the wall, try not to use a piano, you'll amaze yourself.

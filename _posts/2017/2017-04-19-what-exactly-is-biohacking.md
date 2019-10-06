@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 tags: interview biohacking nutrition trends
 title: What exactly is BioHacking?
 date: '2017-04-19 18:13:30 +0100'

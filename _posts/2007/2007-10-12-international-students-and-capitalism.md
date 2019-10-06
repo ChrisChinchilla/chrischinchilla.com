@@ -2,7 +2,7 @@
 layout: post
 title: International Students and Capitalism
 date: '2007-10-12T16:27:13+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: students australia politics
 ---
 

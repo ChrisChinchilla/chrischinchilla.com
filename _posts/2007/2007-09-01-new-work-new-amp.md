@@ -2,7 +2,7 @@
 layout: post
 title: 'New Work, New Amp'
 date: '2007-09-01T18:13:01+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music work
 ---
 

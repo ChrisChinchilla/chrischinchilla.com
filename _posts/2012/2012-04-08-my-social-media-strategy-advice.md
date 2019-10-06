@@ -2,7 +2,7 @@
 layout: post
 title: My Social Media strategy advice
 created: 1333857256
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: creative
 ---
 

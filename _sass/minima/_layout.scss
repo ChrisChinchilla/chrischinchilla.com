@@ -78,8 +78,9 @@
     color: $text-color;
     line-height: $base-line-height;
     display: block;
-    padding: 5px 10px;
-
+    @media screen and (min-width: $on-medium) {
+      padding: 5px 10px;
+    }
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 0;

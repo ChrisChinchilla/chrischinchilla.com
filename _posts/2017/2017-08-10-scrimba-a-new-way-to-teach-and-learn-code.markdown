@@ -2,8 +2,8 @@
 title: "Scrimba- A New Way to Teach and Learn Code"
 created_at: 2017-08-10 17:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - education
   - coding
   - learn to code

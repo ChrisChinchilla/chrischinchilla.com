@@ -2,8 +2,8 @@
 title: "A Guide to Ubuntu Core and Snaps"
 created_at: 2017-10-03 05:02:00 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - ubuntu
   - linux
   - iot

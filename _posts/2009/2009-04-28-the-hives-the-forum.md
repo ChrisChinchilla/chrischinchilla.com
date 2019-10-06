@@ -2,7 +2,7 @@
 layout: post
 title: The Hives - The Forum
 created: 1240940628
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

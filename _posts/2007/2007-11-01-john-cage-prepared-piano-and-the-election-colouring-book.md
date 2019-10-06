@@ -2,7 +2,7 @@
 layout: post
 title: "John Cage's Prepared Piano and the Election Colouring Book"
 date: '2007-11-01T17:59:52+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music politics creative
 ---
 

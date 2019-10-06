@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Chris media podcast
+categories: media podcast
 title: WTD Episode 7 - Let the robots do the work
 date: '2017-07-03 23:37:12 +0200'
 image: podcast/wtd-7.png

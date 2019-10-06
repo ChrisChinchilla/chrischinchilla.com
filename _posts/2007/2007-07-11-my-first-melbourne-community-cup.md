@@ -2,7 +2,7 @@
 layout: post
 title: My First Melbourne Community Cup
 date: '2007-07-11T06:12:29+00:00'
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: melbourne sport
 ---
 

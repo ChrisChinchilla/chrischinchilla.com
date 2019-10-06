@@ -2,8 +2,8 @@
 title: "An Overview of the Kontena Platform"
 created_at: 2017-12-26 05:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - cloud
   - kontena
   - docker containers

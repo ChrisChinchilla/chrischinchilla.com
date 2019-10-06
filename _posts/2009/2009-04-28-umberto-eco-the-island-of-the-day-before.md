@@ -2,7 +2,7 @@
 layout: post
 title: Umberto Eco - The Island of the Day Before
 created: 1240941176
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: books reviews
 ---
 

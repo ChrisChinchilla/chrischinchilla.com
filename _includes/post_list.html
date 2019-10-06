@@ -37,17 +37,17 @@
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h3>
       {% endif %}
-      {% if post.categories[2] == 'sitepoint' or post.categories[2]
+      {% if post.categories[1] == 'sitepoint' or post.categories[1]
       == 'crate' or
-      post.categories[2] == 'codeship' or post.categories[2] == 'sqreen' or
-      post.categories[2] == 'dzone' or post.categories[2] == 'thenextweb' or
-      post.categories[2] == 'cultofmac' or post.categories[2] == 'podcast' or
-      post.categories[2] == 'hackernoon' or post.categories[2] == 'envato' or
-      post.categories[2] == 'readwrite' or post.categories[2] == 'overops' or
-      post.categories[2] == 'techbeacon' or post.categories[2] == 'coralogix' or post.categories[2] == 'kauri' %}
-      <b>for </b>{{ post.categories[2] }} {% else %} for
+      post.categories[1] == 'codeship' or post.categories[1] == 'sqreen' or
+      post.categories[1] == 'dzone' or post.categories[1] == 'thenextweb' or
+      post.categories[1] == 'cultofmac' or post.categories[1] == 'podcast' or
+      post.categories[1] == 'hackernoon' or post.categories[1] == 'envato' or
+      post.categories[1] == 'readwrite' or post.categories[1] == 'overops' or
+      post.categories[1] == 'techbeacon' or post.categories[1] == 'coralogix' or post.categories[1] == 'kauri' %}
+      for {{ post.categories[1] }} {% else %} for
       {% case
-      post.categories[2] %}
+      post.categories[1] %}
       {% when 'odtwe' %}
       <a href="/projects/odtwe">One Day the World Ended</a>
       {% when 'chipshop'%}
@@ -79,7 +79,7 @@
     <p>{{ post.excerpt }}</p>
     {% if post.transcript %}
     <div>
-      <a href="{{ post.url }}">Transcript</a>
+      <a href="{{ post.url | prepend: site.baseurl }}">Transcript</a>
     </div>
     {% endif %}
     <!-- <div class="tags">

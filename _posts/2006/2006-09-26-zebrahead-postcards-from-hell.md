@@ -2,7 +2,7 @@
 layout: post
 title: Zebrahead - Postcards from Hell
 created: 1159276567
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

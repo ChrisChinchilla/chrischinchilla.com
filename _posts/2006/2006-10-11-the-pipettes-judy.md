@@ -2,7 +2,7 @@
 layout: post
 title: The Pipettes - Judy
 created: 1160588081
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

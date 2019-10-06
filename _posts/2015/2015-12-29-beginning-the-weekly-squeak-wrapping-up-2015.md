@@ -2,7 +2,7 @@
 title: Beginning the Weekly Squeak — Wrapping Up 2015
 created: 2015-12-29T00:00:00.000Z
 publication_url: 'https://medium.com/@ChrisChinchilla/beginning-the-weekly-squeak-wrapping-up-2015-7c3b09610ad2#.8get9lwmi'
-categories: Chris writing theweeklysqueak
+categories: writing theweeklysqueak
 tags: 2015 life personal
 image: image-farewell-2015.jpg
 ---

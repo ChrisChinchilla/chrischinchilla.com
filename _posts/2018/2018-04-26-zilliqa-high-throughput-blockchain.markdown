@@ -1,11 +1,11 @@
 ---
 title: "Zilliqa - High throughput Blockchain"
-kind: podcast
+layout: podcast
 created_at: 2018-04-26 14:00:00 UTC
 image: zilliqa.jpg
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 tags:
   - AI
   - Artificial Intelligence

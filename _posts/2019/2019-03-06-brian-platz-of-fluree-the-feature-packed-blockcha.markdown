@@ -1,10 +1,10 @@
 ---
 title: "Brian Platz of Fluree, the Feature Packed Blockchain-based Database"
-kind: podcast
+layout: podcast
 created_at: 2019-03-06 15:00:00 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Brian-Platz-of-Fluree--the-Feature-Packed-Blockchain-based-Database-e3crt8
 layout: podcast
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Tendermint, Cosmos and developer-focused Blockchains"
-kind: podcast
+layout: podcast
 created_at: 2019-03-20 16:00:00 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Tendermint--Cosmos-and-developer-focused-Blockchains-e3goei
 layout: podcast
 ---

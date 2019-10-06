@@ -2,7 +2,7 @@
 layout: post
 title: Aberfeldy - Islington Bar Academy
 created: 1129734637
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

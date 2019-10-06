@@ -2,8 +2,8 @@
 title: "Pravin Halady of NodeSource- Enterprise Ready Node.js [Podcast]"
 created_at: 2017-06-30 14:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - nodejs
   - javascript
   - web dev

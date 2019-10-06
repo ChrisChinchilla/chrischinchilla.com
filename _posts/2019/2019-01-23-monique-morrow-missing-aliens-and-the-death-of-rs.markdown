@@ -1,10 +1,10 @@
 ---
 title: "Monique Morrow, missing aliens, and the death of RSS"
-kind: podcast
+layout: podcast
 created_at: 2019-01-23 15:00:00 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Monique-Morrow--missing-aliens--and-the-death-of-RSS-e30s1g
 layout: podcast
 ---

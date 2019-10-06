@@ -1,10 +1,10 @@
 ---
 title: "15th January - Rachel Black of Lisk"
-kind: podcast
+layout: podcast
 created_at: 2019-01-15 15:00:00 UTC
 author: ""
-categories: Chris media podcast
-tags: 
+categories: media podcast
+tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/15th-January---Rachel-Black-of-Lisk-e2ulav
 layout: podcast
 ---

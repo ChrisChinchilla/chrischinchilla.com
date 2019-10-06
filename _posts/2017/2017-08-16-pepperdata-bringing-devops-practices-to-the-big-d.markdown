@@ -1,10 +1,10 @@
 ---
 title: "Pepperdata - Bringing DevOps Practices to the Big Data World"
-kind: podcast
+layout: podcast
 created_at: 2017-08-16 07:38:09 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

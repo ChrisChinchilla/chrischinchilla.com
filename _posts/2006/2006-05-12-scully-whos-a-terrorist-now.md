@@ -2,7 +2,7 @@
 layout: post
 title: "Scully - Who's a Terrorist Now?"
 created: 1147446636
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

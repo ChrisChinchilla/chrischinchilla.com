@@ -2,7 +2,7 @@
 layout: post
 title: Sol Seppy - 93ft East
 created: 1147014636
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

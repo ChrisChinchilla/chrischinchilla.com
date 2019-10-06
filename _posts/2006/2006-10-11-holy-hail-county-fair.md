@@ -2,7 +2,7 @@
 layout: post
 title: Holy Hail - County Fair
 created: 1160585959
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

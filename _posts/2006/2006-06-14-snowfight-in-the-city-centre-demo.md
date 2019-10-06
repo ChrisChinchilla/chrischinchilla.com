@@ -2,7 +2,7 @@
 layout: post
 title: Snowfight in the City Centre - Demo
 created: 1150297836
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

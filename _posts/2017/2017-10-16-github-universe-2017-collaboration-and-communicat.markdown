@@ -2,8 +2,8 @@
 title: "GitHub Universe 2017 - Collaboration and Communication"
 created_at: 2017-10-16 05:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - git
   - github
   - version control

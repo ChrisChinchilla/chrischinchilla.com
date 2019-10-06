@@ -2,7 +2,7 @@
 layout: post
 title: "IV Thieves - If we can't escape my pretty"
 created: 2007-02-26T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "What can musicians and programmers learn from each other? A conversation with Ryan Blunden"
-kind: podcast
+layout: podcast
 created_at: 2017-11-07 08:06:57 UTC
 author: ""
-categories: Both media podcast
-tags: 
+categories:  media podcast
+tags:
 publication_url: https://anchor.fm/gregarious-mammal
 layout: podcast
 ---

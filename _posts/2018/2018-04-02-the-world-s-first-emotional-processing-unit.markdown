@@ -2,7 +2,7 @@
 title: "The World&#39;s First Emotional Processing Unit"
 created_at: 2018-04-02 13:00:00 UTC
 author: ""
-categories: Both media podcast
+categories:  media podcast
 tags:
  - AI
  - Artificial Intelligence

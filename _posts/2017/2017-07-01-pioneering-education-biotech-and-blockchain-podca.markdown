@@ -2,8 +2,8 @@
 title: "Pioneering Education, BioTech, and Blockchain [Podcast]"
 created_at: 2017-07-01 05:01:02 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - internet of things
   - biotech
   - blockchain

@@ -3,7 +3,7 @@ layout: post
 title: Build and program with Sam labs Curious Cars
 date: '2017-01-05 19:45:01 +0100'
 image: 2017-01-05-build-and-program-with-sam-labs-curious-cars-eca73892.jpg
-categories: Chris writing theweeklysqueak
+categories: writing theweeklysqueak
 tags: tech review coding children
 excerpt: null
 ---

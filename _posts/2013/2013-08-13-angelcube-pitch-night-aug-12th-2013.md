@@ -2,7 +2,7 @@
 layout: post
 title: 'Angelcube pitch night, Aug 12th 2013'
 created: 2013-08-13T00:00:00.000Z
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: startups events
 ---
 

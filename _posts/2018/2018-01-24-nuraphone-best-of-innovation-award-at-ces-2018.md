@@ -1,7 +1,7 @@
 ---
 type: podcast
 layout: podcast
-categories: Both media podcast
+categories:  media podcast
 title: Nuraphone - Best of Innovation award at CES 2018
 date: 2018-01-24T08:54:30.979Z
 image: podcast/nuraphone.jpg

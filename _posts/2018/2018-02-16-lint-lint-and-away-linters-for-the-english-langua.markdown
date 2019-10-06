@@ -2,8 +2,8 @@
 title: "Lint, Lint and Away! Linters for the English Language"
 created_at: 2018-02-16 13:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - linting
   - text
   - text analysis

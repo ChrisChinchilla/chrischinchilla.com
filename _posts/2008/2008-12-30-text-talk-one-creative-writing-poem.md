@@ -3,7 +3,7 @@ layout: post
 title: Text Talk one
 created: 2008-12-30T00:00:00.000Z
 tags: poetry creative
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 ---
 
 _A poem written completely in predictive text_

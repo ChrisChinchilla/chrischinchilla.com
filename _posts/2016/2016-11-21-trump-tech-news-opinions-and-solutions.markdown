@@ -2,7 +2,7 @@
 layout: post
 title: 'Trump, tech, news, opinions and solutions'
 date: '2016-11-21 11:24:48 +0100'
-categories: Chris media podcast
+categories: media podcast
 tags: politics opinion
 image: podcast/trump-chinchilla.png
 podcast_embed: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294128587&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'

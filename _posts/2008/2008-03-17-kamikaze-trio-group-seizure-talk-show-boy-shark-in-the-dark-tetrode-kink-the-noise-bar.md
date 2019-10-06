@@ -2,7 +2,7 @@
 layout: post
 title: 'Kamikaze Trio, Group Seizure, Talk show Boy, Shark In The Dark, Tetrode Kink - The Noise Bar'
 created: 1205728916
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

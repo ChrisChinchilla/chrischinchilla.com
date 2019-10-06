@@ -3,7 +3,7 @@ layout: post
 title: Thoughts from the NTC 2012 / San Francisco
 created: 1334007154
 image: 12ntc_banner.jpg
-categories: Chris writing chrischinchilla 
+categories: writing chrischinchilla
 ---
 
 

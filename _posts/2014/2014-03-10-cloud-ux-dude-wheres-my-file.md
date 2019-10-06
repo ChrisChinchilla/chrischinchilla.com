@@ -2,7 +2,7 @@
 title: "Cloud UX - Dude where's my file?"
 created: 20140310
 publication_url: 'https://www.sitepoint.com/cloud-ux/'
-categories: Chris writing sitepoint
+categories: writing sitepoint
 ---
 
 The old paradigms in software design have been on life support for a long time.

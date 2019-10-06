@@ -3,7 +3,7 @@ title: Making Atom (even more) awesome — My Setup
 created: 2016-08-31T00:00:00.000Z
 publication_url: https://hackernoon.com/making-atom-even-more-awesome-my-setup-e7a89969a876#.7okd9lrnn
 image: atom.png
-categories: Chris writing hackernoon
+categories: writing hackernoon
 tags: atom writing techwriting texteditors
 layout: post
 ---

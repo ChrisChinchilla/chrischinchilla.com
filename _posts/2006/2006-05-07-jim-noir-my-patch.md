@@ -2,7 +2,7 @@
 layout: post
 title: Jim Noir - My Patch
 created: 1147014636
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 

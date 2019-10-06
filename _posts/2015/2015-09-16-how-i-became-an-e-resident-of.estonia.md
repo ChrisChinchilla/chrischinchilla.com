@@ -3,7 +3,7 @@ title: How I Became an e-Resident of Estonia
 created: 20150916
 publication_url: 'https://www.sitepoint.com/registering-a-business-globally-with-estonias-e-residency/'
 image: image-becoming-an-eresident-estonia.jpg
-categories: Chris writing sitepoint
+categories: writing sitepoint
 ---
 
 I've lived in three countries in my life, and I travel on a regular basis. I wouldn't go as far as to say that we should have global open borders, but there are ways that the life of the new breed of global entrepreneurs could be easier.

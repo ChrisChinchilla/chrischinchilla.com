@@ -2,8 +2,8 @@
 title: "SXSW Part 1- Blockchain and SpaceTech"
 created_at: 2018-03-21 05:02:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - sxsw
   - blockchain
   - ai

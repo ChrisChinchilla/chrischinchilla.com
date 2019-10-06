@@ -3,7 +3,7 @@ layout: post
 title: The Huawei P10, a Powerfully Small Package
 date: '2017-06-12 09:36:36 +0200'
 image: h-p10.jpg
-categories: Chris writing theweeklysqueak
+categories: writing theweeklysqueak
 tags: android devices reviews phones
 ---
 

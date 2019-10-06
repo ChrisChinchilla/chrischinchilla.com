@@ -2,7 +2,7 @@
 layout: post
 title: Roland Shanks - Tarantula
 created: 1150211436
-categories: Chris writing chrischinchilla
+categories: writing chrischinchilla
 tags: music reviews
 ---
 
