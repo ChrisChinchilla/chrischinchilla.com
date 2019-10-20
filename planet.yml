@@ -1,20 +1,20 @@
 planet:
-    posts_directory: _posts/
-    templates_directory: _imported/
-    whitelisted_tags: []
-    # sanitize_html: true
+  posts_directory: _posts/
+  templates_directory: _imported/
+  whitelisted_tags: []
+  # sanitize_html: true
 
 blogs:
   # Bare minimum to get it working
   - author: "Chris Ward"
-    feed:   "https://blog.codeship.com/author/chrisward/feed/"
-    image:  "https://www.rss-specifications.com/rss-spec-rss.gif"
+    feed: "https://blog.codeship.com/author/chrisward/feed/"
+    image: "https://www.rss-specifications.com/rss-spec-rss.gif"
     twitter: "poteland"
     categories: "Chris writing codeship"
     layout: post
   - author: "Chris Ward"
-    feed:   "https://kauri.io/feed/user/9b66e2c73ee59c11ac25ef2730ab589c5416e81a"
-    image:  "https://www.rss-specifications.com/rss-spec-rss.gif"
+    feed: "https://kauri.io/feed/user/9b66e2c73ee59c11ac25ef2730ab589c5416e81a"
+    image: "https://www.rss-specifications.com/rss-spec-rss.gif"
     twitter: "poteland"
-    categories: "Chris writing kauri"
+    categories: "writing kauri"
     layout: post

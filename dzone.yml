@@ -1,12 +1,12 @@
 dzone:
-    posts_directory: _posts/
-    templates_directory: _imported/
-    whitelisted_tags: []
-    # sanitize_html: true
+  posts_directory: _posts/
+  templates_directory: _imported/
+  whitelisted_tags: []
+  # sanitize_html: true
 
 blogs:
   - author: "Chris Ward"
-    profile:   "2962687"
-    image:  "https://www.rss-specifications.com/rss-spec-rss.gif"
+    profile: "2962687"
+    image: "https://www.rss-specifications.com/rss-spec-rss.gif"
     twitter: "poteland"
-    categories: "Chris writing dzone"
+    categories: "writing dzone"
