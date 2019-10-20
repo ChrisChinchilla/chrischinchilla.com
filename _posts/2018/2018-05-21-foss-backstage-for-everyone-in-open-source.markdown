@@ -2,8 +2,8 @@
 title: "FOSS Backstage – For Everyone in Open Source"
 created_at: 2018-05-21 12:01:36 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - berlin
   - conference
   - open source

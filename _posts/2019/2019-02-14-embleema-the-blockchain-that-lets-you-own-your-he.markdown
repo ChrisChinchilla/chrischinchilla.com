@@ -2,8 +2,8 @@
 title: "Embleema- The Blockchain That Lets You Own Your Health Data"
 created_at: 2019-02-14 18:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - blockchain
   - big data
   - data privacy

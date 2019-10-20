@@ -2,8 +2,8 @@
 title: "Stories From KubeCon With Jason McGee, CTO, IBM Cloud Platform"
 created_at: 2019-09-02 07:31:49 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - kubernetes
   - cloud native
   - hybrid cloud

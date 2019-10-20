@@ -2,8 +2,8 @@
 title: "Mojobot- The World’s First Tangible Coding Robot and Board Game"
 created_at: 2019-05-09 12:46:09 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - coding
   - education
   - kids

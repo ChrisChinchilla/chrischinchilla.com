@@ -2,8 +2,8 @@
 title: "News from KubeCon and Cloud Native Con 2018"
 created_at: 2018-05-07 05:01:39 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - kubernetes
   - cloud native
   - serverless

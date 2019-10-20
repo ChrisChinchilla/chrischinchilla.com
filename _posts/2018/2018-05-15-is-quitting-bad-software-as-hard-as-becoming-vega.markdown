@@ -2,8 +2,8 @@
 title: "Is Quitting Bad Software as Hard as Becoming Vegan?"
 created_at: 2018-05-15 09:01:43 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - ethics
   - technology
   - artificial intelligence

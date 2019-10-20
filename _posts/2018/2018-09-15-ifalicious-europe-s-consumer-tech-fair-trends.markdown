@@ -2,8 +2,8 @@
 title: "IFAlicious- Europe&#39;s Consumer Tech Fair Trends"
 created_at: 2018-09-15 14:14:19 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - ifa
   - iot
   - smart home

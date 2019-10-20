@@ -2,8 +2,8 @@
 title: "Removing the Lid on Kata Containers"
 created_at: 2019-04-18 17:01:02 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - runc
   - runv
   - hyper.sh

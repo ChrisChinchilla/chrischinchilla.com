@@ -3,7 +3,7 @@ title: "The Vermont Remote Workers Grant, Docker, Boeing, ICE and Thomas Jeffers
 kind: podcast
 created_at: 2019-10-03 20:00:00 UTC
 author: ""
-categories: Chris podcast theweeklysqueak
+categories: podcast theweeklysqueak
 podcast: "The Weekly Squeak"
 tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/The-Vermont-Remote-Workers-Grant--Docker--Boeing--ICE-and-Thomas-Jefferson-e5rdq0

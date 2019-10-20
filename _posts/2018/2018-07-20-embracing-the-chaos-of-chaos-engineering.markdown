@@ -2,8 +2,8 @@
 title: "Embracing the Chaos of Chaos Engineering"
 created_at: 2018-07-20 18:01:00 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - devops
   - automated testing
   - test automation

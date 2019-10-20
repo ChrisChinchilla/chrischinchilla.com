@@ -2,8 +2,8 @@
 title: "OpenStack Summit Berlin 2018- Running Your Cloud"
 created_at: 2018-12-13 15:53:59 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - openstack
   - cloud
   - kubernetes

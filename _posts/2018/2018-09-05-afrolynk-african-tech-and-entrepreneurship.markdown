@@ -2,8 +2,8 @@
 title: "Afrolynk- African Tech and Entrepreneurship"
 created_at: 2018-09-05 16:03:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - africa
   - startups
   - entrepreneur

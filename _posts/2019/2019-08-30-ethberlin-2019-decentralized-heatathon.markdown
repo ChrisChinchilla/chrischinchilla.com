@@ -2,7 +2,7 @@
 title: "ETHBerlin 2019 - Decentralized Heatathon"
 created_at: 2019-08-30 10:35:58 UTC
 author: "Chris Ward"
-categories: Chris writing kauri
+categories: writing kauri
 tags:
   - hackathons
   - berlin

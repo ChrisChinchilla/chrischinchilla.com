@@ -2,8 +2,8 @@
 title: "Pengwin- Linux Optimized for the Windows Subsystem"
 created_at: 2019-06-12 10:02:02 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - windows
   - linux
   - wsl

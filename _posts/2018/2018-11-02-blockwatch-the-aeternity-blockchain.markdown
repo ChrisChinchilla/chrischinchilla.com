@@ -2,8 +2,8 @@
 title: "Blockwatch- The aeternity Blockchain"
 created_at: 2018-11-02 09:01:04 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - blockchain
   - dns
   - tokens

@@ -2,8 +2,8 @@
 title: "What Is Hybrid Cloud?"
 created_at: 2018-07-16 16:03:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - cloud
   - hybrid
   - network

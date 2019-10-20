@@ -2,8 +2,8 @@
 title: "Netlify Dev- Test the Netlify Hosting Platform Locally"
 created_at: 2019-07-04 13:58:14 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - netlify
   - serverless
   - static site generator

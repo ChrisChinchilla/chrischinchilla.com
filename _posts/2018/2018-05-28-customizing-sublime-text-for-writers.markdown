@@ -2,8 +2,8 @@
 title: "Customizing Sublime Text for Writers"
 created_at: 2018-05-28 16:01:00 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - text editor
   - sublime text
   - technical writing

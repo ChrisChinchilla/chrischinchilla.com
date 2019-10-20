@@ -2,8 +2,8 @@
 title: "Developer Relations and Tech Evangelism With Rachel Black of Lisk"
 created_at: 2019-03-12 09:02:03 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - blockchain
   - lisk
   - developer relations

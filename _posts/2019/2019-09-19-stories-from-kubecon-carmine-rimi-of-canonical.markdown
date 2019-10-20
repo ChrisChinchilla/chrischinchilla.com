@@ -2,8 +2,8 @@
 title: "Stories from KubeCon - Carmine Rimi of Canonical"
 created_at: 2019-09-19 14:11:27 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - canonical
   - ubuntu
   - kubeflow

@@ -2,8 +2,8 @@
 title: "Vale for Spelling, Grammar, Style and Readability Linting"
 created_at: 2018-08-14 09:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - linting
   - writing
   - technical writing

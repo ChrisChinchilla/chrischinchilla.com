@@ -2,8 +2,8 @@
 title: "What Is Continuous Integration?"
 created_at: 2018-11-15 15:02:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - devops
   - tutorial
   - ci/cd

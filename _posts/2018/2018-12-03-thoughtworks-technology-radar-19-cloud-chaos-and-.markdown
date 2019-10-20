@@ -2,8 +2,8 @@
 title: "Thoughtworks Technology Radar 19 — Cloud, Chaos, and Cross-Platform"
 created_at: 2018-12-03 15:02:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - domain driven design
   - chaos engineering
   - secrets management

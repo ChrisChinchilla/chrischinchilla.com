@@ -2,8 +2,8 @@
 title: "An Introduction to CoreOS"
 created_at: 2016-09-22 15:15:55 UTC
 author: "Chris Ward"
-categories: Chris writing codeship
-tags: 
+categories: writing codeship
+tags:
   - Development
 publication_url: "https://blog.codeship.com/an-introduction-to-coreos/"
 image: 964db6a6-69da-4366-afea-b129019aff07.png

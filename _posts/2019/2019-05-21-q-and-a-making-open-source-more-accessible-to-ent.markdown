@@ -2,8 +2,8 @@
 title: "Q and A- Making Open Source More Accessible to Enterprises"
 created_at: 2019-05-21 11:55:47 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - open source
   - enterprise
   - security

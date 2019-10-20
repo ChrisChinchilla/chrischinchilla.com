@@ -2,8 +2,8 @@
 title: "eyeo, Adblocker plus and the future of funding"
 created_at: 2018-08-30 09:04:02 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - advertising
   - open source
   - funding

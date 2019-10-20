@@ -2,8 +2,8 @@
 title: "Creating a Smart Home With Conrad Connect"
 created_at: 2018-09-27 16:03:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - smart home
   - connected devices
   - iot platform

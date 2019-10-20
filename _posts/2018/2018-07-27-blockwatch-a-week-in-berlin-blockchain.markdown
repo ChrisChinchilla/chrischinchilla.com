@@ -2,8 +2,8 @@
 title: "Blockwatch- A Week in Berlin Blockchain"
 created_at: 2018-07-27 09:07:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - blockchain
   - ethereum
   - solidity

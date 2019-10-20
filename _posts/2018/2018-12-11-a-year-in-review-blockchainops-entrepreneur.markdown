@@ -2,8 +2,8 @@
 title: "A Year in Review - BlockchainOps Entrepreneur"
 created_at: 2018-12-11 17:02:03 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - blockchain
   - entrepreneur
   - startups

@@ -2,8 +2,8 @@
 title: "What Can Software Foundations Bring to Your Project?"
 created_at: 2018-06-06 09:02:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - open source
   - software foundations
   - foss

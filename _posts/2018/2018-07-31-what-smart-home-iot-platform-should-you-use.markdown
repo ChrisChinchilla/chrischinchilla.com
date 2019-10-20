@@ -2,8 +2,8 @@
 title: "What Smart Home IoT Platform Should You Use?"
 created_at: 2018-07-31 13:02:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - iot
   - smart home
   - automation

@@ -2,8 +2,8 @@
 title: "Best Tools for Debugging Distributed Applications"
 created_at: 2018-10-18 09:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - debugging tools
   - distributed apps
   - kubernetes

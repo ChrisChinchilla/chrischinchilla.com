@@ -2,8 +2,8 @@
 title: "Secure Yourself for National Cyber Security Awareness Month"
 created_at: 2018-10-24 04:01:01 UTC
 author: "Chris Ward"
-categories: Chris writing dzone
-tags: 
+categories: writing dzone
+tags:
   - malware
   - https
   - vpn
