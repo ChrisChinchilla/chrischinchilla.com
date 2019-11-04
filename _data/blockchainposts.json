@@ -1204,23 +1204,23 @@
       "time_read": "1540888886",
       "time_favorited": "0",
       "sort_id": 42,
-      "resolved_title": "Re-Fungible Token (RFT)",
+      "resolved_title": "Re-Fungible Token (RFT)",
       "resolved_url": "https://medium.com/@billyrennekamp/re-fungible-token-rft-297003592769",
       "excerpt": "The point of this writing is to explore the potential outcomes of using an ERC20 Bonded Curve Token (as per Simon de la Rouviere) or Liquid/Smart Token (as per Bancor) as the owner address of an ERC721 Non Fungible Token (NFT).",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2055",
+      "word_count": "2172",
       "lang": "en",
-      "time_to_read": 9,
-      "top_image_url": "https://cdn-images-1.medium.com/max/1200/1*7Jb91q52ra8qTxwIKMrGJw.png",
+      "time_to_read": 10,
+      "top_image_url": "https://miro.medium.com/max/1200/1*7Jb91q52ra8qTxwIKMrGJw.png",
       "domain_metadata": {
         "name": "Medium",
         "logo": "https://logo.clearbit.com/medium.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/medium.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 795
+      "listen_duration_estimate": 841
     },
     "2091743118": {
       "item_id": "2091743118",
@@ -1376,5 +1376,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1572251729
+  "since": 1572856310
 }
