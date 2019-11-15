@@ -63,7 +63,7 @@
       "favorite": "0",
       "status": "1",
       "time_added": "1573213435",
-      "time_updated": "1573222414",
+      "time_updated": "1573729155",
       "time_read": "1573222413",
       "time_favorited": "0",
       "sort_id": 2,
@@ -1376,5 +1376,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1573223572
+  "since": 1573804513
 }
