@@ -10,7 +10,7 @@ blogs:
     feed: "https://blog.codeship.com/author/chrisward/feed/"
     image: "https://www.rss-specifications.com/rss-spec-rss.gif"
     twitter: "poteland"
-    categories: "Chris writing codeship"
+    categories: "writing codeship"
     layout: post
   - author: "Chris Ward"
     feed: "https://kauri.io/feed/user/9b66e2c73ee59c11ac25ef2730ab589c5416e81a"
