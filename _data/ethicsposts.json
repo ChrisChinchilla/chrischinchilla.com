@@ -15,7 +15,7 @@
       "time_favorited": "0",
       "sort_id": 0,
       "resolved_title": "On Weaponised Design",
-      "resolved_url": "https://ourdataourselves.tacticaltech.org/posts/30-on-weaponised-design/",
+      "resolved_url": "https://ourdataourselves.tacticaltech.org/posts/30-on-weaponised-design",
       "excerpt": "“When people fail to follow these bizarre, secret rules, and the machine does the wrong thing, its operators are blamed for not understanding the machine, for not following its rigid specifications. With everyday objects, the result is frustration.",
       "is_article": "1",
       "is_index": "0",
@@ -325,7 +325,7 @@
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.wired.com/story/richard-stallmans-exit-heralds-a-new-era-in-tech/amp",
-      "top_image_url": "https://media.wired.com/photos/5d8406ead7756f0009fe335f/master/w_2560,c_limit/Ideas_Art-MIT-952120958.jpg",
+      "top_image_url": "https://media.wired.com/photos/5d8406ead7756f0009fe335f/191:100/w_1280,c_limit/Ideas_Art-MIT-952120958.jpg",
       "domain_metadata": {
         "name": "WIRED",
         "logo": "https://logo.clearbit.com/wired.com?size=800",
@@ -1276,5 +1276,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1573804512
+  "since": 1574157418
 }

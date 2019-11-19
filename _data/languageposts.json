@@ -7,12 +7,12 @@
       "resolved_id": "2685941783",
       "given_url": "https://www.atlasobscura.com/articles/its-all-greek-to-me",
       "given_title": "It's All Greek to You and Me, So What Is It to the Greeks? - Atlas Obscura",
-      "favorite": "0",
+      "favorite": "1",
       "status": "1",
       "time_added": "1573322005",
-      "time_updated": "1573629135",
+      "time_updated": "1573809200",
       "time_read": "1573629135",
-      "time_favorited": "0",
+      "time_favorited": "1573809200",
       "sort_id": 0,
       "resolved_title": "It's All Greek to You and Me, So What Is It to the Greeks?",
       "resolved_url": "https://www.atlasobscura.com/articles/its-all-greek-to-me",
@@ -892,5 +892,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1573804514
+  "since": 1574157420
 }
