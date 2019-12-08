@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /contact/
+menu: true
+title: Contact
+---
+
+{%- if page.title -%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+<div class="row">
+    <main class="top-column">
+        <p>You will frequently find me out and about, delivering a presentation, or attending an event to hear about
+            your great ideas and projects. Here are my next confirmed events, though I am also to be found at many
+            Berlin meetups that wont always be listed here.</p>
+        <a href="/events/past/">Past events</a>
+    </main>
+    <aside class="top-column">
+        {% if page.image %}
+        {% picture listings {{ page.image }} alt="{{ page.title}}" %}
+        {% endif %}
+        <div class="connect">
+            <div class="icon_bar">
+                {% for post in site.connect %}
+                {% if post.image %}
+                <a href="{{ post.network_link }}">{% picture icon {{ post.image }} alt={{ post.title }} %}</a>
+                {% else %}
+                {{ post.network_link }}
+                {% endif %}
+                {% endfor %}
+            </div>
+
+        </div>
+    </aside>
+</div>
