@@ -133,7 +133,7 @@
       "time_favorited": "0",
       "sort_id": 4,
       "resolved_title": "On Weaponised Design",
-      "resolved_url": "https://ourdataourselves.tacticaltech.org/posts/30-on-weaponised-design",
+      "resolved_url": "https://ourdataourselves.tacticaltech.org/posts/30-on-weaponised-design/",
       "excerpt": "“When people fail to follow these bizarre, secret rules, and the machine does the wrong thing, its operators are blamed for not understanding the machine, for not following its rigid specifications. With everyday objects, the result is frustration.",
       "is_article": "1",
       "is_index": "0",
@@ -310,7 +310,7 @@
       "time_favorited": "0",
       "sort_id": 10,
       "resolved_title": "Can you make AI fairer than a judge? Play our courtroom algorithm game",
-      "resolved_url": "https://www.technologyreview.com/s/613508/ai-fairer-than-judge-criminal-risk-assessment-algorithm/",
+      "resolved_url": "https://www.technologyreview.com/s/613508/ai-fairer-than-judge-criminal-risk-assessment-algorithm/#Echobox=1577470746",
       "excerpt": "As a child, you develop a sense of what “fairness” means. It’s a concept that you learn early on as you come to terms with the world around you. Something either feels fair or it doesn’t. But increasingly, algorithms have begun to arbitrate fairness for us.",
       "is_article": "1",
       "is_index": "0",
@@ -992,7 +992,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "3953",
+      "word_count": "3893",
       "lang": "en",
       "time_to_read": 18,
       "amp_url": "https://www.wired.com/story/coders-efficiency-is-beautiful/amp",
@@ -1002,7 +1002,7 @@
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1530
+      "listen_duration_estimate": 1507
     },
     "2539397923": {
       "item_id": "2539397923",
@@ -1395,5 +1395,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1577012282
+  "since": 1577794185
 }
