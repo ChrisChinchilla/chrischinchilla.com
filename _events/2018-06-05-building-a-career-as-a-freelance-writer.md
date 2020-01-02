@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Building a career as a freelance writer
 event: Write the Docs London
 start_date: 2018-06-05T09:00:00.000Z

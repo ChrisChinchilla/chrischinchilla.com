@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: A Documentation Crash Course for Developers
 event: LinuxCon Europe

@@ -1,7 +1,7 @@
 ---
 action: to discuss
 layout: event
-categories: Chris
+
 title: sustaining open source
 event: Sustain Summit
 start_date: 2018-10-25

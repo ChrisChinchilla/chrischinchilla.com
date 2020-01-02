@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Orchestrating databases with Docker
 event: null

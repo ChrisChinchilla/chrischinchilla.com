@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Introducing Distributed Databases
 event: Voxxed Days Belgrade
 pres_url: 'https://www.youtube.com/watch?v=mLuRDv7Ad0Y'

@@ -1,12 +1,12 @@
 ---
 action: to hear about
 layout: event
-categories: Chris
+
 title: your ideas and projects
 event: SXSW Interactive
 venue: Austin, Texas
 pres_url: https://www.sxsw.com/festivals/interactive/
-pres_source: https://www.sxsw.com/festivals/interactive/
+pres_source: 
 start_date: 2020-03-11
 end_date: 2020-03-22
 ---

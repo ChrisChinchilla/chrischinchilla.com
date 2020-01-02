@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Crate and Docker
 event: Docker Berlin

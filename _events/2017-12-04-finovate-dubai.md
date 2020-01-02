@@ -1,7 +1,7 @@
 ---
 action: to hear about
 layout: event
-categories: Chris
+
 title: Tell me what you're working on
 event: Finovate Dubai
 start_date: 2017-12-04T00:00:00.000Z

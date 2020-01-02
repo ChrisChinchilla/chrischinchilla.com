@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: AI, friend or foe for tech writers?
 event: Soap! Conf
 start_date: 2019-06-05

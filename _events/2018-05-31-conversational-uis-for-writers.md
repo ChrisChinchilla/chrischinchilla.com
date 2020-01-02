@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Conversational UIs for Writers
 event: Evolution of TC
 start_date: 2018-05-31T00:00:00.000Z

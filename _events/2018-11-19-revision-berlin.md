@@ -4,7 +4,7 @@ title: the Kauri project
 event: Revision
 layout: event
 venue: Kraftwerk, Köpenicker Str. 70, 10179 Berlin
-categories: Chris
+
 pre_url: https://revision.io
 start_date: 2018-11-19T00:00:00.000Z
 end_date: 2018-11-20T00:00:00.000Z

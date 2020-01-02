@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Managing Distributed Databases with Apache Mesos
 event: Apache Big Data Europe

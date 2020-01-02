@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Android Programming Without Java
 event: DroidCon Greece

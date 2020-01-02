@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: 'Drupal DevOps-decoupling, demystifying and decomplicating'
 event: Melbourne DevOps

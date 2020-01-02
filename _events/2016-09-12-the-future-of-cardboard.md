@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: The Future of Cardboard
 event: Ignite Berlin
 start_date: 2016-09-12T19:00:00.000Z

@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Building Cross Platform Apps with Electron
 event: Vienna.JS

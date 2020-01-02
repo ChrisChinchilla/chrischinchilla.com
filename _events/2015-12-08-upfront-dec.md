@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Why I decided to code a Boardgame
 event: up.front Berlin

@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: LaTeX, CSS for Print
 event: Oscal 16

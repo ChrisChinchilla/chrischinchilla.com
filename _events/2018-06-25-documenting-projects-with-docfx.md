@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Documenting projects with DocFX
 event: Static sites Berlin
 start_date: 2018-06-25T18:00:00.000Z

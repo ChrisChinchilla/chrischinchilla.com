@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: What Ikea and Game Manuals Taught Me About Technical Writing
 event: Software Freedom Kosovo

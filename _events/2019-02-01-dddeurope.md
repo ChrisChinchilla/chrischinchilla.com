@@ -4,7 +4,7 @@ title: Event Store
 event: DDD Europe
 layout: event
 venue: Amsterdam
-categories: Chris
+
 pre_url: https://dddeurope.com
 start_date: 2019-01-30T00:00:00.000Z
 end_date: 2019-02-01T00:00:00.000Z

@@ -1,7 +1,7 @@
 ---
 action: speaks about
 layout: event
-categories: Chris
+
 title: Explaining the Unexplainable
 event: Hub 4.0
 start_date: 2018-10-03

@@ -1,4 +1,5 @@
 ---
+title: Past events
 layout: default
 permalink: /events/past
 pagination:
@@ -7,13 +8,22 @@ pagination:
   collection: events
 ---
 
-<div class="home events">
-    <div class="description">
-      <p>
-        <a href="/events">Current and future events</a>
-      </p>
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    <div class="row">
+      <main class="top-column">
+           <a href="/events">Current and future events</a>
+            
+      </main>
+      <aside class="top-column">
+        {% if page.image %} {% picture listings {{ page.image }} alt="{{
+          page.title
+        }}" %} {% endif %}
+      </aside>
     </div>
-    <section>
+    
+    
       {% assign past_events = "" | split: "" %}
       {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
       {% for post in site.events reversed %}
@@ -25,6 +35,4 @@ pagination:
       {% endfor %}
 
         {% include event_list.html filtered_events = past_events %}
-      </section>
       {% include pagination.html %}
-    </div>

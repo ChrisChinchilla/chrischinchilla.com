@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: 'The Past, present and Future of Swift'
 event: MDevCon

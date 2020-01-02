@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Documentation beyond words
 event: Write the Docs EU
 start_date: 2017-09-10T00:00:00.000Z

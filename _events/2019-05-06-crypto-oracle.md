@@ -5,7 +5,7 @@ event: Crypto Oracle
 layout: event
 venue: >-
   https://zoom.us/w/903412327?tk=KTI8g10ikihNvOxLWcHMzle-tZ5BrNS4OFW1y3tSzB0.DQEAAAAANdj6ZxZ6YV9mOVU1M1R5U2JwbHNyNnBuZVZRAA
-categories: Chris
+
 pre_url: >-
   https://zoom.us/w/903412327?tk=KTI8g10ikihNvOxLWcHMzle-tZ5BrNS4OFW1y3tSzB0.DQEAAAAANdj6ZxZ6YV9mOVU1M1R5U2JwbHNyNnBuZVZRAA
 start_date: 19-05-08

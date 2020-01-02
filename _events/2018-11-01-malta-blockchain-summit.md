@@ -1,7 +1,7 @@
 ---
 action: to hear about
 layout: event
-categories: Chris
+
 title: your ideas and projects
 event: Malta Blockchain Summit
 start_date: 2018-11-01

@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Beyond Software - Learning from Other Technical Writers
 event: Write The Docs EU

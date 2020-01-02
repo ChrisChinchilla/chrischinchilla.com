@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Understanding databases for distributed Docker applications
 event: NoSQL Matters Dublin

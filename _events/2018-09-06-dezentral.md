@@ -4,7 +4,7 @@ title: your ideas and projects
 event: Dezentral
 layout: event
 venue: 'Kosmos, Berlin, Germany'
-categories: Chris
+
 pre_url: 'https://www.dezentral.io/'
 start_date: 2018-09-06
 end_date: 2018-09-06

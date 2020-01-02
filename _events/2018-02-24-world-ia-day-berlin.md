@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Information Architecture and Ethics
 event: World IA Day - Berlin
 start_date: 2018-02-24T09:00:00.000Z

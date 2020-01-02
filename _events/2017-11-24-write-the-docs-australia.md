@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Conversational UIs for Writers
 event: Write the Docs - Australia
 start_date: 2017-11-24T00:00:00.000Z

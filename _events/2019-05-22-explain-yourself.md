@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Explain Yourself! A crash course in better documentation
 event: Codegarden
 start_date: 2019-05-22

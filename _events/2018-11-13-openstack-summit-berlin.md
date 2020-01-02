@@ -4,7 +4,7 @@ title: your ideas and projects
 event: OpenStack Summit Berlin
 layout: event
 venue: City cube, Berlin, Germany
-categories: Chris
+
 pre_url: 'https://www.openstack.org/summit/berlin-2018/'
 start_date: 2018-11-13
 end_date: 2018-11-15

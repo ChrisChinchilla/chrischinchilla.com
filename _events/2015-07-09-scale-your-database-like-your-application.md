@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Scale Your Database like Your Application
 event: Docker Randstad

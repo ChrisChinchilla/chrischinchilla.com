@@ -1,7 +1,7 @@
 ---
 action: speaks about
 layout: event
-categories: Chris
+
 title: Pitching to the Press
 event: Projector
 start_date: 2018-10-02

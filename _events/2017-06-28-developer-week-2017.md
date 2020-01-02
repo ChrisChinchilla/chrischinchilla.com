@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: A documentation crash course for developers
 event: Developer Week 2017, Nürnberg
 start_date: 2017-06-28T11:45:00.000Z

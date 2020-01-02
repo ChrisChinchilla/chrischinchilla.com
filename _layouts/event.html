@@ -21,13 +21,10 @@ layout: default
 
   <div class="post-meta">
     <p>{{ page.venue }}</p>
-    {% if page.type == "presentation" %}
+    {% if page.pres_url %}
     <p><a class="post-link" href="{{ page.pres_url }}" target="_blank">Presentation</a></p>
-    <p><a class="post-link" href="{{ page.pres_source }}" target="_blank">Presentation File</a></p>
     {% endif %}
-
-    {% if page.type == "press" %}
-    <p><a class="post-link" href="{{ page.pres_url }}" target="_blank">Presentation</a></p>
+    {% if page.pres_source %}
     <p><a class="post-link" href="{{ page.pres_source }}" target="_blank">Presentation File</a></p>
     {% endif %}
   </div>

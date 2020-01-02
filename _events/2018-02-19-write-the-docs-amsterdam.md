@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Lint, lint, lint and away!
 event: Write the Docs - Amsterdam
 start_date: 2018-02-19T17:00:00.000Z

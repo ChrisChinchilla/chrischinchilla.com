@@ -4,7 +4,7 @@ title: and on the speaker committee
 event: API the Docs
 layout: event
 venue: Barbican Centre, Silk St, London EC2Y 8DS
-categories: Chris
+
 pre_url: https://apithedocs.org/london2018
 start_date: 2018-11-09
 end_date: 2018-11-09

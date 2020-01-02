@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: 'JS, CMS, untangle the mess'
 event: Melbourne JS 2014

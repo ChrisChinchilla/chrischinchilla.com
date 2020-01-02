@@ -1,7 +1,7 @@
 ---
 action: handling social media and writing day at
 layout: event
-categories: Chris
+
 title:
 event: Write the Docs EU
 start_date: 19-09-14

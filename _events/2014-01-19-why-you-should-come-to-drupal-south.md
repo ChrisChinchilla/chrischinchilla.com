@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Why you should come to Drupal South
 event: Drupal Melbourne 2014

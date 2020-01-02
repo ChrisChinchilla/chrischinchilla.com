@@ -1,7 +1,7 @@
 ---
 action: to hear about
 layout: event
-categories: Chris
+
 title: your ideas and projects
 event: Collision Conf
 start_date: 2018-05-02T00:00:00.000Z

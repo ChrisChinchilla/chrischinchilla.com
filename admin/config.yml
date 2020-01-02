@@ -25,33 +25,17 @@ collections:
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publication URL", name: "publication_url", widget: "string", required: false}
-  - name: "clients" # Used in routes, e.g. /admin/collections/blog
-    label: "Clients" # Used in the UI
-    folder: "_clients" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "select", options: ["Blogging", "Technical writing"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "Category", name: "category", widget: "select", options: ["Chris", "Cate", "Both"]}
-      - {label: "Tags", name: "tags", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Company URL", name: "company_url", widget: "string"}
-      - {label: "Start Date", name: "start_date", widget: "date",  format: "YY-MM-DD"}
-      - {label: "End Date", name: "end_date", widget: "date",  format: "YY-MM-DD"}
   - name: "events" # Used in routes, e.g. /admin/collections/blog
     label: "Events" # Used in the UI
     folder: "_events" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{event}}" # Filename template i.e. YYYY-MM-DD-title.md
+    slug: "{{start_date}}-{{event}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Action", name: "action", widget: "select", options: ["to hear about", "to speak about"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Event", name: "event", widget: "string"}
       - {label: "Event", name: "layout", widget: "hidden", default: "event"}
       - {label: "Venue", name: "venue", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "select", options: ["Chris", "Cate", "Both"]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Event URL", name: "pre_url", widget: "string"}
       - {label: "Presentation source", name: "pre_source", widget: "string", required: false}

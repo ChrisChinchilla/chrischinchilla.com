@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Building a career as a freelance writer
 event: Freelance Friday Berlin
 start_date: 2018-07-27T10:00:00.000Z

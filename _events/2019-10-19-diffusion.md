@@ -4,7 +4,7 @@ title: Building a Web3 future
 event: Diffusion
 layout: event
 venue: Factory Görlitzer park, Berlin
-categories: Chris
+
 pre_url: https://diffusion.events
 start_date: 19-10-19
 end_date: 19-10-20

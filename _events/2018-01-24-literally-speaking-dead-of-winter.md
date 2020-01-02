@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 event: Literally Speaking - Dead of Winter
 start_date: 2018-01-24T19:45:00.000Z
 venue: BuchHafen Berlin, Okerstraße 1, 12049 Berlin, Germany

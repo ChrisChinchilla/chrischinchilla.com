@@ -1,7 +1,7 @@
 ---
 action: to hear about
 layout: event
-categories: Chris
+
 title: your ideas and projects
 event: SXSW Interactive
 venue: Austin, Texas

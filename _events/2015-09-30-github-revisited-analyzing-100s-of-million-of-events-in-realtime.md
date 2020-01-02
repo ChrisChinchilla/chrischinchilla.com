@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: GitHub revisited - Analyzing 100s of Million of events in realtime
 event: Code.Talks Hamburg

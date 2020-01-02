@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Documenting your Story - Crafting a good presentation
 event: 'Write the docs, Prague'

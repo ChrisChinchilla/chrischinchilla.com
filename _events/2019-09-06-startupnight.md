@@ -4,7 +4,7 @@ title: your ideas and projects
 event: Startup night
 layout: event
 venue: Various venues, Berlin
-categories: Chris
+
 pre_url: 'https://www.startupnight.net/'
 start_date: 19-09-06
 end_date: 19-09-06

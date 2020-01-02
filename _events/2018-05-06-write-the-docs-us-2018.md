@@ -1,7 +1,7 @@
 ---
 action: to hear
 layout: event
-categories: Chris
+
 title: your talks
 event: Write the Docs US
 start_date: 2018-05-06T00:00:00.000Z

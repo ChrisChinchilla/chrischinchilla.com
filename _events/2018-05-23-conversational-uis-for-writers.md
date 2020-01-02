@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Conversational UIs for Writers
 event: Soap! Conf
 start_date: 2018-05-23T00:00:00.000Z

@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Your Favourite New Language - The Future of Swift
 event: Voxxed Days Belgrade
 start_date: 2016-09-29T00:00:00.000Z

@@ -1,15 +1,18 @@
-{% if include.filtered_events %}
+<div class="row">
+  {% if include.filtered_events %}
 {% assign events = include.filtered_events %}
 {% else %}
 {% assign events = site.events %}
 {% endif %}
 {% if events.size > 0 %}
-<ul class="post-list">
   {% for post in events %}
-  <li>
-    <span class="date">{{ post.start_date | date: '%B %d %Y' }} to {{ post.end_date | date: '%B %d %Y' }}</span> {% if
-    post.image %} {% picture listings {{post.image}} alt="{{post.title}}" %} {% endif %}
-    <h3><a href="{{ post.pres_url }}">{{ post.event }}</a> {{post.action}} {{ post.title }}</h3>
+  <div class="column">
+    <div class="image date">
+    {{ post.start_date | date: '%B %d %Y' }} to {{ post.end_date | date: '%B %d %Y' }}
+     {% if post.image %} {% picture listings {{post.image}} alt="{{post.title}}" %} {% endif %}</div>
+     <div class="combiheading">
+      <h3><a href="{{ post.pres_url }}">{{ post.event }}</a> {{post.action}} {{ post.title }}</h3>
+    </div>
     <div class="post-meta">
       <p>{{ post.venue }}</p>
       <div>{{ post.excerpt }}</div>
@@ -19,9 +22,9 @@
           File</a>
       </p>
     </div>
-  </li>
+  </div>
   {% endfor %}
-</ul>
 {% else %}
 <p>Currently taking a break 😌</p>
 {% endif %}
+</div>

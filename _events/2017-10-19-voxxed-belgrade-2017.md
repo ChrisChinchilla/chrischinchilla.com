@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Are we all doomed and what can we do about it?
 event: Voxxed Days Belgrade
 start_date: 2017-10-19T00:00:00.000Z

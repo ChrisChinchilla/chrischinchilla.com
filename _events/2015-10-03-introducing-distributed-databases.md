@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 
 title: Introducing Distributed Databases
 event: WebCamp Zagreb

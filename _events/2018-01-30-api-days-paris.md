@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title:
 event: API Days Paris
 start_date: 2018-01-30T10:00:00.000Z

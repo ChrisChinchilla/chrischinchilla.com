@@ -1,7 +1,7 @@
 ---
 action: to speak about
 layout: event
-categories: Chris
+
 title: Documenting projects with DocFX
 event: Mauritian Developer Conference
 start_date: 2018-05-19T00:00:00.000Z
