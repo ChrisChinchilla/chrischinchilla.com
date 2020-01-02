@@ -1,0 +1,11 @@
+---
+action: to speak about
+title: Automating and testing documentation
+event: MEGAComm
+layout: event
+venue: 'Cinema City, Jerusalem'
+pre_url: 'http://megacomm.org/'
+start_date: 20-02-27
+end_date: 20-02-27
+---
+TBC
