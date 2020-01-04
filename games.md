@@ -24,3 +24,11 @@ This is an expanding universe I am using for short fiction, interactive fiction,
 ## Chip Shop
 
 I had an idea for a board game where the players run computer companies in the 1980s. I took the prototype to two gaming conventions and playtested the game. I then got overwhelmed with feedback and the game is still on hiatus while I gain experience in creating simpler games. Chip Shop will return!
+
+## Uprising
+
+I helped proofread and edit the manual of [this ambitious boardgame](https://uprising.nemesis.games/) coming to kickstarter soon.
+
+## Solemn Scriptures of the Battle Nuns of the Mercyful Sepulcher
+
+I helped proofread and edit [this supplement](https://mottokrosh.com/machinations/solemn-scriptures/) for the D&D 5e and Hypertellurians role playing games.
