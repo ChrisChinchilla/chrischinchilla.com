@@ -125,7 +125,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "7994",
+      "word_count": "7999",
       "lang": "en",
       "time_to_read": 36,
       "top_image_url": "https://miro.medium.com/max/1200/1*wV984lYiBGX8Tep88bf16w.jpeg",
@@ -134,7 +134,7 @@
         "logo": "https://logo.clearbit.com/medium.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/medium.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 3094
+      "listen_duration_estimate": 3096
     },
     "2237948883": {
       "item_id": "2237948883",
@@ -1427,5 +1427,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1577794186
+  "since": 1579162800
 }
