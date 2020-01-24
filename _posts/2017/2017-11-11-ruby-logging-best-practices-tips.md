@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Node logging best practices and tips
+title: Ruby logging best practices and tips
 date: 2017-11-11
 image: ruby-logo.png
 categories: writing coralogix
