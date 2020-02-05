@@ -1425,14 +1425,14 @@
       "sort_id": 48,
       "resolved_title": "“What Have We Done?”: Silicon Valley Engineers Fear They've Created a Monster",
       "resolved_url": "https://www.vanityfair.com/news/2018/08/silicon-valley-engineers-fear-they-created-a-monster",
-      "excerpt": "Those of us on the front lines of the gig economy were the first to spot and expose its flaws—two months after leaving Uber, I wrote a highly publicized account of my time there, describing the company’s toxic work environment in detail.",
+      "excerpt": "In the heart of San Francisco, the gig economy reigns supreme. Walk into a grocery store, and a large number of shoppers you see are independent contractors for grocery-delivery start-up Instacart.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "700",
+      "word_count": "1286",
       "lang": "en",
-      "time_to_read": 3,
+      "time_to_read": 6,
       "amp_url": "https://www.vanityfair.com/news/2018/08/silicon-valley-engineers-fear-they-created-a-monster/amp",
       "top_image_url": "https://media.vanityfair.com/photos/5b6b403c6898ec4700640b29/16:9/w_1280,c_limit/t-share-economy-09-2018.jpg",
       "domain_metadata": {
@@ -1440,7 +1440,7 @@
         "logo": "https://logo.clearbit.com/vanityfair.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/vanityfair.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 271
+      "listen_duration_estimate": 498
     },
     "2214462582": {
       "item_id": "2214462582",
@@ -1477,5 +1477,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1579858590
+  "since": 1580893046
 }
