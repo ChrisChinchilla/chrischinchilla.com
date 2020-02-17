@@ -50,7 +50,7 @@
       "lang": "en",
       "time_to_read": 10,
       "amp_url": "https://amp.theatlantic.com/amp/article/603406/",
-      "top_image_url": "https://cdn.theatlantic.com/assets/media/img/mt/2019/12/The_Atlantic_lead_image_finals_1-2/facebook.jpg?1576176885",
+      "top_image_url": "https://cdn.theatlantic.com/thumbor/EDit8dfbewQKeqtstm8oXeIauWc=/0x50:2000x1092/960x500/media/img/mt/2019/12/The_Atlantic_lead_image_finals_1-2/original.jpg",
       "domain_metadata": {
         "name": "The Atlantic",
         "logo": "https://logo.clearbit.com/theatlantic.com?size=800",
@@ -1477,5 +1477,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1580893046
+  "since": 1581944195
 }
