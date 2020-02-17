@@ -3,7 +3,7 @@ planet:
   templates_directory: _imported/
   whitelisted_tags: []
   # sanitize_html: true
-
+# TODO: Add other blog sources
 blogs:
   # Bare minimum to get it working
   - author: "Chris Ward"
