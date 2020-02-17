@@ -1,4 +1,5 @@
 todo:
+    keyword: ["@todo", "TODO", "NOTE"]
     autoAssign: true
     bodyKeyword: ["@body", "BODY"]
     blobLines: 10
