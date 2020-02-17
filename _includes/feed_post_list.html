@@ -2,7 +2,9 @@
   {% if include.post_limit %}
   {% assign post_limit = include.post_limit %}
   {% else %}
+
   <!-- TODO: Need to cope with paginator -->
+
   {% assign post_limit = 100 %}
   {% endif %}
 
@@ -12,7 +14,9 @@
   <div class="column">
     <div class="image">
       {% if feedpost[1].top_image_url %}
+
       <!--  TODO: How to make responsive? -->
+
       <img src="{{ feedpost[1].top_image_url | remove: "\" }}" />
       {% endif %}
     </div>

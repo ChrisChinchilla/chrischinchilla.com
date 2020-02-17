@@ -29,7 +29,9 @@
   position: relative;
   box-sizing: border-box;
   flex-grow: 1;
+
   // TODO: Better way?
+
   margin: $spacing-unit / 6;
   padding: $spacing-unit / 6;
   border-bottom: 1px solid grey;
@@ -79,6 +81,7 @@
 }
 
 // TODO: This seems crazy
+
 .home {
   .row {
     .column {
