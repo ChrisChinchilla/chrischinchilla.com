@@ -1,5 +1,7 @@
 todo:
     autoAssign: true
+    bodyKeyword: ["@body", "BODY"]
     blobLines: 10
     caseSensitive: false
+    label: ["todo", "bot"]
     reopenClosed: true
