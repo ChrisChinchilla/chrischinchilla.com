@@ -5,6 +5,8 @@ categories: writing games
 permalink: /writing/games/index.html
 ---
 
+<!-- TODO: Add more details about contracting work -->
+
 In my spare time I work on roleplay game supplements, interactive fiction, card games and board games. I have a lot of small projects in progress, not all of which are ready for public consumption yet.
 
 ## Expedition roleplaying card game quests
