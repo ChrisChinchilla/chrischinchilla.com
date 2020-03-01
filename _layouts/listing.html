@@ -7,14 +7,9 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
     <div class="row">
-      <main class="top-column">
+      <main>
         <p>{{ content }}</p>
       </main>
-      <aside class="top-column">
-        {% if page.image %}
-        {% picture listings {{ page.image }} alt="{{ page.title }}" %}
-        {% endif %}
-      </aside>
     </div>
   
     {% include post_list.html %}
