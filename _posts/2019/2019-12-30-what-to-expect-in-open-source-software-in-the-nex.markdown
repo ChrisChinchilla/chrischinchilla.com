@@ -1,6 +1,6 @@
 ---
 title: "What to Expect in Open-Source Software in the Next 6-12 Months?"
-created_at: 2019-12-31 05:00:59 UTC
+created_at: 2019-12-30
 author: "Chris Ward"
 categories: writing dzone
 tags: 
