@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home page">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    <div class="row">
+      <main class="top-column">
+        <p>{{ content }}</p>
+      </main>
+      <aside class="top-column">
+        {% if page.image %}
+        {% picture listings {{ page.image }} alt="{{ page.title }}" %}
+        {% endif %}
+      </aside>
+    </div>
+  
+    {% include post_list.html %}
+    {% include pagination.html %}
+  </div>
+  
