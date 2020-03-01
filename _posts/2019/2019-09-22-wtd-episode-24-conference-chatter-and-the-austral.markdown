@@ -11,4 +11,4 @@ podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-w
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/
 ---
-In this episode, we're joined by the Write the Docs Australia initiator Swapnil Ogale. We talk about conference wind-downs and ramp-ups, highlights from the just-finished WTD Prague conference, speakers announced for upcoming Write the Docs Australia conference, the "Good Docs Project," the tech writing scene in Australia, and more.
+In this episode, we're joined by the Write the Docs Australia initiator Swapnil Ogale. We talk about conference wind-downs and ramp-ups, highlights from the just-finished WTD Prague conference, speakers announced for upcoming Write the Docs Australia conference, the Good Docs Project, the tech writing scene in Australia, and more.

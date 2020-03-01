@@ -1,0 +1,21 @@
+---
+title: "What to Expect in Open-Source Software in the Next 6-12 Months?"
+created_at: 2019-12-30
+author: "Chris Ward"
+categories: writing dzone
+tags: 
+  - open source
+  - docker
+  - containers
+  - linux
+  - git
+  - github
+  - gitlab
+  - wasm
+  - web assembly
+publication_url: "https://dzone.com/articles/-what-do-you-predict-will-happen-in-open-source-so"
+image: 12862926.jpeg
+layout: post
+---
+As the year draws to a close, it’s time to gaze into the crystal command line and see what 2020 might hold.
+

@@ -7,7 +7,7 @@ categories: podcast theweeklysqueak
 podcast: "The Weekly Squeak"
 tags: 
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Raj-Dutt-of-Grafana--Brave--WeWork--and-Football-manager-e97ihf
-podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/8685551/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-10-27%2F35850649-44100-2-540c871685132.m4a
+podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/8685551/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-02-28%2F734659bd64895a7f06c2456427902ab3.m4a
 image: 347957-1574856304907-ab0596813cf63.jpg
 permalink: /:categories/:title/
 ---
