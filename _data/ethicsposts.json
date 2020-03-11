@@ -1025,7 +1025,7 @@
       "lang": "en",
       "time_to_read": 10,
       "amp_url": "https://amp.theatlantic.com/amp/article/587389/",
-      "top_image_url": "https://cdn.theatlantic.com/assets/media/img/mt/2019/04/RTS2D2HU/facebook.jpg?1555702090",
+      "top_image_url": "https://cdn.theatlantic.com/thumbor/T5t88h7PWLHoQ4oAQft_fB2g9Hs=/0x126:3494x1946/960x500/media/img/mt/2019/04/RTS2D2HU/original.jpg",
       "domain_metadata": {
         "name": "The Atlantic",
         "logo": "https://logo.clearbit.com/theatlantic.com?size=800",
@@ -1539,5 +1539,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1583077312
+  "since": 1583920748
 }
