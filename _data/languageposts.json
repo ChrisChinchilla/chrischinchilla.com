@@ -285,12 +285,12 @@
       "sort_id": 9,
       "resolved_title": "How Non-English Speakers Learn This Crazy Grammar Rule You Know But Never Heard Of",
       "resolved_url": "https://getpocket.com/explore/item/how-non-english-speakers-are-taught-this-crazy-english-grammar-rule-you-know-but-have-never-heard-of",
-      "excerpt": "Hungarian kids know, do you? English grammar, beloved by sticklers, is also feared by non-native speakers. Many of its idiosyncrasies can turn into traps even for the most confident users.",
+      "excerpt": "Some of the most binding rules in English are things that native speakers know but don’t know they know. English grammar, beloved by sticklers, is also feared by non-native speakers. Many of its idiosyncrasies can turn into traps even for the most confident users.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "404",
+      "word_count": "418",
       "lang": "en",
       "top_image_url": "https://pocket-image-cache.com/2000x/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F1752%2F1569948613_ScreenshScaled72.png",
       "domain_metadata": {
@@ -298,7 +298,7 @@
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 156
+      "listen_duration_estimate": 162
     },
     "2725251967": {
       "item_id": "2725251967",
@@ -1130,5 +1130,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1585307261
+  "since": 1585730814
 }
