@@ -21,7 +21,6 @@ Also features content covering tools for working from home, two player games, a 
 
 ## Transcript
 
-240320_mixdown
 **Chris:**  [00:00:00] . Welcome to the weekly squeak, your weekly geeky squak with me Chris Chinchilla, back for another week. I have an interview this week with Peter Suma of Nengo talking about the quite fascinating AI model training brain simulation. Project. I haven't had a chance to get hands on with it myself, but as you'll hear from the interview, it is quite fascinating and I hope you find it interesting too.
 [00:00:37] I hope you are all safe and sane out there. I am going to, not explicitly, he mentioned again what I'm talking about, but I'm sure you know and I have a few links that allude to the situation, but I want to keep this a free zone where you can enjoy geeky wonder without having to worry too much. So all that said, let's get straight to Meyer links for the week.
 [00:01:04] Firstly, an article from  on a website could sifted. It's actually someone we do know called controversially. Berlin is crap and no one is talking about it. Uh, this is directly in reference to the startups. In case you're wondering if it's more general. And Torben is fairly scathing of situations that make Berlin not that great for startups.
