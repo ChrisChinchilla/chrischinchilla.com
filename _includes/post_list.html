@@ -68,14 +68,17 @@
       endcase %}
       {% endif %}
     </div>
-    {% if post.podcast_embed %}
+    {%- if post.podcast_embed -%}
     <div>
       <audio controls>
         <source src={{post.podcast_embed}}>
         Your browser does not support the audio element.
       </audio>
     </div>
-    {% endif %}
+    {%- endif -%}
+    {%- if post.video_embed -%}
+    {{ post.video_embed }}
+    {%- endif -%}
     <p>{{ post.excerpt }}</p>
     {% if post.transcript %}
     <div>

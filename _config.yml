@@ -48,8 +48,6 @@ include:
   - _redirects
 
 toc:
-  - title: About
-    url: about.html
   - title: Events
     url: /events
     subitems:
@@ -66,8 +64,13 @@ toc:
         url: /writing/games
       - title: Courses
         url: /writing/courses
-  - title: Podcasts
-    url: /podcasts
+  - title: Audio & Video
+    url: /audio-video
+    subitems:
+      - title: Podcasts
+        url: /podcasts
+      - title: Video
+        url: /video  
   - title: Newsletters
     url: newsletters.html
   - title: Support
