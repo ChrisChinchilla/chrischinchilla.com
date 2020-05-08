@@ -21,4 +21,5 @@ gem 'minima', '~> 2.5', '>= 2.5.1'
 group :jekyll_plugins do
   gem 'jekyll_picture_tag'
   gem 'jekyll-paginate-v2'
+  gem 'jekyll-feed'
 end
