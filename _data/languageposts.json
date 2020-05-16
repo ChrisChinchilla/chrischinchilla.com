@@ -261,7 +261,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1767",
+      "word_count": "1772",
       "lang": "en",
       "time_to_read": 8,
       "top_image_url": "https://pocket-image-cache.com/1200x/filters:no_upscale():format(jpg):extract_cover()/http%3A%2F%2Fstatic.nautil.us%2F11717_7da9de56f480e009b5e9f18b279859d7.jpg",
@@ -270,7 +270,7 @@
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 684
+      "listen_duration_estimate": 686
     },
     "2863720311": {
       "item_id": "2863720311",
@@ -1250,5 +1250,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1589183953
+  "since": 1589636170
 }
