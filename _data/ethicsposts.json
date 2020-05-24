@@ -1220,7 +1220,7 @@
       "excerpt": "“Prison labor” is usually associated with physical work, but inmates at two prisons in Finland are doing a new type of labor: classifying data to train artificial intelligence algorithms for a startup.",
       "is_article": "1",
       "is_index": "0",
-      "has_video": "1",
+      "has_video": "0",
       "has_image": "1",
       "word_count": "986",
       "lang": "en",
@@ -1364,7 +1364,7 @@
       "sort_id": 46,
       "resolved_title": "We Need to Save Ignorance From AI",
       "resolved_url": "https://getpocket.com/explore/item/we-need-to-save-ignorance-from-ai",
-      "excerpt": "In an age of all-knowing algorithms, how do we choose not to know? After the fall of the Berlin Wall, East German citizens were offered the chance to read the files kept on them by the Stasi, the much-feared Communist-era secret police service.",
+      "excerpt": "After the fall of the Berlin Wall, East German citizens were offered the chance to read the files kept on them by the Stasi, the much-feared Communist-era secret police service. To date, it is estimated that only 10 percent have taken the opportunity.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
@@ -1372,7 +1372,7 @@
       "word_count": "2161",
       "lang": "en",
       "time_to_read": 10,
-      "top_image_url": "https://pocket-image-cache.com/2000x/http%3A%2F%2Fstatic.nautil.us%2F14861_7274f01abe1fc0622bd2ff06724950c1.png",
+      "top_image_url": "https://pocket-image-cache.com/1200x/filters:no_upscale():format(jpg):extract_cover()/http%3A%2F%2Fstatic.nautil.us%2F14861_7274f01abe1fc0622bd2ff06724950c1.png",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
@@ -1593,5 +1593,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1589876258
+  "since": 1590322151
 }
