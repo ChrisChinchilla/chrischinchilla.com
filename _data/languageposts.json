@@ -347,21 +347,21 @@
       "sort_id": 11,
       "resolved_title": "The Commas That Cost Companies Millions",
       "resolved_url": "https://getpocket.com/explore/item/the-commas-that-cost-companies-millions",
-      "excerpt": "For most people, a stray comma isn’t the end of the world. But in some cases, the exact placement of a punctuation mark can cost huge sums of money.",
+      "excerpt": "How much can a misplaced comma cost you? If you’re texting a loved one or dashing off an email to a colleague, the cost of misplacing a piece of punctuation will be – at worst – a red face and a minor mix-up.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1961",
+      "word_count": "1891",
       "lang": "en",
       "time_to_read": 9,
-      "top_image_url": "https://pocket-image-cache.com/2000x/https%3A%2F%2Fichef.bbci.co.uk%2Fwwfeatures%2Flive%2F976_549%2Fimages%2Flive%2Fp0%2F31%2Fc3%2Fp031c34v.jpg",
+      "top_image_url": "https://pocket-image-cache.com/1200x/filters:no_upscale():format(jpg):extract_cover()/https%3A%2F%2Fichef.bbci.co.uk%2Fwwfeatures%2Flive%2F976_549%2Fimages%2Flive%2Fp0%2F31%2Fc3%2Fp031c34v.jpg",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 759
+      "listen_duration_estimate": 732
     },
     "2685941783": {
       "item_id": "2685941783",
@@ -567,7 +567,7 @@
       "time_favorited": "0",
       "sort_id": 19,
       "resolved_title": "Understanding LSTM Networks",
-      "resolved_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "resolved_url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/",
       "excerpt": "Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.",
       "is_article": "1",
       "is_index": "0",
@@ -1252,5 +1252,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1590322153
+  "since": 1591346161
 }
