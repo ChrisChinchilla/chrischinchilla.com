@@ -549,10 +549,10 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "6510",
+      "word_count": "7126",
       "lang": "en",
-      "time_to_read": 30,
-      "listen_duration_estimate": 2520
+      "time_to_read": 32,
+      "listen_duration_estimate": 2758
     },
     "1024078227": {
       "item_id": "1024078227",
@@ -1252,5 +1252,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1591782615
+  "since": 1592297208
 }

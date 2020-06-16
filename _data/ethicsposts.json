@@ -804,7 +804,7 @@
       "lang": "en",
       "time_to_read": 6,
       "amp_url": "https://www.wired.com/story/richard-stallman-and-the-fall-of-the-clueless-nerd/amp",
-      "top_image_url": "https://media.wired.com/photos/5d815ffe46103c0009de8d56/master/w_2560,c_limit/science_stallman_473688628.jpg",
+      "top_image_url": "https://media.wired.com/photos/5d815ffe46103c0009de8d56/191:100/w_1280,c_limit/science_stallman_473688628.jpg",
       "domain_metadata": {
         "name": "WIRED",
         "logo": "https://logo.clearbit.com/wired.com?size=800",
@@ -1593,5 +1593,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1591782612
+  "since": 1592297206
 }
