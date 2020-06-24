@@ -672,7 +672,7 @@
       "word_count": "3591",
       "lang": "en",
       "time_to_read": 16,
-      "top_image_url": "https://www.acm.org/images/acm_rgb_grad_pos_diamond.png",
+      "top_image_url": "https://www.acm.org/binaries/content/gallery/acm/ctas/cope-code/code-ethics-logo.jpg",
       "listen_duration_estimate": 1390
     },
     "2515444738": {
@@ -1256,7 +1256,7 @@
       "word_count": "1003",
       "lang": "en",
       "time_to_read": 5,
-      "top_image_url": "https://images.axios.com/ukGMNTHCbcqwM5CfXtOe3OfVsBQ=/2019/03/08/1552074399862.gif",
+      "top_image_url": "https://images.axios.com/MT-ist2ndKikhj30PzP3wrxCrxw=/fit-in/1920x1920/2019/03/08/1552074399862.gif",
       "domain_metadata": {
         "name": "Axios",
         "logo": "https://logo.clearbit.com/axios.com?size=800",
@@ -1593,5 +1593,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1592297206
+  "since": 1592983921
 }
