@@ -17,6 +17,6 @@ www.facebook.com/gregariousmammal
 <div class="author">
    <img src="https://www.rss-specifications.com/rss-spec-rss.gif" style="width: 96px; height: 96;">
    <span style="position: absolute; padding: 32px 15px;">{% comment %}Remark that post_url refers to the *original* post url, not Jekyll's post_url variable. Moreover, planet.rb preprocesses the substitutions with Mustache.{% endcomment %}
-      <i>{% if "https://anchor.fm/theweeklysqueak/episodes/The-Future-of-5G-at-5GTechritory-e2gh5m" != "" %}<a href="https://anchor.fm/theweeklysqueak/episodes/The-Future-of-5G-at-5GTechritory-e2gh5m">Original post</a>{% else %}Original post{% endif %} by {% if "http://twitter.com/poteland" != "" %}<a href="http://twitter.com/poteland"></a>{% else %}{% endif %} &mdash; check out <a href="https://anchor.fm/theweeklysqueak">The Weekly Squeak</a>.</i>
+      <i>{% if "https://anchor.fm/theweeklysqueak/episodes/The-Future-of-5G-at-5GTechritory-e2gh5m" != "" %}<a href="https://anchor.fm/theweeklysqueak/episodes/The-Future-of-5G-at-5GTechritory-e2gh5m">Original post</a>{% else %}Original post{% endif %} by {% if "https://twitter.com/poteland" != "" %}<a href="https://twitter.com/poteland"></a>{% else %}{% endif %} &mdash; check out <a href="https://anchor.fm/theweeklysqueak">The Weekly Squeak</a>.</i>
   </span>
 </div>

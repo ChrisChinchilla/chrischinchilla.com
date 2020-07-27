@@ -5,7 +5,7 @@ layout: none
 {%- endcapture -%}
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:http://www.example.com/
+PRODID:https://www.example.com/
 METHOD:PUBLISH
 {{newLine}}
 {% assign future_events = "" | split: "" %}

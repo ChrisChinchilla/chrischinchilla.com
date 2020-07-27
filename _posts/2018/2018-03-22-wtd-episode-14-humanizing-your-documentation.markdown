@@ -6,7 +6,7 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags:
-orig_url: http://podcast.writethedocs.org/2018/03/22/humanizing-documentation/
+orig_url: https://podcast.writethedocs.org/2018/03/22/humanizing-documentation/
 layout: podcast
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_14_humanizing_docs.mp3
 image: wtdpodcastlogo.png

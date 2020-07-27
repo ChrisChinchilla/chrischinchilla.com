@@ -6,7 +6,7 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: http://podcast.writethedocs.org/2018/07/22/ways-of-seeing-our-users-ways-others-see-us/
+orig_url: https://podcast.writethedocs.org/2018/07/22/ways-of-seeing-our-users-ways-others-see-us/
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_15_assumptions_users_writers.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/

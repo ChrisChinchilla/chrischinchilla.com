@@ -6,7 +6,7 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: http://podcast.writethedocs.org/2019/03/02/episode-20-standards-for-docs-and-working-with-marketing/
+orig_url: https://podcast.writethedocs.org/2019/03/02/episode-20-standards-for-docs-and-working-with-marketing/
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_20_documentation_standards.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/

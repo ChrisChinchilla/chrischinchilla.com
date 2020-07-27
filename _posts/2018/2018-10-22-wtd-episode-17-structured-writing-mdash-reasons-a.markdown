@@ -6,7 +6,7 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: http://podcast.writethedocs.org/2018/10/22/structured-authoring-mark-baker/
+orig_url: https://podcast.writethedocs.org/2018/10/22/structured-authoring-mark-baker/
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_17_structured_authoring.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/

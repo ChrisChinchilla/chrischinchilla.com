@@ -17,7 +17,7 @@ In this episode I speak with Martin Mao of Chronosphere about the massive scale 
 
 -   [facebook.com/chrischinchilla](https://facebook.com/chrischinchilla)
 -   [twitter.com/ChrisChinch](https://twitter.com/ChrisChinch)
--   [chrischinchilla.com](http://chrischinchilla.com/)
+-   [chrischinchilla.com](https://chrischinchilla.com/)
 
 ## Transcript
 

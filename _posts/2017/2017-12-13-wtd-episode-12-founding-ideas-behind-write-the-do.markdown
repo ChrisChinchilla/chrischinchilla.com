@@ -6,7 +6,7 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags:
-orig_url: http://podcast.writethedocs.org/2017/12/13/founding-principles-of-write-the-docs/
+orig_url: https://podcast.writethedocs.org/2017/12/13/founding-principles-of-write-the-docs/
 layout: podcast
 podcast_embed: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtdpodcast_episode_12_founding_ideas.mp3
 image: wtdpodcastlogo.png

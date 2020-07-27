@@ -13,4 +13,4 @@ Chris speaks with Emil Wagner of æternity, who aim to make blockchains more usa
 https://aeternity.com
 https://www.gregariousmammal.com/podcast/
 https://www.gregariousmammal.com/support
-http://facebook.com/gregariousmammal/
+https://facebook.com/gregariousmammal/

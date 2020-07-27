@@ -6,7 +6,7 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: http://podcast.writethedocs.org/2018/09/05/linters-templates-starting-out/
+orig_url: https://podcast.writethedocs.org/2018/09/05/linters-templates-starting-out/
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_16_linters_templates.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/

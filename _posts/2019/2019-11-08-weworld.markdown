@@ -16,7 +16,7 @@ transcript: true
 In this episode I cover the WeWork/Meetup/Softbank world domination saga, the sad state of affairs of online journalism, and has Apple had enough of Electron?
 
 -   <https://chrischinchilla.com/podcasts>
--   <http://facebook.com/chrischinchilla>
+-   <https://facebook.com/chrischinchilla>
 -   [Meetup interview](https://anchor.fm/theweeklysqueak/episodes/Scott-Heiferman---The-past--present-and-future-of-meeting-people-with-meetup-founder-e14p6r)
 -   [One day the World ended game](https://chrischinchilla.itch.io/one-day-the-world-ended)
 
@@ -29,7 +29,7 @@ Questions for you:
 Let me know at:
 
 -   <https://chrischinchilla.com/contact>
--   <http://facebook.com/chrischinchilla>
+-   <https://facebook.com/chrischinchilla>
 
 ## Transcript
 

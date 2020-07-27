@@ -15,4 +15,4 @@ In this episode I speak with Réda Berrehili of the [Ki Foundation](https://foun
 
 - [https://chrischinchilla.com/](https://chrischinchilla.com/)
 - [https://twitter.com/ChrisChinch](https://twitter.com/ChrisChinch)
-- [http://facebook.com/chrischinchilla](http://facebook.com/chrischinchilla)
+- [https://facebook.com/chrischinchilla](https://facebook.com/chrischinchilla)

@@ -14,5 +14,5 @@ permalink: /:categories/:title/
 In this episode I speak with the infamous Kin Lane, the API evangelist, now working with Postman. I also cover my new experiences with the Linux desktop, how "the rise of skywalker" has visions of our dystopian future, and more!
 
 - [chrischinchilla.com/contact](https://chrischinchilla.com/contact)
-- [kinlane.com](http://kinlane.com/)
+- [kinlane.com](https://kinlane.com/)
 - [getpostman.com](https://www.getpostman.com/)

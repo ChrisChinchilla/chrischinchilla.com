@@ -6,7 +6,7 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: http://podcast.writethedocs.org/2019/03/31/episode-21-career-growth-leadership-mentoring-technical-writing/
+orig_url: https://podcast.writethedocs.org/2019/03/31/episode-21-career-growth-leadership-mentoring-technical-writing/
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_21_career_growth.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/

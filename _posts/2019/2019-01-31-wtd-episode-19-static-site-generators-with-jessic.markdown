@@ -6,7 +6,7 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: http://podcast.writethedocs.org/2019/01/31/episode-19-static-site-generator-tools-and-ecosystem/
+orig_url: https://podcast.writethedocs.org/2019/01/31/episode-19-static-site-generator-tools-and-ecosystem/
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_19_static_site_generators.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/

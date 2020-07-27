@@ -6,7 +6,7 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: http://podcast.writethedocs.org/2018/11/25/episode-18-wtd-australia-recap/
+orig_url: https://podcast.writethedocs.org/2018/11/25/episode-18-wtd-australia-recap/
 podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_18_wtd_australia.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/

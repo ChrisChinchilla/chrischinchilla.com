@@ -12,4 +12,4 @@ Chris speaks with Anatoliy Lytovchenko of Eleks at the recent IT Arena in Ukrain
 
 https://www.gregariousmammal.com/podcast
 https://www.gregariousmammal.com/support
-http://facebook.com/gregariousmammal/
+https://facebook.com/gregariousmammal/
