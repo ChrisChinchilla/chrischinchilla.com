@@ -2,6 +2,7 @@
 layout: listing
 permalink: /podcasts
 title: Podcasts
+description: Podcasts by Chris Chinchilla including the Weekly Squeak and the Write the Docs podcast.
 pagination:
   enabled: true
   category: podcast

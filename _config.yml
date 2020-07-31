@@ -13,16 +13,35 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# TODO: More SEO
 title: Chris Chinchilla
+tagline: A technical communicator with a love of explaining technical concepts in documentation, blog posts, videos, books and more.
 email: chris@chrischinchilla.com
-description: Technical communicator
+description: A technical communicator with a love of explaining technical concepts in documentation, blog posts, videos, books and more. Also a podcaster, video maker, writer of interactive fiction, and games.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: chrischinch
-github_username: chrischinchilla
+url: "https://chrischinchilla.com" # the base hostname & protocol for your site, e.g. http://example.com
+# TODO: This isn't right for Twitter
+author: Chris Chinchilla
+twitter:
+  username: chrischinch
+  card: summary
+facebook:
+  # app_id: 1234
+  publisher: https://www.facebook.com/chrischinchilla
+  # admins: 1234
+logo: /images/chinchilla.png
+social:
+  name: Chris Chinchilla
+  links:
+    - https://twitter.com/chrischinch
+    - https://www.facebook.com/chrischinchilla
+    - https://www.linkedin.com/in/chrischinchilla
+    - https://github.com/chrischinchilla
+# google_site_verification:
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 feed:
   path: feed.xml

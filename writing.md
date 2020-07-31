@@ -5,6 +5,7 @@ permalink: /writing
 pagination: 
   enabled: true
   category: writing
+description: All the writing of Chris CHinchilla in one place including blog posts, newsletters, books, fiction, games and more.
 ---
 
 <!-- TODO: Break out writing sections more -->
