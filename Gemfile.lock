@@ -45,7 +45,8 @@ GEM
       mime-types (~> 3)
       mini_magick (~> 4)
       objective_elements (~> 1.1.1)
-    kramdown (2.1.0)
+    kramdown (2.3.0)
+      rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
@@ -68,6 +69,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    rexml (3.2.4)
     rouge (3.16.0)
     safe_yaml (1.0.5)
     sassc (2.2.1)
@@ -81,7 +83,9 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0)
+  jekyll-feed
   jekyll-paginate-v2
+  jekyll-seo-tag
   jekyll_picture_tag
   minima (~> 2.5, >= 2.5.1)
 
