@@ -46,13 +46,13 @@
       "time_favorited": "1594186469",
       "sort_id": 1,
       "resolved_title": "I used an algorithm to help me write a story. Here’s what I learned.",
-      "resolved_url": "https://www.technologyreview.com/2020/06/17/1003665/i-used-an-algorithm-to-help-me-write-a-story-heres-what-i-learned/",
+      "resolved_url": "https://www.technologyreview.com/2020/06/17/1003665/i-used-an-algorithm-to-help-me-write-a-story-heres-what-i-learned/#Echobox=1597444235",
       "excerpt": "An insight into the way machines make meaning. A few years ago I used an algorithm to help me write a science fiction story.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1437",
+      "word_count": "1448",
       "lang": "en",
       "time_to_read": 7,
       "amp_url": "https://www.technologyreview.com/2020/06/17/1003665/i-used-an-algorithm-to-help-me-write-a-story-heres-what-i-learned/amp/",
@@ -62,12 +62,12 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 556
+      "listen_duration_estimate": 561
     },
     "3036301524": {
       "item_id": "3036301524",
       "resolved_id": "3034375723",
-      "given_url": "https://link.webdesignernews.com/?xtl=jkhjxrrvuq4lwkpi1ee4m5j23jgef52dawiybdfl3dulf2teh3g9kxyroo1grilcyglrgb7jiu17o8gkntpbqlvsfr1zeaqvgg5wovgd7vv8jrksodp6qshf7c944zmqcokfqqq5xwxqrvht9evg9rcgzdx6wbn5lt1a1ilkbga2a7yjsmgi4owl04fe&eih=2jtwdtqvlfgnyospbauircuygngw2sqfc1",
+      "given_url": "http://link.webdesignernews.com/?xtl=jkhjxrrvuq4lwkpi1ee4m5j23jgef52dawiybdfl3dulf2teh3g9kxyroo1grilcyglrgb7jiu17o8gkntpbqlvsfr1zeaqvgg5wovgd7vv8jrksodp6qshf7c944zmqcokfqqq5xwxqrvht9evg9rcgzdx6wbn5lt1a1ilkbga2a7yjsmgi4owl04fe&eih=2jtwdtqvlfgnyospbauircuygngw2sqfc1",
       "given_title": "",
       "favorite": "0",
       "status": "1",
@@ -494,7 +494,7 @@
       "time_favorited": "1573809200",
       "sort_id": 16,
       "resolved_title": "It's All Greek to You and Me, So What Is It to the Greeks?",
-      "resolved_url": "https://www.atlasobscura.com/articles/its-all-greek-to-me",
+      "resolved_url": "http://www.atlasobscura.com/articles/its-all-greek-to-me",
       "excerpt": "It’s a curious thing when there is an idiom—structured roughly the same way and meaning essentially the same thing—that exists in a large number of languages. It’s even more curious when that idiom, having emerged in dozens of different languages, is actually … about language.",
       "is_article": "1",
       "is_index": "0",
@@ -614,7 +614,7 @@
       "time_favorited": "0",
       "sort_id": 20,
       "resolved_title": "Computer Algorithm Generates Poetry As Good As Shakespeare's - PSFK",
-      "resolved_url": "https://www.psfk.com/2014/01/shakespeare-machine-learning-poetry-app.html",
+      "resolved_url": "http://www.psfk.com/2014/01/shakespeare-machine-learning-poetry-app.html",
       "excerpt": "MIT student uses machine-learning to teach a machine how to compose sonnets.  Machine learning was recently named as the force behind a potential cure for HIV, but now it’s a process that is also capable of more artistic endeavours. MIT PhD student J.",
       "is_article": "0",
       "is_index": "0",
@@ -628,7 +628,7 @@
     "670945200": {
       "item_id": "670945200",
       "resolved_id": "670945200",
-      "given_url": "https://web.stanford.edu/class/cs224n/syllabus.html",
+      "given_url": "http://web.stanford.edu/class/cs224n/syllabus.html",
       "given_title": "article-mobile.html",
       "favorite": "0",
       "status": "1",
@@ -638,7 +638,7 @@
       "time_favorited": "0",
       "sort_id": 21,
       "resolved_title": "CS224n: Natural Language Processing with Deep Learning",
-      "resolved_url": "https://web.stanford.edu/class/cs224n/syllabus.html",
+      "resolved_url": "http://web.stanford.edu/class/cs224n/syllabus.html",
       "excerpt": "Suggested Readings: Joakim Nivre. 2004. Incrementality in Deterministic Dependency Parsing. Workshop on Incremental Parsing. Danqi Chen and Christopher D. Manning. 2014. A Fast and Accurate Dependency Parser using Neural Networks. EMNLP 2014. Sandra Kübler, Ryan McDonald, Joakim Nivre. 2009.",
       "is_article": "1",
       "is_index": "0",
@@ -651,7 +651,7 @@
     "930824186": {
       "item_id": "930824186",
       "resolved_id": "930824186",
-      "given_url": "https://karpathy.github.io/2015/05/21/rnn-effectiveness/",
+      "given_url": "http://karpathy.github.io/2015/05/21/rnn-effectiveness/",
       "given_title": "article-mobile.html",
       "favorite": "0",
       "status": "1",
@@ -661,7 +661,7 @@
       "time_favorited": "0",
       "sort_id": 22,
       "resolved_title": "The Unreasonable Effectiveness of Recurrent Neural Networks",
-      "resolved_url": "https://karpathy.github.io/2015/05/21/rnn-effectiveness/",
+      "resolved_url": "http://karpathy.github.io/2015/05/21/rnn-effectiveness/",
       "excerpt": "There’s something magical about Recurrent Neural Networks (RNNs). I still remember when I trained my first recurrent network for Image Captioning.",
       "is_article": "1",
       "is_index": "0",
@@ -675,7 +675,7 @@
     "1024078227": {
       "item_id": "1024078227",
       "resolved_id": "1024078227",
-      "given_url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "given_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
       "given_title": "article-mobile.html",
       "favorite": "0",
       "status": "1",
@@ -685,7 +685,7 @@
       "time_favorited": "0",
       "sort_id": 23,
       "resolved_title": "Understanding LSTM Networks",
-      "resolved_url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "resolved_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs",
       "excerpt": "Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.",
       "is_article": "1",
       "is_index": "0",
@@ -816,7 +816,7 @@
       "time_favorited": "0",
       "sort_id": 28,
       "resolved_title": "Ampersand Usage — “&” or “And”?",
-      "resolved_url": "https://www.probizwriters.com/PBW-blog/index.php/ampersand-usage/",
+      "resolved_url": "http://www.probizwriters.com/PBW-blog/index.php/ampersand-usage/",
       "excerpt": "Writers in business contexts often appear clueless when using ampersands, and they frequently get ampersand usage wrong.  I see it every day in my commercial copy editing work.  But &  and and have distinct functions, meanings, and uses.",
       "is_article": "1",
       "is_index": "0",
@@ -824,7 +824,7 @@
       "has_image": "1",
       "word_count": "488",
       "lang": "en",
-      "top_image_url": "https://www.probizwriters.com/PBW-blog/index.php/ampersand-usage/",
+      "top_image_url": "http://www.probizwriters.com/PBW-blog/index.php/ampersand-usage/",
       "listen_duration_estimate": 189
     },
     "769819918": {
@@ -877,7 +877,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1547",
+      "word_count": "1549",
       "lang": "en",
       "time_to_read": 7,
       "top_image_url": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2019/04/p-1-90338390-the-most-important-tech-boom-designers-are-ignoring.jpg",
@@ -886,7 +886,7 @@
         "logo": "https://logo.clearbit.com/fastcompany.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/fastcompany.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 599
+      "listen_duration_estimate": 600
     },
     "2564340577": {
       "item_id": "2564340577",
@@ -901,7 +901,7 @@
       "time_favorited": "1555731835",
       "sort_id": 31,
       "resolved_title": "Smart speakers: Why your voice is a major battle in music",
-      "resolved_url": "https://www.bbc.com/culture/story/20190416-smart-speakers-why-your-voice-is-a-major-battle-in-music",
+      "resolved_url": "http://www.bbc.com/culture/story/20190416-smart-speakers-why-your-voice-is-a-major-battle-in-music",
       "excerpt": "Smart speakers, those voice-activated devices that allow you to check the weather, play podcasts or order food delivery, are becoming more and more common in our homes.",
       "is_article": "1",
       "is_index": "0",
@@ -910,7 +910,7 @@
       "word_count": "1816",
       "lang": "en",
       "time_to_read": 8,
-      "top_image_url": "https://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/76/nt/p076nt5s.jpg",
+      "top_image_url": "http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/76/nt/p076nt5s.jpg",
       "domain_metadata": {
         "name": "BBC",
         "logo": "https://logo.clearbit.com/bbc.com?size=800",
@@ -921,7 +921,7 @@
     "386655066": {
       "item_id": "386655066",
       "resolved_id": "386655066",
-      "given_url": "https://www.hplovecraft.com/writings/texts/essays/nwwf.aspx",
+      "given_url": "http://www.hplovecraft.com/writings/texts/essays/nwwf.aspx",
       "given_title": "\"Notes on Writing Weird Fiction\" by H. P. Lovecraft",
       "favorite": "1",
       "status": "1",
@@ -931,7 +931,7 @@
       "time_favorited": "1555213135",
       "sort_id": 32,
       "resolved_title": "Notes on Writing Weird Fiction By H. P. Lovecraft",
-      "resolved_url": "https://www.hplovecraft.com/writings/texts/essays/nwwf.aspx",
+      "resolved_url": "http://www.hplovecraft.com/writings/texts/essays/nwwf.aspx",
       "excerpt": "My reason for writing stories is to give myself the satisfaction of visualising more clearly and detailedly and stably the vague, elusive, fragmentary impressions of wonder, beauty, and adventurous expectancy which are conveyed to me by certain sights (scenic, architectural, atmospheric, etc.",
       "is_article": "1",
       "is_index": "0",
@@ -983,7 +983,7 @@
       "time_favorited": "1554181938",
       "sort_id": 34,
       "resolved_title": "All you need to know about hyphenation in CSS",
-      "resolved_url": "https://clagnut.com/blog/2395",
+      "resolved_url": "http://clagnut.com/blog/2395",
       "excerpt": "Earlier this month I was invited to give an evening lecture at the Typography Society of Austria (tga) in Vienna.",
       "is_article": "1",
       "is_index": "0",
@@ -992,13 +992,13 @@
       "word_count": "1314",
       "lang": "en",
       "time_to_read": 6,
-      "top_image_url": "https://clagnut.com/images/1-handj-bible-hyphens.jpg",
+      "top_image_url": "http://clagnut.com/images/1-handj-bible-hyphens.jpg",
       "listen_duration_estimate": 509
     },
     "2524998007": {
       "item_id": "2524998007",
       "resolved_id": "2524998007",
-      "given_url": "https://link.oreilly.com/NM00lF4r000eyAS05Qt0l0W",
+      "given_url": "http://link.oreilly.com/NM00lF4r000eyAS05Qt0l0W",
       "given_title": "",
       "favorite": "1",
       "status": "1",
@@ -1008,7 +1008,7 @@
       "time_favorited": "1552974514",
       "sort_id": 35,
       "resolved_title": "",
-      "resolved_url": "https://link.oreilly.com/NM00lF4r000eyAS05Qt0l0W",
+      "resolved_url": "http://link.oreilly.com/NM00lF4r000eyAS05Qt0l0W",
       "excerpt": "",
       "is_article": "0",
       "is_index": "0",
@@ -1199,7 +1199,7 @@
     "2403556196": {
       "item_id": "2403556196",
       "resolved_id": "2392361251",
-      "given_url": "https://app.engage.redhat.com/e/er?s=1795&lid=104017&elqTrackId=05f5d8035a7a45be81921e1b0e946058&elq=8a13b1065b49498291f90ecee2a3c896&elqaid=57362&elqat=1",
+      "given_url": "http://app.engage.redhat.com/e/er?s=1795&lid=104017&elqTrackId=05f5d8035a7a45be81921e1b0e946058&elq=8a13b1065b49498291f90ecee2a3c896&elqaid=57362&elqat=1",
       "given_title": "",
       "favorite": "0",
       "status": "1",
@@ -1296,7 +1296,7 @@
       "time_favorited": "0",
       "sort_id": 45,
       "resolved_title": "Coleman–Liau index",
-      "resolved_url": "https://en.wikipedia.org/wiki/Coleman–Liau_index",
+      "resolved_url": "http://en.wikipedia.org/wiki/Coleman–Liau_index",
       "excerpt": "The Coleman–Liau index is a readability test designed by Meri Coleman and T. L. Liau to gauge the understandability of a text. Like the Flesch–Kincaid Grade Level, Gunning fog index, SMOG index, and Automated Readability Index, its output approximates the U.S.",
       "is_article": "1",
       "is_index": "1",
@@ -1368,5 +1368,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1595839453
+  "since": 1597741930
 }

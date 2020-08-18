@@ -6,8 +6,8 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: https://podcast.writethedocs.org/2019/09/22/episode-24-swapnil-and-wtd-australia/
-podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_24_wtd_community_australia.mp3
+orig_url: http://podcast.writethedocs.org/2019/09/22/episode-24-swapnil-and-wtd-australia/
+podcast_embed: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtd_episode_24_wtd_community_australia.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/
 ---

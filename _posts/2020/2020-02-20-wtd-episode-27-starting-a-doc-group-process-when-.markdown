@@ -6,8 +6,8 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: https://podcast.writethedocs.org/2020/02/20/episode-27-starting-doc-dept-from-scratch/
-podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_27_first_on_scene.mp3
+orig_url: http://podcast.writethedocs.org/2020/02/20/episode-27-starting-doc-dept-from-scratch/
+podcast_embed: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtd_episode_27_first_on_scene.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/
 ---

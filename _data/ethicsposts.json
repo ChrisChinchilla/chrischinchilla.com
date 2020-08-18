@@ -50,7 +50,7 @@
       "excerpt": "Andrew Yang wants people to get paid for the data they create on big tech platforms like Facebook and Google, and with a new project launching on Monday, he believes he can make it happen.",
       "is_article": "1",
       "is_index": "0",
-      "has_video": "1",
+      "has_video": "0",
       "has_image": "1",
       "word_count": "591",
       "lang": "en",
@@ -108,7 +108,7 @@
       "time_favorited": "0",
       "sort_id": 3,
       "resolved_title": "Is your start-up sexist?",
-      "resolved_url": "https://www.exberliner.com/api/content/eb6dfede-8815-11e3-b8af-1231380a02d9/",
+      "resolved_url": "http://www.exberliner.com/api/content/eb6dfede-8815-11e3-b8af-1231380a02d9/",
       "excerpt": "What springs to mind when you think “Berlin start-up”? Probably not the clichéd ‘old boy’s club’ culture of 1960s ad agencies.",
       "is_article": "1",
       "is_index": "0",
@@ -116,7 +116,7 @@
       "has_image": "0",
       "word_count": "1813",
       "lang": "",
-      "top_image_url": "https://www.exberliner.com/downloads/10216/download/desk-red-one-01.jpg?cb=c449a424df48d5ff9ac1e5f5ad486b4e",
+      "top_image_url": "http://www.exberliner.com/downloads/10216/download/desk-red-one-01.jpg?cb=c449a424df48d5ff9ac1e5f5ad486b4e",
       "listen_duration_estimate": 702
     },
     "2935251471": {
@@ -240,7 +240,7 @@
     "2825567308": {
       "item_id": "2825567308",
       "resolved_id": "2821823464",
-      "given_url": "https://link.webdesignernews.com/?xtl=qmfgeq516jhk77jvmsvbtwqnhecrrdq1dqz0v21t8eiuxpg2bjvd0tr4h7nionuc3su8yqv5as2tspg4addwo9d80kzr7v4asya33s8d5owfbhqlcz7udhuneisxz62tawdjfz4ho4q2yatgq6gz059p7sqjji223twh6y1gfxwlfaykntahy5ibc12uh3xohklujyruxzpfxlpilhcxe&eih=2jtwdtqvlfgnyospbauircuygngw2sqfc1",
+      "given_url": "http://link.webdesignernews.com/?xtl=qmfgeq516jhk77jvmsvbtwqnhecrrdq1dqz0v21t8eiuxpg2bjvd0tr4h7nionuc3su8yqv5as2tspg4addwo9d80kzr7v4asya33s8d5owfbhqlcz7udhuneisxz62tawdjfz4ho4q2yatgq6gz059p7sqjji223twh6y1gfxwlfaykntahy5ibc12uh3xohklujyruxzpfxlpilhcxe&eih=2jtwdtqvlfgnyospbauircuygngw2sqfc1",
       "given_title": "",
       "favorite": "1",
       "status": "1",
@@ -328,7 +328,7 @@
     "2817931621": {
       "item_id": "2817931621",
       "resolved_id": "2812668689",
-      "given_url": "https://enews.zdnet.com/ct/53670357:WF4MRrvN8:m:1:716577313:A2D7F3A8678CC3F5CC08FF9F7FB17C4A:r",
+      "given_url": "http://enews.zdnet.com/ct/53670357:WF4MRrvN8:m:1:716577313:A2D7F3A8678CC3F5CC08FF9F7FB17C4A:r",
       "given_title": "",
       "favorite": "1",
       "status": "1",
@@ -815,7 +815,7 @@
       "lang": "en",
       "time_to_read": 6,
       "amp_url": "https://mercury.postlight.com/amp?url=https://www.thersa.org/discover/publications-and-articles/rsa-blogs/2017/02/a-hippocratic-oath-for-ai-developers-it-may-only-be-a-matter-of-time",
-      "top_image_url": "https://www.thersa.org/assets/images/logo.png",
+      "top_image_url": "http://www.thersa.org/assets/images/logo.png",
       "listen_duration_estimate": 490
     },
     "2106930330": {
@@ -938,7 +938,7 @@
     "2679778465": {
       "item_id": "2679778465",
       "resolved_id": "2677817335",
-      "given_url": "https://enews.zdnet.com/ct/52355409:W3PyDdwNQ:m:1:716577313:3BF070A3529FB905F5368F827F36EB57:r",
+      "given_url": "http://enews.zdnet.com/ct/52355409:W3PyDdwNQ:m:1:716577313:3BF070A3529FB905F5368F827F36EB57:r",
       "given_title": "",
       "favorite": "0",
       "status": "1",
@@ -1091,7 +1091,7 @@
     "2625097722": {
       "item_id": "2625097722",
       "resolved_id": "2624470462",
-      "given_url": "https://conde-nast.msgfocus.com/c/18lJ0eZ12I8AXlKQfe1U9sFrMo",
+      "given_url": "http://conde-nast.msgfocus.com/c/18lJ0eZ12I8AXlKQfe1U9sFrMo",
       "given_title": "",
       "favorite": "0",
       "status": "1",
@@ -1208,7 +1208,7 @@
     "2544648465": {
       "item_id": "2544648465",
       "resolved_id": "2544485027",
-      "given_url": "https://conde-nast.msgfocus.com/c/1JqNx2qLFqrcefWR06bdX6DJw",
+      "given_url": "http://conde-nast.msgfocus.com/c/1JqNx2qLFqrcefWR06bdX6DJw",
       "given_title": "",
       "favorite": "0",
       "status": "1",
@@ -1315,8 +1315,8 @@
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "0",
-      "word_count": "1003",
+      "has_image": "1",
+      "word_count": "1007",
       "lang": "en",
       "time_to_read": 5,
       "top_image_url": "https://images.axios.com/nvLmc-0xlyASPjzRvxvgUQmC5Hk=/fit-in/1366x1366/2019/03/08/1552074399862.gif",
@@ -1325,12 +1325,12 @@
         "logo": "https://logo.clearbit.com/axios.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/axios.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 388
+      "listen_duration_estimate": 390
     },
     "2531243778": {
       "item_id": "2531243778",
       "resolved_id": "2531017629",
-      "given_url": "https://read.medium.com/M6c2Ufj",
+      "given_url": "http://read.medium.com/M6c2Ufj",
       "given_title": "",
       "favorite": "0",
       "status": "1",
@@ -1359,7 +1359,7 @@
     "2528343281": {
       "item_id": "2528343281",
       "resolved_id": "2527780934",
-      "given_url": "https://conde-nast.msgfocus.com/c/1JayYtMya8YPdmDfqOTu9EqUW",
+      "given_url": "http://conde-nast.msgfocus.com/c/1JayYtMya8YPdmDfqOTu9EqUW",
       "given_title": "",
       "favorite": "1",
       "status": "1",
@@ -1532,7 +1532,7 @@
     "2492498482": {
       "item_id": "2492498482",
       "resolved_id": "2482016415",
-      "given_url": "https://enews.zdnet.com/ct/50716511:stn0UnINk:m:1:716577313:41C848F294E60F8E16FD491C9B569F5C:r",
+      "given_url": "http://enews.zdnet.com/ct/50716511:stn0UnINk:m:1:716577313:41C848F294E60F8E16FD491C9B569F5C:r",
       "given_title": "",
       "favorite": "1",
       "status": "1",
@@ -1624,7 +1624,7 @@
     "2214462582": {
       "item_id": "2214462582",
       "resolved_id": "2214133252",
-      "given_url": "https://link.webdesignernews.com/?xtl=a6x998x7karxefbxhr4y3t5uo1zg6ztiylx6hvlj6uqkezf3ysxegbfm05j19oybv8es75xyehllzwo87wt14bu6ijkzfje3t4j6l1xr9e5glnasoz74okrjxzj44uhz87iiff177rle9a2fmm0p0y89ebfmsidbkkjqnvz56gcy8tx38u3q6rep0&xih=2jtwdtqvlfgnyospbauircuygngw2sqfc1",
+      "given_url": "http://link.webdesignernews.com/?xtl=a6x998x7karxefbxhr4y3t5uo1zg6ztiylx6hvlj6uqkezf3ysxegbfm05j19oybv8es75xyehllzwo87wt14bu6ijkzfje3t4j6l1xr9e5glnasoz74okrjxzj44uhz87iiff177rle9a2fmm0p0y89ebfmsidbkkjqnvz56gcy8tx38u3q6rep0&xih=2jtwdtqvlfgnyospbauircuygngw2sqfc1",
       "given_title": "",
       "favorite": "0",
       "status": "1",
@@ -1656,5 +1656,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1595839452
+  "since": 1597741928
 }

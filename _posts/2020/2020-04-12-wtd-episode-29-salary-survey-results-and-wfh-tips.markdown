@@ -6,8 +6,8 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-orig_url: https://podcast.writethedocs.org/2020/04/12/episode-29-wtd-salary-survey-and-wfh/
-podcast_embed: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/episode29_wtd_salary_survey_wfh.mp3
+orig_url: http://podcast.writethedocs.org/2020/04/12/episode-29-wtd-salary-survey-and-wfh/
+podcast_embed: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/episode29_wtd_salary_survey_wfh.mp3
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/
 ---
