@@ -18,13 +18,13 @@ image: chinchilla.png
     </main>
     <aside class="top-column">
         {% if page.image %}
-        {% picture listings {{ page.image }} alt="{{ page.title}}" %}
+        {% picture listings {{ page.image }} alt="{{ page.title }}" %}
         {% endif %}
         <div class="connect">
             <div class="icon_bar">
                 {% for post in site.connect %}
                 {% if post.image %}
-                <a href="{{ post.network_link }}">{% picture icon {{ post.image }} alt={{ post.title }} %}</a>
+                <a href="{{ post.network_link }}">{% picture icon {{ post.image }} alt="{{ post.title }}" %}</a>
                 {% else %}
                 {{ post.network_link }}
                 {% endif %}
