@@ -115,6 +115,7 @@ picture:
   output: generated
   markup: picture
   nomarkdown: false
+  fast_build: true  
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

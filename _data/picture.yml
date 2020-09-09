@@ -1,67 +1,13 @@
-media_presets:
-  wide_desktop: 'min-width: 1801px'
-  desktop: 'max-width: 1800px'
-  wide_tablet: 'max-width: 1200px'
-  tablet: 'max-width: 900px'
-  mobile: 'max-width: 600px'
-
 markup_presets:
   listings:
-    ppi: [1, 2]
+    widths: [280]
     attr:
       class: listings
-      itemprop: image
-    source_medium:
-      media: "(min-width: 40em)"
-      width: 280
-    source_default:
-      width: 280
-  default:
-    attr:
-      class: "post-img"
-    source_default:
-      width: "360"
-      height: "771"
-    source_720:
-      width: "720"
-      media: "(min-device-pixel-ratio: 1.5)"
-    source_430:
-      width: "430"
-      media: "(min-width: 360px)"
-    source_860:
-      width: "860"
-      media: "(min-width: 360px) and (min-device-pixel-ratio: 1.5)"
-    source_500:
-      width: "500"
-      media: "(min-width: 430px)"
-    source_1000:
-      width: "1000"
-      media: "(min-width: 430px) and (min-device-pixel-ratio: 1.5)"
-    source_640:
-      width: "640"
-      media: "(min-width: 500px)"
-    source_1280:
-      width: "1280"
-      media: "(min-width: 500px) and (min-device-pixel-ratio: 1.5)"
   icon:
-    ppi: [1, 2]
+    widths: [45]
     attr:
       class: small-screen
-      itemprop: image
-    source_medium:
-      # media: "(min-width: 40em)"
-      width: 45
-      # height: 200
-    source_default:
-      width: 45
   merch:
-    ppi: [1, 2]
+    widths: [120]
     attr:
       class: small-screen
-      itemprop: image
-    source_medium:
-      # media: "(min-width: 40em)"
-      width: 120
-      # height: 200
-    source_default:
-      width: 120
