@@ -711,7 +711,7 @@
       "time_favorited": "0",
       "sort_id": 24,
       "resolved_title": "Understanding LSTM Networks",
-      "resolved_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs",
+      "resolved_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
       "excerpt": "Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.",
       "is_article": "1",
       "is_index": "0",
@@ -980,21 +980,22 @@
       "time_read": "1554873400",
       "time_favorited": "1554873394",
       "sort_id": 34,
-      "resolved_title": "",
+      "resolved_title": "A Harvard Linguist's (and Bill Gates's Favorite Author) 13 Simple Tips for Becoming a Great Writer",
       "resolved_url": "https://www.inc.com/jessica-stillman/a-harvard-linguists-13-simple-tips-for-becoming-a-great-writer.html",
-      "excerpt": "",
-      "is_article": "0",
+      "excerpt": "If you were looking for someone to teach you how to become a better writer, you probably couldn't do any better than Steven Pinker. The famed Harvard linguist is the author of several bestsellers, and Bill Gates even called one of them his favorite book of all time.",
+      "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "0",
-      "word_count": "0",
-      "lang": "",
+      "has_image": "1",
+      "word_count": "375",
+      "lang": "en",
+      "top_image_url": "https://www.incimages.com/uploaded_files/image/1024x576/getty_637959338_387452.jpg",
       "domain_metadata": {
         "name": "Inc. Magazine",
         "logo": "https://logo.clearbit.com/inc.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/inc.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 0
+      "listen_duration_estimate": 145
     },
     "2538247441": {
       "item_id": "2538247441",
@@ -1394,5 +1395,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1600073728
+  "since": 1600422874
 }
