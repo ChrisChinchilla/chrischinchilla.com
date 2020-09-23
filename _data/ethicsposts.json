@@ -1553,7 +1553,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "4138",
+      "word_count": "4103",
       "lang": "en",
       "time_to_read": 19,
       "amp_url": "https://amp.theguardian.com/lifeandstyle/2019/feb/23/truth-world-built-for-men-car-crashes",
@@ -1563,7 +1563,7 @@
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1602
+      "listen_duration_estimate": 1588
     },
     "2495767619": {
       "item_id": "2495767619",
@@ -1717,5 +1717,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1600073726
+  "since": 1600866631
 }
