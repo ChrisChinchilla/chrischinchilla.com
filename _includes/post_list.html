@@ -37,48 +37,26 @@
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h3>
       {% endif %}
-      {% if post.categories[1] == 'sitepoint' or post.categories[1]
-      == 'crate' or
-      post.categories[1] == 'codeship' or post.categories[1] == 'sqreen' or
-      post.categories[1] == 'dzone' or post.categories[1] == 'thenextweb' or
-      post.categories[1] == 'cultofmac' or post.categories[1] == 'podcast' or
-      post.categories[1] == 'hackernoon' or post.categories[1] == 'envato' or
-      post.categories[1] == 'readwrite' or post.categories[1] == 'overops' or
-      post.categories[1] == 'techbeacon' or post.categories[1] == 'gitlab' or post.categories[1] == 'coralogix' or post.categories[1] == 'kauri' %}
-      for {{ post.categories[1] }} {% else %} for
-      {% case
-      post.categories[1] %}
-      {% when 'odtwe' %}
-      <a href="/projects/odtwe">One Day the World Ended</a>
-      {% when 'chipshop'%}
-      <a href="/projects/chipshop">Chip Shop</a> {% when 'leantraveller' %}
-      <a href="/projects/leantraveller">Lean Traveller</a> {% when
-      'chrischinchilla' %}
-      <a href="/writing/chrischinchilla">Chris Chinchilla</a> {% when 'software'
-      %} <a href="/projects/software">Software</a> {% when 'presentations' %}
-      <a href="/writing/presentations">Presentations</a> {% when
-      'atravellingcook' %}
-      <a href="/writing/a-travelling-cook">A Travelling Cook</a> {% when
-      'not-profit-handbook' %}
-      <a href="/projects/not-profit-handbook">The Not-for-Profit Handbook</a>
-      {% when
-        'theweeklysqueak' or 'writethedocs' %}
-      <a href="/podcasts">{{ post.podcast }}</a>
-      {%
-      endcase %}
-      {% endif %}
+      
     </div>
-    {%- if post.podcast_embed -%}
-    <div>
+      {%- if post.podcast_embed -%}
+      <div>
       <audio controls>
         <source src={{post.podcast_embed}}>
         Your browser does not support the audio element.
       </audio>
     </div>
-    {%- endif -%}
-    {%- if post.video_embed -%}
-    {{ post.video_embed }}
-    {%- endif -%}
+      {%- endif -%}
+
+      {%- if post.video_embed -%}
+      <div>
+
+          {%- if post.source =="YouTube" -%}
+        <iframe width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/{{ post.video_embed }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  {%- endif -%}
+      {%- endif -%}
+
     <p>{{ post.excerpt }}</p>
     {% if post.transcript %}
     <div>

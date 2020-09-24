@@ -1,0 +1,17 @@
+video:
+  posts_directory: _posts/
+  templates_directory: _imported/
+  whitelisted_tags: []
+  # sanitize_html: true
+
+blogs:
+  # Bare minimum to get it working
+  - feed: "https://www.youtube.com/feeds/videos.xml?channel_id=UCgnrx8qi4qhmN6sBebdDrmg"
+    image: "https://www.rss-specifications.com/rss-spec-rss.gif"
+    twitter: "poteland"
+    categories: "video"
+    podcast: "X"
+    video_embed: ""
+    type: video
+    layout: video
+    source: ""
