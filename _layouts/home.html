@@ -29,7 +29,7 @@ layout: default
     </aside>
   </div>
   <div class="row">
-    <div class="column">
+    <!-- <div class="column">
       <h2>Next events</h2><a class="more-link" href="/events">more</a>
 
       {% assign future_events = "" | split: "" %}
@@ -44,7 +44,7 @@ layout: default
       {% endfor %}
       {% include event_list.html filtered_events = future_events %}
 
-    </div>
+    </div> -->
 
     <div class="column">
       <h2>Latest posts</h2> - <a class=more-link" href="/writing">more</a>
@@ -54,7 +54,14 @@ layout: default
 
     </div>
     <div class="column">
-      <h2>Latest podcasts</h2><a class="more-link" href="/events">more</a>
+      <h2>Latest videos</h2><a class="more-link" href="/events">more</a>
+
+      {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'video'" %}
+      {% include post_list.html filtered_posts=latest_posts post_limit=5 %}
+
+    </div>
+    <div class="column">
+      <h2>Latest podcasts</h2><a class="more-link" href="/video">more</a>
 
       {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'podcast'" %}
       {% include post_list.html filtered_posts=latest_posts post_limit=5 %}
