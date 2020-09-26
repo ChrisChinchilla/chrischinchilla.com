@@ -1,68 +1,97 @@
+{% if include.filtered_posts %}
+{% assign posts = include.filtered_posts %}
+{% else %}
+{% assign posts = paginator.posts %}
+{% endif %}
+
+{% if include.post_limit %}
+{% assign post_limit = include.post_limit %}
+{% else %}
+<!-- TODO: Need to cope with paginator -->
+{% assign post_limit = 100 %}
+{% endif %}
+
+{% assign feedposts = include.filtered_posts %}
+
+{% for post in posts | limit: post_limit %}
 <div class="row">
-  {% if include.filtered_posts %}
-  {% assign posts = include.filtered_posts %}
-  {% else %}
-  {% assign posts = paginator.posts %}
-  {% endif %}
 
-  {% if include.post_limit %}
-  {% assign post_limit = include.post_limit %}
-  {% else %}
-  <!-- TODO: Need to cope with paginator -->
-  {% assign post_limit = 100 %}
-  {% endif %}
-
-  {% assign feedposts = include.filtered_posts %}
-
-  {% for post in posts | limit: post_limit %}
-  <div class="column">
+  <div class="column top-column">
     <div class="image">
-      {% if post.image %} {% picture listings {{ post.image }} alt="{{
-        post.title
-      }}" %} {% endif %}
-    </div>
-    <div class="combiheading">
-      {% if post.publication_url %}
-      <h3>
-        <a href="{{ post.publication_url }}" rel="canonical">
-          {{ post.title }}</a>
-      </h3>
-      {% elsif post.orig_url %}
-      <h3>
-        <a href="{{ post.orig_url }}" rel="canonical">
-          {{ post.title }}</a>
-      </h3>
-      {% else %}
-      <h3>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h3>
+      {% if post.image %}
+      {% picture listings {{ post.image }} alt="{{post.title}}" %} 
+{% else %}
+{% if post.title contains "DXpos" %}
+{% picture listings "dxpose-logo.png" alt="DXpose logo" %} 
+{% elsif post.title contains "The Solo" %}
+{% picture listings "tsa-logo.png" alt="The Solo Adventurer logo" %} 
+{% endif %}
       {% endif %}
-      
     </div>
-      {%- if post.podcast_embed -%}
-      <div>
+  </div>
+
+  <div class="combiheading top-column">
+    {% if post.publication_url %}
+    <h3>
+      <a href="{{ post.publication_url }}" rel="canonical">
+        {{ post.title }}</a>
+    </h3>
+    {% elsif post.orig_url %}
+    <h3>
+      <a href="{{ post.orig_url }}" rel="canonical">
+        {{ post.title }}</a>
+    </h3>
+    {% else %}
+    <h3>
+      {{ post.title }}
+    </h3>
+    {% endif %}
+    <div>
+      <p>{{ post.excerpt }}</p>
+    </div>
+    {%- if post.podcast.orig_url -%}
+    <div>
+      <audio controls>
+        <source src={{post.podcast.podcast_embed}}>
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    
+    {%- elsif post.layout == "podcast" -%}
+    <div>
       <audio controls>
         <source src={{post.podcast_embed}}>
         Your browser does not support the audio element.
       </audio>
     </div>
-      {%- endif -%}
-
-      {%- if post.video_embed -%}
-      <div>
-
-          {%- if post.source =="YouTube" -%}
-        <iframe width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/{{ post.video_embed }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-  {%- endif -%}
-      {%- endif -%}
-
-    <p>{{ post.excerpt }}</p>
-    {% if post.transcript %}
+    {%- endif -%}
+    {%- if post.video -%}
     <div>
-      <a href="{{ post.url | prepend: site.baseurl }}">Transcript</a>
+      {%- if post.video.source == "YouTube" -%}
+      <iframe width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/{{ post.video.video_embed }}"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      {%- endif -%}
+    </div>
+    {%- elsif post.layout == "video" -%}
+    <div>
+      {%- if post.source =="YouTube" -%}
+      <iframe width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/{{ post.video_embed }}"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+    {% if post.newsletter.orig_url %}
+    <div class="text-link newsletter">
+      <a href="{{ post.newsletter.orig_url | prepend: site.baseurl }}">Email newsletter</a>
     </div>
     {% endif %}
+  {% if post.transcript %}
+  <div class="text-link transcript">
+    <a href="{{ post.url | prepend: site.baseurl }}">Transcript</a>
+  </div>
+  {% endif %}
     <!-- <div class="tags">
       {% if post.tags %}
       <h4>Tags</h4>
@@ -71,5 +100,5 @@
       {% endif %}
     </div> -->
   </div>
-  {% endfor %}
 </div>
+{% endfor %}

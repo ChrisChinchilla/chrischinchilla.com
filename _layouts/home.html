@@ -28,7 +28,7 @@ layout: default
       </div>
     </aside>
   </div>
-  <div class="row">
+  {{/*  <div class="row">  */}}
     <!-- <div class="column">
       <h2>Next events</h2><a class="more-link" href="/events">more</a>
 
@@ -46,28 +46,15 @@ layout: default
 
     </div> -->
 
-    <div class="column">
-      <h2>Latest posts</h2> - <a class=more-link" href="/writing">more</a>
+    {{/*  <div class="column">  */}}
+      {{/*  <h2>Latest posts</h2> - <a class=more-link" href="/writing">more</a>  */}}
 
-      {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'writing'" %}
-      {% include post_list.html filtered_posts=latest_posts post_limit=5 %}
+      {% assign latest_posts = site.posts %}
+      {% include post_list.html filtered_posts=latest_posts post_limit=15 %}
 
-    </div>
-    <div class="column">
-      <h2>Latest videos</h2><a class="more-link" href="/events">more</a>
+    {{/*  </div>  */}}
 
-      {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'video'" %}
-      {% include post_list.html filtered_posts=latest_posts post_limit=5 %}
-
-    </div>
-    <div class="column">
-      <h2>Latest podcasts</h2><a class="more-link" href="/video">more</a>
-
-      {% assign latest_posts = site.posts | where_exp: "post", "post.categories contains 'podcast'" %}
-      {% include post_list.html filtered_posts=latest_posts post_limit=5 %}
-
-    </div>
-  </div>
+  {{/*  </div>  */}}
   <div class="row colspan3">
     <div class="column colspan3">
       <h2>Recommendations and Newsletters</h2>
