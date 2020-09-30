@@ -1670,7 +1670,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2027",
+      "word_count": "2019",
       "lang": "en",
       "time_to_read": 9,
       "top_image_url": "https://lithub.com/wp-content/uploads/2018/04/Margaret-Atwood-Handmaids-Tale-Folio-Society.jpg",
@@ -1679,7 +1679,7 @@
         "logo": "https://logo.clearbit.com/lithub.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/lithub.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 785
+      "listen_duration_estimate": 782
     },
     "2286786905": {
       "item_id": "2286786905",
@@ -1747,5 +1747,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1600976314
+  "since": 1601475651
 }
