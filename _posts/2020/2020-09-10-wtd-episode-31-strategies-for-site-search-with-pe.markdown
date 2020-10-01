@@ -6,14 +6,9 @@ author: ""
 categories: podcast writethedocs
 podcast: "Write the Docs"
 tags: 
-<<<<<<< HEAD
-orig_url: http://podcast.writethedocs.org/2020/09/10/episode-31-site-search/
-podcast_embed: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/episode31_site_search.mp3
-=======
 podcast:
     orig_url: http://podcast.writethedocs.org/2020/09/10/episode-31-site-search/
     podcast_embed: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/episode31_site_search.mp3
->>>>>>> feature/new-content-type
 image: wtdpodcastlogo.png
 permalink: /:categories/:title/
 ---
