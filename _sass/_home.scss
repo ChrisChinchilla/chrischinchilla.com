@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   display: flex; // flex-flow: row wrap;
   justify-content: flex-start;
+  border-bottom: 1px solid grey;
 }
 
 .top-column {
@@ -34,7 +35,6 @@
 
   margin: $spacing-unit / 6;
   padding: $spacing-unit / 6;
-  border-bottom: 1px solid grey;
   // border-left: 1px solid grey;
 
   h2 {

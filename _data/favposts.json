@@ -665,9 +665,15 @@
       "given_title": "Four Great History Books for Game Masters: How to Expand Your Campaign and ",
       "favorite": "1",
       "status": "1",
+<<<<<<< HEAD
       "time_added": "1601127239",
       "time_updated": "1601293422",
       "time_read": "1601293422",
+=======
+      "time_added": "1599403405",
+      "time_updated": "1601117016",
+      "time_read": "1599650847",
+>>>>>>> feature/new-content-type
       "time_favorited": "1599562018",
       "sort_id": 22,
       "resolved_title": "Four Great History Books for Game Masters: How to Expand Your Campaign and Impress Your Friends",
@@ -695,9 +701,15 @@
       "given_title": "Bullfrog after Populous",
       "favorite": "1",
       "status": "1",
+<<<<<<< HEAD
       "time_added": "1601127243",
       "time_updated": "1601293422",
       "time_read": "1601293422",
+=======
+      "time_added": "1599397291",
+      "time_updated": "1601117035",
+      "time_read": "1599513379",
+>>>>>>> feature/new-content-type
       "time_favorited": "1599513148",
       "sort_id": 23,
       "resolved_title": "Bullfrog after Populous",
@@ -719,9 +731,15 @@
       "given_title": "Dungeons & Dragons TikTok Is Gen Z at Its Most Wholesome",
       "favorite": "1",
       "status": "1",
+<<<<<<< HEAD
       "time_added": "1601127245",
       "time_updated": "1601293422",
       "time_read": "1601293422",
+=======
+      "time_added": "1599395260",
+      "time_updated": "1601117043",
+      "time_read": "1599460784",
+>>>>>>> feature/new-content-type
       "time_favorited": "1599460782",
       "sort_id": 24,
       "resolved_title": "Dungeons & Dragons TikTok Is Gen Z at Its Most Wholesome",
@@ -5826,5 +5844,9 @@
   "search_meta": {
     "search_type": "normal"
   },
+<<<<<<< HEAD
   "since": 1601475654
+=======
+  "since": 1601118741
+>>>>>>> feature/new-content-type
 }

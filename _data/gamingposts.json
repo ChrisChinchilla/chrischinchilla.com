@@ -2,6 +2,7 @@
   "status": 1,
   "complete": 1,
   "list": {
+<<<<<<< HEAD
     "2856273042": {
       "item_id": "2856273042",
       "resolved_id": "2856273042",
@@ -17,10 +18,28 @@
       "resolved_title": "Goa, Gods, Gandhi and Greed: Lessons in Colonialism from Four Boardgames",
       "resolved_url": "https://quillette.com/2020/01/17/goa-gods-gandhi-and-greed-lessons-in-colonialism-from-four-boardgames/",
       "excerpt": "It’s an eight-and-a-half-hour drive from Toronto to Indianapolis. And the route, which takes me through Sarnia, Detroit, Toledo and Fort Wayne, is far from scenic. But Gen Con is the biggest boardgame convention in North America, and there’s no direct flight between the two cities.",
+=======
+    "3103154329": {
+      "item_id": "3103154329",
+      "resolved_id": "3103154343",
+      "given_url": "https://medium.com/there-will-be-games/four-great-history-books-for-game-masters-how-to-expand-your-campaign-and-impress-your-friends-16e9114ee630?source=post_recirc---------0------------------",
+      "given_title": "Four Great History Books for Game Masters: How to Expand Your Campaign and ",
+      "favorite": "1",
+      "status": "1",
+      "time_added": "1599403405",
+      "time_updated": "1601117016",
+      "time_read": "1599650847",
+      "time_favorited": "1599562018",
+      "sort_id": 0,
+      "resolved_title": "Four Great History Books for Game Masters: How to Expand Your Campaign and Impress Your Friends",
+      "resolved_url": "https://medium.com/there-will-be-games/four-great-history-books-for-game-masters-how-to-expand-your-campaign-and-impress-your-friends-16e9114ee630",
+      "excerpt": "Game Masters who design their own stories are always looking for new sources of inspiration. A reasonable strategy is to lift something from an already existing fantasy story (or story in the genre your game is in) and file the serial numbers off.",
+>>>>>>> feature/new-content-type
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
+<<<<<<< HEAD
       "word_count": "2875",
       "lang": "en",
       "time_to_read": 13,
@@ -47,10 +66,39 @@
       "resolved_title": "10 best RPG board games",
       "resolved_url": "https://www.dicebreaker.com/categories/board-game/best-games/best-rpg-board-games",
       "excerpt": "Tabletop RPGs provide some of the most memorable experiences you can have at the table, whether it's cheering at a clutch dice roll, gasping after a dramatic payoff or laughing at the charming antics of Tim the Goblin.",
+=======
+      "word_count": "2007",
+      "lang": "en",
+      "time_to_read": 9,
+      "top_image_url": "https://miro.medium.com/focal/1200/632/50/73/1*Z3OjX_c3hnjo-bGowc2U0A.jpeg",
+      "domain_metadata": {
+        "name": "Medium",
+        "logo": "https://logo.clearbit.com/medium.com?size=800",
+        "greyscale_logo": "https://logo.clearbit.com/medium.com?size=800&greyscale=true"
+      },
+      "listen_duration_estimate": 777
+    },
+    "868442873": {
+      "item_id": "868442873",
+      "resolved_id": "868442873",
+      "given_url": "https://thealexandrian.net/wordpress/36900/roleplaying-games/the-railroading-manifesto",
+      "given_title": "The Railroading Manifesto",
+      "favorite": "0",
+      "status": "1",
+      "time_added": "1599397337",
+      "time_updated": "1601117026",
+      "time_read": "1599562545",
+      "time_favorited": "0",
+      "sort_id": 1,
+      "resolved_title": "The Railroading Manifesto",
+      "resolved_url": "https://thealexandrian.net/wordpress/36900/roleplaying-games/the-railroading-manifesto",
+      "excerpt": "Railroads happen when the GM negates a player’s choice in order to enforce a preconceived outcome. Note, however, that both parts of this equation are important: The choice must be negated and the reason it’s being negated is because the GM is trying to create a specific outcome.",
+>>>>>>> feature/new-content-type
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
+<<<<<<< HEAD
       "word_count": "2232",
       "lang": "en",
       "time_to_read": 10,
@@ -88,11 +136,19 @@
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
       "listen_duration_estimate": 466
+=======
+      "word_count": "2254",
+      "lang": "en",
+      "time_to_read": 10,
+      "top_image_url": "https://www.thealexandrian.net/images/20150313.jpg",
+      "listen_duration_estimate": 873
+>>>>>>> feature/new-content-type
     },
     "3101403541": {
       "item_id": "3101403541",
       "resolved_id": "3101403541",
       "given_url": "https://www.filfre.net/2020/09/bullfrog-after-populous/",
+<<<<<<< HEAD
       "given_title": "Bullfrog after Populous",
       "favorite": "1",
       "status": "1",
@@ -101,6 +157,16 @@
       "time_read": "1601293422",
       "time_favorited": "1599513148",
       "sort_id": 3,
+=======
+      "given_title": "» Bullfrog after Populous The Digital Antiquarian",
+      "favorite": "1",
+      "status": "1",
+      "time_added": "1599397291",
+      "time_updated": "1601117035",
+      "time_read": "1599513379",
+      "time_favorited": "1599513148",
+      "sort_id": 2,
+>>>>>>> feature/new-content-type
       "resolved_title": "Bullfrog after Populous",
       "resolved_url": "https://www.filfre.net/2020/09/bullfrog-after-populous/",
       "excerpt": "I’ll give you an analogy of what Populous is in my mind. Imagine if I had a blank canvas. Some people that are true artists will take a palette of paint and mix them together and carefully handcraft each and every single brushstroke until they have some beautiful and amazing picture.",
@@ -113,6 +179,7 @@
       "time_to_read": 26,
       "listen_duration_estimate": 2225
     },
+<<<<<<< HEAD
     "868442873": {
       "item_id": "868442873",
       "resolved_id": "868442873",
@@ -153,10 +220,28 @@
       "resolved_title": "Four Great History Books for Game Masters: How to Expand Your Campaign and Impress Your Friends",
       "resolved_url": "https://medium.com/there-will-be-games/four-great-history-books-for-game-masters-how-to-expand-your-campaign-and-impress-your-friends-16e9114ee630",
       "excerpt": "Game Masters who design their own stories are always looking for new sources of inspiration. A reasonable strategy is to lift something from an already existing fantasy story (or story in the genre your game is in) and file the serial numbers off.",
+=======
+    "3103057580": {
+      "item_id": "3103057580",
+      "resolved_id": "3100395612",
+      "given_url": "https://www.wired.com/story/dungeons-and-dragons-tiktok/?bxid=5cb4dec624c17c34e555f736&cndid=50578214&esrc=Wired_etl_load&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_brand=wired&utm_campaign=aud-dev&utm_content=A&utm_mailing=WIR_Daily_090520&utm_medium=email&utm_source=nl&utm_term=list1_p4",
+      "given_title": "Dungeons & Dragons TikTok Is Gen Z at Its Most Wholesome | WIRED",
+      "favorite": "1",
+      "status": "1",
+      "time_added": "1599395260",
+      "time_updated": "1601117043",
+      "time_read": "1599460784",
+      "time_favorited": "1599460782",
+      "sort_id": 3,
+      "resolved_title": "Dungeons & Dragons TikTok Is Gen Z at Its Most Wholesome",
+      "resolved_url": "https://www.wired.com/story/dungeons-and-dragons-tiktok/",
+      "excerpt": "A lifelong bookworm and a fantasy geek, Sarah Chaffee had for years admired Dungeons & Dragons from afar. “In the culture I grew up in,” she says, “it was very much like, ‘D&D is devil worship.",
+>>>>>>> feature/new-content-type
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
+<<<<<<< HEAD
       "word_count": "2007",
       "lang": "en",
       "time_to_read": 9,
@@ -167,6 +252,19 @@
         "greyscale_logo": "https://logo.clearbit.com/medium.com?size=800&greyscale=true"
       },
       "listen_duration_estimate": 777
+=======
+      "word_count": "1205",
+      "lang": "en",
+      "time_to_read": 5,
+      "amp_url": "https://www.wired.com/story/dungeons-and-dragons-tiktok/amp",
+      "top_image_url": "https://media.wired.com/photos/5f5035b9da9dd9344a49201c/191:100/w_1280,c_limit/culture-dnd-tiktok-selfies.jpg",
+      "domain_metadata": {
+        "name": "WIRED",
+        "logo": "https://logo.clearbit.com/wired.com?size=800",
+        "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
+      },
+      "listen_duration_estimate": 466
+>>>>>>> feature/new-content-type
     },
     "3093328567": {
       "item_id": "3093328567",
@@ -179,7 +277,11 @@
       "time_updated": "1598934770",
       "time_read": "1598934770",
       "time_favorited": "0",
+<<<<<<< HEAD
       "sort_id": 6,
+=======
+      "sort_id": 4,
+>>>>>>> feature/new-content-type
       "resolved_title": "How to make a great dungeon for Dungeons & Dragons 5E",
       "resolved_url": "https://www.dicebreaker.com/games/dungeons-and-dragons-5e/how-to/how-to-make-great-dungeon-dnd",
       "excerpt": "Dungeons take pride of place as the first ‘D’ of D&D, and it’s easy to see why. They condense the action into a restricted space with every choice ahead, every step into the unknown, fraught with the promise of riches or danger.",
@@ -194,6 +296,35 @@
       "top_image_url": "https://assets.dicebreaker.com/dungeons-and-dragons-tomb-of-annihilation-art.jpg/BROK/resize/1920%3E/format/jpg/quality/80/dungeons-and-dragons-tomb-of-annihilation-art.jpg",
       "listen_duration_estimate": 667
     },
+<<<<<<< HEAD
+=======
+    "3082924710": {
+      "item_id": "3082924710",
+      "resolved_id": "3082924710",
+      "given_url": "https://www.dicebreaker.com/categories/board-game/best-games/best-rpg-board-games",
+      "given_title": "10 best RPG board games",
+      "favorite": "0",
+      "status": "1",
+      "time_added": "1597769700",
+      "time_updated": "1601117062",
+      "time_read": "1597852898",
+      "time_favorited": "0",
+      "sort_id": 5,
+      "resolved_title": "10 best RPG board games",
+      "resolved_url": "https://www.dicebreaker.com/categories/board-game/best-games/best-rpg-board-games",
+      "excerpt": "Tabletop RPGs provide some of the most memorable experiences you can have at the table, whether it's cheering at a clutch dice roll, gasping after a dramatic payoff or laughing at the charming antics of Tim the Goblin.",
+      "is_article": "1",
+      "is_index": "0",
+      "has_video": "0",
+      "has_image": "1",
+      "word_count": "2232",
+      "lang": "en",
+      "time_to_read": 10,
+      "amp_url": "https://www.dicebreaker.com/amp/categories/board-game/best-games/best-rpg-board-games",
+      "top_image_url": "https://assets.dicebreaker.com/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg/BROK/resize/1920%3E/format/jpg/quality/80/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg",
+      "listen_duration_estimate": 864
+    },
+>>>>>>> feature/new-content-type
     "2976234702": {
       "item_id": "2976234702",
       "resolved_id": "2976234702",
@@ -205,7 +336,11 @@
       "time_updated": "1590039023",
       "time_read": "1590039023",
       "time_favorited": "1589003871",
+<<<<<<< HEAD
       "sort_id": 7,
+=======
+      "sort_id": 6,
+>>>>>>> feature/new-content-type
       "resolved_title": "13 Sci-Fi And Fantasy Board Games That Are As Gorgeous To Behold As They Are Fun To Play",
       "resolved_url": "https://www.gizmodo.com.au/2020/05/13-sci-fi-and-fantasy-board-games-that-are-as-gorgeous-to-behold-as-they-are-fun-to-play/",
       "excerpt": "Have as much fun admiring as you do playing these gorgeous games.",
@@ -236,7 +371,11 @@
       "time_updated": "1579722939",
       "time_read": "1579722938",
       "time_favorited": "0",
+<<<<<<< HEAD
       "sort_id": 8,
+=======
+      "sort_id": 7,
+>>>>>>> feature/new-content-type
       "resolved_title": "Dungeons & Dragons basically has DLC now, and it’s excellent",
       "resolved_url": "https://www.polygon.com/2020/1/13/21064147/dungeons-dragons-dungeon-masters-guild",
       "excerpt": "Dungeons & Dragons is experiencing an unprecedented renaissance, with more people than ever before picking up and enjoying the original role-playing game. Published adventures are easy to come by, and you can even find starter sets and dice on the shelves at your local big box retailer.",
@@ -255,11 +394,48 @@
         "greyscale_logo": "https://logo.clearbit.com/polygon.com?size=800&greyscale=true"
       },
       "listen_duration_estimate": 329
+<<<<<<< HEAD
+=======
+    },
+    "2856273042": {
+      "item_id": "2856273042",
+      "resolved_id": "2856273042",
+      "given_url": "https://quillette.com/2020/01/17/goa-gods-gandhi-and-greed-lessons-in-colonialism-from-four-boardgames/",
+      "given_title": "Goa, Gods, Gandhi and Greed: Lessons in Colonialism from Four Boardgames - ",
+      "favorite": "1",
+      "status": "1",
+      "time_added": "1579421966",
+      "time_updated": "1579512793",
+      "time_read": "1579512791",
+      "time_favorited": "1579512589",
+      "sort_id": 8,
+      "resolved_title": "Goa, Gods, Gandhi and Greed: Lessons in Colonialism from Four Boardgames",
+      "resolved_url": "https://quillette.com/2020/01/17/goa-gods-gandhi-and-greed-lessons-in-colonialism-from-four-boardgames/",
+      "excerpt": "It’s an eight-and-a-half-hour drive from Toronto to Indianapolis. And the route, which takes me through Sarnia, Detroit, Toledo and Fort Wayne, is far from scenic. But Gen Con is the biggest boardgame convention in North America, and there’s no direct flight between the two cities.",
+      "is_article": "1",
+      "is_index": "0",
+      "has_video": "0",
+      "has_image": "1",
+      "word_count": "2875",
+      "lang": "en",
+      "time_to_read": 13,
+      "top_image_url": "https://i0.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/01/16222044/pic4735035-edit.jpg?fit=1200%2C800&ssl=1",
+      "domain_metadata": {
+        "name": "Quillette",
+        "logo": "https://logo.clearbit.com/quillette.com?size=800",
+        "greyscale_logo": "https://logo.clearbit.com/quillette.com?size=800&greyscale=true"
+      },
+      "listen_duration_estimate": 1113
+>>>>>>> feature/new-content-type
     }
   },
   "error": null,
   "search_meta": {
     "search_type": "normal"
   },
+<<<<<<< HEAD
   "since": 1601475652
+=======
+  "since": 1601118739
+>>>>>>> feature/new-content-type
 }
