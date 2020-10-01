@@ -11,4 +11,6 @@ image:
 permalink: /:categories/:title/
 source: YouTube
 ---
-In this episode of the Solo Adventurer I play the first part of Alone against the flames by Gavin Inglis, which is a Call of Cthulhu solo scenario. https://www.chaosium.com/alone-against-the-flames/
+In this episode of the Solo Adventurer I play the first part of Alone against the flames by Gavin Inglis, which is a Call of Cthulhu solo scenario.
+
+https://www.chaosium.com/alone-against-the-flames/
