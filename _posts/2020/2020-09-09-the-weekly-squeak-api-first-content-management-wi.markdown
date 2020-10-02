@@ -13,7 +13,7 @@ podcast:
     orig_url: https://anchor.fm/theweeklysqueak/episodes/Contentful-with-Paolo-Negri-ejc2ee
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/19318670/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-8-9%2F6a2ecc8e-7449-c939-aa66-bce7e229ae47.mp3
 newsletter:
-    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-contentful-with-paolo-negri-275506?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=The+Weekly+Squeak
+    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-contentful-with-paolo-negri-275506
     source: revue      
 image: 347957-1599660284860-9c2a778ba4212.jpg
 permalink: /:categories/:title/

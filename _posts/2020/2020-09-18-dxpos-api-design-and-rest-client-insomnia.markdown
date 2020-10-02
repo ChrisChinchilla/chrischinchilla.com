@@ -9,7 +9,6 @@ video:
     orig_url: https://www.youtube.com/watch?v=KkP1cF1fFeQ
     video_embed: KkP1cF1fFeQ
     source: YouTube
-image: 
 permalink: /:categories/:title/
 ---
 In DXpose I look at the experience behind a developer focussed tool. This week it's the turn of Insomnia that promises to let you design, debug, and test APIs like a human, not a robot. https://insomnia.rest/

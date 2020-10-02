@@ -11,7 +11,7 @@ podcast:
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/13701938/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-13%2F72837855-44100-2-b72376329c8ab.mp3
 newsletter:
     source: revue
-    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-kubernetes-as-a-service-with-spectro-cloud-245062?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=The+Weekly+Squeak    
+    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-kubernetes-as-a-service-with-spectro-cloud-245062    
 image: 347957-1547538873594-eb7f678094d76.jpg
 permalink: /:categories/:title/
 ---

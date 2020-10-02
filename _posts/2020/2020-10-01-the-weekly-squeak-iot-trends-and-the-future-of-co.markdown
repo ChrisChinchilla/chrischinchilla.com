@@ -14,7 +14,7 @@ podcast:
     orig_url: https://anchor.fm/theweeklysqueak/episodes/The-Weekly-Squeak---IoT-trends-and-the-future-of-conferences-with-Cate-Lawrence-ekd8gi
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/20406226/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-8-30%2F704b8724-3da3-5341-7641-6da4db1b0b91.mp3
 newsletter:
-    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-iot-trends-and-the-future-of-conferences-with-cate-lawrence-280433?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=The+Weekly+Squeak
+    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-iot-trends-and-the-future-of-conferences-with-cate-lawrence-280433
     source: revue    
 image: 347957-1547538873594-eb7f678094d76.jpg
 permalink: /:categories/:title/

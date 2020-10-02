@@ -10,7 +10,7 @@ podcast:
     orig_url: https://anchor.fm/theweeklysqueak/episodes/Detecting-infections-from-X-Rays---Alexander-Wong-of-COVID-Net-eevon9
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/14721193/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-5-4%2F79394942-44100-2-6d274347363ca.mp3
 newsletter:
-    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-alexander-wong-of-covid-net-252834?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=The+Weekly+Squeak
+    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-alexander-wong-of-covid-net-252834
     source: revuew    
 image: 347957-1591255834460-1bb3fac28d115.jpg
 permalink: /:categories/:title/

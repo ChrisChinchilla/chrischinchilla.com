@@ -10,7 +10,7 @@ podcast:
     orig_url: https://anchor.fm/theweeklysqueak/episodes/Confluent-Cloud-with-Dan-Rosanova-ef7qu5
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/14985605/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-5-10%2F81041481-44100-2-edf89c37b6577.mp3
 newsletter:
-    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-confluent-cloud-with-dan-rosanova-255088?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=The+Weekly+Squeak
+    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-confluent-cloud-with-dan-rosanova-255088
     source: revue    
 image: 347957-1591781947330-7cc8a1d752464.jpg
 permalink: /:categories/:title/

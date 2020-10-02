@@ -14,7 +14,7 @@ podcast:
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/19002418/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-8-3%2F614dc4ae-f3f1-6d57-040b-0dc219d1b68b.mp3    
 newsletter:
     source: revue
-    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-d-d-and-teams-with-karthik-nagarajan-273835?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=The+Weekly+Squeak    
+    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-d-d-and-teams-with-karthik-nagarajan-273835    
 image: 347957-1599128980920-df29568b4b96d.jpg
 permalink: /:categories/:title/
 ---

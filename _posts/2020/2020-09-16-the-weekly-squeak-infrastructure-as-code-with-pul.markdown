@@ -12,7 +12,7 @@ video:
     orig_url: https://www.youtube.com/watch?v=Yrmb9bn3pSk
     video_embed: Yrmb9bn3pSk
 newsletter:
-    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-pulumi-in-action-with-christian-nunciato-276933?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=The+Weekly+Squeak
+    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-pulumi-in-action-with-christian-nunciato-276933
     source: revue    
 permalink: /:categories/:title/
 source: YouTube

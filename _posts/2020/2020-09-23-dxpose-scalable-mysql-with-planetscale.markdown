@@ -9,7 +9,6 @@ video:
     orig_url: https://www.youtube.com/watch?v=kwqlNw1vM_A
     video_embed: kwqlNw1vM_A
     source: YouTube
-image: 
 permalink: /:categories/:title/
 ---
 In this DXpose I look at the developer experience behind Planet Scale, simple, scalable MySQL on Kubernetes.

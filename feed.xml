@@ -6,7 +6,10 @@ layout: none
 {% if page.xsl %}
   <?xml-stylesheet type="text/xml" href="{{ '/feed.xslt.xml' | absolute_url }}"?>
 {% endif %}
-<feed xmlns="http://www.w3.org/2005/Atom" {% if site.lang %}xml:lang="{{ site.lang }}"{% endif %}>
+<feed xmlns="http://www.w3.org/2005/Atom" {% if site.lang %} 
+xml:lang="{{ site.lang }}"{% endif %}
+     xmlns:custom="https://chrischinchilla.com">
+
   <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
   <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
   <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
@@ -52,14 +55,20 @@ layout: none
       {% assign post_title = post.title | smartify | strip_html | normalize_whitespace | xml_escape %}
 
       <title type="html">{{ post_title }}</title>
-      
-      {% if post.publication_url %}
+      {% if post.newsletter.orig_url %}
+      <link href="{{ post.newsletter.orig_url }}" rel="alternate" type="text/html" title="{{ post_title }}" />      
+      {% elsif post.publication_url %}
       <link href="{{ post.publication_url }}" rel="alternate" type="text/html" title="{{ post_title }}" />
+      {% elsif post.video.orig_url %}
+      <link href="{{ post.video.orig_url }}" rel="alternate" type="text/html" title="{{ post_title }}" />      
       {% elsif post.orig_url %}
       <link href="{{ post.orig_url }}" rel="alternate" type="text/html" title="{{ post_title }}" />
       {% else %}
       <link href="{{ post.url | prepend: site.baseurl }}" rel="alternate" type="text/html" title="{{ post_title }}" />
       {% endif %}
+  <custom:podcast_url>{{ post.podcast.orig_url }}</custom:podcast_url>
+  <custom:video_url>{{ post.video.orig_url }}</custom:video_url>
+  <custom:newsletter_url>{{ post.newsletter.orig_url }}</custom:newsletter_url>
 
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
