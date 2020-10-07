@@ -876,7 +876,7 @@
       "lang": "en",
       "time_to_read": 19,
       "amp_url": "https://www.nytimes.com/2014/11/23/magazine/twine-the-video-game-technology-for-all.amp.html",
-      "top_image_url": "https://static01.nyt.com/images/2014/11/23/magazine/23twine1/23twine1-articleLarge-v7.jpg",
+      "top_image_url": "https://static01.nyt.com/images/2014/11/23/magazine/23twine1/23twine1-articleLarge-v7.jpg?year=2014&h=400&w=600&sig=0xd22e8c0fb9e4422f030e73268868c97c",
       "domain_metadata": {
         "name": "The New York Times",
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
@@ -1395,5 +1395,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1601585912
+  "since": 1602063308
 }
