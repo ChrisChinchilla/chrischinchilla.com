@@ -663,16 +663,16 @@
       "time_read": "1567749457",
       "time_favorited": "0",
       "sort_id": 22,
-      "resolved_title": "CS224n: Natural Language Processing with Deep Learning",
+      "resolved_title": "",
       "resolved_url": "http://web.stanford.edu/class/cs224n/syllabus.html",
-      "excerpt": "Suggested Readings: Joakim Nivre. 2004. Incrementality in Deterministic Dependency Parsing. Workshop on Incremental Parsing. Danqi Chen and Christopher D. Manning. 2014. A Fast and Accurate Dependency Parser using Neural Networks. EMNLP 2014. Sandra Kübler, Ryan McDonald, Joakim Nivre. 2009.",
-      "is_article": "1",
+      "excerpt": "",
+      "is_article": "0",
       "is_index": "0",
       "has_video": "0",
       "has_image": "0",
-      "word_count": "112",
-      "lang": "en",
-      "listen_duration_estimate": 43
+      "word_count": "0",
+      "lang": "",
+      "listen_duration_estimate": 0
     },
     "930824186": {
       "item_id": "930824186",
@@ -711,10 +711,10 @@
       "time_favorited": "0",
       "sort_id": 24,
       "resolved_title": "Understanding LSTM Networks",
-      "resolved_url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "resolved_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/index.html",
       "excerpt": "Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.",
       "is_article": "1",
-      "is_index": "0",
+      "is_index": "1",
       "has_video": "0",
       "has_image": "1",
       "word_count": "2193",
@@ -1395,5 +1395,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1602063308
+  "since": 1602237868
 }
