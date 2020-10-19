@@ -15,3 +15,12 @@ blogs:
     type: video
     layout: video
     source: ""
+  - feed: "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6rgokpsEmrzZ_iO7P9aQg"
+    image: "https://www.rss-specifications.com/rss-spec-rss.gif"
+    twitter: "poteland"
+    categories: "video"
+    podcast: "X"
+    video_embed: ""
+    type: video
+    layout: video
+    source: ""    
