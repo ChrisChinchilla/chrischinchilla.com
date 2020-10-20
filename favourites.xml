@@ -50,7 +50,7 @@ layout: none
   {% for post in posts limit: 10 %}
     <entry{% if post.lang %}{{" "}}xml:lang="{{ post.lang }}"{% endif %}>
 
-      <title>{{ post[1].resolved_title | xml_escape }} from {{post[1].domain_metadata.name}}</title>
+      <title>{{ post[1].resolved_title | xml_escape }}</title>
       
       <link>{{ post[1].resolved_url }}</link>
 
@@ -59,7 +59,9 @@ layout: none
       <guid>urn:uuid:{{post[1].item_id}}</guid>
       <description>{{ post[1].excerpt | markdownify }}</description>
 
-
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post[1].top_image_url | xml_escape }}" />
+        <media:content medium="image" url="{{ post[1].top_image_url | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" />
+        
       <!-- {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
       {% assign post_author = site.data.authors[post_author] | default: post_author %}
       {% assign post_author_email = post_author.email | default: nil %}
@@ -93,8 +95,8 @@ layout: none
         {% unless post_image contains "://" %}
           {% assign post_image = post_image | absolute_url %}
         {% endunless %} -->
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post[1].top_image_url | xml_escape }}" />
-        <media:content medium="image" url="{{ post[1].top_image_url | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" />
+        <!-- <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post[1].top_image_url | xml_escape }}" />
+        <media:content medium="image" url="{{ post[1].top_image_url | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" /> -->
       <!-- {% endif %} -->
     </entry>
   {% endfor %}
