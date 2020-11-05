@@ -400,7 +400,7 @@
       "sort_id": 13,
       "resolved_title": "5 Languages That Could Change the Way You See the World",
       "resolved_url": "https://getpocket.com/explore/item/5-languages-that-could-change-the-way-you-see-the-world",
-      "excerpt": "Think about this sentence. It’s pretty simple—English speakers would know precisely what it means.",
+      "excerpt": "If your language had no words to describe “the future,” would you still stress over it?",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
@@ -491,7 +491,7 @@
       "sort_id": 16,
       "resolved_title": "The Commas That Cost Companies Millions",
       "resolved_url": "https://getpocket.com/explore/item/the-commas-that-cost-companies-millions",
-      "excerpt": "How much can a misplaced comma cost you? If you’re texting a loved one or dashing off an email to a colleague, the cost of misplacing a piece of punctuation will be – at worst – a red face and a minor mix-up.",
+      "excerpt": "For most people, a stray comma isn’t the end of the world. But in some cases, the exact placement of a punctuation mark can cost huge sums of money.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
@@ -552,7 +552,7 @@
       "sort_id": 18,
       "resolved_title": "How Non-English Speakers Learn This Crazy Grammar Rule You Know But Never Heard Of",
       "resolved_url": "https://getpocket.com/explore/item/how-non-english-speakers-are-taught-this-crazy-english-grammar-rule-you-know-but-have-never-heard-of",
-      "excerpt": "English grammar, beloved by sticklers, is also feared by non-native speakers. Many of its idiosyncrasies can turn into traps even for the most confident users.",
+      "excerpt": "Some of the most binding rules in English are things that native speakers know but don’t know they know.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
@@ -1117,21 +1117,23 @@
       "time_read": "1550433702",
       "time_favorited": "0",
       "sort_id": 39,
-      "resolved_title": "",
+      "resolved_title": "What Makes a Sentence a Masterpiece?",
       "resolved_url": "https://getpocket.com/explore/item/what-makes-a-sentence-a-masterpiece",
-      "excerpt": "",
-      "is_article": "0",
+      "excerpt": "A great sentence makes you want to chew it over slowly in your mouth the first time you read it.",
+      "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "0",
-      "word_count": "0",
-      "lang": "",
+      "has_image": "1",
+      "word_count": "1038",
+      "lang": "en",
+      "time_to_read": 5,
+      "top_image_url": "https://pocket-image-cache.com/1200x/filters:no_upscale():format(jpg):extract_cover()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F289%2F1566844205_direct.jpg",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 0
+      "listen_duration_estimate": 402
     },
     "2463247869": {
       "item_id": "2463247869",
@@ -1395,5 +1397,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1604317493
+  "since": 1604575676
 }

@@ -761,7 +761,7 @@
       "is_index": "0",
       "has_video": "1",
       "has_image": "1",
-      "word_count": "7347",
+      "word_count": "7368",
       "lang": "en",
       "time_to_read": 33,
       "amp_url": "https://kotaku.com/the-creators-of-pokemon-go-mapped-the-world-now-theyre-1838974714/amp",
@@ -771,7 +771,7 @@
         "logo": "https://logo.clearbit.com/kotaku.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/kotaku.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 2844
+      "listen_duration_estimate": 2852
     },
     "2745389131": {
       "item_id": "2745389131",
@@ -1549,7 +1549,7 @@
       "sort_id": 52,
       "resolved_title": "We Need to Save Ignorance From AI",
       "resolved_url": "https://getpocket.com/explore/item/we-need-to-save-ignorance-from-ai",
-      "excerpt": "After the fall of the Berlin Wall, East German citizens were offered the chance to read the files kept on them by the Stasi, the much-feared Communist-era secret police service. To date, it is estimated that only 10 percent have taken the opportunity.",
+      "excerpt": "In an age of all-knowing algorithms, how do we choose not to know?",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
@@ -1778,5 +1778,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1604317492
+  "since": 1604575674
 }
