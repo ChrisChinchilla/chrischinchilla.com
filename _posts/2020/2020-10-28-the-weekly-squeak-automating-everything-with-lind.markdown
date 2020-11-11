@@ -3,7 +3,7 @@ title: "The Weekly Squeak - Automating everything with Linden Tibbets of IFTTT"
 layout: video
 created_at: 2020-10-28 16:26:08 UTC
 author: ""
-categories: video
+categories: video podcast
 tags: 
 video:
     orig_url: https://www.youtube.com/watch?v=iRbMK5NEz20
