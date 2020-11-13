@@ -1,5 +1,5 @@
 ---
-title: "Graph and AI with Gaurav Deshpande"
+title: "The Weekly Squeak - Graph and AI with Gaurav Deshpande"
 layout: video
 created_at: 2020-11-05 15:00:00 UTC
 author: ""
