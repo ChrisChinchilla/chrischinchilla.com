@@ -14,7 +14,7 @@ video:
     video_embed: BO8rGUveHps
     source: YouTube
 newsletter:
-    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-the-intersection-of-graph-and-ai-with-gaurav-deshpande-289490?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=The+Weekly+Squeak
+    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-the-intersection-of-graph-and-ai-with-gaurav-deshpande-289490
     source: revue   
 image: 347957-1604575581946-e96d6cf288ac7.jpg
 permalink: /:categories/:title/
