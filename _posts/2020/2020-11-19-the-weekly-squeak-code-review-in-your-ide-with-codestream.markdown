@@ -10,7 +10,7 @@ podcast:
     orig_url: https://anchor.fm/theweeklysqueak/episodes/Code-Review-in-your-IDE-with-Codestream-emmm16
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/22812134/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-19%2F9318fb72-91dd-3d45-b590-402dc1c8c162.mp3
 newsletter:
-    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-code-review-in-your-ide-with-codestream-293038?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=The+Weekly+Squeak
+    orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-code-review-in-your-ide-with-codestream-293038
     source: revue    
 video:
     orig_url: https://www.youtube.com/watch?v=HLl8i4n0WVQ
