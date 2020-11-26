@@ -307,24 +307,21 @@
       "time_read": "1582631903",
       "time_favorited": "1582631847",
       "sort_id": 10,
-      "resolved_title": "Garbage Language",
+      "resolved_title": "",
       "resolved_url": "https://www.vulture.com/2020/02/spread-of-corporate-speak.html",
-      "excerpt": "This article was featured in One Great Story, New York’s reading recommendation newsletter. Sign up here to get it nightly. I worked at various start-ups for eight years beginning in 2010, when I was in my early 20s. Then I quit and went freelance for a while.",
-      "is_article": "1",
+      "excerpt": "",
+      "is_article": "0",
       "is_index": "0",
       "has_video": "0",
       "has_image": "0",
-      "word_count": "4150",
+      "word_count": "0",
       "lang": "en",
-      "time_to_read": 19,
-      "amp_url": "https://www.vulture.com/amp/2020/02/spread-of-corporate-speak.html",
-      "top_image_url": "https://pyxis.nymag.com/v1/imgs/579/6f3/d437c1b8694cfb91314dd09afabac61629-02-14-corporate-speak-lede-2.1x.rsocial.w1200.jpg",
       "domain_metadata": {
         "name": "Vulture",
         "logo": "https://logo.clearbit.com/vulture.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/vulture.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1606
+      "listen_duration_estimate": 0
     },
     "2880148705": {
       "item_id": "2880148705",
@@ -1397,5 +1394,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1605778486
+  "since": 1606380507
 }
