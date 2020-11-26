@@ -97,7 +97,14 @@ toc:
       - title: Video
         url: /video  
   - title: Newsletters
-    url: newsletters.html
+    url: newsletters
+    subitems:
+    - title: Gaming
+      url: newsletters#gaming
+    - title: Ethics
+      url: newsletters#ethics
+    - title: Language
+      url: newsletters#language      
   - title: Support
     url: /support
 
