@@ -24,11 +24,11 @@ layout: none
   {% endif %}
 
   {% if title %}
-    <title type="html">{{ title | smartify | xml_escape }}</title>
+    <title type="html">Chris Chinchilla's Games Newsletter</title>
   {% endif %}
 
   {% if site.description %}
-    <subtitle>{{ site.description | xml_escape }}</subtitle>
+    <subtitle>Occasional games related stories I notice across the internet</subtitle>
   {% endif %}
 
   {% if site.author %}
