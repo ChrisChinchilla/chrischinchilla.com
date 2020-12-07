@@ -7,12 +7,12 @@
       "resolved_id": "2890907381",
       "given_url": "https://getpocket.com/redirect?url=https%3A%2F%2Fwww.vulture.com%2F2020%2F02%2Fspread-of-corporate-speak.html&h=7c409086414f61330fb1e006fab51d3c4744900ebc6ded75c9fe86a5b9be8ad9&nt=0",
       "given_title": "",
-      "favorite": "0",
-      "status": "0",
+      "favorite": "1",
+      "status": "1",
       "time_added": "1606981893",
-      "time_updated": "1607065104",
-      "time_read": "0",
-      "time_favorited": "0",
+      "time_updated": "1607190842",
+      "time_read": "1607190841",
+      "time_favorited": "1607190635",
       "sort_id": 0,
       "resolved_title": "Garbage Language",
       "resolved_url": "https://www.vulture.com/2020/02/spread-of-corporate-speak.html",
@@ -1240,21 +1240,22 @@
       "sort_id": 43,
       "resolved_title": "How a new technology is changing the lives of people who cannot speak",
       "resolved_url": "https://www.theguardian.com/news/2018/jan/23/voice-replacement-technology-adaptive-alternative-communication-vocalid",
-      "excerpt": "Millions are robbed of the power of speech by illness, injury or lifelong conditions. Can the creation of bespoke digital voices transform their ability to communicate? By Last November, Joe Morris, a 31-year-old film-maker from London, noticed a sore spot on his tongue.",
+      "excerpt": "Last November, Joe Morris, a 31-year-old film-maker from London, noticed a sore spot on his tongue. He figured he’d bitten himself in his sleep and thought nothing more about it until halfway through the winter holidays, when he realised the sore was still with him.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "5095",
+      "word_count": "5068",
       "lang": "en",
       "time_to_read": 23,
+      "amp_url": "https://amp.theguardian.com/news/2018/jan/23/voice-replacement-technology-adaptive-alternative-communication-vocalid",
       "top_image_url": "https://i.guim.co.uk/img/media/cb04448cb4d89dcb8e202f2b4e30ac56c0911e5b/243_266_2946_1768/master/2946.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c9b8ffb1efb9e6c9918bd6d1cf58b25a",
       "domain_metadata": {
         "name": "The Guardian",
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1972
+      "listen_duration_estimate": 1962
     },
     "2403556196": {
       "item_id": "2403556196",
@@ -1428,5 +1429,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1607108844
+  "since": 1607334843
 }
