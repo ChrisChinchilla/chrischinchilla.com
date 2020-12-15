@@ -77,7 +77,7 @@
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
+      "has_image": "0",
       "word_count": "1138",
       "lang": "en",
       "time_to_read": 5,
@@ -226,7 +226,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1675",
+      "word_count": "1672",
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.nytimes.com/2020/04/07/smarter-living/how-to-edit-your-own-writing.amp.html",
@@ -236,7 +236,7 @@
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/nytimes.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 648
+      "listen_duration_estimate": 647
     },
     "2946411799": {
       "item_id": "2946411799",
@@ -257,7 +257,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1675",
+      "word_count": "1672",
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.nytimes.com/2020/04/07/smarter-living/how-to-edit-your-own-writing.amp.html",
@@ -267,7 +267,7 @@
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/nytimes.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 648
+      "listen_duration_estimate": 647
     },
     "2935251471": {
       "item_id": "2935251471",
@@ -898,12 +898,12 @@
       "sort_id": 31,
       "resolved_title": "Twine, the Video-Game Technology for All",
       "resolved_url": "https://www.nytimes.com/2014/11/23/magazine/twine-the-video-game-technology-for-all.html",
-      "excerpt": "Porpentine, the creator of the critically acclaimed Twine game Howling Dogs.Credit...Graeme Mitchell for The New York TimesBy Laura HudsonPerhaps the most surprising thing about “GamerGate,” the culture war that continues to rage within the world of video games, is the game that touched it off.",
+      "excerpt": "Porpentine, the creator of the critically acclaimed Twine game Howling Dogs.Credit...Graeme Mitchell for The New York TimesPerhaps the most surprising thing about “GamerGate,” the culture war that continues to rage within the world of video games, is the game that touched it off.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "4242",
+      "word_count": "4239",
       "lang": "en",
       "time_to_read": 19,
       "amp_url": "https://www.nytimes.com/2014/11/23/magazine/twine-the-video-game-technology-for-all.amp.html",
@@ -913,7 +913,7 @@
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/nytimes.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1642
+      "listen_duration_estimate": 1641
     },
     "2581052141": {
       "item_id": "2581052141",
@@ -1429,5 +1429,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1607334843
+  "since": 1608035238
 }
