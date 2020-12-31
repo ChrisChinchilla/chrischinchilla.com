@@ -522,7 +522,7 @@
       "sort_id": 17,
       "resolved_title": "The Commas That Cost Companies Millions",
       "resolved_url": "https://getpocket.com/explore/item/the-commas-that-cost-companies-millions",
-      "excerpt": "For most people, a stray comma isn’t the end of the world. But in some cases, the exact placement of a punctuation mark can cost huge sums of money.",
+      "excerpt": "How much can a misplaced comma cost you? If you’re texting a loved one or dashing off an email to a colleague, the cost of misplacing a piece of punctuation will be – at worst – a red face and a minor mix-up.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
@@ -1011,7 +1011,7 @@
       "time_read": "1554873400",
       "time_favorited": "1554873394",
       "sort_id": 35,
-      "resolved_title": "A Harvard Linguist's (and Bill Gates's Favorite Author) 13 Simple Tips for Becoming a Great Writer",
+      "resolved_title": "A Harvard Linguist's 13 Simple Tips for Becoming a Great Writer",
       "resolved_url": "https://www.inc.com/jessica-stillman/a-harvard-linguists-13-simple-tips-for-becoming-a-great-writer.html",
       "excerpt": "If you were looking for someone to teach you how to become a better writer, you probably couldn't do any better than Steven Pinker. The famed Harvard linguist is the author of several bestsellers, and Bill Gates even called one of them his favorite book of all time.",
       "is_article": "1",
@@ -1391,7 +1391,7 @@
       "is_index": "1",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "579",
+      "word_count": "694",
       "lang": "en",
       "time_to_read": 3,
       "domain_metadata": {
@@ -1399,7 +1399,7 @@
         "logo": "https://logo.clearbit.com/wikipedia.org?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wikipedia.org?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 224
+      "listen_duration_estimate": 269
     },
     "2276309607": {
       "item_id": "2276309607",
@@ -1429,5 +1429,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1608622447
+  "since": 1609412324
 }
