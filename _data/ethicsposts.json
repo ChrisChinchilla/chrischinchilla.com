@@ -1194,21 +1194,22 @@
       "sort_id": 40,
       "resolved_title": "The race to create a perfect lie detector – and the dangers of succeeding",
       "resolved_url": "https://www.theguardian.com/technology/2019/sep/05/the-race-to-create-a-perfect-lie-detector-and-the-dangers-of-succeeding",
-      "excerpt": "AI and brain-scanning technology could soon make it possible to reliably detect when people are lying. But do we really want to know? By We learn to lie as children, between the ages of two and five. By adulthood, we are prolific.",
+      "excerpt": "We learn to lie as children, between the ages of two and five. By adulthood, we are prolific. We lie to our employers, our partners and, most of all, one study has found, to our mothers.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "4658",
+      "word_count": "4647",
       "lang": "en",
       "time_to_read": 21,
+      "amp_url": "https://amp.theguardian.com/technology/2019/sep/05/the-race-to-create-a-perfect-lie-detector-and-the-dangers-of-succeeding",
       "top_image_url": "https://i.guim.co.uk/img/media/84c2702b34a1cf547730db95384b8806582df803/0_357_5043_3027/master/5043.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=10b77d443c63b3561a74bc82bd925826",
       "domain_metadata": {
         "name": "The Guardian",
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1803
+      "listen_duration_estimate": 1799
     },
     "2679778465": {
       "item_id": "2679778465",
@@ -1931,5 +1932,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1610364690
+  "since": 1610524743
 }
