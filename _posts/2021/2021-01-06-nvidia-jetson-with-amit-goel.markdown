@@ -10,7 +10,7 @@ podcast:
     orig_url: https://anchor.fm/theweeklysqueak/episodes/Nvidia-Jetson-with-Amit-Goel-eok9l7
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/24831079/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-6%2Ffdbcd6be-045d-f632-e662-67f8e0f92abf.mp3
 video:
-    orig_url: https://www.youtube.com/watch?v=Q19zxt5BCR0&t=1s
+    orig_url: https://www.youtube.com/watch?v=Q19zxt5BCR0
     video_embed: Q19zxt5BCR0
     source: YouTube
 newsletter:
