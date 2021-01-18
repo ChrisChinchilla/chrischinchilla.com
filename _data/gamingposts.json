@@ -7,12 +7,12 @@
       "resolved_id": "3219188817",
       "given_url": "https://www.gameinformer.com/top-of-the-table/2021/01/03/the-best-tabletop-rpgs-of-2020",
       "given_title": "",
-      "favorite": "0",
-      "status": "0",
+      "favorite": "1",
+      "status": "1",
       "time_added": "1609746735",
-      "time_updated": "1610370111",
-      "time_read": "0",
-      "time_favorited": "0",
+      "time_updated": "1610713450",
+      "time_read": "1610713450",
+      "time_favorited": "1610713445",
       "sort_id": 0,
       "resolved_title": "The Best Tabletop RPGs Of 2020",
       "resolved_url": "https://www.gameinformer.com/top-of-the-table/2021/01/03/the-best-tabletop-rpgs-of-2020",
@@ -366,5 +366,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1610524744
+  "since": 1610964666
 }
