@@ -47,7 +47,6 @@ feed:
   path: feed.xml
 
 # Build settings
-markdown: kramdown
 theme: minima
 
 # Exclude from processing.
