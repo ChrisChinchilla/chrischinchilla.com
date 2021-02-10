@@ -1724,7 +1724,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1865",
+      "word_count": "1827",
       "lang": "en",
       "time_to_read": 8,
       "top_image_url": "https://api.time.com/wp-content/uploads/2020/11/covid-19-contact-tracing-apps.jpg?quality=85&w=1024&h=628&crop=1",
@@ -1733,7 +1733,7 @@
         "logo": "https://logo.clearbit.com/time.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/time.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 722
+      "listen_duration_estimate": 707
     },
     "3171134815": {
       "item_id": "3171134815",
@@ -5860,5 +5860,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1612779580
+  "since": 1612967541
 }
