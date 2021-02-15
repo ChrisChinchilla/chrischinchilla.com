@@ -8,10 +8,10 @@
       "given_url": "https://www.wired.co.uk/article/diversity-business-quit",
       "given_title": "",
       "favorite": "0",
-      "status": "0",
+      "status": "1",
       "time_added": "1613121176",
-      "time_updated": "1613121284",
-      "time_read": "0",
+      "time_updated": "1613200427",
+      "time_read": "1613200426",
       "time_favorited": "0",
       "sort_id": 0,
       "resolved_title": "Want to make your company more diverse? Consider quitting",
@@ -38,10 +38,10 @@
       "given_url": "http://enews.zdnet.com/ct/57368131:suVR_RKNT:m:1:716577313:BC5CCF6FF3D81089DD11052506CB0D9F:r",
       "given_title": "",
       "favorite": "0",
-      "status": "0",
+      "status": "1",
       "time_added": "1612252699",
-      "time_updated": "1612790646",
-      "time_read": "0",
+      "time_updated": "1613201004",
+      "time_read": "1613201003",
       "time_favorited": "0",
       "sort_id": 1,
       "resolved_title": "‘Weird new things are happening in software,’ says Stanford AI professor Chris Re",
@@ -511,7 +511,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "4634",
+      "word_count": "4657",
       "lang": "en",
       "time_to_read": 21,
       "amp_url": "https://gizmodo.com/what-technology-has-accidentally-killed-the-most-people-1843750086/amp",
@@ -521,7 +521,7 @@
         "logo": "https://logo.clearbit.com/gizmodo.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/gizmodo.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1794
+      "listen_duration_estimate": 1803
     },
     "2985745896": {
       "item_id": "2985745896",
@@ -2085,5 +2085,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1613123776
+  "since": 1613386474
 }
