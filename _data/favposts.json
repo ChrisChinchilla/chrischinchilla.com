@@ -8,10 +8,10 @@
       "given_url": "https://www.dicebreaker.com/categories/roleplaying-game/feature/indie-rpgs-more-than-dnd",
       "given_title": "Indie RPGs show roleplaying can - and should - be far more than Dungeons & ",
       "favorite": "1",
-      "status": "0",
+      "status": "1",
       "time_added": "1613631973",
-      "time_updated": "1613894498",
-      "time_read": "0",
+      "time_updated": "1613924805",
+      "time_read": "1613924804",
       "time_favorited": "1613894496",
       "sort_id": 0,
       "resolved_title": "Indie RPGs show roleplaying can - and should - be far more than Dungeons & Dragons",
@@ -1275,11 +1275,11 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "5323",
+      "word_count": "5328",
       "lang": "en",
       "time_to_read": 24,
       "top_image_url": "https://miro.medium.com/max/1200/1*thz7gKafCYxWoA0h8aGjcg.jpeg",
-      "listen_duration_estimate": 2061
+      "listen_duration_estimate": 2062
     },
     "3201913941": {
       "item_id": "3201913941",
@@ -4182,7 +4182,7 @@
       "time_favorited": "1594849225",
       "sort_id": 143,
       "resolved_title": "End of the office: the quiet, grinding loneliness of working from home",
-      "resolved_url": "https://www.theguardian.com/money/2020/jul/14/end-of-the-office-the-quiet-grinding-loneliness-of-working-from-home",
+      "resolved_url": "http://www.theguardian.com/money/2020/jul/14/end-of-the-office-the-quiet-grinding-loneliness-of-working-from-home",
       "excerpt": "Dahlia Francis is sitting on a small couch at the foot of her bed, in her shared flat, on a housing estate in south London. She wears her new uniform of pyjama bottoms and a Zoom-ready plain T-shirt. Her room used to be a living room.",
       "is_article": "1",
       "is_index": "0",
@@ -4969,12 +4969,12 @@
       "sort_id": 169,
       "resolved_title": "How Google Docs became the social media of the resistance",
       "resolved_url": "https://www.technologyreview.com/2020/06/06/1002546/google-docs-social-media-resistance/",
-      "excerpt": "Facebook and Twitter might have the bells and whistles, but the word processing software's simplicity and accessibility have made it a winning tool.",
+      "excerpt": "In the week after George Floyd’s murder, hundreds of thousands of people joined protests across the US and around the globe, demanding education, attention, and justice.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
-      "word_count": "1525",
+      "has_image": "0",
+      "word_count": "1502",
       "lang": "en",
       "time_to_read": 7,
       "amp_url": "https://www.technologyreview.com/2020/06/06/1002546/google-docs-social-media-resistance/amp/",
@@ -4984,7 +4984,7 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 590
+      "listen_duration_estimate": 581
     },
     "3012123431": {
       "item_id": "3012123431",
@@ -5864,5 +5864,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1613909054
+  "since": 1614077895
 }
