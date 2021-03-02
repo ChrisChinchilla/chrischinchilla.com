@@ -2,6 +2,32 @@
   "status": 1,
   "complete": 1,
   "list": {
+    "3223867489": {
+      "item_id": "3223867489",
+      "resolved_id": "3223867489",
+      "given_url": "https://blog.helpdocs.io/things-i-learned-about-writing-knowledge-base-articles-from-reading-boardgame-manuals/",
+      "given_title": "",
+      "favorite": "0",
+      "status": "0",
+      "time_added": "1614331460",
+      "time_updated": "1614331461",
+      "time_read": "0",
+      "time_favorited": "0",
+      "sort_id": 0,
+      "resolved_title": "Things I Learned about Writing Knowledge Base Articles from Reading Board Game Manuals",
+      "resolved_url": "https://blog.helpdocs.io/things-i-learned-about-writing-knowledge-base-articles-from-reading-boardgame-manuals/",
+      "excerpt": "Almost everyone has played a game in their life. Maybe it's Candy Land or Chutes and Ladders as a kid, Spit or card games in grade school—or perhaps you're royalty of D&D.",
+      "is_article": "1",
+      "is_index": "0",
+      "has_video": "0",
+      "has_image": "0",
+      "word_count": "1334",
+      "lang": "en",
+      "time_to_read": 6,
+      "amp_url": "https://blog.helpdocs.io/things-i-learned-about-writing-knowledge-base-articles-from-reading-boardgame-manuals/amp/",
+      "top_image_url": "https://blog.helpdocs.io/content/images/2021/01/board_game.png",
+      "listen_duration_estimate": 516
+    },
     "3259189053": {
       "item_id": "3259189053",
       "resolved_id": "3259189053",
@@ -13,7 +39,7 @@
       "time_updated": "1613924805",
       "time_read": "1613924804",
       "time_favorited": "1613894496",
-      "sort_id": 0,
+      "sort_id": 1,
       "resolved_title": "Indie RPGs show roleplaying can - and should - be far more than Dungeons & Dragons",
       "resolved_url": "https://www.dicebreaker.com/categories/roleplaying-game/feature/indie-rpgs-more-than-dnd",
       "excerpt": "Dungeons & Dragons is such a behemoth in the tabletop roleplaying game scene that it’s become a synecdoche for the hobby itself; to many, “D&D” and “tabletop RPG” are one and the same. The game is massively popular.",
@@ -39,7 +65,7 @@
       "time_updated": "1612333291",
       "time_read": "1612333290",
       "time_favorited": "1612333277",
-      "sort_id": 1,
+      "sort_id": 2,
       "resolved_title": "RuneScape saved her life. Fifteen years later, she’s still playing",
       "resolved_url": "https://www.wired.co.uk/article/runescape-online-communities",
       "excerpt": "When Allana turned fourteen, the limits of her world shrank to the four corners of her bed. A heart condition kept her between hospital and home. She could not attend school or make friends. She was lonely. She could not live like a normal fourteen-year-old.",
@@ -57,32 +83,6 @@
         "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
       },
       "listen_duration_estimate": 782
-    },
-    "3223867489": {
-      "item_id": "3223867489",
-      "resolved_id": "3223867489",
-      "given_url": "https://blog.helpdocs.io/things-i-learned-about-writing-knowledge-base-articles-from-reading-boardgame-manuals/",
-      "given_title": "",
-      "favorite": "0",
-      "status": "0",
-      "time_added": "1612172057",
-      "time_updated": "1613126323",
-      "time_read": "0",
-      "time_favorited": "0",
-      "sort_id": 2,
-      "resolved_title": "Things I Learned about Writing Knowledge Base Articles from Reading Board Game Manuals",
-      "resolved_url": "https://blog.helpdocs.io/things-i-learned-about-writing-knowledge-base-articles-from-reading-boardgame-manuals/",
-      "excerpt": "Almost everyone has played a game in their life. Maybe it's Candy Land or Chutes and Ladders as a kid, Spit or card games in grade school—or perhaps you're royalty of D&D.",
-      "is_article": "1",
-      "is_index": "0",
-      "has_video": "0",
-      "has_image": "0",
-      "word_count": "1334",
-      "lang": "en",
-      "time_to_read": 6,
-      "amp_url": "https://blog.helpdocs.io/things-i-learned-about-writing-knowledge-base-articles-from-reading-boardgame-manuals/amp/",
-      "top_image_url": "https://blog.helpdocs.io/content/images/2021/01/board_game.png",
-      "listen_duration_estimate": 516
     },
     "3219188817": {
       "item_id": "3219188817",
@@ -448,5 +448,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1614077893
+  "since": 1614677013
 }
