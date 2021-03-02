@@ -12,7 +12,7 @@ writer roles.
 
 ## Accomplishments
 
-### Long form writing
+### Long form (technical) writing
 
 -   2017, "Jump start responsive design" from SitePoint
 -   Editing two books for Packt publishing
@@ -30,9 +30,21 @@ writer roles.
 
 Over the past 4-5 years, I have spoken at over 100 events on a wide variety of subjects, find more on my [website](https://chrischinchilla.com/events).
 
-### Podcasts
+### Podcasts and Video
 
-I contribute to two regular podcasts: My own weekly news show "The Weekly Squeak" that has run for 5 years, and the "Write the Docs podcast", which has run for 3 years.
+I contribute to several regular podcasts:
+
+-   My weekly tech news show, "The Weekly Squeak"
+-   The "Write the Docs" podcast
+-   I produce the "Ethics in Open Source" podcast
+-   As well as a gaming and storytelling podcast
+
+I host the following regular livestreams:
+
+-   Weekly "Hands on" with a tech tool
+-   Fortnightly "DevX5" covering developer experience topics
+-   Twice a month documentation and developer experience office hours
+-   As well as two gaming livestreams
 
 ### Open Source
 
@@ -41,17 +53,30 @@ I have always been active in open source communities, including regular contribu
 ### Community
 
 -   I run the Write the Docs meetup in Berlin, and have organised other meetups in the past
--   I was on the organizing committee for the 2018 and 2019 EU and 2019 Australian Write the Docs conferences
+-   I was on the organising committee for the 2018, 2019, 2020 EU and 2019 Australian Write the Docs conferences
+-   I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, and 2021
 -   I was a judge for the Mozilla open source awards in 2020
 
 ## Work Experience
+
+### Chronosphere, Senior Technical Writer
+
+Chronosphere is steward for M3, the highly available time series database as well as it's own commercial offering. I am the sole tech writer for both projects, and my role includes:
+
+-   Overhauling documentation and platforms
+-   Creating and maintaining a style guide and automated style checking tools
+-   Creating and maintaining tests, screenshot generation, and other documentation tools
+-   Editing and reviewing submissions from internal and external contributors
+-   Liaising and working with our developer relations and marketing teams for collaboration ideas
+-   Responsibility for metrics, planning, and delivery of documentation
+
+_August 2020 - Present_
 
 ### Freelance Technical Writer, Blogger and Developer Relations
 
 _March 2017 - Present_
 
-As a freelance writer and blogger, I have contributed to the blogs and documentation sets of multiple technical companies, ranging from small cutting
-edge start-ups to large enterprises. Clients and work include
+As a freelance writer and blogger, I have contributed to the blogs and documentation sets of multiple technical companies, ranging from small cutting edge start-ups to large enterprises. Clients and work include
 
 -   **libcamera**: Documentation an open source camera stack and framework for Linux, Android, and ChromeOS
 -   **Unity**: Documentation for the MARS AR development plugin
@@ -67,12 +92,14 @@ edge start-ups to large enterprises. Clients and work include
 -   **Telerik**: Technical blog posts
 -   **DZone**: Tech journalist covering events, interviews and tools
 -   **The Next Web**: Tech journalist covering events and interviews
+-   **Equinix**: Technical blog posts
+-   **DGraph**: Documentation platform overhaul
 
 ### Ethereum Foundation, Technical Writer
 
-_August 2018 - Present_
+_August 2018 - August 2020_
 
-I work as the sole tech writer for the Ethereum Foundation and its many projects. My role so far has included:
+I worked as the sole tech writer for the Ethereum Foundation and its many projects. My role included:
 
 -   The Solidity project:
     -   Improving the getting started and contributors guides
