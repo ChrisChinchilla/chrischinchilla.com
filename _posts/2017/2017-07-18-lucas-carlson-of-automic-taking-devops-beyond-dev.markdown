@@ -10,7 +10,7 @@ tags:
   - business inteligence
 publication_url: "https://dzone.com/articles/lucas-carlson-of-automic-taking-devops-beyond-deve"
 layout: post
-image: 5950132.jpeg
+image: images/5950132.jpeg
 ---
 Lucan Carlson talks about Automic's campaign to bring DevOps style automation and practices to everyone in a business, regardless of their role.
 

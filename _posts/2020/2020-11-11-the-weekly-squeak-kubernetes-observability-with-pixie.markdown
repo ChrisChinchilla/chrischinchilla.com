@@ -16,7 +16,7 @@ video:
     orig_url: https://www.youtube.com/watch?v=cuc4Q3eCQzI
     video_embed: cuc4Q3eCQzI
     source: YouTube   
-image: 347957-1605098467914-222b4a66072c6.jpg
+image: images/347957-1605098467914-222b4a66072c6.jpg
 permalink: /:categories/:title/
 ---
 This week I speak with the cofounders of Pixie labs, that helps you instantly troubleshoot your applications on Kubernetes. &nbsp;I also cover immutable operating systems, the ISS, real world quantum computing, the Lord of the Rings that never was, and more…

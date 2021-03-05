@@ -9,7 +9,7 @@ video:
     orig_url: https://www.youtube.com/watch?v=r5iPI8JAyOI
     video_embed: r5iPI8JAyOI
     source: YouTube
-image: 
+image:
 permalink: /:categories/:title/
 ---
 

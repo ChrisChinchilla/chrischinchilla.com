@@ -15,7 +15,7 @@ video:
     source: YouTube
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-ebpf-cloud-native-computing-with-isovalant-316855
-image: 347957-1612972170243-4576d5b8a28b6.jpg
+image: images/347957-1612972170243-4576d5b8a28b6.jpg
 permalink: /:categories/:title/
 ---
 I speak with Neela Jacque about eBPF and what does Cilium and Isovalent offer to cloud-native networking and security.

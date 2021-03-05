@@ -4,7 +4,7 @@ layout: podcast
 categories: media podcast
 title: Wtd Episode 1 - This Week in Tech Comm
 date: '2016-11-14 09:37:12 +0200'
-image: podcast/wtd-1.png
+image: images/podcast/wtd-1.png
 podcast_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/o1_TXiltVfA" frameborder="0" allowfullscreen></iframe>'
 excerpt: "In this first episode, we introduce the co-hosts, the podcast theme, and chat about a few articles. The four co-hosts include Jared Morgan, Carlee Potter, Chris Ward, and Tom Johnson. We're located in Sydney, Brisbane, Berlin, and California. In this episode, we chat about content strategy, style guides, abbreviations and acronyms, developer-written UI copy, and more."
 ---

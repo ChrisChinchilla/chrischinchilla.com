@@ -12,7 +12,7 @@ podcast:
 Newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-interchain-tech-privilege-and-inclusion-with-tess-rinearson-250740
     source: revue    
-image: 347957-1590574752654-f6d16deac9729.jpg
+image: images/347957-1590574752654-f6d16deac9729.jpg
 permalink: /:categories/:title/
 ---
 This week I speak with Tess Rinearson about the Interchain foundation and her past thoughts on running inclusive hackathons, privilege, and much more. Also features news from Microsoft Build, Surveillance Capitalism, and the lost Sim games of Maxis.

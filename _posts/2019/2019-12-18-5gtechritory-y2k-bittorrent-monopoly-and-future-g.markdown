@@ -8,7 +8,7 @@ podcast: "The Weekly Squeak"
 tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/5GTechritory--Y2K--BitTorrent--Monopoly--and-future-gazing-e9jmpj
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/9083123/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-12-18%2F92c874c25a4105b670c5111cf92768f9.m4a
-image: 347957-1576675417170-799a94236fd6e.jpg
+image: images/347957-1576675417170-799a94236fd6e.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

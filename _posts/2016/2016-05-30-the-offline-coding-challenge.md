@@ -2,7 +2,7 @@
 title: 'The Offline Coding Challenge, Theoretical Concepts in Videos, and Beginner Coders Wanted'
 created: 2016-05-30T00:00:00.000Z
 publication_url: https://hackernoon.com/the-offline-coding-challenge-theoretical-concepts-in-videos-and-beginner-coders-wanted-626674c3fbc9#.25lbm2hfk
-image: confusedchinch.png
+image: images/confusedchinch.png
 categories: writing hackernoon
 tags: coding programming education
 ---

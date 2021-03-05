@@ -7,7 +7,7 @@ tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/testing-hotfixes-to-production-without-rolling-back-staging
-image: 5fa1b9f4db998980b63c5607.jpg
+image: images/5fa1b9f4db998980b63c5607.jpg
 layout: post
 ---
 

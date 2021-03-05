@@ -8,7 +8,7 @@ podcast: "The Weekly Squeak"
 tags: 
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Augmented-AI-with-Chris-Longstaff-of-Mindtech-ecqg1r
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/12451323/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-15%2F64715309-44100-2-17e04420063e4.mp3
-image: 347957-1586955321566-6359fc0c5ec6c.jpg
+image: images/347957-1586955321566-6359fc0c5ec6c.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: What affect is tech having on society? An interview with Yael Eisenstat
 date: 2017-07-21
-image: yael.jpg
+image: images/yael.jpg
 categories: writing thenextweb
 tags: security politics news technology society
 publication_url: https://thenextweb.com/contributors/2017/07/20/affect-tech-society-interview-yael-eisenstat/#.tnw_XBsuxwMl

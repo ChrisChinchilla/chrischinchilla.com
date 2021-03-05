@@ -2,7 +2,7 @@
 layout: post
 title: Manual organised and consolidated
 created: 1428347392
-image: image-manual-organised-and-consolidated.png
+image: images/image-manual-organised-and-consolidated.png
 categories: projects chipshop
 ---
 

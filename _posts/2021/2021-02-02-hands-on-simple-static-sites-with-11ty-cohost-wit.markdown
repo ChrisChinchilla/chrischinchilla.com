@@ -7,7 +7,7 @@ categories: video handson
 tags: 
 orig_url: https://www.youtube.com/watch?v=gIQ48Av5vfo
 video_embed: gIQ48Av5vfo
-image: 
+image:
 permalink: /:categories/:title/
 source: YouTube
 ---

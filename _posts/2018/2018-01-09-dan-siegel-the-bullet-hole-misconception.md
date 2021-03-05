@@ -4,7 +4,7 @@ layout: podcast
 categories:  media podcast
 title: Daniel G. Siegel - the bullet hole misconception
 date: 2018-01-09T08:54:30.979Z
-image: podcast/dan-siegel.jpg
+image: images/podcast/dan-siegel.jpg
 tags: tech ethics self-improvement coding learning education
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Daniel-G--Siegel---the-bullet-hole-misconception-e14p61" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---

@@ -2,7 +2,7 @@
 title: "Zilliqa - High throughput Blockchain"
 layout: podcast
 created_at: 2018-04-26 14:00:00 UTC
-image: zilliqa.jpg
+image: images/zilliqa.jpg
 type: podcast
 layout: podcast
 categories:  media podcast

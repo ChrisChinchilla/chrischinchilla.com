@@ -2,7 +2,7 @@
 title: 'iOS and Android Programming with Go'
 created: 20151209
 publication_url: 'https://www.sitepoint.com/ios-and-android-programming-with-go/'
-image: image-programming-with-go.png
+image: images/image-programming-with-go.png
 categories: writing sitepoint
 ---
 

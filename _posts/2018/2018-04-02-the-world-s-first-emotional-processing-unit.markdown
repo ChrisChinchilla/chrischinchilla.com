@@ -9,7 +9,7 @@ tags:
  - Processors
  - Emotions
 layout: post
-image: 347957-1522134130236-3844de52a0a58.jpg
+image: images/347957-1522134130236-3844de52a0a58.jpg
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/The-Worlds-First-Emotional-Processing-Unit-e1879n" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---
 

@@ -7,7 +7,7 @@ tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/why-sport1-built-their-internal-developer-platform
-image: 5fc546fd4e3943b25292653f_paolo-garri-why-spot1.png
+image: images/5fc546fd4e3943b25292653f_paolo-garri-why-spot1.png
 layout: post
 ---
 

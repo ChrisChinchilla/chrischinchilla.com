@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 # TODO: More SEO
 title: Chris Chinchilla
-tagline: A technical communicator with a love of explaining technical concepts in documentation, blog posts, videos, books and more.
+tagline: Technical communicator, blogger, podcaster, streamer, game and fiction writer.
 email: chris@chrischinchilla.com
 description: A technical communicator with a love of explaining technical concepts in documentation, blog posts, videos, books and more. Also a podcaster, video maker, writer of interactive fiction, and games.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -37,7 +37,7 @@ social:
     - https://www.facebook.com/chrischinchilla
     - https://www.linkedin.com/in/chrischinchilla
     - https://github.com/chrischinchilla
-# google_site_verification:
+google_site_verification: FW6u2cSI4R-0Pxjk0I8Xop-1nYJ6HeTYRmbaHzFfffo
 
 plugins:
   - jekyll-feed
@@ -117,7 +117,6 @@ collections:
     layout: merchandise
 
 picture:
-  source: /images
   output: generated
   markup: picture
   nomarkdown: false

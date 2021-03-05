@@ -2,7 +2,7 @@
 title: Using Classy to Create Stylesheets for Native iOS Apps
 created: 2016-01-27T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/using-classy-to-create-stylesheets-for-native-ios-apps/'
-image: image-using-classy.png
+image: images/image-using-classy.png
 categories: writing sitepoint
 tags: ios css
 ---

@@ -8,7 +8,7 @@ tags:
   - Screenshots
   - Tools
 publication_url: https://www.knowledgeowl.com/home/screenshot-tool-comparison
-image: screenshot-tool-comparison.jpg
+image: images/screenshot-tool-comparison.jpg
 layout: post
 ---
 

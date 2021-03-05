@@ -15,7 +15,7 @@ podcast:
 newsletter:
     source: revue
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-d-d-and-teams-with-karthik-nagarajan-273835    
-image: 347957-1599128980920-df29568b4b96d.jpg
+image: images/347957-1599128980920-df29568b4b96d.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

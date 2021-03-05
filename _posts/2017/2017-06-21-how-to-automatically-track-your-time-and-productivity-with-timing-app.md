@@ -2,7 +2,7 @@
 layout: post
 title: Time tracking is made painless and easy with Timing 2 app
 date: '2017-06-21 18:13:30 +0100'
-image: timing_2_app_icon_1x.png
+image: images/timing_2_app_icon_1x.png
 categories: writing cultofmac
 tags: apple mac software
 publication_url: https://www.cultofmac.com/482549/how-to-automatically-track-your-time-and-productivity-with-timing-app/

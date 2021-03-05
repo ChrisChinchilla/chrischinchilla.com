@@ -1,7 +1,7 @@
 ---
 title: Belgrade to Berlin, it's tech conference season
 created: 2016-10-08T00:00:00.000Z
-image: voxxed-belgrade.jpg
+image: images/voxxed-belgrade.jpg
 categories: writing chrischinchilla
 tags: tech conferences links history
 ---

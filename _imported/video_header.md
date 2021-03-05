@@ -7,7 +7,7 @@ categories: {{ blog_categories }}
 tags: {{ blog_tags }}
 orig_url: {{ post_url }}
 video_embed: {{ post_video_embed }}
-image: {{ image }}
+image: images//{{ image }}
 permalink: /:categories/:title/
 source: {{ post_source}}
 ---

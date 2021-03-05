@@ -12,7 +12,7 @@ tags:
   - community
   - licensing
 publication_url: "https://dzone.com/articles/foss-backstage-for-everyone-in-open-source"
-image: 9175876.jpeg
+image: images/9175876.jpeg
 layout: post
 ---
 FOSS Backstage is a new conference for open source developers and managers. Find out more information about the conference here.

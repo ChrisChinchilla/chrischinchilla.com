@@ -8,7 +8,7 @@ podcast: "The Weekly Squeak"
 tags: 
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Responsible-AI-with-Shlomi-Hod--the-wierd-web-and-fax-on-the-beach-ea6ob2
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/9707298/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-01-15%2F2849b7bec0da5162df23db42d505574b.m4a
-image: 347957-1579098526109-0257982454443.jpg
+image: images/347957-1579098526109-0257982454443.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

@@ -12,7 +12,7 @@ tags:
   - encryption
   - messaging
 publication_url: "https://dzone.com/articles/true-anonymity-privacy-and-snapps-with-simon-harma"
-image: 11521992.jpeg
+image: images/11521992.jpeg
 layout: post
 ---
 Need to improve privacy and anonymity?

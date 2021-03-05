@@ -12,7 +12,7 @@ tags:
   - flinkcep
   - pattern matching
 publication_url: "https://data-artisans.com/blog/complex-event-processing-flink-cep-update"
-image: flink-cep-post-image1.png
+image: images/flink-cep-post-image1.png
 layout: post
 ---
 In the snippet above I named the individual patterns as:

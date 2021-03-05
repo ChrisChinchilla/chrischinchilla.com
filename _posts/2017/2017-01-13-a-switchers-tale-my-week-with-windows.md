@@ -2,7 +2,7 @@
 layout: post
 title: A switchers tale - My week with Windows
 date: '2017-01-13 19:45:01 +0100'
-image: windows-running.jpg
+image: images/windows-running.jpg
 categories: writing hackernoon
 tags: tech review windows macos
 publication_url: https://hackernoon.com/a-switchers-tale-my-week-with-windows-612ea605291#.o4g70gtyi

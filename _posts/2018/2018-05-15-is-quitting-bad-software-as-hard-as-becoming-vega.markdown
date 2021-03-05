@@ -11,7 +11,7 @@ tags:
   - open source
   - surveillance capitalism
 publication_url: "https://dzone.com/articles/is-quitting-bad-software-as-hard-as-becoming-vegan"
-image: 9126940.jpeg
+image: images/9126940.jpeg
 layout: post
 ---
 Just how far are you willing to go not to use software that you disagree with? Chris Ward takes a look down the rabbit hole.

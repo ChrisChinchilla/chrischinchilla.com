@@ -11,7 +11,7 @@ tags:
   - automation
   - bot
 publication_url: "https://dzone.com/articles/-automate-task-creation-with-the-todo-bot"
-image: 13060826.jpeg
+image: images/13060826.jpeg
 layout: post
 ---
 Do you litter your code with "TODO" keywords so you'll remember to come back to them? With this handy GitHub bot, you'll never have to remember again. Maybe.

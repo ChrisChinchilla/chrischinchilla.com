@@ -9,7 +9,7 @@ tags:
   - infrastructure
   - cloud computing
 publication_url: "https://dzone.com/articles/-openstack-ussuri-intelligent-automation"
-image: 13457325.jpeg
+image: images/13457325.jpeg
 layout: post
 ---
 OpenStack has a new release and it's big. Let's take a look at what Ussuri, the 21st release, has to offer.

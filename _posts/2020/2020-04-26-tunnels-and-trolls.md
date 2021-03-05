@@ -7,7 +7,7 @@ categories: video
 tags: 
 orig_url: https://www.youtube.com/watch?v=iBSluxr602M
 video_embed: iBSluxr602M
-image: 
+image:
 permalink: /:categories/:title/
 source: YouTube
 ---

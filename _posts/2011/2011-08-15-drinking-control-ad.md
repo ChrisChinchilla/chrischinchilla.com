@@ -4,7 +4,7 @@ title: Drinking control ad
 created: 2011-08-15T00:00:00.000Z
 categories: writing chrischinchilla
 tags: greatidea
-image: IMG_0599.jpg
+image: images/IMG_0599.jpg
 ---
 
 I've sometimes been critical of drinking control ads in the past, generally wondering how effective they really are, but I really liked this one I found in a London toilet.

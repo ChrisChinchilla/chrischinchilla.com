@@ -2,7 +2,7 @@
 layout: post
 title: London Civicon 2011
 created: 2011-08-26T00:00:00.000Z
-image: civiconlondon.png
+image: images/civiconlondon.png
 categories: writing chrischinchilla
 tags: civicrm crm
 ---

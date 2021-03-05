@@ -8,7 +8,7 @@ podcast: "Board game jerk"
 tags: 
 orig_url: https://anchor.fm/boardgamejerk/episodes/Episode-101-with-Frank-Reding-of-Mottokrosh-Machinations-eij4ce
 podcast_embed: https://anchor.fm/s/32d48064/podcast/play/18501454/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-24%2F101061363-44100-2-5b8817acf7566.m4a
-image: 8427873-1598258839884-e638d84dd2579.jpg
+image: images/8427873-1598258839884-e638d84dd2579.jpg
 permalink: /:categories/:title/
 ---
 Our first episode! 🥳

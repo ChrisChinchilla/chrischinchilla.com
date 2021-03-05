@@ -2,7 +2,7 @@
 layout: post
 title: 'The WCAG: Accessibility Regulations You Need to Know'
 date: 2019-07-16T12:45:45.272Z
-image: tb_870x22043dccabe89e4489095165891b587bb6b.png
+image: images/tb_870x22043dccabe89e4489095165891b587bb6b.png
 categories: writing telerik
 tags: accessibility web
 publication_url: https://www.telerik.com/blogs/the-wcag-accessibility-regulations-you-need-to-know

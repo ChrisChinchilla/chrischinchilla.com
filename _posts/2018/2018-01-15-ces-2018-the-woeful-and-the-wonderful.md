@@ -4,7 +4,7 @@ layout: podcast
 categories:  media podcast
 title: CES 2018 - The woeful and the wonderful
 date: 2018-01-15T08:54:30.979Z
-image: scout_future_front_2_a34c54c1-96cc-4399-b48a-18f10088a8e2_1024x1024.jpg
+image: images/scout_future_front_2_a34c54c1-96cc-4399-b48a-18f10088a8e2_1024x1024.jpg
 tags: CES IoT events conference
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/CES-2018---The-woeful-and-the-wonderful-e14p60" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---

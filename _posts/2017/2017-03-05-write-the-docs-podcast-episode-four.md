@@ -4,7 +4,7 @@ layout: podcast
 categories: media podcast
 title: "WTD Episode 4: Continuous Integration and Docs like Code"
 date: '2017-03-05 09:37:12 +0200'
-image: podcast/wtd-4.png
+image: images/podcast/wtd-4.png
 podcast_embed: '<iframe width="640" height="360" src="https://www.youtube.com/embed/xT0WPZI62C4" frameborder="0" allowfullscreen></iframe>'
 ---
 

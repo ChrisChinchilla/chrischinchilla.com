@@ -4,7 +4,7 @@ layout: podcast
 categories: media podcast
 title: WTD Episode 7 - Let the robots do the work
 date: '2017-07-03 23:37:12 +0200'
-image: podcast/wtd-7.png
+image: images/podcast/wtd-7.png
 podcast_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/g1o5fZnrxlI" frameborder="0" allowfullscreen></iframe>
 ---
 

@@ -4,7 +4,7 @@ layout: podcast
 categories: media podcast
 title: "WTD Episode 5: Where do we belong?"
 date: '2017-04-30 23:37:12 +0200'
-image: podcast/wtd-5.png
+image: images/podcast/wtd-5.png
 podcast_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/EpRkt7zDRC4" frameborder="0" allowfullscreen></iframe>'
 ---
 

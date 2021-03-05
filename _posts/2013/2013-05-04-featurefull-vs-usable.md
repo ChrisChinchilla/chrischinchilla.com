@@ -2,7 +2,7 @@
 layout: post
 title: Featurefull vs Usable
 created: 1367669765
-image: feature-bloat.png
+image: images/feature-bloat.png
 categories: writing chrischinchilla
 ---
 

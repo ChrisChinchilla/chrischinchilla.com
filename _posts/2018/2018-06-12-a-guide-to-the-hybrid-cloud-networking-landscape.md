@@ -2,7 +2,7 @@
 layout: post
 title: A guide to the hybrid cloud networking landscape
 date: 2018-06-12T13:03:06.277Z
-image: hybrid-cloud.png
+image: images/hybrid-cloud.png
 author: "Chris Ward"
 categories: writing exoscale
 tags:

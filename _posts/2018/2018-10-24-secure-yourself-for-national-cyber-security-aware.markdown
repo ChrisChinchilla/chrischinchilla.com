@@ -13,7 +13,7 @@ tags:
   - privacy
   - security
 publication_url: "https://dzone.com/articles/secure-yourself-for-national-cyber-security-awaren"
-image: 10535430.jpeg
+image: images/10535430.jpeg
 layout: post
 ---
 October is National Cyber Security Awareness Month. Check out this post to make sure you are practicing strong security habits.

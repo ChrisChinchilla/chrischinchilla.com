@@ -5,6 +5,6 @@ author: "{{ author }}"
 categories: {{ blog_categories }}
 tags: {{ post_tags }}
 publication_url: "{{ post_publication_url }}"
-image: {{ image }}
+image: images//{{ image }}
 layout: post
 ---

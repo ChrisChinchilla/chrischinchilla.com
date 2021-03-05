@@ -14,7 +14,7 @@ podcast:
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/25844665/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-28%2F11cb9476-df93-1aa0-163a-319464490c12.mp3
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-cloud-native-automation-with-garden-309857
-image: 347957-1611826083728-11c03ca47fdda.jpg
+image: images/347957-1611826083728-11c03ca47fdda.jpg
 permalink: /:categories/:title/
 ---
 This episode I speak with Jon Edvald of Garden about their cloud native automation platform. I also cover Linux on the M1, Google Chrome, Web extensions on Safari, and more!

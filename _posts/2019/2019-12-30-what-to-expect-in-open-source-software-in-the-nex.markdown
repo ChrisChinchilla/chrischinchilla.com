@@ -14,7 +14,7 @@ tags:
   - wasm
   - web assembly
 publication_url: "https://dzone.com/articles/-what-do-you-predict-will-happen-in-open-source-so"
-image: 12862926.jpeg
+image: images/12862926.jpeg
 layout: post
 ---
 As the year draws to a close, it’s time to gaze into the crystal command line and see what 2020 might hold.

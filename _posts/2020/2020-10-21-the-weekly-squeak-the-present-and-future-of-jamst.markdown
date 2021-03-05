@@ -12,7 +12,7 @@ video:
     orig_url: https://www.youtube.com/watch?v=nqXk7bd0UdI
     video_embed: nqXk7bd0UdI
     source: YouTube
-image: 347957-1603294920861-14e72d72414a5.jpg
+image: images/347957-1603294920861-14e72d72414a5.jpg
 permalink: /:categories/:title/
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-scaling-mysql-with-planet-scale-278924

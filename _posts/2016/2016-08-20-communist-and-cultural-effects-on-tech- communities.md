@@ -2,7 +2,7 @@
 title: Communist and cultural effects on tech communities
 created: 2016-08-20T00:00:00.000Z
 publication_url: https://thenextweb.com/entrepreneur/2016/08/19/how-communism-still-affects-some-tech-spaces
-image: shutterstock_146645084-796x533.jpg
+image: images/shutterstock_146645084-796x533.jpg
 categories: writing thenextweb
 tags: albania kosovo tech startups
 ---

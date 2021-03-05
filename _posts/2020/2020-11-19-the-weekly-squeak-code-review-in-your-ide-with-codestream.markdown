@@ -16,7 +16,7 @@ video:
     orig_url: https://www.youtube.com/watch?v=HLl8i4n0WVQ
     video_embed: HLl8i4n0WVQ
     source: YouTube   
-image: 347957-1605773665894-5833eebcb1f3e.jpg
+image: images/347957-1605773665894-5833eebcb1f3e.jpg
 permalink: /:categories/:title/
 ---
 

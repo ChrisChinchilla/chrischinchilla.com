@@ -12,7 +12,7 @@ podcast:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-scalable-graph-databases-with-tigergraph-243445
     source: revue    
-image: 347957-1588157704889-979c105b9c1a1.jpg
+image: images/347957-1588157704889-979c105b9c1a1.jpg
 permalink: /:categories/:title/
 ---
 I speak with Gaurav Deshpande of TigerGraph about their highly scalable graph database. Also features GDPR 2 years later, Flutter, JavaScript, grounded airplanes, cats, and more.

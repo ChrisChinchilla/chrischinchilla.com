@@ -2,7 +2,7 @@
 layout: post
 title: What people want from websites
 created: 1386237277
-image: whatpeoplewantfromwebsites-sales.png
+image: images/whatpeoplewantfromwebsites-sales.png
 categories: writing chrischinchilla
 ---
 

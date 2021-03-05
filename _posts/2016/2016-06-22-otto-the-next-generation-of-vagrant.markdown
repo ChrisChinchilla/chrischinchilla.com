@@ -6,7 +6,7 @@ categories: writing codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/otto-next-generation-vagrant/"
-image: otto-structure.png
+image: images/otto-structure.png
 layout: post
 ---
 Note that Otto has been decommissioned as of August 19, 2016.

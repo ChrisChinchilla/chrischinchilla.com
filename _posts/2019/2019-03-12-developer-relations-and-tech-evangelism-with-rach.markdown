@@ -10,7 +10,7 @@ tags:
   - developer evangelism
   - web dev
 publication_url: "https://dzone.com/articles/developer-relations-and-tech-evangelism-with-rache"
-image: 11429278.jpeg
+image: images/11429278.jpeg
 layout: post
 ---
 Chris speaks with Lisk's new tech evangelist to find out what the developer experience focussed blockchain project has been up to since summer 2018.

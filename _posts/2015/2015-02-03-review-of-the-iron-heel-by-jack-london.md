@@ -2,7 +2,7 @@
 layout: post
 title: Review of The Iron Heel by Jack London
 created: 1422961033
-image: the-iron-heel.png
+image: images/the-iron-heel.png
 categories: projects odtwe
 ---
 

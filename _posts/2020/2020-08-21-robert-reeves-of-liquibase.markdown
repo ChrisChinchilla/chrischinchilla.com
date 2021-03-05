@@ -15,7 +15,7 @@ podcast:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-robert-reeves-of-liquibase-270503
     source: revue    
-image: 347957-1598004622955-5dac5111db5d2.jpg
+image: images/347957-1598004622955-5dac5111db5d2.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

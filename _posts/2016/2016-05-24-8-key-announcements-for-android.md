@@ -2,7 +2,7 @@
 title: '8 Key Announcements for Android Developers at Google IO'
 created: 2016-05-024
 publication_url: 'https://www.sitepoint.com/8-key-announcements-for-android-developers-at-google-io/'
-image: googleio.jpeg
+image: images/googleio.jpeg
 categories: writing sitepoint
 tags: google android
 ---

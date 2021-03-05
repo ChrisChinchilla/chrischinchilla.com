@@ -12,7 +12,7 @@ podcast:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-confluent-cloud-with-dan-rosanova-255088
     source: revue    
-image: 347957-1591781947330-7cc8a1d752464.jpg
+image: images/347957-1591781947330-7cc8a1d752464.jpg
 permalink: /:categories/:title/
 ---
 In this episode I speak with Dan Rosanova from Confluent about Kafka, their cloud offering, and project Metamorphosis. I also cover news from the past week including Developer Experience 101, Google Docs as an act of resistance, news from the Linux Kernel, what happened next to the founder of Atari, and much more.

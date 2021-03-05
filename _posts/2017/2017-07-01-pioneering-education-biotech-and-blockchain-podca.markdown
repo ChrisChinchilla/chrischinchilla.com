@@ -11,7 +11,7 @@ tags:
   - startups
 publication_url: "https://dzone.com/articles/pioneering-education-biotech-and-blockchain"
 layout: post
-image: 5740446.jpeg
+image: images/5740446.jpeg
 ---
 A DZone Zone Leader interviews several startups to see how their developers are shaping the future across several industries.
 

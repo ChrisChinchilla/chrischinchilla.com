@@ -5,7 +5,7 @@ categories:  media podcast
 title: Love, life, leisure and technology
 date: 2017-08-31
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Love--life--leisure-and-technology-e14p6m/a-a2io9o" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-image: 3108podcast.jpg
+image: images/3108podcast.jpg
 tags:
  - Journalism
  - Robots

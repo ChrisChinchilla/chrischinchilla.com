@@ -2,7 +2,7 @@
 layout: post
 title: Drupal 7 webform cookbook
 created: 1344463404
-image: drupal7-webform-cookbook.png
+image: images/drupal7-webform-cookbook.png
 categories: writing chrischinchilla
 ---
 

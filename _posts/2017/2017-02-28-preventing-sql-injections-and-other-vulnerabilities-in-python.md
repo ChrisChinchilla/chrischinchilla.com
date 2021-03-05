@@ -2,7 +2,7 @@
 layout: post
 title: Preventing SQL injections in Python (and other vulnerabilities)
 date: '2017-02-28 18:13:30 +0100'
-image: sql-python.jpg
+image: images/sql-python.jpg
 categories: writing sqreen
 tags: programming python security
 publication_url: https://blog.sqreen.io/preventing-sql-injections-in-python/

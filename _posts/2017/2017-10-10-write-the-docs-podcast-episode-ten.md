@@ -4,7 +4,7 @@ layout: podcast
 categories: media podcast
 title: "WTD Episode 10 - What's going on in our lives as documentarians and product owners"
 date: 2017-10-10
-image: podcast/wtd-10.png
+image: images/podcast/wtd-10.png
 podcast_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gc6W1ZPvNOk" frameborder="0" allowfullscreen></iframe>'
 excerpt: "In this episode, we talk about what’s going on in our lives as documentarians and product owners."
 ---

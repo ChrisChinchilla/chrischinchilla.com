@@ -2,6 +2,6 @@
 type: connect
 
 title: Email
-image: icons/social/email.png
+image: images/icons/social/email.png
 network_link: mailto:chris@chrischinchilla.com
 ---

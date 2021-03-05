@@ -2,7 +2,7 @@
 layout: post
 title: OSDC Towel
 created: 2013-12-10T00:00:00.000Z
-image: OSDCtowel.jpg
+image: images/OSDCtowel.jpg
 categories: writing chrischinchilla
 tags: merchandise conferences
 ---

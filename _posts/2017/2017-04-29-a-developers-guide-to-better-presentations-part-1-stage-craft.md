@@ -2,7 +2,7 @@
 layout: post
 title: A Developers Guide to Better Presentations — Part 1, Stage Craft
 date: '2017-04-29 10:13:30 +0100'
-image: 111978-109778.jpg
+image: images/111978-109778.jpg
 categories: writing hackernoon
 tags:
   - public speaking

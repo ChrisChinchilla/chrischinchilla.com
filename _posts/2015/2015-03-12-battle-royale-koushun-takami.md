@@ -2,7 +2,7 @@
 layout: post
 title: 'Battle Royale, Koushun Takami'
 created: 2015-03-12T00:00:00.000Z
-image: battle.jpg
+image: images/battle.jpg
 categories: projects odtwe
 tags: reviews books
 ---

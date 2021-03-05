@@ -8,7 +8,7 @@ podcast: "The Weekly Squeak"
 tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/Chronosphere-and-fixing-the-internet--air-conditioning-and-calculators-e9bq3q
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/8824378/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-11-5%2F36736601-44100-2-fecefe5ea61cf.m4a
-image: 347957-1575561105590-3e7dd30306ea6.jpg
+image: images/347957-1575561105590-3e7dd30306ea6.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

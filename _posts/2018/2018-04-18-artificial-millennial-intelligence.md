@@ -1,7 +1,7 @@
 ---
 title: 'Artificial Millenial Intelligence'
 date: '2018-04-18T19:16:18+02:00'
-image: robotjob.jpg
+image: images/robotjob.jpg
 type: podcast
 layout: podcast
 categories:  media podcast

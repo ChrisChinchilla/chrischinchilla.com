@@ -12,7 +12,7 @@ podcast:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-tanmai-gopal-of-hasura-255857
     source: revue    
-image: 347957-1597216471805-31f07f7437dd2.jpg
+image: images/347957-1597216471805-31f07f7437dd2.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

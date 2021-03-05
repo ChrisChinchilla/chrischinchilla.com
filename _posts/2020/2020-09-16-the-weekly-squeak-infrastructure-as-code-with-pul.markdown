@@ -16,7 +16,7 @@ newsletter:
     source: revue    
 permalink: /:categories/:title/
 source: YouTube
-image: 347957-1600268662473-55b3e5c426b42.jpg
+image: images/347957-1600268662473-55b3e5c426b42.jpg
 
 ---
 In this episode I speak with Christian Nunciato, author of Pulumi in Action from Manning.  

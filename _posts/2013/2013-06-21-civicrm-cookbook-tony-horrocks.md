@@ -2,7 +2,7 @@
 layout: post
 title: 'CiviCRM Cookbook, Tony Horrocks'
 created: 2013-06-21T00:00:00.000Z
-image: civicrm-cookbook.jpg
+image: images/civicrm-cookbook.jpg
 categories: writing chrischinchilla
 tags: reviews books civicrm
 ---

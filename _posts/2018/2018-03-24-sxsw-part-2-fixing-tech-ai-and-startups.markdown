@@ -9,7 +9,7 @@ tags:
   - ethics
   - design strategy
 publication_url: "https://dzone.com/articles/sxsw-part-2-fixing-tech-ai-and-startups"
-image: 8585381.jpeg
+image: images/8585381.jpeg
 layout: post
 ---
 In Part 2 of this round on SXSW, Chris looks at what people had to say about machine learning, artificial intelligence, and the problems with tech.

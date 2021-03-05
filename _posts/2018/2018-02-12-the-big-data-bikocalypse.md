@@ -4,7 +4,7 @@ layout: podcast
 categories:  media podcast
 title: The Big Data Bikocalypse
 date: 2018-02-12T08:54:30.979Z
-image: 130218.jpg
+image: images/130218.jpg
 tags:
   - Big Data
   - Public Transport

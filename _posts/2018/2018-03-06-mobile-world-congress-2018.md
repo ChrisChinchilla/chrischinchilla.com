@@ -4,7 +4,7 @@ layout: podcast
 categories:  media podcast
 title: Mobile World Congress 2018
 date: 2018-03-06T15:11:45.346Z
-image: 6f9a1781-ed.jpg
+image: images/6f9a1781-ed.jpg
 tags: Event MWC Mobile IoT Networks 5G 4G
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Mobile-World-Congress-2018-e16nk5" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---

@@ -9,7 +9,7 @@ tags:
   - security
   - decentralized exchange
 publication_url: "https://dzone.com/articles/tokenize-all-the-things-and-what-happens-next"
-image: 8740072.jpeg
+image: images/8740072.jpeg
 layout: post
 ---
 Communities and entrepreneurs are excitedly creating crypto-tokens for a wide variety of inane and practical purposes. We look at what this could mean for our future.

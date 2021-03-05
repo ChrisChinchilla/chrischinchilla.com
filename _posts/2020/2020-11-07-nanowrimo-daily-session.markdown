@@ -7,7 +7,7 @@ categories: video
 tags: 
 orig_url: https://www.youtube.com/watch?v=DmY68LXpo4M
 video_embed: DmY68LXpo4M
-image: 
+image:
 permalink: /:categories/:title/
 source: YouTube
 ---

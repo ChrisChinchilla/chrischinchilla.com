@@ -2,7 +2,7 @@
 layout: post
 title: Simple, Clutter-free Programming with Go
 created: 20151111
-image: image-simple-clutter-free-programming.jpg
+image: images/image-simple-clutter-free-programming.jpg
 categories: writing chrischinchilla
 ---
 

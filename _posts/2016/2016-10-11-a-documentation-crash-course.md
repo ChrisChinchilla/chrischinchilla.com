@@ -1,7 +1,7 @@
 ---
 title: A documentation crash course for developers
 created: 2016-10-11T00:00:00.000Z
-image: wtd-prague.jpg
+image: images/wtd-prague.jpg
 categories: writing hackernoon
 tags: writing techwriting
 layout: post

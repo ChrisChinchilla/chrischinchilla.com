@@ -7,6 +7,6 @@ dzone:
 blogs:
   - author: "Chris Ward"
     profile: "2962687"
-    image: "https://www.rss-specifications.com/rss-spec-rss.gif"
+    image: images/"https://www.rss-specifications.com/rss-spec-rss.gif"
     twitter: "poteland"
     categories: "writing dzone"

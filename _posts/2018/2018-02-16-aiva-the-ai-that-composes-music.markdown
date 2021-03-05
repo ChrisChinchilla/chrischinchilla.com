@@ -10,7 +10,7 @@ tags:
   - artificial intelligence
   - nvidia
 layout: podcast
-image: yZlXxzlrHcNMiUzdQnISySzbeOU7sjWf.jpg
+image: images/yZlXxzlrHcNMiUzdQnISySzbeOU7sjWf.jpg
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Aiva---The-Ai-that-composes-music-e14p5q" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---
 

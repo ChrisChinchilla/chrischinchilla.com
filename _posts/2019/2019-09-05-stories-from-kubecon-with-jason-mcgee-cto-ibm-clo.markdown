@@ -12,7 +12,7 @@ tags:
   - enterprise development
   - ibm cloud
 publication_url: "https://dzone.com/articles/-stories-from-kubecon-jason-mcgee-cto-ibm-cloud-pl"
-image: 12422438.jpeg
+image: images/12422438.jpeg
 layout: post
 ---
 Get it first from IBM Cloud Platform CTO Jason McGee about what IBM Cloud is about, who it's for, and what it offers.

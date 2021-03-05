@@ -2,7 +2,7 @@
 layout: post
 title: 'Confessions of the Game Doctor, Bill Kunkell'
 created: 1427017820
-image: confessions-game-doctor.jpg
+image: images/confessions-game-doctor.jpg
 categories: projects chipshop
 ---
 

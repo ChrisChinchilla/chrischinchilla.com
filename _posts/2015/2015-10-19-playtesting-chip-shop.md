@@ -3,7 +3,7 @@ layout: post
 title: Playtesting Chip Shop
 date: '2015-10-19'
 categories: projects chipshop
-image: pt-cards.png
+image: images/pt-cards.png
 ---
 
 Chip Shop is ready for play testing! Find out how to get involved.

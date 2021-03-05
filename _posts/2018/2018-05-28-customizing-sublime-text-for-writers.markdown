@@ -12,7 +12,7 @@ tags:
   - markdown
   - python
 publication_url: "https://dzone.com/articles/customizing-sublime-text-for-writers"
-image: 9186379.jpeg
+image: images/9186379.jpeg
 layout: post
 ---
 Are you using the Sublime Text editor? If so, you may want to rethink this. One man gives his opinion on Sublime and gives several other options you can choose from.

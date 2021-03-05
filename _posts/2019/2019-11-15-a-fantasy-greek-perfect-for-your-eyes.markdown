@@ -8,7 +8,7 @@ podcast: "The Weekly Squeak"
 tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/A-fantasy-Greek-perfect-for-your-eyes-e91015
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/8469989/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-10-15%2F34336710-44100-2-d22c711a5592e.m4a
-image: 347957-1573834930200-7eceecc9d851b.jpg
+image: images/347957-1573834930200-7eceecc9d851b.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

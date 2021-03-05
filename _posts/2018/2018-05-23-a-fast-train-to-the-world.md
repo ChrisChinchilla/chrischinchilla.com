@@ -6,7 +6,7 @@ author: ""
 type: podcast
 layout: podcast
 categories:  media podcast
-image: 347957-1527086909766-890a5c21430f9.jpg
+image: images/347957-1527086909766-890a5c21430f9.jpg
 tags:
   - GDPR
   - Board games

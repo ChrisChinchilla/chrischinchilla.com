@@ -3,7 +3,7 @@ layout: post
 title: Projects Site Redevelopment Complete
 created: 1420905850
 categories: projects
-image: gm_siteplan.png
+image: images/gm_siteplan.png
 ---
 
 I have just finished getting in place the basic structures behind the sites for my new projects and redeveloping my older sites accordingly.

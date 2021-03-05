@@ -8,7 +8,7 @@ tags:
  - Wearables
  - Neurology
 layout: podcast
-image: 347957-1523535004294-a687b3e9b0dea.jpg
+image: images/347957-1523535004294-a687b3e9b0dea.jpg
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Putting-your-brain-in-control---With-Max-Newton-of-BrainCo-e1am9u" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---
 

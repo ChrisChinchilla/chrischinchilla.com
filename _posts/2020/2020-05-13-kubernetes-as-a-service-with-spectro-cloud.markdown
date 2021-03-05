@@ -12,7 +12,7 @@ podcast:
 newsletter:
     source: revue
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-kubernetes-as-a-service-with-spectro-cloud-245062    
-image: 347957-1547538873594-eb7f678094d76.jpg
+image: images/347957-1547538873594-eb7f678094d76.jpg
 permalink: /:categories/:title/
 ---
 

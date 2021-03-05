@@ -4,7 +4,7 @@ layout: podcast
 categories: writing books
 title: So, I wrote my first book
 date: '2017-05-16 10:13:30 +0100'
-image: resp-book.png
+image: images/resp-book.png
 tags:
   - web design
   - responsive

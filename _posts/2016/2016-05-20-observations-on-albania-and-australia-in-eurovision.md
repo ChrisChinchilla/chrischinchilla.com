@@ -2,7 +2,7 @@
 title: Observations on Albania and Australia in Eurovision
 created: 2016-05-20T00:00:00.000Z
 publication_url: 'https://medium.com/@ChrisChinchilla/observations-on-albania-and-australia-in-eurovision-b09be9e1c9b9#.pgltgcs8z'
-image: albania.png
+image: images/albania.png
 categories: writing theweeklysqueak
 tags: australia europe travel
 ---

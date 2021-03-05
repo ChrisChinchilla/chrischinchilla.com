@@ -2,7 +2,7 @@
 title: How I Became an e-Resident of Estonia
 created: 20150916
 publication_url: 'https://www.sitepoint.com/registering-a-business-globally-with-estonias-e-residency/'
-image: image-becoming-an-eresident-estonia.jpg
+image: images/image-becoming-an-eresident-estonia.jpg
 categories: writing sitepoint
 ---
 

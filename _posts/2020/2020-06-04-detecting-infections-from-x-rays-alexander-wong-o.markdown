@@ -12,7 +12,7 @@ podcast:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-alexander-wong-of-covid-net-252834
     source: revuew    
-image: 347957-1591255834460-1bb3fac28d115.jpg
+image: images/347957-1591255834460-1bb3fac28d115.jpg
 permalink: /:categories/:title/
 ---
 This is a focussed episode, where I interview Alexander Wong of COVID-Net and DarwinAI about an open-source project last week to improve COVID-19 screening using artificial intelligence (AI). In news I recommend another podcast you should listen to in this turbulent week.

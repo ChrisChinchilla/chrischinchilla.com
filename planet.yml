@@ -8,13 +8,13 @@ blogs:
   # Bare minimum to get it working
   - author: "Chris Ward"
     feed: "https://blog.codeship.com/author/chrisward/feed/"
-    image: "https://www.rss-specifications.com/rss-spec-rss.gif"
+    image: images/"https://www.rss-specifications.com/rss-spec-rss.gif"
     twitter: "poteland"
     categories: "writing codeship"
     layout: post
   - author: "Chris Ward"
     feed: "https://kauri.io/feed/user/9b66e2c73ee59c11ac25ef2730ab589c5416e81a"
-    image: "https://www.rss-specifications.com/rss-spec-rss.gif"
+    image: images/"https://www.rss-specifications.com/rss-spec-rss.gif"
     twitter: "poteland"
     categories: "writing kauri"
     layout: post

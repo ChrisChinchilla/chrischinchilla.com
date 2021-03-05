@@ -15,7 +15,7 @@ video:
     source: YouTube
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-nvidia-jetson-with-amit-goel-301910   
-image: 347957-1609936869050-e0f578832a55c.jpg
+image: images/347957-1609936869050-e0f578832a55c.jpg
 permalink: /:categories/:title/
 ---
 This week, I speak with Amit Goel, Director of Product Management for Embedded AI Platforms at NVIDIA about the Jetson platform. I also cover the M1 (again), Discord, the Romans, and the Archers… &nbsp;xx Chinch

@@ -14,7 +14,7 @@ tags:
   - blockchain
   - agile
 publication_url: "https://dzone.com/articles/discovering-the-true-meaning-of-innovation-with-lo"
-image: 9553096.jpeg
+image: images/9553096.jpeg
 layout: post
 ---
 Check out what we can learn about creativity and innovation from some of the more unorthodox talks given at Login Festival.

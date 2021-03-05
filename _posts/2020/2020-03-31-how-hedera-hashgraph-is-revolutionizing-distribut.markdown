@@ -11,7 +11,7 @@ tags:
   - security
   - distributed ledger
 publication_url: "https://dzone.com/articles/-how-hedera-hashgraph-is-revolutionizing-distribut"
-image: 13183559.jpeg
+image: images/13183559.jpeg
 layout: post
 ---
 Many distributed ledgers claim to be better for performance and security. Chris Ward speaks with Hashgraph creator, Dr Leemon Baird, to see if the project holds up.

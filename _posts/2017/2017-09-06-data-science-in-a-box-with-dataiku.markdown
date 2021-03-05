@@ -10,7 +10,7 @@ tags:
   - r
   - big data
 publication_url: "https://dzone.com/articles/data-science-in-a-box-with-dataiku"
-image: 6491451.jpeg
+image: images/6491451.jpeg
 layout: post
 ---
 In this article, we explore a new application that makes it easy for devs to play the role of data scientist and interview a PM at the company.

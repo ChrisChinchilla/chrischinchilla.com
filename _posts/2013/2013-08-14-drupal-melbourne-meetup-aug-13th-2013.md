@@ -2,7 +2,7 @@
 layout: post
 title: 'Drupal Melbourne meetup, Aug 13th 2013'
 created: 1376441876
-image: drupalmel.png
+image: images/drupalmel.png
 categories: writing chrischinchilla
 ---
 

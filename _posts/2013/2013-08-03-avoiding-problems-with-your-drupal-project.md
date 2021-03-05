@@ -2,7 +2,7 @@
 layout: post
 title: Avoiding problems with your Drupal project
 created: 1375516463
-image: druplicon_sad.png
+image: images/druplicon_sad.png
 categories: writing chrischinchilla
 ---
 

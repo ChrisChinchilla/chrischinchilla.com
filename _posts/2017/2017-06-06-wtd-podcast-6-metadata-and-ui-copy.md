@@ -4,7 +4,7 @@ layout: podcast
 categories: media podcast
 title: WTD Episode 6 - Metadata and UI copy
 date: '2017-06-06 23:37:12 +0200'
-image: podcast/wtd-6.png
+image: images/podcast/wtd-6.png
 podcast_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/uGnDzVoJ2Lw" frameborder="0" allowfullscreen></iframe>
 ---
 

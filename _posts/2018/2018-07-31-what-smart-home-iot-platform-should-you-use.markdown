@@ -12,7 +12,7 @@ tags:
   - home assistant
   - raspberry pi
 publication_url: "https://dzone.com/articles/what-smart-home-iot-platform-should-you-use"
-image: 9870974.jpeg
+image: images/9870974.jpeg
 layout: post
 ---
 Wondering which IoT devices you need for your home? Check out this guide of the different types of IoT platforms to connect the devices in your home!

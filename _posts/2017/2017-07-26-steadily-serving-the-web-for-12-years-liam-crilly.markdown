@@ -10,7 +10,7 @@ tags:
   - devops
 publication_url: "https://dzone.com/articles/steadily-serving-the-web-for-12-years-liam-crilly"
 layout: post
-image: 6039129.jpeg
+image: images/6039129.jpeg
 ---
 Learn about the history and product range of the popular NGINX web server in this interview with its product management director, Liam Crilly.
 

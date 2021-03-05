@@ -2,7 +2,7 @@
 layout: post
 title: Smarter App Notifications With OpenBack
 date: '2017-04-28 11:13:30 +0100'
-image: mobile_sdk_2.jpg
+image: images/mobile_sdk_2.jpg
 categories: writing dzone
 tags: openback sdk app tutorial notifications
 publication_url: https://dzone.com/articles/smarter-app-notifications-with-openback

@@ -10,7 +10,7 @@ tags:
   - markdown
   - integration
 publication_url: "https://dzone.com/articles/docfx-the-next-documentation-tool-to-consider"
-image: 8417788.jpeg
+image: images/8417788.jpeg
 layout: post
 ---
 In this post, we take a look at a new version of Markdown, DocFX Flavored Markdown, and how it can be used to create documentation for REST APIs.

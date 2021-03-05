@@ -3,7 +3,7 @@ layout: post
 title: 'New Cards, the Berlin Computer Spiele Museum and representing Failure'
 categories: projects chipshop
 created: 2015-04-27T00:00:00.000Z
-image: image-new-cards-and-compuer-spiel-museum.jpg
+image: images/image-new-cards-and-compuer-spiel-museum.jpg
 tags: boardgames gamedesign
 ---
 

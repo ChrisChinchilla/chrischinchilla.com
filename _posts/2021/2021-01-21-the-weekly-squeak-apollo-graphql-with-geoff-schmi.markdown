@@ -14,7 +14,7 @@ podcast:
     podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/25506562/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-21%2F122ec89e-d431-6fee-cdc8-c87f62b1c4bb.mp3
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-apollo-graphql-with-geoff-schmidt-307960
-image: 347957-1611227594586-af64ff06714b7.jpg
+image: images/347957-1611227594586-af64ff06714b7.jpg
 permalink: /:categories/:title/
 ---
 This issue I speak with Geoff Schmidt of Apollo about their GraphQL offerings. I also cover general AI, decades old technology bets, is it wise to remove WhatsApp, and much more.

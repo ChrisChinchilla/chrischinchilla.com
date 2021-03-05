@@ -17,7 +17,7 @@ video:
 newsletter:
     source: revue
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-software-error-tracking-with-brian-rue-of-rollbar-296547 
-image: 347957-1606913649636-8b8df9a0595c3.jpg
+image: images/347957-1606913649636-8b8df9a0595c3.jpg
 permalink: /:categories/:title/
 ---
 This week I speak with Brian Rue of Rollbar, The Continuous Code Improvement Platform. No links… Because apparently, I didn't read anything…

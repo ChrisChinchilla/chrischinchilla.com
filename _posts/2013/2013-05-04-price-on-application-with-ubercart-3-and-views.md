@@ -2,7 +2,7 @@
 layout: post
 title: Price on Application with Ubercart 3 and Views
 created: 2013-05-04T00:00:00.000Z
-image: poa-4.PNG
+image: images/poa-4.PNG
 categories: writing chrischinchilla
 tags: drupal php
 ---

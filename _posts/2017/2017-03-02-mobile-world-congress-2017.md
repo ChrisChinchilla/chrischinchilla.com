@@ -2,7 +2,7 @@
 layout: post
 title: Mobile World Congress 2017
 date: '2017-03-02 18:13:30 +0100'
-image: mwc-2017.jpg
+image: images/mwc-2017.jpg
 categories: writing dzone
 tags: events conferences mobile iot MWC MWC2017
 publication_url: https://dzone.com/articles/mobile-world-congress-2017

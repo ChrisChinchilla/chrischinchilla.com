@@ -16,7 +16,7 @@ podcast:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-iot-trends-and-the-future-of-conferences-with-cate-lawrence-280433
     source: revue    
-image: 347957-1547538873594-eb7f678094d76.jpg
+image: images/347957-1547538873594-eb7f678094d76.jpg
 permalink: /:categories/:title/
 ---
 In this Weekly Squeak I have my old cohost back to discuss recent trends in IoT and her visit to IFA in Berlin, will the hybrid format be the future of conferences in the medium term?

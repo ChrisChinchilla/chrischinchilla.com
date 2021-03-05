@@ -15,7 +15,7 @@ podcast:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-automating-everything-with-linden-tibbets-of-ifttt-287690
     source: revue    
-image: 347957-1603902077142-ccf12394ee699.jpg
+image: images/347957-1603902077142-ccf12394ee699.jpg
 permalink: /:categories/:title/
 ---
 In this episode I speak with Linden Tibbets of IFTTT about the past, present, and future of their automation platform. I also look at the history of markdown, and legal frameworks for AI.

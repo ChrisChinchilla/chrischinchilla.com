@@ -2,7 +2,7 @@
 layout: post
 title: How to get started in computer science - A course roundup
 date: 2017-08-21
-image: coding-courses-resources.jpg
+image: images/coding-courses-resources.jpg
 categories: writing techbeacon
 tags: courses university mooc learning education coding
 publication_url: https://techbeacon.com/how-get-started-computer-science-course-roundup

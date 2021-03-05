@@ -15,7 +15,7 @@ podcast:
     source: anchor
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-ukrainian-startup-scene-with-stepan-veselovskyi-305954
-image: 347957-1610552801045-07d8dc558db29.jpg
+image: images/347957-1610552801045-07d8dc558db29.jpg
 permalink: /:categories/:title/
 ---
 I speak with Stepan Veselovskyi, the CEO at Lviv IT Cluster about what's been happening in the Ukraine tech and startup scene since my last visit. I also cover JetBrains, Google, WhatsApp, and… The Amiga.

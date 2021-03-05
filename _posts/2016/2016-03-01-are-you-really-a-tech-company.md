@@ -2,7 +2,7 @@
 title: Are you really a tech company?
 created: 2016-03-01T00:00:00.000Z
 publication_url: https://medium.com/@ChrisChinchilla/are-you-really-a-tech-company-63e7b4ed54d4#.x547tw4zr
-image: image-are-you-really-a-tech-company.jpg
+image: images/image-are-you-really-a-tech-company.jpg
 categories: writing theweeklysqueak
 tags: tech events meetups startups
 ---

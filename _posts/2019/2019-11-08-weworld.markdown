@@ -8,7 +8,7 @@ podcast: "The Weekly Squeak"
 tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/WeWorld-e8sqf3
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/8333219/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-10-8%2F33349128-44100-2-a46bb97085bf1.m4a
-image: 347957-1573212789562-62c829080e838.jpg
+image: images/347957-1573212789562-62c829080e838.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

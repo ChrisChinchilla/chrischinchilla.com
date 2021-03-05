@@ -11,7 +11,7 @@ tags:
   - containers
   - devops
 layout: podcast
-image: nX2Jgff7wUpYiojqqs5tmcdIRjPX8CFw.jpg
+image: images/nX2Jgff7wUpYiojqqs5tmcdIRjPX8CFw.jpg
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Red-Hat-acquires-CoreOS--an-interview-with-Brian-Gracely-e14p5p" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---
 Chris speaks with Brian Gracely, director, OpenShift product strategy about the container space more generally and how the acquisition might fit into it.

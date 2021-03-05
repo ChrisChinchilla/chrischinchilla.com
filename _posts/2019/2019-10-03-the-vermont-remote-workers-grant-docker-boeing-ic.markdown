@@ -9,7 +9,7 @@ tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/The-Vermont-Remote-Workers-Grant--Docker--Boeing--ICE-and-Thomas-Jefferson-e5rdq0
 layout: podcast
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/5141760/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-9-3%2F25922551-44100-2-7ad2d6460481b.m4a
-image: 347957-1547538873594-eb7f678094d76.jpg
+image: images/347957-1547538873594-eb7f678094d76.jpg
 transcript: true
 ---
 

@@ -15,7 +15,7 @@ podcast:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-contentful-with-paolo-negri-275506
     source: revue      
-image: 347957-1599660284860-9c2a778ba4212.jpg
+image: images/347957-1599660284860-9c2a778ba4212.jpg
 permalink: /:categories/:title/
 ---
 In this episode I speak with Paolo Negri about their API-first content platform. Also features the story of Bullfrog, history books for roleplayers, judging an open source project, and more.

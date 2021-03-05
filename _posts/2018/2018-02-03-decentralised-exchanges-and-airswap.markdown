@@ -9,7 +9,7 @@ tags:
   - security
   - decentralized exchange
 layout: podcast
-image: 0RrYDVE1wd5GkEzRpGJw0B0pxNf9KP1F.jpg
+image: images/0RrYDVE1wd5GkEzRpGJw0B0pxNf9KP1F.jpg
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Decentralised-exchanges-and-AirSwap-e14p5r" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Chip Shops first Video blog
 created: 1426441069
-image: image-chip-shops-first-video.jpg
+image: images/image-chip-shops-first-video.jpg
 categories: projects chipshop
 ---
 

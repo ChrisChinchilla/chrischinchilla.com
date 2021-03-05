@@ -7,7 +7,7 @@ categories: video
 tags: 
 orig_url: https://www.youtube.com/watch?v=YwG6-Xamelk
 video_embed: YwG6-Xamelk
-image: 
+image:
 permalink: /:categories/:title/
 source: YouTube
 ---

@@ -13,7 +13,7 @@ tags:
   - hyperledger
   - apache
 publication_url: "https://dzone.com/articles/what-can-software-foundations-bring-to-your-projec"
-image: 9356503.jpeg
+image: images/9356503.jpeg
 layout: post
 ---
 Find out the important roles that software foundations play in providing longevity and structural support for open source projects.

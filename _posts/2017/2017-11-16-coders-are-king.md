@@ -5,7 +5,7 @@ categories:  media podcast
 title: Coders are King
 date: "2017-11-16 14:16"
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Are-Coders-King-e14p69/a-a2io9b" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-image: king-chinchilla.png
+image: images/king-chinchilla.png
 tags:
   - Developers
   - Best Practices

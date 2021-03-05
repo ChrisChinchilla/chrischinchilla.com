@@ -8,7 +8,7 @@ podcast: "The Weekly Squeak"
 tags:
 orig_url: https://anchor.fm/theweeklysqueak/episodes/The-Apache-Software-Foundation--UNIX-at-50-and-the-story-of-a-floating-hotel-e8fplu
 podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/7906430/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-9-31%2F31885160-44100-2-f05c1e59e11ac.m4a
-image: 347957-1572519694063-4dfd3a3f4a19b.jpg
+image: images/347957-1572519694063-4dfd3a3f4a19b.jpg
 permalink: /:categories/:title/
 transcript: true
 ---

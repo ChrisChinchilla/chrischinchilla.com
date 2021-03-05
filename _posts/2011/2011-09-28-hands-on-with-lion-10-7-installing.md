@@ -2,7 +2,7 @@
 layout: post
 title: 'Hands on with Lion, 10.7 - Installing'
 created: 2011-09-28T00:00:00.000Z
-image: lion.png
+image: images/lion.png
 categories: writing chrischinchilla
 tags: apple reviews
 ---

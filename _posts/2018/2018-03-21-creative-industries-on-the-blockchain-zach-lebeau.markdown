@@ -10,7 +10,7 @@ tags:
   - Distribution
   - SXSW
 layout: post
-image: 347957-1521452863967-e38d511cb5466.jpg
+image: images/347957-1521452863967-e38d511cb5466.jpg
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Creative-Industries-on-the-Blockchain---Zach-LeBeau-of-SingularDTV-e175or" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---
 

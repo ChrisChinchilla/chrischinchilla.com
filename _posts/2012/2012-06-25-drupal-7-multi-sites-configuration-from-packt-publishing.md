@@ -2,7 +2,7 @@
 layout: post
 title: Drupal 7 Multi-sites configuration - Matt Butcher
 created: 1340623057
-image: drupal7multisite.png
+image: images/drupal7multisite.png
 ---
 
 <a href="https://www.packtpub.com/news/new-drupal-mini-books" target="_blank">Part of Packt publishing's new _Mini Drupal series_</a>

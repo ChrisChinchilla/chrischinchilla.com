@@ -10,7 +10,7 @@ tags:
   - bot development
   - machine learning
 publication_url: "https://dzone.com/articles/a-writers-guide-to-conversational-interfaces"
-image: 7164056.jpeg
+image: images/7164056.jpeg
 layout: post
 ---
 Design for people, but write for ears. Get this and more wisdom in this short writer's guide to creating conversational interfaces that use AI to communicate.

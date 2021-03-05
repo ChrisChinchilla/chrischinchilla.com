@@ -5,7 +5,7 @@ categories:  media podcast
 title: "The Ethics of Tech"
 date: "2017-10-10 14:16"
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/The-Ethics-of-Tech-e14p6e" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-image: 1010-podcast.jpg
+image: images/1010-podcast.jpg
 tags:
   - Ethics
   - Tech

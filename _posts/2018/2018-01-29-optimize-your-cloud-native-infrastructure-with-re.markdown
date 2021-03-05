@@ -14,7 +14,7 @@ tags:
   - data center
   - optimization
 layout: podcast
-image: jhZL97lpARmvASt40kjFhBUCymcjfVtx.jpg
+image: images/jhZL97lpARmvASt40kjFhBUCymcjfVtx.jpg
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/Optimize-your-cloud-native-infrastructure-with-Replex-io-e14p5t" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---
 

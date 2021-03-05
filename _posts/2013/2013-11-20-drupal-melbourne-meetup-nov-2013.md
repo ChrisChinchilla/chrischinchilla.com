@@ -2,7 +2,7 @@
 layout: post
 title: Drupal Melbourne Meetup Nov 2013
 created: 1384940812
-image: druplicon.large_.png
+image: images/druplicon.large_.png
 categories: writing chrischinchilla
 ---
 

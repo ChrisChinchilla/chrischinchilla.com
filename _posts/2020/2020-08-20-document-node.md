@@ -9,7 +9,7 @@ video:
     orig_url: https://www.youtube.com/watch?v=deAR-P62GBY
     video_embed: deAR-P62GBY
     source: YouTube
-image: 
+image:
 permalink: /:categories/:title/
 ---
 

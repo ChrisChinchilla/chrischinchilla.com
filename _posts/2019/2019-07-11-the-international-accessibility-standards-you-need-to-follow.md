@@ -2,7 +2,7 @@
 layout: post
 title: The International Accessibility Standards You Need to Follow
 date: 2019-07-11T12:44:33.827Z
-image: tb_870x22043dccabe89e4489095165891b587bb6b.png
+image: images/tb_870x22043dccabe89e4489095165891b587bb6b.png
 categories: writing telerik
 tags: accessibility web
 publication_url: https://www.telerik.com/blogs/the-international-accessibility-standards-you-need-to-follow

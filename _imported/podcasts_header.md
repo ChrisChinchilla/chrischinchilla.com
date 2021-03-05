@@ -8,6 +8,6 @@ podcast: "{{ blog_podcast }}"
 tags: {{ blog_tags }}
 orig_url: {{ post_url }}
 podcast_embed: {{ post_podcast_embed }}
-image: {{ image }}
+image: images//{{ image }}
 permalink: /:categories/:title/
 ---

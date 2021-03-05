@@ -15,7 +15,7 @@ video:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-scaling-mysql-with-planet-scale-278924
     source: revue
-image: 347957-1600864777128-2aa90b5c95656.jpg
+image: images/347957-1600864777128-2aa90b5c95656.jpg
 permalink: /:categories/:title/
 
 ---

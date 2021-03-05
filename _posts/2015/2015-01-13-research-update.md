@@ -2,7 +2,7 @@
 layout: post
 title: Research Update
 created: 1421138317
-image: videogamesinthebeginning.jpg
+image: images/videogamesinthebeginning.jpg
 categories: projects chipshop
 ---
 

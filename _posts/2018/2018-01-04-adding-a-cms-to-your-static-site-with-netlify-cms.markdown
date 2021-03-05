@@ -10,7 +10,7 @@ tags:
   - git
   - web dev
 publication_url: "https://dzone.com/articles/adding-a-cms-to-your-static-site-with-netlify-cms"
-image: 7725432.jpeg
+image: images/7725432.jpeg
 layout: post
 ---
 If you're looking for a developer-friendly CMS platform for creating static sites, check out this article on a CMS with a growing community of devs.

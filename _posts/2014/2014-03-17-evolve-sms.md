@@ -2,7 +2,7 @@
 layout: post
 title: Evolve SMS
 created: 1395034974
-image: evolve.png
+image: images/evolve.png
 categories: writing chrischinchilla
 ---
 

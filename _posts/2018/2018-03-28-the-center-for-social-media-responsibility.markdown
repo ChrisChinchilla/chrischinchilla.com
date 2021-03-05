@@ -8,7 +8,7 @@ tags:
  - Ethics
  - Tech Ethics
 layout: post
-image: 347957-1520002121219-9ca18c24c6ac.jpg
+image: images/347957-1520002121219-9ca18c24c6ac.jpg
 podcast_embed: <iframe src="https://anchor.fm/gregarious-mammal/embed/episodes/The-Center-for-Social-Media-Responsibility-e17n5g" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 ---
 

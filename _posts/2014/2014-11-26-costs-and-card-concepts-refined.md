@@ -2,7 +2,7 @@
 layout: post
 title: Costs and Card concepts Refined
 created: 2014-11-26T00:00:00.000Z
-image: card_piles.gif
+image: images/card_piles.gif
 categories: projects chipshop
 tags: gamedesign
 ---

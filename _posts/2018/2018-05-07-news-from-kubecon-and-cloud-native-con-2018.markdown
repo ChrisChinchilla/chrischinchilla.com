@@ -14,7 +14,7 @@ tags:
   - kubecon
   - cloud native con
 publication_url: "https://dzone.com/articles/news-from-kubecon-and-cloud-native-con-2018"
-image: 9028266.jpeg
+image: images/9028266.jpeg
 layout: post
 ---
 Straight from KubeCon and Cloud Native Con 2018, here are some of the most exciting announcements from Microsoft, Cloud 66, Bitnami, and others.

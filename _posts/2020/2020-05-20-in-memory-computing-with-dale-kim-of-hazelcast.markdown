@@ -12,7 +12,7 @@ podcast:
 newsletter:
     orig_url: https://www.getrevue.co/profile/gregariousmammal/issues/the-weekly-squeak-in-memory-computing-with-dale-kim-of-hazelcast-248832
     source: revue    
-image: 347957-1589899153960-f2a5cacbd6c42.jpg
+image: images/347957-1589899153960-f2a5cacbd6c42.jpg
 permalink: /:categories/:title/
 ---
 This week I speak about in-memory computing with Dale Kim of Hazelcast. I also look at the changing world of in-person trade shows, offices, and restaurants.

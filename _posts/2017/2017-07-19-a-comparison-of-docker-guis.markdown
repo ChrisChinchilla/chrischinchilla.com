@@ -9,7 +9,7 @@ tags:
   - gui
 publication_url: "https://dzone.com/articles/a-comparison-of-docker-guis"
 layout: post
-image: 5965129.jpeg
+image: images/5965129.jpeg
 ---
 These graphical user interfaces give you a bunch of different and useful ways to interact with Docker. Read on to learn what each one can do.
 

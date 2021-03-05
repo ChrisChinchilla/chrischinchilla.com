@@ -2,7 +2,7 @@
 layout: post
 title: 'Add your suggestions to "What Came Next"'
 created: 1427019183
-image: image-what-came-next.jpg
+image: images/image-what-came-next.jpg
 categories: projects odtwe
 ---
 

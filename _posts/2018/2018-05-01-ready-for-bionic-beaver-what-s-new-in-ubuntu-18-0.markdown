@@ -14,7 +14,7 @@ tags:
   - cloud
   - devops
 publication_url: "https://dzone.com/articles/ready-for-bionic-beaver-whats-new-in-ubuntu-1804"
-image: 8983114.jpeg
+image: images/8983114.jpeg
 layout: post
 ---
 This week brought the release of the latest version of Ubuntu - 18.04 - so read up on the details about the newest LTS release.
