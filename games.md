@@ -9,6 +9,8 @@ permalink: /writing/games/index.html
 
 In my spare time I work on roleplay game supplements, interactive fiction, card games and board games. I have a lot of small projects in progress, not all of which are ready for public consumption yet.
 
+If you want to hire me to edit your manual or rule book, [let me know](mailto:chris@chrischinchilla.com)!
+
 ## Expedition roleplaying card game quests
 
 I have so far created two quests for the [Expedition roleplaying card game](https://expeditiongame.com) as part of [their regular writing competitions](https://expeditiongame.com/writing-contests).
@@ -37,4 +39,8 @@ I helped proofread and edit [this supplement](https://mottokrosh.com/machination
 
 ## Humanity in Flames: 3286
 
-I helped proofread and edit the manual of this tactical minatures game slated for release later in 2020.
+I helped proofread and edit the manual of this tactical miniatures game slated for release later in 2020.
+
+## Wicked Ones
+
+[Wicked Ones](https://banditcamp.io) is a Forged in the Dark tabletop RPG where you play fantasy monsters raiding human lands, hoarding the gold you loot, and building a dungeon to protect it. I helped proofread the final draft.
