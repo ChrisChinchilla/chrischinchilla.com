@@ -7,4 +7,4 @@ I am a technical communicator with a love of explaining technical concepts in do
 
 I am also a podcaster, video maker, writer of interactive fiction, and games. This website is a home for all my blog posts, podcasts, newsletters and creative projects.
 
-**Need advice for your documentation project?** [Sign up for my office hours](https://doodle.com/mm/chrisward976/docs-surgery).
+**Need advice for your documentation project?** [Sign up for my office hours](http://bit.ly/ddofficehours).
