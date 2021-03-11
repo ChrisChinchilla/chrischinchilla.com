@@ -3,7 +3,7 @@ type: merchandise
 layout: merchandise
 title: Trump Chinchilla
 date: 2016-11-28T00:00:00.000Z
-image: images//podcast/trump-chinchilla.png
+image: images/podcast/trump-chinchilla.png
 store_links:
  - store: Red Bubble
    link: https://www.redbubble.com/people/chrischinchilla/works/24064211-trump-chinchilla

@@ -3,7 +3,7 @@ type: merchandise
 layout: merchandise
 title: It Depends
 date: 2016-09-07T00:00:00.000Z
-image: images//merchandise/it-depends.png
+image: images/merchandise/it-depends.png
 store_links:
   - store: Threadless
     link: https://chrischinchilla.threadless.com/designs/a-developers-answer-to-everything

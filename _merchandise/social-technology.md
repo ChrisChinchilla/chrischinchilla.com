@@ -3,7 +3,7 @@ type: merchandise
 layout: merchandise
 title: Social Technology
 date: 2016-05-08T00:00:00.000Z
-image: images//merchandise/social-technology.jpg
+image: images/merchandise/social-technology.jpg
 store_links:
   - store: Red Bubble
     link: https://www.redbubble.com/people/chrischinchilla/works/21385229-gregarious-mammal-social-technology

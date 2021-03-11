@@ -3,7 +3,7 @@ type: merchandise
 layout: merchandise
 title: Christmas Chinchilla
 date: 2016-12-11T00:00:00.000Z
-image: images//merchandise/christmas-chinchilla.png
+image: images/merchandise/christmas-chinchilla.png
 store_links:
  - store: Red Bubble
    link: https://www.redbubble.com/people/chrischinchilla/works/24284450-christmas-chinchilla
