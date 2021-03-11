@@ -189,7 +189,7 @@
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
+      "has_image": "0",
       "word_count": "3988",
       "lang": "en",
       "time_to_read": 18,
@@ -1656,5 +1656,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1615215324
+  "since": 1615452974
 }
