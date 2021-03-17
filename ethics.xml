@@ -28,7 +28,7 @@ layout: none
   {% endif %}
 
   {% if site.description %}
-    <subtitle>Occasional ethics related stories I notice across the internet</subtitle>
+    <subtitle>Occasional ethics in tech related stories I notice across the internet</subtitle>
   {% endif %}
 
   {% if site.author %}
@@ -52,13 +52,14 @@ layout: none
 
       <title>{{ post[1].resolved_title | xml_escape }} from {{post[1].domain_metadata.name}}</title>
       
-      <link>{{ post[1].resolved_url }}</link>
+      <link href="{{ post[1].resolved_url | prepend: site.baseurl }}" rel="alternate" type="text/html" title="{{ post[1].resolved_title | xml_escape }}" />
 
+            <published>{{ post[1].time_added | date_to_xmlschema }}</published>
+                  <updated>{{ post[1].last_modified_at | default: post[1].time_added | date_to_xmlschema }}</updated>
 
-      <pubDate>{{ post[1].time_added | date: "%Y-%m-%dT%H:%M:%SZ" }}</pubDate>
-      <guid>urn:uuid:{{post[1].item_id}}</guid>
-      <description>{{ post[1].excerpt | markdownify }}</description>
+      <id>{{ post[1].item_id | absolute_url | xml_escape }}</id>
 
+        <content type="html" xml:base="{{ post[1].resolved_url | absolute_url | xml_escape }}">{{ post[1].excerpt | strip | xml_escape }}</content>
 
       <!-- {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
       {% assign post_author = site.data.authors[post_author] | default: post_author %}
