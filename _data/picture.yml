@@ -1,13 +1,21 @@
 markup_presets:
+  home:
+    ppi: [1, 2]
+    widths: [600]
+    attr:
+      class: listings
   listings:
+    ppi: [1, 2]
     widths: [280]
     attr:
       class: listings
   icon:
+    ppi: [1, 2]
     widths: [45]
     attr:
       class: small-screen
   merch:
+    ppi: [1, 2]  
     widths: [120]
     attr:
       class: small-screen

@@ -452,7 +452,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1672",
+      "word_count": "1675",
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.nytimes.com/2020/04/07/smarter-living/how-to-edit-your-own-writing.amp.html",
@@ -462,7 +462,7 @@
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/nytimes.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 647
+      "listen_duration_estimate": 648
     },
     "2946411799": {
       "item_id": "2946411799",
@@ -483,7 +483,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1672",
+      "word_count": "1675",
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.nytimes.com/2020/04/07/smarter-living/how-to-edit-your-own-writing.amp.html",
@@ -493,7 +493,7 @@
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/nytimes.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 647
+      "listen_duration_estimate": 648
     },
     "2935251471": {
       "item_id": "2935251471",
@@ -1656,5 +1656,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1615478696
+  "since": 1615957601
 }

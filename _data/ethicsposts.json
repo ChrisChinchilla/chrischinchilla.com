@@ -178,7 +178,7 @@
       "lang": "en",
       "time_to_read": 5,
       "amp_url": "https://www.zdnet.com/google-amp/article/weird-new-things-are-happening-in-software-says-stanford-ai-professor-chris-re/",
-      "top_image_url": "https://zdnet4.cbsistatic.com/hub/i/r/2021/01/06/eb2fc006-aaf3-4dff-818b-e7c4a6cea574/thumbnail/770x578/c4d275352ca9ea5ef6d23f12d1059d69/brain-ai.jpg",
+      "top_image_url": "https://www.zdnet.com/a/hub/i/r/2021/01/06/eb2fc006-aaf3-4dff-818b-e7c4a6cea574/thumbnail/770x578/c4d275352ca9ea5ef6d23f12d1059d69/brain-ai.jpg",
       "domain_metadata": {
         "name": "ZDNet",
         "logo": "https://logo.clearbit.com/zdnet.com?size=800",
@@ -266,7 +266,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "4220",
+      "word_count": "4208",
       "lang": "en",
       "time_to_read": 19,
       "amp_url": "https://www.technologyreview.com/2020/10/15/1010461/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/amp/",
@@ -276,7 +276,7 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1634
+      "listen_duration_estimate": 1629
     },
     "3219716398": {
       "item_id": "3219716398",
@@ -2208,5 +2208,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1615478694
+  "since": 1615957599
 }
