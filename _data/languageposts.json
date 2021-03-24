@@ -21,7 +21,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1137",
+      "word_count": "1136",
       "lang": "en",
       "time_to_read": 5,
       "amp_url": "https://www.technologyreview.com/2021/02/24/1017797/gpt3-best-worst-ai-openai-natural-language/amp/",
@@ -969,7 +969,7 @@
       "time_favorited": "0",
       "sort_id": 33,
       "resolved_title": "Understanding LSTM Networks",
-      "resolved_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "resolved_url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/",
       "excerpt": "Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.",
       "is_article": "1",
       "is_index": "0",
@@ -1156,12 +1156,12 @@
       "sort_id": 40,
       "resolved_title": "The most important tech boom designers are ignoring",
       "resolved_url": "https://www.fastcompany.com/90338390/the-most-important-tech-boom-designers-are-ignoring",
-      "excerpt": "Voice assistants are a part of everyday life, and they’re here to stay. Juniper Research recently released a report predicting that by 2023 there will be 8 billion digital voice assistants in use, tripling the estimated 2.5 billion voice assistants in use at the end of 2018.",
+      "excerpt": "There will be 8 billion voice assistants by 2023. Adobe’s director of product shares four tips for getting your foot in the door as a voice UI designer. 7 minute ReadVoice assistants are a part of everyday life, and they’re here to stay.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1549",
+      "word_count": "1575",
       "lang": "en",
       "time_to_read": 7,
       "top_image_url": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2019/04/p-1-90338390-the-most-important-tech-boom-designers-are-ignoring.jpg",
@@ -1170,7 +1170,7 @@
         "logo": "https://logo.clearbit.com/fastcompany.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/fastcompany.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 600
+      "listen_duration_estimate": 610
     },
     "2564340577": {
       "item_id": "2564340577",
@@ -1656,5 +1656,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1615957601
+  "since": 1616582972
 }
