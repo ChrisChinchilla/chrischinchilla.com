@@ -1,4 +1,4 @@
-markup_presets:
+presets:
   home:
     ppi: [1, 2]
     widths: [600]
