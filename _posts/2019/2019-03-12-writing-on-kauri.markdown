@@ -7,7 +7,6 @@ tags:
   - help
   - kauri
 publication_url: "https://dev2.kauri.io/article/cc1cefd3523b4faeafc700a44698e43d"
-image: images/d6HWSkr.gif
 layout: post
 ---
 Welcome to Kauri, we're excited to help you share your knowledge across the world via the Ethereum ecosystem.

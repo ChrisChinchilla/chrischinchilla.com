@@ -8,7 +8,6 @@ tags:
   - reading
   - share
 publication_url: "https://dev2.kauri.io/article/1c08250d4c4f4c4eb84d5c064541fd3c"
-image: images/Qma5XCazWombuQ6hbPHp2PYmF9bygjnFbUvViZYhjXVp1w.gif
 layout: post
 ---
 
