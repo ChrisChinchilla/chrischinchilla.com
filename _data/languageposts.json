@@ -9,8 +9,8 @@
       "given_title": "",
       "favorite": "0",
       "status": "0",
-      "time_added": "1617114127",
-      "time_updated": "1617259972",
+      "time_added": "1617948644",
+      "time_updated": "1617948644",
       "time_read": "0",
       "time_favorited": "0",
       "sort_id": 0,
@@ -484,7 +484,7 @@
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.nytimes.com/2020/04/07/smarter-living/how-to-edit-your-own-writing.amp.html",
-      "top_image_url": "https://static01.nyt.com/images/2020/04/03/smarter-living/00sl-writing-edit/00sl-writing-edit-facebookJumbo.jpg",
+      "top_image_url": "https://static01.nyt.com/images/2020/04/03/smarter-living/00sl-writing-edit/00sl-writing-edit-facebookJumbo.jpg?year=2020&h=550&w=1050&sig=0x1272097e10422109d86344c84f71f21b",
       "domain_metadata": {
         "name": "The New York Times",
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
@@ -515,7 +515,7 @@
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.nytimes.com/2020/04/07/smarter-living/how-to-edit-your-own-writing.amp.html",
-      "top_image_url": "https://static01.nyt.com/images/2020/04/03/smarter-living/00sl-writing-edit/00sl-writing-edit-facebookJumbo.jpg",
+      "top_image_url": "https://static01.nyt.com/images/2020/04/03/smarter-living/00sl-writing-edit/00sl-writing-edit-facebookJumbo.jpg?year=2020&h=550&w=1050&sig=0x1272097e10422109d86344c84f71f21b",
       "domain_metadata": {
         "name": "The New York Times",
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
@@ -1684,5 +1684,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1617872306
+  "since": 1618002558
 }
