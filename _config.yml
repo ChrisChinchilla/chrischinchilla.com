@@ -108,7 +108,7 @@ toc:
     - title: Ethics
       url: newsletters#ethics
     - title: Language
-      url: newsletters#language      
+      url: newsletters#language
   - title: Support
     url: /support
 
@@ -122,6 +122,9 @@ collections:
   merchandise:
     output: true
     layout: merchandise
+  games:
+    output: true
+    layout: game
 
 picture:
   output: generated

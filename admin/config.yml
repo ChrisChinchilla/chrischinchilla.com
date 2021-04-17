@@ -8,6 +8,14 @@ media_folder: "images" # Media files will be stored in the repo under images/upl
 public_folder: "/images" # The src attribute for uploaded media will begin with /images
 
 collections:
+  - name: "games"
+    label: "Games"
+    folder: "_games"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "posts" # Used in routes, e.g. /admin/collections/blog
     label: "Posts" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
