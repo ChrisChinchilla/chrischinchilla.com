@@ -15,6 +15,7 @@ image: images/chris-video.jpeg
 <li>My <a href="https://www.twitch.tv/handsonwith">hands on with cool developer projects livestream on Twitch</a></li>
 <li>My <a href="https://www.twitch.tv/chrischinchilla">documentation and developer experience livestreams</a> (including office hours) on Twitch</li>
 <li>My solo gaming livestream, <a href="https://twitch.tv/thesoloadventurer">The solo adventurer on Twitch</a></li>
+<li>My Developer experience livestream with Ian Jennings on <a href="https://www.youtube.com/channel/UCPJW5m4LZ6PXSgd3ufrhOdg">YouTube</a></li>
 <li>All livestreams on <a href="https://www.youtube.com/channel/UCgnrx8qi4qhmN6sBebdDrmg">YouTube</a></li>
 <li>All livestreams on <a href="https://www.facebook.com/chrischinchilla/">Facebook</a></li>
 </ul>
