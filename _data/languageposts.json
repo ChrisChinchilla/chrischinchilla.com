@@ -160,12 +160,12 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "0",
-      "word_count": "3988",
+      "word_count": "3985",
       "lang": "en",
       "time_to_read": 18,
       "amp_url": "https://psyche.co/amp/guides/how-to-create-and-interpret-characters-in-fiction-and-film",
       "top_image_url": "https://omicron.psyche.co/images/9748f7b1-175c-4422-9f15-e9150c167112/1500x1500.jpg",
-      "listen_duration_estimate": 1544
+      "listen_duration_estimate": 1543
     },
     "3227510256": {
       "item_id": "3227510256",
@@ -1408,20 +1408,20 @@
       "resolved_title": "Conversations with Robots: Voice, Smart Agents & the Case for Structured Content",
       "resolved_url": "https://alistapart.com/article/conversations-with-robots/",
       "excerpt": "In late 2016, Gartner predicted that 30 percent of web browsing sessions would be done without a screen by 2020. Earlier the same year, Comscore had predicted that half of all searches would be voice searches by 2020.",
-      "is_article": "0",
+      "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2813",
+      "word_count": "2773",
       "lang": "en",
       "time_to_read": 13,
-      "top_image_url": "https://alistapart.com/wp-content/uploads/2019/01/voice-agents.jpg",
+      "top_image_url": "https://alistapart.com/wp-content/uploads/2019/01/voice-agents.jpg?fit=1920%2C1101",
       "domain_metadata": {
         "name": "A List Apart",
         "logo": "https://logo.clearbit.com/alistapart.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/alistapart.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1089
+      "listen_duration_estimate": 1073
     },
     "2040505478": {
       "item_id": "2040505478",
@@ -1626,5 +1626,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1618654171
+  "since": 1619080639
 }
