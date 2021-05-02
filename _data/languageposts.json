@@ -400,7 +400,7 @@
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.nytimes.com/2020/04/07/smarter-living/how-to-edit-your-own-writing.amp.html",
-      "top_image_url": "https://static01.nyt.com/images/2020/04/03/smarter-living/00sl-writing-edit/00sl-writing-edit-facebookJumbo.jpg?year=2020&h=550&w=1050&sig=0x1272097e10422109d86344c84f71f21b",
+      "top_image_url": "https://static01.nyt.com/images/2020/04/03/smarter-living/00sl-writing-edit/00sl-writing-edit-facebookJumbo.jpg?year=2020&h=550&w=1050&s=f187ceea412d5d554962b979aceda1acfe7c21e214504af2bf3c339b8fdf9c16&k=ZQJBKqZ0VN",
       "domain_metadata": {
         "name": "The New York Times",
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
@@ -431,7 +431,7 @@
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.nytimes.com/2020/04/07/smarter-living/how-to-edit-your-own-writing.amp.html",
-      "top_image_url": "https://static01.nyt.com/images/2020/04/03/smarter-living/00sl-writing-edit/00sl-writing-edit-facebookJumbo.jpg?year=2020&h=550&w=1050&sig=0x1272097e10422109d86344c84f71f21b",
+      "top_image_url": "https://static01.nyt.com/images/2020/04/03/smarter-living/00sl-writing-edit/00sl-writing-edit-facebookJumbo.jpg?year=2020&h=550&w=1050&s=f187ceea412d5d554962b979aceda1acfe7c21e214504af2bf3c339b8fdf9c16&k=ZQJBKqZ0VN",
       "domain_metadata": {
         "name": "The New York Times",
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
@@ -1078,7 +1078,7 @@
       "lang": "en",
       "time_to_read": 19,
       "amp_url": "https://www.nytimes.com/2014/11/23/magazine/twine-the-video-game-technology-for-all.amp.html",
-      "top_image_url": "https://static01.nyt.com/images/2014/11/23/magazine/23twine1/23twine1-articleLarge-v7.jpg?year=2014&h=400&w=600&sig=0xd22e8c0fb9e4422f030e73268868c97c",
+      "top_image_url": "https://static01.nyt.com/images/2014/11/23/magazine/23twine1/23twine1-articleLarge-v7.jpg?year=2014&h=400&w=600&s=d134ced9f7173f8eb54ed5e7d6e3926fa8db45243423cbccfb165f44c6f66718&k=ZQJBKqZ0VN&tw=1",
       "domain_metadata": {
         "name": "The New York Times",
         "logo": "https://logo.clearbit.com/nytimes.com?size=800",
@@ -1600,5 +1600,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1619601606
+  "since": 1619961507
 }
