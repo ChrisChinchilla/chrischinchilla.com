@@ -39,10 +39,10 @@
       "given_url": "https://getpocket.com/explore/item/i-wrote-the-book-on-user-friendly-design-what-i-see-today-horrifies-me?utm_source=pocket-newtab-global-en-GB&fbclid=IwAR3BuEsqBph9zPCwi5BkeHL-gNrcyPmqd7sEWlqS5foHe5TLXgAKNnG8HJ4",
       "given_title": "",
       "favorite": "1",
-      "status": "0",
+      "status": "1",
       "time_added": "1620316684",
-      "time_updated": "1620363908",
-      "time_read": "0",
+      "time_updated": "1620662506",
+      "time_read": "1620662504",
       "time_favorited": "1620363896",
       "sort_id": 1,
       "resolved_title": "I Wrote the Book on User-Friendly Design. What I See Today Horrifies Me",
@@ -513,7 +513,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2410",
+      "word_count": "2432",
       "lang": "en",
       "time_to_read": 11,
       "amp_url": "https://www.technologyreview.com/2020/12/04/1013068/algorithms-create-a-poverty-trap-lawyers-fight-back/amp/",
@@ -523,7 +523,7 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 933
+      "listen_duration_estimate": 941
     },
     "3177270857": {
       "item_id": "3177270857",
@@ -2393,5 +2393,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1620635763
+  "since": 1620820771
 }
