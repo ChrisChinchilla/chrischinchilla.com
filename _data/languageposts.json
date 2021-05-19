@@ -1218,11 +1218,11 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1314",
+      "word_count": "1236",
       "lang": "en",
       "time_to_read": 6,
       "top_image_url": "http://clagnut.com/images/1-handj-bible-hyphens.jpg",
-      "listen_duration_estimate": 509
+      "listen_duration_estimate": 478
     },
     "2524998007": {
       "item_id": "2524998007",
@@ -1562,7 +1562,7 @@
       "is_index": "1",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "694",
+      "word_count": "697",
       "lang": "en",
       "time_to_read": 3,
       "domain_metadata": {
@@ -1570,7 +1570,7 @@
         "logo": "https://logo.clearbit.com/wikipedia.org?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wikipedia.org?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 269
+      "listen_duration_estimate": 270
     },
     "2276309607": {
       "item_id": "2276309607",
@@ -1600,5 +1600,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1620820773
+  "since": 1621425877
 }
