@@ -1,5 +1,5 @@
 ---
-title: "Chinchilla Squeaks - Building and sharing data with Sammy Kauser or Streamlit"
+title: "Chinchilla Squeaks - Building and sharing data with Streamlit"
 layout: video
 created_at: 2021-05-08 05:07:38 UTC
 author: ""
