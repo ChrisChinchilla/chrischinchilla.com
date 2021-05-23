@@ -7,7 +7,7 @@ video:
 blogs:
   # Bare minimum to get it working
   - feed: "https://www.youtube.com/feeds/videos.xml?channel_id=UCgnrx8qi4qhmN6sBebdDrmg"
-    image: images/"https://www.rss-specifications.com/rss-spec-rss.gif"
+    image: 
     twitter: "poteland"
     categories: "video"
     podcast: "X"
@@ -16,7 +16,7 @@ blogs:
     layout: video
     source: ""
   - feed: "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6rgokpsEmrzZ_iO7P9aQg"
-    image: images/"https://www.rss-specifications.com/rss-spec-rss.gif"
+    image: 
     twitter: "poteland"
     categories: "video"
     podcast: "X"
