@@ -45,7 +45,7 @@
       "time_favorited": "1620366647",
       "sort_id": 1,
       "resolved_title": "It Began as an AI-Fueled Dungeon Game. It Got Much Darker",
-      "resolved_url": "https://www.wired.com/story/ai-fueled-dungeon-game-got-much-darker/",
+      "resolved_url": "https://www.wired.com/story/ai-fueled-dungeon-game-got-much-darker",
       "excerpt": "In December 2019, Utah startup Latitude launched a pioneering online game called AI Dungeon that demonstrated a new form of human-machine collaboration.",
       "is_article": "1",
       "is_index": "0",
@@ -54,7 +54,6 @@
       "word_count": "1575",
       "lang": "en",
       "time_to_read": 7,
-      "amp_url": "https://www.wired.com/story/ai-fueled-dungeon-game-got-much-darker/amp",
       "top_image_url": "https://media.wired.com/photos/6091ff24317d6dd323f25581/191:100/w_1280,c_limit/business_gpt3_ai-dungeon.jpg",
       "domain_metadata": {
         "name": "WIRED",
@@ -2423,5 +2422,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1621425875
+  "since": 1621780916
 }
