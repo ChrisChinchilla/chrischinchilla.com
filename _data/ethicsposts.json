@@ -480,7 +480,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "4208",
+      "word_count": "4225",
       "lang": "en",
       "time_to_read": 19,
       "amp_url": "https://www.technologyreview.com/2020/10/15/1010461/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/amp/",
@@ -490,7 +490,7 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1629
+      "listen_duration_estimate": 1635
     },
     "3219716398": {
       "item_id": "3219716398",
@@ -2422,5 +2422,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1621780916
+  "since": 1622041743
 }
