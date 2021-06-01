@@ -785,8 +785,8 @@
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "0",
-      "word_count": "1113",
+      "has_image": "1",
+      "word_count": "1138",
       "lang": "en",
       "time_to_read": 5,
       "amp_url": "https://www.technologyreview.com/2020/07/20/1005454/openai-machine-learning-language-generator-gpt-3-nlp/amp/",
@@ -796,7 +796,7 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 431
+      "listen_duration_estimate": 441
     },
     "3026004038": {
       "item_id": "3026004038",
@@ -2422,5 +2422,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1622041743
+  "since": 1622539597
 }
