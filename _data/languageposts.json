@@ -8,10 +8,10 @@
       "given_url": "http://enews.zdnet.com/ct/58113411:W751iwdTN:m:1:716577313:429A89F0595B2239EBF902E5DB62E0F6:r",
       "given_title": "",
       "favorite": "1",
-      "status": "0",
+      "status": "1",
       "time_added": "1622449153",
-      "time_updated": "1622539550",
-      "time_read": "0",
+      "time_updated": "1622711811",
+      "time_read": "1622711811",
       "time_favorited": "1622527903",
       "sort_id": 0,
       "resolved_title": "Microsoft to make coding 'in plain English' easier with PowerFx and GPT-3 AI model",
@@ -636,16 +636,16 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1772",
+      "word_count": "1783",
       "lang": "en",
       "time_to_read": 8,
-      "top_image_url": "https://pocket-image-cache.com/1200x/filters:no_upscale():format(jpg):extract_cover()/http%3A%2F%2Fstatic.nautil.us%2F11717_7da9de56f480e009b5e9f18b279859d7.jpg",
+      "top_image_url": "https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/http%3A%2F%2Fstatic.nautil.us%2F11717_7da9de56f480e009b5e9f18b279859d7.jpg",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 686
+      "listen_duration_estimate": 690
     },
     "2863720311": {
       "item_id": "2863720311",
@@ -992,15 +992,15 @@
       "sort_id": 34,
       "resolved_title": "A ten-minute introduction to sequence-to-sequence learning in Keras",
       "resolved_url": "https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html",
-      "excerpt": "I see this question a lot -- how to implement RNN sequence-to-sequence learning in Keras? Here is a short introduction. Note that this post assumes that you already have some experience with recurrent networks and Keras.",
+      "excerpt": "Note: this post is from 2017. See this tutorial for an up-to-date version of the code used here. I see this question a lot -- how to implement RNN sequence-to-sequence learning in Keras? Here is a short introduction.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2234",
+      "word_count": "2251",
       "lang": "en",
       "time_to_read": 10,
-      "listen_duration_estimate": 865
+      "listen_duration_estimate": 871
     },
     "1974666675": {
       "item_id": "1974666675",
@@ -1630,5 +1630,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1622539598
+  "since": 1623403482
 }
