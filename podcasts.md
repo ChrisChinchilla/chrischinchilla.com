@@ -10,9 +10,9 @@ pagination:
 
 <p>I currently take part in two podcasts, find more details and subscription information for each below.</p>
 
-<h2>The Weekly Squeak</h2>
+<h2>Chinchilla Squeaks</h2>
 
-<p>A weekly round of articles and other items that captured my attention, often with an interview. Episodes are posted below and you can find more subscription options <a href="https://anchor.fm/theweeklysqueak">on the podcast website</a>.</p>
+<p>A weekly round of articles and other items that captured my attention, often with an interview. Episodes are posted below and you can find more subscription options <a href="https://anchor.fm/chinchillasqueaks">on the podcast website</a>.</p>
 
 <h2>Write the Docs</h2>
 

@@ -34,7 +34,7 @@ Over the past 4-5 years, I have spoken at over 100 events on a wide variety of s
 
 I contribute to several regular podcasts:
 
--   My weekly tech news show, "The Weekly Squeak"
+-   My Geek, tech, and gaming show, "Chinchilla Squeaks"
 -   The "Write the Docs" podcast
 -   I produce the "Ethics in Open Source" podcast
 -   As well as a gaming and storytelling podcast

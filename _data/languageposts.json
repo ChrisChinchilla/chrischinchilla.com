@@ -51,7 +51,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1136",
+      "word_count": "1128",
       "lang": "en",
       "time_to_read": 5,
       "amp_url": "https://www.technologyreview.com/2021/02/24/1017797/gpt3-best-worst-ai-openai-natural-language/amp/",
@@ -61,7 +61,7 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 440
+      "listen_duration_estimate": 437
     },
     "63957177": {
       "item_id": "63957177",
@@ -129,9 +129,9 @@
       "is_index": "0",
       "has_video": "1",
       "has_image": "1",
-      "word_count": "1789",
+      "word_count": "1923",
       "lang": "en",
-      "time_to_read": 8,
+      "time_to_read": 9,
       "amp_url": "https://amp.theguardian.com/info/2021/jan/26/how-we-made-typerighter-the-guardians-style-guide-checker",
       "top_image_url": "https://i.guim.co.uk/img/media/b2b7cb38e77728259dd14317c6a54349b90912ea/317_0_1571_943/master/1571.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d41716be1b4d1f9a5f7d9a82c1cd81c9",
       "domain_metadata": {
@@ -139,7 +139,7 @@
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 693
+      "listen_duration_estimate": 744
     },
     "3253092579": {
       "item_id": "3253092579",
@@ -303,15 +303,15 @@
       "time_favorited": "1594186469",
       "sort_id": 10,
       "resolved_title": "I used an algorithm to help me write a story. Here’s what I learned.",
-      "resolved_url": "https://www.technologyreview.com/2020/06/17/1003665/i-used-an-algorithm-to-help-me-write-a-story-heres-what-i-learned/#Echobox=1597444235",
+      "resolved_url": "https://www.technologyreview.com/2020/06/17/1003665/i-used-an-algorithm-to-help-me-write-a-story-heres-what-i-learned/",
       "excerpt": "An insight into the way machines make meaning. A few years ago I used an algorithm to help me write a science fiction story.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1448",
+      "word_count": "1422",
       "lang": "en",
-      "time_to_read": 7,
+      "time_to_read": 6,
       "amp_url": "https://www.technologyreview.com/2020/06/17/1003665/i-used-an-algorithm-to-help-me-write-a-story-heres-what-i-learned/amp/",
       "top_image_url": "https://wp.technologyreview.com/wp-content/uploads/2020/06/JA20_fiction_wordcloud-reverse.jpg?resize=1200,600",
       "domain_metadata": {
@@ -319,7 +319,7 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 561
+      "listen_duration_estimate": 550
     },
     "3036301524": {
       "item_id": "3036301524",
@@ -339,11 +339,11 @@
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
+      "has_image": "0",
       "word_count": "933",
       "lang": "en",
       "time_to_read": 4,
-      "top_image_url": "https://www.datocms-assets.com/16499/1593518848-uxwritingc-1.jpg",
+      "top_image_url": "https://www.datocms-assets.com/16499/1593518848-uxwritingc-1.jpg?auto=format",
       "listen_duration_estimate": 361
     },
     "3014303363": {
@@ -359,13 +359,13 @@
       "time_favorited": "1593251601",
       "sort_id": 12,
       "resolved_title": "OpenAI’s Text Generator Is Going Commercial",
-      "resolved_url": "https://www.wired.com/story/openai-text-generator-going-commercial/",
+      "resolved_url": "https://www.wired.com/story/openai-text-generator-going-commercial",
       "excerpt": "Last spring, artificial intelligence research institute OpenAI said it had made software so good at generating text—including fake news articles—that it was too dangerous to release.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1246",
+      "word_count": "1292",
       "lang": "en",
       "time_to_read": 6,
       "amp_url": "https://www.wired.com/story/openai-text-generator-going-commercial/amp",
@@ -375,7 +375,7 @@
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 482
+      "listen_duration_estimate": 500
     },
     "2950212436": {
       "item_id": "2950212436",
@@ -576,7 +576,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "6009",
+      "word_count": "6039",
       "lang": "en",
       "time_to_read": 27,
       "amp_url": "https://www.wired.com/story/code-obsessed-novelist-builds-writing-bot-the-plot-thickens/amp",
@@ -586,7 +586,7 @@
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 2326
+      "listen_duration_estimate": 2338
     },
     "2880076115": {
       "item_id": "2880076115",
@@ -727,16 +727,16 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1891",
+      "word_count": "1902",
       "lang": "en",
       "time_to_read": 9,
-      "top_image_url": "https://pocket-image-cache.com/1200x/filters:no_upscale():format(jpg):extract_cover()/https%3A%2F%2Fichef.bbci.co.uk%2Fwwfeatures%2Flive%2F976_549%2Fimages%2Flive%2Fp0%2F31%2Fc3%2Fp031c34v.jpg",
+      "top_image_url": "https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fichef.bbci.co.uk%2Fwwfeatures%2Flive%2F976_549%2Fimages%2Flive%2Fp0%2F31%2Fc3%2Fp031c34v.jpg",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 732
+      "listen_duration_estimate": 736
     },
     "2685941783": {
       "item_id": "2685941783",
@@ -751,13 +751,13 @@
       "time_favorited": "1573809200",
       "sort_id": 25,
       "resolved_title": "It's All Greek to You and Me, So What Is It to the Greeks?",
-      "resolved_url": "http://www.atlasobscura.com/articles/its-all-greek-to-me",
+      "resolved_url": "https://www.atlasobscura.com/articles/its-all-greek-to-me",
       "excerpt": "It’s a curious thing when there is an idiom—structured roughly the same way and meaning essentially the same thing—that exists in a large number of languages. It’s even more curious when that idiom, having emerged in dozens of different languages, is actually … about language.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1789",
+      "word_count": "1768",
       "lang": "en",
       "time_to_read": 8,
       "amp_url": "https://www.atlasobscura.com/articles/its-all-greek-to-me.amp",
@@ -767,7 +767,7 @@
         "logo": "https://logo.clearbit.com/atlasobscura.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/atlasobscura.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 693
+      "listen_duration_estimate": 684
     },
     "2762003136": {
       "item_id": "2762003136",
@@ -817,7 +817,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "4649",
+      "word_count": "4656",
       "lang": "en",
       "time_to_read": 21,
       "amp_url": "https://amp.theguardian.com/technology/2019/sep/05/the-race-to-create-a-perfect-lie-detector-and-the-dangers-of-succeeding",
@@ -827,7 +827,7 @@
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1800
+      "listen_duration_estimate": 1802
     },
     "2702190870": {
       "item_id": "2702190870",
@@ -943,7 +943,7 @@
       "time_favorited": "0",
       "sort_id": 32,
       "resolved_title": "Understanding LSTM Networks",
-      "resolved_url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "resolved_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
       "excerpt": "Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.",
       "is_article": "1",
       "is_index": "0",
@@ -1530,20 +1530,20 @@
       "sort_id": 53,
       "resolved_title": "Flesch–Kincaid readability tests",
       "resolved_url": "https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests",
-      "excerpt": "The Flesch–Kincaid readability tests are readability tests designed to indicate how difficult a passage in English is to understand. There are two tests, the Flesch Reading Ease, and the Flesch–Kincaid Grade Level.",
+      "excerpt": "The Flesch–Kincaid readability tests are readability tests designed to indicate how difficult a passage in English is to understand. There are two tests, the Flesch Reading-Ease, and the Flesch–Kincaid Grade Level.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2092",
+      "word_count": "2346",
       "lang": "en",
-      "time_to_read": 10,
+      "time_to_read": 11,
       "domain_metadata": {
         "name": "Wikipedia",
         "logo": "https://logo.clearbit.com/wikipedia.org?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wikipedia.org?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 810
+      "listen_duration_estimate": 908
     },
     "1027873493": {
       "item_id": "1027873493",
@@ -1630,5 +1630,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1623403482
+  "since": 1624028914
 }

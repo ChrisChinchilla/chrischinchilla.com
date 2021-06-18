@@ -51,16 +51,17 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1575",
+      "word_count": "1553",
       "lang": "en",
       "time_to_read": 7,
+      "amp_url": "https://www.wired.com/story/ai-fueled-dungeon-game-got-much-darker/amp",
       "top_image_url": "https://media.wired.com/photos/6091ff24317d6dd323f25581/191:100/w_1280,c_limit/business_gpt3_ai-dungeon.jpg",
       "domain_metadata": {
         "name": "WIRED",
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 610
+      "listen_duration_estimate": 601
     },
     "3325127293": {
       "item_id": "3325127293",
@@ -81,16 +82,16 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1561",
+      "word_count": "1572",
       "lang": "en",
       "time_to_read": 7,
-      "top_image_url": "https://pocket-image-cache.com/1200x/filters:no_upscale():format(jpg):extract_cover()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F6258%2F1618951073_GettyImages-523188504.jpg",
+      "top_image_url": "https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F6258%2F1618951073_GettyImages-523188504.jpg",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 604
+      "listen_duration_estimate": 609
     },
     "3318414822": {
       "item_id": "3318414822",
@@ -266,7 +267,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1136",
+      "word_count": "1128",
       "lang": "en",
       "time_to_read": 5,
       "amp_url": "https://www.technologyreview.com/2021/02/24/1017797/gpt3-best-worst-ai-openai-natural-language/amp/",
@@ -276,7 +277,7 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 440
+      "listen_duration_estimate": 437
     },
     "3263264453": {
       "item_id": "3263264453",
@@ -629,21 +630,21 @@
       "sort_id": 20,
       "resolved_title": "Our obsession with unconscious bias created a diversity disaster",
       "resolved_url": "https://www.wired.co.uk/article/unconscious-bias-diversity-fix",
-      "excerpt": "Bianca Riemer remembers sitting through her first unconscious bias training course in 2011, as a stock market analyst at Morgan Stanley.",
-      "is_article": "1",
+      "excerpt": "Experts have long looked on unconscious bias training as a futile exercise that cannot change people's behaviour. Solutions that actually can help have been overlooked",
+      "is_article": "0",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
-      "word_count": "1757",
+      "has_image": "0",
+      "word_count": "0",
       "lang": "en",
-      "time_to_read": 8,
-      "top_image_url": "https://wi-images.condecdn.net/image/MYJzV3MxDD3/crop/1440/0.5235602094240838/f/wired-bias.jpg",
+      "amp_url": "https://www.wired.co.uk/article/unconscious-bias-diversity-fix/amp",
+      "top_image_url": "https://media.wired.co.uk/photos/606d9e12751ea43ccd988844/16:9/w_1280,c_limit/wired-bias.jpg",
       "domain_metadata": {
         "name": "WIRED UK",
         "logo": "https://logo.clearbit.com/wired.co.uk?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 680
+      "listen_duration_estimate": 0
     },
     "3151486873": {
       "item_id": "3151486873",
@@ -1404,17 +1405,16 @@
       "is_index": "0",
       "has_video": "1",
       "has_image": "1",
-      "word_count": "7368",
+      "word_count": "7336",
       "lang": "en",
       "time_to_read": 33,
-      "amp_url": "https://kotaku.com/the-creators-of-pokemon-go-mapped-the-world-now-theyre-1838974714/amp",
       "top_image_url": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/gssw7abwx5enhm8vlow1.png",
       "domain_metadata": {
         "name": "Kotaku",
         "logo": "https://logo.clearbit.com/kotaku.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/kotaku.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 2852
+      "listen_duration_estimate": 2840
     },
     "2745389131": {
       "item_id": "2745389131",
@@ -1658,7 +1658,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1331",
+      "word_count": "1339",
       "lang": "en",
       "time_to_read": 6,
       "amp_url": "https://www.wired.com/story/richard-stallman-and-the-fall-of-the-clueless-nerd/amp",
@@ -1668,7 +1668,7 @@
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 515
+      "listen_duration_estimate": 518
     },
     "2725251967": {
       "item_id": "2725251967",
@@ -1689,7 +1689,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "4649",
+      "word_count": "4656",
       "lang": "en",
       "time_to_read": 21,
       "amp_url": "https://amp.theguardian.com/technology/2019/sep/05/the-race-to-create-a-perfect-lie-detector-and-the-dangers-of-succeeding",
@@ -1699,7 +1699,7 @@
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1800
+      "listen_duration_estimate": 1802
     },
     "2679778465": {
       "item_id": "2679778465",
@@ -1780,7 +1780,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1963",
+      "word_count": "1919",
       "lang": "en",
       "time_to_read": 9,
       "amp_url": "https://www.buzzfeednews.com/amphtml/alexkantrowitz/how-silicon-valleys-angry-right-wing-sends-its-message-to",
@@ -1790,7 +1790,7 @@
         "logo": "https://logo.clearbit.com/buzzfeednews.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/buzzfeednews.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 760
+      "listen_duration_estimate": 743
     },
     "2662857216": {
       "item_id": "2662857216",
@@ -1935,7 +1935,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2119",
+      "word_count": "2101",
       "lang": "en",
       "time_to_read": 10,
       "amp_url": "https://amp.theatlantic.com/amp/article/587389/",
@@ -1945,7 +1945,7 @@
         "logo": "https://logo.clearbit.com/theatlantic.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theatlantic.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 820
+      "listen_duration_estimate": 813
     },
     "2543636741": {
       "item_id": "2543636741",
@@ -2020,9 +2020,9 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "3839",
+      "word_count": "3953",
       "lang": "en",
-      "time_to_read": 17,
+      "time_to_read": 18,
       "amp_url": "https://www.wired.com/story/coders-efficiency-is-beautiful/amp",
       "top_image_url": "https://media.wired.com/photos/5c87e3dfb235600ed9239266/191:100/w_1280,c_limit/engineersweb.jpg",
       "domain_metadata": {
@@ -2030,7 +2030,7 @@
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1486
+      "listen_duration_estimate": 1530
     },
     "2539397923": {
       "item_id": "2539397923",
@@ -2314,17 +2314,17 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1364",
+      "word_count": "1351",
       "lang": "en",
       "time_to_read": 6,
       "amp_url": "https://www.zdnet.com/google-amp/article/robot-love-why-romance-not-just-sex-with-machines-is-a-foregone-conclusion/",
-      "top_image_url": "https://zdnet3.cbsistatic.com/hub/i/r/2019/02/08/b53c46e0-6b01-4e45-b64b-a2b04e6d7b6a/thumbnail/770x578/d6d9fe05396793bb4250efd681ca783a/robot-love-istock-human-heart.jpg",
+      "top_image_url": "https://www.zdnet.com/a/hub/i/r/2019/02/08/b53c46e0-6b01-4e45-b64b-a2b04e6d7b6a/thumbnail/770x578/d6d9fe05396793bb4250efd681ca783a/robot-love-istock-human-heart.jpg",
       "domain_metadata": {
         "name": "ZDNet",
         "logo": "https://logo.clearbit.com/zdnet.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/zdnet.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 528
+      "listen_duration_estimate": 523
     },
     "2165983918": {
       "item_id": "2165983918",
@@ -2422,5 +2422,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1623403480
+  "since": 1624028911
 }
