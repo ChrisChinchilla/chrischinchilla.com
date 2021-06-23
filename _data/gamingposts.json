@@ -8,10 +8,10 @@
       "given_url": "https://link.wired.co.uk/click/24105694.6085/aHR0cHM6Ly93d3cud2lyZWQuY28udWsvYXJ0aWNsZS9wb2tlbW9uLWNhcmQtZ3JhZGluZz91SUQ9ZTg4NzNjYTFhYWZjNDEzNzY4ZDY0YWU2ZWViNjYzMjM1ZDZmZjQ4OGIwMGEwNjZiNDk0MDE1NGFjMDk2MmNlZCZ1dG1fY2FtcGFpZ249bmV3c2xldHRlcl9kYWlseSZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX2JyYW5kPXdpJnV0bV9tYWlsaW5nPVdJX05FV1NfRGFpbHlfMTAwNjIx/5fae60a450eb9247ef2222e1Dbde791ce",
       "given_title": "",
       "favorite": "0",
-      "status": "0",
+      "status": "1",
       "time_added": "1623387766",
-      "time_updated": "1623480530",
-      "time_read": "0",
+      "time_updated": "1624336455",
+      "time_read": "1624336455",
       "time_favorited": "0",
       "sort_id": 0,
       "resolved_title": "Inside the hateful Pokémon card grading scene",
@@ -183,21 +183,21 @@
       "sort_id": 6,
       "resolved_title": "RuneScape saved her life. Fifteen years later, she’s still playing",
       "resolved_url": "https://www.wired.co.uk/article/runescape-online-communities",
-      "excerpt": "When Allana turned fourteen, the limits of her world shrank to the four corners of her bed. A heart condition kept her between hospital and home. She could not attend school or make friends. She was lonely. She could not live like a normal fourteen-year-old.",
-      "is_article": "1",
+      "excerpt": "For some, vast online worlds like have provided a kinder, fairer space than real life",
+      "is_article": "0",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
-      "word_count": "2020",
+      "has_image": "0",
+      "word_count": "0",
       "lang": "en",
-      "time_to_read": 9,
-      "top_image_url": "https://wi-images.condecdn.net/image/lEOb4njq7Vx/crop/1440/0.5235602094240838/f/wired-runescape.jpg",
+      "amp_url": "https://www.wired.co.uk/article/runescape-online-communities/amp",
+      "top_image_url": "https://media.wired.co.uk/photos/606d9d35346a830acc53c484/16:9/w_1280,c_limit/wired-runescape.jpg",
       "domain_metadata": {
         "name": "WIRED UK",
         "logo": "https://logo.clearbit.com/wired.co.uk?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 782
+      "listen_duration_estimate": 0
     },
     "3219188817": {
       "item_id": "3219188817",
@@ -299,16 +299,16 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2875",
+      "word_count": "2865",
       "lang": "en",
       "time_to_read": 13,
-      "top_image_url": "https://i0.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/01/16222044/pic4735035-edit.jpg?fit=1200%2C800&ssl=1",
+      "top_image_url": "https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/01/16222044/pic4735035-edit.jpg?fit=1200%2C800&ssl=1",
       "domain_metadata": {
         "name": "Quillette",
         "logo": "https://logo.clearbit.com/quillette.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/quillette.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1113
+      "listen_duration_estimate": 1109
     },
     "3082924710": {
       "item_id": "3082924710",
@@ -349,7 +349,7 @@
       "time_favorited": "1599460782",
       "sort_id": 12,
       "resolved_title": "Dungeons & Dragons TikTok Is Gen Z at Its Most Wholesome",
-      "resolved_url": "https://www.wired.com/story/dungeons-and-dragons-tiktok/",
+      "resolved_url": "https://www.wired.com/story/dungeons-and-dragons-tiktok",
       "excerpt": "A lifelong bookworm and a fantasy geek, Sarah Chaffee had for years admired Dungeons & Dragons from afar. “In the culture I grew up in,” she says, “it was very much like, ‘D&D is devil worship.",
       "is_article": "1",
       "is_index": "0",
@@ -386,10 +386,10 @@
       "is_index": "0",
       "has_video": "1",
       "has_image": "1",
-      "word_count": "5748",
+      "word_count": "5761",
       "lang": "en",
       "time_to_read": 26,
-      "listen_duration_estimate": 2225
+      "listen_duration_estimate": 2230
     },
     "868442873": {
       "item_id": "868442873",
@@ -563,5 +563,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1624028912
+  "since": 1624436097
 }

@@ -252,12 +252,12 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "0",
-      "word_count": "2467",
+      "word_count": "2481",
       "lang": "en",
       "time_to_read": 11,
       "amp_url": "https://bdtechtalks.com/2020/08/17/openai-gpt-3-commercial-ai/amp/",
       "top_image_url": "https://i0.wp.com/bdtechtalks.com/wp-content/uploads/2020/08/sam-altman-greg-brockman-openai.jpg?fit=2560%2C1440&ssl=1",
-      "listen_duration_estimate": 955
+      "listen_duration_estimate": 960
     },
     "3055621380": {
       "item_id": "3055621380",
@@ -396,16 +396,16 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1787",
+      "word_count": "1752",
       "lang": "en",
       "time_to_read": 8,
-      "top_image_url": "https://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/89/gw/p089gwzh.jpg",
+      "top_image_url": "https://ychef.files.bbci.co.uk/live/624x351/p089gwzh.jpg",
       "domain_metadata": {
         "name": "BBC",
         "logo": "https://logo.clearbit.com/bbc.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/bbc.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 692
+      "listen_duration_estimate": 678
     },
     "2942311561": {
       "item_id": "2942311561",
@@ -697,7 +697,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "856",
+      "word_count": "858",
       "lang": "en",
       "time_to_read": 4,
       "top_image_url": "https://miro.medium.com/max/1200/1*SQ1K1wRAwgU7k8aoAT18Sw.png",
@@ -706,7 +706,7 @@
         "logo": "https://logo.clearbit.com/towardsdatascience.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/towardsdatascience.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 331
+      "listen_duration_estimate": 332
     },
     "2820984947": {
       "item_id": "2820984947",
@@ -1446,7 +1446,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "5068",
+      "word_count": "5064",
       "lang": "en",
       "time_to_read": 23,
       "amp_url": "https://amp.theguardian.com/news/2018/jan/23/voice-replacement-technology-adaptive-alternative-communication-vocalid",
@@ -1456,7 +1456,7 @@
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1962
+      "listen_duration_estimate": 1960
     },
     "2403556196": {
       "item_id": "2403556196",
@@ -1630,5 +1630,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1624028914
+  "since": 1624436098
 }
