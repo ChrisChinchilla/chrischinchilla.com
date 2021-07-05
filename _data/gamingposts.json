@@ -45,22 +45,23 @@
       "time_favorited": "1622963815",
       "sort_id": 1,
       "resolved_title": "Why Are There So Few Women in Wargaming?",
-      "resolved_url": "https://www.wired.com/story/women-wargaming-sexism-harassment",
-      "excerpt": "Becky Esteness was fed up. She was at a local wargaming convention, where enthusiasts schlep their pewter armies to beige conference halls for a long, meditative weekend of stone cold tactics, and Esteness couldn't wait to get her orders out. She's been a hobbyist wargamer for decades.",
+      "resolved_url": "https://www.wired.com/story/women-wargaming-sexism-harassment/",
+      "excerpt": "Becky Ensteness was fed up. She was at a local wargaming convention, where enthusiasts schlep their pewter armies to beige conference halls for a long, meditative weekend of stone cold tactics, and Ensteness couldn't wait to get her orders out. She's been a hobbyist wargamer for decades.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1735",
+      "word_count": "1697",
       "lang": "en",
       "time_to_read": 8,
+      "amp_url": "https://www.wired.com/story/women-wargaming-sexism-harassment/amp",
       "top_image_url": "https://media.wired.com/photos/60ba4fa6a44bc8ff1a2ddf6a/191:100/w_1280,c_limit/games_women-wargaming_RD32AW.jpg",
       "domain_metadata": {
         "name": "WIRED",
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 672
+      "listen_duration_estimate": 657
     },
     "2969581670": {
       "item_id": "2969581670",
@@ -127,21 +128,20 @@
       "sort_id": 4,
       "resolved_title": "Pandemic’s creator is making a board game about climate change",
       "resolved_url": "https://www.wired.co.uk/article/pandemic-board-game-climate-crisis",
-      "excerpt": "When game developer Matt Leacock released his best-selling board game Pandemic, he didn't expect that twelve years later people would be using it to help them process an actual pandemic sweeping the world.",
-      "is_article": "1",
+      "excerpt": "Matt Leacock’s next board challenges you to stave off climate chaos by cutting emissions and increasing resilience. But can the climate crisis be turned into a compelling game?",
+      "is_article": "0",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
-      "word_count": "1710",
+      "has_image": "0",
+      "word_count": "0",
       "lang": "en",
-      "time_to_read": 8,
-      "top_image_url": "https://wi-images.condecdn.net/image/0JZvNaVdEj1/crop/1440/0.5235602094240838/f/wired-climatechangegame.jpg",
+      "top_image_url": "https://media.wired.co.uk/photos/606d9f591e0ddb19555fb95f/16:9/w_1280,c_limit/wired-climatechangegame.jpg",
       "domain_metadata": {
         "name": "WIRED UK",
         "logo": "https://logo.clearbit.com/wired.co.uk?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 662
+      "listen_duration_estimate": 0
     },
     "3259189053": {
       "item_id": "3259189053",
@@ -267,18 +267,16 @@
       "time_read": "1605336688",
       "time_favorited": "0",
       "sort_id": 9,
-      "resolved_title": "Worldbuilding: Fantasy Religion Design Guide",
+      "resolved_title": "",
       "resolved_url": "http://inkwellideas.com/worldbuilding/worldbuilding-religion-design/",
-      "excerpt": "Depending on your campaign setting idea, in the early stages you may only need a bare minimum of details about your religion.",
-      "is_article": "1",
+      "excerpt": "",
+      "is_article": "0",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
-      "word_count": "4511",
+      "has_image": "0",
+      "word_count": "0",
       "lang": "en",
-      "time_to_read": 21,
-      "top_image_url": "http://www.inkwellideas.com/images/religion/Christmas_throughout_Christendom_-_Thor.png",
-      "listen_duration_estimate": 1746
+      "listen_duration_estimate": 0
     },
     "2856273042": {
       "item_id": "2856273042",
@@ -546,7 +544,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "849",
+      "word_count": "865",
       "lang": "en",
       "time_to_read": 4,
       "amp_url": "https://www.polygon.com/platform/amp/2020/1/13/21064147/dungeons-dragons-dungeon-masters-guild",
@@ -556,12 +554,12 @@
         "logo": "https://logo.clearbit.com/polygon.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/polygon.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 329
+      "listen_duration_estimate": 335
     }
   },
   "error": null,
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1624436097
+  "since": 1625497481
 }

@@ -8,10 +8,10 @@
       "given_url": "https://technologyreview.us11.list-manage.com/track/click?u=47c1a9cec9749a8f8cbc83e78&id=eb859ee8cf&e=2d49e178b1",
       "given_title": "",
       "favorite": "0",
-      "status": "0",
+      "status": "1",
       "time_added": "1624265436",
-      "time_updated": "1624356052",
-      "time_read": "0",
+      "time_updated": "1624720814",
+      "time_read": "1624720813",
       "time_favorited": "0",
       "sort_id": 0,
       "resolved_title": "Inside the fight to reclaim AI from Big Tech’s control",
@@ -385,21 +385,20 @@
       "sort_id": 12,
       "resolved_title": "Want to make your company more diverse? Consider quitting",
       "resolved_url": "https://www.wired.co.uk/article/diversity-business-quit",
-      "excerpt": "In 2021, organisations of all kinds will realise that they have to make racial justice a core part of their mission, not just an add-on.",
-      "is_article": "1",
+      "excerpt": "Forget quotas and training: people in power should consider stepping aside to allow for more diverse leadership",
+      "is_article": "0",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
-      "word_count": "569",
+      "has_image": "0",
+      "word_count": "0",
       "lang": "en",
-      "time_to_read": 3,
-      "top_image_url": "https://wi-images.condecdn.net/image/k9NLy50AOl0/crop/1440/0.5235602094240838/f/1120wiredworldbusiness07.jpg",
+      "top_image_url": "https://media.wired.co.uk/photos/606d9e4df19707fe1aef2f60/16:9/w_1280,c_limit/1120wiredworldbusiness07.jpg",
       "domain_metadata": {
         "name": "WIRED UK",
         "logo": "https://logo.clearbit.com/wired.co.uk?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 220
+      "listen_duration_estimate": 0
     },
     "3246119879": {
       "item_id": "3246119879",
@@ -538,12 +537,12 @@
       "sort_id": 17,
       "resolved_title": "Google Workers Publicly Launch Union",
       "resolved_url": "https://www.vice.com/en/article/3an5q9/google-workers-publicly-launch-union",
-      "excerpt": "After several years of escalating tension between workers and management at Google, Google workers have publicly launched a unionization effort—a critical step in an industry where labor has become increasingly organized.",
+      "excerpt": "After several years of escalating tension between workers and management at Google, Google workers have publicly launched a  unionization effort—a critical step in an industry where labor has become increasingly organized.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "0",
-      "word_count": "774",
+      "has_image": "1",
+      "word_count": "862",
       "lang": "en",
       "time_to_read": 4,
       "amp_url": "https://www.vice.com/amp/en/article/3an5q9/google-workers-publicly-launch-union",
@@ -553,7 +552,7 @@
         "logo": "https://logo.clearbit.com/vice.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/vice.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 300
+      "listen_duration_estimate": 334
     },
     "3192049903": {
       "item_id": "3192049903",
@@ -631,21 +630,20 @@
       "sort_id": 20,
       "resolved_title": "The AI Telegram bot that abused women is still out of control",
       "resolved_url": "https://www.wired.co.uk/article/porn-bots-in-telegram-deepfake",
-      "excerpt": "Messaging app Telegram is under pressure to crack down on an AI bot that generated tens of thousands of non-consensual images of women on its platform.",
-      "is_article": "1",
+      "excerpt": "A bot automated deepfake abuse online. Researchers say their warnings have been ignored and Telegram has failed to remove it",
+      "is_article": "0",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
-      "word_count": "1381",
+      "has_image": "0",
+      "word_count": "0",
       "lang": "en",
-      "time_to_read": 6,
-      "top_image_url": "https://wi-images.condecdn.net/image/oQ7pQBojymp/crop/1440/0.5235602094240838/f/wired-telegrambot.jpg",
+      "top_image_url": "https://media.wired.co.uk/photos/606d9f051e0ddb19555fb935/16:9/w_1280,c_limit/wired-telegrambot.jpg",
       "domain_metadata": {
         "name": "WIRED UK",
         "logo": "https://logo.clearbit.com/wired.co.uk?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 535
+      "listen_duration_estimate": 0
     },
     "3170198506": {
       "item_id": "3170198506",
@@ -691,7 +689,7 @@
       "sort_id": 22,
       "resolved_title": "It’s time to rethink the legal treatment of robots",
       "resolved_url": "https://www.technologyreview.com/2020/10/22/1011057/reasonable-robot-ryan-abobott-excerpt-tax-robots/",
-      "excerpt": "In this excerpt from \"The Reasonable Robot: Artificial Intelligence and the Law\", Ryan Abbott argues that laws should treat robots more like people. A pandemic is raging with devastating consequences, and long-standing problems with racial bias and political polarization are coming to a head.",
+      "excerpt": "A pandemic is raging with devastating consequences, and long-standing problems with racial bias and political polarization are coming to a head. Artificial intelligence (AI) has the potential to help us deal with these challenges. However, AI’s risks have become increasingly apparent.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
@@ -782,7 +780,7 @@
       "sort_id": 25,
       "resolved_title": "The UK exam debacle reminds us that algorithms can’t fix broken systems",
       "resolved_url": "https://www.technologyreview.com/2020/08/20/1007502/uk-exam-algorithm-cant-fix-broken-system/",
-      "excerpt": "The problem began when the exam regulator lost sight of the ultimate goal—and pushed for standardization above all else. When the UK first set out to find an alternative to school leaving qualifications, the premise seemed perfectly reasonable.",
+      "excerpt": "When the UK first set out to find an alternative to school leaving qualifications, the premise seemed perfectly reasonable. Covid-19 had derailed any opportunity for students to take the exams in person, but the government still wanted a way to assess them for university admission decisions.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
@@ -934,17 +932,17 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "839",
+      "word_count": "849",
       "lang": "en",
       "time_to_read": 4,
       "amp_url": "https://amp.theguardian.com/commentisfree/2020/jan/27/artificial-intelligence-computer-novels-fiction-write-books",
-      "top_image_url": "https://i.guim.co.uk/img/media/7f9d4ad94ac96511a7f2414561cf1bddd33c9f0c/0_117_3500_2100/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=32c08764a353aabdba63ceb4eaed5b30",
+      "top_image_url": "https://i.guim.co.uk/img/media/7f9d4ad94ac96511a7f2414561cf1bddd33c9f0c/0_117_3500_2100/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMtYWdlLTIwMjAucG5n&enable=upscale&s=d35caf5359848cca8cd8abc13485ca85",
       "domain_metadata": {
         "name": "The Guardian",
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 325
+      "listen_duration_estimate": 329
     },
     "2898431425": {
       "item_id": "2898431425",
@@ -1247,7 +1245,7 @@
       "sort_id": 41,
       "resolved_title": "Dark Patterns: When Companies Use Design to Manipulate You",
       "resolved_url": "https://www.howtogeek.com/363484/dark-patterns-when-companies-use-design-to-manipulate-you/",
-      "excerpt": "Ever feel like you’re being prompted into going along with something you don’t want because better options aren’t clearly being presented? You probably just found a dark pattern.  “Dark patterns” are designs that deliberately trick you into doing what a company wants.",
+      "excerpt": "Ever feel like you’re being prompted into going along with something you don’t want because better options aren’t clearly being presented? You probably just found a dark pattern. “Dark patterns” are designs that deliberately trick you into doing what a company wants.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "1",
@@ -1256,7 +1254,7 @@
       "lang": "en",
       "time_to_read": 4,
       "amp_url": "https://www.howtogeek.com/363484/dark-patterns-when-companies-use-design-to-manipulate-you/amp/",
-      "top_image_url": "https://www.howtogeek.com/thumbcache/2/200/9bc3aa3e7a04d58ac39b4d797b6266e3/wp-content/uploads/2018/08/shutterstock_407554567.jpg",
+      "top_image_url": "https://www.howtogeek.com/wp-content/uploads/2018/08/shutterstock_407554567.jpg?height=200p&trim=2,2,2,2",
       "domain_metadata": {
         "name": "How-To Geek",
         "logo": "https://logo.clearbit.com/howtogeek.com?size=800",
@@ -1276,7 +1274,7 @@
       "time_read": "1573293871",
       "time_favorited": "0",
       "sort_id": 42,
-      "resolved_title": "Dark Patterns and the Ethics of Design",
+      "resolved_title": "Dark Patterns and the Ethics of Design",
       "resolved_url": "https://medium.com/adventures-in-ux-design/dark-patterns-and-the-ethics-of-design-31853436176b",
       "excerpt": "Dark design patterns use all of the powers of visual design with the flair of a magician’s misdirection, and the language of a shady sideshow barker (dare you to say ‘shady sideshow barker’ eight times in a row).",
       "is_article": "1",
@@ -1286,7 +1284,7 @@
       "word_count": "1482",
       "lang": "en",
       "time_to_read": 7,
-      "top_image_url": "https://cdn-images-1.medium.com/max/1200/1*Bl_hwHv-Ctti7P7OiL1p6Q.jpeg",
+      "top_image_url": "https://miro.medium.com/max/1200/1*Bl_hwHv-Ctti7P7OiL1p6Q.jpeg",
       "domain_metadata": {
         "name": "Medium",
         "logo": "https://logo.clearbit.com/medium.com?size=800",
@@ -1374,16 +1372,16 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "499",
+      "word_count": "510",
       "lang": "en",
       "amp_url": "https://amp.theguardian.com/technology/2017/jan/12/give-robots-personhood-status-eu-committee-argues",
-      "top_image_url": "https://i.guim.co.uk/img/media/6dd47064b1e15e9311d44de75c3e760c3755bd9f/0_0_3000_1801/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=673ebe0e2fa649ec6e2b3f009aaabb8b",
+      "top_image_url": "https://i.guim.co.uk/img/media/6dd47064b1e15e9311d44de75c3e760c3755bd9f/0_0_3000_1801/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTcucG5n&enable=upscale&s=9863a949a4a3c98856a52c86eebbcd73",
       "domain_metadata": {
         "name": "The Guardian",
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 193
+      "listen_duration_estimate": 197
     },
     "2761166841": {
       "item_id": "2761166841",
@@ -2452,5 +2450,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1624436096
+  "since": 1625497480
 }

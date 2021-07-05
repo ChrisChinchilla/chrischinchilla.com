@@ -488,17 +488,17 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "839",
+      "word_count": "849",
       "lang": "en",
       "time_to_read": 4,
       "amp_url": "https://amp.theguardian.com/commentisfree/2020/jan/27/artificial-intelligence-computer-novels-fiction-write-books",
-      "top_image_url": "https://i.guim.co.uk/img/media/7f9d4ad94ac96511a7f2414561cf1bddd33c9f0c/0_117_3500_2100/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=32c08764a353aabdba63ceb4eaed5b30",
+      "top_image_url": "https://i.guim.co.uk/img/media/7f9d4ad94ac96511a7f2414561cf1bddd33c9f0c/0_117_3500_2100/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMtYWdlLTIwMjAucG5n&enable=upscale&s=d35caf5359848cca8cd8abc13485ca85",
       "domain_metadata": {
         "name": "The Guardian",
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 325
+      "listen_duration_estimate": 329
     },
     "2912946149": {
       "item_id": "2912946149",
@@ -519,12 +519,11 @@
       "is_index": "0",
       "has_video": "1",
       "has_image": "1",
-      "word_count": "4790",
+      "word_count": "4702",
       "lang": "en",
-      "time_to_read": 22,
-      "amp_url": "https://eyeondesign.aiga.org/roberta-williams-is-the-worlds-first-graphic-computer-game-designer-but-shes-famous-for-all-the-wrong-reasons/amp/",
+      "time_to_read": 21,
       "top_image_url": "https://eyeondesign.aiga.org/wp-content/uploads/2020/03/game-designer-roberta-williams-eye-on-design-hero.jpg",
-      "listen_duration_estimate": 1854
+      "listen_duration_estimate": 1820
     },
     "2891886521": {
       "item_id": "2891886521",
@@ -943,7 +942,7 @@
       "time_favorited": "0",
       "sort_id": 32,
       "resolved_title": "Understanding LSTM Networks",
-      "resolved_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "resolved_url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/",
       "excerpt": "Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.",
       "is_article": "1",
       "is_index": "0",
@@ -1053,7 +1052,7 @@
       "lang": "en",
       "time_to_read": 5,
       "amp_url": "https://amp.theguardian.com/technology/2014/oct/22/interactive-fiction-awards-games",
-      "top_image_url": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/21/1413912821992/ac49e7b9-4480-44bb-b63d-65fb0d5c31a4-620x372.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTQucG5n&s=e8b317695270e06cb22e2d15298c31ce",
+      "top_image_url": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/21/1413912821992/ac49e7b9-4480-44bb-b63d-65fb0d5c31a4-620x372.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTQucG5n&enable=upscale&s=e9561f4f8b514700354ae26981a75b51",
       "domain_metadata": {
         "name": "The Guardian",
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
@@ -1074,15 +1073,15 @@
       "time_favorited": "0",
       "sort_id": 37,
       "resolved_title": "Ampersand Usage — “&” or “And”?",
-      "resolved_url": "http://www.probizwriters.com/PBW-blog/index.php/ampersand-usage/",
-      "excerpt": "Writers in business contexts often appear clueless when using ampersands, and they frequently get ampersand usage wrong.  I see it every day in my commercial copy editing work.  But &  and and have distinct functions, meanings, and uses.",
+      "resolved_url": "https://www.probizwriters.com/PBW-blog/index.php/ampersand-usage/",
+      "excerpt": "Writers in business contexts often appear clueless when using ampersands, and they frequently get ampersand usage wrong.  I see it every day in my commercial copy editing work. But &  and and have distinct functions, meanings, and uses.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
       "word_count": "488",
       "lang": "en",
-      "top_image_url": "http://www.probizwriters.com/PBW-blog/index.php/ampersand-usage/",
+      "top_image_url": "http://www.probizwriters.com/PBW-blog/wp-content/uploads/2015/01/Ampersand-Samples-sm.jpg",
       "listen_duration_estimate": 189
     },
     "769819918": {
@@ -1189,7 +1188,7 @@
       "time_favorited": "1555213135",
       "sort_id": 41,
       "resolved_title": "Notes on Writing Weird Fiction By H. P. Lovecraft",
-      "resolved_url": "http://www.hplovecraft.com/writings/texts/essays/nwwf.aspx",
+      "resolved_url": "https://www.hplovecraft.com/writings/texts/essays/nwwf.aspx",
       "excerpt": "My reason for writing stories is to give myself the satisfaction of visualising more clearly and detailedly and stably the vague, elusive, fragmentary impressions of wonder, beauty, and adventurous expectancy which are conveyed to me by certain sights (scenic, architectural, atmospheric, etc.",
       "is_article": "1",
       "is_index": "0",
@@ -1379,7 +1378,7 @@
       "time_read": "1566201323",
       "time_favorited": "0",
       "sort_id": 48,
-      "resolved_title": "Logistic Regression with TensorFlow and Keras",
+      "resolved_title": "Logistic Regression with TensorFlow and Keras",
       "resolved_url": "https://hackernoon.com/logistic-regression-with-tensorflow-and-keras-83d2487aed89",
       "excerpt": "Learn logistic regression with TensorFlow and Keras in this article by Armando Fandango, an inventor of AI empowered products by leveraging expertise in deep learning, machine learning, distributed computing, and computational methods.",
       "is_article": "1",
@@ -1389,7 +1388,7 @@
       "word_count": "1016",
       "lang": "en",
       "time_to_read": 5,
-      "top_image_url": "https://cdn-images-1.medium.com/max/1200/1*qGxr1hmyNv9ftAb6MEibZA.png",
+      "top_image_url": "https://cdn.hackernoon.com/hn-images/1*qGxr1hmyNv9ftAb6MEibZA.png",
       "domain_metadata": {
         "name": "Hacker Noon",
         "logo": "https://logo.clearbit.com/hackernoon.com?size=800",
@@ -1477,7 +1476,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "690",
+      "word_count": "694",
       "lang": "en",
       "time_to_read": 3,
       "top_image_url": "https://opensource.com/sites/default/files/lead-images/terminal_command_linux_desktop_code.jpg",
@@ -1486,7 +1485,7 @@
         "logo": "https://logo.clearbit.com/opensource.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/opensource.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 267
+      "listen_duration_estimate": 269
     },
     "15981799": {
       "item_id": "15981799",
@@ -1502,19 +1501,19 @@
       "sort_id": 52,
       "resolved_title": "SMOG",
       "resolved_url": "https://en.wikipedia.org/wiki/SMOG",
-      "excerpt": "The SMOG grade is a measure of readability that estimates the years of education needed to understand a piece of writing. SMOG is an acronym for Simple Measure of Gobbledygook.  The formula for calculating the SMOG grade was developed by G.",
+      "excerpt": "The SMOG grade is a measure of readability that estimates the years of education needed to understand a piece of writing. SMOG is an acronym for \"Simple Measure of Gobbledygook\". The formula for calculating the SMOG grade was developed by G.",
       "is_article": "1",
       "is_index": "1",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "328",
+      "word_count": "443",
       "lang": "en",
       "domain_metadata": {
         "name": "Wikipedia",
         "logo": "https://logo.clearbit.com/wikipedia.org?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wikipedia.org?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 127
+      "listen_duration_estimate": 171
     },
     "450528663": {
       "item_id": "450528663",
@@ -1630,5 +1629,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1624436098
+  "since": 1625497482
 }
