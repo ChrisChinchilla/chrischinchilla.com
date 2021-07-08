@@ -1,5 +1,5 @@
 ---
-title: "Hands on - Create Rich Documentation with DocC"
+title: "Hands on - Create Rich Documentation for Swift applications with DocC"
 layout: video
 created_at: 2021-06-28 22:47:36 UTC
 author: ""
