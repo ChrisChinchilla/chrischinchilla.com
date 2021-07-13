@@ -1463,7 +1463,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "419",
+      "word_count": "430",
       "lang": "en",
       "amp_url": "https://www.theverge.com/platform/amp/2019/10/2/20896181/google-contractor-reportedly-targeted-homeless-people-for-pixel-4-facial-recognition",
       "top_image_url": "https://cdn.vox-cdn.com/thumbor/cDOW_PyQstWsFlGGG0mzLdmxyGQ=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/12322323/acastro_180730_1777_facial_recognition_0001.jpg",
@@ -1472,7 +1472,7 @@
         "logo": "https://logo.clearbit.com/theverge.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theverge.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 162
+      "listen_duration_estimate": 166
     },
     "2734875966": {
       "item_id": "2734875966",
@@ -1987,17 +1987,19 @@
       "time_read": "1554534672",
       "time_favorited": "1554534571",
       "sort_id": 66,
-      "resolved_title": "Is Software Eating the World?",
+      "resolved_title": "Are Cloud Services Damaging the Environment?",
       "resolved_url": "https://onezero.medium.com/is-software-literally-eating-the-world-dc8a30548f69",
-      "excerpt": "As creators of technology, we need to ask whether our progress is antagonistic to the place that we call home.",
-      "is_article": "0",
+      "excerpt": "was recently revealed that Coca-Cola produces three million tonnes of plastic packaging a year, which is equivalent to 200,000 bottles a minute according to the Guardian.",
+      "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "0",
-      "word_count": "0",
-      "lang": "",
-      "top_image_url": "https://cdn-images-1.medium.com/max/1200/1*R0A8CnXBwahAM_jMbEHWPg.jpeg",
-      "listen_duration_estimate": 0
+      "has_image": "1",
+      "word_count": "2021",
+      "lang": "en",
+      "time_to_read": 9,
+      "amp_url": "https://onezero.medium.com/amp/p/dc8a30548f69",
+      "top_image_url": "https://miro.medium.com/max/1200/1*R0A8CnXBwahAM_jMbEHWPg.jpeg",
+      "listen_duration_estimate": 782
     },
     "2544648465": {
       "item_id": "2544648465",
@@ -2450,5 +2452,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1625733164
+  "since": 1626161744
 }
