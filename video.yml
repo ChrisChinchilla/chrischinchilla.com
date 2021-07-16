@@ -24,3 +24,12 @@ blogs:
     type: video
     layout: video
     source: ""    
+  - feed: "https://www.youtube.com/feeds/videos.xml?channel_id=UCPJW5m4LZ6PXSgd3ufrhOdg"
+    image: 
+    twitter: "poteland"
+    categories: "video"
+    podcast: "X"
+    video_embed: ""
+    type: video
+    layout: video
+    source: ""
