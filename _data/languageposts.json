@@ -606,7 +606,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "6039",
+      "word_count": "6040",
       "lang": "en",
       "time_to_read": 27,
       "amp_url": "https://www.wired.com/story/code-obsessed-novelist-builds-writing-bot-the-plot-thickens/amp",
@@ -818,15 +818,15 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "418",
+      "word_count": "429",
       "lang": "en",
-      "top_image_url": "https://pocket-image-cache.com/1200x/filters:no_upscale():format(jpg):extract_cover()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F1752%2F1569948613_ScreenshScaled72.png",
+      "top_image_url": "https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F1752%2F1569948613_ScreenshScaled72.png",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 162
+      "listen_duration_estimate": 166
     },
     "2725251967": {
       "item_id": "2725251967",
@@ -973,7 +973,7 @@
       "time_favorited": "0",
       "sort_id": 33,
       "resolved_title": "Understanding LSTM Networks",
-      "resolved_url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "resolved_url": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/",
       "excerpt": "Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.",
       "is_article": "1",
       "is_index": "0",
@@ -1660,5 +1660,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1627556877
+  "since": 1627900035
 }
