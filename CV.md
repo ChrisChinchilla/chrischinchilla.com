@@ -4,10 +4,10 @@ I have been a long term freelancer and contractor in the past so attempting to
 summarise my work experience and history into a CV is always challenging.
 
 Below are chronologically the most recent and relevant projects I have
-worked on. This shows my credentials, but if you need more, I can supply them on request.
+worked on, I can supply them on request.
 
 My years of experience organising user groups, training days, and managing
-small developer teams make me suitable for developer evangelist, training, or
+small developer teams make me suitable for community, evangelist, training, or
 writer roles.
 
 ## Accomplishments
@@ -28,7 +28,7 @@ writer roles.
 
 ### Presentations
 
-Over the past 4-5 years, I have spoken at over 100 events on a wide variety of subjects, find more on my [website](https://chrischinchilla.com/events).
+Over the past 4-5 years, I have spoken at over 100 events on a wide variety of subjects. Find more on my [website](https://chrischinchilla.com/events).
 
 ### Podcasts and Video
 
@@ -46,22 +46,25 @@ I host the following regular livestreams:
 -   Twice a month documentation and developer experience office hours
 -   As well as two gaming livestreams
 
+Find links to all these at [chrischinchilla.com](http://chrischinchilla.com/).
+
 ### Open Source
 
-I have always been active in open source communities, including regular contributions to: Drupal, CiviCRM, Atom, Visual Studio Code, Webpack, Kubernetes, Test the Docs and Vale. See [my GitHub profile](https://github.com/chrischinchilla) for more.
+I have always been active in open source communities, including regular contributions to: Drupal, CiviCRM, Atom, Visual Studio Code, Webpack, Kubernetes, Test the Docs, and Vale. See [my GitHub profile](https://github.com/chrischinchilla) for more.
 
 ### Community
 
 -   I run the Write the Docs meetup in Berlin, and have organised other meetups in the past
--   I was on the organising committee for the 2018, 2019, 2020 EU and 2019 Australian Write the Docs conferences
+-   I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences
 -   I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, and 2021
 -   I was a judge for the Mozilla open source awards in 2020
+-   I run a regular writers meetup 3 times a week in Berlin
 
 ## Work Experience
 
 ### Chronosphere, Senior Technical Writer
 
-Chronosphere is steward for M3, the highly available time series database as well as it's own commercial offering. I am the sole tech writer for both projects, and my role includes:
+Chronosphere is the steward for M3, the highly available time series database, and its commercial offering. I am the sole tech writer for both projects, and my role includes:
 
 -   Overhauling documentation and platforms
 -   Creating and maintaining a style guide and automated style checking tools
@@ -76,9 +79,10 @@ _August 2020 - Present_
 
 _March 2017 - Present_
 
-As a freelance writer and blogger, I have contributed to the blogs and documentation sets of multiple technical companies, ranging from small cutting edge start-ups to large enterprises. Clients and work include
+As a freelance writer and blogger, I have contributed to the blogs and documentation sets of multiple technical companies. These ranged from small cutting-edge startups to large enterprises. Clients and work include
 
 -   **libcamera**: Documentation an open source camera stack and framework for Linux, Android, and ChromeOS
+-   **Dev Spotlight**: Technical blog posts for Salesforce, Kong, and others
 -   **Unity**: Documentation for the MARS AR development plugin
 -   **GitLab**: Technical blog posts
 -   **Humanitec**: Technical blog posts
@@ -88,9 +92,9 @@ As a freelance writer and blogger, I have contributed to the blogs and documenta
 -   **Coralogix**: Technical blog posts
 -   **Facebook Messenger**: Technical blog posts
 -   **data artisans**: Technical blog posts
--   **Sqreen**: Tutorial, API and reference documentation
+-   **Sqreen**: Tutorial, API, and reference documentation
 -   **Telerik**: Technical blog posts
--   **DZone**: Tech journalist covering events, interviews and tools
+-   **DZone**: Tech journalist covering events, interviews, and tools
 -   **The Next Web**: Tech journalist covering events and interviews
 -   **Equinix**: Technical blog posts
 -   **DGraph**: Documentation platform overhaul
@@ -99,7 +103,7 @@ As a freelance writer and blogger, I have contributed to the blogs and documenta
 
 _August 2018 - August 2020_
 
-I worked as the sole tech writer for the Ethereum Foundation and its many projects. My role included:
+I worked as the sole tech writer for the Ethereum Foundation and its projects. My role included:
 
 -   The Solidity project:
     -   Improving the getting started and contributors guides
@@ -128,7 +132,7 @@ Event Store creates an open source events-optimised database with commercial-onl
 -   Migrating to a new documentation platform
 -   Improving getting started guides
 -   Creating example applications
--   Maintaining reference documentation for an HTTP API, a .NET SDK, command line interface, and implementation guides
+-   Maintaining reference documentation for an HTTP API, a .NET SDK, command-line interface, and implementation guides
 -   Writing a book for a new release (in progress)
 -   Creating a new developer portal to hold old and forthcoming documentation (in progress)
 -   Integrating docs and support platform (fresh desk)
@@ -152,8 +156,7 @@ Kauri was a content management system and platform built on top of Ethereum tech
 _Sep 2016 - March 2017_
 
 As the technical writer for Contentful, an API-based CMS, I was responsible
-for writing and editing all developer documentation. I managed the documenta-
-tion infrastructure, information architecture, and analytics. I liaised with the
+for writing and editing all developer documentation. I managed the documentation infrastructure, information architecture, and analytics. I liaised with the
 engineering, marketing, and support teams to determine priorities and problems
 that needed addressing in the documentation.
 
@@ -170,7 +173,7 @@ applications, partnerships, social media, and much more.
 
 _March 2014 - Aug 2016_
 
-In this part-time role, I was responsible for SitePoint’s mobile channel. SitePoint
+In this part-time role, I was responsible for the SitePoint mobile channel. SitePoint
 is a global resource site for Developers and Designers that ranks highly on
 Alexis and has weekly traffic of about 1.5 million page views. My role involves
 commissioning and editing articles, engaging our community, and creating a
@@ -189,5 +192,3 @@ Summarised for brevity.
 -   CERES, Online Coordinator
 -   Green Renters, Operations
 -   Portable Content, Developer
-
-<!-- TODO: Add more -->
