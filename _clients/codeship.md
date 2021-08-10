@@ -2,6 +2,7 @@
 type: blogging
 title: CodeShip
 company_url: 'https://blog.codeship.com/'
+woek_link: 
 featured_image: images/clients/codeship.png
 start_date: 2016
 end_date: 2018

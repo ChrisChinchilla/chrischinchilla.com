@@ -71,12 +71,12 @@
       "sort_id": 2,
       "resolved_title": "Inside the fight to reclaim AI from Big Tech’s control",
       "resolved_url": "https://www.technologyreview.com/2021/06/14/1026148/ai-big-tech-timnit-gebru-paper-ethics/",
-      "excerpt": "In 2020, as the co-lead of Google’s ethical AI team, Gebru had reached out to Emily Bender, a linguistics professor at the University of Washington, and asked to collaborate on research about the troubling direction of artificial intelligence.",
+      "excerpt": "In 2020, as the co-lead of Google’s ethical AI team, Gebru had reached out to Emily Bender, a linguistics professor at the University of Washington, and the two decided to collaborate on research about the troubling direction of artificial intelligence.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2998",
+      "word_count": "3007",
       "lang": "en",
       "time_to_read": 14,
       "amp_url": "https://www.technologyreview.com/2021/06/14/1026148/ai-big-tech-timnit-gebru-paper-ethics/amp/",
@@ -86,7 +86,7 @@
         "logo": "https://logo.clearbit.com/technologyreview.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/technologyreview.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1161
+      "listen_duration_estimate": 1164
     },
     "3331386428": {
       "item_id": "3331386428",
@@ -384,16 +384,15 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1642",
+      "word_count": "118",
       "lang": "en",
-      "time_to_read": 7,
       "top_image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iFQ07U2ESXWc/v0/1200x617.png",
       "domain_metadata": {
         "name": "Bloomberg",
         "logo": "https://logo.clearbit.com/bloomberg.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/bloomberg.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 636
+      "listen_duration_estimate": 46
     },
     "3257325425": {
       "item_id": "3257325425",
@@ -2506,5 +2505,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1627900033
+  "since": 1628612805
 }
