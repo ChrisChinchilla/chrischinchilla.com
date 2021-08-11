@@ -10,46 +10,31 @@ title: Support
   {%- endif -%}
   <div class="row">
     <main class="top-column">
-      <p>If you like our writing, podcast, software contributions, presentations, maybe consider making a small
+      <p>If you like what I do, maybe consider making a small
         contribution. There are a number of ways you can do this:
-        <ul>
-          <li>Clicking an affiliate link in an article or below (always identified).</li>
-          <li>Clicking an Ad.</li>
-          <li>Donating through one of the services below.</li>
-          <li>Buy some merchandise, see the separate section below.</li>
-        </ul>
+      <ul>
+        <li>Clicking an affiliate link in an article (always identified).</li>
+        <li>Donating through one of the services to the right.</li>
+        <li>Buy some merchandise, see below.</li>
+      </ul>
       </p>
     </main>
 
     <aside class="top-column">
-      <div class="paypal">
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="NK8D4W9XZZLE2">
-          <input type="image" width="92" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_LG.gif" border="0"
-            name="submit" alt="PayPal – The safer, easier way to pay online!">
-          <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
-        </form>
-        <p>Donate with PayPal</p>
-      </div>
+      <a href="https://www.buymeacoffee.com/chrischinchilla" target="_blank"><img
+          src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee"
+          style="height: 60px !important;width: 217px !important;"></a>
+
+      <iframe src="https://github.com/sponsors/ChrisChinchilla/card" title="Sponsor ChrisChinchilla" height="225"
+        width="600" style="border: 0;"></iframe>
     </aside>
   </div>
   <div class="row">
-    <main class="top-column">
-      <h2>Stickers</h2>
-      {% picture listings images/new-logos.jpg alt="{{ post.title }}" %}
-      <p>Want one of our stickers? We'll send you one of each for free if you join our mailing list.</p>
-    </main>
-    <aside class="top-column">
-      <div class="full_ml">
-        {% include mailingListFull.html %}
-      </div>
-    </aside>
+    <h2>Merchandise</h2>
+    <p>I'm pretty happy with my Chinchilla mascot(s) and hope that you like it too. The various designs across the site
+      are available from Red Bubble as stickers, phone cases, note books and a whole lot more. Click through to see all
+      that's on offer.</p>
   </div>
-  <h2>Merchandise</h2>
-  <p>I'm pretty happy with my Chinchilla mascot(s) and hope that you like it too. The various designs across the site
-    are available from Red Bubble as stickers, phone cases, note books and a whole lot more. Click through to see all
-    that's on offer.</p>
   {% assign latest_posts = site.merchandise %}
   {% include post_list.html filtered_posts=latest_posts %}
 </div>

@@ -19,15 +19,15 @@
   <div class="column top-column">
     <div class="image">
       {% if post.image %}
-      {% picture listings {{ post.image }} alt="{{post.title}}" %} 
-{% else %}
-{% if post.title contains "DXpos" %}
-{% picture listings "images/dxpose-logo.png" alt="DXpose logo" %} 
-{% elsif post.title contains "Hands on" %}
-{% picture listings "images/dxpose-logo.png" alt="Hands on with logo" %} 
-{% elsif post.title contains "The Solo" %}
-{% picture listings "images/tsa-logo.png" alt="The Solo Adventurer logo" %} 
-{% endif %}
+      {% picture listings {{ post.image }} alt="{{post.title}}" %}
+      {% else %}
+      {% if post.title contains "DXpos" %}
+      {% picture listings "images/dxpose-logo.png" alt="DXpose logo" %}
+      {% elsif post.title contains "Hands on" %}
+      {% picture listings "images/dxpose-logo.png" alt="Hands on with logo" %}
+      {% elsif post.title contains "The Solo" %}
+      {% picture listings "images/tsa-logo.png" alt="The Solo Adventurer logo" %}
+      {% endif %}
       {% endif %}
     </div>
   </div>
@@ -58,7 +58,7 @@
         Your browser does not support the audio element.
       </audio>
     </div>
-    
+
     {%- elsif post.layout == "podcast" -%}
     <div>
       <audio controls>
@@ -89,18 +89,19 @@
       <a href="{{ post.newsletter.orig_url | prepend: site.baseurl }}">Email newsletter</a>
     </div>
     {% endif %}
-  {% if post.transcript %}
-  <div class="text-link transcript">
-    <a href="{{ post.url | prepend: site.baseurl }}">Transcript</a>
-  </div>
-  {% endif %}
-    <!-- <div class="tags">
-      {% if post.tags %}
-      <h4>Tags</h4>
-      {% for tag in post.tags %}
-      <a href="topics#{{ tag | slugify }}"> {{ tag }} </a> {% endfor %}
-      {% endif %}
-    </div> -->
+    {% if post.transcript %}
+    <div class="text-link transcript">
+      <a href="{{ post.url | prepend: site.baseurl }}">Transcript</a>
+    </div>
+    {% endif %}
+    {% if post.store_links %}
+    <div class="buy-links">
+      <h3>Where to buy</h3>
+      {% for link in post.store_links %}
+      <p><a href="{{ link.link }}">Buy on {{ link.store }}</a></p>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </div>
 {% endfor %}
