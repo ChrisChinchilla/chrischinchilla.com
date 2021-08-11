@@ -2,6 +2,7 @@
 type: documentation
 title: Event Store
 company_url: 'https://eventstore.org'
+work_link: https://developers.eventstore.com
 featured_image: images/clients/event-store.png
 category: Chris writing
 start_date: 2017
@@ -12,4 +13,4 @@ tags:
   - Event Sourcing
 ---
 
-Event Store is an open-source, functional database with Complex Event Processing in C# JavaScript. We maintain their documentation and technical blog posts.
+Event Store is an open-source, functional database with Complex Event Processing in C# JavaScript. I maintained their documentation and technical blog posts.

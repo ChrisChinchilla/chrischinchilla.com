@@ -14,4 +14,4 @@ tags:
 - containers
 ---
 
-Humanitec is building a platform to automate the continuous delivery process for Kubernetes-native applications. We contribute technical articles to their blog.
+Humanitec is building a platform to automate the continuous delivery process for Kubernetes-native applications. I contribute technical articles to their blog.

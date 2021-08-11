@@ -7,8 +7,8 @@ tags:
 - bots
 - writing
 company_url: 'https://www.messenger.com/'
-start_date: 2018-01-04T00:00:00.000Z
-end_date: 2018-09-01T00:00:00.000Z
+start_date: 2018
+end_date: 2018
 ---
 
-We helped create tutorials and blueprints to help developers build bots for Facebook Messenger.
+I helped create tutorials and blueprints to help developers build bots for Facebook Messenger.

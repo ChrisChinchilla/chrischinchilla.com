@@ -9,7 +9,7 @@ tags:
 - Tooling
 company_url: 'https://www.progress.com/'
 start_date: 19-01-01
-end_date: ongoing
+end_date: 2020
 ---
 
-Progress creates tooling and libraries for enterprise applications. We helped with blog posts.
+Progress creates tooling and libraries for enterprise applications. I helped with blog posts.

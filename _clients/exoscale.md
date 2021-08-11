@@ -7,8 +7,8 @@ tags:
 - cloud
 - kubernetes
 company_url: 'https://www.exoscale.com/'
-start_date: 18-06-13
-end_date: ongoing
+start_date: 2018
+end_date: 2020
 ---
 
-We helped this Swiss hosting company with technical blog content.
+I helped this Swiss hosting company with technical blog content.

@@ -8,8 +8,8 @@ tags:
 - Programming
 - JavaScript
 company_url: 'https://www.devspotlight.com/'
-start_date: 20-06-01
+start_date: 2020
 end_date: Ongoing
 ---
 
-We write posts for several Dev Spotlight clients.
+I write posts for several Dev Spotlight clients including Kong, Salesforce, and others.

@@ -12,4 +12,4 @@ start_date: 20-05-15
 end_date: 20-07-31
 ---
 
-We helped with documentation for this open source camera stack and framework for Linux, Android, and ChromeOS.
+I helped with documentation for this open source camera stack and framework for Linux, Android, and ChromeOS.

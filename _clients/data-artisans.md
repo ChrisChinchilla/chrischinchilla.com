@@ -12,4 +12,4 @@ tags:
   - Data Streaming
 ---
 
-data Artisans was founded in 2014 by the original creators of Apache Flink�, a scalable stream and batch data processing framework. We helped the company with documentation reviews and technical blog posts.
+data Artisans was founded in 2014 by the original creators of Apache Flink, a scalable stream and batch data processing framework. I helped the company with documentation reviews and technical blog posts. _data Artisans is now owned by Ali Baba cloud_.

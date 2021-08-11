@@ -12,4 +12,4 @@ tags:
 - workshops
 ---
 
-Kauri is a ConsenSys spoke focussed on building a technical knowledge resource for the Ethereum ecosystem. We help source writers to contribute content, edit their work, offer documentation support to projects, create technical writing training materials, and coordinate and mentor the community in better technical writing practices.
+Kauri is a ConsenSys spoke focussed on building a technical knowledge resource for the Ethereum ecosystem. I helped source writers to contribute content, edited their work, offered documentation support to projects, created technical writing training materials, and coordinated and mentored the community in better technical writing practices. _Kauri lost its funding in 2020 and is now archived_.

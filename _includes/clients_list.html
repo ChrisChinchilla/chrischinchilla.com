@@ -19,15 +19,18 @@
     </h3>
     {% endif %}
     <div>
-      <p>{{ post.excerpt }}</p>
+      <p>{{ post.content }}</p>
     </div>
-    <!-- <div class="tags">
-      {% if post.tags %}
-      <h4>Tags</h4>
-      {% for tag in post.tags %}
-      <a href="topics#{{ tag | slugify }}"> {{ tag }} </a> {% endfor %}
+    <div class="tags">
+      {% if post.work_link %}
+      <h4>Links</h4>
+      <ul>
+      {% for link in post.work_link %}
+      <li><a href="{{ link }}"> {{ link }} </a></li>
+       {% endfor %}
       {% endif %}
-    </div> -->
+    </ul>
+    </div>
   </div>
 </div>
 {% endfor %}

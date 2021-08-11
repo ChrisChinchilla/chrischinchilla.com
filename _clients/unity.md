@@ -12,4 +12,4 @@ start_date: 20-05-11
 end_date: 20-05-27
 ---
 
-We helped with documentation for this plugin for the Unity editor for AR development.
+I helped with documentation for this plugin for the Unity editor for AR development.
