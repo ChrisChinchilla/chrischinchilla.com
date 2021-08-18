@@ -8,10 +8,10 @@
       "given_url": "https://email.getpocket.com/ls/click?upn=ky17TgJ1REx4YaZOG279kTg3Enp6gFe2YTtT5koqs9aStKnsn6EOwy9PmMTt8zhrmGYq_TUjSesV49JCkEJuFalsL6QNfSWXPOWp7EY0VNoXTk3ZOOZL4zuLpgia0vIMSGJtu92q-2BOWKmGaoIRoDizu1eDNBUB1YEVTINldwE4gbNlcaLy8Fk3dgO-2FXbf6rfKFqC-2BqxO7vyhAZ65XYxRoPnL6eSRaJM9er8wiJSY7JuAR1t3OrgMFxUnF-2BmMz8zHlow7wIyvlCQrIblP-2FXpyTHOeftssjisOBvkTPtEQXZZoWvaExcw8ooEXCJ7mgaPX2SOFW-2FeROnZkPnyPzbhnqVYzD0psPw2xyPQwQ5uQtYwMiRIcVOb0zaKfojZMExt62QHjB-2FJ8YF3YwZGKA-2FpmpKiCRKu0Wz2sd651u1l-2FOQMS5asHWbhcwAg98EdzvK6YzrOca",
       "given_title": "",
       "favorite": "1",
-      "status": "0",
+      "status": "1",
       "time_added": "1627985897",
-      "time_updated": "1628160394",
-      "time_read": "0",
+      "time_updated": "1629106815",
+      "time_read": "1629106815",
       "time_favorited": "1628051557",
       "sort_id": 0,
       "resolved_title": "Why is the English spelling system so weird and inconsistent?",
@@ -1027,17 +1027,17 @@
       "time_read": "1567749457",
       "time_favorited": "0",
       "sort_id": 35,
-      "resolved_title": "Translation with a Sequence to Sequence Network and Attention — PyTorch Tutorials 0.4.0 documentation",
+      "resolved_title": "NLP From Scratch: Translation with a Sequence to Sequence Network and Attention",
       "resolved_url": "https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html",
-      "excerpt": "In this project we will be teaching a neural network to translate from French to English.  This is made possible by the simple but powerful idea of the sequence to sequence network, in which two recurrent neural networks work together to transform one sequence to another.",
-      "is_article": "0",
+      "excerpt": "This is the third and final tutorial on doing “NLP From Scratch”, where we write our own classes and functions to preprocess the data to do our NLP modeling tasks.",
+      "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "3463",
+      "word_count": "3783",
       "lang": "en",
-      "time_to_read": 16,
-      "listen_duration_estimate": 1341
+      "time_to_read": 17,
+      "listen_duration_estimate": 1464
     },
     "1908418419": {
       "item_id": "1908418419",
@@ -1417,16 +1417,16 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1038",
+      "word_count": "1049",
       "lang": "en",
       "time_to_read": 5,
-      "top_image_url": "https://pocket-image-cache.com/1200x/filters:no_upscale():format(jpg):extract_cover()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F289%2F1566844205_direct.jpg",
+      "top_image_url": "https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F289%2F1566844205_direct.jpg",
       "domain_metadata": {
         "name": "Pocket",
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 402
+      "listen_duration_estimate": 406
     },
     "2463247869": {
       "item_id": "2463247869",
@@ -1691,5 +1691,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1628612807
+  "since": 1629264011
 }

@@ -102,21 +102,21 @@
       "sort_id": 3,
       "resolved_title": "Police caught one of the web’s most dangerous paedophiles. Then everything went dark",
       "resolved_url": "https://www.wired.co.uk/article/whatsapp-encryption-child-abuse",
-      "excerpt": "A trail of clues helped police close in on a dangerous predator. Now, a battle over the future of end-to-end encryption could change the rules of engagement",
-      "is_article": "0",
+      "excerpt": "A trail of clues helped police close in on a dangerous predator. Now, a battle over the future of end-to-end encryption could change the rules of engagement TO HIS VICTIMS, David Wilson was a 13-year-old girl.",
+      "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "0",
+      "word_count": "4394",
       "lang": "en",
-      "amp_url": "https://www.wired.co.uk/article/whatsapp-encryption-child-abuse/amp",
+      "time_to_read": 20,
       "top_image_url": "https://media.wired.co.uk/photos/609a841e5d42e4f1bc0cc97c/16:9/w_1280,c_limit/WIRED-Hack.jpg",
       "domain_metadata": {
         "name": "WIRED UK",
         "logo": "https://logo.clearbit.com/wired.co.uk?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 0
+      "listen_duration_estimate": 1701
     },
     "3325600675": {
       "item_id": "3325600675",
@@ -2505,5 +2505,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1628612805
+  "since": 1629264009
 }

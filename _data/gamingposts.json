@@ -8,10 +8,10 @@
       "given_url": "https://en.wikipedia.org/wiki/Corrupted_Blood_incident",
       "given_title": "Corrupted Blood incident - Wikipedia",
       "favorite": "1",
-      "status": "0",
+      "status": "1",
       "time_added": "1627472695",
-      "time_updated": "1628160406",
-      "time_read": "0",
+      "time_updated": "1629106815",
+      "time_read": "1629106815",
       "time_favorited": "1627539626",
       "sort_id": 0,
       "resolved_title": "Corrupted Blood incident",
@@ -590,5 +590,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1628612806
+  "since": 1629264010
 }
