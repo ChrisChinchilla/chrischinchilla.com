@@ -330,7 +330,8 @@
       "word_count": "2865",
       "lang": "en",
       "time_to_read": 13,
-      "top_image_url": "https://i1.wp.com/d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/01/16222044/pic4735035-edit.jpg?fit=1200%2C800&ssl=1",
+      "amp_url": "https://quillette.com/2020/01/17/goa-gods-gandhi-and-greed-lessons-in-colonialism-from-four-boardgames/amp/",
+      "top_image_url": "https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2020/01/16222044/pic4735035-edit.jpg",
       "domain_metadata": {
         "name": "Quillette",
         "logo": "https://logo.clearbit.com/quillette.com?size=800",
@@ -590,5 +591,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1629264010
+  "since": 1630500931
 }

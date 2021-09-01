@@ -1830,17 +1830,17 @@
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "1",
-      "word_count": "1143",
+      "has_image": "0",
+      "word_count": "1254",
       "lang": "en",
-      "time_to_read": 5,
-      "top_image_url": "https://wi-images.condecdn.net/image/lw8dVPYoyOn/crop/1440/0.5235602094240838/f/wired-wellness-2c.jpg",
+      "time_to_read": 6,
+      "top_image_url": "https://media.wired.co.uk/photos/606d9a2689f3babb1f012ee4/16:9/w_1280,c_limit/wired-wellness-2c.jpg",
       "domain_metadata": {
         "name": "WIRED UK",
         "logo": "https://logo.clearbit.com/wired.co.uk?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 442
+      "listen_duration_estimate": 485
     },
     "2664726614": {
       "item_id": "2664726614",
@@ -2223,8 +2223,8 @@
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "0",
-      "word_count": "1317",
+      "has_image": "1",
+      "word_count": "1316",
       "lang": "en",
       "time_to_read": 6,
       "amp_url": "https://www.rollingstone.com/culture/culture-features/myspace-archive-internet-memories-809591/amp/",
@@ -2234,7 +2234,7 @@
         "logo": "https://logo.clearbit.com/rollingstone.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/rollingstone.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 510
+      "listen_duration_estimate": 509
     },
     "2515834874": {
       "item_id": "2515834874",
@@ -2505,5 +2505,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1629264009
+  "since": 1630500930
 }
