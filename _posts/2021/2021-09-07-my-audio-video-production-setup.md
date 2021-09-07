@@ -120,8 +120,6 @@ I occasionally use another small application called “[KeyCastr][27]” to show
 
 ### Control
 
-{% picture article images/keycastr.jpeg alt="Keycastr" %}
-
 {% picture article images/IMG_20210625_143818.jpeg alt="Streamdeck Mini" %}
 
 I have a [Streamdeck mini][28] with a bunch of useful shortcuts for OBS, or whatever other application I’m using setup so I can trigger changes without having to use the mouse. If you don’t want to invest in hardware, they also have a pretty good mobile application to do the same.
