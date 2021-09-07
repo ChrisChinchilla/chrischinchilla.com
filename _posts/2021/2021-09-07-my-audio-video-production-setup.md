@@ -16,7 +16,7 @@ I’ve been running podcasts for years, and while I worked on some video courses
 
 ## Disclaimer
 
-I spend a lot of time on making videos, and some of the product links here are affiliate links to cover even some of the time and money I have invested. If yo udon't like affiliate links, but would still like to say thanks, subscribe to my [YouTube](https://www.youtube.com/channel/UCgnrx8qi4qhmN6sBebdDrmg) or [Twitch](https://www.twitch.tv/chrischinchilla) channel, or find [other ways to support me on my website](https://chrischinchilla.com/support/).
+I spend a lot of time on making videos, and some of the product links here are affiliate links to cover even some of the time and money I have invested. If you don't like affiliate links, but would still like to say thanks, subscribe to my [YouTube](https://www.youtube.com/channel/UCgnrx8qi4qhmN6sBebdDrmg) or [Twitch](https://www.twitch.tv/chrischinchilla) channel, or find [other ways to support me on my website](https://chrischinchilla.com/support/).
 
 ## A vs B setup
 
