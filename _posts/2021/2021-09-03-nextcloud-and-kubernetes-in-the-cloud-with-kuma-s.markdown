@@ -1,6 +1,6 @@
 ---
-title: "Nextcloud and Kubernetes in the Cloud With Kuma Service Mesh"
-created_at: 2021-08-31
+title: "Nextcloud and Kubernetes in the Cloud With Kuma Service Mesh (article)"
+created_at: 2021-09-03
 author: "Chris Ward"
 categories: writing dzone
 tags: 
@@ -14,4 +14,3 @@ image: images/15125235.jpeg
 layout: post
 ---
 Want a powerful, self-hosted personal cloud? Then look no further than Nextcloud running on Kubernetes with a service mesh to add all the help and features you need.
-

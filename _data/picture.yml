@@ -1,4 +1,13 @@
 presets:
+  article:
+    format_quality:
+      jpg: 75
+      png: 65
+      webp: 55
+    ppi: [1, 2]
+    widths: [750]
+    attr:
+      class: article
   home:
     ppi: [1, 2]
     widths: [600]

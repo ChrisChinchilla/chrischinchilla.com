@@ -45,8 +45,9 @@
     </h3>
     {% else %}
     <h3>
-      {{ post.title }}
-    </h3>
+      <a href="{{ post.url }}" rel="canonical">
+        {{ post.title }}</a>
+          </h3>
     {% endif %}
     <div>
       <p>{{ post.excerpt }}</p>

@@ -131,6 +131,10 @@ picture:
   markup: picture
   nomarkdown: false
   fast_build: true
+  format_quality:
+    jpg: 75
+    png: 65
+    webp: 55
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
