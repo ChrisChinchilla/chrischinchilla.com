@@ -8,10 +8,10 @@
       "given_url": "https://technologyreview.us11.list-manage.com/track/click?u=47c1a9cec9749a8f8cbc83e78&id=123b086a5d&e=2d49e178b1",
       "given_title": "",
       "favorite": "1",
-      "status": "0",
+      "status": "1",
       "time_added": "1631445174",
-      "time_updated": "1631524757",
-      "time_read": "0",
+      "time_updated": "1631858824",
+      "time_read": "1631858823",
       "time_favorited": "1631524755",
       "sort_id": 0,
       "resolved_title": "China has started a grand experiment in AI education. It could reshape how the world learns.",
@@ -39,10 +39,10 @@
       "given_url": "https://link.wired.co.uk/click/24968615.28057/aHR0cHM6Ly93d3cud2lyZWQuY28udWsvYXJ0aWNsZS9hZmdoYW5pc3Rhbi10YWxpYmFuLWludGVybmV0P3VJRD1lODg3M2NhMWFhZmM0MTM3NjhkNjRhZTZlZWI2NjMyMzVkNmZmNDg4YjAwYTA2NmI0OTQwMTU0YWMwOTYyY2VkJnV0bV9jYW1wYWlnbj1uZXdzbGV0dGVyX2RhaWx5JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fYnJhbmQ9d2kmdXRtX21haWxpbmc9V0lfTkVXU19EYWlseV8wNzA5MjE/5fae60a450eb9247ef2222e1D01b4fae9",
       "given_title": "",
       "favorite": "1",
-      "status": "0",
+      "status": "1",
       "time_added": "1631021209",
-      "time_updated": "1631110528",
-      "time_read": "0",
+      "time_updated": "1632048642",
+      "time_read": "1632048641",
       "time_favorited": "1631084146",
       "sort_id": 1,
       "resolved_title": "The battle for control of Afghanistan’s internet",
@@ -2566,5 +2566,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1631627484
+  "since": 1632406155
 }

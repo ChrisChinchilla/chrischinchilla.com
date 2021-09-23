@@ -386,8 +386,7 @@
       "word_count": "2232",
       "lang": "en",
       "time_to_read": 10,
-      "amp_url": "https://www.dicebreaker.com/amp/categories/board-game/best-games/best-rpg-board-games",
-      "top_image_url": "https://assets.dicebreaker.com/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg/BROK/resize/1920%3E/format/jpg/quality/80/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg",
+      "top_image_url": "https://assets.dicebreaker.com/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg/BROK/resize/1200x630%3E/format/jpg/quality/80/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg",
       "listen_duration_estimate": 864
     },
     "3103057580": {
@@ -563,22 +562,22 @@
       "sort_id": 20,
       "resolved_title": "13 Sci-Fi And Fantasy Board Games That Are As Gorgeous To Behold As They Are Fun To Play",
       "resolved_url": "https://www.gizmodo.com.au/2020/05/13-sci-fi-and-fantasy-board-games-that-are-as-gorgeous-to-behold-as-they-are-fun-to-play/",
-      "excerpt": "Have as much fun admiring as you do playing these gorgeous games.",
+      "excerpt": "As we shut ourselves inside and try to find things to do, many have turned to the world of tabletop gaming to find comfort and distraction (and something to do that scratches that social itch in the era of social distancing).",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1259",
+      "word_count": "1250",
       "lang": "en",
       "time_to_read": 6,
-      "amp_url": "https://www.gizmodo.com.au/2020/05/13-sci-fi-and-fantasy-board-games-that-are-as-gorgeous-to-behold-as-they-are-fun-to-play/amp",
-      "top_image_url": "https://i.kinja-img.com/gawker-media/image/upload/c_lfill,w_1200,h_628,q_90/varedkfcnrojz3zul2e7.jpg",
+      "amp_url": "https://www.gizmodo.com.au/2020/05/13-sci-fi-and-fantasy-board-games-that-are-as-gorgeous-to-behold-as-they-are-fun-to-play/amp/",
+      "top_image_url": "https://imgix.gizmodo.com.au/content/uploads/sites/2/2020/05/08/varedkfcnrojz3zul2e7.png?ar=16%3A9&auto=format&fit=crop&q=65&w=1200",
       "domain_metadata": {
         "name": "Gizmodo India",
         "logo": "https://logo.clearbit.com/gizmodo.com.au?size=800",
         "greyscale_logo": "https://logo.clearbit.com/gizmodo.com.au?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 487
+      "listen_duration_estimate": 484
     },
     "2851854126": {
       "item_id": "2851854126",
@@ -616,5 +615,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1631627486
+  "since": 1632406156
 }
