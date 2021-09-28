@@ -452,13 +452,13 @@
       "time_favorited": "1593251601",
       "sort_id": 15,
       "resolved_title": "OpenAI’s Text Generator Is Going Commercial",
-      "resolved_url": "https://www.wired.com/story/openai-text-generator-going-commercial",
+      "resolved_url": "https://www.wired.com/story/openai-text-generator-going-commercial/",
       "excerpt": "Last spring, artificial intelligence research institute OpenAI said it had made software so good at generating text—including fake news articles—that it was too dangerous to release.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1292",
+      "word_count": "1261",
       "lang": "en",
       "time_to_read": 6,
       "amp_url": "https://www.wired.com/story/openai-text-generator-going-commercial/amp",
@@ -468,7 +468,7 @@
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 500
+      "listen_duration_estimate": 488
     },
     "2950212436": {
       "item_id": "2950212436",
@@ -1627,15 +1627,16 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2346",
+      "word_count": "2420",
       "lang": "en",
       "time_to_read": 11,
+      "top_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flesch_Kincaid_readability_tests.svg/1200px-Flesch_Kincaid_readability_tests.svg.png",
       "domain_metadata": {
         "name": "Wikipedia",
         "logo": "https://logo.clearbit.com/wikipedia.org?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wikipedia.org?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 908
+      "listen_duration_estimate": 937
     },
     "1027873493": {
       "item_id": "1027873493",
@@ -1722,5 +1723,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1632406157
+  "since": 1632814150
 }

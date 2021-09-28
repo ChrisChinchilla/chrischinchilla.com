@@ -229,7 +229,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1572",
+      "word_count": "1568",
       "lang": "en",
       "time_to_read": 7,
       "top_image_url": "https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F6258%2F1618951073_GettyImages-523188504.jpg",
@@ -238,7 +238,7 @@
         "logo": "https://logo.clearbit.com/getpocket.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/getpocket.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 609
+      "listen_duration_estimate": 607
     },
     "3318414822": {
       "item_id": "3318414822",
@@ -591,21 +591,21 @@
       "sort_id": 19,
       "resolved_title": "Muslim scholars are working to reconcile Islam and AI",
       "resolved_url": "https://www.wired.co.uk/article/islamic-ai",
-      "excerpt": "Artificial Intelligence is being developed in uber-secular western labs. What should devout Muslims make of it?",
-      "is_article": "0",
+      "excerpt": "Artificial Intelligence is being developed in uber-secular western labs. What should devout Muslims make of it? Conceived in the research labs of the Silicon Valley, artificial intelligence is deeply rooted in secular ideals of progress.",
+      "is_article": "1",
       "is_index": "0",
       "has_video": "0",
-      "has_image": "0",
-      "word_count": "0",
+      "has_image": "1",
+      "word_count": "950",
       "lang": "en",
-      "amp_url": "https://www.wired.co.uk/article/islamic-ai/amp",
+      "time_to_read": 4,
       "top_image_url": "https://media.wired.co.uk/photos/606d9bc79a15f73a597a1899/16:9/w_1280,c_limit/0121stislamicai__01.jpg",
       "domain_metadata": {
         "name": "WIRED UK",
         "logo": "https://logo.clearbit.com/wired.co.uk?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.co.uk?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 0
+      "listen_duration_estimate": 368
     },
     "3226255499": {
       "item_id": "3226255499",
@@ -2566,5 +2566,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1632406155
+  "since": 1632814149
 }
