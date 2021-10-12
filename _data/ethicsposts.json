@@ -1600,14 +1600,14 @@
       "time_read": "1569389711",
       "time_favorited": "1569389710",
       "sort_id": 53,
-      "resolved_title": "Programmer who took down open source pieces over Chef ICE contract responds",
+      "resolved_title": "Programmer who took down open-source pieces over Chef ICE contract responds",
       "resolved_url": "https://techcrunch.com/2019/09/23/programmer-who-took-down-open-source-pieces-over-chef-ice-contract-responds/",
       "excerpt": "On Friday afternoon Chef CEO Barry Crist and CTO Corey Scobie sat down with TechCrunch to defend their contract with ICE after a firestorm on social media called for them to cut ties with the controversial agency.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "684",
+      "word_count": "677",
       "lang": "en",
       "time_to_read": 3,
       "amp_url": "https://techcrunch.com/2019/09/23/programmer-who-took-down-open-source-pieces-over-chef-ice-contract-responds/amp/",
@@ -1617,7 +1617,7 @@
         "logo": "https://logo.clearbit.com/techcrunch.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/techcrunch.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 265
+      "listen_duration_estimate": 262
     },
     "2733665301": {
       "item_id": "2733665301",
@@ -2545,12 +2545,12 @@
       "sort_id": 85,
       "resolved_title": "The Ethics Of Persuasion",
       "resolved_url": "https://www.smashingmagazine.com/2018/06/ethics-of-persuasion/",
-      "excerpt": "13 min read UX, Design Patterns, Ethics, Web Design Saved for offline reading Share on Twitter, LinkedIn Build in-demand skills like UX, UI and HCI — Northwestern online MS in Info.",
+      "excerpt": "13 min read UX, Design Patterns, Ethics, Web Design Share on Twitter, LinkedIn Learn more about the challenge Creating And Maintaining Design Systems Designing Landing Pages That Sell Build in-demand skills like UX, UI and HCI — Northwestern online MS in Info.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "2812",
+      "word_count": "2825",
       "lang": "en",
       "time_to_read": 13,
       "top_image_url": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/7258fcad-c133-4e8c-a310-215b7d1b73d7/captology-1200.jpg",
@@ -2559,12 +2559,12 @@
         "logo": "https://logo.clearbit.com/smashingmagazine.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/smashingmagazine.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1089
+      "listen_duration_estimate": 1094
     }
   },
   "error": null,
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1632814149
+  "since": 1634026218
 }
