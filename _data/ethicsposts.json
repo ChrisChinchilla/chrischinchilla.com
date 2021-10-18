@@ -377,7 +377,7 @@
       "time_favorited": "0",
       "sort_id": 12,
       "resolved_title": "I asked an AI to tell me how beautiful I am",
-      "resolved_url": "https://www.technologyreview.com/2021/03/05/1020133/ai-algorithm-rate-beauty-score-attractive-face/#Echobox=1619799697",
+      "resolved_url": "https://www.technologyreview.com/2021/03/05/1020133/ai-algorithm-rate-beauty-score-attractive-face/",
       "excerpt": "Qoves started as a studio that would airbrush images for modeling agencies; now it is a “facial aesthetics consultancy” that promises answers to the “age-old question of what makes a face attractive.",
       "is_article": "1",
       "is_index": "0",
@@ -1865,7 +1865,7 @@
       "word_count": "467",
       "lang": "en",
       "amp_url": "https://www.zdnet.com/google-amp/article/ibm-accused-of-targeting-older-workers-as-up-to-100000-laid-off/",
-      "top_image_url": "https://zdnet1.cbsistatic.com/hub/i/r/2019/08/01/fb44e494-f216-4c8b-b40b-46a128c5c689/thumbnail/770x578/8fa20cf1782239a9fbbf87ee309d59ff/specskeyboardistock-518149316.jpg",
+      "top_image_url": "https://www.zdnet.com/a/img/resize/f88f2cd261701b5148f26c321452bfa61887ed2f/2019/08/01/fb44e494-f216-4c8b-b40b-46a128c5c689/specskeyboardistock-518149316.jpg?width=770&height=578&fit=crop&auto=webp",
       "domain_metadata": {
         "name": "ZDNet",
         "logo": "https://logo.clearbit.com/zdnet.com?size=800",
@@ -2566,5 +2566,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1634026218
+  "since": 1634552961
 }
