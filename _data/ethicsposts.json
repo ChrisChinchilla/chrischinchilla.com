@@ -1831,7 +1831,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "4656",
+      "word_count": "4643",
       "lang": "en",
       "time_to_read": 21,
       "amp_url": "https://amp.theguardian.com/technology/2019/sep/05/the-race-to-create-a-perfect-lie-detector-and-the-dangers-of-succeeding",
@@ -1841,7 +1841,7 @@
         "logo": "https://logo.clearbit.com/theguardian.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theguardian.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 1802
+      "listen_duration_estimate": 1797
     },
     "2679778465": {
       "item_id": "2679778465",
@@ -2566,5 +2566,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1634552961
+  "since": 1635180120
 }
