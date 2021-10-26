@@ -19,7 +19,7 @@ I am aware that some tools overlap categories, and in those cases, I have tried 
 
 - I am fully aware that I will continuously discover more and more tools I can add to this list. So check back regularly for updates.
 - I will also attempt to convert this list to other formats, including an awesome list and video(s). As I create those, I will add links here.
-- If you want to suggest entries and are familiar with GitHub, [then suggest changes here](#).
+- If you want to suggest entries and are familiar with GitHub, [then suggest changes here](https://github.com/ChrisChinchilla/chrischinchilla.com/blob/master/_posts/2021/2021-10-28-games-tools.md).
 
 ## Character sheets
 
