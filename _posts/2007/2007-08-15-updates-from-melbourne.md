@@ -2,7 +2,9 @@
 layout: post
 title: Updates from Melbourne
 date: '2007-08-15T20:52:26+00:00'
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: music melbourne
 ---
 

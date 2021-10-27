@@ -3,7 +3,9 @@ layout: post
 title: MySamaris flyer
 created: 2012-06-03T00:00:00.000Z
 image: images/mysamaris.jpg
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: merchandise conferences
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: Mobile Mondays Melbourne Sept 2013
 created: 1378895728
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: mobile events
 ---
 

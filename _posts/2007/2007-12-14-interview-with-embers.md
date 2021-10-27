@@ -3,7 +3,9 @@ layout: post
 title: Interview with Embers
 date: '2007-12-14T01:06:57+00:00'
 tags: music interview
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 My latest column is an interview with Experimental noise four piece 'Embers'.

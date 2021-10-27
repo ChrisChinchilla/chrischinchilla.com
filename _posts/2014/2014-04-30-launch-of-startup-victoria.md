@@ -2,7 +2,9 @@
 layout: post
 title: Launch of Startup Victoria
 created: 1398815684
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 There was a panel discussion at tonight's launch but it was really all about launching Victoria's peak body for startups, entrepreneurs and founders tonight and the packed room was very much in drinking and talking mode.

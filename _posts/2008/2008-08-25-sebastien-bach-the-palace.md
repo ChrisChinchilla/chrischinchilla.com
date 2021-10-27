@@ -2,8 +2,12 @@
 layout: post
 title: Sebastien Bach - The Palace
 created: 2008-08-25T00:00:00.000Z
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Sebastian Bach represents everything good and / or bad about heavy rock depending on your point of view. He and his band tick all the anticipated and expected boxes, long flowing curly locks, tight (and for some members, stripy) jeans, sleeveless vests, stupendous Marshall stacks and some on stage moves straight out of 'Rock moves 101'. The crowd is equally suited to the band, resplendent in a sea of metal band T-Shirts, VB cans, Devil hands and increasingly drunken swaying.

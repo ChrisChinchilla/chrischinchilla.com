@@ -3,7 +3,9 @@ layout: post
 title: Interviewing the Melbourne Zine Scene
 date: '2007-06-27T20:48:35+00:00'
 tags: zines creative melbourne
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 Second interview with local zine dignitaries...

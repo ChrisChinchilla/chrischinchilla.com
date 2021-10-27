@@ -2,7 +2,9 @@
 layout: post
 title: "Subtle signs you're not from round here"
 created: 1409125286
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 I've been in Germany for a couple of months now and of course there the obvious signs you're not a local when you open your mouth.

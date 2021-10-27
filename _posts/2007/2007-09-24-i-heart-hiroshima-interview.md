@@ -3,7 +3,9 @@ layout: post
 title: I Heart Hiroshima Interview
 date: '2007-09-24T16:00:43+00:00'
 tags: music interview
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 Have a read of a short interview with I Heart Hiroshima on my latest Indieoma.com post...

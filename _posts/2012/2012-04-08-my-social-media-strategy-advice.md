@@ -2,8 +2,11 @@
 layout: post
 title: My Social Media strategy advice
 created: 1333857256
-categories: writing chrischinchilla
-tags: creative
+categories:
+ - writing
+ - chrischinchilla
+tags:
+ - creative
 ---
 
 Here's a quote/analogy I've been using for a while to overarchingly describe a strategy for engaging on social media that I've found helpful and descriptive.

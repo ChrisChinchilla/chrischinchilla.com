@@ -3,7 +3,9 @@ layout: post
 title: 'Drupal Melbourne meetup, Aug 13th 2013'
 created: 1376441876
 image: images/drupalmel.png
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 Three presentations tonight, followed by usual natters at the lovely Last Jar afterwards.

@@ -2,8 +2,11 @@
 layout: post
 title: Random Sunday - Creative Writing
 created: 1207717534
-categories: writing chrischinchilla
-tags: creative
+categories:
+ - writing
+ - chrischinchilla
+tags:
+ - creative
 ---
 
 Let down the wall, try not to use a piano, you'll amaze yourself.

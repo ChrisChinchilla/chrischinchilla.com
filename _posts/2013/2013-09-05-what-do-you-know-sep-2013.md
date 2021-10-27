@@ -2,7 +2,9 @@
 layout: post
 title: What do you know Sep 2013
 created: 2013-09-05T00:00:00.000Z
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: events startups programming design
 ---
 

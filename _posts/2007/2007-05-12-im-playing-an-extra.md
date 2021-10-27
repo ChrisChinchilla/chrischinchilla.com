@@ -2,8 +2,12 @@
 layout: post
 title: "I'm playing an Extra"
 date: '2007-05-12T20:52:07+00:00'
-categories: writing chrischinchilla
-tags: drama creative
+categories:
+ - writing
+ - chrischinchilla
+tags:
+ - drama 
+ - creative
 ---
 
 When I was younger I did a lot of acting at school and at some youth drama groups, but that was nigh on 7 or 8 years ago...

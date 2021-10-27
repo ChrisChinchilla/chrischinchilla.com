@@ -2,7 +2,9 @@
 layout: post
 title: 'Global Space Odyssey, Leipzig 2014'
 created: 1405183573
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 Wow!

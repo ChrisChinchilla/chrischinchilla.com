@@ -3,7 +3,9 @@ layout: post
 title: Avoiding problems with your Drupal project
 created: 1375516463
 image: images/druplicon_sad.png
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 Over the past year I've been slowly building a list of gotchas, mistaken assumptions and potential slip ups that have hit projects I've been involved with several times, or seemed so blindingly obvious after the moment that they just had to be documented. This is one of the many articles I have that may grow over time as I discover more useful tidbits.

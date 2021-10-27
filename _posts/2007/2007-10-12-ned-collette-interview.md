@@ -2,7 +2,9 @@
 layout: post
 title: Ned Collette Interview
 date: '2007-10-12T23:06:45+00:00'
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: music interview
 ---
 

@@ -3,7 +3,9 @@ layout: post
 title: Featurefull vs Usable
 created: 1367669765
 image: images/feature-bloat.png
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 I've been having some thoughts recently on the paths that many open source projects seem to follow and who they are really designed for, the developer or the users?

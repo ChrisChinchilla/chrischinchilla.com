@@ -2,8 +2,12 @@
 layout: post
 title: Children Collide and Clutch Reviews
 date: '2007-12-06T18:18:10+00:00'
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 The past 10 days I've been stupidly busy with some freelance work editing videos for a State government project, ohh the glamour!

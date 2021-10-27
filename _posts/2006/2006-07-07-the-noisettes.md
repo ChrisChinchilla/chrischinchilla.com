@@ -2,8 +2,12 @@
 layout: post
 title: The Noisettes
 created: 1152285036
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 The Noisettes formed as the band they are now in the wilds of South East London at the infamous Brits school in Croydon less than three years ago. Consisting of Shingai on vocals and bass, Dan on guitar and Jamie on drums, the band rapidly rehearsed and recorded their debut 4-track EP, Three moods of the Noisettes, releasing it in Summer 2004, the band then went on to receive critical acclaim and some lucrative support slots with the likes of Babyshambles and Mystery Jets.

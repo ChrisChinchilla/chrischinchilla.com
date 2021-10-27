@@ -4,7 +4,9 @@ title: 'A Mind Forever Voyaging: A History of Storytelling in Video Games by Dyl
 created: 2015-12-26T00:00:00.000Z
 image: images/image-a-mind-forever-voyaging.jpg
 categories: projects chipshop
-tags: books reviews
+tags:
+ - books 
+ - reviews
 ---
 
 As part of creating Chip Shop (and future game ideas) I read recommendations on reading about (and playing) various types of games, not just board games.

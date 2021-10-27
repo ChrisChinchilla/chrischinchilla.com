@@ -2,8 +2,12 @@
 layout: post
 title: Little Red - The Tote
 created: 1182014910
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Kicking off Little Red's second Tote Residency night is 'Definite Article' with their first gig under a new name that is not much better than their old, 'Squeaks & Squeals'. Vocalist Mark wears a silly hat and the band have a drum machine so songs never quite get going, but contain enough pleasant harmonies and melodies to maintain interest. As the room fills 'Magnum Gumbo Detonator' take to the stage, vocalist Bernie's slightly inane grin seemingly happy with the crowd. They're a funk band without a lot of funk and a soul band without a lot of soul, unyet their pots of charm and sense of fun carry the show, captivating the crowd, a limbo contest during the last song winning all but the coldest of hearts.

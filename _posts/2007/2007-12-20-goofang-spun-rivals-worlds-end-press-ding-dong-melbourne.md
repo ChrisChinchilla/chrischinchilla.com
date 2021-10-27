@@ -2,8 +2,12 @@
 layout: post
 title: 'Goofang, Spun Rivals, Worlds End Press - Ding Dong, Melbourne'
 created: 1198177896
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Ding Dong is sadly a little empty tonight, maybe everyone is at home performing some last minute research into the capabilities of their local party candidates. We hope.

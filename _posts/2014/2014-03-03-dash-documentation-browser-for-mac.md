@@ -2,7 +2,9 @@
 layout: post
 title: Dash - documentation browser for Mac
 created: 1393878049
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 image: images/dash.png
 ---
 

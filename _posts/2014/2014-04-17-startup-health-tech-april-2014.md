@@ -2,7 +2,9 @@
 layout: post
 title: Startup Health Tech - April 2014
 created: 1397713260
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 I have dabbled with a little bit of work in the tech/health scene and always knew that Melbourne generally had a large and healthy medical ‘industry’, but I had no idea that the Startup space was so large! Tonight’s event was held at the brand new Royal Children’s Hospital, which was very shiny, new and welcoming. The crowd was a good mix of clinicians, technical folk and business folk and there were quite a few speakers, so I’ll get on with telling you about them all in my usual very brief manner.

@@ -2,8 +2,12 @@
 layout: post
 title: The Hives - The Forum
 created: 1240940628
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 The Hives are past masters at staging a rock show, working their way through all of the tricks in 'Rock Live shows for beginners', the vast majority of 'Rock live shows for intermediates' and making fair headway into the advanced volume. Even before the band take to the stage we have subdued red lighting, a vast backdrop and a tremendous amount of 'milking it' as the crowd gets rowdier awaiting the band's emergence.

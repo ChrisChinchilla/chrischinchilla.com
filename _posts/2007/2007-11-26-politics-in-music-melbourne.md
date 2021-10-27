@@ -2,7 +2,9 @@
 layout: post
 title: Politics in Music - Melbourne
 date: '2007-11-26T19:50:41+00:00'
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: music politics
 ---
 

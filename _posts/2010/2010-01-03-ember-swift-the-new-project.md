@@ -2,8 +2,12 @@
 layout: post
 title: Ember Swift - The New project
 created: 1262530602
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 'Concept albums' generally raise the heckles of most rock music reviewers, and an album that contains an 'artistic statement' emblazoned on it's inside front cover in two different languages even more so. It seems that Ember Swift travelled to China in 2007 and felt an unnerving feeling of having been there before, of deja vu and of an unusual one-ness and comfortable familiarity, thus creating the urge and need to write an album about her experiences.

@@ -3,7 +3,9 @@ layout: post
 title: 'Commodore Amiga: a visual Compendium by Sam Dyer'
 created: 2015-12-26T00:00:00.000Z
 categories: projects chipshop
-tags: books reviews
+tags:
+ - books 
+ - reviews
 image: images/amiga-visual-commpendium.jpg
 ---
 

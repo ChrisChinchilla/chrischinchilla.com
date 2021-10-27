@@ -2,8 +2,11 @@
 layout: post
 title: Doug and Julie
 created: 1292222485
-categories: writing chrischinchilla
-tags: creative
+categories:
+ - writing
+ - chrischinchilla
+tags:
+ - creative
 ---
 
 Take a listen (or read) to a light hearted and 'cheesy' romantic (and slightly explicit) short story I recently wrote about Doug, who bored in his office cubicle, fantasies about Julie...

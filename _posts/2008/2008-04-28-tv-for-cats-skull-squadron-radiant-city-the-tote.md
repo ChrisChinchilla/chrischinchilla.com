@@ -2,8 +2,12 @@
 layout: post
 title: 'TV for Cats, Skull Squadron, Radiant City - The Tote'
 created: 1209399830
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Playing Rock & Roll with a drum machine is a tough task, trying to maintain passion, emotion and flexibility within the confines of a machines rigid confine. Whilst TV for Cats aren't the most engaging band to watch, their lack of human backline doesn't notice and musically they are as flexible and fluid as any band with a sweaty skin pounder in the back row. The tunes are bright, edgy and catchy, with ingenious arrangements and musical tricks scattered throughout their set.

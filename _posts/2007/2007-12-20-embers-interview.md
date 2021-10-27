@@ -2,8 +2,12 @@
 layout: post
 title: Embers - Interview
 created: 1198178336
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Embers are an experimental four piece consisting of two saxophones, bass and drums who make an extraordinary amount of noise, conjuring incredible and unbelievable sounds from their instruments. I spoke to Adam Simmons and Kris Wanders of the band, their answers are shown in normal text and italics respectively, and their answers just goes to show the differences between band members?

@@ -2,8 +2,13 @@
 layout: post
 title: Australian Festivals
 created: 1240942231
-categories: writing chrischinchilla
-tags: music opinion australia
+categories:
+ - writing
+ - chrischinchilla
+tags:
+ - music 
+ - opinion 
+ - australia
 ---
 
 I finally got my fist experience(s) of Australian festivals this summer, albeit a gentle one-day only festival introduction and I hate to say I wasn't greatly impressed.

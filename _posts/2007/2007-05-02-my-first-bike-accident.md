@@ -3,7 +3,9 @@ layout: post
 title: My First Melbourne Bike Accident
 date: '2007-05-02T06:36:29+00:00'
 tags: cycling accident
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 I suffered a uniquely Melbourne (and several other Cities) injury yesterday, I was cycling and my bike wheel got stuck in a tram line as I turned a corner, flipping me over the handle bars and into a (fortunately) grass verge, in rather comical stylings.

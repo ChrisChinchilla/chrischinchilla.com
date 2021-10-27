@@ -2,7 +2,9 @@
 layout: post
 title: Antescene on 3CR
 date: '2007-07-24T06:06:48+00:00'
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: music events press
 ---
 

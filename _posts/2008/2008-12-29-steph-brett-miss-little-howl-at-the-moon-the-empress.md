@@ -2,8 +2,12 @@
 layout: post
 title: 'Steph Brett, Miss Little, Howl at the Moon  - The Empress'
 created: 1230591332
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Steph Brett possesses a peculiar quality rarely found in singer-songwriters but one that delights and ensures an audience firmly on your side. Technically she is not brilliant, she fumbles chords, awkwardly plays with the microphone and even manages to pull the jack plate out of her guitar towards the end of her set. Un yet there is a vibrancy and character in her silky, caramel voice and personality, an understated charm that wins through every problem and technical hitch, as an example, to counter the lack of electrics in her guitar, the last song becomes acapella, with most of the audience providing hand claps for the duration.

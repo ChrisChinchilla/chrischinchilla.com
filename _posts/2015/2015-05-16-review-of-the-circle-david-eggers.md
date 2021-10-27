@@ -4,7 +4,9 @@ title: Review of The Circle by David Eggers
 categories: projects odtwe
 created: 2015-05-16T00:00:00.000Z
 image: images/the-circle-eggers.jpg
-tags: books reviews
+tags:
+ - books 
+ - reviews
 ---
 
 I have been wanting to read this as part of my research into dystopian fiction for my One day the World Ended project and I have mixed opinions on this book.

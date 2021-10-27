@@ -2,8 +2,12 @@
 layout: post
 title: Baseball - Missing Link
 created: 1209399765
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Allow me the indulgence of stepping outside the traditional third person / present tense to make an observation on context, situation and assumption. Once I saw Cameron (lead singer of Baseball) sat at a tram stop, his usual crazy haired self, decked in the un official uniform of Melbourne musicians, tight jeans, singlet and Dunlop volleys. Outside of his element people were avoiding him, labelling him as one those 'crazies' and best ignored or stared at. In his element fronting a rock band all eyes are upon him again but this time there is no doubt about what this crazy haired man is here for.

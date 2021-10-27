@@ -2,7 +2,9 @@
 layout: post
 title: My audio and video production setup
 created_at: 2021-09-07
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: 
   - video
   - audio

@@ -2,7 +2,9 @@
 layout: post
 title: Hands on with Lollipop
 created: 1417703889
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 ---
 
 I've had Lollipop (Android 5) on my phone for about ten days now, so it seemed like a good time to report back on my feelings and experiences with this new, 'material design' laden Operating System.

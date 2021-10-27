@@ -2,8 +2,11 @@
 layout: post
 title: Sore Thumb
 created: 1199979061
-categories: writing chrischinchilla
-tags: creative
+categories:
+ - writing
+ - chrischinchilla
+tags:
+ - creative
 ---
 
 When you feel like the odd one out, like a fish whose water's run out.

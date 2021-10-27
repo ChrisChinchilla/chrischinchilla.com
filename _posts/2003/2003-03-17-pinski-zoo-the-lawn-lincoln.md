@@ -2,8 +2,12 @@
 layout: post
 title: 'Pinski Zoo - The Lawn, Lincoln'
 created: 2003-03-17T00:00:00.000Z
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Pinski Zoo consists of Steve Harris on Drums, Steve Iliffe on Keyboards, Karl Bingham and Stefan Kopinski on bass and Jan Kopinski on Saxophones. The band is more or less Jan Kopinski's brainchild, born of Polish and Irish origins his career spans from teaching to film score writing. The band as a whole has been performing on and off for 20 years gaining awards, critical acclaim and international recognition along the way.

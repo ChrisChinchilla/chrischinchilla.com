@@ -2,8 +2,11 @@
 layout: post
 title: 14th Nov 2006 - Leaving the UK
 created: 1163422800
-categories: writing chrischinchilla
-tags: life
+categories:
+ - writing
+ - chrischinchilla
+tags:
+ - life
 ---
 
 Ok then...

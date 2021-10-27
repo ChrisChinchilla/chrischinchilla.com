@@ -2,8 +2,11 @@
 layout: post
 title: My New housemate
 created: 2013-05-04T00:00:00.000Z
-categories: writing chrischinchilla
-tags: creative
+categories:
+ - writing
+ - chrischinchilla
+tags:
+ - creative
 ---
 
 He must works nights as I rarely see him, we've never spent a night together, just watching TV or anything like that, but he must have a set in his room, and a penchant for cheesy old horror films, because sometimes in the middle of the night I hear odd muffled shrieks and yells coming from his room.

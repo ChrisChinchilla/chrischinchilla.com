@@ -2,7 +2,9 @@
 layout: post
 title: How I set up a RaspberryPi to share my files and media
 created_at: 2021-09-28
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: 
   - ebooks
   - calibre

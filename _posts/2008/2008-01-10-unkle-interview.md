@@ -2,8 +2,12 @@
 layout: post
 title: UNKLE - Interview
 created: 1199985301
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 <b>How did everything begin, why did you want to get into music in the first place? </b>

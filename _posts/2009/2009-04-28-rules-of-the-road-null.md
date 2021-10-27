@@ -2,8 +2,12 @@
 layout: post
 title: Rules of the Road
 created: 1240942945
-categories: writing chrischinchilla
-tags: cycling opinion
+categories:
+ - writing
+ - chrischinchilla
+tags:
+ - cycling 
+ - opinion
 ---
 
 A license is not required to ride a bike on Melbourne's (and most other cities in the world as far as I know) streets and sometimes knowing quite what you are allowed and not allowed to do or indeed what others should be doing around you is difficult to ascertain.

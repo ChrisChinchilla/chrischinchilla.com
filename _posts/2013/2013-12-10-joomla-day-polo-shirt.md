@@ -3,7 +3,9 @@ layout: post
 title: 'Joomla! Day Polo shirt'
 created: 2013-12-10T00:00:00.000Z
 image: images/joomlapolo.jpg
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: merchandise conferences
 ---
 

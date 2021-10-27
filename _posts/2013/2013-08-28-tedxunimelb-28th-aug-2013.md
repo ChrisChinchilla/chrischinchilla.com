@@ -2,7 +2,9 @@
 layout: post
 title: TedxUniMelb 28th Aug 2013
 created: 1377726816
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: events
 ---
 

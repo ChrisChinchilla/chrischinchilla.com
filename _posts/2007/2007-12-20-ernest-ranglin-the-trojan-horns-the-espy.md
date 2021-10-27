@@ -2,8 +2,12 @@
 layout: post
 title: 'Ernest Ranglin, The Trojan Horns - The Espy'
 created: 1198178126
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 This is the Trojan Horses first gig in two years and the rapidly filling Gershwin room at the Espy is enjoying the warm Summer evening that is the perfect accompaniment to the band's lilting Ska beats. Most of the band members take turns on lead vocals, injecting their own unique styles into each track, they're sharp, tight and from the crowd's reaction, obviously sorely missed in their absence.

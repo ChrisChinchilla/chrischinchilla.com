@@ -2,7 +2,9 @@
 layout: post
 title: How Much Milk is too Much?
 created: 2010-09-14T00:00:00.000Z
-categories: writing chrischinchilla
+categories:
+ - writing
+ - chrischinchilla
 tags: opinion coffee
 ---
 

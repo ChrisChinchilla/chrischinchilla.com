@@ -2,8 +2,12 @@
 layout: post
 title: 'World record DJ attempt & Rwanda Fund Appeal'
 created: 2003-09-05T00:00:00.000Z
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Rwanda is one of the many modern tragedies to have occurred in Africa, 1994 is a year that will permanently be etched into the memory of Rwandans, a year when within 3 moths over a million people were killed and the survivors left to fend for themselves despite their suffering and despair.

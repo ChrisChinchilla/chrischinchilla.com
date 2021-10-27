@@ -2,8 +2,12 @@
 layout: post
 title: 'Young & Restless, Dardanelles, The Galvatrons, Cassette Kids, Flamingo Crash, Reptiles - The Corner'
 created: 1209399890
-categories: writing chrischinchilla
-tags: music reviews
+categories:
+ - writing
+ - chrischinchilla
+tags: 
+ - music 
+ - reviews
 ---
 
 Whoever named tonight's event 'Uh Huh' should be given a gentle slap round the face for concocting such an uninspiring name for such an inspiring line up. The Corner is sadly sparser than expected tonight but those of us present are up for a full on (especially with no mind numbingly annoying and boring lengthy sound checks) night of cutting edge Rock and Roll in the company of some of the hottest and most vibrant bands in the Country.
