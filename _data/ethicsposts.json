@@ -8,10 +8,10 @@
       "given_url": "https://technologyreview.us11.list-manage.com/track/click?u=47c1a9cec9749a8f8cbc83e78&id=20915965ac&e=2d49e178b1",
       "given_title": "",
       "favorite": "1",
-      "status": "0",
+      "status": "1",
       "time_added": "1636146003",
-      "time_updated": "1636354004",
-      "time_read": "0",
+      "time_updated": "1637483677",
+      "time_read": "1637483676",
       "time_favorited": "1636353994",
       "sort_id": 0,
       "resolved_title": "Why GPT-3 is the best and worst of AI right now",
@@ -2597,5 +2597,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1637053553
+  "since": 1637595746
 }
