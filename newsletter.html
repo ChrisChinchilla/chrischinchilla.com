@@ -1,0 +1,36 @@
+---
+layout: page
+title: Newsletter
+permalink: /newsletter
+---
+
+<div class="row">
+  <main class="top-column">
+    <h2 id="gaming">Sign up for my newsletter</h2>
+    <p>Sign up for my Chinchilla Squeaks newsletter for a mostly weekly roundup of technology, gaming, history, language
+      and general geekery.</p>
+    </p>
+  </main>
+  <aside class="top-column">
+    <div id="revue-embed">
+      <form action="https://www.getrevue.co/profile/gregariousmammal/add_subscriber" method="post" id="revue-form"
+        name="revue-form" target="_blank">
+        <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]"
+          id="member_email">
+        <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+      </form>
+    </div>
+  </aside>
+</div>
+<div class="row">
+
+  <main>
+    <h2 id="fav">Recent links</h2>
+    <p>
+      And here's some of the recent cool content I've included in my newsletter, surely you want to sign up now 😁?
+    </p>
+  </main>
+</div>
+
+{% assign fav_posts = site.data.favposts.list %} {% include
+feed_post_list.html filtered_posts=fav_posts %}

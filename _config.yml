@@ -100,15 +100,8 @@ toc:
         url: /podcasts
       - title: Video
         url: /video  
-  - title: Newsletters
-    url: newsletters
-    subitems:
-    - title: Gaming
-      url: newsletters#gaming
-    - title: Ethics
-      url: newsletters#ethics
-    - title: Language
-      url: newsletters#language
+  - title: Newsletter
+    url: newsletter
   - title: Support
     url: /support
 

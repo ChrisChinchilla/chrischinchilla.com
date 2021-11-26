@@ -28,45 +28,14 @@ layout: default
       </div>
     </aside>
   </div>
-  {{/*  <div class="row">  */}}
-    <!-- <div class="column">
-      <h2>Next events</h2><a class="more-link" href="/events">more</a>
-
-      {% assign future_events = "" | split: "" %}
-      {% assign counter = 0 %}
-      {% capture nowunix %}{{"now" | date: "%s"}}{% endcapture %}
-      {% for post in site.events %}
-      {% capture posttime %}{{ post.start_date | date: "%s" }}{% endcapture %}
-      {% if posttime > nowunix > currentDate and counter < 5 %}
-      {% assign future_events = future_events | push: post %}
-      {% assign counter=counter | plus: 1 %}
-      {% endif %}
-      {% endfor %}
-      {% include event_list.html filtered_events = future_events %}
-
-    </div> -->
-
-    {{/*  <div class="column">  */}}
-      {{/*  <h2>Latest posts</h2> - <a class=more-link" href="/writing">more</a>  */}}
-
-      {% assign latest_posts = site.posts %}
-      {% include post_list.html filtered_posts=latest_posts post_limit=15 %}
-
-    {{/*  </div>  */}}
-
-  {{/*  </div>  */}}
-  <div class="row colspan3">
-    <div class="column colspan3">
-      <h2>Recommendations and Newsletters</h2>
-      <p>
-        I currently curate 4 newsletters on Ethics (mostly in technology), gaming, Language and Linguistics, see my
-        latest recommendations and join those newsletters below.
-      </p>
-      <h3>The Chinchilla Squeaks Newsletter</h3>
-      <p>
-        My general newsletter "Chinchilla Squeaks" draws content from all these sources and a couple more, sign up to
-        that below.
-      </p>
+  <div class="row">
+    <main class="top-column">
+      <h2 id="gaming">Sign up for my newsletter</h2>
+      <p>Sign up for my Chinchilla Squeaks newsletter for a mostly weekly roundup of technology, gaming, history,
+        language
+        and general geekery.</p>
+    </main>
+    <aside class="top-column">
       <div id="revue-embed">
         <form action="https://www.getrevue.co/profile/gregariousmammal/add_subscriber" method="post" id="revue-form"
           name="revue-form" target="_blank">
@@ -75,33 +44,13 @@ layout: default
           <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
         </form>
       </div>
+    </aside>
+  </div>
 
-    </div>
-  </div>
-  <div class="row">
-    <div class="column">
-      <h2>Latest ethics posts</h2><a class="more-link" href="/newsletters#ethics">more</a>
-      <p>
-        Newsletter coming soon, for now enjoy the posts below.
-      </p>
-      {% assign latest_posts = site.data.ethicsposts.list %} {% include
-      feed_post_list.html filtered_posts=latest_posts post_limit=5 %}
-    </div>
-    <div class="column">
-      <h2>Latest language posts</h2><a class="more-link" href="/newsletters#language">more</a>
-      <p>
-        Newsletter coming soon, for now enjoy the posts below.
-      </p>
-      {% assign latest_posts = site.data.languageposts.list %} {% include
-      feed_post_list.html filtered_posts=latest_posts post_limit=5 %}
-    </div>
-    <div class="column">
-      <h2>Latest gaming posts</h2><a class="more-link" href="/newsletters#gaming">more</a>
-      <p>
-        Newsletter coming soon, for now enjoy the posts below.
-      </p>
-      {% assign latest_posts = site.data.gamingposts.list %} {% include
-      feed_post_list.html filtered_posts=latest_posts post_limit=5 %}
-    </div>
-  </div>
+  {% assign latest_posts = site.posts %}
+  {% include post_list.html filtered_posts=latest_posts post_limit=15 %}
+
+
+</div>
+
 </div>

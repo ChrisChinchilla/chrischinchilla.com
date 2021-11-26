@@ -7,7 +7,7 @@ tags:
   - boardgames
   - toleplay
   - tools
-image: null
+image: images/dice.jpeg
 layout: post
 ---
 
@@ -73,7 +73,7 @@ If you're looking for something to create old school dungeon maps reminiscent of
 
 ### Campaign Cartographer
 
-Many gaming mapping tools are web-based, and when I saw a good old fashioned desktop application in the form of [Campaign Cartograpgher][11] I jumped on a bundle deal and was super keen to try it. Well, it's comprehensive, that's for sure, but the interface follows its own paradigms, not those standard in most design applications, which means I frequently find myself pretty stuck and confused about how to do… anything, to be honest. So it sits in my Windows virtual machine (it's Windows only), taunting me. One day I will try it again. One day.
+Many gaming mapping tools are web-based, and when I saw a good old fashioned desktop application in the form of [Campaign Cartographer][11] I jumped on a bundle deal and was super keen to try it. Well, it's comprehensive, that's for sure, but the interface follows its own paradigms, not those standard in most design applications, which means I frequently find myself pretty stuck and confused about how to do… anything, to be honest. So it sits in my Windows virtual machine (it's Windows only), taunting me. One day I will try it again. One day.
 
 ### Mipui
 
