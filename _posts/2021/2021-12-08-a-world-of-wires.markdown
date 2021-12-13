@@ -12,5 +12,3 @@ image: images/347957-1547538871578-ff838ea05458a.jpg
 permalink: /:categories/:title/
 ---
 In this episode I look at the (un)intended consequences of tech utopias, why wired is back baby, why (oh why) are 15 minute delivery companies spreading so fast, reflections on Nanowrimo, and much much more.
-
---- Send in a voice message: https://anchor.fm/chinchillasqueaks/message
