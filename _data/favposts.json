@@ -8,10 +8,10 @@
       "given_url": "https://mubi.com/notebook/posts/notebook-primer-john-carpenter",
       "given_title": "",
       "favorite": "1",
-      "status": "0",
+      "status": "1",
       "time_added": "1643531598",
-      "time_updated": "1643578852",
-      "time_read": "0",
+      "time_updated": "1643888106",
+      "time_read": "1643888106",
       "time_favorited": "1643578774",
       "sort_id": 0,
       "resolved_title": "Notebook Primer: John Carpenter",
@@ -348,14 +348,14 @@
       "time_read": "1641640138",
       "time_favorited": "1641554598",
       "sort_id": 12,
-      "resolved_title": "Welcome to Cryptoland: A real island for crypto fans that’s already doomed",
+      "resolved_title": "Welcome to Cryptoland: The Fyre Festival for crypto fans",
       "resolved_url": "https://thenextweb.com/news/welcome-to-cryptoland-real-island-cryptocurrency-fans-analysis",
       "excerpt": "Callum is an Englishman in Amsterdam, but not in the way you're thinking. He's the Editor of Plugged, TNW's consumer tech vertical.",
       "is_article": "1",
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1217",
+      "word_count": "1249",
       "lang": "en",
       "time_to_read": 6,
       "amp_url": "https://thenextweb.com/news/welcome-to-cryptoland-real-island-cryptocurrency-fans-analysis/amp",
@@ -365,7 +365,7 @@
         "logo": "https://logo.clearbit.com/thenextweb.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/thenextweb.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 471
+      "listen_duration_estimate": 483
     },
     "3511443846": {
       "item_id": "3511443846",
@@ -1092,12 +1092,12 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "3715",
+      "word_count": "3679",
       "lang": "en",
       "time_to_read": 17,
       "amp_url": "https://www.afar.com/magazine/westarctica-antarctica-a-micronation-with-a-mission/amp",
       "top_image_url": "https://afar-production.imgix.net/uploads/images/afar_post_headers/images/nRrgbq4AkV/original_AFAR-Westarctica_1_Header.jpg?crop=top&fit=crop&w=600&h=330",
-      "listen_duration_estimate": 1438
+      "listen_duration_estimate": 1424
     },
     "3454976574": {
       "item_id": "3454976574",
@@ -2625,9 +2625,9 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1101",
+      "word_count": "1229",
       "lang": "en",
-      "time_to_read": 5,
+      "time_to_read": 6,
       "amp_url": "https://www.theverge.com/platform/amp/2021/6/10/22526451/iphone-ipad-mac-apple-watch-wwdc-best-features-ios-monterey",
       "top_image_url": "https://cdn.vox-cdn.com/thumbor/bhlCgQomeTnFFUUlsBc_t9MlrEQ=/0x0:2000x1047/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22648247/image.jpeg",
       "domain_metadata": {
@@ -2635,7 +2635,7 @@
         "logo": "https://logo.clearbit.com/theverge.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/theverge.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 426
+      "listen_duration_estimate": 476
     },
     "3353290832": {
       "item_id": "3353290832",
@@ -3447,7 +3447,7 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1530",
+      "word_count": "1514",
       "lang": "en",
       "time_to_read": 7,
       "amp_url": "https://www.wired.com/story/ai-fueled-dungeon-game-got-much-darker/amp",
@@ -3457,7 +3457,7 @@
         "logo": "https://logo.clearbit.com/wired.com?size=800",
         "greyscale_logo": "https://logo.clearbit.com/wired.com?size=800&greyscale=true"
       },
-      "listen_duration_estimate": 592
+      "listen_duration_estimate": 586
     },
     "3325606731": {
       "item_id": "3325606731",
@@ -4445,7 +4445,7 @@
       "resolved_url": "https://fortelabs.co/blog/para/",
       "excerpt": "Imagine for a moment the perfect organizational system. One that supported and enhanced the work you do, telling you exactly where to put a piece of information, and exactly where to find it when you needed it.",
       "is_article": "1",
-      "is_index": "1",
+      "is_index": "0",
       "has_video": "0",
       "has_image": "1",
       "word_count": "3041",
@@ -5780,5 +5780,5 @@
   "search_meta": {
     "search_type": "normal"
   },
-  "since": 1643822368
+  "since": 1644232176
 }
