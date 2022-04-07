@@ -1,0 +1,16 @@
+---
+title: "Exodus"
+layout: podcast
+created_at: 2022-03-31 13:00:00 UTC
+author: ""
+categories: podcast theweeklysqueak
+podcast: "The Weekly Squeak"
+tags: 
+orig_url: https://anchor.fm/chinchillasqueaks/episodes/Exodus-e1gfqrs
+podcast_embed: https://anchor.fm/s/2ab8734/podcast/play/49850684/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-30%2Fff9b2a08-93b9-3063-f79c-502f2a971759.mp3
+image: images/347957-1547538871578-ff838ea05458a.jpg
+permalink: /:categories/:title/
+---
+Some serious subjects for this issue, from forced human migrations, to what engineers can do about sustainability. Sometimes that's what's needed.
+
+--- Send in a voice message: https://anchor.fm/chinchillasqueaks/message
