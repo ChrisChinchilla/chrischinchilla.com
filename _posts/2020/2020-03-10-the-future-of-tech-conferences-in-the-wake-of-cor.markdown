@@ -1,6 +1,6 @@
 ---
 title: "The Future of Tech Conferences in the Wake of Coronavirus"
-created_at: 2020-03-09
+created_at: 2020-03-10
 author: "Chris Ward"
 categories: writing dzone
 tags: 
