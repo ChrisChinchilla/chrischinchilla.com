@@ -17,7 +17,6 @@ writer roles.
 - 2017, "Jump start responsive design" from SitePoint
 - Editing two books for Packt publishing
 - Kubernetes Whitepaper for Weave.works
-- I am working on a new tech-related book at the moment
 
 ### Courses
 
@@ -36,15 +35,13 @@ I contribute to several regular podcasts:
 
 - My Geek, tech, and gaming show, "Chinchilla Squeaks"
 - The "Write the Docs" podcast
-- I produce the "Ethics in Open Source" podcast
 - As well as a gaming and storytelling podcast
 
 I host the following regular livestreams:
 
-- Weekly "Hands on" with a tech tool
-- Fortnightly "DevX5" covering developer experience topics
-- Twice a month documentation and developer experience office hours
-- As well as two gaming livestreams
+- Weekly "Learning livestream" with a tech tool
+- Regular "hands on" videos
+- As well as a gamin livestream
 
 Find links to all these at [chrischinchilla.com](http://chrischinchilla.com/).
 
@@ -58,22 +55,25 @@ I have always been active in open source communities, including regular contribu
 - I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences
 - I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, and 2021
 - I was a judge for the Mozilla open source awards in 2020
-- I run a regular writers meetup 3 times a week in Berlin
+- I run a regular writers meetup 2 times a week in Berlin
 
 ## Work Experience
 
 ### Chronosphere, Senior Technical Writer
 
-Chronosphere is the steward for M3, the highly available time series database, and its commercial offering. I am the sole tech writer for both projects, and my role includes:
+_August 2020 - September 2022_
 
-- Overhauling documentation and platforms
+Chronosphere is the steward for M3, the highly available time series database, and its commercial offering. I was the sole tech writer for both projects, and my role included:
+
+- Overhauling documentation and documentation platforms
+- Documenting new features as they developed
 - Creating and maintaining a style guide and automated style checking tools
 - Creating and maintaining tests, screenshot generation, and other documentation tools
 - Editing and reviewing submissions from internal and external contributors
 - Liaising and working with our developer relations and marketing teams for collaboration ideas
 - Responsibility for metrics, planning, and delivery of documentation
-
-_August 2020 - Present_
+- I wrote a handful of technical blog posts and a monthly Observability newsletter
+- I hosted several video series interviewing staff members and external experts
 
 ### Freelance Technical Writer, Blogger and Developer Relations
 
