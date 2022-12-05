@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 14th Nov 2006 - Leaving the UK
-created: 1163422800
+date: 1163422800
 categories:
  - writing
  - chrischinchilla

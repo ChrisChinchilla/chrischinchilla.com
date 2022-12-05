@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The Fratellis - Hi Fi Bar
-created: 1219690388
+date: 1219690388
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Hands on with Lion, 10.7 - Installing'
-created: 2011-09-28T00:00:00.000Z
+date: 2011-09-28T00:00:00.000Z
 image: images/lion.png
 categories:
  - writing

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Michael Franti - The Prince of Wales
-created: 1240940912
+date: 1240940912
 categories:
  - writing
  - chrischinchilla

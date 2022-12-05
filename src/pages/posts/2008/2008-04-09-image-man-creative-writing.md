@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Image Man - Creative Writing
-created: 1207717422
+date: 1207717422
 categories:
  - writing
  - chrischinchilla

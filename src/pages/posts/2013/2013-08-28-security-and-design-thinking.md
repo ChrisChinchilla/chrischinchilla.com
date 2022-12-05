@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Security and design thinking
-created: 1377641376
+date: 1377641376
 categories:
  - writing
  - chrischinchilla

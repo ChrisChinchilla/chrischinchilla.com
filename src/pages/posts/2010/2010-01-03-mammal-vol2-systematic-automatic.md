@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Mammal - Vol2 Systematic / Automatic
-created: 1262530392
+date: 1262530392
 categories:
  - writing
  - chrischinchilla

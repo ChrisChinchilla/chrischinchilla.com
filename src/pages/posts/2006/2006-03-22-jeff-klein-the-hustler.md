@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Jeff Klein - The Hustler
-created: 1143043836
+date: 1143043836
 categories:
  - writing
  - chrischinchilla

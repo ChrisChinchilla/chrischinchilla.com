@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Video - Super Powered Web Services
-created: 2015-11-01T00:00:00.000Z
+date: 2015-11-01T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/connecting-your-android-app-to-external-services'
 image: images/image-super-powers.jpg
 categories: writing sitepoint

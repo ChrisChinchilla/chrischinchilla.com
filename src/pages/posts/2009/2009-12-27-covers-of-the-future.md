@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Covers of the Future
-created: 2009-12-27T00:00:00.000Z
+date: 2009-12-27T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

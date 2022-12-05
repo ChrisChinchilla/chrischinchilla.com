@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Core game concepts introduced
-created: 1416486187
+date: 1416486187
 categories: projects chipshop
 ---
 

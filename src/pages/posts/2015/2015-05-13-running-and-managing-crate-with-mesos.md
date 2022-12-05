@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Running and creating Crate databases with Mesos
-created: 2015-05-13T00:00:00.000Z
+date: 2015-05-13T00:00:00.000Z
 publication_url: 'https://crate.io/blog/managing-crate-with-mesos/'
 image: images/image-running-and-creating-crate-databases-with.mesos.jpg
 categories: writing crate

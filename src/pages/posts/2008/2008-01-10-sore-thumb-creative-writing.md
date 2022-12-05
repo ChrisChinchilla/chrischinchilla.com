@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Sore Thumb
-created: 1199979061
+date: 1199979061
 categories:
  - writing
  - chrischinchilla

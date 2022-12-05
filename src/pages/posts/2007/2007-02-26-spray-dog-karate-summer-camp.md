@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Spray Dog - Karate Summer Camp
-created: 1172476515
+date: 1172476515
 categories:
  - writing
  - chrischinchilla

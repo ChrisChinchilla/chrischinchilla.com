@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Joomla to Drupal import
-created: 2011-08-10T00:00:00.000Z
+date: 2011-08-10T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Video - Submitting to the Chrome Store
-created: 2015-12-21T00:00:00.000Z
+date: 2015-12-21T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/submitting-to-the-chrome-store'
 image: images/image-submitting-to-the-chrome-store.jpg
 categories: writing sitepoint

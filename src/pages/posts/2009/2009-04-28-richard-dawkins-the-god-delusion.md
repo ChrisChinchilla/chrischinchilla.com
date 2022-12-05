@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Richard Dawkins - The God Delusion
-created: 1240941092
+date: 1240941092
 categories:
  - writing
  - chrischinchilla

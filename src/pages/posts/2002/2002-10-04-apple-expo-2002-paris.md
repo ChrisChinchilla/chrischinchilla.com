@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Apple Expo 2002 - Paris
-created: 2002-10-04
+date: 2002-10-04
 categories:
  - writing
  - chrischinchilla

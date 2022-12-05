@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Camera - Ashes and Dim Light
-created: 1158652282
+date: 1158652282
 categories:
  - writing
  - chrischinchilla

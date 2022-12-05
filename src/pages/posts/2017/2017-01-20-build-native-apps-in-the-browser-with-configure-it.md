@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title:  Build Native Apps in the Browser with Configure.IT
-created: 2017-01-17T00:00:00.000Z
+date: 2017-01-17T00:00:00.000Z
 publication_url: https://www.sitepoint.com/build-native-apps-in-the-browser-with-configure-it/
 image: images/configure-it.png
 categories: writing sitepoint

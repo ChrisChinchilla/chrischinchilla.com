@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Sustaining and Maintaining your Not-for-Profit
-created: 2015-09-09T00:00:00.000Z
+date: 2015-09-09T00:00:00.000Z
 image: images/notforprofitfpimage.png
 categories: projects not-profit-handbook
 tags: not-for-profit

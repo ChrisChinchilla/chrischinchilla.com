@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: A 1001 Crate Cluster with Microsoft Azure
-created: 2016-04-17T00:00:00.000Z
+date: 2016-04-17T00:00:00.000Z
 publication_url: 'https://crate.io/a/1001-node-crate-cluster-with-microsoft-azure/'
 image: images/Cloud-Azure.png
 categories: writing crate

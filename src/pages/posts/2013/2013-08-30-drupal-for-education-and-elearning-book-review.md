@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Drupal for Education and elearning, book review'
-created: 1377844926
+date: 1377844926
 categories:
  - writing
  - chrischinchilla

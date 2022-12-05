@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Sol Seppy - 93ft East
-created: 1147014636
+date: 1147014636
 categories:
  - writing
  - chrischinchilla

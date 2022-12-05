@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Finovate 2015, The Part Mobile is Playing in Fintech'
-created: 2015-02-17T00:00:00.000Z
+date: 2015-02-17T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/finovate-2015-part-mobile-playing-fintech/'
 categories: writing sitepoint
 tags: fintech conference startups

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Umberto Eco - The Island of the Day Before
-created: 1240941176
+date: 1240941176
 categories:
  - writing
  - chrischinchilla

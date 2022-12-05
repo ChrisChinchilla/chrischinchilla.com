@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Video - Understanding Java and Android
-created: 20151023
+date: 20151023
 publication_url: 'https://www.sitepoint.com/watch-understanding-android-and-java/'
 image: images/image-understanding-Java-Android.jpg
 categories: writing sitepoint

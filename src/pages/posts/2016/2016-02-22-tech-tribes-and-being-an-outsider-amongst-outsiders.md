@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Tech Tribes and Being an Outsider Amongst Outsiders
-created: 2016-02-22T00:00:00.000Z
+date: 2016-02-22T00:00:00.000Z
 publication_url: https://hackernoon.com/tech-tribes-and-being-an-outsider-amongst-outsiders-16acef958f7#.5ouxsl6h4
 categories: writing hackernoon
 tags: tech events conferences community

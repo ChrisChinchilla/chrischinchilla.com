@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Doug and Julie
-created: 1292222485
+date: 1292222485
 categories:
  - writing
  - chrischinchilla

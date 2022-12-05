@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Travel tips
-created: 1381966983
+date: 1381966983
 ---
 
 

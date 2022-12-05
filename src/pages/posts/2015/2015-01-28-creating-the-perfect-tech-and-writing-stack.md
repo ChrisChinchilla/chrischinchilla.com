@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: "Creating the 'Perfect' Tech and Writing Stack"
-created: 1422433112
+date: 1422433112
 categories: projects
 ---
 

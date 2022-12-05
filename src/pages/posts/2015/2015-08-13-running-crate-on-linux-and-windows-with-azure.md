@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Running Crate on Linux and Windows with Azure
-created: 2015-08-13T00:00:00.000Z
+date: 2015-08-13T00:00:00.000Z
 publication_url: 'https://crate.io/a/azure-documentation/'
 image: images/azure.png
 categories: writing crate

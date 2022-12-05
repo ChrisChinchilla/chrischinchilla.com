@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The mobile platforms to watch in 2014
-created: 20140429
+date: 20140429
 publication_url: 'https://www.sitepoint.com/mobile-platforms-watch-2014/'
 categories:
  - writing

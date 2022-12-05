@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The Stranglers - The Palace
-created: 1240940728
+date: 1240940728
 categories:
  - writing
  - chrischinchilla

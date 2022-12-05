@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Feature-zilla! Will Featureful Kill Usable on the Web?'
-created: 20140123
+date: 20140123
 publication_url: 'https://www.sitepoint.com/featureful-vs-usable/'
 categories: writing sitepoint
 ---

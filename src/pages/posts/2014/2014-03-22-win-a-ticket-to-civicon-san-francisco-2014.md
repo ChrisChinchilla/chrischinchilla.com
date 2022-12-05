@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Win a ticket to CiviCon San Francisco 2014
-created: 1395516619
+date: 1395516619
 ---
 
 

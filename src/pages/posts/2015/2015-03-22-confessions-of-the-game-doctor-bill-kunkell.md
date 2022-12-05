@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Confessions of the Game Doctor, Bill Kunkell'
-created: 1427017820
+date: 1427017820
 image: images/confessions-game-doctor.jpg
 categories: projects chipshop
 ---

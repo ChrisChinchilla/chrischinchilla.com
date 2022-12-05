@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Video - Using layout managers to craft awesome Android interfaces
-created: 2016-01-08T00:00:00.000Z
+date: 2016-01-08T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/layout-managers'
 categories: writing sitepoint
 image: images/image-using-layout-managers-to-craftandroid-interfaces.jpg

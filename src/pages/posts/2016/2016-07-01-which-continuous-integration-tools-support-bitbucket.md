@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Video - Which Continuous Integration Tools Support Bitbucket?
-created: 2016-07-01T00:00:00.000Z
+date: 2016-07-01T00:00:00.000Z
 publication_url: https://www.sitepoint.com/premium/screencasts/which-continuous-integration-tools-support-bitbucket
 image: images/bitbucket.png
 categories: writing sitepoint

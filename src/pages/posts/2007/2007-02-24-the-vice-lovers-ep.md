@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The Vice - Lovers EP
-created: 2007-02-24T00:00:00.000Z
+date: 2007-02-24T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

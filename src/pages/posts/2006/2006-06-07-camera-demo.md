@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Camera - Demo
-created: 1149693036
+date: 1149693036
 categories:
  - writing
  - chrischinchilla

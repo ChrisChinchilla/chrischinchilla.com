@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: From The Jam - Prince of Wales
-created: 1205365339
+date: 1205365339
 categories:
  - writing
  - chrischinchilla

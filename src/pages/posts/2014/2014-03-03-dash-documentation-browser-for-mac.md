@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Dash - documentation browser for Mac
-created: 1393878049
+date: 1393878049
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Jay Bennett - The Magnificent Defeat
-created: 1158650925
+date: 1158650925
 categories:
  - writing
  - chrischinchilla

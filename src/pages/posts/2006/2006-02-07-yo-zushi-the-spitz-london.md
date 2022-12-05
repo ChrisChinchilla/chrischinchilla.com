@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Yo Zushi - The Spitz, London'
-created: 1139328636
+date: 1139328636
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Drupal 7 webform cookbook
-created: 1344463404
+date: 1344463404
 image: images/drupal7-webform-cookbook.png
 categories:
  - writing

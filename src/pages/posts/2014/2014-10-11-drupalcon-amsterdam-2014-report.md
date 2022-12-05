@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: DrupalCon Amsterdam Report
-created: 20141011
+date: 20141011
 publication_url: 'https://www.sitepoint.com/drupalcon-amsterdam-2014-report/'
 categories: writing sitepoint
 ---

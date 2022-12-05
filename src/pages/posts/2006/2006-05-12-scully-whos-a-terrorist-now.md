@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: "Scully - Who's a Terrorist Now?"
-created: 1147446636
+date: 1147446636
 categories:
  - writing
  - chrischinchilla

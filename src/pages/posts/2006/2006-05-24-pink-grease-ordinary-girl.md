@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Pink Grease - Ordinary Girl
-created: 1148483436
+date: 1148483436
 categories:
  - writing
  - chrischinchilla

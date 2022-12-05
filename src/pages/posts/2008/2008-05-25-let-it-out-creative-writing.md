@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Let it Out - Creative Writing
-created: 2008-05-25T00:00:00.000Z
+date: 2008-05-25T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

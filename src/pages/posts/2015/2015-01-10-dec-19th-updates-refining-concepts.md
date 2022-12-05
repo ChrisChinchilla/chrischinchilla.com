@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Dec 19th Updates, refining concepts'
-created: 1420901907
+date: 1420901907
 categories: projects chipshop
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: DrupalGov and Canberra 2013
-created: 2013-08-25T00:00:00.000Z
+date: 2013-08-25T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title:   Java-Free Android
-created: 2017-01-17T00:00:00.000Z
+date: 2017-01-17T00:00:00.000Z
 publication_url: https://www.sitepoint.com/java-free-android/
 image: images/java-free.jpg
 categories: writing sitepoint

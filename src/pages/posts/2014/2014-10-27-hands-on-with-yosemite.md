@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Hands on With Yosemite
-created: 1414400598
+date: 1414400598
 categories:
  - writing
  - chrischinchilla

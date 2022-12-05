@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: What people want from websites
-created: 1386237277
+date: 1386237277
 image: images/whatpeoplewantfromwebsites-sales.png
 categories:
  - writing

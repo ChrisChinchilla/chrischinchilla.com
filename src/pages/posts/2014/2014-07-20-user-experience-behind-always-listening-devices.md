@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The User Experience behind always listening devices
-created: 20140720
+date: 20140720
 publication_url: 'https://www.sitepoint.com/user-experience-behind-always-listening-devices/'
 categories: writing sitepoint
 ---

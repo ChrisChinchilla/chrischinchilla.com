@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Art Brut battle of the franchises - Kilburn Luminaire
-created: 2005-09-19T00:00:00.000Z
+date: 2005-09-19T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

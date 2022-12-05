@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Plastic Palace Alice - The Spiegel Tent
-created: 1198178175
+date: 1198178175
 categories:
  - writing
  - chrischinchilla

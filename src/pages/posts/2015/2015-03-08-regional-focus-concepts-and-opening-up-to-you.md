@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: "Regional Focus, 'Concepts' and opening up to you"
-created: 2015-03-08T00:00:00.000Z
+date: 2015-03-08T00:00:00.000Z
 categories: projects chipshop
 tags: boardgames playtesting gamedesign
 ---

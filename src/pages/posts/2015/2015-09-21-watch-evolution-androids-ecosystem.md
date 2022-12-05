@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Video - The Evolution of Androids Ecosystem
-created: 20150921
+date: 20150921
 publication_url: 'https://www.sitepoint.com/watch-evolution-androids-ecosystem/'
 image: images/image-understanding-android-images.png
 categories: writing sitepoint

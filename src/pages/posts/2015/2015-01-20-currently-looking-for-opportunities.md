@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Currently Looking for Opportunities
-created: 1421770903
+date: 1421770903
 categories:
  - writing
  - chrischinchilla

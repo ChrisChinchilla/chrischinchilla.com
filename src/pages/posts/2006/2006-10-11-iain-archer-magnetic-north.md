@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Iain Archer - Magnetic North
-created: 1160586357
+date: 1160586357
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Text Talk one
-created: 2008-12-30T00:00:00.000Z
+date: 2008-12-30T00:00:00.000Z
 tags: poetry creative
 categories:
  - writing

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: My Social Media strategy advice
-created: 1333857256
+date: 1333857256
 categories:
  - writing
  - chrischinchilla

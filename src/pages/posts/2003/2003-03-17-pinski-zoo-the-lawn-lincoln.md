@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Pinski Zoo - The Lawn, Lincoln'
-created: 2003-03-17T00:00:00.000Z
+date: 2003-03-17T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

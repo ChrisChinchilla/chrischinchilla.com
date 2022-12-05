@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Louis Elliot
-created: 2003-10-04T00:00:00.000Z
+date: 2003-10-04T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

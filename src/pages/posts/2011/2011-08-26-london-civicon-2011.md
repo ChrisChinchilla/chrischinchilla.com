@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: London Civicon 2011
-created: 2011-08-26T00:00:00.000Z
+date: 2011-08-26T00:00:00.000Z
 image: images/civiconlondon.png
 categories:
  - writing

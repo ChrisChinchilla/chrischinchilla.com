@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: "Apple's Special Event - New iPhones"
-created: 20140909
+date: 20140909
 publication_url: 'https://www.sitepoint.com/apples-special-event-new-iphones/'
 categories: writing sitepoint
 ---

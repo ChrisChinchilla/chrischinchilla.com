@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: City Life - Creative Writing
-created: 2008-05-26T00:00:00.000Z
+date: 2008-05-26T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

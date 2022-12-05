@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The lean and agile non profit
-created: 1368417587
+date: 1368417587
 ---
 
 

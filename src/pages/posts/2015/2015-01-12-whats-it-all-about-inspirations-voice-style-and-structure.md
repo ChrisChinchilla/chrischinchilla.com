@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'What’s it all about - Inspirations, Voice, Style and Structure'
-created: 1421070691
+date: 1421070691
 categories: projects odtwe
 ---
 

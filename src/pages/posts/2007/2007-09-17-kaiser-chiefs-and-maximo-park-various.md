@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Kaiser Chiefs & Maximo Park - Various
-created: 1190060971
+date: 1190060971
 ---
 It seemed appropriate to group these two shows together as my last experience of both bands was about two years ago as they were enjoying a rapid rise in popularity, success and hype. Two years ago both bands were still learning their craft, their showmanship and the ropes, so now after two years on the road and two albums each, how do they compare?
 

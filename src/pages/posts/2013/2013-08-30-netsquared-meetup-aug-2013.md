@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: NetSquared meetup Aug 2013
-created: 1377816841
+date: 1377816841
 categories:
  - writing
  - chrischinchilla

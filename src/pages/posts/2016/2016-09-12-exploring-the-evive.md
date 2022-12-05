@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Exploring the Evive - A Book-Sized IoT Device
-created: 2016-09-12T00:00:00.000Z
+date: 2016-09-12T00:00:00.000Z
 publication_url: >-
   https://www.sitepoint.com/building-an-all-in-one-book-sized-iot-device-with-evive/
 image: images/evive.png

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Review of "Triumph of the Nerds" and "Kobold Guide to Board Game Design"'
-created: 1422274992
+date: 1422274992
 categories: projects
 ---
 

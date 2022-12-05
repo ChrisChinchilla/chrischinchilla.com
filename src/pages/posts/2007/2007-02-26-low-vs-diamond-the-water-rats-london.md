@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Low Vs Diamond - The Water Rats, London'
-created: 2006-02-26T00:00:00.000Z
+date: 2006-02-26T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

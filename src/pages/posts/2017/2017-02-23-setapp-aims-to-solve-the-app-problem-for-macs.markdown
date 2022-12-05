@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Setapp aims to solve the App problem for Macs
-date: '2017-02-23 18:13:30 +0100'
+date: 2017-02-23 18:13:30 +0100
 image: images/setapp_get_started.png
 categories: writing cultofmac
 tags: apple mac software

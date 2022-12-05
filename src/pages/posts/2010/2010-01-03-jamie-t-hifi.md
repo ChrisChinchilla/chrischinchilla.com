@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Jamie T - HiFi
-created: 1262530338
+date: 1262530338
 categories:
  - writing
  - chrischinchilla

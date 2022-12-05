@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Silicon Beach drinks, 15th August'
-created: 2103-08-15T00:00:00.000Z
+date: 2103-08-15T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

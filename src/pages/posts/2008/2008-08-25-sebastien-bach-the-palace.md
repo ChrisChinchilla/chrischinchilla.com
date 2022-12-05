@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Sebastien Bach - The Palace
-created: 2008-08-25T00:00:00.000Z
+date: 2008-08-25T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

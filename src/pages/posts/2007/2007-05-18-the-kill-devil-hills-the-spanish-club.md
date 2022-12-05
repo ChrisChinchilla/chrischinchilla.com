@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The Kill Devil Hills - The Spanish Club
-created: 1179513772
+date: 1179513772
 ---
 When I hear the phrase 'country music' I can't help but imagine either American cowboys scowling through tales of the dustbowl deep south, old English men supping real ale and singing in impenetrable accents or the new breed of wiry alt-country stars who never have a good word for anyone or anything, however it seems that Australian Country artists fall into their own unique sub-genre.
 

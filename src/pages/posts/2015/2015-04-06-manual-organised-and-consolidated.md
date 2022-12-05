@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Manual organised and consolidated
-created: 1428347392
+date: 1428347392
 image: images/image-manual-organised-and-consolidated.png
 categories: projects chipshop
 ---

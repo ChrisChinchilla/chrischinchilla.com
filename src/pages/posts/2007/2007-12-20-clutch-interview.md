@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Clutch - Interview
-created: 1198178014
+date: 1198178014
 categories:
  - writing
  - chrischinchilla

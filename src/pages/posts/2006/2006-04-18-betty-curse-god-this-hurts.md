@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Betty Curse - God This Hurts
-created: 1145373036
+date: 1145373036
 categories:
  - writing
  - chrischinchilla

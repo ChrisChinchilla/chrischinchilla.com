@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: A switchers tale - My week with Windows
-date: '2017-01-13 19:45:01 +0100'
+date: 2017-01-13 19:45:01 +0100
 image: images/windows-running.jpg
 categories: writing hackernoon
 tags: tech review windows macos

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Hellyeah, Mammal - Billboard'
-created: 1183767042
+date: 1183767042
 categories:
  - writing
  - chrischinchilla

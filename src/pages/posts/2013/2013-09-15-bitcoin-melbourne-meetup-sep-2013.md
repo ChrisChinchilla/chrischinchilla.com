@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: BitCoin Melbourne meetup Sep 2013
-created: 1379237662
+date: 1379237662
 categories:
  - writing
  - chrischinchilla

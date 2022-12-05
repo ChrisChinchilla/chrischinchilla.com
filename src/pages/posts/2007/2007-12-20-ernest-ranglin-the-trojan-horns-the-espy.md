@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Ernest Ranglin, The Trojan Horns - The Espy'
-created: 1198178126
+date: 1198178126
 categories:
  - writing
  - chrischinchilla

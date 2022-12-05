@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Does it offend you, yeah? - Billboard'
-created: 1262530290
+date: 1262530290
 categories:
  - writing
  - chrischinchilla

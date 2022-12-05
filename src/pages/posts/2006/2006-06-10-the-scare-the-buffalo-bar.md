@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The Scare - The Buffalo Bar
-created: 1149952236
+date: 1149952236
 categories:
  - writing
  - chrischinchilla

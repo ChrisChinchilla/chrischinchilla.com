@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Featurefull vs Usable
-created: 1367669765
+date: 1367669765
 image: images/feature-bloat.png
 categories:
  - writing

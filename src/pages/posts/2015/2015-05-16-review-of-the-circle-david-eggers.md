@@ -2,7 +2,7 @@
 layout: "../../../layouts/Post.astro"
 title: Review of The Circle by David Eggers
 categories: projects odtwe
-created: 2015-05-16T00:00:00.000Z
+date: 2015-05-16T00:00:00.000Z
 image: images/the-circle-eggers.jpg
 tags:
  - books 

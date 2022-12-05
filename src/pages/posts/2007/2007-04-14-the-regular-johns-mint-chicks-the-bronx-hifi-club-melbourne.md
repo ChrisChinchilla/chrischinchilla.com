@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: "The Regular John's, Mint Chicks, The Bronx - HiFi Club, Melbourne"
-created: 1176506503
+date: 1176506503
 categories:
  - writing
  - chrischinchilla

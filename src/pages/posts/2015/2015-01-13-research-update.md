@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Research Update
-created: 1421138317
+date: 1421138317
 image: images/videogamesinthebeginning.jpg
 categories: projects chipshop
 ---

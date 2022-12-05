@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Commodore Amiga: a visual Compendium by Sam Dyer'
-created: 2015-12-26T00:00:00.000Z
+date: 2015-12-26T00:00:00.000Z
 categories: projects chipshop
 tags:
  - books 

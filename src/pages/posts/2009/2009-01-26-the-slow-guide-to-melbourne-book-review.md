@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The Slow Guide to Melbourne - Book review
-created: 2009-01-26T00:00:00.000Z
+date: 2009-01-26T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

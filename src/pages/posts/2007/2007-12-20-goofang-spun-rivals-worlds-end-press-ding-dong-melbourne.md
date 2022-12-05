@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Goofang, Spun Rivals, Worlds End Press - Ding Dong, Melbourne'
-created: 1198177896
+date: 1198177896
 categories:
  - writing
  - chrischinchilla

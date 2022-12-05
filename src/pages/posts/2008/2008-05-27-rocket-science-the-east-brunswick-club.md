@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Rocket Science - The East Brunswick Club
-created: 1211902547
+date: 1211902547
 categories:
  - writing
  - chrischinchilla

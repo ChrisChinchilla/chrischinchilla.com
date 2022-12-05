@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Peabody & Intercooler - The East Brunswick Club'
-created: 1182015377
+date: 1182015377
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Melbourne Geek night, September 2013
-created: 1379664595
+date: 1379664595
 ---
 <p align="left">The speaker line ups and topics keep getting better for the Melbourne geek nights and tonight is no expection.<p align="left"><strong>Ophelie Lechat from Flippa talking about &quot;Tackling the scary content marketing beast&quot;</strong><br />I&#39;ve been doing some of this myself recently, so it was interesting to hear some more in depth on te topic from a commercial perpective, here&rsquo;s what I got out of the session:<ul><li>Content isn&rsquo;t just a blog</li><li>Have editorial calendars</li><li>Content strategy and marketing are best friends as the discipline helps attract seo and web traffic, this in turn reduces demand on customer support and partnerships. good for engagement.</li><li>Assess what content you already have. If it&#39;s not content it may be existing skills or assets.</li><li>Writing for your site can be empowering for team members</li><li>Don&rsquo;t be afraid of ghost and hired writers.</li><li>Decide what will you talk about and don&#39;t just talk to and about yourself. Identify what others don&#39;t do or do badly.</li><li>ebooks of collections of posts are a great marketing idea.</li><li>What to write about - questions that need answering, searches on your site. What conversations are people having elsewhere? If you get stuck, write an outline first.</li><li>Keep your content as short as possible, focus, end with engagement, what do users/readers want?</li></ul>
 

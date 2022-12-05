@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Projects Site Redevelopment Complete
-created: 1420905850
+date: 1420905850
 categories: projects
 image: images/gm_siteplan.png
 ---

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Skegness wind farm
-created: 1313092211
+date: 1313092211
 image: images/skeg2.jpg
 categories: writing
 tags: travel uk greatidea

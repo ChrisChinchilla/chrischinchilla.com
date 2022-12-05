@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Video - Interacting with Browser Content
-created: 20151210
+date: 20151210
 publication_url: 'https://www.sitepoint.com/premium/screencasts/interacting-with-browser-content-from-your-chrome-extension'
 image: images/image-chrome.jpg
 categories: writing sitepoint

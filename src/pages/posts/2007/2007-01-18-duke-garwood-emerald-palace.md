@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Duke Garwood - Emerald Palace
-created: 2007-01-18T00:00:00.000Z
+date: 2007-01-18T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

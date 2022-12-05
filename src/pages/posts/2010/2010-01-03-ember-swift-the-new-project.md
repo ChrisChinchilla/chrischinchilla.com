@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Ember Swift - The New project
-created: 1262530602
+date: 1262530602
 categories:
  - writing
  - chrischinchilla

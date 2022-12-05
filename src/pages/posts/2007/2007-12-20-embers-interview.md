@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Embers - Interview
-created: 1198178336
+date: 1198178336
 categories:
  - writing
  - chrischinchilla

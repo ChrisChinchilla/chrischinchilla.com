@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Josh Pyke - Interview
-created: 1199985196
+date: 1199985196
 categories:
  - writing
  - chrischinchilla

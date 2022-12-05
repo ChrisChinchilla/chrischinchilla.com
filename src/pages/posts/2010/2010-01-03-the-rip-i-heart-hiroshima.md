@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The Rip - I Heart Hiroshima
-created: 1262530430
+date: 1262530430
 categories:
  - writing
  - chrischinchilla

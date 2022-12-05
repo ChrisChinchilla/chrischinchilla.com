@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Creating PDFs from Markdown with Pandoc and LaTeX
-created: 20150930
+date: 20150930
 publication_url: 'https://www.sitepoint.com/creating-pdfs-from-markdown-with-pandoc-and-latex/'
 image: images/image-pandoc-latex.jpg
 categories: writing sitepoint

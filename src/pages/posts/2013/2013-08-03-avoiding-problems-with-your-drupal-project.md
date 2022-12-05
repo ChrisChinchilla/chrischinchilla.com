@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Avoiding problems with your Drupal project
-created: 1375516463
+date: 1375516463
 image: images/druplicon_sad.png
 categories:
  - writing

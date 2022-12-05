@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: WA Music showcase - The Spanish Club
-created: 1179514659
+date: 1179514659
 ---
 Western Australia has produced some of Australia's most talented and popular artists in recent times and it's not all Indie or Rock Riffage as tonight's WA showcase proved.
 

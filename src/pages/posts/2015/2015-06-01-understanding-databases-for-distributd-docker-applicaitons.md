@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Understanding databases for distributed Docker applications.
-created: 20150601
+date: 20150601
 image: images/image-understanding-distributed-database.png
 categories:
  - writing

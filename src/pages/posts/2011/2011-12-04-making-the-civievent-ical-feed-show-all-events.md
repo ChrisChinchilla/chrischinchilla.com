@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Making the CiviEvent iCal feed show all events
-created: 2011-12-04T00:00:00.000Z
+date: 2011-12-04T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: JPod - Douglas Coupland
-created: 2008-10-27T00:00:00.000Z
+date: 2008-10-27T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: Children Collide - Ding Dong Lounge
-created: 1179517971
+date: 1179517971
 categories:
  - writing
  - chrischinchilla

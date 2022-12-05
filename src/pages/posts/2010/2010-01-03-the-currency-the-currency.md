@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: The Currency - The Currency
-created: 1262530073
+date: 1262530073
 categories:
  - writing
  - chrischinchilla

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/Post.astro"
 title: 'Actor/Model, Bachelor of Arts, Die Die Die! - Revolver'
-created: 1209444263
+date: 1209444263
 categories:
  - writing
  - chrischinchilla
