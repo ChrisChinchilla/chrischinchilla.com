@@ -1,0 +1,14 @@
+---
+const youTubeVideos = await fetch('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=200&playlistId=UUgnrx8qi4qhmN6sBebdDrmg&key=AIzaSyDLwaU3kzLMbC-9n-Jpmq6xqfD-B1-r8VI');
+const data = await youTubeVideos.json();
+
+
+const videos = Object.values(data.items);
+import { YouTube } from '@astro-community/astro-embed-youtube';
+
+---
+
+{videos.map(video => (
+    <li>{video.snippet.title}</li>
+    <YouTube id={video.snippet.resourceId.videoId} />
+))}

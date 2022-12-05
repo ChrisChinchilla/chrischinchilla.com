@@ -1,0 +1,11 @@
+---
+const chinchillaSqueaksEpisodes = await fetch('https://api.spotify.com/v1/shows/4esINQS7W6emShb6fwt5Vr/episodes?market=de', {headers: {
+    'Authorization': 'Bearer BQB-U5bTeMjyRgrhOLM6Eu1NExsFb6Wb90esYnwNgK-w6hlZDr_Lb8aB75GVWRCh2ktBCSsf4LqvDKwnzgqyEeVvB7ruIi6zvdUd84gfsz6fjSQkh_4',
+  }});
+const data = await chinchillaSqueaksEpisodes.json();
+
+const episodes = Object.values(data.items);
+---
+{episodes.map(episode => (
+    <li>{episode.name}</li>
+))}

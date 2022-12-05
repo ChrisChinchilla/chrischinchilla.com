@@ -1,0 +1,9 @@
+---
+import json from '../data/favposts.json';
+const links = Object.values(json.list);
+// const data = await response.json();
+---
+
+{links.map(link => (
+    <li>{link.resolved_title}</li>
+))}

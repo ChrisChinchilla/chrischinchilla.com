@@ -1,0 +1,47 @@
+---
+import Layout from "../../layouts/Layout.astro";
+// import { Pagination } from "accessible-astro-components";
+
+// const title = 'Blog';
+// const description = 'Latest articles.';
+// const permalink = `${Astro.site.href}blog`;
+export async function getStaticPaths({ paginate }) {
+  let allPosts = await Astro.glob("./**/*.md");
+  allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()).reverse();
+  return paginate(allPosts, {
+    pageSize: 50,
+  });
+}
+const { page } = Astro.props;
+// const params = Astro.params;
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <h1>Writing</h1>
+    <!-- Pass your post data into a custom component, or display it on the page -->
+    <ul>
+      {
+        page.data.map((post) => (
+          <li>
+            {post.frontmatter.publication_url != "" && 
+            <a href={post.frontmatter.publication_url}>{post.frontmatter.title}</a>
+            }
+            
+          </li>
+        ))
+      }
+    </ul>
+<!-- TODO: Index page -->
+    <!-- <Pagination
+      firstPage={page.url.prev ? "/posts/1" : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next
+        ? `/posts/${Math.round(page.total / page.size)}`
+        : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    /> -->
+  </main>
+</Layout>

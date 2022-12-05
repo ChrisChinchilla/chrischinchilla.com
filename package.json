@@ -1,0 +1,22 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astro-community/astro-embed-youtube": "^0.2.1",
+    "@astrojs/svelte": "^1.0.2",
+    "astro": "^1.6.0",
+    "svelte": "^3.46.4"
+  },
+  "devDependencies": {
+    "accessible-astro-components": "^1.6.1"
+  }
+}
