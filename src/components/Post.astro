@@ -3,17 +3,27 @@ export interface Props {
 	title: string;
 	body: string;
 	href: string;
+	date: string;
+	publication_url?: string;
 }
 
-const { href, title, body } = Astro.props;
+const { href, title, body, date, publication_url } = Astro.props;
+var formattedDate = new Date(date);
+var url = "";
+if (publication_url != null) {
+	url = publication_url
+} else {
+	url = href
+}
 ---
 
 <li class="link-card">
-	<a href={href}>
+	<a href={url}>
 		<h2>
 			{title}
 			<span>&rarr;</span>
 		</h2>
+		<i>{formattedDate}</i>
 		<p>
 			{body}
 		</p>

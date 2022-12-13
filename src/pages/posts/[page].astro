@@ -1,6 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-// import { Pagination } from "accessible-astro-components";
+import { Pagination } from "accessible-astro-components";
 import Post from '../../components/Post.astro';
 
 // const title = 'Blog';
@@ -9,9 +9,11 @@ import Post from '../../components/Post.astro';
 export async function getStaticPaths({ paginate }) {
   let allPosts = await Astro.glob("./**/*.md");
   // TODO: Must be a better way, this is odd?
-  allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()).reverse();
+
+  // allPosts = allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatter.date));
+  // console.log(allPosts);
   return paginate(allPosts, {
-    pageSize: 500,
+    pageSize: 50,
   });
 }
 const { page } = Astro.props;
@@ -29,19 +31,20 @@ const { page } = Astro.props;
       {
         page.data.map((post) => (
           <>
-            {post.frontmatter.publication_url != null && 
               <Post
-                href={post.frontmatter.publication_url}
+                href={post.url}
                 title={post.frontmatter.title}
                 body={post.body}
+                date={post.frontmatter.date}
+                publication_url={post.frontmatter.publication_url}
               />
-            }
+            
             </>
         ))
       }
     </ul>
 <!-- TODO: Index page -->
-    <!-- <Pagination
+    <Pagination
       firstPage={page.url.prev ? "/posts/1" : null}
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
@@ -50,6 +53,6 @@ const { page } = Astro.props;
         : null}
       currentPage={page.currentPage}
       totalPages={Math.round(page.total / page.size)}
-    /> -->
+    />
   </main>
 </Layout>

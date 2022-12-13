@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Apple Expo 2002 - Paris
 date: 2002-10-04
 categories:
