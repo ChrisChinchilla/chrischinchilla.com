@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Where to Ride - Book Review
 date: 2008-10-27T00:00:00.000Z
 tags:

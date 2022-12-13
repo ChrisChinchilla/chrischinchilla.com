@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Power your mobile presence with Drupal
 date: 1373594621
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "The Regular John's, Mint Chicks, The Bronx - HiFi Club, Melbourne"
 date: 1176506503
 categories:

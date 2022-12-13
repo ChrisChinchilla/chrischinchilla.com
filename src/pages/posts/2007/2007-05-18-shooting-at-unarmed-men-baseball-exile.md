@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Shooting at Unarmed Men, Baseball - Exile'
 date: 1179518402
 categories:

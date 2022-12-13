@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Public records, MVP, Drupal in India and mobile entrepreneurs
 date: 1400370973
 ---

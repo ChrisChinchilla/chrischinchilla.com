@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Ben Birchall & The Corrections - Last Ditch Brigade
 date: 1191514153
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Computer Human Interaction
 date: 1389734628
 ---

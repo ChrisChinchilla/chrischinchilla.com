@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "MediaWiki as a documentation platform, by Juan Lara"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC

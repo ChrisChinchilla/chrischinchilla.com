@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "OpenStack Stein- Kubernetes and Bare Metal"
 date: 2019-04-23
 author: "Chris Ward"

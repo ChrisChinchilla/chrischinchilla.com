@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Winterkids - I'm not used to you"
 date: 1154185836
 categories:

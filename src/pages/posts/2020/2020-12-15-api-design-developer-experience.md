@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: How to decide on an API that gives your team the best developer experience
 date: 2020-12-15
 author: "Chris Ward"

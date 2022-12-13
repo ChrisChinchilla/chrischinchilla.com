@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Bishops - The only place I can look is down
 date: 1145373036
 categories:

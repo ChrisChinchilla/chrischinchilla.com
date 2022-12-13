@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Blockwatch- Ripple, Coil, Codius, and Malta Summit"
 date: 2018-08-20 09:03:02 UTC
 author: "Chris Ward"

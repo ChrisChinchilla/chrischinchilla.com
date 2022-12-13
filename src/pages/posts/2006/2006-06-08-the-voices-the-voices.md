@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Voices - The Voices
 date: 1149779436
 categories:

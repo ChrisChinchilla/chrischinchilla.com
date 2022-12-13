@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Mira Calix - Eyes Set against the Sky
 date: 1168574377
 categories:

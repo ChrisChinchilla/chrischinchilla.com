@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The mobile platforms to watch in 2014
 date: 20140429
 publication_url: 'https://www.sitepoint.com/mobile-platforms-watch-2014/'

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Create a Random Board Game Generator Using Microservices on Heroku"
 date: 2020-06-23
 author: "Chris Ward"

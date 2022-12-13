@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Beauty Room - Holding on
 date: 1155726457
 categories:

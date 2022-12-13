@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Melbourne Mobile March 2014
 date: 1395189798
 ---

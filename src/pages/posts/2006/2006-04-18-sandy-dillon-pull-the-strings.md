@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Sandy Dillon - Pull The Strings
 date: 1145373036
 categories:

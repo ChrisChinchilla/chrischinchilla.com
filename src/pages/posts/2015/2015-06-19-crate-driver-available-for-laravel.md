@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Crate drivers available for Laravel
 date: 20150619
 publication_url: 'https://crate.io/blog/crate-driver-available-for-laravel/'

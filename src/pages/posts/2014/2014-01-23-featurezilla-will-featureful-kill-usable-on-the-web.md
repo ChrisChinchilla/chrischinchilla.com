@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Feature-zilla! Will Featureful Kill Usable on the Web?'
 date: 20140123
 publication_url: 'https://www.sitepoint.com/featureful-vs-usable/'

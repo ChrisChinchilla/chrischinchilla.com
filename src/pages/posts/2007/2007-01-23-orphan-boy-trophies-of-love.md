@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Orphan Boy - Trophies of Love
 date: 2007-01-23T00:00:00.000Z
 categories:

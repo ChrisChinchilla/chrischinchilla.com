@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Going Serverless? Compare Your FaaS Options"
 date: 2017-12-05 05:01:01 UTC
 author: "Chris Ward"

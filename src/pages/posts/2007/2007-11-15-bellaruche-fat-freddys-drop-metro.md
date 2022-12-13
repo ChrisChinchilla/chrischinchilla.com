@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Bellaruche, Fat Freddy's Drop - Metro
 date: 1195158541
 ---

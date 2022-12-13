@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Product Anonymous Feb 2014 - API management
 date: 1392939764
 ---

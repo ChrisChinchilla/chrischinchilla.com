@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Blockwatch- The aeternity Blockchain"
 date: 2018-11-02 09:01:04 UTC
 author: "Chris Ward"

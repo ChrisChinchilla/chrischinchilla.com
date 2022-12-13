@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "SecurEth Guidelines - Getting Started"
 date: 2019-06-06 18:15:48 UTC
 author: "Chris Ward"

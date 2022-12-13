@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Children Collide - Ding Dong Lounge
 date: 1179517971
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Jim Noir - My Patch
 date: 1147014636
 categories:

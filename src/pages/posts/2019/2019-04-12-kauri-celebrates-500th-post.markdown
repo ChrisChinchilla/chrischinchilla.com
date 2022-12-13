@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Kauri celebrates 500th post"
 date: 2019-04-12 03:49:51 UTC
 author: "Chris Ward"

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Rose Kemp - Violence
 date: 1160586697
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Exploring the Evive - A Book-Sized IoT Device
 date: 2016-09-12T00:00:00.000Z
 publication_url: >-

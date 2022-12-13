@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Lightning Bolt - Thornbury Theatre
 date: 1262530545
 categories:

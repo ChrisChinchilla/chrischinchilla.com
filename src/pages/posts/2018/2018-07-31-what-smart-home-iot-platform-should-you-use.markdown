@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "What Smart Home IoT Platform Should You Use?"
 date: 2018-07-31 13:02:01 UTC
 author: "Chris Ward"

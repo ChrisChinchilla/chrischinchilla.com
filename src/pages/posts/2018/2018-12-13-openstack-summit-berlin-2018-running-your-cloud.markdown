@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "OpenStack Summit Berlin 2018- Running Your Cloud"
 date: 2018-12-13 15:53:59 UTC
 author: "Chris Ward"

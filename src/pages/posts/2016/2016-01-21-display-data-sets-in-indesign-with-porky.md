@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Display Data Sets in InDesign with Porky
 date: 2016-01-21T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/indesign-with-porky/'

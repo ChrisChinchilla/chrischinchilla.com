@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Adding a CMS to Your Static Site With Netlify CMS"
 date: 2018-01-04 15:01:33 UTC
 author: "Chris Ward"

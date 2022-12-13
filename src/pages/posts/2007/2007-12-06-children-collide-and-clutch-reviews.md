@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Children Collide and Clutch Reviews
 date: '2007-12-06T18:18:10+00:00'
 categories:

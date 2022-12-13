@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Drones - Interview
 date: 1195158688
 ---

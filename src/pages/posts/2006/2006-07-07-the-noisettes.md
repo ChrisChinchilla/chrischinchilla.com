@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Noisettes
 date: 1152285036
 categories:

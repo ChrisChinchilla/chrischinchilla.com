@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Aberfeldy - Islington Bar Academy
 date: 1129734637
 categories:

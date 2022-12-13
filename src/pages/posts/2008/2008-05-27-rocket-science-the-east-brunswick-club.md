@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Rocket Science - The East Brunswick Club
 date: 1211902547
 categories:

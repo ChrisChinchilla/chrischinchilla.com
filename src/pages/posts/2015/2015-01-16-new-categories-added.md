@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: New Categories added
 date: 1421395032
 categories: writing leantraveller

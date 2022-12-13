@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Learning to Code With Swift Playgrounds"
 date: 2020-04-01
 author: "Chris Ward"

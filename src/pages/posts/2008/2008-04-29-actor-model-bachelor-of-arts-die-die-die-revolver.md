@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Actor/Model, Bachelor of Arts, Die Die Die! - Revolver'
 date: 1209444263
 categories:

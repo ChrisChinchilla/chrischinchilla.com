@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Human Powered Cycles - Cycling article
 date: 1230592042
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Touche - Creative Writing
 date: 1211753935
 categories:

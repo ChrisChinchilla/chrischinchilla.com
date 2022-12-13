@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "What is Artificial Intelligence?"
 date: 2018-07-19 15:15:23 UTC
 author: "Chris Ward"

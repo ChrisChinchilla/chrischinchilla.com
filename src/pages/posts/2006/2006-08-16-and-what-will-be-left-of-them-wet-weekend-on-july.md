@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: And what will be left of them? - Wet Weekend on July
 date: 1155726975
 categories:

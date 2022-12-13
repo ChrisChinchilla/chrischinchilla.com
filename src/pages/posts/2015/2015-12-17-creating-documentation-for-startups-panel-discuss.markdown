@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Creating documentation for startups - Panel discussion"
 layout: "../../../layouts/Podcast.astro"
 date: 2015-12-17 00:00:00 UTC

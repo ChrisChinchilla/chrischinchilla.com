@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Dartz! - Once, Twice again'
 date: 2007-01-18T00:00:00.000Z
 categories:

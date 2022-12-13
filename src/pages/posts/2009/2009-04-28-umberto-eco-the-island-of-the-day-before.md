@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Umberto Eco - The Island of the Day Before
 date: 1240941176
 categories:

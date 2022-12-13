@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Why Zalando built their Internal Developer Platform‍
 date: 2020-10-12
 author: "Chris Ward"

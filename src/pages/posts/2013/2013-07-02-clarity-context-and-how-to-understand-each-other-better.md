@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: clarity, context and how to understand each other better
 date: 1372752113
 ---

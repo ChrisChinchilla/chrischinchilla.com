@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Murder by Death - Water Rats
 date: 1163466719
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Publishing the Open Access Way
 date: 1383124748
 ---

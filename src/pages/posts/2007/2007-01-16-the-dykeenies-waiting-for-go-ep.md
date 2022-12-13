@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Dykeenies - Waiting for Go EP
 date: 2007-01-16T00:00:00.000Z
 categories:

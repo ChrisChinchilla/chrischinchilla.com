@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "The easiest way to create professional-looking illustrations and diagrams, by Tom Johnson"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC

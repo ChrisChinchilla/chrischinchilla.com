@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Skegness wind farm
 date: 1313092211
 image: images/skeg2.jpg

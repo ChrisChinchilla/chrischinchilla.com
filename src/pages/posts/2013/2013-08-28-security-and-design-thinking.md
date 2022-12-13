@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Security and design thinking
 date: 1377641376
 categories:

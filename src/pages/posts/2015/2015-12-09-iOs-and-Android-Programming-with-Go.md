@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'iOS and Android Programming with Go'
 date: 20151209
 publication_url: 'https://www.sitepoint.com/ios-and-android-programming-with-go/'

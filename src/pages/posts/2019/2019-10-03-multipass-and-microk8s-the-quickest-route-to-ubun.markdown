@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Multipass and MicroK8s- the Quickest Route to Ubuntu and Kubernetes?"
 date: 2019-10-03 13:56:17 UTC
 author: "Chris Ward"

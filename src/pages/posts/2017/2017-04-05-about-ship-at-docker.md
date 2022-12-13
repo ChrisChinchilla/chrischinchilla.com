@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'About Ship at Docker'
 date: '2017-05-04 10:13:30 +0100'
 image: images/pYgBswUk.jpg

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Stranglers - The Palace
 date: 1240940728
 categories:

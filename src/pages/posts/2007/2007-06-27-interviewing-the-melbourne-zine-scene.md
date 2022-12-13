@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Interviewing the Melbourne Zine Scene
 date: '2007-06-27T20:48:35+00:00'
 tags: zines creative melbourne

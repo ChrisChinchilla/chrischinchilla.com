@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'New Cards, The Benefits of Reading out Loud, Switching to Jekyll and more'
 date: 1424513866
 categories: projects

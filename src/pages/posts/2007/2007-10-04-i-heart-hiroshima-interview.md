@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: I Heart Hiroshima - Interview
 date: 1191514826
 ---

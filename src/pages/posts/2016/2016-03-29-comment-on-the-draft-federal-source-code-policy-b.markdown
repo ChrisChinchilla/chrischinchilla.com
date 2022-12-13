@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Comment on the Draft Federal Source Code Policy, by Britta Gustafson"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC

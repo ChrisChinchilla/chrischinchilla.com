@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: City Life - Creative writing (Prose)
 date: 1230591211
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Subtle signs you're not from round here"
 date: 1409125286
 categories:

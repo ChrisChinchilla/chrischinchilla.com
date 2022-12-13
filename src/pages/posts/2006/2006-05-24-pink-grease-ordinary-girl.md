@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Pink Grease - Ordinary Girl
 date: 1148483436
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Kate Myers - The Blanket Sky
 date: 1158650593
 categories:

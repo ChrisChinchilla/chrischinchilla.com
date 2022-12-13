@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Melbourne Athiest Society
 date: '2007-03-14T20:25:42+00:00'
 tags: 

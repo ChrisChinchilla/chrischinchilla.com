@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Snowfight in the City Centre - Demo
 date: 1150297836
 categories:

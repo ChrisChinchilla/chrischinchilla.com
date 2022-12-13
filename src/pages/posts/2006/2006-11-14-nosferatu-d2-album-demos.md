@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Nosferatu D2 - Album Demos
 date: 1163465251
 categories:

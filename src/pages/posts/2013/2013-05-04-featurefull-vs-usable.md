@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Featurefull vs Usable
 date: 1367669765
 image: images/feature-bloat.png

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Lovecraft and John Harrison return
 date: 1392934417
 ---

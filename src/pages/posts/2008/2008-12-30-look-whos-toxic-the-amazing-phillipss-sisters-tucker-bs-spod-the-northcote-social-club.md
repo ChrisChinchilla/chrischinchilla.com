@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Look who's Toxic, The Amazing Phillips's Sisters / Tucker B's, Spod - The Northcote Social Club"
 date: 2008-12-30T00:00:00.000Z
 tags: reviews music

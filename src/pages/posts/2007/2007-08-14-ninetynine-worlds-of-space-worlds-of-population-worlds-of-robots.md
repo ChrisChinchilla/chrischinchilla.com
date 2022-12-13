@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: NinetyNine - Worlds Of Space, Worlds Of Population, Worlds Of Robots
 date: 1187112905
 ---

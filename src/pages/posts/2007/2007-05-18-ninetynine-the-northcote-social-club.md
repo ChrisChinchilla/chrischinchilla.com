@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: NinetyNine - The Northcote Social Club
 date: 1179516359
 categories:

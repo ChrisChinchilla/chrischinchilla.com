@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Lean Traveller alpha launches
 date: 1416478461
 categories: projects leantraveller

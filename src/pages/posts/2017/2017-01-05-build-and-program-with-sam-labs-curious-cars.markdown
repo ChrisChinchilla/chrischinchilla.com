@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Build and program with Sam labs Curious Cars
 date: 2017-01-05 19:45:01 +0100
 image: images/2017-01-05-build-and-program-with-sam-labs-curious-cars-eca73892.jpg

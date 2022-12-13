@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Reducing negative and biased language in documentation
 date: 2022-01-20
 author: "Chris Ward"

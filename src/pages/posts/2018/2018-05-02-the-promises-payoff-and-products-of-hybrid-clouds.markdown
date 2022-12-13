@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "The Promises, Payoff, and Products of Hybrid Clouds"
 date: 2018-05-02 12:01:01 UTC
 author: "Chris Ward"

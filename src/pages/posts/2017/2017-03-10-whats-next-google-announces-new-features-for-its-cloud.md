@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: What's Next? Google Announces New Features for its Cloud
 date: '2017-03-10 18:13:30 +0100'
 image: images/cloud-next.jpg

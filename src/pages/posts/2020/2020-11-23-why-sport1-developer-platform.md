@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Why Sport1 built their Internal Developer Platform
 date: 2020-11-23
 author: "Chris Ward"

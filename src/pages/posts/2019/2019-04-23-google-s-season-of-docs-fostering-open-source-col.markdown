@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Google&#39;s Season of Docs - Fostering open source collaboration with technical writers"
 date: 2019-04-23 00:05:34 UTC
 author: "Chris Ward"

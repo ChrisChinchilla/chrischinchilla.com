@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: IV Thieves - The Day is a Downer
 date: 1159276540
 categories:

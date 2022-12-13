@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Degrowth 2014 - ShareEconomy, P2P, Transition Town - What do they share?'
 date: 2014-09-07T00:00:00.000Z
 categories:

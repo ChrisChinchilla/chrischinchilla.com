@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Today Google told me my flight was delayed before my airline.
 date: 1379721292
 ---

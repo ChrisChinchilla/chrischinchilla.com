@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: I Heart Hiroshima Interview
 date: '2007-09-24T16:00:43+00:00'
 tags: music interview

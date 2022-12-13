@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Why Programmers Should Play Boardgames"
 date: 2018-07-17 12:01:01 UTC
 author: "Chris Ward"

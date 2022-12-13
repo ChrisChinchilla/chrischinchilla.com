@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Melbourne's 2am Lockout"
 date: 1219690635
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Computational Knowledge With Stephen Wolfram"
 date: 2018-06-14 17:01:00 UTC
 author: "Chris Ward"

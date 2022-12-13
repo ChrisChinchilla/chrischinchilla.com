@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Mobile World Congress 2017
 date: '2017-03-02 18:13:30 +0100'
 image: images/mwc-2017.jpg

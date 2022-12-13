@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Jamie T - HiFi
 date: 1262530338
 categories:

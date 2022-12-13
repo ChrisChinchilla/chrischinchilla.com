@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Editors Friend for Atom
 date: 2016-08-22T00:00:00.000Z
 categories: projects software

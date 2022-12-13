@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Apocalypse-ish
 date: 1240941320
 ---

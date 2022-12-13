@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Answer - Under The Sky
 date: 1159276742
 categories:

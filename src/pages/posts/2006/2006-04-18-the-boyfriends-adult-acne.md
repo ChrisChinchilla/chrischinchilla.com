@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Boyfriends - Adult Acne
 date: 1145373036
 categories:

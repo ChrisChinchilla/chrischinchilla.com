@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Peer-to-peer hypermedia with IPFS"
 date: 2019-03-19 18:47:26 UTC
 author: "Chris Ward"

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "A Roundup of Managed Kubernetes Platforms"
 date: 2018-02-01 16:15:57 UTC
 author: "Chris Ward"

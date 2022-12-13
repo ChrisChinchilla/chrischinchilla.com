@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Take your drupal sites offline
 date: 1363113527
 ---

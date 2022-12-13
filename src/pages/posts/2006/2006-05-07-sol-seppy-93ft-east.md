@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Sol Seppy - 93ft East
 date: 1147014636
 categories:

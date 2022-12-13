@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Open source documentation in practice (Kubernetes case study), by John Mulhausen"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC

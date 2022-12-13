@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Institut Polaire - City Walls and Empires
 date: 1187113457
 ---

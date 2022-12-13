@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Extending Drupal with a CRM talk at Drupal Melbourne meetup 8th Jan
 date: 1357254906
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Docker Monitoring - 5 Methods for Monitoring Java Applications in Docker
 date: '2017-06-28 18:13:30 +0100'
 image: images/docker.png

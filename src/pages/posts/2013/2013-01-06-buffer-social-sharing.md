@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Buffer - Social sharing
 date: 2013-01-06T00:00:00.000Z
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Maximo Park - Our Earthly Pleasures
 date: 1183767659
 categories:

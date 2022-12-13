@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Time tracking is made painless and easy with Timing 2 app
 date: '2017-06-21 18:13:30 +0100'
 image: images/timing_2_app_icon_1x.png

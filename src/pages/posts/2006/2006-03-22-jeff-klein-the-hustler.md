@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Jeff Klein - The Hustler
 date: 1143043836
 categories:

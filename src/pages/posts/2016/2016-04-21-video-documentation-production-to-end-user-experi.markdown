@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Video Documentation - Production to End User Experience"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-04-21 00:00:00 UTC

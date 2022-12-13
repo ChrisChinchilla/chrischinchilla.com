@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Big Strides - Always Together
 date: 2007-02-26T00:00:00.000Z
 categories:

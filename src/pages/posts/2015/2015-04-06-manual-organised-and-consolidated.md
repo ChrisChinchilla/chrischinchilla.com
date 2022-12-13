@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Manual organised and consolidated
 date: 1428347392
 image: images/image-manual-organised-and-consolidated.png

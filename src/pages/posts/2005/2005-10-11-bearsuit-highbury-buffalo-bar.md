@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Bearsuit - Highbury Buffalo Bar
 date: 1129038318
 categories:

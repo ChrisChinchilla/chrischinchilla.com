@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Creative vs Commons
 date: 1385334447
 ---

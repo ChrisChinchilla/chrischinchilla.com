@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "A tribe called tech (writers), by Mary Swift"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC

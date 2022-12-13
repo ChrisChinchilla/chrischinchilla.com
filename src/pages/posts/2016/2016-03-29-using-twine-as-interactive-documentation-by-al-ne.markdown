@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Using Twine as interactive documentation, by Al Nelson"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC

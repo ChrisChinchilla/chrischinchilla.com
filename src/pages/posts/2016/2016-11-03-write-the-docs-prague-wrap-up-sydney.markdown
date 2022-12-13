@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Write the Docs Prague - Wrap-up - Sydney"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-11-03 00:00:00 UTC

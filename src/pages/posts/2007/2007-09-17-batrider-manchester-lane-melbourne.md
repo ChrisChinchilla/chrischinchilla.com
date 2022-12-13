@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Batrider - Manchester Lane, Melbourne
 date: 1190061418
 ---

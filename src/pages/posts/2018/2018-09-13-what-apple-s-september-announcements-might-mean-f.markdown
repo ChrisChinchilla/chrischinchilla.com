@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "What Apple&#39;s September Announcements Might Mean for Developers"
 date: 2018-09-13 20:46:02 UTC
 author: "Chris Ward"

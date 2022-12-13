@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Jim Noir - Kings College
 date: 1149088236
 categories:

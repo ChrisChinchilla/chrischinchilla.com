@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Schvendes - Ding Dong, Melbourne
 date: 1190061303
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Politics in Music - Classical
 date: '2007-06-12T21:58:25+00:00'
 tags: music politics

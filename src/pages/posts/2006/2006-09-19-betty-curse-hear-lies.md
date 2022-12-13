@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Betty Curse - Hear Lies
 date: 1158652042
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Creating campaigns with Drupal and CiviCRM
 date: 1357104274
 ---

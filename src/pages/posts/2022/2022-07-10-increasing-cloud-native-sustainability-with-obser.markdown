@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Increasing Cloud-Native Sustainability With Observability"
 date: 2022-07-10
 author: "Chris Ward"

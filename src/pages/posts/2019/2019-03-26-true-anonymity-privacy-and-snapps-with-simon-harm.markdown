@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "True Anonymity, Privacy, and SNApps With Simon Harman of Loki"
 date: 2019-03-26 05:01:03 UTC
 author: "Chris Ward"

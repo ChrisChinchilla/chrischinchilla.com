@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Currently Looking for Opportunities
 date: 1421770903
 categories:

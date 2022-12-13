@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Toast(mastering), PHP and Bike Riding in Leipzig
 date: 1409550127
 ---

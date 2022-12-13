@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Mobile Mondays Melbourne Sept 2013
 date: 1378895728
 categories:

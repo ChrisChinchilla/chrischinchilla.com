@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Roland Shanks - Tarantula
 date: 1150211436
 categories:

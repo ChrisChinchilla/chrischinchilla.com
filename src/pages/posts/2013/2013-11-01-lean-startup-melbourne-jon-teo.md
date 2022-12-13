@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Lean Startup Melbourne - Jon Teo
 date: 1383343616
 ---

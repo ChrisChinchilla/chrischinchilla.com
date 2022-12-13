@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Writing globally for locals, by Laura Stewart"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC

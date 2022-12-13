@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: These New Puritans - Brixton Windmill
 date: 1141747836
 categories:

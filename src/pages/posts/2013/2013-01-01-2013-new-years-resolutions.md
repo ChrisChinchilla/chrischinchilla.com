@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 2013 New Years resolutions
 date: 1357078603
 ---

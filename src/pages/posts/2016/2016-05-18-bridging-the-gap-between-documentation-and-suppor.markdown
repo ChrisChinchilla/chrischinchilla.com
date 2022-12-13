@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Bridging the gap between documentation and support, with Neal Kaplan"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-05-18 00:00:00 UTC

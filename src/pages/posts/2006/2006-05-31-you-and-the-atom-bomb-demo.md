@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'You & The Atom Bomb - Demo'
 date: 1149088236
 categories:

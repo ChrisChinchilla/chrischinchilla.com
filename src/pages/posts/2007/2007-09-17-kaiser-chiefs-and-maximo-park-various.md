@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Kaiser Chiefs & Maximo Park - Various
 date: 1190060971
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: A Short History of Byzantium - John Julius Norwich
 date: 2009-04-28T00:00:00.000Z
 categories:

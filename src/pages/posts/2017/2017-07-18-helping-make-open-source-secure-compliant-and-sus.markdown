@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Helping Make Open Source Secure, Compliant, and Sustainable With Jeff..."
 date: 2017-07-18 05:01:01 UTC
 author: "Chris Ward"

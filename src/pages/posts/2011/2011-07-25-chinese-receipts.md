@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Chinese receipts
 date: 1311607311
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: My New housemate
 date: 2013-05-04T00:00:00.000Z
 categories:

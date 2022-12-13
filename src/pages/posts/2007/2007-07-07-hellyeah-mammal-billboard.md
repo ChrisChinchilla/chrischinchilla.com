@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Hellyeah, Mammal - Billboard'
 date: 1183767042
 categories:

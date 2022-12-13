@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Interview with The Dardanelles
 date: '2007-11-08T23:28:14+00:00'
 tags: music interview

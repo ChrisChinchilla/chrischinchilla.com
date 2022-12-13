@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "An Introduction to Docker for Mac"
 date: 2016-07-21 15:15:44 UTC
 author: "Chris Ward"

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Derelict London - Paul Talling
 date: 1240942130
 categories:

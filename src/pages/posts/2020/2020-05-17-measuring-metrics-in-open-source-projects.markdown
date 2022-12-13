@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Measuring Metrics in Open-Source Projects"
 date: 2020-05-17
 author: "Chris Ward"

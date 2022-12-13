@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Creating Augmented Reality and IoT Experiences With Thingworx"
 date: 2017-12-04 06:01:04 UTC
 author: "Chris Ward"

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Televise - Songs to sing in A&E'
 date: 1149693036
 categories:

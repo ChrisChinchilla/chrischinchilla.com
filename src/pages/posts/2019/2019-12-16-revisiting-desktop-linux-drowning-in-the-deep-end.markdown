@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Revisiting Desktop Linux- Drowning in the Deep End"
 date: 2019-12-16
 author: "Chris Ward"

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: New Rhodes - History of Britain
 date: 1159276663
 categories:

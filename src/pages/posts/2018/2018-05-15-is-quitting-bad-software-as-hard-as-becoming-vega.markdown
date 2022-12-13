@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Is Quitting Bad Software as Hard as Becoming Vegan?"
 date: 2018-05-15 09:01:43 UTC
 author: "Chris Ward"

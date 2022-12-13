@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Founder of Opera and Vivaldi, Jon Stephenson von Tetzchner [Interview]"
 date: 2017-06-04 05:01:20 UTC
 author: "Chris Ward"

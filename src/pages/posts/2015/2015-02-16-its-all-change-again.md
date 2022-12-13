@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: It's all change, again
 date: 1424075340
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Rubber Records 20th Birthday - Northcote Town Hall
 date: 1225147013
 categories:

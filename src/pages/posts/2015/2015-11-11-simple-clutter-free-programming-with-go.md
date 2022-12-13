@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Simple, Clutter-free Programming with Go
 date: 20151111
 image: images/image-simple-clutter-free-programming.jpg

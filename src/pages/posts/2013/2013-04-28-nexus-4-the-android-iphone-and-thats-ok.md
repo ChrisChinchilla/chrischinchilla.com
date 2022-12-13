@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Nexus 4 – The Android iPhone and that's ok"
 date: 2013-04-28T00:00:00.000Z
 categories:

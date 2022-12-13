@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Drupal 7 Multi-sites configuration - Matt Butcher
 date: 1340623057
 image: images/drupal7multisite.png

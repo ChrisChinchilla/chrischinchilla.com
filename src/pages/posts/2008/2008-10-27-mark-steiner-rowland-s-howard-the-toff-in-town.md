@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Mark Steiner, Rowland S Howard - The Toff in Town'
 date: 1225147624
 categories:

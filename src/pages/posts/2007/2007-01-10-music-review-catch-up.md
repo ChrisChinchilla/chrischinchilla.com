@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Music Review Catch Up
 date: '2007-01-10T11:14:57+00:00'
 tags:

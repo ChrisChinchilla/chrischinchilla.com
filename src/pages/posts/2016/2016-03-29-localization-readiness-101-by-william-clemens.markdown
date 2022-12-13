@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Localization readiness 101, by William Clemens"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC

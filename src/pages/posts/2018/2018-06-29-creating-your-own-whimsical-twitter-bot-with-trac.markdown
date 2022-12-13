@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Creating Your Own Whimsical Twitter Bot With Tracery"
 date: 2018-06-29 06:01:01 UTC
 author: "Chris Ward"

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Dream - Creative Writing / Dream
 date: 1211754143
 categories:

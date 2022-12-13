@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Extending Drupal with a CRM
 date: 1357104330
 ---

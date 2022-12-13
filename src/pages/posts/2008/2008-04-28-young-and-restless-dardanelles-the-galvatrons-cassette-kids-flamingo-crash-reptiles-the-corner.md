@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Young & Restless, Dardanelles, The Galvatrons, Cassette Kids, Flamingo Crash, Reptiles - The Corner'
 date: 1209399890
 categories:

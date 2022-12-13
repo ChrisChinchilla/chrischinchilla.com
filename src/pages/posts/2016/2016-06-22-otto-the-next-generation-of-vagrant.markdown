@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Otto - The Next Generation of Vagrant"
 date: 2016-06-22 15:15:53 UTC
 author: "Chris Ward"

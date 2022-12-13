@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "From Hackathon to Help System"
 date: 2017-02-16 00:00:00 UTC
 author: ""

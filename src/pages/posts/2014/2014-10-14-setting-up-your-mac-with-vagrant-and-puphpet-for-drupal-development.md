@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Setting up your Mac with Vagrant and Puphpet for Drupal Development
 date: 1413297984
 ---

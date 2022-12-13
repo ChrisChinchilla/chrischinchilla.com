@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Findlay Brown - Down amongst the Dead men
 date: 1150211436
 categories:

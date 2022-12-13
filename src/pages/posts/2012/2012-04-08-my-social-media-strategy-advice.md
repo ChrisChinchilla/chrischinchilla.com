@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: My Social Media strategy advice
 date: 1333857256
 categories:

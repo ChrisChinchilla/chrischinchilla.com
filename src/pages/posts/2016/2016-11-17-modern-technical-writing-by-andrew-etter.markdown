@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Modern Technical Writing, by Andrew Etter"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-11-17 00:00:00 UTC

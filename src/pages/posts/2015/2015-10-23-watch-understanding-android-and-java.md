@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Video - Understanding Java and Android
 date: 20151023
 publication_url: 'https://www.sitepoint.com/watch-understanding-android-and-java/'

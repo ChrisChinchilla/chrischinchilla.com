@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Huawei P10, a Powerfully Small Package
 date: '2017-06-12 09:36:36 +0200'
 image: images/h-p10.jpg

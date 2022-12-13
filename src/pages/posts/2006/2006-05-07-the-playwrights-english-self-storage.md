@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Playwrights - English Self storage
 date: 1147014636
 categories:

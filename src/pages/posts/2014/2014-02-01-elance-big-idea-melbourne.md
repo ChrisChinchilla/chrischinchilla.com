@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: eLance big idea Melbourne
 date: 1391291592
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: An Introduction to Developer Experience (DevEx, DX)
 date: 2020-10-06
 author: "Chris Ward"

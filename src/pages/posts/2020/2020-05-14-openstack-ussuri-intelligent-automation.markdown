@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "OpenStack Ussuri - Intelligent Automation"
 date: 2020-05-14
 author: "Chris Ward"

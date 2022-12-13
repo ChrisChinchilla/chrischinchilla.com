@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Are We All Doomed? Your Role in the Ethics of Tech"
 date: 2017-11-06 06:01:03 UTC
 author: "Chris Ward"

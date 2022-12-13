@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'The Answer - The Evelyn Hotel, Melbourne'
 date: 1176506963
 categories:

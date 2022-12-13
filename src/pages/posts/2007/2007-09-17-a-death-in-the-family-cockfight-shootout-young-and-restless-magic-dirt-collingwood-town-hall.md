@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: A Death in the family, Cockfight shootout, Young & Restless, Magic Dirt - Collingwood
   Town Hall
 date: 1190061049

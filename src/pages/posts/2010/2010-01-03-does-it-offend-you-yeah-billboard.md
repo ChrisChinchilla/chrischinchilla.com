@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Does it offend you, yeah? - Billboard'
 date: 1262530290
 categories:

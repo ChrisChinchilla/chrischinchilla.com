@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Findlay Brown - The Social, London'
 date: 1148483436
 categories:

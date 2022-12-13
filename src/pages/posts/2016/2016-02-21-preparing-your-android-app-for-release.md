@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Video - Preparing Your Android App for Release
 date: 2016-02-21T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/preparing-your-app-for-the-google-play-store'

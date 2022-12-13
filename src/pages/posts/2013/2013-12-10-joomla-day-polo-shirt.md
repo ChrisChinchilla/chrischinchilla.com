@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Joomla! Day Polo shirt'
 date: 2013-12-10T00:00:00.000Z
 image: images/joomlapolo.jpg

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Carus & The True Believers - Three Boxes
 date: 1191514249
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Goofang, Spun Rivals, Worlds End Press - Ding Dong, Melbourne'
 date: 1198177896
 categories:

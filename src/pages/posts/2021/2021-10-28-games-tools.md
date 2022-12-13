@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Digital tools for boardgames and roleplay games
 date: 2021-10-28
 categories: writing chrischinchilla

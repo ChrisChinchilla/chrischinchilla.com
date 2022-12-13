@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "CI Workflows and Bots"
 date: 2017-05-24 15:15:12 UTC
 author: "Chris Ward"

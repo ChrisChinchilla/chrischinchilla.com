@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Testing Code Examples in Documentation"
 date: 2016-12-21 16:15:22 UTC
 author: "Chris Ward"

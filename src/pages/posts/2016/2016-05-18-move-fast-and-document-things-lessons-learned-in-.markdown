@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Move fast and ... document things? Lessons learned in building documentation culture at a startup, by Ruthie BenDor"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-05-18 00:00:00 UTC

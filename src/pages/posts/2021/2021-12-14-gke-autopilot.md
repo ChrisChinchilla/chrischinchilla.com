@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: How to use Chronosphere to monitor your GKE Autopilot deployment
 date: 2021-12-14
 author: "Chris Ward"

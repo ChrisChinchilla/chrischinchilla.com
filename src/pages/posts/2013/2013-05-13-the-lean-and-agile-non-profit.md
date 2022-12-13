@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The lean and agile non profit
 date: 1368417587
 ---

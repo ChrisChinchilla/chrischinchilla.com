@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Creating a Game with Markdown, Pandoc, Latex and PDFJam'
 date: 2015-08-11T00:00:00.000Z
 categories: projects chipshop

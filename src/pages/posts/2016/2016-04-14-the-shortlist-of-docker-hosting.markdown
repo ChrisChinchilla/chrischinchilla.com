@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "The Shortlist of Docker Hosting"
 date: 2016-04-14 15:15:06 UTC
 author: "Chris Ward"

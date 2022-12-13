@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Storycraft in SDK documentation, or a writer’s theory of everything, by Elisa Sawyer"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC

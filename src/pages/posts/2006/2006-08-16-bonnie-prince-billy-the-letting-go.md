@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Bonnie Prince Billy - The Letting Go
 date: 1155725739
 categories:

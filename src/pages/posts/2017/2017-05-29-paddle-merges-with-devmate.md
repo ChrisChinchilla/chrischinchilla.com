@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Paddle Merges With DevMate to Offer macOS Developers a Consolidated Distribution Solution
 date: '2017-05-29 11:13:30 +0100'
 image: images/saas.jpeg

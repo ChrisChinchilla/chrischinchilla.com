@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Tools to help generate screenshots for your documentation
 date: 2022-01-27
 author: "Chris Ward"

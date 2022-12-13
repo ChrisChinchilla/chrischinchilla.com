@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 1 Dev, 3 Teams, 3 Git Pull Request Review Experiences
 date: 2020-05-19
 author: "Chris Ward"

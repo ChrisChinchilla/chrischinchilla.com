@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Jeremy Warmsley - I Promise
 date: 1150816236
 categories:

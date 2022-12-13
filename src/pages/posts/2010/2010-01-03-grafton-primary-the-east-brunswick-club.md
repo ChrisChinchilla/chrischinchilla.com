@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Grafton Primary - The East Brunswick Club
 date: 1262529938
 categories:

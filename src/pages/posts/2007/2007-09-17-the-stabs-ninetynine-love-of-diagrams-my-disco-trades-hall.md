@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Stabs, NinetyNine, Love of Diagrams, My Disco - Trades Hall
 date: 1190061144
 ---

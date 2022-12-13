@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Kill Devil Hills - The Spanish Club
 date: 1179513772
 ---

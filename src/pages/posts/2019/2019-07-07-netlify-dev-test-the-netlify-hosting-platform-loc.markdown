@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Netlify Dev- Test the Netlify Hosting Platform Locally"
 date: 2019-07-07
 author: "Chris Ward"

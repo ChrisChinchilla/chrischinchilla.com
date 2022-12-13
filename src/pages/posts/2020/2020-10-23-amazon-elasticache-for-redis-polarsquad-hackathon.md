@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: How we created a Humanitec driver for Amazon ElastiCache for Redis - A hackathon with Polar Squad
 date: 2020-10-23
 author: "Chris Ward"

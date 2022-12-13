@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Melbourne KMLF Feb 2014
 date: 1393460372
 categories:

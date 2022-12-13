@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Optimize Your Cloud Native Infrastructure with Replex.Io [Audio..."
 date: 2018-01-30 21:01:01 UTC
 author: "Chris Ward"

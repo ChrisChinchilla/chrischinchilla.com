@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: A Developers Guide to Better Presentations — Part 1, Stage Craft
 date: '2017-04-29 10:13:30 +0100'
 image: images/111978-109778.jpg

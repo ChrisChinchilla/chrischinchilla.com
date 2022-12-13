@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 7 CRM Options Compatible with Drupal
 date: 20141210
 publication_url: 'https://www.sitepoint.com/7-crm-options-compatible-drupal/'

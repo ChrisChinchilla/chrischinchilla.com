@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Testing hotfixes to Production without rolling back Staging
 date: 2020-11-04
 author: "Chris Ward"

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Baseball - Missing Link
 date: 1209399765
 categories:

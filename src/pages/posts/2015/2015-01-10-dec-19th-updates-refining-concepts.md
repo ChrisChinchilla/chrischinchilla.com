@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Dec 19th Updates, refining concepts'
 date: 1420901907
 categories: projects chipshop

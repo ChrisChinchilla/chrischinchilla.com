@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Television personalities - The Barfly
 date: 1143172777
 categories:

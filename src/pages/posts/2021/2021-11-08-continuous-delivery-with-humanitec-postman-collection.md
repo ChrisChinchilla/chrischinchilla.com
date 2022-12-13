@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Continuous Delivery With the Humanitec Postman Collection
 date: 2021-11-08
 author: "Chris Ward"

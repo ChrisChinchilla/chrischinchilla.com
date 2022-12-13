@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Afrolynk- African Tech and Entrepreneurship"
 date: 2018-09-05 16:03:01 UTC
 author: "Chris Ward"

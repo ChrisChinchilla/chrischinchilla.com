@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Bitch Slap - Pony, Melbourne
 date: 1190061210
 ---

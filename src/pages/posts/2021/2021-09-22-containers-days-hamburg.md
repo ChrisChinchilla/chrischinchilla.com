@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Reporting back from Container Days Hamburg
 date: 2021-09-22
 author: "Chris Ward"

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: An Introduction to PromQL
 date: 2021-05-27
 author: "Chris Ward"

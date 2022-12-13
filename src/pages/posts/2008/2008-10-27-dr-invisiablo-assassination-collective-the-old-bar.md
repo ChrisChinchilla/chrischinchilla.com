@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Dr Invisiablo, Assassination Collective - The Old Bar'
 date: 1225146916
 categories:

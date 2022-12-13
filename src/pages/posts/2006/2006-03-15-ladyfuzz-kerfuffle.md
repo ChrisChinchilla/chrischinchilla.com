@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Ladyfuzz - Kerfuffle
 date: 1142439036
 categories:

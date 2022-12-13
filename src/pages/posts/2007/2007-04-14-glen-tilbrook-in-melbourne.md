@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Glen Tilbrook - in Melbourne
 date: 1176507183
 categories:

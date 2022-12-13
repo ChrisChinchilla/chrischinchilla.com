@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Integrating more closely with software teams, by Craig Simms"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-11-03 00:00:00 UTC

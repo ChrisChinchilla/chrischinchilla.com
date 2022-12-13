@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Version changes to configurations for Kubernetes-ready applications
 date: 2020-09-21
 author: "Chris Ward"

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Versioning Large Files with git LFS
 date: 2015-09-11T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/versioning-large-files-with-git-lfs/'

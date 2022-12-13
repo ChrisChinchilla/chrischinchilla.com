@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Startup Health Tech - April 2014
 date: 1397713260
 categories:

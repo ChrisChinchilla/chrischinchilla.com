@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Initial impressions of Leipzig and Germany
 date: 1406623693
 categories:

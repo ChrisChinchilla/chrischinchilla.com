@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The International Accessibility Standards You Need to Follow
 date: 2019-07-11T12:44:33.827Z
 image: images/tb_870x22043dccabe89e4489095165891b587bb6b.png

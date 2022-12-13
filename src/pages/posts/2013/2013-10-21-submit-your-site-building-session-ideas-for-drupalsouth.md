@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Submit your site building session ideas for DrupalSouth
 date: 1382315112
 ---

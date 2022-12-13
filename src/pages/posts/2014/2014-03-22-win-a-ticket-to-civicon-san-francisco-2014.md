@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Win a ticket to CiviCon San Francisco 2014
 date: 1395516619
 ---

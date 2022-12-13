@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Diamond Sea, Fire Santa Rosa Fire, I Heart Hiroshima - The Northcote Social Club'
 date: 1262530496
 categories:

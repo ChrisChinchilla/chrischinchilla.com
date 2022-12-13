@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Github for documentation, by Rhonda Glennon"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-10-27 00:00:00 UTC

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Hands on with Lollipop
 date: 1417703889
 categories:

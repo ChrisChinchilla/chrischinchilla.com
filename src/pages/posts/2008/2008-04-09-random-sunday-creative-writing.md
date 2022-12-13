@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Random Sunday - Creative Writing
 date: 1207717534
 categories:

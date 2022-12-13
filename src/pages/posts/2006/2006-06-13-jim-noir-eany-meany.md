@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Jim Noir - Eany Meany
 date: 1150211436
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "An Introduction to the Docker Trusted Registry"
 date: 2016-05-25 15:15:23 UTC
 author: "Chris Ward"

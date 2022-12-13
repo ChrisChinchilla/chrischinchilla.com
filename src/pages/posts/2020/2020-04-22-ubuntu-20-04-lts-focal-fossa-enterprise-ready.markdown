@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Ubuntu 20.04 LTS (Focal Fossa)- Enterprise-Ready"
 date: 2020-04-22
 author: "Chris Ward"

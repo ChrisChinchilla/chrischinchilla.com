@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Plastic Palace Alice - The Spiegel Tent
 date: 1198178175
 categories:

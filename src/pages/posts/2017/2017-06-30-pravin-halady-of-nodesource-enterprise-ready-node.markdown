@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Pravin Halady of NodeSource- Enterprise Ready Node.js [Podcast]"
 date: 2017-06-30 14:01:01 UTC
 author: "Chris Ward"

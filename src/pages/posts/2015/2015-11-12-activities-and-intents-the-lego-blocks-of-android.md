@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Video - Activities and Intents, the lego blocks of Android'
 date: 20151112
 publication_url: 'https://www.sitepoint.com/premium/screencasts/managing-android-interfaces-with-activities-and-intents'

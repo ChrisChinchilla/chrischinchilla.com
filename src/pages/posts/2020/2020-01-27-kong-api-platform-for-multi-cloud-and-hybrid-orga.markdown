@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Kong API Platform for Multi-Cloud and Hybrid Organizations"
 date: 2020-01-27
 author: "Chris Ward"

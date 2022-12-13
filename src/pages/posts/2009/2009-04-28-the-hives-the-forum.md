@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: The Hives - The Forum
 date: 1240940628
 categories:

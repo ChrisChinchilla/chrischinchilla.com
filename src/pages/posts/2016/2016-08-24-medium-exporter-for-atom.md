@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Medium Exporter for Atom
 date: 2016-08-24T00:00:00.000Z
 categories: projects software

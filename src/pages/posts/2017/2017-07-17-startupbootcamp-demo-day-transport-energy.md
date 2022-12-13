@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Startupbootcamp demo day on transport and energy
 date: 2017-07-17
 image: images/startupbootcamp.jpg

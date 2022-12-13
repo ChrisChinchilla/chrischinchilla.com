@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Bright Yellow, British India - The Evelyn
 date: 1198178242
 ---

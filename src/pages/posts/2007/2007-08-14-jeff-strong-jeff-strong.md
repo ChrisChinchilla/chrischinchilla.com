@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Jeff Strong - Jeff Strong
 date: 1187113268
 ---

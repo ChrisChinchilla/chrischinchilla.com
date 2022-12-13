@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Camera - Demo
 date: 1149693036
 categories:

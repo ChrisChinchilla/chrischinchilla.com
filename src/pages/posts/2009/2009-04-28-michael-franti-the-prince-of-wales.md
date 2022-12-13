@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Michael Franti - The Prince of Wales
 date: 1240940912
 categories:

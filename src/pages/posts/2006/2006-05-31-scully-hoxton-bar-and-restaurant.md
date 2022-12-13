@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: 'Scully - Hoxton Bar & Restaurant'
 date: 1149088236
 categories:

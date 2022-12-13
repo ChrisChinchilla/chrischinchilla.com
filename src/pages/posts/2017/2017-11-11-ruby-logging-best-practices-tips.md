@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: Ruby logging best practices and tips
 date: 2017-11-11
 image: images/ruby-logo.png

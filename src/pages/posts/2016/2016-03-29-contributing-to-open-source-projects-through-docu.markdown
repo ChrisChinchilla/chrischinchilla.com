@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: "Contributing to open-source projects through documentation, by Rhonda Glennon"
 layout: "../../../layouts/Podcast.astro"
 date: 2016-03-29 00:00:00 UTC
