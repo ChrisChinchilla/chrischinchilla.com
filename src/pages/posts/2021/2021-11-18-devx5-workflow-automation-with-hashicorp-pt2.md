@@ -1,6 +1,6 @@
 ---
 title: "Devx5 - Workflow automation with HashiCorp (pt2)"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-11-18 05:38:13 UTC
 author: ""
 categories: video

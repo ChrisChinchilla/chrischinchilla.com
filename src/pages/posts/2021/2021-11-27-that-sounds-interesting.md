@@ -1,6 +1,6 @@
 ---
 title: "That sounds interesting podcast"
-layout: "../../../layouts/Podcast.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-11-27 00:00:00 UTC
 author: ""
 categories: podcast

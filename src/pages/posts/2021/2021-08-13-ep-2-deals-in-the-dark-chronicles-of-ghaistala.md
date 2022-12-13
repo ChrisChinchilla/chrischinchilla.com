@@ -1,6 +1,6 @@
 ---
 title: "Ep 2 - Deals in the Dark, Chronicles of Ghaistala"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-08-13 21:04:27 UTC
 author: ""
 categories: video

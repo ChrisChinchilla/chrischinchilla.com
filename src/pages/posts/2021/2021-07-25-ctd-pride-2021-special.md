@@ -1,6 +1,6 @@
 ---
 title: "CTD - Pride 2021 Special"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-07-25 01:34:04 UTC
 author: ""
 categories: video

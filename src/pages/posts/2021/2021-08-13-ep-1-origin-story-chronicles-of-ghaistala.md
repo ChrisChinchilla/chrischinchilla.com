@@ -1,6 +1,6 @@
 ---
 title: "Ep 1 - Origin Story, Chronicles of Ghaistala"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-08-13 20:53:15 UTC
 author: ""
 categories: video

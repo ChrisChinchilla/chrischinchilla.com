@@ -1,6 +1,6 @@
 ---
 title: "Crit Test Dummies Special - The Phantasmal Owlbear&#39;s Den"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2020-04-23 09:33:14 UTC
 author: ""
 categories: video

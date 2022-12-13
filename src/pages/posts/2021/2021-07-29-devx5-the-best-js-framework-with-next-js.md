@@ -1,6 +1,6 @@
 ---
 title: "Devx5 - The best JS framework with Next.js"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-07-29 04:46:27 UTC
 author: ""
 categories: video

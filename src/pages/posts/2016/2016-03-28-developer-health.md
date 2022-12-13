@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Podcast.astro"
+layout: "../../../layouts/Post.astro"
 categories: media podcast
 title: Developer Health
 date: '2016-03-28 09:43:28 +0200'

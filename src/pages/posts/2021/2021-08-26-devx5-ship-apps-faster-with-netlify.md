@@ -1,6 +1,6 @@
 ---
 title: "Devx5 - Ship Apps faster with Netlify"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-08-26 04:31:25 UTC
 author: ""
 categories: video

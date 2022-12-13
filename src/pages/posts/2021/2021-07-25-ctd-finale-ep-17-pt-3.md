@@ -1,6 +1,6 @@
 ---
 title: "CTD - Finale Ep 17 (Pt 3)"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-07-25 01:27:18 UTC
 author: ""
 categories: video

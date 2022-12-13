@@ -1,6 +1,6 @@
 ---
 title: "Devx5 - Developer Experience deep dive with Twilio"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-03-25 05:38:21 UTC
 author: ""
 categories: video

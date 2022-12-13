@@ -1,6 +1,6 @@
 ---
 title: "Devx5 - Empowering developers with Rust"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-09-09 04:30:54 UTC
 author: ""
 categories: video

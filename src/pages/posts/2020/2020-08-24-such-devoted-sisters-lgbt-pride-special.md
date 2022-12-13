@@ -1,6 +1,6 @@
 ---
 title: "Such Devoted Sisters - LGBT Pride Special"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2020-08-24 22:35:28 UTC
 author: ""
 categories: video

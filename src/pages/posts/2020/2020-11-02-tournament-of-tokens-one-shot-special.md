@@ -1,6 +1,6 @@
 ---
 title: "Tournament of Tokens - One-shot special"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2020-11-02 08:16:56 UTC
 author: ""
 categories: video

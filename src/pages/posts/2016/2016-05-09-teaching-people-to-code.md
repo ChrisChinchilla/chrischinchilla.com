@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Podcast.astro"
+layout: "../../../layouts/Post.astro"
 categories: media podcast
 title: Teaching People to Code
 date: '2016-05-09 09:43:28 +0200'

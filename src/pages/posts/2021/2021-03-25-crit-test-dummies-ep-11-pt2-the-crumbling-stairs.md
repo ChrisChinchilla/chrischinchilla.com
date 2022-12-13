@@ -1,6 +1,6 @@
 ---
 title: "Crit Test Dummies Ep 11 (Pt2) - The Crumbling Stairs"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-03-25 11:35:43 UTC
 author: ""
 categories: video

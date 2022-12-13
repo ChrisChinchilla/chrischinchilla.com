@@ -1,6 +1,6 @@
 ---
 title: "Crit Test Dummies Ep 12 (Pt2) - Battle Royale"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-03-26 05:00:02 UTC
 author: ""
 categories: video

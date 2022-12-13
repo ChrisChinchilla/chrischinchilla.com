@@ -1,6 +1,6 @@
 ---
 title: "DXposé - API design and REST client Insomnia"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2020-09-18 02:54:45 UTC
 author: ""
 categories: video

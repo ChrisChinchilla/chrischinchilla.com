@@ -1,6 +1,6 @@
 ---
 title: "Chronicles of Ghaistala Intro Video"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-08-13 12:52:06 UTC
 author: ""
 categories: video

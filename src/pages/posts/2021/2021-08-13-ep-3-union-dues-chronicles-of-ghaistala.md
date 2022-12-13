@@ -1,6 +1,6 @@
 ---
 title: "Ep 3 - Union Dues, Chronicles of Ghaistala"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-08-13 21:29:23 UTC
 author: ""
 categories: video

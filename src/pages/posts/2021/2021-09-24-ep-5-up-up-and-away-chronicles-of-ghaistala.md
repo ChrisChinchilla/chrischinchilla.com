@@ -1,6 +1,6 @@
 ---
 title: "Ep 5 - Up, Up, and Away!, Chronicles of Ghaistala"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-09-24 19:08:27 UTC
 author: ""
 categories: video

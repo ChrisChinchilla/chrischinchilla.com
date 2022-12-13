@@ -1,6 +1,6 @@
 ---
 title: "Devx5 - Code-based music collaboration with Sonic Pi"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-07-15 04:46:33 UTC
 author: ""
 categories: video

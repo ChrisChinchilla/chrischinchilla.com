@@ -1,6 +1,6 @@
 ---
 title: "Crit Test Dummies Ep. 10 - Isle of the Dying Moon Pt. 1"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2020-12-28 23:51:42 UTC
 author: ""
 categories: video

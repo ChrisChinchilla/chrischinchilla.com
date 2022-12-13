@@ -1,6 +1,6 @@
 ---
 title: "Supers and Sorcery One Shot Special by Crit Test Dummies"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-04-10 16:00:18 UTC
 author: ""
 categories: video

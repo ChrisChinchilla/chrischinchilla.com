@@ -1,6 +1,6 @@
 ---
 title: "Ep 6 - The Light, Chronicles of Ghaistala"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-09-26 19:38:06 UTC
 author: ""
 categories: video

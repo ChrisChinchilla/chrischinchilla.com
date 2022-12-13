@@ -1,6 +1,6 @@
 ---
 title: "Haunting of Owlbear Lodge - Halloween Special"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2020-11-16 23:58:16 UTC
 author: ""
 categories: video

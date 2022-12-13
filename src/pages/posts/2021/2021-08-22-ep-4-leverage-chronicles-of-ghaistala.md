@@ -1,6 +1,6 @@
 ---
 title: "Ep 4 - Leverage, Chronicles of Ghaistala"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-08-22 21:04:08 UTC
 author: ""
 categories: video

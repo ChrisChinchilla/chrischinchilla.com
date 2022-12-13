@@ -1,6 +1,6 @@
 ---
 title: "CTD - Three Faces of Night Pt 1 (Ep 14)"
-layout: "../../../layouts/Video.astro"
+layout: "../../../layouts/Post.astro"
 date: 2021-04-09 09:00:15 UTC
 author: ""
 categories: video

@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Podcast.astro"
+layout: "../../../layouts/Post.astro"
 categories: media podcast
 title: Tech Tribes and Being an Outsider Amongst Outsiders
 date: 2016-02-21 09:43:28 +0200
