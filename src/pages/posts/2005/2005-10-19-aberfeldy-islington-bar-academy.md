@@ -1,7 +1,7 @@
 ---
 
 title: Aberfeldy - Islington Bar Academy
-date: 1129734637
+date: 2005-10-19T15:10:37.000Z
 categories:
  - writing
  - chrischinchilla
