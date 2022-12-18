@@ -1,11 +1,49 @@
 ---
-const chinchillaSqueaksEpisodes = await fetch('https://api.spotify.com/v1/shows/4esINQS7W6emShb6fwt5Vr/episodes?market=de', {headers: {
-    'Authorization': 'Bearer BQB-U5bTeMjyRgrhOLM6Eu1NExsFb6Wb90esYnwNgK-w6hlZDr_Lb8aB75GVWRCh2ktBCSsf4LqvDKwnzgqyEeVvB7ruIi6zvdUd84gfsz6fjSQkh_4',
-  }});
-const data = await chinchillaSqueaksEpisodes.json();
+import Layout from "../layouts/Layout.astro";
+import Podcast from "../components/Podcast.astro";
+// const { collection } = Astro.props;
 
-const episodes = Object.values(data.items);
+// export async function createCollection() {
+
+const chinchillaSqueaksEpisodes = await fetch(
+  "https://api.spotify.com/v1/shows/4esINQS7W6emShb6fwt5Vr/episodes?market=de",
+  {
+    headers: {
+      Authorization:
+        "Bearer BQB1YUCJly329FhxamHMwZh3At5NgeBKCjeJMFF8zuNg0DFyU2Uvv-1DkuOw0LXHgeLqMio82EU8CLlG9_gMsM5_tz25YT5jvzxwOxtMRycPj6psOpU",
+    },
+  }
+)
+  .then((response) => response.json())
+  .then((response) => Object.values(response.items));
+// const data = await chinchillaSqueaksEpisodes.json();
+// console.log(data);
+// const episodes = Object.values(data.items);
+// console.log(chinchillaSqueaksEpisodes);
+// const { page } = Astro.props;
+// const params = Astro.params;
+// }
 ---
-{episodes.map(episode => (
-    <li>{episode.name}</li>
-))}
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <h1>Podcasts</h1>
+    <!-- Pass your post data into a custom component, or display it on the page -->
+    <!-- TODO: Set type explicitly -->
+    <!-- TODO: Body summary -->
+    <ul>
+      {
+        chinchillaSqueaksEpisodes.map((podcast) => (
+          // <li>{episode.name}</li>
+          <>
+            <Podcast
+              name={podcast.name}
+              description={podcast.description}
+              id={podcast.id}
+            />
+          </>
+        ))
+      }
+    </ul>
+  </main>
+</Layout>

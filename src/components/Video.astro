@@ -1,0 +1,23 @@
+---
+import { YouTube } from "@astro-community/astro-embed-youtube";
+
+export interface Props {
+  name: string;
+  snippet: string;
+  id: string;
+}
+
+const { name, snippet, id } = Astro.props;
+---
+
+<li class="link-card">
+  <a href={name}>
+    <h2>
+      {name}
+    </h2>
+  <p>
+    {snippet}
+  </p>
+  <YouTube id={id} />
+</a>
+</li>

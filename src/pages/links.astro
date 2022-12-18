@@ -1,9 +1,45 @@
 ---
-import json from '../data/favposts.json';
-const links = Object.values(json.list);
+import Layout from "../layouts/Layout.astro";
+import Link from "../components/Link.astro";
+
+const links = await fetch("https://getpocket.com/v3/get", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json; charset=utf-8",
+  },
+  body: JSON.stringify({
+    consumer_key: "82790-7caebed10729397b7c6d5049",
+    count: "50",
+    state: "all",
+    access_token: "aaef4b6d-f671-5d0f-4e3c-24555d",
+    favorite: "1",
+    sort: "newest",
+  }),
+})
+  .then((response) => response.json())
+  .then((response) => Object.values(response.list));
+
 // const data = await response.json();
 ---
 
-{links.map(link => (
-    <li>{link.resolved_title}</li>
-))}
+<Layout title="Welcome to Astro.">
+  <main>
+    <h1>Links</h1>
+    <!-- Pass your post data into a custom component, or display it on the page -->
+    <!-- TODO: Set type explicitly -->
+    <!-- TODO: Body summary -->
+    <ul>
+      {
+        links.map((link) => (
+          <>
+            <Link
+              name={link.resolved_title}
+              description={link.excerpt}
+              link={link.resolved_url}
+            />
+          </>
+        ))
+      }
+    </ul>
+  </main>
+</Layout>
