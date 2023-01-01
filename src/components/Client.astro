@@ -1,0 +1,33 @@
+---
+import { Picture } from "@astrojs/image/components";
+
+export interface Props {
+  company_url: string;
+  name: string;
+  featured_image: string;
+  body: string;
+}
+
+const { company_url, name, featured_image, body } = Astro.props;
+---
+
+<li class="link-card">
+  <a href={company_url}>
+    <h2>
+      {name}
+    </h2>
+    <p>
+        {body}
+    </p>
+    <Picture
+      src={featured_image}
+      widths={[125, 200]}
+      sizes="(max-width: 200px) 75vw, 200px"
+      alt={name}
+      aspectRatio="4:3"
+      fit="inside"
+    />
+  </a>
+</li>
+
+
