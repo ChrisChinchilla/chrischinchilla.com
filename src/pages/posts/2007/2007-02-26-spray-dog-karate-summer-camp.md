@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Spray Dog - Karate Summer Camp
 date: 1172476515
 categories:

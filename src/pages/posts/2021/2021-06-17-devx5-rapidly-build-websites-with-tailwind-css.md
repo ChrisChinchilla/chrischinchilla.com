@@ -1,6 +1,8 @@
 ---
-title: "Devx5 - Rapidly Build Websites with Tailwind CSS"
+
 layout: "../../../layouts/Post.astro"
+title: "Devx5 - Rapidly Build Websites with Tailwind CSS"
+
 date: 2021-06-17 04:41:06 UTC
 author: ""
 categories: video

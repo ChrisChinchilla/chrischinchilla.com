@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Ludes - Barfly, London'
 date: 1142525436
 categories:

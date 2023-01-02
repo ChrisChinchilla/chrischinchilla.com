@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: '2014 Review, Niches-Become Mainstream'
 date: 20141211
 publication_url: 'https://www.sitepoint.com/2014-review-niches-become-mainstream/'

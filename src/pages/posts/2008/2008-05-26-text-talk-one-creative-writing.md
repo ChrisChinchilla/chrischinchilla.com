@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Text Talk one - Creative Writing
 date: 1211753643
 categories:

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Chatting With Chip Childers, CTO of Cloud Foundry"
 date: 2017-06-19 09:01:00 UTC
 author: "Chris Ward"

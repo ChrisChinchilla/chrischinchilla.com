@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Bye bye Melbourne. Hallo Leipzig.
 date: 1405154755
 categories:

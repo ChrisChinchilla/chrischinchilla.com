@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: An eye on observability for July 2021
 date: 2021-08-03
 author: "Chris Ward"

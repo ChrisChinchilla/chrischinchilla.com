@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Will the Opera web3 wallet drive adoption?"
 date: 2019-04-24 02:16:11 UTC
 author: "Chris Ward"

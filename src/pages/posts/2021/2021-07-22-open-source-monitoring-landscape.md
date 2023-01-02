@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Open source monitoring and metrics landscape
 date: 2021-07-22
 author: "Chris Ward"

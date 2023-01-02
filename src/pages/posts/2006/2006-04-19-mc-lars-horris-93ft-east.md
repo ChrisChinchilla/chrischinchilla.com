@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: MC Lars Horris - 93ft East
 date: 1145459436
 categories:

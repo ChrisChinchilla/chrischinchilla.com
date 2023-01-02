@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Mobile and Web App Testing with Sauce Labs
 date: '2017-05-21 11:13:30 +0100'
 image: images/IkgItC1R_400x400.jpg

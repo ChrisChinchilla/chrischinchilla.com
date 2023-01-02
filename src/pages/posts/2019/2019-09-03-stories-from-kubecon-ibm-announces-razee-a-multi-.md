@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Stories From KubeCon- IBM announces Razee, a Multi-Cluster Continuous..."
 date: 2019-09-03
 author: "Chris Ward"

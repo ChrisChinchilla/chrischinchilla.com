@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: What affect is tech having on society? An interview with Yael Eisenstat
 date: 2017-07-21
 image: images/yael.jpg

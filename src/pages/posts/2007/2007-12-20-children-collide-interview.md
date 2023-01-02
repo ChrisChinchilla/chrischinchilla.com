@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Children Collide - Interview
 date: 1198178293
 ---

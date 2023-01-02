@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: John Cage - Prepared Piano
 date: 1195158279
 ---

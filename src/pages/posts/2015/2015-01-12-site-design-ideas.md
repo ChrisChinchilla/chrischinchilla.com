@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Site Design Ideas
 date: 1421071223
 categories: projects odtwe

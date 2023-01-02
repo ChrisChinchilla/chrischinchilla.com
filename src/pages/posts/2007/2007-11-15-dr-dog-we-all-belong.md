@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Dr Dog - We all Belong
 date: 1195158637
 ---

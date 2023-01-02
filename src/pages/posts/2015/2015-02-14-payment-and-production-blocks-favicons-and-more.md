@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Payment and Production blocks, Favicons and more'
 date: 1423903038
 categories: projects

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Doloroso - Godless
 date: 1155725574
 categories:

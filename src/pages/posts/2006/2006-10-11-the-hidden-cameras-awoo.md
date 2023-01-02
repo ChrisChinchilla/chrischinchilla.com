@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Hidden Cameras - Awoo
 date: 1160587108
 categories:

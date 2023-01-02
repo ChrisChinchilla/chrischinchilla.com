@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Talking CiviCRM at Joomla!Day Melbourne, 20th Jan
 date: 1358121492
 ---

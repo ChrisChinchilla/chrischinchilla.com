@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Yo Zushi - The Spitz, London'
 date: 1139328636
 categories:

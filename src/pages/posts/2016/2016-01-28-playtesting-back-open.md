@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Play Testing is Open Again
 date: '2016-01-28'
 categories: projects chipshop

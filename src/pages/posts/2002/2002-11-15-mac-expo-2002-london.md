@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Mac Expo 2002 - London
 date: 2002-11-15T00:00:00.000Z
 categories:

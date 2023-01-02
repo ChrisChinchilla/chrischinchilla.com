@@ -1,6 +1,8 @@
 ---
-title: "Cristian Heilmann - Principal Program Manager Developer Tools at Microsoft"
+
 layout: "../../../layouts/Post.astro"
+title: "Cristian Heilmann - Principal Program Manager Developer Tools at Microsoft"
+
 date: 2022-07-29 09:26:58 UTC
 author: ""
 categories: video

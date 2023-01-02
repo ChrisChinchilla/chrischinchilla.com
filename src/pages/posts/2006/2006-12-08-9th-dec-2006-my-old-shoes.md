@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 9th Dec 2006 - My old shoes
 date: 1165582800
 ---

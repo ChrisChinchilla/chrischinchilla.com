@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Launch of Startup Victoria
 date: 1398815684
 categories:

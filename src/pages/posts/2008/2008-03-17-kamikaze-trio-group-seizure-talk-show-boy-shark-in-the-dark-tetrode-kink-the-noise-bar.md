@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Kamikaze Trio, Group Seizure, Talk show Boy, Shark In The Dark, Tetrode Kink - The Noise Bar'
 date: 1205728916
 categories:

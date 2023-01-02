@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: iOS Version on GitHub
 date: 1422266811
 categories: projects aah

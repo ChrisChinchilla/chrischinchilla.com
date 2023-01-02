@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Heroku Logging and Coralogix
 date: 2017-07-28
 image:

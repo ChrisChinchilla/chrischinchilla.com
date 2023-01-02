@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Blockwatch- Cryptogovernment and Blockchain Marketing"
 date: 2017-09-28 05:01:56 UTC
 author: "Chris Ward"

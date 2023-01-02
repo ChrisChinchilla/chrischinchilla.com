@@ -1,6 +1,7 @@
 ---
-title: "Crit Test Dummies Ep. 7 - Bubble Bubble Toil and Trouble"
+
 layout: "../../../layouts/Post.astro"
+title: "Crit Test Dummies Ep. 7 - Bubble Bubble Toil and Trouble"
 date: 2020-09-29 19:14:59 UTC
 author: ""
 categories: video

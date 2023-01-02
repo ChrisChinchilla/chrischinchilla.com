@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Sir, Sly Hats, Guy Blackman - Northcote Social Club
 date: 1195158467
 ---

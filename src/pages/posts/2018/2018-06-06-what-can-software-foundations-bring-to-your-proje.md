@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "What Can Software Foundations Bring to Your Project?"
 date: 2018-06-06 09:02:01 UTC
 author: "Chris Ward"

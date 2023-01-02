@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Talking Uber-Level Monitoring With Martin Mao of M3 and Chronosphere"
 date: 2020-02-27
 author: "Chris Ward"

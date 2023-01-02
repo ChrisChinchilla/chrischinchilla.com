@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Becoming the First Cyborgs With Liviu Babitz
 date: 2017-07-21
 image: images/liviubabbitz.jpeg

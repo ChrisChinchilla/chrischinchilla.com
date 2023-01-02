@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Automating Screenshots in Documentation"
 date: 2017-01-31 16:15:24 UTC
 author: "Chris Ward"

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Fostering Open Source at FOSS Backstage"
 date: 2018-06-19 05:07:00 UTC
 author: "Chris Ward"

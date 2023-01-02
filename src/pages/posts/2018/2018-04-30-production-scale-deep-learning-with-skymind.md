@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Production-Scale Deep Learning With Skymind"
 date: 2018-04-30 09:01:03 UTC
 author: "Chris Ward"

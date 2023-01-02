@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Talking at Web Directions Code
 date: 1366412354
 ---

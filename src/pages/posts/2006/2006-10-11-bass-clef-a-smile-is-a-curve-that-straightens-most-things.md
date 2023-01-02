@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Bass Clef - A smile is a curve that straightens most things
 date: 1160585512
 categories:

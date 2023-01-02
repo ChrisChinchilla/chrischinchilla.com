@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Pioneering Education, BioTech, and Blockchain [Podcast]"
 date: 2017-07-01 05:01:02 UTC
 author: "Chris Ward"

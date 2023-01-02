@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Scaling your team alongside Kubernetes
 date: 2021-01-22
 author: "Chris Ward"

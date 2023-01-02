@@ -1,6 +1,7 @@
 ---
-title: "Crit Test Dummies Ep. 5 - How to Raise a Dragon"
+
 layout: "../../../layouts/Post.astro"
+title: "Crit Test Dummies Ep. 5 - How to Raise a Dragon"
 date: 2020-07-10 01:44:10 UTC
 author: ""
 categories: video

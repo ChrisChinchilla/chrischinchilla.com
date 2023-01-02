@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Online Video and The Kaiser Chiefs
 date: '2007-08-08T23:23:59+00:00'
 categories:

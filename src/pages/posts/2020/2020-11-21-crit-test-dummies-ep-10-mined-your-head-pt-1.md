@@ -1,6 +1,7 @@
 ---
-title: "Crit Test Dummies Ep. 10 - Mined Your Head Pt 1"
+
 layout: "../../../layouts/Post.astro"
+title: "Crit Test Dummies Ep. 10 - Mined Your Head Pt 1"
 date: 2020-11-21 23:23:28 UTC
 author: ""
 categories: video

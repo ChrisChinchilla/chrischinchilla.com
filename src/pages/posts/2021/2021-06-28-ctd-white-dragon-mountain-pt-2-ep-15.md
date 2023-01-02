@@ -1,6 +1,8 @@
 ---
-title: "CTD - White Dragon Mountain Pt 2 (Ep 15)"
+
 layout: "../../../layouts/Post.astro"
+title: "CTD - White Dragon Mountain Pt 2 (Ep 15)"
+
 date: 2021-06-28 19:24:30 UTC
 author: ""
 categories: video

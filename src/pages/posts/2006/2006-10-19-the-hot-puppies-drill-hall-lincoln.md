@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'The Hot Puppies - Drill Hall, Lincoln'
 date: 1161226777
 categories:

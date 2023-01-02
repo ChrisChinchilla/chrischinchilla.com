@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Zombie State - Melbourne University
 date: 1225147357
 tags: 

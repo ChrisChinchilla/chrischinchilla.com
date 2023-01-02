@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Embers - Interview
 date: 1198178336
 categories:

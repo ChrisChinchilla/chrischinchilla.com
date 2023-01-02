@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Bright Eyes - Noise Floor
 date: 1159276588
 categories:

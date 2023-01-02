@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Effective PDF Generation with Drupal
 date: 20150202
 publication_url: 'https://www.sitepoint.com/effective-pdf-generation-drupal/'

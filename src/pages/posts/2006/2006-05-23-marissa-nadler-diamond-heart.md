@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Marissa Nadler - Diamond Heart
 date: 1148397036
 categories:

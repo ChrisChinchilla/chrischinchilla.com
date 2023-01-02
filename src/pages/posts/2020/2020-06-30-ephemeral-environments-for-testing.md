@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Ephemeral Environments for Testing
 date: 2020-06-30
 author: "Chris Ward"

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Tech your privilege at the door
 date: '2016-12-20 09:36:36 +0200'
 image: images/merchandise/privileged-chinchilla.png

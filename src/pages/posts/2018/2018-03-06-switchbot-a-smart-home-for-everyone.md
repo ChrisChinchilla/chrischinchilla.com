@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "SwitchBot- A Smart Home for Everyone?"
 kind: article
 date: 2018-03-06 06:02:39 UTC

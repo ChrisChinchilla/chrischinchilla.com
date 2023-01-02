@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: What do you know Sep 2013
 date: 2013-09-05T00:00:00.000Z
 categories:

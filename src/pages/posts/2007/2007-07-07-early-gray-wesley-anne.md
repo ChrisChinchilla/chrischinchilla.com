@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Early Gray - Wesley Anne
 date: 1183766542
 categories:

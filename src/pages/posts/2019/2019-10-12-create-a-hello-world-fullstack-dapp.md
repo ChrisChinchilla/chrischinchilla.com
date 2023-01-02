@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Create a &quot;Hello World&quot; fullstack dapp"
 date: 2019-10-12 07:24:18 UTC
 author: "Chris Ward"

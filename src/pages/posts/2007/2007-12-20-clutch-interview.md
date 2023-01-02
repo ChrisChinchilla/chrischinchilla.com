@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Clutch - Interview
 date: 1198178014
 categories:

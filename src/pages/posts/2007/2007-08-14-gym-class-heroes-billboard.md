@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Gym Class Heroes - Billboard
 date: 1187113692
 ---

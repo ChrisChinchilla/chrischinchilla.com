@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Leads, musicians gear and technical gubbins for sale / free
 date: 1402713006
 ---

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Mojobot- The World’s First Tangible Coding Robot and Board Game"
 date: 2019-05-08
 author: "Chris Ward"

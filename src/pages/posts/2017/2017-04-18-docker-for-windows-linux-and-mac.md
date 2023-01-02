@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Docker for Windows, Linux, and Mac"
 date: 2017-04-18 15:15:59 UTC
 author: "Chris Ward"

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'WikiMedia Game Jam, T-Shirts, Printing Experiments and so much more'
 date: '2015-10-26'
 categories: projects chipshop

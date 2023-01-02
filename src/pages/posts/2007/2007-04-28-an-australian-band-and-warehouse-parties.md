@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: An Australian Band and Warehouse Parties
 date: '2007-04-28T20:15:38+00:00'
 tags: melbourne music

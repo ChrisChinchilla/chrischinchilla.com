@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Ned Colette - Interview
 date: 1195158398
 ---

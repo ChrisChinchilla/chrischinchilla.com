@@ -1,6 +1,8 @@
 ---
-title: "Eve of Fall - CTD Halloween Special &#39;21"
+
 layout: "../../../layouts/Post.astro"
+title: "Eve of Fall - CTD Halloween Special &#39;21"
+
 date: 2021-10-31 17:29:23 UTC
 author: ""
 categories: video

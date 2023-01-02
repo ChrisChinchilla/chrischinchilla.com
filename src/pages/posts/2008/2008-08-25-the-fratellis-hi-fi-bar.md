@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Fratellis - Hi Fi Bar
 date: 1219690388
 categories:

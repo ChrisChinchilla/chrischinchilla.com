@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "How to get started with Parent-child pipelines"
 date: 2020-04-24
 author: "Chris Ward"

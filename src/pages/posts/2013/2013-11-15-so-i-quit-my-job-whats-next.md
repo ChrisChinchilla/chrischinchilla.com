@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: So, I quit my job. What's next?
 date: 1384479088
 ---

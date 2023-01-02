@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: International Students and Capitalism
 date: '2007-10-12T16:27:13+00:00'
 categories:

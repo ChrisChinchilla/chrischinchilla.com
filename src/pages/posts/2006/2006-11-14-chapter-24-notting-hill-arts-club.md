@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Chapter 24 - Notting Hill Arts Club
 date: 1163466190
 categories:

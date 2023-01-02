@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Rules of the Road
 date: 1240942945
 categories:

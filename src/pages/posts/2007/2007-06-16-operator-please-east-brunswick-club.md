@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Operator Please - East Brunswick Club
 date: 1182014910
 categories:

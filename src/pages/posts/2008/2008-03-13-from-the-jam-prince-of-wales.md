@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: From The Jam - Prince of Wales
 date: 1205365339
 categories:

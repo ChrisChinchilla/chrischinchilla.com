@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Blah blah blah - 93ft East
 date: 1159847449
 categories:

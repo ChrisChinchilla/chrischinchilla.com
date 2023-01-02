@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Our Favorite DevOps Tools for 2022
 date: 2022-01-13
 author: "Chris Ward"

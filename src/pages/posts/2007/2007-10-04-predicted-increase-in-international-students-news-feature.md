@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Predicted Increase in International Students - News Feature
 date: 1191514893
 ---

@@ -1,6 +1,8 @@
 ---
-title: "Devx5 - Developer Experience Deep Dive with Gitpod"
+
 layout: "../../../layouts/Post.astro"
+title: "Devx5 - Developer Experience Deep Dive with Gitpod"
+
 date: 2021-05-06 05:25:38 UTC
 author: ""
 categories: video

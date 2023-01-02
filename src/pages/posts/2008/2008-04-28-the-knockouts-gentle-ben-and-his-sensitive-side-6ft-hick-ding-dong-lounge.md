@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'The Knockouts, Gentle Ben and his Sensitive side, 6ft Hick - Ding Dong Lounge'
 date: 1209399637
 categories:

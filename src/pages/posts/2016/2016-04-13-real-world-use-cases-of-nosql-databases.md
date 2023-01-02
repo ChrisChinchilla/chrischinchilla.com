@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Video - Real World Use Cases of NoSQL Databases
 date: 2016-04-13T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/real-world-use-cases-of-nosql-databases'

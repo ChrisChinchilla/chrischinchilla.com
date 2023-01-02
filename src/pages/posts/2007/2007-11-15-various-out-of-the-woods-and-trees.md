@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Various - Out of the woods and trees
 date: 1195158340
 ---

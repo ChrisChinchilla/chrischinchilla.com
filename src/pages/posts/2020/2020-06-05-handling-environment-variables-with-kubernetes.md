@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Handling Environment Variables with Kubernetes
 date: 2020-06-05
 author: "Chris Ward"

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Dan Sartain - Join Dan Sartain
 date: 1158651780
 categories:

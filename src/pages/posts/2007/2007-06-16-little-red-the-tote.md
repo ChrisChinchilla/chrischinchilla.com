@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Little Red - The Tote
 date: 1182014910
 categories:

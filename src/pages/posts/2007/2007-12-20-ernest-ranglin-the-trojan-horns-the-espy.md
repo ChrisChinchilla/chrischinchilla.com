@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Ernest Ranglin, The Trojan Horns - The Espy'
 date: 1198178126
 categories:

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Psychopaths and Cyclepaths
 date: 2008-10-27T00:00:00.000Z
 categories:

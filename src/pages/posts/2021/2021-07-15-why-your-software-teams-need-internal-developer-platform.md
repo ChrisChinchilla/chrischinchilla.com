@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Why your software teams need an internal developer platform
 date: 2021-07-15
 image: images/internal-developer-platform-self-service-chris-ward.jpg

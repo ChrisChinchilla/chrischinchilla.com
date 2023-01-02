@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Illustrating One Day the World Ended
 date: 1421250716
 categories: projects odtwe

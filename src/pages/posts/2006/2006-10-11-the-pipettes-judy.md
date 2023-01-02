@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Pipettes - Judy
 date: 1160588081
 categories:

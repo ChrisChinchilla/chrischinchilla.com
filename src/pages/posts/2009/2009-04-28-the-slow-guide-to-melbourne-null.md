@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Slow Guide to Melbourne
 date: 1240941449
 categories:

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Creating a Serverless Application with KendoReact
 date: 2019-05-24T12:39:46.095Z
 image: images/kendoreactt_870x220.png

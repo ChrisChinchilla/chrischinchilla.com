@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Zebrahead - Postcards from Hell
 date: 1159276567
 categories:

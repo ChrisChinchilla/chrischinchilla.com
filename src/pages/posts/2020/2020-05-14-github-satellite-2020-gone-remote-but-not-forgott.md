@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "GitHub Satellite 2020- Gone Remote, but Not Forgotten"
 date: 2020-05-14
 author: "Chris Ward"

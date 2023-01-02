@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Silicon Beach drinks, 15th August'
 date: 2103-08-15T00:00:00.000Z
 categories:

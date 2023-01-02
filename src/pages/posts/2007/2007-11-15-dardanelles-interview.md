@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Dardanelles - Interview
 date: 1195158736
 ---

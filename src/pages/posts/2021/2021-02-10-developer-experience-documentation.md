@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Developer Experience - How to Define Good Documentation?
 date: 2021-02-10
 author: "Chris Ward"

@@ -1,6 +1,8 @@
 ---
-title: "Devx5 - Developer Experience deep dive with BannerBear"
+
 layout: "../../../layouts/Post.astro"
+title: "Devx5 - Developer Experience deep dive with BannerBear"
+
 date: 2021-04-22 04:22:57 UTC
 author: ""
 categories: video

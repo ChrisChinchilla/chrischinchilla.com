@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Pikelet - Manchester Lane
 date: 1219690508
 categories:

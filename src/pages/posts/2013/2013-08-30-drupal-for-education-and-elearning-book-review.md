@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Drupal for Education and elearning, book review'
 date: 1377844926
 categories:

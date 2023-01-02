@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Dash - documentation browser for Mac
 date: 1393878049
 categories:

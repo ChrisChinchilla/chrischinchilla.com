@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Preventing SQL injections in Python (and other vulnerabilities)
 date: '2017-02-28 18:13:30 +0100'
 image: images/sql-python.jpg

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Trello Shortcuts for Dash
 date: 2015-12-27T00:00:00.000Z
 categories: projects software

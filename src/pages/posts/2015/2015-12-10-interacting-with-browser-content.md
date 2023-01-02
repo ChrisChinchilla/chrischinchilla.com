@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Video - Interacting with Browser Content
 date: 20151210
 publication_url: 'https://www.sitepoint.com/premium/screencasts/interacting-with-browser-content-from-your-chrome-extension'

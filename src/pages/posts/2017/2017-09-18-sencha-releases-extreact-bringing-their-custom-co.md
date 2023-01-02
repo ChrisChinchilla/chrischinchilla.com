@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Sencha Releases ExtReact, Bringing Their Custom Components to the React..."
 date: 2017-09-18 14:01:46 UTC
 author: "Chris Ward"

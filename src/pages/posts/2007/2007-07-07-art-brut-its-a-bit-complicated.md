@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Art Brut - It's a bit Complicated"
 date: 1183767232
 categories:

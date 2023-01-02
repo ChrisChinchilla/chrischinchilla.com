@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: My First Melbourne Bike Accident
 date: '2007-05-02T06:36:29+00:00'
 tags: cycling accident

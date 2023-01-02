@@ -1,6 +1,7 @@
 ---
-title: "Knowledgebase Ninjas - Managing Shareholders with Chris Ward of Ethereum"
+
 layout: "../../../layouts/Post.astro"
+title: "Knowledgebase Ninjas - Managing Shareholders with Chris Ward of Ethereum"
 date: 2020-03-04 00:00:00 UTC
 author: ""
 categories: podcast guest

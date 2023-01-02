@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Adding Accessories
 images: back-card.jpg card-packs.jpg cards-out.jpg
 categories: projects chipshop

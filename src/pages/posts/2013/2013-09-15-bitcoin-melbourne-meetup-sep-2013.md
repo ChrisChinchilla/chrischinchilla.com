@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: BitCoin Melbourne meetup Sep 2013
 date: 1379237662
 categories:

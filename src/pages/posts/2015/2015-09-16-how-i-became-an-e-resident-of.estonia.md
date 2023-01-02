@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: How I Became an e-Resident of Estonia
 date: 20150916
 publication_url: 'https://www.sitepoint.com/registering-a-business-globally-with-estonias-e-residency/'

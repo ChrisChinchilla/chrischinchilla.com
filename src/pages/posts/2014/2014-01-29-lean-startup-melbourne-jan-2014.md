@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Lean Startup Melbourne Jan 2014
 date: 1390980647
 ---

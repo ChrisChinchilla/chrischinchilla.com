@@ -1,6 +1,7 @@
 ---
-title: "Crit Test Dummies Episode 6 - Mistress of Blood Tower"
+
 layout: "../../../layouts/Post.astro"
+title: "Crit Test Dummies Episode 6 - Mistress of Blood Tower"
 date: 2020-07-31 15:02:54 UTC
 author: ""
 categories: video

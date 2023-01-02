@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Pocus Whiteface - Demo
 date: 1172473767
 categories:

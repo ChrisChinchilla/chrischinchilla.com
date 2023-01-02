@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Price on Application with Ubercart 3 and Views
 date: 2013-05-04T00:00:00.000Z
 image: images/poa-4.PNG

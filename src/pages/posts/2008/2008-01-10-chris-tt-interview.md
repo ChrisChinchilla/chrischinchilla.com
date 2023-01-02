@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Chris TT - Interview
 date: 2008-10-01T00:00:00.000Z
 categories:

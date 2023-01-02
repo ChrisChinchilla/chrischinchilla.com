@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Scare - The Buffalo Bar
 date: 1149952236
 categories:

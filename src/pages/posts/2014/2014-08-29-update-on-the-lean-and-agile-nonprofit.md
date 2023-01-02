@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Update on The Lean and Agile Nonprofit
 date: 1409329793
 ---

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Mobile World Congress 2015
 date: 2015-03-06T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/mobile-world-congress-2015-roundup/'

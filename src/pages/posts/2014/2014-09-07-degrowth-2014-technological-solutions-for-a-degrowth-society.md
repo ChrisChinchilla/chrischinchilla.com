@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Degrowth 2014 - Technological solutions for a degrowth society
 date: 2014-09-07T00:00:00.000Z
 categories:

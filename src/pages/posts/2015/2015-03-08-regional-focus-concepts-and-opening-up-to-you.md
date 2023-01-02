@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Regional Focus, 'Concepts' and opening up to you"
 date: 2015-03-08T00:00:00.000Z
 categories: projects chipshop

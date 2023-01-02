@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Does GraphQL Reduce the Need for Documentation?"
 date: 2017-09-26 14:03:06 UTC
 author: "Chris Ward"

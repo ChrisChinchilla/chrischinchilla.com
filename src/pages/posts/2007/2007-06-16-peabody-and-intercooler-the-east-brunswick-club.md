@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Peabody & Intercooler - The East Brunswick Club'
 date: 1182015377
 categories:

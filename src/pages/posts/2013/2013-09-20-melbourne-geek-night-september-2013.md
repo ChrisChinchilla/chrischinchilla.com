@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Melbourne Geek night, September 2013
 date: 1379664595
 ---

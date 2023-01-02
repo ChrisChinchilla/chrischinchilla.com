@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "IndiaStack- Disrupting the Second Most Populous Nation in the World"
 date: 2017-08-11 18:01:08 UTC
 author: "Chris Ward"

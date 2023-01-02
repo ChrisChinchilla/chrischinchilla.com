@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Video - The Manifest to manage your metadata
 date: 20151110
 publication_url: 'https://www.sitepoint.com/premium/screencasts/using-manifest-files-to-manage-your-chrome-extension-s-metadata'

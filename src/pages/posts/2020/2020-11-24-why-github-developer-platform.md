@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Why GitHub built their own Internal Developer Platform
 date: 2020-11-24
 author: "Chris Ward"

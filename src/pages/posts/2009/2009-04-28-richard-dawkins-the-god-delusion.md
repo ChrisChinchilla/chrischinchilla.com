@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Richard Dawkins - The God Delusion
 date: 1240941092
 categories:

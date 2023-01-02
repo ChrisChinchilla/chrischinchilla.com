@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "6 Interesting Trends from the Latest CNCF Survey"
 date: 2020-03-23
 author: "Chris Ward"

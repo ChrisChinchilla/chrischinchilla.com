@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Print at Home Chip Shop is Released!'
 date: 2016-03-07T00:00:00.000Z
 categories: projects chipshop

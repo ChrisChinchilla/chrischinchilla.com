@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Changes From Play Testing
 date: '2015-11-25'
 categories: projects chipshop

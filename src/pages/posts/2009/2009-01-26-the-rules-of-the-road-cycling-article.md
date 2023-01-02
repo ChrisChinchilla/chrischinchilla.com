@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The rules of the road - Cycling article
 date: 1232928148
 ---

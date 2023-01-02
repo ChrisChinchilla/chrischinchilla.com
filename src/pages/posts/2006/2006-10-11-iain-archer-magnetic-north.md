@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Iain Archer - Magnetic North
 date: 1160586357
 categories:

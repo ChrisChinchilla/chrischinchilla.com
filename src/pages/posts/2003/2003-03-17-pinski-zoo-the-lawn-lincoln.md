@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Pinski Zoo - The Lawn, Lincoln'
 date: 2003-03-17T00:00:00.000Z
 categories:

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Scare - Vacuum Irony
 date: 1148137836
 categories:

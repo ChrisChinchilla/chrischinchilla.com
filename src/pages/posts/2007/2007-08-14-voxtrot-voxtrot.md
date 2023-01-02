@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Voxtrot - Voxtrot
 date: 1187112419
 ---

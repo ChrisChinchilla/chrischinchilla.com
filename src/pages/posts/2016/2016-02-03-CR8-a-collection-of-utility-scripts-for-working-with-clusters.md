@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'CR8: A collection of utility scripts for working with Clusters '
 date: 2016-02-03T00:00:00.000Z
 publication_url: 'https://crate.io/a/cr8-utility-scripts/'

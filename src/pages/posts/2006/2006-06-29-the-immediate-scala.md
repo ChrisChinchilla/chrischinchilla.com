@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Immediate - Scala
 date: 1151593836
 categories:

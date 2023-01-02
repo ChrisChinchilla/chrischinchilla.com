@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Dec 5th updates: Manual, concepts, design and more!'
 date: 1417791939
 categories: projects chipshop

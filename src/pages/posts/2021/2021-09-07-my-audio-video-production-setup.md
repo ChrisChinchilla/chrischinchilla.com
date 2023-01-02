@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: My audio and video production setup
 date: 2021-09-07
 categories:

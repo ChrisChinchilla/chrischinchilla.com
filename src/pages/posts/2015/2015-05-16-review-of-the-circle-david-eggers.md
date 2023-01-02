@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Review of The Circle by David Eggers
 categories: projects odtwe
 date: 2015-05-16T00:00:00.000Z

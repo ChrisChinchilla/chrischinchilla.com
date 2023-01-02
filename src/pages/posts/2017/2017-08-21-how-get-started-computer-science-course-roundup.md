@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: How to get started in computer science - A course roundup
 date: 2017-08-21
 image: images/coding-courses-resources.jpg

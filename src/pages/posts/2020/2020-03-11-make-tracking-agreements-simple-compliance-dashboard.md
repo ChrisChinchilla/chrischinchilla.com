@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Make tracking agreements simple with our new Compliance Dashboard"
 date: 2020-03-11
 author: "Chris Ward"

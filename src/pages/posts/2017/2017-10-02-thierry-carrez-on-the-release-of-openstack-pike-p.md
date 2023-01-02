@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Thierry Carrez on the Release of OpenStack Pike [Podcast]"
 date: 2017-10-02 16:01:00 UTC
 author: "Chris Ward"

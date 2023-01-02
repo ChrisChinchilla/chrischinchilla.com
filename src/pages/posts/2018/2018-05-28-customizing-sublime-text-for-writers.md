@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Customizing Sublime Text for Writers"
 date: 2018-05-28 16:01:00 UTC
 author: "Chris Ward"

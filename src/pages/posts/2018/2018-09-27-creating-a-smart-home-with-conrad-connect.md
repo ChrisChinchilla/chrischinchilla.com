@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Creating a Smart Home With Conrad Connect"
 date: 2018-09-27 16:03:01 UTC
 author: "Chris Ward"

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "The International Crypto Community Comes to Berlin"
 date: 2018-04-03 04:01:01 UTC
 author: "Chris Ward"

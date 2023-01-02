@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Text Talk one
 date: 2008-12-30T00:00:00.000Z
 tags: poetry creative

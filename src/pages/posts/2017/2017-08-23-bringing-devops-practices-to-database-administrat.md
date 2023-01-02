@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Bringing DevOps Practices to Database Administrators [Audio]"
 date: 2017-08-23 14:01:56 UTC
 author: "Chris Ward"

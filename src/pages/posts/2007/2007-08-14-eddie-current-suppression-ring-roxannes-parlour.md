@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Eddie Current Suppression Ring - Roxanne's Parlour
 date: 1187113960
 ---

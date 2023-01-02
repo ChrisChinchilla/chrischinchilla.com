@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Why Development Teams Should Play Roleplaying Games"
 date: 2021-02-25
 author: "Chris Ward"

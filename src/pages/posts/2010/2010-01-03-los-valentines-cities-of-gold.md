@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Los Valentines - Cities of Gold
 date: 1262530139
 categories:

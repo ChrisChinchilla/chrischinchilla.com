@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Introducing StarlingX 3.0 For Edge Computing and IoT"
 date: 2020-02-05
 author: "Chris Ward"

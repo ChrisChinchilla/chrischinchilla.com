@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Embleema- The Blockchain That Lets You Own Your Health Data"
 date: 2019-02-14 18:01:01 UTC
 author: "Chris Ward"

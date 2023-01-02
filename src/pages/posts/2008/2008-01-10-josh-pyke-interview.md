@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Josh Pyke - Interview
 date: 1199985196
 categories:

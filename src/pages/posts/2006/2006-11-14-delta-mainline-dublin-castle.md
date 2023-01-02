@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Delta Mainline - Dublin Castle
 date: 1163466909
 categories:

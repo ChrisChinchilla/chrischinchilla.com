@@ -1,6 +1,8 @@
 ---
-title: "CTD - Three Faces of Night Pt 2 (Ep 14)"
+
 layout: "../../../layouts/Post.astro"
+title: "CTD - Three Faces of Night Pt 2 (Ep 14)"
+
 date: 2021-04-09 09:00:20 UTC
 author: ""
 categories: video

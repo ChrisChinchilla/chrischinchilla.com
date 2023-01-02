@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Pepperdata- Bringing DevOps Practices to the Big Data World [Audio]"
 date: 2017-08-18 05:01:59 UTC
 author: "Chris Ward"

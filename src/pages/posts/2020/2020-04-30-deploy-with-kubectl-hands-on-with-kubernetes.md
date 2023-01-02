@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Deploy with kubectl - Hands-on with Kubernetes
 date: 2020-04-30
 author: "Chris Ward"

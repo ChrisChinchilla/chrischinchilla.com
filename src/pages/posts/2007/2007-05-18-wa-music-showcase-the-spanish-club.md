@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: WA Music showcase - The Spanish Club
 date: 1179514659
 ---

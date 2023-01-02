@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Bearsuit - Highbury Buffalo Bar
 date: 2005-10-11T13:45:18.000Z
 categories:

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Various Artists - House of the Rising Rat vol 1
 date: 1158651495
 categories:

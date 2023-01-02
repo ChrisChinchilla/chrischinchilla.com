@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Vice - Lovers EP
 date: 2007-02-24T00:00:00.000Z
 categories:

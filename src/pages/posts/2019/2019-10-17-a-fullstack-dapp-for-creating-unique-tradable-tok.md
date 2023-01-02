@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "A fullstack dapp for creating unique tradable tokens"
 date: 2019-10-17 14:53:20 UTC
 author: "Chris Ward"

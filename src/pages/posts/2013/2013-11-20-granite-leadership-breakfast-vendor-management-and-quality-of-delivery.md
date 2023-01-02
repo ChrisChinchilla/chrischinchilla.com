@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Granite Leadership breakfast - Vendor Management & Quality of Delivery
 date: 1384941483
 ---

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Cloud UX - Dude where's my file?"
 date: 20140310
 publication_url: 'https://www.sitepoint.com/cloud-ux/'

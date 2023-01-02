@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Album Leaf - Into the Blue again
 date: 1158650287
 categories:

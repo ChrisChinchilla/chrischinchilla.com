@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Larrikin Love - Kings College
 date: 1149952236
 categories:

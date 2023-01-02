@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "A Comparison of Docker GUIs"
 date: 2017-07-19 18:01:00 UTC
 author: "Chris Ward"

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Twilight Singers - A Stitch in Time EP
 date: 2007-02-24T00:00:00.000Z
 categories:

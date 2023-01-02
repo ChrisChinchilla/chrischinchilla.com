@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: NetSquared meetup Aug 2013
 date: 1377816841
 categories:

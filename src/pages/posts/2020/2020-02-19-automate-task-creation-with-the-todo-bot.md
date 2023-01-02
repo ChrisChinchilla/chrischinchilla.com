@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Automate Task Creation With the TODO Bot"
 date: 2020-02-19
 author: "Chris Ward"

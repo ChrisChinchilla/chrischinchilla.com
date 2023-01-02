@@ -1,6 +1,7 @@
 ---
-title: "Crit Test Dummies Episode 8 - Corruption of Skyhorn Lighthouse"
+
 layout: "../../../layouts/Post.astro"
+title: "Crit Test Dummies Episode 8 - Corruption of Skyhorn Lighthouse"
 date: 2020-10-18 11:28:22 UTC
 author: ""
 categories: video

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Bachelor of Arts - Interview
 date: 1190061530
 ---

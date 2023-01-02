@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Kisschasey - The Palace
 date: 1219690571
 categories:

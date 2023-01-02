@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Projects Site Redevelopment Complete
 date: 1420905850
 categories: projects

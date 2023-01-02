@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Image Man - Creative Writing
 date: 1207717422
 categories:

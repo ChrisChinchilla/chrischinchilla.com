@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "I'm playing an Extra"
 date: '2007-05-12T20:52:07+00:00'
 categories:

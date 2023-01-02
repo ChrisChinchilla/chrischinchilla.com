@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Creating a Cross-Platform Todo Aggregator with Flutter"
 date: 2020-09-20
 author: "Chris Ward"

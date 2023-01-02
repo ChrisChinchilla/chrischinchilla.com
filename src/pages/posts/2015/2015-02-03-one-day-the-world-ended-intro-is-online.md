@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: One Day the World Ended intro is online
 date: 1422983138
 categories: projects odtwe

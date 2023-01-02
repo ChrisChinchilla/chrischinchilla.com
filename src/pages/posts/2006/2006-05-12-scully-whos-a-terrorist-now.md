@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Scully - Who's a Terrorist Now?"
 date: 1147446636
 categories:

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: At The Lake - Promo
 date: 1149735577
 categories:

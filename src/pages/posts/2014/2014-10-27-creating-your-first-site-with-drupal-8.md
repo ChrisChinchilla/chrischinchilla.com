@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Creating Your First Site with Drupal 8
 date: 1414403650
 ---

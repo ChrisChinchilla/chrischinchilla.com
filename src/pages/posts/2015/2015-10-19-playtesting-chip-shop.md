@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Playtesting Chip Shop
 date: '2015-10-19'
 categories: projects chipshop

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Migrating applications and data to a new Mac without using Time Machine
 date: 2021-12-12
 categories: writing chrischinchilla

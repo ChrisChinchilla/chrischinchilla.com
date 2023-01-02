@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Hands on With Yosemite
 date: 1414400598
 categories:

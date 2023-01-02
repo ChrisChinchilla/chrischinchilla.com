@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 28 Costumes - Dublin Castle
 date: 1139674236
 categories:

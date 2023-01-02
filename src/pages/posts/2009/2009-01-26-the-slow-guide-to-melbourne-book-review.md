@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Slow Guide to Melbourne - Book review
 date: 2009-01-26T00:00:00.000Z
 categories:

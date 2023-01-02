@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: UNKLE - Interview
 date: 1199985301
 categories:

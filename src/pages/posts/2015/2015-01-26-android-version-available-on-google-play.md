@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Android version available on Google Play
 date: 1422269550
 categories: projects aah

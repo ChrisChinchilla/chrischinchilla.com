@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Sore Thumb
 date: 1199979061
 categories:

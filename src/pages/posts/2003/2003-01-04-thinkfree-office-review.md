@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: ThinkFree Office review
 date: 2003-01-04T00:00:00.000Z
 categories:

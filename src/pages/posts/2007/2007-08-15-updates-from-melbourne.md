@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Updates from Melbourne
 date: '2007-08-15T20:52:26+00:00'
 categories:

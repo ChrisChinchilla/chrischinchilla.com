@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Brinkman - Kirsten Dunst
 date: 1159276612
 categories:

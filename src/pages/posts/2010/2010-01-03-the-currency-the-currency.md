@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Currency - The Currency
 date: 1262530073
 categories:

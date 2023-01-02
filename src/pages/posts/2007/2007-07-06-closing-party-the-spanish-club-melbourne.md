@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Closing Party - The Spanish Club, Melbourne
 date: 1183735527
 ---

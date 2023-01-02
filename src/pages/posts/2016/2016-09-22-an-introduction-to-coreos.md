@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "An Introduction to CoreOS"
 date: 2016-09-22 15:15:55 UTC
 author: "Chris Ward"

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Jay Bennett - The Magnificent Defeat
 date: 1158650925
 categories:

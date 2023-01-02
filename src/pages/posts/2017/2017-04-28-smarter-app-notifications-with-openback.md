@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Smarter App Notifications With OpenBack
 date: '2017-04-28 11:13:30 +0100'
 image: images/mobile_sdk_2.jpg

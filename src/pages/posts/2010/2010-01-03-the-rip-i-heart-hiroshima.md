@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Rip - I Heart Hiroshima
 date: 1262530430
 categories:

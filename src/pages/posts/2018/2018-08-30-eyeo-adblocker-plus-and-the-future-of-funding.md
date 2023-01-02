@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "eyeo, Adblocker plus and the future of funding"
 date: 2018-08-30 09:04:02 UTC
 author: "Chris Ward"

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Developer Experience Roundtable - Continuous Improvement
 date: 2020-07-15
 author: "Chris Ward"

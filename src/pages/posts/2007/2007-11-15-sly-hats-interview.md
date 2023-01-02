@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Sly Hats - Interview
 date: 1195158209
 ---

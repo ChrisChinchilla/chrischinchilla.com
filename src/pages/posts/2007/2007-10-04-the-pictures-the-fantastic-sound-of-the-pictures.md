@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Pictures - The Fantastic Sound of the Pictures
 date: 1191514292
 ---

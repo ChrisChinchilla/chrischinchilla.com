@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Nextcloud and Kubernetes in the Cloud With Kuma Service Mesh"
 date: 2021-09-03
 author: "Chris Ward"

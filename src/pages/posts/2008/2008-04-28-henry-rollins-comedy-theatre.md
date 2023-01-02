@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Henry Rollins - Comedy Theatre
 date: 1209399714
 categories:

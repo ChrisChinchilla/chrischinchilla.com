@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "The Future of Tech Conferences in the Wake of Coronavirus"
 date: 2020-03-10
 author: "Chris Ward"

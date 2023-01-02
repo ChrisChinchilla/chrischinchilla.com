@@ -1,6 +1,8 @@
 ---
-title: "Devx5 - Self-hosted Slack with Mattermost"
+
 layout: "../../../layouts/Post.astro"
+title: "Devx5 - Self-hosted Slack with Mattermost"
+
 date: 2021-10-21 04:34:56 UTC
 author: ""
 categories: video

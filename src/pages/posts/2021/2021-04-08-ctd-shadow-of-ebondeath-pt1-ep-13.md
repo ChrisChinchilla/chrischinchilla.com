@@ -1,6 +1,7 @@
 ---
-title: "CTD - Shadow of Ebondeath Pt1 (Ep 13)"
+
 layout: "../../../layouts/Post.astro"
+title: "CTD - Shadow of Ebondeath Pt1 (Ep 13)"
 date: 2021-04-08 18:43:06 UTC
 author: ""
 categories: video

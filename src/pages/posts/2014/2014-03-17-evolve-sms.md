@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Evolve SMS
 date: 1395034974
 image: images/evolve.png

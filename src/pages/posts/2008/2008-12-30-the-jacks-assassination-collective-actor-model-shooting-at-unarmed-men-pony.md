@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Jacks, Assassination Collective, Actor/Model, Shooting at Unarmed Men -
   Pony
 date: 1230592181

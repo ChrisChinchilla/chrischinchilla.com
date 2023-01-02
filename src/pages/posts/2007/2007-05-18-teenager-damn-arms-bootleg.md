@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Teenager, Damn Arms - Bootleg'
 date: 1179517507
 categories:

@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Installing IPFS"
 date: 2019-03-19 18:45:33 UTC
 author: "Chris Ward"

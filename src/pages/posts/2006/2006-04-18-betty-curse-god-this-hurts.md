@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Betty Curse - God This Hurts
 date: 1145373036
 categories:

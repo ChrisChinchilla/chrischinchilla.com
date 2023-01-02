@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Drupal Melbourne meetup, Sep 2013'
 date: 1378896926
 categories:

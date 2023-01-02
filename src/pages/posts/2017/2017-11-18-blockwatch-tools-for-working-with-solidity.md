@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Blockwatch- Tools for Working With Solidity"
 date: 2017-11-18 06:01:49 UTC
 author: "Chris Ward"

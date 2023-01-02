@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: James Yorkston - The Year of the Leopard
 date: 1155725983
 categories:

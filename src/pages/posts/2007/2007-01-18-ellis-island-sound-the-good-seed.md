@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Ellis Island Sound - The Good Seed
 date: 2007-01-18T00:00:00.000Z
 categories:

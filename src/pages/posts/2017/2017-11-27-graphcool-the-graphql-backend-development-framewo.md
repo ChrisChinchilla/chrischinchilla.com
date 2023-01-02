@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Graphcool, the GraphQL Backend Development Framework"
 date: 2017-11-27 15:01:04 UTC
 author: "Chris Ward"

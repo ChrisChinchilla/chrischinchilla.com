@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Agile YOW! Night Melbourne - Dave Thomas - Sept 2013'
 date: 1378897876
 categories:

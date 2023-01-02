@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Techcrunch Disrupt 2014
 date: 20141024
 publication_url: 'https://www.sitepoint.com/techcrunch-disrupt-2014/'

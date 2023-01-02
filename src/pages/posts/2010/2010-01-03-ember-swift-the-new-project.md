@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Ember Swift - The New project
 date: 1262530602
 categories:

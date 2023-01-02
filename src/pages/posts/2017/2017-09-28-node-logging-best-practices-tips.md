@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Node logging best practices and tips
 date: 2017-09-28
 image: images/nodejs.jpg

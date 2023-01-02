@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Spoils - Toff in Town
 date: 1262530210
 categories:

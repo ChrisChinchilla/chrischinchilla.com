@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'World record DJ attempt & Rwanda Fund Appeal'
 date: 2003-09-05T00:00:00.000Z
 categories:

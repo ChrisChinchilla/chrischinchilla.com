@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: London Civicon 2011
 date: 2011-08-26T00:00:00.000Z
 image: images/civiconlondon.png

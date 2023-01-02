@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Camera - Ashes and Dim Light
 date: 1158652282
 categories:

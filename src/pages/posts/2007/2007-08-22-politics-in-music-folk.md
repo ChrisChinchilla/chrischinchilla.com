@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Politics in Music - Folk
 date: '2007-08-22T04:40:11+00:00'
 categories:

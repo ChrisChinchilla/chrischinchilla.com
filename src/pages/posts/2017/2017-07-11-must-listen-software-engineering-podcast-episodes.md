@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 12 must-listen software engineering podcast episodes
 date: 2017-07-11
 image: images/12-must-listen-podcasts-software-engineers.jpg

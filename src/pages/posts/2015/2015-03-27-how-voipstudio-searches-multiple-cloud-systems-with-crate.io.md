@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: How Voipstudio searches Multiple Cloud Systems with Crate.IO
 date: 20150227
 publication_url: 'https://crate.io/blog/how-voipstudio-searches-multiple-cloud-systems-with-crate/'

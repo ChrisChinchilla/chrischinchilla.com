@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Reducing Support Overload with an Einstein-Powered Chatbot"
 date: 2020-08-26
 author: "Chris Ward"

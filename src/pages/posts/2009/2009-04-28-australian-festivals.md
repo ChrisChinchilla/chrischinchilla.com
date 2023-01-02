@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Australian Festivals
 date: 1240942231
 categories:

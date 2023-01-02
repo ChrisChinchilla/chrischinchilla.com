@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: 'Holy War, Religion and Violence'
 date: '2007-01-20T10:34:23+00:00'
 categories:

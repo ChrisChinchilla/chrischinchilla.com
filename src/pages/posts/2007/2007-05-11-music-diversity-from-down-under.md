@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Musical Diversity from Down Under
 date: '2007-05-11T02:08:46+00:00'
 tags: music australia

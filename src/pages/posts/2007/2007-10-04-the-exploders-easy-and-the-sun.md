@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Exploders - Easy & The Sun
 date: 1191514204
 ---

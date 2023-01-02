@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: "Understanding the Docker Ecosystem"
 date: 2016-03-22 15:15:46 UTC
 author: "Chris Ward"

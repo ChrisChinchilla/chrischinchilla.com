@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Long Distance Call - Creative Writing (Sketch)
 date: 1211753475
 categories:

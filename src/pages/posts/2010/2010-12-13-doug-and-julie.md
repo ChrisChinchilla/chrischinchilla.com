@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Doug and Julie
 date: 1292222485
 categories:

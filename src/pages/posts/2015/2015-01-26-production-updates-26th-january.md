@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Production Updates 26th January
 date: 1422270165
 categories: projects

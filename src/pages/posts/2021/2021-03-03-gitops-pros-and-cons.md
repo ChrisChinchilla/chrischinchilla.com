@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Pros and Cons of GitOps
 date: 2021-03-03
 author: "Chris Ward"

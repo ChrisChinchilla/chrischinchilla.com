@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: The Fades - The Rhythm Factory
 date: 1138551036
 categories:

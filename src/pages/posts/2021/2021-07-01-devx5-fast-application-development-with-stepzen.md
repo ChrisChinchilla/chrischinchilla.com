@@ -1,6 +1,8 @@
 ---
-title: "Devx5 - Fast Application development with StepZen"
+
 layout: "../../../layouts/Post.astro"
+title: "Devx5 - Fast Application development with StepZen"
+
 date: 2021-07-01 04:35:32 UTC
 author: ""
 categories: video

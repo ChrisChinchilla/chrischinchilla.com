@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Answers Against Humanity
 date: 2014-11-20T00:00:00.000Z
 categories: projects software

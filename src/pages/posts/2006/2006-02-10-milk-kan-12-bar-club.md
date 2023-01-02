@@ -1,5 +1,7 @@
 ---
 
+
+layout: "../../../layouts/Post.astro"
 title: Milk Kan - 12 Bar Club
 date: 1139587836
 categories:
