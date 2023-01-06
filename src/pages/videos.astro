@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
 import Video from "../components/Video.astro";
 
 const youTubeVideos = await fetch(
@@ -8,19 +7,11 @@ const youTubeVideos = await fetch(
 )
   .then((response) => response.json())
   .then((response) => Object.values(response.items));
-
-// const youTubeVideos = await fetch('');
-// const data = await youTubeVideos.json();
-
-// const videos = Object.values(data.items);
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
     <h1>Videos</h1>
-    <!-- Pass your post data into a custom component, or display it on the page -->
-    <!-- TODO: Set type explicitly -->
-    <!-- TODO: Body summary -->
     <ul>
       {
         youTubeVideos.map((video) => (

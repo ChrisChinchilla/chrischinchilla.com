@@ -8,16 +8,20 @@ export interface Props {
 }
 
 const { name, snippet, id } = Astro.props;
+var url = `https://youtu.be/${id}`;
 ---
 
-<li class="link-card">
-  <a href={name}>
-    <h2>
-      {name}
-    </h2>
-  <p>
-    {snippet}
-  </p>
-  <YouTube id={id} />
+<a href={url} class="cleanlink">
+  <li class="link-card">
+    <YouTube id={id} />
+
+    <span class="column">
+      <h2>
+        {name}
+      </h2>
+      <p>
+        {snippet}
+      </p>
+    </span>
+  </li>
 </a>
-</li>

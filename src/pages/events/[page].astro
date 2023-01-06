@@ -8,7 +8,6 @@ export async function getStaticPaths({ paginate }) {
   // TODO: Must be a better way, this is odd?
 // TODO: Also currently not necessary as pages are sorted by date anyway due to file name
   // allPosts = allPosts.sort((b,a) => Date.parse(a.frontmatter.date) - Date.parse(b.frontmatter.date));
-  console.log(allEvents);
   return paginate(allEvents, {
     pageSize: 50,
   });

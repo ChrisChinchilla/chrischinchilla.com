@@ -1,28 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Podcast from "../components/Podcast.astro";
-// const { collection } = Astro.props;
-
-// export async function createCollection() {
 
 const chinchillaSqueaksEpisodes = await fetch(
   "https://api.spotify.com/v1/shows/4esINQS7W6emShb6fwt5Vr/episodes?market=de",
   {
     headers: {
       Authorization:
-        "Bearer BQB1YUCJly329FhxamHMwZh3At5NgeBKCjeJMFF8zuNg0DFyU2Uvv-1DkuOw0LXHgeLqMio82EU8CLlG9_gMsM5_tz25YT5jvzxwOxtMRycPj6psOpU",
+        "Bearer BQBXnAVVrZwZveIA0GwhFFg-lPrAsB07jxxGiQtgMYJBSqHUNnJztfkHk0N6pA6cjjBpKwbIqOQ93E6t075glXio26ahiMkojiuqJiFPiAhVDtrTRxo",
     },
   }
 )
   .then((response) => response.json())
   .then((response) => Object.values(response.items));
-// const data = await chinchillaSqueaksEpisodes.json();
-// console.log(data);
-// const episodes = Object.values(data.items);
-// console.log(chinchillaSqueaksEpisodes);
-// const { page } = Astro.props;
-// const params = Astro.params;
-// }
 ---
 
 <Layout title="Welcome to Astro.">

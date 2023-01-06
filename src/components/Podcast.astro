@@ -1,5 +1,6 @@
 ---
 import Spotify from "react-spotify-embed";
+
 export interface Props {
   name: string;
   description: string;
@@ -7,16 +8,19 @@ export interface Props {
 }
 
 const { name, description, id } = Astro.props;
+var url = `https://open.spotify.com/episode/${id}`;
 ---
 
+<a href={url} class="cleanlink">
 <li class="link-card">
-  <a href={name}>
+  <Spotify link={url} />
+  <span class="column">
     <h2>
       {name}
     </h2>
     <p>
       {description}
     </p>
-    <Spotify link={`https://open.spotify.com/episode/${id}`} />
-  </a>
+  </span>
 </li>
+</a>
