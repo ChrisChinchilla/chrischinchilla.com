@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Drupal Melbourne Meetup Nov 2013
 date: 1384940812
-image: images/druplicon.large_.png
+image: images/articles/druplicon.large_.png
 categories:
  - writing
  - chrischinchilla

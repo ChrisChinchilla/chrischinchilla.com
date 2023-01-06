@@ -14,7 +14,7 @@ tags:
   - browser
   - web3
 publication_url: "https://kauri.io/article/2cfdfa427d324b57b2afd034f3cfb145"
-image: images/QmW3wgUM8zXFKJtA8rFBQpgrmqE5tWPEiZvCUdF6cKJhcf.png
+image: images/articles/QmW3wgUM8zXFKJtA8rFBQpgrmqE5tWPEiZvCUdF6cKJhcf.png
 
 ---
 

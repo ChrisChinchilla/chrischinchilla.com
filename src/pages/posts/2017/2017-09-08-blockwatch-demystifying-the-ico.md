@@ -12,7 +12,7 @@ tags:
   - ico
   - security
 publication_url: "https://dzone.com/articles/blockwatch-7th-september-demystifying-the-ico"
-image: images/6517050.jpeg
+image: images/articles/6517050.jpeg
 
 ---
 We discuss Initial Coin Offerings, or ICOs, and the impact they're having on the blockchain and cryptocurrency world. Read on for more!

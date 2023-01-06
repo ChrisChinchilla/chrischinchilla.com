@@ -16,7 +16,7 @@ tags:
   - monitoring and alerting
   - interview
 publication_url: "https://dzone.com/articles/-talking-uber-level-monitoring-with-martin-mao-of"
-image: images/13014178.jpeg
+image: images/articles/13014178.jpeg
 
 ---
 Find out why Uber engineers decided to leave Uber and focus on building Chronosphere, the company that enables enterprises to take advantage of M3.

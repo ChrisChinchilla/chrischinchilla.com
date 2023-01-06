@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Tech Salary Trends in 2017
 date: '2017-04-04 10:13:30 +0100'
-image: images/Reports-3-800x400.jpg
+image: images/articles/Reports-3-800x400.jpg
 categories: writing dzone
 tags: salaries jobs tech
 publication_url: https://dzone.com/articles/tech-salary-trends-in-2017

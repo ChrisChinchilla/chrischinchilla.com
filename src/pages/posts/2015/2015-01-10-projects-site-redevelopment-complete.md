@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: Projects Site Redevelopment Complete
 date: 1420905850
 categories: projects
-image: images/gm_siteplan.png
+image: images/articles/gm_siteplan.png
 ---
 
 I have just finished getting in place the basic structures behind the sites for my new projects and redeveloping my older sites accordingly.

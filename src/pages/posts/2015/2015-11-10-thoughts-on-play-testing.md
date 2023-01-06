@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Thoughts on (Play) Testing
 date: '2015-11-09'
-image: images/image-thoughts-on-play-testing.jpg
+image: images/articles/image-thoughts-on-play-testing.jpg
 categories: projects chipshop
 ---
 

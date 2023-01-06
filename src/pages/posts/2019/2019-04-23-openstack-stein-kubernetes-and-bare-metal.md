@@ -12,7 +12,7 @@ tags:
   - bare metal
   - containers
 publication_url: "https://dzone.com/articles/-openstack-stein-kubernetes-and-bare-metal"
-image: images/11708672.jpeg
+image: images/articles/11708672.jpeg
 
 ---
 The 19th release brings improved Kubernetes support, plus enhanced bare metal & network management.

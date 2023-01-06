@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: CeBIT 2017 - Business as Usual
 date: '2017-03-28 18:13:30 +0100'
-image: images/cebit-1024x470.jpg
+image: images/articles/cebit-1024x470.jpg
 categories: writing dzone
 tags: IoT industrial CeBIT conferences enterprise
 publication_url: https://dzone.com/articles/cebit-2017-business-as-usual

@@ -18,7 +18,7 @@ tags:
   - cryptocurrencies
   - security
 publication_url: "https://dzone.com/articles/blockwatch-ripple-coil-codius-and-malta-summit"
-image: images/10019354.jpeg
+image: images/articles/10019354.jpeg
 
 ---
 In this installment of Blockwatch, check out this latest news on Ripple, Coil, Codius and the Malta Summit. There's a lot happening in blockchain! Click here for more!

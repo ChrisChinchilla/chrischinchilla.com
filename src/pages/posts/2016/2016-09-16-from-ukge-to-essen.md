@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: From the UK Games Expo to Essen
 date: 2016-09-16T00:00:00.000Z
 categories: projects chipshop
-image: images/ukge_playtest.jpg
+image: images/articles/ukge_playtest.jpg
 tags: games playtesting
 ---
 

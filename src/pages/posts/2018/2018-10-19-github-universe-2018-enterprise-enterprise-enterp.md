@@ -15,7 +15,7 @@ tags:
   - .net
   - microsoft
 publication_url: "https://dzone.com/articles/github-universe-2018-enterprise-enterprise-enterpr"
-image: images/10503347.jpeg
+image: images/articles/10503347.jpeg
 
 ---
 A DZone Zone Leader heads to GitHub Universe and notes the heavy emphasis on enterprise from the speakers in the keynote address.

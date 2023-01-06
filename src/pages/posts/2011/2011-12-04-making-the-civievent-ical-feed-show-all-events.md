@@ -8,7 +8,7 @@ categories:
  - writing
  - chrischinchilla
 tags: civicrm php
-image: images/civicrm_logo.png
+image: images/articles/civicrm_logo.png
 ---
 
 With [Green Renters](https://greenrenters.org) we find the iCal feed from CiviEvent (part of [CiviCRM](https://civicrm.org)) invaluable to keep track of events and workshops we have coming up, generally we use the feed pulled into our personal iCal and Google calendars for internal organising, currently the feeds aren't available to anyone outside of staff.

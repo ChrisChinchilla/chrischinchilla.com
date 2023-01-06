@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Chatting With Chip Childers, CTO of Cloud Foundry
 date: 2017-06-19
-image: images/CloudFoundryCorp_vertical.svg.png
+image: images/articles/CloudFoundryCorp_vertical.svg.png
 categories: writing dzone
 tags: devops infrastructure cloud
 publication_url: https://dzone.com/articles/chip-childers-cto-of-cloud-foundry

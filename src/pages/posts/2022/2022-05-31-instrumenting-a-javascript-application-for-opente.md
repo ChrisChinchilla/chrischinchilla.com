@@ -9,7 +9,7 @@ categories: writing dzone
 tags: 
   - 
 publication_url: "https://dzone.com/articles/instrumenting-a-javascript-application-for-opentel"
-image: images/15922777.jpeg
+image: images/articles/15922777.jpeg
 
 ---
 This post looks at the first steps for instrumenting a JavaScript application to report OpenTelemetry metrics.

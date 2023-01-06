@@ -13,7 +13,7 @@ tags:
   - prometheus
   - time-series data
 publication_url: "https://dzone.com/articles/-grafana-the-open-observability-platform"
-image: images/13214989.jpeg
+image: images/articles/13214989.jpeg
 
 ---
 Chris speaks with Raj Dutt, CEO, and co-founder of Grafana Labs, the company behind the Grafana open source project to find out more about the project and their plans.

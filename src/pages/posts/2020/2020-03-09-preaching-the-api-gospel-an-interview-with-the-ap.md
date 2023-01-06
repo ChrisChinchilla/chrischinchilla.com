@@ -14,7 +14,7 @@ tags:
   - postman
   - http
 publication_url: "https://dzone.com/articles/-preaching-the-api-gospel-an-interview-with-the-ap"
-image: images/13074677.jpeg
+image: images/articles/13074677.jpeg
 
 ---
 See what API Evangelist, Kin Lane of Postman, has to say about the future of APIs as we continue into 2020.

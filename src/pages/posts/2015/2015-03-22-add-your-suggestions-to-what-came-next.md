@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: 'Add your suggestions to "What Came Next"'
 date: 1427019183
-image: images/image-what-came-next.jpg
+image: images/articles/image-what-came-next.jpg
 categories: projects odtwe
 ---
 

@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Enterprising Israel
 date: '2017-04-04 11:13:30 +0100'
-image: images/Tel-Aviv-startup-hub.jpg
+image: images/articles/Tel-Aviv-startup-hub.jpg
 categories: writing dzone
 tags:
   - israel

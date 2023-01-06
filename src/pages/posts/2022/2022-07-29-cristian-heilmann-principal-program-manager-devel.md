@@ -13,4 +13,4 @@ image:
 permalink: /:categories/:title/
 source: YouTube
 ---
-Ian and Chris speak with Cristian Heilmann, Principal Program Manager Developer Tools at Microsoft about his long career through developer relations/evangelism, teaching technical skills, and so much more! https://christianheilmann.com
+Ian and Chris speak with Cristian Heilmann, Principal Program Manager Developer Tools at Microsoft about his long career through developer relations/evangelism, teaching technical skills, and so much more!

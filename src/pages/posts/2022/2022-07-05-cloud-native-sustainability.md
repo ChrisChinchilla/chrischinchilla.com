@@ -9,7 +9,7 @@ categories: writing chronosphere
 tags: 
   - 
 publication_url: ""
-image: images/lineChart.png
+image: images/articles/lineChart.png
 
 ---
 What are the hidden impacts of all the infrastructure and dependencies that are used to run a cloud native application?

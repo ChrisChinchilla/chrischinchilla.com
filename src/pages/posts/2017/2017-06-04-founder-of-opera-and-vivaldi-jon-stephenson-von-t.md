@@ -13,7 +13,7 @@ tags:
   - web dev
 publication_url: "https://dzone.com/articles/founder-of-opera-and-vivaldi-jon-stephenson-von-te"
 
-image: images/5483774.jpeg
+image: images/articles/5483774.jpeg
 ---
 The internet pioneer sits down with a DZone Zone Leader and MVB to discuss the process of creating a browser, and why he loves designing browsers.
 

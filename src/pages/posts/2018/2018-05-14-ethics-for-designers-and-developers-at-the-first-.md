@@ -15,7 +15,7 @@ tags:
   - good technology
   - agile
 publication_url: "https://dzone.com/articles/ethics-for-designers-and-developers-at-the-first-b"
-image: images/9101997.jpeg
+image: images/articles/9101997.jpeg
 
 ---
 Trade your developer hat for your philosopher's cap and take a look at the ethics of weaponized tech design and engineering.

@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Node logging best practices and tips
 date: 2017-09-28
-image: images/nodejs.jpg
+image: images/articles/nodejs.jpg
 categories: writing coralogix
 tags: logging nodejs javascript
 publication_url: https://coralogix.com/log-analytics-blog/node-logging-best-practices-tips/

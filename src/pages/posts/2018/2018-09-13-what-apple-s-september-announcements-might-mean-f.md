@@ -17,7 +17,7 @@ tags:
   - machine learning
   - augmented reality
 publication_url: "https://dzone.com/articles/what-apples-september-announcements-might-mean-for"
-image: images/10227134.jpeg
+image: images/articles/10227134.jpeg
 
 ---
 While Apple announcements are exciting, they're more often user focused than dev focused. Still, we'll do our best to peel back that lid and find out what this means for developers.

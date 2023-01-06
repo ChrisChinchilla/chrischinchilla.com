@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: 'Running out of Resources, Defining the Factory and Accessories'
 date: 1428828379
-image: images/image-adding-accessories-2-.JPG
+image: images/articles/image-adding-accessories-2-.JPG
 categories: projects chipshop
 ---
 

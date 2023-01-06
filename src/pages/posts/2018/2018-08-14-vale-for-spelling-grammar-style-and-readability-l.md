@@ -17,7 +17,7 @@ tags:
   - agile
   - tutorial
 publication_url: "https://dzone.com/articles/vale-for-spelling-grammar-style-and-readability-li"
-image: images/9971378.jpeg
+image: images/articles/9971378.jpeg
 
 ---
 If you've wanted a spell checker or autocorrect that simply does more, check out how this tool is bein used to check for tense and syle as well.

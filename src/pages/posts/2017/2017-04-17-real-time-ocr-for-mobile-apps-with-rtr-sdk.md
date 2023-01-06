@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Real-Time OCR for Mobile Apps With RTR SDK
 date: '2017-04-17 11:13:30 +0100'
-image: images/Portable_scanner_and_OCR_(video).webm.jpg
+image: images/articles/Portable_scanner_and_OCR_(video).webm.jpg
 categories: writing dzone
 tags:  OCR iOS Android Mobile
 publication_url: https://dzone.com/articles/real-time-ocr-for-mobile-apps-with-rtr-sdk

@@ -6,7 +6,7 @@ title: Turning Chip Shop into a Board Game
 date: 2016-01-09T00:00:00.000Z
 categories: projects chipshop
 tags: games playtesting
-image: images/board_inspiration.jpg
+image: images/articles/board_inspiration.jpg
 ---
 
 I spent some time this week finishing off a lot of the changes from my last round of playtesting, most of these have resulted in changing Chip Shop from a somewhat random card game with a board (for no particular reason) into a more rounded actual board game.

@@ -15,7 +15,7 @@ tags:
   - rkt
   - containers
 publication_url: "https://dzone.com/articles/what-will-red-hat-acquiring-coreos-mean-for-the-ku"
-image: images/8086379.jpeg
+image: images/articles/8086379.jpeg
 
 ---
 Now that Red Hat has CoreOS, how will this affect Kubernetes and the rest of the cloud community?

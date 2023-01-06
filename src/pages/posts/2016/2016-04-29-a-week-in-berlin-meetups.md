@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: A week in Berlin Meetups 29 April
 date: 2016-04-29T00:00:00.000Z
 publication_url: 'https://medium.com/@ChrisChinchilla/a-week-in-berlin-meetups-29th-april-d392b505a75a#.sgy49u2qy'
-image: images/berlin_meetups.jpg
+image: images/articles/berlin_meetups.jpg
 categories: writing theweeklysqueak
 tags: berlin meetups events
 ---

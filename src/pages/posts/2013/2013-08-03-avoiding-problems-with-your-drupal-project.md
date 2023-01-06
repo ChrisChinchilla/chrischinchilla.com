@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Avoiding problems with your Drupal project
 date: 1375516463
-image: images/druplicon_sad.png
+image: images/articles/druplicon_sad.png
 categories:
  - writing
  - chrischinchilla

@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: Video - A Tour of Android Studio
 date: 2015-09-04T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/watch-a-tour-of-android-studio/'
-image: images/image-understanding-android-images.png
+image: images/articles/image-understanding-android-images.png
 categories: writing sitepoint
 tags: android IDE development
 ---

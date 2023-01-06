@@ -12,7 +12,7 @@ tags:
   - calibre
   - nextcloud
   - minidnla
-image: images/raspberry-pi.jpeg
+image: images/articles/raspberry-pi.jpeg
 
 ---
 

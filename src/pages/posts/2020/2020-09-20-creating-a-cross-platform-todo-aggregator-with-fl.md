@@ -14,7 +14,7 @@ tags:
   - mobile development
   - web development
 publication_url: "https://dzone.com/articles/creating-a-cross-platform-todo-aggregator-with-flu"
-image: images/13957669.jpeg
+image: images/articles/13957669.jpeg
 
 ---
 I wanted to create a cross-platform app to aggregate all my todos across various services. I turned to Flutter; was it a good idea? Read on to find out.

@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Ruby logging best practices and tips
 date: 2017-11-11
-image: images/ruby-logo.png
+image: images/articles/ruby-logo.png
 categories: writing coralogix
 tags: logging ruby rails
 publication_url: https://coralogix.com/log-analytics-blog/ruby-logging-best-practices-tips/

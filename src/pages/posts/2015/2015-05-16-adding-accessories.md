@@ -3,7 +3,7 @@
 
 layout: "../../../layouts/Post.astro"
 title: Adding Accessories
-image: images/image-adding-accessories.jpg
+image: images/articles/image-adding-accessories.jpg
 categories: projects chipshop
 ---
 

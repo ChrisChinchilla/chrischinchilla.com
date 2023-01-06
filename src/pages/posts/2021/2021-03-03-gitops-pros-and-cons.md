@@ -11,7 +11,7 @@ tags:
   - gitops
   - devops
 publication_url: https://humanitec.com/blog/gitops-pros-and-cons
-image: images/603fa53701adc72cf930752d_gitops-pros-and-cons-p-800.jpeg
+image: images/articles/603fa53701adc72cf930752d_gitops-pros-and-cons-p-800.jpeg
 
 ---
 

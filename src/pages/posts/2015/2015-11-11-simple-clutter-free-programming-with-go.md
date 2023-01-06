@@ -1,10 +1,8 @@
 ---
-
-
 layout: "../../../layouts/Post.astro"
 title: Simple, Clutter-free Programming with Go
-date: 20151111
-image: images/image-simple-clutter-free-programming.jpg
+date: 2015-11-11
+image: images/articles/image-simple-clutter-free-programming.jpg
 categories:
  - writing
  - chrischinchilla

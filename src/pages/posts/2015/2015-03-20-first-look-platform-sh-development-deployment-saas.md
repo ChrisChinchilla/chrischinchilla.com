@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: 'First Look at platform.sh, Development and Deployment SaaS'
 date: 20150320
 publication_url: 'https://www.sitepoint.com/first-look-platform-sh-development-deployment-saas/'
-image: images/image-first-look-at-platform-sh.jpg
+image: images/articles/image-first-look-at-platform-sh.jpg
 categories: writing sitepoint
 ---
 

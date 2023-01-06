@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: 'The Past, Present and Future of Swift'
 date: 2016-03-25T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/the-past-present-and-future-of-swift/'
-image: images/swift.jpeg
+image: images/articles/swift.jpeg
 categories: writing sitepoint
 tags: ios swift
 ---

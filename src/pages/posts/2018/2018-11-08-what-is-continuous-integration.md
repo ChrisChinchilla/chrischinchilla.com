@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: What is Continuous Integration?
 date: 2018-11-08T13:59:23.016Z
-image: images/what-is-continuous-integration.png
+image: images/articles/what-is-continuous-integration.png
 categories: writing exoscale
 author: Chris Ward
 tags:

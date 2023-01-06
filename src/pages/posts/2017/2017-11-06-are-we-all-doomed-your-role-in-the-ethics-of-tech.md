@@ -12,7 +12,7 @@ tags:
   - agile
   - development and ethics
 publication_url: "https://dzone.com/articles/are-we-all-doomed-your-role-in-the-ethics-of-tech"
-image: images/7134625.jpeg
+image: images/articles/7134625.jpeg
 
 ---
 Humans have always loved tech. But we're quite a ways from stone tools, and this new tech raises some interesting ethical conundrums for developers.

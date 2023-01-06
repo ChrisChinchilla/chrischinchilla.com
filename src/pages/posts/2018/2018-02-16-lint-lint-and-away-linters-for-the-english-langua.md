@@ -18,7 +18,7 @@ tags:
   - emacs
   - visual studio code
 publication_url: "https://dzone.com/articles/lint-lint-and-away-linters-for-the-english-languag"
-image: images/8152919.jpeg
+image: images/articles/8152919.jpeg
 
 ---
 If you've used linters before for your code, then you know how useful they can be. This is where grammar meets technology.

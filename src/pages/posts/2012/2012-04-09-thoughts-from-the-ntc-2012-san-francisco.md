@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Thoughts from the NTC 2012 / San Francisco
 date: 1334007154
-image: images/12ntc_banner.jpg
+image: images/articles/12ntc_banner.jpg
 categories:
  - writing
  - chrischinchilla

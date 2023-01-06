@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: Backing up and restoring Crate databases
 date: 2015-11-30T00:00:00.000Z
 publication_url: 'https://crate.io/a/backing-up-and-restoring-crate/'
-image: images/opengraph.png
+image: images/articles/opengraph.png
 categories: writing crate
 tags: databases
 ---

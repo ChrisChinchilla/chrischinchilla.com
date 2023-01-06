@@ -17,7 +17,7 @@ tags:
   - kubernetes
   - infrastructure as a code
 publication_url: "https://dzone.com/articles/5g-and-alibaba-cloud-with-tony-cheng"
-image: images/10734974.jpeg
+image: images/articles/10734974.jpeg
 
 ---
 

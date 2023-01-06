@@ -7,7 +7,7 @@ date: 1393878049
 categories:
  - writing
  - chrischinchilla
-image: images/dash.png
+image: images/articles/dash.png
 ---
 
 Every now and then along comes a piece of software that just does pretty much everything right, one of these is Dash.

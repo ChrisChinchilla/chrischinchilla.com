@@ -13,7 +13,7 @@ tags:
   - open source
   - microsoft bosque
 publication_url: "https://dzone.com/articles/-bosque-microsofts-new-programming-language"
-image: images/12202050.jpeg
+image: images/articles/12202050.jpeg
 
 ---
 Check out this great introduction to Microsoft's open-source Bosque language as well as hear from its creator.

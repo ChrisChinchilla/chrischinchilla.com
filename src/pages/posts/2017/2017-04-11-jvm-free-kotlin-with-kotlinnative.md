@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: JVM-Free Kotlin With Kotlin/Native
 date: '2017-04-11 10:13:30 +0100'
-image: images/AAEAAQAAAAAAAA16AAAAJDZkYmU2ODM0LWZiZWQtNDc5NS1hMTYxLWM3MTM2ZjBmODI5NQ.jpg
+image: images/articles/AAEAAQAAAAAAAA16AAAAJDZkYmU2ODM0LWZiZWQtNDc5NS1hMTYxLWM3MTM2ZjBmODI5NQ.jpg
 categories: writing dzone
 tags: kotlin programming jetbrains java
 publication_url: https://dzone.com/articles/jvm-free-kotlin-with-kotlinnative

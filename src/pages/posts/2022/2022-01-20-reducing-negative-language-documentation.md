@@ -10,7 +10,7 @@ tags:
   - documentation
   - linting
 publication_url: https://chronosphere.io/learn/reducing-negative-and-biased-language-in-documentation/
-image: images/ato21.png
+image: images/articles/ato21.png
 
 ---
 

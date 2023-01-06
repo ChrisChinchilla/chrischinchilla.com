@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Pravin Halady of NodeSource - Enterprise Ready Node.js
 date: 2017-07-06T00:00:00.000Z
-image: images/download.png
+image: images/articles/download.png
 categories: writing dzone
 tags: nodejs enterprise javascript security
 publication_url: 'https://dzone.com/articles/pravin-halady-of-nodesource-enterprise-ready-nodej'

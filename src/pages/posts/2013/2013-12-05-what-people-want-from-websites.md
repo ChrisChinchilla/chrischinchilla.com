@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: What people want from websites
 date: 1386237277
-image: images/whatpeoplewantfromwebsites-sales.png
+image: images/articles/whatpeoplewantfromwebsites-sales.png
 categories:
  - writing
  - chrischinchilla

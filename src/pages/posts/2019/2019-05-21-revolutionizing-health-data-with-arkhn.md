@@ -14,7 +14,7 @@ tags:
   - open data
   - big data use cases
 publication_url: "https://dzone.com/articles/-revolutionizing-health-data-with-arkhn"
-image: images/11886056.jpeg
+image: images/articles/11886056.jpeg
 
 ---
 A discussion of what the team at Arkhn is doing with health data and the impact they hope it will have.

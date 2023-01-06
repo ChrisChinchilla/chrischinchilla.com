@@ -9,7 +9,7 @@ tags:
   - boardgames
   - toleplay
   - tools
-image: images/dice.jpeg
+image: images/articles/dice.jpeg
 
 ---
 

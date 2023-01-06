@@ -6,7 +6,7 @@ title: 'Print at Home Chip Shop is Released!'
 date: 2016-03-07T00:00:00.000Z
 categories: projects chipshop
 tags: games
-image: images/card_previews.png
+image: images/articles/card_previews.png
 ---
 
 [Chip Shop](https://chipshopgame.com) has been a labour of love for me over the past two years. It has been through many changes and revisions and isn't yet 100%, but I have always needed to get something live before it becomes a never ending process of 'polishing'.

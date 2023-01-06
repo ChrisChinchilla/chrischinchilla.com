@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: The Next Full Stack Language? Server-side Swift with Perfect
 date: 2016-01-05T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/server-side-swift-with-perfect/'
-image: images/image-the-next-full-stack-language.jpeg
+image: images/articles/image-the-next-full-stack-language.jpeg
 categories: writing sitepoint
 ---
 

@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: Video - Understanding Android Differences
 date: 2015-08-11T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/video-understanding-android-differences/'
-image: images/image-understanding-android-images.png
+image: images/articles/image-understanding-android-images.png
 categories: writing sitepoint
 tags: android IDE development
 ---

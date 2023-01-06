@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Belgrade to Berlin, it's tech conference season
 date: 2016-10-08T00:00:00.000Z
-image: images/voxxed-belgrade.jpg
+image: images/articles/voxxed-belgrade.jpg
 categories:
  - writing
  - chrischinchilla

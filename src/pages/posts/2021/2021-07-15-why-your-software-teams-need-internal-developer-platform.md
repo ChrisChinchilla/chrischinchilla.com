@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Why your software teams need an internal developer platform
 date: 2021-07-15
-image: images/internal-developer-platform-self-service-chris-ward.jpg
+image: images/articles/internal-developer-platform-self-service-chris-ward.jpg
 categories: writing techbeacon
 tags: devops kubernetes
 publication_url: https://techbeacon.com/app-dev-testing/why-your-software-teams-need-internal-developer-platform

@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Research Update
 date: 1421138317
-image: images/videogamesinthebeginning.jpg
+image: images/articles/videogamesinthebeginning.jpg
 categories: projects chipshop
 ---
 

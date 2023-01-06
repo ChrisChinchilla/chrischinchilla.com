@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Podcasting 101 - What you need to get started on Mac
 date: 2017-07-26
-image: images/DSC0019-780x640.jpg
+image: images/articles/DSC0019-780x640.jpg
 categories: writing cultofmac
 tags: mac audio podcasting
 publication_url: https://www.cultofmac.com/482571/getting-started-podcasting-mac/

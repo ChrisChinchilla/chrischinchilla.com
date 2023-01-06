@@ -1,6 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { Pagination } from "accessible-astro-components";
+import {Pagination} from "accessible-astro-components";
 import Post from "../../components/Post.astro";
 
 // const title = 'Blog';
@@ -8,24 +8,21 @@ import Post from "../../components/Post.astro";
 // const permalink = `${Astro.site.href}blog`;
 export async function getStaticPaths({ paginate }) {
   let allPosts = await Astro.glob("./**/*.md");
+  console.log(allPosts);
+
   // TODO: Must be a better way, this is odd?
-// TODO: Also currently not necessary as pages are sorted by date anyway due to file name
-  // allPosts = allPosts.sort((b,a) => Date.parse(a.frontmatter.date) - Date.parse(b.frontmatter.date));
-  // console.log(allPosts);
+  allPosts = allPosts.sort().reverse();
   return paginate(allPosts, {
     pageSize: 50,
   });
 }
+
 const { page } = Astro.props;
-// const params = Astro.params;
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
     <h1>Writing</h1>
-    <!-- Pass your post data into a custom component, or display it on the page -->
-    <!-- TODO: Set type explicitly -->
-    <!-- TODO: Body summary -->
     <ul>
       {
         page.data.map((post) => (
@@ -33,9 +30,11 @@ const { page } = Astro.props;
             <Post
               href={post.url}
               title={post.frontmatter.title}
-              body={post.body}
+              // TODO: FUNCTION!!!!
+              body={post.compiledContent()}
               date={post.frontmatter.date}
               publication_url={post.frontmatter.publication_url}
+              image={post.frontmatter.image}
             />
           </>
         ))

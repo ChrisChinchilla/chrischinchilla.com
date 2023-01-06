@@ -14,7 +14,7 @@ tags:
   - logging
   - cloud
 publication_url: "https://dzone.com/articles/best-tools-for-debugging-distributed-applications"
-image: images/10494209.jpeg
+image: images/articles/10494209.jpeg
 
 ---
 Take a look at some of the best tools and methods for getting your distributed applications debugged and back in business.

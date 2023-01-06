@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: '8 Key Announcements for Android Developers at Google IO'
 date: 2016-05-024
 publication_url: 'https://www.sitepoint.com/8-key-announcements-for-android-developers-at-google-io/'
-image: images/googleio.jpeg
+image: images/articles/googleio.jpeg
 categories: writing sitepoint
 tags: google android
 ---

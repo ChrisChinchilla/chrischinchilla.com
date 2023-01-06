@@ -14,7 +14,7 @@ tags:
   - snap
   - tutorial
 publication_url: "https://dzone.com/articles/a-guide-to-ubuntu-core-and-snaps"
-image: images/6788137.jpeg
+image: images/articles/6788137.jpeg
 
 ---
 Learn about Ubuntu Core's role in IoT development and how Snaps, as a packaging system, augment Linux, containers, and IoT.

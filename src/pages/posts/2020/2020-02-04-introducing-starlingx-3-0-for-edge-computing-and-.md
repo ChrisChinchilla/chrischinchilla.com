@@ -14,7 +14,7 @@ tags:
   - hybrid cloud
   - cloud
 publication_url: "https://dzone.com/articles/-introducing-starlingx-30-for-edge-computing-and-i"
-image: images/12975327.jpeg
+image: images/articles/12975327.jpeg
 
 ---
 Take a look at how StarlingX as an edge computing platform provides support for multiple low-latency use cases as well as a number of useful features.

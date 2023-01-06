@@ -11,7 +11,7 @@ tags:
   - API
   - Design
 publication_url: https://humanitec.com/blog/api-design-developer-experience
-image: images/5fd91939777aba2d2cb25bdb_apis-devex-p-800.png
+image: images/articles/5fd91939777aba2d2cb25bdb_apis-devex-p-800.png
 
 ---
 

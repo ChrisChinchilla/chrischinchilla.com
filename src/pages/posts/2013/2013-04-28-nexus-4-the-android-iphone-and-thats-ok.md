@@ -8,7 +8,7 @@ categories:
  - writing
  - chrischinchilla
 tags: android nexus phones
-image: images/nexus-4.jpg
+image: images/articles/nexus-4.jpg
 ---
 
 I decided to upgrade my Samsung S2 to a Nexus 4, there were several reasons for this...<ul><li>I dropped the S2 on a rock and it had a large hairline crack in the screen, not that bad but noticeable.</li><li>I rooted the phone and installed Cyanogen Mod, it ran really well until recently, and a stable version of 4.2 looks like it was never gong to happen.</li><li>I came into some money and thought I'd treat myself</li></ul>

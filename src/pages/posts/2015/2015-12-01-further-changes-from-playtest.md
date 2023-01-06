@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Further Changes From Play Testing
 date: '2015-12-06'
-image: images/image-activities-and-intents.jpg
+image: images/articles/image-activities-and-intents.jpg
 categories: projects chipshop
 tags: games playtesting
 ---

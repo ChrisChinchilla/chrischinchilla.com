@@ -13,7 +13,7 @@ tags:
   - database
   - data analytics
 publication_url: "https://dzone.com/articles/datical-bringing-devops-practices-to-database-admi"
-image: images/6345521.jpeg
+image: images/articles/6345521.jpeg
 
 ---
 In this podcast interview, learn how Datical is bringing easy-to-use tools inspired by DevOps practices to the traditionally messy world of enterprise databases.

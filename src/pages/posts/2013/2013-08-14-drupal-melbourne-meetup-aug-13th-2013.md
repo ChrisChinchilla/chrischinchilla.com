@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: 'Drupal Melbourne meetup, Aug 13th 2013'
 date: 1376441876
-image: images/drupalmel.png
+image: images/articles/drupalmel.png
 categories:
  - writing
  - chrischinchilla

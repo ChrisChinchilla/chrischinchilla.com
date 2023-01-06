@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: 'Creating a Game with Markdown, Pandoc, Latex and PDFJam'
 date: 2015-08-11T00:00:00.000Z
 categories: projects chipshop
-image: images/9up-cards.png
+image: images/articles/9up-cards.png
 tags: markdown pandoc latex pdf
 ---
 

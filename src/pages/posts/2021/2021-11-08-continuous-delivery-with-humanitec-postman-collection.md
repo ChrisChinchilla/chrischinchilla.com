@@ -12,7 +12,7 @@ tags:
   - gitops
   - devops
 publication_url: https://humanitec.com/blog/continuous-delivery-with-humanitec-postman-collection
-image: images/61896e4ca91e25b382a40fc6_Frame_209.jpg
+image: images/articles/61896e4ca91e25b382a40fc6_Frame_209.jpg
 
 ---
 

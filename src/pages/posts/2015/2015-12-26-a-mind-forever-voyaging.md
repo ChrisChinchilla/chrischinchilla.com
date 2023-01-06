@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: 'A Mind Forever Voyaging: A History of Storytelling in Video Games by Dylan Holmes'
 date: 2015-12-26T00:00:00.000Z
-image: images/image-a-mind-forever-voyaging.jpg
+image: images/articles/image-a-mind-forever-voyaging.jpg
 categories: projects chipshop
 tags:
  - books 

@@ -14,7 +14,7 @@ tags:
   - cloud
   - kata containers
 publication_url: "https://dzone.com/articles/removing-the-lid-on-kata-containers"
-image: images/11677471.jpeg
+image: images/articles/11677471.jpeg
 
 ---
 To find out more about the Kata Containers project, including how they compare to other solutions, and recent developments, I spoke with the team.

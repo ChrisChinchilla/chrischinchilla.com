@@ -5,7 +5,7 @@ layout: "../../../layouts/Post.astro"
 title: Crate drivers available for Laravel
 date: 20150619
 publication_url: 'https://crate.io/blog/crate-driver-available-for-laravel/'
-image: images/image-crate-drivers-available-for-laravel.png
+image: images/articles/image-crate-drivers-available-for-laravel.png
 categories: writing crate
 ---
 

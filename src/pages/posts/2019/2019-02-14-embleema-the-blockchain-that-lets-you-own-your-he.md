@@ -12,7 +12,7 @@ tags:
   - data privacy
   - big data sets
 publication_url: "https://dzone.com/articles/embleema-the-blockchain-that-lets-you-own-your-hea"
-image: images/11268343.jpeg
+image: images/articles/11268343.jpeg
 
 ---
 Healthcare generates a lot of data, but most of it isn't available to those generating the data: patients. Learn how one team is using blockchain to address this issue.

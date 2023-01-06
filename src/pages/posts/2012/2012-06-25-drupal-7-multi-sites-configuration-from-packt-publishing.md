@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Drupal 7 Multi-sites configuration - Matt Butcher
 date: 1340623057
-image: images/drupal7multisite.png
+image: images/articles/drupal7multisite.png
 ---
 
 <a href="https://www.packtpub.com/news/new-drupal-mini-books" target="_blank">Part of Packt publishing's new _Mini Drupal series_</a>

@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: 10 great podcasts for software test engineers
 date: 2021-04-20
-image: images/software-test-engineers-podcast-chris-ward.jpg
+image: images/articles/software-test-engineers-podcast-chris-ward.jpg
 categories: writing techbeacon
 tags: podcasts learning education coding
 publication_url: https://techbeacon.com/app-dev-testing/10-great-podcasts-software-test-engineers

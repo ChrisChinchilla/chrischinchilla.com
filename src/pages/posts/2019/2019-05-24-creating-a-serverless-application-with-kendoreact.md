@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Creating a Serverless Application with KendoReact
 date: 2019-05-24T12:39:46.095Z
-image: images/kendoreactt_870x220.png
+image: images/articles/kendoreactt_870x220.png
 categories: writing telerik
 tags: kendo react serverless
 publication_url: https://www.telerik.com/blogs/creating-a-serverless-application-with-kendoreact

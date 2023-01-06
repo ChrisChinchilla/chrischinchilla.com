@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: Top 5 Resources for Web App Accessibility
 date: 2019-08-23T12:54:50.672Z
-image: images/tb_870x22043dccabe89e4489095165891b587bb6b.png
+image: images/articles/tb_870x22043dccabe89e4489095165891b587bb6b.png
 categories: writing telerik
 tags: accessibility web
 publication_url: 'https://www.telerik.com/blogs/top-5-resources-web-app-accessibility'

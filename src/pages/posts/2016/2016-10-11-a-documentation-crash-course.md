@@ -4,7 +4,7 @@
 layout: "../../../layouts/Post.astro"
 title: A documentation crash course for developers
 date: 2016-10-11T00:00:00.000Z
-image: images/wtd-prague.jpg
+image: images/articles/wtd-prague.jpg
 categories: writing hackernoon
 tags: writing techwriting
 

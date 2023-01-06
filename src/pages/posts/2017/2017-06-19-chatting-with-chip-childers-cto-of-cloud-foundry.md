@@ -13,7 +13,7 @@ tags:
   - use cases
 publication_url: "https://dzone.com/articles/chip-childers-cto-of-cloud-foundry"
 
-image: images/5651398.jpeg
+image: images/articles/5651398.jpeg
 ---
 This talk with Cloud Foundry's Chip Childers covers the company's history, its tools, and how organizations are using them in production environments.
 

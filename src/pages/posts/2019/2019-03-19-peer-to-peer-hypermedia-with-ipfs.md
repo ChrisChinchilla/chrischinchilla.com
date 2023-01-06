@@ -12,7 +12,7 @@ tags:
   - web
   - peer2peer
 publication_url: "https://dev2.kauri.io/article/a6a0de7d0a914259a4613479f8f2d13f"
-image: images/Qmevyp8k7QKnE8WAmBb6LrmvvarVXFZ4mcyrpCFmXLF1Tx.png
+image: images/articles/Qmevyp8k7QKnE8WAmBb6LrmvvarVXFZ4mcyrpCFmXLF1Tx.png
 
 ---
 
