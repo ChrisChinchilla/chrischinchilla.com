@@ -1,0 +1,22 @@
+---
+export interface Props {
+  name: string;
+  body: string;
+  href: string;
+}
+
+const { name, body, href } = Astro.props;
+
+// Truncate text
+// TODO: Better way?
+// TODO: Make to helper or plugin
+var truncatedText = body.split("</p>");
+---
+<a href={href} class="cleanlink">
+<li class="link-card">
+    <h2>
+      {name}
+    </h2>
+    <p set:html={truncatedText[0]} />
+</li>
+</a>

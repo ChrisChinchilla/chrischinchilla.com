@@ -1,0 +1,48 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Pagination } from "accessible-astro-components";
+import Event from "../../components/Event.astro";
+
+export async function getStaticPaths({ paginate }) {
+  let allEvents = await Astro.glob("./**/*.md");
+  // TODO: Must be a better way, this is odd?
+// TODO: Also currently not necessary as pages are sorted by date anyway due to file name
+  // allPosts = allPosts.sort((b,a) => Date.parse(a.frontmatter.date) - Date.parse(b.frontmatter.date));
+  console.log(allEvents);
+  return paginate(allEvents, {
+    pageSize: 50,
+  });
+}
+const { page } = Astro.props;
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <h1>Events</h1>
+    <ul>
+      {
+        page.data.map((event) => (
+          <>
+          <Event
+          href={event.url}
+              name={event.frontmatter.title}
+              // TODO: FUNCTION!!!!
+              body={event.compiledContent()}
+            />
+          </>
+        ))
+      }
+    </ul>
+    <!-- TODO: Index page -->
+    <Pagination
+      firstPage={page.url.prev ? "/events/1" : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next
+        ? `/clients/${Math.round(page.total / page.size)}`
+        : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    />
+  </main>
+</Layout>
