@@ -3,9 +3,6 @@ import Layout from "../../layouts/Layout.astro";
 import { Pagination } from "accessible-astro-components";
 import Client from "../../components/Client.astro";
 
-// const title = 'Blog';
-// const description = 'Latest articles.';
-// const permalink = `${Astro.site.href}blog`;
 export async function getStaticPaths({ paginate }) {
   let allClients = await Astro.glob("./**/*.md");
   // TODO: Must be a better way, this is odd?
@@ -17,16 +14,11 @@ export async function getStaticPaths({ paginate }) {
   });
 }
 const { page } = Astro.props;
-// const { Content } = Astro.props.post
-// const params = Astro.params;
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
     <h1>Clients</h1>
-    <!-- Pass your post data into a custom component, or display it on the page -->
-    <!-- TODO: Set type explicitly -->
-    <!-- TODO: Body summary -->
     <ul>
       {
         page.data.map((client) => (
@@ -34,7 +26,8 @@ const { page } = Astro.props;
           <Client
             company_url={client.frontmatter.company_url}
               name={client.frontmatter.title}
-              body={client.content}
+              // TODO: FUNCTION!!!!
+              body={client.compiledContent()}
               featured_image={client.frontmatter.featured_image}
             />
           </>

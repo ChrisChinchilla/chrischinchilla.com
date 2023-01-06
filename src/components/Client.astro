@@ -9,16 +9,14 @@ export interface Props {
 }
 
 const { company_url, name, featured_image, body } = Astro.props;
+// Truncate text
+// TODO: Better way?
+// TODO: Make to helper or plugin
+var truncatedText = body.split("</p>");
 ---
 
-<li class="link-card">
-  <a href={company_url}>
-    <h2>
-      {name}
-    </h2>
-    <p>
-        {body}
-    </p>
+<a href={company_url} class="cleanlink">
+  <li class="link-card">
     <Picture
       src={featured_image}
       widths={[125, 200]}
@@ -27,7 +25,11 @@ const { company_url, name, featured_image, body } = Astro.props;
       aspectRatio="4:3"
       fit="inside"
     />
-  </a>
-</li>
-
-
+    <span class="column">
+      <h2>
+        {name}
+      </h2>
+      <p set:html={truncatedText[0]} />
+    </span>
+  </li>
+</a>
