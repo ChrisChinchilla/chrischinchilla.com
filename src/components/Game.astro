@@ -1,0 +1,33 @@
+---
+// import { Picture } from "@astrojs/image/components";
+
+export interface Props {
+  name: string;
+  href: string;
+  //   featured_image: string;
+  body: string;
+}
+
+const { name, href, body } = Astro.props;
+// Truncate text
+// TODO: Better way?
+// TODO: Make to helper or plugin
+var truncatedText = body.split("</p>");
+---
+
+<a href={href} class="cleanlink">
+  <li class="link-card">
+    <h2>
+      {name}
+    </h2>
+    <p set:html={truncatedText[0]} />
+    <!-- <Picture
+      src={featured_image}
+      widths={[125, 200]}
+      sizes="(max-width: 200px) 75vw, 200px"
+      alt={name}
+      aspectRatio="4:3"
+      fit="inside"
+    /> -->
+  </li>
+</a>
