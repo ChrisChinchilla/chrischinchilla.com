@@ -1,17 +1,21 @@
 import { defineConfig } from "astro/config";
-import { injectFrontmatter } from "./src/utils/remark";
 import react from '@astrojs/react';
-
-// https://astro.build/config
 import netlify from "@astrojs/netlify/functions";
+import image from "@astrojs/image";
 
-// https://astro.build/config
 export default defineConfig({
   markdown: {
     extendDefaultPlugins: true,
-    remarkPlugins: [injectFrontmatter]
+    remarkPlugins: [],
+      rehypePlugins: [],
+      // syntaxHighlight: 'shiki'
+      // syntaxHighlight: 'prism'
+    
   },
-  integrations: [react()],
-  output: "server",
+  integrations: [ 
+    react(), image({
+    serviceEntryPoint: '@astrojs/image/sharp'
+  })],
+  // output: "server",
   adapter: netlify()
 });
