@@ -1,20 +1,47 @@
 ---
+import { Picture } from "@astrojs/image/components";
+
 export interface Props {
-  name: string;
+  title: string;
   description: string;
   link: string;
+  featured_image: string;
+}
+const { title, description, link, featured_image } = Astro.props;
+
+// Default images
+var src = "";
+if (featured_image != null) {
+  src = featured_image;
+} else {
+  src = "/images/default.png";
 }
 
-const { name, description, link } = Astro.props;
+// TODO: add source
+// Default source
+// var sourceText = "";
+// if (source != null) {
+//   sourceText = source;
+// } else {
+//   sourceText = "No source defined";
+// }
 ---
 
-<li class="link-card">
-  <a href={link}>
-    <h2>
-      {name}
-    </h2>
-    <p>
-      {description}
-    </p>
-  </a>
-</li>
+<!-- <a href={link} class="cleanlink"> -->
+  <div>
+    <!-- <Picture
+      src={src}
+      widths={[250, 400]}
+      sizes="(max-width: 400px) 75vw, 200px"
+      alt={title}
+      aspectRatio="4:3"
+      fit="inside"
+    /> -->
+<img src={src} />
+<a href={link} class="cleanlink"><h3>
+        {title}
+        <span>&rarr;</span>
+      </h3></a>
+      <p set:html={description} />
+  </div>
+<!-- </a> -->
