@@ -1,7 +1,7 @@
 ---
 type: Technical writing
 title: Dgraph
-featured_image: images/clients/dgraph.jpg
+featured_image: ~/assets/images/clients/dgraph.jpg
 category: Chris
 tags:
 - documentation

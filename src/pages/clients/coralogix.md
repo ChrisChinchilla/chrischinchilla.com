@@ -3,7 +3,7 @@ type: blogging
 title: Coralogix
 layout: "../../layouts/Client.astro"
 company_url: 'https://coralogix.com/blog/'
-featured_image: images/clients/coralogix.png
+featured_image: ~/assets/images/clients/coralogix.png
 category: Chris writing
 start_date: 2017
 end_date: 2017

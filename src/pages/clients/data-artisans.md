@@ -3,7 +3,7 @@ type: Technical Writing
 title: Data Artisans
 layout: "../../layouts/Client.astro"
 company_url: 'https://data-artisans.com'
-featured_image: images/clients/data-artisans.png
+featured_image: ~/assets/images/clients/data-artisans.png
 category: Chris writing
 start_date: 2017
 end_date: 2018

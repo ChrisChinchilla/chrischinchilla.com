@@ -3,7 +3,7 @@ type: marketing
 title: Faria Education Group
 layout: "../../layouts/Client.astro"
 company_url: 'https://www.fariaedu.com/'
-featured_image: images/clients/faria.jpeg
+featured_image: ~/assets/images/clients/faria.jpeg
 category: Chris writing
 start_date: 2017
 end_date: 2018

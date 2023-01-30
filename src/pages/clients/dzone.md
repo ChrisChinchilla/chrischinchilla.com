@@ -3,7 +3,7 @@ type: blogging
 title: DZone
 layout: "../../layouts/Client.astro"
 company_url: 'https://dzone.com'
-featured_image: images/clients/dzone.png
+featured_image: ~/assets/images/clients/dzone.png
 category: Both writing
 start_date: 2017
 end_date: 2020

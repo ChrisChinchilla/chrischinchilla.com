@@ -1,7 +1,7 @@
 ---
 type: Documentation
 title: Unity MARS
-featured_image: images/clients/unity.png
+featured_image: ~/assets/images/clients/unity.png
 category: Chris
 tags:
 - AR

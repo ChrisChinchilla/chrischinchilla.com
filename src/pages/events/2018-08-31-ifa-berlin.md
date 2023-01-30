@@ -7,7 +7,7 @@ event: IFA
 start_date: 2018-08-31T00:00:00.000Z
 end_date: 2018-09-03T00:00:00.000Z
 venue: Messe, Berlin
-image:
+image: ~/assets/images/default.png
 pres_source: null
 pres_url: https://b2b.ifa-berlin.com/
 ---

@@ -4,7 +4,7 @@ title: here
 layout: "../../layouts/Client.astro"
 company_url: 'https://here.com/'
 work_link: https://developer.here.com/documentation/maps/3.1.26.0/dev_guide/index.html
-featured_image: images/clients/here.png
+featured_image: ~/assets/images/clients/here.png
 category: Chris writing
 start_date: 2017
 end_date: 2018

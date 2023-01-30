@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import "../styles/global.css";
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+    <p class="instructions">Hey there 👋.</p>
+    <p class="introductions">I am Chris Chinchilla.</p>
+    <ul role="list" class="link-card-grid">
+      <Card href="posts/1" title="Blog posts" body="Blog posts" />
+      <Card href="clients/1" title="Clients" body="Clients" />
+      <Card href="events/1" title="Events" body="Events" />
+      <Card href="/games/1" title="Games" body="Games" />
+      <Card href="/about" title="About" body="About" />
+      <Card href="/links" title="Links" body="Links" />
+      <Card href="/podcast" title="Podcast" body="Podcast" />
+      <Card href="/videos" title="Videos" body="Videos" />
+    </ul>
+  </main>
+</Layout>

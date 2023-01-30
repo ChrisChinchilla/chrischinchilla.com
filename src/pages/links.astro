@@ -19,27 +19,22 @@ const links = await fetch("https://getpocket.com/v3/get", {
   .then((response) => response.json())
   .then((response) => Object.values(response.list));
 
-// const data = await response.json();
 ---
-
+<!-- TODO: Add source -->
 <Layout title="Welcome to Astro.">
   <main>
     <h1>Links</h1>
-    <!-- Pass your post data into a custom component, or display it on the page -->
-    <!-- TODO: Set type explicitly -->
-    <!-- TODO: Body summary -->
-    <ul>
       {
         links.map((link) => (
           <>
             <Link
-              name={link.resolved_title}
+              title={link.resolved_title}
               description={link.excerpt}
               link={link.resolved_url}
+              featured_image={link.top_image_url}
             />
           </>
         ))
       }
-    </ul>
   </main>
 </Layout>

@@ -3,7 +3,7 @@ type: blogging
 title: Sqreen
 layout: "../../layouts/Client.astro"
 company_url: 'https://www.sqreen.io/'
-featured_image: images/clients/sqreen.png
+featured_image: ~/assets/images/clients/sqreen.png
 category: Chris writing
 start_date: 2017
 end_date: 2018

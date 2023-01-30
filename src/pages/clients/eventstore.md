@@ -4,7 +4,7 @@ title: Event Store
 layout: "../../layouts/Client.astro"
 company_url: 'https://eventstore.org'
 work_link: https://developers.eventstore.com
-featured_image: images/clients/event-store.png
+featured_image: ~/assets/images/clients/event-store.png
 category: Chris writing
 start_date: 2017
 end_date: 2020

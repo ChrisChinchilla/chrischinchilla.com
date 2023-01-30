@@ -7,7 +7,7 @@ const chinchillaSqueaksEpisodes = await fetch(
   {
     headers: {
       Authorization:
-        "Bearer BQBXnAVVrZwZveIA0GwhFFg-lPrAsB07jxxGiQtgMYJBSqHUNnJztfkHk0N6pA6cjjBpKwbIqOQ93E6t075glXio26ahiMkojiuqJiFPiAhVDtrTRxo",
+        "Bearer BQByO1tMfGNRvWqx04aGpTZxF_U0_u2FQrEZmWRDGGwrcRaMzOWZfLzcN4yda5J4KfJn5E4VnCVmeF95_FDp-NIikQiaZn8FLBIi7tldyGP0Tcg6LZM",
     },
   }
 )
@@ -18,13 +18,9 @@ const chinchillaSqueaksEpisodes = await fetch(
 <Layout title="Welcome to Astro.">
   <main>
     <h1>Podcasts</h1>
-    <!-- Pass your post data into a custom component, or display it on the page -->
-    <!-- TODO: Set type explicitly -->
-    <!-- TODO: Body summary -->
     <ul>
       {
         chinchillaSqueaksEpisodes.map((podcast) => (
-          // <li>{episode.name}</li>
           <>
             <Podcast
               name={podcast.name}

@@ -1,7 +1,7 @@
 ---
 type: Documentation
 title: libcamera
-featured_image: images/clients/libcamera.png
+featured_image: ~/assets/images/clients/libcamera.png
 category: Chris
 tags:
 - Linux

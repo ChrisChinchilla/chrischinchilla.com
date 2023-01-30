@@ -3,7 +3,7 @@ type: blogging
 title: CodeShip
 layout: "../../layouts/Client.astro"
 company_url: 'https://blog.codeship.com/'
-featured_image: images/clients/codeship.png
+featured_image: ~/assets/images/clients/codeship.png
 start_date: 2016
 end_date: 2018
 tags:

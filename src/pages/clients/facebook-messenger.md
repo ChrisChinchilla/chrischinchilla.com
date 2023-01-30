@@ -1,7 +1,7 @@
 ---
 type: Technical writing
 title: Facebook Messenger
-featured_image: images/clients/messenger.png
+featured_image: ~/assets/images/clients/messenger.png
 category: Chris
 tags:
 - bots

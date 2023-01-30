@@ -6,7 +6,7 @@ title: the latest tech news
 event: IFA
 start_date: 2017-09-01
 venue: Messe, Berlin
-image:
+image: ~/assets/images/default.png
 pres_source: null
 pres_url: https://b2b.ifa-berlin.com/
 ---
