@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="event">
 
   <header class="post-header">
@@ -20,7 +19,10 @@ layout: default
   </article>
 
   <div class="post-meta">
-    <p class="editable">{{ page.venue }}</p>
+    <p class="editable">
+      Venue
+      {{ page.venue }}
+    </p>
     {% if page.pres_url %}
     <p><a class="post-link" href="{{ page.pres_url }}" target="_blank">Presentation</a></p>
     {% endif %}
