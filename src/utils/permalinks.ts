@@ -1,6 +1,6 @@
 import slugify from 'limax';
 
-import { SITE, BLOG } from '~/config.mjs';
+import { SITE, BLOG, CLIENT } from '~/config.mjs';
 import { trim } from '~/utils/utils';
 
 export const trimSlash = (s: string) => trim(trim(s, '/'));
@@ -23,6 +23,8 @@ export const cleanSlug = (text = '') =>
 export const POST_PERMALINK_PATTERN = trimSlash(BLOG?.post?.permalink || '/%slug%');
 
 export const BLOG_BASE = cleanSlug(BLOG?.list?.pathname);
+export const CLIENT_BASE = cleanSlug(CLIENT?.list?.pathname);
+
 export const CATEGORY_BASE = cleanSlug(BLOG?.category?.pathname || 'category');
 export const TAG_BASE = cleanSlug(BLOG?.tag?.pathname) || 'tag';
 

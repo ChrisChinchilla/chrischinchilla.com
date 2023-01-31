@@ -8,7 +8,6 @@ author: "Chris Ward"
 categories: writing chronosphere
 tags: 
   - 
-publication_url: ""
 image: ~/assets/images/articles/lineChart.png
 
 ---

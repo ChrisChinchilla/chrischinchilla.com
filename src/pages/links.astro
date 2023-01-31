@@ -31,7 +31,7 @@ const links = await fetch("https://getpocket.com/v3/get", {
               title={link.resolved_title}
               description={link.excerpt}
               link={link.resolved_url}
-              featured_image={link.top_image_url}
+              image={link.top_image_url}
             />
           </>
         ))

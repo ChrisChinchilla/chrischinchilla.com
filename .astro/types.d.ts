@@ -62,7 +62,198 @@ declare module 'astro:content' {
 	};
 
 	const entryMap: {
-		"post": {
+		"client": {
+"chronosphere.md": {
+  id: "chronosphere.md",
+  slug: "chronosphere",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"codeship.md": {
+  id: "codeship.md",
+  slug: "codeship",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"consensys.md": {
+  id: "consensys.md",
+  slug: "consensys",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"coralogix.md": {
+  id: "coralogix.md",
+  slug: "coralogix",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"cultofmac.md": {
+  id: "cultofmac.md",
+  slug: "cultofmac",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"data-artisans.md": {
+  id: "data-artisans.md",
+  slug: "data-artisans",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"devspotlight.md": {
+  id: "devspotlight.md",
+  slug: "devspotlight",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"dgraph.md": {
+  id: "dgraph.md",
+  slug: "dgraph",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"dzone.md": {
+  id: "dzone.md",
+  slug: "dzone",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"envato.md": {
+  id: "envato.md",
+  slug: "envato",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"ethereum-foundation.md": {
+  id: "ethereum-foundation.md",
+  slug: "ethereum-foundation",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"eventstore.md": {
+  id: "eventstore.md",
+  slug: "eventstore",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"exoscale.md": {
+  id: "exoscale.md",
+  slug: "exoscale",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"facebook-messenger.md": {
+  id: "facebook-messenger.md",
+  slug: "facebook-messenger",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"faria.md": {
+  id: "faria.md",
+  slug: "faria",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"gitlab.md": {
+  id: "gitlab.md",
+  slug: "gitlab",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"here.md": {
+  id: "here.md",
+  slug: "here",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"humanitec.md": {
+  id: "humanitec.md",
+  slug: "humanitec",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"libcamera.md": {
+  id: "libcamera.md",
+  slug: "libcamera",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"pagerduty.md": {
+  id: "pagerduty.md",
+  slug: "pagerduty",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"progress.md": {
+  id: "progress.md",
+  slug: "progress",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"sitepoint.md": {
+  id: "sitepoint.md",
+  slug: "sitepoint",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"sqreen.md": {
+  id: "sqreen.md",
+  slug: "sqreen",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"takipi.md": {
+  id: "takipi.md",
+  slug: "takipi",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"techbeacon.md": {
+  id: "techbeacon.md",
+  slug: "techbeacon",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"unity.md": {
+  id: "unity.md",
+  slug: "unity",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+"weave.md": {
+  id: "weave.md",
+  slug: "weave",
+  body: string,
+  collection: "client",
+  data: InferEntrySchema<"client">
+},
+},
+"post": {
 "2016/2016-01-05-the-next-full-stack-language-server-side-swift-with-perfect.md": {
   id: "2016/2016-01-05-the-next-full-stack-language-server-side-swift-with-perfect.md",
   slug: "2016/2016-01-05-the-next-full-stack-language-server-side-swift-with-perfect",

@@ -5,14 +5,14 @@ export interface Props {
   title: string;
   description: string;
   link: string;
-  featured_image: string;
+  image: string;
 }
-const { title, description, link, featured_image } = Astro.props;
+const { title, description, link, image } = Astro.props;
 
 // Default images
 var src = "";
-if (featured_image != null) {
-  src = featured_image;
+if (image != null) {
+  src = image;
 } else {
   src = "/images/default.png";
 }

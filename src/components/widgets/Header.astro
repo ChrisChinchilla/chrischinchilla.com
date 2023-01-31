@@ -7,43 +7,43 @@ import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/utils/permalinks';
 
 const links = [
+{text: 'About', href: getPermalink('/about'),},
+
   {
-    text: 'Pages',
+    text: 'Writing',
     links: [
-      {
-        text: 'Features',
-        href: '#',
-      },
-      {
-        text: 'Pricing',
-        href: '#',
-      },
-      {
-        text: 'About us',
-        href: '#',
-      },
-      {
-        text: 'Contact',
-        href: '#',
-      },
-      {
-        text: 'Terms',
-        href: getPermalink('/terms'),
-      },
-      {
-        text: 'Privacy policy',
-        href: getPermalink('/privacy'),
-      },
+    {
+    text: 'Blog',
+    href: getBlogPermalink(),
+  },
     ],
   },
   {
-    text: 'Resources',
-    href: getPermalink('useful-resources-to-create-websites', 'post'),
+    text: 'Work',
+    links: [
+    {
+    text: 'CV',
+    href: getPermalink('/cv'),
+  },
+  {
+    text: 'Clients',
+    href: getPermalink('/clients'),
+  },
+  {
+    text: 'Games',
+    href: getPermalink('/games'),
   },
   {
     text: 'Blog',
     href: getBlogPermalink(),
   },
+    ],
+  },
+  {text: 'Links', href: getPermalink('/links'),},
+  {text: 'Videos', href: getPermalink('/videos'),},
+  {text: 'Podcast', href: getPermalink('/podcast'),},
+  {text: 'Events', href: getPermalink('/events'),},
+
 ];
 ---
 

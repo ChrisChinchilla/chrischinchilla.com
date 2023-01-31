@@ -4,7 +4,7 @@
 export interface Props {
   name: string;
   href: string;
-  //   featured_image: string;
+  //   image: string;
   body: string;
 }
 
@@ -22,7 +22,7 @@ var truncatedText = body.split("</p>");
     </h2>
     <p set:html={truncatedText[0]} />
     <!-- <Picture
-      src={featured_image}
+      src={image}
       widths={[125, 200]}
       sizes="(max-width: 200px) 75vw, 200px"
       alt={name}

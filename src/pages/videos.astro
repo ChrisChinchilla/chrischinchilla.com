@@ -1,6 +1,16 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from "~/layouts/PageLayout.astro";
 import Video from "../components/Video.astro";
+import Headline from '~/components/blog/Headline.astro';
+
+const meta = {
+  title: "Videos",
+  description: "Videos",
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
 
 const youTubeVideos = await fetch(
   "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=200&playlistId=UUgnrx8qi4qhmN6sBebdDrmg&key=AIzaSyDLwaU3kzLMbC-9n-Jpmq6xqfD-B1-r8VI"
@@ -9,21 +19,27 @@ const youTubeVideos = await fetch(
   .then((response) => Object.values(response.items));
 ---
 
-<Layout title="Welcome to Astro.">
-  <main>
-    <h1>Videos</h1>
-    <ul>
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+
+    <Headline
+      subtitle={meta.description}
+    >
+      {meta.title}
+    </Headline>
+        <ul>
       {
         youTubeVideos.map((video) => (
-          <>
-            <Video
+          
+          <li class="mb-12 md:mb-20">
+<Video
               name={video.snippet.title}
               snippet={video.snippet.description}
               id={video.snippet.resourceId.videoId}
             />
-          </>
+          </li>
         ))
       }
     </ul>
-  </main>
-</Layout>
+    </section>
+  </Layout>

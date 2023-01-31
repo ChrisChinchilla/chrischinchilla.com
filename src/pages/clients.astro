@@ -1,0 +1,67 @@
+---
+import Layout from "~/layouts/PageLayout.astro";
+import { Pagination } from "accessible-astro-components";
+import Headline from '~/components/blog/Headline.astro';
+
+import Client from "../components/Client.astro";
+import { getCollection } from 'astro:content';
+const allClients = await getCollection('client');
+console.log(allClients);
+export async function getStaticPaths({ paginate }) {
+//   let allClients = await Astro.glob("./**/*.md");
+  // TODO: Must be a better way, this is odd?
+// TODO: Also currently not necessary as pages are sorted by date anyway due to file name
+  // allPosts = allPosts.sort((b,a) => Date.parse(a.frontmatter.date) - Date.parse(b.frontmatter.date));
+//   console.log(allClients);
+//   return paginate(allClients, {
+//     pageSize: 50,
+//   });
+}
+const { page } = Astro.props;
+const meta = {
+  title: "Clients",
+  description: "Clients",
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
+---
+
+<Layout {meta}>
+    <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+  
+      <Headline
+        subtitle={meta.description}
+      >
+        {meta.title}
+      </Headline>
+    <ul>
+      {
+        allClients.map((client) => (
+        <li class="mb-12 md:mb-20">
+
+          <Client
+            company_url={client.data.company_url}
+              name={client.data.title}
+              // TODO: FUNCTION!!!!
+              body={client.body}
+              image={client.data.image}
+            />
+        </li>
+        ))
+      }
+    </ul>
+    <!-- TODO: Index page -->
+    <!-- <Pagination
+      firstPage={page.url.prev ? "/clients/1" : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next
+        ? `/clients/${Math.round(page.total / page.size)}`
+        : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    /> -->
+</section>
+</Layout>

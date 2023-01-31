@@ -19,13 +19,12 @@ console.log(post);
 
 const image = await findImage(post.image);
 // What sort of URL
-// var url = "";
-// if (post.publication_url != null) {
-//   url = post.publication_url;
-// } else {
-//   url = post.slug;
-// }
-const link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
+var link = "";
+if (post.publication_url != null) {
+  link = post.publication_url;
+} else {
+   link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
+}
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${image ? 'md:grid-cols-2' : ''}`}>

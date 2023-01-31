@@ -37,3 +37,11 @@ export interface MetaSEO {
   ogTitle?: string;
   ogType?: string;
 }
+
+export interface Client {
+
+company_url: string;
+name: string;
+image: string;
+body: string;
+}

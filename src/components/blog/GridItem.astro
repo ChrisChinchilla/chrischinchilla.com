@@ -12,12 +12,14 @@ export interface Props {
 }
 
 const { post } = Astro.props;
+console.log(post);
+
 // What sort of URL
-var url = "";
+var link = "";
 if (post.publication_url != null) {
-  url = post.publication_url;
+  link = post.publication_url;
 } else {
-  url = post.url;
+   link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
 }
 
 const image = await findImage(post.image);
@@ -46,7 +48,7 @@ const image = await findImage(post.image);
         post.title
       ) : (
         <a
-        href={getPermalink(post.slug, 'post')}
+        href={link}
           class="hover:text-primary-800 dark:hover:text-primary-700  transition ease-in duration-200"
         >
           {post.title}
