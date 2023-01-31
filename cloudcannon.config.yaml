@@ -1,0 +1,5 @@
+collections_config:
+  events:
+    schemas:
+      default:
+        path: schemas/event.md
