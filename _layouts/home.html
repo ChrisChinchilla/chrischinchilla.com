@@ -14,18 +14,6 @@ layout: default
       {% if page.image %}
       {% picture home {{ page.image }} alt="{{ page.title }}" %}
       {% endif %}
-      <div class="connect">
-        <div class="icon_bar">
-          {% for post in site.connect %}
-          {% if post.image %}
-          <a href="{{ post.network_link }}">{% picture icon {{ post.image }} alt="{{ post.title }}" %}</a>
-          {% else %}
-          {{ post.network_link }}
-          {% endif %}
-          {% endfor %}
-        </div>
-
-      </div>
     </aside>
   </div>
   <div class="row">
@@ -36,21 +24,8 @@ layout: default
         and general geekery.</p>
     </main>
     <aside class="top-column">
-      <div id="revue-embed">
-        <form action="https://www.getrevue.co/profile/chrischinchilla/add_subscriber" method="post" id="revue-form"
-          name="revue-form" target="_blank">
-          <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]"
-            id="member_email">
-          <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
-        </form>
-      </div>
+      <iframe src="https://chinchillasqueaks.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
     </aside>
-  </div>
-
-  {% assign latest_posts = site.posts %}
-  {% include post_list.html filtered_posts=latest_posts post_limit=15 %}
-
-
 </div>
 
 </div>
