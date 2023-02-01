@@ -6,7 +6,6 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 <div id="beta">
-  <i>This is a new site and in beta, but enjoy 😁.</i>
   </div>
     {%- if titles_size > 0 -%}
     <nav class="site-nav">
@@ -18,24 +17,6 @@
           </svg>
         </span>
       </label>
-
-      <div class="trigger" id="primary_nav_wrap">
-        <ul>
-            {% for item in site.toc %}
-        <li><a class="page-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
-{% if item.subitems %}
-          <ul>
-            {% for entry in item.subitems %}
-            <li><a class="page-link" href="{{ entry.url  | relative_url }}">{{ entry.title | escape }}</a></li>
-            {% endfor %}
-          </ul>
-
-          {% endif %}
-        </li>
-
-        {% endfor %}
-        </ul>
-      </div>
 
     </nav>
     {%- endif -%}
