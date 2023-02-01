@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Bringing Touch Bar Support to the Atom Text Editor"
 publishDate: 2017-08-30 17:01:11 UTC
 author: "Chris Ward"

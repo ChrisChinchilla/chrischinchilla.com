@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - Ship Apps faster with Netlify"
 
 publishDate: 2021-08-26 04:31:25 UTC

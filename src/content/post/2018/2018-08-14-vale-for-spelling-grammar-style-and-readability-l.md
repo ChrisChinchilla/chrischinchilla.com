@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Vale for Spelling, Grammar, Style and Readability Linting"
 publishDate: 2018-08-14 09:01:01 UTC
 author: "Chris Ward"

@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Docker Secrets Management"
 publishDate: 2017-03-14 15:15:03 UTC
 author: "Chris Ward"

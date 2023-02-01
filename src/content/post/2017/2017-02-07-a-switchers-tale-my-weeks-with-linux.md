@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: A switchers tale - My week(s) with Linux
 publishDate: 2017-02-19 19:45:01 +0100
 image: ~/assets/images/articles/elementaryos-screenshot.png

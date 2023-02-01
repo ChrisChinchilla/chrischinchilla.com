@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Crit Test Dummies Special - The Phantasmal Owlbear&#39;s Den"
 publishDate: 2020-04-23 09:33:14 UTC
 author: ""

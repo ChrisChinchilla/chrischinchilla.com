@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Why Zalando built their Internal Developer Platform‍
 publishDate: 2020-10-12
 author: "Chris Ward"

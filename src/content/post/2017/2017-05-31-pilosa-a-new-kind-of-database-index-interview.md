@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Pilosa: A New Kind of Database Index [Interview]"
 publishDate: 2017-05-31 05:02:08 UTC
 author: "Chris Ward"

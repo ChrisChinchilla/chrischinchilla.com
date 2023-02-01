@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: The open source tracing landscape
 publishDate: 2021-10-28
 author: "Chris Ward"

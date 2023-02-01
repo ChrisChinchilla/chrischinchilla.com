@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Video - Outputting Data to the User Interface
 publishDate: 2016-02-12T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/outputting-data-to-your-android-app-s-user-interface'

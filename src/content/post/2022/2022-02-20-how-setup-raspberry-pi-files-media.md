@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/Post.astro"
+
 title: How I set up a RaspberryPi to share my files and media
 publishDate: 2022-02-20
 categories:

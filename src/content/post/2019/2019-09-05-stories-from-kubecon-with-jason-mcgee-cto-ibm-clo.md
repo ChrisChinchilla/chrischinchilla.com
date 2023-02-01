@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Stories From KubeCon With Jason McGee, CTO, IBM Cloud Platform"
 publishDate: 2019-09-05
 author: "Chris Ward"

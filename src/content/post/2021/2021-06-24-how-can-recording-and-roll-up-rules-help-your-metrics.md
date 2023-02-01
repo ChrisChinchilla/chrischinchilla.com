@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: How can recording and roll-up rules help your metrics?
 publishDate: 2021-06-24
 author: "Chris Ward"

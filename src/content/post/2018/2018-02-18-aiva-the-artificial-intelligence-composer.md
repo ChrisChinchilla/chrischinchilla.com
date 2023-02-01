@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "AIVA- The Artificial Intelligence Composer"
 publishDate: 2018-02-18 17:01:01 UTC
 author: "Chris Ward"

@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Why write documentation"
 publishDate: 2019-11-14 13:59:27 UTC
 author: "Chris Ward"

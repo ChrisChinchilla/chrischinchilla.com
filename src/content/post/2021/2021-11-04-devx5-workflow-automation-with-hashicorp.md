@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - Workflow automation with HashiCorp"
 
 publishDate: 2021-11-04 04:37:51 UTC

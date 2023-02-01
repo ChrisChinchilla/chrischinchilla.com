@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Hands on with the Lenovo Yoga Book
 publishDate: 2016-10-25 09:36:36 +0200
 image: ~/assets/images/articles/yoga_book.jpg

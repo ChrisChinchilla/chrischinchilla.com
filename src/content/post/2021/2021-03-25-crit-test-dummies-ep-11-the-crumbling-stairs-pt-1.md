@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Crit Test Dummies Ep 11 - The Crumbling Stairs Pt 1"
 publishDate: 2021-03-25 10:14:03 UTC
 author: ""

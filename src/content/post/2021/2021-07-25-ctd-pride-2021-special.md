@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "CTD - Pride 2021 Special"
 
 publishDate: 2021-07-25 01:34:04 UTC

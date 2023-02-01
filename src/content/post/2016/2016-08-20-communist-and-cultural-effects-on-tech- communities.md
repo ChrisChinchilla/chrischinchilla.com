@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Communist and cultural effects on tech communities
 publishDate: 2016-08-20T00:00:00.000Z
 publication_url: https://thenextweb.com/entrepreneur/2016/08/19/how-communism-still-affects-some-tech-spaces

@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Continuous Delivery With the Humanitec Postman Collection
 publishDate: 2021-11-08
 author: "Chris Ward"

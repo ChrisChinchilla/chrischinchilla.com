@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Interview With Manish Gupta of Redis Labs
 publishDate: '2017-05-27 11:13:30 +0100'
 image: ~/assets/images/articles/redis.png

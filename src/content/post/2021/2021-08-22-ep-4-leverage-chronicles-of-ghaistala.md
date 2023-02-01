@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Ep 4 - Leverage, Chronicles of Ghaistala"
 
 publishDate: 2021-08-22 21:04:08 UTC

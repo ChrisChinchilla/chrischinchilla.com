@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "5G and Alibaba Cloud With Tony Cheng"
 publishDate: 2018-11-27 11:02:03 UTC
 author: "Chris Ward"

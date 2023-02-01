@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: The Benefits and Best Practices of Continuous Delivery
 publishDate: 2020-06-16
 author: "Chris Ward"

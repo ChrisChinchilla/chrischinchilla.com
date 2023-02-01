@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Tournament of Tokens - One-shot special"
 publishDate: 2020-11-02 08:16:56 UTC
 author: ""

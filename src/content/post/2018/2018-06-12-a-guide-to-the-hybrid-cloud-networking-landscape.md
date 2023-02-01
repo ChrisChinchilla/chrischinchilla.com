@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: A guide to the hybrid cloud networking landscape
 publishDate: 2018-06-12T13:03:06.277Z
 image: ~/assets/images/articles/hybrid-cloud.png

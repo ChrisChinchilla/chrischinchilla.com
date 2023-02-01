@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "CTD - White Dragon Mountain Pt 2 (Ep 15)"
 
 publishDate: 2021-06-28 19:24:30 UTC

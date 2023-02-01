@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Lucas Carlson of Automic - Taking DevOps Beyond Developers [Audio]"
 publishDate: 2017-07-18 14:01:01 UTC
 author: "Chris Ward"

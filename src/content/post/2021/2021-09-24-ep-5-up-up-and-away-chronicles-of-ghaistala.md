@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Ep 5 - Up, Up, and Away!, Chronicles of Ghaistala"
 
 publishDate: 2021-09-24 19:08:27 UTC

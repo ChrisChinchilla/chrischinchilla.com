@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: 'Accessibility Regulations You Need to Follow: Section 508'
 publishDate: 2019-08-01T12:52:51.859Z
 image: ~/assets/images/articles/tb_870x22043dccabe89e4489095165891b587bb6b.png

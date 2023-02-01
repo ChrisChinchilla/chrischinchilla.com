@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Tools and Practices for Documenting Microservices"
 publishDate: 2017-08-23 15:15:01 UTC
 author: "Chris Ward"

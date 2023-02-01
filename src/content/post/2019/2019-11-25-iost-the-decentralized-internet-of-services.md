@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "IOST — The Decentralized Internet of Services"
 publishDate: 2019-11-25
 author: "Chris Ward"

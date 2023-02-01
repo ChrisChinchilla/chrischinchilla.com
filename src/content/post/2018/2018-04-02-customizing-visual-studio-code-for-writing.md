@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Customizing Visual Studio Code for Writing"
 publishDate: 2018-04-02 05:01:02 UTC
 author: "Chris Ward"

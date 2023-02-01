@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Instrumenting a JavaScript Application for OpenTelemetry, Part 1- Setup"
 publishDate: 2022-05-31
 author: "Chris Ward"

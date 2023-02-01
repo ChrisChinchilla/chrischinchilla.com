@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "HashiCorp Tools Useful for Continuous Integration"
 publishDate: 2017-06-20 15:15:11 UTC
 author: "Chris Ward"

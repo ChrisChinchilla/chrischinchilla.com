@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: 'About Ship at Docker'
 publishDate: '2017-05-04 10:13:30 +0100'
 image: ~/assets/images/articles/pYgBswUk.jpg

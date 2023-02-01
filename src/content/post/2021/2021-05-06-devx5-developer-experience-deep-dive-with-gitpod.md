@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - Developer Experience Deep Dive with Gitpod"
 
 publishDate: 2021-05-06 05:25:38 UTC

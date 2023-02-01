@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Ep 2 - Deals in the Dark, Chronicles of Ghaistala"
 
 publishDate: 2021-08-13 21:04:27 UTC

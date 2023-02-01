@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Reading on Kauri"
 publishDate: 2019-03-28 13:24:47 UTC
 author: "Chris Ward"

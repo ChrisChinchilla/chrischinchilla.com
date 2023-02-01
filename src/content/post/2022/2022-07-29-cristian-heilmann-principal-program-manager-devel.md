@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Cristian Heilmann - Principal Program Manager Developer Tools at Microsoft"
 publishDate: 2022-07-29 09:26:58 UTC
 author: ""

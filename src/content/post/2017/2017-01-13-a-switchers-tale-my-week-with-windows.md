@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: A switchers tale - My week with Windows
 publishDate: 2017-01-13 19:45:01 +0100
 image: ~/assets/images/articles/windows-running.jpg

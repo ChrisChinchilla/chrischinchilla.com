@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - Developer Experience deep dive with BannerBear"
 
 publishDate: 2021-04-22 04:22:57 UTC

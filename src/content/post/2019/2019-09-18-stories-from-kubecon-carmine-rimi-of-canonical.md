@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Stories from KubeCon - Carmine Rimi of Canonical"
 publishDate: 2019-09-18
 author: "Chris Ward"

@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Supers and Sorcery One Shot Special by Crit Test Dummies"
 
 publishDate: 2021-04-10 16:00:18 UTC

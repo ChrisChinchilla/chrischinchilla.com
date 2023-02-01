@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Preaching the API Gospel- An Interview With the API Evangelist, Kin Lane of..."
 publishDate: 2020-03-09
 author: "Chris Ward"

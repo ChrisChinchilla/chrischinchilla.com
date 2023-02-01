@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - Developer Experience deep dive with Twilio"
 publishDate: 2021-03-25 05:38:21 UTC
 author: ""

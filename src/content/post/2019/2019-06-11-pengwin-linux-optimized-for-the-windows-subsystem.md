@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Pengwin- Linux Optimized for the Windows Subsystem"
 publishDate: 2019-06-11
 author: "Chris Ward"

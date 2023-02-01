@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "GitHub Universe 2018 - Enterprise, Enterprise, Enterprise"
 publishDate: 2018-10-19 12:01:01 UTC
 author: "Chris Ward"

@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Enterprising Israel
 publishDate: '2017-04-04 11:13:30 +0100'
 image: ~/assets/images/articles/Tel-Aviv-startup-hub.jpg

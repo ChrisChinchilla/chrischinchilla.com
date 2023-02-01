@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "CTD - Three Faces of Night Pt 1 (Ep 14)"
 publishDate: 2021-04-09 09:00:15 UTC
 author: ""

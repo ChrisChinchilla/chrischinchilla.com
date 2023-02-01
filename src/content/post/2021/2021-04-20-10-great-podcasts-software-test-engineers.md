@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: 10 great podcasts for software test engineers
 publishDate: 2021-04-20
 image: ~/assets/images/articles/software-test-engineers-podcast-chris-ward.jpg

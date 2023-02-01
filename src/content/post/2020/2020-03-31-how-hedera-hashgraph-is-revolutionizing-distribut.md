@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "How Hedera Hashgraph Is Revolutionizing Distributed Ledgers"
 publishDate: 2020-03-31
 author: "Chris Ward"

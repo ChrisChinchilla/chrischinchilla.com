@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Embracing the Chaos of Chaos Engineering"
 publishDate: 2018-02-22 16:15:44 UTC
 author: "Chris Ward"

@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Best Tools for Debugging Distributed Applications"
 publishDate: 2018-10-18 09:01:01 UTC
 author: "Chris Ward"

@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Data Science in a Box With Dataiku"
 publishDate: 2017-09-06 05:02:21 UTC
 author: "Chris Ward"

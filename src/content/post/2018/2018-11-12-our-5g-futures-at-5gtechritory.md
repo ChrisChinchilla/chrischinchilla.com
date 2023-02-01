@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Our 5G Futures at 5GTechritory"
 publishDate: 2018-11-12 05:01:01 UTC
 author: "Chris Ward"

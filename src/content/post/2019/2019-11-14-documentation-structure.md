@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Documentation structure"
 publishDate: 2019-11-14 14:13:05 UTC
 author: "Chris Ward"

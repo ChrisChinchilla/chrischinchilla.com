@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Bosque- Microsoft’s New Programming Language"
 publishDate: 2019-07-18
 author: "Chris Ward"

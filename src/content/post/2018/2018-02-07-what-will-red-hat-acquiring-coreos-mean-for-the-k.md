@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "What Will Red Hat Acquiring CoreOS Mean for the Kubernetes Ecosystem?"
 publishDate: 2018-02-07 17:01:02 UTC
 author: "Chris Ward"

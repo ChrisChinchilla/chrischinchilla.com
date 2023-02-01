@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Sandbox Environments for Testing
 publishDate: 2020-08-06
 author: "Chris Ward"

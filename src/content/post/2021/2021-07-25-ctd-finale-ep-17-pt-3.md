@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "CTD - Finale Ep 17 (Pt 3)"
 
 publishDate: 2021-07-25 01:27:18 UTC

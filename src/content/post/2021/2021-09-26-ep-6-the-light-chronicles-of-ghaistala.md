@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Ep 6 - The Light, Chronicles of Ghaistala"
 
 publishDate: 2021-09-26 19:38:06 UTC

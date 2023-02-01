@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Blockwatch- Demystifying the ICO"
 publishDate: 2017-09-08 17:01:01 UTC
 author: "Chris Ward"

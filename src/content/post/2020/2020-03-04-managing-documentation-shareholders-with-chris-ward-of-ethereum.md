@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Knowledgebase Ninjas - Managing Shareholders with Chris Ward of Ethereum"
 publishDate: 2020-03-04 00:00:00 UTC
 author: ""

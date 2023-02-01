@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Berlin-the blockchain capital of the world?
 publishDate: '2017-03-19 18:13:30 +0100'
 image: ~/assets/images/articles/berlin.jpg

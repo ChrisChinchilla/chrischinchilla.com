@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Grafana- The Open Observability Platform"
 publishDate: 2020-05-05
 author: "Chris Ward"

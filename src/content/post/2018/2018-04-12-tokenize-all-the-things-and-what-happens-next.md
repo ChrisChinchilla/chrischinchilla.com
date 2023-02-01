@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Tokenize All the Things and What Happens Next?"
 publishDate: 2018-04-12 05:03:27 UTC
 author: "Chris Ward"

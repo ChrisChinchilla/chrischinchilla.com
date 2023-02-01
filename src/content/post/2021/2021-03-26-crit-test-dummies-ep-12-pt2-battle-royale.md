@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Crit Test Dummies Ep 12 (Pt2) - Battle Royale"
 publishDate: 2021-03-26 05:00:02 UTC
 author: ""

@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Distributing Operational Knowledge Across a Team"
 publishDate: 2017-12-28 16:15:58 UTC
 author: "Chris Ward"

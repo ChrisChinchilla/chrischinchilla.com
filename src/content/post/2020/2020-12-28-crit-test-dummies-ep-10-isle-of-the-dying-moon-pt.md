@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Crit Test Dummies Ep. 10 - Isle of the Dying Moon Pt. 1"
 publishDate: 2020-12-28 23:51:42 UTC
 author: ""

@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "CTD - Shadow of Ebondeath Pt 2 (Ep 13)"
 publishDate: 2021-04-08 21:05:21 UTC
 author: ""

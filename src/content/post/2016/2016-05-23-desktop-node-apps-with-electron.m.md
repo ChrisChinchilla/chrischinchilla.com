@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Create Cross-Platform Desktop Apps with Electron
 publishDate: 2016-05-23T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/desktop-node-apps-with-electron/'

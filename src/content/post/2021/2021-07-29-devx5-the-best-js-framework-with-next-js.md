@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - The best JS framework with Next.js"
 
 publishDate: 2021-07-29 04:46:27 UTC

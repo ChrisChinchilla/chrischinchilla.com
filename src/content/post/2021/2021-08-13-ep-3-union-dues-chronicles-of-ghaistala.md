@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Ep 3 - Union Dues, Chronicles of Ghaistala"
 
 publishDate: 2021-08-13 21:29:23 UTC

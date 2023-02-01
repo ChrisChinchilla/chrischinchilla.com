@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Revolutionizing Health Data With Arkhn"
 publishDate: 2019-05-20
 author: "Chris Ward"

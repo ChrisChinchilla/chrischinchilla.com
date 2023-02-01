@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Lint, Lint and Away! Linters for the English Language"
 publishDate: 2018-02-16 13:01:01 UTC
 author: "Chris Ward"

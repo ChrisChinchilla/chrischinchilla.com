@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "April 25th 2019 Newsletter"
 publishDate: 2019-04-26 01:02:15 UTC
 author: "Chris Ward"

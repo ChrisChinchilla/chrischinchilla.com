@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: The Highlights of Mobile World Congress 2017
 publishDate: '2017-03-04 18:13:30 +0100'
 image: ~/assets/images/articles/mwc-2017.jpg

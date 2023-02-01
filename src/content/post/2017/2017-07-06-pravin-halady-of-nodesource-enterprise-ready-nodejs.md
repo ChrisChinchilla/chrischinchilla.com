@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Pravin Halady of NodeSource - Enterprise Ready Node.js
 publishDate: 2017-07-06T00:00:00.000Z
 image: ~/assets/images/articles/download.png

@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Chronicles of Ghaistala Intro Video"
 
 publishDate: 2021-08-13 12:52:06 UTC

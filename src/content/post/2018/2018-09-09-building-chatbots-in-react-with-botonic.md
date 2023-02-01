@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Building Chatbots in React With Botonic"
 publishDate: 2018-09-09 05:02:02 UTC
 author: "Chris Ward"

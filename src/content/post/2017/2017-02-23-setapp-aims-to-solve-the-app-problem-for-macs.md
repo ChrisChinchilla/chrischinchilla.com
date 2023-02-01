@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: Setapp aims to solve the App problem for Macs
 publishDate: 2017-02-23 18:13:30 +0100
 image: ~/assets/images/articles/setapp_get_started.png

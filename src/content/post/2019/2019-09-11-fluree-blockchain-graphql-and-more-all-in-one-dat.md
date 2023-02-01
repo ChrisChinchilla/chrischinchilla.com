@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Fluree - Blockchain, GraphQL, and more all in one database"
 publishDate: 2019-09-11 16:17:48 UTC
 author: "Chris Ward"

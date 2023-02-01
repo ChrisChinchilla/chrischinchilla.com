@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - Rapidly Build Websites with Tailwind CSS"
 
 publishDate: 2021-06-17 04:41:06 UTC

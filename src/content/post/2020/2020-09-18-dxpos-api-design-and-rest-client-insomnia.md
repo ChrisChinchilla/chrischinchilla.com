@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "DXposé - API design and REST client Insomnia"
 publishDate: 2020-09-18 02:54:45 UTC
 author: ""

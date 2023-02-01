@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - Fast Application development with StepZen"
 
 publishDate: 2021-07-01 04:35:32 UTC

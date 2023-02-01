@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Language and understandable writing"
 publishDate: 2019-11-18 15:51:39 UTC
 author: "Chris Ward"

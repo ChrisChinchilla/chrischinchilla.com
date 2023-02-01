@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "GitHub Universe 2017 - Collaboration and Communication"
 publishDate: 2017-10-16 05:01:01 UTC
 author: "Chris Ward"

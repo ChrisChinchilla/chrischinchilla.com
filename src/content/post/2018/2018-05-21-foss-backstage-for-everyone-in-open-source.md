@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "FOSS Backstage – For Everyone in Open Source"
 publishDate: 2018-05-21 12:01:36 UTC
 author: "Chris Ward"

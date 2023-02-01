@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - Empowering developers with Rust"
 
 publishDate: 2021-09-09 04:30:54 UTC

@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: 'The Past, Present and Future of Swift'
 publishDate: 2016-03-25T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/the-past-present-and-future-of-swift/'

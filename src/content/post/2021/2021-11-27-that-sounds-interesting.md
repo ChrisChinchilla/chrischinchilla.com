@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "That sounds interesting podcast"
 
 publishDate: 2021-11-27 00:00:00 UTC

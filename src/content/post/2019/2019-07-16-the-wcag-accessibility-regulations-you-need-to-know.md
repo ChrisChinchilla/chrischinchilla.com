@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: 'The WCAG: Accessibility Regulations You Need to Know'
 publishDate: 2019-07-16T12:45:45.272Z
 image: ~/assets/images/articles/tb_870x22043dccabe89e4489095165891b587bb6b.png

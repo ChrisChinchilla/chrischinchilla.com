@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Devx5 - Code-based music collaboration with Sonic Pi"
 
 publishDate: 2021-07-15 04:46:33 UTC

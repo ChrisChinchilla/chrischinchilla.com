@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "Crit Test Dummies Ep. 9 - Mined Your Head Pt 1"
 publishDate: 2020-11-21 23:23:28 UTC
 author: ""

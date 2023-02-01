@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Open Source Monitoring and Metrics Landscape"
 publishDate: 2022-06-26
 author: "Chris Ward"

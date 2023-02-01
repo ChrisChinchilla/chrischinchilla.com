@@ -1,6 +1,6 @@
 ---
 
-layout: "../../../layouts/Post.astro"
+
 title: "WTD Episode 11 - Combining Forces for Documentation Sources -- Exploring the Mozilla Developer Network's Web Docs project"
 publishDate: 2017-11-27 00:00:00 UTC
 author: ""

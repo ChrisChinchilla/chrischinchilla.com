@@ -1,7 +1,7 @@
 ---
 
 
-layout: "../../../layouts/Post.astro"
+
 title: "Troubleshoot delays with our Code Review Analytics tool"
 publishDate: 2020-03-18
 author: "Chris Ward"
