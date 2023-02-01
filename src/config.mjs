@@ -29,7 +29,7 @@ const CONFIG = {
 
   blog: {
     disabled: false,
-    postsPerPage: 4,
+    postsPerPage: 25,
 
     list: {
       pathname: 'blog', // blog main path, you can change this to "articles" (/articles)
