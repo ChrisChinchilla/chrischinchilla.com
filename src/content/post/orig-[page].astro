@@ -8,7 +8,6 @@ import Post from "../../components/Post.astro";
 // const permalink = `${Astro.site.href}blog`;
 export async function getStaticPaths({ paginate }) {
   let allPosts = await Astro.glob("./**/*.md");
-  console.log(allPosts);
 
   // TODO: Must be a better way, this is odd?
   allPosts = allPosts.sort().reverse();
