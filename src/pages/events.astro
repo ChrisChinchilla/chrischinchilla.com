@@ -9,7 +9,6 @@ let allEvents = await getCollection('event');
 allEvents = allEvents.sort(
     (a, b) => new Date(b.data.start_date).valueOf() - new Date(a.data.start_date).valueOf()
   );
-console.log(allEvents);
 
 export async function getStaticPaths({ paginate }) {
 //   let allClients = await Astro.glob("./**/*.md");
@@ -21,7 +20,7 @@ export async function getStaticPaths({ paginate }) {
 //     pageSize: 50,
 //   });
 }
-const { page } = Astro.props;
+// const { page } = Astro.props;
 const meta = {
   title: "Events",
   description: "Events",
@@ -46,9 +45,10 @@ const meta = {
         <li class="mb-12 md:mb-20">
 
           <Event
+          event={event}
               title={event.data.title}
               // TODO: FUNCTION!!!!
-              body={event.body}
+              // body={event.body}
               pres_url={event.data.pres_url}
               start_date={event.data.start_date}
             />

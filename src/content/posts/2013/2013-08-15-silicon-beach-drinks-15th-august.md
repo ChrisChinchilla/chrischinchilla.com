@@ -1,7 +1,7 @@
 ---
-
 title: 'Silicon Beach drinks, 15th August'
-publishDate: 2103-08-15T00:00:00.000Z
+publishDate: 2013-08-15T00:57:56.000Z
+image: ~/assets/images/articles/drupalmel.png
 categories:
  - writing
  - chrischinchilla

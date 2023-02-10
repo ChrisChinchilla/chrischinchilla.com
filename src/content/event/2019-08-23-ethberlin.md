@@ -1,6 +1,5 @@
 ---
 action: Creating the knowledge base for
-title:
 event: ETHBerlin
 layout: "../../layouts/Event.astro"
 venue: Factory Berlin Goerlitzer Park

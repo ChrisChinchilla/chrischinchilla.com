@@ -7,7 +7,7 @@ title: Beyond Software - Learning from Other Technical Writers
 event: Write The Docs EU
 start_date: 2016-09-19T10:00:00.000Z
 venue: 'Prague, Czech Republic'
-pres_source: null
+
 pres_url: 'https://www.writethedocs.org/conf/eu/2016/speakers/#speaker-chris-ward'
 ---
 

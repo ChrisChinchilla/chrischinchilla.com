@@ -1,13 +1,15 @@
 ---
+import { CollectionEntry } from 'astro:content';
 
 export interface Props {
+  event: CollectionEntry<"event">;
   title: string;
-  body: string;
   pres_url: string;
   start_date: Date;
 }
 
-const { title, body, pres_url, start_date } = Astro.props;
+const { event, title, pres_url, start_date } = Astro.props;
+const { Content } = await event.render();
 
 // Truncate text
 // TODO: Better way?
@@ -37,9 +39,7 @@ const { title, body, pres_url, start_date } = Astro.props;
         }
       </h2>
       </header>
-      <p>
-        {body}
-      </p>
+      <Content />
     </div>
 
 </article>

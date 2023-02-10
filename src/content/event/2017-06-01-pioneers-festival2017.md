@@ -7,7 +7,6 @@ title: Tell me what you're working on
 event: Pioneers Festival 2017
 start_date: 2017-06-01T10:00:00.000Z
 venue: Hofburg Imperial Palace, Vienna, Austria
-pres_source:
 pres_url: https://pioneers.io/festival2017/
 ---
 

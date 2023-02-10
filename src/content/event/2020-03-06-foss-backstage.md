@@ -5,7 +5,6 @@ title: your ideas and projects
 event: FOSS Backstage
 venue: ExRotaprint, Berlin
 pres_url: https://20.foss-backstage.de/
-pres_source:
 start_date: 2020-03-06T12:20:00.000Z
 end_date: 2020-03-07T12:20:00.000Z
 ---

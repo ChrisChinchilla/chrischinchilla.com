@@ -8,7 +8,6 @@ start_date: 2018-11-01T12:20:00.000Z
 end_date: 2018-11-02T12:20:00.000Z
 venue: Intercontinental, Malta
 pres_url: https://maltablockchainsummit.com
-pres_source:
 ---
 
 Chris visits "crypto island" to discover more about Blockchain on this small European nation.

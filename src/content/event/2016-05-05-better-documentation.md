@@ -6,8 +6,8 @@ layout: "../../layouts/Event.astro"
 title: "Don't complain about bad documentation, learn to write it better!"
 event: OpenTech Summit
 start_date: 2016-05-05T15:00:00.000Z
-venue: null
-pres_source: null
+
+
 pres_url: 'https://opentechsummit.net/programm/#OT2-10'
 ---
 

@@ -6,7 +6,7 @@ title: The Future of Cardboard
 event: Ignite Berlin
 start_date: 2016-09-12T19:00:00.000Z
 venue: 'RADIALSYSTEM V, Holzmarktstraße 33, 10243 Berlin'
-pres_source: null
+
 pres_url: 'https://igniteberlin.com/'
 ---
 

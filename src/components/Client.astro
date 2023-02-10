@@ -1,17 +1,19 @@
 ---
 import { Picture } from "@astrojs/image/components";
 import { findImage } from '~/utils/images';
+import { CollectionEntry } from 'astro:content';
 
 export interface Props {
+  client: CollectionEntry<"client">;
   company_url: string;
   name: string;
   image: string;
-  body: string;
 }
 
-const { company_url, name, image, body } = Astro.props;
+const { client, company_url, name, image } = Astro.props;
+const { Content } = await client.render();
 const featured_image = await findImage(image);
-
+console.log(featured_image);
 // Truncate text
 // TODO: Better way?
 // TODO: Make to helper or plugin
@@ -45,9 +47,7 @@ const featured_image = await findImage(image);
         }
       </h2>
       </header>
-      <p>
-        {body}
-      </p>
+      <Content />
     </div>
 
 </article>

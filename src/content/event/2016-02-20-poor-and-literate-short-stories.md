@@ -7,7 +7,7 @@ title: Poor and Literate Short Stories
 event: Poor and Literate Short Stories
 start_date: 2016-02-20T19:00:00.000Z
 venue: 'Poor & Literate, Kopenhagener Straße 77, 10437 Berlin'
-pres_source: null
+
 pres_url: 'https://www.facebook.com/events/498210087018059/'
 ---
 

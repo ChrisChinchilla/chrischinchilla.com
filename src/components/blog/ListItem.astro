@@ -2,28 +2,35 @@
 import Icon from 'astro-icon';
 import { Picture } from '@astrojs/image/components';
 // import PostTags from '~/components/common/Tags.astro';
+import { CollectionEntry } from 'astro:content';
 
 import { BLOG } from '~/config.mjs';
-import type { Post } from '~/types';
+// import type { Post } from '~/types';
 
 import { getPermalink } from '~/utils/permalinks';
 import { findImage } from '~/utils/images';
 import { getFormattedDate } from '~/utils/utils';
 
 export interface Props {
-  post: Post;
+  post: CollectionEntry<"post">;
+  publication_url: string;
+  title: string;
+  image: string;
+  publishDate: Date;
 }
 
-const { post } = Astro.props;
-console.log(post);
+const { post, publication_url, title, image, publishDate } = Astro.props;
+const { Content } = await post.render();
 
-const image = await findImage(post.image);
+// const { Content } = await post.Content;
+
+const featured_image = await findImage(image);
 // What sort of URL
 var link = "";
-if (post.publication_url != null) {
-  link = post.publication_url;
+if (publication_url != null) {
+  link = publication_url;
 } else {
-   link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
+   link = !BLOG?.post?.disabled ? getPermalink(publication_url, 'post') : '';
 }
 ---
 
@@ -34,11 +41,11 @@ if (post.publication_url != null) {
         <div class="relative h-0 pb-[56.25%] md:pb-[75%] md:h-72 lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
           {image && (
             <Picture
-              src={image}
+              src={featured_image}
               class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
               widths={[400, 900]}
               sizes="(max-width: 900px) 400px, 900px"
-              alt={post.title}
+              alt={title}
               aspectRatio="16:9"
             />
           )}
@@ -51,23 +58,23 @@ if (post.publication_url != null) {
       <div class="mb-1">
         <span class="text-sm">
           <Icon name="tabler:clock" class="w-3.5 h-3.5 inline-block -mt-0.5 text-gray-500 dark:text-gray-400" />
-          <time datetime={String(post.publishDate)}>{getFormattedDate(post.publishDate)}</time> ~
-          {Math.ceil(post.readingTime)} min read
+          <time datetime={String(publishDate)}>{getFormattedDate(publishDate)}</time>
         </span>
       </div>
       <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
         {
           link ? (
             <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={link}>
-              {post.title}
+              {title}
             </a>
           ) : (
-            post.title
+            title
           )
         }
       </h2>
     </header>
 
+    <Content />
     <!-- {post.excerpt && <p class="flex-grow text-gray-500 dark:text-slate-400 text-lg">{post.excerpt}</p>} -->
     <!-- <footer class="mt-5">
       <PostTags tags={post.tags} />

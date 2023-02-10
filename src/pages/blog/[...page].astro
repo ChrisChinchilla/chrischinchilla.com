@@ -2,28 +2,33 @@
 import Layout from "~/layouts/PageLayout.astro";
 import { Pagination } from "accessible-astro-components";
 import Headline from '~/components/blog/Headline.astro';
+import { BLOG } from '~/config.mjs';
 
-import Client from "../components/Client.astro";
+import Post from "~/components/Post.astro";
 import { getCollection } from 'astro:content';
-const allClients = await getCollection('client');
-// console.log(allClients);
 export async function getStaticPaths({ paginate }) {
+    let allPosts = await getCollection('posts');
+
+console.log(allPosts);
+allPosts = allPosts.sort(
+    (a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf()
+  );
 //   let allClients = await Astro.glob("./**/*.md");
   // TODO: Must be a better way, this is odd?
 // TODO: Also currently not necessary as pages are sorted by date anyway due to file name
   // allPosts = allPosts.sort((b,a) => Date.parse(a.frontmatter.date) - Date.parse(b.frontmatter.date));
 //   console.log(allClients);
-//   return paginate(allClients, {
-//     pageSize: 50,
-//   });
+  return paginate(allPosts, {
+    pageSize: BLOG.postsPerPage,
+  });
 }
 
-// const { post } = Astro.props;
-// console.log(post);
+const { page } = Astro.props;
+console.log(page);
 
 const meta = {
-  title: "Clients",
-  description: "Clients",
+  title: "Blog",
+  description: "Blog",
   // canonical: post.canonical || url,
   // image: await findImage(post.image),
   // noindex: BLOG?.post?.noindex,
@@ -40,31 +45,30 @@ const meta = {
       </Headline>
     <ul>
       {
-        allClients.map((client) => (
+        page.data.map((post) => (
         <li class="mb-12 md:mb-20">
 
-          <Client
-          client={client}
-            company_url={client.data.company_url}
-              name={client.data.title}
-              // TODO: FUNCTION!!!!
-              // body={client.body}
-              image={client.data.image}
+          <Post
+          post={post}
+            publication_url={post.data.publication_url}
+              title={post.data.title}
+              date={post.data.publishDate}
+              image={post.data.image}
             />
         </li>
         ))
       }
     </ul>
     <!-- TODO: Index page -->
-    <!-- <Pagination
-      firstPage={page.url.prev ? "/clients/1" : null}
+    <Pagination
+      firstPage={page.url.prev ? "/blog" : null}
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
       lastPage={page.url.next
-        ? `/clients/${Math.round(page.total / page.size)}`
+        ? `/blog/${Math.round(page.total / page.size)}`
         : null}
       currentPage={page.currentPage}
       totalPages={Math.round(page.total / page.size)}
-    /> -->
+    />
 </section>
 </Layout>

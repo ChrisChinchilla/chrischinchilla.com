@@ -6,7 +6,7 @@ export interface Post {
   title: string;
   description?: string;
 
-  image?: string;
+  image: string;
 
   canonical?: string | URL;
   permalink?: string;
@@ -20,8 +20,8 @@ export interface Post {
   // tags?: Array<string>;
   author?: string;
 
-  Content: unknown;
-  content?: string;
+  // Content: unknown;
+  // content?: string;
   readingTime: number;
 }
 

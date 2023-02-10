@@ -6,7 +6,6 @@ title: your ideas and projects
 event: ApacheCon
 venue: Kulturbrauerei, Berlin
 pres_url: https://aceu19.apachecon.com
-pres_source:
 start_date: 2019-10-22T12:20:00.000Z
 end_date: 2019-10-24T12:20:00.000Z
 ---

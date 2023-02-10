@@ -7,6 +7,6 @@ event: Startup Night
 start_date: 2017-09-08T17:00:00.000Z
 venue: Various venues, Berlin
 image: ~/assets/images/default.png
-pres_source: null
+
 pres_url: https://www.startupnight.net/
 ---

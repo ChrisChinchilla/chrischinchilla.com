@@ -7,7 +7,7 @@ title: Chip Shop Case Study
 event: Vienna.html
 start_date: 2016-06-28T18:30:00.000Z
 venue: 'sektor5 Coworking Café+Lobby, Siebenbrunnengasse 44, Wien 5'
-pres_source: null
+
 pres_url: 'https://viennahtml.github.io/'
 ---
 

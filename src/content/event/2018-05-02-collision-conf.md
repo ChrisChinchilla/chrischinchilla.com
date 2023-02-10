@@ -6,7 +6,6 @@ title: your ideas and projects
 event: Collision Conf
 start_date: 2018-05-02T00:00:00.000Z
 venue: Ernest N. Morial Convention Center, New Orleans
-pres_source:
 pres_url: https://collisionconf.com
 ---
 

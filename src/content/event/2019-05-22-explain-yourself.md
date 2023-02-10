@@ -7,7 +7,6 @@ event: Codegarden
 start_date: 2019-05-22T12:20:00.000Z
 end_date: 2019-05-24T12:20:00.000Z
 venue: DOK5000, Havnegade 18, 5000 Odense
-pres_source:
 pres_url: https://codegarden19.com
 ---
 

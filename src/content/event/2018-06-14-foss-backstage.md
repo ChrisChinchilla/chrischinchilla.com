@@ -6,7 +6,6 @@ title: your ideas and projects
 event: FOSS Backstage
 venue: Kulturbrauerei, Berlin
 pres_url: https://www.foss-backstage.de
-pres_source:
 start_date: 2018-06-14T12:20:00.000Z
 ---
 
