@@ -24,11 +24,11 @@
   display: block;
 }
 
-[astro-icon].icon-light > * {
+[astro-iconify].icon-light > * {
   stroke-width: 1.2;
 }
 
-[astro-icon].icon-bold > * {
+[astro-iconify].icon-bold > * {
   stroke-width: 2.4;
 }
 
