@@ -13,7 +13,7 @@ const meta = {
 };
 
 const youTubeVideos = await fetch(
-  "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=200&playlistId=UUgnrx8qi4qhmN6sBebdDrmg&key=AIzaSyDLwaU3kzLMbC-9n-Jpmq6xqfD-B1-r8VI"
+  `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=200&playlistId=UUgnrx8qi4qhmN6sBebdDrmg&key=${import.meta.env.GOOGLE_API}`
 )
   .then((response) => response.json())
   .then((response) => Object.values(response.items));
