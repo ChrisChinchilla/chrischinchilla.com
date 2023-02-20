@@ -28,25 +28,19 @@ const meta = {
     callToAction2={{ text: 'Learn more', href: '#features' }}
     image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
   >
+  <!-- TODO: Parameterise -->
     <Fragment slot="title">
-      Your website with <span>Astro</span> + <span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      I am Chris Chinchilla 👋
     </Fragment>
-
+  <!-- TODO: Parameterise -->
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold underline decoration-wavy decoration-1 decoration-primary-600 underline-offset-2"
-          >AstroWind</span
-        > is a free, production-ready template to start your new website using <em>Astro</em> + <em>Tailwind CSS</em
-        >.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-primary-600">AstroWind: Free template.</span> Suitable for Startups,
-      Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.
+      I am a technical communicator with a love of explaining technical concepts in documentation, blog posts, videos, books and more. I am a podcaster, video maker, writer of interactive fiction, and games.
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
 
-  <Note />
+  <!-- <Note /> -->
 
   <!-- Features Widget *************** -->
 
@@ -193,79 +187,73 @@ const meta = {
   />
 
   <!-- Features2 Widget ************** -->
-
+<!-- TODO: refactor to match content types -->
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    highlight="Components"
+    title="More about me"
+    subtitle="Here's all I do, well mostly…"
+    highlight="Want to know more?"
     items={[
       {
-        title: 'Headers',
+        title: 'Writing',
         description:
-          'In general, Headers contain information that makes it easier for visitors to interact with the website.',
-        icon: 'flat-color-icons:template',
+          'Find my blog posts and books or hire me to write and edit something for you!',
+        icon: 'ph:pencil-circle-bold',
+        permalink: '/writing',
       },
       {
-        title: 'Heros',
+        title: 'Podcasts',
         description:
-          'If you want your website to get more than its fair share of visitors, the Hero section needs to be stellar.',
-        icon: 'flat-color-icons:gallery',
+          'Hear me on one of the many podcasts I regulary host and appear on.',
+        icon: 'fa:podcast',
+        permalink: '/podcast',
       },
       {
-        title: 'Features',
+        title: 'Videos',
         description:
-          'Display your product in action and how the Features actually create a solution for your target customer.',
-        icon: 'flat-color-icons:todo-list',
+          'Watch all my livestreams, recorded videos, and presentations.',
+        icon: 'material-symbols:video-camera-front',
+        permalink: '/videos',
       },
       {
-        title: 'Content',
+        title: 'Games',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:document',
+          'Download, buy, and play games I created or contributed to.',
+        icon: 'game-icons:dice-twenty-faces-twenty',
+        permalink: '/games',
       },
       {
-        title: 'Call-to-Action',
+        title: 'Events',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:advertising',
+          'Meetups and conferences I\'m speaking at, reporting on, or attending.',
+        icon: 'carbon:calendar-heat-map',
+        permalink: '/events',
       },
       {
-        title: 'Pricing',
+        title: 'Work',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:currency-exchange',
+          'Who I\'ve worked with, the work I\'ve done, and how I can help you.',
+        icon: 'fluent:people-audience-20-filled',
+        permalink: '/clients',
       },
       {
-        title: 'Testimonial',
+        title: 'Support',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'icon-park:page-template',
+          'Like what I do? Support me with a donation, subscription, or buy merchandise.',
+        icon: 'ri:money-euro-circle-fill',
+        permalink: '/support',
       },
     ]}
   />
 
   <!-- HighlightedPosts Widget ******* -->
-
+<!-- TODO: Generalise to all content types -->
   <HighlightedPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-			Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-			Astro is a very interesting technology. Thanks.
-		`}
+    title="Highlights"
+    information={`My finest work for your enjoyment.`}
     postIds={[
       '2022/2022-02-20-how-setup-raspberry-pi-files-media.md',
+      '2022/2022-01-20-reducing-negative-language-documentation.md',
+      '2021/2021-12-12-migrating-mac.md'
     ]}
   />
 

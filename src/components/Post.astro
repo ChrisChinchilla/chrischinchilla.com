@@ -2,6 +2,8 @@
 import { Picture } from "@astrojs/image/components";
 import { findImage } from '~/utils/images';
 import { CollectionEntry } from 'astro:content';
+import { Markdown } from '@astropub/md';
+import truncateMarkdown from 'markdown-truncate';
 
 export interface Props {
   post: CollectionEntry<"posts">;
@@ -9,19 +11,11 @@ export interface Props {
   date: string;
   publication_url?: string;
   image: string;
+  body: string;
 }
 
-const { post, href, title, date, publication_url, image } = Astro.props;
-// const { Content } = Astro.props.post
-const { Content } = await post.render();
-// console.log(post);
-// Default images
-// var src = "";
-// if (image != null) {
-//   src = image;
-// } else {
-//   src = "/images/default.png";
-// }
+const { post, title, date, publication_url, image, body } = Astro.props;
+// const { Content } = await post.render();
 const featured_image = await findImage(image);
 
 // Format date
@@ -44,6 +38,11 @@ if (publication_url != null) {
 // TODO: Better way?
 // TODO: Make to helper or plugin
 // var truncatedText = body.split("</p>");
+
+const truncatedBody = truncateMarkdown(body, {
+  limit: 500,
+  ellipsis: true
+})
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${image ? 'md:grid-cols-2' : ''}`}>
@@ -64,7 +63,7 @@ if (publication_url != null) {
       <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
         {
           url ? (
-            <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={url}>
+            <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={url} rel="canonical">
               {title}
             </a>
           ) : (
@@ -74,7 +73,8 @@ if (publication_url != null) {
       </h2>
       <i>{formattedDate}</i>
       </header>
-      <Content />
-    </div>
+      <!-- TODO: Seems kind of ridiculous -->
+      <Markdown of={truncatedBody} />
+        </div>
 
 </article>

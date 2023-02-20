@@ -20,7 +20,7 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props;
 const meta = {
   title: "Games",
-  description: "Games",
+  description: "I create and edit roleplay and board games and everything in-between.",
   // canonical: post.canonical || url,
   // image: await findImage(post.image),
   // noindex: BLOG?.post?.noindex,
@@ -43,9 +43,8 @@ const meta = {
 
           <Game
           game={game}
+          title={game.data.title}
             link="todo"
-            //   title={game.data.title}
-              // TODO: FUNCTION!!!!
               body={game.body}
               image="~/assets/images/default.png"
             />

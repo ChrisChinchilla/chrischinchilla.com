@@ -64,7 +64,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 };
 
 const load = async function (): Promise<Array<Post>> {
-  const posts = await getCollection('post');
+  const posts = await getCollection('posts');
   const normalizedPosts = posts.map(async (post) => await getNormalizedPost(post));
 
   const results = (await Promise.all(normalizedPosts))
@@ -78,6 +78,7 @@ let _posts: Array<Post>;
 
 /** */
 export const fetchPosts = async (): Promise<Array<Post>> => {
+
   if (!_posts) {
     _posts = await load();
   }

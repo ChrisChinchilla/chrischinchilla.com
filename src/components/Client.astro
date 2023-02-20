@@ -2,30 +2,27 @@
 import { Picture } from "@astrojs/image/components";
 import { findImage } from '~/utils/images';
 import { CollectionEntry } from 'astro:content';
+import { Markdown } from '@astropub/md';
 
 export interface Props {
   client: CollectionEntry<"client">;
   company_url: string;
   name: string;
   image: string;
+  body: string;
 }
 
-const { client, company_url, name, image } = Astro.props;
-const { Content } = await client.render();
+const { client, company_url, name, image, body } = Astro.props;
+// const { Content } = await client.render();
 const featured_image = await findImage(image);
-console.log(featured_image);
-// Truncate text
-// TODO: Better way?
-// TODO: Make to helper or plugin
-// var truncatedText = body.split("</p>");
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${image ? 'md:grid-cols-2' : ''}`}>
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
+  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] dark:bg-slate-700 rounded shadow-lg">
 
     <Picture
     src={featured_image}
-    class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+    class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg dark:bg-slate-700"
     widths={[400, 900]}
     sizes="(max-width: 900px) 400px, 900px"
     alt={name}
@@ -47,7 +44,7 @@ console.log(featured_image);
         }
       </h2>
       </header>
-      <Content />
+      <!-- TODO: Seems kind of ridiculous -->
+      <Markdown of={body} />
     </div>
-
 </article>

@@ -1,15 +1,18 @@
 ---
 import { CollectionEntry } from 'astro:content';
+import { Markdown } from '@astropub/md';
+// import truncateMarkdown from 'markdown-truncate';
 
 export interface Props {
   event: CollectionEntry<"event">;
   title: string;
+  body: string;
   pres_url: string;
   start_date: Date;
 }
 
-const { event, title, pres_url, start_date } = Astro.props;
-const { Content } = await event.render();
+const { event, title, body, pres_url, start_date } = Astro.props;
+// const { Content } = await event.render();
 
 // Truncate text
 // TODO: Better way?
@@ -39,7 +42,8 @@ const { Content } = await event.render();
         }
       </h2>
       </header>
-      <Content />
-    </div>
+      <!-- TODO: Seems kind of ridiculous -->
+      <Markdown of={body} />
+        </div>
 
 </article>

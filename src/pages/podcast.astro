@@ -1,13 +1,39 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from "~/layouts/PageLayout.astro";
+import Headline from '~/components/blog/Headline.astro';
 import Podcast from "../components/Podcast.astro";
+
+const meta = {
+  title: "Podcasts",
+  description: "My pre-eminent podcast, Chinchilla Squeaks, has run for nearly eight years and taken me all over the globe. I have dabbled in other shows. They will be listed here again in the near future.",
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
+
+const spotifyToken = await fetch(
+"https://accounts.spotify.com/api/token",
+  {
+    method: "POST",
+    body: new URLSearchParams({
+      grant_type: "client_credentials",
+    }),
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      Authorization:
+        `Basic ${import.meta.env.SPOTIFY_AUTH}`,
+    },
+  }
+)
+.then((response) => response.json());
 
 const chinchillaSqueaksEpisodes = await fetch(
   "https://api.spotify.com/v1/shows/4esINQS7W6emShb6fwt5Vr/episodes?market=de",
   {
     headers: {
       Authorization:
-        "Bearer BQByO1tMfGNRvWqx04aGpTZxF_U0_u2FQrEZmWRDGGwrcRaMzOWZfLzcN4yda5J4KfJn5E4VnCVmeF95_FDp-NIikQiaZn8FLBIi7tldyGP0Tcg6LZM",
+        `Bearer ${spotifyToken.access_token}`,
     },
   }
 )
@@ -15,21 +41,25 @@ const chinchillaSqueaksEpisodes = await fetch(
   .then((response) => Object.values(response.items));
 ---
 
-<Layout title="Welcome to Astro.">
-  <main>
-    <h1>Podcasts</h1>
-    <ul>
-      {
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline
+      subtitle={meta.description}
+    >
+      {meta.title}
+    </Headline>
+  <ul>
+    {
         chinchillaSqueaksEpisodes.map((podcast) => (
-          <>
+        <li class="mb-12 md:mb-20">
             <Podcast
               name={podcast.name}
-              description={podcast.description}
+              description={podcast.html_description}
               id={podcast.id}
             />
-          </>
+          </li>
         ))
       }
     </ul>
-  </main>
+  </section>
 </Layout>

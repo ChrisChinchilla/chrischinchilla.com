@@ -1,5 +1,7 @@
 ---
+// TODO: Embed seems dead, replace?
 import Spotify from "react-spotify-embed";
+import truncate from 'truncate-html';
 
 export interface Props {
   name: string;
@@ -9,18 +11,26 @@ export interface Props {
 
 const { name, description, id } = Astro.props;
 var url = `https://open.spotify.com/episode/${id}`;
+const truncatedText = truncate(description, 100, {
+  byWords: true,
+  ellipsis: '...',
+});
 ---
 
-<a href={url} class="cleanlink">
-<li class="link-card">
+<article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
+  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] dark:bg-slate-700 rounded">
   <Spotify link={url} />
-  <span class="column">
-    <h2>
+</div>
+  
+<div class="mt-2">
+
+  <div class="mt-2">
+    <header>
+    <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
       {name}
     </h2>
-    <p>
-      {description}
-    </p>
-  </span>
-</li>
-</a>
+    </header>
+    <article set:html={truncatedText}></article>
+  </div>
+</div>
+</article>

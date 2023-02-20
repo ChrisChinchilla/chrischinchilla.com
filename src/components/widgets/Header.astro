@@ -1,5 +1,5 @@
 ---
-import { Icon } from 'astro-icon';
+import { Icon } from 'astro-iconify';
 import Logo from '~/components/common/Logo.astro';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
@@ -21,10 +21,11 @@ const links = [
   {
     text: 'Work',
     links: [
-    {
-    text: 'CV',
-    href: getPermalink('/cv'),
-  },
+      // TODO: Add back
+  //   {
+  //   text: 'CV',
+  //   href: getPermalink('/cv'),
+  // },
   {
     text: 'Clients',
     href: getPermalink('/clients'),
@@ -94,7 +95,7 @@ const links = [
         <li class="md:hidden">
           <a
             class="font-bold hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-            href="https://github.com/onwidget/astrowind">Github</a
+            href="https://github.com/chrischinchilla/chrischinchilla.com">Github</a
           >
         </li>
       </ul>
@@ -108,10 +109,6 @@ const links = [
           >
             <Icon name="tabler:rss" class="w-5 h-5" />
           </a>
-          <a
-            class="btn w-full ml-3 py-2.5 px-5 font-semibold text-gray-600 shadow-none text-sm"
-            href="https://github.com/onwidget/astrowind">Download</a
-          >
         </div>
       </div>
     </nav>

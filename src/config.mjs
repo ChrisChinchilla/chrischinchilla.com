@@ -1,15 +1,15 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'Chris Chinchilla',
 
-  origin: 'https://astrowind.vercel.app',
+  origin: 'https://chrischinchilla.com',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
+  title: 'Chris Chinchilla - Technical communicator, blogger, podcaster, streamer, game and fiction writer',
   description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+    'A technical communicator with a love of explaining technical concepts in documentation, blog posts, videos, books and more. Also a podcaster, video maker, writer of interactive fiction, and games.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
@@ -24,6 +24,7 @@ const CONFIG = {
     timeZone: 'UTC',
   }),
 
+  // TODO: Update or remove
   googleAnalyticsId: false, // or "G-XXXXXXXXXX",
   googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
 

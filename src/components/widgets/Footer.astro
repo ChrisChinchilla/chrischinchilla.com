@@ -1,5 +1,5 @@
 ---
-import { Icon } from 'astro-icon';
+import { Icon } from 'astro-iconify';
 import { getHomePermalink, getPermalink, getAsset } from '~/utils/permalinks';
 
 const links = [
@@ -50,11 +50,12 @@ const links = [
 ];
 
 const social = [
-  { label: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-  { label: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-  { label: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+  { label: 'Twitter', icon: 'tabler:brand-twitter', href: 'http://twitter.com/chrischinch' },
+  { label: 'Mastodon', icon: 'tabler:brand-mastodon', href: 'https://mastodon.social/@chrischinchilla' },
+  { label: 'Facebook', icon: 'tabler:brand-facebook', href: 'http://facebook.com/chrischinchilla' },
   { label: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-  { label: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+  { label: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/chrischinchilla' },
+  { label: 'YouTube', icon: 'tabler:brand-youtube', href: 'https://www.youtube.com/channel/UCgnrx8qi4qhmN6sBebdDrmg' },
 ];
 ---
 
@@ -117,11 +118,10 @@ const social = [
 
       <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
         <span
-          class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"
+          class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm"
         >
         </span>
-        Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> ·
-        All rights reserved.
+        Chris Chinchilla 2023
       </div>
     </div>
   </div>
