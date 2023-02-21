@@ -1,57 +1,43 @@
 ---
-import { Icon } from 'astro-iconify';
-import { getHomePermalink, getPermalink, getAsset } from '~/utils/permalinks';
+import { Icon } from 'astro-icon';
+import { getHomePermalink, getPermalink, getAsset, getBlogPermalink } from '~/utils/permalinks';
 
 const links = [
   {
-    title: 'Product',
+    title: 'Writing',
     items: [
-      { title: 'Features', href: '#' },
-      { title: 'Security', href: '#' },
-      { title: 'Team', href: '#' },
-      { title: 'Enterprise', href: '#' },
-      { title: 'Customer stories', href: '#' },
-      { title: 'Pricing', href: '#' },
-      { title: 'Resources', href: '#' },
+    {
+    title: 'Blog',
+    href: getBlogPermalink(),
+  },
     ],
   },
   {
-    title: 'Platform',
+    title: 'Work',
     items: [
-      { title: 'Developer API', href: '#' },
-      { title: 'Partners', href: '#' },
-      { title: 'Atom', href: '#' },
-      { title: 'Electron', href: '#' },
-      { title: 'AstroWind Desktop', href: '#' },
+    {
+    title: 'Clients',
+    href: getPermalink('/clients'),
+  },
+  {
+    title: 'Games',
+    href: getPermalink('/games'),
+  },
     ],
   },
   {
-    title: 'Support',
+    title: 'Activities',
     items: [
-      { title: 'Docs', href: '#' },
-      { title: 'Community Forum', href: '#' },
-      { title: 'Professional Services', href: '#' },
-      { title: 'Skills', href: '#' },
-      { title: 'Status', href: '#' },
-    ],
-  },
-  {
-    title: 'Company',
-    items: [
-      { title: 'About', href: '#' },
-      { title: 'Blog', href: '#' },
-      { title: 'Careers', href: '#' },
-      { title: 'Press', href: '#' },
-      { title: 'Inclusion', href: '#' },
-      { title: 'Social Impact', href: '#' },
-      { title: 'Shop', href: '#' },
+    {title: 'Links', href: getPermalink('/links'),},
+  {title: 'Videos', href: getPermalink('/videos'),},
+  {title: 'Podcast', href: getPermalink('/podcast'),},
+  {title: 'Events', href: getPermalink('/events'),},
     ],
   },
 ];
 
 const social = [
   { label: 'Twitter', icon: 'tabler:brand-twitter', href: 'http://twitter.com/chrischinch' },
-  { label: 'Mastodon', icon: 'tabler:brand-mastodon', href: 'https://mastodon.social/@chrischinchilla' },
   { label: 'Facebook', icon: 'tabler:brand-facebook', href: 'http://facebook.com/chrischinchilla' },
   { label: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   { label: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/chrischinchilla' },
@@ -64,9 +50,9 @@ const social = [
     <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
       <div class="col-span-12 lg:col-span-4">
         <div class="mb-2">
-          <a class="inline-block font-bold text-xl" href={getHomePermalink()}>AstroWind</a>
+          <a class="inline-block font-bold text-xl" href={getHomePermalink()}>Chris Chinchilla</a>
         </div>
-        <div class="text-sm text-gray-600">
+        <!-- <div class="text-sm text-gray-600">
           <a
             class="text-gray-600 hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
             href={getPermalink('/terms')}>Terms</a
@@ -75,7 +61,7 @@ const social = [
             class="text-gray-600 hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
             href={getPermalink('/privacy')}>Privacy Policy</a
           >
-        </div>
+        </div> -->
       </div>
       {
         links.map(({ title, items }) => (

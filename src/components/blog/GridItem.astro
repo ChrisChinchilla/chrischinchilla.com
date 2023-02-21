@@ -14,11 +14,12 @@ export interface Props {
 const { post } = Astro.props;
 
 // What sort of URL
-var link = "";
+var url = "";
 if (post.publication_url != null) {
-  link = post.publication_url;
+  url = post.publication_url;
 } else {
-   link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
+  // TODO: Better way? Why is the slug wrong?
+  url = `blog${getPermalink(post.id, 'post')}`.replace(".md","");
 }
 
 const image = await findImage(post.image);
@@ -47,7 +48,7 @@ const image = await findImage(post.image);
         post.title
       ) : (
         <a
-        href={link}
+        href={url} rel="canonical"
           class="hover:text-primary-800 dark:hover:text-primary-700  transition ease-in duration-200"
         >
           {post.title}

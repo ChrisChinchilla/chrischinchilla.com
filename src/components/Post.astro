@@ -30,8 +30,7 @@ var url = "";
 if (publication_url != null) {
   url = publication_url;
 } else {
-  // TODO: Better way? Why is the slug wrong?
-  url = `blog/${post.slug}`;
+  url = post.slug;
 }
 
 // Truncate text

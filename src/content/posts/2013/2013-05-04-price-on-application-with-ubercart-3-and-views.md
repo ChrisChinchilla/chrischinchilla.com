@@ -4,7 +4,7 @@
 
 title: Price on Application with Ubercart 3 and Views
 publishDate: 2013-05-04T00:00:00.000Z
-image: ~/assets/images/articles/poa-4.PNG
+image: ~/assets/images/articles/poa-4.png
 categories:
  - writing
  - chrischinchilla
@@ -19,10 +19,10 @@ In my case I had a view that displayed the various product options in a right ha
 
 Finally, I created a custom text field, which by default displays the price on application text and in the 'no results' section displays the sell price and anything else you want to display. This basically means that the field will display the price on application if there is one, but the price instead, if one is set.
 
-![](poa-1.PNG)
+![](poa-1.png)
 
-![](poa-2.PNG)
+![](poa-2.png)
 
-![](poa-3.PNG)
+![](poa-3.png)
 
-![](poa-4.PNG)
+![](poa-4.png)
