@@ -41,11 +41,12 @@ const meta = {
       <li class="mb-12 md:mb-20">
 
         <Event
-          event={event}
               title={event.data.title}
+              event={event.data.event}
               body={event.body}
               pres_url={event.data.pres_url}
               start_date={event.data.start_date}
+              venue={event.data.venue}
             />
       </li>
       ))

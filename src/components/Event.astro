@@ -4,16 +4,18 @@ import { Markdown } from '@astropub/md';
 // import truncateMarkdown from 'markdown-truncate';
 
 export interface Props {
-  event: CollectionEntry<"event">;
   title: string;
+  event: string;
   body: string;
   pres_url: string;
   start_date: Date;
+  venue: string;
 }
 
-const { event, title, body, pres_url, start_date } = Astro.props;
+const { title, event, body, pres_url, start_date, venue} = Astro.props;
 // const { Content } = await event.render();
 
+var formatted_date = start_date.toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 // Truncate text
 // TODO: Better way?
 // TODO: Make to helper or plugin
@@ -23,9 +25,13 @@ const { event, title, body, pres_url, start_date } = Astro.props;
 
 ---
 <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
-
-{start_date}
+  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden">
+<h3 class="text-xl">
+{formatted_date}, {venue}
+</h3>
+<a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={pres_url}>
+  {pres_url}
+</a>
 </div>
   
     <div class="mt-2">
@@ -39,7 +45,7 @@ const { event, title, body, pres_url, start_date } = Astro.props;
           ) : (
             title
           )
-        }
+        } @ {event}
       </h2>
       </header>
       <!-- TODO: Seems kind of ridiculous -->
