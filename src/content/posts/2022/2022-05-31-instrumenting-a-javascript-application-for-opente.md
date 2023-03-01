@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Instrumenting a JavaScript Application for OpenTelemetry, Part 1- Setup"
 publishDate: 2022-05-31
 author: "Chris Ward"
@@ -13,4 +10,3 @@ image: ~/assets/images/articles/15922777.jpeg
 
 ---
 This post looks at the first steps for instrumenting a JavaScript application to report OpenTelemetry metrics.
-

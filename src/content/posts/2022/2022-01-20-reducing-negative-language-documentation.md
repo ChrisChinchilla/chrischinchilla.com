@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Reducing negative and biased language in documentation
 publishDate: 2022-01-20
 author: "Chris Ward"
