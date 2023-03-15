@@ -30,9 +30,9 @@ var url = "";
 if (publication_url != null) {
   url = publication_url;
 } else {
-  url = post.slug;
+  url = "/blog/" + post.slug;
 }
-
+// TODO: Why is slug broken again?
 // Truncate text
 // TODO: Better way?
 // TODO: Make to helper or plugin
