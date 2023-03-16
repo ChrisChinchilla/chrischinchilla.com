@@ -10,9 +10,8 @@ tags:
   - Grammar checking
   - linting
   - Spell checking
-image: ~/assets/images/articles/jb-overview.png
+image: /images/articles/jb-overview.png
 ---
-import { Picture } from "@astrojs/image/components";
 
 The docs as code trend, where technical writers and developers work more closely using similar tools and processes, has grown in the past few years.
 
@@ -40,27 +39,14 @@ With both plugins installed, I connected to the cloud version, but I will highli
 
 You can find various configuration options under the _Settings \> Editor \> Natural Languages_ section. There are a lot to tweak, so it's overwhelming and probably best to leave the default, to begin with, and configure as you need.
 
-<Picture
-	src="/src/assets/images/articles/grazie-lang-settings.png"
-	class="inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
-	widths={[400, 900]}
-	sizes="(max-width: 900px) 400px, 900px"
-	alt="Screenshot of Grazie language settings"
-	aspectRatio="16:9"
-/>
+![Screenshot of Grazie language settings](/images/articles/grazie-lang-settings.png)
+
 
 I start with the Vale options, as that's my main point of comparison. Issues found by Vale show similarly to in VSCode, i.e., inline with a "squiggly" line or in a _Problems_ panel.
 
 The Vale integration is "read-only", in that Grazie only shows issues, but doesn't offer any options to fix them, update any word lists, etc. Vale doesn't offer this by default anyway, and plugin implementors need to add it themselves. The VSCode extensions offer some limited options, so it's only slightly better.
 
-<Picture
-	src="/src/assets/images/articles/grazie-vale.png"
-	class="inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
-	widths={[400, 900]}
-	sizes="(max-width: 900px) 400px, 900px"
-	alt="Screenshot of Grazie using Vale to highlight issues"
-	aspectRatio="16:9"
-/>
+![Screenshot of Grazie using Vale to highlight issues](/images/articles/grazie-vale.png)
 
 The Vale integration isn't quite the same as "Vanilla" Vale, [only supports some extension points,][5], and you have to rename any existing configuration files you might have.
 
@@ -68,25 +54,11 @@ Almost all other features of Grazie and Grazie professional happen in the editor
 
 For other features that aren't necessarily issues, you typically right-click on text to access them.
 
-<Picture
-	src="/src/assets/images/articles/grazie-translate.png"
-	class="inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
-	widths={[400, 900]}
-	sizes="(max-width: 900px) 400px, 900px"
-	alt="Screenshot of Grazie translation"
-	aspectRatio="16:9"
-/>
+![Screenshot of Grazie translation](/images/articles/grazie-translate.png)
 
 For example, to translate content with Grazie Pro (cloud), select the text, hit _Alt+Enter_ and select _Translate with Grazie_.
 
-<Picture
-	src="/src/assets/images/articles/grazie-complete-inline.png"
-	class="inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
-	widths={[400, 900]}
-	sizes="(max-width: 900px) 400px, 900px"
-	alt="Screenshot of Grazie autocomplete"
-	aspectRatio="16:9"
-/>
+![Screenshot of Grazie autocomplete](/images/articles/grazie-complete-inline.png)
 
 Text completion is another interesting feature available in Grazie professional (with superior suggestions if you connect to the cloud). You can configure it to show AI-generated suggestions inline or in a pop-up. If you use the pop-up mode, Grazie displays multiple suggestions and can complete more than one word at a time. The suggestion generation is sometimes a little sluggish to trigger and not as good (whatever that means with regard to AI-generated suggestions) as some other services, but always, it's useful to have.
 
@@ -113,14 +85,7 @@ The features include:
 
 Once you enable the plugin and create a Writerside project, it adds UI elements to create modules for the project and topics for each module.
 
-<Picture
-	src="/src/assets/images/articles/writerside.png"
-	class="inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
-	widths={[400, 900]}
-	sizes="(max-width: 900px) 400px, 900px"
-	alt="Screenshot of Writerside interface"
-	aspectRatio="16:9"
-/>
+![Screenshot of Writerside interface](/images/articles/writerside.png)
 
 When you create a Writerside project, the plugin adds several new UI elements that help you manage the _instances_ (The "thing" to document) and the _topics_ (the documentation content).
 
