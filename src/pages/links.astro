@@ -1,6 +1,23 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from "~/layouts/PageLayout.astro";
 import Link from "../components/Link.astro";
+import Headline from '~/components/blog/Headline.astro';
+
+var groupBy = function<TItem>(xs: TItem[], key: string) : {[key: string]: TItem[]} {
+  return xs.reduce(function(rv, x) {
+    (rv[x[key]] = rv[x[key]] || []).push(x);
+    return rv;
+  }, {});
+};
+
+const meta = {
+  title: "Links",
+  description: "TBD",
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
 
 const links = await fetch("https://getpocket.com/v3/get", {
   method: "POST",
@@ -8,33 +25,39 @@ const links = await fetch("https://getpocket.com/v3/get", {
     "Content-Type": "application/json; charset=utf-8",
   },
   body: JSON.stringify({
-    consumer_key: "82790-7caebed10729397b7c6d5049",
+    consumer_key: `${import.meta.env.POCKET_CONSUMER}`,
     count: "50",
     state: "all",
-    access_token: "aaef4b6d-f671-5d0f-4e3c-24555d",
+    access_token: `${import.meta.env.POCKET_ACCESS}`,
     favorite: "1",
     sort: "newest",
   }),
 })
   .then((response) => response.json())
-  .then((response) => Object.values(response.list));
+  .then((response) => Object.values(response.list))
+  // .then((response) => groupBy(response,"tags"));
 
 ---
-<!-- TODO: Add source -->
-<Layout title="Welcome to Astro.">
-  <main>
-    <h1>Links</h1>
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline
+      subtitle={meta.description}
+    >
+      {meta.title}
+    </Headline>
+  <ul>
       {
         links.map((link) => (
-          <>
+        <li class="mb-12 md:mb-20">
             <Link
               title={link.resolved_title}
               description={link.excerpt}
               link={link.resolved_url}
               image={link.top_image_url}
             />
-          </>
+          </li>
         ))
       }
-  </main>
+    </ul>
+  </section>
 </Layout>

@@ -39,9 +39,10 @@
     "eslint": "^8.32.0",
     "eslint-plugin-astro": "^0.22.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
-    "limax": "^2.1.0",
-    "markdown-truncate": "^1.0.4",
-    "mdast-util-to-string": "^3.1.0",
+    "limax": "^2.0.0",
+    "markdown-truncate": "^1.1.0",
+    "truncate-html": "^1.0.4",
+    "mdast-util-to-string": "^3.2.0",
     "node-fetch": "^3.3.1",
     "prettier": "^2.8.3",
     "prettier-plugin-astro": "^0.7.2",
@@ -54,7 +55,6 @@
     "subfont": "^6.12.4",
     "svgo": "2.8.0",
     "tailwindcss": "^3.2.4",
-    "truncate-html": "^1.0.4",
     "typescript": "^4.9.4"
   },
   "devDependencies": {
