@@ -1,7 +1,4 @@
 ---
-
-
-
 title: NetSquared meetup Aug 2013
 publishDate: 2013-08-29T22:54:01.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Playtesting Chip Shop
 publishDate: 2015-10-19
 categories: projects chipshop

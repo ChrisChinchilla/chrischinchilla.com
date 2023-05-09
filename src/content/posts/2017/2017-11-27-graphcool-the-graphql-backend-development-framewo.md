@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Graphcool, the GraphQL Backend Development Framework"
 publishDate: 2017-11-27 15:01:04 UTC
 author: "Chris Ward"

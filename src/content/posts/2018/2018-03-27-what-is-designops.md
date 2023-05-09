@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "What Is DesignOps?"
 publishDate: 2018-03-27 15:15:13 UTC
 author: "Chris Ward"

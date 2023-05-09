@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Lightning Bolt - Thornbury Theatre
 publishDate: 2010-01-03T14:55:45.000Z
 categories:

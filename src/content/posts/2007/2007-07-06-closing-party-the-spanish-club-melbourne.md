@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Closing Party - The Spanish Club, Melbourne
 publishDate: 2007-07-06T15:25:27.000Z
 ---

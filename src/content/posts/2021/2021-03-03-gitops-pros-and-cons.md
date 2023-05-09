@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Pros and Cons of GitOps
 publishDate: 2021-03-03
 author: "Chris Ward"

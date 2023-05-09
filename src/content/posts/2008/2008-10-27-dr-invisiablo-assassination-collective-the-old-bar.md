@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Dr Invisiablo, Assassination Collective - The Old Bar'
 publishDate: 2008-10-27T22:35:16.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "DocFX- The Next Documentation Tool to Consider?"
 publishDate: 2018-03-11 06:01:02 UTC
 author: "Chris Ward"

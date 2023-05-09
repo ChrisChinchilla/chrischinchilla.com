@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Developer Experience - How to Define Good Documentation?
 publishDate: 2021-02-10
 author: "Chris Ward"

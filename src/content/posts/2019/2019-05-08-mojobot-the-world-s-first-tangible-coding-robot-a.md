@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Mojobot- The World’s First Tangible Coding Robot and Board Game"
 publishDate: 2019-05-08
 author: "Chris Ward"

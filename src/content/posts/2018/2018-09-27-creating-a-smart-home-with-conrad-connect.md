@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Creating a Smart Home With Conrad Connect"
 publishDate: 2018-09-27 16:03:01 UTC
 author: "Chris Ward"

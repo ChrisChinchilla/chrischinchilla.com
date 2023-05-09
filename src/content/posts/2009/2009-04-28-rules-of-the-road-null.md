@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Rules of the Road
 publishDate: 2009-04-28T18:22:25.000Z
 categories:

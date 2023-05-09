@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Various - Out of the woods and trees
 publishDate: 2007-11-15T20:25:40.000Z
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Brinkman - Kirsten Dunst
 publishDate: 2006-09-26T13:16:52.000Z
 categories:

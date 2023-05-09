@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Startup Health Tech - April 2014
 publishDate: 2014-04-17T05:41:00.000Z
 categories:

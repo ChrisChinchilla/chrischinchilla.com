@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Scare - Vacuum Irony
 publishDate: 2006-05-20T15:10:36.000Z
 categories:

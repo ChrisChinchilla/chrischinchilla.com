@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Submit your site building session ideas for DrupalSouth
 publishDate: 2013-10-21T00:25:12.000Z
 ---

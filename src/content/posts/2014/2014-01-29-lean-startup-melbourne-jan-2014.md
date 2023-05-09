@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Lean Startup Melbourne Jan 2014
 publishDate: 2014-01-29T07:30:47.000Z
 ---

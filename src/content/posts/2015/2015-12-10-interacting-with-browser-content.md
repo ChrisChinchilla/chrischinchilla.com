@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Video - Interacting with Browser Content
 publishDate: 2015-12-10T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/interacting-with-browser-content-from-your-chrome-extension'

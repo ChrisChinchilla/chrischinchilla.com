@@ -1,7 +1,4 @@
 ---
-
-
-
 title: A Death in the family, Cockfight shootout, Young & Restless, Magic Dirt - Collingwood
   Town Hall
 publishDate: 2007-09-17T20:30:49.000Z

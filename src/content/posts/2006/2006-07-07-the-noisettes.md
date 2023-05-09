@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Noisettes
 publishDate: 2006-07-07T15:10:36.000Z
 categories:

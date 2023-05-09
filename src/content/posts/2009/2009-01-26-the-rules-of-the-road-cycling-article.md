@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The rules of the road - Cycling article
 publishDate: 2009-01-26T00:02:28.000Z
 ---

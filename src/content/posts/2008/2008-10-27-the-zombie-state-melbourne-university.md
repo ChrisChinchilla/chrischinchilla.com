@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Zombie State - Melbourne University
 publishDate: 2008-10-27T22:42:37.000Z
 tags: 

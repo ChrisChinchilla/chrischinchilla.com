@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Payment and Production blocks, Favicons and more'
 publishDate: 2015-02-14T08:37:18.000Z
 categories: projects

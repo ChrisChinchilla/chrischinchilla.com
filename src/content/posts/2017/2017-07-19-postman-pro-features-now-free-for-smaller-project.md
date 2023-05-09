@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Postman Pro Features Now Free For Smaller Projects"
 publishDate: 2017-07-19 05:01:01 UTC
 author: "Chris Ward"

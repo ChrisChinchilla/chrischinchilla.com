@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 9th Dec 2006 - My old shoes
 publishDate: 2006-12-08T13:00:00.000Z
 ---

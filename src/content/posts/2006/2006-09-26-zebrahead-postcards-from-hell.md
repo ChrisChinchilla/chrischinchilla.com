@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Zebrahead - Postcards from Hell
 publishDate: 2006-09-26T13:16:07.000Z
 categories:

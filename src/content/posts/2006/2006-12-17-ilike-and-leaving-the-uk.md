@@ -1,7 +1,4 @@
 ---
-
-
-
 title: iLike and Leaving the UK
 publishDate: '2006-12-17T13:40:12+00:00'
 tags:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Embracing the Chaos of Chaos Engineering"
 publishDate: 2018-07-20 18:01:00 UTC
 author: "Chris Ward"

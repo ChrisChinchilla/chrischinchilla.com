@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Evolve SMS
 publishDate: 2014-03-17T05:42:54.000Z
 image: ~/assets/images/articles/evolve.png

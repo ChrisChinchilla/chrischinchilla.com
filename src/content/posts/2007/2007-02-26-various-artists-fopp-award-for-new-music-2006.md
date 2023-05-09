@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Various Artists - FOPP Award for new Music 2006
 publishDate: 2007-02-26T07:30:46.000Z
 categories:

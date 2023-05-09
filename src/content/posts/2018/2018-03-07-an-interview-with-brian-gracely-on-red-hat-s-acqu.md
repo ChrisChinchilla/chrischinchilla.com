@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "An Interview With Brian Gracely on Red Hat&#39;s Acquisition of CoreOS..."
 publishDate: 2018-03-07 20:28:57 UTC
 author: "Chris Ward"

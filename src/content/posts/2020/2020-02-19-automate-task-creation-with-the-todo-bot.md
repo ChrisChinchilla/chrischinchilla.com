@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Automate Task Creation With the TODO Bot"
 publishDate: 2020-02-19
 author: "Chris Ward"

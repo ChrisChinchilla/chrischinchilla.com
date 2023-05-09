@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Eleven plus one is a great team
 publishDate: '2007-10-02T06:27:29+00:00'
 categories:

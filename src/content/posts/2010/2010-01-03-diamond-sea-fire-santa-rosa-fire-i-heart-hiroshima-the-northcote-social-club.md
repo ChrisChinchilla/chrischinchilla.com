@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Diamond Sea, Fire Santa Rosa Fire, I Heart Hiroshima - The Northcote Social Club'
 publishDate: 2010-01-03T14:54:56.000Z
 categories:

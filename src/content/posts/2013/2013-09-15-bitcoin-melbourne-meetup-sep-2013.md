@@ -1,7 +1,4 @@
 ---
-
-
-
 title: BitCoin Melbourne meetup Sep 2013
 publishDate: 2013-09-15T09:34:22.000Z
 categories:

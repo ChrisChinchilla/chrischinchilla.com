@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Politics in Music - Folk
 publishDate: '2007-10-08T22:40:25+00:00'
 tags: music opinion

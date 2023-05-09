@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Smarter App Notifications With OpenBack
 publishDate: '2017-04-28 11:13:30 +0100'
 image: ~/assets/images/articles/mobile_sdk_2.jpg

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Battle Royale, Koushun Takami'
 publishDate: 2015-03-12T00:00:00.000Z
 image: ~/assets/images/articles/battle.jpg

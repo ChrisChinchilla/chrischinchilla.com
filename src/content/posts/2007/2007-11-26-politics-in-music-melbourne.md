@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Politics in Music - Melbourne
 publishDate: '2007-11-26T19:50:41+00:00'
 categories:

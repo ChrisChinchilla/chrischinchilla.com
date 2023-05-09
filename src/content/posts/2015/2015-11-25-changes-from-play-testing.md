@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Changes From Play Testing
 publishDate: '2015-11-25'
 categories: projects chipshop

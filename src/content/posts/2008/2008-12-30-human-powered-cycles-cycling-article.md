@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Human Powered Cycles - Cycling article
 publishDate: 2008-12-29T23:07:22.000Z
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 7 CRM Options Compatible with Drupal
 publishDate: 2014-12-10T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/7-crm-options-compatible-drupal/'

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: How Voipstudio searches Multiple Cloud Systems with Crate.IO
 publishDate: 2015-03-27T05:17:07.000Z
 publication_url: 'https://crate.io/blog/how-voipstudio-searches-multiple-cloud-systems-with-crate/'

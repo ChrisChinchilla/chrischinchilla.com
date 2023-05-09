@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Ned Colette - Interview
 publishDate: 2007-11-15T20:26:38.000Z
 ---

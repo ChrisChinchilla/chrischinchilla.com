@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Bye bye Melbourne. Hallo Leipzig.
 publishDate: 2014-07-12T08:45:55.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Arcturian - Demo
 publishDate: 2007-02-26T00:00:00.000Z
 categories:

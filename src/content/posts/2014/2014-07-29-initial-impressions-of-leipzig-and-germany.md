@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Initial impressions of Leipzig and Germany
 publishDate: 2014-07-29T08:48:13.000Z
 categories:

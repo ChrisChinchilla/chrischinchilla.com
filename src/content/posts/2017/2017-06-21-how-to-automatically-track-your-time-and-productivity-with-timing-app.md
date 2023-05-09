@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Time tracking is made painless and easy with Timing 2 app
 publishDate: '2017-06-21 18:13:30 +0100'
 image: ~/assets/images/articles/timing_2_app_icon_1x.png

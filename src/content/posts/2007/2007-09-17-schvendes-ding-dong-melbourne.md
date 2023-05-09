@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Schvendes - Ding Dong, Melbourne
 publishDate: 2007-09-17T20:35:03.000Z
 ---

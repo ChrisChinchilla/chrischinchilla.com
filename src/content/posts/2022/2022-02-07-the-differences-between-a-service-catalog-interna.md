@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "The Differences Between a Service Catalog, Internal Developer Platform, and..."
 publishDate: 2022-02-07
 author: "Chris Ward"

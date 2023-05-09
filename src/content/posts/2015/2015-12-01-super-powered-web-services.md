@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Video - Super Powered Web Services
 publishDate: 2015-11-01T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/connecting-your-android-app-to-external-services'

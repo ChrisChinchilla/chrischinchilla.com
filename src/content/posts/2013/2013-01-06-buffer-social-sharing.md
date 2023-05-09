@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Buffer - Social sharing
 publishDate: 2013-01-06T00:00:00.000Z
 categories:

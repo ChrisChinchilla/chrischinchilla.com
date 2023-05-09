@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Snowfight in the City Centre - Demo
 publishDate: 2006-06-14T15:10:36.000Z
 categories:

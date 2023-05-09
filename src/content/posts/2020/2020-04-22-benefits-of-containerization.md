@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "The Benefits of Containerization"
 publishDate: 2020-04-24
 author: "Chris Ward"

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Nextcloud and Kubernetes in the Cloud With Kuma Service Mesh"
 publishDate: 2021-09-03
 author: "Chris Ward"

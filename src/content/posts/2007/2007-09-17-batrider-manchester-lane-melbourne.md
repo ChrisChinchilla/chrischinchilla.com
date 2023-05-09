@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Batrider - Manchester Lane, Melbourne
 publishDate: 2007-09-17T20:36:58.000Z
 ---

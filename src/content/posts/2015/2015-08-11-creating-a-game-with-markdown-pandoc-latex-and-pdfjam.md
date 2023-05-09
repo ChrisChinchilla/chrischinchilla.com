@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Creating a Game with Markdown, Pandoc, Latex and PDFJam'
 publishDate: 2015-08-11T00:00:00.000Z
 categories: projects chipshop

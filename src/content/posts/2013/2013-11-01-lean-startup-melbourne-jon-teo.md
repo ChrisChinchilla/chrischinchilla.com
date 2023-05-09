@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Lean Startup Melbourne - Jon Teo
 publishDate: 2013-11-01T22:06:56.000Z
 ---

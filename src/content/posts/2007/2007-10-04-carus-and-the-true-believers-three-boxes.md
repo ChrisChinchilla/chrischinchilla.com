@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Carus & The True Believers - Three Boxes
 publishDate: 2007-10-04T16:10:49.000Z
 ---

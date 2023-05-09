@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Internet of Industrial Things
 publishDate: '2017-03-21 18:13:30 +0100'
 image: ~/assets/images/articles/industrial-iot.jpg

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Random Sunday - Creative Writing
 publishDate: 2008-04-09T05:05:34.000Z
 categories:

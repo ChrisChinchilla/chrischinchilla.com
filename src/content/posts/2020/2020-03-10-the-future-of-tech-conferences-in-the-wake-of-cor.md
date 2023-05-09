@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "The Future of Tech Conferences in the Wake of Coronavirus"
 publishDate: 2020-03-10
 author: "Chris Ward"

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Where to Ride - Book Review
 publishDate: 2008-10-27T00:00:00.000Z
 tags:

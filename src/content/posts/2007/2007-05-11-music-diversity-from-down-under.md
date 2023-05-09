@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Musical Diversity from Down Under
 publishDate: '2007-05-11T02:08:46+00:00'
 tags:

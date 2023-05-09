@@ -1,7 +1,4 @@
 ---
-
-
-
 title: My First Melbourne Community Cup
 publishDate: '2007-07-11T06:12:29+00:00'
 categories:

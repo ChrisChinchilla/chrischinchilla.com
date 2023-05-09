@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Pocus Whiteface - Demo
 publishDate: 2007-02-26T07:09:27.000Z
 categories:

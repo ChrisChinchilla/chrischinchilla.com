@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Tools to help generate screenshots for your documentation
 publishDate: 2022-01-27
 author: "Chris Ward"

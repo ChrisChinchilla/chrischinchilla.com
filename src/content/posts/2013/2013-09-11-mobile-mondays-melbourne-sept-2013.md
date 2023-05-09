@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Mobile Mondays Melbourne Sept 2013
 publishDate: 2013-09-11T10:35:28.000Z
 categories:

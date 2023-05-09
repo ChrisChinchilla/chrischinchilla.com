@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Live Blogging Hello Again from Apple
 publishDate: '2016-10-27 19:04:02 +0200'
 ---

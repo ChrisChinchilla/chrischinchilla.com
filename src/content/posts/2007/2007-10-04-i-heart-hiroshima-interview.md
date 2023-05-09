@@ -1,7 +1,4 @@
 ---
-
-
-
 title: I Heart Hiroshima - Interview
 publishDate: 2007-10-04T16:20:26.000Z
 ---

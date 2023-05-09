@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Docker for Windows, Linux, and Mac"
 publishDate: 2017-04-18 15:15:59 UTC
 author: "Chris Ward"

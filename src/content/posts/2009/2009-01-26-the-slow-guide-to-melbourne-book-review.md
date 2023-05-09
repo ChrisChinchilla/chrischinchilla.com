@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Slow Guide to Melbourne - Book review
 publishDate: 2009-01-26T00:00:00.000Z
 categories:

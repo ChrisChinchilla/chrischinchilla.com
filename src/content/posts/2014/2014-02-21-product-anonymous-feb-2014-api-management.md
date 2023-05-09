@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Product Anonymous Feb 2014 - API management
 publishDate: 2014-02-20T23:42:44.000Z
 ---

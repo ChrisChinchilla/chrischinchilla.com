@@ -1,7 +1,4 @@
 ---
-
-
-
 title: How to use Chronosphere to monitor your GKE Autopilot deployment
 publishDate: 2021-12-14
 author: "Chris Ward"

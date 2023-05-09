@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Podcasting 101 - What you need to get started on Mac
 publishDate: 2017-07-26
 image: ~/assets/images/articles/DSC0019-780x640.jpg

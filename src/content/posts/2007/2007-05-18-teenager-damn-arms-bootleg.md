@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Teenager, Damn Arms - Bootleg'
 publishDate: 2007-05-18T19:45:07.000Z
 categories:

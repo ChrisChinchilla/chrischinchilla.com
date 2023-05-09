@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Kamikaze Trio, Group Seizure, Talk show Boy, Shark In The Dark, Tetrode Kink - The Noise Bar'
 publishDate: 2008-03-17T04:41:56.000Z
 categories:

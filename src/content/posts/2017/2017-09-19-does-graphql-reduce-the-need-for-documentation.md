@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Does GraphQL Reduce the Need for Documentation?"
 publishDate: 2017-09-19 15:15:21 UTC
 author: "Chris Ward"

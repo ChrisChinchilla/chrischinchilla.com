@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Exploring the Evive - A Book-Sized IoT Device
 publishDate: 2016-09-12T00:00:00.000Z
 publication_url: >-

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Making the CiviEvent iCal feed show all events
 publishDate: 2011-12-04T00:00:00.000Z
 categories:

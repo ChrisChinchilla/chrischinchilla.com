@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Chatting With Chip Childers, CTO of Cloud Foundry
 publishDate: 2017-06-19
 image: ~/assets/images/articles/CloudFoundryCorp_vertical.svg.png

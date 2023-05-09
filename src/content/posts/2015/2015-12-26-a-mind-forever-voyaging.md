@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'A Mind Forever Voyaging: A History of Storytelling in Video Games by Dylan Holmes'
 publishDate: 2015-12-26T00:00:00.000Z
 image: ~/assets/images/articles/image-a-mind-forever-voyaging.jpg

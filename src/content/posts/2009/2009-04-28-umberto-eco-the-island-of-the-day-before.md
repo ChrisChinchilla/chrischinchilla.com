@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Umberto Eco - The Island of the Day Before
 publishDate: 2009-04-28T17:52:56.000Z
 categories:

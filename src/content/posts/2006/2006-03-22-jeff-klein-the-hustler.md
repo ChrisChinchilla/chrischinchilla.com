@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Jeff Klein - The Hustler
 publishDate: 2006-03-22T16:10:36.000Z
 categories:

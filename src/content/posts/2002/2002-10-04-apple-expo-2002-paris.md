@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Apple Expo 2002 - Paris
 publishDate: 2002-10-04
 categories:

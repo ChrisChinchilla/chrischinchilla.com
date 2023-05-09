@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Review of "Triumph of the Nerds" and "Kobold Guide to Board Game Design"'
 publishDate: 2015-01-26T12:23:12.000Z
 categories: projects

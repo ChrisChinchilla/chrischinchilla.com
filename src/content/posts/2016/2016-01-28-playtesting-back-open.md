@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Play Testing is Open Again
 publishDate: '2016-01-28'
 categories: projects chipshop

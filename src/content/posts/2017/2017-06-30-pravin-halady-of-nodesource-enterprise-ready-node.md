@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Pravin Halady of NodeSource- Enterprise Ready Node.js [Podcast]"
 publishDate: 2017-06-30 14:01:01 UTC
 author: "Chris Ward"

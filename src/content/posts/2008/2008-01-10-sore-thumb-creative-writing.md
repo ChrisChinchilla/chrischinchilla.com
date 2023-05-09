@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Sore Thumb
 publishDate: 2008-01-10T15:31:01.000Z
 categories:

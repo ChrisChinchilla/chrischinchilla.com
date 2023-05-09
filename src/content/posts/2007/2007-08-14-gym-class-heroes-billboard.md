@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Gym Class Heroes - Billboard
 publishDate: 2007-08-14T17:48:12.000Z
 ---

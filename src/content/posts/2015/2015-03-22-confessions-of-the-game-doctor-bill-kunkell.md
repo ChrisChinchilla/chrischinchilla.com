@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Confessions of the Game Doctor, Bill Kunkell'
 publishDate: 2015-03-22T09:50:20.000Z
 image: ~/assets/images/articles/confessions-game-doctor.jpg

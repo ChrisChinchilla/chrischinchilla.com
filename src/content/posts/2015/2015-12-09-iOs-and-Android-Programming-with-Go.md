@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'iOS and Android Programming with Go'
 publishDate: 2015-12-09T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/ios-and-android-programming-with-go/'

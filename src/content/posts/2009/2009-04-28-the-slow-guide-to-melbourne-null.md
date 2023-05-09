@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Slow Guide to Melbourne
 publishDate: 2009-04-28T17:57:29.000Z
 categories:

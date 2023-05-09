@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Today Google told me my flight was delayed before my airline.
 publishDate: 2013-09-20T23:54:52.000Z
 ---

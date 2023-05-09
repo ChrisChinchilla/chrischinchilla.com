@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Book Review - Phoenix: The Fall & Rise of Videogames by Leonard Herman'
 publishDate: 2015-02-28T00:00:00.000Z
 categories: projects chipshop

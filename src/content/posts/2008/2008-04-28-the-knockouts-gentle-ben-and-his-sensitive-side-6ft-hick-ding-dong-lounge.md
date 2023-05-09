@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'The Knockouts, Gentle Ben and his Sensitive side, 6ft Hick - Ding Dong Lounge'
 publishDate: 2008-04-28T16:20:37.000Z
 categories:

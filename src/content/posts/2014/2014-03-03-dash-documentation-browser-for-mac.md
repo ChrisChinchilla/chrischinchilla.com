@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Dash - documentation browser for Mac
 publishDate: 2014-03-03T20:20:49.000Z
 categories:

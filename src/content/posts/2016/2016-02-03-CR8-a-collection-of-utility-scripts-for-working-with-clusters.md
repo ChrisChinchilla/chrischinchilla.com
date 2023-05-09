@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'CR8: A collection of utility scripts for working with Clusters '
 publishDate: 2016-02-03T00:00:00.000Z
 publication_url: 'https://crate.io/a/cr8-utility-scripts/'

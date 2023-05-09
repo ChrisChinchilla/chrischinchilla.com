@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Video - The Evolution of Androids Ecosystem
 publishDate: 2015-09-21T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/watch-evolution-androids-ecosystem/'

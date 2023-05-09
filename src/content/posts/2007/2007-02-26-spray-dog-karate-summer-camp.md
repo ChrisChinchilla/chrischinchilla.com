@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Spray Dog - Karate Summer Camp
 publishDate: 2007-02-26T07:55:15.000Z
 categories:

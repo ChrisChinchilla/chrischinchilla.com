@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Voxtrot - Voxtrot
 publishDate: 2007-08-14T17:26:59.000Z
 ---

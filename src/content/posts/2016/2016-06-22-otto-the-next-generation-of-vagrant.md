@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Otto - The Next Generation of Vagrant"
 publishDate: 2016-06-22 15:15:53 UTC
 author: "Chris Ward"

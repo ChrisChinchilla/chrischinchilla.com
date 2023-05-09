@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Weekly Squeak, 18th September - Maximum Linkage'
 publishDate: '2016-09-18 21:44:51 +0200'
 categories: writing theweeklysqueak

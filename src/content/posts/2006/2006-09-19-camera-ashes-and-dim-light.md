@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Camera - Ashes and Dim Light
 publishDate: 2006-09-19T07:51:22.000Z
 categories:

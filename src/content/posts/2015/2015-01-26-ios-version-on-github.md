@@ -1,7 +1,4 @@
 ---
-
-
-
 title: iOS Version on GitHub
 publishDate: 2015-01-26T10:06:51.000Z
 categories: projects aah

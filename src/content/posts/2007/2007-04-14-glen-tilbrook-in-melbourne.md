@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Glen Tilbrook - in Melbourne
 publishDate: 2007-04-13T23:33:03.000Z
 categories:

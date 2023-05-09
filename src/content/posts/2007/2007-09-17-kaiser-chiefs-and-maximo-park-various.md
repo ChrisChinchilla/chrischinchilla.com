@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Kaiser Chiefs & Maximo Park - Various
 publishDate: 2007-09-17T20:29:31.000Z
 ---

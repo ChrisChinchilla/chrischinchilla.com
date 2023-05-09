@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Scrimba- A New Way to Teach and Learn Code"
 publishDate: 2017-08-10 17:01:01 UTC
 author: "Chris Ward"

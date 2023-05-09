@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Fluree- Blockchain, GraphQL, and More- All in One Database"
 publishDate: 2019-05-20
 author: "Chris Ward"

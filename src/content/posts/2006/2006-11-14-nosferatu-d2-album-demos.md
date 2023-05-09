@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Nosferatu D2 - Album Demos
 publishDate: 2006-11-14T00:47:31.000Z
 categories:

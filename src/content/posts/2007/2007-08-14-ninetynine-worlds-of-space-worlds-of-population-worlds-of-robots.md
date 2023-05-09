@@ -1,7 +1,4 @@
 ---
-
-
-
 title: NinetyNine - Worlds Of Space, Worlds Of Population, Worlds Of Robots
 publishDate: 2007-08-14T17:35:05.000Z
 ---

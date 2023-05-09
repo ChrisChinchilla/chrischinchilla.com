@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Introducing StarlingX 3.0 For Edge Computing and IoT"
 publishDate: 2020-02-05
 author: "Chris Ward"

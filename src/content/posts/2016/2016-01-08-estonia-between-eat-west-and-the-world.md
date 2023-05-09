@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Estonia-between East West and the World
 publishDate: 2016-01-08T00:00:00.000Z
 link: https://thenextweb.com/insider/2016/01/08/estonia-between-east-west-and-the-world/

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: DrupalCon Amsterdam Report
 publishDate: 2014-10-11T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/drupalcon-amsterdam-2014-report/'

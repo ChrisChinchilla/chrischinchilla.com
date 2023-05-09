@@ -1,7 +1,4 @@
 ---
-
-
-
 title: So, I quit my job. What's next?
 publishDate: 2013-11-15T01:31:28.000Z
 ---

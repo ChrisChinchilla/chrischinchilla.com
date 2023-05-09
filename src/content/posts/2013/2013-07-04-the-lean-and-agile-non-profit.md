@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The lean and agile non profit
 publishDate: 2013-07-04T01:57:38.000Z
 ---

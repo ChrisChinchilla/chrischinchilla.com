@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Developer Experience Roundtable - Continuous Improvement
 publishDate: 2020-07-15
 author: "Chris Ward"

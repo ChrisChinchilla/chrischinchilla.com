@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Exploders - Easy & The Sun
 publishDate: 2007-10-04T16:10:04.000Z
 ---

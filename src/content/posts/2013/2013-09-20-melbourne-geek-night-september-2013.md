@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Melbourne Geek night, September 2013
 publishDate: 2013-09-20T08:09:55.000Z
 ---

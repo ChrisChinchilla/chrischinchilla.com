@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Granite Leadership breakfast - Vendor Management & Quality of Delivery
 publishDate: 2013-11-20T09:58:03.000Z
 ---

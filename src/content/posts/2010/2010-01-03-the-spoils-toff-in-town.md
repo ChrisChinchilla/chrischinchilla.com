@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Spoils - Toff in Town
 publishDate: 2010-01-03T14:50:10.000Z
 categories:

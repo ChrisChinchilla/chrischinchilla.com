@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Dockers 2nd holiday in Berlin
 publishDate: 2015-03-25T00:00:00.000Z
 publication_url: 'https://crate.io/a/docker-2nd-birthday-berlin/'

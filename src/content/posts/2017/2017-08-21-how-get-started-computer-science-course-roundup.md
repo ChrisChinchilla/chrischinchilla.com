@@ -1,7 +1,4 @@
 ---
-
-
-
 title: How to get started in computer science - A course roundup
 publishDate: 2017-08-21
 image: ~/assets/images/articles/coding-courses-resources.jpg

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Camera - Demo
 publishDate: 2006-06-07T15:10:36.000Z
 categories:

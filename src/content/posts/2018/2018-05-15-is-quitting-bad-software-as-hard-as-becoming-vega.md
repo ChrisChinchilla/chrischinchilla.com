@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Is Quitting Bad Software as Hard as Becoming Vegan?"
 publishDate: 2018-05-15 09:01:43 UTC
 author: "Chris Ward"

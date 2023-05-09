@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'And What will be left of them? - The Dance, damn you, dance EP'
 publishDate: 2006-04-18T15:10:36.000Z
 categories:

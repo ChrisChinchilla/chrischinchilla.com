@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Jeff Strong - Jeff Strong
 publishDate: 2007-08-14T17:41:08.000Z
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "News from KubeCon and Cloud Native Con 2018"
 publishDate: 2018-05-07 05:01:39 UTC
 author: "Chris Ward"

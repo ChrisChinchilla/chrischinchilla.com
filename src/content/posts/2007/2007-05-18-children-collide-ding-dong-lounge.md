@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Children Collide - Ding Dong Lounge
 publishDate: 2007-05-18T19:52:51.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Subtle signs you're not from round here"
 publishDate: 2014-08-27T07:41:26.000Z
 categories:

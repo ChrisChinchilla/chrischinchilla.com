@@ -1,7 +1,4 @@
 ---
-
-
-
 title: TedxUniMelb 28th Aug 2013
 publishDate: 2013-08-28T21:53:36.000Z
 categories:

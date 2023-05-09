@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Blockwatch- What Is a Decentralized Exchange?"
 publishDate: 2018-02-08 14:01:01 UTC
 author: "Chris Ward"

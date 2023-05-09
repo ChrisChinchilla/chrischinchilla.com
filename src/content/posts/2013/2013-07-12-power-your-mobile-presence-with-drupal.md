@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Power your mobile presence with Drupal
 publishDate: 2013-07-12T02:03:41.000Z
 ---

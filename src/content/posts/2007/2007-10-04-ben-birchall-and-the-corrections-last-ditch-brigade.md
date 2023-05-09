@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Ben Birchall & The Corrections - Last Ditch Brigade
 publishDate: 2007-10-04T16:09:13.000Z
 ---

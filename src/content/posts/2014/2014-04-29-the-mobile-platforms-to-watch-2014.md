@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The mobile platforms to watch in 2014
 publishDate: 2014-04-29T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/mobile-platforms-watch-2014/'

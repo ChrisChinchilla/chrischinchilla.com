@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Why Development Teams Should Play Roleplaying Games"
 publishDate: 2021-02-25
 author: "Chris Ward"

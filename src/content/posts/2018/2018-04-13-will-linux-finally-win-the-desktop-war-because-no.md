@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Will Linux (Finally) Win the Desktop War Because No One Else Cares?"
 publishDate: 2018-04-13 12:01:01 UTC
 author: "Chris Ward"

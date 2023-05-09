@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Scare - The Buffalo Bar
 publishDate: 2006-06-10T15:10:36.000Z
 categories:

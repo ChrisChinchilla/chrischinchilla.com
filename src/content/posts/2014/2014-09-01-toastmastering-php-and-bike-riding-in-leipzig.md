@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Toast(mastering), PHP and Bike Riding in Leipzig
 publishDate: 2014-09-01T05:42:07.000Z
 ---

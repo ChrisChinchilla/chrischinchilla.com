@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Rose Kemp - A Handfull of Hurricanes
 publishDate: 2007-01-23T00:00:00.000Z
 categories:

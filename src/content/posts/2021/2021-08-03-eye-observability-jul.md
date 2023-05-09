@@ -1,7 +1,4 @@
 ---
-
-
-
 title: An eye on observability for July 2021
 publishDate: 2021-08-03
 author: "Chris Ward"

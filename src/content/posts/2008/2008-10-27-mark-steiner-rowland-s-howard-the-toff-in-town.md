@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Mark Steiner, Rowland S Howard - The Toff in Town'
 publishDate: 2008-10-27T22:47:04.000Z
 categories:

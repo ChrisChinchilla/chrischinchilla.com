@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'First Look at platform.sh, Development and Deployment SaaS'
 publishDate: 1970-08-22T05:18:40.000Z
 publication_url: 'https://www.sitepoint.com/first-look-platform-sh-development-deployment-saas/'

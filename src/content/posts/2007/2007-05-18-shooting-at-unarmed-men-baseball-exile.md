@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Shooting at Unarmed Men, Baseball - Exile'
 publishDate: 2007-05-18T20:00:02.000Z
 categories:

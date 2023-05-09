@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Hands on With Yosemite
 publishDate: 2014-10-27T09:03:18.000Z
 categories:

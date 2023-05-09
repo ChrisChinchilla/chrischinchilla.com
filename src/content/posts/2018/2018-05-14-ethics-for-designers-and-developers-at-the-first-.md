@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Ethics for Designers and Developers at The First Berlin Ethical Tech Meetup"
 publishDate: 2018-05-14 09:01:01 UTC
 author: "Chris Ward"

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Techcrunch Disrupt 2014
 publishDate: 2014-10-24T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/techcrunch-disrupt-2014/'

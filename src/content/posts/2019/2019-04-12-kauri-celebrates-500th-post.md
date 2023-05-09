@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Kauri celebrates 500th post"
 publishDate: 2019-04-12 03:49:51 UTC
 author: "Chris Ward"

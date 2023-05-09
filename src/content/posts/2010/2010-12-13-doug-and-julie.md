@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Doug and Julie
 publishDate: 2010-12-13T06:41:25.000Z
 categories:

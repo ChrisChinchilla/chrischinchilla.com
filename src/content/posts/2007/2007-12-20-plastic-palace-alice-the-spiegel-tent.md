@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Plastic Palace Alice - The Spiegel Tent
 publishDate: 2007-12-20T19:16:15.000Z
 categories:

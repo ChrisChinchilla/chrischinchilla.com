@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Leads, musicians gear and technical gubbins for sale / free
 publishDate: 2014-06-14T02:30:06.000Z
 ---

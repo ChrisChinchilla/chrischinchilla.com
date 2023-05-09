@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Heroku Logging and Coralogix
 publishDate: 2017-07-28
 image: ~/assets/images/default.png

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Migrating applications and data to a new Mac without using Time Machine
 publishDate: 2021-12-12
 categories: writing chrischinchilla

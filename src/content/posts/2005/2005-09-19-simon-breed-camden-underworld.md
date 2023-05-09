@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Simon Breed - Camden Underworld
 publishDate: 2005-09-19T00:00:00.000Z
 categories:

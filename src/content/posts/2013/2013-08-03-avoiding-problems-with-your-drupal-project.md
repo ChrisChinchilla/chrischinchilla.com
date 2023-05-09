@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Avoiding problems with your Drupal project
 publishDate: 2013-08-03T07:54:23.000Z
 image: ~/assets/images/articles/druplicon_sad.png

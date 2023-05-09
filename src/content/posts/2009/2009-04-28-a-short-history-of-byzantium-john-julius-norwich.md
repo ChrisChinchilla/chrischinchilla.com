@@ -1,7 +1,4 @@
 ---
-
-
-
 title: A Short History of Byzantium - John Julius Norwich
 publishDate: 2009-04-28T00:00:00.000Z
 categories:

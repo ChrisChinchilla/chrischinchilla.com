@@ -1,7 +1,4 @@
 ---
-
-
-
 title: International Students and Capitalism
 publishDate: '2007-10-12T16:27:13+00:00'
 categories:

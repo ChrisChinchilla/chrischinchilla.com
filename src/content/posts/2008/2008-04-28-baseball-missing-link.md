@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Baseball - Missing Link
 publishDate: 2008-04-28T16:22:45.000Z
 categories:

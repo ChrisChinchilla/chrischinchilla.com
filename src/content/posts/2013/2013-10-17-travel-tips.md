@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Travel tips
 publishDate: 2013-10-16T23:43:03.000Z
 ---

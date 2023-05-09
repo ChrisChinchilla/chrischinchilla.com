@@ -1,7 +1,4 @@
 ---
-
-
-
 title: City Life - Creative writing (Prose)
 publishDate: 2008-12-29T22:53:31.000Z
 ---

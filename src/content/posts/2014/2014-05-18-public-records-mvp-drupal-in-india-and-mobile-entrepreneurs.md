@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Public records, MVP, Drupal in India and mobile entrepreneurs
 publishDate: 2014-05-17T23:56:13.000Z
 ---

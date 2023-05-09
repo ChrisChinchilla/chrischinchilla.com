@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Melbourne's 2am Lockout"
 publishDate: 2008-08-25T18:57:15.000Z
 categories:

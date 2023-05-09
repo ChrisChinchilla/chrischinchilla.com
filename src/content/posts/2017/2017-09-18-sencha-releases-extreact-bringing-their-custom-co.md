@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Sencha Releases ExtReact, Bringing Their Custom Components to the React..."
 publishDate: 2017-09-18 14:01:46 UTC
 author: "Chris Ward"

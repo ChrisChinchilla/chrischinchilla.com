@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Revisiting Desktop Linux- Drowning in the Deep End"
 publishDate: 2019-12-16
 author: "Chris Ward"

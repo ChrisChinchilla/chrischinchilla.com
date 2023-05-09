@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Pictures - The Fantastic Sound of the Pictures
 publishDate: 2007-10-04T16:11:32.000Z
 ---

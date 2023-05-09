@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Creating Your Own Whimsical Twitter Bot With Tracery"
 publishDate: 2018-06-29 06:01:01 UTC
 author: "Chris Ward"

@@ -1,16 +1,10 @@
 ---
-
-
-
 title: Melbourne KMLF Feb 2014
 publishDate: 2014-02-27T00:19:32.000Z
 categories:
  - writing
  - chrischinchilla
 ---
-
-
-
 I&rsquo;ve been attending the <a href="https://www.meetup.com/Melbourne-KMLF/events/142133462/"  target="_blank">Knowledge Management Melbourne</a> sessions without still being entirely clear what a Knowledge manager actually is, but I find the topics they present interesting and relevant, so&hellip;
 
 Tonight&rsquo;s topic was a paratactical session on facilitation techniques, which is something I undertake occasionally so was interested in hearing some ideas and suggestions.

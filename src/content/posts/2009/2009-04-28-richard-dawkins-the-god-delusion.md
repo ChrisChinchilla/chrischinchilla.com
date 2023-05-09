@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Richard Dawkins - The God Delusion
 publishDate: 2009-04-28T17:51:32.000Z
 categories:

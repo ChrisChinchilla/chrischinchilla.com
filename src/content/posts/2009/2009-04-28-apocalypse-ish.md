@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Apocalypse-ish
 publishDate: 2009-04-28T17:55:20.000Z
 ---

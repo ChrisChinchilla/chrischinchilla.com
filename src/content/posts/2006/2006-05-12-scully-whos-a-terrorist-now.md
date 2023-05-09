@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Scully - Who's a Terrorist Now?"
 publishDate: 2006-05-12T15:10:36.000Z
 categories:

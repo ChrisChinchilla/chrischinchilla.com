@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Creating campaigns with Drupal and CiviCRM
 publishDate: 2013-01-02T05:24:34.000Z
 ---

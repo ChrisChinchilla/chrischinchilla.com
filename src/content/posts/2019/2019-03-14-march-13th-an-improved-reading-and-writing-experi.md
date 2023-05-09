@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "March 13th - An improved reading and writing experience"
 publishDate: 2019-03-14 14:19:22 UTC
 author: "Chris Ward"

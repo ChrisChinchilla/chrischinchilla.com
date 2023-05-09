@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Extending Drupal with a CRM
 publishDate: 2013-01-02T05:25:30.000Z
 ---

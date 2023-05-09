@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "The Promises, Payoff, and Products of Hybrid Clouds"
 publishDate: 2018-04-26 15:15:53 UTC
 author: "Chris Ward"

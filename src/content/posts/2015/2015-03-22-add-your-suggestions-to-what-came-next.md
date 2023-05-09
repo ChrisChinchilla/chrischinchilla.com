@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Add your suggestions to "What Came Next"'
 publishDate: 2015-03-22T10:13:03.000Z
 image: ~/assets/images/articles/image-what-came-next.jpg

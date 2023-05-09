@@ -1,7 +1,4 @@
 ---
-
-
-
 title: HealthHack Melbourne 2013
 publishDate: 2013-10-30T10:01:38.000Z
 ---

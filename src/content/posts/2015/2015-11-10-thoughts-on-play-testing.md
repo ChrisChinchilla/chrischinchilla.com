@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Thoughts on (Play) Testing
 publishDate: 2015-11-09
 image: ~/assets/images/articles/image-thoughts-on-play-testing.jpg

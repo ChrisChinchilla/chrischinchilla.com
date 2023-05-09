@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "A Beginner’s Guide to the Dockerfile"
 publishDate: 2016-08-24 15:15:58 UTC
 author: "Chris Ward"

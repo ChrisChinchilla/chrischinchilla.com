@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Next Full Stack Language? Server-side Swift with Perfect
 publishDate: 2016-01-05T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/server-side-swift-with-perfect/'

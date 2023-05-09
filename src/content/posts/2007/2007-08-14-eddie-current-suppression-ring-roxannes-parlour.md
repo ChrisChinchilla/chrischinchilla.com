@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Eddie Current Suppression Ring - Roxanne's Parlour
 publishDate: 2007-08-14T17:52:40.000Z
 ---

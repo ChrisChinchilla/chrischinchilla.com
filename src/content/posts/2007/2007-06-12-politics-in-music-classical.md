@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Politics in Music - Classical
 publishDate: '2007-06-12T21:58:25+00:00'
 tags:

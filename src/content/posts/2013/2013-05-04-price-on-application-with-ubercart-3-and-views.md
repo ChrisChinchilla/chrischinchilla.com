@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Price on Application with Ubercart 3 and Views
 publishDate: 2013-05-04T00:00:00.000Z
 image: ~/assets/images/articles/poa-4.png

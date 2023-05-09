@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Automating Screenshots in Documentation"
 publishDate: 2017-01-31 16:15:24 UTC
 author: "Chris Ward"

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Embers - Interview
 publishDate: 2007-12-20T19:18:56.000Z
 categories:

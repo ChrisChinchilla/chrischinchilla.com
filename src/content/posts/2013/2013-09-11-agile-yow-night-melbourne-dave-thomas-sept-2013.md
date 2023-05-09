@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Agile YOW! Night Melbourne - Dave Thomas - Sept 2013'
 publishDate: 2013-09-11T11:11:16.000Z
 categories:

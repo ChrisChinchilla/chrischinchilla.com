@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Crate adds Unicast host discovery via DNS and the AWS EC2 API
 publishDate: 2015-07-28T05:16:42.000Z
 publication_url: 'https://crate.io/blog/crate-unicast-host-discovery-dns-aws/'

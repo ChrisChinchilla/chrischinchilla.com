@@ -1,7 +1,4 @@
 ---
-
-
-
 title: My Social Media strategy advice
 publishDate: 2012-04-08T03:54:16.000Z
 categories:

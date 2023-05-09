@@ -1,7 +1,4 @@
 ---
-
-
-
 title: And what will be left of them? - Wet Weekend on July
 publishDate: 2006-08-16T11:16:15.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'New Cards, the Berlin Computer Spiele Museum and representing Failure'
 categories: projects chipshop
 publishDate: 2015-04-27T00:00:00.000Z

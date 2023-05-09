@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "A Year in Review - BlockchainOps Entrepreneur"
 publishDate: 2018-12-11 17:02:03 UTC
 author: "Chris Ward"

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Node logging best practices and tips
 publishDate: 2017-09-28
 image: ~/assets/images/articles/nodejs.jpg

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Henry Rollins - Comedy Theatre
 publishDate: 2008-04-28T16:21:54.000Z
 categories:

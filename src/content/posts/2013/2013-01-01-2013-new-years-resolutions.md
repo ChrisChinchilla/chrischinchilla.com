@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 2013 New Years resolutions
 publishDate: 2013-01-01T22:16:43.000Z
 ---

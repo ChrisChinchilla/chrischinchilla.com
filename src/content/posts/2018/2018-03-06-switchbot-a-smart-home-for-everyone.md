@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "SwitchBot- A Smart Home for Everyone?"
 kind: article
 publishDate: 2018-03-06 06:02:39 UTC

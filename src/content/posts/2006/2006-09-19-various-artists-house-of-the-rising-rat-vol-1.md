@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Various Artists - House of the Rising Rat vol 1
 publishDate: 2006-09-19T07:38:15.000Z
 categories:

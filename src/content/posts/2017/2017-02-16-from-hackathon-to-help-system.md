@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "From Hackathon to Help System"
 publishDate: 2017-02-16 00:00:00 UTC
 author: ""

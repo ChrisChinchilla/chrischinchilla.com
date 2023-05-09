@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Vision Disabilities and What You Need for Accessibility
 publishDate: 2019-07-23T12:47:15.713Z
 image: ~/assets/images/articles/tb_870x22043dccabe89e4489095165891b587bb6b.png

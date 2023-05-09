@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Creative vs Commons
 publishDate: 2013-11-24T23:07:27.000Z
 ---

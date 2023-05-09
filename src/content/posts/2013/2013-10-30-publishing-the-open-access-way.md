@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Publishing the Open Access Way
 publishDate: 2013-10-30T09:19:08.000Z
 ---

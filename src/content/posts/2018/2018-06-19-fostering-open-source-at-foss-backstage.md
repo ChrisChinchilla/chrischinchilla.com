@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Fostering Open Source at FOSS Backstage"
 publishDate: 2018-06-19 05:07:00 UTC
 author: "Chris Ward"

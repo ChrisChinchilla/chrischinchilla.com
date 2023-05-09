@@ -1,7 +1,4 @@
 ---
-
-
-
 title: These New Puritans - Brixton Windmill
 publishDate: 2006-03-07T16:10:36.000Z
 categories:

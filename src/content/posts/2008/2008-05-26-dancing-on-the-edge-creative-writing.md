@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Dancing on the Edge - Creative Writing
 publishDate: 2008-05-25T22:24:50.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Do We Need the World&#39;s First Emotional Processing Unit? [Audio]"
 publishDate: 2018-03-28 09:01:03 UTC
 author: "Chris Ward"

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Low Vs Diamond - The Water Rats, London'
 publishDate: 2006-02-26T00:00:00.000Z
 categories:

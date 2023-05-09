@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Pepperdata- Bringing DevOps Practices to the Big Data World [Audio]"
 publishDate: 2017-08-18 05:01:59 UTC
 author: "Chris Ward"

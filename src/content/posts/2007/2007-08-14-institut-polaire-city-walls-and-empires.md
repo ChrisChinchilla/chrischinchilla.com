@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Institut Polaire - City Walls and Empires
 publishDate: 2007-08-14T17:44:17.000Z
 ---

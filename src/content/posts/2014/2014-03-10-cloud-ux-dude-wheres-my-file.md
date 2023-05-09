@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Cloud UX - Dude where's my file?"
 publishDate: 2014-03-10T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/cloud-ux/'

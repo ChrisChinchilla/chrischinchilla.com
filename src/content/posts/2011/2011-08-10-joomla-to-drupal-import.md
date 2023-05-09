@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Joomla to Drupal import
 publishDate: 2011-08-10T00:00:00.000Z
 categories:

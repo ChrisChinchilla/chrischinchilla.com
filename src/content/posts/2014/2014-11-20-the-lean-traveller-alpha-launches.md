@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Lean Traveller alpha launches
 publishDate: 2014-11-20T10:14:21.000Z
 categories: projects leantraveller

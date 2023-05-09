@@ -1,7 +1,4 @@
 ---
-
-
-
 title: OOCON
 publishDate: 2008-01-10T15:28:45.000Z
 categories:

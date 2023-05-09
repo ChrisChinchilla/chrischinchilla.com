@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Setting up your Mac with Vagrant and Puphpet for Drupal Development
 publishDate: 2014-10-14T14:46:24.000Z
 ---

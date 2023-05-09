@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "eyeo, Adblocker plus and the future of funding"
 publishDate: 2018-08-30 09:04:02 UTC
 author: "Chris Ward"

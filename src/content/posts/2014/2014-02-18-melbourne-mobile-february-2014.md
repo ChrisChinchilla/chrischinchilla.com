@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Melbourne Mobile February 2014
 publishDate: 2014-02-18T20:52:54.000Z
 ---

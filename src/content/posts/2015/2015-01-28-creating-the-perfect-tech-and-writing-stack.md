@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Creating the 'Perfect' Tech and Writing Stack"
 publishDate: 2015-01-28T08:18:32.000Z
 categories: projects

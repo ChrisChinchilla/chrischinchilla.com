@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Bachelor of Arts - Interview
 publishDate: 2007-09-17T20:38:50.000Z
 ---

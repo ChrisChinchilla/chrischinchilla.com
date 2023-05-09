@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Drones - Interview
 publishDate: 2007-11-15T20:31:28.000Z
 ---

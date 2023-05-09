@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Rome & Jerusalem, The Clash of ancient Civilisations - Martin Goodman'
 publishDate: 2008-10-27T22:48:42.000Z
 categories:

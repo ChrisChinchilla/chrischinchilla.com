@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Reporting back from Container Days Hamburg
 publishDate: 2021-09-22
 author: "Chris Ward"

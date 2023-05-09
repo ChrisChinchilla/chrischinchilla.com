@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Degrowth 2014 - Degrowth and history, Economics, sustainability, power'
 publishDate: 2014-09-07T00:00:00.000Z
 categories:

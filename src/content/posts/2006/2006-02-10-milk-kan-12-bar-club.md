@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Milk Kan - 12 Bar Club
 publishDate: 2006-02-10T16:10:36.000Z
 categories:

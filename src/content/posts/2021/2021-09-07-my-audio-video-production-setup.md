@@ -1,7 +1,4 @@
 ---
-
-
-
 title: My audio and video production setup
 publishDate: 2021-09-07
 categories:

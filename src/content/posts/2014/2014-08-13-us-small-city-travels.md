@@ -1,7 +1,4 @@
 ---
-
-
-
 title: US Small city travels
 publishDate: 2014-08-13T19:16:01.000Z
 ---

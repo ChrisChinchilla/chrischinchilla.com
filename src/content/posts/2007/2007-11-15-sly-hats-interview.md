@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Sly Hats - Interview
 publishDate: 2007-11-15T20:23:29.000Z
 ---

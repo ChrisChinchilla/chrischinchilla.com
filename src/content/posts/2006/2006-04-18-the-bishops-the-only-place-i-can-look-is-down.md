@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Bishops - The only place I can look is down
 publishDate: 2006-04-18T15:10:36.000Z
 categories:

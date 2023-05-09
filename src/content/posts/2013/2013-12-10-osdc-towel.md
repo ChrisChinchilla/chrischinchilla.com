@@ -1,7 +1,4 @@
 ---
-
-
-
 title: OSDC Towel
 publishDate: 2013-12-10T00:00:00.000Z
 image: ~/assets/images/articles/OSDCtowel.jpg

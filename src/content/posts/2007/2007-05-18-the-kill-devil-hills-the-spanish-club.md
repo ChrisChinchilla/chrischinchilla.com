@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Kill Devil Hills - The Spanish Club
 publishDate: 2007-05-18T18:42:52.000Z
 ---

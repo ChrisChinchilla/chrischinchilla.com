@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Jacks, Assassination Collective, Actor/Model, Shooting at Unarmed Men -
   Pony
 publishDate: 2008-12-29T23:09:41.000Z

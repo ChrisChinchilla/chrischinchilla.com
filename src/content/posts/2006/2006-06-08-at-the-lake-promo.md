@@ -1,7 +1,4 @@
 ---
-
-
-
 title: At The Lake - Promo
 publishDate: 2006-06-08T02:59:37.000Z
 categories:

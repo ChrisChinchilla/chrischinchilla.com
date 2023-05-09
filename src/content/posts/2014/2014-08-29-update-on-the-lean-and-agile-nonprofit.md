@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Update on The Lean and Agile Nonprofit
 publishDate: 2014-08-29T16:29:53.000Z
 ---

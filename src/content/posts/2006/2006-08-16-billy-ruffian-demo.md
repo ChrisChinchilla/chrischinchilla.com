@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Billy Ruffian - Demo
 publishDate: 2006-08-16T11:14:02.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Angelcube pitch night, Aug 12th 2013'
 publishDate: 2013-08-13T00:00:00.000Z
 categories:

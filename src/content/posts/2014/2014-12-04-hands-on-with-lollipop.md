@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Hands on with Lollipop
 publishDate: 2014-12-04T14:38:09.000Z
 categories:

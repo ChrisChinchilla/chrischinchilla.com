@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Talking at Web Directions Code
 publishDate: 2013-04-19T22:59:14.000Z
 ---

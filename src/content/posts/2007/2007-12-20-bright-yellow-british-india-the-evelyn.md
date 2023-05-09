@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Bright Yellow, British India - The Evelyn
 publishDate: 2007-12-20T19:17:22.000Z
 ---

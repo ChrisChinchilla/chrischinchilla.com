@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Interview with Embers
 publishDate: '2007-12-14T01:06:57+00:00'
 tags: music interview

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Teaching Children to Code
 publishDate: '2017-03-09 18:13:30 +0100'
 image: ~/assets/images/articles/children-coding.jpeg

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: WA Music showcase - The Spanish Club
 publishDate: 2007-05-18T18:57:39.000Z
 ---

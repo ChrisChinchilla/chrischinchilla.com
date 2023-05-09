@@ -1,7 +1,4 @@
 ---
-
-
-
 title: eLance big idea Melbourne
 publishDate: 2014-02-01T21:53:12.000Z
 categories:

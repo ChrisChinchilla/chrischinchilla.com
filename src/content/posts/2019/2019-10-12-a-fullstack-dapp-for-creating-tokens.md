@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "A fullstack dapp for creating tokens"
 publishDate: 2019-10-12 07:36:30 UTC
 author: "Chris Ward"

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Organise your Browser Tabs with OneTab
 publishDate: 2015-04-11T00:00:00.000Z
 image: ~/assets/images/articles/image-organise-your-browser-tabs-with-one-tab.jpg

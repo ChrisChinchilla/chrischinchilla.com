@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Creating Your First Site with Drupal 8
 publishDate: 2014-10-27T09:54:10.000Z
 ---

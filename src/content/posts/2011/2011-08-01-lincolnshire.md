@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Lincolnshire
 publishDate: 2011-08-01T00:00:00.000Z
 images: lincoln.jpg

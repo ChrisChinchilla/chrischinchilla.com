@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Chinese receipts
 publishDate: 2011-07-25T15:21:51.000Z
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Pink Grease - Ordinary Girl
 publishDate: 2006-05-24T15:10:36.000Z
 categories:

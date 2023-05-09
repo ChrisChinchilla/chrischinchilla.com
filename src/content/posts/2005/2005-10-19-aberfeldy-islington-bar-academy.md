@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Aberfeldy - Islington Bar Academy
 publishDate: 2005-10-19T15:10:37.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Dan Sartain - Join Dan Sartain
 publishDate: 2006-09-19T07:43:00.000Z
 categories:

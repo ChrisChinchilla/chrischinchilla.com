@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Computer Human Interaction
 publishDate: 2014-01-14T21:23:48.000Z
 ---

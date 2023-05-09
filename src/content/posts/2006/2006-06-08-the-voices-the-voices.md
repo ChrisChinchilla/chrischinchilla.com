@@ -1,7 +1,4 @@
 ---
-
-
-
 title: The Voices - The Voices
 publishDate: 2006-06-08T15:10:36.000Z
 categories:

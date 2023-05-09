@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Becoming the First Cyborgs With Liviu Babitz
 publishDate: 2017-07-21
 image: ~/assets/images/articles/liviubabbitz.jpeg

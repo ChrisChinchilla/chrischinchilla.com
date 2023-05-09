@@ -1,7 +1,4 @@
 ---
-
-
-
 title: It's all change, again
 publishDate: 2015-02-16T08:29:00.000Z
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Dr Dog - We all Belong
 publishDate: 2007-11-15T20:30:37.000Z
 ---

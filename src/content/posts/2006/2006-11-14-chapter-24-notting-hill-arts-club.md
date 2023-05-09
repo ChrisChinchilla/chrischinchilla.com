@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Chapter 24 - Notting Hill Arts Club
 publishDate: 2006-11-14T01:03:10.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: An eye on observability for November 2021
 publishDate: 2021-11-11
 author: "Chris Ward"

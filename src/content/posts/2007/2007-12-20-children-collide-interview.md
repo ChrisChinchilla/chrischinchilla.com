@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Children Collide - Interview
 publishDate: 2007-12-20T19:18:13.000Z
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Win a ticket to CiviCon San Francisco 2014
 publishDate: 2014-03-22T19:30:19.000Z
 ---

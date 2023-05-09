@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Smart Contract Utilities with ZeppelinOS - Deploying to Mainnet"
 publishDate: 2019-03-06 23:21:27 UTC
 author: "Chris Ward"

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Core game concepts introduced
 publishDate: 2014-11-20T12:23:07.000Z
 categories: projects chipshop

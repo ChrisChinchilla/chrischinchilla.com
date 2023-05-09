@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Dependency Management with the Swift Package Manager
 publishDate: 2016-04-27T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/introducing-the-swift-package-manager/'

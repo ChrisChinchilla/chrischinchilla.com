@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Currently Looking for Opportunities
 publishDate: 2015-01-20T16:21:43.000Z
 categories:

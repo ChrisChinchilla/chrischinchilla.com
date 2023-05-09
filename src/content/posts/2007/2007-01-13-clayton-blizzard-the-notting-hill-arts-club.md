@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Clayton Blizzard - The Notting Hill Arts Club
 publishDate: 2007-01-13T00:00:00.000Z
 categories:

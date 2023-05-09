@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Take your drupal sites offline
 publishDate: 2013-03-12T18:38:47.000Z
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Make tracking agreements simple with our new Compliance Dashboard"
 publishDate: 2020-03-11
 author: "Chris Ward"

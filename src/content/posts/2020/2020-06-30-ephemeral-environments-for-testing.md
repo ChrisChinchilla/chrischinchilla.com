@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Ephemeral Environments for Testing
 publishDate: 2020-06-30
 author: "Chris Ward"

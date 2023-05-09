@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Ned Collette Interview
 publishDate: '2007-10-12T23:06:45+00:00'
 categories:

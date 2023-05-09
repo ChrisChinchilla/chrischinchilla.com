@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Pikelet - Manchester Lane
 publishDate: 2008-08-25T18:55:08.000Z
 categories:

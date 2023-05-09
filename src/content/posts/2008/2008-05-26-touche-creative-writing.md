@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Touche - Creative Writing
 publishDate: 2008-05-25T22:18:55.000Z
 categories:

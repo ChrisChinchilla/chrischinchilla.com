@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "The Story of English by Robert McCrum, Robert MacNeil"
 publishDate: "2016-05-30 08:37:05 +0200"
 tags:

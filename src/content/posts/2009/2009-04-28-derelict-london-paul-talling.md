@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Derelict London - Paul Talling
 publishDate: 2009-04-28T18:08:50.000Z
 categories:

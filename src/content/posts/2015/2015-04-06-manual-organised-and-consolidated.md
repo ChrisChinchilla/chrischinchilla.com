@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Manual organised and consolidated
 publishDate: 2015-04-06T19:09:52.000Z
 image: ~/assets/images/articles/image-manual-organised-and-consolidated.png

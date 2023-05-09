@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "An Overview of the Kontena Platform"
 publishDate: 2017-12-26 05:01:01 UTC
 author: "Chris Ward"

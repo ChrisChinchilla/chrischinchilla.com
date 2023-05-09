@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Hellyeah, Mammal - Billboard'
 publishDate: 2007-07-07T00:10:42.000Z
 categories:

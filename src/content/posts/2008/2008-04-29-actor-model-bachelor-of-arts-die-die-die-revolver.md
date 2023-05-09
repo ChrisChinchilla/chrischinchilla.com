@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Actor/Model, Bachelor of Arts, Die Die Die! - Revolver'
 publishDate: 2008-04-29T04:44:23.000Z
 categories:

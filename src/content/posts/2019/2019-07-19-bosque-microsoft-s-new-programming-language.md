@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Bosque- Microsoft’s New Programming Language"
 publishDate: 2019-07-19 13:04:50 UTC
 author: "Chris Ward"

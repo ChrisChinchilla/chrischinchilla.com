@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Afrolynk- African Tech and Entrepreneurship"
 publishDate: 2018-09-05 16:03:01 UTC
 author: "Chris Ward"

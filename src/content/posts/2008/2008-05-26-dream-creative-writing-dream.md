@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Dream - Creative Writing / Dream
 publishDate: 2008-05-25T22:22:23.000Z
 categories:

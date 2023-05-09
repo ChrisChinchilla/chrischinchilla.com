@@ -1,7 +1,4 @@
 ---
-
-
-
 title: How Much Milk is too Much?
 publishDate: 2010-09-14T00:00:00.000Z
 categories:

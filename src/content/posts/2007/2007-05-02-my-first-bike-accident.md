@@ -1,7 +1,4 @@
 ---
-
-
-
 title: My First Melbourne Bike Accident
 publishDate: '2007-05-02T06:36:29+00:00'
 tags:

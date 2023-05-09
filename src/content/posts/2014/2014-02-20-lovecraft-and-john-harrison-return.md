@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Lovecraft and John Harrison return
 publishDate: 2014-02-20T22:13:37.000Z
 ---

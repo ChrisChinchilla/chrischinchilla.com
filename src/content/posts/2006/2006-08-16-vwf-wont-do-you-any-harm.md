@@ -1,7 +1,4 @@
 ---
-
-
-
 title: VWF - Wont do you any harm
 publishDate: 2006-08-16T11:03:47.000Z
 categories:

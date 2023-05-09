@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Larrikin Love - Kings College
 publishDate: 2006-06-10T15:10:36.000Z
 categories:

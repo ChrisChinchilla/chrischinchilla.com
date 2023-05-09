@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Bitch Slap - Pony, Melbourne
 publishDate: 2007-09-17T20:33:30.000Z
 ---

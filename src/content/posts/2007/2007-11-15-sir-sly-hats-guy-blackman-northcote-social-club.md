@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Sir, Sly Hats, Guy Blackman - Northcote Social Club
 publishDate: 2007-11-15T20:27:47.000Z
 ---

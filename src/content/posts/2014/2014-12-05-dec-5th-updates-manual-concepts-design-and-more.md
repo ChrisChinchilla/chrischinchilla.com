@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Dec 5th updates: Manual, concepts, design and more!'
 publishDate: 2014-12-05T15:05:39.000Z
 categories: projects chipshop

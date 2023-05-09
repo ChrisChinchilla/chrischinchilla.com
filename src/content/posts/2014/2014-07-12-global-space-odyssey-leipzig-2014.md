@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Global Space Odyssey, Leipzig 2014'
 publishDate: 2014-07-12T16:46:13.000Z
 categories:

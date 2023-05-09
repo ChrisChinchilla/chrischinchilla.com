@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Extending Drupal with a CRM talk at Drupal Melbourne meetup 8th Jan
 publishDate: 2013-01-03T23:15:06.000Z
 ---

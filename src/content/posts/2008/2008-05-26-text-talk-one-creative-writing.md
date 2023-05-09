@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Text Talk one - Creative Writing
 publishDate: 2008-05-25T22:14:03.000Z
 categories:

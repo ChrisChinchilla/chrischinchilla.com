@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "HashiCorp Tools Useful for Continuous Integration"
 publishDate: 2017-06-26 14:01:39 UTC
 author: "Chris Ward"

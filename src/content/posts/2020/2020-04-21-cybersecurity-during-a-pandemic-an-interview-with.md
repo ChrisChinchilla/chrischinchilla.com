@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Cybersecurity During a Pandemic- An Interview With Critical Start"
 publishDate: 2020-04-21
 author: "Chris Ward"

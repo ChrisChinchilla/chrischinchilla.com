@@ -1,7 +1,4 @@
 ---
-
-
-
 title: What do you know - April 2014
 publishDate: 2014-04-07T02:37:29.000Z
 ---

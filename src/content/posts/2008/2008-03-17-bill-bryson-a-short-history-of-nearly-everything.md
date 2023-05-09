@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Bill Bryson - A Short History of nearly everything
 publishDate: 2008-03-17T00:00:00.000Z
 categories:

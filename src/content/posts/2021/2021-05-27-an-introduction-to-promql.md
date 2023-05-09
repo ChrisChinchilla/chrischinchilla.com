@@ -1,7 +1,4 @@
 ---
-
-
-
 title: An Introduction to PromQL
 publishDate: 2021-05-27
 author: "Chris Ward"

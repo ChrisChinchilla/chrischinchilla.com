@@ -1,7 +1,4 @@
 ---
-
-
-
 title: My First AFL Game
 publishDate: '2007-05-31T05:38:39+00:00'
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: "Bringing DevOps Practices to Database Administrators [Audio]"
 publishDate: 2017-08-23 14:01:56 UTC
 author: "Chris Ward"

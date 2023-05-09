@@ -1,7 +1,4 @@
 ---
-
-
-
 title: 'Young & Restless, Dardanelles, The Galvatrons, Cassette Kids, Flamingo Crash, Reptiles - The Corner'
 publishDate: 2008-04-28T16:24:50.000Z
 categories:

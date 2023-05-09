@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Michael Franti - The Prince of Wales
 publishDate: 2009-04-28T17:48:32.000Z
 categories:

@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Meetup and Conference Etiquette Revisited
 publishDate: 2016-01-24T00:00:00.000Z
 publication_url: 'https://medium.com/@ChrisChinchilla/meetup-and-conference-etiquette-revisited-29de1686ec29#.yxd9a5t8s'

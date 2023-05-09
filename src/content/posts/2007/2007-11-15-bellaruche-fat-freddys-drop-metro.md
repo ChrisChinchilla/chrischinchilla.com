@@ -1,7 +1,4 @@
 ---
-
-
-
 title: Bellaruche, Fat Freddy's Drop - Metro
 publishDate: 2007-11-15T20:29:01.000Z
 ---
