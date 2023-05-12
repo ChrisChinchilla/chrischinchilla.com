@@ -45,3 +45,20 @@ name: string;
 image: string;
 body: string;
 }
+
+export interface Event {
+
+  company_url: string;
+  name: string;
+  image: string;
+  body: string;
+
+  title?: string,
+  action?: string,
+  event: string,
+  start_date: Date,
+  end_date: Date,
+  venue?: string,
+  pres_source: string,
+  pres_url: string,
+  }

@@ -1,6 +1,5 @@
 ---
 import Layout from "~/layouts/PageLayout.astro";
-import { Pagination } from "accessible-astro-components";
 import Headline from '~/components/blog/Headline.astro';
 
 import Game from "../components/Game.astro";
@@ -17,7 +16,7 @@ export async function getStaticPaths({ paginate }) {
 //     pageSize: 50,
 //   });
 }
-const { page } = Astro.props;
+
 const meta = {
   title: "Games",
   description: "I create and edit roleplay and board games and everything in-between.",
@@ -53,15 +52,5 @@ const meta = {
       }
     </ul>
     <!-- TODO: Index page -->
-    <!-- <Pagination
-      firstPage={page.url.prev ? "/clients/1" : null}
-      previousPage={page.url.prev ? page.url.prev : null}
-      nextPage={page.url.next ? page.url.next : null}
-      lastPage={page.url.next
-        ? `/clients/${Math.round(page.total / page.size)}`
-        : null}
-      currentPage={page.currentPage}
-      totalPages={Math.round(page.total / page.size)}
-    /> -->
 </section>
 </Layout>
