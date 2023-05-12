@@ -4,7 +4,7 @@ import Headline from '~/components/blog/Headline.astro';
 
 import Client from "../components/Client.astro";
 import { getCollection } from 'astro:content';
-const allClients = await getCollection('client');
+const allClients = await getCollection('clients');
 
 const meta = {
   title: "Clients",

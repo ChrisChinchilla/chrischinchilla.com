@@ -19,13 +19,13 @@ const posts = defineCollection({
   }),
 });
 
-const game = defineCollection({
+const games = defineCollection({
   schema: z.object({
     title: z.string(),
   }),
 });
 
-const event = defineCollection({
+const events = defineCollection({
   schema: z.object({
     title: z.string().optional(),
     action: z.string().optional(),
@@ -38,7 +38,7 @@ const event = defineCollection({
   }),
 });
 
-const client = defineCollection({
+const clients = defineCollection({
   schema: z.object({
     type: z.string(),
     title: z.string(),
@@ -61,7 +61,7 @@ const client = defineCollection({
 
 export const collections = {
   posts: posts,
-  client: client,
-  game: game,
-  event: event
+  clients: clients,
+  games: games,
+  events: events
 };

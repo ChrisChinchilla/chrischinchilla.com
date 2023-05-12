@@ -6,7 +6,7 @@ import Event from "~/components/Event.astro";
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths({ paginate }) {
-  let allEvents = await getCollection('event');
+  let allEvents = await getCollection('events');
 allEvents = allEvents.sort(
     (a, b) => new Date(b.data.start_date).valueOf() - new Date(a.data.start_date).valueOf()
   );

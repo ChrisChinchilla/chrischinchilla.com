@@ -5,7 +5,7 @@ import Headline from '~/components/blog/Headline.astro';
 
 import Game from "../components/Game.astro";
 import { getCollection } from 'astro:content';
-const allGames = await getCollection('game');
+const allGames = await getCollection('games');
 // console.log(allGames);
 export async function getStaticPaths({ paginate }) {
 //   let allClients = await Astro.glob("./**/*.md");
