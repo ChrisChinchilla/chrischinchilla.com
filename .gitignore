@@ -18,6 +18,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+*.plist
 
 package-lock.json
 pnpm-lock.yaml
@@ -25,4 +26,3 @@ pnpm-lock.yaml
 src/content/types.generated.d.ts
 # Local Netlify folder
 .netlify
-*.plist
