@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@astropub/md": "^0.2.0",
+    "@netlify/functions": "^1.6.0",
     "markdown-truncate": "^1.1.0"
   },
   "devDependencies": {
