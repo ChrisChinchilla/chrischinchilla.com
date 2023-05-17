@@ -15,7 +15,8 @@
   "dependencies": {
     "@astropub/md": "^0.2.0",
     "@netlify/functions": "^1.6.0",
-    "markdown-truncate": "^1.1.0"
+    "markdown-truncate": "^1.1.0",
+    "node-fetch": "^3.3.1"
   },
   "devDependencies": {
     "@astro-community/astro-embed-youtube": "^0.2.2",
