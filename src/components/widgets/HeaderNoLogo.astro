@@ -1,9 +1,8 @@
 ---
 import { Icon } from 'astro-icon';
-import Logo from '~/components/common/LogoChinch.astro';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
-
+// TODO: Consolidate varied templates
 import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/utils/permalinks';
 
 const links = [
@@ -47,7 +46,6 @@ const links = [
   <div class="py-3 px-3 md:py-3.5 md:px-4 mx-auto w-full md:flex md:justify-between max-w-6xl">
     <div class="flex justify-between">
       <a class="flex items-center" href={getHomePermalink()}>
-        <Logo />
       </a>
       <div class="flex items-center md:hidden">
         <!-- TODO: Fix image and return -->

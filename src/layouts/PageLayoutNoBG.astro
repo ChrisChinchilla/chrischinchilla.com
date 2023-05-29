@@ -1,9 +1,8 @@
 ---
 import Layout from '~/layouts/BaseLayout.astro';
-import Header from '~/components/widgets/HeaderNoLogo.astro';
+import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
-import bgImage from '../assets/images/chinch-head.png';
 
 import { MetaSEO } from '~/types';
 
@@ -13,14 +12,11 @@ export interface Props {
 
 const { meta } = Astro.props;
 ---
-
+<!-- TODO: Add background at some point -->
 <Layout {meta}>
   <Announcement />
   <Header />
-  <main style=`background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: top 11% center;
-    background-image: url(${bgImage.src});`>
+  <main>
     <slot />
   </main>
   <Footer />

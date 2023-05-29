@@ -3,6 +3,7 @@ import { SITE } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
+import HeroBGImg from '~/components/widgets/HeroBGImg.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import HighlightedPosts from '~/components/blog/HighlightedPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -16,10 +17,9 @@ const meta = {
 
 <Layout {meta}>
   <!-- Hero Widget ******************* -->
-
-  <Hero
+<!-- TODO: Parameterise -->
+  <HeroBGImg
     callToAction={{ text: 'What do I do?', href: '#features2' }}
-    image={{ src: import('~/assets/images/default.png'), alt: 'Chinchilla Hero Image' }}
   >
   <!-- TODO: Parameterise -->
     <Fragment slot="title">
@@ -27,7 +27,7 @@ const meta = {
     </Fragment>
   <!-- TODO: Parameterise -->
     <Fragment slot="subtitle">
-      I am a technical communicator with a love of explaining technical concepts in documentation, blog posts, videos, books and more. I am a podcaster, video maker, writer of interactive fiction, and games.
+      I tell stories through documentation, blog posts, videos, books and more. I am a podcaster, video maker, writer of interactive fiction, and games.
     </Fragment>
   </Hero>
 

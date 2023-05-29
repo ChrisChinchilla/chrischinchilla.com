@@ -1,5 +1,5 @@
 ---
-import Layout from "~/layouts/PageLayout.astro";
+import Layout from "~/layouts/PageLayoutNoBG.astro";
 import { Pagination } from "accessible-astro-components";
 import Headline from '~/components/blog/Headline.astro';
 import Event from "~/components/Event.astro";
@@ -28,7 +28,7 @@ const meta = {
 ---
 
 <Layout {meta}>
-  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
 
     <Headline
       subtitle={meta.description}

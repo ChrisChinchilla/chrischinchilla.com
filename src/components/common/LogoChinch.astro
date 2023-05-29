@@ -1,0 +1,19 @@
+---
+import { Picture } from '@astrojs/image/components';
+import bgImage from '../../assets/images/chinch-head.png';
+
+---
+<Picture
+class="mx-auto"
+widths={[100, 200, 400]}
+sizes="(max-width: 767px) 400px, (max-width: 1479px) 768px, 1480px"
+aspectRatio={1480 / 833}
+loading="eager"
+width={100}
+fit="outside"
+src={bgImage}
+alt="Chinchilla logo"
+/>
+
+<span class="self-center ml-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">Chris Chinchilla</span
+>
