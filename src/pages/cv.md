@@ -19,7 +19,9 @@ writer roles.
 
 - 2017, "Jump start responsive design" from SitePoint
 - Editing two books for Packt publishing
+- Technical editor for two books with Manning
 - Kubernetes Whitepaper for Weave.works
+- Working on a yet to be released book on Technical Writing for Packt publishing
 
 ### Courses
 
@@ -37,14 +39,12 @@ Over the past 4-5 years, I have spoken at over 100 events on a wide variety of s
 I contribute to several regular podcasts:
 
 - My Geek, tech, and gaming show, "Chinchilla Squeaks"
-- The "Write the Docs" podcast
 - As well as a gaming and storytelling podcast
 
 I host the following regular livestreams:
 
 - Weekly "Learning livestream" with a tech tool
 - Regular "hands on" videos
-- As well as a gamin livestream
 
 Find links to all these at [chrischinchilla.com](http://chrischinchilla.com/).
 
@@ -61,6 +61,16 @@ I have always been active in open source communities, including regular contribu
 - I run a regular writers meetup 2 times a week in Berlin
 
 ## Work Experience
+### Docker, Staff Technical Writer
+_February 2023 - Present_
+Docker Inc is a major contributor to many container-related technologies as well as its own commercial offerings. I am a staff technical writer on the documentation team and currently attached to working on a number of commercial products. My responsibilities include:
+
+- Working with product managers, engineers, and designers to create and maintain documentation for new and existing products
+- Proposing and steering new improvement projects
+- Editing and reviewing submissions from internal and external contributors
+- Liaising and working with our developer relations and marketing teams for collaboration ideas
+- Writing technical blog posts for products
+- Providing guidance, mentorship, and feedback
 
 ### Chronosphere, Senior Technical Writer
 
@@ -103,6 +113,9 @@ As a freelance writer and blogger, I have contributed to the blogs and documenta
 - **The Next Web**: Tech journalist covering events and interviews
 - **Equinix**: Technical blog posts
 - **DGraph**: Documentation platform overhaul
+- **Caepe**: Documenting a new product release
+- **n8n**: Creating a series of self-hosting guides
+- **Sentry**: Writing blog posts on how to debud with certain languages
 
 ### Ethereum Foundation, Technical Writer
 
