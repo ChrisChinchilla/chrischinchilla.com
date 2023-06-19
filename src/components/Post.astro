@@ -19,6 +19,7 @@ const { post, title, date, publication_url, image, body } = Astro.props;
 const featured_image = await findImage(image);
 
 // Format date
+// TODO: Method
 var rawDate = new Date(date);
 var formattedDate = rawDate.toLocaleString("en-GB", {
   dateStyle: "short",
@@ -73,7 +74,7 @@ const truncatedBody = truncateMarkdown(body, {
           )
         }
       </h2>
-      <i>{formattedDate}</i>
+      <i class="my-2 block">{formattedDate}</i>
       </header>
       <!-- TODO: Seems kind of ridiculous -->
       <Markdown of={truncatedBody} />

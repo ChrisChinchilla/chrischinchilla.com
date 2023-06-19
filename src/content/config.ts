@@ -1,6 +1,7 @@
 import { z, defineCollection } from 'astro:content';
 
 const posts = defineCollection({
+  type: 'content', // v2.5.0 and later
   schema: z.object({
     title: z.string(),
     // description: z.string().optional(),
@@ -20,12 +21,14 @@ const posts = defineCollection({
 });
 
 const games = defineCollection({
+  type: 'content', // v2.5.0 and later
   schema: z.object({
     title: z.string(),
   }),
 });
 
 const events = defineCollection({
+  type: 'content', // v2.5.0 and later
   schema: z.object({
     title: z.string().optional(),
     action: z.string().optional(),
@@ -39,6 +42,7 @@ const events = defineCollection({
 });
 
 const clients = defineCollection({
+  type: 'content', // v2.5.0 and later
   schema: z.object({
     type: z.string(),
     title: z.string(),
@@ -59,9 +63,23 @@ const clients = defineCollection({
   }),
 });
 
+const books = defineCollection({
+  type: 'content', // v2.5.0 and later
+  schema: z.object({
+    title: z.string(),
+    // description: z.string(),
+    publisher: z.string(),
+    image: z.string(),
+    store_urls: z.array(z.object({url: z.string(), label: z.string()})).optional(),
+    publish_date: z.date(),
+    role: z.string(),
+  }),
+});
+
 export const collections = {
   posts: posts,
   clients: clients,
   games: games,
-  events: events
+  events: events,
+  books: books
 };

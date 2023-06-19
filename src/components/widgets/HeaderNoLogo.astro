@@ -4,49 +4,51 @@ import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 // TODO: Consolidate varied templates
 import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/utils/permalinks';
-
+// TODO: Function
 const links = [
-{text: 'About', href: getPermalink('/about'),},
+  { text: 'About', href: getPermalink('/about') },
 
   {
     text: 'Writing',
     links: [
-    {
-    text: 'Blog',
-    href: getBlogPermalink(),
-  },
+      {
+        text: 'Blog',
+        href: getBlogPermalink(),
+      },
+      {
+        text: 'Books',
+        href: getPermalink('/books'),
+      },
     ],
   },
   {
     text: 'Work',
     links: [
-  {
-    text: 'CV',
-    href: getPermalink('/cv'),
-  },
-  {
-    text: 'Clients',
-    href: getPermalink('/clients'),
-  },
-  {
-    text: 'Games',
-    href: getPermalink('/games'),
-  },
+      {
+        text: 'CV',
+        href: getPermalink('/cv'),
+      },
+      {
+        text: 'Clients',
+        href: getPermalink('/clients'),
+      },
+      {
+        text: 'Games',
+        href: getPermalink('/games'),
+      },
     ],
   },
-  {text: 'Links', href: getPermalink('/links'),},
-  {text: 'Videos', href: getPermalink('/videos'),},
-  {text: 'Podcast', href: getPermalink('/podcast'),},
-  {text: 'Events', href: getPermalink('/events'),},
-
+  { text: 'Links', href: getPermalink('/links') },
+  { text: 'Videos', href: getPermalink('/videos') },
+  { text: 'Podcast', href: getPermalink('/podcast') },
+  { text: 'Events', href: getPermalink('/events') },
 ];
 ---
 
 <header class="sticky top-0 z-40 flex-none mx-auto w-full transition-all ease-in duration-100" id="header">
   <div class="py-3 px-3 md:py-3.5 md:px-4 mx-auto w-full md:flex md:justify-between max-w-6xl">
     <div class="flex justify-between">
-      <a class="flex items-center" href={getHomePermalink()}>
-      </a>
+      <a class="flex items-center" href={getHomePermalink()}> </a>
       <div class="flex items-center md:hidden">
         <!-- TODO: Fix image and return -->
         <!-- <ToggleTheme /> -->
@@ -99,7 +101,7 @@ const links = [
       </ul>
       <div class="md:self-center flex items-center md:mb-0 ml-4">
         <div class="hidden items-center md:flex">
-                  <!-- TODO: Fix image and return -->
+          <!-- TODO: Fix image and return -->
 
           <!-- <ToggleTheme iconClass="w-5 h-5" /> -->
           <a

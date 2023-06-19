@@ -6,40 +6,44 @@ import ToggleMenu from '~/components/common/ToggleMenu.astro';
 
 import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/utils/permalinks';
 
+// TODO: Function
 const links = [
-{text: 'About', href: getPermalink('/about'),},
+  { text: 'About', href: getPermalink('/about') },
 
   {
     text: 'Writing',
     links: [
-    {
-    text: 'Blog',
-    href: getBlogPermalink(),
-  },
+      {
+        text: 'Blog',
+        href: getBlogPermalink(),
+      },
+      {
+        text: 'Books',
+        href: getPermalink('/books'),
+      },
     ],
   },
   {
     text: 'Work',
     links: [
-  {
-    text: 'CV',
-    href: getPermalink('/cv'),
-  },
-  {
-    text: 'Clients',
-    href: getPermalink('/clients'),
-  },
-  {
-    text: 'Games',
-    href: getPermalink('/games'),
-  },
+      {
+        text: 'CV',
+        href: getPermalink('/cv'),
+      },
+      {
+        text: 'Clients',
+        href: getPermalink('/clients'),
+      },
+      {
+        text: 'Games',
+        href: getPermalink('/games'),
+      },
     ],
   },
-  {text: 'Links', href: getPermalink('/links'),},
-  {text: 'Videos', href: getPermalink('/videos'),},
-  {text: 'Podcast', href: getPermalink('/podcast'),},
-  {text: 'Events', href: getPermalink('/events'),},
-
+  { text: 'Links', href: getPermalink('/links') },
+  { text: 'Videos', href: getPermalink('/videos') },
+  { text: 'Podcast', href: getPermalink('/podcast') },
+  { text: 'Events', href: getPermalink('/events') },
 ];
 ---
 

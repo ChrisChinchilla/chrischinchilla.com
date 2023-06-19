@@ -1,0 +1,79 @@
+---
+import { Picture } from '@astrojs/image/components';
+import { findImage } from '~/utils/images';
+import { CollectionEntry } from 'astro:content';
+import { Markdown } from '@astropub/md';
+import truncateMarkdown from 'markdown-truncate';
+
+export interface Props {
+  publisher: string;
+  title: string;
+  image: string;
+  body: string;
+  store_urls: Array<String>;
+  publish_date: string;
+  role: string;
+}
+
+const { publisher, title, image, body, store_urls, publish_date, role} = Astro.props;
+
+// const { Content } = await post.render();
+const featured_image = await findImage(image);
+// TODO: Why is slug broken again?
+// Truncate text
+// TODO: Better way?
+// TODO: Make to helper or plugin
+// var truncatedText = body.split("</p>");
+
+const truncatedBody = truncateMarkdown(body, {
+  limit: 500,
+  ellipsis: true,
+});
+
+// Format date
+// TODO: Method
+var rawDate = new Date(publish_date);
+var formattedDate = rawDate.toLocaleString('en-GB', {
+  dateStyle: 'short',
+  timeZone: 'UTC',
+});
+---
+
+<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${image ? 'md:grid-cols-2' : ''}`}>
+  <div
+    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg"
+  >
+    <Picture
+      src={featured_image ? featured_image : '~/assets/images/default.png'}
+      class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[400, 900]}
+      sizes="(max-width: 900px) 400px, 900px"
+      alt={title}
+      aspectRatio="16:9"
+      loading="lazy"
+      decoding="async"
+      fetchpriority="auto"
+    />
+  </div>
+
+  <div class="mt-2">
+    <header>
+      <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
+        {title}
+      </h2>
+      <i class="my-2 block">{publisher}, {formattedDate}, {role}</i>
+    </header>
+    <!-- TODO: Seems kind of ridiculous -->
+    <Markdown of={truncatedBody} class="m-2" />
+    {store_urls &&
+    <b class="my-2 block">Buy a copy in the following places:</b>
+    <ul class="list-disc list-inside m-2">
+    {
+    store_urls.map((store_url) => (
+    <li><a href={store_url.url}>{store_url.label}</a></li>
+    ))
+      }
+      </ul>
+    }
+  </div>
+</article>
