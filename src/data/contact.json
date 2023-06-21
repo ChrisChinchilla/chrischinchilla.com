@@ -1,0 +1,22 @@
+[
+  {
+    "title": "GitHub",
+    "image": "images/icons/social/github.png",
+    "network_link": "https://github.com/ChrisChinchilla/"
+  },
+  {
+    "title": "LinkedIn",
+    "image": "images/icons/social/linkedin.png",
+    "network_link": "https://www.linkedin.com/in/chrischinchilla"
+  },
+  {
+    "title": "Email",
+    "image": "images/icons/social/email.png",
+    "network_link": "mailto:chris@chrischinchilla.com"
+  },
+  {
+    "title": "Twitter",
+    "image": "images/icons/social/twitter.png",
+    "network_link": "https://twitter.com/chrischinch"
+  }
+]
