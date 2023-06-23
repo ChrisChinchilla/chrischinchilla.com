@@ -1,11 +1,20 @@
 ---
 import { Icon } from 'astro-icon';
+
+import json from '../../data/contact.json';
 ---
 
-<section class="bg-primary-50 dark:bg-slate-800">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 text-md text-center font-medium">
-    <span class="font-bold">
-      <Icon name="tabler:info-square" class="w-5 h-5 inline-block align-text-bottom" /> Philosophy:</span
-    > Simplicity, Best Practices and High Performance
-  </div>
+<section class="md:flex md:items-center md:justify-between py-6 md:py-8 bg-primary-50 dark:bg-slate-800 content-center">
+  <ul class=" mx-auto flex mb-4 md:order-1 md:mb-0">
+  {
+    json.map((contactLink) => (
+      <li><a
+        class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+        aria-label={contactLink.title}
+        href={contactLink.network_link}
+      >
+        <Icon name={contactLink.image} class="w-10 h-10 inline-block align-text-bottom" />
+      </a></li>
+    ))
+  }
 </section>

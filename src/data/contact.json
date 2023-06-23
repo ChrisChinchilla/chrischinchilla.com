@@ -1,22 +1,27 @@
 [
   {
     "title": "GitHub",
-    "image": "images/icons/social/github.png",
+    "image": "tabler:brand-github",
     "network_link": "https://github.com/ChrisChinchilla/"
   },
   {
     "title": "LinkedIn",
-    "image": "images/icons/social/linkedin.png",
+    "image": "tabler:brand-linkedin",
     "network_link": "https://www.linkedin.com/in/chrischinchilla"
   },
   {
     "title": "Email",
-    "image": "images/icons/social/email.png",
+    "image": "tabler:mail",
     "network_link": "mailto:chris@chrischinchilla.com"
   },
   {
     "title": "Twitter",
-    "image": "images/icons/social/twitter.png",
+    "image": "tabler:brand-twitter",
     "network_link": "https://twitter.com/chrischinch"
+  },
+  {
+    "title": "Medium",
+    "image": "tabler:brand-medium",
+    "network_link": "https://medium.com/@ChrisChinchilla"
   }
 ]
