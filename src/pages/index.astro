@@ -7,6 +7,7 @@ import HeroBGImg from '~/components/widgets/HeroBGImg.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import HighlightedPosts from '~/components/blog/HighlightedPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Note from '~/components/widgets/Note.astro';
 
 const meta = {
   title: SITE.title,
@@ -30,10 +31,6 @@ const meta = {
       I tell stories through documentation, blog posts, videos, books and more. I am a podcaster, video maker, writer of interactive fiction, and games.
     </Fragment>
   </Hero>
-
-  <!-- Note Widget ******************* -->
-
-  <!-- <Note /> -->
 
   <!-- Features Widget *************** -->
 
@@ -104,6 +101,9 @@ const meta = {
     ]}
   />
 
+  <!-- Note Widget ******************* -->
+
+  <Note />
   <!-- HighlightedPosts Widget ******* -->
 <!-- TODO: Generalise to all content types -->
   <HighlightedPosts

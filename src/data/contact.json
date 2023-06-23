@@ -1,0 +1,27 @@
+[
+  {
+    "title": "GitHub",
+    "image": "tabler:brand-github",
+    "network_link": "https://github.com/ChrisChinchilla/"
+  },
+  {
+    "title": "LinkedIn",
+    "image": "tabler:brand-linkedin",
+    "network_link": "https://www.linkedin.com/in/chrischinchilla"
+  },
+  {
+    "title": "Email",
+    "image": "tabler:mail",
+    "network_link": "mailto:chris@chrischinchilla.com"
+  },
+  {
+    "title": "Twitter",
+    "image": "tabler:brand-twitter",
+    "network_link": "https://twitter.com/chrischinch"
+  },
+  {
+    "title": "Medium",
+    "image": "tabler:brand-medium",
+    "network_link": "https://medium.com/@ChrisChinchilla"
+  }
+]
