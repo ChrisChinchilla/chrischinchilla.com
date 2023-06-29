@@ -7,9 +7,10 @@ export interface Props {
   name: string;
   description: string;
   id: string;
+  audio_preview_url: string;
 }
 
-const { name, description, id } = Astro.props;
+const { name, description, id, audio_preview_url } = Astro.props;
 var url = `https://open.spotify.com/episode/${id}`;
 const truncatedText = truncate(description, 100, {
   byWords: true,
@@ -19,7 +20,16 @@ const truncatedText = truncate(description, 100, {
 
 <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] dark:bg-slate-700 rounded">
-  {url}
+  <figure>
+    <figcaption>Listen to the T-Rex:</figcaption>
+    <audio
+        controls
+        src={audio_preview_url}>
+            <a href={audio_preview_url}>
+                Download audio
+            </a>
+    </audio>
+</figure>
 </div>
   
 <div class="mt-2">
