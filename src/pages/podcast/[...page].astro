@@ -1,0 +1,65 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import Headline from '~/components/blog/Headline.astro';
+import Podcast from '../../components/Podcast.astro';
+import { XMLParser } from 'fast-xml-parser';
+import { Pagination } from 'accessible-astro-components';
+import { Debug } from 'astro/components';
+
+export async function getStaticPaths({ paginate }) {
+  const options = {
+    ignoreAttributes: false,
+    attributeNamePrefix: 'att_',
+  };
+  const parser = new XMLParser(options);
+  const feedTest = await fetch('https://feeds.zencastr.com/f/h5h0nhAi.rss');
+  let rssFeedData = await feedTest.text();
+  let parsedFeed = await parser.parse(rssFeedData);
+  const allEpisodes = parsedFeed.rss.channel.item;
+
+  return paginate(allEpisodes, { pageSize: 25 });
+}
+const { page } = Astro.props;
+const meta = {
+  title: 'Podcasts',
+  description:
+    'My pre-eminent podcast, Chinchilla Squeaks, has run for nearly eight years and taken me all over the globe. I have dabbled in other shows. They will be listed here again in the near future.',
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
+---
+
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <ul>
+      {
+        page.data.map((podcast) => (
+          <Debug {podcast} />
+          <>
+            <li class="mb-12 md:mb-20">
+              <Podcast
+                name={podcast.title}
+                description={podcast.summary}
+                audio_preview_url={podcast.enclosure.att_url}
+              />
+            </li>
+          </>
+        ))
+      }
+    </ul>
+
+    <Pagination
+      firstPage={page.url.prev ? '/podcast' : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next ? `/podcast/${Math.round(page.total / page.size)}` : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    />
+  </section>
+</Layout>
