@@ -4,12 +4,13 @@ import Headline from '~/components/blog/Headline.astro';
 import Podcast from '../../components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
-import { Debug } from 'astro/components';
 
 export async function getStaticPaths({ paginate }) {
   const options = {
     ignoreAttributes: false,
+    stopNodes: ["root.itunes:title"],
     attributeNamePrefix: 'att_',
+    removeNSPrefix: true
   };
   const parser = new XMLParser(options);
   const feedTest = await fetch('https://feeds.zencastr.com/f/h5h0nhAi.rss');
@@ -39,13 +40,13 @@ const meta = {
     <ul>
       {
         page.data.map((podcast) => (
-          <Debug {podcast} />
           <>
             <li class="mb-12 md:mb-20">
               <Podcast
                 name={podcast.title}
-                description={podcast.summary}
+                description={podcast.description}
                 audio_preview_url={podcast.enclosure.att_url}
+                image={podcast.image.att_href}
               />
             </li>
           </>
