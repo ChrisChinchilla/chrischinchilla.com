@@ -3,7 +3,7 @@ title: Small gregarious fiction volume 1
 publisher: Self-published
 role: Author
 publish_date: 2023-05-15
-image: https://www.drivethrufiction.com/images/24713/437813.png
+image: https://www.drivethrufiction.com/images/24713/437813.jpg
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/product/437813/Small-gregarious-fiction-volume-1
