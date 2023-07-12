@@ -1,4 +1,5 @@
 [
+  { "title": "Discord", "image": "tabler:brand-discord", "network_link": "https://discord.gg/b4Wwa5jnjp" },
   {
     "title": "GitHub",
     "image": "tabler:brand-github",
