@@ -9,6 +9,8 @@ store_urls:
     url: https://www.drivethrufiction.com/product/437813/Small-gregarious-fiction-volume-1
   - label: Amazon Kindle
     url: https://a.co/d/5G6nhkN
+  - label: Print-on-demand (Amazon)
+    url: https://www.amazon.com/dp/B0C9SNQM2N
 ---
 
 Chinchilla tales presents a collection of flash fiction full of short tales full of strange worlds, worlds slight recognisable if you squint, and characters undertaking the unexpected.
