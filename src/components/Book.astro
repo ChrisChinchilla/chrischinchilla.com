@@ -1,7 +1,6 @@
 ---
 import { Picture } from '@astrojs/image/components';
 import { findImage } from '~/utils/images';
-import { CollectionEntry } from 'astro:content';
 import { Markdown } from '@astropub/md';
 import truncateMarkdown from 'markdown-truncate';
 
@@ -15,7 +14,7 @@ export interface Props {
   role: string;
 }
 
-const { publisher, title, image, body, store_urls, publish_date, role} = Astro.props;
+const { publisher, title, image, body, store_urls, publish_date, role } = Astro.props;
 
 // const { Content } = await post.render();
 const featured_image = await findImage(image);
@@ -37,6 +36,35 @@ var formattedDate = rawDate.toLocaleString('en-GB', {
   dateStyle: 'short',
   timeZone: 'UTC',
 });
+
+// Format title for ID
+// TODO: Method or better way
+
+// Slugify a string
+function slugify(str)
+{
+    str = str.replace(/^\s+|\s+$/g, '');
+
+    // Make the string lowercase
+    str = str.toLowerCase();
+
+    // Remove accents, swap ñ for n, etc
+    var from = "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
+    var to   = "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
+    for (var i=0, l=from.length ; i<l ; i++) {
+        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+    }
+
+    // Remove invalid chars
+    str = str.replace(/[^a-z0-9 -]/g, '') 
+    // Collapse whitespace and replace by -
+    .replace(/\s+/g, '-') 
+    // Collapse dashes
+    .replace(/-+/g, '-'); 
+
+    return str;
+}
+var idOfTitle = slugify(title);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${image ? 'md:grid-cols-2' : ''}`}>
@@ -58,22 +86,26 @@ var formattedDate = rawDate.toLocaleString('en-GB', {
 
   <div class="mt-2">
     <header>
-      <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
+      <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300" id={idOfTitle}>
         {title}
       </h2>
       <i class="my-2 block">{publisher}, {formattedDate}, {role}</i>
     </header>
     <!-- TODO: Seems kind of ridiculous -->
     <Markdown of={truncatedBody} class="m-2" />
-    {store_urls &&
-    <b class="my-2 block">Buy a copy in the following places:</b>
-    <ul class="list-disc list-inside m-2">
     {
-    store_urls.map((store_url) => (
-    <li><a href={store_url.url}>{store_url.label}</a></li>
-    ))
-      }
-      </ul>
+      store_urls && (
+        <>
+          <b class="my-2 block">Buy a copy in the following places:</b>
+          <ul class="list-disc list-inside m-2">
+            {store_urls.map((store_url) => (
+              <li>
+                <a href={store_url.url}>{store_url.label}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )
     }
   </div>
 </article>
