@@ -8215,8 +8215,8 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2023/2023-02-20-managing-a-home-folder-with-version-control.md": {
-	id: "2023/2023-02-20-managing-a-home-folder-with-version-control.md";
+"2023/2023-02-20-Managing-a-home-folder-with-version-control.md": {
+	id: "2023/2023-02-20-Managing-a-home-folder-with-version-control.md";
   slug: "2023/2023-02-20-managing-a-home-folder-with-version-control";
   body: string;
   collection: "posts";

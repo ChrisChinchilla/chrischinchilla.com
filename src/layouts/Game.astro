@@ -1,17 +1,49 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from '~/layouts/BaseLayout.astro';
+import Header from '~/components/widgets/Header.astro';
+import Footer from '~/components/widgets/Footer.astro';
+import Announcement from '~/components/widgets/Announcement.astro';
+import { findImage } from '~/utils/images';
+import { Picture } from "@astrojs/image/components";
 
-export interface Props {
-    title: string;
-}
+import { MetaSEO } from '~/types';
+
+export interface Props {}
 
 const { frontmatter } = Astro.props;
+const featured_image = await findImage(frontmatter.image);
 
+const meta: MetaSEO = {
+  title: frontmatter?.title,
+};
 ---
 
-<Layout title={frontmatter.title}>
-    <main>
-        <h1>{frontmatter.title}</h1>
+<Layout {meta}>
+  <Announcement />
+  <Header />
+  <main>
+    <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
+      <h1 class="font-bold font-heading text-3xl md:text-4xl leading-tighter tracking-tighter">{frontmatter.title}</h1>
+      <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded shadow-lg">
+
+        <Picture
+        src={featured_image}
+        class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg"
+        widths={[400, 900]}
+        sizes="(max-width: 900px) 400px, 900px"
+        alt={frontmatter.title}
+        aspectRatio="16:9"
+        loading="lazy"
+        decoding="async"
+        fetchpriority="auto"
+      />
+    </div>
+      <div
+        class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
+      >
         <slot />
-    </main>
+      </div>
+    </section>
+  </main>
+  <Footer />
 </Layout>

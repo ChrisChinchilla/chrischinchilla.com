@@ -2,27 +2,23 @@
 import Layout from "~/layouts/PageLayoutNoBG.astro";
 import { Pagination } from "accessible-astro-components";
 import Headline from '~/components/blog/Headline.astro';
-import { BLOG } from '~/config.mjs';
-
-import Post from "~/components/Post.astro";
+import { GAME } from '~/config.mjs';
+import Game from "~/components/Game.astro";
 import { getCollection } from 'astro:content';
 export async function getStaticPaths({ paginate }) {
-    let allPosts = await getCollection('posts');
+    let allGames = await getCollection('games');
+// allGames = allGames.sort(    (a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf()
+// );
 
-allPosts = allPosts.sort(
-    (a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf()
-  );
-
-  return paginate(allPosts, {
-    pageSize: BLOG.postsPerPage,
+  return paginate(allGames, {
+    pageSize: GAME.postsPerPage,
   });
 }
 
 const { page } = Astro.props;
-
 const meta = {
-  title: "Blog",
-  description: "Most of my blog posts dating back to 2002. Some written here, some written elsewhere and aggregated here.",
+  title: "Games",
+  description: "I create and edit roleplay and board games and everything in-between.",
   // canonical: post.canonical || url,
   // image: await findImage(post.image),
   // noindex: BLOG?.post?.noindex,
@@ -38,27 +34,24 @@ const meta = {
       </Headline>
     <ul>
       {
-        page.data.map((post) => (
+        page.data.map((game) => (
         <li class="mb-12 md:mb-20">
-
-          <Post
-          slug={post.slug}
-            publication_url={post.data.publication_url}
-              title={post.data.title}
-              date={post.data.publishDate}
-              image={post.data.image}
-              body={post.body}
+          <Game
+          title={game.data.title}
+            link={game.slug}
+              body={game.body}
+              image={game.data.image}
             />
         </li>
         ))
       }
     </ul>
     <Pagination
-      firstPage={page.url.prev ? "/blog" : null}
+      firstPage={page.url.prev ? "/games" : null}
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
       lastPage={page.url.next
-        ? `/blog/${Math.round(page.total / page.size)}`
+        ? `/games/${Math.round(page.total / page.size)}`
         : null}
       currentPage={page.currentPage}
       totalPages={Math.round(page.total / page.size)}

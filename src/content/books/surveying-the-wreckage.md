@@ -3,7 +3,7 @@ title: Surveying the Wreckage - The New Matilda Columns 2008-2010
 publisher: Aduki Independent Press
 role: Publisher
 publish_date: 2010-03-01
-image: https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/9803/9780980335187.jpg
+image: https://www.booktopia.com.au/covers/900/9780980335187/0000/surveying-the-wreckage.jpg
 store_urls:
   - label: Goodreads
     url: https://www.goodreads.com/book/show/77180248-surveying-the-wreckage-the-new-matilda-columns-2008-2010
