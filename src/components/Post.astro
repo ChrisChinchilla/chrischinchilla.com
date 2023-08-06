@@ -1,12 +1,12 @@
 ---
 import { Picture } from "@astrojs/image/components";
 import { findImage } from '~/utils/images';
-import { CollectionEntry } from 'astro:content';
 import { Markdown } from '@astropub/md';
 import truncateMarkdown from 'markdown-truncate';
 
+// TODO: Fix link
 export interface Props {
-  post: CollectionEntry<"posts">;
+  slug: string;
   title: string;
   date: string;
   publication_url?: string;
@@ -14,7 +14,7 @@ export interface Props {
   body: string;
 }
 
-const { post, title, date, publication_url, image, body } = Astro.props;
+const { slug, title, date, publication_url, image, body } = Astro.props;
 // const { Content } = await post.render();
 const featured_image = await findImage(image);
 
@@ -31,7 +31,7 @@ var url = "";
 if (publication_url != null) {
   url = publication_url;
 } else {
-  url = "/blog/" + post.slug;
+  url = "/blog/" + slug;
 }
 // TODO: Why is slug broken again?
 // Truncate text

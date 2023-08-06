@@ -1,6 +1,6 @@
 ---
 title: Silicon Vallery mystery
-layout: "../../layouts/Game.astro"
+image: "~/assets/images/default.png"
 ---
 
 You are detectives tasked with solving a mystery quicker than any other player. Whoever scores the most points is declared the winner. You gain more points for gaining clues when they are newer (called “freshness”), as opposed to gaining as many clues as possible.
