@@ -6,7 +6,6 @@ import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
-import compress from 'astro-compress';
 import { remarkReadingTime } from './src/utils/frontmatter.mjs';
 import { SITE } from './src/config.mjs';
 // import react from "@astrojs/react";
@@ -29,16 +28,7 @@ export default defineConfig({
     config: {
       forward: ['dataLayer.push']
     }
-  })), compress({
-    css: true,
-    html: {
-      removeAttributeQuotes: false
-    },
-    img: false,
-    js: true,
-    svg: false,
-    logger: 1
-  })], 
+  }))], 
   // react()],
   markdown: {
     remarkPlugins: [remarkReadingTime],
