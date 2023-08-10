@@ -106,3 +106,8 @@ article>lite-youtube,
 .link-card:is(:hover, :focus-within) h2 {
   color: rgb(var(--accent));
 }
+
+/* TODO: Is this the best way? */
+.font-heading {
+  font-family: 'Albert Sans Semibold';
+}

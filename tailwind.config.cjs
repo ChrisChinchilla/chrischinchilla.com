@@ -10,7 +10,9 @@ module.exports = {
         secondary: colors.pink,
       },
       fontFamily: {
-        sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
+        sans: ["Albert Sans", ...defaultTheme.fontFamily.sans],
+        // TODO: Can I do it this way?
+        // heading: ["Albert Sans Semibold"],
       },
     },
   },
