@@ -39,7 +39,7 @@ const {
             )}
             {title && (
               <h2
-                class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading"
+                class="text-4xl md:text-5xl font-subheading font-bold leading-tighter tracking-tighter mb-4"
                 set:html={title}
               />
             )}
@@ -64,7 +64,7 @@ const {
               {description && <p class="text-gray-600 dark:text-gray-400 text-md mt-4 mb-8" set:html={description} />}
               <a
     href={getPermalink(permalink)}
-    class="btn btn-primary sm:mb-0 w-full"
+    class="btn btn-primary font-btn sm:mb-0 w-full"
     >{title}</a>
             </div>
           ))

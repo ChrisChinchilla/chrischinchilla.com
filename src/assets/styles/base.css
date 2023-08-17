@@ -12,7 +12,7 @@
   }
 
   .btn-primary {
-    @apply font-semibold bg-primary-800 text-white border-primary-800 hover:bg-primary-900 hover:border-primary-900 hover:text-white dark:text-white dark:bg-primary-700 dark:border-primary-700 dark:hover:border-primary-900 dark:hover:bg-primary-900;
+    @apply text-brandYellow font-semibold bg-brandGrey border-brandGrey hover:bg-brandBlue hover:border-brandBlue hover:text-white dark:text-white dark:bg-primary-700 dark:border-primary-700 dark:hover:border-primary-900 dark:hover:bg-primary-900;
   }
 }
 
@@ -46,6 +46,9 @@
 
 /* Chris custom */
 
+.body p{
+  @apply mb-8;
+}
 
 .cleanlink {
   text-decoration: none;
@@ -105,9 +108,4 @@ article>lite-youtube,
 
 .link-card:is(:hover, :focus-within) h2 {
   color: rgb(var(--accent));
-}
-
-/* TODO: Is this the best way? */
-.font-heading {
-  font-family: 'Albert Sans Semibold';
 }

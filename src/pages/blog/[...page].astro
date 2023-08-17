@@ -1,17 +1,16 @@
 ---
-import Layout from "~/layouts/PageLayoutNoBG.astro";
-import { Pagination } from "accessible-astro-components";
+import { Debug } from 'astro/components';
+
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
 import { BLOG } from '~/config.mjs';
-
-import Post from "~/components/Post.astro";
+import Post from '~/components/Post.astro';
 import { getCollection } from 'astro:content';
 export async function getStaticPaths({ paginate }) {
-    let allPosts = await getCollection('posts');
+  let allPosts = await getCollection('posts');
 
-allPosts = allPosts.sort(
-    (a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf()
-  );
+  allPosts = allPosts.sort((a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf());
 
   return paginate(allPosts, {
     pageSize: BLOG.postsPerPage,
@@ -21,47 +20,37 @@ allPosts = allPosts.sort(
 const { page } = Astro.props;
 
 const meta = {
-  title: "Blog",
-  description: "Most of my blog posts dating back to 2002. Some written here, some written elsewhere and aggregated here.",
+  title: 'Blog',
+  description:
+    'Most of my blog posts dating back to 2002. Some written here, some written elsewhere and aggregated here.',
   // canonical: post.canonical || url,
   // image: await findImage(post.image),
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
 ---
+
 <Layout {meta}>
-    <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
-      <Headline
-        subtitle={meta.description}
-      >
-        {meta.title}
-      </Headline>
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
     <ul>
       {
         page.data.map((post) => (
-        <li class="mb-12 md:mb-20">
-
-          <Post
-          slug={post.slug}
-            publication_url={post.data.publication_url}
-              title={post.data.title}
-              date={post.data.publishDate}
-              image={post.data.image}
-              body={post.body}
-            />
-        </li>
+          <li class="mb-12 md:mb-20">
+            <Post post={post} />
+          </li>
         ))
       }
     </ul>
     <Pagination
-      firstPage={page.url.prev ? "/blog" : null}
+      firstPage={page.url.prev ? '/blog' : null}
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
-      lastPage={page.url.next
-        ? `/blog/${Math.round(page.total / page.size)}`
-        : null}
+      lastPage={page.url.next ? `/blog/${Math.round(page.total / page.size)}` : null}
       currentPage={page.currentPage}
       totalPages={Math.round(page.total / page.size)}
     />
-</section>
+  </section>
 </Layout>

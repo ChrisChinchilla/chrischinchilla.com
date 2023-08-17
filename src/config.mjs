@@ -31,7 +31,7 @@ const CONFIG = {
   blog: {
     disabled: false,
     postsPerPage: 30,
-// TODO: Change?
+    // TODO: Change?
     list: {
       pathname: 'blog', // blog main path, you can change this to "articles" (/articles)
       noindex: false,
@@ -61,7 +61,7 @@ const CONFIG = {
   game: {
     disabled: false,
     postsPerPage: 30,
-// TODO: Change?
+    // TODO: Change?
     list: {
       pathname: 'game', // blog main path, you can change this to "articles" (/articles)
       noindex: false,
@@ -88,11 +88,10 @@ const CONFIG = {
     },
   },
 
-
   event: {
     disabled: false,
     postsPerPage: 15,
-// TODO: Change?
+    // TODO: Change?
     list: {
       pathname: 'events', // blog main path, you can change this to "articles" (/articles)
       noindex: false,
