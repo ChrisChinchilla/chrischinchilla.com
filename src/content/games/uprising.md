@@ -1,6 +1,12 @@
 ---
 title: Uprising
 image: "https://uprising.nemesis.games/wp-content/uploads/2020/07/heroshot-2020.jpg"
+publisher: Nemesis Games
+publish_date: 2021-06-05
+role: Proofreader
+store_urls:
+  - label: Nemesis Games
+    url: https://uprising.nemesis.games
 ---
 
-I helped proofread and edit the manual of [this ambitious boardgame](https://uprising.nemesis.games/) that raised over $300k on Kickstarter.
+The first fully cooperative 4x fantasy boardgame that raised over $300k on Kickstarter and $600k for a second printing.
