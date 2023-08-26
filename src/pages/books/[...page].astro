@@ -38,13 +38,7 @@ const meta = {
         page.data.map((book) => (
         <li class="mb-12 md:mb-20">
           <Book
-              title={book.data.title}
-              image={book.data.image}
-              body={book.body}
-              store_urls={book.data.store_urls}
-              publisher={book.data.publisher}
-              publish_date={book.data.publish_date}
-              role={book.data.role}
+              book={book}
             />
         </li>
         ))
