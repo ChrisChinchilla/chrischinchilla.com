@@ -60,7 +60,7 @@ const CONFIG = {
 
   game: {
     disabled: false,
-    postsPerPage: 30,
+    postsPerPage: 25,
 // TODO: Change?
     list: {
       pathname: 'game', // blog main path, you can change this to "articles" (/articles)
