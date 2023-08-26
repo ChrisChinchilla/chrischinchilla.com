@@ -40,9 +40,20 @@ const links = [
       },
     ],
   },
-  { text: 'Links', href: getPermalink('/links') },
-  { text: 'Videos', href: getPermalink('/videos') },
-  { text: 'Podcast', href: getPermalink('/podcast') },
+  {
+    text: 'Audio & Video',
+    links: [
+    {
+        text: 'Videos',
+        href: getPermalink('/videos'),
+      },
+      { text: 'Podcast', href: getPermalink('/podcast') },
+      {
+        text: 'Courses',
+        href: getPermalink('/courses'),
+      }
+    ],
+  },
   { text: 'Events', href: getPermalink('/events') },
 ];
 ---

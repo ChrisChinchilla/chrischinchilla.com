@@ -1,0 +1,93 @@
+---
+import { Picture } from "@astrojs/image/components";
+import { findImage } from '~/utils/images';
+import { CollectionEntry } from 'astro:content';
+import { Markdown } from '@astropub/md';
+
+export interface Props {
+  course: CollectionEntry<"av">;
+}
+
+const { course } = Astro.props;
+// const { Content } = await client.render();
+const featured_image = await findImage(course.data.image);
+// Format date
+// TODO: Method
+var rawDate = new Date(course.data.publish_date);
+var formattedDate = rawDate.toLocaleString('en-GB', {
+  dateStyle: 'short',
+  timeZone: 'UTC',
+});
+
+// Format title for ID
+// TODO: Method or better way
+// Slugify a string
+function slugify(str)
+{
+    str = str.replace(/^\s+|\s+$/g, '');
+
+    // Make the string lowercase
+    str = str.toLowerCase();
+
+    // Remove accents, swap ñ for n, etc
+    var from = "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
+    var to   = "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
+    for (var i=0, l=from.length ; i<l ; i++) {
+        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+    }
+
+    // Remove invalid chars
+    str = str.replace(/[^a-z0-9 -]/g, '') 
+    // Collapse whitespace and replace by -
+    .replace(/\s+/g, '-') 
+    // Collapse dashes
+    .replace(/-+/g, '-'); 
+
+    return str;
+}
+var idOfTitle = slugify(course.data.title);
+---
+
+<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${featured_image ? 'md:grid-cols-2' : ''}`}>
+    <div
+      class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg"
+    >
+      <Picture
+        src={featured_image ? featured_image : '~/assets/images/default.png'}
+        class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+        widths={[400, 900]}
+        sizes="(max-width: 900px) 400px, 900px"
+        alt={course.data.title}
+        aspectRatio="16:9"
+        loading="lazy"
+        decoding="async"
+        fetchpriority="auto"
+      />
+    </div>
+  
+    <div class="mt-2">
+      <header>
+        <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300" id={idOfTitle}>
+          {course.data.title}
+        </h2>
+        <i class="my-2 block">{course.data.client}, {formattedDate}</i>
+      </header>
+      <!-- TODO: Better way -->
+      <Markdown of={course.body} />
+      {
+        course.data.store_urls && (
+          <>
+            <b class="my-2 block">Find the course in the following places:</b>
+            <ul class="list-disc list-inside m-2">
+              {course.data.store_urls.map((store_url) => (
+                <li>
+                  <a href={store_url.url}>{store_url.label}</a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )
+      }
+    </div>
+  </article>
+  
