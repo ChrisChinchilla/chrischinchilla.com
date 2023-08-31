@@ -37,10 +37,7 @@ const meta = {
         page.data.map((game) => (
         <li class="mb-12 md:mb-20">
           <Game
-          title={game.data.title}
-            link={game.slug}
-              body={game.body}
-              image={game.data.image}
+          game={game}
             />
         </li>
         ))

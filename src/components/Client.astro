@@ -5,7 +5,7 @@ import { CollectionEntry } from 'astro:content';
 import { Markdown } from '@astropub/md';
 
 export interface Props {
-  client: CollectionEntry<"client">;
+  client: CollectionEntry<"clients">;
 }
 const { client } = Astro.props;
 // const { Content } = await client.render();
@@ -13,17 +13,21 @@ const featured_image = await findImage(client.data.image);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${client.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] dark:bg-slate-700 rounded shadow-lg">
-
+  <div
+    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
+  >
     <Picture
-    src={featured_image}
-    class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg dark:bg-slate-700"
-    widths={[400, 900]}
-    sizes="(max-width: 900px) 400px, 900px"
-    alt={client.data.name}
-    aspectRatio="16:9"
-  />
-</div>
+      src={featured_image ? featured_image : '~/assets/images/default.png'}
+      class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
+      widths={[450, 900]}
+      sizes="(max-width: 900px) 450px, 900px"
+      alt={client.data.title}
+      aspectRatio="16:9"
+      loading="lazy"
+      decoding="async"
+      fetchpriority="auto"
+    />
+  </div>
   
     <div class="mt-2">
       <header>
