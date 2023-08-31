@@ -3,35 +3,29 @@ import { Picture } from '@astrojs/image/components';
 import { findImage } from '~/utils/images';
 import { Markdown } from '@astropub/md';
 import truncateMarkdown from 'markdown-truncate';
+import { CollectionEntry } from 'astro:content';
 
 export interface Props {
-  publisher: string;
-  title: string;
-  image: string;
-  body: string;
-  store_urls: Array<String>;
-  publish_date: string;
-  role: string;
+  book: CollectionEntry<"books">;
 }
-
-const { publisher, title, image, body, store_urls, publish_date, role } = Astro.props;
+const { book } = Astro.props;
 
 // const { Content } = await post.render();
-const featured_image = await findImage(image);
+const featured_image = await findImage(book.data.image);
 // TODO: Why is slug broken again?
 // Truncate text
 // TODO: Better way?
 // TODO: Make to helper or plugin
 // var truncatedText = body.split("</p>");
 
-const truncatedBody = truncateMarkdown(body, {
+const truncatedBody = truncateMarkdown(book.data.body, {
   limit: 500,
   ellipsis: true,
 });
 
 // Format date
 // TODO: Method
-var rawDate = new Date(publish_date);
+var rawDate = new Date(book.data.publish_date);
 var formattedDate = rawDate.toLocaleString('en-GB', {
   dateStyle: 'short',
   timeZone: 'UTC',
@@ -64,19 +58,19 @@ function slugify(str)
 
     return str;
 }
-var idOfTitle = slugify(title);
+var idOfTitle = slugify(book.data.title);
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${image ? 'md:grid-cols-2' : ''}`}>
+<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${book.data.image ? 'md:grid-cols-2' : ''}`}>
   <div
-    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg"
+    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
   >
     <Picture
       src={featured_image ? featured_image : '~/assets/images/default.png'}
-      class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
-      widths={[400, 900]}
-      sizes="(max-width: 900px) 400px, 900px"
-      alt={title}
+      class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
+      widths={[450, 900]}
+      sizes="(max-width: 900px) 450px, 900px"
+      alt={book.data.title}
       aspectRatio="16:9"
       loading="lazy"
       decoding="async"
@@ -87,18 +81,18 @@ var idOfTitle = slugify(title);
   <div class="mt-2">
     <header>
       <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300" id={idOfTitle}>
-        {title}
+        {book.data.title}
       </h2>
-      <i class="my-2 block">{publisher}, {formattedDate}, {role}</i>
+      <i class="my-2 block">{book.data.publisher}, {formattedDate}, {book.data.role}</i>
     </header>
     <!-- TODO: Seems kind of ridiculous -->
     <Markdown of={truncatedBody} class="m-2" />
     {
-      store_urls && (
+      book.data.store_urls && (
         <>
           <b class="my-2 block">Buy a copy in the following places:</b>
           <ul class="list-disc list-inside m-2">
-            {store_urls.map((store_url) => (
+            {book.data.store_urls.map((store_url) => (
               <li>
                 <a href={store_url.url}>{store_url.label}</a>
               </li>

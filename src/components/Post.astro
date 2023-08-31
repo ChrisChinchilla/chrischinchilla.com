@@ -7,15 +7,6 @@ import type { CollectionEntry } from 'astro:content';
 interface Props {
   post: CollectionEntry<'posts'>;
 }
-// TODO: Fix link
-// export interface Props {
-//   slug: string;
-//   title: string;
-//   date: string;
-//   publication_url?: string;
-//   image: string;
-//   body: string;
-// }
 
 const { post } = Astro.props;
 // const { Content } = await post.render();
