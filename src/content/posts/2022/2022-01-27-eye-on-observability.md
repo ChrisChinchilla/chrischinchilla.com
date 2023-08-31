@@ -8,6 +8,6 @@ tags:
   - prometheus
   - promql
 publication_url: https://chronosphere.io/learn/an-eye-on-observability-for-january-2022/
-image: ~/assets/images/default.png
+image: ~/assets/images/defaults/blog-chinchilla.jpg
 ---
 Welcome to 2022 🥳 and a year that already promises to be as lively and active for Observability.

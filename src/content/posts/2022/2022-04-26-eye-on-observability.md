@@ -8,7 +8,7 @@ tags:
   - prometheus
   - promql
 publication_url: https://chronosphere.io/learn/an-eye-on-observability-for-april-2022/
-image: ~/assets/images/default.png
+image: ~/assets/images/defaults/blog-chinchilla.jpg
 ---
 Observability is fast changing from a practice that those close to engineering knew was useful, to a practice that everyone knows is useful for technical and business reasons.
 

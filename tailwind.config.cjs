@@ -13,6 +13,10 @@ module.exports = {
         brandYellow: '#eaba5d',
         brandGrey:'#4b555c'
       },
+      // TODO: Parameter
+        dropShadow: {
+          lg: '0 10px 8px #9db0c2',
+        },
       fontFamily: {
         // TODO: Shame it has to be this way…
         sans: ["Bitter", ...defaultTheme.fontFamily.sans],

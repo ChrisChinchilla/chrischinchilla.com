@@ -9,7 +9,7 @@ tags:
   - installation
   - peer2peer
 publication_url: "https://dev2.kauri.io/article/b01b9b7bebcd4ebf80edf021bdd0e232"
-image: ~/assets/images/default.png
+image: ~/assets/images/defaults/blog-chinchilla.jpg
 
 ---
 In this tutorial, we install IPFS and learn its basic commands.
