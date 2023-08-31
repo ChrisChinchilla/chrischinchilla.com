@@ -1,6 +1,12 @@
 ---
 title: Solemn Scriptures of the Battle Nuns of the Mercyful Sepulcher
 image: "https://mottokrosh.com/machinations/solemn-scriptures/nun-cover900.jpg-832.jpeg"
+publisher: Mottokrosh Machinations
+publish_date: 2022-06-05
+role: Proofreader
+store_urls:
+  - label: MottoKrosh Machinations
+    url: https://mottokrosh.com/machinations/solemn-scriptures/
 ---
 
-I helped proofread and edit [this supplement](https://mottokrosh.com/machinations/solemn-scriptures/) for the D&D 5e and Hypertellurians role playing games.
+A sourcebook about occult/divine spells, the Order, and their tools. System neutral, with stats for 5e and Hypertellurians.

@@ -1,6 +1,12 @@
 ---
 title: Wicked Ones
 image: "https://d1vzi28wh99zvq.cloudfront.net/images/13368/354307.jpg"
+publisher: Bandit Camp
+publish_date: 2020-12-23
+role: Proofreader
+store_urls:
+  - label: DriveThruRPG
+    url: https://www.drivethrurpg.com/product/338480/Wicked-Ones?affiliate_id=1403878&src=BanditCampHomepage
 ---
 
-[Wicked Ones](https://banditcamp.io) is a Forged in the Dark tabletop RPG where you play fantasy monsters raiding human lands, hoarding the gold you loot, and building a dungeon to protect it. I helped proofread the final draft.
+A Forged in the Dark tabletop RPG where you play fantasy monsters raiding human lands, hoarding the gold you loot, and building a dungeon to protect it.

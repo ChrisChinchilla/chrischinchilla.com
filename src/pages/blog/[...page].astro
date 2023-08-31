@@ -38,9 +38,11 @@ const meta = {
     <ul>
       {
         page.data.map((post) => (
-          <li class="mb-12 md:mb-20">
-            <Post post={post} />
-          </li>
+        <li class="mb-12 md:mb-20">
+          <Post
+          post={post}
+            />
+        </li>
         ))
       }
     </ul>

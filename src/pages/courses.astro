@@ -1,0 +1,34 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import Headline from '~/components/blog/Headline.astro';
+import Course from '../components/Course.astro';
+import { getCollection } from 'astro:content';
+const courseAV = await getCollection('av', ({ data }) => {
+  return data.av_type !== 'course';
+});
+const meta = {
+  title: 'Courses',
+  description: 'Courses',
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
+---
+
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <ul>
+      {
+        courseAV.map((course) => (
+          <li class="mb-12 md:mb-20">
+            <Course course={course} />
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Layout>
