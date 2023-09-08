@@ -2,7 +2,7 @@
 title: Physical and Mental Health for Developers
 publishDate: 2016-03-21T00:00:00.000Z
 publication_url: https://hackernoon.com/physical-and-mental-health-for-developers-4706217c7839#.l0vus45n4
-image: ~/assets/images/articles/health.jpg
+image: "../../../assets/images/articles/health.jpg"
 categories: writing hackernoon
 tags: health
 ---

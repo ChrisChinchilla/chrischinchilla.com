@@ -2,7 +2,7 @@
 title: Web Summit 2016 - IoT, Learning, Chatbots, Biohacking & More
 publishDate: 2016-11-16T00:00:00.000Z
 publication_url: https://www.sitepoint.com/web-summit-2016-iot-learning-chatbots-biohacking-more/
-image: ~/assets/images/articles/web-summit.jpg
+image: "../../../assets/images/articles/web-summit.jpg"
 categories: writing sitepoint
 tags: events startups technology
 ---

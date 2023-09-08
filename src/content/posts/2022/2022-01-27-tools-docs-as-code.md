@@ -8,7 +8,7 @@ tags:
   - Docs as code
   - Tools
 publication_url: https://www.knowledgeowl.com/home/toolsforeditingdocsascode
-image: ~/assets/images/articles/tools-for-editing-docs-as-code.png
+image: "../../../assets/images/articles/tools-for-editing-docs-as-code.png"
 
 ---
 

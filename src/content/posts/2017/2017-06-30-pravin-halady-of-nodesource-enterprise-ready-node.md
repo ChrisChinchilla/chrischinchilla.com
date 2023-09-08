@@ -9,7 +9,7 @@ tags:
   - web dev
 publication_url: "https://dzone.com/articles/pravin-halady-of-nodesource-enterprise-ready-nodej"
 
-image: ~/assets/images/articles/5761399.jpeg
+image: "../../../assets/images/articles/5761399.jpeg"
 ---
 A DZone Zone Leader interviews a member of the project management team at NodeSource, and discusses the possibilities Node.js and npm bring to businesses.
 

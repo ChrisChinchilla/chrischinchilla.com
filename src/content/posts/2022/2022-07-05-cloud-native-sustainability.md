@@ -6,7 +6,7 @@ categories: writing chronosphere
 tags: 
   - observability
   - sustainability
-image: ~/assets/images/articles/lineChart.png
+image: "../../../assets/images/articles/lineChart.png"
 publication_url: https://chronosphere.io/learn/increasing-cloud-native-sustainability-with-observability/
 ---
 What are the hidden impacts of all the infrastructure and dependencies that are used to run a cloud native application?

@@ -13,7 +13,7 @@ tags:
   - conferences
   - iot
 publication_url: "https://dzone.com/articles/mobile-world-congress-2018-consolidation-and-colla"
-image: ~/assets/images/articles/8376594.jpeg
+image: "../../../assets/images/articles/8376594.jpeg"
 
 ---
 Read about the most exciting developments from this year's Mobile World Congress in Barcelona, like IoT, Google assistant, augmented reality, and artificial intelligence.

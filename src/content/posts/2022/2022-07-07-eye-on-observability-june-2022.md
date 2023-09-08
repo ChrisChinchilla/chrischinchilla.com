@@ -8,7 +8,7 @@ tags:
   - prometheus
   - promql
 publication_url: https://chronosphere.io/learn/an-eye-on-observability-for-june-2022/
-image: ~/assets/images/defaults/blog-chinchilla.jpg
+image: "../../../assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 Phew! A group of Chronospherians attended Monitorama back in person in Portland and we had a whistlestop (partial) week meeting customers and observability enthusiasts. I had a talk which sparked a lot of interesting discussion, we hosted a very successful whisk(e)y tasting, and all in all, had a great time.

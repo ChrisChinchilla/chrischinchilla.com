@@ -7,9 +7,8 @@ tags:
   - gadgets
   - mobile
   - android
-publication_url: https://medium.com/@chrischinchilla/the-pixel-6-to-google-or-not-to-google-f3938b718f57
+publication_url: "https://medium.com/@chrischinchilla/the-pixel-6-to-google-or-not-to-google-f3938b718f57"
 image: "https://cdn-images-1.medium.com/max/800/1*IX-odNWMBhpz5RdNPkXT5Q.jpeg"
-
 ---
 
 I am one of those rare and crazy people that owned the one and only

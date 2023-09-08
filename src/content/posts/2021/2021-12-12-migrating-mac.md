@@ -7,7 +7,7 @@ tags:
   - macOS
   - M1
   - Migration
-image: ~/assets/images/defaults/blog-chinchilla.jpg
+image: "../../../assets/images/defaults/blog-chinchilla.jpg"
 
 orig_url: https://chrischinchilla.medium.com/migrating-applications-and-data-to-a-new-mac-without-using-time-machine-240e1de77892
 ---

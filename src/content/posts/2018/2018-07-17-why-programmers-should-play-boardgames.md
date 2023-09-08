@@ -15,7 +15,7 @@ tags:
   - memory
   - soft skills
 publication_url: "https://dzone.com/articles/why-programmers-should-play-boardgames"
-image: ~/assets/images/articles/9752699.jpeg
+image: "../../../assets/images/articles/9752699.jpeg"
 
 ---
 Close the laptop and break out the dice...after you read this post about how board games can help ease your troubled dev mind.

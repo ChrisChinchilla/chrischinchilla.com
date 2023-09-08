@@ -11,7 +11,7 @@ tags:
   - presenations
   - call for proposal
 publication_url: "https://dzone.com/articles/yow-conferences-for-australian-developers-by-devel"
-image: ~/assets/images/articles/7409056.jpeg
+image: "../../../assets/images/articles/7409056.jpeg"
 
 ---
 Check out this software development conference that's currently catering to devs in Australia, but is soon expanding to Southeast Asia.

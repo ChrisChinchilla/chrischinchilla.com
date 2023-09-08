@@ -8,7 +8,7 @@ tags:
   - Resources
 publication_url: "https://data-artisans.com/blog/managing-large-state-apache-flink-incremental-checkpointing-overview"
 
-image: ~/assets/images/defaults/blog-chinchilla.jpg
+image: "../../../assets/images/defaults/blog-chinchilla.jpg"
 ---
 The post Managing Large State in Apache Flink®: An Intro to Incremental Checkpointing appeared first on data Artisans.
 

@@ -1,3 +1,5 @@
+// TODO: Use everywhere?
+
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {

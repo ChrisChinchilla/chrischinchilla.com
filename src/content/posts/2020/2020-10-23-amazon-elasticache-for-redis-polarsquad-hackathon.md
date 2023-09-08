@@ -7,7 +7,7 @@ tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/amazon-elasticache-for-redis-polarsquad-hackathon
-image: ~/assets/images/articles/5f92984ef7d35467e71b431f_Polarsquad-hackathon.png
+image: "../../../assets/images/articles/5f92984ef7d35467e71b431f_Polarsquad-hackathon.png"
 
 ---
 

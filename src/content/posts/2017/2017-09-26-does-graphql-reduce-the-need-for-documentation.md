@@ -10,7 +10,7 @@ tags:
   - documentation
   - integration
 publication_url: "https://dzone.com/articles/does-graphql-reduce-the-need-for-documentation"
-image: ~/assets/images/articles/6701035.jpeg
+image: "../../../assets/images/articles/6701035.jpeg"
 
 ---
 With GraphQL and tools like it, do you still need to manually document anything? Or can you fire your tech writers right away? Let's check in a real codebase!

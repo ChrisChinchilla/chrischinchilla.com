@@ -1,7 +1,7 @@
 ---
 title: Teaching Children to Code
 publishDate: '2017-03-09 18:13:30 +0100'
-image: ~/assets/images/articles/children-coding.jpeg
+image: "../../../assets/images/articles/children-coding.jpeg"
 categories: writing dzone
 tags: education children coding
 publication_url: https://dzone.com/articles/teaching-children-to-code

@@ -1,17 +1,17 @@
 ---
-import { Picture } from '@astrojs/image/components';
-import { findImage } from '~/utils/images';
-import { Markdown } from '@astropub/md';
+import { Image } from 'astro:assets';
+// import { findImage } from '~/utils/images';
+// TODO: This is now legacy, so need better solution
+import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
-import { CollectionEntry } from 'astro:content';
+import { type CollectionEntry } from 'astro:content';
 
 export interface Props {
   book: CollectionEntry<"books">;
 }
 const { book } = Astro.props;
-
 // const { Content } = await post.render();
-const featured_image = await findImage(book.data.image);
+// const featured_image = await findImage(book.data.image);
 // TODO: Why is slug broken again?
 // Truncate text
 // TODO: Better way?
@@ -65,7 +65,7 @@ var idOfTitle = slugify(book.data.title);
   <div
     class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
   >
-    <Picture
+    <!-- <Picture
       src={featured_image ? featured_image : '~/assets/images/default.png'}
       class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
       widths={[450, 900]}
@@ -75,7 +75,16 @@ var idOfTitle = slugify(book.data.title);
       loading="lazy"
       decoding="async"
       fetchpriority="auto"
+    /> -->
+ <!-- TODO: Fetch dimensions somehow -->
+    <Image
+    src={book.data.image}
+    alt={book.data.title}
+    class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
+    width={typeof book.data.image === 'string' ? 500 : 10}
+    height={typeof book.data.image === 'string' ? 500 : 10}
     />
+  
   </div>
 
   <div class="mt-2">
@@ -86,7 +95,7 @@ var idOfTitle = slugify(book.data.title);
       <i class="my-2 block">{book.data.publisher}, {formattedDate}, {book.data.role}</i>
     </header>
     <!-- TODO: Seems kind of ridiculous -->
-    <Markdown of={truncatedBody} class="m-2" />
+    <Markdown class="m-2" />{truncatedBody}</Markdown>
     {
       book.data.store_urls && (
         <>

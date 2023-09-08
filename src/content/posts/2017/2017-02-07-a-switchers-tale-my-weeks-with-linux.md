@@ -1,7 +1,7 @@
 ---
 title: A switchers tale - My week(s) with Linux
 publishDate: 2017-02-19 19:45:01 +0100
-image: ~/assets/images/articles/elementaryos-screenshot.png
+image: "../../../assets/images/articles/elementaryos-screenshot.png"
 categories: writing hackernoon
 tags: tech review linux macos
 publication_url: https://hackernoon.com/a-switchers-tale-my-weeks-with-linux-deededb3b635#.l8uob6tn4

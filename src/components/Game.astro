@@ -1,9 +1,8 @@
 ---
-// import { Picture } from "@astrojs/image/components";
-import { Picture } from "@astrojs/image/components";
-import { findImage } from '~/utils/images';
-import { CollectionEntry } from 'astro:content';
-import { Markdown } from '@astropub/md';
+import { Image } from 'astro:assets';
+// import { findImage } from '~/utils/images';
+import { type CollectionEntry } from 'astro:content';
+import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
 
 export interface Props {
@@ -12,7 +11,7 @@ export interface Props {
 const { game } = Astro.props;
 
 // const { Content } = await game.render();
-const featured_image = await findImage(game.data.image);
+// const featured_image = await findImage(game.data.image);
 
 // Truncate text
 // TODO: Better way?
@@ -34,7 +33,7 @@ var url = "games/" + game.slug;
   <div
     class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
   >
-    <Picture
+    <!-- <Picture
       src={featured_image ? featured_image : '~/assets/images/default.png'}
       class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
       widths={[450, 900]}
@@ -44,6 +43,9 @@ var url = "games/" + game.slug;
       loading="lazy"
       decoding="async"
       fetchpriority="auto"
+    /> -->
+    <Image src={game.data.image} alt={game.data.title}        class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
+
     />
   </div>
   
@@ -63,7 +65,7 @@ var url = "games/" + game.slug;
       <i class="my-2 block">{game.data.role}</i>
       </header>
        <!-- TODO: Seems kind of ridiculous -->
-       <Markdown of={truncatedBody} />
+       <Markdown class="m-2" />{truncatedBody}</Markdown>
 
     </div>
 

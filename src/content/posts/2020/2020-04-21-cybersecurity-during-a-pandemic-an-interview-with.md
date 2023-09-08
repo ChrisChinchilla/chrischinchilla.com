@@ -12,7 +12,7 @@ tags:
   - penetration testing
   - mdr
 publication_url: "https://dzone.com/articles/-cybersecurity-during-a-pandemic-an-interview-with"
-image: ~/assets/images/articles/13215198.jpeg
+image: "../../../assets/images/articles/13215198.jpeg"
 
 ---
 Chris speaks with Quentin Rhoads-Herrera of CRITICALSTART to discuss cybersecurity in a time of a pandemic.

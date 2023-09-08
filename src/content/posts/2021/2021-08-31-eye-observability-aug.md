@@ -8,7 +8,7 @@ tags:
   - prometheus
   - promql
 publication_url: https://chronosphere.io/learn/an-eye-on-observability-for-august-2021/
-image: ~/assets/images/defaults/blog-chinchilla.jpg
+image: "../../../assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 
