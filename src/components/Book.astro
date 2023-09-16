@@ -18,7 +18,7 @@ const { book } = Astro.props;
 // TODO: Make to helper or plugin
 // var truncatedText = body.split("</p>");
 
-const truncatedBody = truncateMarkdown(book.data.body, {
+const truncatedBody = truncateMarkdown(book.body, {
   limit: 500,
   ellipsis: true,
 });
@@ -76,13 +76,10 @@ var idOfTitle = slugify(book.data.title);
       decoding="async"
       fetchpriority="auto"
     /> -->
- <!-- TODO: Fetch dimensions somehow -->
     <Image
-    src={book.data.image}
-    alt={book.data.title}
-    class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
-    width={typeof book.data.image === 'string' ? 500 : 10}
-    height={typeof book.data.image === 'string' ? 500 : 10}
+      src={book.data.image}
+      alt={book.data.title}
+      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
     />
   
   </div>
@@ -95,10 +92,10 @@ var idOfTitle = slugify(book.data.title);
       <i class="my-2 block">{book.data.publisher}, {formattedDate}, {book.data.role}</i>
     </header>
     <!-- TODO: Seems kind of ridiculous -->
-    <Markdown class="m-2" />{truncatedBody}</Markdown>
+    <Markdown class="m-2" />{truncatedBody}
     {
       book.data.store_urls && (
-        <>
+        
           <b class="my-2 block">Buy a copy in the following places:</b>
           <ul class="list-disc list-inside m-2">
             {book.data.store_urls.map((store_url) => (
@@ -107,7 +104,7 @@ var idOfTitle = slugify(book.data.title);
               </li>
             ))}
           </ul>
-        </>
+        
       )
     }
   </div>

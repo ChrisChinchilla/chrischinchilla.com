@@ -3,7 +3,7 @@ title: The Australian Veg Food Guide 2011
 publisher: Aduki Independent Press
 role: Publisher
 publish_date: 2010-10-21
-image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1380177568i/7106492.jpg
+image: ~/assets/images/books/7106492.jpg
 store_urls:
   - label: Goodreads
     url: https://www.goodreads.com/book/show/11039527-the-australian-veg-food-guide-2011?from_search=true&from_srp=true&qid=8ERNfmU3Sq&rank=1
