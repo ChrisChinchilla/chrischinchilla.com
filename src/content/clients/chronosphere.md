@@ -3,7 +3,7 @@ type: Technical writing
 title: Chronosphere
 layout: "../../layouts/Client.astro"
 company_url: 'https://chronosphere.io'
-image: ~/assets/images/clients/chronosphere.png
+image: "~/assets/images/clients/chronosphere.png"
 start_date: 2020
 end_date: 2022
 tags:

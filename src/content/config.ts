@@ -53,7 +53,7 @@ const clients = defineCollection({
     title: z.string(),
 
     description: z.string().optional(),
-    image: z.string().optional(),
+    image: z.union([z.string().url(), image()]),
     company_url: z.string().url().optional(),
 
     // canonical: z.string().url().optional(),
