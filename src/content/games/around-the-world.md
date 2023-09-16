@@ -1,6 +1,6 @@
 ---
 title: Around The World In 80 Days - A Travel Adventure
-image: "https://www.dmsguild.com/images/8957/428799.jpg"
+image: "~/assets/images/games/428799.jpg"
 publisher: Art of Karthik
 publish_date: 2023-03-20
 role: Proofreader

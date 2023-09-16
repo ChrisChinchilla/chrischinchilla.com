@@ -1,6 +1,6 @@
 ---
 title: Uprising
-image: "https://uprising.nemesis.games/wp-content/uploads/2020/07/heroshot-2020.jpg"
+image: "~/assets/images/games/heroshot-2020.jpg"
 publisher: Nemesis Games
 publish_date: 2021-06-05
 role: Proofreader

@@ -1,6 +1,6 @@
 ---
 title: Fairy Trails
-image: "https://banditcamp.io/wp-content/uploads/2021/11/Fairy-Trails-Books.png"
+image: "~/assets/images/games/Fairy-Trails-Books.png"
 publisher: Mirth Drake
 publish_date: 2021-12-03
 role: Proofreader

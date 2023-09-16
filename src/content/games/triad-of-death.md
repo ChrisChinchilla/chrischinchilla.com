@@ -1,6 +1,6 @@
 ---
 title: Triad of Death - A Murder Mystery In Waterdeep
-image: "https://www.dmsguild.com/images/8957/440170.jpg"
+image: "~/assets/images/games/440170.jpg"
 publisher: Art of Karthik
 publish_date: 2023-06-25
 role: Proofreader
