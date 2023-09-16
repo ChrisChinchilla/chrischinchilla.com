@@ -54,8 +54,11 @@ const truncatedBody = truncateMarkdown(post.body, {
       decoding="async"
       fetchpriority="auto"
     /> -->
-    <Image src={post.data.image} alt={post.data.title}       class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
-    />
+    <Image
+    src={post.data.image}
+    alt={post.data.title}
+    class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+  />
   </div>
 
   <div>

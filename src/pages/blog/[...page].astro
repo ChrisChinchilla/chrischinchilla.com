@@ -1,6 +1,4 @@
 ---
-import { Debug } from 'astro/components';
-
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
@@ -38,11 +36,9 @@ const meta = {
     <ul>
       {
         page.data.map((post) => (
-        <li class="mb-12 md:mb-20">
-          <Post
-          post={post}
-            />
-        </li>
+          <li class="mb-12 md:mb-20">
+            <Post post={post} />
+          </li>
         ))
       }
     </ul>
