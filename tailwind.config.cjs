@@ -25,8 +25,8 @@ module.exports = {
         btn: ["Albert Sans"],
         // TODO: Can I do it this way?
         // TODO: Whay can I not get bold?
-        heading: ["Albert Sans Semibold"],
-        subheading: ["Albert Sans Semibold"],
+        heading: ["Albert Sans"],
+        subheading: ["Albert Sans"],
       },
     },
   },
