@@ -9,7 +9,7 @@ categories: video
 tags: 
 orig_url: https://www.youtube.com/watch?v=wIVyGMqtzJ0
 video_embed: wIVyGMqtzJ0
-image: ~/assets/images/default.png
+image: ~/assets/images/defaults/blog-chinchilla.jpg
 permalink: /:categories/:title/
 source: YouTube
 ---

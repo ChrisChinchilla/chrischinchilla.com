@@ -47,7 +47,7 @@ const {
                   {typeof callToAction === 'string' ? (
                     <Fragment set:html={callToAction} />
                   ) : (
-                    <a class="btn btn-primary sm:mb-0 w-full" href={callToAction?.href} rel="noopener">
+                    <a class="btn btn-primary font-btn sm:mb-0 w-full" href={callToAction?.href} rel="noopener">
                       {callToAction?.icon && (
                         <>
                           <Icon name={callToAction.icon} class="w-5 h-5 mr-1 -ml-1.5" />{' '}

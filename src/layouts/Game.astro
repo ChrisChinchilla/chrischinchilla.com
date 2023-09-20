@@ -24,11 +24,11 @@ const meta: MetaSEO = {
   <main>
     <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
       <h1 class="font-bold font-heading text-3xl md:text-4xl leading-tighter tracking-tighter">{frontmatter.title}</h1>
-      <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded shadow-lg">
+      <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg">
 
         <Picture
         src={featured_image}
-        class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg"
+        class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
         widths={[400, 900]}
         sizes="(max-width: 900px) 400px, 900px"
         alt={frontmatter.title}

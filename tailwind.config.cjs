@@ -6,16 +6,33 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // TODO: Refactor at some point?
         primary: colors.blue,
         secondary: colors.pink,
+        brandBlue: '#9db0c2',
+        brandYellow: '#eaba5d',
+        brandGrey:'#4b555c'
       },
+      // TODO: Parameter
+        dropShadow: {
+          lg: '0 10px 8px #9db0c2',
+        },
       fontFamily: {
-        sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
+        // TODO: Shame it has to be this way…
+        sans: ["Bitter", ...defaultTheme.fontFamily.sans],
+        serif: ["Bitter", ...defaultTheme.fontFamily.sans],
+        // serif: 
+        btn: ["Albert Sans"],
+        // TODO: Can I do it this way?
+        // TODO: Whay can I not get bold?
+        heading: ["Albert Sans Semibold"],
+        subheading: ["Albert Sans Semibold"],
       },
     },
   },
   plugins: [require('@tailwindcss/typography')],
-  darkMode: 'class',
+  // darkMode: false,
+  darkMode: ['class', '[data-mode="dark"]'],
 };
 
 /* 

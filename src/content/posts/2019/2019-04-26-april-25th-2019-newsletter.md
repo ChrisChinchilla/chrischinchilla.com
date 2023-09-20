@@ -8,7 +8,7 @@ tags:
   - kauri
   - updates
 publication_url: "https://kauri.io/article/81555225559743089665e46d2619037a"
-image: ~/assets/images/default.png
+image: ~/assets/images/defaults/blog-chinchilla.jpg
 
 ---
 Kauri aims to make building with Ethereum as straightforward as existing web 2.0 developer tools and frameworks. To help reach that goal, we are building a content platform for experts in the ecosystem to share their knowledge with those looking to grow theirs.

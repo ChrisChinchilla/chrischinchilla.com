@@ -8,7 +8,7 @@ tags:
   - prometheus
   - promql
 publication_url: https://chronosphere.io/learn/how-can-recording-and-roll-up-rules-help-your-metrics/
-image: ~/assets/images/default.png
+image: ~/assets/images/defaults/blog-chinchilla.jpg
 
 ---
 

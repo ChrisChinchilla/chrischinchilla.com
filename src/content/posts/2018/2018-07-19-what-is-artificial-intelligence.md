@@ -6,7 +6,7 @@ categories: writing codeship
 tags:
   - Industry
 publication_url: "https://blog.codeship.com/what-is-artificial-intelligence/"
-image: ~/assets/images/default.png
+image: ~/assets/images/defaults/blog-chinchilla.jpg
 
 ---
 Before we begin, let’s get definitions straight — what is artificial intelligence (AI)? Or more specifically, what isn’t it? As you might expect, ask any technical person for a definition of something, and you’ll get a dozen different responses, and at least half of them will be, “It depends.”

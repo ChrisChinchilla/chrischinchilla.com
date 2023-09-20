@@ -7,7 +7,7 @@ tags:
   - devops
   - tools
 publication_url: https://konghq.com/blog/devops-tools/
-image: ~/assets/images/default.png
+image: ~/assets/images/defaults/blog-chinchilla.jpg
 
 ---
 

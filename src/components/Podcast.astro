@@ -8,6 +8,8 @@ export interface Props {
 
 const { name, description,audio_preview_url, image } = Astro.props;
 ---
+<!-- TODO: Add styling -->
+
 <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] dark:bg-slate-700 rounded">
     <img src={image} />
