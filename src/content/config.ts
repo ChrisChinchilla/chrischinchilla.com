@@ -5,7 +5,7 @@ const posts = defineCollection({
   schema: ({ image }) => z.object({
     title: z.string(),
     // description: z.string().optional(),
-    image: z.union([z.string().url(), image()]),
+    image: image().optional(),
     publication_url: z.string().url().optional(),
 
     // canonical: z.string().url().optional(),

@@ -8,7 +8,7 @@ tags:
   - Ukraine
   - Startups
 publication_url: "https://medium.com/@chrischinchilla/ukraine-on-the-edge-of-something-and-somewhere-3068ec4db148"
-image: "https://cdn-images-1.medium.com/max/800/1*qcG9wtcJAKhoWsFQV9gh7w.jpeg"
+image: "../../../assets/images/articles/1qcG9wtcJAKhoWsFQV9gh7w.jpg"
 ---
 
 I am standing inside the exhibitor room of (what claims to be) Eastern
