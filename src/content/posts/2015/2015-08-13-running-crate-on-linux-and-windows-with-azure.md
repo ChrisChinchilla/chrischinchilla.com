@@ -2,7 +2,7 @@
 title: Running Crate on Linux and Windows with Azure
 publishDate: 2015-08-13T00:00:00.000Z
 publication_url: 'https://crate.io/a/azure-documentation/'
-image: ~/assets/images/articles/azure.png
+image: "../../../assets/images/articles/azure.png"
 categories: writing crate
 tags: azure windows
 ---

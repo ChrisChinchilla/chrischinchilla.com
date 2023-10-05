@@ -1,7 +1,7 @@
 ---
 title: A switchers tale - My week with Windows
 publishDate: 2017-01-13 19:45:01 +0100
-image: ~/assets/images/articles/windows-running.jpg
+image: "../../../assets/images/articles/windows-running.jpg"
 categories: writing hackernoon
 tags: tech review windows macos
 publication_url: https://hackernoon.com/a-switchers-tale-my-week-with-windows-612ea605291#.o4g70gtyi

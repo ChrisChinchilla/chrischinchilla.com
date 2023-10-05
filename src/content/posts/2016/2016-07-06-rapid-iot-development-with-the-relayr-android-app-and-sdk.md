@@ -2,7 +2,7 @@
 title: Rapid IoT Development with the relayr Android App and SDK
 publishDate: 2016-07-06T00:00:00.000Z
 publication_url: https://www.sitepoint.com/rapid-iot-development-with-the-relayr-android-app-and-sdk/
-image: ~/assets/images/articles/relayr.png
+image: "../../../assets/images/articles/relayr.png"
 categories: writing sitepoint
 tags: iot startups
 ---

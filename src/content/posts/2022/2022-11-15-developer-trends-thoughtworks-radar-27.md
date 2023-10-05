@@ -11,7 +11,7 @@ tags:
   - SBOM
   - Sustainability
 publication_url: "https://hackernoon.com/developer-trends-from-thoughtworks-technology-radar-27"
-image: ~/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-n893mnh.jpeg
+image: "../../../assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-n893mnh.jpeg"
 ---
 Thoughtworks’ Technology Radar is a regular time to take a look at what experienced industry experts think might be the next wave of tools, practices, and technologies to consider or stop using.
 

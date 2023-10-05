@@ -10,7 +10,7 @@ tags:
   - smart contracts
   - security
 publication_url: "https://dzone.com/articles/blockwatch-tools-for-working-with-solidity"
-image: ~/assets/images/articles/7251719.jpeg
+image: "../../../assets/images/articles/7251719.jpeg"
 
 ---
 In this article, we look at languages, IDEs, Wallets, and several other tools that you'll need to work with Solidity and blockchain.

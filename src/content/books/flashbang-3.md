@@ -3,7 +3,7 @@ title: Flashbang! A Collection of Very Short Stories Volume III
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2022-05-06
-image: https://www.drivethrufiction.com/images/19170/390676.png
+image: ~/assets/images/books/390676.png
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/product/390676/Flashbang-A-Collection-of-Very-Short-Stories--Volume-III

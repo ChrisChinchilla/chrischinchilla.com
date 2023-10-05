@@ -1,7 +1,7 @@
 ---
 title: Drupal 7 webform cookbook
 publishDate: 2012-08-08T22:03:24.000Z
-image: ~/assets/images/articles/drupal7-webform-cookbook.png
+image: "../../../assets/images/articles/drupal7-webform-cookbook.png"
 categories:
  - writing
  - chrischinchilla

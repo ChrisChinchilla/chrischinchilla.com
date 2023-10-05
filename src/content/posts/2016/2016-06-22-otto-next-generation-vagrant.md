@@ -2,7 +2,7 @@
 title: 'Otto: The Next Generation of Vagrant'
 publishDate: 2016-06-22T00:00:00.000Z
 publication_url: 'https://blog.codeship.com/otto-next-generation-vagrant/'
-image: ~/assets/images/articles/Codeship_otto-next-generation-of-vagrant.jpg
+image: "../../../assets/images/articles/Codeship_otto-next-generation-of-vagrant.jpg"
 categories: writing codeship
 tags: otto devops vagrant
 ---

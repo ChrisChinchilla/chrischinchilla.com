@@ -1,7 +1,7 @@
 ---
 title: Paddle Merges With DevMate to Offer macOS Developers a Consolidated Distribution Solution
 publishDate: '2017-05-29 11:13:30 +0100'
-image: ~/assets/images/articles/saas.jpeg
+image: "../../../assets/images/articles/saas.jpeg"
 categories: writing dzone
 tags: macOS developer saas payments
 publication_url: https://dzone.com/articles/paddle-merges-with-devmate-offering-macos-develope

@@ -1,13 +1,13 @@
 ---
 import { Icon } from 'astro-icon';
-import { Picture } from '@astrojs/image/components';
+import { Image } from 'astro:assets';
 import bgImage from '../../assets/images/chinch-head.png';
 interface CallToAction {
   text: string;
   href: string;
   icon?: string;
 }
-
+// TODO: Migrate
 export interface Props {
   title?: string;
   subtitle?: string;
@@ -33,7 +33,7 @@ const {
         {
           title && (
             <h1
-              class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading"
+              class="text-5xl md:text-[3.50rem] leading-tighter tracking-tighter mb-4 font-heading font-bold"
               set:html={title}
             />
           )
@@ -87,16 +87,17 @@ const {
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
-                <Picture
-                  class="mx-auto rounded-md w-full"
-                  widths={[400, 768, 1480]}
-                  sizes="(max-width: 767px) 400px, (max-width: 1479px) 768px, 1480px"
-                  aspectRatio={1480 / 833}
-                  loading="eager"
-                  width={1480}
-                  fit="outside"
-                  {...image}
-                />
+                // <Picture
+                //   class="mx-auto rounded-md w-full"
+                //   widths={[400, 768, 1480]}
+                //   sizes="(max-width: 767px) 400px, (max-width: 1479px) 768px, 1480px"
+                //   aspectRatio={1480 / 833}
+                //   loading="eager"
+                //   width={1480}
+                //   fit="outside"
+                //   {...image}
+                // />
+                <Image {...image} class="mx-auto rounded-md w-full" />
               )}
             </div>
           )

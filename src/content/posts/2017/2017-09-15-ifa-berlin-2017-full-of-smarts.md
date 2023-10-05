@@ -10,7 +10,7 @@ tags:
   - iot
   - connected devices
 publication_url: "https://dzone.com/articles/ifa-berlin-2017-full-of-smarts"
-image: ~/assets/images/articles/6577290.jpeg
+image: "../../../assets/images/articles/6577290.jpeg"
 
 ---
 IFA Berlin was an assortment of connected products, robots, and personal assistants. See what the future looks like for development.

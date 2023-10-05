@@ -10,7 +10,7 @@ tags:
   - markdown
   - integration
 publication_url: "https://dzone.com/articles/customizing-visual-studio-code-for-writing"
-image: ~/assets/images/articles/8660654.jpeg
+image: "../../../assets/images/articles/8660654.jpeg"
 
 ---
 Are you a technical writer or dev who needs to create documentation around your project? Check out these extensions you can integrate into VS Code that can help.

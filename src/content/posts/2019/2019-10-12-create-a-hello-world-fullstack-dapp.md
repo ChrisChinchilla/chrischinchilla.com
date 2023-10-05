@@ -12,7 +12,7 @@ tags:
   - on-boarding
   - solidity
 publication_url: "https://kauri.io/article/68fca74301814d09bfcc35e07ff30fbc"
-image: ~/assets/images/articles/QmWkqKZ61bGkReDVGZY8hdWhr9S9gaaNpQcADQkGQ9YE2q.png
+image: "../../../assets/images/articles/QmWkqKZ61bGkReDVGZY8hdWhr9S9gaaNpQcADQkGQ9YE2q.png"
 
 ---
 

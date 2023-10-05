@@ -3,7 +3,7 @@ title: CSS in Depth in Motion
 client: Manning
 video_type: course
 publish_date: 2018-07-01
-image: https://images.manning.com/720/960/resize/video/2/8a0dce1-1e57-4ea4-9bb5-14a4d7733e45/livevideo-css-in-depth-in-motion.png
+image: ~/assets/images/av/livevideo-css-in-depth-in-motion.jpeg
 store_urls:
   - label: Manning
     url: https://www.manning.com/livevideo/css-in-depth-in-motion

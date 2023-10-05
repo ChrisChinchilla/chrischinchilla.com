@@ -4,6 +4,9 @@ import Headline from '~/components/blog/Headline.astro';
 import Podcast from '../../components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
+// TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
+
+// TODO: If want summaries, will need content items…
 
 export async function getStaticPaths({ paginate }) {
   const options = {
@@ -20,6 +23,7 @@ export async function getStaticPaths({ paginate }) {
 
   return paginate(allEpisodes, { pageSize: 25 });
 }
+
 const { page } = Astro.props;
 const meta = {
   title: 'Podcasts',
@@ -30,6 +34,7 @@ const meta = {
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
+
 ---
 
 <Layout {meta}>
@@ -43,10 +48,7 @@ const meta = {
           <>
             <li class="mb-12 md:mb-20">
               <Podcast
-                name={podcast.title}
-                description={podcast.description}
-                audio_preview_url={podcast.enclosure.att_url}
-                image={podcast.image.att_href}
+                podcast={podcast}
               />
             </li>
           </>

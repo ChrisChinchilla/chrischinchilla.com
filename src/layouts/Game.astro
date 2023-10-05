@@ -3,15 +3,15 @@ import Layout from '~/layouts/BaseLayout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
-import { findImage } from '~/utils/images';
-import { Picture } from "@astrojs/image/components";
-
+import { Image } from 'astro:assets';
+// import { findImage } from '~/utils/images';
+// TODO: Is this used?
 import { MetaSEO } from '~/types';
 
 export interface Props {}
 
 const { frontmatter } = Astro.props;
-const featured_image = await findImage(frontmatter.image);
+// const featured_image = await findImage(frontmatter.image);
 
 const meta: MetaSEO = {
   title: frontmatter?.title,
@@ -26,7 +26,7 @@ const meta: MetaSEO = {
       <h1 class="font-bold font-heading text-3xl md:text-4xl leading-tighter tracking-tighter">{frontmatter.title}</h1>
       <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg">
 
-        <Picture
+        <!-- <Picture
         src={featured_image}
         class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
         widths={[400, 900]}
@@ -36,6 +36,8 @@ const meta: MetaSEO = {
         loading="lazy"
         decoding="async"
         fetchpriority="auto"
+      /> -->
+      <Image src={frontmatter.image} alt={frontmatter.title}  class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
       />
     </div>
       <div

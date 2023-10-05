@@ -1,7 +1,7 @@
 ---
 title: 'Hands on with Lion, 10.7 - Installing'
 publishDate: 2011-09-28T00:00:00.000Z
-image: ~/assets/images/articles/lion.png
+image: "../../../assets/images/articles/lion.png"
 categories:
  - writing
  - chrischinchilla

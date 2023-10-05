@@ -1,7 +1,7 @@
 ---
 title: Featurefull vs Usable
 publishDate: 2013-05-04T12:16:05.000Z
-image: ~/assets/images/articles/feature-bloat.png
+image: "../../../assets/images/articles/feature-bloat.png"
 categories:
  - writing
  - chrischinchilla

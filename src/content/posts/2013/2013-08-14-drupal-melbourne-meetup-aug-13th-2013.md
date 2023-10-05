@@ -1,7 +1,7 @@
 ---
 title: 'Drupal Melbourne meetup, Aug 13th 2013'
 publishDate: 2013-08-14T00:57:56.000Z
-image: ~/assets/images/articles/drupalmel.png
+image: "../../../assets/images/articles/drupalmel.png"
 categories:
  - writing
  - chrischinchilla

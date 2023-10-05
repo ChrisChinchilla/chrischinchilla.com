@@ -10,7 +10,7 @@ tags:
   - mainnet
   - deploy
 publication_url: "https://dev2.kauri.io/article/c6aadc15a87b403ca428602f4d6ea30e"
-image: ~/assets/images/defaults/blog-chinchilla.jpg
+image: "../../../assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 In previous tutorials, we used our local development environment for testing. This tutorial describes how to change your code so that you can deploy to the Etehreum mainnet.

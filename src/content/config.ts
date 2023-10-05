@@ -2,10 +2,10 @@ import { z, defineCollection } from 'astro:content';
 
 const posts = defineCollection({
   type: 'content', // v2.5.0 and later
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     // description: z.string().optional(),
-    image: z.string().optional(),
+    image: image().optional(),
     publication_url: z.string().url().optional(),
 
     // canonical: z.string().url().optional(),
@@ -22,9 +22,9 @@ const posts = defineCollection({
 
 const games = defineCollection({
   type: 'content', // v2.5.0 and later
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
-    image: z.string(),
+    image: z.union([z.string().url(), image()]),
     publisher: z.string().optional(),
     store_urls: z.array(z.object({url: z.string(), label: z.string()})).optional(),
     publish_date: z.date().optional(),
@@ -34,7 +34,7 @@ const games = defineCollection({
 
 const events = defineCollection({
   type: 'content', // v2.5.0 and later
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string().optional(),
     action: z.string().optional(),
     event: z.string(),
@@ -48,12 +48,12 @@ const events = defineCollection({
 
 const clients = defineCollection({
   type: 'content', // v2.5.0 and later
-  schema: z.object({
+  schema: ({ image }) => z.object({
     type: z.string(),
     title: z.string(),
 
     description: z.string().optional(),
-    image: z.string().optional(),
+    image: z.union([z.string().url(), image()]),
     company_url: z.string().url().optional(),
 
     // canonical: z.string().url().optional(),
@@ -70,11 +70,12 @@ const clients = defineCollection({
 
 const books = defineCollection({
   type: 'content', // v2.5.0 and later
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     // description: z.string(),
     publisher: z.string(),
-    image: z.string(),
+    // image: z.union([z.string().url(), image()]),
+    image: z.union([z.string().url(), image()]),
     store_urls: z.array(z.object({url: z.string(), label: z.string()})).optional(),
     publish_date: z.date(),
     role: z.string(),
@@ -83,16 +84,26 @@ const books = defineCollection({
 
 const av = defineCollection({
   type: 'content', // v2.5.0 and later
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     // description: z.string(),
     client: z.string(),
-    image: z.string(),
+    image: z.union([z.string().url(), image()]),
     store_urls: z.array(z.object({url: z.string(), label: z.string()})).optional(),
     publish_date: z.date(),
     video_type: z.string(),
   }),
 });
+
+// const podcasts = defineCollection({
+//   type: 'content', // v2.5.0 and later
+//   schema: z.object({
+//     title: z.string(),
+//     description: z.string(),
+//     image: z.string(),
+//     audio_preview_url: z.string(),
+//   }),
+// });
 
 export const collections = {
   posts: posts,
@@ -101,4 +112,5 @@ export const collections = {
   events: events,
   books: books,
   av: av,
+  // podcasts: podcasts,
 };

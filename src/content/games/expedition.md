@@ -1,6 +1,6 @@
 ---
 title: Expedition roleplaying card game quests
-image: "https://images.squarespace-cdn.com/content/v1/558cb72be4b078b0fdd9fcc5/1515168482447-YL5IRK10MTDJAEYN4OIU/Simulator+Screen+Shot+Jun+28%2C+2017%2C+8.32.37+PM.png"
+image: "~/assets/images/games/SimulatorScreenShotJun2820178.32.37PM.png"
 publisher: Expedition
 role: Designer
 store_urls:

@@ -1,7 +1,7 @@
 ---
 title: Build and program with Sam labs Curious Cars
 publishDate: 2017-01-05 19:45:01 +0100
-image: ~/assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-eca73892.jpg
+image: "../../../assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-eca73892.jpg"
 categories: writing theweeklysqueak
 tags: tech review coding children
 excerpt: null
@@ -13,23 +13,23 @@ Fresh from my experiences and reflections teaching Syrian refugees to code, [I h
 
 Let's begin with the company I found myself in front of at IFA, [Sam labs](https://www.samlabs.com/), and their new product, curious cars.
 
-![The Curious Cars box](~/assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-d3fe01c0.jpg)
+![The Curious Cars box](../../../assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-d3fe01c0.jpg)
 
 ## Unboxing
 
 Unboxing curious cars is a delight in itself, inside a well designed box is an inlay that shows what component is what, and it's function. Pull out the foam inlay of components and you find a getting started guide.
 
-![Opening box](~/assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-d2bd08d2.jpg)
+![Opening box](../../../assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-d2bd08d2.jpg)
 
-![Getting started booklet](~/assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-b25ea120.jpg)
+![Getting started booklet](../../../assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-b25ea120.jpg)
 
 But really the best starting point is with the curious cars mobile app (each kit has a different app). The app tells you which components to use and what to do with them, as you connect them together to create a variety of car-based projects.
 
-![Connected blocks](~/assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-c87fd706.jpg)
+![Connected blocks](../../../assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-c87fd706.jpg)
 
 The app instructs you to turn on components and connect them together (via bluetooth) by dragging your finger from one component to another. Then using the app, or by interacting with the components physically you can see how they respond to each other, for example pressing a switch rotates a motor.
 
-![Using the app](~/assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-9288d6b5.jpg)
+![Using the app](../../../assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-9288d6b5.jpg)
 
 After you've completed the first tutorial, you can move onto another, or explore what else is possible with the components.
 

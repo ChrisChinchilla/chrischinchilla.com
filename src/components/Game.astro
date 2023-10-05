@@ -1,18 +1,17 @@
 ---
-// import { Picture } from "@astrojs/image/components";
-import { Picture } from "@astrojs/image/components";
-import { findImage } from '~/utils/images';
-import { CollectionEntry } from 'astro:content';
-import { Markdown } from '@astropub/md';
+import { Image } from 'astro:assets';
+// import { findImage } from '~/utils/images';
+import { type CollectionEntry } from 'astro:content';
+import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
 
 export interface Props {
-  game: CollectionEntry<"games">;
+  game: CollectionEntry<'games'>;
 }
 const { game } = Astro.props;
 
 // const { Content } = await game.render();
-const featured_image = await findImage(game.data.image);
+// const featured_image = await findImage(game.data.image);
 
 // Truncate text
 // TODO: Better way?
@@ -21,20 +20,17 @@ const featured_image = await findImage(game.data.image);
 
 const truncatedBody = truncateMarkdown(game.body, {
   limit: 500,
-  ellipsis: true
-})
+  ellipsis: true,
+});
 
 // What sort of URL
-var url = "games/" + game.slug;
+var url = 'games/' + game.slug;
 // TODO: Why is slug broken again?
 ---
 
-
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${game.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div
-    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
-  >
-    <Picture
+  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
+    <!-- <Picture
       src={featured_image ? featured_image : '~/assets/images/default.png'}
       class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
       widths={[450, 900]}
@@ -44,27 +40,30 @@ var url = "games/" + game.slug;
       loading="lazy"
       decoding="async"
       fetchpriority="auto"
+    /> -->
+    <Image
+      src={game.data.image}
+      alt={game.data.title}
+      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
     />
   </div>
-  
-    <div class="mt-2">
-      <header>
-      <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
+
+  <div class="mt-2">
+    <header>
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading dark:text-slate-300">
         {
           url ? (
             <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={url}>
               {game.data.title}
             </a>
           ) : (
-          game.data.title
+            game.data.title
           )
         }
       </h2>
       <i class="my-2 block">{game.data.role}</i>
-      </header>
-       <!-- TODO: Seems kind of ridiculous -->
-       <Markdown of={truncatedBody} />
-
-    </div>
-
+    </header>
+    <!-- TODO: Seems kind of ridiculous -->
+    <Markdown class="m-2" />{truncatedBody}
+  </div>
 </article>

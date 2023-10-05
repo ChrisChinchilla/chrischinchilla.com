@@ -19,8 +19,6 @@ I also found <a href="https://lanyrd.com/2013/drupalgov/scmgxy/" target="_blank"
 
 At some point in the evening we decamped to Canberra's infamous <a href="https://www.visitcanberra.com.au/Things-to-do-and-see/Food-and-wine/Breweries/Business-Details-Page.aspx?ID=9002555&Title=Wig+and+Pen+English+Pub+and+Brewery" target="_blank">Wig and Pen</a>, some of the best craft beer in Australia and an evening of many tales and antics.
 
-![Me on a Mountain](chrisonmountain.jpg)
-
 The next day was blessed with unexpecdalty pleasant weather, so I naughtily skipped the code sprint for a day out and about, visiting the Canberra <a href="https://www.cdscc.nasa.gov/" target="_blank">Deep Space Communication Complex</a>. It was fascinating and it's amazing how outdated space technology now looks despite where it took us and still takes us. Just think, the entire computing power behind the moon landings is now probably in your pocket, they were still running around with ticker tape readings.
 
 The Gibraltar waterfalls were stunning and I had a great scramble around enjoying the invigorating sunshine.

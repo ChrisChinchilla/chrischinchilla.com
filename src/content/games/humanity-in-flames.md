@@ -1,6 +1,6 @@
 ---
 title: Humanity in Flames - 3286
-image: "~/assets/images/default.png"
+image: "~/assets/images/defaults/game-chinchilla.jpg"
 role: Proofreader
 ---
 

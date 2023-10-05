@@ -1,7 +1,7 @@
 ---
 import { Icon } from 'astro-icon';
-import { Picture } from '@astrojs/image/components';
-
+import { Image } from 'astro:assets';
+// import { findImage } from '~/utils/images';
 // import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 
@@ -39,7 +39,7 @@ const { post, url } = Astro.props;
         </p>
       </div>
       <h1
-        class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
+        class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl leading-tighter tracking-tighter font-heading font-bold"
       >
         {post.title}
       </h1>
@@ -51,17 +51,19 @@ const { post, url } = Astro.props;
 
       {
         post.image ? (
-          <Picture
-            src={post.image}
-            class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
-            widths={[400, 900]}
-            sizes="(max-width: 900px) 400px, 900px"
-            alt={post.description || ''}
-            loading="eager"
-            aspectRatio={16 / 9}
-            width={900}
-            height={506}
-          />
+          // <Picture
+          //   src={post.image}
+          //   class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+          //   widths={[400, 900]}
+          //   sizes="(max-width: 900px) 400px, 900px"
+          //   alt={post.description || ''}
+          //   loading="eager"
+          //   aspectRatio={16 / 9}
+          //   width={900}
+          //   height={506}
+          // />
+          <Image src={post.image} alt={post.title} class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+    />
         ) : (
           <div class="max-w-3xl mx-auto px-4 sm:px-6">
             <div class="border-t dark:border-slate-700" />

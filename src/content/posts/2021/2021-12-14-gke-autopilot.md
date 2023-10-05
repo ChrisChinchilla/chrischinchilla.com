@@ -8,7 +8,7 @@ tags:
   - kubernetes
   - cloud
 publication_url: https://chronosphere.io/learn/how-to-use-chronosphere-to-monitor-your-gke-autopilot-deployment/
-image: ~/assets/images/defaults/blog-chinchilla.jpg
+image: "../../../assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 
