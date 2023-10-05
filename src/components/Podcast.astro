@@ -1,32 +1,41 @@
 ---
 import { Image } from 'astro:assets';
 import truncateMarkdown from 'markdown-truncate';
+export interface Props {
+  name: string;
+  description: string;
+  id: string;
+  audio_preview_url: string;
+  image: string;
+}
+const { name, description,audio_preview_url, image } = Astro.props;
 
-const { podcast } = Astro.props;
+// const { podcast } = Astro.props;
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${podcast.image.att_href ? 'md:grid-cols-2' : ''}`}>
+<article class='max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2'>
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
     <!-- TODO: These images might be quite heavy -->
     <Image
-      src={podcast.image.att_href}
-      alt={podcast.title[0]}
+      src={image ? image : '../../assets/images/default.png'}
+      alt={name ? name[0] : 'null'}
       class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
       width=420
       height=420
     />
+
   </div>
 
   <div class="mt-2">
     <div class="mt-2">
       <header>
         <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
-          {podcast.title[0]}
+          {name[0]}
         </h2>
       </header>
-      <div class="my-2" set:html={truncateMarkdown(podcast.description, {limit: 500, ellipsis: true})} />
-      <audio controls src={podcast.enclosure.att_url} preload="none">
-        <a href={podcast.enclosure.att_url}>Download audio</a>
+      <div class="my-2" set:html={truncateMarkdown(description, {limit: 500, ellipsis: true})} />
+      <audio controls src={audio_preview_url} preload="none">
+        <a href={audio_preview_url}>Download audio</a>
       </audio>
     </div>
   </div>

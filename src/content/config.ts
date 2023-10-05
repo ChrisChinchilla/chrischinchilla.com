@@ -5,7 +5,8 @@ const posts = defineCollection({
   schema: ({ image }) => z.object({
     title: z.string(),
     // description: z.string().optional(),
-    image: image().optional(),
+    // TODO: Rollout
+    image: image().optional().default('../../../assets/images/defaults/blog-chinchilla.jpg'),
     publication_url: z.string().url().optional(),
 
     // canonical: z.string().url().optional(),
@@ -98,10 +99,10 @@ const av = defineCollection({
 // const podcasts = defineCollection({
 //   type: 'content', // v2.5.0 and later
 //   schema: z.object({
-//     title: z.string(),
-//     description: z.string(),
-//     image: z.string(),
-//     audio_preview_url: z.string(),
+//     title: z.string().optional( ),
+//     description: z.string().optional(),
+//     image: z.string().optional(),
+//     audio_preview_url: z.string().optional(),
 //   }),
 // });
 

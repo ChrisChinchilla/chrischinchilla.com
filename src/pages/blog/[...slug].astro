@@ -3,6 +3,8 @@ import MarkdownPostLayout from "../../layouts/MarkdownLayout.astro";
 import { Image } from 'astro:assets';
 // import { findImage } from '~/utils/images';
 import { getCollection } from 'astro:content';
+import { Debug } from 'astro:components';
+
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
   const blogEntries = await getCollection('posts');
@@ -28,6 +30,7 @@ const { Content } = await entry.render();
     decoding="async"
     fetchpriority="auto"
   /> -->
+  <Debug {entry.data.image} />
   <Image src={entry.data.image} alt={entry.data.title} class="object-cover w-full h-full mb-6 rounded drop-shadow-lg"
   />
   <Content />

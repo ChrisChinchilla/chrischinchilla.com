@@ -13,7 +13,7 @@
     "lint:eslint": "eslint . --ext .js,.ts,.astro"
   },
   "dependencies": {
-    "@astropub/md": "^0.2.0",
+    "@astropub/md": "https://gitpkg.now.sh/kizu/md/packages/md?astro-update",
     "@astrojs/react": "^3.0.3",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -52,14 +52,10 @@
     "prettier-plugin-astro": "^0.12.0",
     "reading-time": "^1.5.0",
     "sharp": "^0.32.6",
-    "svgo": "^3.0.2",
+    "svgo": "^2.8.0",
     "tailwindcss": "^3.3.3",
     "truncate-html": "^1.0.4",
     "typescript": "^5.2.2"
-  },
-  "overrides": {
-    "astro": "^3.2.3",
-    "@astrojs/markdown-remark": "^3.2.1"
   },
   "engines": {
     "node": ">=16.12.0"

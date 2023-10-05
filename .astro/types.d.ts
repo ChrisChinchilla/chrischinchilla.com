@@ -7321,20 +7321,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2020/2020-04-23-big-boy.md": {
-	id: "2020/2020-04-23-big-boy.md";
-  slug: "2020/2020-04-23-big-boy";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2020/2020-04-23-crit-test-dummies-special-the-phantasmal-owlbear-.md": {
-	id: "2020/2020-04-23-crit-test-dummies-special-the-phantasmal-owlbear-.md";
-  slug: "2020/2020-04-23-crit-test-dummies-special-the-phantasmal-owlbear-";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2020/2020-04-24-parent-child-pipelines.md": {
 	id: "2020/2020-04-24-parent-child-pipelines.md";
   slug: "2020/2020-04-24-parent-child-pipelines";
@@ -7419,23 +7405,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2020/2020-07-10-crit-test-dummies-ep-5-how-to-raise-a-dragon.md": {
-	id: "2020/2020-07-10-crit-test-dummies-ep-5-how-to-raise-a-dragon.md";
-  slug: "2020/2020-07-10-crit-test-dummies-ep-5-how-to-raise-a-dragon";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2020/2020-07-15-developer-experience-roundtable-continuous-improvement-nigel-simpson-erik-muttersbach.md": {
 	id: "2020/2020-07-15-developer-experience-roundtable-continuous-improvement-nigel-simpson-erik-muttersbach.md";
   slug: "2020/2020-07-15-developer-experience-roundtable-continuous-improvement-nigel-simpson-erik-muttersbach";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2020/2020-07-31-crit-test-dummies-episode-6-mistress-of-blood-tow.md": {
-	id: "2020/2020-07-31-crit-test-dummies-episode-6-mistress-of-blood-tow.md";
-  slug: "2020/2020-07-31-crit-test-dummies-episode-6-mistress-of-blood-tow";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -7489,13 +7461,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2020/2020-09-29-crit-test-dummies-ep-7-bubble-bubble-toil-and-tro.md": {
-	id: "2020/2020-09-29-crit-test-dummies-ep-7-bubble-bubble-toil-and-tro.md";
-  slug: "2020/2020-09-29-crit-test-dummies-ep-7-bubble-bubble-toil-and-tro";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2020/2020-10-06-developer-experience.md": {
 	id: "2020/2020-10-06-developer-experience.md";
   slug: "2020/2020-10-06-developer-experience";
@@ -7510,13 +7475,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2020/2020-10-18-crit-test-dummies-episode-8-corruption-of-skyhorn.md": {
-	id: "2020/2020-10-18-crit-test-dummies-episode-8-corruption-of-skyhorn.md";
-  slug: "2020/2020-10-18-crit-test-dummies-episode-8-corruption-of-skyhorn";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2020/2020-10-23-amazon-elasticache-for-redis-polarsquad-hackathon.md": {
 	id: "2020/2020-10-23-amazon-elasticache-for-redis-polarsquad-hackathon.md";
   slug: "2020/2020-10-23-amazon-elasticache-for-redis-polarsquad-hackathon";
@@ -7524,44 +7482,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2020/2020-11-02-tournament-of-tokens-one-shot-special.md": {
-	id: "2020/2020-11-02-tournament-of-tokens-one-shot-special.md";
-  slug: "2020/2020-11-02-tournament-of-tokens-one-shot-special";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2020/2020-11-04-testing-hotfixes.md": {
 	id: "2020/2020-11-04-testing-hotfixes.md";
   slug: "2020/2020-11-04-testing-hotfixes";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2020/2020-11-16-haunting-of-owlbear-lodge-halloween-special.md": {
-	id: "2020/2020-11-16-haunting-of-owlbear-lodge-halloween-special.md";
-  slug: "2020/2020-11-16-haunting-of-owlbear-lodge-halloween-special";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2020/2020-11-21-crit-test-dummies-ep-10-mined-your-head-pt-1.md": {
-	id: "2020/2020-11-21-crit-test-dummies-ep-10-mined-your-head-pt-1.md";
-  slug: "2020/2020-11-21-crit-test-dummies-ep-10-mined-your-head-pt-1";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2020/2020-11-21-crit-test-dummies-ep-9-mined-your-head-pt-1.md": {
-	id: "2020/2020-11-21-crit-test-dummies-ep-9-mined-your-head-pt-1.md";
-  slug: "2020/2020-11-21-crit-test-dummies-ep-9-mined-your-head-pt-1";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2020/2020-11-22-crit-test-dummies-ep-9-mined-your-head-pt-2.md": {
-	id: "2020/2020-11-22-crit-test-dummies-ep-9-mined-your-head-pt-2.md";
-  slug: "2020/2020-11-22-crit-test-dummies-ep-9-mined-your-head-pt-2";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -7590,20 +7513,6 @@ declare module 'astro:content' {
 "2020/2020-12-18-whats-new-for-documentarians-in-snagit-2021.md": {
 	id: "2020/2020-12-18-whats-new-for-documentarians-in-snagit-2021.md";
   slug: "2020/2020-12-18-whats-new-for-documentarians-in-snagit-2021";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2020/2020-12-28-crit-test-dummies-ep-10-isle-of-the-dying-moon-pt.md": {
-	id: "2020/2020-12-28-crit-test-dummies-ep-10-isle-of-the-dying-moon-pt.md";
-  slug: "2020/2020-12-28-crit-test-dummies-ep-10-isle-of-the-dying-moon-pt";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2020/2020-12-29-crit-test-dummies-ep-10-isle-of-the-dying-moon-pt.md": {
-	id: "2020/2020-12-29-crit-test-dummies-ep-10-isle-of-the-dying-moon-pt.md";
-  slug: "2020/2020-12-29-crit-test-dummies-ep-10-isle-of-the-dying-moon-pt";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -7643,93 +7552,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2021/2021-03-25-crit-test-dummies-ep-11-pt2-the-crumbling-stairs.md": {
-	id: "2021/2021-03-25-crit-test-dummies-ep-11-pt2-the-crumbling-stairs.md";
-  slug: "2021/2021-03-25-crit-test-dummies-ep-11-pt2-the-crumbling-stairs";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-03-25-crit-test-dummies-ep-11-the-crumbling-stairs-pt-1.md": {
-	id: "2021/2021-03-25-crit-test-dummies-ep-11-the-crumbling-stairs-pt-1.md";
-  slug: "2021/2021-03-25-crit-test-dummies-ep-11-the-crumbling-stairs-pt-1";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-03-25-devx5-developer-experience-deep-dive-with-twilio.md": {
-	id: "2021/2021-03-25-devx5-developer-experience-deep-dive-with-twilio.md";
-  slug: "2021/2021-03-25-devx5-developer-experience-deep-dive-with-twilio";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-03-26-crit-test-dummies-ep-12-pt1-battle-royale.md": {
-	id: "2021/2021-03-26-crit-test-dummies-ep-12-pt1-battle-royale.md";
-  slug: "2021/2021-03-26-crit-test-dummies-ep-12-pt1-battle-royale";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-03-26-crit-test-dummies-ep-12-pt2-battle-royale.md": {
-	id: "2021/2021-03-26-crit-test-dummies-ep-12-pt2-battle-royale.md";
-  slug: "2021/2021-03-26-crit-test-dummies-ep-12-pt2-battle-royale";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-04-08-ctd-shadow-of-ebondeath-pt-2-ep-13.md": {
-	id: "2021/2021-04-08-ctd-shadow-of-ebondeath-pt-2-ep-13.md";
-  slug: "2021/2021-04-08-ctd-shadow-of-ebondeath-pt-2-ep-13";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-04-08-ctd-shadow-of-ebondeath-pt1-ep-13.md": {
-	id: "2021/2021-04-08-ctd-shadow-of-ebondeath-pt1-ep-13.md";
-  slug: "2021/2021-04-08-ctd-shadow-of-ebondeath-pt1-ep-13";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-04-09-ctd-three-faces-of-night-pt-1-ep-14.md": {
-	id: "2021/2021-04-09-ctd-three-faces-of-night-pt-1-ep-14.md";
-  slug: "2021/2021-04-09-ctd-three-faces-of-night-pt-1-ep-14";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-04-09-ctd-three-faces-of-night-pt-2-ep-14.md": {
-	id: "2021/2021-04-09-ctd-three-faces-of-night-pt-2-ep-14.md";
-  slug: "2021/2021-04-09-ctd-three-faces-of-night-pt-2-ep-14";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-04-10-supers-and-sorcery-one-shot-special-by-crit-test-.md": {
-	id: "2021/2021-04-10-supers-and-sorcery-one-shot-special-by-crit-test-.md";
-  slug: "2021/2021-04-10-supers-and-sorcery-one-shot-special-by-crit-test-";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2021/2021-04-20-10-great-podcasts-software-test-engineers.md": {
 	id: "2021/2021-04-20-10-great-podcasts-software-test-engineers.md";
   slug: "2021/2021-04-20-10-great-podcasts-software-test-engineers";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-04-22-devx5-developer-experience-deep-dive-with-bannerb.md": {
-	id: "2021/2021-04-22-devx5-developer-experience-deep-dive-with-bannerb.md";
-  slug: "2021/2021-04-22-devx5-developer-experience-deep-dive-with-bannerb";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-05-06-devx5-developer-experience-deep-dive-with-gitpod.md": {
-	id: "2021/2021-05-06-devx5-developer-experience-deep-dive-with-gitpod.md";
-  slug: "2021/2021-05-06-devx5-developer-experience-deep-dive-with-gitpod";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -7748,51 +7573,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2021/2021-06-17-devx5-rapidly-build-websites-with-tailwind-css.md": {
-	id: "2021/2021-06-17-devx5-rapidly-build-websites-with-tailwind-css.md";
-  slug: "2021/2021-06-17-devx5-rapidly-build-websites-with-tailwind-css";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2021/2021-06-24-how-can-recording-and-roll-up-rules-help-your-metrics.md": {
 	id: "2021/2021-06-24-how-can-recording-and-roll-up-rules-help-your-metrics.md";
   slug: "2021/2021-06-24-how-can-recording-and-roll-up-rules-help-your-metrics";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-06-28-ctd-white-dragon-mountain-pt-2-ep-15.md": {
-	id: "2021/2021-06-28-ctd-white-dragon-mountain-pt-2-ep-15.md";
-  slug: "2021/2021-06-28-ctd-white-dragon-mountain-pt-2-ep-15";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-06-28-ctd-white-dragon-mountain-pt1-ep-15.md": {
-	id: "2021/2021-06-28-ctd-white-dragon-mountain-pt1-ep-15.md";
-  slug: "2021/2021-06-28-ctd-white-dragon-mountain-pt1-ep-15";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-06-30-ctd-winter-wonderland-ep-16-pt-1.md": {
-	id: "2021/2021-06-30-ctd-winter-wonderland-ep-16-pt-1.md";
-  slug: "2021/2021-06-30-ctd-winter-wonderland-ep-16-pt-1";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-07-01-devx5-fast-application-development-with-stepzen.md": {
-	id: "2021/2021-07-01-devx5-fast-application-development-with-stepzen.md";
-  slug: "2021/2021-07-01-devx5-fast-application-development-with-stepzen";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-07-15-devx5-code-based-music-collaboration-with-sonic-p.md": {
-	id: "2021/2021-07-15-devx5-code-based-music-collaboration-with-sonic-p.md";
-  slug: "2021/2021-07-15-devx5-code-based-music-collaboration-with-sonic-p";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -7811,72 +7594,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2021/2021-07-25-ctd-finale-ep-17-pt-3.md": {
-	id: "2021/2021-07-25-ctd-finale-ep-17-pt-3.md";
-  slug: "2021/2021-07-25-ctd-finale-ep-17-pt-3";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-07-25-ctd-pride-2021-special.md": {
-	id: "2021/2021-07-25-ctd-pride-2021-special.md";
-  slug: "2021/2021-07-25-ctd-pride-2021-special";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-07-29-devx5-the-best-js-framework-with-next-js.md": {
-	id: "2021/2021-07-29-devx5-the-best-js-framework-with-next-js.md";
-  slug: "2021/2021-07-29-devx5-the-best-js-framework-with-next-js";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2021/2021-08-03-eye-observability-jul.md": {
 	id: "2021/2021-08-03-eye-observability-jul.md";
   slug: "2021/2021-08-03-eye-observability-jul";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-08-13-chronicles-of-ghaistala-intro-video.md": {
-	id: "2021/2021-08-13-chronicles-of-ghaistala-intro-video.md";
-  slug: "2021/2021-08-13-chronicles-of-ghaistala-intro-video";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-08-13-ep-1-origin-story-chronicles-of-ghaistala.md": {
-	id: "2021/2021-08-13-ep-1-origin-story-chronicles-of-ghaistala.md";
-  slug: "2021/2021-08-13-ep-1-origin-story-chronicles-of-ghaistala";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-08-13-ep-2-deals-in-the-dark-chronicles-of-ghaistala.md": {
-	id: "2021/2021-08-13-ep-2-deals-in-the-dark-chronicles-of-ghaistala.md";
-  slug: "2021/2021-08-13-ep-2-deals-in-the-dark-chronicles-of-ghaistala";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-08-13-ep-3-union-dues-chronicles-of-ghaistala.md": {
-	id: "2021/2021-08-13-ep-3-union-dues-chronicles-of-ghaistala.md";
-  slug: "2021/2021-08-13-ep-3-union-dues-chronicles-of-ghaistala";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-08-22-ep-4-leverage-chronicles-of-ghaistala.md": {
-	id: "2021/2021-08-22-ep-4-leverage-chronicles-of-ghaistala.md";
-  slug: "2021/2021-08-22-ep-4-leverage-chronicles-of-ghaistala";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-08-26-devx5-ship-apps-faster-with-netlify.md": {
-	id: "2021/2021-08-26-devx5-ship-apps-faster-with-netlify.md";
-  slug: "2021/2021-08-26-devx5-ship-apps-faster-with-netlify";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -7902,37 +7622,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2021/2021-09-09-devx5-empowering-developers-with-rust.md": {
-	id: "2021/2021-09-09-devx5-empowering-developers-with-rust.md";
-  slug: "2021/2021-09-09-devx5-empowering-developers-with-rust";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2021/2021-09-22-containers-days-hamburg.md": {
 	id: "2021/2021-09-22-containers-days-hamburg.md";
   slug: "2021/2021-09-22-containers-days-hamburg";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-09-24-ep-5-up-up-and-away-chronicles-of-ghaistala.md": {
-	id: "2021/2021-09-24-ep-5-up-up-and-away-chronicles-of-ghaistala.md";
-  slug: "2021/2021-09-24-ep-5-up-up-and-away-chronicles-of-ghaistala";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-09-26-ep-6-the-light-chronicles-of-ghaistala.md": {
-	id: "2021/2021-09-26-ep-6-the-light-chronicles-of-ghaistala.md";
-  slug: "2021/2021-09-26-ep-6-the-light-chronicles-of-ghaistala";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-10-21-devx5-self-hosted-slack-with-mattermost.md": {
-	id: "2021/2021-10-21-devx5-self-hosted-slack-with-mattermost.md";
-  slug: "2021/2021-10-21-devx5-self-hosted-slack-with-mattermost";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -7951,20 +7643,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2021/2021-10-31-eve-of-fall-ctd-halloween-special-21.md": {
-	id: "2021/2021-10-31-eve-of-fall-ctd-halloween-special-21.md";
-  slug: "2021/2021-10-31-eve-of-fall-ctd-halloween-special-21";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-11-04-devx5-workflow-automation-with-hashicorp.md": {
-	id: "2021/2021-11-04-devx5-workflow-automation-with-hashicorp.md";
-  slug: "2021/2021-11-04-devx5-workflow-automation-with-hashicorp";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2021/2021-11-08-continuous-delivery-with-humanitec-postman-collection.md": {
 	id: "2021/2021-11-08-continuous-delivery-with-humanitec-postman-collection.md";
   slug: "2021/2021-11-08-continuous-delivery-with-humanitec-postman-collection";
@@ -7979,13 +7657,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2021/2021-11-18-devx5-workflow-automation-with-hashicorp-pt2.md": {
-	id: "2021/2021-11-18-devx5-workflow-automation-with-hashicorp-pt2.md";
-  slug: "2021/2021-11-18-devx5-workflow-automation-with-hashicorp-pt2";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "2021/2021-11-18-pagerduty-chronosphere.md": {
 	id: "2021/2021-11-18-pagerduty-chronosphere.md";
   slug: "2021/2021-11-18-pagerduty-chronosphere";
@@ -7996,13 +7667,6 @@ declare module 'astro:content' {
 "2021/2021-11-27-that-sounds-interesting.md": {
 	id: "2021/2021-11-27-that-sounds-interesting.md";
   slug: "2021/2021-11-27-that-sounds-interesting";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"2021/2021-12-02-devx5-workflow-automation-with-hashicorp.md": {
-	id: "2021/2021-12-02-devx5-workflow-automation-with-hashicorp.md";
-  slug: "2021/2021-12-02-devx5-workflow-automation-with-hashicorp";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
