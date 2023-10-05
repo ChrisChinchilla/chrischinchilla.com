@@ -13,7 +13,7 @@ tags:
   - robotics
   - iot
 publication_url: "https://dzone.com/articles/-mojobot-the-worlds-first-tangible-coding-robot-an"
-image: ~/assets/images/articles/11806332.jpeg
+image: "../../../assets/images/articles/11806332.jpeg"
 
 ---
 Learning to code with a board game? Sounds too good to be true.

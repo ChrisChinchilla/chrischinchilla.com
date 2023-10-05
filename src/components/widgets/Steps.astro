@@ -1,7 +1,8 @@
 ---
 import { Icon } from 'astro-icon';
-import { Picture } from '@astrojs/image/components';
+import { Image } from 'astro:assets';
 
+// TODO: Migrate
 interface Item {
   title: string;
   description?: string;
@@ -58,13 +59,15 @@ const {
           (typeof image === 'string' ? (
             <Fragment set:html={image} />
           ) : (
-            <Picture
-              class="inset-0 object-cover object-top w-full rounded-md drop-shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
-              widths={[400, 768]}
-              sizes="(max-width: 768px) 100vw, 432px"
-              aspectRatio="432:768"
-              {...image}
-            />
+            // <Picture
+            //   class="inset-0 object-cover object-top w-full rounded-md drop-shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
+            //   widths={[400, 768]}
+            //   sizes="(max-width: 768px) 100vw, 432px"
+            //   aspectRatio="432:768"
+            //   {...image}
+            // />
+            <Image {...image} class="inset-0 object-cover object-top w-full rounded-md drop-shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
+    />
           ))
       }
     </div>

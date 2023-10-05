@@ -3,7 +3,7 @@ title: Jump Start Responsive Web Design, 2nd Edition
 publisher: Sitepoint
 role: Author
 publish_date: 2017-04-18
-image: https://conffab.com/wp-content/uploads/2020/05/jumpstart-761x1000.png
+image: ~/assets/images/books/jumpstart-761x1000.png
 store_urls:
   - label: Sitepoint
     url: https://www.sitepoint.com/premium/books/jump-start-responsive-web-design-2nd-edition/

@@ -10,7 +10,7 @@ tags:
   - ethereum
   - security
 publication_url: "https://dzone.com/articles/blockwatch-the-9984-summit"
-image: ~/assets/images/articles/6891487.jpeg
+image: "../../../assets/images/articles/6891487.jpeg"
 
 ---
 Investing in a country, bringing blockchain to the developing world, and making smart contracts easier are just some of the topics covered today.

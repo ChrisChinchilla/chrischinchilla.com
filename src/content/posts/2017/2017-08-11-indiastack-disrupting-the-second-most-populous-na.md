@@ -11,7 +11,7 @@ tags:
   - data-driven development
 publication_url: "https://dzone.com/articles/india-stack-disrupting-the-second-most-populous-na"
 
-image: ~/assets/images/articles/6224626.jpeg
+image: "../../../assets/images/articles/6224626.jpeg"
 ---
 While you may not have plans for creating data-driven applications that target the Indian market, the example of a large government creating this platform is interesting.
 

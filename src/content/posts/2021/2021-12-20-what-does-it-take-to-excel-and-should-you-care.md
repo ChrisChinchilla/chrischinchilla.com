@@ -7,8 +7,8 @@ tags:
   - community
   - work
   - productivity
-publication_url: https://medium.com/@chrischinchilla/what-does-it-take-to-excel-and-should-you-care-41872e869d8c
-image: "https://cdn-images-1.medium.com/max/800/1*SAr4UKjI3FGtQ42wYqvvtw.jpeg"
+publication_url: "https://medium.com/@chrischinchilla/what-does-it-take-to-excel-and-should-you-care-41872e869d8c"
+image: "../../../assets/images/articles/1*SAr4UKjI3FGtQ42wYqvvtw.jpg"
 ---
 
 

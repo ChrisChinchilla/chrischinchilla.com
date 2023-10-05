@@ -3,7 +3,7 @@ title: Trello Shortcuts for Dash
 publishDate: 2015-12-27T00:00:00.000Z
 categories: projects software
 tags: dash documentation
-image: ~/assets/images/articles/dash_trello.png
+image: "../../../assets/images/articles/dash_trello.png"
 ---
 
 I have loved Kapeli's offline documentation browser, [Dash](https://kapeli.com/dash) for a while now and have been intending to start contributing to it for the best part of 2015.

@@ -10,7 +10,7 @@ tags:
   - Grammar checking
   - linting
   - Spell checking
-image: ~/assets/images/articles/jb-overview.png
+image: "../../../assets/images/articles/jb-overview.png"
 ---
 
 The docs as code trend, where technical writers and developers work more closely using similar tools and processes, has grown in the past few years.

@@ -9,7 +9,7 @@ tags:
   - kauri
   - updates
 publication_url: "https://dev2.kauri.io/article/904ece2aaa764ccb8918c6c0199958cc"
-image: ~/assets/images/articles/QmcNrgMHuQCqv8X9irccfdiUkR546RpkinKHxScf6wzfQf.png
+image: "../../../assets/images/articles/QmcNrgMHuQCqv8X9irccfdiUkR546RpkinKHxScf6wzfQf.png"
 
 ---
 

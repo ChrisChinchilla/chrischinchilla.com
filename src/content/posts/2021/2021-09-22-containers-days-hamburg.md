@@ -8,7 +8,7 @@ tags:
   - open source
   - containers
 publication_url: https://chronosphere.io/learn/reporting-back-from-container-days-hamburg/
-image: ~/assets/images/defaults/blog-chinchilla.jpg
+image: "../../../assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 

@@ -9,7 +9,7 @@ tags:
   - Documentation
   - Mozilla
   - Microsoft
-image: ~/assets/images/articles/wtdpodcastlogo.png
+image: "../../../assets/images/articles/wtdpodcastlogo.png"
 podcast_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/bSMpdsbigpw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 ---
 

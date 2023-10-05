@@ -11,7 +11,7 @@ tags:
   - token-standard
   - solidity
 publication_url: "https://kauri.io/article/bdd65d6155a74b8aa52672b46b7230a8"
-image: ~/assets/images/articles/QmWUTMmZAbbLYUhZv9ZzR9R1Ey2R4xgcxQQoFRoNdBPW85.png
+image: "../../../assets/images/articles/QmWUTMmZAbbLYUhZv9ZzR9R1Ey2R4xgcxQQoFRoNdBPW85.png"
 
 ---
 

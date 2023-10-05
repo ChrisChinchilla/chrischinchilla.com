@@ -8,7 +8,7 @@ categories:
 tags: 
   - macos
   - web browsers
-image: "https://cdn-images-1.medium.com/max/800/1*IDZ9dnAvGi9SL5kIBt9jLg.png"
+image: "../../../assets/images/articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png"
 ---
 
 Every time Apple announces a new macOS beta, I am tempted to somehow

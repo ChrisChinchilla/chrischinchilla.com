@@ -10,7 +10,7 @@ tags:
   - calibre
   - nextcloud
   - minidnla
-image: ~/assets/images/articles/raspberry-pi.jpeg
+image: "../../../assets/images/articles/raspberry-pi.jpeg"
 
 ---
 

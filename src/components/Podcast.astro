@@ -1,58 +1,42 @@
 ---
+import { Image } from 'astro:assets';
+import truncateMarkdown from 'markdown-truncate';
 export interface Props {
   name: string;
   description: string;
+  id: string;
   audio_preview_url: string;
   image: string;
 }
-console.log()
 const { name, description,audio_preview_url, image } = Astro.props;
-function slugify(str)
-{
-    str = str.replace(/^\s+|\s+$/g, '');
 
-    // Make the string lowercase
-    str = str.toLowerCase();
-
-    // Remove accents, swap ñ for n, etc
-    var from = "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
-    var to   = "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
-    for (var i=0, l=from.length ; i<l ; i++) {
-        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
-    }
-
-    // Remove invalid chars
-    str = str.replace(/[^a-z0-9 -]/g, '') 
-    // Collapse whitespace and replace by -
-    .replace(/\s+/g, '-') 
-    // Collapse dashes
-    .replace(/-+/g, '-'); 
-
-    return str;
-}
-const generatedSlug = slugify(name[0])
+// const { podcast } = Astro.props;
 ---
-<!-- TODO: Add styling -->
 
-<article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] dark:bg-slate-700 rounded">
-    <img src={image} />
-  
-    <audio controls src={audio_preview_url} preload="none">
-        <a href={audio_preview_url}> Download audio</a>
-      </audio>
+<article class='max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2'>
+  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
+    <!-- TODO: These images might be quite heavy -->
+    <Image
+      src={image ? image : '../../assets/images/default.png'}
+      alt={name ? name[0] : 'null'}
+      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+      width=420
+      height=420
+    />
+
   </div>
 
   <div class="mt-2">
     <div class="mt-2">
       <header>
-        <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold dark:text-slate-300">
-          <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href=`/podcast/${generatedSlug}`>
-            {name[0]}
-          </a>
+        <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
+          {name[0]}
         </h2>
       </header>
-      <article set:html={description}></article>
+      <div class="my-2" set:html={truncateMarkdown(description, {limit: 500, ellipsis: true})} />
+      <audio controls src={audio_preview_url} preload="none">
+        <a href={audio_preview_url}>Download audio</a>
+      </audio>
     </div>
   </div>
 </article>

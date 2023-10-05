@@ -2,7 +2,7 @@
 title: Video - Getting to know Volley
 publishDate: 2016-01-11T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/using-volley-to-communicate-with-external-services-from-your-android-app'
-image: ~/assets/images/articles/image-getting-to-know-android-volley.jpg
+image: "../../../assets/images/articles/image-getting-to-know-android-volley.jpg"
 categories: writing sitepoint
 tags: android tutorial
 ---

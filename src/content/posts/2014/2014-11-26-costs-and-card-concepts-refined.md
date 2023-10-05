@@ -1,7 +1,7 @@
 ---
 title: Costs and Card concepts Refined
 publishDate: 2014-11-26T00:00:00.000Z
-image: ~/assets/images/articles/card_piles.gif
+image: "../../../assets/images/articles/card_piles.gif"
 categories: projects chipshop
 tags: gamedesign
 ---

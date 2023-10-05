@@ -12,7 +12,7 @@ tags:
   - erlang
   - functional programming
 publication_url: "https://dzone.com/articles/blockwatch-the-aeligternity-blockchain"
-image: ~/assets/images/articles/10583037.jpeg
+image: "../../../assets/images/articles/10583037.jpeg"
 
 ---
 For those who want to see an application of the still newly-emergent Blockchain technology, check out this review of the aeternity project.

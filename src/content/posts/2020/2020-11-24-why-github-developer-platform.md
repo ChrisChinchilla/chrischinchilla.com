@@ -8,7 +8,7 @@ tags:
   - DevOps
   - GitHub
 publication_url: https://humanitec.com/blog/jason-warner-why-github-built-their-own-internal-developer-platform
-image: ~/assets/images/articles/5fc11394dea01eacb9630440.png
+image: "../../../assets/images/articles/5fc11394dea01eacb9630440.png"
 
 ---
 

@@ -2,7 +2,7 @@
 title: From the UK Games Expo to Essen
 publishDate: 2016-09-16T00:00:00.000Z
 categories: projects chipshop
-image: ~/assets/images/articles/ukge_playtest.jpg
+image: "../../../assets/images/articles/ukge_playtest.jpg"
 tags: games playtesting
 ---
 

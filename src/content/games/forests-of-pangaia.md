@@ -1,6 +1,6 @@
 ---
 title: Forests of Pangaia
-image: "https://cf.geekdo-images.com/8XCJExd_Oj1aLMxJkopdBg__original/img/pAYbekQLyPYr2ID1vPp2QARDlE4=/0x0/filters:format(jpeg)/pic7421954.jpg"
+image: "~/assets/images/games/pic7421954.jpg"
 publisher: Pangia games
 publish_date: 2022-01-01
 role: Proofreader

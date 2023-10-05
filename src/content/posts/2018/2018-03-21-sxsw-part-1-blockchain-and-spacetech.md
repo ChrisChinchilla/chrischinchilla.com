@@ -10,7 +10,7 @@ tags:
   - chatbot
   - security
 publication_url: "https://dzone.com/articles/sxsw-part-1-blockchain-and-spacetech"
-image: ~/assets/images/articles/8544517.jpeg
+image: "../../../assets/images/articles/8544517.jpeg"
 ---
 
 We hear promises of how blockchain will revolutionize tech, but most of its applications thus far seem rather mundane. Read on to see what devs are doing to change that.

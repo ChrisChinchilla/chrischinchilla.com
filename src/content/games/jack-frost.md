@@ -1,6 +1,6 @@
 ---
 title: Jack Frost - A Murder Mystery in Icewind Dale
-image: "https://www.dmsguild.com/images/8957/442399.jpg"
+image: "~/assets/images/games/442399.jpg"
 publisher: Art of Karthik
 publish_date: 2023-06-28
 role: Proofreader

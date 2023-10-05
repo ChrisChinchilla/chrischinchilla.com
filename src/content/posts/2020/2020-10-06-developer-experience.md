@@ -7,7 +7,7 @@ tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/developer-experience
-image: ~/assets/images/articles/5f7c2ed2e4ed9315819650f9.png
+image: "../../../assets/images/articles/5f7c2ed2e4ed9315819650f9.png"
 
 ---
 

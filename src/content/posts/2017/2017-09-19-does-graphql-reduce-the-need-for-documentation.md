@@ -6,6 +6,6 @@ categories: writing codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/documenting-graphql/"
-image: ~/assets/images/defaults/blog-chinchilla.jpg
+image: "../../../assets/images/defaults/blog-chinchilla.jpg"
 ---
 Before we begin, note that this post isn’t intended as an introduction to GraphQL. For a beginner’s guide, I suggest Derek Haynes’ Codeship post or howtographql.com.
