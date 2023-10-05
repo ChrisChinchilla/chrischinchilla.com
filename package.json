@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@astropub/md": "^0.2.0",
-    "@astrojs/react": "^3.0.2",
+    "@astrojs/react": "^3.0.3",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.12",
@@ -27,11 +27,11 @@
   },
   "devDependencies": {
     "@astro-community/astro-embed-youtube": "^0.4.1",
-    "@astrojs/mdx": "^1.1.0",
-    "@astrojs/partytown": "^2.0.0",
+    "@astrojs/mdx": "^1.1.1",
+    "@astrojs/partytown": "^2.0.1",
     "@astrojs/rss": "^3.0.0",
-    "@astrojs/sitemap": "^3.0.0",
-    "@astrojs/tailwind": "^5.0.0",
+    "@astrojs/sitemap": "^3.0.1",
+    "@astrojs/tailwind": "^5.0.1",
     "@astrolib/analytics": "^0.4.2",
     "@astrolib/seo": "^0.6.0",
     "@fontsource/albert-sans": "^5.0.8",
@@ -40,7 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
     "accessible-astro-components": "^2.2.1",
-    "astro": "^3.2.2",
+    "astro": "^3.2.3",
     "astro-compress": "^2.0.15",
     "astro-icon": "^0.8.1",
     "eslint": "^8.50.0",
@@ -56,6 +56,10 @@
     "tailwindcss": "^3.3.3",
     "truncate-html": "^1.0.4",
     "typescript": "^5.2.2"
+  },
+  "overrides": {
+    "astro": "^3.2.3",
+    "@astrojs/markdown-remark": "^3.2.1"
   },
   "engines": {
     "node": ">=16.12.0"

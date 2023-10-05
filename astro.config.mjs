@@ -26,19 +26,6 @@ export default defineConfig({
       forward: ['dataLayer.push']
     }
   }))], 
-  // react()],
-  image: {
-    remotePatterns: [{
-      protocol: 'https',
-      hostname: '**.medium.com',
-      pathname: '/**'
-    },
-    {
-      protocol: 'https',
-      hostname: '**.ssl-images-amazon.com',
-      pathname: '/**'
-    }],
-    },
   markdown: {
     remarkPlugins: [remarkReadingTime],
     extendDefaultPlugins: true
