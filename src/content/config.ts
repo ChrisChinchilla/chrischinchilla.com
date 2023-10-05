@@ -95,6 +95,16 @@ const av = defineCollection({
   }),
 });
 
+// const podcasts = defineCollection({
+//   type: 'content', // v2.5.0 and later
+//   schema: z.object({
+//     title: z.string(),
+//     description: z.string(),
+//     image: z.string(),
+//     audio_preview_url: z.string(),
+//   }),
+// });
+
 export const collections = {
   posts: posts,
   clients: clients,
@@ -102,4 +112,5 @@ export const collections = {
   events: events,
   books: books,
   av: av,
+  // podcasts: podcasts,
 };

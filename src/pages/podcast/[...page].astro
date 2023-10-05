@@ -4,6 +4,7 @@ import Headline from '~/components/blog/Headline.astro';
 import Podcast from '../../components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
+// TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
 
 // TODO: If want summaries, will need content items…
 
@@ -33,6 +34,7 @@ const meta = {
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
+
 ---
 
 <Layout {meta}>
