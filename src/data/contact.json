@@ -24,5 +24,10 @@
     "title": "Medium",
     "image": "tabler:brand-medium",
     "network_link": "https://medium.com/@ChrisChinchilla"
+  },
+  {
+    "title": "Patreon",
+    "image": "tabler:brand-patreon",
+    "network_link": "https://patreon.com/ChrisChinchilla"
   }
 ]
