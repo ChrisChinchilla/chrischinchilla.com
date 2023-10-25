@@ -48,10 +48,7 @@ const meta = {
           <>
             <li class="mb-12 md:mb-20">
               <Podcast
-                name={episode.title}
-                description={episode.description}
-                audio_preview_url={episode.enclosure.att_url}
-                image={episode.image.att_href}
+                podcast={episode}
               />
             </li>
           </>

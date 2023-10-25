@@ -1,50 +1,84 @@
 ---
-import MarkdownPostLayout from "../../layouts/MarkdownLayout.astro";
+import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
 import Podcast from '../../components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
+import { getEntry } from 'astro:content';
+
+// const allEpisodes = parsedfeed.rss.channel.item;
+// const result = allEpisodes.map(ep => {
+// const additionalData =
+// await getEntry ("episodes",
+// ep. slug)
+// if (!additionalData) {
+// return ep;
+// }
+// return {
+// ...ep, additionalData. data }
+// })
 
 export async function getStaticPaths() {
-  function slugify(str)
-{
+  function slugify(str) {
     str = str.replace(/^\s+|\s+$/g, '');
 
     // Make the string lowercase
     str = str.toLowerCase();
 
     // Remove accents, swap ñ for n, etc
-    var from = "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
-    var to   = "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
-    for (var i=0, l=from.length ; i<l ; i++) {
-        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+    var from = 'ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;';
+    var to = 'AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------';
+    for (var i = 0, l = from.length; i < l; i++) {
+      str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
     }
 
     // Remove invalid chars
-    str = str.replace(/[^a-z0-9 -]/g, '') 
-    // Collapse whitespace and replace by -
-    .replace(/\s+/g, '-') 
-    // Collapse dashes
-    .replace(/-+/g, '-'); 
+    str = str
+      .replace(/[^a-z0-9 -]/g, '')
+      // Collapse whitespace and replace by -
+      .replace(/\s+/g, '-')
+      // Collapse dashes
+      .replace(/-+/g, '-');
 
     return str;
-}
+  }
 
   const options = {
     ignoreAttributes: false,
-    stopNodes: ["root.itunes:title"],
+    stopNodes: ['root.itunes:title'],
     attributeNamePrefix: 'att_',
-    removeNSPrefix: true
+    removeNSPrefix: true,
   };
   const parser = new XMLParser(options);
   const feedTest = await fetch('https://feeds.zencastr.com/f/h5h0nhAi.rss');
   let rssFeedData = await feedTest.text();
   let parsedFeed = await parser.parse(rssFeedData);
+
   const allEpisodes = parsedFeed.rss.channel.item;
-  return allEpisodes.map((episode) => {
-return {
-  params: {id: slugify(episode.title[0])},
-  props: {episode},
-};
-  });
+  return allEpisodes
+    .map(async (episode) => {
+      const additionalData = await getEntry('podcasts', slugify(episode.title[0]));
+      // console.log(additionalData)
+      // if (!additionalData) {
+      //   console.log(additionalData)
+      // return episode;
+      return additionalData;
+
+      // return {...episode, additionalData }
+    })
+    .then(function (episodeExtra) {
+      console.log(episodeExtra);
+      console.log(slugify(episode.title[0]));
+
+      return {
+        params: { id: slugify(episode.title[0]) },
+        props: { episode },
+      };
+    });
+
+  // return {
+  //   params: {id: slugify(episode.title[0])},
+  //   props: {episode},
+  // };
+  // });
   // return paginate(allEpisodes, { pageSize: 25 });
 }
 const { episode } = Astro.props;
@@ -61,13 +95,5 @@ const meta = {
 ---
 
 <MarkdownPostLayout frontmatter={episode}>
-
-<Podcast
-                name={episode.title}
-                description={episode.description}
-                audio_preview_url={episode.enclosure.att_url}
-                image={episode.image.att_href}
-              />
-
-  </section>
+  <Podcast podcast={episode} />
 </MarkdownPostLayout>
