@@ -7,54 +7,51 @@ import truncateMarkdown from 'markdown-truncate';
 export interface Props {
   podcast: CollectionEntry<'podcasts'>;
 }
-const { podcast } = Astro.props;
+const { podcast, episodeData } = Astro.props;
 
 // const { name, description,audio_preview_url, image } = Astro.props;
 var url = 'podcast/' + slugify(podcast.title[0]);
-function slugify(str)
-{
-    str = str.replace(/^\s+|\s+$/g, '');
+function slugify(str) {
+  str = str.replace(/^\s+|\s+$/g, '');
 
-    // Make the string lowercase
-    str = str.toLowerCase();
+  // Make the string lowercase
+  str = str.toLowerCase();
 
-    // Remove accents, swap ñ for n, etc
-    var from = "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
-    var to   = "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
-    for (var i=0, l=from.length ; i<l ; i++) {
-        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
-    }
+  // Remove accents, swap ñ for n, etc
+  var from = 'ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;';
+  var to = 'AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------';
+  for (var i = 0, l = from.length; i < l; i++) {
+    str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+  }
 
-    // Remove invalid chars
-    str = str.replace(/[^a-z0-9 -]/g, '') 
+  // Remove invalid chars
+  str = str
+    .replace(/[^a-z0-9 -]/g, '')
     // Collapse whitespace and replace by -
-    .replace(/\s+/g, '-') 
+    .replace(/\s+/g, '-')
     // Collapse dashes
-    .replace(/-+/g, '-'); 
+    .replace(/-+/g, '-');
 
-    return str;
+  return str;
 }
 // const { podcast } = Astro.props;
 ---
 
-<article class='max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2'>
+<article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
     <!-- TODO: These images might be quite heavy -->
     <Image
       src={podcast.image ? podcast.image.att_href : '../../assets/images/default.png'}
       alt={podcast.title ? podcast.title[0] : 'null'}
       class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-      width=420
-      height=420
+      width="420"
+      height="420"
     />
-
   </div>
 
   <div class="mt-2">
     <div class="mt-2">
       <header>
-
-
         <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading dark:text-slate-300">
           {
             url ? (
@@ -62,18 +59,16 @@ function slugify(str)
                 {podcast.title[0]}
               </a>
             ) : (
-            podcast.title[0]
+              podcast.title[0]
             )
           }
         </h2>
-
-
-        
       </header>
-      <div class="my-2" set:html={truncateMarkdown(podcast.description, {limit: 500, ellipsis: true})} />
+      <div class="my-2" set:html={truncateMarkdown(podcast.description, { limit: 500, ellipsis: true })} />
       <audio controls src={podcast.enclosure.att_url} preload="none">
         <a href={podcast.enclosure.att_url}>Download audio</a>
       </audio>
+      {episodeData ? episodeData.extra : ''}
     </div>
   </div>
 </article>
