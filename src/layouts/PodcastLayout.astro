@@ -1,0 +1,88 @@
+---
+import Layout from '~/layouts/BaseLayout.astro';
+import Header from '~/components/widgets/Header.astro';
+import Footer from '~/components/widgets/Footer.astro';
+import Announcement from '~/components/widgets/Announcement.astro';
+import { Image } from 'astro:assets';
+import { type CollectionEntry } from 'astro:content';
+import Markdown from '@astrojs/markdown-component';
+import truncateMarkdown from 'markdown-truncate';
+
+import { MetaSEO } from '~/types';
+
+export interface Props {}
+
+const { frontmatter } = Astro.props;
+
+const meta: MetaSEO = {
+  title: frontmatter?.title,
+};
+
+export interface Props {
+  podcast: CollectionEntry<'podcasts'>;
+}
+const { podcast, episodeData } = Astro.props;
+
+// const { name, description,audio_preview_url, image } = Astro.props;
+function slugify(str) {
+  str = str.replace(/^\s+|\s+$/g, '');
+
+  // Make the string lowercase
+  str = str.toLowerCase();
+
+  // Remove accents, swap ñ for n, etc
+  var from = 'ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;';
+  var to = 'AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------';
+  for (var i = 0, l = from.length; i < l; i++) {
+    str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+  }
+
+  // Remove invalid chars
+  str = str
+    .replace(/[^a-z0-9 -]/g, '')
+    // Collapse whitespace and replace by -
+    .replace(/\s+/g, '-')
+    // Collapse dashes
+    .replace(/-+/g, '-');
+
+  return str;
+}
+// const { podcast } = Astro.props;
+---
+
+<Layout {meta}>
+  <Announcement />
+  <Header />
+  <main>
+    <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
+      <h1 class="font-bold font-heading text-3xl md:text-4xl leading-tighter tracking-tighter">{podcast.title[0]}</h1>
+      <div
+        class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
+      >
+        <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
+          <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
+            <!-- TODO: These images might be quite heavy -->
+            <!-- TODO: Should also have w-full h-full  -->
+            <Image
+              src={podcast.image ? podcast.image.att_href : '../../assets/images/default.png'}
+              alt={podcast.title ? podcast.title[0] : 'null'}
+              class="object-cover mb-6 rounded drop-shadow-lg"
+              width="420"
+              height="420"
+            />
+          </div>
+
+          <div class="mt-2">
+            <div class="my-2" set:html={truncateMarkdown(podcast.description, { limit: 500, ellipsis: true })} />
+            <audio controls src={podcast.enclosure.att_url} preload="none">
+              <a href={podcast.enclosure.att_url}>Download audio</a>
+            </audio>
+            {episodeData ? episodeData.extra : ''}
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
