@@ -7,7 +7,6 @@ import { Image } from 'astro:assets';
 import { type CollectionEntry } from 'astro:content';
 import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
-
 import { MetaSEO } from '~/types';
 
 export interface Props {}
@@ -23,7 +22,6 @@ export interface Props {
 }
 const { podcast, episodeData } = Astro.props;
 
-// const { name, description,audio_preview_url, image } = Astro.props;
 function slugify(str) {
   str = str.replace(/^\s+|\s+$/g, '');
 
@@ -47,7 +45,6 @@ function slugify(str) {
 
   return str;
 }
-// const { podcast } = Astro.props;
 ---
 
 <Layout {meta}>
