@@ -96,15 +96,16 @@ const av = defineCollection({
   }),
 });
 
-// const podcasts = defineCollection({
-//   type: 'content', // v2.5.0 and later
-//   schema: z.object({
-//     title: z.string().optional( ),
-//     description: z.string().optional(),
-//     image: z.string().optional(),
-//     audio_preview_url: z.string().optional(),
-//   }),
-// });
+const podcasts = defineCollection({
+  type: 'content', // v2.5.0 and later
+  schema: z.object({
+    title: z.string().optional( ),
+    description: z.string().optional(),
+    image: z.string().optional(),
+    audio_preview_url: z.string().optional(),
+    embed: z.string().optional(),
+  }),
+});
 
 export const collections = {
   posts: posts,
@@ -113,5 +114,5 @@ export const collections = {
   events: events,
   books: books,
   av: av,
-  // podcasts: podcasts,
+  podcasts: podcasts,
 };

@@ -6,14 +6,12 @@ import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
 // TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
 
-// TODO: If want summaries, will need content items…
-
 export async function getStaticPaths({ paginate }) {
   const options = {
     ignoreAttributes: false,
-    stopNodes: ["root.itunes:title"],
+    stopNodes: ['root.itunes:title'],
     attributeNamePrefix: 'att_',
-    removeNSPrefix: true
+    removeNSPrefix: true,
   };
   const parser = new XMLParser(options);
   const feedTest = await fetch('https://feeds.zencastr.com/f/h5h0nhAi.rss');
@@ -34,7 +32,6 @@ const meta = {
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
-
 ---
 
 <Layout {meta}>
@@ -47,12 +44,7 @@ const meta = {
         page.data.map((episode) => (
           <>
             <li class="mb-12 md:mb-20">
-              <Podcast
-                name={episode.title}
-                description={episode.description}
-                audio_preview_url={episode.enclosure.att_url}
-                image={episode.image.att_href}
-              />
+              <Podcast podcast={episode} />
             </li>
           </>
         ))
