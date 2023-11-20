@@ -4,7 +4,7 @@ import Headline from '~/components/blog/Headline.astro';
 import Course from '../components/Course.astro';
 import { getCollection } from 'astro:content';
 const courseAV = await getCollection('av', ({ data }) => {
-  return data.av_type !== 'course';
+  return data.video_type !== 'course';
 });
 const meta = {
   title: 'Courses',
