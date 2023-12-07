@@ -80,9 +80,13 @@ function slugify(str) {
             </h2>
             {episodeData ? <iframe src={episodeData.embed} width="100%" height="520" allowfullscreen /> : ''}
           </div>
+          <h2>Transcript</h2>
+          <div set:html={episodeData.transcript}></div>
+          {episodeData.transcript}
         </article>
       </div>
     </section>
+
   </main>
 
   <Footer />

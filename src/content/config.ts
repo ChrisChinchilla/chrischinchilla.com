@@ -104,6 +104,7 @@ const podcasts = defineCollection({
     image: z.string().optional(),
     audio_preview_url: z.string().optional(),
     embed: z.string().optional(),
+    transcript: z.string().optional()
   }),
 });
 
