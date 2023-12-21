@@ -6,8 +6,7 @@ import truncateMarkdown from 'markdown-truncate';
 export interface Props {
   podcast: CollectionEntry<'podcasts'>;
 }
-const { podcast, episodeData } = Astro.props;
-
+const { podcast } = Astro.props;
 var url = slugify(podcast.title[0]);
 function slugify(str) {
   str = str.replace(/^\s+|\s+$/g, '');
@@ -63,10 +62,6 @@ function slugify(str) {
         </h2>
       </header>
       <div class="my-2" set:html={truncateMarkdown(podcast.description, { limit: 500, ellipsis: true })} />
-      <audio controls src={podcast.enclosure.att_url} preload="none">
-        <a href={podcast.enclosure.att_url}>Download audio</a>
-      </audio>
-      {episodeData ? episodeData.extra : ''}
     </div>
   </div>
 </article>
