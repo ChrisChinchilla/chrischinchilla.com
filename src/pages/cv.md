@@ -3,7 +3,7 @@ title: 'Chris Ward CV'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-I have been a long term freelancer and contractor in the past so attempting to
+I have been a long-term freelancer and contractor in the past so attempting to
 summarise my work experience and history into a CV is always challenging.
 
 Below are chronologically the most recent and relevant projects I have
@@ -14,13 +14,11 @@ small developer teams make me suitable for community, evangelist, training, or
 writer roles.
 
 ## Accomplishments
-
-### Long form (technical) writing
+Long-form (technical) writing
 
 - 2017, "Jump start responsive design" from SitePoint
-- Editing two books for Packt publishing
-- Technical editor for two books with Manning
-- Kubernetes Whitepaper for Weave.works
+- Editing three books for Packt publishing
+- Technical editor for four books with Manning
 - Working on a yet to be released book on Technical Writing for Packt publishing
 
 ### Courses
@@ -39,31 +37,28 @@ Over the past 4-5 years, I have spoken at over 100 events on a wide variety of s
 I contribute to several regular podcasts:
 
 - My Geek, tech, and gaming show, "Chinchilla Squeaks"
-- As well as a gaming and storytelling podcast
+- Two new shows to launch in 2024
 
-I host the following regular livestreams:
-
-- Weekly "Learning livestream" with a tech tool
-- Regular "hands on" videos
+My YouTube channel is also now monetised with regular sponsorships.
 
 Find links to all these at [chrischinchilla.com](http://chrischinchilla.com/).
 
 ### Open Source
 
-I have always been active in open source communities, including regular contributions to: Drupal, CiviCRM, Atom, Visual Studio Code, Webpack, Kubernetes, Test the Docs, and Vale. See [my GitHub profile](https://github.com/chrischinchilla) for more.
+I have always been active in open source communities, including regular contributions to: Drupal, CiviCRM, Atom, Visual Studio Code, Webpack, Kubernetes, Obsidian, and Vale. See [my GitHub profile](https://github.com/chrischinchilla) for more.
 
 ### Community
 
 - I run the Write the Docs meetup in Berlin, and have organised other meetups in the past
 - I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences
-- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, and 2021
+- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, and 2024
 - I was a judge for the Mozilla open source awards in 2020
-- I run a regular writers meetup 2 times a week in Berlin
+- I run a regular writers meetup 2 times a week in Berlin that has over 3,000 members
 
 ## Work Experience
 ### Docker, Staff Technical Writer
-_February 2023 - Present_
-Docker Inc is a major contributor to many container-related technologies as well as its own commercial offerings. I am a staff technical writer on the documentation team and currently attached to working on a number of commercial products. My responsibilities include:
+_February 2023 - August 2023_
+Docker Inc is a major contributor to many container-related technologies as well as its own commercial offerings. I was a staff technical writer on the documentation team and attached to working on a number of commercial products. My responsibilities included:
 
 - Working with product managers, engineers, and designers to create and maintain documentation for new and existing products
 - Proposing and steering new improvement projects
@@ -115,7 +110,7 @@ As a freelance writer and blogger, I have contributed to the blogs and documenta
 - **DGraph**: Documentation platform overhaul
 - **Caepe**: Documenting a new product release
 - **n8n**: Creating a series of self-hosting guides
-- **Sentry**: Writing blog posts on how to debud with certain languages
+- **Sentry**: Writing blog posts on how to debug with certain languages
 
 ### Ethereum Foundation, Technical Writer
 

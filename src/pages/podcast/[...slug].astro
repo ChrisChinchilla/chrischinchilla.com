@@ -36,7 +36,7 @@ export async function getStaticPaths() {
     removeNSPrefix: true,
   };
   const parser = new XMLParser(options);
-  const feedTest = await fetch('https://feeds.zencastr.com/f/h5h0nhAi.rss');
+  const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
   let rssFeedData = await feedTest.text();
   let parsedFeed = await parser.parse(rssFeedData);
   const allEpisodes = parsedFeed.rss.channel.item;
@@ -71,7 +71,6 @@ const meta = {
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
-
 ---
 
 <!-- TODO: Frontmatter duplicated -->
