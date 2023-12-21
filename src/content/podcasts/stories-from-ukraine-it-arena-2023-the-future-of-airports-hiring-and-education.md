@@ -1,5 +1,6 @@
 ---
-embed: 'https://share.descript.com/embed/0mtNDXsXNmL'
+descript_embed: 'https://share.descript.com/embed/0mtNDXsXNmL'
+player_embed: '16a9bf6e-d5bf-4d99-8acb-426ec8d5bc57'
 transcript: |
     The script is a transcript of a podcast episode hosted by Chris Chinchilla, titled "IT Arena 2023". The episode is a compilation of his interviews at the IT Arena event in Ukraine, where he spoke with professionals from various tech companies about their businesses and their views on the present and future of the tech industry. Some of the people interviewed include Anastasia from Inputsoft, a digital platform for airports, Roman and Den from Sigma Software, and Chris from Wildcodes. Topics discussed ranged from the impact of Artificial Intelligence on hiring and education to the challenges of digitizing airport operations and tech entrepreneurship.
 
