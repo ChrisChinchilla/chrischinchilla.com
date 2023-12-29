@@ -2,6 +2,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
+import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
@@ -17,7 +18,20 @@ export default defineConfig({
   base: SITE.basePathname,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
   output: 'static',
-  integrations: [tailwind({
+  integrations: [
+    icon({
+      // TODO: Streamline to only include needed
+      include: {
+        tabler: ['*'],
+        logos: ['*'],
+        fa: ['*'],
+        carbon: ['*'],
+        fluent: ['*'],
+        ri: ['*'],
+        ph: ['*']
+      }
+    }),
+    tailwind({
     config: {
       applyBaseStyles: false
     }

@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
+import { PODCAST } from '~/config.mjs';
 import Podcast from '../../components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
@@ -19,7 +20,9 @@ export async function getStaticPaths({ paginate }) {
   let parsedFeed = await parser.parse(rssFeedData);
   const allEpisodes = parsedFeed.rss.channel.item;
 
-  return paginate(allEpisodes, { pageSize: 25 });
+  return paginate(allEpisodes, {
+    pageSize: PODCAST.postsPerPage,
+  });
 }
 
 const { page } = Astro.props;

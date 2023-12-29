@@ -1,6 +1,6 @@
 ---
 import { CollectionEntry } from 'astro:content';
-import { Markdown } from '@astropub/md';
+import Markdown from '@astrojs/markdown-component';
 // import truncateMarkdown from 'markdown-truncate';
 
 export interface Props {
@@ -49,6 +49,6 @@ var formatted_date = start_date.toLocaleDateString('en-GB', { weekday: 'long', y
       </h2>
       </header>
       <!-- TODO: Seems kind of ridiculous -->
-      <Markdown of={body} />
-        </div>
+      <Markdown class="m-2" />{body}
+    </div>
 </article>
