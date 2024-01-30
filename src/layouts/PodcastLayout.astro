@@ -12,14 +12,15 @@ export interface Props {}
 
 const { frontmatter } = Astro.props;
 
-const meta: MetaSEO = {
-  title: frontmatter?.title,
-};
-
 export interface Props {
   podcast: CollectionEntry<'podcasts'>;
 }
 const { podcast, episodeData } = Astro.props;
+
+const meta: MetaSEO = {
+  title: frontmatter?.title,
+  image: podcast.image.att_href
+};
 
 function slugify(str) {
   str = str.replace(/^\s+|\s+$/g, '');
