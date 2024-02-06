@@ -10,7 +10,6 @@ import { Pagination } from 'accessible-astro-components';
 export async function getStaticPaths({ paginate }) {
   const options = {
     ignoreAttributes: false,
-    stopNodes: ['root.itunes:title'],
     attributeNamePrefix: 'att_',
     removeNSPrefix: true,
   };

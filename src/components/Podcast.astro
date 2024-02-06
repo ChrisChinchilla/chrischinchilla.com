@@ -1,12 +1,12 @@
 ---
 import { Image } from 'astro:assets';
 import { type CollectionEntry } from 'astro:content';
-import truncateMarkdown from 'markdown-truncate';
 
 export interface Props {
   podcast: CollectionEntry<'podcasts'>;
 }
 const { podcast } = Astro.props;
+
 var url = '/podcast/' + slugify(podcast.title[0]);
 function slugify(str) {
   str = str.replace(/^\s+|\s+$/g, '');
@@ -61,7 +61,7 @@ function slugify(str) {
           }
         </h2>
       </header>
-      <div class="my-2" set:html={truncateMarkdown(podcast.description, { limit: 500, ellipsis: true })} />
+      <div class="my-2" set:html={podcast.summary} />
     </div>
   </div>
 </article>
