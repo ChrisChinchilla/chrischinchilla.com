@@ -14,7 +14,7 @@ const meta = {
 
 // TODO: Paginate
 const youTubeVideos = await fetch(
-  `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=200&playlistId=UUgnrx8qi4qhmN6sBebdDrmg&key=${
+  `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=200&playlistId=PL1fnzsSshABw25W5Qscxw_gQII_MlCoOS&key=${
     import.meta.env.GOOGLE_API
   }`
 )
@@ -27,6 +27,7 @@ const youTubeVideos = await fetch(
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
+    <!-- TODO: Sort pagination -->
     <ul>
       {
         youTubeVideos.map((video) => (
