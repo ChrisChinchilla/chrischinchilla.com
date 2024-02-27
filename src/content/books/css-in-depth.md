@@ -1,6 +1,6 @@
 ---
-title: Jump Start Responsive Web Design, 2nd Edition
-publisher: Sitepoint
+title: CSS in Depth, 2nd Edition
+publisher: Manning
 role: Technical reviewer
 publish_date: 2024-02-18
 image: "~/assets/images/defaults/book-chinchilla.jpg"
