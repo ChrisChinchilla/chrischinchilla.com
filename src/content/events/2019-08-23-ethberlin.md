@@ -4,7 +4,7 @@ event: ETHBerlin
 layout: "../../layouts/Event.astro"
 venue: Factory Berlin Goerlitzer Park
 
-pre_url: 'https://ethberlinzwei.com/'
+pres_url: 'https://ethberlinzwei.com/'
 start_date: 2019-08-23T12:20:00.000Z
 end_date: 2019-08-25T12:20:00.000Z
 ---

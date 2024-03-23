@@ -4,7 +4,8 @@ title: Automate your APIs to perfection
 event: APIDays
 layout: "../../layouts/Event.astro"
 venue: 'online'
-pre_url: 'https://writethedocs.org/'
+pres_source: 'https://writethedocs.org/'
+pres_url: 'https://writethedocs.org/'
 start_date: 2020-12-07T12:20:00.000Z
 end_date: 2020-12-09T12:20:00.000Z
 ---

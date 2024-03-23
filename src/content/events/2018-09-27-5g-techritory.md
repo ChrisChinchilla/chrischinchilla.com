@@ -5,7 +5,7 @@ event: 5G Techritory Conference
 layout: "../../layouts/Event.astro"
 venue: 'Riga, Latvia'
 categories:
-pre_url: 'https://www.5gtechritory.com/'
+pres_url: 'https://www.5gtechritory.com/'
 start_date: 2018-09-27T12:20:00.000Z
 end_date: 2018-09-28T12:20:00.000Z
 ---

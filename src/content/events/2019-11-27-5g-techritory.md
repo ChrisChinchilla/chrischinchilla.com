@@ -4,7 +4,7 @@ title: your ideas and projects
 event: 5G Techritory Conference
 layout: "../../layouts/Event.astro"
 venue: 'Riga, Latvia'
-pre_url: 'https://www.5gtechritory.com/'
+pres_url: 'https://www.5gtechritory.com/'
 start_date: 2019-11-27T12:20:00.000Z
 end_date: 2019-11-29T12:20:00.000Z
 ---

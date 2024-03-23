@@ -5,7 +5,7 @@ event: API the Docs
 layout: "../../layouts/Event.astro"
 venue: Barbican Centre, Silk St, London EC2Y 8DS
 
-pre_url: https://apithedocs.org/london2018
+pres_url: https://apithedocs.org/london2018
 start_date: 2018-11-09T12:20:00.000Z
 end_date: 2018-11-09T12:20:00.000Z
 ---

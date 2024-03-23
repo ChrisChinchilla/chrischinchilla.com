@@ -5,7 +5,7 @@ event: tcworld conference 2019
 layout: "../../layouts/Event.astro"
 venue: ICS Stuttgart
 
-pre_url: 'https://conferences.tekom.de/tcworld19/tcworld-conference-2019/'
+pres_url: 'https://conferences.tekom.de/tcworld19/tcworld-conference-2019/'
 start_date: 2019-11-12T12:20:00.000Z
 end_date: 2019-11-14T12:20:00.000Z
 ---

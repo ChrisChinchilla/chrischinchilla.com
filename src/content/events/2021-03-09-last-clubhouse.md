@@ -4,7 +4,8 @@ title: An Introduction to Developer Experience
 event: LAST Clubhouse
 layout: "../../layouts/Event.astro"
 venue: Online
-pre_url: https://clubhouse.lastconference.com/offers/jt4DeFvC
+pres_source: https://clubhouse.lastconference.com/offers/jt4DeFvC
+pres_url: https://clubhouse.lastconference.com/offers/jt4DeFvC
 start_date: 2021-03-09T12:20:00.000Z
 end_date: 2021-03-09T12:20:00.000Z
 ---

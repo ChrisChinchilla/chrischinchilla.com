@@ -5,7 +5,7 @@ event: Diffusion
 layout: "../../layouts/Event.astro"
 venue: Factory Görlitzer park, Berlin
 
-pre_url: https://diffusion.events
+pres_url: https://diffusion.events
 start_date: 2019-10-19T12:20:00.000Z
 end_date: 2019-10-20T12:20:00.000Z
 ---

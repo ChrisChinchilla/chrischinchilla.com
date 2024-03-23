@@ -1,15 +1,13 @@
 ---
-import Layout from "~/layouts/PageLayoutNoBG.astro";
-import { Pagination } from "accessible-astro-components";
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
-import Event from "~/components/Event.astro";
+import Event from '~/components/Event.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths({ paginate }) {
   let allEvents = await getCollection('events');
-allEvents = allEvents.sort(
-    (a, b) => new Date(b.data.start_date).valueOf() - new Date(a.data.start_date).valueOf()
-  );
+  allEvents = allEvents.sort((a, b) => new Date(b.data.start_date).valueOf() - new Date(a.data.start_date).valueOf());
   return paginate(allEvents, {
     // TODO: Parameterize
     pageSize: 25,
@@ -18,8 +16,8 @@ allEvents = allEvents.sort(
 const { page } = Astro.props;
 
 const meta = {
-  title: "Events",
-  description: "I have spoken at and reported on hundreds of events around the world. This page still needs some polish 😁.",
+  title: 'Events',
+  description: 'I have spoken at and reported on hundreds of events around the world.',
   // canonical: post.canonical || url,
   // image: await findImage(post.image),
   // noindex: BLOG?.post?.noindex,
@@ -29,39 +27,34 @@ const meta = {
 
 <Layout {meta}>
   <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
-
-    <Headline
-      subtitle={meta.description}
-    >
+    <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
-  <ul>
-    {
+    <ul>
+      {
         page.data.map((event) => (
-      <li class="mb-12 md:mb-20">
-
-        <Event
+          <li class="">
+            <Event
               title={event.data.title}
               event={event.data.event}
               body={event.body}
               pres_url={event.data.pres_url}
+              pres_source={event.data.pres_source}
               start_date={event.data.start_date}
               venue={event.data.venue}
             />
-      </li>
-      ))
-    }
-  </ul>
-  <!-- TODO: Index page -->
-  <Pagination
-  firstPage={page.url.prev ? "/events" : null}
-  previousPage={page.url.prev ? page.url.prev : null}
-  nextPage={page.url.next ? page.url.next : null}
-  lastPage={page.url.next
-    ? `/blog/${Math.round(page.total / page.size)}`
-    : null}
-  currentPage={page.currentPage}
-  totalPages={Math.round(page.total / page.size)}
-/>
-</section>
+          </li>
+        ))
+      }
+    </ul>
+    <!-- TODO: Index page -->
+    <Pagination
+      firstPage={page.url.prev ? '/events' : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next ? `/blog/${Math.round(page.total / page.size)}` : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    />
+  </section>
 </Layout>

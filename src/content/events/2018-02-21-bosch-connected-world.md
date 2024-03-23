@@ -4,7 +4,7 @@ title: your talks and ideas
 event: Bosch Connected World
 venue: 'Station, Berlin'
 categories: Cate
-pre_url: 'https://bcw.bosch-si.com/berlin/'
+pres_url: 'https://bcw.bosch-si.com/berlin/'
 pre_source: 'https://bcw.bosch-si.com/berlin/'
 start_date: 2018-02-21T00:00:00+01:00
 ---

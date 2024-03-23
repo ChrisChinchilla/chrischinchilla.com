@@ -6,7 +6,7 @@ layout: "../../layouts/Event.astro"
 venue: >-
   https://zoom.us/w/903412327?tk=KTI8g10ikihNvOxLWcHMzle-tZ5BrNS4OFW1y3tSzB0.DQEAAAAANdj6ZxZ6YV9mOVU1M1R5U2JwbHNyNnBuZVZRAA
 
-pre_url: >-
+pres_url: >-
   https://zoom.us/w/903412327?tk=KTI8g10ikihNvOxLWcHMzle-tZ5BrNS4OFW1y3tSzB0.DQEAAAAANdj6ZxZ6YV9mOVU1M1R5U2JwbHNyNnBuZVZRAA
 start_date: 2019-05-06T00:00:00.000Z
 end_date: 2019-05-08T00:00:00.000Z
