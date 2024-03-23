@@ -4,6 +4,7 @@ title: An introduction to developer experience, and the role of a documentarian
 event: Write the Docs
 layout: "../../layouts/Event.astro"
 venue: 'online'
+pres_source: 'https://writethedocs.org/'
 pres_url: 'https://writethedocs.org/'
 start_date: 2020-12-03T12:20:00.000Z
 end_date: 2020-12-04T12:20:00.000Z
