@@ -5,7 +5,7 @@ event: OpenStack Summit Berlin
 layout: "../../layouts/Event.astro"
 venue: City cube, Berlin, Germany
 
-pre_url: 'https://www.openstack.org/summit/berlin-2018/'
+pres_url: 'https://www.openstack.org/summit/berlin-2018/'
 start_date: 2018-11-13T12:20:00.000Z
 end_date: 2018-11-15T12:20:00.000Z
 ---

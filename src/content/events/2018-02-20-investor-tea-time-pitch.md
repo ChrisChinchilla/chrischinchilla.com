@@ -4,7 +4,7 @@ title: IoT pitches
 event: Investor Tea Time Pitch
 venue: 'Station, Berlin'
 categories: Cate
-pre_url: 'https://www.eventbrite.com/e/investor-tea-time-pitch-tickets-41621424802'
+pres_url: 'https://www.eventbrite.com/e/investor-tea-time-pitch-tickets-41621424802'
 pre_source: 'https://www.eventbrite.com/e/investor-tea-time-pitch-tickets-41621424802'
 start_date: 2018-02-20T09:56:20+01:00
 ---

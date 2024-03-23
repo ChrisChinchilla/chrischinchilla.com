@@ -5,7 +5,7 @@ event: Beyond the Block – State of Blockchain Adoption
 layout: "../../layouts/Event.astro"
 venue: 'Mindspace Krausenstraße, Krausenstraße 9-10, 10117, Berlin'
 
-pre_url: >-
+pres_url: >-
   https://www.eventbrite.com/e/beyond-the-block-state-of-blockchain-adoption-tickets-60922337351
 start_date: 2019-05-06T00:00:00.000Z
 end_date: 2019-05-07T00:00:00.000Z
