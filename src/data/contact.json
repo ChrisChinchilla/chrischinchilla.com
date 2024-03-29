@@ -1,10 +1,20 @@
 [
-  { "title": "Discord", "image": "tabler:brand-discord", "network_link": "https://discord.gg/b4Wwa5jnjp" },
+  {
+    "title": "YouTube",
+    "image": "tabler:brand-youtube",
+    "network_link": "https://www.youtube.com/channel/UCgnrx8qi4qhmN6sBebdDrmg"
+  },
+  {
+    "title": "TikTok",
+    "image": "tabler:brand-tiktok",
+    "network_link": "https://www.tiktok.com/@chinchtok"
+  },
   {
     "title": "GitHub",
     "image": "tabler:brand-github",
     "network_link": "https://github.com/ChrisChinchilla/"
   },
+  { "title": "Discord", "image": "tabler:brand-discord", "network_link": "https://discord.gg/b4Wwa5jnjp" },
   {
     "title": "LinkedIn",
     "image": "tabler:brand-linkedin",
