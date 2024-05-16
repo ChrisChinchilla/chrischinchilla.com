@@ -14,12 +14,15 @@ small developer teams make me suitable for community, evangelist, training, or
 writer roles.
 
 ## Accomplishments
+
 Long-form (technical) writing
 
 - 2017, "Jump start responsive design" from SitePoint
-- Editing three books for Packt publishing
+- Edited three books for Packt publishing
 - Technical editor for four books with Manning
-- Working on a yet to be released book on Technical Writing for Packt publishing
+- "Technical Writing for Developers" for Packt publishing, released in March 2024
+- Working on a book on Ableton Live 12 for Packt publishing
+- Working on a book on Sustainable computing for Apress
 
 ### Courses
 
@@ -34,12 +37,8 @@ Over the past 4-5 years, I have spoken at over 100 events on a wide variety of s
 
 ### Podcasts and Video
 
-I contribute to several regular podcasts:
-
 - My Geek, tech, and gaming show, "Chinchilla Squeaks"
-- Two new shows to launch in 2024
-
-My YouTube channel is also now monetised with regular sponsorships.
+- My YouTube channel is also now monetised with regular sponsorships.
 
 Find links to all these at [chrischinchilla.com](http://chrischinchilla.com/).
 
@@ -56,7 +55,9 @@ I have always been active in open source communities, including regular contribu
 - I run a regular writers meetup 2 times a week in Berlin that has over 3,000 members
 
 ## Work Experience
+
 ### Docker, Staff Technical Writer
+
 _February 2023 - August 2023_
 Docker Inc is a major contributor to many container-related technologies as well as its own commercial offerings. I was a staff technical writer on the documentation team and attached to working on a number of commercial products. My responsibilities included:
 
