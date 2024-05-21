@@ -3,7 +3,7 @@ title: "GitHub Satellite 2020- Gone Remote, but Not Forgotten"
 publishDate: 2020-05-14
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - github
   - git
   - visual studio code

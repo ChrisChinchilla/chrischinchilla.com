@@ -3,7 +3,7 @@ title: Ephemeral Environments for Testing
 publishDate: 2020-06-30
 author: "Chris Ward"
 categories: writing humanitec
-tags: 
+tags:
   - Testing
   - DevOps
 publication_url: https://humanitec.com/blog/ephemeral-environments-for-testing

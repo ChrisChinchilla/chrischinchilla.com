@@ -6,7 +6,7 @@ publishDate: 2020-03-04 00:00:00 UTC
 author: ""
 categories: podcast guest
 podcast: "Knowledgebase Ninjas"
-tags: 
+tags:
 orig_url: https://document360.io/blog/managing-documentation-shareholders-with-chris-ward-of-ethereum/
 podcast_embed: https://content.bcast.fm/uploads/43lqnpq6/065c3410-5d76-11ea-8f76-2d279567a947/Chris_Ward_edited3.mp3
 image: "../../../assets/images/articles/Chris-Ward-KBN-FB-Quote-1-1024x536.jpg"

@@ -3,7 +3,7 @@ title: Developer Experience Roundtable - Continuous Improvement
 publishDate: 2020-07-15
 author: "Chris Ward"
 categories: writing humanitec
-tags: 
+tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/developer-experience-roundtable-continuous-improvement-nigel-simpson-erik-muttersbach

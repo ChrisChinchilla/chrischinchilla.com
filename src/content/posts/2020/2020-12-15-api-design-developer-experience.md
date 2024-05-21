@@ -3,7 +3,7 @@ title: How to decide on an API that gives your team the best developer experienc
 publishDate: 2020-12-15
 author: "Chris Ward"
 categories: writing humanitec
-tags: 
+tags:
   - DX
   - API
   - Design

@@ -3,7 +3,7 @@ title: Sandbox Environments for Testing
 publishDate: 2020-08-06
 author: "Chris Ward"
 categories: writing humanitec
-tags: 
+tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/sandbox-environments-for-testing

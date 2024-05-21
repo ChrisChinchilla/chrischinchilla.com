@@ -3,7 +3,7 @@ title: The Benefits and Best Practices of Continuous Delivery
 publishDate: 2020-06-16
 author: "Chris Ward"
 categories: writing humanitec
-tags: 
+tags:
   - cd
   - devops
 publication_url: https://humanitec.com/blog/benefits-and-best-practices-of-continuous-delivery

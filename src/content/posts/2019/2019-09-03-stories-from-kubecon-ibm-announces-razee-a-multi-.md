@@ -3,7 +3,7 @@ title: "Stories From KubeCon- IBM announces Razee, a Multi-Cluster Continuous...
 publishDate: 2019-09-03
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - ibm
   - kubernetes
   - cloud native

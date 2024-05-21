@@ -3,7 +3,7 @@ title: Scaling your team alongside Kubernetes
 publishDate: 2021-01-22
 author: "Chris Ward"
 categories: writing humanitec
-tags: 
+tags:
   - kubernetes
   - teams
   - devops

@@ -3,7 +3,7 @@ title: "Ubuntu 20.04 LTS (Focal Fossa)- Enterprise-Ready"
 publishDate: 2020-04-22
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - ubuntu
   - linux
   - canonical

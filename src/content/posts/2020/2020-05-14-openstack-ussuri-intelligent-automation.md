@@ -3,7 +3,7 @@ title: "OpenStack Ussuri - Intelligent Automation"
 publishDate: 2020-05-14
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - openstack
   - ussuri
   - infrastructure

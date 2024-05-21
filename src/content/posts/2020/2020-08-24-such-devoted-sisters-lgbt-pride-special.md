@@ -5,7 +5,7 @@ title: "Such Devoted Sisters - LGBT Pride Special"
 publishDate: 2020-08-24 22:35:28 UTC
 author: ""
 categories: video
-tags: 
+tags:
 orig_url: https://www.youtube.com/watch?v=qEOjUAlXAOc
 video_embed: qEOjUAlXAOc
 image: "../../../assets/images/defaults/blog-chinchilla.jpg"

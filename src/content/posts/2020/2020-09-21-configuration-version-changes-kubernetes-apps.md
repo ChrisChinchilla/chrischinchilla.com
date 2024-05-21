@@ -3,7 +3,7 @@ title: Version changes to configurations for Kubernetes-ready applications
 publishDate: 2020-09-21
 author: "Chris Ward"
 categories: writing humanitec
-tags: 
+tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/configuration-version-changes-kubernetes-apps

@@ -5,7 +5,7 @@ title: "DXposé - API design and REST client Insomnia"
 publishDate: 2020-09-18 02:54:45 UTC
 author: ""
 categories: video
-tags: 
+tags:
 video:
     orig_url: https://www.youtube.com/watch?v=KkP1cF1fFeQ
     video_embed: KkP1cF1fFeQ

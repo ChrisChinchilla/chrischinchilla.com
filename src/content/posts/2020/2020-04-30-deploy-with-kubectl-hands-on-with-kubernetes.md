@@ -3,7 +3,7 @@ title: Deploy with kubectl - Hands-on with Kubernetes
 publishDate: 2020-04-30
 author: "Chris Ward"
 categories: writing humanitec
-tags: 
+tags:
   - cd
   - ci
   - kubernetes

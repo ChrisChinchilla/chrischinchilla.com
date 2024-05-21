@@ -3,7 +3,7 @@ title: Tools to help generate screenshots for your documentation
 publishDate: 2021-01-14
 author: "Chris Ward"
 categories: writing knowledgeowl
-tags: 
+tags:
   - Documentation
   - Screenshots
   - Tools

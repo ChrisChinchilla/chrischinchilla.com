@@ -3,7 +3,7 @@ title: An Introduction to Developer Experience (DevEx, DX)
 publishDate: 2020-10-06
 author: "Chris Ward"
 categories: writing humanitec
-tags: 
+tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/developer-experience

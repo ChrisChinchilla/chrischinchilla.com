@@ -5,7 +5,7 @@ title: "The Weekly Squeak — Tanmai Gopal of Hasura"
 publishDate: 2020-09-23
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - graphql
   - api
   - hasura

@@ -3,7 +3,7 @@ title: "Preaching the API Gospel- An Interview With the API Evangelist, Kin Lane
 publishDate: 2020-03-09
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - api
   - rest api
   - grpc

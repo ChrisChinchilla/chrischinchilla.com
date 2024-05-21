@@ -3,7 +3,7 @@ title: "IOST — The Decentralized Internet of Services"
 publishDate: 2019-11-25
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - blockchain
   - iost
   - javascript

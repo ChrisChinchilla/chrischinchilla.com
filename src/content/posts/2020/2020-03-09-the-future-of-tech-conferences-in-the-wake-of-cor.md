@@ -3,7 +3,7 @@ title: "The Future of Tech Conferences in the Wake of Coronavirus"
 publishDate: 2020-03-09
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - coronavirus
   - conferences
   - travel
