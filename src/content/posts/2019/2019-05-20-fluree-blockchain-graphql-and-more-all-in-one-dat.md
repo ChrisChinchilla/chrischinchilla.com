@@ -3,7 +3,7 @@ title: "Fluree- Blockchain, GraphQL, and More- All in One Database"
 publishDate: 2019-05-20
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - blockchain
   - qraphql
   - sparql
