@@ -28,7 +28,7 @@ const defaultImage = SITE.defaultImage
 
 const {
   title = SITE.name,
-  description = '',
+  description = description,
   image: _image = defaultImage,
 
   canonical = getCanonical(String(Astro.url.pathname)),

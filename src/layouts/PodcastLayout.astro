@@ -19,7 +19,9 @@ const { podcast, episodeData } = Astro.props;
 
 const meta: MetaSEO = {
   title: frontmatter?.title,
-  image: podcast.image.att_href
+  image: podcast.image.att_href,
+  // TODO: Switch to using manual FM override
+  description: truncateMarkdown(podcast.description, { limit: 500, ellipsis: true })
 };
 
 function slugify(str) {
