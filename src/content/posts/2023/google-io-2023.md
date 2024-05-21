@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/aimonks/google-io-2023-ee16469392f0"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - version control
 image: "../../../assets/images/articles/1*tIdGQFKa9xmb3dnfCY1Qeg.webp"

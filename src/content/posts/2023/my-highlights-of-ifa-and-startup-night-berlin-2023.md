@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://chrischinchilla.medium.com/my-highlights-of-ifa-and-startup-night-berlin-2023-d0417bbcb610"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - version control
 image: "../../../assets/images/articles/1*caSn3X5r3FDF-zKsg4WQqQ.webp"

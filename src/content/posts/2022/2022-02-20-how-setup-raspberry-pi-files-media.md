@@ -5,7 +5,7 @@ publishDate: 2022-02-20
 categories:
  - writing
  - chrischinchilla
-tags: 
+tags:
   - ebooks
   - calibre
   - nextcloud

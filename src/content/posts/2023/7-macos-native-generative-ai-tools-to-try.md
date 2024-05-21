@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/macoclock/7-macos-native-generative-ai-tools-to-try-1e6fa5c489b"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - version control
 image: "../../../assets/images/articles/1*0WIx9BnykBO9R6RLQOH0mw.webp"

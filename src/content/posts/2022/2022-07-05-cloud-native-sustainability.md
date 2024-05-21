@@ -3,7 +3,7 @@ title: "Increasing cloud native sustainability with observability"
 publishDate: 2022-07-05
 author: "Chris Ward"
 categories: writing chronosphere
-tags: 
+tags:
   - observability
   - sustainability
 image: "../../../assets/images/articles/lineChart.png"

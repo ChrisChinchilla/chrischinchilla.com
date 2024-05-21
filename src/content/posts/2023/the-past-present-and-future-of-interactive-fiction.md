@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/geekculture/the-past-present-and-future-of-interactive-fiction-51f4f589274"
 categories:
   - writing
-tags: 
+tags:
   - jekyll
   - websites
   - web development

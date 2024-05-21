@@ -3,7 +3,7 @@ title: "Virtualization and Emulation on MacOS"
 publishDate: 2022-11-22
 author: "Chris Ward"
 categories: writing hackernoon
-tags: 
+tags:
   - macOS
   - Virtual Machines
   - Virtualization

@@ -3,7 +3,7 @@ title: The open source tracing landscape
 publishDate: 2021-10-28
 author: "Chris Ward"
 categories: writing chronosphere
-tags: 
+tags:
   - observability
   - open source
   - tracing

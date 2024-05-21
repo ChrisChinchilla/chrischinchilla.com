@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/geekculture/testing-macos-betas-with-virtualbuddy-c4f38d680d99"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - web browsers
 image: "../../../assets/images/articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png"

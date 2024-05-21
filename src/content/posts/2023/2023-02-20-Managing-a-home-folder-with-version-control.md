@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/macoclock/managing-a-home-folder-with-version-control-b0a4078ceb20"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - version control
 image: "../../../assets/images/articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png"

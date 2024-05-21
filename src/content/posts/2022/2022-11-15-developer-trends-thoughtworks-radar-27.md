@@ -3,7 +3,7 @@ title: "Developer Trends from Thoughtworks’ Technology Radar 27"
 publishDate: 2022-11-15
 author: "Chris Ward"
 categories: writing hackernoon
-tags: 
+tags:
   - thoughtworks
   - trends
   - Machine Learning

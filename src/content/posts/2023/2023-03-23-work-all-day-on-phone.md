@@ -4,7 +4,7 @@ publishDate: 2023-03-23
 author: "Chris Ward"
 categories:
   - writing
-tags: 
+tags:
   - android
   - pixel
   - productivity

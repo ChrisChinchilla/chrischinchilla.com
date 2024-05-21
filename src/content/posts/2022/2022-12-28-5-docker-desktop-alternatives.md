@@ -3,7 +3,7 @@ title: "5 Docker Desktop Alternatives"
 publishDate: 2022-12-28
 author: "Chris Ward"
 categories: writing hackernoon
-tags: 
+tags:
   - Docker
   - Containers
 publication_url: "https://hackernoon.com/5-docker-desktop-alternatives"

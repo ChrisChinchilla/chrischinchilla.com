@@ -3,7 +3,7 @@ title: "The Differences Between a Service Catalog, Internal Developer Platform, 
 publishDate: 2022-02-06
 author: "Chris Ward"
 categories: writing dzone
-tags: 
+tags:
   - paas
   - microservice
   - platform as a service
