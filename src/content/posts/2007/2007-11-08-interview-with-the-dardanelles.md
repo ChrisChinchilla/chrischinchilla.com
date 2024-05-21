@@ -1,7 +1,7 @@
 ---
 title: Interview with The Dardanelles
 publishDate: '2007-11-08T23:28:14+00:00'
-tags: music interview
+
 categories:
  - writing
  - chrischinchilla

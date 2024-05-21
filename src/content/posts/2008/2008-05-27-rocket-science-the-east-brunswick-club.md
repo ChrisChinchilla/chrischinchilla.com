@@ -4,7 +4,7 @@ publishDate: 2008-05-27T15:35:47.000Z
 categories:
  - writing
  - chrischinchilla
-tags: 
+tags:
  - music 
  - reviews
 ---

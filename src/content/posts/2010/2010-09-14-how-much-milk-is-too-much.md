@@ -4,7 +4,9 @@ publishDate: 2010-09-14T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla
-tags: opinion coffee
+tags:
+ - opinion
+ - coffee
 ---
 
 Coffee is a very personal business.
