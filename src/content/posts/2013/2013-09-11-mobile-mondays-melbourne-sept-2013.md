@@ -4,7 +4,9 @@ publishDate: 2013-09-11T10:35:28.000Z
 categories:
  - writing
  - chrischinchilla
-tags: mobile events
+tags:
+ - mobile
+ - events
 ---
 
 <a href="https://www.facebook.com/MobileMondayMelbourne" target="_blank">Mobile Mondays Melbourne</a> has been running for 8 years, which in the tech event space makes it something of an elderly character and with the plethora of new events happening around town all the time, I have had the increasing feeling that some of these older events are wondering how to keep themselves relevant.

@@ -4,7 +4,9 @@ publishDate: 2013-08-13T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla
-tags: startups events
+tags:
+ - startups
+ - events
 ---
 
 I love pitch events, I love hearing ideas good and bad and watching people's passion in what they do… This will be the first I attempt to summarise and my first attempt at live blogging, of sorts.

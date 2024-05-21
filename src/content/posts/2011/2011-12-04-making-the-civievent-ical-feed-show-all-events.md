@@ -4,7 +4,9 @@ publishDate: 2011-12-04T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla
-tags: civicrm php
+tags:
+ - civicrm
+ - php
 image: "../../../assets/images/articles/civicrm_logo.png"
 ---
 

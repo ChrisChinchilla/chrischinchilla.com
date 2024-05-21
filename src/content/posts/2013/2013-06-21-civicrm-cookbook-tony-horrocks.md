@@ -5,7 +5,10 @@ image: "../../../assets/images/articles/civicrm-cookbook.jpg"
 categories:
  - writing
  - chrischinchilla
-tags: reviews books civicrm
+tags:
+ - reviews
+ - books
+ - civicrm
 ---
 
 CiviCRM like many open source tools is a blank canvas and a set of paints that different implementers will take in many different ways based on their myriad uses and requirements.

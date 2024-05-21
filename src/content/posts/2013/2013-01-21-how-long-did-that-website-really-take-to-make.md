@@ -4,7 +4,10 @@ publishDate: 2013-01-21T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla
-tags: web html  internet
+tags:
+ - web
+ - html
+ - internet
 image: "../../../assets/images/articles/Internet_map_1024_0.jpg"
 ---
 

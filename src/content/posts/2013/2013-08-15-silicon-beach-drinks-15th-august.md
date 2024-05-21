@@ -5,7 +5,10 @@ image: "../../../assets/images/articles/drupalmel.png"
 categories:
  - writing
  - chrischinchilla
-tags: events socialmedia startups
+tags:
+ - events
+ - socialmedia
+ - startups
 ---
 
 One of the challenges of my new attempt to blog about all the events I attend is that some events are hard to write about there and then on the spot. Networking events being one of them, you can't keep whipping out a notebook/tablet to jot down conversations and, well, you may not find anything you want to write about.
