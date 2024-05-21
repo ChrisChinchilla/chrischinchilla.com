@@ -5,7 +5,9 @@ image: "../../../assets/images/articles/image-organise-your-browser-tabs-with-on
 categories:
  - writing
  - chrischinchilla
-tags: browser productivity
+tags:
+ - browser
+ - productivity
 ---
 
 One of the main perils of the modern world is there is far too much to distract us. So many interesting blog posts to read, events to attend, crap-we-don't-need to buy and other assorted diamonds from the internet. I'm sure several days into the working week we look at our browser and find 20+ tabs open, all eating up memory and so cluttered you can't even remember what is what anymore.

@@ -2,7 +2,10 @@
 title: Answers Against Humanity
 publishDate: 2014-11-20T00:00:00.000Z
 categories: projects software
-tags: aah games apps
+tags:
+ - aah
+ - games
+ - apps
 ---
 
 Are you looking for smart answers to dumb questions? Then you might enjoy 'Answers Against Humanity', based on that 'award' winning game, Cards Against Humanity.
