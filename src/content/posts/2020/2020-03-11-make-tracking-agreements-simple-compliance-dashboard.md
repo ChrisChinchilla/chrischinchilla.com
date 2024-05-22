@@ -2,7 +2,8 @@
 title: "Make tracking agreements simple with our new Compliance Dashboard"
 publishDate: 2020-03-11
 author: "Chris Ward"
-categories: writing gitlab
+categories:
+ - writing gitlab
 tags:
   - compliance
   - gitlab

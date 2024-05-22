@@ -2,7 +2,9 @@
 title: "The Shortlist of Docker Hosting"
 publishDate: 2016-04-14 15:15:06 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/the-shortlist-of-docker-hosting/"

@@ -6,7 +6,9 @@ categories:
     - writing
     - life
     - tourism
-tags: ios swift
+tags:
+ - ios
+ - swift
 ---
 
 I was on holiday last week, so of course have been busy. People staying,

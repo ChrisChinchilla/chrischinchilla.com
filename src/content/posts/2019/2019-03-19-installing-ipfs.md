@@ -2,7 +2,8 @@
 title: "Installing IPFS"
 publishDate: 2019-03-19 18:45:33 UTC
 author: "Chris Ward"
-categories: writing kauri
+categories:
+ - writing kauri
 tags:
   - ipfs
   - web

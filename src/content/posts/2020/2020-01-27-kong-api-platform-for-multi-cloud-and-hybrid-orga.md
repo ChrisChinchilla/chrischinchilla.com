@@ -2,7 +2,9 @@
 title: "Kong API Platform for Multi-Cloud and Hybrid Organizations"
 publishDate: 2020-01-27
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - api
   - microservices

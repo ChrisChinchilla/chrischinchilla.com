@@ -2,7 +2,8 @@
 title: "Ukraine, on the edge of something and somewhere"
 publishDate: 2017-11-01 05:01:31 UTC
 author: "Chris Ward"
-categories: writing
+categories:
+ - writing
 tags:
   - Eastern Europe
   - Ukraine

@@ -2,7 +2,8 @@
 title: What does it take to excel and should you care? 
 publishDate: 2021-12-20
 author: "Chris Ward"
-categories: writing
+categories:
+ - writing
 tags:
   - community
   - work

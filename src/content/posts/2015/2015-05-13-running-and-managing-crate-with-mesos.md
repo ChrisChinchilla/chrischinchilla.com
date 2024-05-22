@@ -3,7 +3,9 @@ title: Running and creating Crate databases with Mesos
 publishDate: 2015-05-13T00:00:00.000Z
 publication_url: 'https://crate.io/blog/managing-crate-with-mesos/'
 image: "../../../assets/images/articles/image-running-and-creating-crate-databases-with.mesos.jpg"
-categories: writing crate
+categories:
+ - writing
+ - crate
 tags:
  - mesos
  - containers

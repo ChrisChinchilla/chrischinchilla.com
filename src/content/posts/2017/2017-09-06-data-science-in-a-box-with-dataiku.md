@@ -2,7 +2,9 @@
 title: "Data Science in a Box With Dataiku"
 publishDate: 2017-09-06 05:02:21 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - data science
   - data analysis

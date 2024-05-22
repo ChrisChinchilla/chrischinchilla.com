@@ -2,7 +2,9 @@
 title: "Automating Screenshots in Documentation"
 publishDate: 2017-01-31 16:15:24 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/automating-screenshots-in-documentation/"

@@ -2,7 +2,9 @@
 title: "Secure Yourself for National Cyber Security Awareness Month"
 publishDate: 2018-10-24 04:01:01 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - malware
   - https

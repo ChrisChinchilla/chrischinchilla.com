@@ -2,7 +2,9 @@
 title: "Fostering Open Source at FOSS Backstage"
 publishDate: 2018-06-19 05:07:00 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - foss
   - open source

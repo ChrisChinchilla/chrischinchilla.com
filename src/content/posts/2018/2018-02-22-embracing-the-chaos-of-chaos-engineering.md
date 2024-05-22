@@ -2,7 +2,9 @@
 title: "Embracing the Chaos of Chaos Engineering"
 publishDate: 2018-02-22 16:15:44 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - DevOps
 publication_url: "https://blog.codeship.com/embracing-the-chaos-of-chaos-engineering/"

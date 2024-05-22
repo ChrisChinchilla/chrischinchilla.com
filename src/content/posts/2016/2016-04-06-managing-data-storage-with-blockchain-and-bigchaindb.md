@@ -5,8 +5,12 @@ publication_url: 'https://www.sitepoint.com/managing-data-storage-with-blockchai
 
 title: Managing data storage with block chain and big chain DB
 image: "../../../assets/images/articles/image-managing-data-storage.jpg"
-categories: writing sitepoint
-tags: blockchain databases
+categories:
+ - writing
+ - sitepoint
+tags:
+ - blockchain
+ - databases
 ---
 
 There's no denying that whilst Bitcoin's future may be hazy right now, the underlying technology it relies upon -- the Blockchain -- has revolutionized many industries and projects, with more to come.

@@ -2,7 +2,9 @@
 title: "Nextcloud and Kubernetes in the Cloud With Kuma Service Mesh"
 publishDate: 2021-09-03
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - kubernetes
   - service mesh

@@ -2,7 +2,9 @@
 title: "What Will Red Hat Acquiring CoreOS Mean for the Kubernetes Ecosystem?"
 publishDate: 2018-02-07 17:01:02 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - kubernetes
   - coreos

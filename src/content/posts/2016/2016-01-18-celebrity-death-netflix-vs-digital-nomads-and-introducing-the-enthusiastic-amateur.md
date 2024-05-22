@@ -2,8 +2,13 @@
 title: 'Celebrity Death, Netflix vs Digital Nomads and Introducing the Enthusiastic Amateur'
 publishDate: 2016-01-18T00:00:00.000Z
 publication_url: 'https://medium.com/@ChrisChinchilla/celebrity-death-netflix-vs-digital-nomads-and-introducing-the-enthusiastic-amateur-52f36fa0182c#.t1cjow8hj'
-categories: writing theweeklysqueak
-tags: music culture news
+categories:
+ - writing
+ - theweeklysqueak
+tags: 
+ - music
+ - culture
+ - news
 image: "../../../assets/images/articles/image-celebrity-death.jpg"
 ---
 

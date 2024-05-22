@@ -2,8 +2,12 @@
 title: Docker Monitoring - 5 Methods for Monitoring Java Applications in Docker
 publishDate: '2017-06-28 18:13:30 +0100'
 image: "../../../assets/images/articles/docker.png"
-categories: writing overops
-tags: docker java monitoring
+categories:
+ - writing overops
+tags:
+ - docker
+ - java
+ - monitoring
 publication_url: https://blog.takipi.com/docker-monitoring-5-methods-for-monitoring-java-applications-in-docker/
 ---
 

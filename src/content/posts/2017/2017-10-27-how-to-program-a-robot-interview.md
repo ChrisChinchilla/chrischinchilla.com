@@ -2,7 +2,9 @@
 title: "How to Program a Robot [Interview]"
 publishDate: 2017-10-27 05:01:31 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - robotics
   - ai

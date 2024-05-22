@@ -2,7 +2,8 @@
 title: "Google&#39;s Season of Docs - Fostering open source collaboration with technical writers"
 publishDate: 2019-04-23 00:05:34 UTC
 author: "Chris Ward"
-categories: writing kauri
+categories:
+ - writing kauri
 tags:
   - documentation
   - hackathons

@@ -2,7 +2,9 @@
 title: "6 Interesting Trends from the Latest CNCF Survey"
 publishDate: 2020-03-23
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - kubernetes
   - service mesh

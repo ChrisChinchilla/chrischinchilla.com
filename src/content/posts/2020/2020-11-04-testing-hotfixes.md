@@ -2,7 +2,8 @@
 title: Testing hotfixes to Production without rolling back Staging
 publishDate: 2020-11-04
 author: "Chris Ward"
-categories: writing humanitec
+categories:
+ - writing humanitec
 tags:
   - DX
   - DevOps

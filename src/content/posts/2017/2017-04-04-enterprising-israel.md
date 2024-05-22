@@ -2,7 +2,9 @@
 title: Enterprising Israel
 publishDate: '2017-04-04 11:13:30 +0100'
 image: "../../../assets/images/articles/Tel-Aviv-startup-hub.jpg"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - israel
   - tel aviv

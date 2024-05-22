@@ -1,8 +1,12 @@
 ---
 title: Turning Chip Shop into a Board Game
 publishDate: 2016-01-09T00:00:00.000Z
-categories: projects chipshop
-tags: games playtesting
+categories:
+ - projects
+ - chipshop
+tags:
+ - games
+ - playtesting
 image: "../../../assets/images/articles/board_inspiration.jpg"
 ---
 

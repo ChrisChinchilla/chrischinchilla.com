@@ -2,7 +2,9 @@
 title: "Ubuntu 20.04 LTS (Focal Fossa)- Enterprise-Ready"
 publishDate: 2020-04-22
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - ubuntu
   - linux

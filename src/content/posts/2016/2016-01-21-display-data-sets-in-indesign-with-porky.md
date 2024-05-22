@@ -3,8 +3,13 @@ title: Display Data Sets in InDesign with Porky
 publishDate: 2016-01-21T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/indesign-with-porky/'
 image: "../../../assets/images/articles/image-Porky.png"
-categories: writing sitepoint
-tags: indesign json xml
+categories: 
+ - writing
+ - sitepoint
+tags:
+ - indesign
+ - json
+ - xml
 ---
 
 As a coder of many years, I am a keen believer in writing everything once and being able to use it in multiple places. In the coding world, thanks to open data formats and widely supported APIs we can generally have one central set of content and use it for different applications and use cases, all nicely in sync.

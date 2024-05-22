@@ -1,8 +1,14 @@
 ---
 title: How I Wrote the Atom Medium Exporter and How You Can Help Make It Better
 publishDate: 2016-10-18 16:20:32 +0200
-categories: writing hackernoon
-tags: writing techwriting medium atom
+categories:
+ - writing
+ - hackernoon
+tags:
+ - writing
+ - techwriting
+ - medium
+ - atom
 
 image: "../../../assets/images/articles/projects/medium-export.png"
 publication_url: https://hackernoon.com/how-i-wrote-the-atom-medium-exporter-and-how-you-can-help-make-it-better-9e9e4c401da1#.1d09ezkoj

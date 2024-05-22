@@ -2,7 +2,9 @@
 title: "Steadily Serving the Web for 12 Years, Liam Crilly From NGINX"
 publishDate: 2017-07-26 18:01:01 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - apache
   - web servers

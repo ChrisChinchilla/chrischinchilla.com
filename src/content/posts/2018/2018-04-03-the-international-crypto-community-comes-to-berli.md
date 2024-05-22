@@ -2,7 +2,9 @@
 title: "The International Crypto Community Comes to Berlin"
 publishDate: 2018-04-03 04:01:01 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - blockchain
   - cryptocurrencies

@@ -1,7 +1,9 @@
 ---
 title: Changes From Play Testing
 publishDate: '2015-11-25'
-categories: projects chipshop
+categories:
+ - projects
+ - chipshop
 ---
 
 After my first constructive play test session, here is the first wave of changes to the game.

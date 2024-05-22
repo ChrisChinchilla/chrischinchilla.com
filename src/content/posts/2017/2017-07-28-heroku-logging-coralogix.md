@@ -2,8 +2,13 @@
 title: Heroku Logging and Coralogix
 publishDate: 2017-07-28
 image: "../../../assets/images/defaults/blog-chinchilla.jpg"
-categories: writing coralogix
-tags: logging heroku errors
+categories:
+ - writing
+ - coralogix
+tags:
+ - logging
+ - heroku
+ - errors
 publication_url: https://coralogix.com/heroku-logging-coralogix/
 ---
 

@@ -2,7 +2,9 @@
 title: "Reducing Support Overload with an Einstein-Powered Chatbot"
 publishDate: 2020-08-26
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - chatbot
   - nlp

@@ -2,7 +2,9 @@
 title: "Chatting With Chip Childers, CTO of Cloud Foundry"
 publishDate: 2017-06-19 09:01:00 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - cloud foundry
   - cloud

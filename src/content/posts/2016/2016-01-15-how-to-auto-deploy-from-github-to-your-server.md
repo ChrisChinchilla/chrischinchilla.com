@@ -2,8 +2,13 @@
 title: How to auto deploy from GitHub to your server
 publication_url: 'https://www.sitepoint.com/deploying-from-github-to-a-server/'
 publishDate: 2016-01-15T00:00:00.000Z
-categories: writing sitepoint
-tags: tutorial github github
+categories:
+ - writing
+ - sitepoint
+tags: 
+ - tutorial
+ - github
+ - github
 image: "../../../assets/images/articles/chinchilla_octocat.png"
 ---
 

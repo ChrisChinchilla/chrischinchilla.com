@@ -2,7 +2,9 @@
 title: "Our 5G Futures at 5GTechritory"
 publishDate: 2018-11-12 05:01:01 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - 5g
   - 5g infrastructure

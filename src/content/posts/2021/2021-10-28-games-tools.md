@@ -1,7 +1,8 @@
 ---
 title: Digital tools for boardgames and roleplay games
 publishDate: 2021-10-28
-categories: writing chrischinchilla
+categories:
+ - writing chrischinchilla
 tags:
   - boardgames
   - toleplay

@@ -2,7 +2,9 @@
 title: "Running SerenityOS, a Love Letter to '90s User Interfaces"
 publishDate: 2022-10-20
 author: "Chris Ward"
-categories: writing hackernoon
+categories:
+ - writing
+ - hackernoon
 tags:
   - Operating Systems
   - SerenityOS

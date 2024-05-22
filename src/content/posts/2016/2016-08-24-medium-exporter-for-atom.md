@@ -1,8 +1,14 @@
 ---
 title: Medium Exporter for Atom
 publishDate: 2016-08-24T00:00:00.000Z
-categories: projects software
-tags: atom medium export markdown
+categories:
+ - projects
+ - software
+tags:
+ - atom
+ - medium
+ - export
+ - markdown
 image: "../../../assets/images/articles/projects/medium-export.png"
 ---
 

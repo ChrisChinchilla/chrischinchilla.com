@@ -2,7 +2,8 @@
 title: How we created a Humanitec driver for Amazon ElastiCache for Redis - A hackathon with Polar Squad
 publishDate: 2020-10-23
 author: "Chris Ward"
-categories: writing humanitec
+categories:
+ - writing humanitec
 tags:
   - DX
   - DevOps

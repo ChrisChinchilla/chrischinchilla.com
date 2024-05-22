@@ -2,8 +2,13 @@
 title: The Huawei P10, a Powerfully Small Package
 publishDate: '2017-06-12 09:36:36 +0200'
 image: "../../../assets/images/articles/h-p10.jpg"
-categories: writing theweeklysqueak
-tags: android devices reviews phones
+categories:
+ - writing
+ - theweeklysqueak
+tags:
+ - android
+ - devices
+ - reviews phones
 ---
 
 Like any modern citizen, I love my smartphone, but I wouldn't describe myself as a power user, my phone is supplemental to my computer, not a replacement for it.

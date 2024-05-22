@@ -2,7 +2,9 @@
 title: "Improve Documentation by Automating Spelling and Grammar Checks"
 publishDate: 2016-11-23 16:15:11 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/improve-documentation-by-automating-spelling-and-grammar-checks/"

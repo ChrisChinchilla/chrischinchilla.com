@@ -2,7 +2,8 @@
 title: Our Favorite DevOps Tools for 2022
 publishDate: 2022-01-13
 author: "Chris Ward"
-categories: writing kong
+categories:
+ - writing kong
 tags:
   - devops
   - tools

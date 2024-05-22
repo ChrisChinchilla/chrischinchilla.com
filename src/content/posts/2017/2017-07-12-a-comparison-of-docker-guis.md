@@ -2,7 +2,9 @@
 title: "A Comparison of Docker GUIs"
 publishDate: 2017-07-12 15:15:49 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/docker-guis/"

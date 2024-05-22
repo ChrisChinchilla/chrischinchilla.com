@@ -2,7 +2,9 @@
 title: "A Writer&#39;s Guide to Conversational Interfaces"
 publishDate: 2017-11-10 10:01:52 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - ai
   - chatbots

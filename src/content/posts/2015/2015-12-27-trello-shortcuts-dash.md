@@ -1,8 +1,12 @@
 ---
 title: Trello Shortcuts for Dash
 publishDate: 2015-12-27T00:00:00.000Z
-categories: projects software
-tags: dash documentation
+categories:
+ - projects
+ - software
+tags:
+ - dash
+ - documentation
 image: "../../../assets/images/articles/dash_trello.png"
 ---
 

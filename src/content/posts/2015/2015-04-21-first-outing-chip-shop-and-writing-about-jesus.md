@@ -4,7 +4,9 @@ publishDate: 2015-04-21
 
 title: Adding Accessories
 images: back-card.jpg card-packs.jpg cards-out.jpg"
-categories: projects chipshop
+categories:
+ - projects
+ - chipshop
 ---
 
 Last week I presented [Chip Shop](https://chipshopgame.com) at an event here in Berlin. I was woefully unprepared and just had my laptop, showing a few screens and telling people about the idea.

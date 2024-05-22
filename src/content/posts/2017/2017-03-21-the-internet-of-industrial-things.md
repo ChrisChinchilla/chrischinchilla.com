@@ -2,8 +2,14 @@
 title: The Internet of Industrial Things
 publishDate: '2017-03-21 18:13:30 +0100'
 image: "../../../assets/images/articles/industrial-iot.jpg"
-categories: writing dzone
-tags: IIoT, IoT, industrial, maitenance
+categories:
+ - writing
+ - dzone
+tags:
+ - IIoT
+ - IoT
+ - industrial
+ - maitenance
 publication_url: https://dzone.com/articles/the-internet-of-industrial-things
 ---
 

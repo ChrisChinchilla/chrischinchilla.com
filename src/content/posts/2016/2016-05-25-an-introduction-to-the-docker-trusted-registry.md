@@ -2,7 +2,9 @@
 title: "An Introduction to the Docker Trusted Registry"
 publishDate: 2016-05-25 15:15:23 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/docker-trusted-registry/"

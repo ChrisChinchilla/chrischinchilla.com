@@ -2,7 +2,9 @@
 title: "Revolutionizing Health Data With Arkhn"
 publishDate: 2019-05-21 14:32:35 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - api
   - rest

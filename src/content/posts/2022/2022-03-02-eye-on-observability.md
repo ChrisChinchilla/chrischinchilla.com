@@ -2,7 +2,8 @@
 title: An eye on observability for February 2022
 publishDate: 2022-03-02
 author: "Chris Ward"
-categories: writing chronosphere
+categories:
+ - writing chronosphere
 tags:
   - observability
   - prometheus

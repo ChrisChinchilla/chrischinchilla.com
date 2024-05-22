@@ -2,7 +2,9 @@
 title: "Container and Serverless Predictions for 2018 With Lucas Carlson [Audio]"
 publishDate: 2018-01-18 00:56:01 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - docker
   - containers

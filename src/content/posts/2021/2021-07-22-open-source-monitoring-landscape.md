@@ -2,7 +2,8 @@
 title: Open source monitoring and metrics landscape
 publishDate: 2021-07-22
 author: "Chris Ward"
-categories: writing chronosphere
+categories:
+ - writing chronosphere
 tags:
   - observability
   - prometheus

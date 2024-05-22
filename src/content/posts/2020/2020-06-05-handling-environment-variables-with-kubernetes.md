@@ -2,7 +2,8 @@
 title: Handling Environment Variables with Kubernetes
 publishDate: 2020-06-05
 author: "Chris Ward"
-categories: writing humanitec
+categories:
+ - writing humanitec
 tags:
   - Environment Variables
   - devops

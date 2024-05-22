@@ -2,7 +2,8 @@
 title: Why GitHub built their own Internal Developer Platform
 publishDate: 2020-11-24
 author: "Chris Ward"
-categories: writing humanitec
+categories:
+ - writing humanitec
 tags:
   - DX
   - DevOps
