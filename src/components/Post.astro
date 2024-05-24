@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 // import { findImage } from '~/utils/images';
 import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
+import Tags from '~/components/common/Tags.astro';
 import type { CollectionEntry } from 'astro:content';
 interface Props {
   post: CollectionEntry<'posts'>;
@@ -38,7 +39,7 @@ const truncatedBody = truncateMarkdown(post.body, {
   ellipsis: true,
 });
 ---
-
+<!-- TODO: Tidy and fix grid -->
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.data.image ? 'md:grid-cols-2' : ''}`}>
   <div
     class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
@@ -84,5 +85,14 @@ const truncatedBody = truncateMarkdown(post.body, {
     <div class="post-body body">
       <Markdown class="m-2" />{truncatedBody}</Markdown>
     </div>
+    {
+      post.data.tags && Array.isArray(post.data.tags) ? (
+        <footer class="mt-2">
+          <Tags tags={post.data.tags} />
+        </footer>
+      ) : (
+        <Fragment />
+      )
+    }
   </div>
 </article>

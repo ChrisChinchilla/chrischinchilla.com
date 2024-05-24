@@ -9,9 +9,10 @@ import { MetaSEO } from '~/types';
 export interface Props {}
 
 const { frontmatter } = Astro.props;
-
+//TODO: Description needs to be excerpt
 const meta: MetaSEO = {
   title: frontmatter?.title,
+  description: frontmatter?.title
 };
 ---
 
