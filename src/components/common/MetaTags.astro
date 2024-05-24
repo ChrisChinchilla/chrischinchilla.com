@@ -5,7 +5,7 @@ import { Image, getImage } from 'astro:assets';
 
 import { SITE } from '~/config.mjs';
 import { MetaSEO } from '~/types';
-import { getCanonical, getAsset  } from '~/utils/permalinks';
+import { getCanonical, getAsset } from '~/utils/permalinks';
 import { getRelativeUrlByFilePath } from '~/utils/directories';
 
 import Fonts from '~/components/common/Fonts.astro';
@@ -25,13 +25,17 @@ const defaultImage = SITE.defaultImage
       })
     ).src
   : '';
-
+let canonicalURL = '';
+if (Astro.props.publication_url) {
+  canonicalURL = Astro.props.publication_url;
+} else {
+  canonicalURL = getCanonical(String(Astro.url.pathname));
+}
 const {
   title = SITE.name,
   description = description,
   image: _image = defaultImage,
-
-  canonical = getCanonical(String(Astro.url.pathname)),
+  canonical = canonicalURL,
   noindex = false,
   nofollow = false,
 
@@ -45,9 +49,9 @@ const image =
   typeof _image === 'string'
     ? new URL(_image, Astro.site)
     : _image && typeof _image['src'] !== 'undefined'
-    ? // @ts-ignore
-      new URL(getRelativeUrlByFilePath(_image.src), Astro.site)
-    : null;
+      ? // @ts-ignore
+        new URL(getRelativeUrlByFilePath(_image.src), Astro.site)
+      : null;
 ---
 
 <meta charset="UTF-8" />

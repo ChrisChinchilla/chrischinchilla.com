@@ -12,7 +12,8 @@ const { frontmatter } = Astro.props;
 //TODO: Description needs to be excerpt
 const meta: MetaSEO = {
   title: frontmatter?.title,
-  description: frontmatter?.title
+  description: frontmatter?.title,
+  publication_url: frontmatter?.publication_url
 };
 ---
 
