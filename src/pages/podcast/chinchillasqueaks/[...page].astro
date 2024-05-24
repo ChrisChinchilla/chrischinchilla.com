@@ -5,6 +5,7 @@ import { PODCAST } from '~/config.mjs';
 import Podcast from '~/components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
+
 // TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
 
 export async function getStaticPaths({ paginate }) {
