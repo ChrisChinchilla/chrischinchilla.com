@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
 import { PODCAST } from '~/config.mjs';
-import Podcast from '../../components/Podcast.astro';
+import Podcast from '~/components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
 // TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
@@ -13,6 +13,7 @@ export async function getStaticPaths({ paginate }) {
     attributeNamePrefix: 'att_',
     removeNSPrefix: true,
   };
+  //TODO: As the content list is fed from the feed it renders using Astro content collections moot. Is there a better way?
   const parser = new XMLParser(options);
   const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
   let rssFeedData = await feedTest.text();
