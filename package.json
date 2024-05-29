@@ -50,7 +50,6 @@
     "astro-icon": "^1.1.0",
     "eslint": "^9.3.0",
     "eslint-plugin-astro": "^1.2.0",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
     "limax": "4.1.0",
     "mdast-util-to-string": "^4.0.0",
     "prettier": "^3.2.5",
