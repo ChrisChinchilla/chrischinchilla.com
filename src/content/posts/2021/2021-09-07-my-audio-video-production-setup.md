@@ -1,5 +1,5 @@
 ---
-title: My audio and video production setup
+title: My audio and video production setup 2021
 publishDate: 2021-09-07
 categories:
  - writing
