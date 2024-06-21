@@ -48,6 +48,14 @@ function slugify(str) {
 
   return str;
 }
+
+// TODO: For some reason CS podcast has duplicate titles?
+let episodeTitle = '';
+if (podcast.title.length === 2) {
+  episodeTitle = podcast.title[0];
+} else {
+  episodeTitle = podcast.title;
+}
 ---
 
 <Layout {meta}>
@@ -55,7 +63,7 @@ function slugify(str) {
   <Header />
   <main>
     <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
-      <h1 class="font-bold font-heading text-3xl md:text-4xl leading-tighter tracking-tighter">{podcast.title[0]}</h1>
+      <h1 class="font-bold font-heading text-3xl md:text-4xl leading-tighter tracking-tighter">{episodeTitle}</h1>
       <div
         class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
       >
@@ -65,7 +73,7 @@ function slugify(str) {
             <!-- TODO: Should also have w-full h-full  -->
             <Image
               src={podcast.image ? podcast.image.att_href : '../../assets/images/default.png'}
-              alt={podcast.title ? podcast.title[0] : 'null'}
+              alt={episodeTitle}
               class="object-cover mb-6 rounded drop-shadow-lg"
               width="420"
               height="420"
@@ -75,14 +83,14 @@ function slugify(str) {
           <div class="mt-2">
             <div class="my-2" set:html={truncateMarkdown(podcast.description, { limit: 500, ellipsis: true })} />
             <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading dark:text-slate-300">Listen and download</h2>
-
-       
+            {podcastID ?
             <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src=`https://player.simplecast.com/${podcastID}`></iframe>
-            
-
+            : <audio controls src={podcast.enclosure.att_url} preload="none"></audio>
+          }
           <ul>
-            {episodeData.descript_embed ? 
-              <li><a href=`${episodeData.descript_embed}`>Interactive transcript</a></li> : ''}
+            {episodeData && episodeData.descript_embed ? 
+              <li><a href=`${episodeData.descript_embed}`>Interactive transcript</a></li>
+              : ''}
             </ul>
           </div>
         </article>

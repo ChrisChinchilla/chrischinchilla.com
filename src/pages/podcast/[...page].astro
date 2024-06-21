@@ -7,33 +7,29 @@ import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
 
 // TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
-
-export async function getStaticPaths({ paginate }) {
+export function returnFeed(feedURL) {
   const options = {
     ignoreAttributes: false,
     attributeNamePrefix: 'att_',
     removeNSPrefix: true,
   };
   const parser = new XMLParser(options);
-  const csFeed = await fetch('https://feeds.simplecast.com/whlwDbyc')
-  .then(feed => {
-    return feed.text()
-  })
 
-    const wwwFeed = await fetch('https://anchor.fm/s/ef311c90/podcast/rss')
-    .then(feed => {
-    return feed.text()
-  })
+  return new Promise((resolve, reject) => {
+    fetch(feedURL).then(async (feed) => {
+      await feed.text().then(async (rssFeedData) => {
+        let parsedFeed = await parser.parse(rssFeedData);
+        resolve(parsedFeed);
+      });
+    });
+  });
+}
+export async function getStaticPaths({ paginate }) {
+  const wwwPod = await returnFeed('https://anchor.fm/s/ef311c90/podcast/rss');
+  const csPod = await returnFeed('https://feeds.simplecast.com/whlwDbyc');
 
-console.log(wwwFeed)
-
-  let parsedFeed = await parser.parse(rssFeedData);
-
-  // const wwwFeed = await fetch('https://anchor.fm/s/ef311c90/podcast/rss');
-
-  // let rssFeedData = await feedTest.text();
-  // let parsedFeed = await parser.parse(rssFeedData);
-  // const allEpisodes = parsedFeed.rss.channel.item;
+  let allEpisodes = wwwPod.rss.channel.item.concat(csPod.rss.channel.item);
+  allEpisodes = allEpisodes.sort((a, b) => new Date(b.pubDate).valueOf() - new Date(a.pubDate).valueOf());
 
   return paginate(allEpisodes, {
     pageSize: PODCAST.postsPerPage,
