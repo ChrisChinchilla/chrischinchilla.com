@@ -1,0 +1,78 @@
+---
+import PodcastLayout from '~/layouts/PodcastLayout.astro';
+import { XMLParser } from 'fast-xml-parser';
+import { getEntry } from 'astro:content';
+
+export function slugify(str) {
+  str = str.replace(/^\s+|\s+$/g, '');
+
+  // Make the string lowercase
+  str = str.toLowerCase();
+
+  // Remove accents, swap ñ for n, etc
+  var from = 'ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;';
+  var to = 'AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------';
+  for (var i = 0, l = from.length; i < l; i++) {
+    str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+  }
+
+  // Remove invalid chars
+  str = str
+    .replace(/[^a-z0-9 -]/g, '')
+    // Collapse whitespace and replace by -
+    .replace(/\s+/g, '-')
+    // Collapse dashes
+    .replace(/-+/g, '-');
+
+  return str;
+}
+
+export async function getStaticPaths() {
+  const options = {
+    ignoreAttributes: false,
+    stopNodes: ['root.itunes:title'],
+    attributeNamePrefix: 'att_',
+    removeNSPrefix: true,
+  };
+  const parser = new XMLParser(options);
+  const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
+  let rssFeedData = await feedTest.text();
+  let parsedFeed = await parser.parse(rssFeedData);
+  const allEpisodes = parsedFeed.rss.channel.item;
+
+  return await Promise.all(
+    allEpisodes.map(async (episode) => {
+      const additionalData = await getEntry('podcasts', slugify(episode.title[0]));
+      // TODO: Is this the optimal way?
+      if (additionalData) {
+        let episodeData = additionalData.data;
+        return {
+          params: { slug: slugify(episode.title[0]) },
+          props: { episode, episodeData },
+        };
+      } else {
+        return {
+          params: { slug: slugify(episode.title[0]) },
+          props: { episode },
+        };
+      }
+    })
+  );
+}
+const { episode, episodeData } = Astro.props;
+
+const meta = {
+  title: 'Podcasts',
+  description:
+    'My pre-eminent podcast, Chinchilla Squeaks, has run for nearly eight years and taken me all over the globe. I have dabbled in other shows. They will be listed here again in the near future.',
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
+---
+
+<!-- TODO: Frontmatter duplicated -->
+<PodcastLayout frontmatter={episode} podcast={episode} episodeData={episodeData}>
+  <!-- <Image src={entry.data.image} alt={entry.data.title} class="object-contain h-full mb-6 rounded drop-shadow-lg" /> -->
+</PodcastLayout>

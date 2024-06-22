@@ -40,7 +40,7 @@ const { page } = Astro.props;
 const meta = {
   title: 'Podcasts',
   description:
-    'My pre-eminent podcast, Chinchilla Squeaks, has run for nearly eight years and taken me all over the globe. I have dabbled in other shows. They will be listed here again in the near future.',
+    'Hear me ramble. Hear me roar! Drink whisky, cover the news, and more.',
   // canonical: post.canonical || url,
   // image: await findImage(post.image),
   // noindex: BLOG?.post?.noindex,
@@ -53,6 +53,7 @@ const meta = {
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
+
     <ul>
       {
         page.data.map((episode) => (
