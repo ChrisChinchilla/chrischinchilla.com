@@ -32,7 +32,8 @@ export default defineConfig({
         carbon: ['*'],
         fluent: ['*'],
         ri: ['*'],
-        ph: ['*']
+        ph: ['*'],
+        'simple-icons': ['*']
       }
     }),
     tailwind({
