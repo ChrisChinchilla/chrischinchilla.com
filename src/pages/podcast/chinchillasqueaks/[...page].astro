@@ -5,6 +5,8 @@ import { PODCAST } from '~/config.mjs';
 import Podcast from '~/components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
+import Content from '~/components/widgets/Content.astro';
+import showImage from '../../../assets/images/chinch-head.png';
 
 // TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
 
@@ -28,7 +30,7 @@ export async function getStaticPaths({ paginate }) {
 
 const { page } = Astro.props;
 const meta = {
-  title: 'Podcasts',
+  title: 'Chinchilla Squeaks',
   description:
     'My pre-eminent podcast, Chinchilla Squeaks, has run for nearly eight years and taken me all over the globe. It runs every other week as an interview with a tech or creative luminary and every other week featuring interesting links and news.',
   // canonical: post.canonical || url,
@@ -43,6 +45,35 @@ const meta = {
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
+    <Content
+    isReversed
+    items={[
+      {
+        link: 'https://open.spotify.com/show/4esINQS7W6emShb6fwt5Vr',
+          icon: 'simple-line-icons:social-spotify'
+      },
+      {
+        link: 'https://podcasts.apple.com/us/podcast/chinchilla-squeaks/id1071207052',
+          icon: 'simple-icons:applepodcasts'
+      },
+      {
+        link: 'https://podcasters.amazon.com/podcasts/0b519ff4-1afe-4b46-8873-f38b51405f89',
+          icon: 'simple-icons:amazonmusic'
+      },
+      {
+        link: 'https://pca.st/nNqR',
+          icon: 'simple-icons:pocketcasts'
+      },
+    ]}
+    image={{
+      src: showImage,
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
     <ul>
       {
         page.data.map((episode) => (

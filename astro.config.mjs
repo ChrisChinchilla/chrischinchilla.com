@@ -27,7 +27,7 @@ export default defineConfig({
       // TODO: Streamline to only include needed
       include: {
         tabler: ['*'],
-        logos: ['*'],
+        'simple-line-icons': ['*'],
         fa: ['*'],
         carbon: ['*'],
         fluent: ['*'],

@@ -4,7 +4,7 @@ import { Image } from 'astro:assets';
 
 // TODO: Is this used or can it be upgraded?
 interface Item {
-  title: string;
+  link: string;
   description?: string;
   icon?: string;
 }
@@ -38,11 +38,13 @@ const {
         {
           items && (
             <div class="space-y-8">
-              {items.map(({ title: title2, link, icon }) => (
+              {items.map(({ link, icon }) => (
                 <div class="flex">
                   <div class="flex-shrink-0">
                     <div class="flex items-center justify-center text-gray-50">
-                      <Icon name={icon ? icon : 'tabler:check'} class="w-40 h-auto" />
+                      <a href={link} target="_blank">
+                      <Icon name={icon ? icon : 'tabler:check'} class="w-12 h-auto" style="color: black" />
+                    </a>
                     </div>
                   </div>
                 </div>
