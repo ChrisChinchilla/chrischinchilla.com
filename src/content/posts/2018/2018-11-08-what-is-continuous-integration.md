@@ -8,7 +8,8 @@ author: Chris Ward
 tags:
   - devops
   - tutorial
-  - ci/cd
+  - ci
+  - cd
   - continuous integration
   - software development
   - deployment

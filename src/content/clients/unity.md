@@ -6,7 +6,6 @@ category: Chris
 tags:
 - AR
 - gaming
-- C Sharp
 layout: "../../layouts/Client.astro"
 company_url: 'https://unity.com/products/mars'
 start_date: 20-05-11

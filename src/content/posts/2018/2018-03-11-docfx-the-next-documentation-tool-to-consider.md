@@ -7,7 +7,6 @@ categories:
  - dzone
 tags:
   - documentation
-  - c#
   - rest api
   - markdown
   - integration
