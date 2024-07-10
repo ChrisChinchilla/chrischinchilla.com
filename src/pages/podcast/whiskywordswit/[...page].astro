@@ -28,11 +28,12 @@ export async function getStaticPaths({ paginate }) {
 
 const { page } = Astro.props;
 const meta = {
-  title: 'Whisky, Words, & Wit',
+  //TODO: Why doesn't apersand work?
+  title: 'Whisky, Words, and Wit',
   description:
     "My podcast with Mustafa Keksin, where we get together, drink whisk(e)y and discuss life, writing, and the trials and tribulations of getting old. Along the way there's jokes, stories, and more.",
   // canonical: post.canonical || url,
-  // image: await findImage(post.image),
+  image: showImage,
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
