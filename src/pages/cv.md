@@ -17,49 +17,49 @@ writer roles.
 
 Long-form (technical) writing
 
-- 2017, "Jump start responsive design" from SitePoint
-- Edited three books for Packt publishing
-- Technical editor for four books with Manning
-- "Technical Writing for Developers" for Packt publishing, released in March 2024
-- Working on a book on Ableton Live 12 for Packt publishing
-- Working on a book on Sustainable computing for Apress
+- 2017, "Jump start responsive design" from SitePoint.
+- Edited three books for Packt publishing.
+- Technical editor for four books with Manning.
+- "Technical Writing for Developers" for Packt publishing, released in March 2024.
+- Working on a book on Ableton Live 12 for Packt publishing.
+- Working on a book on Sustainable computing for Apress.
 
 ### Courses
 
-- Two video courses for SitePoint (behind a paywall)
-- "CSS in Depth" for Manning
-- An introduction to Swift for Flatiron school
-- An introduction to web development for Career Foundry
+- Two video courses for SitePoint.
+- "CSS in Depth" for Manning.
+- An introduction to Swift for Flatiron school.
+- An introduction to web development for Career Foundry.
 
 ### Presentations
 
-Over the past 4-5 years, I have spoken at over 100 events on a wide variety of subjects. Find more on my [website](https://chrischinchilla.com/events).
+Over the past 4-5 years, I have spoken at over 100 events on a wide variety of subjects. Find more on my [website][1].
 
 ### Podcasts and Video
 
-- My Geek, tech, and gaming show, "Chinchilla Squeaks"
+- My 8+ year-old podcast, "Chinchilla Squeaks".
 - My YouTube channel is also now monetised with regular sponsorships.
 
-Find links to all these at [chrischinchilla.com](http://chrischinchilla.com/).
+Find links to all these at [chrischinchilla.com][2].
 
 ### Open Source
 
-I have always been active in open source communities, including regular contributions to: Drupal, CiviCRM, Atom, Visual Studio Code, Webpack, Kubernetes, Obsidian, and Vale. See [my GitHub profile](https://github.com/chrischinchilla) for more.
+I have always been active in open source communities, including regular contributions to: Drupal, CiviCRM, Atom, Visual Studio Code, Webpack, Kubernetes, Obsidian, and Vale. See [my GitHub profile][3] for more.
 
 ### Community
 
-- I run the Write the Docs meetup in Berlin, and have organised other meetups in the past
-- I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences
-- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, and 2024
-- I was a judge for the Mozilla open source awards in 2020
-- I run a regular writers meetup 2 times a week in Berlin that has over 3,000 members
+- I run the Write the Docs meetup in Berlin and have organised other meetups in the past.
+- I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences.
+- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, and 2024.
+- I was a judge for the Mozilla open source awards in 2020.
+- I run the Berlin Shut Up & Write© meetup with over 3,500 members, and thanks to the co-organisers, we run meetups almost every day.
 
 ## Work Experience
 
 ### Docker, Staff Technical Writer
 
 _February 2023 - August 2023_
-Docker Inc is a major contributor to many container-related technologies as well as its own commercial offerings. I was a staff technical writer on the documentation team and attached to working on a number of commercial products. My responsibilities included:
+Docker Inc is a major contributor to many container-related technologies and its own commercial offerings. I was a staff technical writer on the documentation team and was attached to working on a number of commercial products. My responsibilities included:
 
 - Working with product managers, engineers, and designers to create and maintain documentation for new and existing products
 - Proposing and steering new improvement projects
@@ -76,7 +76,7 @@ Chronosphere is the steward for M3, the highly available time series database, a
 
 - Overhauling documentation and documentation platforms
 - Documenting new features as they developed
-- Creating and maintaining a style guide and automated style checking tools
+- Creating and maintaining a style guide and automated style-checking tools
 - Creating and maintaining tests, screenshot generation, and other documentation tools
 - Editing and reviewing submissions from internal and external contributors
 - Liaising and working with our developer relations and marketing teams for collaboration ideas
@@ -90,28 +90,30 @@ _March 2017 - Present_
 
 As a freelance writer and blogger, I have contributed to the blogs and documentation sets of multiple technical companies. These ranged from small cutting-edge startups to large enterprises. Clients and work include
 
-- **libcamera**: Documentation an open source camera stack and framework for Linux, Android, and ChromeOS
-- **Dev Spotlight**: Technical blog posts for Salesforce, Kong, and others
-- **RevCom**: Technical blog post editing for several high-profile clients
-- **Sky Word**: Technical whitepaper writing for several high profile clients
-- **Unity**: Documentation for the MARS AR development plugin
-- **GitLab**: Technical blog posts
-- **Humanitec**: Technical blog posts
-- **here technologies**: Updating and maintaining API and reference documentation for the GeoVisualization product
-- **PagerDuty**: Non-technical blog posts
-- **OverOps**: Technical blog posts
-- **Coralogix**: Technical blog posts
-- **Facebook Messenger**: Technical blog posts
-- **data artisans**: Technical blog posts
-- **Sqreen**: Tutorial, API, and reference documentation
-- **Telerik**: Technical blog posts
-- **DZone**: Tech journalist covering events, interviews, and tools
-- **The Next Web**: Tech journalist covering events and interviews
-- **Equinix**: Technical blog posts
-- **DGraph**: Documentation platform overhaul
-- **Caepe**: Documenting a new product release
-- **n8n**: Creating a series of self-hosting guides
-- **Sentry**: Writing blog posts on how to debug with certain languages
+- **libcamera**: Documentation of an open-source camera stack and framework for Linux, Android, and ChromeOS.
+- **Dev Spotlight**: Technical blog posts for Salesforce, Kong, and others.
+- **RevCom**: Technical blog post editing for high-profile clients.
+- **Sky Word**: Technical whitepaper writing for high-profile clients.
+- **Unity**: Documentation for the MARS AR development plugin.
+- **GitLab**: Technical blog posts.
+- **Humanitec**: Technical blog posts.
+- **here technologies**: Updating and maintaining API and reference documentation for the GeoVisualization product.
+- **PagerDuty**: Non-technical blog posts.
+- **OverOps**: Technical blog posts.
+- **Coralogix**: Technical blog posts.
+- **Facebook Messenger**: Technical blog posts.
+- **data artisans**: Technical blog posts.
+- **Sqreen**: Tutorial, API, and reference documentation.
+- **Telerik**: Technical blog posts.
+- **DZone**: Tech journalist covering events, interviews, and tools.
+- **The Next Web**: Tech journalist covering events and interviews.
+- **Equinix**: Technical blog posts.
+- **DGraph**: Documentation platform overhaul.
+- **Caepe**: Documenting a new product release.
+- **n8n**: Creating a series of self-hosting guides.
+- **Sentry**: Writing blog posts on how to debug with certain languages.
+- **KILT**: Working on documentation for the decentralised identity platform.
+- **Slint**: Overhauling documentation for this cross-platform development tool.
 
 ### Ethereum Foundation, Technical Writer
 
@@ -128,7 +130,7 @@ I worked as the sole tech writer for the Ethereum Foundation and its projects. M
 - The Remix project:
   - Working on creating interactive workshops for people to learn Solidity
 - Ethereum Studio
-  - Creating content for this interactive web-based IDE for helping people learn Ethereum Dapp development
+  - Creating content for this interactive web-based IDE to help people learn Ethereum Dapp development
 - Ethereum Wiki
   - Fixing bug with the current wiki
   - Transitioning the wiki to an improved collaborative platform
@@ -141,14 +143,14 @@ I worked as the sole tech writer for the Ethereum Foundation and its projects. M
 
 _March 2017 - March 2020_
 
-Event Store creates an open source events-optimised database with commercial-only features and support. My role included:
+Event Store creates an open-source events-optimised database with commercial-only features and support. My role included:
 
 - Migrating to a new documentation platform
 - Improving getting started guides
 - Creating example applications
 - Maintaining reference documentation for an HTTP API, a .NET SDK, command-line interface, and implementation guides
-- Writing a book for a new release (in progress)
-- Creating a new developer portal to hold old and forthcoming documentation (in progress)
+- Writing a book for a new release
+- Creating a new developer portal to hold old and forthcoming documentation
 - Integrating docs and support platform (fresh desk)
 
 ### Kauri (ConsenSys), Technical Content Lead
@@ -178,8 +180,8 @@ that needed addressing in the documentation.
 
 _Feb 2015 - Aug 2016_
 
-I was a Developer advocate for this open-source highly scalable database startup.
-Responsible for Europe, my tasks include handling support, organizing events
+I was a Developer advocate for this open-source, highly scalable database startup.
+Responsible for Europe, my tasks include handling support, organising events
 and presentations, networking, creating content, documentation and sample
 applications, partnerships, social media, and much more.
 
@@ -192,7 +194,7 @@ is a global resource site for Developers and Designers that ranks highly on
 Alexis and has weekly traffic of about 1.5 million page views. My role involves
 commissioning and editing articles, engaging our community, and creating a
 strategy based on trends in our readership. As part of editing articles, I have to
-understand, test, and streamline code in a variety of languages such as Swift,
+understand, test, and streamline code in a variety of languages, such as Swift,
 Java, and JavaScript.
 
 ## Older work
@@ -206,3 +208,7 @@ Summarised for brevity.
 - CERES, Online Coordinator
 - Green Renters, Operations
 - Portable Content, Developer
+
+[1]:	https://chrischinchilla.com/events
+[2]:	http://chrischinchilla.com/
+[3]:	https://github.com/chrischinchilla
