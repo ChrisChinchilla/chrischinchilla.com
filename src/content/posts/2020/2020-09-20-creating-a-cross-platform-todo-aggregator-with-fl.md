@@ -2,8 +2,10 @@
 title: "Creating a Cross-Platform Todo Aggregator with Flutter"
 publishDate: 2020-09-20
 author: "Chris Ward"
-categories: writing dzone
-tags: 
+categories:
+ - writing
+ - dzone
+tags:
   - flutter
   - dart
   - ios

@@ -4,7 +4,9 @@ publishDate: 2013-01-06T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla
-tags: greatidea socialmedia
+tags:
+ - greatidea
+ - socialmedia
 image: "../../../assets/images/articles/buffer.png"
 ---
 

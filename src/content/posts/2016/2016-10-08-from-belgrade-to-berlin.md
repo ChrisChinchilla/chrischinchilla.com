@@ -5,7 +5,11 @@ image: "../../../assets/images/articles/voxxed-belgrade.jpg"
 categories:
  - writing
  - chrischinchilla
-tags: tech conferences links history
+tags:
+ - tech
+ - conferences
+ - links
+ - history
 ---
 
 I haven't been to many meetups the past weeks as the beginning of October is traditionally conference season in tech, and as I look back through my [Timehop](https://timehop.com/) for the past years, pretty much every year around this time I am at a conference.

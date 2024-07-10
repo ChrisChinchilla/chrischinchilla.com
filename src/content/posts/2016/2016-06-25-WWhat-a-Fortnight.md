@@ -2,8 +2,12 @@
 title: 'WWhat a Fortnight'
 publishDate: 2016-06-25T00:00:00.000Z
 publication_url: 'https://medium.com/@chrischinchilla/wwhat-a-fortnight-4e6608939452'
-categories: writing
-tags: apple events wwdc
+categories:
+ - writing
+tags:
+ - apple
+ - events
+ - wwdc
 ---
 
 

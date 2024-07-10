@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/geekculture/new-alternative-web-browsers-for-macos-8edf6edaf517"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - web browsers
 image: "../../../assets/images/articles/1*8NhAJxnIZ4q65Ay-0uBKUw.png"

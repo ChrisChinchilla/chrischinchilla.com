@@ -2,7 +2,9 @@
 title: "CI Workflows and Bots"
 publishDate: 2017-05-24 15:15:12 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/ci-workflows-and-bots/"

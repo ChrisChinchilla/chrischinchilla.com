@@ -19,22 +19,14 @@ const meta = {
   // ogType: 'article',
 };
 
-const links = await fetch("https://getpocket.com/v3/get", {
-  method: "POST",
+const links = await fetch(" https://api.raindrop.io/rest/v1/raindrops/45559645?sort=-created&search=%23nextissue", {
+  method: "GET",
   headers: {
-    "Content-Type": "application/json; charset=utf-8",
+    "Authorization": `Bearer ${import.meta.env.RAINDROP}`,
   },
-  body: JSON.stringify({
-    consumer_key: `${import.meta.env.POCKET_CONSUMER}`,
-    count: "50",
-    state: "all",
-    access_token: `${import.meta.env.POCKET_ACCESS}`,
-    favorite: "1",
-    sort: "newest",
-  }),
 })
   .then((response) => response.json())
-  .then((response) => Object.values(response.list))
+  .then((response) => Object.values(response.items))
   // .then((response) => groupBy(response,"tags"));
 
 ---
@@ -50,10 +42,12 @@ const links = await fetch("https://getpocket.com/v3/get", {
         links.map((link) => (
         <li class="mb-12 md:mb-20">
             <Link
-              title={link.resolved_title}
-              description={link.excerpt}
-              link={link.resolved_url}
-              image={link.top_image_url}
+              title={link.title}
+              link={link.link}
+              excerpt={link.excerpt}
+              image={link.cover}
+              domain={link.domain}
+              note={link.note}
             />
           </li>
         ))

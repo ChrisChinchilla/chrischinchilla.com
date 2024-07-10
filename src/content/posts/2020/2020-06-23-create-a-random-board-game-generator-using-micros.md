@@ -2,8 +2,10 @@
 title: "Create a Random Board Game Generator Using Microservices on Heroku"
 publishDate: 2020-06-23
 author: "Chris Ward"
-categories: writing dzone
-tags: 
+categories:
+ - writing
+ - dzone
+tags:
   - microservices
   - heroku
   - chatbot

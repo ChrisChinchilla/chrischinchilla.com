@@ -1,7 +1,9 @@
 ---
 title: 'Commodore Amiga: a visual Compendium by Sam Dyer'
 publishDate: 2015-12-26T00:00:00.000Z
-categories: projects chipshop
+categories:
+ - projects
+ - chipshop
 tags:
  - books 
  - reviews

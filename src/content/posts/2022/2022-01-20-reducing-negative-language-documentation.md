@@ -2,8 +2,9 @@
 title: Reducing negative and biased language in documentation
 publishDate: 2022-01-20
 author: "Chris Ward"
-categories: writing chronosphere
-tags: 
+categories:
+ - writing chronosphere
+tags:
   - documentation
   - linting
 publication_url: https://chronosphere.io/learn/reducing-negative-and-biased-language-in-documentation/

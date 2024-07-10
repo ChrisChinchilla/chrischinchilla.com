@@ -1,9 +1,15 @@
 ---
 title: 'Creating a Game with Markdown, Pandoc, Latex and PDFJam'
 publishDate: 2015-08-11T00:00:00.000Z
-categories: projects chipshop
+categories:
+ - projects
+ - chipshop
 image: "../../../assets/images/articles/9up-cards.png"
-tags: markdown pandoc latex pdf
+tags:
+ - markdown
+ - pandoc
+ - latex
+ - pdf
 ---
 
 The main reason for a lack of small posts on the progress of Chip Shop is that behind the scenes we have been working on some large stumbling blocks to push the game towards play testing. We wanted to focus on getting those completed over all else.

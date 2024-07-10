@@ -2,7 +2,9 @@
 title: "Computational Knowledge With Stephen Wolfram"
 publishDate: 2018-06-14 17:01:00 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - wolfram alpha
   - jupyter notebook

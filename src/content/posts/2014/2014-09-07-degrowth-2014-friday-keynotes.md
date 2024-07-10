@@ -4,7 +4,10 @@ publishDate: 2014-09-07T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla
-tags: politics degrowth activism
+tags:
+ - politics
+ - degrowth
+ - activism
 ---
 
 ## The Transition to a Sustainable Commons Society in Ecuador and beyond

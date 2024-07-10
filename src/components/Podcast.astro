@@ -7,7 +7,15 @@ export interface Props {
 }
 const { podcast } = Astro.props;
 
-var url = '/podcast/' + slugify(podcast.title[0]);
+// For some reason one feed returns duplicate title as an array
+let podcastTitle;
+if (Array.isArray(podcast.title)) {
+  podcastTitle = podcast.title[0];
+} else {
+  podcastTitle = podcast.title;
+}
+
+var url = '/podcast/' + slugify(podcastTitle);
 function slugify(str) {
   str = str.replace(/^\s+|\s+$/g, '');
 
@@ -39,7 +47,7 @@ function slugify(str) {
     <!-- TODO: These images might be quite heavy -->
     <Image
       src={podcast.image ? podcast.image.att_href : '../../assets/images/default.png'}
-      alt={podcast.title ? podcast.title[0] : 'null'}
+      alt={podcast.title ? podcastTitle : 'null'}
       class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
       width="420"
       height="420"
@@ -48,15 +56,33 @@ function slugify(str) {
 
   <div class="mt-2">
     <div class="mt-2">
+      <!-- TODO: Is there a less brittle way? -->
+      {
+        podcast.link === 'https://chinchillasqueaks.substack.com/podcast' ? (
+          <a
+            href="podcast/chinchillasqueaks"
+            class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2  font-medium"
+          >
+            Chinchilla Squeaks
+          </a>
+        ) : (
+          <a
+            href="podcast/whiskywordswit"
+            class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2  font-medium"
+          >
+            Whisky, Words, & Wit
+          </a>
+        )
+      }
       <header>
         <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading dark:text-slate-300">
           {
             url ? (
               <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={url}>
-                {podcast.title[0]}
+                {podcastTitle}
               </a>
             ) : (
-              podcast.title[0]
+              podcastTitle
             )
           }
         </h2>

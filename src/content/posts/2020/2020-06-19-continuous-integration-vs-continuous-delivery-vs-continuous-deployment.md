@@ -2,8 +2,9 @@
 title: Continuous Integration (CI) vs. Continuous Delivery (CD) vs. Continuous Deployment (CD)
 publishDate: 2020-06-19
 author: "Chris Ward"
-categories: writing humanitec
-tags: 
+categories:
+ - writing humanitec
+tags:
   - cd
   - ci
   - devops

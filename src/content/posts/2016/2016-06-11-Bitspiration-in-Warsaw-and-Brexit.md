@@ -2,8 +2,13 @@
 title: 'Bitspiration in Warsaw and Brexit {#bitspiration-in-warsaw-and-brexit'
 publishDate: 2016-06-11T00:00:00.000Z
 publication_url: 'https://medium.com/@chrischinchilla/bitspiration-in-warsaw-and-brexit-7236bd7793c6'
-categories: writing codeship
-tags: otto devops vagrant
+categories:
+ - writing
+ - codeship
+tags:
+ - otto
+ - devops
+ - vagrant
 ---
 
 

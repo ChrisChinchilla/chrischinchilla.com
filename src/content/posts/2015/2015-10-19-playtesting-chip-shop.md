@@ -1,7 +1,9 @@
 ---
 title: Playtesting Chip Shop
 publishDate: 2015-10-19
-categories: projects chipshop
+categories:
+ - projects
+ - chipshop
 image: "../../../assets/images/articles/pt-cards.png"
 ---
 

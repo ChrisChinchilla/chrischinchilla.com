@@ -2,7 +2,8 @@
 title: "Managing Large State in Apache Flink - An Intro to Incremental Checkpointing"
 publishDate: 2018-01-23 13:51:48 UTC
 author: "Chris Ward"
-categories: writing dataartisans
+categories:
+ - writing dataartisans
 tags:
   - Flink Features
   - Resources

@@ -2,8 +2,10 @@
 title: "How Hedera Hashgraph Is Revolutionizing Distributed Ledgers"
 publishDate: 2020-03-31
 author: "Chris Ward"
-categories: writing dzone
-tags: 
+categories:
+ - writing
+ - dzone
+tags:
   - blockchain
   - distributed ledger technology
   - distributed systems

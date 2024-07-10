@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/geekculture/a-sreach-for-an-evernote-replacement-4481322202a6"
 categories:
   - writing
-tags: 
+tags:
   - Evernote
   - Productivity
 image: "../../../assets/images/articles/1*MH_eaqejlm7i6PmMzV4ahA.webp"

@@ -2,8 +2,9 @@
 title: Continuous Delivery With the Humanitec Postman Collection
 publishDate: 2021-11-08
 author: "Chris Ward"
-categories: writing humanitec
-tags: 
+categories:
+ - writing humanitec
+tags:
   - postman
   - API
   - gitops

@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/macoclock/my-creative-writing-setup-8691c3a65b3f"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - version control
 image: "../../../assets/images/articles/0*tMHF1hJXN_tRbkXr.webp"

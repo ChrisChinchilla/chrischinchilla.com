@@ -5,7 +5,9 @@ image: "../../../assets/images/articles/civiconlondon.png"
 categories:
  - writing
  - chrischinchilla
-tags: civicrm crm
+tags:
+    - civicrm
+    - crm
 ---
 
 At the time of writing this website isn't quite finished and maybe you can't quite tell that I love <a href="https://www.civicrm.org" target="_blank">civicrm</a>. I won't go into too much detail of why and what it is now, best you do a bit of searching and find that out for yourself.

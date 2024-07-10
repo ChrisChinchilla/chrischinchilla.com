@@ -2,12 +2,14 @@
 title: What is Continuous Integration?
 publishDate: 2018-11-08T13:59:23.016Z
 image: "../../../assets/images/articles/what-is-continuous-integration.png"
-categories: writing exoscale
+categories:
+ - writing exoscale
 author: Chris Ward
 tags:
   - devops
   - tutorial
-  - ci/cd
+  - ci
+  - cd
   - continuous integration
   - software development
   - deployment

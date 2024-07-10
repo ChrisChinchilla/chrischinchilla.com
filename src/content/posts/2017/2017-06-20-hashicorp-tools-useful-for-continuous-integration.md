@@ -2,7 +2,9 @@
 title: "HashiCorp Tools Useful for Continuous Integration"
 publishDate: 2017-06-20 15:15:11 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/hashicorp-tools-useful-in-ci/"

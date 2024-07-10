@@ -54,7 +54,7 @@ const CONFIG = {
     },
 
     tag: {
-      pathname: 'tag', // set empty to change from /tag/some-tag to /some-tag
+      pathname: 'blog/tag', // set empty to change from /tag/some-tag to /some-tag
       noindex: true,
       disabled: false,
     },

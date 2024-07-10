@@ -2,7 +2,9 @@
 title: "An Interview With CircleCI CTO Rob Zuber [Audio]"
 publishDate: 2017-12-13 06:02:28 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - circleci
   - testing

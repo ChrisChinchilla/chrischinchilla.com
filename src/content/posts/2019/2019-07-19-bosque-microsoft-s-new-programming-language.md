@@ -2,7 +2,9 @@
 title: "Bosque- Microsoft’s New Programming Language"
 publishDate: 2019-07-19 13:04:50 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - programming languages
   - functional programming

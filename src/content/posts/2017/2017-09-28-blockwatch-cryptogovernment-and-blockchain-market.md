@@ -2,7 +2,9 @@
 title: "Blockwatch- Cryptogovernment and Blockchain Marketing"
 publishDate: 2017-09-28 05:01:56 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - blockchain
   - cryptocurrency

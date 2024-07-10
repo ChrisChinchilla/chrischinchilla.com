@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/macoclock/configure-and-switch-macos-displays-with-displayplacer-650c62c0f1bf"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - version control
 image: "../../../assets/images/articles/1*897NdFvO-AMJ1NfpzlkrBA.webp"

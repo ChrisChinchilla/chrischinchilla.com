@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/geekculture/tales-of-an-attempted-switch-from-google-workspace-fbf53fde177e"
 categories:
   - writing
-tags: 
+tags:
   - Google
   - Productivity
 image: "../../../assets/images/defaults/blog-chinchilla.jpg"

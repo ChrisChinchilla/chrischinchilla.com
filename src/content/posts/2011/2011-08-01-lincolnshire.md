@@ -5,7 +5,9 @@ images: lincoln.jpg"
 categories:
  - writing
  - chrischinchilla
-tags: travel uk
+tags:
+ - travel
+ - uk
 ---
 
 It's amazing what you can find in the country with a little digging...

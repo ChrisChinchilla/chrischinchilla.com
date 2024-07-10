@@ -2,7 +2,9 @@
 title: "IFAlicious- Europe&#39;s Consumer Tech Fair Trends"
 publishDate: 2018-09-15 14:14:19 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - ifa
   - iot

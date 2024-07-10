@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://www.scoringnotes.com/opinion/a-newcomers-quest-scoring-apps-for-drum-notation-on-a-budget/"
 categories:
   - writing
-tags: 
+tags:
   - music
   - notation
 image: "../../../assets/images/articles/newzik.png"

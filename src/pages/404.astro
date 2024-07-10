@@ -2,10 +2,17 @@
 import Layout from '~/layouts/BaseLayout.astro';
 import { getHomePermalink } from '~/utils/permalinks';
 
-const title = `Error 404`;
+const meta = {
+  title: '404',
+  description: 'Oops',
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
 ---
 
-<Layout meta={{ title }}>
+<Layout {meta}>
   <section class="flex items-center h-full p-16">
     <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
       <div class="max-w-md text-center">

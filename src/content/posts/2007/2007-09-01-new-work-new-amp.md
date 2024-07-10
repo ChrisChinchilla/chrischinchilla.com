@@ -4,7 +4,9 @@ publishDate: '2007-09-01T18:13:01+00:00'
 categories:
  - writing
  - chrischinchilla
-tags: music work
+tags:
+    - music
+    - work
 ---
 
 The gaps between my personal posts gets longer and longer, I'm going to try and take more time to do a few more things that I want to do over the coming weeks and months, been spending far too much time doing things for work or to achieve something, and not enough frivolous fun, so here's a blog post about not a lot in particular...

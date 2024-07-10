@@ -16,7 +16,7 @@ const posts = defineCollection({
 
     // excerpt: z.string().optional(),
     // category: z.string().optional(),
-    // tags: z.array(z.string()).optional(),
+    tags:z.array(z.string()).optional(),
     // author: z.string().optional(),
   }),
 });
@@ -64,7 +64,7 @@ const clients = defineCollection({
 
     // excerpt: z.string().optional(),
     // category: z.string().optional(),
-    // tags: z.array(z.string()).optional(),
+    // tags:z.array(z.string()).optional(),
     // author: z.string().optional(),
   }),
 });
@@ -105,7 +105,8 @@ const podcasts = defineCollection({
     audio_preview_url: z.string().optional(),
     player_embed: z.string().optional(),
     descript_embed: z.string().optional(),
-    transcript: z.string().optional()
+    transcript: z.string().optional(),
+    category: z.string().optional().default('Chinchilla Squeaks')
   }),
 });
 

@@ -2,7 +2,9 @@
 title: "Mobile World Congress 2018 - Consolidation and Collaboration"
 publishDate: 2018-03-06 15:02:14 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - mobile world congress
   - mwc

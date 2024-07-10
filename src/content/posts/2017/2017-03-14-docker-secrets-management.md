@@ -2,7 +2,9 @@
 title: "Docker Secrets Management"
 publishDate: 2017-03-14 15:15:03 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/docker-secrets-management/"

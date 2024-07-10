@@ -4,7 +4,10 @@ publishDate: '2007-10-12T16:27:13+00:00'
 categories:
  - writing
  - chrischinchilla
-tags: students australia politics
+tags:
+    - students
+    - australia
+    - politics
 ---
 
 Firstly I wanted to share with you a recent experience of editing...

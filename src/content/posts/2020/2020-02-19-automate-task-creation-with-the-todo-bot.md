@@ -2,8 +2,10 @@
 title: "Automate Task Creation With the TODO Bot"
 publishDate: 2020-02-19
 author: "Chris Ward"
-categories: writing dzone
-tags: 
+categories:
+ - writing
+ - dzone
+tags:
   - development
   - task automation
   - project management

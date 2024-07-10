@@ -6,7 +6,7 @@ category: Chris
 tags:
 - Linux
 - camera
-- C++
+- "C++"
 layout: "../../layouts/Client.astro"
 company_url: 'http://libcamera.org/index.html'
 start_date: 20-05-15

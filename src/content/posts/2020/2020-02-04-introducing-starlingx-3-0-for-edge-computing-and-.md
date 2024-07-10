@@ -2,8 +2,10 @@
 title: "Introducing StarlingX 3.0 For Edge Computing and IoT"
 publishDate: 2020-02-04
 author: "Chris Ward"
-categories: writing dzone
-tags: 
+categories:
+ - writing
+ - dzone
+tags:
   - openstack
   - starling
   - containers

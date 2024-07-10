@@ -2,7 +2,9 @@
 title: "Yow! Conferences, for Australian Developers by Developers"
 publishDate: 2017-12-06 10:02:00 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - conference
   - australia

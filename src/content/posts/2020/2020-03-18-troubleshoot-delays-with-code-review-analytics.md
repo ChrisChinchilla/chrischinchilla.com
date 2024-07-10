@@ -2,8 +2,9 @@
 title: "Troubleshoot delays with our Code Review Analytics tool"
 publishDate: 2020-03-18
 author: "Chris Ward"
-categories: writing gitlab
-tags: 
+categories:
+ - writing gitlab
+tags:
   - code review
   - gitlab
   - devops

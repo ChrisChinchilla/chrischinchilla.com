@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://javascript.plainenglish.io/is-the-future-of-documentation-dynamic-ba88fed7a74d"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - version control
 image: "../../../assets/images/articles/1*D_dgOpg2pSWZrXk39_aqIg.webp"

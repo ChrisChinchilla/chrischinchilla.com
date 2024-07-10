@@ -2,7 +2,9 @@
 title: "Docker for Windows, Linux, and Mac"
 publishDate: 2017-04-18 15:15:59 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/docker-for-windows-linux-and-mac/"

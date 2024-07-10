@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://chrischinchilla.medium.com/my-tech-writing-setup-75bcbcb9cf19"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - version control
 image: "../../../assets/images/articles/1*ujmfgf5E8f14RBpJ8k7DsQ.webp"

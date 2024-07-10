@@ -1,9 +1,13 @@
 ---
 title: From the UK Games Expo to Essen
 publishDate: 2016-09-16T00:00:00.000Z
-categories: projects chipshop
+categories:
+ - projects
+ - chipshop
 image: "../../../assets/images/articles/ukge_playtest.jpg"
-tags: games playtesting
+tags:
+ - games
+ - playtesting
 ---
 
 It's been a while since my last update pertaining to the Chip Shop board game. After realising that board games isn't that lucrative of a business, it slipped down my priority list somewhat. I also had a lot of feedback from the UK Games Expo (thanks to Carrie and Tyler for running the booth for me) to process and that took time...

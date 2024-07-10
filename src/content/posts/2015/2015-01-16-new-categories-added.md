@@ -2,7 +2,8 @@
 
 title: New Categories added
 publishDate: 2015-01-16T07:57:12.000Z
-categories: writing leantraveller
+categories:
+ - writing leantraveller
 ---
 
 I added a set of new categories and related resources to the Lean Traveller site yesterday including [Communication](https://theleantraveller.com/communication), [travel](https://theleantraveller.com/travel) and some resources under [archiving](https://theleantraveller.com/archiving).

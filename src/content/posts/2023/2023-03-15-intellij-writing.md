@@ -4,7 +4,7 @@ publishDate: 2023-03-15
 author: "Chris Ward"
 categories:
   - writing
-tags: 
+tags:
   - jetbrains
   - IDE
   - Grammar checking

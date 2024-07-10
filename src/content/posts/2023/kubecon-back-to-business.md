@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://chrischinchilla.medium.com/kubecon-back-to-business-722007516c02"
 categories:
   - writing
-tags: 
+tags:
   - macos
   - version control
 image: "../../../assets/images/articles/1*iicL_Tu_p9Uh4UdBR9pjYA.webp"

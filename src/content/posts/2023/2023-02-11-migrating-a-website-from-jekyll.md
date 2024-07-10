@@ -5,7 +5,7 @@ author: "Chris Ward"
 publication_url: "https://medium.com/geekculture/migrating-a-website-from-jekyll-to-54f0bea3de7a"
 categories:
   - writing
-tags: 
+tags:
   - jekyll
   - websites
   - web development

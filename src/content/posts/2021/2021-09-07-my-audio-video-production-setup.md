@@ -4,7 +4,7 @@ publishDate: 2021-09-07
 categories:
  - writing
  - chrischinchilla
-tags: 
+tags:
   - video
   - audio
   - podcast

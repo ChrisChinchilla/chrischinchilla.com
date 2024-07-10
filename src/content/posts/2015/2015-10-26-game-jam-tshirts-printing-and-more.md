@@ -1,7 +1,9 @@
 ---
 title: 'WikiMedia Game Jam, T-Shirts, Printing Experiments and so much more'
 publishDate: '2015-10-26'
-categories: projects chipshop
+categories:
+ - projects
+ - chipshop
 image: "../../../assets/images/articles/cs_tshirt.jpg"
 ---
 

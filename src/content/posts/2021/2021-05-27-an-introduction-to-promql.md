@@ -2,8 +2,9 @@
 title: An Introduction to PromQL
 publishDate: 2021-05-27
 author: "Chris Ward"
-categories: writing chronosphere
-tags: 
+categories:
+ - writing chronosphere
+tags:
   - observability
   - prometheus
   - promql

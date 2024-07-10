@@ -1,0 +1,99 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import Headline from '~/components/blog/Headline.astro';
+import { PODCAST } from '~/config.mjs';
+import Podcast from '~/components/Podcast.astro';
+import { XMLParser } from 'fast-xml-parser';
+import { Pagination } from 'accessible-astro-components';
+import Content from '~/components/widgets/Content.astro';
+import showImage from '../../../assets/images/chinch-head.png';
+
+// TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
+
+export async function getStaticPaths({ paginate }) {
+  const options = {
+    ignoreAttributes: false,
+    attributeNamePrefix: 'att_',
+    removeNSPrefix: true,
+  };
+  //TODO: As the content list is fed from the feed it renders using Astro content collections moot. Is there a better way?
+  const parser = new XMLParser(options);
+  const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
+  let rssFeedData = await feedTest.text();
+  let parsedFeed = await parser.parse(rssFeedData);
+  const allEpisodes = parsedFeed.rss.channel.item;
+
+  return paginate(allEpisodes, {
+    pageSize: PODCAST.postsPerPage,
+  });
+}
+
+const { page } = Astro.props;
+const meta = {
+  title: 'Chinchilla Squeaks',
+  description:
+    'My pre-eminent podcast, Chinchilla Squeaks, has run for nearly eight years and taken me all over the globe. It runs every other week as an interview with a tech or creative luminary and every other week featuring interesting links and news.',
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
+---
+
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+    <Headline>
+      {meta.title}
+    </Headline>
+    <Content
+      isReversed
+      content={meta.description}
+      items={[
+      {
+        link: 'https://open.spotify.com/show/4esINQS7W6emShb6fwt5Vr',
+          icon: 'simple-line-icons:social-spotify'
+      },
+      {
+        link: 'https://podcasts.apple.com/us/podcast/chinchilla-squeaks/id1071207052',
+          icon: 'simple-icons:applepodcasts'
+      },
+      {
+        link: 'https://podcasters.amazon.com/podcasts/0b519ff4-1afe-4b46-8873-f38b51405f89',
+          icon: 'simple-icons:amazonmusic'
+      },
+      {
+        link: 'https://pca.st/nNqR',
+          icon: 'simple-icons:pocketcasts'
+      },
+    ]}
+    image={{
+      src: showImage,
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+    <ul>
+      {
+        page.data.map((episode) => (
+          <>
+            <li class="mb-12 md:mb-20">
+              <Podcast podcast={episode} />
+            </li>
+          </>
+        ))
+      }
+    </ul>
+
+    <Pagination
+      firstPage={page.url.prev ? '/podcast' : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next ? `/podcast/${Math.round(page.total / page.size)}` : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    />
+  </section>
+</Layout>

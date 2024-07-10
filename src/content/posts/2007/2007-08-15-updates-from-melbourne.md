@@ -4,7 +4,9 @@ publishDate: '2007-08-15T20:52:26+00:00'
 categories:
  - writing
  - chrischinchilla
-tags: music melbourne
+tags:
+    - music
+    - melbourne
 ---
 
 It's been a while, I've moved countries, got a new band together, got my feet under the table and now it's time to tell everyone what's been going on.

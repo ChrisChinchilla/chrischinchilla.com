@@ -2,8 +2,9 @@
 title: Why Zalando built their Internal Developer Platform‍
 publishDate: 2020-10-12
 author: "Chris Ward"
-categories: writing humanitec
-tags: 
+categories:
+ - writing humanitec
+tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/why-zalando-builds-an-own-developer-platform

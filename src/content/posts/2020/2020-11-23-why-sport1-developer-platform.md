@@ -2,8 +2,9 @@
 title: Why Sport1 built their Internal Developer Platform
 publishDate: 2020-11-23
 author: "Chris Ward"
-categories: writing humanitec
-tags: 
+categories:
+ - writing humanitec
+tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/why-sport1-built-their-internal-developer-platform

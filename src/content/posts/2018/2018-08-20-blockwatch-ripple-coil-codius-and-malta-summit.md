@@ -2,7 +2,9 @@
 title: "Blockwatch- Ripple, Coil, Codius, and Malta Summit"
 publishDate: 2018-08-20 09:03:02 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - blockchain
   - malta

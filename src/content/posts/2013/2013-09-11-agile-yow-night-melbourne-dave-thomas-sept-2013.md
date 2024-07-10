@@ -4,7 +4,8 @@ publishDate: 2013-09-11T11:11:16.000Z
 categories:
  - writing
  - chrischinchilla
-tags: events
+tags:
+ - events
 ---
 
 There seem to be more events not running free catering, is this due to a lack of sponsors or a change to methodology? A thought to ponder on…

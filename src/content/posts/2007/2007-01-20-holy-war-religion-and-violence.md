@@ -4,7 +4,7 @@ publishDate: '2007-01-20T10:34:23+00:00'
 categories:
  - writing
  - chrischinchilla
-tags: 
+tags:
  - opinion 
  - history
 ---

@@ -33,7 +33,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   const { Content } = await post.render();
 
   const {
-    tags: rawTags = [],
+    tags:rawTags = [],
     category: rawCategory,
     author = 'Anonymous',
     publishDate: rawPublishDate = new Date(),
@@ -51,7 +51,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 
     publishDate: publishDate,
     category: category,
-    tags: tags,
+    tags:tags,
     author: author,
 
     ...rest,

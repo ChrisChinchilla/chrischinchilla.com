@@ -2,8 +2,10 @@
 title: "What to Expect in Open-Source Software in the Next 6-12 Months?"
 publishDate: 2019-12-30
 author: "Chris Ward"
-categories: writing dzone
-tags: 
+categories:
+ - writing
+ - dzone
+tags:
   - open source
   - docker
   - containers

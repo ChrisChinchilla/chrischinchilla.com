@@ -1,7 +1,9 @@
 ---
 title: 'Running out of Resources, Defining the Factory and Accessories'
 publishDate: 2015-04-12T08:46:19.000Z
-categories: projects chipshop
+categories:
+ - projects
+ - chipshop
 ---
 
 This week I have added rules to the '[Playing the Game](/manual/playing-game)' section of the manual to cover the following:

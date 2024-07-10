@@ -1,7 +1,7 @@
 ---
 title: The Melbourne Athiest Society
 publishDate: '2007-03-14T20:25:42+00:00'
-tags: 
+tags:
  - religion 
  - atheism 
  - melbourne

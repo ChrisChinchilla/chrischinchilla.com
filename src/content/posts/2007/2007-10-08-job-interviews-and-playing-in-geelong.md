@@ -4,7 +4,9 @@ publishDate: '2007-10-08T22:27:39+00:00'
 categories:
  - writing
  - chrischinchilla
-tags: music work
+tags:
+    - music
+    - work
 ---
 
 This week was another week where various elements kept pointing me towards a certain way of thinking, again, I'll just go through the week and ramble a bit...

@@ -1,7 +1,9 @@
 ---
 title: "Look who's Toxic, The Amazing Phillips's Sisters / Tucker B's, Spod - The Northcote Social Club"
 publishDate: 2008-12-30T00:00:00.000Z
-tags: reviews music
+tags:
+    - reviews
+    - music
 categories:
  - writing
  - chrischinchilla

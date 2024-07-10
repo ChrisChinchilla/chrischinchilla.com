@@ -5,7 +5,9 @@ image: "../../../assets/images/articles/kentshirt.jpg"
 categories:
  - writing
  - chrischinchilla
-tags: merchandise conferences
+tags:
+ - merchandise
+ - conferences
 ---
 
 Pretty cool logo :)

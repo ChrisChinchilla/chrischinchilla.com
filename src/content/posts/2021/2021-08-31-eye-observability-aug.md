@@ -2,8 +2,9 @@
 title: An eye on observability for August 2021
 publishDate: 2021-08-31
 author: "Chris Ward"
-categories: writing chronosphere
-tags: 
+categories:
+ - writing chronosphere
+tags:
   - observability
   - prometheus
   - promql

@@ -1,6 +1,5 @@
 ---
-import PodcastLayout from '../../layouts/PodcastLayout.astro';
-import Podcast from '../../components/Podcast.astro';
+import PodcastLayout from '~/layouts/PodcastLayout.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { getEntry } from 'astro:content';
 
@@ -28,32 +27,54 @@ export function slugify(str) {
   return str;
 }
 
-export async function getStaticPaths() {
+// TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
+export function returnFeed(feedURL) {
   const options = {
     ignoreAttributes: false,
-    stopNodes: ['root.itunes:title'],
     attributeNamePrefix: 'att_',
     removeNSPrefix: true,
   };
   const parser = new XMLParser(options);
-  const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
-  let rssFeedData = await feedTest.text();
-  let parsedFeed = await parser.parse(rssFeedData);
-  const allEpisodes = parsedFeed.rss.channel.item;
+
+  return new Promise((resolve, reject) => {
+    fetch(feedURL).then(async (feed) => {
+      await feed.text().then(async (rssFeedData) => {
+        let parsedFeed = await parser.parse(rssFeedData);
+        resolve(parsedFeed);
+      });
+    });
+  });
+}
+
+export async function getStaticPaths() {
+  const wwwPod = await returnFeed('https://anchor.fm/s/ef311c90/podcast/rss');
+  const csPod = await returnFeed('https://feeds.simplecast.com/whlwDbyc');
+
+  let allEpisodes = wwwPod.rss.channel.item.concat(csPod.rss.channel.item);
+  allEpisodes = allEpisodes.sort((a, b) => new Date(b.pubDate).valueOf() - new Date(a.pubDate).valueOf());
 
   return await Promise.all(
     allEpisodes.map(async (episode) => {
-      const additionalData = await getEntry('podcasts', slugify(episode.title[0]));
+      // TODO: For some reason CS podcast has duplicate titles?
+      let episodeTitle = '';
+      if (episode.title.length === 2) {
+        episodeTitle = episode.title[0];
+      } else {
+        episodeTitle = episode.title;
+      }
       // TODO: Is this the optimal way?
+      const additionalData = await getEntry('podcasts', slugify(episodeTitle));
+
       if (additionalData) {
         let episodeData = additionalData.data;
+
         return {
-          params: { slug: slugify(episode.title[0]) },
+          params: { slug: slugify(episodeTitle) },
           props: { episode, episodeData },
         };
       } else {
         return {
-          params: { slug: slugify(episode.title[0]) },
+          params: { slug: slugify(episodeTitle) },
           props: { episode },
         };
       }

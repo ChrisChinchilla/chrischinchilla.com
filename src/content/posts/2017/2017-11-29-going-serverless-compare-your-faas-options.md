@@ -2,7 +2,9 @@
 title: "Going Serverless? Compare Your FaaS Options"
 publishDate: 2017-11-29 16:15:34 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Industry
 publication_url: "https://blog.codeship.com/going-serverless-compare-your-faas-options/"

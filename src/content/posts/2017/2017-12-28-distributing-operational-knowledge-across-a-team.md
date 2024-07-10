@@ -2,7 +2,9 @@
 title: "Distributing Operational Knowledge Across a Team"
 publishDate: 2017-12-28 16:15:58 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Industry
 publication_url: "https://blog.codeship.com/distributing-operational-knowledge-across-a-team/"

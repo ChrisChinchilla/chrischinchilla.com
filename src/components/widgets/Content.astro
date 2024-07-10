@@ -1,10 +1,10 @@
 ---
-import Icon from 'astro-icon/components';
+import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
 
 // TODO: Is this used or can it be upgraded?
 interface Item {
-  title: string;
+  link: string;
   description?: string;
   icon?: string;
 }
@@ -21,9 +21,6 @@ export interface Props {
 }
 
 const {
-  title = await Astro.slots.render('title'),
-  subtitle = await Astro.slots.render('subtitle'),
-  highlight,
   content = await Astro.slots.render('content'),
   items = [],
   image = await Astro.slots.render('image'),
@@ -32,31 +29,7 @@ const {
 } = Astro.props;
 ---
 
-<section class={`bg-primary-50 dark:bg-slate-800 py-16 md:py-20 ${isAfterContent ? 'pt-0 md:pt-0' : ''}`}>
-  <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
-    {
-      (title || subtitle || highlight) && (
-        <div class="mb-10 md:mx-auto text-center md:mb-12 max-w-3xl">
-          {highlight && (
-            <p
-              class="text-base text-primary-800 dark:text-primary-200 font-semibold tracking-wide uppercase"
-              set:html={highlight}
-            />
-          )}
-          {title && (
-            <h2
-              class="text-4xl md:text-5xl leading-tighter tracking-tighter mb-4 font-subheading font-semibold"
-              set:html={title}
-            />
-          )}
-
-          {subtitle && (
-            <p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400" set:html={subtitle} />
-          )}
-        </div>
-      )
-    }
-  </div>
+<section class={`bg-primary-50 dark:bg-slate-800 py-8 md:py-10 md:mb-10 ${isAfterContent ? 'pt-0 md:pt-0' : ''}`}>
   <div class="mx-auto max-w-6xl p-4 md:px-8">
     <div class={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
       <div class="md:basis-1/2 self-center">
@@ -65,16 +38,14 @@ const {
         {
           items && (
             <div class="space-y-8">
-              {items.map(({ title: title2, description, icon }) => (
-                <div class="flex">
+              {items.map(({ link, icon }) => (
+                <div class="inline-flex items-start p-2.5">
                   <div class="flex-shrink-0">
-                    <div class="flex h-7 w-7 items-center justify-center rounded-full bg-blue-800 text-gray-50">
-                      <Icon name={icon ? icon : 'tabler:check'} class="w-5 h-5" />
+                    <div class="flex items-center justify-center text-gray-50">
+                      <a href={link} target="_blank">
+                      <Icon name={icon ? icon : 'tabler:check'} class="w-12 h-auto" style="color: black" />
+                    </a>
                     </div>
-                  </div>
-                  <div class="ml-4">
-                    {title2 && <h3 class="text-lg font-medium leading-6 text-gray-900 dark:text-white">{title2}</h3>}
-                    {description && <p class="mt-2 text-gray-600 dark:text-slate-400" set:html={description} />}
                   </div>
                 </div>
               ))}

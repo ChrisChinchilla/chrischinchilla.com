@@ -3,7 +3,9 @@ title: The Next Full Stack Language? Server-side Swift with Perfect
 publishDate: 2016-01-05T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/server-side-swift-with-perfect/'
 image: "../../../assets/images/articles/image-the-next-full-stack-language.jpeg"
-categories: writing sitepoint
+categories:
+ - writing
+ - sitepoint
 ---
 
 I will keep re-iterating (for the next 6 months at least) that whilst Swift is not the first language from a commercial company to be open-sourced, the enthusiasm and outcomes so far have been astounding.

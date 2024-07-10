@@ -2,8 +2,9 @@
 title: Reporting back from Container Days Hamburg
 publishDate: 2021-09-22
 author: "Chris Ward"
-categories: writing chronosphere
-tags: 
+categories:
+ - writing chronosphere
+tags:
   - conference
   - open source
   - containers

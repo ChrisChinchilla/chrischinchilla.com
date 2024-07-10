@@ -4,7 +4,8 @@ publishDate: 2011-08-15T00:00:00.000Z
 categories:
  - writing
  - chrischinchilla
-tags: greatidea
+tags:
+ - greatidea
 image: "../../../assets/images/articles/IMG_0599.jpg"
 ---
 

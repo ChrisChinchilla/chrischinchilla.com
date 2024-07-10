@@ -2,8 +2,9 @@
 title: "Language and understandable writing"
 publishDate: 2019-11-18 15:51:39 UTC
 author: "Chris Ward"
-categories: writing kauri
-tags: 
+categories:
+ - writing kauri
+tags:
   - grammar
   - languages
   - documentation

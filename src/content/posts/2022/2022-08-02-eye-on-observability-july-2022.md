@@ -2,8 +2,9 @@
 title: An eye on observability for July 2022
 publishDate: 2022-08-02
 author: "Chris Ward"
-categories: writing chronosphere
-tags: 
+categories:
+ - writing chronosphere
+tags:
   - observability
   - prometheus
   - promql

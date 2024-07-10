@@ -2,8 +2,9 @@
 title: Migrating applications and data to a new Mac without using Time Machine 
 publishDate: 2021-12-12
 author: "Chris Ward"
-categories: writing
-tags: 
+categories:
+ - writing
+tags:
   - macos
   - backup
   - homebrew

@@ -2,7 +2,9 @@
 title: "What is Artificial Intelligence?"
 publishDate: 2018-07-19 15:15:23 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Industry
 publication_url: "https://blog.codeship.com/what-is-artificial-intelligence/"

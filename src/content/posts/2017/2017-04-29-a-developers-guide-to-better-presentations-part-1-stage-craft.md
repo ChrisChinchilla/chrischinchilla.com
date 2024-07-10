@@ -2,7 +2,9 @@
 title: A Developers Guide to Better Presentations — Part 1, Stage Craft
 publishDate: '2017-04-29 10:13:30 +0100'
 image: "../../../assets/images/articles/111978-109778.jpg"
-categories: writing hackernoon
+categories:
+ - writing
+ - hackernoon
 tags:
   - public speaking
   - presentations

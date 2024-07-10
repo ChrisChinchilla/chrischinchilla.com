@@ -2,7 +2,9 @@
 title: "An Introduction to Docker for Mac"
 publishDate: 2016-07-21 15:15:44 UTC
 author: "Chris Ward"
-categories: writing codeship
+categories:
+ - writing
+ - codeship
 tags:
   - Development
 publication_url: "https://blog.codeship.com/docker-for-mac/"

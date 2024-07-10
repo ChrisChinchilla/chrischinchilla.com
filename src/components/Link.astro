@@ -3,33 +3,25 @@ import { Image } from 'astro:assets';
 // import { findImage } from '~/utils/images';
 export interface Props {
   title: string;
-  description: string;
   link: string;
+  excerpt: string;
   image: string;
+  domain: string;
+  note: string;
 }
-const { title, description, link, image } = Astro.props;
+const { title, link, excerpt, image, domain, note } = Astro.props;
 
 // Default images
-var src = "";
+var src = '';
 if (image != null) {
   src = image;
 } else {
-  src = "/images/default.png";
+  src = '/images/default.png';
 }
-
-// TODO: add source
-// Default source
-// var sourceText = "";
-// if (source != null) {
-//   sourceText = source;
-// } else {
-//   sourceText = "No source defined";
-// }
 ---
 
-<!-- <a href={link} class="cleanlink"> -->
-  <div>
-    <!-- <Picture
+<div>
+  <!-- <Picture
       src={src}
       widths={[250, 400]}
       sizes="(max-width: 400px) 75vw, 200px"
@@ -37,11 +29,11 @@ if (image != null) {
       aspectRatio="4:3"
       fit="inside"
     /> -->
-<img src={src} />
-<a href={link} class="cleanlink"><h3>
-        {title}
-        <span>&rarr;</span>
-      </h3></a>
-      <p set:html={description} />
-  </div>
-<!-- </a> -->
+  <img src={src} />
+  <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading dark:text-slate-300">
+    {title}
+  </h2>
+  <i class="my-2 block"><a href={link} class="cleanlink">{domain}</a></i>
+  <p class="my-2" set:html={note} />
+  <p class="my-2" set:html={excerpt} />
+</div>

@@ -2,7 +2,8 @@
 title: "Tutorial: Using the Messenger Webview to create richer bot-to-user interactions"
 publishDate: 2018-03-16
 author: "Chris Ward"
-categories: writing
+categories:
+ - writing
 tags:
   - tutorial
   - messenger

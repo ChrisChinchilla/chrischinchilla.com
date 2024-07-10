@@ -2,8 +2,9 @@
 title: "How to get started with Parent-child pipelines"
 publishDate: 2020-04-24
 author: "Chris Ward"
-categories: writing gitlab
-tags: 
+categories:
+ - writing gitlab
+tags:
   - CI
   - gitlab
   - devops

@@ -2,7 +2,9 @@
 title: "IFA Berlin 2017- Full of Smarts"
 publishDate: 2017-09-15 16:01:01 UTC
 author: "Chris Ward"
-categories: writing dzone
+categories:
+ - writing
+ - dzone
 tags:
   - robots
   - voice assistants
