@@ -12,9 +12,9 @@ tags:
 image: '../../../assets/images/articles/ws-ws.jpg'
 ---
 
-import { YouTube } from "@astro-community/astro-embed-youtube";
+import { YouTube } from '@astro-community/astro-embed-youtube';
 
-[JetBrains](https://www.jetbrains.com) is known for its variety of developer-focused IDEs, all based around its IntelliJ core. In recent years, they developed their own writer-focussed plugin, [Grazie](https://www.jetbrains.com/grazie/), for handling grammar and style guidance, [Writerside](https://www.jetbrains.com/writerside/) for a wide variety of tech writing tasks, and more recently, AI assistant for writers. The company has also helped with community-maintained plugins such as those for [markdown](https://www.jetbrains.com/help/idea/markdown.html) and [asciidoc](https://plugins.jetbrains.com/plugin/7391-asciidoc). But then, a year or so ago, JetBrains announced that Writerside would become a fully-fledged tech writing IDE. I've been using it on and off for some time, and in this post, I take a look at some of its features, recent updates, and related plugins.
+[JetBrains](https://www.jetbrains.com) is known for its variety of developer-focused IDEs, all based around its IntelliJ core. In recent years, they developed their own writer-focussed plugin, [Grazie](https://www.jetbrains.com/grazie/), for handling grammar and style guidance, [Writerside](https://www.jetbrains.com/writerside/) for a wide variety of tech writing tasks, and more recently, an AI assistant for writers. The company has also helped with community-maintained plugins such as those for [markdown](https://www.jetbrains.com/help/idea/markdown.html) and [asciidoc](https://plugins.jetbrains.com/plugin/7391-asciidoc). But then, a year or so ago, JetBrains announced that Writerside would become a fully-fledged tech writing IDE. I've been using it on and off for some time, and in this post, I take a look at some of its features, recent updates, and related plugins.
 
 <YouTube id="YTWe7Nf4sfE" />
 <YouTube id="5gh1TqMsYKE" />
@@ -41,7 +41,7 @@ That said, like every other writing tool and toolchain, it outputs to HTML, PDF,
 
 Much like many other tools aimed at tech writers, Writerside packs a lot of custom markup syntax suited for tech writing needs. While the way you use syntax varies when you use markdown or XML, the functionality and output are the same. And being a fully-fledged ID, all the markup has autocomplete and snippets available.
 
-In some cases, Writerside also lets you choose between generic markup, such as "bold text," or semantic markup, such as "a UI control." This is not the place to discuss the merits of semantic markup, but those of you who know what it is and why you should use it will find this useful.
+In some cases, Writerside also lets you choose between generic markup, such as "bold text," or semantic markup, such as "a UI control." This is not the place to discuss the merits of semantic markup, but those of you who know what it's and why you should use it will find this useful.
 
 I won't discuss every option available, but you've probably seen much of it before in other tools, such as tabs and admonitions. Instead, I'll feature some of the more interesting ones.
 
@@ -138,7 +138,7 @@ Finally, no technical writing tool is complete without a way to present "admonit
 
 For Markdown, you use quote syntax with the type added as a property if it's not a tip. I am not sure how you show a quote:
 
-```
+```markdown
 > Use a note for important information that the reader should be aware of,
 > like known issues or limitations.
 {style="note"}
@@ -148,7 +148,7 @@ For Markdown, you use quote syntax with the type added as a property if it's not
 
 Support for what I like to call "diagrams as code" is more widespread in documentation tools, and their markup languages are more common than they used to be. If the views of my video on Mermaid are anything to go by, it's a popular topic.
 
-Writerside supports [Mermaid](https://www.jetbrains.com/help/writerside/mermaid-diagrams.html) and [PlantUML](https://www.jetbrains.com/help/writerside/plantuml-diagrams.html) by default and [D2](https://www.jetbrains.com/help/writerside/d2-diagrams.html) if you install it as a dependency. In every case you add the diagram syntax in a code block. For XML that's the following:
+Writerside supports [Mermaid](https://www.jetbrains.com/help/writerside/mermaid-diagrams.html) and [PlantUML](https://www.jetbrains.com/help/writerside/plantuml-diagrams.html) by default and [D2](https://www.jetbrains.com/help/writerside/d2-diagrams.html) if you install it as a dependency. In every case, you add the diagram syntax in a code block. For XML that's the following:
 
 ```xml
 <code-block lang="mermaid">
@@ -161,11 +161,13 @@ Writerside supports [Mermaid](https://www.jetbrains.com/help/writerside/mermaid-
 
 And for Markdown:
 
+```markdown
 ```mermaid
 graph LR
 	A[Do you write docs?]
 	A -- Yes --> B[Use Writerside]
 	A -- No --> C[Tell us why]
+```
 ```
 
 ## Non-markup features
@@ -191,17 +193,17 @@ To specify a particular endpoint or operation, you first add the overall markup 
 </api-doc>
 ```
 
-You can even populate an endpoint with custom sample data that replaces what might be in the spec and can include additional language output in addition to the default JSON output.
+You can even populate an endpoint with custom sample data that replaces what might be in the spec and can include other language output in addition to the default JSON output.
 
 ### Content reuse
 
-One of the big selling points of topic and XML based documentation tools is "write once" techniques, or "content reuse". Again, numerous Markdown-based tools offer their own form of this, as do technical writing focused markup langhuages such as Asciidoc and RsT. However, tools liek Writerside build this into the core purpose of the product and offer different options and methods for content inclusion and reuse.
+One of the big selling points of topic and XML-based documentation tools is "write once" techniques, or "content reuse". Again, numerous Markdown-based tools offer their own form of this, as do technical writing-focused markup languages such as Asciidoc and RsT. However, tools like Writerside build this into the core purpose of the product and offer different options and methods for content inclusion and reuse.
 
 [You can include parts of other content by adding an ID to an element](https://www.jetbrains.com/help/writerside/reuse-a-content-in-another-topic.html).
 
-With the XML synatx:
+With the XML syntax:
 
-```
+```xml
 <warning id="generic-warning">
 	This version support ended on January 14, 2022. Download the latest version.
 </warning>
@@ -209,7 +211,7 @@ With the XML synatx:
 
 And for Markdown:
 
-```
+```markdown
 > This version support ended on January 14, 2022.
 > Download the latest version.
 >
@@ -218,11 +220,11 @@ And for Markdown:
 
 And then include with the following syntax in either XML or Markdown synatx:
 
-```
+```xml
 <include from="filename.EXT" element-id="generic-warning"/>
 ```
 
-But while the syntax varies from tool to tool, content reuse is fairly common now, but Writerside adds more. [You can override the title](https://www.jetbrains.com/help/writerside/make-titles-differ.html) and other parts of included content items as well as [set variables and use basic logic](https://www.jetbrains.com/help/writerside/variables.html) to selectively show parts of inclded content. For example:
+But while the syntax varies from tool to tool, content reuse is fairly common now, but Writerside adds more. [You can override the title](https://www.jetbrains.com/help/writerside/make-titles-differ.html) and other parts of included content items as well as [set variables and use basic logic](https://www.jetbrains.com/help/writerside/variables.html) to selectively show parts of included content. For example:
 
 ```xml
 <warning instance="!sd">
@@ -272,7 +274,7 @@ The configuration for all of these is spread out across the settings and IDE int
 
 - **Vale inspection**: Uses an unknown version of Vale's Regex-based language linting. You need to set up and configure Vale normally.
 - **[LanguageTool](https://languagetool.org)**: A common language-checking tool that many tools integrate. It has a lot of small rules that you can't customise, but you can toggle.
-  **Grazie** is [JetBrains' own language checking tool] (https://www.jetbrains.com/grazie/). Depending on which version you use, it has AI elements but also acts as an overview of some of the other tools. I won't cover Grazie in great detail here, as there's a lot to it, but I will cover it in a future post very soon.
+  **Grazie** is [JetBrains' own language-checking tool](https://www.jetbrains.com/grazie/). Depending on which version you use, it has AI elements but also acts as an overview of some of the other tools. I won't cover Grazie in great detail here, as there's a lot to it, but I will cover it in a future post very soon.
 - **[JetBrains AI](https://www.jetbrains.com/ai/)**: A new AI tool that does many of the assistive tasks we have now come to expect, and on the text-related front, this is a content generation, summaries, autocompletes, and more. Again, I am going to cover it separately in the same post as Grazie.
 
 The different tools, their overlap, and how to configure them is slightly confusing, but it's nice to have these different types of tools available, integrated, and configurable.
@@ -293,6 +295,6 @@ I have probably covered less than 50% of what Writerside packs into an IDE optim
 
 As always, it depends.
 
-The main negative for me is that to use it, I have to switch an entire toolchain and any existing documentation. This isn't impossible, but it is likely a challenge to convince a company or team, especially as it also means that any other contributor needs to use Writerside. This is especially problematic if you run an open-source project; it means that any contributors also have to install a custom tool to contribute to anything beyond fixing small typos.
+The main negative for me is that to use it, I have to switch an entire toolchain and any existing documentation. This isn't impossible, but it's likely a challenge to convince a company or team, especially as it also means that any other contributor needs to use Writerside. This is especially problematic if you run an open-source project; it means that any contributors also have to install a custom tool to contribute to anything beyond fixing small typos.
 
 But if you or the teams around you are already using JetBrains tools and tooling and/or you have a greenfield project or opportunity to completely overhaul your current workflow with a closed-source tool, then, frankly, it's almost ideal.
