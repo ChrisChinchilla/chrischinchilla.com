@@ -8,8 +8,19 @@ import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/ut
 
 // TODO: Function
 const links = [
-  { text: 'About', href: getPermalink('/about') },
-
+{
+    text: 'About',
+    links: [
+      {
+        text: 'Contact',
+        href: getPermalink('/contact'),
+      },
+      {
+        text: 'Community & volunteering',
+        href: getPermalink('/community'),
+      },
+    ],
+  },
   {
     text: 'Writing',
     links: [

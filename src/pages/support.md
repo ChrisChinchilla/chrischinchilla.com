@@ -2,7 +2,7 @@
 title: 'Support me'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
-
+<!-- TODO: Refactor to a common footer and add sponsored content to enquire page -->
 Here are some ways you can support me. _This page is a work in progress_.
 
 ## General options
@@ -50,13 +50,3 @@ Here are some ways you can support me. _This page is a work in progress_.
 
 
 
-## Sponsored content requests
-
-If you have a product or service you think matches my audience or experience and would like to sponsor content on my YouTube channel, I'd love to hear from you!
-
-I charge **$/€/£ 150 per 5-10 minute video** and aim to complete and publish the video within 30 days of payment. This includes a private preview of your video for approval and up to 3 edits before publishing. If you're interested in commissioning me you have two options.
-
-- Pay instantly and we can arrange a call to discuss your requirements. Your options are:
-  - Request via [Buy Me a Coffee](https://www.buymeacoffee.com/chrischinchilla/commissions).
-  - Request via [Ko-fi](https://ko-fi.com/chrischinchilla/commissions).
-- If you'd rather discuss first and pay in a different way, [arrange a call to discuss your requirements](https://fantastical.app/chrischinchilla/sponsored-content-discussion)

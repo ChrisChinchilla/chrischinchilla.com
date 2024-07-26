@@ -18,22 +18,18 @@ const meta = {
 
 <Layout {meta}>
   <!-- Hero Widget ******************* -->
-<!-- TODO: Parameterise -->
-  <HeroBGImg
-    callToAction={{ text: 'What do I do?', href: '#features2' }}
-  >
   <!-- TODO: Parameterise -->
-    <Fragment slot="title">
-      I am Chris Chinchilla 👋
-    </Fragment>
-  <!-- TODO: Parameterise -->
+  <HeroBGImg callToAction={{ text: 'What do I do?', href: '#features2' }}>
+    <!-- TODO: Parameterise -->
+    <Fragment slot="title"> I am Chris Chinchilla 👋 </Fragment>
+    <!-- TODO: Parameterise -->
     <Fragment slot="subtitle">
-      I tell stories through documentation, blog posts, videos, books and more. I am a podcaster, video maker, writer of interactive fiction, and games.
+      I tell stories through documentation, blog posts, videos, books and more. I am a podcaster, video maker, writer of
+      interactive fiction, and games.
     </Fragment>
-  </Hero>
+  </HeroBGImg>
 
   <!-- Features Widget *************** -->
-
 
   <!-- Content Widget **************** -->
 
@@ -42,58 +38,51 @@ const meta = {
   <!-- Steps Widget ****************** -->
 
   <!-- Features2 Widget ************** -->
-<!-- TODO: refactor to match content types -->
+  <!-- TODO: refactor to match content types -->
   <Features2
     title="More about me"
     subtitle="Here's all I do, well mostly…"
     items={[
       {
         title: 'Writing',
-        description:
-          'Find my blog posts and books or hire me to write and edit something for you!',
+        description: 'Find my blog posts and books or hire me to write and edit something for you!',
         icon: 'ph:pencil-circle-bold',
         // TODO: Generalised writing page
         permalink: '/blog',
       },
       {
         title: 'Podcasts',
-        description:
-          'Hear me on one of the many podcasts I regulary host and appear on.',
+        description: 'Hear me on one of the many podcasts I regulary host and appear on.',
         icon: 'fa:podcast',
         permalink: '/podcast',
       },
       {
         title: 'Videos',
-        description:
-          'Watch all my livestreams, recorded videos, and presentations.',
+        description: 'Watch all my livestreams, recorded videos, and presentations.',
         icon: 'fa:podcast',
         permalink: '/videos',
       },
       {
         title: 'Games',
-        description:
-          'Download, buy, and play games I created or contributed to.',
+        description: 'Download, buy, and play games I created or contributed to.',
         icon: 'fa:podcast',
         permalink: '/games',
       },
       {
         title: 'Events',
-        description:
-          'Meetups and conferences I\'m speaking at, reporting on, or attending.',
+        description: "Meetups and conferences I'm speaking at, reporting on, or attending.",
         icon: 'carbon:calendar-heat-map',
         permalink: '/events',
       },
       {
         title: 'Work',
-        description:
-          'Who I\'ve worked with, the work I\'ve done, and how I can help you.',
+        description: "Who I've worked with, the work I've done, and how I can help you.",
         icon: 'fluent:people-audience-20-filled',
         permalink: '/clients',
       },
       {
         title: 'Support',
-        description:
-          'Like what I do? Support me with a donation, subscription, or buy merchandise.',
+        description: 'Like what I do? Support me with a donation, subscription, or buy merchandise.',
         icon: 'ri:money-euro-circle-fill',
         permalink: '/support',
       },
@@ -104,24 +93,22 @@ const meta = {
 
   <Note />
   <!-- HighlightedPosts Widget ******* -->
-<!-- TODO: Generalise to all content types -->
+  <!-- TODO: Generalise to all content types -->
+  <!-- TODO: UPDATE! -->
+
   <HighlightedPosts
     title="Highlights"
     information={`Current highlights for your enjoyment.`}
     postIds={[
       '2022/2022-02-20-how-setup-raspberry-pi-files-media.md',
       '2022/2022-01-20-reducing-negative-language-documentation.md',
-      '2021/2021-12-12-migrating-mac.md'
+      '2021/2021-12-12-migrating-mac.md',
     ]}
   />
 
   <!-- FAQs Widget ******************* -->
 
-  
-
   <!-- Stats Widget ****************** -->
-
-
 
   <!-- CallToAction Widget *********** -->
 
@@ -132,10 +119,15 @@ const meta = {
       icon: 'tabler:download',
     }}
   >
-
     <Fragment slot="title">
       Join my mailing list
-      <iframe src="https://chinchillasqueaks.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+      <iframe
+        src="https://chinchillasqueaks.substack.com/embed"
+        width="480"
+        height="320"
+        style="border:1px solid #EEE; background:white;"
+        frameborder="0"
+        scrolling="no"></iframe>
     </Fragment>
   </CallToAction>
 </Layout>
