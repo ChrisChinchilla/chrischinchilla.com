@@ -23,6 +23,35 @@ const truncatedBody = truncateMarkdown(game.body, {
   ellipsis: true,
 });
 
+// Format title for ID
+// TODO: Method or better way
+// Slugify a string
+function slugify(str)
+{
+    str = str.replace(/^\s+|\s+$/g, '');
+
+    // Make the string lowercase
+    str = str.toLowerCase();
+
+    // Remove accents, swap ñ for n, etc
+    var from = "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
+    var to   = "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
+    for (var i=0, l=from.length ; i<l ; i++) {
+        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+    }
+
+    // Remove invalid chars
+    str = str.replace(/[^a-z0-9 -]/g, '') 
+    // Collapse whitespace and replace by -
+    .replace(/\s+/g, '-') 
+    // Collapse dashes
+    .replace(/-+/g, '-'); 
+
+    return str;
+}
+
+var idOfTitle = slugify(game.data.title);
+
 // What sort of URL
 var url = 'games/' + game.slug;
 // TODO: Why is slug broken again?
@@ -44,26 +73,33 @@ var url = 'games/' + game.slug;
     <Image
       src={game.data.image}
       alt={game.data.title}
-      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+      class="absolute object-contain h-full w-64 mb-6 rounded drop-shadow-lg"
     />
   </div>
 
   <div class="mt-2">
     <header>
-      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading dark:text-slate-300">
-        {
-          url ? (
-            <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={url}>
-              {game.data.title}
-            </a>
-          ) : (
-            game.data.title
-          )
-        }
+      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading dark:text-slate-300" id={idOfTitle}>
+        {game.data.title}
       </h2>
       <i class="my-2 block">{game.data.role}</i>
     </header>
     <!-- TODO: Seems kind of ridiculous -->
+    <!-- TODO: Deprecated, need an alternative -->
     <Markdown class="m-2" />{truncatedBody}
+    {
+      game.data.store_urls && (
+        
+          <b class="my-2 block">Buy a copy in the following places:</b>
+          <ul class="list-disc list-inside m-2">
+            {game.data.store_urls.map((store_url) => (
+              <li>
+                <a href={store_url.url}>{store_url.label}</a>
+              </li>
+            ))}
+          </ul>
+        
+      )
+    }
   </div>
 </article>

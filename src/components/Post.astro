@@ -39,11 +39,10 @@ const truncatedBody = truncateMarkdown(post.body, {
   ellipsis: true,
 });
 ---
+
 <!-- TODO: Tidy and fix grid -->
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div
-    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
-  >
+  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
     <!-- <Picture
       src={featured_image ? featured_image : '~/assets/images/default.png'}
       class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
@@ -56,10 +55,10 @@ const truncatedBody = truncateMarkdown(post.body, {
       fetchpriority="auto"
     /> -->
     <Image
-    src={post.data.image}
-    alt={post.data.title}
-    class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-  />
+      src={post.data.image}
+      alt={post.data.title}
+      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+    />
   </div>
 
   <div>
@@ -83,16 +82,17 @@ const truncatedBody = truncateMarkdown(post.body, {
     </header>
     <!-- TODO: Seems kind of ridiculous -->
     <div class="post-body body">
-      <Markdown class="m-2" />{truncatedBody}</Markdown>
+      <!-- TODO: Deprecated, need an alternative -->
+      <Markdown class="m-2" />{truncatedBody}
     </div>
-    {
-      post.data.tags && Array.isArray(post.data.tags) ? (
-        <footer class="mt-2">
-          <Tags tags={post.data.tags} />
-        </footer>
-      ) : (
-        <Fragment />
-      )
-    }
   </div>
+  {
+    post.data.tags && Array.isArray(post.data.tags) ? (
+      <footer class="mt-2">
+        <Tags tags={post.data.tags} />
+      </footer>
+    ) : (
+      <Fragment />
+    )
+  }
 </article>

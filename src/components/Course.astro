@@ -78,6 +78,7 @@ var idOfTitle = slugify(course.data.title);
         <i class="my-2 block">{course.data.client}, {formattedDate}</i>
       </header>
       <!-- TODO: Better way -->
+      <!-- TODO: Deprecated, need an alternative -->
       <Markdown class="m-2" />{course.body}
       {
         course.data.store_urls && (

@@ -92,7 +92,7 @@ As a freelance writer and blogger, I have contributed to the blogs and documenta
 
 - **libcamera**: Documentation of an open-source camera stack and framework for Linux, Android, and ChromeOS.
 - **Dev Spotlight**: Technical blog posts for Salesforce, Kong, and others.
-- **RevCom**: Technical blog post editing for high-profile clients.
+- **ReveCom**: Technical blog post editing for high-profile clients.
 - **Sky Word**: Technical whitepaper writing for high-profile clients.
 - **Unity**: Documentation for the MARS AR development plugin.
 - **GitLab**: Technical blog posts.
