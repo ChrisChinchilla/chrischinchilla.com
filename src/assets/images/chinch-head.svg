@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 534.1 557.3">
   <!-- Generator: Adobe Illustrator 28.7.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 136)  -->
+     <style>
+        path {
+            fill: black;
+        }
+        @media (prefers-color-scheme: dark) {
+            path { fill: white; }
+        }
+    </style>
   <g>
     <g id="Vector_layer">
       <path d="M278.2,178.7c-4.4-6.7-10.2-14.1-12.4-21.5,3.3,5.8,11.3,16.6,12.4,21.5Z"/>
