@@ -3,36 +3,65 @@ import { Icon } from 'astro-icon/components';
 import { getHomePermalink, getPermalink, getAsset, getBlogPermalink } from '~/utils/permalinks';
 
 const links = [
+{
+    text: 'About',
+    links: [
+      {
+        text: 'Community & volunteering',
+        href: getPermalink('/community'),
+      },
+    ],
+  },
   {
-    title: 'Writing',
-    items: [
+    text: 'Writing',
+    links: [
+      {
+        text: 'Blog',
+        href: getBlogPermalink(),
+      },
+      {
+        text: 'Books',
+        href: getPermalink('/books'),
+      },
+    ],
+  },
+  {
+    text: 'Work',
+    links: [
     {
-    title: 'Blog',
-    href: getBlogPermalink(),
-  },
+        text: 'Work with me',
+        href: getPermalink('/contact'),
+      },
+      {
+        text: 'CV',
+        href: getPermalink('/cv'),
+      },
+      {
+        text: 'Clients',
+        href: getPermalink('/clients'),
+      },
+      {
+        text: 'Games',
+        href: getPermalink('/games'),
+      },
     ],
   },
   {
-    title: 'Work',
-    items: [
+    text: 'Audio & Video',
+    links: [
     {
-    title: 'Clients',
-    href: getPermalink('/clients'),
-  },
-  {
-    title: 'Games',
-    href: getPermalink('/games'),
-  },
+        text: 'Videos',
+        href: getPermalink('/videos'),
+      },
+      { text: 'Podcast', href: getPermalink('/podcast') },
+      {
+        text: 'Courses',
+        href: getPermalink('/courses'),
+      }
     ],
   },
-  {
-    title: 'Activities',
-    items: [
-  {title: 'Videos', href: getPermalink('/videos'),},
-  {title: 'Podcast', href: getPermalink('/podcast'),},
-  {title: 'Events', href: getPermalink('/events'),},
-    ],
-  },
+  { text: 'Support', href: getPermalink('/support') },
+  { text: 'Events', href: getPermalink('/events') },
 ];
 
 const social = [
@@ -47,7 +76,7 @@ const social = [
 <footer class="border-t border-gray-200 dark:border-slate-800">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
     <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
-      <div class="col-span-12 lg:col-span-4">
+      <div class="col-span-12 lg:col-span-2">
         <div class="mb-2">
           <a class="inline-block text-xl" href={getHomePermalink()}>Chris Chinchilla</a>
         </div>
@@ -63,18 +92,18 @@ const social = [
         </div> -->
       </div>
       {
-        links.map(({ title, items }) => (
-          <div class="col-span-6 md:col-span-3 lg:col-span-2">
-            <div class="text-gray-800 dark:text-gray-300 font-medium mb-2">{title}</div>
-            {items && Array.isArray(items) && items.length > 0 && (
+        links.map(({ text, links }) => (
+          <div class="col-span-3 md:col-span-3 lg:col-span-2">
+            <div class="text-gray-800 dark:text-gray-300 font-medium mb-2">{text}</div>
+            {links && Array.isArray(links) && links.length > 0 && (
               <ul class="text-sm">
-                {items.map(({ title, href }) => (
+                {links.map(({ text, href }) => (
                   <li class="mb-2">
                     <a
                       class="text-gray-600 hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out"
                       href={href}
                     >
-                      {title}
+                      {text}
                     </a>
                   </li>
                 ))}
@@ -106,7 +135,7 @@ const social = [
           class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm"
         >
         </span>
-        Chris Chinchilla 2023
+        © Chris Chinchilla 2024
       </div>
     </div>
   </div>
