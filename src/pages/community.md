@@ -39,13 +39,13 @@ _Co-organiser,  2018 to 2021_
 
 I have always been active in open source communities, including regular contributions to: Drupal, CiviCRM, Atom, Visual Studio Code, Webpack, Kubernetes, Obsidian, and Vale.
 
-- Vale VSCode
-- Pandoc VSCode
+- [Vale VSCode](https://github.com/ChrisChinchilla/vale-vscode)
+- [Pandoc VSCode](https://github.com/ChrisChinchilla/vscode-pandoc)
 - Task Overboard
 - Obsidian Trello
-- Raycast Trello
+- [Raycast Trello](https://github.com/raycast/extensions/tree/ff986298ee3ca7ee04f7b3b4d4ca5faecb64fe8f/extensions/trello)
 - Obsidian Vale
-- Openly
-- Apple
+- [Openly Vale style](https://github.com/ChrisChinchilla/Openly)
+- [Apple Vale style guide](https://github.com/ChrisChinchilla/Apple-style-guide)
 
-See [my GitHub profile][https://github.com/chrischinchilla] for more.
+See [my GitHub profile](https://github.com/chrischinchilla) for more.
