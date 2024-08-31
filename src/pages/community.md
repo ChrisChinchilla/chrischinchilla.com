@@ -29,7 +29,7 @@ The open music school is part of give something back to berlin and holds multipl
 
 ## Write the Docs
 
-_Co-organiser,  2018 to 2021_
+_Co-organiser, 2018 to 2021_
 
 - I ran the Write the Docs meetup in Berlin for technical writers.
 - I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences.
