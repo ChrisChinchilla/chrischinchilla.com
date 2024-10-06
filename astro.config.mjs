@@ -1,6 +1,6 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { defineConfig,squooshImageService } from 'astro/config';
+import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
@@ -14,10 +14,6 @@ const whenExternalScripts = (items = []) => SITE.googleAnalyticsId ? Array.isArr
 
 // https://astro.build/config
 export default defineConfig({
-  // TODO: Fix this issue with netlify
-  image: {
-    service: squooshImageService(),
-  },
   site: SITE.origin,
   base: SITE.basePathname,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
