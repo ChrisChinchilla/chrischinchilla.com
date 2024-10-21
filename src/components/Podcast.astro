@@ -2,8 +2,6 @@
 import { Image } from 'astro:assets';
 import { type CollectionEntry } from 'astro:content';
 
-import Debug from 'astro/debug'
-
 export interface Props {
   podcast: CollectionEntry<'podcasts'>;
 }
@@ -60,7 +58,6 @@ function slugify(str) {
     <div class="mt-2">
       <!-- TODO: Is there a less brittle way? -->
       <!-- TODO: Find a way to show shows before renaming -->
-      <Debug {podcast} />
       {
         podcast.link.includes('https://chrischinchilla.com/podcast') ? (
           <a
