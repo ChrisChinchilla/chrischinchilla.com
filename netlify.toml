@@ -5,3 +5,6 @@
 [[redirects]]
   from = "/support"
   to = "/contact"
+[[redirects]]
+  from = "/blog/2024/6-tools-running-windows-linus-macos/"
+  to = "/blog/2024/6-tools-running-windows-linux-macos/"
