@@ -4,12 +4,11 @@ import { Image } from 'astro:assets';
 export interface Props {
   title: string;
   link: string;
-  excerpt: string;
   image: string;
   domain: string;
   note: string;
 }
-const { title, link, excerpt, image, domain, note } = Astro.props;
+const { title, link, image, domain, note } = Astro.props;
 
 // Default images
 var src = '';
@@ -35,5 +34,4 @@ if (image != null) {
   </h2>
   <i class="my-2 block"><a href={link} class="cleanlink">{domain}</a></i>
   <p class="my-2" set:html={note} />
-  <p class="my-2" set:html={excerpt} />
 </div>
