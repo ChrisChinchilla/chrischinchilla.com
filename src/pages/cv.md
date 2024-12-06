@@ -21,7 +21,7 @@ Long-form (technical) writing
 - Edited three books for Packt publishing.
 - Technical editor for four books with Manning.
 - "Technical Writing for Developers" for Packt publishing, released in March 2024.
-- Working on a book on Ableton Live 12 for Packt publishing.
+- Working on a book on Ableton Live 12 for Packt publishing. (Cancelled)
 - Working on a book on Sustainable computing for Apress.
 
 ### Courses
@@ -37,7 +37,7 @@ Over the past 4-5 years, I have spoken at over 100 events on a wide variety of s
 
 ### Podcasts and Video
 
-- My 8+ year-old podcast, "Chinchilla Squeaks".
+- My 8+ year-old podcast, "Chinchilla Squeaks", recently renamed to "Tech Lounge".
 - My YouTube channel is also now monetised with regular sponsorships.
 
 Find links to all these at [chrischinchilla.com][2].
@@ -50,11 +50,44 @@ I have always been active in open source communities, including regular contribu
 
 - I run the Write the Docs meetup in Berlin and have organised other meetups in the past.
 - I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences.
-- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, and 2024.
+- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, and 2025.
 - I was a judge for the Mozilla open source awards in 2020.
-- I run the Berlin Shut Up & Write© meetup with over 3,500 members, and thanks to the co-organisers, we run meetups almost every day.
+- I run the Berlin Shut Up & Write© meetup with over 3,500 members, and thanks to the co-organisers, we run meetups almost every day. It is the largets chapter in the world and I was recently invited to speak at the community symposium.
 
 ## Work Experience
+
+### Freelance Technical Writer, Blogger and Developer Relations
+
+_March 2017 - Present_
+
+When not working full time, I work as a freelance writer and blogger, I have contributed to the blogs and documentation sets of multiple technical companies. These ranged from small cutting-edge startups to large enterprises. Clients and work include
+
+- **Parseable**: Technical blog posts and videos.
+- **Aspect**: Documentation and documentation tooling.
+- **libcamera**: Documentation of an open-source camera stack and framework for Linux, Android, and ChromeOS.
+- **Dev Spotlight**: Technical blog posts for Salesforce, Kong, and others.
+- **ReveCom**: Technical blog post editing for high-profile clients.
+- **Sky Word**: Technical whitepaper writing for high-profile clients.
+- **Unity**: Documentation for the MARS AR development plugin.
+- **GitLab**: Technical blog posts.
+- **Humanitec**: Technical blog posts.
+- **here technologies**: Updating and maintaining API and reference documentation for the GeoVisualization product.
+- **PagerDuty**: Non-technical blog posts.
+- **OverOps**: Technical blog posts.
+- **Coralogix**: Technical blog posts.
+- **Facebook Messenger**: Technical blog posts.
+- **data artisans**: Technical blog posts.
+- **Sqreen**: Tutorial, API, and reference documentation.
+- **Telerik**: Technical blog posts.
+- **DZone**: Tech journalist covering events, interviews, and tools.
+- **The Next Web**: Tech journalist covering events and interviews.
+- **Equinix**: Technical blog posts.
+- **DGraph**: Documentation platform overhaul.
+- **Caepe**: Documenting a new product release.
+- **n8n**: Creating a series of self-hosting guides.
+- **Sentry**: Writing blog posts on how to debug with certain languages.
+- **KILT**: Working on documentation for the decentralised identity platform.
+- **Slint**: Overhauling documentation for this cross-platform development tool.
 
 ### Docker, Staff Technical Writer
 
@@ -83,37 +116,6 @@ Chronosphere is the steward for M3, the highly available time series database, a
 - Responsibility for metrics, planning, and delivery of documentation
 - I wrote a handful of technical blog posts and a monthly Observability newsletter
 - I hosted several video series interviewing staff members and external experts
-
-### Freelance Technical Writer, Blogger and Developer Relations
-
-_March 2017 - Present_
-
-As a freelance writer and blogger, I have contributed to the blogs and documentation sets of multiple technical companies. These ranged from small cutting-edge startups to large enterprises. Clients and work include
-
-- **libcamera**: Documentation of an open-source camera stack and framework for Linux, Android, and ChromeOS.
-- **Dev Spotlight**: Technical blog posts for Salesforce, Kong, and others.
-- **ReveCom**: Technical blog post editing for high-profile clients.
-- **Sky Word**: Technical whitepaper writing for high-profile clients.
-- **Unity**: Documentation for the MARS AR development plugin.
-- **GitLab**: Technical blog posts.
-- **Humanitec**: Technical blog posts.
-- **here technologies**: Updating and maintaining API and reference documentation for the GeoVisualization product.
-- **PagerDuty**: Non-technical blog posts.
-- **OverOps**: Technical blog posts.
-- **Coralogix**: Technical blog posts.
-- **Facebook Messenger**: Technical blog posts.
-- **data artisans**: Technical blog posts.
-- **Sqreen**: Tutorial, API, and reference documentation.
-- **Telerik**: Technical blog posts.
-- **DZone**: Tech journalist covering events, interviews, and tools.
-- **The Next Web**: Tech journalist covering events and interviews.
-- **Equinix**: Technical blog posts.
-- **DGraph**: Documentation platform overhaul.
-- **Caepe**: Documenting a new product release.
-- **n8n**: Creating a series of self-hosting guides.
-- **Sentry**: Writing blog posts on how to debug with certain languages.
-- **KILT**: Working on documentation for the decentralised identity platform.
-- **Slint**: Overhauling documentation for this cross-platform development tool.
 
 ### Ethereum Foundation, Technical Writer
 

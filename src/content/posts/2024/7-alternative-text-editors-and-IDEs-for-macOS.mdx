@@ -1,0 +1,178 @@
+---
+title: 7 alternative text editors and IDEs for macOS
+publishDate: 2024-11-15
+author: 'Chris Ward'
+categories:
+  - writing
+tags:
+  - IDE
+  - Text Editor
+  - Writing tool
+  - Programming tool
+image: '../../../assets/images/articles/7-alternative-text-editors-and-IDEs-for-macOS.jpg'
+---
+
+import { YouTube } from '@astro-community/astro-embed-youtube';
+
+I've been a mostly happy [VSCode](https://code.visualstudio.com) user for a few years now. So much so that [I even maintain a couple of extensions for it](https://marketplace.visualstudio.com/publishers/ChrisChinchilla). Before VSCode, I loved [Atom](https://atom-editor.cc). And before that… I can't remember anymore. But every now and then, it's good to look into alternatives and see how they compare, what options you haven't considered they offer, and if they bring anything new to your productivity.
+
+In this post, I look at seven alternatives to VSCode that interest me. Some are old and some new, some are macOS-native, and some are cross-platform. Notable exceptions are [VSCodium](https://vscodium.com/), the fully open fork of VSCode, which is fairly similar. I also leave out perennial classics such as Vim, Emacs, and Nano. I have nothing against them, but they aren't for me, and I don't think anyone needs another blog about them.
+
+## Video version
+
+<YouTube id="R1L8CbttZgc" />
+
+## IDE vs Text editor
+
+The line between a text editor and an integrated developer environment (IDE) has blurred over the years. Some options in this round-up are pure text editors and have no features to support programming languages. Others are mostly aimed at developers, and while they also handle text, that's not their only function. Others started out as text editors and have added features to support programming languages.
+
+I have grouped them all together in one list, but of course, this means that some fare better with certain of my criteria.
+
+## Evaluation criteria
+
+- **Configuration options**: Text editors and IDEs are deeply personal and places where you spend a lot of time, so it's important to get them suited to you. My eyesight is poor, so I need decent text formatting features.
+- **Architecture and performance**: While Microsoft has done a good job optimising VSCode, it is still a cross-platform application that uses Electron. This means it could be more operating system-native and performant.
+  - **System Integration**: Related to the point above, I am a big fan of tools that connect with operating system APIs to allow for a more integrated experience across other tools. While native applications are more likely to support APIs, cross-platforms may too.
+- Supported languages:
+- **Cost**: Whether we like it or not, many users have gotten used to "free" applications, especially text editors and IDEs. If it's not free, is it worth it?
+- **Extensions community**: While extensible text editors and IDEs are nothing new, they are more popular than ever, and often, a tool or ecosystem lives or dies because of its community contributions.
+  - **Language server support**: As a sub-criteria for the extensions community, the language server protocol was created for VSCode to define a more standard way of creating certain extensions. Other tools have now adopted it, and it can expand extension support without needing to create tool-specific extensions or make it possible to create them with less work.
+
+## Test content
+
+I wanted to try a mix of common file syntax and some more obscure formats to see if they were supported or if an extension would support them.
+
+- **My website**: Uses Astro, with markdown, JavaScript, and MDX.
+- **Task Overboard**: Uses Flutter and React.
+- **KILT docs**: Uses Docusaurus, mixing MDX and React.
+- **Adoc studio manual**: Uses Asciidoc.
+
+### Code edit
+
+I've covered [CodeEdit](https://www.codeedit.app) before, back when the project first started. It aims to sit alongside XCode and TextEdit, looking and feeling familiar but adding support for other languages and toolchains.
+
+Because of this aim, it's macOS native but also open source, so it's a great repository of knowledge for learning how to write a macOS-native text editor. It has an active community, but I don't see much progress since I last looked. I guess building an extensible text editor that supports multiple languages is complicated!
+
+This means that, at the moment, it's mostly a text editor with some IDE-like features. It has a framework for extensions, but as far as I can tell, it's not implemented yet. As many tools and platforms have shown before, while creating an ecosystem is often essential, it's complicated from a technical and governance perspective. CodeEdit also has language server protocol support planned.
+
+Aside from those two large feature areas, how else does CodeEdit compare on my requirements list?
+
+- **Configuration options**: Comprehensive with excellent text handling settings.
+- **Architecture and performance**: macOS-native
+  - **System Integration**: Adds a system-wide "open in CodeEdit" context menu item.
+- **Supported languages**: I couldn't find a full list, but from my test list, it only recognised JavaScript, TypeScript, and Dart, but there's no way to set the language manually.
+- **Cost**: Free
+- **Extensions community**: In progress.
+  - **Language server support**: In progress.
+
+<YouTube id="WSYc5ZqwQ6g" />
+
+My opinion of CodeEdit hasn't changed much since I last reviewed it. It's a great-looking project, and the community is making slow progress. Keep an eye on it, but it may not be ready for daily use yet.
+
+Find out more: https://www.codeedit.app
+
+### Nova
+
+From macOS development stalwart Panic, [Nova](https://nova.app) reminds me a little of some of the text editors and IDEs I used to use back on older versions of macOS but brought up to date. It's a macOS-native and performant IDE but has some less familiar interface aspects, such as extra colours and iconography. However, it seems Panic have toned it down since I last looked. It has extensive configuration and a growing extensions ecosystem, even including a version of one of the VSCode extensions I maintain, and even has language server support. For those looking for something with many of the same features as VSCode but feels more optimised. The main question is if you think it's worth it.
+
+- **Configuration options**: Comprehensive and excellent text options.
+- **Architecture and performance**: macOS-native
+  - **System Integration**: Adds a variety of system extensions, including Quicklook and a handful of others.
+- **Supported languages**: Most popular options in-built, with community extensions to support many others.
+- **Cost**: $99 plus yearly upgrade fee
+- **Extensions community**: Yes, and growing.
+  - **Language server support**: Yes.
+
+<YouTube id="RNjaxAnPC6k" />
+
+Find out more: https://nova.app
+
+### Chime
+
+Largely developed by a lone developer, [Chime](https://www.chimehq.com) is a lean, macOS-native editor with a limited feature set. It supports language server protocol and has an extensions toolkit that extends Apple's own [ExtensionKit](https://developer.apple.com/documentation/extensionkit), which makes it the most native extensions ecosystem but likely sets limits on the community. My main negatives are that there are no options to change the text or set the file type manually.
+
+- **Configuration options**: Limited and no options for changing text.
+- **Architecture and performance**: macOS-native
+  - **System Integration**: Uses Apple's ExtensionKit, which means you manage editor extensions in system preferences. I am not sure how I feel about this…
+- **Supported languages**: Currently limited, but language server support makes support a matter of time.
+- **Cost**: Free and open source
+- **Extensions community**: Small.
+  - **Language server support**: Yes.
+
+Find out more: https://www.chimehq.com
+
+### CotEditor
+
+Very much in the text editor camp, [CotEditor](https://coteditor.com/) is another performant, open-source, macOS-native option with a handful of thoughtful features for working with text. Best of all, it uses MacOS's default font picker and renders text beautifully. CotEditor also lets you create snippets, customise all key bindings, toggle settings between code and non-code text usage, and more.
+
+- **Configuration options**: Comprehensive with excellent text-handling options.
+- **Architecture and performance**: macOS-native
+  - **System Integration**: Nothing in addition to the above
+- **Supported languages**: Reasonable but missing more obscure languages.
+- **Cost**: Free and open source.
+- **Extensions community**: None.
+  - **Language server support**: No.
+
+Find out more: https://coteditor.com
+
+### Cursor
+
+All the cool kids seem to love [Cursor](https://www.cursor.com/pricing) right now. It's based on VSCodium (the fully open version of VSCode) with a custom AI assistant extension. Its creators claim they did this for technical reasons, but I suspect it's more financial. The custom AI functionality aside, it's basically the same as VSCode, but I include it to prevent comments from people asking why I didn't include it 😁.
+
+- **Configuration options**: Comprehensive.
+- **Architecture and performance**: Cross-platform.
+  - **System Integration**: None.
+- **Supported languages**: Same as VSCodium.
+- **Cost**: 0 - $40 per user per month.
+- **Extensions community**: Same as VSCodium.
+  - **Language server support**: Yes.
+
+Find out more: https://cursor.sh
+
+### BBEdit
+
+Another macOS classic, I thought it was worth looking at [BBEdit](https://www.barebones.com/products/bbedit) and seeing how it compares to modern tools. There's been little better on macOS for a long time for text editing, processing, and manipulation. While it's not as optimised for more IDE-like functions, with a little tweaking and rethinking, thanks to its recent support for language server protocol, you can use it for some basic code work. I also particularly like its newer Jupyter notebook style worksheets feature for terminal command and AI experimentation, as you can then work with the output straight into a text file.
+
+- **Configuration options**: Comprehensive and plenty of text options.
+- **Architecture and performance**: Cross-platform.
+  - **System Integration**: Applescript and more.
+- **Supported languages**: I can't find a list, but lots.
+- **Cost**: $59.
+- **Extensions community**: Yes.
+  - **Language server support**: Yes.
+
+Find out more: https://www.barebones.com/products/bbedit/
+
+### Fleet
+
+In my opinion, [JetBrains Fleet](https://www.jetbrains.com/fleet/) is the company's attempt to make a VSCode beater. Something lighter than the rest of their IntelliJ family but customisable and extensible. Fleet has been in beta for a while and still lacks some functionality, but if it ever becomes a full product, it could be a worthy competitor. It also bundles JetBrains' new AI and remote collaboration features.
+
+- **Configuration options**: Comprehensive and plenty of text options.
+- **Architecture and performance**: Cross-platform, high resource usage (still beta).
+  - **System Integration**: None.
+- **Supported languages**: Most popular and less popular options.
+- **Cost**: Free during beta.
+- **Extensions community**: Coming soon, I am unsure if Fleet will use the same as IntelliJ.
+  - **Language server support**: Yes.
+
+Find out more: https://www.jetbrains.com/fleet/
+
+## Honourable mentions
+
+Here are a few I missed, either because I ran out of time, they were too single-purpose, or for some other reason.
+
+- **[Sublime](https://www.sublimetext.com)**: I plain forgot to include it! Again, I feel like maybe others have covered it enough in the past, and it hasn't changed enough in recent years to warrant inclusion. It still has many fans and users.
+- **[Kakoune](https://kakoune.org)**: It looks interesting, but for me, it fits into the same world as emacs, vi, nano, etc. Feel free to pile on the criticism, but I don't like writing in the terminal.
+- **[CudaText](https://cudatext.github.io)**: It's written in Pascal! CudaText also has many of the features I'm looking for but it didn't look OS-native enough for me.
+- **[Helix](https://helix-editor.com)**: Similar to Kakoune, it looks great, but I don't want to write in the terminal.
+- **[Adoc studio](https://www.adoc-studio.app)**: I've covered adoc before, and it's great, but it only works with Asciidoc, so if that's all you use, fantastic, check it out.
+
+<YouTube id="ecAGPv-FC_I" />
+
+## Would I switch?
+
+So the question at the end of every listicle is whether the writer would change what they use. For text manipulation, maybe. I really liked CotEditor and BBEdit. I especially liked some of the new features in BBEdit. For example, to use its language server support, you don't need an extension, you just run the plain language server, which, while complex, is tidy. Also, the worksheets features are particularly fun to experiment with. And the font rendering in CotEditor is amazing.
+
+When it comes to IDE-style tools, I am less sure. VSCode has many issues, but the extension community is more extensive than any other tool. Granted, many of the extensions are abandoned, and forking them is not always seamless, but it's a start. Ideally, I'd love a project that was more OS-native but supported VSCode's extensions API in a similar way to how the productivity tool Raycast runs as a native application, but you can create extensions with JavaScript that are fairly performant and sandboxed. This may be the approach Code Edit could take.
+
+Generally speaking, I will probably not switch my IDE quite yet, but I remain IDE-curious. You?
