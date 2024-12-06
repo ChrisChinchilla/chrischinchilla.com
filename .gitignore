@@ -28,3 +28,5 @@ src/content/types.generated.d.ts
 .netlify
 
 src/pages/podcast/convert.js
+.astro
+.vscode
