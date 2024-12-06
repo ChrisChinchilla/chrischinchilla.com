@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Event.astro"
+
 title: Removing Barriers in Engagement
 event: Melbourne Geek Night
 pres_url: 'https://www.slideshare.net/chrischinchilla/removing-barriers-in-engagement-melbourne-geek-night-july-2013'

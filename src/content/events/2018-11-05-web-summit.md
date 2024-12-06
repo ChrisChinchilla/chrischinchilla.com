@@ -1,6 +1,6 @@
 ---
 action: to hear about
-layout: "../../layouts/Event.astro"
+
 title: your projects and ideas
 event: Web Summit
 start_date: 2018-11-05T12:20:00.000Z

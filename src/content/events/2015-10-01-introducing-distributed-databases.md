@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Introducing Distributed Databases
 event: Voxxed Days Belgrade

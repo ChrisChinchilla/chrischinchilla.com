@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 title: Writing for robots
 event: AI the docs
 start_date: 2024-04-03T12:20:00.000Z

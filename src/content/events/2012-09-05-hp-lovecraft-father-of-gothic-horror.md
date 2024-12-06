@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Event.astro"
+
 title: HP Lovecraft-Father of Gothic Horror
 event: 'Laneway Learning, Melbourne'
 pres_url: 'https://www.slideshare.net/chrischinchilla/hp-lovecraft-laneway-learning'

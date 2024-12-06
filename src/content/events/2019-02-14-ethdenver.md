@@ -2,7 +2,7 @@
 action: representing
 title: the Kauri project
 event: ETHDenver
-layout: "../../layouts/Event.astro"
+
 venue: 'The Sports Castle, 1000 N Broadway, Denver, CO 80203'
 
 pres_url: 'https://ethdenver.com'

@@ -2,7 +2,7 @@
 action: attending
 title: and on the speaker committee
 event: API the Docs
-layout: "../../layouts/Event.astro"
+
 venue: Barbican Centre, Silk St, London EC2Y 8DS
 
 pres_url: https://apithedocs.org/london2018

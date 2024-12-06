@@ -1,6 +1,6 @@
 ---
 action: to hear
-layout: "../../layouts/Event.astro"
+
 
 title: your talks
 event: Write the Docs US

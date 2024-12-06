@@ -2,7 +2,7 @@
 action: to hear about
 title: your ideas and projects
 event: OpenStack Summit Berlin
-layout: "../../layouts/Event.astro"
+
 venue: City cube, Berlin, Germany
 
 pres_url: 'https://www.openstack.org/summit/berlin-2018/'

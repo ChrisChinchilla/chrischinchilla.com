@@ -1,6 +1,6 @@
 ---
 action: to apear on
-layout: "../../layouts/Event.astro"
+
 
 title: a panel discussing trends and highlights from IFA
 event: IXDS IFA Pre-Work talk, Munich

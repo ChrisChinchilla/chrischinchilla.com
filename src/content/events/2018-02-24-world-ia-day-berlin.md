@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Information Architecture and Ethics
 event: World IA Day - Berlin

@@ -26,13 +26,11 @@ var url = '';
 if (post.data.publication_url != null) {
   url = post.data.publication_url;
 } else {
-  url = '/blog/' + post.slug;
+  url = '/blog/' + post.id;
 }
-// TODO: Why is slug broken again?
 // Truncate text
 // TODO: Better way?
 // TODO: Make to helper or plugin
-// var truncatedText = body.split("</p>");
 
 const truncatedBody = truncateMarkdown(post.body, {
   limit: 500,

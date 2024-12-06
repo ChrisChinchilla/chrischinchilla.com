@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Event.astro"
+
 title: Customising CiviCRM
 event: CiviCRM Melbourne
 pres_url: 'https://www.slideshare.net/chrischinchilla/customising-civicrm'

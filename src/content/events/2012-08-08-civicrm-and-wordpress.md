@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Event.astro"
+
 title: CiviCRM and Wordpress
 event: Melbourne Wordpress Meetup
 pres_url: 'https://www.slideshare.net/chrischinchilla/civicrm-and-wordpress'

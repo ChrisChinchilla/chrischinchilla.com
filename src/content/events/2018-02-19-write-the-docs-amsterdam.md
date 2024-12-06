@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Lint, lint, lint and away!
 event: Write the Docs - Amsterdam

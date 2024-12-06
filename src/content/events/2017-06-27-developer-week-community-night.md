@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Explaining Complex Topics
 event: Developer Week Community Night 2017, Nürnberg

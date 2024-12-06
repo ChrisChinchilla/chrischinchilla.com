@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Your Favourite New Language - The Future of Swift
 event: Voxxed Days Belgrade

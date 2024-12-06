@@ -2,7 +2,7 @@
 action: representing
 title: Event Store
 event: DDD Europe
-layout: "../../layouts/Event.astro"
+
 venue: Amsterdam
 
 pres_url: https://dddeurope.com

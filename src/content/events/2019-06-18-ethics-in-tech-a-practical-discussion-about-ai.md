@@ -2,7 +2,7 @@
 action: to speak about
 title: Developer ethics
 event: 'Ethics in Tech: a Practical Discussion about AI'
-layout: "../../layouts/Event.astro"
+
 venue: 'Google Berlin, Tucholskystraße 2, 10117, Berlin'
 
 pres_url: >-

@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: What's the difference between an event store and a blockchain
 event: Mauritian Developer Conference
