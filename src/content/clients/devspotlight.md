@@ -7,7 +7,7 @@ tags:
 - DevOps
 - Programming
 - JavaScript
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.devspotlight.com/'
 start_date: 2020
 end_date: Ongoing

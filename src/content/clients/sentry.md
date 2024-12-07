@@ -7,7 +7,7 @@ tags:
 - security
 - debug
 - programming
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://sentry.io/welcome/'
 start_date: 2023
 end_date: 2023

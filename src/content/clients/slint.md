@@ -1,7 +1,7 @@
 ---
 type: Technical writing
 title: Slint
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://slint.dev'
 image: "~/assets/images/clients/slint.svg"
 start_date: 2023

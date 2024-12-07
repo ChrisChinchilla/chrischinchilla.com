@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: Sitepoint
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://sitepoint.com/'
 image: ~/assets/images/clients/sitepoint.png
 category: Chris writing editing

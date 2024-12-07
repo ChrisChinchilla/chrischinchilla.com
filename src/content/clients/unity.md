@@ -6,7 +6,7 @@ category: Chris
 tags:
 - AR
 - gaming
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://unity.com/products/mars'
 start_date: 20-05-11
 end_date: 20-05-27

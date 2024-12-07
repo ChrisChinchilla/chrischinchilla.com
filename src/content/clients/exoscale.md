@@ -6,7 +6,7 @@ category: Chris
 tags:
 - cloud
 - kubernetes
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.exoscale.com/'
 start_date: 2018
 end_date: 2020

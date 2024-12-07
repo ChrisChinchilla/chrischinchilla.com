@@ -1,7 +1,7 @@
 ---
 type: Technical writing
 title: Docker
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://docker.com'
 image: "~/assets/images/clients/docker.svg"
 start_date: 2023

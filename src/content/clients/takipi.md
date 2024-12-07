@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: Takipi
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://blog.takipi.com/'
 image: ~/assets/images/clients/takipi.png
 category: Chris writing

@@ -7,7 +7,7 @@ tags:
 - DevOps
 - WASM
 - Containers
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://revecom.io'
 start_date: 2020
 end_date: Ongoing

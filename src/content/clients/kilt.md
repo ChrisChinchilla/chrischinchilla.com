@@ -1,7 +1,7 @@
 ---
 type: Technical writing
 title: KILT
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.kilt.io'
 image: "~/assets/images/clients/kilt.png"
 start_date: 2023

@@ -1,7 +1,7 @@
 ---
 type: documentation
 title: here
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://here.com/'
 work_link: https://developer.here.com/documentation/maps/3.1.26.0/dev_guide/index.html
 image: ~/assets/images/clients/here.png

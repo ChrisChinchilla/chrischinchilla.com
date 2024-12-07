@@ -7,7 +7,7 @@ tags:
 - documentation
 - blockchain
 - ethereum
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.ethereum.org/'
 work_link:
 - https://docs.soliditylang.org/en/v0.8.0/

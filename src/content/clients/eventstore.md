@@ -1,7 +1,7 @@
 ---
 type: documentation
 title: Event Store
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://eventstore.org'
 work_link: https://developers.eventstore.com
 image: ~/assets/images/clients/event-store.png

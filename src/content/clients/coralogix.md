@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: Coralogix
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://coralogix.com/blog/'
 image: ~/assets/images/clients/coralogix.png
 category: Chris writing
