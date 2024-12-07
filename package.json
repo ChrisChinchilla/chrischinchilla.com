@@ -18,8 +18,6 @@
     "@astrojs/react": "^4.0.0",
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
-    "@mui/icons-material": "^6.1.10",
-    "@mui/material": "^6.1.10",
     "@netlify/functions": "^2.8.2",
     "fast-xml-parser": "^4.5.0",
     "markdown-truncate": "^1.1.1",
