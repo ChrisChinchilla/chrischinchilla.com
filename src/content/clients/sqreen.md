@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: Sqreen
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.sqreen.io/'
 image: ~/assets/images/clients/sqreen.png
 category: Chris writing

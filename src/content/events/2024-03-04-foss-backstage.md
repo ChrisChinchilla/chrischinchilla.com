@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 title: How to explain your project better
 event: Foss backstage
 start_date: 2024-03-04T12:20:00.000Z

@@ -6,7 +6,7 @@ category: Chris
 tags:
 - bots
 - writing
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.messenger.com/'
 start_date: 2018
 end_date: 2018

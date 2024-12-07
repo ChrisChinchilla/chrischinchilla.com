@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Event.astro"
+
 title: Why your image of the world could be wrong
 event: 'Laneway learning, Melbourne'
 pres_url: 'https://www.slideshare.net/chrischinchilla/why-your-image-of-the-world-could-be-wrong'

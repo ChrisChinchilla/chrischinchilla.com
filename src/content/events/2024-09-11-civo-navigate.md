@@ -1,7 +1,7 @@
 ---
 action: to hear about
 title: your ideas and projects
-layout: "../../layouts/Event.astro"
+
 event: CIVO Navigate
 start_date: 2024-09-10T12:20:00.000Z
 end_date: 2024-09-11T00:00:00.000Z

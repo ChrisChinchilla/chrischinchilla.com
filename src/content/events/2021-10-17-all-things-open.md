@@ -2,7 +2,7 @@
 action: to speak about
 title: Reducing Negative and Biased Language in Documentation
 event: All things open
-layout: "../../layouts/Event.astro"
+
 venue: 'online'
 pres_url: https://2021.allthingsopen.org
 start_date: 2021-10-17T12:20:00.000Z

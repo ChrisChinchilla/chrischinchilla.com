@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Event.astro"
+
 title: 'Cosmic Horror & HP Lovecraft'
 event: Laneway Learning
 pres_url: 'https://melbourne.lanewaylearning.com/classes/cosmic-horror-and-hp-lovecraft-2/'

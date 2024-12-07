@@ -1,6 +1,6 @@
 ---
 action: handling social media at
-layout: "../../layouts/Event.astro"
+
 
 event: Write the Docs EU
 start_date: 2018-09-09T00:00:00.000Z

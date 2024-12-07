@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 
 title: 'Drupal DevOps-decoupling, demystifying and decomplicating'

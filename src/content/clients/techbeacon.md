@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: Tech Beacon
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://techbeacon.com'
 image: ~/assets/images/clients/techbeacon.png
 category: Chris writing

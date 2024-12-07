@@ -1,4 +1,4 @@
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import type { Post } from '~/types';
 import { cleanSlug, trimSlash, POST_PERMALINK_PATTERN } from './permalinks';
@@ -11,7 +11,7 @@ const generatePermalink = async ({ id, slug, publishDate, category }) => {
   const minute = String(publishDate.getMinutes()).padStart(2, '0');
   const second = String(publishDate.getSeconds()).padStart(2, '0');
 
-  const permalink = POST_PERMALINK_PATTERN.replace('%slug%', slug)
+  const permalink = POST_PERMALINK_PATTERN.replace('%id%', slug)
     .replace('%id%', id)
     .replace('%category%', category || '')
     .replace('%year%', year)
@@ -94,7 +94,7 @@ export const findPostsBySlugs = async (slugs: Array<string>): Promise<Array<Post
 
   return slugs.reduce(function (r: Array<Post>, slug: string) {
     posts.some(function (post: Post) {
-      return slug === post.slug && r.push(post);
+      return slug === post.id && r.push(post);
     });
     return r;
   }, []);

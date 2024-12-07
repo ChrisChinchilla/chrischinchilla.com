@@ -2,7 +2,7 @@
 action: to hear about
 title: your ideas and projects
 event: Dezentral
-layout: "../../layouts/Event.astro"
+
 venue: 'Kosmos, Berlin, Germany'
 
 pres_url: 'https://www.dezentral.io/'

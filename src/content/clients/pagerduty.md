@@ -1,7 +1,7 @@
 ---
 type: writing
 title: Pager Duty
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.pagerduty.com/'
 image: ~/assets/images/clients/pagerduty.png
 category: Chris writing

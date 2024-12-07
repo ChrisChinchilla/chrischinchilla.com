@@ -2,7 +2,7 @@
 action: representing
 title: the Kauri project
 event: Codemotion Berlin
-layout: "../../layouts/Event.astro"
+
 venue: 'Schönhauser Allee 36, Berlin, 10435'
 
 pres_url: 'https://berlin2018.codemotionworld.com/location/'

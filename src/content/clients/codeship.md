@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: CodeShip
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://blog.codeship.com/'
 image: "~/assets/images/clients/codeship.png"
 start_date: 2016

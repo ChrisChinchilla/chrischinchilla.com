@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: Cult of Mac
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.cultofmac.com/'
 image: ~/assets/images/clients/cultofmac.png
 category: Chris writing

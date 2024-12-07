@@ -2,7 +2,7 @@
 action: to speak about
 title: Improving Developer experience in Web3
 event: Beyond the Block – State of Blockchain Adoption
-layout: "../../layouts/Event.astro"
+
 venue: 'Mindspace Krausenstraße, Krausenstraße 9-10, 10117, Berlin'
 
 pres_url: >-

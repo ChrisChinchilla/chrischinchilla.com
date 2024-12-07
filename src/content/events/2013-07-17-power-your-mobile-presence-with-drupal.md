@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Event.astro"
+
 title: Power your mobile presence with Drupal
 event: Melbourne Mobile
 pres_url: 'https://www.slideshare.net/chrischinchilla/power-your-mobile-app-with-drupal'

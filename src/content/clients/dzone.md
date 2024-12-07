@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: DZone
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://dzone.com'
 image: ~/assets/images/clients/dzone.png
 category: Both writing

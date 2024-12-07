@@ -2,7 +2,7 @@
 action: to speak about
 title: An Introduction to Developer Experience
 event: LAST Clubhouse
-layout: "../../layouts/Event.astro"
+
 venue: Online
 pres_source: https://clubhouse.lastconference.com/offers/jt4DeFvC
 pres_url: https://clubhouse.lastconference.com/offers/jt4DeFvC

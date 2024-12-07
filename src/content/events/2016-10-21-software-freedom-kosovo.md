@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 
 title: What Ikea and Game Manuals Taught Me About Technical Writing

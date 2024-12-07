@@ -2,7 +2,7 @@
 action: Mentoring
 title: Building a Web3 future
 event: Diffusion
-layout: "../../layouts/Event.astro"
+
 venue: Factory Görlitzer park, Berlin
 
 pres_url: https://diffusion.events

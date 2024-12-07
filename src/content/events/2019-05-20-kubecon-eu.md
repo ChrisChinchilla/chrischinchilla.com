@@ -2,7 +2,7 @@
 action: to hear about
 title: your ideas and projects
 event: KubeCon and CloudNativeCon
-layout: "../../layouts/Event.astro"
+
 venue: Fira Gran Via, Barcelona, Spain
 
 pres_url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/

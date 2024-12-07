@@ -2,7 +2,7 @@
 action: to speak about
 title: Automate your APIs to perfection
 event: APIDays
-layout: "../../layouts/Event.astro"
+
 venue: 'online'
 pres_source: 'https://writethedocs.org/'
 pres_url: 'https://writethedocs.org/'

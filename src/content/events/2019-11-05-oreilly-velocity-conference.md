@@ -2,7 +2,7 @@
 action: to hear about
 title: Performance. Resilience. Security.
 event: O'Reilly Velocity Conference
-layout: "../../layouts/Event.astro"
+
 venue: Messedamm 26, 14055 Berlin
 
 pres_url: 'https://conferences.oreilly.com/velocity/vl-eu'

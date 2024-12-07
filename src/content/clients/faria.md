@@ -1,7 +1,7 @@
 ---
 type: marketing
 title: Faria Education Group
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.fariaedu.com/'
 image: ~/assets/images/clients/faria.jpeg
 category: Chris writing

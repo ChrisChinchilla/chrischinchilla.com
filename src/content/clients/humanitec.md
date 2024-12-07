@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: Humanitec
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://humanitec.com/'
 image: ~/assets/images/clients/humanitec.png
 start_date: 2020

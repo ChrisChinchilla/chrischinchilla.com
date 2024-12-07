@@ -1,7 +1,7 @@
 ---
 type: Technical Writing
 title: Data Artisans
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://data-artisans.com'
 image: ~/assets/images/clients/data-artisans.png
 category: Chris writing

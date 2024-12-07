@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Documentation Assembly (TBC)
 event: 34th Chaos Communication Congress

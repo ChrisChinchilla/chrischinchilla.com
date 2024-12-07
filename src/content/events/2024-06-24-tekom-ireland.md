@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 title: Writing for robots
 event: Tekom Ireland
 start_date: 2024-06-24T12:20:00.000Z

@@ -20,7 +20,7 @@ export const cleanSlug = (text = '') =>
     .map((slug) => slugify(slug))
     .join('/');
 
-export const POST_PERMALINK_PATTERN = trimSlash(BLOG?.post?.permalink || '/%slug%');
+export const POST_PERMALINK_PATTERN = trimSlash(BLOG?.post?.permalink || '/%id%');
 
 export const BLOG_BASE = cleanSlug(BLOG?.list?.pathname);
 export const CLIENT_BASE = cleanSlug(CLIENT?.list?.pathname);

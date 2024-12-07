@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 title: The sustainable full stack
 event: Everything Open
 start_date: 2024-04-16T12:20:00.000Z

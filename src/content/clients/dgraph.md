@@ -7,7 +7,7 @@ tags:
 - documentation
 - database
 - graphql
-layout: "../../layouts/Client.astro"
+
 company_url: 'http://dgraph.io'
 work_link: https://dgraph.io/docs/graphql/
 start_date: 2020

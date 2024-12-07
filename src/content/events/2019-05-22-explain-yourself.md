@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Explain Yourself! A crash course in better documentation
 event: Codegarden

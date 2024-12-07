@@ -1,6 +1,6 @@
 ---
 action: to discuss
-layout: "../../layouts/Event.astro"
+
 
 title: sustaining open source
 event: Sustain Summit

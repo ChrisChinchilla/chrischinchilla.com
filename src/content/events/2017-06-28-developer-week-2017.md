@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: A documentation crash course for developers
 event: Developer Week 2017, Nürnberg

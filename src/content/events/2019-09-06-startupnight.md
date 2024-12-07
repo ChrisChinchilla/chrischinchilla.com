@@ -2,7 +2,7 @@
 action: to speak about
 title: your ideas and projects
 event: Startup night
-layout: "../../layouts/Event.astro"
+
 venue: Various venues, Berlin
 
 pres_url: 'https://www.startupnight.net/'

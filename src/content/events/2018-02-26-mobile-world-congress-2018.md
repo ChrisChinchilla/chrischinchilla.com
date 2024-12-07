@@ -1,6 +1,6 @@
 ---
 action: to hear about
-layout: "../../layouts/Event.astro"
+
 categories:
 title: your ideas and projects
 event: Mobile World Congress

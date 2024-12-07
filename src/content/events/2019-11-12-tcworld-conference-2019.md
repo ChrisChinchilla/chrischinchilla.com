@@ -2,7 +2,7 @@
 action: Running meetups at
 title: Automating and testing documentation
 event: tcworld conference 2019
-layout: "../../layouts/Event.astro"
+
 venue: ICS Stuttgart
 
 pres_url: 'https://conferences.tekom.de/tcworld19/tcworld-conference-2019/'

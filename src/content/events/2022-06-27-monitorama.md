@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 title: Observability for Sustainability
 event: Monitorama
 start_date: 2022-06-27T12:20:00.000Z

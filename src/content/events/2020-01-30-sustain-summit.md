@@ -1,6 +1,6 @@
 ---
 action: to discuss
-layout: "../../layouts/Event.astro"
+
 title: sustaining open source
 event: Sustain Summit
 start_date: 2020-01-30T12:20:00.000Z

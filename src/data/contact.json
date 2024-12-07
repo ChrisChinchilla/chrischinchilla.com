@@ -5,16 +5,20 @@
     "network_link": "https://www.youtube.com/channel/UCgnrx8qi4qhmN6sBebdDrmg"
   },
   {
-    "title": "TikTok",
-    "image": "tabler:brand-tiktok",
-    "network_link": "https://www.tiktok.com/@chinchtok"
+    "title": "Medium",
+    "image": "tabler:brand-medium",
+    "network_link": "https://medium.com/@ChrisChinchilla"
+  },
+  {
+    "title": "Patreon",
+    "image": "tabler:brand-patreon",
+    "network_link": "https://patreon.com/ChrisChinchilla"
   },
   {
     "title": "GitHub",
     "image": "tabler:brand-github",
     "network_link": "https://github.com/ChrisChinchilla/"
   },
-  { "title": "Discord", "image": "tabler:brand-discord", "network_link": "https://discord.gg/b4Wwa5jnjp" },
   {
     "title": "LinkedIn",
     "image": "tabler:brand-linkedin",
@@ -25,19 +29,31 @@
     "image": "tabler:mail",
     "network_link": "mailto:chris@chrischinchilla.com"
   },
+  { "title": "Discord", "image": "tabler:brand-discord", "network_link": "https://discord.gg/b4Wwa5jnjp" },
+  {
+    "title": "Bluesky",
+    "image": "tabler:brand-bluesky",
+    "network_link": "https://bsky.app/profile/chrischinchilla.bsky.social"
+  },
+  {
+    "title": "TikTok",
+    "image": "tabler:brand-tiktok",
+    "network_link": "https://www.tiktok.com/@chinchtok"
+  },
+
   {
     "title": "Twitter",
     "image": "tabler:brand-twitter",
     "network_link": "https://twitter.com/chrischinch"
   },
   {
-    "title": "Medium",
-    "image": "tabler:brand-medium",
-    "network_link": "https://medium.com/@ChrisChinchilla"
+    "title": "Threads",
+    "image": "tabler:brand-threads",
+    "network_link": "https://www.threads.net/@chrischinchilla"
   },
   {
-    "title": "Patreon",
-    "image": "tabler:brand-patreon",
-    "network_link": "https://patreon.com/ChrisChinchilla"
+    "title": "Mastodon",
+    "image": "tabler:brand-mastodon",
+    "network_link": "https://mastodon.social@chrischinchilla@"
   }
 ]

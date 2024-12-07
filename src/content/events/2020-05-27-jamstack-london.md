@@ -2,7 +2,7 @@
 action: to hear about
 title: your ideas and projects
 event: JAMStack London
-layout: "../../layouts/Event.astro"
+
 venue: The Brewery, London
 pres_url: https://ti.to/netlify/jamstack-conf-london-2020/
 start_date: 2020-05-27T12:20:00.000Z

@@ -2,7 +2,7 @@
 action: representing
 title: the Kauri project
 event: Revision
-layout: "../../layouts/Event.astro"
+
 venue: Kraftwerk, Köpenicker Str. 70, 10179 Berlin
 
 pres_url: https://revision.io

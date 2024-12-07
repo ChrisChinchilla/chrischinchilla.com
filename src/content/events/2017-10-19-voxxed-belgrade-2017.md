@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Are we all doomed and what can we do about it?
 event: Voxxed Days Belgrade

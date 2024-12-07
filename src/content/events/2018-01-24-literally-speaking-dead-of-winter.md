@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 title: Literally Speaking - Dead of Winter
 
 event: Literally Speaking - Dead of Winter

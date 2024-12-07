@@ -2,7 +2,7 @@
 action: to hear about
 title: your ideas and projects
 event: 5G Techritory Conference
-layout: "../../layouts/Event.astro"
+
 venue: 'Riga, Latvia'
 categories:
 pres_url: 'https://www.5gtechritory.com/'
