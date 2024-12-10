@@ -52,7 +52,7 @@ I have always been active in open source communities, including regular contribu
 - I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences.
 - I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, and 2025.
 - I was a judge for the Mozilla open source awards in 2020.
-- I run the Berlin Shut Up & Write© meetup with over 3,500 members, and thanks to the co-organisers, we run meetups almost every day. It is the largets chapter in the world and I was recently invited to speak at the community symposium.
+- I run the Berlin Shut Up & Write© meetup with over 3,500 members, and thanks to the co-organisers, we run meetups almost every day. It is the largest chapter in the world and I was recently invited to speak at the community symposium.
 
 ## Work Experience
 
