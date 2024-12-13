@@ -47,7 +47,7 @@
     "@tailwindcss/typography": "^0.5.15",
     "@typescript-eslint/eslint-plugin": "^8.18.0",
     "@typescript-eslint/parser": "^8.18.0",
-    "accessible-astro-components": "^2.4.0",
+    "accessible-astro-components": "^3.0.1",
     "astro": "^5.0.5",
     "astro-icon": "^1.1.4",
     "eslint": "^9.16.0",
