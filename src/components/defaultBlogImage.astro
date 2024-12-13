@@ -1,0 +1,8 @@
+---
+// src/components/BlogPostImage.astro
+import { Image } from 'astro:assets';
+import defaultImage from '~/assets/images/defaults/blog-chinchilla.jpg';
+
+const { src = defaultImage, ...attrs } = Astro.props;
+---
+<Image src={src} {...attrs} />

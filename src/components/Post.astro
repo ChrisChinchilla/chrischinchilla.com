@@ -5,6 +5,7 @@ import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
 import Tags from '~/components/common/Tags.astro';
 import type { CollectionEntry } from 'astro:content';
+import DefaultBlogImage from '~/components/defaultBlogImage.astro';
 interface Props {
   post: CollectionEntry<'posts'>;
 }
@@ -36,6 +37,9 @@ const truncatedBody = truncateMarkdown(post.body, {
   limit: 500,
   ellipsis: true,
 });
+
+import postImage from post.data.image;
+console.log(postImage)
 ---
 
 <!-- TODO: Tidy and fix grid -->
@@ -52,8 +56,13 @@ const truncatedBody = truncateMarkdown(post.body, {
       decoding="async"
       fetchpriority="auto"
     /> -->
-    <Image
+    <!-- <Image
       src={post.data.image}
+      alt={post.data.title}
+      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+    /> -->
+    <DefaultBlogImage
+      src=postImage
       alt={post.data.title}
       class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
     />
