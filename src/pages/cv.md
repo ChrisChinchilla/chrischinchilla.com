@@ -3,15 +3,11 @@ title: 'Chris Ward CV'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-I have been a long-term freelancer and contractor in the past so attempting to
-summarise my work experience and history into a CV is always challenging.
+I have been a freelancer and contractor in the past so attempting to
+summarise my work experience and history is always challenging.
 
 Below are chronologically the most recent and relevant projects I have
-worked on, I can supply them on request.
-
-My years of experience organising user groups, training days, and managing
-small developer teams make me suitable for community, evangelist, training, or
-writer roles.
+worked on, I can supply more details on request.
 
 ## Accomplishments
 
@@ -38,7 +34,7 @@ Over the past 4-5 years, I have spoken at over 100 events on a wide variety of s
 ### Podcasts and Video
 
 - My 8+ year-old podcast, "Chinchilla Squeaks", recently renamed to "Tech Lounge".
-- My YouTube channel is also now monetised with regular sponsorships.
+- My YouTube channel is monetised with regular technical and creative content.
 
 Find links to all these at [chrischinchilla.com][2].
 
@@ -48,7 +44,7 @@ I have always been active in open source communities, including regular contribu
 
 ### Community
 
-- I run the Write the Docs meetup in Berlin and have organised other meetups in the past.
+- I ran the Write the Docs meetup in Berlin and have organised other meetups in the past.
 - I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences.
 - I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, and 2025.
 - I was a judge for the Mozilla open source awards in 2020.
@@ -56,14 +52,19 @@ I have always been active in open source communities, including regular contribu
 
 ## Work Experience
 
-### Freelance Technical Writer, Blogger and Developer Relations
+### Freelance Technical Writer, Blogger, and Developer Relations
 
 _March 2017 - Present_
 
-When not working full time, I work as a freelance writer and blogger, I have contributed to the blogs and documentation sets of multiple technical companies. These ranged from small cutting-edge startups to large enterprises. Clients and work include
+When not working full time, I work as a freelance writer and blogger, I have contributed to the blogs and documentation sets of technical companies. These ranged from small cutting-edge startups to large enterprises.
+
+Current clients and work include:
 
 - **Parseable**: Technical blog posts and videos.
 - **Aspect**: Documentation and documentation tooling.
+
+Past clients and work include:
+
 - **libcamera**: Documentation of an open-source camera stack and framework for Linux, Android, and ChromeOS.
 - **Dev Spotlight**: Technical blog posts for Salesforce, Kong, and others.
 - **ReveCom**: Technical blog post editing for high-profile clients.
