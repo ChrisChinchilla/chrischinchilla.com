@@ -7,8 +7,16 @@ image: ~/assets/images/books/the-dead-among-us.png
 store_urls:
   - label: eBook - Direct from me (pay what you feel)
     url: https://ko-fi.com/s/0a76b75a05
+  - label: eBook and other perks via Ko-fi
+    url: https://ko-fi.com/chrischinchilla/tiers
+  - label: eBook and other perks via Patreon
+    url: https://www.patreon.com/c/chrischinchilla
   - label: eBook - Amazon
     url: https://www.amazon.com/dp/B0DQGRTT11
+  - label: eBook - DriveThruFiction
+    url: https://www.drivethrufiction.com/product/505735/The-dead-among-us
+  - label: eBook - All other stores
+    url: https://books2read.com/u/m09D0W
 ---
 
 **Print coming soon!**

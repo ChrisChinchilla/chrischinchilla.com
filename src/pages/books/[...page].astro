@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
-import { BLOG } from '~/config.mjs';
+import { BOOK } from '~/config.mjs';
 
 import Book from '~/components/Book.astro';
 import { getCollection } from 'astro:content';
@@ -11,7 +11,7 @@ export async function getStaticPaths({ paginate }) {
   allBooks = allBooks.sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
 
   return paginate(allBooks, {
-    pageSize: BLOG.postsPerPage,
+    pageSize: BOOK.postsPerPage,
   });
 }
 
