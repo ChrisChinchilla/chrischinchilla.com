@@ -1,6 +1,7 @@
 import { z, defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
-import defaultBlogImage from '~/src/assets/images/defaults/blog-chinchilla.jpg'
+// TODO: This used to be possible
+// import defaultBlogImage from '~/src/assets/images/defaults/blog-chinchilla.jpg'
 
 const posts = defineCollection({
   // type: 'content', // v2.5.0 and later
@@ -8,7 +9,9 @@ const posts = defineCollection({
   schema: ({ image }) => z.object({
     title: z.string(),
     // description: z.string().optional(),
-    image: image().optional().default(defaultBlogImage),
+    // TODO: This used to be possible
+    // image: image().optional().default(defaultBlogImage),
+    image: image(),
     publication_url: z.string().url().optional(),
 
     // canonical: z.string().url().optional(),

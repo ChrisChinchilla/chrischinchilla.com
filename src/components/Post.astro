@@ -1,5 +1,7 @@
 ---
 import { Image } from 'astro:assets';
+import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
+import { Debug } from 'astro:components';
 // import { findImage } from '~/utils/images';
 import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
@@ -36,8 +38,7 @@ const truncatedBody = truncateMarkdown(post.body, {
   limit: 500,
   ellipsis: true,
 });
-import {postImage} from post.data.image
-console.log(postImage)
+
 ---
 
 <!-- TODO: Tidy and fix grid -->
@@ -54,8 +55,12 @@ console.log(postImage)
       decoding="async"
       fetchpriority="auto"
     /> -->
+    
+    <Debug {post.data.image} />
+
+    <Debug {defaultPostImage} />
     <Image
-      src={post.data.image}
+      src={post.data.image ? post.data.image : defaultPostImage}
       alt={post.data.title}
       class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
     />

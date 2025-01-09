@@ -1,0 +1,14 @@
+---
+// src/components/BlogPostImage.astro
+import { Image } from 'astro:assets';
+import defaultImage from '../assets/images/defaults/blog-chinchilla.jpg';
+
+const { src = defaultImage, ...attrs } = Astro.props;
+console.log(src)
+---
+<Image src={src} {...attrs} />
+<!-- <Image
+src={post.data.image}
+alt={post.data.title}
+class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+/> -->
