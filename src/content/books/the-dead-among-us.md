@@ -13,6 +13,8 @@ store_urls:
     url: https://www.patreon.com/c/chrischinchilla
   - label: eBook - Amazon
     url: https://www.amazon.com/dp/B0DQGRTT11
+  - label: Print - Amazon
+    url: https://www.amazon.com/dp/B0DS9D7SWG
   - label: eBook - DriveThruFiction
     url: https://www.drivethrufiction.com/product/505735/The-dead-among-us
   - label: eBook - All other stores
