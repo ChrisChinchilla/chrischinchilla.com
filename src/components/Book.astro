@@ -70,8 +70,13 @@ var idOfTitle = slugify(book.data.title);
 
   <div class="mt-2">
     <header>
-      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading dark:text-slate-300" id={idOfTitle}>
-        {book.data.title}
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading dark:text-slate-300" id={idOfTitle}>
+        <a
+              class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
+              href=`${book.slug}`
+              rel="canonical"
+            >
+        {book.data.title}</a>
       </h2>
       <i class="my-2 block">{book.data.publisher}, {formattedDate}, {book.data.role}</i>
     </header>
