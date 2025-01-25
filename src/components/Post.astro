@@ -1,8 +1,10 @@
 ---
-import ImageComponent from '../components/ImageComponent.astro';
+import { Image } from 'astro:assets';
 import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
 import Tags from '~/components/common/Tags.astro';
+import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
+
 import type { CollectionEntry } from 'astro:content';
 interface Props {
   post: CollectionEntry<'posts'>;
@@ -40,8 +42,10 @@ const truncatedBody = truncateMarkdown(post.body, {
 <!-- TODO: Tidy and fix grid -->
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.data.image ? 'md:grid-cols-2' : ''}`}>
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
-    <ImageComponent imagePath={post.data.image} altText={post.data.title}
-    classes="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+    <Image
+      src={post.data.image ? post.data.image : defaultPostImage}
+      alt={post.data.title}
+      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
     />
   </div>
 

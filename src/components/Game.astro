@@ -1,5 +1,5 @@
 ---
-import ImageComponent from '../components/ImageComponent.astro';
+import { Image } from 'astro:assets';
 import { type CollectionEntry } from 'astro:content';
 import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
@@ -54,9 +54,11 @@ var idOfTitle = slugify(game.data.title);
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${game.data.image ? 'md:grid-cols-2' : ''}`}>
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
-    <ImageComponent imagePath={game.data.image} altText={game.data.title}
-    classes="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-    /> 
+    <Image
+      src={game.data.image}
+      alt={game.data.title}
+      class="absolute object-contain h-full w-64 mb-6 rounded drop-shadow-lg"
+    />
   </div>
 
   <div class="mt-2">

@@ -1,7 +1,7 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
-import { getCollection } from 'astro:content';
-import ImageComponent from '../../components/ImageComponent.astro';
+import { getCollection, render,  } from 'astro:content';
+import { Image } from 'astro:assets';
 
 export async function getStaticPaths() {
   const bookEntries = await getCollection('books');
@@ -12,14 +12,14 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 
 <MarkdownPostLayout frontmatter={entry.data}>
-  <ImageComponent
-  imagePath={entry.data.image}
-  altText={entry.data.title}
-  classes="md:object-cover w-full md:w-auto md:h-full rounded drop-shadow-lg bg-gray-400 dark:bg-slate-700"
+  <Image
+  src={entry.data.image}
+  alt={entry.data.title}
+  class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
 />
   {
     entry.data.store_urls && (

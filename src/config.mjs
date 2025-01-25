@@ -53,9 +53,6 @@ const CONFIG = {
     },
   },
 
-
-
-  
   game: {
     disabled: false,
     postsPerPage: 30,
@@ -84,7 +81,6 @@ const CONFIG = {
       disabled: false,
     },
   },
-
 
   podcast: {
     disabled: false,
@@ -145,7 +141,6 @@ const CONFIG = {
     },
   },
 
-  
   event: {
     disabled: false,
     postsPerPage: 15,
