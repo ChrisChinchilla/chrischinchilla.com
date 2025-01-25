@@ -9,7 +9,7 @@ tags:
  - medium
  - export
  - markdown
-image: "../../../assets/images/articles/projects/medium-export.png"
+image: "/src/assets/images/articles/projects/medium-export.png"
 ---
 
 I love Markdown and I love editing Markdown in Atom. But I also love the exposure that Medium offers, and whilst I admit it has a great editor, I like to be able to write offline and I like having a central repository (i.e. Git) of my work for collaboration, consolidation and other purposes.

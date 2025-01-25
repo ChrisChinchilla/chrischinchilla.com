@@ -1,6 +1,6 @@
 ---
 title: Forests of Pangaia
-image: "~/assets/images/games/pic7421954.jpg"
+image: "/src/assets/images/games/pic7421954.jpg"
 publisher: Pangia games
 publish_date: 2022-01-01
 role: Proofreader

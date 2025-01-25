@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 
 title: GitHub revisited - Analyzing 100s of Million of events in realtime

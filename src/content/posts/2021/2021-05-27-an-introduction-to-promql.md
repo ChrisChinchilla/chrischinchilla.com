@@ -9,7 +9,7 @@ tags:
   - prometheus
   - promql
 publication_url: https://chronosphere.io/learn/an-introduction-to-promql/
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 

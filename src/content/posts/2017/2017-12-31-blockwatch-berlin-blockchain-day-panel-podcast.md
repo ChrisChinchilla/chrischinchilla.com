@@ -12,7 +12,7 @@ tags:
   - bitcoin
   - iot
 publication_url: "https://dzone.com/articles/blockwatch-berlin-blockchain-day-panel"
-image: "../../../assets/images/articles/7672529.jpeg"
+image: "/src/assets/images/articles/7672529.jpeg"
 
 ---
 In this 25-minute podcast/panel discussion, four Blockchain luminaries talk about how to bring smart contract ideas to reality.

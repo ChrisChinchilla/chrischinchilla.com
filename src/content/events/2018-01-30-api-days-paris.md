@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 event: API Days Paris
 start_date: 2018-01-30T10:00:00.000Z

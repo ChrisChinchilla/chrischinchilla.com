@@ -1,6 +1,6 @@
 ---
 title: One Day the World Ended
-image: "~/assets/images/games/chrischinchilla_A_rather_bored_average_looking_man_looking_out__1627669c-4a02-480a-8729-384e117bcd58.png"
+image: "/src/assets/images/games/chrischinchilla_A_rather_bored_average_looking_man_looking_out__1627669c-4a02-480a-8729-384e117bcd58.png"
 publisher: Self-published
 publish_date: 2019-07-04
 role: Designer

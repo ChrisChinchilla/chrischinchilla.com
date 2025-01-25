@@ -11,7 +11,7 @@ tags:
   - digital transformation
   - security
 publication_url: "https://dzone.com/articles/blockwatch-cryptogovernment-and-blockchain-marketi"
-image: "../../../assets/images/articles/6726830.jpeg"
+image: "/src/assets/images/articles/6726830.jpeg"
 
 ---
 We take a look at what some countries around the world are doing to promote cryptocurrency, as well as how some innovative companies are using blockchain.

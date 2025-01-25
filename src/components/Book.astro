@@ -1,10 +1,9 @@
 ---
-import { Image } from 'astro:assets';
-// import { findImage } from '~/utils/images';
 // TODO: This is now legacy, so need better solution
 import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
 import { type CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
 
 export interface Props {
   book: CollectionEntry<"books">;
@@ -64,23 +63,11 @@ var idOfTitle = slugify(book.data.title);
   <div
     class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
   >
-    <!-- <Picture
-      src={featured_image ? featured_image : '~/assets/images/default.png'}
-      class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
-      widths={[450, 900]}
-      sizes="(max-width: 900px) 450px, 900px"
-      alt={book.data.title}
-      aspectRatio="16:9"
-      loading="lazy"
-      decoding="async"
-      fetchpriority="auto"
-    /> -->
-    <Image
-      src={book.data.image}
-      alt={book.data.title}
-      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-    />
-  
+  <Image
+  src={book.data.image}
+  alt={book.data.title}
+  class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+/>
   </div>
 
   <div class="mt-2">
@@ -88,14 +75,13 @@ var idOfTitle = slugify(book.data.title);
       <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading dark:text-slate-300" id={idOfTitle}>
         <a
               class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
-              href=`${book.slug}`
+              href=`${book.id}`
               rel="canonical"
             >
         {book.data.title}</a>
       </h2>
       <i class="my-2 block">{book.data.publisher}, {formattedDate}, {book.data.role}</i>
     </header>
-    <!-- TODO: Seems kind of ridiculous -->
     <!-- TODO: Deprecated, need an alternative -->
     <Markdown class="m-2" />{truncatedBody}
     {

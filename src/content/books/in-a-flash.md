@@ -3,7 +3,7 @@ title: In a flash
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2023-09-04
-image: ~/assets/images/books/IAF.png
+image: /src/assets/images/books/IAF.png
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/product/439885/In-a-Flash

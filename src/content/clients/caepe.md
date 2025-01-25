@@ -1,9 +1,9 @@
 ---
 type: Technical writing
 title: CAEPE
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://docker.com'
-image: "~/assets/images/clients/caepe.png"
+image: "/src/assets/images/clients/caepe.png"
 start_date: 2022
 end_date: 2023
 tags:

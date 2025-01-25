@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: "../../../assets/images/articles/1*tIdGQFKa9xmb3dnfCY1Qeg.webp"
+image: "/src/assets/images/articles/1*tIdGQFKa9xmb3dnfCY1Qeg.webp"
 ---
 
 Or how Google IO made me realise I probably need to find a new job in 2 years

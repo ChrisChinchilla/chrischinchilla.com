@@ -1,9 +1,9 @@
 ---
 type: blogging
 title: Tech Beacon
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://techbeacon.com'
-image: ~/assets/images/clients/techbeacon.png
+image: /src/assets/images/clients/techbeacon.png
 category: Chris writing
 start_date: 2017
 end_date: ongoing

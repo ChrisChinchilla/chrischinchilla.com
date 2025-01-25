@@ -2,7 +2,7 @@
 action: to speak about
 title: An introduction to developer experience, and the role of a documentarian
 event: Write the Docs
-layout: "../../layouts/Event.astro"
+
 venue: 'online'
 pres_source: 'https://writethedocs.org/'
 pres_url: 'https://writethedocs.org/'

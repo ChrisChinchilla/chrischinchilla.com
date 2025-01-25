@@ -9,7 +9,7 @@ tags:
   - messenger
   - bots
 publication_url: "https://medium.com/@chrischinchilla/using-the-webview-to-create-richer-bot-to-user-interactions-ed8a789523c6"
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 ---
 
 

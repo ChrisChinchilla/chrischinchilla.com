@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 title: AIAPI
 event: API Days
 start_date: 2024-12-04T12:20:00.000Z

@@ -1,9 +1,9 @@
 ---
 type: blogging
 title: DZone
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://dzone.com'
-image: ~/assets/images/clients/dzone.png
+image: /src/assets/images/clients/dzone.png
 category: Both writing
 start_date: 2017
 end_date: 2020

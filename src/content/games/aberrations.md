@@ -1,6 +1,6 @@
 ---
 title: Aberrations - Inflection Point - A Monster Horror Adventure In Icewind Dale
-image: "~/assets/images/games/463789.jpg"
+image: "/src/assets/images/games/463789.jpg"
 publisher: Art of Karthik
 publish_date: 2023-12-27
 role: Proofreader

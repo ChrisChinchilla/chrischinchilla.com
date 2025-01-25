@@ -1,6 +1,5 @@
 ---
 import { Image } from 'astro:assets';
-// import { findImage } from '~/utils/images';
 import { type CollectionEntry } from 'astro:content';
 import Markdown from '@astrojs/markdown-component';
 
@@ -9,8 +8,6 @@ export interface Props {
 }
 
 const { course } = Astro.props;
-// const { Content } = await client.render();
-// const featured_image = await findImage(course.data.image);
 // Format date
 // TODO: Method
 var rawDate = new Date(course.data.publish_date);

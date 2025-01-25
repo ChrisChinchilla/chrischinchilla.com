@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: AI, friend or foe for tech writers?
 event: Soap! Conf

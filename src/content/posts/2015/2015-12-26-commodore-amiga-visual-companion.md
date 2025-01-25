@@ -7,7 +7,7 @@ categories:
 tags:
  - books 
  - reviews
-image: "../../../assets/images/articles/amiga-visual-commpendium.jpg"
+image: "/src/assets/images/articles/amiga-visual-commpendium.jpg"
 ---
 
 First, let's get the disclaimers out of the way. I helped [Kickstart](https://www.kickstarter.com/projects/2146199819/commodore-amiga-a-visual-commpendium) this book, but that wouldn't necessarily make my review biased...

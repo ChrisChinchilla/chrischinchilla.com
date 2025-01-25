@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Documenting projects with DocFX
 event: Static sites Berlin

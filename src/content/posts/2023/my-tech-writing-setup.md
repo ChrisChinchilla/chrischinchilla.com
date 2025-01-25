@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: "../../../assets/images/articles/1*ujmfgf5E8f14RBpJ8k7DsQ.webp"
+image: "/src/assets/images/articles/1*ujmfgf5E8f14RBpJ8k7DsQ.webp"
 ---
 
 In my previous post I covered my creative writing setup and the post proved quite popular, so I thank everyone who read and left comments for that. Next in this series of posts covering my various setups is my setup for technical writing. In this post I use the term “tech writing” to cover my documentation, blog post, and longer form technical writing work.

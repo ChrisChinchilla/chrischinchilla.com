@@ -1,9 +1,9 @@
 ---
 type: Technical writing and editing
 title: ConsenSys
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://kauri.io'
-image: ~/assets/images/clients/kauri.png
+image: /src/assets/images/clients/kauri.png
 start_date: 2018
 end_date: 2020
 tags:

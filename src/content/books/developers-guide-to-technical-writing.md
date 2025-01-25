@@ -3,7 +3,7 @@ title: Technical Writing for Software Developers
 publisher: Packt
 role: Author
 publish_date: 2024-03-29
-image: ~/assets/images/books/dgtw.jpeg
+image: /src/assets/images/books/dgtw.jpeg
 store_urls:
   - label: Amazon
     url: https://www.amazon.com/dp/B0CYL9SWZ5

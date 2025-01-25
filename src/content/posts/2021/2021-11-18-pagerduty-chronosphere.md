@@ -9,7 +9,7 @@ tags:
   - triage
   - observability
 publication_url: https://chronosphere.io/learn/how-pagerduty-and-chronosphere-work-together-to-help-you-get-alerted-faster/
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 

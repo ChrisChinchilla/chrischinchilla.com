@@ -1,13 +1,13 @@
 ---
 type: Blogging
 title: Sentry
-image: ~/assets/images/clients/sentry.png
+image: /src/assets/images/clients/sentry.png
 category: Chris
 tags:
 - security
 - debug
 - programming
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://sentry.io/welcome/'
 start_date: 2023
 end_date: 2023

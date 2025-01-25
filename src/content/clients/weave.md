@@ -1,14 +1,14 @@
 ---
 type: Blogging
 title: Weave
-image: ~/assets/images/clients/weave.png
+image: /src/assets/images/clients/weave.png
 category: Chris
 tags:
 - cloud
 - devops
 - docker
 - kubernetes
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.weave.works/'
 start_date: 18-05-14
 end_date: 2018

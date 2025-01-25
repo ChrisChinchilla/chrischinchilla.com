@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: "../../../assets/images/articles/1*caSn3X5r3FDF-zKsg4WQqQ.webp"
+image: "/src/assets/images/articles/1*caSn3X5r3FDF-zKsg4WQqQ.webp"
 ---
 
 It’s been a few years since I attended Berlin’s Internationale Funkausstellung, better known as IFA. And after several slow years for conferences and trade fairs, capped off with a slowdown in tech and tech-adjacent spending, I was interested to know what the show floor would feel like.

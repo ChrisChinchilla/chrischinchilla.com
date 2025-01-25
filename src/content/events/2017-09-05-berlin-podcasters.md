@@ -1,6 +1,6 @@
 ---
 action: to sp about
-layout: "../../layouts/Event.astro"
+
 
 title: Removing Berlin from audio
 event: Third one

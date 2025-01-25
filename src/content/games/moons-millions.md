@@ -1,6 +1,6 @@
 ---
 title: Moon's Millions - A Phandalin Adventure!
-image: "~/assets/images/games/407574.jpg"
+image: "/src/assets/images/games/407574.jpg"
 publisher: Art of Karthik
 publish_date: 2022-08-30
 role: Proofreader

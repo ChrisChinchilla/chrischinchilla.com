@@ -1,5 +1,3 @@
-// TODO: Use everywhere?
-
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
@@ -26,14 +24,9 @@ const CONFIG = {
     timeZone: 'UTC',
   }),
 
-  // TODO: Update or remove
-  // googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-  // googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
-
   blog: {
     disabled: false,
     postsPerPage: 30,
-    // TODO: Change?
     list: {
       pathname: 'blog', // blog main path, you can change this to "articles" (/articles)
       noindex: false,
@@ -41,7 +34,7 @@ const CONFIG = {
     },
 
     post: {
-      permalink: '/blog/%slug%',
+      permalink: '/blog/%id%',
       // pathname: '', // empty for /some-post, value for /pathname/some-post
       noindex: false,
       disabled: false,
@@ -60,13 +53,9 @@ const CONFIG = {
     },
   },
 
-
-
-  
   game: {
     disabled: false,
     postsPerPage: 30,
-    // TODO: Change?
     list: {
       pathname: 'game', // blog main path, you can change this to "articles" (/articles)
       noindex: false,
@@ -74,7 +63,7 @@ const CONFIG = {
     },
 
     post: {
-      permalink: '/game/%slug%',
+      permalink: '/game/%id%',
       // pathname: '', // empty for /some-post, value for /pathname/some-post
       noindex: false,
       disabled: false,
@@ -93,11 +82,9 @@ const CONFIG = {
     },
   },
 
-
   podcast: {
     disabled: false,
     postsPerPage: 15,
-    // TODO: Change?
     list: {
       pathname: 'podcasts', // blog main path, you can change this to "articles" (/articles)
       noindex: false,
@@ -105,7 +92,7 @@ const CONFIG = {
     },
 
     post: {
-      permalink: '/podcast/%slug%',
+      permalink: '/podcast/%id%',
       // pathname: '', // empty for /some-post, value for /pathname/some-post
       noindex: false,
       disabled: false,
@@ -135,7 +122,7 @@ const CONFIG = {
     },
 
     post: {
-      permalink: '/book/%slug%',
+      permalink: '/book/%id%',
       // pathname: '', // empty for /some-post, value for /pathname/some-post
       noindex: false,
       disabled: false,
@@ -154,11 +141,9 @@ const CONFIG = {
     },
   },
 
-  
   event: {
     disabled: false,
     postsPerPage: 15,
-    // TODO: Change?
     list: {
       pathname: 'events', // blog main path, you can change this to "articles" (/articles)
       noindex: false,
@@ -166,7 +151,7 @@ const CONFIG = {
     },
 
     post: {
-      permalink: '/event/%slug%',
+      permalink: '/event/%id%',
       // pathname: '', // empty for /some-post, value for /pathname/some-post
       noindex: false,
       disabled: false,
@@ -195,7 +180,7 @@ const CONFIG = {
     },
 
     client: {
-      permalink: '/client/%slug%',
+      permalink: '/client/%id%',
       // pathname: '', // empty for /some-post, value for /pathname/some-post
       noindex: false,
       disabled: false,

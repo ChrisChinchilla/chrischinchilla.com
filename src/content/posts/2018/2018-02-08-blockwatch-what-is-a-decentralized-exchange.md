@@ -11,7 +11,7 @@ tags:
   - security
   - decentralized exchange
 publication_url: "https://dzone.com/articles/blockwatch-what-is-a-decentralized-exchange"
-image: "../../../assets/images/articles/8090160.jpeg"
+image: "/src/assets/images/articles/8090160.jpeg"
 
 ---
 In this article, we tackle this question and take a look at some 'developer friendly' platforms that can be used to work with decentralized exchanges.

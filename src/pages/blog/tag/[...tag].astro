@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
 import Post from '~/components/Post.astro';
 import { getCollection } from 'astro:content';
+
 // TODO: Paginate 😱
 export async function getStaticPaths() {
   const allPosts = await getCollection('posts');

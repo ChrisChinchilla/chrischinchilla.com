@@ -2,7 +2,7 @@
 title: 'Teaching People to Code — Part 1, Talking to Beginners'
 publishDate: 2016-05-03T00:00:00.000Z
 publication_url: 'https://medium.com/@ChrisChinchilla/teaching-people-to-code-part-1-talking-to-beginners-ff47c44a01f0#.z8v3cc2xc/'
-image: "../../../assets/images/articles/basic.png"
+image: "/src/assets/images/articles/basic.png"
 categories:
  - writing
  - theweeklysqueak

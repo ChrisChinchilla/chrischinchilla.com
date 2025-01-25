@@ -4,7 +4,7 @@ publication_url: 'https://www.sitepoint.com/managing-data-storage-with-blockchai
 
 
 title: Managing data storage with block chain and big chain DB
-image: "../../../assets/images/articles/image-managing-data-storage.jpg"
+image: "/src/assets/images/articles/image-managing-data-storage.jpg"
 categories:
  - writing
  - sitepoint

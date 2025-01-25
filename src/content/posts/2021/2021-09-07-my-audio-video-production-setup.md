@@ -9,7 +9,7 @@ tags:
   - audio
   - podcast
   - streaming
-image: "../../../assets/images/articles/IMG_20210609_172640.jpeg"
+image: "/src/assets/images/articles/IMG_20210609_172640.jpeg"
 
 ---
 

@@ -1,21 +1,23 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
 import { Image } from 'astro:assets';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
+import defaultPostImage from '/src/assets/images/defaults/blog-chinchilla.jpg'
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('posts');
   return blogEntries.map((entry) => ({
-    params: { slug: entry.slug },
+    params: { id: entry.id },
     props: { entry },
   }));
 }
 
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 
 <MarkdownPostLayout frontmatter={entry.data}>
-  <Image src={entry.data.image} alt={entry.data.title} class="object-cover w-full h-full mb-6 rounded drop-shadow-lg" />
+  <Image   src={entry.data.image ? entry.data.image : defaultPostImage}
+  alt={entry.data.title} class="object-cover w-full h-full mb-6 rounded drop-shadow-lg" />
   <Content />
 </MarkdownPostLayout>

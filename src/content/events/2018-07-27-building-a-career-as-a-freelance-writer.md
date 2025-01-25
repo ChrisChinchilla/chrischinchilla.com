@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Building a career as a freelance writer
 event: Freelance Friday Berlin

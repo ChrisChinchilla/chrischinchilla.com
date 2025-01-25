@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Preventing the Techpocalypse
 event: Katapult Future fest

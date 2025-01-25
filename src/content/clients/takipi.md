@@ -1,9 +1,9 @@
 ---
 type: blogging
 title: Takipi
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://blog.takipi.com/'
-image: ~/assets/images/clients/takipi.png
+image: /src/assets/images/clients/takipi.png
 category: Chris writing
 start_date: 2017
 end_date: 2018

@@ -16,7 +16,7 @@ tags:
   - elementary os
   - arch linux
 publication_url: "https://dzone.com/articles/-revisiting-desktop-linux-drowning-in-the-deep-end"
-image: "../../../assets/images/articles/12848130.jpeg"
+image: "/src/assets/images/articles/12848130.jpeg"
 
 ---
 Embark on the start of a new journey in Linux with our shiny new Dell XPS 13". Let's get started.

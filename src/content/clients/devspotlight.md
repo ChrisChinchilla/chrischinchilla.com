@@ -1,13 +1,13 @@
 ---
 type: Blogging
 title: Dev Spotlight
-image: ~/assets/images/clients/devspotlight.png
+image: /src/assets/images/clients/devspotlight.png
 category: Chris
 tags:
 - DevOps
 - Programming
 - JavaScript
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.devspotlight.com/'
 start_date: 2020
 end_date: Ongoing

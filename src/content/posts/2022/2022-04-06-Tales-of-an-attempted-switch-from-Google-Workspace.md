@@ -8,7 +8,7 @@ categories:
 tags:
   - Google
   - Productivity
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 ---
 
 Many years ago, I took over a small publishing company, that's an

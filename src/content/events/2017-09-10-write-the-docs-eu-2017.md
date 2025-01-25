@@ -1,6 +1,6 @@
 ---
 action: to speak about
-layout: "../../layouts/Event.astro"
+
 
 title: Documentation beyond words
 event: Write the Docs EU

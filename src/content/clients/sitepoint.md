@@ -1,9 +1,9 @@
 ---
 type: blogging
 title: Sitepoint
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://sitepoint.com/'
-image: ~/assets/images/clients/sitepoint.png
+image: /src/assets/images/clients/sitepoint.png
 category: Chris writing editing
 start_date: 2014
 end_date: 2017

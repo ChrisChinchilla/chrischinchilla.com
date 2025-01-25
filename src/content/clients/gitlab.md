@@ -1,9 +1,9 @@
 ---
 type: blogging
 title: GitLab
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://about.gitlab.com/blog'
-image: ~/assets/images/clients/gitlab.png
+image: /src/assets/images/clients/gitlab.png
 start_date: 2020
 end_date: 2020
 tags:

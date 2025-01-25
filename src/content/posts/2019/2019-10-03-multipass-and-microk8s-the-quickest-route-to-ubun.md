@@ -14,7 +14,7 @@ tags:
   - vm
   - canonical
 publication_url: "https://dzone.com/articles/-multipass-and-microk8s-the-quickest-route-to-ubun"
-image: "../../../assets/images/articles/12538752.jpeg"
+image: "/src/assets/images/articles/12538752.jpeg"
 
 ---
 

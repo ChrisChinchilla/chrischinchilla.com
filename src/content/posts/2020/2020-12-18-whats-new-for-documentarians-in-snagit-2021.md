@@ -9,7 +9,7 @@ tags:
   - Screenshots
   - Tools
 publication_url: https://medium.com/@chrischinchilla/whats-new-for-documentarians-in-snagit-2021-24ce729fa87e
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 ---
 
 I ran a live stream a while back where I looked at new features in

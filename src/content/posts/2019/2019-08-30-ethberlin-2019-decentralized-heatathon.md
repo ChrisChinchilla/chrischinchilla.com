@@ -9,7 +9,7 @@ tags:
   - berlin
   - events
 publication_url: "https://kauri.io/article/09019039d2564449a129f7f415b79187"
-image: "../../../assets/images/articles/QmTFWWEboNpDm3ijRBaM21djhyB7JqkD1TC6ZSwSAJqtHt.png"
+image: "/src/assets/images/articles/QmTFWWEboNpDm3ijRBaM21djhyB7JqkD1TC6ZSwSAJqtHt.png"
 
 ---
 

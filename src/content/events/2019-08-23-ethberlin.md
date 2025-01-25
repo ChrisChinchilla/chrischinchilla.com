@@ -1,7 +1,7 @@
 ---
 action: Creating the knowledge base for
 event: ETHBerlin
-layout: "../../layouts/Event.astro"
+
 venue: Factory Berlin Goerlitzer Park
 
 pres_url: 'https://ethberlinzwei.com/'

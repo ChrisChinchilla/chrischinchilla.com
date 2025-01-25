@@ -1,13 +1,13 @@
 ---
 type: Technical writing
 title: Ethereum Foundation
-image: ~/assets/images/clients/ethereum-logo-1c9a722bb1-seeklogo.com.png
+image: /src/assets/images/clients/ethereum-logo-1c9a722bb1-seeklogo.com.png
 category: Chris
 tags:
 - documentation
 - blockchain
 - ethereum
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.ethereum.org/'
 work_link:
 - https://docs.soliditylang.org/en/v0.8.0/

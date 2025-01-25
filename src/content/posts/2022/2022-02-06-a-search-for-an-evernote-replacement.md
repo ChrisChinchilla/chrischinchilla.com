@@ -8,7 +8,7 @@ categories:
 tags:
   - Evernote
   - Productivity
-image: "../../../assets/images/articles/1*MH_eaqejlm7i6PmMzV4ahA.webp"
+image: "/src/assets/images/articles/1*MH_eaqejlm7i6PmMzV4ahA.webp"
 ---
 
 I was a happy, loyal, and paying

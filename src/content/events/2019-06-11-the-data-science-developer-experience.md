@@ -2,7 +2,7 @@
 action: to speak about
 title: The Ethics of Data
 event: The Data Science & Developer Experience
-layout: "../../layouts/Event.astro"
+
 venue: 'Bikini Berlin, Budapester Str. 38-50, 10787, Berlin'
 
 pres_url: 'https://www.ibm.com/de-de/events/thinkatibm/events/datadev.html'

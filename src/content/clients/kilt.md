@@ -1,9 +1,9 @@
 ---
 type: Technical writing
 title: KILT
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.kilt.io'
-image: "~/assets/images/clients/kilt.png"
+image: "/src/assets/images/clients/kilt.png"
 start_date: 2023
 end_date: 2024
 tags:

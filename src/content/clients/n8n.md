@@ -1,14 +1,14 @@
 ---
 type: Technical writing
 title: n8n
-image: ~/assets/images/clients/n8n.svg
+image: /src/assets/images/clients/n8n.svg
 category: Chris
 tags:
 - documentation
 - automation
 - hosting
 - Containers
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://n8n.io'
 work_link: https://n8n.io
 start_date: 2023

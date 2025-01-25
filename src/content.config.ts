@@ -1,12 +1,17 @@
 import { z, defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+// TODO: This used to be possible
+// import defaultBlogImage from '~/src/assets/images/defaults/blog-chinchilla.jpg'
 
 const posts = defineCollection({
-  type: 'content', // v2.5.0 and later
+  // type: 'content', // v2.5.0 and later
+  loader: glob({ pattern: '**/*.{md,mdx}', base: "./src/content/posts" }),
   schema: ({ image }) => z.object({
     title: z.string(),
     // description: z.string().optional(),
-    // TODO: Rollout
-    image: image().optional().default('../../../assets/images/defaults/blog-chinchilla.jpg'),
+    // TODO: This used to be possible
+    // image: image().optional().default(defaultBlogImage),
+    image: image().optional(),
     publication_url: z.string().url().optional(),
 
     // canonical: z.string().url().optional(),
@@ -22,7 +27,8 @@ const posts = defineCollection({
 });
 
 const games = defineCollection({
-  type: 'content', // v2.5.0 and later
+  // type: 'content', // v2.5.0 and later
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/games" }),
   schema: ({ image }) => z.object({
     title: z.string(),
     image: z.union([z.string().url(), image()]),
@@ -34,7 +40,8 @@ const games = defineCollection({
 });
 
 const events = defineCollection({
-  type: 'content', // v2.5.0 and later
+  // type: 'content', // v2.5.0 and later
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/events" }),
   schema: ({ image }) => z.object({
     title: z.string().optional(),
     action: z.string().optional(),
@@ -48,7 +55,8 @@ const events = defineCollection({
 });
 
 const clients = defineCollection({
-  type: 'content', // v2.5.0 and later
+  // type: 'content', // v2.5.0 and later
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/clients" }),
   schema: ({ image }) => z.object({
     type: z.string(),
     title: z.string(),
@@ -70,7 +78,8 @@ const clients = defineCollection({
 });
 
 const books = defineCollection({
-  type: 'content', // v2.5.0 and later
+  // type: 'content', // v2.5.0 and later
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/books" }),
   schema: ({ image }) => z.object({
     title: z.string(),
     // description: z.string(),
@@ -84,7 +93,8 @@ const books = defineCollection({
 });
 
 const av = defineCollection({
-  type: 'content', // v2.5.0 and later
+  // type: 'content', // v2.5.0 and later
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/av" }),
   schema: ({ image }) => z.object({
     title: z.string(),
     // description: z.string(),
@@ -97,7 +107,8 @@ const av = defineCollection({
 });
 
 const podcasts = defineCollection({
-  type: 'content', // v2.5.0 and later
+  // type: 'content', // v2.5.0 and later
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/podcasts" }),
   schema: z.object({
     title: z.string().optional( ),
     description: z.string().optional(),

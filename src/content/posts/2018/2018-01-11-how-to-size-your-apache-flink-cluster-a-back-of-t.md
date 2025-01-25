@@ -11,7 +11,7 @@ tags:
   - resource planning
   - throughput
 publication_url: "https://data-artisans.com/blog/how-to-size-your-apache-flink-cluster-general-guidelines"
-image: "../../../assets/images/articles/How-to6.png"
+image: "/src/assets/images/articles/How-to6.png"
 
 ---
 &nbsp;Hypothetical Hardware Setup

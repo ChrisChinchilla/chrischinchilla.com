@@ -2,7 +2,7 @@
 title: What Do Apple’s App Store Changes Mean for Developers?
 publishDate: 2016-06-09T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/apples-app-store-changes-developers/'
-image: "../../../assets/images/articles/apple.png"
+image: "/src/assets/images/articles/apple.png"
 categories:
  - writing
  - sitepoint

@@ -1,9 +1,10 @@
 ---
 import { Image } from 'astro:assets';
-// import { findImage } from '~/utils/images';
 import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
 import Tags from '~/components/common/Tags.astro';
+import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
+
 import type { CollectionEntry } from 'astro:content';
 interface Props {
   post: CollectionEntry<'posts'>;
@@ -26,13 +27,11 @@ var url = '';
 if (post.data.publication_url != null) {
   url = post.data.publication_url;
 } else {
-  url = '/blog/' + post.slug;
+  url = '/blog/' + post.id;
 }
-// TODO: Why is slug broken again?
 // Truncate text
 // TODO: Better way?
 // TODO: Make to helper or plugin
-// var truncatedText = body.split("</p>");
 
 const truncatedBody = truncateMarkdown(post.body, {
   limit: 500,
@@ -43,19 +42,8 @@ const truncatedBody = truncateMarkdown(post.body, {
 <!-- TODO: Tidy and fix grid -->
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.data.image ? 'md:grid-cols-2' : ''}`}>
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
-    <!-- <Picture
-      src={featured_image ? featured_image : '~/assets/images/default.png'}
-      class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
-      widths={[450, 900]}
-      sizes="(max-width: 900px) 450px, 900px"
-      alt={post.data.title}
-      aspectRatio="16:9"
-      loading="lazy"
-      decoding="async"
-      fetchpriority="auto"
-    /> -->
     <Image
-      src={post.data.image}
+      src={post.data.image ? post.data.image : defaultPostImage}
       alt={post.data.title}
       class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
     />

@@ -1,7 +1,7 @@
 ---
 title: Mobile and Web App Testing with Sauce Labs
 publishDate: '2017-05-21 11:13:30 +0100'
-image: "../../../assets/images/articles/IkgItC1R_400x400.jpg"
+image: "/src/assets/images/articles/IkgItC1R_400x400.jpg"
 categories:
  - writing
  - dzone

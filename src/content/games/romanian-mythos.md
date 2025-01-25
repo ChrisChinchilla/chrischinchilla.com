@@ -1,6 +1,6 @@
 ---
 title: Romanian Mythos - Sourcebook of Horrors for Lovecraftian RPGs
-image: "~/assets/images/games/454061.png"
+image: "/src/assets/images/games/454061.png"
 publisher: Chaos Badger Publishing
 publish_date: 2023-09-25
 role: Development editor

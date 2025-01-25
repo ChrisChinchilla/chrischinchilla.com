@@ -1,9 +1,9 @@
 ---
 type: blogging
 title: CodeShip
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://blog.codeship.com/'
-image: "~/assets/images/clients/codeship.png"
+image: "/src/assets/images/clients/codeship.png"
 start_date: 2016
 end_date: 2018
 tags:

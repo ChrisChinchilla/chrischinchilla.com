@@ -1,6 +1,6 @@
 ---
 title: Fairytale Fables of the Feywild
-image: "~/assets/images/games/473859.jpg"
+image: "/src/assets/images/games/473859.jpg"
 publisher: Art of Karthik
 publish_date: 2024-03-23
 role: Proofreader

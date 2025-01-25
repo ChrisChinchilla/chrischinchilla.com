@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: "../../../assets/images/articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png"
+image: "/src/assets/images/articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png"
 ---
 
 Some time ago, [I mentioned a process I tried](https://medium.com/geekculture/migrating-applications-and-data-to-a-new-mac-without-using-time-machine-240e1de77892)that allowed me to partially recreate my Mac setup on

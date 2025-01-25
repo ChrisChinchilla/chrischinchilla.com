@@ -1,6 +1,6 @@
 ---
 action: handling social media and writing day at
-layout: "../../layouts/Event.astro"
+
 event: Write the Docs EU
 start_date: 2020-10-18T12:20:00.000Z
 end_date: 2020-10-20T12:20:00.000Z

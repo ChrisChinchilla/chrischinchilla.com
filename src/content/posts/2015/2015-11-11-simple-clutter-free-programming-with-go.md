@@ -2,7 +2,7 @@
 
 title: Simple, Clutter-free Programming with Go
 publishDate: 2015-11-11
-image: "../../../assets/images/articles/image-simple-clutter-free-programming.jpg"
+image: "/src/assets/images/articles/image-simple-clutter-free-programming.jpg"
 categories:
  - writing
  - chrischinchilla

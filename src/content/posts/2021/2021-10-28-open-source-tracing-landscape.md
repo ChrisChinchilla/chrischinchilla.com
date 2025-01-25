@@ -9,7 +9,7 @@ tags:
   - open source
   - tracing
 publication_url: https://chronosphere.io/learn/the-open-source-tracing-landscape/
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 

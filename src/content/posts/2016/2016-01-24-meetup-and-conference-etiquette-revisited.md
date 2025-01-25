@@ -9,7 +9,7 @@ tags:
  - meetups
  - conferences
  - culture
-image: "../../../assets/images/articles/image-meetup-etiquette.jpg"
+image: "/src/assets/images/articles/image-meetup-etiquette.jpg"
 ---
 
 I don't have an particular themes from the week I can remember in enough detail to discuss this week, so thought it time I dragged out one of my long term 'topics to discuss'.

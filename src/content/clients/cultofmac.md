@@ -1,9 +1,9 @@
 ---
 type: blogging
 title: Cult of Mac
-layout: "../../layouts/Client.astro"
+
 company_url: 'https://www.cultofmac.com/'
-image: ~/assets/images/clients/cultofmac.png
+image: /src/assets/images/clients/cultofmac.png
 category: Chris writing
 start_date: 2017
 end_date: 2018

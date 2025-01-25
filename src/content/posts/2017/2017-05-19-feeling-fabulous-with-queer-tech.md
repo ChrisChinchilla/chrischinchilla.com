@@ -1,7 +1,7 @@
 ---
 title: 'Feeling Fabulous With Queer Tech at #UNIT Berlin'
 publishDate: 2017-05-19T00:00:00.000Z
-image: "../../../assets/images/articles/unit.jpg"
+image: "/src/assets/images/articles/unit.jpg"
 categories:
  - writing
  - hackernoon

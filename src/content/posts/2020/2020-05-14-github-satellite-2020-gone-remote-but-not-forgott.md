@@ -15,7 +15,7 @@ tags:
   - secrets management
   - ide
 publication_url: "https://dzone.com/articles/-github-satellite-2020-gone-remote-but-not-forgott"
-image: "../../../assets/images/articles/13418805.jpeg"
+image: "/src/assets/images/articles/13418805.jpeg"
 
 ---
 Another remote event for 2020, but GitHub Satellite still managed to pack some impressive feature announcements, and a good dose of humor in these trying times.

@@ -1,6 +1,6 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { defineConfig,squooshImageService } from 'astro/config';
+import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
@@ -14,10 +14,6 @@ const whenExternalScripts = (items = []) => SITE.googleAnalyticsId ? Array.isArr
 
 // https://astro.build/config
 export default defineConfig({
-  // TODO: Fix this issue with netlify
-  image: {
-    service: squooshImageService(),
-  },
   site: SITE.origin,
   base: SITE.basePathname,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
@@ -26,14 +22,14 @@ export default defineConfig({
     icon({
       // TODO: Streamline to only include needed
       include: {
-        tabler: ['*'],
-        'simple-line-icons': ['*'],
-        fa: ['*'],
-        carbon: ['*'],
-        fluent: ['*'],
-        ri: ['*'],
-        ph: ['*'],
-        'simple-icons': ['*']
+        tabler: ['brand-youtube', 'brand-medium', 'brand-patreon', 'brand-github', 'brand-linkedin', 'mail', 'brand-bluesky', 'brand-tiktok', 'brand-twitter', 'brand-threads', 'brand-mastodon','menu','chevron-down','rss','brand-discord','download','brand-facebook'],
+        'simple-line-icons': ['social-spotify'],
+        fa: ['podcast'],
+        carbon: ['calendar-heat-map'],
+        fluent: ['people-audience-20-filled'],
+        ri: ['money-euro-circle-fill'],
+        ph: ['pencil-circle-bold'],
+        'simple-icons': ['applepodcasts', 'amazonmusic','pocketcasts']
       }
     }),
     tailwind({

@@ -1,7 +1,7 @@
 ---
 title: Drupal Melbourne Meetup Nov 2013
 publishDate: 2013-11-20T09:46:52.000Z
-image: "../../../assets/images/articles/druplicon.large_.png"
+image: "/src/assets/images/articles/druplicon.large_.png"
 categories:
  - writing
  - chrischinchilla

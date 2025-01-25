@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Event.astro"
+
 title: Blogging with Drupal
 event: Drupal Melbourne
 pres_url: 'https://www.slideshare.net/chrischinchilla/blogging-with-drupal'

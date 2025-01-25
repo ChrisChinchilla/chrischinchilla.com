@@ -11,6 +11,6 @@ tags:
   - natural language processing
   - machine learning
 publication_url: "https://dzone.com/articles/how-to-program-a-robot"
-image: "../../../assets/images/articles/7032986.jpeg"
+image: "/src/assets/images/articles/7032986.jpeg"
 ---
 Anyone interested in getting started with programming robots should check out this interview. Learn what it takes to program a robot.

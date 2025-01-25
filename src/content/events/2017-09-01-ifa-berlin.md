@@ -1,6 +1,6 @@
 ---
 action: to hear about
-layout: "../../layouts/Event.astro"
+
 categories:
 title: the latest tech news
 event: IFA

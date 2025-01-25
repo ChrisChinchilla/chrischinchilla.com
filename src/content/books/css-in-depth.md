@@ -3,7 +3,7 @@ title: CSS in Depth, 2nd Edition
 publisher: Manning
 role: Technical reviewer
 publish_date: 2024-02-18
-image: "~/assets/images/defaults/book-chinchilla.jpg"
+image: "/src/assets/images/defaults/book-chinchilla.jpg"
 store_urls:
   - label: Manning
     url: https://www.manning.com/books/css-in-depth-second-edition

@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - web browsers
-image: "../../../assets/images/articles/1*8NhAJxnIZ4q65Ay-0uBKUw.png"
+image: "/src/assets/images/articles/1*8NhAJxnIZ4q65Ay-0uBKUw.png"
 ---
 
 I have long been concerned about the state of browsers and the dominant

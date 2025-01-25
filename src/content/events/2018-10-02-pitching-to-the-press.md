@@ -1,6 +1,6 @@
 ---
 action: speaks about
-layout: "../../layouts/Event.astro"
+
 
 title: Pitching to the Press
 event: Projector

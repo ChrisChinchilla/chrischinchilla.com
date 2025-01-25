@@ -1,6 +1,6 @@
 ---
 action: to hear about
-layout: "../../layouts/Event.astro"
+
 
 title: Tell me what you're working on
 event: Finovate Dubai

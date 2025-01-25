@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Event.astro"
+
 title: 'Tweak, Test and Debug your mobile apps'
 event: Web directions Code 13
 pres_url: 'https://www.slideshare.net/chrischinchilla/web-directions-code'

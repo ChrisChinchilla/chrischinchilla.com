@@ -1,6 +1,6 @@
 ---
 title: Solemn Scriptures of the Battle Nuns of the Mercyful Sepulcher
-image: "~/assets/images/games/nun-cover900.jpg-832.jpeg"
+image: "/src/assets/images/games/nun-cover900.jpg-832.jpeg"
 publisher: Mottokrosh Machinations
 publish_date: 2022-06-05
 role: Proofreader
