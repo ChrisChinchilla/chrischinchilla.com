@@ -3,7 +3,7 @@
 title: Projects Site Redevelopment Complete
 publishDate: 2015-01-10T16:04:10.000Z
 categories: projects
-image: "../../../assets/images/articles/gm_siteplan.png"
+image: "/src/assets/images/articles/gm_siteplan.png"
 ---
 
 I have just finished getting in place the basic structures behind the sites for my new projects and redeveloping my older sites accordingly.

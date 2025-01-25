@@ -8,7 +8,7 @@ tags:
   - documentation
   - writing
 publication_url: "https://kauri.io/article/203c87d1ee4b4444b0139fe054f28607"
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 

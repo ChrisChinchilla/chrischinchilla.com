@@ -3,7 +3,7 @@ title: Collective Verses Volume II
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2022-06-01
-image: ~/assets/images/books/397653.png
+image: /src/assets/images/books/397653.png
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/product/397653/Collective-Verses--Volume-II

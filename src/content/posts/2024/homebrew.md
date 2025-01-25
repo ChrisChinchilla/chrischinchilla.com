@@ -8,7 +8,7 @@ categories:
 tags:
   - macOS
   - Homebrew
-image: "../../../assets/images/articles/hb.jpeg"
+image: "/src/assets/images/articles/hb.jpeg"
 ---
 
 Installing and updating applications and other dependencies on a computer really should be a solved problem by now. Yet almost every major desktop operating system provides multiple options, with no real clear answer to “which is best.”

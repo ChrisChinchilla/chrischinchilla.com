@@ -9,7 +9,7 @@ tags:
   - prometheus
   - promql
 publication_url: https://chronosphere.io/learn/open-source-monitoring-landscape/
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 

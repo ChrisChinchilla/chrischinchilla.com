@@ -3,7 +3,7 @@ type: marketing
 title: Envato
 
 company_url: 'https://envato.com'
-image: ~/assets/images/clients/envato.png
+image: /src/assets/images/clients/envato.png
 category: Chris writing
 start_date: 2017
 end_date: 2017

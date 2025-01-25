@@ -9,7 +9,7 @@ tags:
   - mobile
   - android
 publication_url: "https://medium.com/@chrischinchilla/the-pixel-6-to-google-or-not-to-google-f3938b718f57"
-image: "../../../assets/images/articles/1*IX-odNWMBhpz5RdNPkXT5Q.jpg"
+image: "/src/assets/images/articles/1*IX-odNWMBhpz5RdNPkXT5Q.jpg"
 ---
 
 I am one of those rare and crazy people that owned the one and only

@@ -1,7 +1,7 @@
 ---
 title: What people want from websites
 publishDate: 2013-12-05T09:54:37.000Z
-image: "../../../assets/images/articles/whatpeoplewantfromwebsites-sales.png"
+image: "/src/assets/images/articles/whatpeoplewantfromwebsites-sales.png"
 categories:
  - writing
  - chrischinchilla

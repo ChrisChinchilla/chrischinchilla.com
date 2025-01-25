@@ -7,7 +7,7 @@ categories:
 tags:
  - greatidea
  - socialmedia
-image: "../../../assets/images/articles/buffer.png"
+image: "/src/assets/images/articles/buffer.png"
 ---
 
 I've been using buffer for ages, but not got around to writing anything about it, so now I met appear to be following the pack somewhat.

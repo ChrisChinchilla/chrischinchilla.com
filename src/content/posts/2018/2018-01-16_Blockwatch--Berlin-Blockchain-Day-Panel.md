@@ -8,7 +8,7 @@ tags:
   - Computing
   - Event
 publication_url: "https://medium.com/@chrischinchilla/blockwatch-berlin-blockchain-day-panel-22528d94933c"
-image: "../../../assets/images/articles/7672529.jpeg"
+image: "/src/assets/images/articles/7672529.jpeg"
 
 ---
 

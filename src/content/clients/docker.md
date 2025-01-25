@@ -3,7 +3,7 @@ type: Technical writing
 title: Docker
 
 company_url: 'https://docker.com'
-image: "~/assets/images/clients/docker.svg"
+image: "/src/assets/images/clients/docker.svg"
 start_date: 2023
 end_date: 2023
 tags:

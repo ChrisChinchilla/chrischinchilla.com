@@ -3,7 +3,7 @@ type: blogging
 title: Humanitec
 
 company_url: 'https://humanitec.com/'
-image: ~/assets/images/clients/humanitec.png
+image: /src/assets/images/clients/humanitec.png
 start_date: 2020
 end_date: ongoing
 tags:

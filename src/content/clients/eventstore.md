@@ -4,7 +4,7 @@ title: Event Store
 
 company_url: 'https://eventstore.org'
 work_link: https://developers.eventstore.com
-image: ~/assets/images/clients/event-store.png
+image: /src/assets/images/clients/event-store.png
 category: Chris writing
 start_date: 2017
 end_date: 2020

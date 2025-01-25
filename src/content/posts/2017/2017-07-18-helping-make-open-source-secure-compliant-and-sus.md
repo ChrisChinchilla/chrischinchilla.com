@@ -14,7 +14,7 @@ tags:
   - integration
 publication_url: "https://dzone.com/articles/helping-make-open-source-secure-compliant-and-sust"
 
-image: "../../../assets/images/articles/5947880.jpeg"
+image: "/src/assets/images/articles/5947880.jpeg"
 ---
 Flexera Software offers tools for producers and consumers of open source software to help ensure compliance and security of open source software in enterprise.
 

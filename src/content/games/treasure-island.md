@@ -1,6 +1,6 @@
 ---
 title: Return to Treasure Island - A Pirate Adventure!
-image: "~/assets/images/games/423696.jpg"
+image: "/src/assets/images/games/423696.jpg"
 publisher: Art of Karthik
 publish_date: 2023-01-17
 role: Proofreader

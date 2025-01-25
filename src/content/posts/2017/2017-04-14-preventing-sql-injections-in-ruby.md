@@ -1,7 +1,7 @@
 ---
 title: Preventing SQL injections in Ruby (and other vulnerabilities)
 publishDate: '2017-04-14 11:13:30 +0100'
-image: "../../../assets/images/articles/SQL-azure-logo-large.png"
+image: "/src/assets/images/articles/SQL-azure-logo-large.png"
 categories:
  - writing
  - sqreen

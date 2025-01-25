@@ -1,6 +1,5 @@
 ---
-import { Image } from 'astro:assets';
-// import { findImage } from '~/utils/images';
+import ImageComponent from '../components/ImageComponent.astro';
 // TODO: This is now legacy, so need better solution
 import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
@@ -64,12 +63,9 @@ var idOfTitle = slugify(book.data.title);
   <div
     class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
   >
-    <Image
-      src={book.data.image}
-      alt={book.data.title}
-      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-    />
-  
+    <ImageComponent imagePath={book.data.image} altText={book.data.title}
+    classes="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+    /> 
   </div>
 
   <div class="mt-2">

@@ -4,7 +4,7 @@ publishDate: '2016-01-28'
 categories:
  - projects
  - chipshop
-image: "../../../assets/images/articles/image-playtesting-is-open-again.jpg"
+image: "/src/assets/images/articles/image-playtesting-is-open-again.jpg"
 tags:
  - games
  - playtesting

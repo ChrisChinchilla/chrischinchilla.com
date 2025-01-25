@@ -1,6 +1,6 @@
 ---
 title: Penance of Charity - A Summer Solstice Adventure
-image: "~/assets/images/games/484496.jpg"
+image: "/src/assets/images/games/484496.jpg"
 publisher: Art of Karthik
 publish_date: 2024-07-29
 role: Proofreader

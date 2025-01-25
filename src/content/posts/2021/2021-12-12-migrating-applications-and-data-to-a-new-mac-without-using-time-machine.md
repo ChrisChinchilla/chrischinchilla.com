@@ -9,7 +9,7 @@ tags:
   - backup
   - homebrew
 publication_url: https://medium.com/@chrischinchilla/migrating-applications-and-data-to-a-new-mac-without-using-time-machine-240e1de77892
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 ---
 
 

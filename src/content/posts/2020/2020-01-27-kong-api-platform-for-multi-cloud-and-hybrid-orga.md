@@ -15,7 +15,7 @@ tags:
   - kong api
   - multi-cloud
 publication_url: "https://dzone.com/articles/-kong-api-platform-for-multi-cloud-and-hybrid-orga"
-image: "../../../assets/images/articles/12971222.jpeg"
+image: "/src/assets/images/articles/12971222.jpeg"
 
 ---
 Kong has evolved significantly from an open-source API gateway, handling just north-south traffic, to a full cycle API management platform.

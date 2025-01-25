@@ -1,7 +1,7 @@
 ---
 title: The realities and challenges of being a digital nomad
 publishDate: '2017-04-11 18:13:30 +0100'
-image: "../../../assets/images/articles/how-to-become-a-digital-nomad.jpg"
+image: "/src/assets/images/articles/how-to-become-a-digital-nomad.jpg"
 categories:
  - writing envato
 tags:

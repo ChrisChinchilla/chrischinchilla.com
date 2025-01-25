@@ -1,7 +1,7 @@
 ---
 type: Blogging
 title: Sentry
-image: ~/assets/images/clients/sentry.png
+image: /src/assets/images/clients/sentry.png
 category: Chris
 tags:
 - security

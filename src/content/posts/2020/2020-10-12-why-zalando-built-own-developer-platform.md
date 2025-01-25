@@ -8,7 +8,7 @@ tags:
   - DX
   - DevOps
 publication_url: https://humanitec.com/blog/why-zalando-builds-an-own-developer-platform
-image: "../../../assets/images/articles/5f85609a9fe2ef3450198b1e.png"
+image: "/src/assets/images/articles/5f85609a9fe2ef3450198b1e.png"
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: Technical writing
 title: n8n
-image: ~/assets/images/clients/n8n.svg
+image: /src/assets/images/clients/n8n.svg
 category: Chris
 tags:
 - documentation

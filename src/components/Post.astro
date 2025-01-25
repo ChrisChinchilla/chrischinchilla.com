@@ -1,8 +1,5 @@
 ---
-import { Image } from 'astro:assets';
-import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
-import { Debug } from 'astro:components';
-// import { findImage } from '~/utils/images';
+import ImageComponent from '../components/ImageComponent.astro';
 import Markdown from '@astrojs/markdown-component';
 import truncateMarkdown from 'markdown-truncate';
 import Tags from '~/components/common/Tags.astro';
@@ -38,31 +35,13 @@ const truncatedBody = truncateMarkdown(post.body, {
   limit: 500,
   ellipsis: true,
 });
-
 ---
 
 <!-- TODO: Tidy and fix grid -->
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.data.image ? 'md:grid-cols-2' : ''}`}>
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
-    <!-- <Picture
-      src={featured_image ? featured_image : '~/assets/images/default.png'}
-      class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg"
-      widths={[450, 900]}
-      sizes="(max-width: 900px) 450px, 900px"
-      alt={post.data.title}
-      aspectRatio="16:9"
-      loading="lazy"
-      decoding="async"
-      fetchpriority="auto"
-    /> -->
-    
-    <Debug {post.data.image} />
-
-    <Debug {defaultPostImage} />
-    <Image
-      src={post.data.image ? post.data.image : defaultPostImage}
-      alt={post.data.title}
-      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+    <ImageComponent imagePath={post.data.image} altText={post.data.title}
+    classes="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
     />
   </div>
 

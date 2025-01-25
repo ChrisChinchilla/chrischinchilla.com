@@ -3,7 +3,7 @@ title: Neon Pilgrim
 publisher: Aduki Independent Press
 role: Publisher
 publish_date: 2009-10-01
-image: ~/assets/images/books/11039527.jpg
+image: /src/assets/images/books/11039527.jpg
 store_urls:
   - label: Goodreads
     url: https://www.goodreads.com/book/show/7106492-neon-pilgrim

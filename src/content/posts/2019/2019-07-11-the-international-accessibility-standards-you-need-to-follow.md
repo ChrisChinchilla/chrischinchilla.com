@@ -1,7 +1,7 @@
 ---
 title: The International Accessibility Standards You Need to Follow
 publishDate: 2019-07-11T12:44:33.827Z
-image: "../../../assets/images/articles/tb_870x22043dccabe89e4489095165891b587bb6b.png"
+image: "/src/assets/images/articles/tb_870x22043dccabe89e4489095165891b587bb6b.png"
 categories:
  - writing
  - telerik

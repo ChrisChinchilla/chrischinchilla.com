@@ -4,7 +4,7 @@ title: here
 
 company_url: 'https://here.com/'
 work_link: https://developer.here.com/documentation/maps/3.1.26.0/dev_guide/index.html
-image: ~/assets/images/clients/here.png
+image: /src/assets/images/clients/here.png
 category: Chris writing
 start_date: 2017
 end_date: 2018

@@ -1,7 +1,7 @@
 ---
 title: Heroku Logging and Coralogix
 publishDate: 2017-07-28
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 categories:
  - writing
  - coralogix

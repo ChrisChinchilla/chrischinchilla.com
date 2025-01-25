@@ -8,7 +8,7 @@ tags:
   - video
   - audio
   - editing
-image: '../../../assets/images/articles/av-hero.png'
+image: '/src/assets/images/articles/av-hero.png'
 ---
 
 [A few years ago I detailed the hardware and software I use for producing my podcasts and videos](https://chrischinchilla.com/blog/2021/2021-09-07-my-audio-video-production-setup/). Since then, I have changed a lot, so it seemed a good time to revisit.

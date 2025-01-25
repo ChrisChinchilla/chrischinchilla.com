@@ -7,7 +7,7 @@ categories:
 tags:
  - dash
  - documentation
-image: "../../../assets/images/articles/dash_trello.png"
+image: "/src/assets/images/articles/dash_trello.png"
 ---
 
 I have loved Kapeli's offline documentation browser, [Dash](https://kapeli.com/dash) for a while now and have been intending to start contributing to it for the best part of 2015.

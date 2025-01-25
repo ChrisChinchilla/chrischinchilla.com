@@ -1,0 +1,21 @@
+---
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+import defaultPostImage from '/src/assets/images/defaults/blog-chinchilla.jpg';
+
+interface Props {
+  imagePath: string;
+  altText: string;
+  classes: string;
+}
+
+const { imagePath, altText, classes } = Astro.props;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/**/*.{jpeg,jpg,png,gif,webp,svg}');
+if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
+---
+
+<Image
+  src={images[imagePath]() ? images[imagePath]() : defaultPostImage}
+  alt={altText}
+  class={classes}
+/>

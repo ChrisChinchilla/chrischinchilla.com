@@ -1,7 +1,7 @@
 ---
 type: Blogging
 title: ReveCom
-image: ~/assets/images/clients/revecom.png
+image: /src/assets/images/clients/revecom.png
 category: Chris
 tags:
 - DevOps

@@ -15,7 +15,7 @@ tags:
   - development
   - security
 publication_url: "https://dzone.com/articles/blockwatch-a-week-in-berlin-blockchain"
-image: "../../../assets/images/articles/9845295.jpeg"
+image: "/src/assets/images/articles/9845295.jpeg"
 
 ---
 In the past week, Berlin has hosted two high-profile blockchain conferences: DAppCon and the Blockchain Visionaries Summit. Click here for some of the highlights.

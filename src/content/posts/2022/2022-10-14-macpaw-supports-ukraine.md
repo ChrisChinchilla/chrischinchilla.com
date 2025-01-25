@@ -10,7 +10,7 @@ tags:
   - MacPaw
   - Security
 publication_url: "https://hackernoon.com/cybersecurity-awareness-month-macpaw-supports-ukraine"
-image: "../../../assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-1a932gz.jpeg"
+image: "/src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-1a932gz.jpeg"
 ---
 It's Cybersecurity awareness month every October and this year I thought I'd share something relevant from my recent trip to cover IT Arena in Lviv, Ukraine.
 

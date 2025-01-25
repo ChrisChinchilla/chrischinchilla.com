@@ -17,7 +17,7 @@ tags:
   - machine learning
   - ai
 publication_url: "https://dzone.com/articles/openstack-summit-berlin-2018-running-your-cloud"
-image: "../../../assets/images/articles/10847788.jpeg"
+image: "/src/assets/images/articles/10847788.jpeg"
 
 ---
 The latest cloud and DevOps news from Berlin.

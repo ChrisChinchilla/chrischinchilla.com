@@ -12,7 +12,7 @@ tags:
   - processing
 publication_url: "https://dzone.com/articles/pepperdata-bringing-devops-practices-to-the-big-da"
 
-image: "../../../assets/images/articles/6293938.jpeg"
+image: "/src/assets/images/articles/6293938.jpeg"
 ---
 I spoke with Pepperdata CEO Ash Munshi about what the company offers and how their customers save hours from running inefficient processing jobs.
 

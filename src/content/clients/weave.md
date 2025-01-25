@@ -1,7 +1,7 @@
 ---
 type: Blogging
 title: Weave
-image: ~/assets/images/clients/weave.png
+image: /src/assets/images/clients/weave.png
 category: Chris
 tags:
 - cloud

@@ -8,7 +8,7 @@ tags:
   - writing
   - documentation
 publication_url: "https://kauri.io/article/cb1cad8db083475389718cbea3217db2"
-image: "../../../assets/images/defaults/blog-chinchilla.jpg"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 
 ---
 Documentation structure applies to your documentation as a whole, and to each page. Let's start at the top and work down.

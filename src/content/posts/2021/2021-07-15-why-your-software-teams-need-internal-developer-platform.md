@@ -1,7 +1,7 @@
 ---
 title: Why your software teams need an internal developer platform
 publishDate: 2021-07-15
-image: "../../../assets/images/articles/internal-developer-platform-self-service-chris-ward.jpg"
+image: "/src/assets/images/articles/internal-developer-platform-self-service-chris-ward.jpg"
 categories:
  - writing
  - techbeacon

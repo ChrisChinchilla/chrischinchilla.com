@@ -6,7 +6,7 @@ categories:
  - chipshop
 tags:
  - games
-image: "../../../assets/images/articles/card_previews.png"
+image: "/src/assets/images/articles/card_previews.png"
 ---
 
 [Chip Shop](https://chipshopgame.com) has been a labour of love for me over the past two years. It has been through many changes and revisions and isn't yet 100%, but I have always needed to get something live before it becomes a never ending process of 'polishing'.

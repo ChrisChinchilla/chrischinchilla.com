@@ -9,7 +9,7 @@ tags:
  - "2015"
  - life
  - personal
-image: "../../../assets/images/articles/image-farewell-2015.jpg"
+image: "/src/assets/images/articles/image-farewell-2015.jpg"
 ---
 
 What better way to start my new blog post and podcast of semi-random uttering and opinions than with a round of the year and thoughts that have led me to starting it in the first place.

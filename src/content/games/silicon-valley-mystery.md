@@ -1,6 +1,6 @@
 ---
 title: Silicon Vallery mystery
-image: "~/assets/images/defaults/game-chinchilla.jpg"
+image: "/src/assets/images/defaults/game-chinchilla.jpg"
 publisher: Self-published
 publish_date: 2022-06-05
 role: Co-designer

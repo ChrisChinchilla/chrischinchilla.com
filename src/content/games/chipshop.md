@@ -1,6 +1,6 @@
 ---
 title: Chip Shop
-image: "~/assets/images/defaults/game-chinchilla.jpg"
+image: "/src/assets/images/defaults/game-chinchilla.jpg"
 publisher: TBC
 role: Designer
 ---

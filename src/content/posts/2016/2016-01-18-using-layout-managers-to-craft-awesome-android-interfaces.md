@@ -5,7 +5,7 @@ publication_url: 'https://www.sitepoint.com/premium/screencasts/layout-managers'
 categories: 
  - writing
  - sitepoint
-image: "../../../assets/images/articles/image-using-layout-managers-to-craftandroid-interfaces.jpg"
+image: "/src/assets/images/articles/image-using-layout-managers-to-craftandroid-interfaces.jpg"
 tags: 
  - tutorial
  - android

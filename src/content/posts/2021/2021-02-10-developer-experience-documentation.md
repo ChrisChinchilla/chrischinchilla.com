@@ -8,7 +8,7 @@ tags:
   - Developer experience
   - Documentation
 publication_url: https://humanitec.com/blog/developer-experience-documentation
-image: "../../../assets/images/articles/60355881479bf2601bb1ec6a_kubernetes-environments-basics-p-800.jpeg"
+image: "/src/assets/images/articles/60355881479bf2601bb1ec6a_kubernetes-environments-basics-p-800.jpeg"
 
 ---
 

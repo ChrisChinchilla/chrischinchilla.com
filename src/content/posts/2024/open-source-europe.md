@@ -9,7 +9,7 @@ tags:
   - Open source
   - Europe
   - FOSDEM
-image: "../../../assets/images/articles/oseu.jpeg"
+image: "/src/assets/images/articles/oseu.jpeg"
 ---
 
 Open source is at a crossroads. For the past few years, venture capital has directly or indirectly paid for many of the contributors and much of the infrastructure it needed to keep going.

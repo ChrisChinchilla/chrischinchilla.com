@@ -7,7 +7,7 @@ tags:
   - boardgames
   - toleplay
   - tools
-image: "../../../assets/images/articles/dice.jpeg"
+image: "/src/assets/images/articles/dice.jpeg"
 
 ---
 

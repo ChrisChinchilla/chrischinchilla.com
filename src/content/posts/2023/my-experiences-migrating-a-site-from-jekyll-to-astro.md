@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: "../../../assets/images/articles/1*7zvSrLaMylyjRuE-Qg8dhg.webp"
+image: "/src/assets/images/articles/1*7zvSrLaMylyjRuE-Qg8dhg.webp"
 ---
 
 In my last post, I looked at the decision process I went through in deciding what to migrate my long time Jekyll-powered website to. I arrived at Astro and in this post I cover my experiences in migrating to and using Astro.

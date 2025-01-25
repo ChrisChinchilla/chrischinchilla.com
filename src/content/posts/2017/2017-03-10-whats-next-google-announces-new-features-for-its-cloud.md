@@ -1,7 +1,7 @@
 ---
 title: What's Next? Google Announces New Features for its Cloud
 publishDate: '2017-03-10 18:13:30 +0100'
-image: "../../../assets/images/articles/cloud-next.jpg"
+image: "/src/assets/images/articles/cloud-next.jpg"
 categories:
  - writing
  - dzone

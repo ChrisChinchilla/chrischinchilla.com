@@ -1,7 +1,7 @@
 ---
 title: A documentation crash course for developers
 publishDate: 2016-10-11T00:00:00.000Z
-image: "../../../assets/images/articles/wtd-prague.jpg"
+image: "/src/assets/images/articles/wtd-prague.jpg"
 categories:
  - writing
  - hackernoon

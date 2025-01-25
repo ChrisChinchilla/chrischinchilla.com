@@ -4,7 +4,7 @@ publishDate: '2015-10-26'
 categories:
  - projects
  - chipshop
-image: "../../../assets/images/articles/cs_tshirt.jpg"
+image: "/src/assets/images/articles/cs_tshirt.jpg"
 ---
 
 Pushing forward to play testing (which has now begun, more on that later) I have been busy cleaning, tidying and streamlining game components after Essen. Here are some updates...

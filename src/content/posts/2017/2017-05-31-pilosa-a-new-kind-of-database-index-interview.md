@@ -12,7 +12,7 @@ tags:
   - bitmap index
 publication_url: "https://dzone.com/articles/pilosa-a-new-kind-of-database-index"
 
-image: "../../../assets/images/articles/5449885.jpeg"
+image: "/src/assets/images/articles/5449885.jpeg"
 ---
 The open-source Pilosa includes production-tested features, including single and multi-node index support, replication, algorithm plugins, a data importer, and more.
 

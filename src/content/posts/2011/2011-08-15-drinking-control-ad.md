@@ -6,7 +6,7 @@ categories:
  - chrischinchilla
 tags:
  - greatidea
-image: "../../../assets/images/articles/IMG_0599.jpg"
+image: "/src/assets/images/articles/IMG_0599.jpg"
 ---
 
 I've sometimes been critical of drinking control ads in the past, generally wondering how effective they really are, but I really liked this one I found in a London toilet.

@@ -1,7 +1,7 @@
 ---
 type: Blogging
 title: Dev Spotlight
-image: ~/assets/images/clients/devspotlight.png
+image: /src/assets/images/clients/devspotlight.png
 category: Chris
 tags:
 - DevOps

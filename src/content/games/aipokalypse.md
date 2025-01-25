@@ -1,6 +1,6 @@
 ---
 title: A.I.Pokalypse
-image: "~/assets/images/games/aipokalypse.jpeg"
+image: "/src/assets/images/games/aipokalypse.jpeg"
 publisher: Owly Mowly
 publish_date: 2024-07-10
 role: English rules editor

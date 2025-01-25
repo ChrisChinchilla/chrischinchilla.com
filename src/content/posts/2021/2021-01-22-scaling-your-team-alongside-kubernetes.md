@@ -9,7 +9,7 @@ tags:
   - teams
   - devops
 publication_url: https://humanitec.com/blog/scaling-your-team-alongside-kubernetes
-image: "../../../assets/images/articles/600aeebbaf0d2cbbcb6d05f5_scaling-your-team-alongside-kubernetes.png"
+image: "/src/assets/images/articles/600aeebbaf0d2cbbcb6d05f5_scaling-your-team-alongside-kubernetes.png"
 
 ---
 
