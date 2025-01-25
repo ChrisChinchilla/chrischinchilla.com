@@ -8,7 +8,7 @@ categories:
 tags:
   - Ruby
   - Programming
-image: "../../../assets/images/articles/ruby.jpeg"
+image: "/src/assets/images/articles/ruby.jpeg"
 ---
 
 Ruby’s creator, Yukihiro Matsumoto (Matz), released the first public version of the programming language in December 1995, making Ruby just shy of its 30th birthday. It spread across Japanese-language Usenet newsgroups, a popular way of exchanging conversation and media before the World Wide Web, and then reached broader communities throughout the late 1990s.

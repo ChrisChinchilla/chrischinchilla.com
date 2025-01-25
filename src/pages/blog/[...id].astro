@@ -1,6 +1,5 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
-import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import ImageComponent from '../../components/ImageComponent.astro';
 
@@ -17,11 +16,10 @@ const { Content } = await entry.render();
 ---
 
 <MarkdownPostLayout frontmatter={entry.data}>
-  <!-- <Image src={entry.data.image} alt={entry.data.title} class="object-cover w-full h-full mb-6 rounded drop-shadow-lg" /> -->
   <ImageComponent
   imagePath={entry.data.image}
   altText={entry.data.title}
-  class="object-cover w-full h-full mb-6 rounded drop-shadow-lg"
+  classes="object-cover w-full h-full mb-6 rounded drop-shadow-lg"
 />
   <Content />
 </MarkdownPostLayout>

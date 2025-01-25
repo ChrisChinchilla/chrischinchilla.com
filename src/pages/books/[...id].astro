@@ -1,12 +1,12 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
-import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
+import ImageComponent from '../../components/ImageComponent.astro';
 
 export async function getStaticPaths() {
   const bookEntries = await getCollection('books');
   return bookEntries.map((entry) => ({
-    params: { slug: entry.slug },
+    params: { id: entry.id },
     props: { entry },
   }));
 }
@@ -16,7 +16,11 @@ const { Content } = await entry.render();
 ---
 
 <MarkdownPostLayout frontmatter={entry.data}>
-  <Image src={entry.data.image} alt={entry.data.title} class="object-cover w-full h-full mb-6 rounded drop-shadow-lg" />
+  <ImageComponent
+  imagePath={entry.data.image}
+  altText={entry.data.title}
+  classes="md:object-cover w-full md:w-auto md:h-full rounded drop-shadow-lg bg-gray-400 dark:bg-slate-700"
+/>
   {
     entry.data.store_urls && (
       

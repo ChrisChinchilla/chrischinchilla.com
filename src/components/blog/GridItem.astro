@@ -1,6 +1,5 @@
 ---
-import { Image } from 'astro:assets';
-// import { findImage } from '~/utils/images';
+import ImageComponent from '../ImageComponent.astro';
 import { BLOG } from '~/config.mjs';
 import type { Post } from '~/types';
 
@@ -20,17 +19,17 @@ if (post.publication_url != null) {
   // TODO: Better way? Why is the slug wrong?
   url = `blog${getPermalink(post.id, 'post')}`.replace('.md', '');
 }
-
 ---
+
 <!-- TODO: Polish -->
 <article class="mb-6 transition px-4">
   <div class="relative md:h-72 max-w-6xl mx-auto bg-gray-400 dark:bg-slate-700 rounded drop-shadow-lg mb-6">
     {
       post.image && (
-        <Image
-          src={post.image}
-          alt={post.title}
-          class="md:object-cover w-full md:w-auto md:h-full rounded drop-shadow-lg bg-gray-400 dark:bg-slate-700"
+        <ImageComponent
+          imagePath={post.image}
+          altText={post.title}
+          classes="md:object-cover w-full md:w-auto md:h-full rounded drop-shadow-lg bg-gray-400 dark:bg-slate-700"
         />
       )
     }

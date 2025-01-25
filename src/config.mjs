@@ -126,7 +126,7 @@ const CONFIG = {
     },
 
     post: {
-      permalink: '/book/%slug%',
+      permalink: '/book/%id%',
       // pathname: '', // empty for /some-post, value for /pathname/some-post
       noindex: false,
       disabled: false,
