@@ -48,12 +48,12 @@ export async function getStaticPaths() {
       if (additionalData) {
         let episodeData = additionalData.data;
         return {
-          params: { slug: slugify(episode.title[0]) },
+          params: { id: slugify(episode.title[0]) },
           props: { episode, episodeData },
         };
       } else {
         return {
-          params: { slug: slugify(episode.title[0]) },
+          params: { id: slugify(episode.title[0]) },
           props: { episode },
         };
       }

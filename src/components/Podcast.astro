@@ -6,7 +6,6 @@ export interface Props {
   podcast: CollectionEntry<'podcasts'>;
 }
 const { podcast } = Astro.props;
-
 // For some reason one feed returns duplicate title as an array
 let podcastTitle;
 if (Array.isArray(podcast.title)) {
@@ -59,7 +58,7 @@ function slugify(str) {
       <!-- TODO: Is there a less brittle way? -->
        <!-- TODO: Find a way to show shows before renaming -->
       {
-        podcast.link === 'https://chrischinchilla.com/podcast' ? (
+        podcast.link.startsWith('https://chrischinchilla.com/podcast') ? (
           <a
             href="/podcast/techlounge"
             class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2  font-medium"
