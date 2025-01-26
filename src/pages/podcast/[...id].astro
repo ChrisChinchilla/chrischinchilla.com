@@ -49,7 +49,6 @@ export function returnFeed(feedURL) {
 export async function getStaticPaths() {
   const wwwPod = await returnFeed('https://anchor.fm/s/ef311c90/podcast/rss');
   const csPod = await returnFeed('https://feeds.simplecast.com/whlwDbyc');
-
   let allEpisodes = wwwPod.rss.channel.item.concat(csPod.rss.channel.item);
   allEpisodes = allEpisodes.sort((a, b) => new Date(b.pubDate).valueOf() - new Date(a.pubDate).valueOf());
 
@@ -69,12 +68,12 @@ export async function getStaticPaths() {
         let episodeData = additionalData.data;
 
         return {
-          params: { slug: slugify(episodeTitle) },
+          params: { id: slugify(episodeTitle) },
           props: { episode, episodeData },
         };
       } else {
         return {
-          params: { slug: slugify(episodeTitle) },
+          params: { id: slugify(episodeTitle) },
           props: { episode },
         };
       }
