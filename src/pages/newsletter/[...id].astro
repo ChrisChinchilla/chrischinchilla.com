@@ -1,0 +1,40 @@
+---
+import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { Image } from 'astro:assets';
+import defaultPostImage from '/src/assets/images/defaults/book-chinchilla.jpg';
+import Link from '../../components/Link.astro';
+
+export async function getStaticPaths() {
+  const newsletterEntried = await getCollection('newsletters');
+  return newsletterEntried.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const links = await fetch(' https://api.raindrop.io/rest/v1/raindrops/45559645?sort=-created&search=%23nextissue', {
+  method: 'GET',
+  headers: {
+    Authorization: `Bearer ${import.meta.env.RAINDROP}`,
+  },
+})
+  .then((response) => response.json())
+  .then((response) => Object.values(response.items));
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<MarkdownPostLayout frontmatter={entry.data}>
+  <Content />
+  <ul>
+    {
+      links.map((link) => (
+        <li class="mb-12 md:mb-20">
+          <Link title={link.title} link={link.link} image={link.cover} domain={link.domain} note={link.note} />
+        </li>
+      ))
+    }
+  </ul>
+</MarkdownPostLayout>
