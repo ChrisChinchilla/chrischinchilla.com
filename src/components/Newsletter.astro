@@ -24,7 +24,7 @@ const truncatedBody = truncateMarkdown(newsletter.body, {
 
 // Format date
 // TODO: Method
-var rawDate = new Date(newsletter.data.publishDate);
+var rawDate = new Date(newsletter.data.date);
 var formattedDate = rawDate.toLocaleString('en-GB', {
   dateStyle: 'short',
   timeZone: 'UTC',
@@ -61,10 +61,10 @@ var idOfTitle = slugify(newsletter.data.title);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${newsletter.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div
+  <!-- <div
     class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
   >
-  </div>
+  </div> -->
 
   <div class="mt-2">
     <header>

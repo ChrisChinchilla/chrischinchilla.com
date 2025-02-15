@@ -13,6 +13,11 @@ export async function getStaticPaths() {
   }));
 }
 
+
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
 const links = await fetch(' https://api.raindrop.io/rest/v1/raindrops/45559645?sort=-created&search=%23nextissue', {
   method: 'GET',
   headers: {
@@ -20,10 +25,10 @@ const links = await fetch(' https://api.raindrop.io/rest/v1/raindrops/45559645?s
   },
 })
   .then((response) => response.json())
-  .then((response) => Object.values(response.items));
-
-const { entry } = Astro.props;
-const { Content } = await render(entry);
+  .then((response) => Object.values(response.items).filter(item => {
+    const createdDate = new Date(item.created);
+    return createdDate <= entry.data.date;
+  }))
 ---
 
 <MarkdownPostLayout frontmatter={entry.data}>
@@ -31,8 +36,8 @@ const { Content } = await render(entry);
   <ul>
     {
       links.map((link) => (
-        <li class="mb-12 md:mb-20">
-          <Link title={link.title} link={link.link} image={link.cover} domain={link.domain} note={link.note} />
+        <li class="mb-12 md:mb-20 list-none">
+          <Link link={link} />
         </li>
       ))
     }
