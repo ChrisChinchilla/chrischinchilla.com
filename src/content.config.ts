@@ -124,11 +124,11 @@ const podcasts = defineCollection({
 const newsletters = defineCollection({
   // type: 'content', // v2.5.0 and later
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/newsletters" }),
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     date: z.date(),
     description: z.string().optional(),
-    image: z.string().optional(),
+    image: z.union([z.string().url(), image()]),
  }),
 });
 
