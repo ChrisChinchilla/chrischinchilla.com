@@ -15,7 +15,7 @@ store_urls:
     url: https://www.amazon.com/dp/B0DQGRTT11
   - label: Print - Amazon
     url: https://www.amazon.com/dp/B0DS9D7SWG
-  - label: eBook - DriveThruFiction
+  - label: Print and eBook - DriveThruFiction
     url: https://www.drivethrufiction.com/product/505735/The-dead-among-us
   - label: eBook - All other stores
     url: https://books2read.com/u/m09D0W

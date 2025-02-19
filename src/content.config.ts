@@ -109,10 +109,10 @@ const av = defineCollection({
 const podcasts = defineCollection({
   // type: 'content', // v2.5.0 and later
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/podcasts" }),
-  schema: z.object({
-    title: z.string().optional( ),
+  schema: ({ image }) => z.object({
+    title: z.string().optional(),
     description: z.string().optional(),
-    image: z.string().optional(),
+    image: z.union([z.string().url(), image()]).optional(),
     audio_preview_url: z.string().optional(),
     player_embed: z.string().optional(),
     descript_embed: z.string().optional(),
