@@ -1,0 +1,51 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import { Pagination } from 'accessible-astro-components';
+import Headline from '~/components/blog/Headline.astro';
+
+import Newsletter from '~/components/Newsletter.astro';
+import { getCollection } from 'astro:content';
+export async function getStaticPaths({ paginate }) {
+  let allNewsletters = await getCollection('newsletters');
+//   allNewsletters = allNewsletters.sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
+
+  return paginate(allNewsletters, {
+    pageSize: 25,
+  });
+}
+
+const { page } = Astro.props;
+const meta = {
+  title: 'Newsletters',
+  description: 'The fiction and non-fiction books I have contributed to, written, or edited.',
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
+---
+
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <ul>
+      {
+        page.data.map((newsletter) => (
+          <li class="mb-12 md:mb-20">
+            <Newsletter newsletter={newsletter} />
+        </li>
+        ))
+      }
+    </ul>
+    <Pagination
+      firstPage={page.url.prev ? '/books' : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next ? `/books/${Math.round(page.total / page.size)}` : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    />
+  </section>
+</Layout>

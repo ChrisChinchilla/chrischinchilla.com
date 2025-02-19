@@ -121,6 +121,17 @@ const podcasts = defineCollection({
   }),
 });
 
+const newsletters = defineCollection({
+  // type: 'content', // v2.5.0 and later
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/newsletters" }),
+  schema: ({ image }) => z.object({
+    title: z.string(),
+    date: z.date(),
+    description: z.string().optional(),
+    image: z.union([z.string().url(), image()]),
+ }),
+});
+
 export const collections = {
   posts: posts,
   clients: clients,
@@ -129,4 +140,5 @@ export const collections = {
   books: books,
   av: av,
   podcasts: podcasts,
+  newsletters: newsletters,
 };
