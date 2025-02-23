@@ -1,7 +1,7 @@
 ---
 type: documentation
 title: Event Store
-
+current: false
 company_url: 'https://eventstore.org'
 work_link: https://developers.eventstore.com
 image: /src/assets/images/clients/event-store.png

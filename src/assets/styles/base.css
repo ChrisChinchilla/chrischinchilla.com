@@ -1,6 +1,8 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+@import "tailwindcss";
+@reference "tailwindcss";
 
 @layer components {
   .btn {
@@ -47,7 +49,7 @@
 /* Chris custom */
 
 .body p{
-  @apply mb-8;
+  @reference mb-8;
 }
 
 .cleanlink {

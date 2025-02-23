@@ -1,7 +1,7 @@
 ---
 type: blogging
 title: Takipi
-current: false
+current: true
 company_url: 'https://blog.takipi.com/'
 image: /src/assets/images/clients/takipi.png
 category: Chris writing

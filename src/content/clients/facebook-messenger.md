@@ -4,9 +4,9 @@ title: Facebook Messenger
 image: /src/assets/images/clients/messenger.png
 category: Chris
 tags:
-- bots
-- writing
-
+  - bots
+  - writing
+current: false
 company_url: 'https://www.messenger.com/'
 start_date: 2018
 end_date: 2018
