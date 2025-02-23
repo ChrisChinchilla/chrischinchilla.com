@@ -1,14 +1,13 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
-// import tailwind from '@astrojs/tailwind';
+import tailwind from '@astrojs/tailwind';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import { remarkReadingTime } from './src/utils/frontmatter.mjs';
 import { SITE } from './src/config.mjs';
-import tailwindcss from '@tailwindcss/vite';
 // import react from "@astrojs/react";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const whenExternalScripts = (items = []) => SITE.googleAnalyticsId ? Array.isArray(items) ? items.map(item => item()) : [items()] : [];
@@ -33,12 +32,11 @@ export default defineConfig({
         'simple-icons': ['applepodcasts', 'amazonmusic','pocketcasts']
       }
     }),
-  //   tailwind({
-  //   config: {
-  //     applyBaseStyles: false
-  //   }
-  // }), 
-  sitemap(), mdx(), ...whenExternalScripts(() => partytown({
+    tailwind({
+    config: {
+      applyBaseStyles: false
+    }
+  }), sitemap(), mdx(), ...whenExternalScripts(() => partytown({
     config: {
       forward: ['dataLayer.push']
     }
@@ -52,12 +50,6 @@ export default defineConfig({
       alias: {
         '~': path.resolve(__dirname, './src')
       }
-    },
-
-    plugins: [tailwindcss({
-        config: {
-          applyBaseStyles: false
-        }
-      })]
+    }
   }
 });
