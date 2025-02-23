@@ -40,7 +40,7 @@ const meta = {
     <ul>
       {
         page.data.map((client) => (
-          <li class={`mb-12 md:mb-20 ${client.data.current === true ? '' : ''}`}>
+          <li class="mb-12 md:mb-20">
             <Client client={client} />
           </li>
         ))

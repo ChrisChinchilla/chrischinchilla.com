@@ -1,17 +1,17 @@
 ---
 type: blogging
-title: Takipi
+title: Parseable
 current: true
-company_url: 'https://blog.takipi.com/'
-image: /src/assets/images/clients/takipi.png
+company_url: 'https://parseable.com/'
+image: /src/assets/images/clients/parseable.png
 category: Chris writing
-start_date: 2017
-end_date: 2018
+start_date: 2024
+end_date: current
 tags:
-  - technology
-  - development
-  - java
-  - containers
+  - logging
+  - database
+  - cloud native
+  - Kubernetes
 ---
 
-OverOps tells you when and why code breaks in production. Takipi is their blog covering Java, Containers and other technologies. I contributed articles to the blog on a regular basis.
+Parseable is a big data database for logging and observability. I help with technical blog posts and videos.
