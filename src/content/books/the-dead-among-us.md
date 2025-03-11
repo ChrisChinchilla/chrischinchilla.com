@@ -15,17 +15,15 @@ store_urls:
     url: https://www.amazon.com/dp/B0DQGRTT11
   - label: Print - Amazon
     url: https://www.amazon.com/dp/B0DS9D7SWG
-  - label: Print and eBook - DriveThruFiction
-    url: https://www.drivethrufiction.com/product/505735/The-dead-among-us
-  - label: eBook - All other stores
+  - label: Amazon, Apple, Kobo, and more
     url: https://books2read.com/u/m09D0W
 ---
 
-**Print coming soon!**
+**Audio book coming soon!**
 
 [Sign up to my mailing list for notifications of release](https://chinchillatales.substack.com).
 
-What happens when the living and the previously dead fall in love?
+_What happens when the living and the previously dead fall in love?_
 
 Ten years after a long and brutal war, there is an uneasy peace between the living and the previously dead. Reluctantly reunited families, industries, and governments struggle to keep the world from falling back into bloody chaos.
 
