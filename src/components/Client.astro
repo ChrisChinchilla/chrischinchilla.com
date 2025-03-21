@@ -17,7 +17,8 @@ const truncatedBody = truncateMarkdown(client.body, {
 });
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${client.data.image ? 'md:grid-cols-2' : ''}`}>
+<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2 ${client.data.current === true ? 'opacity-100' : 'opacity-55'}`}>
+
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
     <Image
       src={client.data.image}
