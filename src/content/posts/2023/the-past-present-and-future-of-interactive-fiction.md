@@ -9,7 +9,7 @@ tags:
   - jekyll
   - websites
   - web development
-image: "/src/assets/images/articles/1*UutqlqFpWNkLpDK3fDcIJw.webp"
+image: "https://miro.medium.com/v2/1*zORLpG0f3IVN0Ga6zuS-eA.jpeg"
 ---
 
 Or, maybe in a more click-generating sub-heading, “how to combine creative writing and programming to create interactive fiction”.

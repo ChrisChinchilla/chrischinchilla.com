@@ -8,7 +8,7 @@ categories:
 tags:
   - Markdown
   - Interactivity
-image: "/src/assets/images/articles/1*m42kZBxdjFjcrAByDXGB6A.webp"
+image: "https://miro.medium.com/v2/1*m42kZBxdjFjcrAByDXGB6A.png"
 ---
 
 Markdown may be popular for its simplicity and “plainness”, but it’s often full of information. Whether for internal or external consumption, that information often contains code snippets for running certain commands or code examples. Wouldn’t it be great if you could run that code directly as you read from within the markdown?

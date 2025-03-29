@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: "/src/assets/images/articles/1*0WIx9BnykBO9R6RLQOH0mw.webp"
+image: "https://miro.medium.com/v2/format:webp/1*0WIx9BnykBO9R6RLQOH0mw.png"
 ---
 
 Generative AI tools and platforms are not just the flavour of the month (for now), they’re the flavour of the year, if not the decade.

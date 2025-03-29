@@ -9,7 +9,7 @@ tags:
   - AI
   - LLM
   - Writing
-image: "/src/assets/images/articles/1*WUfhLdT4ewEz0_trgoqFow.webp"
+image: "https://miro.medium.com/v2/1*WUfhLdT4ewEz0_trgoqFow.png"
 ---
 
 Who do you think reads most of your technical writing? Customers? Potential customers?

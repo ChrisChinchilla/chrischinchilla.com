@@ -9,7 +9,7 @@ tags:
   - jekyll
   - websites
   - web development
-image: "/src/assets/images/articles/1*Q3r-jIt5lGDBYfRv_Z-SnQ.png"
+image: "https://miro.medium.com/v2/1*Q3r-jIt5lGDBYfRv_Z-SnQ.png"
 ---
 
 

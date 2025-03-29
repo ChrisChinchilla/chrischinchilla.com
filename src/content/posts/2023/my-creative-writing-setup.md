@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: "/src/assets/images/articles/0*tMHF1hJXN_tRbkXr.webp"
+image: "https://miro.medium.com/v2/1*Yv7aH46xxTzwD8tx8zsPfg.png"
 ---
 
 I finally finished my first fiction novel after two years of work and have already begun work on my second. I’ve also produced several short stories and have some game supplements in slow progress.

@@ -8,7 +8,7 @@ categories:
 tags:
   - Prodictivity
   - Writing
-image: "/src/assets/images/articles/1*StgPE0QKkMOWm96uUFCFCQ.webp"
+image: "https://miro.medium.com/v2/1*StgPE0QKkMOWm96uUFCFCQ.png"
 ---
 
 How many words do you write every day? Think about it. Every time you send an email, post in Slack, or comment on an Instagram post. Oh, you thought I would mention those wondrous words you pour into your latest novel, blog post, marketing copy, or script?

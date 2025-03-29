@@ -9,7 +9,7 @@ tags:
   - work
   - productivity
 publication_url: "https://medium.com/@chrischinchilla/what-does-it-take-to-excel-and-should-you-care-41872e869d8c"
-image: "/src/assets/images/articles/1*SAr4UKjI3FGtQ42wYqvvtw.jpg"
+image: https://miro.medium.com/v2/1*SAr4UKjI3FGtQ42wYqvvtw.jpeg
 ---
 
 
