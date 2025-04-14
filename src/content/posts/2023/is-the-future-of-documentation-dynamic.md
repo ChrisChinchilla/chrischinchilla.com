@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: "https://miro.medium.com/v2/1*D_dgOpg2pSWZrXk39_aqIg.png"
+image: "https://miro.medium.com/v2/1*rbY2Qv_wgPFOIrf-kyk0VA.jpeg"
 ---
 
 What do American Online, the Apple Newton, DVDs, Tamagochis, MP3, PDF, and Sony Discmans all share in common? They were all products born in (and some dying in) the 1990s. An era I remember vaguely well as I spent most of my mid to late teenage years in it. And now I see the fashions and band T-shirts from that era back on the streets and…

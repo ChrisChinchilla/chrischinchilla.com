@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: "https://miro.medium.com/v2/1*iicL_Tu_p9Uh4UdBR9pjYA.png"
+image: "https://miro.medium.com/v2/1*iicL_Tu_p9Uh4UdBR9pjYA.jpeg"
 ---
 
 I didn’t attend Detroit last year, but did attend Valencia, and while it was great to be back at a reasonably large in-person event again, the event did feel slightly subdued.

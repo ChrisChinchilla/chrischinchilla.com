@@ -9,7 +9,7 @@ tags:
   - Automation
   - Apple
   - Shortcuts
-image: "https://miro.medium.com/v2/1*Soys68WY2ihqz-qiTHI_Ng.png"
+image: "https://miro.medium.com/v2/1*Soys68WY2ihqz-qiTHI_Ng.jpeg"
 ---
 
 I’ve mentioned before that I have been using Obsidian more and more, and from a knowledge management perspective, it’s fantastic, with a plethora of plugins that extend its functionality to connect to many external services. But as a cross-platform Electron application, integration with the host operating system is one of the places it fails. As the underlying data store is a folder of files, some integration is possible there, but Obsidian has minimal awareness of changes that happen.

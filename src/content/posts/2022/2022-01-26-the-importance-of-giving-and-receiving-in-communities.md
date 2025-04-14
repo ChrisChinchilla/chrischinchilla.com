@@ -8,7 +8,7 @@ categories:
 tags:
   - Community
   - Events
-image: "https://miro.medium.com/v2/1*bvencr3aH29R1c30qUwPww.jpg"
+image: "https://miro.medium.com/v2/1*bvencr3aH29R1c30qUwPww.jpeg"
 ---
 
 2021 was a difficult year for many. That's not to say that 2020 was any
