@@ -13,12 +13,10 @@ export async function getStaticPaths() {
   }));
 }
 
-
-
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 
-const links = await fetch(' https://api.raindrop.io/rest/v1/raindrops/45559645?sort=-created&search=%23nextissue', {
+const links = await fetch(`https://api.raindrop.io/rest/v1/raindrops/45559645?sort=-created&search=${entry.id}`, {
   method: 'GET',
   headers: {
     Authorization: `Bearer ${import.meta.env.RAINDROP}`,
