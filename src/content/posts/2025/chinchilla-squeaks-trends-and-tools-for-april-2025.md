@@ -1,5 +1,5 @@
 ---
-title: "Chinchilla Squeaks trends and tools for April 2025"
+title: "6 new macOS and iOS tools for April 2025"
 publishDate: 2025-04-16
 author: "Chris Ward"
 categories:
