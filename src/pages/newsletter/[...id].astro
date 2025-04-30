@@ -1,7 +1,7 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
 import { getCollection, render } from 'astro:content';
-import { Image } from 'astro:assets';
+import { Picture } from 'astro:assets';
 import defaultPostImage from '/src/assets/images/defaults/book-chinchilla.jpg';
 import Link from '../../components/Link.astro';
 
@@ -30,7 +30,8 @@ const links = await fetch(`https://api.raindrop.io/rest/v1/raindrops/45559645?so
 ---
 
 <MarkdownPostLayout frontmatter={entry.data}>
-  <Image
+  <Picture
+  formats={['png']}
   src={entry.data.image ? entry.data.image : defaultPostImage}
   alt={entry.data.title}
   class="object-contain h-full mb-6 rounded drop-shadow-lg"
