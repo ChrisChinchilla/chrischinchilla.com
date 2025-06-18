@@ -1,0 +1,63 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import Headline from '~/components/blog/Headline.astro';
+import json from '../data/support.json';
+import { Icon } from 'astro-icon/components';
+import { getPermalink } from '~/utils/permalinks';
+
+const meta = {
+  title: 'Support',
+  description: 'Support',
+  // canonical: post.canonical || url,
+  // image: await findImage(post.image),
+  // noindex: BLOG?.post?.noindex,
+  // ogType: 'article',
+};
+---
+
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <!-- TODO: Refactor to a common footer and add sponsored content to enquire page -->
+
+    <section class={`grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12 dark:text-white items-stretch`}>
+      {
+        json
+          .filter((supportLink) => supportLink.section === 'core')
+          .map((supportLink) => (
+            <div class="relative flex flex-col p-6 bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
+              <Fragment set:html={supportLink.affiliate_html}>
+                <>
+                  <Icon name={supportLink.image} class="w-10 h-10 inline-block align-text-bottom" />
+                  <h3>{supportLink.name}</h3>
+                </>
+              </Fragment>
+            </div>
+          ))
+      }
+    </section>
+
+    <section class={`grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12 dark:text-white items-stretch`}>
+      {
+        json
+          .filter((supportLink) => supportLink.section === 'affiliate')
+          .map((supportLink) => (
+            <div class="relative flex flex-col p-6 bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
+              <div class="flex items-center">
+                <Icon name={supportLink.image} class="w-10 h-10" />
+                <div class="ml-4 text-xl font-bold">{supportLink.name}</div>
+              </div>
+              {supportLink.description && (
+                <p class="text-gray-600 dark:text-gray-400 text-md mt-4 mb-8" set:html={supportLink.description} />
+              )}
+              <a href={getPermalink(supportLink.affiliate_link)} class="btn btn-primary font-btn sm:mb-0 w-full">
+                {supportLink.name}
+              </a>
+            </div>
+          ))
+      }
+    </section>
+  </section>
+</Layout>

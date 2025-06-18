@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Tower",
+    "section": "affiliate",
+    "image": "tabler:brand-youtube",
+    "description": "Chris Chinchilla's YouTube channel, featuring tech reviews, tutorials, and insights.",
+    "affiliate_link": "https://go.chrischinchilla.com/tower"
+  },
+  {
+    "name": "Patreon",
+    "section": "core",
+    "image": "tabler:brand-youtube",
+    "description": "Chris Chinchilla's YouTube channel, featuring tech reviews, tutorials, and insights.",
+    "affiliate_link": "https://patreon.com/ChrisChinchilla?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link"
+  },
+  {
+    "name": "Mermaid Chart",
+    "section": "affiliate",
+    "image": "tabler:brand-youtube",
+    "description": "Chris Chinchilla's YouTube channel, featuring tech reviews, tutorials, and insights.",
+    "affiliate_link": "https://go.chrischinchilla.com/mermaid"
+  },
+  {
+    "name": "Descript",
+    "section": "affiliate",
+    "image": "tabler:brand-github",
+    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+    "affiliate_link": "https://go.chrischinchilla.com/descript"
+  },
+  {
+    "name": "Setapp",
+    "section": "affiliate",
+    "image": "tabler:brand-github",
+    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+    "affiliate_link": "https://go.chrischinchilla.com/setapp"
+  },
+  {
+    "name": "Raycast",
+    "section": "affiliate",
+    "image": "tabler:brand-github",
+    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+    "affiliate_link": "https://go.chrischinchilla.com/raycast"
+  },
+  {
+    "name": "Manning",
+    "section": "affiliate",
+    "image": "tabler:brand-github",
+    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+    "affiliate_link": "https://go.chrischinchilla.com/manning"
+  },
+  {
+    "name": "GitHub Sponsors",
+    "section": "core",
+    "image": "tabler:brand-github",
+    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+    "affiliate_html": "<iframe src=\"https://github.com/sponsors/ChrisChinchilla/card\" title=\"Sponsor ChrisChinchilla\"></iframe>"
+  },
+  {
+    "name": "Buy Me a Coffee",
+    "section": "core",
+    "image": "tabler:brand-github",
+    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+    "affiliate_html": "<script type=\"text/javascript\" src=\"https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js\" data-name=\"bmc-button\" data-slug=\"chrischinchilla\" data-color=\"#4b555c\" data-emoji=\"\" data-font=\"Lato\" data-text=\"Buy me a coffee\" data-outline-color=\"#ffffff\" data-font-color=\"#ffffff\" data-coffee-color=\"#FFDD00\" ></script>"
+  },
+  {
+    "name": "Ko-fi",
+    "section": "core",
+    "image": "tabler:brand-github",
+    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+    "affiliate_html": "<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'P5P3JYHDE');kofiwidget2.draw();</script>"
+  }
+]

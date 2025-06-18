@@ -62,10 +62,9 @@ const {
                 <div class="ml-4 text-xl font-bold">{title}</div>
               </div>
               {description && <p class="text-gray-600 dark:text-gray-400 text-md mt-4 mb-8" set:html={description} />}
-              <a
-    href={getPermalink(permalink)}
-    class="btn btn-primary font-btn sm:mb-0 w-full"
-    >{title}</a>
+              <a href={getPermalink(permalink)} class="btn btn-primary font-btn sm:mb-0 w-full">
+                {title}
+              </a>
             </div>
           ))
         }
