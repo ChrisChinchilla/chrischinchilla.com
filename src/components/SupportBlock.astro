@@ -7,11 +7,11 @@ const shuffled = allSupportLinks.sort(() => 0.5 - Math.random());
 const randomSupportLinks = shuffled.slice(0, 2);
 ---
 
-<section class={`grid gap-6 sm:grid-cols-1 md:grid-cols-2 my-12 dark:text-white items-stretch`}>
+<section class={`grid gap-6 sm:grid-cols-1 md:grid-cols-2 my-6 dark:text-white items-stretch`}>
   <!-- TODO: Streamline -->
   <!-- TODO: Consolidate -->
   <div class="flex flex-col col-span-2 p-6 bg-white/70 dark:bg-slate-900 transition">
-    <h2>If you like what you're reading, support my work</h2>
+    <h2 class="my-2">If you like what you're reading, support my work</h2>
   </div>
   {
     randomSupportLinks.map((supportLink) =>
