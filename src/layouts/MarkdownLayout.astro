@@ -27,9 +27,10 @@ const meta: MetaSEO = {
       <div
         class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
       >
+        <slot />
+
         <!-- TODO: How to inject in the middle? -->
         <SupportBlock />
-        <slot />
       </div>
     </section>
   </main>
