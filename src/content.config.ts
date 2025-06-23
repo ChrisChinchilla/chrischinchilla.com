@@ -1,7 +1,25 @@
 import { z, defineCollection } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { glob, file } from 'astro/loaders';
+import slug from 'limax';
 // TODO: This used to be possible
 // import defaultBlogImage from '~/src/assets/images/defaults/blog-chinchilla.jpg'
+
+const supportLinks = defineCollection({
+  loader: file('src/data/support.json'),
+  schema: ({ image }) =>
+    z.object({
+      section: z.string(),
+      name: z.string().optional(),
+      title: z.string().optional(),
+      description: z.string().optional(),
+      cta: z.string().optional(),
+      affiliate_link: z.string().url().optional(),
+      affiliate_html: z.string().optional(),
+      image: z.union([z.string().url(), image()]).optional(),
+      icon: z.string().optional(),
+      slug: z.string(),
+    }),
+});
 
 const posts = defineCollection({
   // type: 'content', // v2.5.0 and later
@@ -149,4 +167,5 @@ export const collections = {
   av: av,
   podcasts: podcasts,
   newsletters: newsletters,
+  supportLinks: supportLinks,
 };
