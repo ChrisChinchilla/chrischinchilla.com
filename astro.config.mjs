@@ -28,7 +28,6 @@ export default defineConfig({
   output: 'static',
   integrations: [
     icon({
-      // TODO: Streamline to only include needed
       include: {
         tabler: ['brand-youtube', 'brand-medium', 'brand-patreon', 'brand-github', 'brand-linkedin', 'mail', 'brand-bluesky', 'brand-tiktok', 'brand-twitter', 'brand-threads', 'brand-mastodon','menu','chevron-down','rss','brand-discord','download','brand-facebook'],
         'simple-line-icons': ['social-spotify'],

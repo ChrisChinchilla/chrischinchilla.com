@@ -1,6 +1,5 @@
 import { z, defineCollection } from 'astro:content';
 import { glob, file } from 'astro/loaders';
-import slug from 'limax';
 // TODO: This used to be possible
 // import defaultBlogImage from '~/src/assets/images/defaults/blog-chinchilla.jpg'
 
