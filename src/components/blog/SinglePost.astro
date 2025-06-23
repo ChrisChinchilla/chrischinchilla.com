@@ -53,7 +53,7 @@ const { post, url } = Astro.props;
         post.image ? (
           // <Picture
           //   src={post.image}
-          //   class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+          //   class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md "
           //   widths={[400, 900]}
           //   sizes="(max-width: 900px) 400px, 900px"
           //   alt={post.description || ''}
@@ -62,7 +62,7 @@ const { post, url } = Astro.props;
           //   width={900}
           //   height={506}
           // />
-          <Image src={post.image} alt={post.title} class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+          <Image src={post.image} alt={post.title} class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md "
     />
         ) : (
           <div class="max-w-3xl mx-auto px-4 sm:px-6">
