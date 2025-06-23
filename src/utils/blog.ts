@@ -29,37 +29,62 @@ const generatePermalink = async ({ id, slug, publishDate, category }) => {
 };
 
 const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> => {
-  const { id, slug: rawSlug = '', data } = post;
-  const { Content } = await post.render();
+  const { id, data } = post;
+  const { Content, remarkPluginFrontmatter } = await render(post);
 
   const {
-    tags:rawTags = [],
-    category: rawCategory,
-    author = 'Anonymous',
     publishDate: rawPublishDate = new Date(),
-    ...rest
+    updateDate: rawUpdateDate,
+    title,
+    excerpt,
+    image,
+    tags: rawTags = [],
+    category: rawCategory,
+    author,
+    draft = false,
+    metadata = {},
   } = data;
 
-  const slug = cleanSlug(rawSlug.split('/').pop());
+  const slug = cleanSlug(id); // cleanSlug(rawSlug.split('/').pop());
   const publishDate = new Date(rawPublishDate);
-  const category = rawCategory ? cleanSlug(rawCategory) : undefined;
-  const tags = rawTags.map((tag: string) => cleanSlug(tag));
+  const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
+
+  const category = rawCategory
+    ? {
+        slug: cleanSlug(rawCategory),
+        title: rawCategory,
+      }
+    : undefined;
+
+  const tags = rawTags.map((tag: string) => ({
+    slug: cleanSlug(tag),
+    title: tag,
+  }));
 
   return {
     id: id,
     slug: slug,
+    permalink: await generatePermalink({ id, slug, publishDate, category: category?.slug }),
 
     publishDate: publishDate,
+    updateDate: updateDate,
+
+    title: title,
+    excerpt: excerpt,
+    image: image,
+
     category: category,
-    tags:tags,
+    tags: tags,
     author: author,
 
-    ...rest,
+    draft: draft,
+
+    metadata,
 
     Content: Content,
-    // or 'body' in case you consume from API
+    // or 'content' in case you consume from API
 
-    permalink: await generatePermalink({ id, slug, publishDate, category }),
+    readingTime: remarkPluginFrontmatter?.readingTime,
   };
 };
 

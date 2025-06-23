@@ -39,9 +39,8 @@ const truncatedBody = truncateMarkdown(post.body, {
 });
 ---
 
-<!-- TODO: Tidy and fix grid -->
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
+<article class="mb-6 transition px-4">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
     <Image
       src={post.data.image ? post.data.image : defaultPostImage}
       alt={post.data.title}
