@@ -5,9 +5,9 @@ const { video } = Astro.props;
 var url = `https://youtu.be/${video.snippet.resourceId.videoId}`;
 ---
 
-<article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
+<article class="mb-6 transition px-4">
 
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
+  <div class="relative md:h-72 max-w-6xl mx-auto bg-gray-400 dark:bg-slate-700 rounded drop-shadow-lg mb-6">
     <YouTube id={video.snippet.resourceId.videoId} />
 </div>
   

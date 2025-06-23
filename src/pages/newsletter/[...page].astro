@@ -7,7 +7,7 @@ import Newsletter from '~/components/Newsletter.astro';
 import { getCollection } from 'astro:content';
 export async function getStaticPaths({ paginate }) {
   let allNewsletters = await getCollection('newsletters');
-//   allNewsletters = allNewsletters.sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
+allNewsletters = allNewsletters.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
   return paginate(allNewsletters, {
     pageSize: 25,
@@ -16,8 +16,8 @@ export async function getStaticPaths({ paginate }) {
 
 const { page } = Astro.props;
 const meta = {
-  title: 'Newsletters',
-  description: 'The fiction and non-fiction books I have contributed to, written, or edited.',
+  title: 'Newsletter',
+  description: 'My roughly fortnightly newsletter.',
   // canonical: post.canonical || url,
   // image: await findImage(post.image),
   // noindex: BLOG?.post?.noindex,

@@ -8,7 +8,6 @@ import Post from '~/components/Post.astro';
 import { getCollection } from 'astro:content';
 export async function getStaticPaths({ paginate }) {
   let allPosts = await getCollection('posts');
-
   allPosts = allPosts.sort((a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf());
 
   return paginate(allPosts, {
@@ -27,23 +26,16 @@ const meta = {
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
-
 ---
 
 <Layout {meta}>
-  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
-    <ul>
-      {
-        page.data.map((post) => (
-          <li class="mb-12 md:mb-20">
-            <Post post={post} />
-          </li>
-        ))
-      }
-    </ul>
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {page.data.map((post) => <Post post={post} />)}
+    </div>
     <Pagination
       firstPage={page.url.prev ? '/blog' : null}
       previousPage={page.url.prev ? page.url.prev : null}

@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 const { tag } = Astro.params;
 const { posts } = Astro.props;
 const meta = {
-  title: tag ,
+  title: tag,
   description: `Blog posts tagged with ${tag}`,
   // canonical: post.canonical || url,
   // image: await findImage(post.image),
@@ -31,18 +31,12 @@ const meta = {
 ---
 
 <Layout {meta}>
-  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
-    <ul>
-      {
-        posts.map((post) => (
-          <li class="mb-12 md:mb-20">
-            <Post post={post} />
-          </li>
-        ))
-      }
-    </ul>
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {posts.map((post) => <Post post={post} />)}
+    </div>
   </section>
 </Layout>
