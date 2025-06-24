@@ -1,3 +1,8 @@
+---
+title: 'CV and resume'
+layout: '~/layouts/MarkdownLayout.astro'
+---
+
 I have been a freelancer and contractor in the past, so attempting to
 summarise my work experience and history is challenging.
 
