@@ -1,7 +1,7 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
 import { getCollection, render } from 'astro:content';
-import { Picture } from 'astro:assets';
+import { Image } from 'astro:assets';
 import defaultPostImage from '/src/assets/images/defaults/book-chinchilla.jpg';
 import Link from '../../components/Link.astro';
 
@@ -23,24 +23,27 @@ const links = await fetch(`https://api.raindrop.io/rest/v1/raindrops/45559645?so
   },
 })
   .then((response) => response.json())
-  .then((response) => Object.values(response.items).filter(item => {
-    const createdDate = new Date(item.created);
-    return createdDate <= entry.data.date;
-  }))
+  .then((response) =>
+    Object.values(response.items).filter((item) => {
+      const createdDate = new Date(item.created);
+      return createdDate <= entry.data.date;
+    })
+  );
 ---
 
 <MarkdownPostLayout frontmatter={entry.data}>
-  <Picture
-  formats={['png']}
-  src={entry.data.image ? entry.data.image : defaultPostImage}
-  alt={entry.data.title}
-  class="object-contain h-full mb-6 rounded drop-shadow-lg"
-/>
+  <Image
+    format='png'
+    src={entry.data.image ? entry.data.image : defaultPostImage}
+    alt={entry.data.title}
+    class="object-contain h-full mb-6 rounded drop-shadow-lg"
+  />
+
   <Content />
   <ul>
     {
       links.map((link) => (
-        <li class``="mb-12 md:mb-20 list-none">
+        <li class="mb-12 md:mb-20 list-none">
           <Link link={link} />
         </li>
       ))
