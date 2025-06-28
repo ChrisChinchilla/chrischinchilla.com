@@ -1,10 +1,13 @@
 ---
 title: 'Drupal Melbourne meetup, Aug 13th 2013'
 publishDate: 2013-08-14T00:57:56.000Z
-image: "/src/assets/images/articles/drupalmel.png"
+image: /src/assets/images/articles/drupalmel.png
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
+summary: >-
+  Three presentations tonight, followed by usual natters at the lovely Last Jar
+  afterwards.
 ---
 
 Three presentations tonight, followed by usual natters at the lovely Last Jar afterwards.

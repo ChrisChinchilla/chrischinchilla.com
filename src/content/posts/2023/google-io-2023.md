@@ -1,14 +1,15 @@
 ---
 title: Google IO 2023
-publishDate: 2023-05-11
-author: "Chris Ward"
-publication_url: "https://medium.com/aimonks/google-io-2023-ee16469392f0"
+publishDate: 2023-05-11T00:00:00.000Z
+author: Chris Ward
+publication_url: 'https://medium.com/aimonks/google-io-2023-ee16469392f0'
 categories:
   - writing
 tags:
   - macos
   - version control
-image: "/src/assets/images/articles/1*tIdGQFKa9xmb3dnfCY1Qeg.webp"
+image: /src/assets/images/articles/1*tIdGQFKa9xmb3dnfCY1Qeg.webp
+summary: Or how Google IO made me realise I probably need to find a new job in 2 years
 ---
 
 Or how Google IO made me realise I probably need to find a new job in 2 years

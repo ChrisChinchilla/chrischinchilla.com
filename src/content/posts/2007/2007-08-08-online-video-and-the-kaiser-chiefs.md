@@ -2,11 +2,12 @@
 title: Online Video and The Kaiser Chiefs
 publishDate: '2007-08-08T23:23:59+00:00'
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
-    - music
-    - video
+  - music
+  - video
+summary: Take a look at my latest Indieoma.com Post.
 ---
 
 Take a look at my latest [Indieoma.com Post](https://www.indieoma.com/public_journal.php?d=6da9003b743b65f4c0ccd295cc484e57).

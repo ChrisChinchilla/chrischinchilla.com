@@ -2,10 +2,14 @@
 title: NetSquared meetup Aug 2013
 publishDate: 2013-08-29T22:54:01.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - events
+  - events
+summary: >-
+  One of the things that frustrates me the most in the non profit sector is the
+  lack of collaboration between organisations and the duplication that often
+  occurs instead.
 ---
 
 One of the things that frustrates me the most in the non profit sector is the lack of collaboration between organisations and the duplication that often occurs instead.

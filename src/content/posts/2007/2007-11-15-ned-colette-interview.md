@@ -1,6 +1,16 @@
 ---
 title: Ned Colette - Interview
 publishDate: 2007-11-15T20:26:38.000Z
+summary: >-
+  <strong>When, why and how did you get into music?</strong><br />  My Dad is
+  almost wholly responsible, he always had music on. Saturday mornings are
+  filled with Sun and Music in my memories. He bought me a guitar for my 11th
+  birthday and I never really looked back. I had older sisters who got me into
+  everything that was terrible about the 80's, but also some gems. Lloyd Cole
+  for example. The Beatles were an incredible learning experience for me too - I
+  learnt all the little parts and sang along. I also got into hip-hop and then
+  blues, which led to jazz and improvised and experimental music. Now I guess
+  I'm back to rock n roll and folk which is kinda where I began.
 ---
 
 

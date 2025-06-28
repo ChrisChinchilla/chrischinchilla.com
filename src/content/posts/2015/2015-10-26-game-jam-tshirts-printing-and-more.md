@@ -2,9 +2,13 @@
 title: 'WikiMedia Game Jam, T-Shirts, Printing Experiments and so much more'
 publishDate: '2015-10-26'
 categories:
- - projects
- - chipshop
-image: "/src/assets/images/articles/cs_tshirt.jpg"
+  - projects
+  - chipshop
+image: /src/assets/images/articles/cs_tshirt.jpg
+summary: >-
+  Pushing forward to play testing (which has now begun, more on that later) I
+  have been busy cleaning, tidying and streamlining game components after Essen.
+  Here are some updates...
 ---
 
 Pushing forward to play testing (which has now begun, more on that later) I have been busy cleaning, tidying and streamlining game components after Essen. Here are some updates...

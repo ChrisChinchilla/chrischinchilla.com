@@ -1,6 +1,10 @@
 ---
 title: WA Music showcase - The Spanish Club
 publishDate: 2007-05-18T18:57:39.000Z
+summary: >-
+  Western Australia has produced some of Australia's most talented and popular
+  artists in recent times and it's not all Indie or Rock Riffage as tonight's WA
+  showcase proved.
 ---
 Western Australia has produced some of Australia's most talented and popular artists in recent times and it's not all Indie or Rock Riffage as tonight's WA showcase proved.
 

@@ -2,14 +2,19 @@
 title: Medium Exporter for Atom
 publishDate: 2016-08-24T00:00:00.000Z
 categories:
- - projects
- - software
+  - projects
+  - software
 tags:
- - atom
- - medium
- - export
- - markdown
-image: "/src/assets/images/articles/projects/medium-export.png"
+  - atom
+  - medium
+  - export
+  - markdown
+image: /src/assets/images/articles/projects/medium-export.png
+summary: >-
+  I love Markdown and I love editing Markdown in Atom. But I also love the
+  exposure that Medium offers, and whilst I admit it has a great editor, I like
+  to be able to write offline and I like having a central repository (i.e. Git)
+  of my work for collaboration, consolidation and other purposes.
 ---
 
 I love Markdown and I love editing Markdown in Atom. But I also love the exposure that Medium offers, and whilst I admit it has a great editor, I like to be able to write offline and I like having a central repository (i.e. Git) of my work for collaboration, consolidation and other purposes.

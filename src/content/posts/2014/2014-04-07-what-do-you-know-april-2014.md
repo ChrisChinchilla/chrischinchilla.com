@@ -1,6 +1,11 @@
 ---
 title: What do you know - April 2014
 publishDate: 2014-04-07T02:37:29.000Z
+summary: >-
+  Another great 'What do you know' session from <a
+  href="https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCwQFjAA&url=http%3A%2F%2Fwww.webdirections.org%2F&ei=yw5CU5rLDcmdkgWC4oDoCA&usg=AFQjCNFVeqPXVmE57AS0EUr3fdd42psoPA&sig2=HXz7xVEu8XhKCcZjXcFpTg&bvm=bv.64125504,d.dGI"
+  target="_blank">Web Directions</a>, lots of short talks, lots of short
+  descriptions...
 ---
 
 Another great 'What do you know' session from <a href="https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCwQFjAA&url=http%3A%2F%2Fwww.webdirections.org%2F&ei=yw5CU5rLDcmdkgWC4oDoCA&usg=AFQjCNFVeqPXVmE57AS0EUr3fdd42psoPA&sig2=HXz7xVEu8XhKCcZjXcFpTg&bvm=bv.64125504,d.dGI" target="_blank">Web Directions</a>, lots of short talks, lots of short descriptions...

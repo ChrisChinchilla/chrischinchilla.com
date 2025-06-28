@@ -1,6 +1,10 @@
 ---
-title: Leads, musicians gear and technical gubbins for sale / free
+title: 'Leads, musicians gear and technical gubbins for sale / free'
 publishDate: 2014-06-14T02:30:06.000Z
+summary: >-
+  Not a post I would usually share, but it seemed the easiest way of getting
+  everything in one place. A bunch of stuff that might appeal to musicians,
+  technical people etc etc&hellip;
 ---
 
 

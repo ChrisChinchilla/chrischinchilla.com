@@ -2,10 +2,11 @@
 title: City Life - Creative Writing
 publishDate: 2008-05-26T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - creative
+  - creative
+summary: '- City life, don''t you just love it'
 ---
 
 - Applecore

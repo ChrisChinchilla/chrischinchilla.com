@@ -31,7 +31,7 @@ const posts = defineCollection({
       // image: image().optional().default(defaultBlogImage),
       image: image().optional(),
       publication_url: z.string().url().optional(),
-
+summary: z.string().optional(),
       // canonical: z.string().url().optional(),
 
       publishDate: z.date().or(z.string()).optional(),

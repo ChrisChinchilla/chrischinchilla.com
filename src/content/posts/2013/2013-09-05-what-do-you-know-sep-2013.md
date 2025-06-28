@@ -2,13 +2,21 @@
 title: What do you know Sep 2013
 publishDate: 2013-09-05T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - events
- - startups
- - programming
- - design
+  - events
+  - startups
+  - programming
+  - design
+summary: >-
+  The Web Directions - <a href="https://wdyk-melb-sept13.eventbrite.com/"
+  target="_blank">What do you know events</a> are always a fun night and tonight
+  was no exception with many running 'jokes' about some of the appalling policy
+  decisions just announced by the coalition that will affect our industry, one
+  which has been a boom area for Australia, but largely unrecognised on the
+  larger national scale. Anyway, enough of Politics, what were the talks? Bear
+  in mind there were 10, so this will be very brief...
 ---
 
 The Web Directions - <a href="https://wdyk-melb-sept13.eventbrite.com/" target="_blank">What do you know events</a> are always a fun night and tonight was no exception with many running 'jokes' about some of the appalling policy decisions just announced by the coalition that will affect our industry, one which has been a boom area for Australia, but largely unrecognised on the larger national scale. Anyway, enough of Politics, what were the talks? Bear in mind there were 10, so this will be very brief...

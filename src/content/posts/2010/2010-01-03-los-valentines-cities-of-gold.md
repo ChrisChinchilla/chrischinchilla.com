@@ -2,11 +2,16 @@
 title: Los Valentines - Cities of Gold
 publishDate: 2010-01-03T14:48:59.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - music 
- - reviews
+  - music
+  - reviews
+summary: >-
+  What's going on in Sydney? Are there copious amounts of young men mating with
+  drum machines, synthesizers and 80's dropouts? The city seems to be spawning a
+  lot of electro bands recently that generally favour epic, fantastical sounding
+  names and presentation.
 ---
 
 What's going on in Sydney? Are there copious amounts of young men mating with drum machines, synthesizers and 80's dropouts? The city seems to be spawning a lot of electro bands recently that generally favour epic, fantastical sounding names and presentation.

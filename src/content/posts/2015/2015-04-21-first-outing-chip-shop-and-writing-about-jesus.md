@@ -1,12 +1,14 @@
 ---
-
-publishDate: 2015-04-21
-
+publishDate: 2015-04-21T00:00:00.000Z
 title: Adding Accessories
 images: back-card.jpg card-packs.jpg cards-out.jpg"
 categories:
- - projects
- - chipshop
+  - projects
+  - chipshop
+summary: >-
+  Last week I presented Chip Shop at an event here in Berlin. I was woefully
+  unprepared and just had my laptop, showing a few screens and telling people
+  about the idea.
 ---
 
 Last week I presented [Chip Shop](https://chipshopgame.com) at an event here in Berlin. I was woefully unprepared and just had my laptop, showing a few screens and telling people about the idea.

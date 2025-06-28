@@ -1,6 +1,11 @@
 ---
 title: The lean and agile non profit
 publishDate: 2013-07-04T01:57:38.000Z
+summary: >-
+  I&#39;m working on a book/presentation/series of workshops/who knows what
+  covering integrating lean and agile practices into a non-profit or social
+  enterprise. As a sub set of that will also be &quot;What the non-profit world
+  can learn from the tech world and vice versa&quot;.
 ---
 
 

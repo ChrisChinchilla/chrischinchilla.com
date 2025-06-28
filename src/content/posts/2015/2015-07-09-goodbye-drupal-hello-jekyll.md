@@ -1,13 +1,18 @@
 ---
 title: 'Goodbye Drupal, Hello Jekyll'
 publishDate: 2015-07-09T00:00:00.000Z
-image: "/src/assets/images/articles/image-goodbye-drupal-hello-jekyll.jpg"
+image: /src/assets/images/articles/image-goodbye-drupal-hello-jekyll.jpg
 categories:
- - projects
- - chipshop
+  - projects
+  - chipshop
 tags:
- - jekyll
- - drupal
+  - jekyll
+  - drupal
+summary: >-
+  Sorry for the lack of updates in a while. There have been two main reasons for
+  this, other commitments kept me busy and I've been reworking a lot of the
+  technology stack that powers Chip Shop. I'd like to tell you more about
+  updates to the later.
 ---
 
 Sorry for the lack of updates in a while. There have been two main reasons for this, other commitments kept me busy and I've been reworking a lot of the technology stack that powers Chip Shop. I'd like to tell you more about updates to the later.

@@ -1,14 +1,16 @@
 ---
 title: Tales of an attempted switch from Google Workspace
-publishDate: 2022-04-06
-author: "Chris Ward"
-publication_url: "https://medium.com/geekculture/tales-of-an-attempted-switch-from-google-workspace-fbf53fde177e"
+publishDate: 2022-04-06T00:00:00.000Z
+author: Chris Ward
+publication_url: >-
+  https://medium.com/geekculture/tales-of-an-attempted-switch-from-google-workspace-fbf53fde177e
 categories:
   - writing
 tags:
   - Google
   - Productivity
-image: "/src/assets/images/defaults/blog-chinchilla.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
+summary: 'Many years ago, I took over a small publishing company, that''s an'
 ---
 
 Many years ago, I took over a small publishing company, that's an

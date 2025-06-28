@@ -1,15 +1,17 @@
 ---
-title: What does it take to excel and should you care? 
-publishDate: 2021-12-20
-author: "Chris Ward"
+title: What does it take to excel and should you care?
+publishDate: 2021-12-20T00:00:00.000Z
+author: Chris Ward
 categories:
- - writing
+  - writing
 tags:
   - community
   - work
   - productivity
-publication_url: "https://medium.com/@chrischinchilla/what-does-it-take-to-excel-and-should-you-care-41872e869d8c"
-image: "/src/assets/images/articles/1*SAr4UKjI3FGtQ42wYqvvtw.jpg"
+publication_url: >-
+  https://medium.com/@chrischinchilla/what-does-it-take-to-excel-and-should-you-care-41872e869d8c
+image: /src/assets/images/articles/1*SAr4UKjI3FGtQ42wYqvvtw.jpg
+summary: 'This Weekend I have been thinking about excellence, or what does it mean'
 ---
 
 

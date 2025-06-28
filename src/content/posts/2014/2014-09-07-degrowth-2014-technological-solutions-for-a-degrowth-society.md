@@ -2,12 +2,16 @@
 title: Degrowth 2014 - Technological solutions for a degrowth society
 publishDate: 2014-09-07T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - politics
- - degrowth
- - activism
+  - politics
+  - degrowth
+  - activism
+summary: >-
+  It's refreshing to hear someone (unsurprisingly an engineer) mention that the
+  Degrowth movement could do with more practical projects and methodologies to
+  run alongside the theoretical discussions.
 ---
 
 ## The OAE Project: Open Data and Open Source software for a sustainable economy

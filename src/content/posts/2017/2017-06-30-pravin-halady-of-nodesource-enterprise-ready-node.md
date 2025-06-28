@@ -1,17 +1,20 @@
 ---
-title: "Pravin Halady of NodeSource- Enterprise Ready Node.js [Podcast]"
-publishDate: 2017-06-30 14:01:01 UTC
-author: "Chris Ward"
+title: 'Pravin Halady of NodeSource- Enterprise Ready Node.js [Podcast]'
+publishDate: '2017-06-30 14:01:01 UTC'
+author: Chris Ward
 categories:
- - writing
- - dzone
+  - writing
+  - dzone
 tags:
   - nodejs
   - javascript
   - web dev
-publication_url: "https://dzone.com/articles/pravin-halady-of-nodesource-enterprise-ready-nodej"
-
-image: "/src/assets/images/articles/5761399.jpeg"
+publication_url: 'https://dzone.com/articles/pravin-halady-of-nodesource-enterprise-ready-nodej'
+image: /src/assets/images/articles/5761399.jpeg
+summary: >-
+  A DZone Zone Leader interviews a member of the project management team at
+  NodeSource, and discusses the possibilities Node.js and npm bring to
+  businesses.
 ---
 A DZone Zone Leader interviews a member of the project management team at NodeSource, and discusses the possibilities Node.js and npm bring to businesses.
 

@@ -1,10 +1,16 @@
 ---
 title: Avoiding problems with your Drupal project
 publishDate: 2013-08-03T07:54:23.000Z
-image: "/src/assets/images/articles/druplicon_sad.png"
+image: /src/assets/images/articles/druplicon_sad.png
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
+summary: >-
+  Over the past year I've been slowly building a list of gotchas, mistaken
+  assumptions and potential slip ups that have hit projects I've been involved
+  with several times, or seemed so blindingly obvious after the moment that they
+  just had to be documented. This is one of the many articles I have that may
+  grow over time as I discover more useful tidbits.
 ---
 
 Over the past year I've been slowly building a list of gotchas, mistaken assumptions and potential slip ups that have hit projects I've been involved with several times, or seemed so blindingly obvious after the moment that they just had to be documented. This is one of the many articles I have that may grow over time as I discover more useful tidbits.

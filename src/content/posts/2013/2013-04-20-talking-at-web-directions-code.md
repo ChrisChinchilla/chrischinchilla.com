@@ -1,6 +1,11 @@
 ---
 title: Talking at Web Directions Code
 publishDate: 2013-04-19T22:59:14.000Z
+summary: >-
+  I am honoured, happy and excited to have been asked to speak at a Web
+  Directions event, <a href="https://code13melb.webdirections.org/"
+  target="_blank">Web Directions Code</a>, here in Melbourne on the 2nd and 3rd
+  of May.
 ---
 
 

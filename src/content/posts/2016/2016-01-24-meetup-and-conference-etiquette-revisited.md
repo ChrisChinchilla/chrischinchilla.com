@@ -1,15 +1,20 @@
 ---
 title: Meetup and Conference Etiquette Revisited
 publishDate: 2016-01-24T00:00:00.000Z
-publication_url: 'https://medium.com/@ChrisChinchilla/meetup-and-conference-etiquette-revisited-29de1686ec29#.yxd9a5t8s'
+publication_url: >-
+  https://medium.com/@ChrisChinchilla/meetup-and-conference-etiquette-revisited-29de1686ec29#.yxd9a5t8s
 categories:
- - writing
- - theweeklysqueak
+  - writing
+  - theweeklysqueak
 tags:
- - meetups
- - conferences
- - culture
-image: "/src/assets/images/articles/image-meetup-etiquette.jpg"
+  - meetups
+  - conferences
+  - culture
+image: /src/assets/images/articles/image-meetup-etiquette.jpg
+summary: >-
+  I don't have an particular themes from the week I can remember in enough
+  detail to discuss this week, so thought it time I dragged out one of my long
+  term 'topics to discuss'.
 ---
 
 I don't have an particular themes from the week I can remember in enough detail to discuss this week, so thought it time I dragged out one of my long term 'topics to discuss'.

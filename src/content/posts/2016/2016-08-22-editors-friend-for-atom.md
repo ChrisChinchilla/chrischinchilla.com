@@ -2,12 +2,17 @@
 title: Editors Friend for Atom
 publishDate: 2016-08-22T00:00:00.000Z
 categories:
- - projects
- - software
+  - projects
+  - software
 tags:
- - atom
- - editing
- - writing
+  - atom
+  - editing
+  - writing
+summary: >-
+  As a (very) frequent writer and editor I often find myself writing and
+  correcting the same words over and over again. Or in preparation for
+  publishing I have to repeatedly undertake the same steps, such as adding short
+  codes or formatting links.
 ---
 
 As a (very) frequent writer and editor I often find myself writing and correcting the same words over and over again. Or in preparation for publishing I have to repeatedly undertake the same steps, such as adding short codes or formatting links.

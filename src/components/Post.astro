@@ -1,7 +1,5 @@
 ---
 import { Image } from 'astro:assets';
-import Markdown from '@astrojs/markdown-component';
-import truncateMarkdown from 'markdown-truncate';
 import Tags from '~/components/common/Tags.astro';
 import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
 
@@ -29,14 +27,6 @@ if (post.data.publication_url != null) {
 } else {
   url = '/blog/' + post.id;
 }
-// Truncate text
-// TODO: Better way?
-// TODO: Make to helper or plugin
-
-const truncatedBody = truncateMarkdown(post.body, {
-  limit: 500,
-  ellipsis: true,
-});
 ---
 
 <article class="mb-6 transition px-4">
@@ -67,10 +57,8 @@ const truncatedBody = truncateMarkdown(post.body, {
       </h2>
       <i class="my-2 block">{formattedDate}</i>
     </header>
-    <!-- TODO: Seems kind of ridiculous -->
     <div class="post-body body">
-      <!-- TODO: Deprecated, need an alternative -->
-      <Markdown class="m-2" />{truncatedBody}
+      {post.data.summary}
     </div>
   </div>
   {

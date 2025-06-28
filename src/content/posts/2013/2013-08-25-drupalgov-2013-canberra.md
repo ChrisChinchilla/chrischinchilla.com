@@ -2,12 +2,17 @@
 title: DrupalGov and Canberra 2013
 publishDate: 2013-08-25T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - drupal
- - crm
- - conference
+  - drupal
+  - crm
+  - conference
+summary: >-
+  An event that can be as specific as an event for the use of Drupal within
+  government demonstrates a growing interest in Drupal (and maybe openness
+  generally) within government and its great that such an event can attract
+  nearly 150 people.
 ---
 
 An event that can be as specific as an event for the use of Drupal within government demonstrates a growing interest in Drupal (and maybe openness generally) within government and its great that such an event can attract nearly 150 people.

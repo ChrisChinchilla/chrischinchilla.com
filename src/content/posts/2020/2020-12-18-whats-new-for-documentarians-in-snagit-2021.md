@@ -1,15 +1,17 @@
 ---
 title: What's new for documentarians in Snagit 2021
-publishDate: 2020-12-18
-author: "Chris Ward"
+publishDate: 2020-12-18T00:00:00.000Z
+author: Chris Ward
 categories:
- - writing
+  - writing
 tags:
   - Documentation
   - Screenshots
   - Tools
-publication_url: https://medium.com/@chrischinchilla/whats-new-for-documentarians-in-snagit-2021-24ce729fa87e
-image: "/src/assets/images/defaults/blog-chinchilla.jpg"
+publication_url: >-
+  https://medium.com/@chrischinchilla/whats-new-for-documentarians-in-snagit-2021-24ce729fa87e
+image: /src/assets/images/defaults/blog-chinchilla.jpg
+summary: I ran a live stream a while back where I looked at new features in
 ---
 
 I ran a live stream a while back where I looked at new features in

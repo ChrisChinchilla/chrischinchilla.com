@@ -1,15 +1,18 @@
 ---
-title: "Embracing the Chaos of Chaos Engineering"
-publishDate: 2018-02-22 16:15:44 UTC
-author: "Chris Ward"
+title: Embracing the Chaos of Chaos Engineering
+publishDate: '2018-02-22 16:15:44 UTC'
+author: Chris Ward
 categories:
- - writing
- - codeship
+  - writing
+  - codeship
 tags:
   - DevOps
-publication_url: "https://blog.codeship.com/embracing-the-chaos-of-chaos-engineering/"
-image: "/src/assets/images/defaults/blog-chinchilla.jpg"
-
+publication_url: 'https://blog.codeship.com/embracing-the-chaos-of-chaos-engineering/'
+image: /src/assets/images/defaults/blog-chinchilla.jpg
+summary: >-
+  Modern applications are increasingly growing in complexity. Adding a dizzying
+  amount of moving parts, layers of abstraction, reliance on external systems
+  and distribution that all result in a stack that few truly fully understand.
 ---
 Modern applications are increasingly growing in complexity. Adding a dizzying amount of moving parts, layers of abstraction, reliance on external systems and distribution that all result in a stack that few truly fully understand.
 

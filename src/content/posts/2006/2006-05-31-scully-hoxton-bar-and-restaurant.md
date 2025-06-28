@@ -1,12 +1,18 @@
 ---
-title: 'Scully - Hoxton Bar & Restaurant'
+title: Scully - Hoxton Bar & Restaurant
 publishDate: 2006-05-31T15:10:36.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - music 
- - reviews
+  - music
+  - reviews
+summary: >-
+  The ill informed might term Scully Ska, Lad Rock or some other such badge.
+  Scully are the sound of frustration and displeasure with the arseholes and
+  idiots that constantly ruin lives. They are the sound of celebrating the
+  pleasures and excesses in life, and it all comes right in the end, usually in
+  a big sing-a-long chorus. Scully are the sound of real life.
 ---
 
 The ill informed might term Scully Ska, Lad Rock or some other such badge. Scully are the sound of frustration and displeasure with the arseholes and idiots that constantly ruin lives. They are the sound of celebrating the pleasures and excesses in life, and it all comes right in the end, usually in a big sing-a-long chorus. Scully are the sound of real life.

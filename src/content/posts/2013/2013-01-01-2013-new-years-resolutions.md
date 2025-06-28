@@ -1,6 +1,12 @@
 ---
 title: 2013 New Years resolutions
 publishDate: 2013-01-01T22:16:43.000Z
+summary: >-
+  2012 has been a big year, equal good and bad, extremely busy moments and dull
+  moments to. I&#39;ve been to umpteen conferences, meetups and worked on about
+  a dozen projects. Green renters stated the year really well, but dropped off
+  massively after July, as did many other sustainability organisations and that
+  was a hard hit for us.
 ---
 
 

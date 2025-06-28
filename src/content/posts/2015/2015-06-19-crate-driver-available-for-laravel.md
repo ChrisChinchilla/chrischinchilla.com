@@ -2,10 +2,13 @@
 title: Crate drivers available for Laravel
 publishDate: 2015-06-19T05:16:42.000Z
 publication_url: 'https://crate.io/blog/crate-driver-available-for-laravel/'
-image: "/src/assets/images/articles/image-crate-drivers-available-for-laravel.png"
+image: /src/assets/images/articles/image-crate-drivers-available-for-laravel.png
 categories:
- - writing
- - crate
+  - writing
+  - crate
+summary: >-
+  One of the best things about being an open source community is the unexpected
+  contributions that appear.
 ---
 
 One of the best things about being an open source community is the unexpected contributions that appear.

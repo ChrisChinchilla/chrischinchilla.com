@@ -1,10 +1,10 @@
 ---
-title: "Developer Trends from Thoughtworks’ Technology Radar 27"
-publishDate: 2022-11-15
-author: "Chris Ward"
+title: Developer Trends from Thoughtworks’ Technology Radar 27
+publishDate: 2022-11-15T00:00:00.000Z
+author: Chris Ward
 categories:
- - writing
- - hackernoon
+  - writing
+  - hackernoon
 tags:
   - thoughtworks
   - trends
@@ -12,8 +12,12 @@ tags:
   - Observability
   - SBOM
   - Sustainability
-publication_url: "https://hackernoon.com/developer-trends-from-thoughtworks-technology-radar-27"
-image: "/src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-n893mnh.jpeg"
+publication_url: 'https://hackernoon.com/developer-trends-from-thoughtworks-technology-radar-27'
+image: /src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-n893mnh.jpeg
+summary: >-
+  Thoughtworks’ Technology Radar is a regular time to take a look at what
+  experienced industry experts think might be the next wave of tools, practices,
+  and technologies to consider or stop using.
 ---
 Thoughtworks’ Technology Radar is a regular time to take a look at what experienced industry experts think might be the next wave of tools, practices, and technologies to consider or stop using.
 

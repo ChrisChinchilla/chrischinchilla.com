@@ -1,12 +1,20 @@
 ---
-title: "Melbourne's 2am Lockout"
+title: Melbourne's 2am Lockout
 publishDate: 2008-08-25T18:57:15.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - music 
- - reviews
+  - music
+  - reviews
+summary: >-
+  In another example of Western governments unable to comprehend why their
+  populations are dead set on destroying themselves in a wave of hedonism or
+  violence, and instead of attempting to understand the motivations behind this
+  they instead restrict them every way possible with an ever increasing amount
+  of legislation. In its infinite wisdom the Victorian state government has
+  decided to follow Queensland and introduce a 2am lockout in the CBD in an
+  effort to curb late night violence.
 ---
 
 In another example of Western governments unable to comprehend why their populations are dead set on destroying themselves in a wave of hedonism or violence, and instead of attempting to understand the motivations behind this they instead restrict them every way possible with an ever increasing amount of legislation. In its infinite wisdom the Victorian state government has decided to follow Queensland and introduce a 2am lockout in the CBD in an effort to curb late night violence.

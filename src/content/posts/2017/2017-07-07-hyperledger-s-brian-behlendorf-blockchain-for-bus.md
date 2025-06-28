@@ -1,10 +1,10 @@
 ---
-title: "Hyperledger&#39;s Brian Behlendorf- Blockchain for Business"
-publishDate: 2017-07-07 05:01:39 UTC
-author: "Chris Ward"
+title: Hyperledger&#39;s Brian Behlendorf- Blockchain for Business
+publishDate: '2017-07-07 05:01:39 UTC'
+author: Chris Ward
 categories:
- - writing
- - dzone
+  - writing
+  - dzone
 tags:
   - blockchain
   - hyperledger
@@ -13,9 +13,12 @@ tags:
   - business
   - enterprise
   - cloud
-publication_url: "https://dzone.com/articles/hyperledgers-brian-behlendorf-blockchain-for-busin"
-
-image: "/src/assets/images/articles/5836562.jpeg"
+publication_url: 'https://dzone.com/articles/hyperledgers-brian-behlendorf-blockchain-for-busin'
+image: /src/assets/images/articles/5836562.jpeg
+summary: >-
+  Check out a key interview with one of the key developers behind the Apache Web
+  Server about the Hyperledger Foundation, which aims to bring blockchain
+  mainstream.
 ---
 Check out a key interview with one of the key developers behind the Apache Web Server about the Hyperledger Foundation, which aims to bring blockchain mainstream.
 

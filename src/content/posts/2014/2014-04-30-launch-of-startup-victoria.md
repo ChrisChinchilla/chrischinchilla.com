@@ -2,8 +2,12 @@
 title: Launch of Startup Victoria
 publishDate: 2014-04-29T23:54:44.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
+summary: >-
+  There was a panel discussion at tonight's launch but it was really all about
+  launching Victoria's peak body for startups, entrepreneurs and founders
+  tonight and the packed room was very much in drinking and talking mode.
 ---
 
 There was a panel discussion at tonight's launch but it was really all about launching Victoria's peak body for startups, entrepreneurs and founders tonight and the packed room was very much in drinking and talking mode.

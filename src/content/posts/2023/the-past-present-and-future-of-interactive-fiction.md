@@ -1,15 +1,19 @@
 ---
-title: The past, present, and future of interactive fiction
-publishDate: 2023-01-03
-author: "Chris Ward"
-publication_url: "https://medium.com/geekculture/the-past-present-and-future-of-interactive-fiction-51f4f589274"
+title: 'The past, present, and future of interactive fiction'
+publishDate: 2023-01-03T00:00:00.000Z
+author: Chris Ward
+publication_url: >-
+  https://medium.com/geekculture/the-past-present-and-future-of-interactive-fiction-51f4f589274
 categories:
   - writing
 tags:
   - jekyll
   - websites
   - web development
-image: "/src/assets/images/articles/1*UutqlqFpWNkLpDK3fDcIJw.webp"
+image: /src/assets/images/articles/1*UutqlqFpWNkLpDK3fDcIJw.webp
+summary: >-
+  Or, maybe in a more click-generating sub-heading, “how to combine creative
+  writing and programming to create interactive fiction”.
 ---
 
 Or, maybe in a more click-generating sub-heading, “how to combine creative writing and programming to create interactive fiction”.

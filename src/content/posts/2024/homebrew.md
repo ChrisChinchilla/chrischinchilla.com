@@ -1,14 +1,19 @@
 ---
-title: "After 15 years, the maintainer of Homebrew plans to make a living"
-publishDate: 2024-07-26
-author: "Chris Ward"
-publication_url: "https://thenextweb.com/news/homebrew-maintainer-make-a-living-15-weeks"
+title: 'After 15 years, the maintainer of Homebrew plans to make a living'
+publishDate: 2024-07-26T00:00:00.000Z
+author: Chris Ward
+publication_url: 'https://thenextweb.com/news/homebrew-maintainer-make-a-living-15-weeks'
 categories:
   - writing
 tags:
   - macOS
   - Homebrew
-image: "/src/assets/images/articles/hb.jpeg"
+image: /src/assets/images/articles/hb.jpeg
+summary: >-
+  Installing and updating applications and other dependencies on a computer
+  really should be a solved problem by now. Yet almost every major desktop
+  operating system provides multiple options, with no real clear answer to
+  “which is best.”
 ---
 
 Installing and updating applications and other dependencies on a computer really should be a solved problem by now. Yet almost every major desktop operating system provides multiple options, with no real clear answer to “which is best.”

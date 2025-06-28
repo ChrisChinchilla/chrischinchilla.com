@@ -2,10 +2,11 @@
 title: Jesus is Coming
 publishDate: 2009-04-28T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - creative
+  - creative
+summary: So I guess you'll just have to wait
 ---
 
 Jesus is coming

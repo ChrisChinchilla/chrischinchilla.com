@@ -1,18 +1,20 @@
 ---
-title: "Steadily Serving the Web for 12 Years, Liam Crilly From NGINX"
-publishDate: 2017-07-26 18:01:01 UTC
-author: "Chris Ward"
+title: 'Steadily Serving the Web for 12 Years, Liam Crilly From NGINX'
+publishDate: '2017-07-26 18:01:01 UTC'
+author: Chris Ward
 categories:
- - writing
- - dzone
+  - writing
+  - dzone
 tags:
   - apache
   - web servers
   - nginx
   - devops
-publication_url: "https://dzone.com/articles/steadily-serving-the-web-for-12-years-liam-crilly"
-
-image: "/src/assets/images/articles/6039129.jpeg"
+publication_url: 'https://dzone.com/articles/steadily-serving-the-web-for-12-years-liam-crilly'
+image: /src/assets/images/articles/6039129.jpeg
+summary: >-
+  Learn about the history and product range of the popular NGINX web server in
+  this interview with its product management director, Liam Crilly.
 ---
 Learn about the history and product range of the popular NGINX web server in this interview with its product management director, Liam Crilly.
 

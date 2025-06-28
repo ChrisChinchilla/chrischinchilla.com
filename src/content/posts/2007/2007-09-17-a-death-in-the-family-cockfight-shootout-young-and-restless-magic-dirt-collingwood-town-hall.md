@@ -1,7 +1,19 @@
 ---
-title: A Death in the family, Cockfight shootout, Young & Restless, Magic Dirt - Collingwood
-  Town Hall
+title: >-
+  A Death in the family, Cockfight shootout, Young & Restless, Magic Dirt -
+  Collingwood Town Hall
 publishDate: 2007-09-17T20:30:49.000Z
+summary: >-
+  All Ages gigs are tough; everyone claims there are not enough taking place and
+  not enough opportunities for under 18's to attend live music. Unyet when an
+  organisation goes to lengths to organise an all ages show with a strong line
+  up at a prestigious and large venue, attendance is a little disappointing. Why
+  is this? Perhaps running an all ages show in the evening is too late for some
+  parents to allow their children to attend. Perhaps the lack of alcohol
+  dissuades over eighteens attending, which if true, is a sad fact, that a vast
+  majority of people are only attending gigs to get drunk, not for the music.
+  Whatever the reasons, the audience is small tonight, slowly building but never
+  filling the large, spacious and regal Collingwood Town Hall.
 ---
 All Ages gigs are tough; everyone claims there are not enough taking place and not enough opportunities for under 18's to attend live music. Unyet when an organisation goes to lengths to organise an all ages show with a strong line up at a prestigious and large venue, attendance is a little disappointing. Why is this? Perhaps running an all ages show in the evening is too late for some parents to allow their children to attend. Perhaps the lack of alcohol dissuades over eighteens attending, which if true, is a sad fact, that a vast majority of people are only attending gigs to get drunk, not for the music. Whatever the reasons, the audience is small tonight, slowly building but never filling the large, spacious and regal Collingwood Town Hall.
 
