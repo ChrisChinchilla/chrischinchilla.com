@@ -2,6 +2,7 @@
 title: Android version available on Google Play
 publishDate: 2015-01-26T10:52:30.000Z
 categories: projects aah
+summary: Somehow I forgot to post this here...
 ---
 
 Somehow I forgot to post this here...

@@ -1,18 +1,20 @@
 ---
-title: "Founder of Opera and Vivaldi, Jon Stephenson von Tetzchner [Interview]"
-publishDate: 2017-06-04 05:01:20 UTC
-author: "Chris Ward"
+title: 'Founder of Opera and Vivaldi, Jon Stephenson von Tetzchner [Interview]'
+publishDate: '2017-06-04 05:01:20 UTC'
+author: Chris Ward
 categories:
- - writing
- - dzone
+  - writing
+  - dzone
 tags:
   - browsers
   - opera
   - vivaldi
   - web dev
-publication_url: "https://dzone.com/articles/founder-of-opera-and-vivaldi-jon-stephenson-von-te"
-
-image: "/src/assets/images/articles/5483774.jpeg"
+publication_url: 'https://dzone.com/articles/founder-of-opera-and-vivaldi-jon-stephenson-von-te'
+image: /src/assets/images/articles/5483774.jpeg
+summary: >-
+  The internet pioneer sits down with a DZone Zone Leader and MVB to discuss the
+  process of creating a browser, and why he loves designing browsers.
 ---
 The internet pioneer sits down with a DZone Zone Leader and MVB to discuss the process of creating a browser, and why he loves designing browsers.
 

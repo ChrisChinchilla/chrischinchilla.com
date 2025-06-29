@@ -1,18 +1,20 @@
 ---
-title: "Scrimba- A New Way to Teach and Learn Code"
-publishDate: 2017-08-10 17:01:01 UTC
-author: "Chris Ward"
+title: Scrimba- A New Way to Teach and Learn Code
+publishDate: '2017-08-10 17:01:01 UTC'
+author: Chris Ward
 categories:
- - writing
- - dzone
+  - writing
+  - dzone
 tags:
   - education
   - coding
   - learn to code
   - screencasts
-publication_url: "https://dzone.com/articles/scrimba-a-new-way-to-teach-and-learn-code"
-
-image: "/src/assets/images/articles/6212136.jpeg"
+publication_url: 'https://dzone.com/articles/scrimba-a-new-way-to-teach-and-learn-code'
+image: /src/assets/images/articles/6212136.jpeg
+summary: >-
+  We take a look at a new educational platform that allows beginning devs to
+  sync up their GitHub accounts and practice their new found development skills.
 ---
 We take a look at a new educational platform that allows beginning devs to sync up their GitHub accounts and practice their new found development skills.
 

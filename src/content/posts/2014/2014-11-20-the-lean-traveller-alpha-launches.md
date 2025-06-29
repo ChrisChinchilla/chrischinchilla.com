@@ -2,6 +2,11 @@
 title: The Lean Traveller alpha launches
 publishDate: 2014-11-20T10:14:21.000Z
 categories: projects leantraveller
+summary: >-
+  I have just rolled it the first incarnation of <a
+  href="https://theleantraveller.com/" target="_blank">The Lean Traveller</a>,
+  with the first of the topics we will be covering, '<a
+  href="https://theleantraveller.com/money" target="_blank">Money</a>'.
 ---
 
 I have just rolled it the first incarnation of <a href="https://theleantraveller.com/" target="_blank">The Lean Traveller</a>, with the first of the topics we will be covering, '<a href="https://theleantraveller.com/money" target="_blank">Money</a>'.

@@ -2,8 +2,12 @@
 title: Initial impressions of Leipzig and Germany
 publishDate: 2014-07-29T08:48:13.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
+summary: >-
+  So, we're coming up to our first month living in Leipzig (and Germany), so I
+  think I can now start to give some initial impressions. Especially as now we
+  are moving out of 'Holiday' mode and into 'Work' mode.
 ---
 
 So, we're coming up to our first month living in Leipzig (and Germany), so I think I can now start to give some initial impressions. Especially as now we are moving out of 'Holiday' mode and into 'Work' mode.

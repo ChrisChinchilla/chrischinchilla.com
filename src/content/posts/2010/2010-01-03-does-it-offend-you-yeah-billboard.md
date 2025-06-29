@@ -2,11 +2,16 @@
 title: 'Does it offend you, yeah? - Billboard'
 publishDate: 2010-01-03T14:51:30.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - music 
- - reviews
+  - music
+  - reviews
+summary: >-
+  'Does it Offend you, yeah?' lively blend of electro Indie rock bombards
+  Billboard and the tightly packed boisterous Wednesday night crowd, not letting
+  up for one minute or allowing a second of breathing space for the crowd or the
+  band.
 ---
 
 Noise! Noise! Noise!

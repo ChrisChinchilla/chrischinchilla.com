@@ -1,14 +1,20 @@
 ---
-title: "6 new macOS and iOS tools for April 2025"
-publishDate: 2025-04-16
-author: "Chris Ward"
+title: 6 new macOS and iOS tools for April 2025
+publishDate: 2025-04-16T00:00:00.000Z
+author: Chris Ward
 categories:
   - writing
 tags:
   - News
   - Trends
   - Tools
-image: "/src/assets/images/articles/cs-opera.jpg"
+image: /src/assets/images/articles/cs-opera.jpg
+summary: >-
+  Welcome to a new newsletter/post/radar/term-yet-to-be-defined from me that I
+  have been planning for ages. I intend it to be something of a round up of
+  tools and services i’ve been trying recently, plus also industry analysis and
+  trends. To begin with it’s just the tools and service round up as the analysis
+  part requires more thought that I haven’t had time for yet.
 ---
 
 Welcome to a new newsletter/post/radar/term-yet-to-be-defined from me that I have been planning for ages. I intend it to be something of a round up of tools and services i’ve been trying recently, plus also industry analysis and trends. To begin with it’s just the tools and service round up as the analysis part requires more thought that I haven’t had time for yet.

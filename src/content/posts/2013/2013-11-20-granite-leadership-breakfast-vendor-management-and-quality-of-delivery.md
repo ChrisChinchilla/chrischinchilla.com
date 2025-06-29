@@ -1,6 +1,11 @@
 ---
 title: Granite Leadership breakfast - Vendor Management & Quality of Delivery
 publishDate: 2013-11-20T09:58:03.000Z
+summary: >-
+  First up, I find it strange how different sectors describe the same things
+  with different names and have the same problems. It&#39;s simultaneously
+  refreshing and depressing that small and large organisations have exactly the
+  same problems with their projects.
 ---
 
 

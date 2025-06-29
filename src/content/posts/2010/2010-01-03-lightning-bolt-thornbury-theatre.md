@@ -2,11 +2,17 @@
 title: Lightning Bolt - Thornbury Theatre
 publishDate: 2010-01-03T14:55:45.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - music 
- - reviews
+  - music
+  - reviews
+summary: >-
+  The Thornbury Theatre is one of a growing number of old community centres and
+  theatres around Melbourne that are being turned over from their traditional
+  purpose into the hands of the youth to do what they will with, usually using
+  their opulent interiors to host events that the original attendees would
+  probably greatly object to.
 ---
 
 The Thornbury Theatre is one of a growing number of old community centres and theatres around Melbourne that are being turned over from their traditional purpose into the hands of the youth to do what they will with, usually using their opulent interiors to host events that the original attendees would probably greatly object to.

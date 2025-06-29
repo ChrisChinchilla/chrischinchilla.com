@@ -1,10 +1,17 @@
 ---
 title: Thoughts on (Play) Testing
-publishDate: 2015-11-09
-image: "/src/assets/images/articles/image-thoughts-on-play-testing.jpg"
+publishDate: 2015-11-09T00:00:00.000Z
+image: /src/assets/images/articles/image-thoughts-on-play-testing.jpg
 categories:
- - projects
- - chipshop
+  - projects
+  - chipshop
+summary: >-
+  I just had my first play testing session for Chip Shop and returned with lots
+  of feedback. The three players helped me identify a lot of small problems with
+  the game as well as a couple of larger issues that need some refining to make
+  the game work better. None of them so big to break the game, but some
+  important ideas to ponder. Depending on the decisions I make, they may change
+  move the game in a slightly different direction.
 ---
 
 I just had my first play testing session for Chip Shop and returned with lots of feedback. The three players helped me identify a lot of small problems with the game as well as a couple of larger issues that need some refining to make the game work better. None of them so big to break the game, but some important ideas to ponder. Depending on the decisions I make, they may change move the game in a slightly different direction.

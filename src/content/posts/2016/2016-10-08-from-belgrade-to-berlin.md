@@ -1,15 +1,20 @@
 ---
-title: Belgrade to Berlin, it's tech conference season
+title: 'Belgrade to Berlin, it''s tech conference season'
 publishDate: 2016-10-08T00:00:00.000Z
-image: "/src/assets/images/articles/voxxed-belgrade.jpg"
+image: /src/assets/images/articles/voxxed-belgrade.jpg
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - tech
- - conferences
- - links
- - history
+  - tech
+  - conferences
+  - links
+  - history
+summary: >-
+  I haven't been to many meetups the past weeks as the beginning of October is
+  traditionally conference season in tech, and as I look back through my Timehop
+  for the past years, pretty much every year around this time I am at a
+  conference.
 ---
 
 I haven't been to many meetups the past weeks as the beginning of October is traditionally conference season in tech, and as I look back through my [Timehop](https://timehop.com/) for the past years, pretty much every year around this time I am at a conference.

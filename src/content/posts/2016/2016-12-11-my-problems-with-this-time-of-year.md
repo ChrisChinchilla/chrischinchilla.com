@@ -1,17 +1,25 @@
 ---
 title: My problems with this time of year
-publishDate: 2016-12-11 11:00:06 +0100
-image: "/src/assets/images/articles/merchandise/christmas-chinchilla.png"
+publishDate: '2016-12-11 11:00:06 +0100'
+image: /src/assets/images/articles/merchandise/christmas-chinchilla.png
 categories:
- - writing
- - theweeklysqueak
+  - writing
+  - theweeklysqueak
 tags:
   - opinion
   - life
   - christmas
   - holidays
   - family
-excerpt: "That time of year is upon us, wether it be Christmas, 'The Holidays', Festivus, or whatever else you decide to call it. It's here, loud, everywhere and in your face. It felt like time to explain my point of view and problems with this time of the year."
+excerpt: >-
+  That time of year is upon us, wether it be Christmas, 'The Holidays',
+  Festivus, or whatever else you decide to call it. It's here, loud, everywhere
+  and in your face. It felt like time to explain my point of view and problems
+  with this time of the year.
+summary: >-
+  That time of year is upon us, whether it be Christmas, 'The Holidays',
+  Festivus, or whatever else you decide to call it. It's here, loud, everywhere
+  and in your face.
 ---
 
 That time of year is upon us, whether it be Christmas, 'The Holidays', Festivus, or whatever else you decide to call it. It's here, loud, everywhere and in your face.

@@ -3,11 +3,12 @@ title: Lincolnshire
 publishDate: 2011-08-01T00:00:00.000Z
 images: lincoln.jpg"
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - travel
- - uk
+  - travel
+  - uk
+summary: It's amazing what you can find in the country with a little digging...
 ---
 
 It's amazing what you can find in the country with a little digging...

@@ -2,11 +2,14 @@
 title: Josh Pyke - Interview
 publishDate: 2008-01-10T17:13:16.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - music 
- - reviews
+  - music
+  - reviews
+summary: >-
+  <b>You started playing and writing music from a young age (12 - 14), why so
+  young? What motivated you to do it? </b>
 ---
 
 <b>You started playing and writing music from a young age (12 - 14), why so young? What motivated you to do it? </b>

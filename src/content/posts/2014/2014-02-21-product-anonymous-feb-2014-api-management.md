@@ -1,6 +1,14 @@
 ---
 title: Product Anonymous Feb 2014 - API management
 publishDate: 2014-02-20T23:42:44.000Z
+summary: >-
+  This was a great <a href="https://productanonymous.com/"
+  target="_blank">Product Anonymous</a> session with <a
+  href="https://au.linkedin.com/pub/jason-cormier/15/131/744"
+  target="_blank">Jason Corimor</a> of <a href="https://www.mashery.com/"
+  target="_blank">Mashery</a> that covered the business and commercialisation of
+  using APIs, I intend to expand on a few of these topics in the future, so will
+  touch upon them here.
 ---
 
 This was a great <a href="https://productanonymous.com/" target="_blank">Product Anonymous</a> session with <a href="https://au.linkedin.com/pub/jason-cormier/15/131/744" target="_blank">Jason Corimor</a> of <a href="https://www.mashery.com/" target="_blank">Mashery</a> that covered the business and commercialisation of using APIs, I intend to expand on a few of these topics in the future, so will touch upon them here.

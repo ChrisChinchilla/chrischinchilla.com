@@ -2,10 +2,16 @@
 title: 'Meet the data owners: VicRoads'
 publishDate: 2013-12-15T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - opendata
+  - opendata
+summary: >-
+  I've been learning to drive (again) recently, with an aim to finally actually
+  take my driving test, I'm also a keen (legal) cyclist… None of this has any
+  real bearing on me deciding to attend tonight's event, that was more to do
+  with my fascination in knowing about and understanding the various data sets
+  that are available from our government agencies.
 ---
 
 I've been learning to drive (again) recently, with an aim to finally actually take my driving test, I'm also a keen (legal) cyclist… None of this has any real bearing on me deciding to attend tonight's event, that was more to do with my fascination in knowing about and understanding the various data sets that are available from our government agencies. 

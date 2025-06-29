@@ -1,16 +1,21 @@
 ---
 title: Build and program with Sam labs Curious Cars
-publishDate: 2017-01-05 19:45:01 +0100
-image: "/src/assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-eca73892.jpg"
+publishDate: '2017-01-05 19:45:01 +0100'
+image: >-
+  /src/assets/images/articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-eca73892.jpg
 categories:
- - writing
- - theweeklysqueak
+  - writing
+  - theweeklysqueak
 tags:
- - tech
- - review
- - coding
- - children
+  - tech
+  - review
+  - coding
+  - children
 excerpt: null
+summary: >-
+  Last year at IFA I came across a small stall lurking within a gathering of
+  startups. The booth was full of blinking small blocks, motors and switches
+  that aimed to help children learn to code.
 ---
 
 Last year at IFA I came across a small stall lurking within a gathering of startups. The booth was full of blinking small blocks, motors and switches that aimed to help children learn to code.

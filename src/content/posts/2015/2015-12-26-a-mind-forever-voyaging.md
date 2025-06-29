@@ -1,13 +1,18 @@
 ---
-title: 'A Mind Forever Voyaging: A History of Storytelling in Video Games by Dylan Holmes'
+title: >-
+  A Mind Forever Voyaging: A History of Storytelling in Video Games by Dylan
+  Holmes
 publishDate: 2015-12-26T00:00:00.000Z
-image: "/src/assets/images/articles/image-a-mind-forever-voyaging.jpg"
+image: /src/assets/images/articles/image-a-mind-forever-voyaging.jpg
 categories:
- - projects
- - chipshop
+  - projects
+  - chipshop
 tags:
- - books 
- - reviews
+  - books
+  - reviews
+summary: >-
+  As part of creating Chip Shop (and future game ideas) I read recommendations
+  on reading about (and playing) various types of games, not just board games.
 ---
 
 As part of creating Chip Shop (and future game ideas) I read recommendations on reading about (and playing) various types of games, not just board games.

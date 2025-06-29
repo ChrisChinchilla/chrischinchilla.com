@@ -2,11 +2,17 @@
 title: Joomla to Drupal import
 publishDate: 2011-08-10T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - drupal
- - joomla
+  - drupal
+  - joomla
+summary: >-
+  I generally find that in the process of migrating a website to a new system or
+  framework, importing and moving data is the most fraught, frustrating and
+  troublesome part of the process. If you're moving content from a vanilla
+  installation to another vanilla installation you might be in luck, but really,
+  what are the chances of that?
 ---
 
 I generally find that in the process of migrating a website to a new system or framework, importing and moving data is the most fraught, frustrating and troublesome part of the process. If you're moving content from a vanilla installation to another vanilla installation you might be in luck, but really, what are the chances of that?

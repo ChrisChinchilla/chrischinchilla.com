@@ -1,14 +1,18 @@
 ---
-title: KubeCon, back to business
-publishDate: 2023-05-02
-author: "Chris Ward"
-publication_url: "https://chrischinchilla.medium.com/kubecon-back-to-business-722007516c02"
+title: 'KubeCon, back to business'
+publishDate: 2023-05-02T00:00:00.000Z
+author: Chris Ward
+publication_url: 'https://chrischinchilla.medium.com/kubecon-back-to-business-722007516c02'
 categories:
   - writing
 tags:
   - macos
   - version control
-image: "/src/assets/images/articles/1*iicL_Tu_p9Uh4UdBR9pjYA.webp"
+image: /src/assets/images/articles/1*iicL_Tu_p9Uh4UdBR9pjYA.webp
+summary: >-
+  I didn’t attend Detroit last year, but did attend Valencia, and while it was
+  great to be back at a reasonably large in-person event again, the event did
+  feel slightly subdued.
 ---
 
 I didn’t attend Detroit last year, but did attend Valencia, and while it was great to be back at a reasonably large in-person event again, the event did feel slightly subdued.

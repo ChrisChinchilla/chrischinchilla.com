@@ -1,14 +1,14 @@
 ---
-title: "How blockchain will disrupt traditional computing"
-publishDate: 2017-10-04 13:01:01 UTC
-author: "Chris Ward"
+title: How blockchain will disrupt traditional computing
+publishDate: '2017-10-04 13:01:01 UTC'
+author: Chris Ward
 categories: writing dzone
 tags:
   - Blockchain
   - Computing
-publication_url: "https://techbeacon.com/how-blockchain-will-disrupt-traditional-computing"
-image: "/src/assets/images/articles/blockchain-disrupt-it.jpg"
-
+publication_url: 'https://techbeacon.com/how-blockchain-will-disrupt-traditional-computing'
+image: /src/assets/images/articles/blockchain-disrupt-it.jpg
+summary: 'technologies](https://techbeacon.com/tags/blockchain){.markup--anchor'
 ---
 
 [Blockchain-based

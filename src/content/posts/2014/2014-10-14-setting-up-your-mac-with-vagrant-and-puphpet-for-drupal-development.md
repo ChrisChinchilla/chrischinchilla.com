@@ -1,6 +1,11 @@
 ---
 title: Setting up your Mac with Vagrant and Puphpet for Drupal Development
 publishDate: 2014-10-14T14:46:24.000Z
+summary: >-
+  I&#39;m always a bit behind with development trends, mainly because working
+  for yourself or small businesses, you rarely have the luxury of spare time to
+  experiment and tend to<span class="Apple-converted-space">&nbsp; stick with
+  what you have to get the job done.
 ---
 
 

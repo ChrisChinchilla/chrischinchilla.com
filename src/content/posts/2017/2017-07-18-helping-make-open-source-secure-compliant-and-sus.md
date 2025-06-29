@@ -1,10 +1,10 @@
 ---
-title: "Helping Make Open Source Secure, Compliant, and Sustainable With Jeff..."
-publishDate: 2017-07-18 05:01:01 UTC
-author: "Chris Ward"
+title: 'Helping Make Open Source Secure, Compliant, and Sustainable With Jeff...'
+publishDate: '2017-07-18 05:01:01 UTC'
+author: Chris Ward
 categories:
- - writing
- - dzone
+  - writing
+  - dzone
 tags:
   - open souce
   - compliance
@@ -12,9 +12,12 @@ tags:
   - iot
   - enterprise
   - integration
-publication_url: "https://dzone.com/articles/helping-make-open-source-secure-compliant-and-sust"
-
-image: "/src/assets/images/articles/5947880.jpeg"
+publication_url: 'https://dzone.com/articles/helping-make-open-source-secure-compliant-and-sust'
+image: /src/assets/images/articles/5947880.jpeg
+summary: >-
+  Flexera Software offers tools for producers and consumers of open source
+  software to help ensure compliance and security of open source software in
+  enterprise.
 ---
 Flexera Software offers tools for producers and consumers of open source software to help ensure compliance and security of open source software in enterprise.
 

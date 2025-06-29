@@ -2,10 +2,11 @@
 title: Sore Thumb
 publishDate: 2008-01-10T15:31:01.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - creative
+  - creative
+summary: 'When you feel like the odd one out, like a fish whose water''s run out.'
 ---
 
 When you feel like the odd one out, like a fish whose water's run out.

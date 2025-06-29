@@ -1,13 +1,20 @@
 ---
 title: Organise your Browser Tabs with OneTab
 publishDate: 2015-04-11T00:00:00.000Z
-image: "/src/assets/images/articles/image-organise-your-browser-tabs-with-one-tab.jpg"
+image: /src/assets/images/articles/image-organise-your-browser-tabs-with-one-tab.jpg
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - browser
- - productivity
+  - browser
+  - productivity
+summary: >-
+  One of the main perils of the modern world is there is far too much to
+  distract us. So many interesting blog posts to read, events to attend,
+  crap-we-don't-need to buy and other assorted diamonds from the internet. I'm
+  sure several days into the working week we look at our browser and find 20+
+  tabs open, all eating up memory and so cluttered you can't even remember what
+  is what anymore.
 ---
 
 One of the main perils of the modern world is there is far too much to distract us. So many interesting blog posts to read, events to attend, crap-we-don't-need to buy and other assorted diamonds from the internet. I'm sure several days into the working week we look at our browser and find 20+ tabs open, all eating up memory and so cluttered you can't even remember what is what anymore.

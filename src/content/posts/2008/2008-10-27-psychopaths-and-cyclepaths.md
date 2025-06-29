@@ -2,11 +2,16 @@
 title: Psychopaths and Cyclepaths
 publishDate: 2008-10-27T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - cycling 
- - opinion
+  - cycling
+  - opinion
+summary: >-
+  One bright sunny day I stepped out on to Sydney rd in Brunswick to be greeted
+  by a surprising and pleasurable sight, no cars! It was Moreland Council's
+  first Cyclovia, with one of Melbourne's busiest, cramped and most hectic roads
+  open only to bikes, pedestrians and public transport for several hours.
 ---
 
 One bright sunny day I stepped out on to Sydney rd in Brunswick to be greeted by a surprising and pleasurable sight, no cars! It was Moreland Council's first [Cyclovia](www.cyclovia.org), with one of Melbourne's busiest, cramped and most hectic roads open only to bikes, pedestrians and public transport for several hours.

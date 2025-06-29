@@ -2,11 +2,14 @@
 title: My First Melbourne Community Cup
 publishDate: '2007-07-11T06:12:29+00:00'
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
-    - melbourne
-    - sport
+  - melbourne
+  - sport
+summary: >-
+  God knows when I last posted a personal post here, no reason why, just been
+  stupidly busy, haven't been enough hours in the day...
 ---
 
 God knows when I last posted a personal post here, no reason why, just been stupidly busy, haven't been enough hours in the day...

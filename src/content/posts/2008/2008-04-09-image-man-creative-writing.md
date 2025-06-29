@@ -2,10 +2,11 @@
 title: Image Man - Creative Writing
 publishDate: 2008-04-09T05:03:42.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - creative
+  - creative
+summary: An image man does what his image can
 ---
 
 An image man does what his image can

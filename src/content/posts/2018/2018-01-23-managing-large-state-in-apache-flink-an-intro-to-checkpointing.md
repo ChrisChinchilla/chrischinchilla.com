@@ -1,15 +1,18 @@
 ---
-title: "Managing Large State in Apache Flink - An Intro to Incremental Checkpointing"
-publishDate: 2018-01-23 13:51:48 UTC
-author: "Chris Ward"
+title: Managing Large State in Apache Flink - An Intro to Incremental Checkpointing
+publishDate: '2018-01-23 13:51:48 UTC'
+author: Chris Ward
 categories:
- - writing dataartisans
+  - writing dataartisans
 tags:
   - Flink Features
   - Resources
-publication_url: "https://data-artisans.com/blog/managing-large-state-apache-flink-incremental-checkpointing-overview"
-
-image: "/src/assets/images/defaults/blog-chinchilla.jpg"
+publication_url: >-
+  https://data-artisans.com/blog/managing-large-state-apache-flink-incremental-checkpointing-overview
+image: /src/assets/images/defaults/blog-chinchilla.jpg
+summary: >-
+  The post Managing Large State in Apache Flink®: An Intro to Incremental
+  Checkpointing appeared first on data Artisans.
 ---
 The post Managing Large State in Apache Flink®: An Intro to Incremental Checkpointing appeared first on data Artisans.
 

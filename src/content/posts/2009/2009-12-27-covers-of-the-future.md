@@ -2,11 +2,25 @@
 title: Covers of the Future
 publishDate: 2009-12-27T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - music 
- - design
+  - music
+  - design
+summary: >-
+  I'm old enough to remember the great laments aired when vinyl started to die
+  it's still ensuing slow death, how would musicians and their artists still be
+  able to shrink their exquisite works of art down from a whopping 12" to XX CD
+  inlays. Well, unsurprisingly they coped, they managed, they learnt new tricks
+  and still created a mixed bag of wondrous masterpieces and piles of crap.
+  There have been some classic Album covers that I feel wouldn't have even
+  worked on vinyl. Radioheads' 'OK Computer' is one example, pop out the CD
+  holder and you find a wealth of extra art lurking beneath the surface. Not
+  forgetting cardboard covers, flexipacks and a wealth of DIY efforts that were
+  far simplified by the smaller size of a CD. CD bodies themselves also offer an
+  extra surface for artwork that previously never existed, not to mention those
+  more adventurous musicians who add bonus material through the extended CD
+  format.
 ---
 
 I'm old enough to remember the great laments aired when vinyl started to die it's still ensuing slow death, how would musicians and their artists still be able to shrink their exquisite works of art down from a whopping 12" to XX CD inlays. Well, unsurprisingly they coped, they managed, they learnt new tricks and still created a mixed bag of wondrous masterpieces and piles of crap. There have been some classic Album covers that I feel wouldn't have even worked on vinyl. Radioheads' 'OK Computer' is one example, pop out the CD holder and you find a wealth of extra art lurking beneath the surface. Not forgetting cardboard covers, flexipacks and a wealth of DIY efforts that were far simplified by the smaller size of a CD. CD bodies themselves also offer an extra surface for artwork that previously never existed, not to mention those more adventurous musicians who add bonus material through the extended CD format.

@@ -1,14 +1,17 @@
 ---
 title: Digital tools for boardgames and roleplay games
-publishDate: 2021-10-28
+publishDate: 2021-10-28T00:00:00.000Z
 categories:
- - writing chrischinchilla
+  - writing chrischinchilla
 tags:
   - boardgames
   - toleplay
   - tools
-image: "/src/assets/images/articles/dice.jpeg"
-
+image: /src/assets/images/articles/dice.jpeg
+summary: >-
+  I endlessly discover cool digital tools, apps, and websites for enhancing
+  board games and roleplay games and needed an excuse to try them. So I wrote a
+  blogpost!
 ---
 
 I endlessly discover cool digital tools, apps, and websites for enhancing board games and roleplay games and needed an excuse to try them. So I wrote a blogpost!

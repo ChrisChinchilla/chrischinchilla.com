@@ -1,14 +1,16 @@
 ---
 title: Video - Getting to know Volley
 publishDate: 2016-01-11T00:00:00.000Z
-publication_url: 'https://www.sitepoint.com/premium/screencasts/using-volley-to-communicate-with-external-services-from-your-android-app'
-image: "/src/assets/images/articles/image-getting-to-know-android-volley.jpg"
+publication_url: >-
+  https://www.sitepoint.com/premium/screencasts/using-volley-to-communicate-with-external-services-from-your-android-app
+image: /src/assets/images/articles/image-getting-to-know-android-volley.jpg
 categories:
- - writing
- - sitepoint
+  - writing
+  - sitepoint
 tags:
- - android
- - tutorial
+  - android
+  - tutorial
+summary: 'Volley, next generation network communications for Android'
 ---
 
 Volley, next generation network communications for Android

@@ -2,11 +2,19 @@
 title: Are We Valued
 publishDate: 2008-10-27T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - opinion 
- - cycling
+  - opinion
+  - cycling
+summary: >-
+  Cycling is experiencing a worldwide renaissance and Melbourne is no exception
+  with sales of bikes out stripping cars by a scale of six. Wether it be
+  environmental, health or practical reasons, cyclists are rapidly becoming a
+  consumer and user group large enough to start making some demands. So here's a
+  short wish list to make any keen Melbourne cyclists life a little better, and
+  frankly, in these days of environmental crisis, a little more valued in the
+  part we play in doing the world a favour.
 ---
 
 Cycling is experiencing a worldwide renaissance and Melbourne is no exception with sales of bikes out stripping cars by a scale of six. Wether it be environmental, health or practical reasons, cyclists are rapidly becoming a consumer and user group large enough to start making some demands. So here's a short wish list to make any keen Melbourne cyclists life a little better, and frankly, in these days of environmental crisis, a little more valued in the part we play in doing the world a favour.

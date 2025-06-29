@@ -2,11 +2,12 @@
 title: Text Talk one
 publishDate: 2008-12-30T00:00:00.000Z
 tags:
-    - poetry
-    - creative
+  - poetry
+  - creative
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
+summary: _A poem written completely in predictive text_
 ---
 
 _A poem written completely in predictive text_

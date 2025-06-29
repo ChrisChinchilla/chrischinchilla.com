@@ -31,7 +31,7 @@ const posts = defineCollection({
       // image: image().optional().default(defaultBlogImage),
       image: image().optional(),
       publication_url: z.string().url().optional(),
-
+summary: z.string().optional(),
       // canonical: z.string().url().optional(),
 
       publishDate: z.date().or(z.string()).optional(),
@@ -81,7 +81,7 @@ const clients = defineCollection({
     z.object({
       type: z.string(),
       title: z.string(),
-
+      summary: z.string().optional(),
       description: z.string().optional(),
       image: z.union([z.string().url(), image()]),
       company_url: z.string().url().optional(),
@@ -104,6 +104,7 @@ const books = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
+      summary: z.string().optional(),
       // description: z.string(),
       publisher: z.string(),
       // image: z.union([z.string().url(), image()]),
@@ -152,7 +153,7 @@ const newsletters = defineCollection({
     z.object({
       title: z.string(),
       date: z.date(),
-      description: z.string().optional(),
+      summary: z.string().optional(),
       image: z.union([z.string().url(), image()]),
     }),
 });

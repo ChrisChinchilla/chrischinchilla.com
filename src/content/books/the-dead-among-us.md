@@ -21,8 +21,6 @@ store_urls:
 
 **Audio book coming soon!**
 
-[Sign up to my mailing list for notifications of release](https://chinchillatales.substack.com).
-
 _What happens when the living and the previously dead fall in love?_
 
 Ten years after a long and brutal war, there is an uneasy peace between the living and the previously dead. Reluctantly reunited families, industries, and governments struggle to keep the world from falling back into bloody chaos.

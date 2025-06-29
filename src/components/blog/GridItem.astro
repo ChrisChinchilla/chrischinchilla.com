@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import { BLOG } from '~/config.mjs';
 import type { Post } from '~/types';
 import defaultPostImage from '/src/assets/images/defaults/blog-chinchilla.jpg';
+import Tags from '~/components/common/Tags.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 import { Debug } from 'astro:components';
@@ -10,6 +11,7 @@ import { Debug } from 'astro:components';
 export interface Props {
   post: Post;
 }
+
 
 const { post } = Astro.props;
 // What sort of URL
@@ -20,34 +22,56 @@ if (post.publication_url != null) {
   // TODO: Better way? Why is the slug wrong?
   url = `blog${getPermalink(post.id, 'post')}`.replace('.md', '');
 }
----
 
-<!-- TODO: Add body -->
+// Format date
+// TODO: Method
+var rawDate = new Date(post.publishDate);
+var formattedDate = rawDate.toLocaleString('en-GB', {
+  dateStyle: 'short',
+  timeZone: 'UTC',
+});
+
+---
+<Debug {post} />
 <article class="mb-6 transition px-4">
-  <div class="relative md:h-40 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
-    {
-      post.image && (
-        <Image
-          src={post.image ? post.image : defaultPostImage}
-          alt={post.title}
-          class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-        />
-      )
-    }
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+    <Image
+      src={post.image ? post.image : defaultPostImage}
+      alt={post.title}
+      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+    />
   </div>
-  <h3 class="mb-2 text-xl leading-tight sm:text-2xl font-heading font-semibold">
-    {
-      BLOG?.post?.disabled ? (
-        post.title
-      ) : (
-        <a
-          href={url}
-          rel="canonical"
-          class="hover:text-primary-800 dark:hover:text-primary-700  transition ease-in duration-200"
-        >
-          {post.title}
-        </a>
-      )
-    }
-  </h3>
+
+  <div>
+    <header>
+      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold dark:text-slate-300">
+        {
+          url ? (
+            <a
+              class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
+              href={url}
+              rel="canonical"
+            >
+              {post.title}
+            </a>
+          ) : (
+            post.title
+          )
+        }
+      </h2>
+      <i class="my-2 block">{formattedDate}</i>
+    </header>
+    <div class="post-body body">
+      {post.summary}
+    </div>
+  </div>
+  {
+    post.tags && Array.isArray(post.tags) ? (
+      <footer class="mt-2">
+        <Tags tags={post.tags} />
+      </footer>
+    ) : (
+      <Fragment />
+    )
+  }
 </article>

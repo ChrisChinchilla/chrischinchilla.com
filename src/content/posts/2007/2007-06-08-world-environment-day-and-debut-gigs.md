@@ -2,11 +2,16 @@
 title: World Environment Day and Debut Gigs
 publishDate: '2007-06-08T16:21:56+00:00'
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
-    - australia
-    - environment
+  - australia
+  - environment
+summary: >-
+  Tuesday was World Environment Day, I took part in a protest on excess logging,
+  see some photos here <a
+  href="https://www.flickr.com/photos/chrischinchilla/sets/72157600322402682"
+  target="_blank">www.flickr.com/photos/chrischinchilla/sets/72157600322402682</a>
 ---
 
 Tuesday was World Environment Day, I took part in a protest on excess logging, see some photos here <a href="https://www.flickr.com/photos/chrischinchilla/sets/72157600322402682" target="_blank">www.flickr.com/photos/chrischinchilla/sets/72157600322402682</a>

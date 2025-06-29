@@ -2,11 +2,14 @@
 title: Updates from Melbourne
 publishDate: '2007-08-15T20:52:26+00:00'
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
-    - music
-    - melbourne
+  - music
+  - melbourne
+summary: >-
+  It's been a while, I've moved countries, got a new band together, got my feet
+  under the table and now it's time to tell everyone what's been going on.
 ---
 
 It's been a while, I've moved countries, got a new band together, got my feet under the table and now it's time to tell everyone what's been going on.

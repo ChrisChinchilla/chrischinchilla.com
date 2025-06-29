@@ -1,26 +1,15 @@
 ---
-// TODO: This is now legacy, so need better solution
-import Markdown from '@astrojs/markdown-component';
-import truncateMarkdown from 'markdown-truncate';
 import { type CollectionEntry } from 'astro:content';
 import { Image } from 'astro:assets';
 import { slugify } from '~/utils/slugify';
+import { render } from 'astro:content';
 export interface Props {
   book: CollectionEntry<"books">;
 }
 const { book } = Astro.props;
-// const { Content } = await post.render();
+const { Content } = await render(book);
 // const featured_image = await findImage(book.data.image);
 // TODO: Why is slug broken again?
-// Truncate text
-// TODO: Better way?
-// TODO: Make to helper or plugin
-// var truncatedText = body.split("</p>");
-
-const truncatedBody = truncateMarkdown(book.body, {
-  limit: 500,
-  ellipsis: true,
-});
 
 // Format date
 // TODO: Method
@@ -56,8 +45,8 @@ var idOfTitle = slugify(book.data.title);
       </h2>
       <i class="my-2 block">{book.data.publisher}, {formattedDate}, {book.data.role}</i>
     </header>
-    <!-- TODO: Deprecated, need an alternative -->
-    <Markdown class="m-2" />{truncatedBody}
+    <div class="post-body body">
+      <Content />
     {
       book.data.store_urls && (
         
@@ -71,6 +60,7 @@ var idOfTitle = slugify(book.data.title);
           </ul>
         
       )
+          </div>
     }
   </div>
 </article>

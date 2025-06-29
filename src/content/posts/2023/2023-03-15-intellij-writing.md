@@ -1,7 +1,7 @@
 ---
 title: Technical writing with JetBrains' Writerside and Grazie
-publishDate: 2023-03-15
-author: "Chris Ward"
+publishDate: 2023-03-15T00:00:00.000Z
+author: Chris Ward
 categories:
   - writing
 tags:
@@ -10,8 +10,12 @@ tags:
   - Grammar checking
   - linting
   - Spell checking
-image: "/src/assets/images/articles/jb-overview.png"
-publication_url: "https://medium.com/geekculture/technical-writing-with-jetbrains-writerside-and-grazie-2009208f1d4b?source=rss-------1"
+image: /src/assets/images/articles/jb-overview.png
+publication_url: >-
+  https://medium.com/geekculture/technical-writing-with-jetbrains-writerside-and-grazie-2009208f1d4b?source=rss-------1
+summary: >-
+  The docs as code trend, where technical writers and developers work more
+  closely using similar tools and processes, has grown in the past few years.
 ---
 
 The docs as code trend, where technical writers and developers work more closely using similar tools and processes, has grown in the past few years.

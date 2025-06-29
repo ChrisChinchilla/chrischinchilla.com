@@ -1,11 +1,14 @@
 ---
-
 title: Research Update
 publishDate: 2015-01-13T08:38:37.000Z
-image: "/src/assets/images/articles/videogamesinthebeginning.jpg"
+image: /src/assets/images/articles/videogamesinthebeginning.jpg
 categories:
- - projects
- - chipshop
+  - projects
+  - chipshop
+summary: >-
+  I spent Christmas undertaking some more general board game theory and computer
+  history research, this has been helped by a slew of book bundles over the last
+  month covering the topic.
 ---
 
 I spent Christmas undertaking some more general board game theory and computer history research, this has been helped by a slew of book bundles over the last month covering the topic.

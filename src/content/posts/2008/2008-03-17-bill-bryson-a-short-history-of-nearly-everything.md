@@ -2,12 +2,16 @@
 title: Bill Bryson - A Short History of nearly everything
 publishDate: 2008-03-17T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - reviews 
- - books 
- - history
+  - reviews
+  - books
+  - history
+summary: >-
+  I have a recently rediscovered passion and interest for History, absorbing
+  many tomes over the past few months, my favourite being brief surmises of 'all
+  of History'.
 ---
 
 I have a recently rediscovered passion and interest for History, absorbing many tomes over the past few months, my favourite being brief surmises of 'all of History'.
