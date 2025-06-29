@@ -8,7 +8,7 @@ tags:
   - music
   - reviews
 summary: >-
-  Grafton Primary posses an eclectic fan base, drawing in an increasing amount
+  Grafton Primary possesses an eclectic fan base, drawing in an increasing amount
   of musical sub genres, uniting them for fleeting moments in one room. Taking
   up centre ground are the chattering fashionistas, eyeing each other up and
   comparing clothing brands. Bang in front of the stage are an unruly bunch of
