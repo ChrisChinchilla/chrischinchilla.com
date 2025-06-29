@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const postsDirectory = './src/content/posts';
+// TODO: Refactor to include only collections needed
+const postsDirectory = './src/content';
 
 function extractFirstParagraph(content) {
   // Remove frontmatter and get just the content

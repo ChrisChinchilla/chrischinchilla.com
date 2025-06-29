@@ -1,8 +1,6 @@
 ---
 import { Image } from 'astro:assets';
 import { type CollectionEntry } from 'astro:content';
-import Markdown from '@astrojs/markdown-component';
-import truncateMarkdown from 'markdown-truncate';
 import { slugify } from '~/utils/slugify';
 export interface Props {
   game: CollectionEntry<'games'>;
@@ -11,16 +9,6 @@ const { game } = Astro.props;
 
 // const { Content } = await game.render();
 // const featured_image = await findImage(game.data.image);
-
-// Truncate text
-// TODO: Better way?
-// TODO: Make to helper or plugin
-// var truncatedText = body.split("</p>");
-
-const truncatedBody = truncateMarkdown(game.body, {
-  limit: 500,
-  ellipsis: true,
-});
 
 var idOfTitle = slugify(game.data.title);
 ---
@@ -41,9 +29,9 @@ var idOfTitle = slugify(game.data.title);
       </h2>
       <i class="my-2 block">{game.data.role}</i>
     </header>
-    <!-- TODO: Seems kind of ridiculous -->
-    <!-- TODO: Deprecated, need an alternative -->
-    <Markdown class="m-2" />{truncatedBody}
+    <div class="post-body body">
+      {game.body}
+    </div>
     {
       game.data.store_urls && (
         
