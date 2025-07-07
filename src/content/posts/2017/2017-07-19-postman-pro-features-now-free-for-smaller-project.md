@@ -1,10 +1,10 @@
 ---
-title: Postman Pro Features Now Free For Smaller Projects
-publishDate: '2017-07-19 05:01:01 UTC'
-author: Chris Ward
+title: "Postman Pro Features Now Free For Smaller Projects"
+publishDate: 2017-07-19 05:01:01 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - api
   - postman
@@ -12,12 +12,9 @@ tags:
   - testing
   - documentation
   - integration
-publication_url: 'https://dzone.com/articles/postman-pro-features-now-free-for-smaller-projects'
-image: /src/assets/images/articles/5961644.jpeg
-summary: >-
-  With the latest update, Postman now allows access to monitoring,
-  documentation, mock servers, and other API features for users of its free
-  version.
+publication_url: "https://dzone.com/articles/postman-pro-features-now-free-for-smaller-projects"
+
+image: "/src/assets/images/articles/5961644.jpeg"
 ---
 With the latest update, Postman now allows access to monitoring, documentation, mock servers, and other API features for users of its free version.
 

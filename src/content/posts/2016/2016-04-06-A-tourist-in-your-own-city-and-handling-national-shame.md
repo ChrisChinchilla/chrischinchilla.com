@@ -1,16 +1,14 @@
 ---
-title: A Tourist in Your Own City and Handling National Shame
+title: 'A Tourist in Your Own City and Handling National Shame'
 publishDate: 2016-04-06T00:00:00.000Z
-publication_url: >-
-  https://medium.com/@chrischinchilla/a-tourist-in-your-own-city-and-handling-national-shame-86c84bb3277c
+publication_url: 'https://medium.com/@chrischinchilla/a-tourist-in-your-own-city-and-handling-national-shame-86c84bb3277c'
 categories:
-  - writing
-  - life
-  - tourism
+    - writing
+    - life
+    - tourism
 tags:
-  - ios
-  - swift
-summary: 'I was on holiday last week, so of course have been busy. People staying,'
+ - ios
+ - swift
 ---
 
 I was on holiday last week, so of course have been busy. People staying,

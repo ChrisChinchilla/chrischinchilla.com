@@ -2,15 +2,8 @@
 title: 'Global Space Odyssey, Leipzig 2014'
 publishDate: 2014-07-12T16:46:13.000Z
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  I just took part in my first rally in Leipzig (and Germany), The '<a
-  href="https://www.gso-le.de/" target="_blank">Global Space Odyssey</a>',
-  representing refugee rights this year. I'm not sure if this is how every rally
-  in Germany happens, I doubt it is, I think this was something special that
-  happens on a yearly basis as local news and social media was awash with
-  reports on the event.
+ - writing
+ - chrischinchilla
 ---
 
 Wow!

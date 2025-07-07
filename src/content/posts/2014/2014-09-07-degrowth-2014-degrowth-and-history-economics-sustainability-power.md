@@ -2,17 +2,12 @@
 title: 'Degrowth 2014 - Degrowth and history, Economics, sustainability, power'
 publishDate: 2014-09-07T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
-summary: >-
-  Growth is always a goal in many countries, statistics appear everywhere and
-  it's always discussed. Even small reductions in GDP are met with bitter
-  disappointment, it's become one of the most important measures in the modern
-  era.
+ - politics
+ - degrowth
+ - activism
 ---
 
 ## The Hegemony of Growth

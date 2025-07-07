@@ -1,10 +1,6 @@
 ---
 title: Creating Your First Site with Drupal 8
 publishDate: 2014-10-27T09:54:10.000Z
-summary: >-
-  We have been hearing about Drupal 8 for quite a while now and it&rsquo;s
-  sounding increasingly exciting and close. After DrupalCon Amsterdam I was keen
-  to get my hands dirtier with Drupal 8 and try building a website with it.
 ---
 
 

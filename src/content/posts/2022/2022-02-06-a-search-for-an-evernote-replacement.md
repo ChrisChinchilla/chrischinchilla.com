@@ -1,16 +1,14 @@
 ---
 title: A search for an Evernote replacement
-publishDate: 2022-02-06T00:00:00.000Z
-author: Chris Ward
-publication_url: >-
-  https://medium.com/geekculture/a-sreach-for-an-evernote-replacement-4481322202a6
+publishDate: 2022-02-06
+author: "Chris Ward"
+publication_url: "https://medium.com/geekculture/a-sreach-for-an-evernote-replacement-4481322202a6"
 categories:
   - writing
 tags:
   - Evernote
   - Productivity
-image: /src/assets/images/articles/1*MH_eaqejlm7i6PmMzV4ahA.webp
-summary: 'I was a happy, loyal, and paying'
+image: "/src/assets/images/articles/1*MH_eaqejlm7i6PmMzV4ahA.webp"
 ---
 
 I was a happy, loyal, and paying

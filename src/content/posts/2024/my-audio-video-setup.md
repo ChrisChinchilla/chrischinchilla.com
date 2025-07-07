@@ -1,6 +1,6 @@
 ---
 title: My Audio And Video Setup
-publishDate: 2024-05-29T00:00:00.000Z
+publishDate: 2024-05-29
 categories:
   - writing
 tags:
@@ -8,11 +8,7 @@ tags:
   - video
   - audio
   - editing
-image: /src/assets/images/articles/av-hero.png
-summary: >-
-  A few years ago I detailed the hardware and software I use for producing my
-  podcasts and videos. Since then, I have changed a lot, so it seemed a good
-  time to revisit.
+image: '/src/assets/images/articles/av-hero.png'
 ---
 
 [A few years ago I detailed the hardware and software I use for producing my podcasts and videos](https://chrischinchilla.com/blog/2021/2021-09-07-my-audio-video-production-setup/). Since then, I have changed a lot, so it seemed a good time to revisit.

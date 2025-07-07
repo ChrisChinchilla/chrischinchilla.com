@@ -1,17 +1,15 @@
 ---
 title: Video - Which Continuous Integration Tools Support Bitbucket?
 publishDate: 2016-07-01T00:00:00.000Z
-publication_url: >-
-  https://www.sitepoint.com/premium/screencasts/which-continuous-integration-tools-support-bitbucket
-image: /src/assets/images/articles/bitbucket.png
+publication_url: https://www.sitepoint.com/premium/screencasts/which-continuous-integration-tools-support-bitbucket
+image: "/src/assets/images/articles/bitbucket.png"
 categories:
-  - writing
-  - sitepoint
+ - writing
+ - sitepoint
 tags:
-  - git
-  - bitbucket
-  - video
-summary: Automate your tools with Bitbucket
+ - git
+ - bitbucket
+ - video
 ---
 
 Automate your tools with Bitbucket

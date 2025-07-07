@@ -1,19 +1,13 @@
 ---
 title: Price on Application with Ubercart 3 and Views
 publishDate: 2013-05-04T00:00:00.000Z
-image: /src/assets/images/articles/poa-4.png
+image: "/src/assets/images/articles/poa-4.png"
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - drupal
-  - php
-summary: >-
-  A few weeks back I needed to create an ability for certain products in
-  Ubercart to be available for 'price on application', there were a few modules
-  floating around that pertained to do this, but none seemed to work in Drupal
-  7, so I racked my brain on how to accomplish this as simply as possible and
-  came up with something quite tidy...
+ - drupal
+ - php
 ---
 
 A few weeks back I needed to create an ability for certain products in Ubercart to be available for 'price on application', there were a few modules floating around that pertained to do this, but none seemed to work in Drupal 7, so I racked my brain on how to accomplish this as simply as possible and came up with something quite tidy...

@@ -1,21 +1,18 @@
 ---
-title: 'Pilosa: A New Kind of Database Index [Interview]'
-publishDate: '2017-05-31 05:02:08 UTC'
-author: Chris Ward
+title: "Pilosa: A New Kind of Database Index [Interview]"
+publishDate: 2017-05-31 05:02:08 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - database
   - database indexes
   - pilosa
   - bitmap index
-publication_url: 'https://dzone.com/articles/pilosa-a-new-kind-of-database-index'
-image: /src/assets/images/articles/5449885.jpeg
-summary: >-
-  The open-source Pilosa includes production-tested features, including single
-  and multi-node index support, replication, algorithm plugins, a data importer,
-  and more.
+publication_url: "https://dzone.com/articles/pilosa-a-new-kind-of-database-index"
+
+image: "/src/assets/images/articles/5449885.jpeg"
 ---
 The open-source Pilosa includes production-tested features, including single and multi-node index support, replication, algorithm plugins, a data importer, and more.
 

@@ -1,16 +1,14 @@
 ---
 title: Testing macOS betas with VirtualBuddy
-publishDate: 2022-08-06T00:00:00.000Z
-author: Chris Ward
-publication_url: >-
-  https://medium.com/geekculture/testing-macos-betas-with-virtualbuddy-c4f38d680d99
+publishDate: 2022-08-06
+author: "Chris Ward"
+publication_url: "https://medium.com/geekculture/testing-macos-betas-with-virtualbuddy-c4f38d680d99"
 categories:
   - writing
 tags:
   - macos
   - web browsers
-image: /src/assets/images/articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png
-summary: 'Every time Apple announces a new macOS beta, I am tempted to somehow'
+image: "/src/assets/images/articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png"
 ---
 
 Every time Apple announces a new macOS beta, I am tempted to somehow

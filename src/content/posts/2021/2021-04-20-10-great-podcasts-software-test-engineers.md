@@ -1,22 +1,16 @@
 ---
 title: 10 great podcasts for software test engineers
-publishDate: 2021-04-20T00:00:00.000Z
-image: /src/assets/images/articles/software-test-engineers-podcast-chris-ward.jpg
+publishDate: 2021-04-20
+image: "/src/assets/images/articles/software-test-engineers-podcast-chris-ward.jpg"
 categories:
-  - writing
-  - techbeacon
+ - writing
+ - techbeacon
 tags:
-  - podcasts
-  - learning
-  - education
-  - coding
-publication_url: >-
-  https://techbeacon.com/app-dev-testing/10-great-podcasts-software-test-engineers
-summary: >-
-  Software development practices change fast. Development teams use an endless
-  stream of new tools, frameworks, and practices, and it’s your job as a test
-  engineer to make sure that no matter what your development teams use or
-  create, everything runs and works reliably.
+    - podcasts
+    - learning
+    - education
+    - coding
+publication_url: https://techbeacon.com/app-dev-testing/10-great-podcasts-software-test-engineers
 ---
 
 Software development practices change fast. Development teams use an endless stream of new tools, frameworks, and practices, and it’s your job as a test engineer to make sure that no matter what your development teams use or create, everything runs and works reliably.

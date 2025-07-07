@@ -1,16 +1,10 @@
 ---
+
 title: 'Dec 19th Updates, refining concepts'
 publishDate: 2015-01-10T14:58:27.000Z
 categories:
-  - projects
-  - chipshop
-summary: >-
-  This update is more behind the scenes updates I'm afraid, I have been working
-  on the product release and event cards, making very good progress. However I
-  am currently using real names in the cards and I have no clearance for any of
-  them, that will be a big task in the new year, but for now it's easier to just
-  keep them private. Sorry, but the research has been a lot of fun, follow the
-  twitter feed to see a few highlights.
+ - projects
+ - chipshop
 ---
 
 This update is more behind the scenes updates I'm afraid, I have been working on the product release and event cards, making very good progress. However I am currently using real names in the cards and I have no clearance for any of them, that will be a big task in the new year, but for now it's easier to just keep them private. Sorry, but the research has been a lot of fun, follow the twitter feed to see a few highlights.

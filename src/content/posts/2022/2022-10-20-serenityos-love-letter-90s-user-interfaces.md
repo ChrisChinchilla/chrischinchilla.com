@@ -1,22 +1,16 @@
 ---
-title: 'Running SerenityOS, a Love Letter to ''90s User Interfaces'
-publishDate: 2022-10-20T00:00:00.000Z
-author: Chris Ward
+title: "Running SerenityOS, a Love Letter to '90s User Interfaces"
+publishDate: 2022-10-20
+author: "Chris Ward"
 categories:
-  - writing
-  - hackernoon
+ - writing
+ - hackernoon
 tags:
   - Operating Systems
   - SerenityOS
   - 90s
-publication_url: 'https://hackernoon.com/running-serenityos-a-love-letter-to-90s-user-interfaces'
-image: /src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-26937di.jpeg
-summary: >-
-  I have always loved messing around with operating systems and desktop
-  environments. I believe my first graphical operating system was AmigaOS. In
-  the decades since I have worked through various Windows versions, every
-  version of macOS since 7.0, different Linux flavors and combinations, and many
-  other small niche OSs I have forgotten about in a sea of windows and menus.
+publication_url: "https://hackernoon.com/running-serenityos-a-love-letter-to-90s-user-interfaces"
+image: "/src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-26937di.jpeg"
 ---
 I have always loved messing around with operating systems and desktop environments. I believe my first graphical operating system was AmigaOS. In the decades since I have worked through various Windows versions, every version of macOS since 7.0, different Linux flavors and combinations, and many other small niche OSs I have forgotten about in a sea of windows and menus.
 

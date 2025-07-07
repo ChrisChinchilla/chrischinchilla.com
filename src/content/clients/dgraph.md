@@ -4,10 +4,10 @@ title: Dgraph
 image: /src/assets/images/clients/dgraph.jpg
 category: Chris
 tags:
-  - documentation
-  - database
-  - graphql
-current: false
+- documentation
+- database
+- graphql
+
 company_url: 'http://dgraph.io'
 work_link: https://dgraph.io/docs/graphql/
 start_date: 2020

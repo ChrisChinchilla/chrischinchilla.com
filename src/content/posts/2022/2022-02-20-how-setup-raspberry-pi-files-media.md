@@ -1,21 +1,17 @@
 ---
+
 title: How I set up a RaspberryPi to share my files and media
-publishDate: 2022-02-20T00:00:00.000Z
+publishDate: 2022-02-20
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
   - ebooks
   - calibre
   - nextcloud
   - minidnla
-image: /src/assets/images/articles/raspberry-pi.jpeg
-summary: >-
-  Over the past months, I've been slowly assembling a suite of self-hosted tools
-  and services on a shiny new RaspberryPi 400, and finally, I think I am
-  finished and ready to write up my experiences. At the least, it will help
-  remind me what I have, but I hope it might also help others taking similar
-  journeys.
+image: "/src/assets/images/articles/raspberry-pi.jpeg"
+
 ---
 
 Over the past months, I've been slowly assembling a suite of self-hosted tools and services on a shiny new RaspberryPi 400, and finally, I think I am finished and ready to write up my experiences. At the least, it will help remind me what I have, but I hope it might also help others taking similar journeys.

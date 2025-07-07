@@ -1,11 +1,10 @@
 ---
 title: Playtesting Chip Shop
-publishDate: 2015-10-19T00:00:00.000Z
+publishDate: 2015-10-19
 categories:
-  - projects
-  - chipshop
-image: /src/assets/images/articles/pt-cards.png
-summary: Chip Shop is ready for play testing! Find out how to get involved.
+ - projects
+ - chipshop
+image: "/src/assets/images/articles/pt-cards.png"
 ---
 
 Chip Shop is ready for play testing! Find out how to get involved.

@@ -1,20 +1,18 @@
 ---
-title: 'Lucas Carlson of Automic - Taking DevOps Beyond Developers [Audio]'
-publishDate: '2017-07-18 14:01:01 UTC'
-author: Chris Ward
+title: "Lucas Carlson of Automic - Taking DevOps Beyond Developers [Audio]"
+publishDate: 2017-07-18 14:01:01 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - devops
   - automation
   - ai
   - business inteligence
-publication_url: 'https://dzone.com/articles/lucas-carlson-of-automic-taking-devops-beyond-deve'
-image: /src/assets/images/articles/5950132.jpeg
-summary: >-
-  Lucan Carlson talks about Automic's campaign to bring DevOps style automation
-  and practices to everyone in a business, regardless of their role.
+publication_url: "https://dzone.com/articles/lucas-carlson-of-automic-taking-devops-beyond-deve"
+
+image: "/src/assets/images/articles/5950132.jpeg"
 ---
 Lucan Carlson talks about Automic's campaign to bring DevOps style automation and practices to everyone in a business, regardless of their role.
 

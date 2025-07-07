@@ -1,12 +1,6 @@
 ---
 title: Dardanelles - Interview
 publishDate: 2007-11-15T20:32:16.000Z
-summary: >-
-  <strong>Why did you guys decide to get together and form a band?</strong><br
-  />  When we first met each other 18 months ago we were pretty disillusioned
-  with other things in our lives, University wasn't quite what we expected it to
-  be. We saw like-minded people in each other and decided to do something
-  together.
 ---
 
 

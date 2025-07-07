@@ -4,11 +4,11 @@ title: n8n
 image: /src/assets/images/clients/n8n.svg
 category: Chris
 tags:
-  - documentation
-  - automation
-  - hosting
-  - Containers
-current: false
+- documentation
+- automation
+- hosting
+- Containers
+
 company_url: 'https://n8n.io'
 work_link: https://n8n.io
 start_date: 2023

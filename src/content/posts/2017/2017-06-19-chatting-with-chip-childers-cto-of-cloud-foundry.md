@@ -1,20 +1,18 @@
 ---
-title: 'Chatting With Chip Childers, CTO of Cloud Foundry'
-publishDate: '2017-06-19 09:01:00 UTC'
-author: Chris Ward
+title: "Chatting With Chip Childers, CTO of Cloud Foundry"
+publishDate: 2017-06-19 09:01:00 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - cloud foundry
   - cloud
   - containers
   - use cases
-publication_url: 'https://dzone.com/articles/chip-childers-cto-of-cloud-foundry'
-image: /src/assets/images/articles/5651398.jpeg
-summary: >-
-  This talk with Cloud Foundry's Chip Childers covers the company's history, its
-  tools, and how organizations are using them in production environments.
+publication_url: "https://dzone.com/articles/chip-childers-cto-of-cloud-foundry"
+
+image: "/src/assets/images/articles/5651398.jpeg"
 ---
 This talk with Cloud Foundry's Chip Childers covers the company's history, its tools, and how organizations are using them in production environments.
 

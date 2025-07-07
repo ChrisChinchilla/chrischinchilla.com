@@ -1,10 +1,10 @@
 ---
-title: 6 Interesting Trends from the Latest CNCF Survey
-publishDate: 2020-03-23T00:00:00.000Z
-author: Chris Ward
+title: "6 Interesting Trends from the Latest CNCF Survey"
+publishDate: 2020-03-23
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - kubernetes
   - service mesh
@@ -12,12 +12,9 @@ tags:
   - cncf
   - cloud native
   - serverless
-publication_url: 'https://dzone.com/articles/-6-interesting-trends-from-the-latest-cncf-survey'
-image: /src/assets/images/articles/13141726.jpeg
-summary: >-
-  The Cloud Native Computing Foundation (CNCF) conducted another survey late
-  last year and the results are now out. Here's what's popular in cloud native
-  development.
+publication_url: "https://dzone.com/articles/-6-interesting-trends-from-the-latest-cncf-survey"
+image: "/src/assets/images/articles/13141726.jpeg"
+
 ---
 The Cloud Native Computing Foundation (CNCF) conducted another survey late last year and the results are now out. Here's what's popular in cloud native development.
 

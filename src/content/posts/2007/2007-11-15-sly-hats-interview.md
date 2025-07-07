@@ -1,14 +1,6 @@
 ---
 title: Sly Hats - Interview
 publishDate: 2007-11-15T20:23:29.000Z
-summary: >-
-  Geoff O'Conner is one of a multitude of Melbournian musicians with a penchant
-  for side projects, his band 'Crayon Fields' already has several tours and
-  releases under his belt, and now his solo persona 'Sly Hats' is rapidly
-  catching up recently returning from a two month world tour with fellow
-  songwriter 'Guy Blackman'. I caught up with a nervous Geoff and over cups of
-  herbal tea we discussed Music, Melbourne (and sadly after the recorder was
-  switched off and he finally relaxed) and the ways of the World.
 ---
 
 

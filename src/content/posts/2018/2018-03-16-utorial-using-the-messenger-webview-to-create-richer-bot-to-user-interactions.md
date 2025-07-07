@@ -1,19 +1,15 @@
 ---
-title: >-
-  Tutorial: Using the Messenger Webview to create richer bot-to-user
-  interactions
-publishDate: 2018-03-16T00:00:00.000Z
-author: Chris Ward
+title: "Tutorial: Using the Messenger Webview to create richer bot-to-user interactions"
+publishDate: 2018-03-16
+author: "Chris Ward"
 categories:
-  - writing
+ - writing
 tags:
   - tutorial
   - messenger
   - bots
-publication_url: >-
-  https://medium.com/@chrischinchilla/using-the-webview-to-create-richer-bot-to-user-interactions-ed8a789523c6
-image: /src/assets/images/defaults/blog-chinchilla.jpg
-summary: Developers are building many different types of experiences in
+publication_url: "https://medium.com/@chrischinchilla/using-the-webview-to-create-richer-bot-to-user-interactions-ed8a789523c6"
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 ---
 
 

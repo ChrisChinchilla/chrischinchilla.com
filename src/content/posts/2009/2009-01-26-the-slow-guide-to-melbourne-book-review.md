@@ -2,18 +2,11 @@
 title: The Slow Guide to Melbourne - Book review
 publishDate: 2009-01-26T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - books
-  - reviews
-summary: >-
-  'Slow' is an increasingly popular worldwide movement encouraging us to all,
-  well, slow down. To take time out from our increasingly (and frequently self
-  inflicted) hectic lives to appreciate what is around us, to take time to
-  notice little things that were previously unnoticed, investigate places
-  un-investigated, try new experiences and treat the world in a different, more
-  relaxed and inquisitive manner.
+ - books 
+ - reviews
 ---
 
 'Slow' is an increasingly popular worldwide movement encouraging us to all, well, slow down. To take time out from our increasingly (and frequently self inflicted) hectic lives to appreciate what is around us, to take time to notice little things that were previously unnoticed, investigate places un-investigated, try new experiences and treat the world in a different, more relaxed and inquisitive manner.

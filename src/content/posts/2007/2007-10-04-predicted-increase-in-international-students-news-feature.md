@@ -1,13 +1,6 @@
 ---
 title: Predicted Increase in International Students - News Feature
 publishDate: 2007-10-04T16:21:33.000Z
-summary: >-
-  According to a forthcoming research report to be issued by overseas student
-  recruiter IDP Education, International Student demand in Australia will double
-  in the next two decades with Universities struggling to meet the demand.
-  Currently Overseas students comprise approximately 17% of the Australian
-  student body with just over a quarter of those studying in Victoria, how much
-  does and will this affect Victorian students?
 ---
 
 

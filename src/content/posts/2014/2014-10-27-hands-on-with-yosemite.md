@@ -2,18 +2,8 @@
 title: Hands on With Yosemite
 publishDate: 2014-10-27T09:03:18.000Z
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  I have been Macs for a very long time, since the dark days of the mid 90s and
-  the days of <a href="https://en.wikipedia.org/wiki/Macintosh_Performa"
-  target="_blank">Performas</a>, <a
-  href="https://en.wikipedia.org/wiki/System_7" target="_blank">System 7</a> and
-  unremarkable CEOs. I have been through the massive change to OS X and
-  processor changes from <a href="https://en.wikipedia.org/wiki/Motorola_68000"
-  target="_blank">68000</a> the series to <a
-  href="https://en.wikipedia.org/wiki/PowerPC" target="_blank">PowerPC</a> and
-  then to Intel.
+ - writing
+ - chrischinchilla
 ---
 
 I have been Macs for a very long time, since the dark days of the mid 90s and the days of <a href="https://en.wikipedia.org/wiki/Macintosh_Performa" target="_blank">Performas</a>, <a href="https://en.wikipedia.org/wiki/System_7" target="_blank">System 7</a> and unremarkable CEOs. I have been through the massive change to OS X and processor changes from <a href="https://en.wikipedia.org/wiki/Motorola_68000" target="_blank">68000</a> the series to <a href="https://en.wikipedia.org/wiki/PowerPC" target="_blank">PowerPC</a> and then to Intel.

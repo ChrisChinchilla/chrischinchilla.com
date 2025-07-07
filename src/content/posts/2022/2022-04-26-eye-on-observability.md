@@ -1,19 +1,15 @@
 ---
 title: An eye on observability for April 2022
-publishDate: 2022-04-26T00:00:00.000Z
-author: Chris Ward
+publishDate: 2022-04-26
+author: "Chris Ward"
 categories:
-  - writing chronosphere
+ - writing chronosphere
 tags:
   - observability
   - prometheus
   - promql
-publication_url: 'https://chronosphere.io/learn/an-eye-on-observability-for-april-2022/'
-image: /src/assets/images/defaults/blog-chinchilla.jpg
-summary: >-
-  Observability is fast changing from a practice that those close to engineering
-  knew was useful, to a practice that everyone knows is useful for technical and
-  business reasons.
+publication_url: https://chronosphere.io/learn/an-eye-on-observability-for-april-2022/
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 ---
 Observability is fast changing from a practice that those close to engineering knew was useful, to a practice that everyone knows is useful for technical and business reasons.
 

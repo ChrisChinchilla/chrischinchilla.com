@@ -2,15 +2,12 @@
 title: 'Degrowth 2014 - ShareEconomy, P2P, Transition Town - What do they share?'
 publishDate: 2014-09-07T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
-summary: >-
-  We are looking at what these models and projects share in common and what is
-  different between them and why.
+ - politics
+ - degrowth
+ - activism
 ---
 
 We are looking at what these models and projects share in common and what is different between them and why.

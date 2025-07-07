@@ -2,12 +2,11 @@
 title: The Slow Guide to Melbourne
 publishDate: 2009-04-28T17:57:29.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - books
-  - reviews
-summary: '<a href=https://www.slowguides.com.au>www.slowguides.com.au</a>'
+ - books 
+ - reviews
 ---
 
 <a href=https://www.slowguides.com.au>www.slowguides.com.au</a>

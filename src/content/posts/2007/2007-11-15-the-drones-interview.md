@@ -1,13 +1,6 @@
 ---
 title: The Drones - Interview
 publishDate: 2007-11-15T20:31:28.000Z
-summary: >-
-  The Drones are an Australian Indie institution, but largely unknown outside of
-  their growing and loyal fanbase. Yet another interview I entered without
-  knowing a great deal about the subjects, however, after hearing so much about
-  them from friends, I was eager to learn more. I spoke to Mike Noga (Drums)
-  about the bands busy history and how he celebrated his 29th Birthday by being
-  mugged in London, life on the road!
 ---
 
 

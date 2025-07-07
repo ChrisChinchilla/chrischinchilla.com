@@ -2,15 +2,12 @@
 title: Play Testing is Open Again
 publishDate: '2016-01-28'
 categories:
-  - projects
-  - chipshop
-image: /src/assets/images/articles/image-playtesting-is-open-again.jpg
+ - projects
+ - chipshop
+image: "/src/assets/images/articles/image-playtesting-is-open-again.jpg"
 tags:
-  - games
-  - playtesting
-summary: >-
-  After making many changes, some of which I will get around to blogging about
-  soon, play testing for Chip Shop is open again!
+ - games
+ - playtesting
 ---
 
 After making many changes, some of which I will get around to blogging about soon, play testing for Chip Shop is open again!

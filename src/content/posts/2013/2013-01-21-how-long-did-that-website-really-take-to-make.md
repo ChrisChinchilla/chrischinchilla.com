@@ -2,18 +2,13 @@
 title: How long did that website really take to make?
 publishDate: 2013-01-21T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - web
-  - html
-  - internet
-image: /src/assets/images/articles/Internet_map_1024_0.jpg
-summary: >-
-  That snazzy website your looking at took a while to make didn't it? What do
-  you reckon? Maybe it took the developers a few months to make. Perhaps its
-  taken them a few years of iterative development to create and perfect
-  something more complex.
+ - web
+ - html
+ - internet
+image: "/src/assets/images/articles/Internet_map_1024_0.jpg"
 ---
 
 That snazzy website your looking at took a while to make didn't it? What do you reckon? Maybe it took the developers a few months to make. Perhaps its taken them a few years of iterative development to create and perfect something more complex.

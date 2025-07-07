@@ -2,14 +2,11 @@
 title: Musical Diversity from Down Under
 publishDate: '2007-05-11T02:08:46+00:00'
 tags:
-  - music
-  - australia
+    - music
+    - australia
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  Lots of news and reviews to post here soon, but in the meantime here's my
-  latest Indieoma.com post with all sorts of stuff in it...
+ - writing
+ - chrischinchilla
 ---
 
 Lots of news and reviews to post here soon, but in the meantime here's my latest Indieoma.com post with all sorts of stuff in it...

@@ -1,10 +1,7 @@
 ---
 title: Drupal 7 Multi-sites configuration - Matt Butcher
 publishDate: 2012-06-25T11:17:37.000Z
-image: /src/assets/images/articles/drupal7multisite.png
-summary: >-
-  <a href="https://www.packtpub.com/news/new-drupal-mini-books"
-  target="_blank">Part of Packt publishing's new _Mini Drupal series_</a>
+image: "/src/assets/images/articles/drupal7multisite.png"
 ---
 
 <a href="https://www.packtpub.com/news/new-drupal-mini-books" target="_blank">Part of Packt publishing's new _Mini Drupal series_</a>

@@ -1,19 +1,14 @@
 ---
-title: 'The Story of English by Robert McCrum, Robert MacNeil'
-publishDate: '2016-05-30 08:37:05 +0200'
+title: "The Story of English by Robert McCrum, Robert MacNeil"
+publishDate: "2016-05-30 08:37:05 +0200"
 tags:
-  - books
-  - reviews
-  - language
-  - history
+ - books 
+ - reviews
+ - language
+ - history
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  It's taken moving to a non-English speaking country to realize how wide spread
-  and common place the English languages is in the World. This has piqued my
-  interest in learning about the origins of our bastard tongue and how it got to
-  this position.
+ - writing
+ - chrischinchilla
 ---
 
 It's taken moving to a non-English speaking country to realize how wide spread and common place the English languages is in the World. This has piqued my interest in learning about the origins of our bastard tongue and how it got to this position.

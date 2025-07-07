@@ -1,13 +1,6 @@
 ---
 title: I Heart Hiroshima - Interview
 publishDate: 2007-10-04T16:20:26.000Z
-summary: >-
-  I Heart Hiroshima are one of many Australian bands operating on independent
-  labels who distribute through major companies (In their case MGM), funding
-  releases from touring, merchandise and hopefully previous releases. It&rsquo;s
-  a model that their label &lsquo;boss&rsquo; Paul Curtis believes is a template
-  for the future, he&rsquo;s a man who&rsquo;s brain I intend to pick more of in
-  the near future&hellip;
 ---
 
 

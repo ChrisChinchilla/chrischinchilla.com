@@ -2,19 +2,14 @@
 title: What Do Apple’s App Store Changes Mean for Developers?
 publishDate: 2016-06-09T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/apples-app-store-changes-developers/'
-image: /src/assets/images/articles/apple.png
+image: "/src/assets/images/articles/apple.png"
 categories:
-  - writing
-  - sitepoint
+ - writing
+ - sitepoint
 tags:
-  - apple
-  - marketing
-  - ios
-summary: >-
-  It's a sobering time to be a mobile developer, with both app and device sales
-  down. Personally, I feel this is just the maturation of a new(ish) industry,
-  and everything will work out eventually. But, noticing major dents in their
-  revenue, the major players are clearly worried.
+ - apple
+ - marketing
+ - ios
 ---
 
 It's a sobering time to be a mobile developer, with both app and device sales down. Personally, I feel this is just the maturation of a new(ish) industry, and everything will work out eventually. But, noticing major dents in their revenue, the major players are clearly worried.

@@ -1,12 +1,6 @@
 ---
-title: 'Snowman, The Drones - The Corner'
+title: Snowman, The Drones - The Corner
 publishDate: 2007-11-15T20:29:47.000Z
-summary: >-
-  The Drones are something of an enigma, they posses an extremely loyal and
-  fairly large fan base throughout the world, but outside of their followers,
-  they remain largely unknown. As an illustrative point, The Doorman of the
-  Corner is heard to say in response to a passer by, 'The Drones are playing
-  tonight, never heard of them, must be popular though, it's sold out.√Æ
 ---
 
 

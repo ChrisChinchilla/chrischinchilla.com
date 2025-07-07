@@ -1,10 +1,10 @@
 ---
-title: Multipass and MicroK8s- the Quickest Route to Ubuntu and Kubernetes?
-publishDate: '2019-10-03 13:56:17 UTC'
-author: Chris Ward
+title: "Multipass and MicroK8s- the Quickest Route to Ubuntu and Kubernetes?"
+publishDate: 2019-10-03 13:56:17 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - ubuntu
   - kubernetes
@@ -13,9 +13,9 @@ tags:
   - cloud computing
   - vm
   - canonical
-publication_url: 'https://dzone.com/articles/-multipass-and-microk8s-the-quickest-route-to-ubun'
-image: /src/assets/images/articles/12538752.jpeg
-summary: Would your Kubernetes-based workflows run better on Multipass and MicroK8s?
+publication_url: "https://dzone.com/articles/-multipass-and-microk8s-the-quickest-route-to-ubun"
+image: "/src/assets/images/articles/12538752.jpeg"
+
 ---
 
 Would your Kubernetes-based workflows run better on Multipass and MicroK8s?

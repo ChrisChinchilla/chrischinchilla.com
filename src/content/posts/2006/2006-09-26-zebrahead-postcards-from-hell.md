@@ -2,16 +2,11 @@
 title: Zebrahead - Postcards from Hell
 publishDate: 2006-09-26T13:16:07.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  Sorry, I really can't stand this overproduced US Punk Metal crap, that
-  pretends to be from the street and honest, but sounds like it's produced with
-  all the best equipment available, heavy computer processing and a multi
-  thousand dollar budget. Oh, and it all sounds the same.
+ - music 
+ - reviews
 ---
 
 Sorry, I really can't stand this overproduced US Punk Metal crap, that pretends to be from the street and honest, but sounds like it's produced with all the best equipment available, heavy computer processing and a multi thousand dollar budget. Oh, and it all sounds the same.

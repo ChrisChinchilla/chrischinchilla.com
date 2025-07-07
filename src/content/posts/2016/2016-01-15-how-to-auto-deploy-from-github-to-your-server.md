@@ -3,16 +3,13 @@ title: How to auto deploy from GitHub to your server
 publication_url: 'https://www.sitepoint.com/deploying-from-github-to-a-server/'
 publishDate: 2016-01-15T00:00:00.000Z
 categories:
-  - writing
-  - sitepoint
-tags:
-  - tutorial
-  - github
-  - github
-image: /src/assets/images/articles/chinchilla_octocat.png
-summary: >-
-  GitHub, and the Git version control system it's based on, are fantastic tools
-  for managing and collaborating on projects – code-based or otherwise.
+ - writing
+ - sitepoint
+tags: 
+ - tutorial
+ - github
+ - github
+image: "/src/assets/images/articles/chinchilla_octocat.png"
 ---
 
 GitHub, and the Git version control system it's based on, are fantastic tools for managing and collaborating on projects – code-based or otherwise.

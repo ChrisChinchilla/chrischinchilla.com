@@ -1,16 +1,13 @@
 ---
-title: 'Regional Focus, ''Concepts'' and opening up to you'
+title: "Regional Focus, 'Concepts' and opening up to you"
 publishDate: 2015-03-08T00:00:00.000Z
 categories:
-  - projects
-  - chipshop
+ - projects
+ - chipshop
 tags:
-  - boardgames
-  - playtesting
-  - gamedesign
-summary: >-
-  A few small updates in this blog post, however, they have a large impact on
-  the game.
+ - boardgames
+ - playtesting
+ - gamedesign
 ---
 
 A few small updates in this blog post, however, they have a large impact on the game.

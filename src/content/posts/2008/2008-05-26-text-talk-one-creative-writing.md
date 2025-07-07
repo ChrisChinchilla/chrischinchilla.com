@@ -2,11 +2,10 @@
 title: Text Talk one - Creative Writing
 publishDate: 2008-05-25T22:14:03.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - creative
-summary: Fancied damaged boy any box or coy Cox kiss lips as they lisp.
+ - creative
 ---
 
 Fancied damaged boy any box or coy Cox kiss lips as they lisp.

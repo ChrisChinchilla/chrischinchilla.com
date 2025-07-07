@@ -1,14 +1,13 @@
 ---
-title: WWhat a Fortnight
+title: 'WWhat a Fortnight'
 publishDate: 2016-06-25T00:00:00.000Z
 publication_url: 'https://medium.com/@chrischinchilla/wwhat-a-fortnight-4e6608939452'
 categories:
-  - writing
+ - writing
 tags:
-  - apple
-  - events
-  - wwdc
-summary: 'This is the latest editorial from my newsletter, [*subscribe'
+ - apple
+ - events
+ - wwdc
 ---
 
 

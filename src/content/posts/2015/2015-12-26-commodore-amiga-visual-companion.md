@@ -2,15 +2,12 @@
 title: 'Commodore Amiga: a visual Compendium by Sam Dyer'
 publishDate: 2015-12-26T00:00:00.000Z
 categories:
-  - projects
-  - chipshop
+ - projects
+ - chipshop
 tags:
-  - books
-  - reviews
-image: /src/assets/images/articles/amiga-visual-commpendium.jpg
-summary: >-
-  First, let's get the disclaimers out of the way. I helped Kickstart this book,
-  but that wouldn't necessarily make my review biased...
+ - books 
+ - reviews
+image: "/src/assets/images/articles/amiga-visual-commpendium.jpg"
 ---
 
 First, let's get the disclaimers out of the way. I helped [Kickstart](https://www.kickstarter.com/projects/2146199819/commodore-amiga-a-visual-commpendium) this book, but that wouldn't necessarily make my review biased...

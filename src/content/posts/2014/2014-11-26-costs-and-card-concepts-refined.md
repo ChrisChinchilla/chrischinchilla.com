@@ -1,12 +1,13 @@
 ---
 title: Costs and Card concepts Refined
 publishDate: 2014-11-26T00:00:00.000Z
+# TODO: Add image back
+# image: "/src/assets/images/articles/card_piles.gif"
 categories:
-  - projects
-  - chipshop
+ - projects
+ - chipshop
 tags:
-  - gamedesign
-summary: 'Just a small update, with a much larger one coming next week.'
+ - gamedesign
 ---
 
 Just a small update, with a much larger one coming next week.

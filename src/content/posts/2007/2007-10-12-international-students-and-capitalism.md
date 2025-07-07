@@ -2,13 +2,12 @@
 title: International Students and Capitalism
 publishDate: '2007-10-12T16:27:13+00:00'
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - students
-  - australia
-  - politics
-summary: Firstly I wanted to share with you a recent experience of editing...
+    - students
+    - australia
+    - politics
 ---
 
 Firstly I wanted to share with you a recent experience of editing...

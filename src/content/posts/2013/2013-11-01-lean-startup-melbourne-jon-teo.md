@@ -1,11 +1,6 @@
 ---
 title: Lean Startup Melbourne - Jon Teo
 publishDate: 2013-11-01T22:06:56.000Z
-summary: >-
-  Jonathan Teo (originally from Sydney) from General Catalyst Partners, a
-  leading VC firm in Silicon Valley. Jonathan has personally led early-stage
-  investments in 3 of the hottest companies of recent years including Twitter,
-  Instagram and SnapChat, so a body of great knowledge.
 ---
 
 

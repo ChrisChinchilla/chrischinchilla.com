@@ -1,16 +1,15 @@
 ---
-title: Berlin Blockchain Day Panel
-publishDate: '2018-01-16 13:01:01 UTC'
-author: Chris Ward
+title: "Berlin Blockchain Day Panel"
+publishDate: 2018-01-16 13:01:01 UTC
+author: "Chris Ward"
 categories: writing dzone
 tags:
   - Blockchain
   - Computing
   - Event
-publication_url: >-
-  https://medium.com/@chrischinchilla/blockwatch-berlin-blockchain-day-panel-22528d94933c
-image: /src/assets/images/articles/7672529.jpeg
-summary: 'On a cold Friday December night, with a Christmas market buzzing'
+publication_url: "https://medium.com/@chrischinchilla/blockwatch-berlin-blockchain-day-panel-22528d94933c"
+image: "/src/assets/images/articles/7672529.jpeg"
+
 ---
 
 On a cold Friday December night, with a Christmas market buzzing

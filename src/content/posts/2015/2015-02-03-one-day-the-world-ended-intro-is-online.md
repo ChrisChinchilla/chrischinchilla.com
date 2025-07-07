@@ -2,9 +2,6 @@
 title: One Day the World Ended intro is online
 publishDate: 2015-02-03T17:05:38.000Z
 categories: projects odtwe
-summary: >-
-  After some polishing, planning and technical tweaking the text version of my
-  work of fiction is now online.
 ---
 
 After some polishing, planning and technical tweaking the text version of my work of fiction is now online.

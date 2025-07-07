@@ -2,15 +2,11 @@
 title: Arcturian - Demo
 publishDate: 2007-02-26T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  Proficient debut demo from London five piece for those who remember the
-  sweeter and more melodious side of Britpop and have since got jobs, got lives
-  and grown up? A bit.
+ - music 
+ - reviews
 ---
 
 Proficient debut demo from London five piece for those who remember the sweeter and more melodious side of Britpop and have since got jobs, got lives and grown up? A bit.

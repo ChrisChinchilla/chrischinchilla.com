@@ -2,15 +2,11 @@
 title: Drinking control ad
 publishDate: 2011-08-15T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - greatidea
-image: /src/assets/images/articles/IMG_0599.jpg
-summary: >-
-  I've sometimes been critical of drinking control ads in the past, generally
-  wondering how effective they really are, but I really liked this one I found
-  in a London toilet.
+ - greatidea
+image: "/src/assets/images/articles/IMG_0599.jpg"
 ---
 
 I've sometimes been critical of drinking control ads in the past, generally wondering how effective they really are, but I really liked this one I found in a London toilet.

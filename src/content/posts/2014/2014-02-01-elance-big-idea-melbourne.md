@@ -2,18 +2,8 @@
 title: eLance big idea Melbourne
 publishDate: 2014-02-01T21:53:12.000Z
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  This was a strange event for a couple of reasons, firstly it didn't run very
-  smoothly with lots of minor technical issues and delays that made the event
-  run very long and late, with the main event not really starting until 8pm
-  after a 6:30 start. Secondly the pitches (I saw, see later) were generally a
-  little unsure and not in the traditional pitch style, I spent a lot of time
-  thinking 'and...?', it was never very clear why the pitchers were pitching,
-  what did they want to win for, what did they need the money for? A lot of the
-  pitches had references to 'how awesome' eLance was, feeling more like a pitch
-  for eLance than their own products some of the time.
+ - writing
+ - chrischinchilla
 ---
 
 This was a strange event for a couple of reasons, firstly it didn't run very smoothly with lots of minor technical issues and delays that made the event run very long and late, with the main event not really starting until 8pm after a 6:30 start. Secondly the pitches (I saw, see later) were generally a little unsure and not in the traditional pitch style, I spent a lot of time thinking 'and...?', it was never very clear why the pitchers were pitching, what did they want to win for, what did they need the money for? A lot of the pitches had references to 'how awesome' eLance was, feeling more like a pitch for eLance than their own products some of the time.

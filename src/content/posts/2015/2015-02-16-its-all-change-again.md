@@ -1,13 +1,6 @@
 ---
-title: 'It''s all change, again'
+title: It's all change, again
 publishDate: 2015-02-16T08:29:00.000Z
-summary: >-
-  My plan for 2015 was to spend another few months working on my various
-  projects and then start looking for new full-time work opportunities. In the
-  past month I made a few casual enquires to get an idea of what might be out
-  there and ended up getting quite a few offers very quickly. Many of these I
-  considered but weren&#39;t compelling or different enough (from past work
-  roles) to be worth putting a hold on my own projects.
 ---
 
 

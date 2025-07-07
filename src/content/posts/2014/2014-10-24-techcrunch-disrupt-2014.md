@@ -3,12 +3,8 @@ title: Techcrunch Disrupt 2014
 publishDate: 2014-10-24T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/techcrunch-disrupt-2014/'
 categories:
-  - writing
-  - sitepoint
-summary: >-
-  Before spending seven years in Melbourne and then moving to Germany, I lived
-  and grew up in London. I am one of London's rarities, a real, born-and-bred,
-  bona fide Londoner. In fact I am actually a Cockney -- and one of the last!
+ - writing
+ - sitepoint
 ---
 
 Before spending seven years in Melbourne and then moving to Germany, I lived and grew up in London. I am one of London's rarities, a real, born-and-bred, bona fide Londoner. In fact I am actually a Cockney -- and one of the last!

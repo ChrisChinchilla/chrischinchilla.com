@@ -1,10 +1,8 @@
 ---
+
 title: Site Design Ideas
 publishDate: 2015-01-12T14:00:23.000Z
 categories: projects odtwe
-summary: >-
-  I have started building the site for the "One Day the World Ended" project in
-  Ruby on Rails and thus needed some designs. Here are my rough ones so far.
 ---
 
 I have started building the site for the "One Day the World Ended" project in Ruby on Rails and thus needed some designs. Here are my rough ones so far.

@@ -1,14 +1,10 @@
 ---
-title: Apple's Special Event - New iPhones
+title: "Apple's Special Event - New iPhones"
 publishDate: 2014-09-09T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/apples-special-event-new-iphones/'
 categories:
-  - writing
-  - sitepoint
-summary: >-
-  Today Apple held one of its signature events in its home town of Cupertino,
-  California, announcing a new range of iPhones, a long-awaited wearable device,
-  and a new payment system.
+ - writing
+ - sitepoint
 ---
 
 Today Apple held one of its signature events in its home town of Cupertino, California, announcing a new range of iPhones, a long-awaited wearable device, and a new payment system.

@@ -1,12 +1,6 @@
 ---
 title: Live Blogging Hello Again from Apple
 publishDate: '2016-10-27 19:04:02 +0200'
-summary: >-
-  I'm sat at an Apple event in Berlin and there's not many people here, which
-  says something about what people feel about Macs vs iPhones, or something. In
-  a week when IBM became one of Apple's biggest clients and Microsoft announced
-  more interesting products. It feels like there is growing disappointment and
-  boredom in what Apple is offering.
 ---
 
 I'm sat at an Apple event in Berlin and there's not many people here, which says something about what people feel about Macs vs iPhones, or something. In a week when IBM became one of Apple's biggest clients and Microsoft announced more interesting products. It feels like there is growing disappointment and boredom in what Apple is offering.

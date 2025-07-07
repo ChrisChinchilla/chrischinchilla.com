@@ -2,16 +2,12 @@
 title: Australian Festivals
 publishDate: 2009-04-28T18:10:31.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - opinion
-  - australia
-summary: >-
-  I finally got my fist experience(s) of Australian festivals this summer,
-  albeit a gentle one-day only festival introduction and I hate to say I wasn't
-  greatly impressed.
+ - music 
+ - opinion 
+ - australia
 ---
 
 I finally got my fist experience(s) of Australian festivals this summer, albeit a gentle one-day only festival introduction and I hate to say I wasn't greatly impressed.

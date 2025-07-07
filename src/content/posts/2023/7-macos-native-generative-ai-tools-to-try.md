@@ -1,18 +1,14 @@
 ---
 title: 7 macOS native generative AI tools to try
-publishDate: 2023-06-11T00:00:00.000Z
-author: Chris Ward
-publication_url: >-
-  https://medium.com/macoclock/7-macos-native-generative-ai-tools-to-try-1e6fa5c489b
+publishDate: 2023-06-11
+author: "Chris Ward"
+publication_url: "https://medium.com/macoclock/7-macos-native-generative-ai-tools-to-try-1e6fa5c489b"
 categories:
   - writing
 tags:
   - macos
   - version control
-image: /src/assets/images/articles/1*0WIx9BnykBO9R6RLQOH0mw.webp
-summary: >-
-  Generative AI tools and platforms are not just the flavour of the month (for
-  now), they’re the flavour of the year, if not the decade.
+image: "/src/assets/images/articles/1*0WIx9BnykBO9R6RLQOH0mw.webp"
 ---
 
 Generative AI tools and platforms are not just the flavour of the month (for now), they’re the flavour of the year, if not the decade.

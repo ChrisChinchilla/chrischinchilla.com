@@ -1,5 +1,7 @@
 ---
 import { Image } from 'astro:assets';
+import Markdown from '@astrojs/markdown-component';
+import truncateMarkdown from 'markdown-truncate';
 import Tags from '~/components/common/Tags.astro';
 import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
 
@@ -27,14 +29,23 @@ if (post.data.publication_url != null) {
 } else {
   url = '/blog/' + post.id;
 }
+// Truncate text
+// TODO: Better way?
+// TODO: Make to helper or plugin
+
+const truncatedBody = truncateMarkdown(post.body, {
+  limit: 500,
+  ellipsis: true,
+});
 ---
 
-<article class="mb-6 transition px-4">
-  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+<!-- TODO: Tidy and fix grid -->
+<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.data.image ? 'md:grid-cols-2' : ''}`}>
+  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
     <Image
       src={post.data.image ? post.data.image : defaultPostImage}
       alt={post.data.title}
-      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
     />
   </div>
 
@@ -57,8 +68,10 @@ if (post.data.publication_url != null) {
       </h2>
       <i class="my-2 block">{formattedDate}</i>
     </header>
+    <!-- TODO: Seems kind of ridiculous -->
     <div class="post-body body">
-      {post.data.summary}
+      <!-- TODO: Deprecated, need an alternative -->
+      <Markdown class="m-2" />{truncatedBody}
     </div>
   </div>
   {

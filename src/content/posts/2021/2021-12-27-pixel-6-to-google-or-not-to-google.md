@@ -1,17 +1,15 @@
 ---
 title: The Pixel 6. To Google or not to Google?
-publishDate: 2021-12-27T00:00:00.000Z
-author: Chris Ward
+publishDate: 2021-12-27
+author: "Chris Ward"
 categories:
-  - writing
+ - writing
 tags:
   - gadgets
   - mobile
   - android
-publication_url: >-
-  https://medium.com/@chrischinchilla/the-pixel-6-to-google-or-not-to-google-f3938b718f57
-image: /src/assets/images/articles/1*IX-odNWMBhpz5RdNPkXT5Q.jpg
-summary: I am one of those rare and crazy people that owned the one and only
+publication_url: "https://medium.com/@chrischinchilla/the-pixel-6-to-google-or-not-to-google-f3938b718f57"
+image: "/src/assets/images/articles/1*IX-odNWMBhpz5RdNPkXT5Q.jpg"
 ---
 
 I am one of those rare and crazy people that owned the one and only

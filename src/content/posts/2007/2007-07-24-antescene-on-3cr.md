@@ -2,15 +2,12 @@
 title: Antescene on 3CR
 publishDate: '2007-07-24T06:06:48+00:00'
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - events
-  - press
-summary: >-
-  I shall be on 3CR radio tomorrow afternoon to talk about my Antescene nights,
-  it's the 'Activate' show and is on from 5.30 - 6pm...
+    - music
+    - events
+    - press
 ---
 
 I shall be on 3CR radio tomorrow afternoon to talk about my Antescene nights, it's the 'Activate' show and is on from 5.30 - 6pm...

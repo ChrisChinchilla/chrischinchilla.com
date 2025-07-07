@@ -2,14 +2,11 @@
 title: Debut Albums and Snail Racing
 publishDate: '2007-11-13T17:03:11+00:00'
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - holidays
-summary: >-
-  (I wrote a whole long and detailed post, then lost it... So now I'm just going
-  to a brief summary!)
+    - music
+    - holidays
 ---
 
 (I wrote a whole long and detailed post, then lost it... So now I'm just going to a brief summary!)

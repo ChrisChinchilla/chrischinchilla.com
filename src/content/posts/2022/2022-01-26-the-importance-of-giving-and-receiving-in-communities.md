@@ -1,16 +1,14 @@
 ---
 title: The importance of giving and receiving in communities
-publishDate: 2022-01-26T00:00:00.000Z
-author: Chris Ward
-publication_url: >-
-  https://medium.com/@chrischinchilla/the-importance-of-giving-and-receiving-in-communities-2aaeb10ea86a
+publishDate: 2022-01-26
+author: "Chris Ward"
+publication_url: "https://medium.com/@chrischinchilla/the-importance-of-giving-and-receiving-in-communities-2aaeb10ea86a"
 categories:
   - writing
 tags:
   - Community
   - Events
-image: /src/assets/images/articles/1*bvencr3aH29R1c30qUwPww.jpg
-summary: 2021 was a difficult year for many. That's not to say that 2020 was any
+image: "/src/assets/images/articles/1*bvencr3aH29R1c30qUwPww.jpg"
 ---
 
 2021 was a difficult year for many. That's not to say that 2020 was any

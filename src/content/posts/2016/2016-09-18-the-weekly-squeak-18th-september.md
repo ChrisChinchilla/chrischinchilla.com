@@ -2,19 +2,14 @@
 title: 'Weekly Squeak, 18th September - Maximum Linkage'
 publishDate: '2016-09-18 21:44:51 +0200'
 categories:
-  - writing
-  - theweeklysqueak
+ - writing
+ - theweeklysqueak
 tags:
-  - politics
-  - tech
-  - berlin
-  - meetups
-publication_url: >-
-  https://medium.com/@ChrisChinchilla/weekly-squeak-18th-september-maximum-linkage-396799deae1c#.uhv5n7a1s
-summary: >-
-  This has been a week of me appearing at meetups rather than attending, and I
-  must admit, when I present, I tend to forget what else happened. More of an
-  adrenaline rush than egotism. I hope.
+ - politics
+ - tech
+ - berlin
+ - meetups
+publication_url: 'https://medium.com/@ChrisChinchilla/weekly-squeak-18th-september-maximum-linkage-396799deae1c#.uhv5n7a1s'
 ---
 
 This has been a week of me appearing at meetups rather than attending, and I must admit, when I present, I tend to forget what else happened. More of an adrenaline rush than egotism. I hope.

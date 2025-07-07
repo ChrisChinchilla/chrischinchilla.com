@@ -4,10 +4,10 @@ title: ReveCom
 image: /src/assets/images/clients/revecom.png
 category: Chris
 tags:
-  - DevOps
-  - WASM
-  - Containers
-current: false
+- DevOps
+- WASM
+- Containers
+
 company_url: 'https://revecom.io'
 start_date: 2020
 end_date: Ongoing

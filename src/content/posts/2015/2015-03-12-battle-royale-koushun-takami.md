@@ -1,21 +1,11 @@
 ---
 title: 'Battle Royale, Koushun Takami'
 publishDate: 2015-03-12T00:00:00.000Z
-image: /src/assets/images/articles/battle.jpg
+image: "/src/assets/images/articles/battle.jpg"
 categories: projects odtwe
 tags:
-  - reviews
-  - books
-summary: >-
-  In my continued efforts to read as mazy works of dystopian fiction as
-  possible, next on my list was Battle Royale. On a side note, are there many
-  works of purely utopian fiction? Or would that not sell? Back to the east
-  Asian republic. Set in the non-too-distant future, a large Asian empire now
-  rules over an undefined area, full of social control, aggression and
-  suppression. Once a term a class of school children are chosen to compete in a
-  battle to the death on an abandoned island with no hope of escape and only one
-  survivor. It's never completely clear why this happens and what the government
-  gets out of it, but that doesn't matter too much.
+ - reviews
+ - books
 ---
 
 In my continued efforts to read as mazy works of dystopian fiction as possible, next on my list was Battle Royale. On a side note, are there many works of purely utopian fiction? Or would that not sell? Back to the east Asian republic. Set in the non-too-distant future, a large Asian empire now rules over an undefined area, full of social control, aggression and suppression. Once a term a class of school children are chosen to compete in a battle to the death on an abandoned island with no hope of escape and only one survivor. It's never completely clear why this happens and what the government gets out of it, but that doesn't matter too much.

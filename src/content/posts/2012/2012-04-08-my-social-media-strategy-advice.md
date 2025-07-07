@@ -2,13 +2,10 @@
 title: My Social Media strategy advice
 publishDate: 2012-04-08T03:54:16.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - creative
-summary: >-
-  Here's a quote/analogy I've been using for a while to overarchingly describe a
-  strategy for engaging on social media that I've found helpful and descriptive.
+ - creative
 ---
 
 Here's a quote/analogy I've been using for a while to overarchingly describe a strategy for engaging on social media that I've found helpful and descriptive.

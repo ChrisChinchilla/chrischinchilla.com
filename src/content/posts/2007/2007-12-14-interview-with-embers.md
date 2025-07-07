@@ -1,10 +1,10 @@
 ---
 title: Interview with Embers
 publishDate: '2007-12-14T01:06:57+00:00'
+
 categories:
-  - writing
-  - chrischinchilla
-summary: My latest column is an interview with Experimental noise four piece 'Embers'.
+ - writing
+ - chrischinchilla
 ---
 
 My latest column is an interview with Experimental noise four piece 'Embers'.

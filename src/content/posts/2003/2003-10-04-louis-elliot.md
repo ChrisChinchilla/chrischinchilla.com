@@ -2,15 +2,11 @@
 title: Louis Elliot
 publishDate: 2003-10-04T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  Louis Eliot started his love affair with music at an early age, his influences
-  spanning from the Wild Cornish countryside to the bohemia of Ladbroke grove
-  with pretty much everything you could think of in-between.
+ - music 
+ - reviews
 ---
 
 Louis Eliot started his love affair with music at an early age, his influences spanning from the Wild Cornish countryside to the bohemia of Ladbroke grove with pretty much everything you could think of in-between.

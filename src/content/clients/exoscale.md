@@ -4,9 +4,9 @@ title: Exoscale
 image: /src/assets/images/clients/exoscale-card.png
 category: Chris
 tags:
-  - cloud
-  - kubernetes
-current: false
+- cloud
+- kubernetes
+
 company_url: 'https://www.exoscale.com/'
 start_date: 2018
 end_date: 2020

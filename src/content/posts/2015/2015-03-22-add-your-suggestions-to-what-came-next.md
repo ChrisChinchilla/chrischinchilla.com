@@ -1,15 +1,8 @@
 ---
-title: Add your suggestions to "What Came Next"
+title: 'Add your suggestions to "What Came Next"'
 publishDate: 2015-03-22T10:13:03.000Z
-image: /src/assets/images/articles/image-what-came-next.jpg
+image: "/src/assets/images/articles/image-what-came-next.jpg"
 categories: projects odtwe
-summary: >-
-  One Day the World Ended is designed to be an open source and collaborative
-  work of fiction. Most of this will come later when I have more material ready,
-  but <a
-  href="https://github.com/ChrisChinchilla/One-Day-the-World-Ended-Jekyll"
-  target="_blank">the code of the website is on GitHub</a> and you're more than
-  free to issue pull requests if you want to.
 ---
 
 One Day the World Ended is designed to be an open source and collaborative work of fiction. Most of this will come later when I have more material ready, but <a href="https://github.com/ChrisChinchilla/One-Day-the-World-Ended-Jekyll" target="_blank">the code of the website is on GitHub</a> and you're more than free to issue pull requests if you want to.

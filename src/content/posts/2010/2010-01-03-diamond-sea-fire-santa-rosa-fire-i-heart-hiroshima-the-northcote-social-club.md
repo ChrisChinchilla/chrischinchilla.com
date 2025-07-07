@@ -1,21 +1,12 @@
 ---
-title: >-
-  Diamond Sea, Fire Santa Rosa Fire, I Heart Hiroshima - The Northcote Social
-  Club
+title: 'Diamond Sea, Fire Santa Rosa Fire, I Heart Hiroshima - The Northcote Social Club'
 publishDate: 2010-01-03T14:54:56.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  A lot is being said about the Diamond Sea around Melbourne and a lot is being
-  whispered about them in front of the stage tonight. What's wrong with them? Is
-  it the bad and overly loud mix, their seeming lack of acknowledgement of the
-  audience or something else that is reducing their usually sparkling and lively
-  show into a rather dull and listless experience with every song melding into
-  the next with very little dynamics.
+ - music 
+ - reviews
 ---
 
 A lot is being said about the Diamond Sea around Melbourne and a lot is being whispered about them in front of the stage tonight. What's wrong with them? Is it the bad and overly loud mix, their seeming lack of acknowledgement of the audience or something else that is reducing their usually sparkling and lively show into a rather dull and listless experience with every song melding into the next with very little dynamics.

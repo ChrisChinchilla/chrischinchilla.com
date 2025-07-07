@@ -1,5 +1,7 @@
 ---
-// TODO: refactor to content collection
+import { CollectionEntry } from 'astro:content';
+import Markdown from '@astrojs/markdown-component';
+
 export interface Props {
   title: string;
   event: string;
@@ -25,6 +27,9 @@ var eventFormat = '';
 {
   currentDate < eventDate ? (eventFormat = 'opacity-100') : (eventFormat = 'opacity-45');
 }
+// Truncate text
+// TODO: Better way?
+// TODO: Make to helper or plugin
 ---
 
 <!-- TODO: Fix mobile layout -->
@@ -54,9 +59,9 @@ var eventFormat = '';
         {event}
       </h2>
     </header>
-    <div class="post-body body">
-      {body}
-    </div>
+    <!-- TODO: Seems kind of ridiculous -->
+    <!-- TODO: Deprecated, need an alternative -->
+    <Markdown class="m-2" />{body}
     <div class="mt-2">
       <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={pres_url}>
         {pres_url}

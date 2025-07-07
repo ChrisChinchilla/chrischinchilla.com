@@ -1,15 +1,12 @@
 ---
-title: SwitchBot- A Smart Home for Everyone?
+title: "SwitchBot- A Smart Home for Everyone?"
 kind: article
-publishDate: '2018-03-06 06:02:39 UTC'
-author: Chris Ward
+publishDate: 2018-03-06 06:02:39 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
-orig_url: 'https://dzone.com/articles/switchbot-a-smart-home-for-everyone'
-summary: >-
-  See how SwitchBot is attempting to alter the smart home market with a
-  ready-made solution, and how their approach is working.
+ - writing
+ - dzone
+orig_url: https://dzone.com/articles/switchbot-a-smart-home-for-everyone
 ---
 See how SwitchBot is attempting to alter the smart home market with a ready-made solution, and how their approach is working.
 

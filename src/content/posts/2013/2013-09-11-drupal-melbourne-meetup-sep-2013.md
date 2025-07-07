@@ -2,12 +2,11 @@
 title: 'Drupal Melbourne meetup, Sep 2013'
 publishDate: 2013-09-11T10:55:26.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - events
-  - drupal
-summary: "<b>Drupal 8 won't kill your kittens - Lee Rowland</b><br />There have been a lot of discussions around changes in the Drupal core team and that many old names are leaving for a variety of reasons, however there have been many new people coming on board and any community should be able to move on from it's originators. I'm currently going through the same process myself right now with Green Renters and it can be a difficult but worthwhile process.\_This was a\_\_great oversight of what is new in D8, watch presentation<br />Remember Lee's final words… _\"We will accept any help\"_<br /><a href=\"https://previousnext.com.au/blog/drupal-8-wont-kill-your-kittens\" target=\"_blank\">See the presentation here</a>"
+ - events
+ - drupal
 ---
 
 <b>Drupal 8 won't kill your kittens - Lee Rowland</b><br />There have been a lot of discussions around changes in the Drupal core team and that many old names are leaving for a variety of reasons, however there have been many new people coming on board and any community should be able to move on from it's originators. I'm currently going through the same process myself right now with Green Renters and it can be a difficult but worthwhile process. This was a  great oversight of what is new in D8, watch presentation<br />Remember Lee's final words… _"We will accept any help"_<br /><a href="https://previousnext.com.au/blog/drupal-8-wont-kill-your-kittens" target="_blank">See the presentation here</a>

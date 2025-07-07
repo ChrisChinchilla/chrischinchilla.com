@@ -2,13 +2,12 @@
 title: Interviewing the Melbourne Zine Scene
 publishDate: '2007-06-27T20:48:35+00:00'
 tags:
-  - zines
-  - creative
-  - melbourne
+    - zines
+    - creative
+    - melbourne
 categories:
-  - writing
-  - chrischinchilla
-summary: Second interview with local zine dignitaries...
+ - writing
+ - chrischinchilla
 ---
 
 Second interview with local zine dignitaries...

@@ -29,6 +29,7 @@ export async function getStaticPaths({ paginate }) {
   const wwwPod = await returnFeed('https://anchor.fm/s/ef311c90/podcast/rss');
   const csPod = await returnFeed('https://feeds.simplecast.com/whlwDbyc');
   let allEpisodes = wwwPod.rss.channel.item.concat(csPod.rss.channel.item);
+  console.log(allEpisodes)
 
   allEpisodes = allEpisodes.sort((a, b) => new Date(b.pubDate).valueOf() - new Date(a.pubDate).valueOf());
   return paginate(allEpisodes, {

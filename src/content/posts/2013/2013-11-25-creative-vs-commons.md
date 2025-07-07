@@ -1,11 +1,6 @@
 ---
 title: Creative vs Commons
 publishDate: 2013-11-24T23:07:27.000Z
-summary: >-
-  With&hellip;&nbsp;Cory Doctorow, Melbourne Writers Festival Director Lisa
-  Dempster and Peter Williams of the Deloitte Centre for the Edge. A main
-  presentation, followed by a panel discussion, which I haven&#39;t really
-  covered here and got interesting just as it was ending.
 ---
 
 

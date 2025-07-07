@@ -4,10 +4,10 @@ title: Dev Spotlight
 image: /src/assets/images/clients/devspotlight.png
 category: Chris
 tags:
-  - DevOps
-  - Programming
-  - JavaScript
-current: false
+- DevOps
+- Programming
+- JavaScript
+
 company_url: 'https://www.devspotlight.com/'
 start_date: 2020
 end_date: Ongoing

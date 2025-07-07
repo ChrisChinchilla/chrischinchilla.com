@@ -1,21 +1,18 @@
 ---
-title: 'Screeps: The MMO Sandbox Game for Programmers'
-publishDate: '2017-06-18 05:01:07 UTC'
-author: Chris Ward
+title: "Screeps: The MMO Sandbox Game for Programmers"
+publishDate: 2017-06-18 05:01:07 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - javascript
   - coding challenges
   - web dev
   - coding exercise
-publication_url: 'https://dzone.com/articles/screeps-the-mmo-sandbox-game-for-programmers'
-image: /src/assets/images/articles/5620905.jpeg
-summary: >-
-  In this article, we explore a video game that requires players to code in
-  JavaScript in order to make any progress in the game and interact with other
-  players.
+publication_url: "https://dzone.com/articles/screeps-the-mmo-sandbox-game-for-programmers"
+
+image: "/src/assets/images/articles/5620905.jpeg"
 ---
 In this article, we explore a video game that requires players to code in JavaScript in order to make any progress in the game and interact with other players.
 

@@ -2,15 +2,11 @@
 title: 'Book Review - Phoenix: The Fall & Rise of Videogames by Leonard Herman'
 publishDate: 2015-02-28T00:00:00.000Z
 categories:
-  - projects
-  - chipshop
+ - projects
+ - chipshop
 tags:
-  - books
-  - reviews
-summary: >-
-  I picked this book up as part of a book bundle somewhere, but escapes me with
-  one right now. It's timing was perfect as research for the development of Chip
-  Shop as it covers the history of video games from 1970 up to the year 2000.
+ - books 
+ - reviews
 ---
 
 I picked this book up as part of a book bundle somewhere, but escapes me with one right now. It's timing was perfect as research for the development of Chip Shop as it covers the history of video games from 1970 up to the year 2000.

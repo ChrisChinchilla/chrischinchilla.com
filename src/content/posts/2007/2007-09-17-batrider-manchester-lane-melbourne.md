@@ -1,21 +1,6 @@
 ---
-title: 'Batrider - Manchester Lane, Melbourne'
+title: Batrider - Manchester Lane, Melbourne
 publishDate: 2007-09-17T20:36:58.000Z
-summary: >-
-  Let's talk about loop pedals. These little boxes of tricks are popping up
-  everywhere at the moment, giving musicians the capability of layering tracks
-  of instrument loops to produce a texture of complex harmonies, great in
-  theory, but becoming a little tired. Pikelet is the Mistress of such gadgets,
-  not only layering sounds but manipulating them on the fly, speeding them up,
-  slowing them down, for example, using her voice to create a cello like sound.
-  The problem is that due to the fundamental definition of a loop, i.e.
-  something that repeats, songs end up all being rather similar, with no real
-  structure, just building pieces that grow dynamically and then stop, with very
-  few verses, choruses, key changes etc. Despite this Pikelet does a very good
-  job of engaging the audience at Manchester Lane, her hypnotic compositions and
-  lilting voice lulling everyone into her own little world and then bringing
-  them screeching back into the real world with her rather dry and even mildly
-  patronising inter song banter.
 ---
 Let's talk about loop pedals. These little boxes of tricks are popping up everywhere at the moment, giving musicians the capability of layering tracks of instrument loops to produce a texture of complex harmonies, great in theory, but becoming a little tired. Pikelet is the Mistress of such gadgets, not only layering sounds but manipulating them on the fly, speeding them up, slowing them down, for example, using her voice to create a cello like sound. The problem is that due to the fundamental definition of a loop, i.e. something that repeats, songs end up all being rather similar, with no real structure, just building pieces that grow dynamically and then stop, with very few verses, choruses, key changes etc. Despite this Pikelet does a very good job of engaging the audience at Manchester Lane, her hypnotic compositions and lilting voice lulling everyone into her own little world and then bringing them screeching back into the real world with her rather dry and even mildly patronising inter song banter.
 

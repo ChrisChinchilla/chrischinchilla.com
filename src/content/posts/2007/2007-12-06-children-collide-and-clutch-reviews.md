@@ -2,14 +2,11 @@
 title: Children Collide and Clutch Reviews
 publishDate: '2007-12-06T18:18:10+00:00'
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  The past 10 days I've been stupidly busy with some freelance work editing
-  videos for a State government project, ohh the glamour!
+ - music 
+ - reviews
 ---
 
 The past 10 days I've been stupidly busy with some freelance work editing videos for a State government project, ohh the glamour!

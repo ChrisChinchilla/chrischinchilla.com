@@ -1,18 +1,14 @@
 ---
 title: Managing a home folder with version control
-publishDate: 2023-02-20T00:00:00.000Z
-author: Chris Ward
-publication_url: >-
-  https://medium.com/macoclock/managing-a-home-folder-with-version-control-b0a4078ceb20
+publishDate: 2023-02-20
+author: "Chris Ward"
+publication_url: "https://medium.com/macoclock/managing-a-home-folder-with-version-control-b0a4078ceb20"
 categories:
   - writing
 tags:
   - macos
   - version control
-image: /src/assets/images/articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png
-summary: >-
-  Some time ago, I mentioned a process I triedthat allowed me to partially
-  recreate my Mac setup on
+image: "/src/assets/images/articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png"
 ---
 
 Some time ago, [I mentioned a process I tried](https://medium.com/geekculture/migrating-applications-and-data-to-a-new-mac-without-using-time-machine-240e1de77892)that allowed me to partially recreate my Mac setup on

@@ -1,20 +1,14 @@
 ---
 title: Would it be possible to work all day on a phone?
-publishDate: 2023-03-23T00:00:00.000Z
-author: Chris Ward
+publishDate: 2023-03-23
+author: "Chris Ward"
 categories:
   - writing
 tags:
   - android
   - pixel
   - productivity
-image: /src/assets/images/defaults/blog-chinchilla.jpg
-summary: >-
-  Last week, I stupidly left the apartment to take a stroll with my office keys.
-  As I shut the front door to double lock it and stared at the wrong set of keys
-  in my hands with disbelief, I realised my mistake. To make things worse, I was
-  sick, the weather was foul, and my wife wasn’t due to return from a work trip
-  until late evening.
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 ---
 
 Last week, I stupidly left the apartment to take a stroll with my office keys. As I shut the front door to double lock it and stared at the wrong set of keys in my hands with disbelief, I realised my mistake. To make things worse, I was sick, the weather was foul, and my wife wasn’t due to return from a work trip until late evening.

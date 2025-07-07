@@ -1,20 +1,18 @@
 ---
-title: 'Pepperdata- Bringing DevOps Practices to the Big Data World [Audio]'
-publishDate: '2017-08-18 05:01:59 UTC'
-author: Chris Ward
+title: "Pepperdata- Bringing DevOps Practices to the Big Data World [Audio]"
+publishDate: 2017-08-18 05:01:59 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - big data
   - data analytics
   - devops adoption
   - processing
-publication_url: 'https://dzone.com/articles/pepperdata-bringing-devops-practices-to-the-big-da'
-image: /src/assets/images/articles/6293938.jpeg
-summary: >-
-  I spoke with Pepperdata CEO Ash Munshi about what the company offers and how
-  their customers save hours from running inefficient processing jobs.
+publication_url: "https://dzone.com/articles/pepperdata-bringing-devops-practices-to-the-big-da"
+
+image: "/src/assets/images/articles/6293938.jpeg"
 ---
 I spoke with Pepperdata CEO Ash Munshi about what the company offers and how their customers save hours from running inefficient processing jobs.
 

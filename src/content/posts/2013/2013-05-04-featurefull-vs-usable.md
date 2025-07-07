@@ -1,14 +1,10 @@
 ---
 title: Featurefull vs Usable
 publishDate: 2013-05-04T12:16:05.000Z
-image: /src/assets/images/articles/feature-bloat.png
+image: "/src/assets/images/articles/feature-bloat.png"
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  I've been having some thoughts recently on the paths that many open source
-  projects seem to follow and who they are really designed for, the developer or
-  the users?
+ - writing
+ - chrischinchilla
 ---
 
 I've been having some thoughts recently on the paths that many open source projects seem to follow and who they are really designed for, the developer or the users?

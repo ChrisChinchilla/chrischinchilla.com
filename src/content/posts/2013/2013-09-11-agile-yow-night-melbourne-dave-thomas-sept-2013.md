@@ -1,14 +1,11 @@
 ---
-title: Agile YOW! Night Melbourne - Dave Thomas - Sept 2013
+title: 'Agile YOW! Night Melbourne - Dave Thomas - Sept 2013'
 publishDate: 2013-09-11T11:11:16.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - events
-summary: >-
-  There seem to be more events not running free catering, is this due to a lack
-  of sponsors or a change to methodology? A thought to ponder on…
+ - events
 ---
 
 There seem to be more events not running free catering, is this due to a lack of sponsors or a change to methodology? A thought to ponder on…

@@ -2,15 +2,12 @@
 title: Buffer - Social sharing
 publishDate: 2013-01-06T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - greatidea
-  - socialmedia
-image: /src/assets/images/articles/buffer.png
-summary: >-
-  I've been using buffer for ages, but not got around to writing anything about
-  it, so now I met appear to be following the pack somewhat.
+ - greatidea
+ - socialmedia
+image: "/src/assets/images/articles/buffer.png"
 ---
 
 I've been using buffer for ages, but not got around to writing anything about it, so now I met appear to be following the pack somewhat.

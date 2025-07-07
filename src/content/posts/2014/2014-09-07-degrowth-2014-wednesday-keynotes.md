@@ -2,18 +2,12 @@
 title: Degrowth 2014 - Wednesday Keynotes
 publishDate: 2014-09-07T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
-summary: >-
-  Konstantatos Haris of the Harokopio University of Athens is a member of Syriza
-  and Political scientist in the department of Geography. He states that
-  Geography and History are also factors as well as different political and
-  socio-economic structures. There are commonalities amongst many Southern
-  European countries that need to be addressed today.
+ - politics
+ - degrowth
+ - activism
 ---
 
 ## Facing the current crisis: Critique and Resistance

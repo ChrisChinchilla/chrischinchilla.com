@@ -2,14 +2,10 @@
 title: Touche - Creative Writing
 publishDate: 2008-05-25T22:18:55.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - creative
-summary: >-
-  Megalomaniac had death at the press of a button, he'd declared war on the rest
-  of the world and he wasn't backing down now. The world hadn't taken him
-  seriously, hadn't met his demands, he'd have to show the world fear and harm.
+ - creative
 ---
 
 Megalomaniac had death at the press of a button, he'd declared war on the rest of the world and he wasn't backing down now. The world hadn't taken him seriously, hadn't met his demands, he'd have to show the world fear and harm.

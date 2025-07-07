@@ -2,16 +2,12 @@
 title: 'Gangster Parties, Eurovision and Fanzines'
 publishDate: '2007-05-16T22:14:07+00:00'
 tags:
-  - australia
-  - eurovision
-  - fanzine
+    - australia
+    - eurovision
+    - fanzine
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  After a surreal party on Saturday night... It had a Gangster theme, Gangster
-  rap... All police tape, chalked murder scene markings, fake money and loud
-  tracksuits.
+ - writing
+ - chrischinchilla
 ---
 
 After a surreal party on Saturday night... It had a Gangster theme, Gangster rap... All police tape, chalked murder scene markings, fake money and loud tracksuits.

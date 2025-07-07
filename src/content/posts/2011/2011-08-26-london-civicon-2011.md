@@ -1,18 +1,13 @@
 ---
 title: London Civicon 2011
 publishDate: 2011-08-26T00:00:00.000Z
-image: /src/assets/images/articles/civiconlondon.png
+image: "/src/assets/images/articles/civiconlondon.png"
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - civicrm
-  - crm
-summary: >-
-  At the time of writing this website isn't quite finished and maybe you can't
-  quite tell that I love <a href="https://www.civicrm.org"
-  target="_blank">civicrm</a>. I won't go into too much detail of why and what
-  it is now, best you do a bit of searching and find that out for yourself.
+    - civicrm
+    - crm
 ---
 
 At the time of writing this website isn't quite finished and maybe you can't quite tell that I love <a href="https://www.civicrm.org" target="_blank">civicrm</a>. I won't go into too much detail of why and what it is now, best you do a bit of searching and find that out for yourself.

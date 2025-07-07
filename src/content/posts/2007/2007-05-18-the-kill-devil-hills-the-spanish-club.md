@@ -1,13 +1,6 @@
 ---
 title: The Kill Devil Hills - The Spanish Club
 publishDate: 2007-05-18T18:42:52.000Z
-summary: >-
-  When I hear the phrase 'country music' I can't help but imagine either
-  American cowboys scowling through tales of the dustbowl deep south, old
-  English men supping real ale and singing in impenetrable accents or the new
-  breed of wiry alt-country stars who never have a good word for anyone or
-  anything, however it seems that Australian Country artists fall into their own
-  unique sub-genre.
 ---
 When I hear the phrase 'country music' I can't help but imagine either American cowboys scowling through tales of the dustbowl deep south, old English men supping real ale and singing in impenetrable accents or the new breed of wiry alt-country stars who never have a good word for anyone or anything, however it seems that Australian Country artists fall into their own unique sub-genre.
 

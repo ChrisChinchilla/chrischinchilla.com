@@ -1,7 +1,6 @@
 ---
 title: Melbourne Mobile March 2014
 publishDate: 2014-03-19T00:43:18.000Z
-summary: We had two local and two international speakers this month&hellip;
 ---
 
 

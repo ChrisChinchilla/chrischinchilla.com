@@ -1,22 +1,19 @@
 ---
-title: IndiaStack- Disrupting the Second Most Populous Nation in the World
-publishDate: '2017-08-11 18:01:08 UTC'
-author: Chris Ward
+title: "IndiaStack- Disrupting the Second Most Populous Nation in the World"
+publishDate: 2017-08-11 18:01:08 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - big data
   - data analytics
   - app development
   - indiastack
   - data-driven development
-publication_url: 'https://dzone.com/articles/india-stack-disrupting-the-second-most-populous-na'
-image: /src/assets/images/articles/6224626.jpeg
-summary: >-
-  While you may not have plans for creating data-driven applications that target
-  the Indian market, the example of a large government creating this platform is
-  interesting.
+publication_url: "https://dzone.com/articles/india-stack-disrupting-the-second-most-populous-na"
+
+image: "/src/assets/images/articles/6224626.jpeg"
 ---
 While you may not have plans for creating data-driven applications that target the Indian market, the example of a large government creating this platform is interesting.
 

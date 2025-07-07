@@ -1,12 +1,10 @@
 ---
 title: Interview with The Dardanelles
 publishDate: '2007-11-08T23:28:14+00:00'
+
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  My latest Indieoma.com post is an interview with Melbourne hipsters (or are
-  they?) Dardanelles...
+ - writing
+ - chrischinchilla
 ---
 
 My latest Indieoma.com post is an interview with Melbourne hipsters (or are they?) Dardanelles...

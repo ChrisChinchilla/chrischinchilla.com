@@ -1,20 +1,12 @@
 ---
-title: >-
-  Look who's Toxic, The Amazing Phillips's Sisters / Tucker B's, Spod - The
-  Northcote Social Club
+title: "Look who's Toxic, The Amazing Phillips's Sisters / Tucker B's, Spod - The Northcote Social Club"
 publishDate: 2008-12-30T00:00:00.000Z
 tags:
-  - reviews
-  - music
+    - reviews
+    - music
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  Friday night gigs need to start earlier to pull in the punters and keep them
-  awake, bar a few overly enthusiastic members of the crowd, most of those
-  hanging around the Northcote Social Club band room are looking like they'd
-  rather be in bed and the support band's job is a tough one to extract any sort
-  of enthusiasm or energy.
+ - writing
+ - chrischinchilla
 ---
 
 Friday night gigs need to start earlier to pull in the punters and keep them awake, bar a few overly enthusiastic members of the crowd, most of those hanging around the Northcote Social Club band room are looking like they'd rather be in bed and the support band's job is a tough one to extract any sort of enthusiasm or energy.

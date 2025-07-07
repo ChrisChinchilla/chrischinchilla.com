@@ -2,19 +2,12 @@
 title: Degrowth 2014 - Friday Keynotes
 publishDate: 2014-09-07T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
-summary: >-
-  Michelle Bauens, the P2P Foundation The Nutrient dense project is a global
-  community of farmers and civic scientists who believe that putting nutrients
-  into the soil it will improve food growth rates. These projects will often
-  receive no funding, so they have mutualised their research and practices. This
-  knowledge and information is shareable and escapes the commodity model. This
-  is the production of commons, not capital.
+ - politics
+ - degrowth
+ - activism
 ---
 
 ## The Transition to a Sustainable Commons Society in Ecuador and beyond

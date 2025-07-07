@@ -1,13 +1,14 @@
 ---
-import { getCollection } from 'astro:content';
-import Post from '~/components/Post.astro';
+import Item from '~/components/blog/GridItem.astro';
+import type { Post } from '~/types';
 
-let posts = await getCollection('posts');
-posts = posts
-  .sort((a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf())
-  .slice(0, 3);
+export interface Props {
+  posts: Array<Post>;
+}
+
+const { posts } = Astro.props;
 ---
 
-<div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
-  {posts.map((post) => <Post post={post} />)}
+<div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-4 -mb-6">
+  {posts.map((post) => <Item post={post} />)}
 </div>

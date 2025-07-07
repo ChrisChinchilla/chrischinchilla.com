@@ -2,24 +2,11 @@
 title: Jamie T - HiFi
 publishDate: 2010-01-03T14:52:18.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  Somewhere along the way in the past few years of his rapid rise, Jamie T has
-  transformed from a charming cheeky London chappy playing anywhere that would
-  take him with only his trusty acoustic bass as company into a cockier (but
-  still fairly charming) world travelling, eternally casual superstar. His past
-  awkward and apologetic inter song banter replaced with the trusty How are you
-  doing insert town name? and I'm going to need help on the next one, you guys
-  ready?.His wordy chatty, monologue, cockney, dylanesque  songs are now packed
-  out by a full and loud band that look like they were found ablimg South London
-  streets, the key and complex lyrics sometimes getting somewhat lost in the
-  noise. His newer material which is less original but more suited to a band
-  follows a current trend in British music, attempting to make every song a 
-  jagged youth anthem.
+ - music 
+ - reviews
 ---
 
 Somewhere along the way in the past few years of his rapid rise, Jamie T has transformed from a charming cheeky London chappy playing anywhere that would take him with only his trusty acoustic bass as company into a cockier (but still fairly charming) world travelling, eternally casual superstar. His past awkward and apologetic inter song banter replaced with the trusty How are you doing insert town name? and I'm going to need help on the next one, you guys ready?.His wordy chatty, monologue, cockney, dylanesque  songs are now packed out by a full and loud band that look like they were found ablimg South London streets, the key and complex lyrics sometimes getting somewhat lost in the noise. His newer material which is less original but more suited to a band follows a current trend in British music, attempting to make every song a  jagged youth anthem.

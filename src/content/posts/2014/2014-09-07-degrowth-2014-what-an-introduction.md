@@ -2,17 +2,12 @@
 title: Degrowth 2014 - What?! An introduction
 publishDate: 2014-09-07T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
-summary: >-
-  Despite attending the conference, not everyone will fully understand what
-  'Degrowth' is, or the multitude of related terms that will be mentioned during
-  the conference. Thankfully the first session on the schedule is ideally suited
-  for getting your knowledge up to scratch.
+ - politics
+ - degrowth
+ - activism
 ---
 
 Despite attending the conference, not everyone will fully understand what 'Degrowth' is, or the multitude of related terms that will be mentioned during the conference. Thankfully the first session on the schedule is ideally suited for getting your knowledge up to scratch.

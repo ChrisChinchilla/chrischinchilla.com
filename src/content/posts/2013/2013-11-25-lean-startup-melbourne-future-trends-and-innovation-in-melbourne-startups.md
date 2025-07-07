@@ -2,11 +2,8 @@
 title: Lean Startup Melbourne - Future Trends and Innovation in Melbourne Startups
 publishDate: 2013-11-25T21:49:55.000Z
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  November has been a great month for meet-ups, perhaps everyone wrapping up for
-  the year is making organisers up the ante.
+ - writing
+ - chrischinchilla
 ---
 
 November has been a great month for meet-ups, perhaps everyone wrapping up for the year is making organisers up the ante.

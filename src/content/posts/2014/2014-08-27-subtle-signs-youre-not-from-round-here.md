@@ -1,12 +1,9 @@
 ---
-title: Subtle signs you're not from round here
+title: "Subtle signs you're not from round here"
 publishDate: 2014-08-27T07:41:26.000Z
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  I've been in Germany for a couple of months now and of course there the
-  obvious signs you're not a local when you open your mouth.
+ - writing
+ - chrischinchilla
 ---
 
 I've been in Germany for a couple of months now and of course there the obvious signs you're not a local when you open your mouth.

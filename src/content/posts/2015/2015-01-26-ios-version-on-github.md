@@ -2,10 +2,6 @@
 title: iOS Version on GitHub
 publishDate: 2015-01-26T10:06:51.000Z
 categories: projects aah
-summary: >-
-  I have completed the iOS version of Answers Against Humanity, it is currently
-  in the App Store submission process, but I am thinking it might be rejected
-  due to the content.
 ---
 
 I have completed the iOS version of Answers Against Humanity, it is currently in the App Store submission process, but I am thinking it might be rejected due to the content.

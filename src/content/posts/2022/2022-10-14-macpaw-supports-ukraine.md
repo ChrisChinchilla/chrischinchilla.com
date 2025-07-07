@@ -1,20 +1,16 @@
 ---
-title: Cybersecurity Awareness Month - MacPaw Supports Ukraine
-publishDate: 2022-10-14T00:00:00.000Z
-author: Chris Ward
+title: "Cybersecurity Awareness Month - MacPaw Supports Ukraine"
+publishDate: 2022-10-14
+author: "Chris Ward"
 categories:
-  - writing
-  - hackernoon
+ - writing
+ - hackernoon
 tags:
   - Ukraine
   - MacPaw
   - Security
-publication_url: 'https://hackernoon.com/cybersecurity-awareness-month-macpaw-supports-ukraine'
-image: /src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-1a932gz.jpeg
-summary: >-
-  It's Cybersecurity awareness month every October and this year I thought I'd
-  share something relevant from my recent trip to cover IT Arena in Lviv,
-  Ukraine.
+publication_url: "https://hackernoon.com/cybersecurity-awareness-month-macpaw-supports-ukraine"
+image: "/src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-1a932gz.jpeg"
 ---
 It's Cybersecurity awareness month every October and this year I thought I'd share something relevant from my recent trip to cover IT Arena in Lviv, Ukraine.
 

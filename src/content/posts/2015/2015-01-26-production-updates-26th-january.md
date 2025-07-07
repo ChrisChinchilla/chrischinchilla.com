@@ -2,12 +2,6 @@
 title: Production Updates 26th January
 publishDate: 2015-01-26T11:02:45.000Z
 categories: projects
-summary: >-
-  Last week I spent time on creating some of the common elements that can be
-  found across all of the Gregarious Mammal sites, this
-  includes:<ul><li>Creative Commons notice</li><li>Mailing
-  List</li><li>Financially contributing to projects</li><li>Git and version
-  information</li></ul>
 ---
 
 Last week I spent time on creating some of the common elements that can be found across all of the Gregarious Mammal sites, this includes:<ul><li>Creative Commons notice</li><li>Mailing List</li><li>Financially contributing to projects</li><li>Git and version information</li></ul>

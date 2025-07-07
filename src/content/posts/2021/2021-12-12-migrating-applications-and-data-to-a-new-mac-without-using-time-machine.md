@@ -1,17 +1,15 @@
 ---
-title: Migrating applications and data to a new Mac without using Time Machine
-publishDate: 2021-12-12T00:00:00.000Z
-author: Chris Ward
+title: Migrating applications and data to a new Mac without using Time Machine 
+publishDate: 2021-12-12
+author: "Chris Ward"
 categories:
-  - writing
+ - writing
 tags:
   - macos
   - backup
   - homebrew
-publication_url: >-
-  https://medium.com/@chrischinchilla/migrating-applications-and-data-to-a-new-mac-without-using-time-machine-240e1de77892
-image: /src/assets/images/defaults/blog-chinchilla.jpg
-summary: I have been trialing a handful of tools and processes recently building
+publication_url: https://medium.com/@chrischinchilla/migrating-applications-and-data-to-a-new-mac-without-using-time-machine-240e1de77892
+image: "/src/assets/images/defaults/blog-chinchilla.jpg"
 ---
 
 

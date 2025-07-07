@@ -2,15 +2,11 @@
 title: Plastic Palace Alice - The Spiegel Tent
 publishDate: 2007-12-20T19:16:15.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  It's very disorientating to enter a venue previously visited on the other side
-  of the world in a completely different place, but that's the wonder of the
-  Speigel Tent.
+ - music 
+ - reviews
 ---
 
 It's very disorientating to enter a venue previously visited on the other side of the world in a completely different place, but that's the wonder of the Speigel Tent.

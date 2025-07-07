@@ -1,10 +1,6 @@
 ---
 title: Extending Drupal with a CRM
 publishDate: 2013-01-02T05:25:30.000Z
-summary: >-
-  A CRM (Contact Relationship Manager or Constituent Relationship Manager
-  depending on your sector) is a fantastic way to take your Drupal installation
-  further and streamline your business practises.
 ---
 
 

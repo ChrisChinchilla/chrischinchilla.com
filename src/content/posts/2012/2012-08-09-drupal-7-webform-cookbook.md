@@ -1,15 +1,10 @@
 ---
 title: Drupal 7 webform cookbook
 publishDate: 2012-08-08T22:03:24.000Z
-image: /src/assets/images/articles/drupal7-webform-cookbook.png
+image: "/src/assets/images/articles/drupal7-webform-cookbook.png"
 categories:
-  - writing
-  - chrischinchilla
-summary: >-
-  Webform is a module that has equal parts lovers and haters... On one hand it
-  makes creating complex forms with no technical knowledge extremely easy. On
-  the other a lot of it's functionality is handled in a 'non-Drupal' way,
-  although this has got somewhat better recently.
+ - writing
+ - chrischinchilla
 ---
 
 Webform is a module that has equal parts lovers and haters... On one hand it makes creating complex forms with no technical knowledge extremely easy. On the other a lot of it's functionality is handled in a 'non-Drupal' way, although this has got somewhat better recently.

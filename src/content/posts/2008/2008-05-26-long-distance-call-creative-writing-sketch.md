@@ -2,11 +2,10 @@
 title: Long Distance Call - Creative Writing (Sketch)
 publishDate: 2008-05-25T22:11:15.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - creative
-summary: '_Phone on table, centre stage. Phone rings._'
+ - creative
 ---
 
 _Phone on table, centre stage. Phone rings._

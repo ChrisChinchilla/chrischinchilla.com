@@ -4,9 +4,9 @@ title: Unity MARS
 image: /src/assets/images/clients/unity.png
 category: Chris
 tags:
-  - AR
-  - gaming
-current: false
+- AR
+- gaming
+
 company_url: 'https://unity.com/products/mars'
 start_date: 20-05-11
 end_date: 20-05-27

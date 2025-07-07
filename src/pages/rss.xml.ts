@@ -11,7 +11,7 @@ export const get = async () => {
       statusText: 'Not found',
     });
   }
-  // TODO: Also need to fetch all
+
   const posts = await fetchPosts();
 
   return rss({

@@ -2,15 +2,11 @@
 title: White Party and the Burning of the Cutty Sark
 publishDate: '2007-05-22T15:53:36+00:00'
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - parties
-  - art
-summary: >-
-  Had a great weekend, went to some gigs on Friday night, though one of those
-  nights when you try to do too much and end up doing next to nothing and
-  staying in one place, Cate got very merry, she was a happy drunk... :-)
+    - parties
+    - art
 ---
 
 Had a great weekend, went to some gigs on Friday night, though one of those nights when you try to do too much and end up doing next to nothing and staying in one place, Cate got very merry, she was a happy drunk... :-)

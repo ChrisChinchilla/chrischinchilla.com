@@ -1,18 +1,14 @@
 ---
 title: Hands on with the Lenovo Yoga Book
-publishDate: '2016-10-25 09:36:36 +0200'
-image: /src/assets/images/articles/yoga_book.jpg
+publishDate: 2016-10-25 09:36:36 +0200
+image: "/src/assets/images/articles/yoga_book.jpg"
 categories:
-  - writing
-  - theweeklysqueak
+ - writing
+ - theweeklysqueak
 tags:
-  - android
-  - devices
-  - reviews
-summary: >-
-  When I saw the announcement of the Yoga Book at IFA I was fascinated. A tablet
-  with a proper keyboard, and a graphics tablet that I could doodle and even
-  write on. Sign me up!
+ - android
+ - devices
+ - reviews
 ---
 
 When I saw the announcement of the Yoga Book at IFA I was fascinated. A tablet with a proper keyboard, and a graphics tablet that I could doodle and even write on. Sign me up!

@@ -1,18 +1,14 @@
 ---
 title: 'CiviCRM Cookbook, Tony Horrocks'
 publishDate: 2013-06-21T00:00:00.000Z
-image: /src/assets/images/articles/civicrm-cookbook.jpg
+image: "/src/assets/images/articles/civicrm-cookbook.jpg"
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - reviews
-  - books
-  - civicrm
-summary: >-
-  CiviCRM like many open source tools is a blank canvas and a set of paints that
-  different implementers will take in many different ways based on their myriad
-  uses and requirements.
+ - reviews
+ - books
+ - civicrm
 ---
 
 CiviCRM like many open source tools is a blank canvas and a set of paints that different implementers will take in many different ways based on their myriad uses and requirements.

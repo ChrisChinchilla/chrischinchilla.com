@@ -1,14 +1,8 @@
 ---
+
 title: 'What’s it all about - Inspirations, Voice, Style and Structure'
 publishDate: 2015-01-12T13:51:31.000Z
 categories: projects odtwe
-summary: >-
-  I guess most of its stylistic inspiration comes from Kurt Vonnegut and to a
-  lesser extent surreal dark British comedy such as Douglas Adams. It is about
-  the end of the world, but that isn't the point, it's just a vehicle. The fact
-  that the world is ending isn't relevant, it's merely a surreal vehicle to
-  explore elements of the human condition. Wow, that last sentence sounded
-  pretentious!
 ---
 
 I guess most of its stylistic inspiration comes from Kurt Vonnegut and to a lesser extent surreal dark British comedy such as Douglas Adams. It is about the end of the world, but that isn't the point, it's just a vehicle. The fact that the world is ending isn't relevant, it's merely a surreal vehicle to explore elements of the human condition. Wow, that last sentence sounded pretentious!

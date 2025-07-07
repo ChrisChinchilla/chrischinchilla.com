@@ -1,7 +1,7 @@
 ---
 type: Technical Writing
 title: Data Artisans
-current: false
+
 company_url: 'https://data-artisans.com'
 image: /src/assets/images/clients/data-artisans.png
 category: Chris writing

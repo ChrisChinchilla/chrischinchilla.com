@@ -1,16 +1,15 @@
 ---
 title: Migrating a website from Jekyll to...
-publishDate: 2023-02-11T00:00:00.000Z
-author: Chris Ward
-publication_url: 'https://medium.com/geekculture/migrating-a-website-from-jekyll-to-54f0bea3de7a'
+publishDate: 2023-02-11
+author: "Chris Ward"
+publication_url: "https://medium.com/geekculture/migrating-a-website-from-jekyll-to-54f0bea3de7a"
 categories:
   - writing
 tags:
   - jekyll
   - websites
   - web development
-image: /src/assets/images/articles/1*Q3r-jIt5lGDBYfRv_Z-SnQ.png
-summary: I have stuffed so much into my website over the years it was starting to creak
+image: "/src/assets/images/articles/1*Q3r-jIt5lGDBYfRv_Z-SnQ.png"
 ---
 
 

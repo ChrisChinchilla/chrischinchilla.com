@@ -1,20 +1,15 @@
 ---
 title: 'Blink(1), a Programmable Indicator for All Developer Needs'
 publishDate: 2016-01-12T00:00:00.000Z
-publication_url: >-
-  https://www.sitepoint.com/blink1-a-programmable-indicator-for-all-developer-needs/
-image: /src/assets/images/articles/image-blink1.png
+publication_url: 'https://www.sitepoint.com/blink1-a-programmable-indicator-for-all-developer-needs/'
+image: "/src/assets/images/articles/image-blink1.png"
 categories:
-  - writing
-  - sitepoint
+ - writing
+ - sitepoint
 tags:
-  - tutorial
-  - devops
-  - iot
-summary: >-
-  Late last summer someone handed me a curious USB device that I popped in my
-  bag and then sat on my shelf until today when I thought it was about time I
-  plugged it into my computer to see what it did.
+ - tutorial
+ - devops
+ - iot
 ---
 
 Late last summer someone handed me a curious USB device that I popped in my bag and then sat on my shelf until today when I thought it was about time I plugged it into my computer to see what it did.

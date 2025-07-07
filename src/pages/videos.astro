@@ -23,12 +23,12 @@ const youTubeVideos = await fetch(
 ---
 
 <Layout {meta}>
-  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
     <!-- TODO: Sort pagination -->
-    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+    <ul>
       {
         youTubeVideos.map((video) => (
           <li class="mb-12 md:mb-20">
@@ -36,6 +36,6 @@ const youTubeVideos = await fetch(
           </li>
         ))
       }
-    </div>
+    </ul>
   </section>
 </Layout>

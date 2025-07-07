@@ -2,14 +2,10 @@
 title: Doug and Julie
 publishDate: 2010-12-13T06:41:25.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - creative
-summary: >-
-  Take a listen (or read) to a light hearted and 'cheesy' romantic (and slightly
-  explicit) short story I recently wrote about Doug, who bored in his office
-  cubicle, fantasies about Julie...
+ - creative
 ---
 
 Take a listen (or read) to a light hearted and 'cheesy' romantic (and slightly explicit) short story I recently wrote about Doug, who bored in his office cubicle, fantasies about Julie...

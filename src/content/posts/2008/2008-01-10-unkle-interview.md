@@ -2,14 +2,11 @@
 title: UNKLE - Interview
 publishDate: 2008-01-10T17:15:01.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  <b>How did everything begin, why did you want to get into music in the first
-  place? </b>
+ - music 
+ - reviews
 ---
 
 <b>How did everything begin, why did you want to get into music in the first place? </b>

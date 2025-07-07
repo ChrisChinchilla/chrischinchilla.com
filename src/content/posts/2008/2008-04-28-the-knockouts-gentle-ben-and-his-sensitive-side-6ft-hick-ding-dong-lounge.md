@@ -2,18 +2,11 @@
 title: 'The Knockouts, Gentle Ben and his Sensitive side, 6ft Hick - Ding Dong Lounge'
 publishDate: 2008-04-28T16:20:37.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  The Knockouts are straight ahead psychobilly rock and roll, feeling slightly
-  stifled but warming up towards the end of the set. Strangely similar in
-  delivery to old Ska band, the Selecter, their material is fairly paint by
-  numbers, simple and uncomplicated conjuring images of Smokey bars in the
-  American deep south, surrounded by far too much leather and cigarette smoke if
-  it hasn't been banned yet?
+ - music 
+ - reviews
 ---
 
 The Knockouts are straight ahead psychobilly rock and roll, feeling slightly stifled but warming up towards the end of the set. Strangely similar in delivery to old Ska band, the Selecter, their material is fairly paint by numbers, simple and uncomplicated conjuring images of Smokey bars in the American deep south, surrounded by far too much leather and cigarette smoke if it hasn't been banned yet?

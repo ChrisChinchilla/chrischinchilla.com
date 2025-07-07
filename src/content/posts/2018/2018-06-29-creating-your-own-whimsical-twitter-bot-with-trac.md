@@ -1,10 +1,10 @@
 ---
-title: Creating Your Own Whimsical Twitter Bot With Tracery
-publishDate: '2018-06-29 06:01:01 UTC'
-author: Chris Ward
+title: "Creating Your Own Whimsical Twitter Bot With Tracery"
+publishDate: 2018-06-29 06:01:01 UTC
+author: "Chris Ward"
 categories:
-  - writing
-  - dzone
+ - writing
+ - dzone
 tags:
   - twitter
   - bots
@@ -16,9 +16,9 @@ tags:
   - artificial intelligence
   - ai
   - bot development
-publication_url: 'https://dzone.com/articles/creating-your-own-whimsical-twitter-bot-with-trace'
-image: /src/assets/images/articles/9614647.jpeg
-summary: Read this fun article about how to create a Twitter bot with Tracery.
+publication_url: "https://dzone.com/articles/creating-your-own-whimsical-twitter-bot-with-trace"
+image: "/src/assets/images/articles/9614647.jpeg"
+
 ---
 Read this fun article about how to create a Twitter bot with Tracery.
 

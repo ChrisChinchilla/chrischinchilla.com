@@ -2,15 +2,11 @@
 title: Politics in Music - Melbourne
 publishDate: '2007-11-26T19:50:41+00:00'
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - politics
-summary: >-
-  My latest column is a brief foray into the Politics of Music in Melbourne, and
-  poses a few questions, some of which I may be wrong on, and some I may be
-  right on...
+    - music
+    - politics
 ---
 
 My latest column is a brief foray into the Politics of Music in Melbourne, and poses a few questions, some of which I may be wrong on, and some I may be right on...

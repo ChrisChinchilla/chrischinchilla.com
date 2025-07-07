@@ -2,18 +2,12 @@
 title: Making the CiviEvent iCal feed show all events
 publishDate: 2011-12-04T00:00:00.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - civicrm
-  - php
-image: /src/assets/images/articles/civicrm_logo.png
-summary: >-
-  With Green Renters we find the iCal feed from CiviEvent (part of CiviCRM)
-  invaluable to keep track of events and workshops we have coming up, generally
-  we use the feed pulled into our personal iCal and Google calendars for
-  internal organising, currently the feeds aren't available to anyone outside of
-  staff.
+ - civicrm
+ - php
+image: "/src/assets/images/articles/civicrm_logo.png"
 ---
 
 With [Green Renters](https://greenrenters.org) we find the iCal feed from CiviEvent (part of [CiviCRM](https://civicrm.org)) invaluable to keep track of events and workshops we have coming up, generally we use the feed pulled into our personal iCal and Google calendars for internal organising, currently the feeds aren't available to anyone outside of staff.

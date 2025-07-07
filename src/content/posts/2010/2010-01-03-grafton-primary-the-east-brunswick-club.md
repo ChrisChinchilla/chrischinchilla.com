@@ -2,24 +2,11 @@
 title: Grafton Primary - The East Brunswick Club
 publishDate: 2010-01-03T14:45:38.000Z
 categories:
-  - writing
-  - chrischinchilla
+ - writing
+ - chrischinchilla
 tags:
-  - music
-  - reviews
-summary: >-
-  Grafton Primary possesses an eclectic fan base, drawing in an increasing amount
-  of musical sub genres, uniting them for fleeting moments in one room. Taking
-  up centre ground are the chattering fashionistas, eyeing each other up and
-  comparing clothing brands. Bang in front of the stage are an unruly bunch of
-  mainstream-esque dance fans, jostling for space, hassling photographers and
-  generally annoying most around them. Hanging around at the back are groups of
-  lesbian punks and lurking in dark corners are gaggles of old school 80's
-  Goths, the breadth and contradictory nature of the bands fan base also sums up
-  the band and their music. An equally strange combination of retro electro,
-  dark layered moods and modern rhythmic aggression is executed with flawless
-  precision, perfectly suiting our era's obsession of regurgitating the past
-  into gleaned pastiches.
+ - music 
+ - reviews
 ---
 
 Grafton Primary posses an eclectic fan base, drawing in an increasing amount of musical sub genres, uniting them for fleeting moments in one room. Taking up centre ground are the chattering fashionistas, eyeing each other up and comparing clothing brands. Bang in front of the stage are an unruly bunch of mainstream-esque dance fans, jostling for space, hassling photographers and generally annoying most around them. Hanging around at the back are groups of lesbian punks and lurking in dark corners are gaggles of old school 80's Goths, the breadth and contradictory nature of the bands fan base also sums up the band and their music. An equally strange combination of retro electro, dark layered moods and modern rhythmic aggression is executed with flawless precision, perfectly suiting our era's obsession of regurgitating the past into gleaned pastiches.
