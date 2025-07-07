@@ -2,11 +2,18 @@
 title: Derelict London - Paul Talling
 publishDate: 2009-04-28T18:08:50.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - books 
- - reviews
+  - books
+  - reviews
+summary: >-
+  I find this small collection of images documenting London's derelict
+  underbelly appealing for two reasons. I know the author from his days as an
+  Indie label 'boss' and the fact that he turned to a successful sideline in
+  snapping pictures of abandoned buildings is fascinating. Secondly a lot of the
+  subjects within the book are familiar to me, sometimes in the same state as
+  within the book and sometimes in their previous non-dilapidated state.
 ---
 
 I find this small collection of images documenting London's derelict underbelly appealing for two reasons. I know the author from his days as an Indie label 'boss' and the fact that he turned to a successful sideline in snapping pictures of abandoned buildings is fascinating. Secondly a lot of the subjects within the book are familiar to me, sometimes in the same state as within the book and sometimes in their previous non-dilapidated state.

@@ -1,19 +1,15 @@
 ---
 import { Image } from 'astro:assets';
+import { type CollectionEntry } from 'astro:content';
 // import { findImage } from '~/utils/images';
 export interface Props {
-  title: string;
-  link: string;
-  image: string;
-  domain: string;
-  note: string;
+  link: CollectionEntry<'newsletters'>;
 }
-const { title, link, image, domain, note } = Astro.props;
-
+const { link } = Astro.props;
 // Default images
 var src = '';
-if (image != null) {
-  src = image;
+if (link.cover != null) {
+  src = link.cover;
 } else {
   src = '/images/default.png';
 }
@@ -30,8 +26,8 @@ if (image != null) {
     /> -->
   <img src={src} />
   <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading dark:text-slate-300">
-    {title}
+    {link.title}
   </h2>
-  <i class="my-2 block"><a href={link} class="cleanlink">{domain}</a></i>
-  <p class="my-2" set:html={note} />
+  <i class="my-2 block"><a href={link.link} class="cleanlink">{link.domain}</a></i>
+  <p class="my-2" set:html={link.note} />
 </div>

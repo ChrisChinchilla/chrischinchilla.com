@@ -2,10 +2,11 @@
 title: Let it Out - Creative Writing
 publishDate: 2008-05-25T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - creative
+  - creative
+summary: 'Tell me what the matter is, I really want to know.'
 ---
 
 Tell me what the matter is, I really want to know.

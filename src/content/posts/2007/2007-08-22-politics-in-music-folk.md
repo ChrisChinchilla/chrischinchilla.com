@@ -2,12 +2,13 @@
 title: Politics in Music - Folk
 publishDate: '2007-08-22T04:40:11+00:00'
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
-    - music
-    - politics
-    - folk
+  - music
+  - politics
+  - folk
+summary: 'Politics in Folk music, part 1...'
 ---
 Politics in Folk music, part 1...
 

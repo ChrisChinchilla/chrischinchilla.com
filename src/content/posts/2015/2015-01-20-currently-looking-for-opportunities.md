@@ -2,8 +2,12 @@
 title: Currently Looking for Opportunities
 publishDate: 2015-01-20T16:21:43.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
+summary: >-
+  I am currently open to opportunities for full-time and part-time work. Ideally
+  with an enterprising startup or with a larger agency or internal development
+  team.
 ---
 
 I am currently open to opportunities for full-time and part-time work. Ideally with an enterprising startup or with a larger agency or internal development team.

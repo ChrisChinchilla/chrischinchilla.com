@@ -1,6 +1,9 @@
 ---
 title: Take your drupal sites offline
 publishDate: 2013-03-12T18:38:47.000Z
+summary: >-
+  Take your Drupal sites offline with HTML 5 AppCache and turn it into a webapp,
+  perhaps with something like PhoneGap.
 ---
 
 

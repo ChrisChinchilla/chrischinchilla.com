@@ -2,6 +2,10 @@
 title: 'New Cards, The Benefits of Reading out Loud, Switching to Jekyll and more'
 publishDate: 2015-02-21T10:17:46.000Z
 categories: projects
+summary: >-
+  This week has been a fervent flurry of activity as I prepare for <a
+  href="/its-all-change-again" target="_blank">starting my new job next
+  week</a>.
 ---
 
 This week has been a fervent flurry of activity as I prepare for <a href="/its-all-change-again" target="_blank">starting my new job next week</a>.

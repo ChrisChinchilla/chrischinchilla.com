@@ -1,14 +1,19 @@
 ---
-title: "Generation Xbox: How Videogames Invaded Hollywood, by Jamie Russell"
-publishDate: "2016-05-30 08:36:38 +0200"
+title: 'Generation Xbox: How Videogames Invaded Hollywood, by Jamie Russell'
+publishDate: '2016-05-30 08:36:38 +0200'
 tags:
- - books 
- - reviews
- - language
- - history
+  - books
+  - reviews
+  - language
+  - history
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
+summary: >-
+  I loved this book and couldn't stop reading it, which was a pain as I mostly
+  read before going to sleep. The book takes an era by era look at how the video
+  games and movie industries have tried to collaborate together, and largely
+  failed.
 ---
 
 I loved this book and couldn't stop reading it, which was a pain as I mostly read before going to sleep. The book takes an era by era look at how the video games and movie industries have tried to collaborate together, and largely failed.

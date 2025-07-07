@@ -2,12 +2,20 @@
 title: Security and design thinking
 publishDate: 2013-08-27T22:09:36.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - events
- - ux 
- - security
+  - events
+  - ux
+  - security
+summary: >-
+  Tuesday was a productive day capped by two intriguing events. A stupendously
+  early breakfast session with <a href="https://www.graniteconsulting.com.au/"
+  target="_blank">Granite consulting</a> at their networking breakfasts, with
+  Dan Weis of <a href="https://kiandra.com.au/" target="_blank">Kiandra IT</a>
+  covering 'Security and Real World Threats' and the <a
+  href="https://uxmelbourne.org/category/movie-nights/" target="_blank">UX
+  Melbourne movie night</a> covering 'Lean UX' with Jeff Gothelf.
 ---
 
 Tuesday was a productive day capped by two intriguing events. A stupendously early breakfast session with <a href="https://www.graniteconsulting.com.au/" target="_blank">Granite consulting</a> at their networking breakfasts, with Dan Weis of <a href="https://kiandra.com.au/" target="_blank">Kiandra IT</a> covering 'Security and Real World Threats' and the <a href="https://uxmelbourne.org/category/movie-nights/" target="_blank">UX Melbourne movie night</a> covering 'Lean UX' with Jeff Gothelf.

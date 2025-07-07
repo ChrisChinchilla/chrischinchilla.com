@@ -2,11 +2,18 @@
 title: Clutch - Interview
 publishDate: 2007-12-20T19:13:34.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - music 
- - reviews
+  - music
+  - reviews
+summary: >-
+  For those of us in the Southern Hemisphere summer has just reared it's hot and
+  sweaty head, and with summer comes festivals and international artists! So
+  suddenly Australia is awash with bands from across the globe playing what are
+  affectionately termed 'Sideshows', it's good news and bad news as everyone
+  struggles with time and money to catch all the acts they want to see who will
+  probably never return to these shores any time soon.
 ---
 
 For those of us in the Southern Hemisphere summer has just reared it's hot and sweaty head, and with summer comes festivals and international artists! So suddenly Australia is awash with bands from across the globe playing what are affectionately termed 'Sideshows', it's good news and bad news as everyone struggles with time and money to catch all the acts they want to see who will probably never return to these shores any time soon.

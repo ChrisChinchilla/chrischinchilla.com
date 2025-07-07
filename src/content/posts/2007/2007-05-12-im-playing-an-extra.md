@@ -1,12 +1,15 @@
 ---
-title: "I'm playing an Extra"
+title: I'm playing an Extra
 publishDate: '2007-05-12T20:52:07+00:00'
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - drama 
- - creative
+  - drama
+  - creative
+summary: >-
+  When I was younger I did a lot of acting at school and at some youth drama
+  groups, but that was nigh on 7 or 8 years ago...
 ---
 
 When I was younger I did a lot of acting at school and at some youth drama groups, but that was nigh on 7 or 8 years ago...

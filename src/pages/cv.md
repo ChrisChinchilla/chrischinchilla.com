@@ -1,10 +1,10 @@
 ---
-title: 'Chris Ward CV'
+title: 'CV and resume'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-I have been a freelancer and contractor in the past so attempting to
-summarise my work experience and history is always challenging.
+I have been a freelancer and contractor in the past, so attempting to
+summarise my work experience and history is challenging.
 
 Below are chronologically the most recent and relevant projects I have
 worked on, I can supply more details on request.
@@ -17,8 +17,8 @@ Long-form (technical) writing
 - Edited three books for Packt publishing.
 - Technical editor for four books with Manning.
 - "Technical Writing for Developers" for Packt publishing, released in March 2024.
-- Working on a book on Ableton Live 12 for Packt publishing. (Cancelled)
-- Working on a book on Sustainable computing for Apress.
+- Working on a book on Ableton Live 12 for Packt Publishing. (Cancelled)
+- Working on a book soon to be released on Sustainable computing for Apress.
 
 ### Courses
 
@@ -33,22 +33,22 @@ Over the past 4-5 years, I have spoken at over 100 events on a wide variety of s
 
 ### Podcasts and Video
 
-- My 8+ year-old podcast, "Chinchilla Squeaks", recently renamed to "Tech Lounge".
+- My 10+ year-old podcast, "Chinchilla Squeaks", recently renamed to "Tech Lounge".
 - My YouTube channel is monetised with regular technical and creative content.
 
 Find links to all these at [chrischinchilla.com][2].
 
 ### Open Source
 
-I have always been active in open source communities, including regular contributions to: Drupal, CiviCRM, Atom, Visual Studio Code, Webpack, Kubernetes, Obsidian, and Vale. See [my GitHub profile][3] for more.
+I have always been active in open-source communities, maintaining several widely used tools and contributing documentation suggestions to many projects. See [my GitHub profile][3] for more.
 
 ### Community
 
-- I ran the Write the Docs meetup in Berlin and have organised other meetups in the past.
+- I ran the Write the Docs meetup in Berlin and have previously organised other meetups.
 - I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences.
 - I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, and 2025.
-- I was a judge for the Mozilla open source awards in 2020.
-- I run the Berlin Shut Up & Write© meetup with over 3,500 members, and thanks to the co-organisers, we run meetups almost every day. It is the largest chapter in the world and I was recently invited to speak at the community symposium.
+- I was a judge for the Mozilla Open Source Awards in 2020.
+- I run the Berlin Shut Up & Write© meetup with over 4,000 members, and thanks to the co-organisers, we run meetups almost every day. It is the world's largest chapter, and I was recently invited to speak at the community symposium.
 
 ## Work Experience
 
@@ -56,15 +56,25 @@ I have always been active in open source communities, including regular contribu
 
 _March 2017 - Present_
 
-When not working full time, I work as a freelance writer and blogger, I have contributed to the blogs and documentation sets of technical companies. These ranged from small cutting-edge startups to large enterprises.
+When not working full time, I work as a freelance writer and blogger, I have contributed to the blogs and documentation sets of technical companies, ranging from small cutting-edge startups to large enterprises.
 
 Current clients and work include:
 
 - **Parseable**: Technical blog posts and videos.
 - **Aspect**: Documentation and documentation tooling.
+- **Dosu**: Technical blog posts and product advisory.
+- **adoc Studio**: Technical blog posts, videos, and product advisory.
+- **EKline**: Product advisory.
+- **Expansio**: Technical blog posts, documentation, and documentation tooling.
+- **IEEE Spectrum**: Technical journalism.
+- **The Next Web**: Technical journalism.
 
 Past clients and work include:
 
+- **Caepe**: Documenting a new product release.
+- **n8n**: Creating a series of self-hosting guides for documentation.
+- **KILT**: Working on documentation for the decentralised identity platform.
+- **Slint**: Overhauling documentation for this cross-platform development tool.
 - **libcamera**: Documentation of an open-source camera stack and framework for Linux, Android, and ChromeOS.
 - **Dev Spotlight**: Technical blog posts for Salesforce, Kong, and others.
 - **ReveCom**: Technical blog post editing for high-profile clients.
@@ -77,23 +87,18 @@ Past clients and work include:
 - **OverOps**: Technical blog posts.
 - **Coralogix**: Technical blog posts.
 - **Facebook Messenger**: Technical blog posts.
-- **data artisans**: Technical blog posts.
+- **data artisans**: Technical blog posts and documentation for Apache© Flink.
 - **Sqreen**: Tutorial, API, and reference documentation.
 - **Telerik**: Technical blog posts.
 - **DZone**: Tech journalist covering events, interviews, and tools.
-- **The Next Web**: Tech journalist covering events and interviews.
 - **Equinix**: Technical blog posts.
 - **DGraph**: Documentation platform overhaul.
-- **Caepe**: Documenting a new product release.
-- **n8n**: Creating a series of self-hosting guides.
 - **Sentry**: Writing blog posts on how to debug with certain languages.
-- **KILT**: Working on documentation for the decentralised identity platform.
-- **Slint**: Overhauling documentation for this cross-platform development tool.
 
 ### Docker, Staff Technical Writer
 
 _February 2023 - August 2023_
-Docker Inc is a major contributor to many container-related technologies and its own commercial offerings. I was a staff technical writer on the documentation team and was attached to working on a number of commercial products. My responsibilities included:
+Docker Inc. is a major contributor to many container-related technologies and its own commercial offerings. I was a staff technical writer on the documentation team and was attached to working on several commercial products. My responsibilities included:
 
 - Working with product managers, engineers, and designers to create and maintain documentation for new and existing products
 - Proposing and steering new improvement projects
@@ -160,7 +165,7 @@ Event Store creates an open-source events-optimised database with commercial-onl
 
 _October 2018 - March 2020_
 
-Kauri was a content management system and platform built on top of Ethereum technologies. We lost our funding from our parent company (ConsenSys) in March 2020. My role was to do the following:
+Kauri was a content management system and platform built on Ethereum technologies. We lost funding from our parent company (ConsenSys) in March 2020. My role was to do the following:
 
 - Commission and work with writers to produce content on particular topics
 - Manage a content budget
@@ -174,10 +179,8 @@ Kauri was a content management system and platform built on top of Ethereum tech
 
 _Sep 2016 - March 2017_
 
-As the technical writer for Contentful, an API-based CMS, I was responsible
-for writing and editing all developer documentation. I managed the documentation infrastructure, information architecture, and analytics. I liaised with the
-engineering, marketing, and support teams to determine priorities and problems
-that needed addressing in the documentation.
+As the lone technical writer for Contentful, an API-based CMS, I wrote and edited all developer documentation. I managed the documentation infrastructure, information architecture, and analytics. I liaised with the
+engineering, marketing, and support teams to determine priorities and problems that needed addressing in the documentation.
 
 ### Crate.IO, Developer Advocate
 
@@ -194,9 +197,9 @@ _March 2014 - Aug 2016_
 
 In this part-time role, I was responsible for the SitePoint mobile channel. SitePoint
 is a global resource site for Developers and Designers that ranks highly on
-Alexis and has weekly traffic of about 1.5 million page views. My role involves
+Alexis and has weekly traffic of about 1.5 million page views. My role involved
 commissioning and editing articles, engaging our community, and creating a
-strategy based on trends in our readership. As part of editing articles, I have to
+strategy based on trends in our readership. As part of editing articles, I had to
 understand, test, and streamline code in a variety of languages, such as Swift,
 Java, and JavaScript.
 
@@ -212,6 +215,6 @@ Summarised for brevity.
 - Green Renters, Operations
 - Portable Content, Developer
 
-[1]:	https://chrischinchilla.com/events
-[2]:	http://chrischinchilla.com/
-[3]:	https://github.com/chrischinchilla
+[1]: https://chrischinchilla.com/events
+[2]: http://chrischinchilla.com/
+[3]: https://github.com/chrischinchilla

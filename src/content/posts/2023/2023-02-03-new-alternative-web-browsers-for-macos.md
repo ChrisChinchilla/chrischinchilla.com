@@ -1,14 +1,16 @@
 ---
 title: New Alternative Web Browsers for macOS
-publishDate: 2023-02-03
-author: "Chris Ward"
-publication_url: "https://medium.com/geekculture/new-alternative-web-browsers-for-macos-8edf6edaf517"
+publishDate: 2023-02-03T00:00:00.000Z
+author: Chris Ward
+publication_url: >-
+  https://medium.com/geekculture/new-alternative-web-browsers-for-macos-8edf6edaf517
 categories:
   - writing
 tags:
   - macos
   - web browsers
-image: "/src/assets/images/articles/1*8NhAJxnIZ4q65Ay-0uBKUw.png"
+image: /src/assets/images/articles/1*8NhAJxnIZ4q65Ay-0uBKUw.png
+summary: I have long been concerned about the state of browsers and the dominant
 ---
 
 I have long been concerned about the state of browsers and the dominant

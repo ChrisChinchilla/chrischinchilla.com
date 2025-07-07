@@ -15,17 +15,22 @@ store_urls:
     url: https://www.amazon.com/dp/B0DQGRTT11
   - label: Print - Amazon
     url: https://www.amazon.com/dp/B0DS9D7SWG
-  - label: eBook - DriveThruFiction
-    url: https://www.drivethrufiction.com/product/505735/The-dead-among-us
-  - label: eBook - All other stores
+  - label: Amazon, Apple, Kobo, and more
     url: https://books2read.com/u/m09D0W
 ---
 
-**Print coming soon!**
+## July 2025 promo
 
-[Sign up to my mailing list for notifications of release](https://chinchillatales.substack.com).
+To celebrate the release of _28 years later_ and the new season of _The Last of Us_, I am offering a discount on the eBook version in some stores for the entire month of July.
 
-What happens when the living and the previously dead fall in love?
+> - [On DriveThruFiction, the eBook costs **$1** during July](https://tools.drivethrufiction.com/browse.php?discount=9761189197).
+> - [On Smashwords, the eBook is **75% off**](https://www.smashwords.com/books/view/1665156).
+
+Unfortunately I can't offer a discount on Amazon without giving them exclusive rights to the book 😿.
+
+**Audio book coming soon!**
+
+_What happens when the living and the previously dead fall in love?_
 
 Ten years after a long and brutal war, there is an uneasy peace between the living and the previously dead. Reluctantly reunited families, industries, and governments struggle to keep the world from falling back into bloody chaos.
 

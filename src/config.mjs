@@ -114,7 +114,6 @@ const CONFIG = {
   book: {
     disabled: false,
     postsPerPage: 15,
-    // TODO: Change?
     list: {
       pathname: 'books', // blog main path, you can change this to "articles" (/articles)
       noindex: false,

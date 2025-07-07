@@ -1,6 +1,11 @@
 ---
 title: Chinese receipts
 publishDate: 2011-07-25T15:21:51.000Z
+summary: >-
+  I kept noticing these silver scratch panels on some receipts in china and
+  assumed they were just some form of official symbol but it turns out there
+  actually a cunning behavioural change policy on behalf of the Chinese
+  government.
 ---
 
 

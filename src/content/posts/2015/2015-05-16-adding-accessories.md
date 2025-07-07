@@ -1,12 +1,13 @@
 ---
-
 publishDate: 2015-05-16T05:16:42.000Z
-
 title: Adding Accessories
-image: "/src/assets/images/articles/image-adding-accessories.jpg"
+image: /src/assets/images/articles/image-adding-accessories.jpg
 categories:
- - projects
- - chipshop
+  - projects
+  - chipshop
+summary: >-
+  Sorry for the lack of updates, I have been traveling with work the past few
+  weeks.
 ---
 
 Sorry for the lack of updates, I have been traveling with work the past few weeks.

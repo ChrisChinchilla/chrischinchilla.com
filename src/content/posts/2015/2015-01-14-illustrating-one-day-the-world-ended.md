@@ -1,8 +1,10 @@
 ---
-
 title: Illustrating One Day the World Ended
 publishDate: 2015-01-14T15:51:56.000Z
 categories: projects odtwe
+summary: >-
+  After visiting the Tate Modern over Christmas and seeing these two images
+  (I've forgotten the artist):
 ---
 
 After visiting the Tate Modern over Christmas and seeing these two images (I've forgotten the artist):

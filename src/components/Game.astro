@@ -1,9 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import { type CollectionEntry } from 'astro:content';
-import Markdown from '@astrojs/markdown-component';
-import truncateMarkdown from 'markdown-truncate';
-
+import { slugify } from '~/utils/slugify';
 export interface Props {
   game: CollectionEntry<'games'>;
 }
@@ -11,43 +9,6 @@ const { game } = Astro.props;
 
 // const { Content } = await game.render();
 // const featured_image = await findImage(game.data.image);
-
-// Truncate text
-// TODO: Better way?
-// TODO: Make to helper or plugin
-// var truncatedText = body.split("</p>");
-
-const truncatedBody = truncateMarkdown(game.body, {
-  limit: 500,
-  ellipsis: true,
-});
-
-// Format title for ID
-// TODO: Method or better way
-// Slugify a string
-function slugify(str)
-{
-    str = str.replace(/^\s+|\s+$/g, '');
-
-    // Make the string lowercase
-    str = str.toLowerCase();
-
-    // Remove accents, swap ñ for n, etc
-    var from = "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
-    var to   = "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
-    for (var i=0, l=from.length ; i<l ; i++) {
-        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
-    }
-
-    // Remove invalid chars
-    str = str.replace(/[^a-z0-9 -]/g, '') 
-    // Collapse whitespace and replace by -
-    .replace(/\s+/g, '-') 
-    // Collapse dashes
-    .replace(/-+/g, '-'); 
-
-    return str;
-}
 
 var idOfTitle = slugify(game.data.title);
 ---
@@ -57,7 +18,7 @@ var idOfTitle = slugify(game.data.title);
     <Image
       src={game.data.image}
       alt={game.data.title}
-      class="absolute object-contain h-full w-64 mb-6 rounded drop-shadow-lg"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
     />
   </div>
 
@@ -68,9 +29,9 @@ var idOfTitle = slugify(game.data.title);
       </h2>
       <i class="my-2 block">{game.data.role}</i>
     </header>
-    <!-- TODO: Seems kind of ridiculous -->
-    <!-- TODO: Deprecated, need an alternative -->
-    <Markdown class="m-2" />{truncatedBody}
+    <div class="post-body body">
+      {game.body}
+    </div>
     {
       game.data.store_urls && (
         

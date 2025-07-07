@@ -1,7 +1,11 @@
 ---
-title: "Creating the 'Perfect' Tech and Writing Stack"
+title: Creating the 'Perfect' Tech and Writing Stack
 publishDate: 2015-01-28T08:18:32.000Z
 categories: projects
+summary: >-
+  Yesterday I came up with the most phenomenal idea of how to get my writing
+  workflow, ideas for ODTWE and tech stack in ‘perfect’ combination. Well, in
+  theory (unsurprisingly).
 ---
 
 Yesterday I came up with the most phenomenal idea of how to get my writing workflow, ideas for ODTWE and tech stack in ‘perfect’ combination. Well, in theory (unsurprisingly).

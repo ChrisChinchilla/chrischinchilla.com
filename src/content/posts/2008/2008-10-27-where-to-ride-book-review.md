@@ -2,12 +2,22 @@
 title: Where to Ride - Book Review
 publishDate: 2008-10-27T00:00:00.000Z
 tags:
- - reviews 
- - books 
- - cycling
+  - reviews
+  - books
+  - cycling
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
+summary: >-
+  It's hard to effectively review a guide to cycle paths in South East
+  Queensland when you're stuck in Melbourne with no chance of attempting them
+  anytime soon. The guide produced by Bicycling Australia is exceptionally well
+  produced and thought out with ring bound easy to clean laminated pages for
+  those journeys where your hands spend more time fiddling with oily parts than
+  on the handlebars. There are 47 rides spread across Brisbane, the Gold Coast
+  and the Sunshine Coast to keep you busy for many months to come, all with
+  detailed guides to road surfaces, terrain types, distances and a difficulty
+  rating.
 ---
 
 It's hard to effectively review a guide to cycle paths in South East Queensland when you're stuck in Melbourne with no chance of attempting them anytime soon. The guide produced by Bicycling Australia is exceptionally well produced and thought out with ring bound easy to clean laminated pages for those journeys where your hands spend more time fiddling with oily parts than on the handlebars. There are 47 rides spread across Brisbane, the Gold Coast and the Sunshine Coast to keep you busy for many months to come, all with detailed guides to road surfaces, terrain types, distances and a difficulty rating.

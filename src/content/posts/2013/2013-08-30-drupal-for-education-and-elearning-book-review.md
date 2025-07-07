@@ -2,12 +2,13 @@
 title: 'Drupal for Education and elearning, book review'
 publishDate: 2013-08-30T06:42:06.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - drupal
- - books
- - reviews
+  - drupal
+  - books
+  - reviews
+summary: Drupal for Education and elearning by James G Robertson and Bill Fitzgerald
 ---
 
 **Drupal for Education and elearning by James G Robertson and Bill Fitzgerald**

@@ -2,10 +2,21 @@
 title: Dream - Creative Writing / Dream
 publishDate: 2008-05-25T22:22:23.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - creative
+  - creative
+summary: >-
+  Cate and I got a bus, the 160 that used to run from Catford to Sidcup, we got
+  off the bus near where I used to live, on the south circular, which was near
+  where it used to go, but slightly off route. We got off the bus and all the
+  shops were exactly as I remembered, as we walked down the road (which was a
+  major street for traffic) we came across a fruit orchard, trees of apples,
+  plums, gooseberries and more, I kept trying to take photos of the fruit and
+  Cate kept getting in the way saying 'stop that! Take a picture of me!√Æ As we
+  wandered through the forest we came across a normal looking house, although
+  there was no indication of being so, we instantly knew it was a tourist
+  attraction and went inside.
 ---
 
 Cate and I got a bus, the 160 that used to run from Catford to Sidcup, we got off the bus near where I used to live, on the south circular, which was near where it used to go, but slightly off route. We got off the bus and all the shops were exactly as I remembered, as we walked down the road (which was a major street for traffic) we came across a fruit orchard, trees of apples, plums, gooseberries and more, I kept trying to take photos of the fruit and Cate kept getting in the way saying 'stop that! Take a picture of me!√Æ As we wandered through the forest we came across a normal looking house, although there was no indication of being so, we instantly knew it was a tourist attraction and went inside.

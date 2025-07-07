@@ -2,10 +2,13 @@
 title: OOCON
 publishDate: 2008-01-10T15:28:45.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - creative
+  - creative
+summary: >-
+  Isn't it funny how people's legs move in harmony with each other when they
+  walk together,
 ---
 
 Isn't it funny how people's legs move in harmony with each other when they walk together,

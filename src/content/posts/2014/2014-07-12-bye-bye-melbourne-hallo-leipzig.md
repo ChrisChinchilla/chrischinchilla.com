@@ -2,8 +2,11 @@
 title: Bye bye Melbourne. Hallo Leipzig.
 publishDate: 2014-07-12T08:45:55.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
+summary: >-
+  In the past ten days I finally made the second overseas move of my life. This
+  time from Melbourne to Leipzig.
 ---
 
 In the past ten days I finally made the second overseas move of my life. This time from Melbourne to Leipzig.

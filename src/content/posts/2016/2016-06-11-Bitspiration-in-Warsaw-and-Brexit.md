@@ -1,14 +1,16 @@
 ---
 title: 'Bitspiration in Warsaw and Brexit {#bitspiration-in-warsaw-and-brexit'
 publishDate: 2016-06-11T00:00:00.000Z
-publication_url: 'https://medium.com/@chrischinchilla/bitspiration-in-warsaw-and-brexit-7236bd7793c6'
+publication_url: >-
+  https://medium.com/@chrischinchilla/bitspiration-in-warsaw-and-brexit-7236bd7793c6
 categories:
- - writing
- - codeship
+  - writing
+  - codeship
 tags:
- - otto
- - devops
- - vagrant
+  - otto
+  - devops
+  - vagrant
+summary: I'm leaving most of this post to the podcast version as I had a co-host
 ---
 
 

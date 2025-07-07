@@ -1,28 +1,20 @@
 ---
 import { Image } from 'astro:assets';
 import { type CollectionEntry } from 'astro:content';
-import Markdown from '@astrojs/markdown-component';
-import truncateMarkdown from 'markdown-truncate';
-
 export interface Props {
   client: CollectionEntry<'clients'>;
 }
 const { client } = Astro.props;
-// const { Content } = await client.render();
-// const featured_image = await findImage(client.data.image);
-
-const truncatedBody = truncateMarkdown(client.body, {
-  limit: 500,
-  ellipsis: true,
-});
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${client.data.image ? 'md:grid-cols-2' : ''}`}>
+<article
+  class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2 ${client.data.current === true ? 'opacity-100' : 'opacity-55'}`}
+>
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
     <Image
       src={client.data.image}
       alt={client.data.title}
-      class="absolute object-contain h-full w-64 mb-6 rounded drop-shadow-lg"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
     />
   </div>
 
@@ -44,10 +36,8 @@ const truncatedBody = truncateMarkdown(client.body, {
       </h2>
       <i class="my-2 block">{client.data.type}</i>
     </header>
-    <!-- TODO: Seems kind of ridiculous -->
-    <!-- TODO: Deprecated, need an alternative -->
     <div class="post-body body">
-      <Markdown class="m-2" />{truncatedBody}
+      {client.body}
     </div>
   </div>
 </article>

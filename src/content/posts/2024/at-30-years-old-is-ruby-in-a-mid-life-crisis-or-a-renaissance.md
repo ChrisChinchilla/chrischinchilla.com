@@ -1,14 +1,21 @@
 ---
-title: "At 30 years old, is Ruby in a mid-life crisis or a renaissance?"
-publishDate: 2024-11-11
-author: "Chris Ward"
-publication_url: "https://thenextweb.com/news/at-30-years-old-is-ruby-in-a-mid-life-crisis-or-a-renaissance"
+title: 'At 30 years old, is Ruby in a mid-life crisis or a renaissance?'
+publishDate: 2024-11-11T00:00:00.000Z
+author: Chris Ward
+publication_url: >-
+  https://thenextweb.com/news/at-30-years-old-is-ruby-in-a-mid-life-crisis-or-a-renaissance
 categories:
   - writing
 tags:
   - Ruby
   - Programming
-image: "/src/assets/images/articles/ruby.jpeg"
+image: /src/assets/images/articles/ruby.jpeg
+summary: >-
+  Ruby’s creator, Yukihiro Matsumoto (Matz), released the first public version
+  of the programming language in December 1995, making Ruby just shy of its 30th
+  birthday. It spread across Japanese-language Usenet newsgroups, a popular way
+  of exchanging conversation and media before the World Wide Web, and then
+  reached broader communities throughout the late 1990s.
 ---
 
 Ruby’s creator, Yukihiro Matsumoto (Matz), released the first public version of the programming language in December 1995, making Ruby just shy of its 30th birthday. It spread across Japanese-language Usenet newsgroups, a popular way of exchanging conversation and media before the World Wide Web, and then reached broader communities throughout the late 1990s.

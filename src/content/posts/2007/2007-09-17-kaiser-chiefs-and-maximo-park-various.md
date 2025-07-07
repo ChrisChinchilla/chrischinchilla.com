@@ -1,6 +1,12 @@
 ---
 title: Kaiser Chiefs & Maximo Park - Various
 publishDate: 2007-09-17T20:29:31.000Z
+summary: >-
+  It seemed appropriate to group these two shows together as my last experience
+  of both bands was about two years ago as they were enjoying a rapid rise in
+  popularity, success and hype. Two years ago both bands were still learning
+  their craft, their showmanship and the ropes, so now after two years on the
+  road and two albums each, how do they compare?
 ---
 It seemed appropriate to group these two shows together as my last experience of both bands was about two years ago as they were enjoying a rapid rise in popularity, success and hype. Two years ago both bands were still learning their craft, their showmanship and the ropes, so now after two years on the road and two albums each, how do they compare?
 

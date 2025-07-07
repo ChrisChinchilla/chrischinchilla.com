@@ -2,11 +2,24 @@
 title: 'Mark Steiner, Rowland S Howard - The Toff in Town'
 publishDate: 2008-10-27T22:47:04.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - music 
- - reviews
+  - music
+  - reviews
+summary: >-
+  Its always amazing to see the backing bands of jet setting solo artists, a
+  group of musicians who at the drop of a hat can just pick up a set of songs
+  and play them like they've been playing them all their lives.  Most of Mark's
+  set tonight is of fairly melancholic plodding numbers with an alt-country
+  twinge, all reverb laden guitars and low booming vocals, very reminiscent of
+  the headliners former outfit. The skill of the musicians around him brings out
+  Mark's songs, lifting them from a middle of the road rut they could easily
+  fall into. Towards the end of the set Mark takes a strange change in direction
+  and adds in some 'novelty' songs that don't sit well in the mix, like someone
+  trying to tell jokes who just isn't funny, it makes the audience squirm and
+  exchange awkward glances, they weren't necessary and Mark loses a little kudos
+  for doing it.
 ---
 
 Its always amazing to see the backing bands of jet setting solo artists, a group of musicians who at the drop of a hat can just pick up a set of songs and play them like they've been playing them all their lives.  Most of Mark's set tonight is of fairly melancholic plodding numbers with an alt-country twinge, all reverb laden guitars and low booming vocals, very reminiscent of the headliners former outfit. The skill of the musicians around him brings out Mark's songs, lifting them from a middle of the road rut they could easily fall into. Towards the end of the set Mark takes a strange change in direction and adds in some 'novelty' songs that don't sit well in the mix, like someone trying to tell jokes who just isn't funny, it makes the audience squirm and exchange awkward glances, they weren't necessary and Mark loses a little kudos for doing it.

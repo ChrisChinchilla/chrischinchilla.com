@@ -2,11 +2,15 @@
 title: Job Interviews and Playing in Geelong
 publishDate: '2007-10-08T22:27:39+00:00'
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
-    - music
-    - work
+  - music
+  - work
+summary: >-
+  This week was another week where various elements kept pointing me towards a
+  certain way of thinking, again, I'll just go through the week and ramble a
+  bit...
 ---
 
 This week was another week where various elements kept pointing me towards a certain way of thinking, again, I'll just go through the week and ramble a bit...

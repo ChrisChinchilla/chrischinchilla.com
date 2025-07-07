@@ -1,13 +1,16 @@
 ---
-title: Degrowth 2014 - Cultural Agency, potentials and limits of current civic movement
+title: >-
+  Degrowth 2014 - Cultural Agency, potentials and limits of current civic
+  movement
 publishDate: 2014-09-07T00:00:00.000Z
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
- - politics
- - degrowth
- - activism
+  - politics
+  - degrowth
+  - activism
+summary: 'A valid discussion, but what will the limitations and potentials be.'
 ---
 
 ## How the change we have been discussing can actually happen?

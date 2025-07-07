@@ -1,13 +1,14 @@
 ---
 title: Further Changes From Play Testing
 publishDate: '2015-12-06'
-image: "/src/assets/images/articles/image-activities-and-intents.jpg"
+image: /src/assets/images/articles/image-activities-and-intents.jpg
 categories:
- - projects
- - chipshop
+  - projects
+  - chipshop
 tags:
- - games
- - playtesting
+  - games
+  - playtesting
+summary: A few more changes from my first play testing session.
 ---
 A few more changes from my first play testing session.
 

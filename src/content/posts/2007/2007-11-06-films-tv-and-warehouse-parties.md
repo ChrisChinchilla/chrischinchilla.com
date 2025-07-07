@@ -2,12 +2,15 @@
 title: 'Films, TV and Warehouse Parties'
 publishDate: '2007-11-06T18:32:10+00:00'
 categories:
- - writing
- - chrischinchilla
+  - writing
+  - chrischinchilla
 tags:
-    - tv
-    - film
-    - music
+  - tv
+  - film
+  - music
+summary: >-
+  Once again, I've let personal posts lapse to the point where I've forgotten
+  when I last posted one and what I said...
 ---
 
 Once again, I've let personal posts lapse to the point where I've forgotten when I last posted one and what I said...

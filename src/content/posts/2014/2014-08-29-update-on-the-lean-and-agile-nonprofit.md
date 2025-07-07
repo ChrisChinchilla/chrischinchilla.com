@@ -1,6 +1,15 @@
 ---
 title: Update on The Lean and Agile Nonprofit
 publishDate: 2014-08-29T16:29:53.000Z
+summary: >-
+  A little while back I announced my intention to write a book on some
+  techniques and ideas incorporating Lean and Agile methodologies into
+  the&nbsp;not-for-profit&nbsp;sector. I made some good headway but it became
+  fairly apparent to me quite quickly that maybe I didn&#39;t have quite enough
+  material (right now) to produce a complete book. Well as luck would have it I
+  met up with highly experienced not-for-profit consultant, Donnie Maclurcan and
+  he mentioned his &#39;Not-for-Profit Handbook&#39; project that he was
+  struggling to find the time to finish.
 ---
 
 

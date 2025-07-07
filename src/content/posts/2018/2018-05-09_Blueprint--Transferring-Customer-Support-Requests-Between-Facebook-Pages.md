@@ -1,12 +1,14 @@
 ---
 title: 'Blueprint: Transferring Customer Support Requests Between Facebook Pages '
-publishDate: 2018-05-09 17:01:11 UTC
-author: 'Chris Ward'
+publishDate: '2018-05-09 17:01:11 UTC'
+author: Chris Ward
 categories: writing
 tags:
   - Facebook
   - Messaging
-publication_url: 'https://medium.com/@chrischinchilla/transferring-customer-support-requests-between-facebook-pages-241e23c7000c'
+publication_url: >-
+  https://medium.com/@chrischinchilla/transferring-customer-support-requests-between-facebook-pages-241e23c7000c
+summary: Maintaining conversations between multiple channels is a difficult
 ---
 
 
