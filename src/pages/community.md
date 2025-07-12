@@ -19,7 +19,7 @@ The Berlin chapter has the largest membership base and meets the most regularly 
 
 _Co-organiser, 2024 to present_
 
-Myself and four others organised Berlin's first international roleplaying convention and tickets sold out in less than a week.
+Berlin's first and only international roleplaying convention. I am one of the organizers. In our first year, we sold out nearly 100 tickets in less than a week, and for the second year, we tripled capacity. The event hosts games, workshops, panels, and more.
 
 ## Open music school
 
@@ -32,8 +32,8 @@ The open music school is part of give something back to berlin and holds multipl
 _Co-organiser, 2018 to 2021_
 
 - I ran the Write the Docs meetup in Berlin for technical writers.
-- I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences.
-- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, and 2024.
+- I was on the organising committee for the 2018, 2019, 2020, 2021, 2025 EU, and 2019 Australian Write the Docs conferences.
+- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, and 2025.
 
 ## Open source
 
