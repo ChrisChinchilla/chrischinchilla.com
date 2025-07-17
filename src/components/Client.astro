@@ -10,7 +10,7 @@ const { client } = Astro.props;
 <article
   class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2 ${client.data.current === true ? 'opacity-100' : 'opacity-55'}`}
 >
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
     <Image
       src={client.data.image}
       alt={client.data.title}
