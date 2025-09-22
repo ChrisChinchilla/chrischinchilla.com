@@ -34,6 +34,7 @@ if (post.data.publication_url != null) {
     <Image
       src={post.data.image ? post.data.image : defaultPostImage}
       alt={post.data.title}
+      inferSize={true}
       class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
     />
   </div>
