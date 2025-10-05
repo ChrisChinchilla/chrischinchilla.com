@@ -110,12 +110,13 @@ One is to use the "Start Focus Session" action. You can set whether to "Block" o
 The other is to use the "Set Raycast Focus Filter" action. Again, you can set most of the same fields, but the action is triggered by the specified focus mode being active. You can still pass some variables to the action, but fewer are available.
 ![A screenshot of a shortcut](/src/assets/images/articles/focus-shortcut.jpeg)
 
-
 Both actions have their use cases, personally I prefer the "Set Raycast Focus Filter" action as it makes the macOS focus mode the, err, "focus" of things. But I do like the idea of using a calendar event to trigger the "Start Focus Session" action, passing the time, etc.
 
 And then by using Shortcuts, you can manually trigger them with lots of other tools, for example, a Stream Deck, or Raycast itself.
 
 Once you have Shortcuts running things, you can use it to trigger more actions related to your focus session. For example, apps like FocusFlight are currently popular, and several of them, FocusFlight included, support Shortcuts. In the example Shortcut below, when I enable the "Reduce interruptions" focus mode, it starts a journey in FocusFlight, starts a playlist and changes my lights. You could change the shortcut or create a paired one to toggle everything to a different state when the focus mode is disabled.
+
+![A screenshot of a shortcut](/src/assets/images/articles/focus-shortcut-example.jpeg)
 
 ## Stay focussed
 
