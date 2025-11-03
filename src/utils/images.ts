@@ -35,3 +35,35 @@ export const findImage = async (imagePath?: string) => {
 
   return typeof images[key] === 'function' ? (await images[key]())['default'] : null;
 };
+
+/**
+ * Extract the first image from markdown/MDX content
+ * Returns the image path or null if no image found
+ */
+export const extractFirstImage = (content: string): string | null => {
+  // Match markdown image syntax: ![alt](path)
+  const markdownImageRegex = /!\[.*?\]\((.*?)\)/;
+  const markdownMatch = content.match(markdownImageRegex);
+  
+  if (markdownMatch && markdownMatch[1]) {
+    return markdownMatch[1];
+  }
+
+  // Match HTML img tag: <img src="path"
+  const htmlImageRegex = /<img[^>]+src=["']([^"']+)["']/;
+  const htmlMatch = content.match(htmlImageRegex);
+  
+  if (htmlMatch && htmlMatch[1]) {
+    return htmlMatch[1];
+  }
+
+  // Match Astro Image component: <Image src={...} or src="..."
+  const astroImageRegex = /<Image[^>]+src=["'{]([^"'}]+)["'}]/;
+  const astroMatch = content.match(astroImageRegex);
+  
+  if (astroMatch && astroMatch[1]) {
+    return astroMatch[1];
+  }
+
+  return null;
+};

@@ -4,16 +4,70 @@ import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
 import SupportBlock from '~/components/SupportBlock.astro';
-import { MetaSEO } from '~/types';
+import type { MetaSEO } from '~/types';
+import { extractFirstImage } from '~/utils/images';
+import { getImage } from 'astro:assets';
+import defaultPostImage from '~/assets/images/defaults/blog-chinchilla.jpg';
 
-export interface Props {}
+export interface Props {
+  frontmatter?: any;
+  rawContent?: string;
+}
 
-const { frontmatter } = Astro.props;
+const { frontmatter, rawContent } = Astro.props;
+
+// Determine which image to use for metadata
+let metaImage = frontmatter?.image;
+
+// If no image in frontmatter and we have content, try to extract first image
+if (!metaImage && rawContent) {
+  const firstImage = extractFirstImage(rawContent);
+  if (firstImage) {
+    // Convert relative paths starting with ../../../assets to ~/assets
+    if (firstImage.startsWith('../../../assets/')) {
+      metaImage = firstImage.replace('../../../assets/', '~/assets/');
+    } else if (firstImage.startsWith('/src/assets/')) {
+      metaImage = firstImage.replace('/src/assets/', '~/assets/');
+    } else {
+      metaImage = firstImage;
+    }
+  }
+}
+
+// If still no image, use default
+if (!metaImage) {
+  metaImage = defaultPostImage;
+}
+
+// Process the image for metadata
+let processedImage;
+if (typeof metaImage === 'string' && (metaImage.startsWith('http://') || metaImage.startsWith('https://'))) {
+  processedImage = metaImage;
+} else {
+  try {
+    processedImage = await getImage({
+      src: metaImage,
+      alt: frontmatter?.title || 'Blog post image',
+      width: 1200,
+      height: 628,
+    });
+  } catch (e) {
+    // If image processing fails, use default
+    processedImage = await getImage({
+      src: defaultPostImage,
+      alt: 'Default blog post image',
+      width: 1200,
+      height: 628,
+    });
+  }
+}
+
 //TODO: Description needs to be excerpt
 const meta: MetaSEO = {
   title: frontmatter?.title,
-  description: frontmatter?.title,
+  description: frontmatter?.summary || frontmatter?.title,
   publication_url: frontmatter?.publication_url,
+  image: processedImage,
 };
 ---
 
