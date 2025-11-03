@@ -63,7 +63,7 @@ if (typeof metaImage === 'string' && (metaImage.startsWith('http://') || metaIma
 }
 
 //TODO: Description needs to be excerpt
-const meta: MetaSEO = {
+const metadata: MetaSEO = {
   title: frontmatter?.title,
   description: frontmatter?.summary || frontmatter?.title,
   publication_url: frontmatter?.publication_url,
@@ -71,7 +71,7 @@ const meta: MetaSEO = {
 };
 ---
 
-<Layout {meta}>
+<Layout {metadata}>
   <Announcement />
   <Header />
 

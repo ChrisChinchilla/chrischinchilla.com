@@ -9,3 +9,5 @@ export interface MetaSEO {
   ogType?: string;
   publication_url?: string;
 }
+
+export type MetaData = MetaSEO;

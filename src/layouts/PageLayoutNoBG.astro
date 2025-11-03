@@ -7,13 +7,13 @@ import Announcement from '~/components/widgets/Announcement.astro';
 import { MetaSEO } from '~/types';
 
 export interface Props {
-  meta?: MetaSEO;
+  metadata?: MetaSEO;
 }
 
-const { meta } = Astro.props;
+const { metadata } = Astro.props;
 ---
 <!-- TODO: Add background at some point -->
-<Layout {meta}>
+<Layout {metadata}>
   <Announcement />
   <Header />
   <main>

@@ -13,13 +13,13 @@ export interface Props {}
 const { frontmatter } = Astro.props;
 // const featured_image = await findImage(frontmatter.image);
 
-const meta: MetaSEO = {
+const metadata: MetaSEO = {
   title: frontmatter?.title,
   image: frontmatter.image
 };
 ---
 
-<Layout {meta}>
+<Layout {metadata}>
   <Announcement />
   <Header />
   <main>

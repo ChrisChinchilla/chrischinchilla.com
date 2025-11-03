@@ -1,0 +1,48 @@
+---
+import { AstroSeo } from '@astrolib/seo';
+import { SITE } from '~/config.mjs';
+import type { MetaSEO } from '~/types';
+import { getCanonical } from '~/utils/permalinks';
+
+export interface Props extends MetaSEO {}
+
+const {
+  title,
+  description,
+  image,
+  canonical,
+  noindex = false,
+  nofollow = false,
+  ogTitle,
+  ogType = 'website',
+} = Astro.props;
+
+const siteTitle = title ? `${title} — ${SITE.name}` : SITE.title;
+const siteDescription = description || SITE.description;
+const canonicalURL = canonical || getCanonical(String(Astro.url.pathname));
+---
+
+<AstroSeo
+  title={siteTitle}
+  description={siteDescription}
+  canonical={String(canonicalURL)}
+  noindex={noindex}
+  nofollow={nofollow}
+  openGraph={{
+    url: String(canonicalURL),
+    title: ogTitle || siteTitle,
+    description: siteDescription,
+    type: ogType,
+    images: image
+      ? [
+          {
+            url: typeof image === 'string' ? image : image.src,
+            alt: ogTitle || siteTitle,
+          },
+        ]
+      : undefined,
+  }}
+  twitter={{
+    cardType: image ? 'summary_large_image' : undefined,
+  }}
+/>

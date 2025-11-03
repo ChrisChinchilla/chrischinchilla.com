@@ -41,6 +41,11 @@ export const findImage = async (imagePath?: string) => {
  * Returns the image path or null if no image found
  */
 export const extractFirstImage = (content: string): string | null => {
+  // Ensure content is a string
+  if (typeof content !== 'string') {
+    return null;
+  }
+  
   // Match markdown image syntax: ![alt](path)
   const markdownImageRegex = /!\[.*?\]\((.*?)\)/;
   const markdownMatch = content.match(markdownImageRegex);

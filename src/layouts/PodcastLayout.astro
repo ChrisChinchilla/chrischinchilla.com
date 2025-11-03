@@ -18,7 +18,7 @@ export interface Props {
 const { podcast, episodeData } = Astro.props;
 const urlParams = new URLSearchParams(podcast.enclosure.att_url);
 const podcastID = urlParams.get('awEpisodeId')
-const meta: MetaSEO = {
+const metadata: MetaSEO = {
   title: frontmatter?.title,
   image: podcast.image.att_href,
   // TODO: Switch to using manual FM override
@@ -58,7 +58,7 @@ if (podcast.title.length === 2) {
 }
 ---
 
-<Layout {meta}>
+<Layout {metadata}>
   <Announcement />
   <Header />
   <main>
