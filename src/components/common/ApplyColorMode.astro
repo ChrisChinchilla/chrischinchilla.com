@@ -1,0 +1,31 @@
+---
+// Script to apply color mode (dark/light theme) before page renders
+import { SITE } from '~/config.mjs';
+
+const defaultTheme = SITE.defaultTheme || 'system';
+---
+
+<script is:inline define:vars={{ defaultTheme }}>
+  function applyTheme(theme) {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }
+
+  const initTheme = function () {
+    const storedTheme = typeof localStorage !== 'undefined' && localStorage.getItem('theme');
+    const theme = storedTheme || defaultTheme;
+
+    if (theme === 'dark' || (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      applyTheme('dark');
+    } else {
+      applyTheme('light');
+    }
+  };
+
+  initTheme();
+
+  document.addEventListener('astro:after-swap', initTheme);
+</script>

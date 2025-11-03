@@ -8,13 +8,13 @@ import bgImage from '../assets/images/chinch-head.svg';
 import { MetaSEO } from '~/types';
 
 export interface Props {
-  meta?: MetaSEO;
+  metadata?: MetaSEO;
 }
 
-const { meta } = Astro.props;
+const { metadata } = Astro.props;
 ---
 
-<Layout {meta}>
+<Layout {metadata}>
   <Announcement />
   <Header />
   <main style=`background-size: 80%;
