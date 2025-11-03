@@ -8,8 +8,8 @@ tags:
   - gaming
 current: false
 company_url: 'https://unity.com/products/mars'
-start_date: 20-05-11
-end_date: 20-05-27
+start_date: 2020
+end_date: 2020
 ---
 
 I helped with documentation for this plugin for the Unity editor for AR development.

@@ -36,6 +36,7 @@ const links = await fetch(`https://api.raindrop.io/rest/v1/raindrops/45559645?so
     format='png'
     src={entry.data.image ? entry.data.image : defaultPostImage}
     alt={entry.data.title}
+    inferSize={true}
     class="object-contain h-full mb-6 rounded drop-shadow-lg"
   />
 

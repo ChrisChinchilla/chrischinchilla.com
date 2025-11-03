@@ -1,0 +1,213 @@
+---
+title: Is the Future of Documentation Dynamic?
+publishDate: 2023-09-19T00:00:00.000Z
+author: Chris Ward
+categories:
+  - writing
+tags:
+  - macos
+  - version control
+image: /src/assets/images/articles/1*D_dgOpg2pSWZrXk39_aqIg.webp
+summary: >-
+  What do American Online, the Apple Newton, DVDs, Tamagochis, MP3, PDF, and
+  Sony Discmans all share in common? They were all products born in (and some
+  dying in) the 1990s. An era I remember vaguely well as I spent most of my mid
+  to late teenage years in it. And now I see the fashions and band T-shirts from
+  that era back on the streets and…
+---
+
+import { YouTube } from '@astro-community/astro-embed-youtube';
+
+What do American Online, the Apple Newton, DVDs, Tamagochis, MP3, PDF, and Sony Discmans all share in common? They were all products born in (and some dying in) the 1990s. An era I remember vaguely well as I spent most of my mid to late teenage years in it. And now I see the fashions and band T-shirts from that era back on the streets and…
+
+Where was I? Ah, yes, so what else was born in the 1990s?
+
+![The first web page](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*G5WkDgY_vPRIfPGxQnmIRg.png)
+
+Hypertext Markup Language is known to you and me as HTML or "web pages" (kind of).
+
+I promise I will get to the actual topic of this post eventually, but humour me a little longer as it helps understand what comes later. History, it turns out, is important to understanding the modern world.
+
+## HTML, print for the web
+
+HTML is a static presentation technology, with much of its markup language inspired by the print layout world. Thirty years later, it still shows these roots with fairly strict layout options. For example, the options for laying out images and text with each other remain rigid grid layouts.
+
+HTML has added support for many things during its lifetime and changed many of the "tags" that form its specification to suit the modern web. However, fundamentally it's not changed that much. And that's fine.
+
+What has changed is how we can create those pages. Most web pages are a combination of HTML plus two other technologies. Cascading stylesheets (CSS) and JavaScript. CSS adds a way to define how pages should look in a centralised way (much like styles in publishing and word processing applications), JavaScript adds interaction and dynamism, and HTML creates the layout and ties everything together. Initially, these technologies were quite limited, lacked widespread support, and we turned to other technologies to fill the gaps. Technologies such as Flash, Director, and Silverlight are long gone. JQuery, which added missing features to JavaScript, is still widely used, contrary to what many developers think. Developers used these technologies to allow pages to show dynamic data and react to users interacting with pages, updating their status and display to reflect change.
+
+OK, end of the potted history lesson. My question to those of us who produce documentation is the following. With all of these wonderful developments in web technologies over the past 30 years, why do we mostly insist on having such static walls of text?
+
+## Video version
+
+<YouTube id="9PMu3i4-RFk" />
+
+## Disclaimer
+
+This post covers "[docs-as-code][1]" approaches to creating documentation sites. You could probably achieve similar goals with content management systems, developer portals, etc. But I won't cover that here. Docs-as-code is how I roll.
+
+## Dynamic docs ideas
+
+What are some of the common, more complex entities we want to get into docs?
+
+- **Reusing content**: The ability to reuse the same content items in multiple places and update them in one place.
+- **Content from external sources**: Loading content sources such as APIs, headless CMS, etc.
+- **Screenshots with good quality test data**: A picture can say 1,000 words. But they also add to page weight, consume time to create, and populating them with useful data is complicated.
+- **User data integrated into docs**: Instead of showing example data in docs, how about showing data relevant to the user?
+- **Interactive "playgrounds"**: Sometimes, the best way to teach a concept is not through words, but through letting a user experiment.
+- **The ability to use docs content in other formats elsewhere**: Why restrict someone to reading your documentation on a docs website?
+
+While you could achieve some of these goals in many ways, I will mostly stick to using two in this post. There's a lot here I could cover in more detail, and who knows, maybe I will 😁.
+
+## Show me the tools
+
+[Astro][2] and [Docusaurus][3] are React-like tools (Astro isn't React but is inspired by it). There is also Gatsby, but it has grown quite complicated, so I generally skip it. Astro is a general-purpose site builder with a docs-related offshoot. Docusaurus is docs-focused with a good pedigree but is more limited than Astro.
+
+## Everything as a component
+
+Let's unpack what "React-like" means.
+
+[React][4] is a JavaScript framework that did/does many things, but one of the fundamental paradigm shifts it took was turning everything into components. A page is a component. A menu is a sub-component of the page, a menu item is a sub-component of the menu and so on.
+
+Where this gets interesting for us is that it also treats content as a component.
+
+### MDX
+
+There's even a flavour of markdown (of course) called [MDX][5] that mixes markdown with component syntax. This is interesting for a couple of reasons. First, we actually get a flavour of markdown syntax that allows for using special formatting in a consistent way, instead of what we have now, which is different tools take different versions of markdown and then add all the extra formatting we often want in different ways to each other.
+
+![Screenshot from MDX website](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*D_dgOpg2pSWZrXk39_aqIg.png)
+
+There's even a rich and often complex ecosystem of MDX, MD, and HTML manipulation tools in the [remark][6] and [rehype][7] world.
+
+I understand that this is starting to sound complex and can involve understanding many new concepts and technologies that may require more developer-focused minds. I'll try to write some future tutorials that break things down into more detail, but for now, here are some examples to illustrate what I mean and how these tools can help.
+
+## Content reuse
+
+What about reusing content? We often like to single-source certain content items. There are myriad ways to do this with existing docs as code tools. But remember, I said that content is a component. If you want to include content from another file, then treat it like a component. You can even pass variables to those components for more flexible reuse. You could pull some of those variables from customer data, providing useful live data like access keys in line in documentation.
+
+_\_include.mdx_
+
+```mdx
+<span>Hello {props.name}</span>
+
+This is text some content from `_markdown-partial-example.mdx`.
+```
+
+```mdx
+import PartialExample from './_include.mdx';
+
+# Manage Docs Versions
+
+<PartialExample name="Chris" />
+<PartialExample name="Alice" />
+```
+
+## Content from other sources
+
+What about APIs? They fuel the internet's interconnectivity, and whilst many documentation sites devote time to explaining how they work, we don't often use them to present information. You could dynamically load a roadmap, issue tracker, status page, or content from another source, such as a headless CMS or external service.
+
+Here's an example from my personal website using Astro, where I pull videos and podcast episodes live from the source.
+
+```mdx
+const youTubeVideos = await fetch(
+`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=200&playlistId=UUgnrx8qi4qhmN6sBebdDrmg&key=${import.meta.env.GOOGLE_API}`
+)
+.then((response) => response.json())
+.then((response) => Object.values(response.items));
+
+…
+
+        <ul>
+      {
+        youTubeVideos.map((video) => (
+
+          <li class="mb-12 md:mb-20">
+    		<Video
+              name={video.snippet.title}
+              snippet={video.snippet.description}
+              id={video.snippet.resourceId.videoId}
+            />
+          </li>
+        ))
+      }
+    </ul>
+```
+
+## Screenshots no more
+
+Screenshots. The bane of our existence. Keeping them up to date takes time, and getting meaningful and consistent data into screenshots is challenging.
+
+If your front-end development teams also happen to be using React or similar frameworks, and there's a likelihood they are, then you're in luck!
+
+_Example component_
+
+```mdx
+export const Highlight = ({ children, color }) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`You clicked the color ${color} with label ${children}`);
+    }}
+  >
+    {children}
+  </span>
+);
+
+;
+```
+
+```mdx
+This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+
+This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+```
+
+You can potentially include components directly from the application's front end and render them in docs directly. No more screenshots, actual living examples of the application. There's also the potential to load customer data straight into those "screenshots", providing code and other examples relevant to them.
+
+This is one of the harder ideas to implement (especially the data, but that's the same with screenshots), but it could be worth the effort in the long run.
+
+## Interactive docs
+
+Which leads us nicely to…
+
+Interactive playgrounds. These are not new concepts and have existed as effective learning tools in docs and API tools for a while. However, based on and building upon some of the discussion points so far, implementing them with these tools becomes, if not easier, but more seamless and integrated.
+
+## Docs everywhere
+
+So far, I’ve only talked about the impact on actual docs. What about outside of docs?
+
+Whilst not restricted to the platforms I cover, they open new possibilities and make some older ones easier.
+
+For example, converting content to outputs like pure JavaScript and JSON becomes easier, especially using the whole remark and rehype ecosystem. I think we all know how useful and flexible JSON is.
+
+But even more interesting, remember I mentioned how almost everything is a component? Well, the docs are a component too! So, you can embed the docs, or parts of the docs, into other compatible places (yes, this means that the application needs to be something that understands components). This takes single-sourcing content to new levels!
+
+## Advantages and disadvantages
+
+OK, so I have presented along the way ideas and pitfalls, but what are more general advantages and disadvantages?
+
+There are a few…
+
+These are new tools, especially regarding docs use cases. Docusaurus is mature but doesn't support all of the ideas I've covered here. Astro does, but it isn't fully optimised for docs and moves quickly, sometimes breaking things.
+
+Next, Vue, and Gatsby are more general JavaScript frameworks that offer content-handling features, but this leads us to one of the larger negatives.
+
+These are primarily developer-focused tools. They are full of assumptions, jargon, and pitfalls that can be extremely frustrating and will have your tech writer/developer experience brain going crazy.
+
+This may mean that you have a development team handy who can help. After all we are talking about some of the same tools and frameworks they use. Depending on your company and team size, this can also have issues as you may, instead of using off-the-shelf options, end up with something custom, which has its own maintenance issues. Similarly, hiring tech writers familiar with these or custom tools could be challenging.
+
+However, the whole MDX paradigm and the "everything is a component" trend is increasingly entrenched with the wider tech community, making a lot of potential sense for explanatory content. So, Like many other topics in technology, it's worth a look!
+
+[1]: https://www.writethedocs.org/guide/docs-as-code/
+[2]: https://astro.build
+[3]: https://docusaurus.io
+[4]: https://react.dev
+[5]: http://mdxjs.com
+[6]: https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
+[7]: https://github.com/rehypejs/rehype/blob/HEAD/doc/plugins.md#list-of-plugins

@@ -14,7 +14,7 @@ var idOfTitle = slugify(game.data.title);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${game.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
     <Image
       src={game.data.image}
       alt={game.data.title}

@@ -1,0 +1,99 @@
+---
+title: 3 Grammarly desktop alternatives
+publishDate: 2025-07-28T00:00:00.000Z
+author: Chris Ward
+categories:
+  - writing
+tags:
+  - Writing
+  - Writing tools
+  - Style checking
+image: /src/assets/images/articles/prowritingaid.png
+summary: >-
+  Much like “googling” has become a generic term for searching, Grammarly has become almost synonymous with a general grammar and style checker, outside of those provided by tools like Word or Google Docs. I have used the pro version for several years, and while its advice is not always correct and inconsistent, it’s generally a good aid in giving ideas and pointers for writing. However, every year, that subscription comes up for renewal, and I start thinking about alternatives and features I’d like to have that Grammarly doesn’t offer. In this post, I look at the disappointingly few alternatives that exist.
+---
+
+import { YouTube } from '@astro-community/astro-embed-youtube';
+
+Much like “googling” has become a generic term for searching, Grammarly has become almost synonymous with a general grammar and style checker, outside of those provided by tools like Word or Google Docs.
+
+I have used the pro version for several years, and while its advice is not always correct and inconsistent, it’s generally a good aid in giving ideas and pointers for writing.
+
+However, every year, that subscription comes up for renewal, and I start thinking about alternatives and features I’d like to have that Grammarly doesn’t offer. In this post, I look at the disappointingly few alternatives that exist.
+
+“Hold on!” I hear you saying. There are loads of grammar checkers now, and thanks to the new wave of AI tools, almost everything tries to pack a writing advice feature in. That is correct, maybe I need to be more precise, I don’t want an alternative to the “paste some text in a text field” features of Grammarly, I want an alternative to Grammarly desktop, the feature that adds a background checker, providing input into (almost) all text fields across the system.
+
+There are fewer of these than you might think, and having looked into building an equivalent that uses [Vale](https://vale.sh) at its core, creating one is a complex task that’s operating system dependent and typically involves hijacking some unofficial API. Grammarly has a big development office here in Berlin where they host regular development talks, and they’ve given some insights into how they build for each platform, which detailed some of the steps they’ve had to go through.
+
+In addition to the system-wide checker, I was looking for the following features in the tools evaluated for this post:
+
+- **The ability to set language per document**: I write in US and international English, as well as occasionally in German, so ideally, the tool lets you change the language at a document level.
+- **Reliability and performance**: These tools sit running always in the background, so shouldn’t consume too many system resources and not require restarting.
+- **Custom rule creation**: My work with Vale has shown that many companies require a set of complex style rules to check text, so any custom style rules should ideally offer more complex than “search and replace”.
+- **Pricing**: I don't mind paying, but sometimes price is a big factor.
+
+All of this aside, I only really found three options, but if you know of any I missed, I’ll gladly take a look at them.
+
+## Video version
+
+<YouTube id="JTR19h-BL4s" />
+
+## Grammarly
+
+I should start with my baseline point of comparison.
+
+![A screenshot of Grammarly desktop showing issues and suggestions](../../../assets/images/articles/grammarly.png)
+
+- **Price**: $0-12 per month. On the free plan, you can do a reasonable amount, but you will quickly reach its limits and miss out on a lot of potential checks.
+- **Application support**: Aside from some special applications that have highly custom text fields, such as VSCode, Grammarly works just about everywhere. Sometimes it needs a restart or a little prodding to kickstart checks, but most of the time it works. And like all other tools in this article, it needs an internet connection.
+- **Performance**: Not bad. It tends to crash or time out (or whatever you want to call it) in long Google documents, but outside of the browser, it doesn’t consume too many system resources.
+- **Features**: While the price is low, you can’t configure Grammarly too much. It focuses more on a default feature set that works for most people, which would explain their success. You can change a few mostly broad settings, such as tone and style, and that’s about it. The enterprise plans have custom style guide rules, but they are only search and replace rules.
+- **Language setting**: Global.
+- **More details**: https://grammarly.com
+
+## LanguageTool
+
+A long-running tool with a mixture of open and closed source components, you often find LanguageTool embedded in other applications. For example, I think [OpenOffice](https://www.openoffice.org/) and [Ulysses](https://setapp.com/apps/ulysses?irgwc=1&clickid=VkDVYX3khxyIUCez3ZXf1X0mUkp0hKRlSQezx40&iradid=343321&irpid=4025833&utm_content=ONLINE_TRACKING_LINK&utm_campaign=Chris%20Chinchilla&sharedid=&utm_medium=affiliate&mpaid=3) use it, or at least used to. Their desktop tool is newer, and many features are still in beta. However, if it continues in the right direction, it shows a lot of promise, building upon its long history.
+
+![A screenshot of LanguageTool showing issues and suggestions](../../../assets/images/articles/languagetool.png)
+
+- **Price**: $0-19 per month.
+- **Application support**: The support for certain applications and their features is inconsistent. There’s a standalone editor for when LanguageTool doesn’t support a specific application. It has an extension for all browsers.
+- **Performance**: Not always clear where suggestions relate to or when it applies a change and doesn't always move the text editor view when selecting a suggestion from the list. It doesn’t always offer suggestions to issues.
+- **Features**: Custom styles are search and replace only. Broad support for writing styles, personal and terminology dictionaries. Offers multiple inline alternative suggestions. Thanks to its long history in application integration, LanguageTool has a lot of checks to toggle and configure.
+- **Language setting**: Per document. Many languages and variants are supported. This makes LanguageTool the only tool on this list that lets you change the language at a document level.
+- More details: https://languagetool.org
+
+## ProWritingAid
+
+Another service I believe has existed as a browser-based editor and API service for some time, but the desktop app is a relatively new addition. ProWritingAid has a stronger focus on general writing advice and comparison, especially for longer-form writing, but I didn’t delve too deeply into these additional features.
+
+![A screenshot of ProWritingAid showing issues and suggestions](../../../assets/images/articles/prowritingaid.png)
+
+- **Price**: $0-12 per month.
+- **Application support**: All, but inconsistent with getting suggestions to apply and seeing if they did apply, depending on the application. Despite claiming there’s a Safari extension, I couldn’t find it.
+- **Performance**: Low system resource impact, but the suggestions panel is jumpy.
+- **Features**: Lots, but not all may be relevant to everyone. Custom style guides are only search and replace. It’s not always aware of the document context with regard to suggestions.
+- **Language setting**: Global and only English.
+- **More details**: https://prowritingaid.com
+
+## Grazie
+
+I have covered JetBrains’ various efforts at text checking in the past and Grazie continues as a sort of standalone product to their usual developer tools. I say “sort of” as outside of their developer tools, Grazie only works in the browser, which may be enough for you, especially as all the other tools here require you to install a browser extension anyway, aso maybe that’ enough for you.
+
+![A screenshot of Grazie showing issues and suggestions](../../../assets/images/articles/grazie.png)
+
+- **Price**: Free
+- **Application support**: Limited. JetBrains’ IDEs and all browsers.
+- **Performance**: Low system resources, but suggestions seem less accurate and relevant to the document context.
+- **Features**: More suited to technical writing styles and the types of issues that style of writing is interested in. No custom styles apart from the dictionary.
+- **Language setting**: Global
+- **More details**: https://www.jetbrains.com/grazie/
+
+## Does anything beat Grammarly desktop?
+
+From this limited list, LanguageTool is the only option that supports per-document language settings, but it’s still too inconsistent in terms of performance and application support. When application support improves, I may consider switching. Similar for ProWritingAid. Perhaps the additional features that you can't find in any other application might be appealing in the long run, but with too many inconsistencies and no Safari support, the basics need to work for me first.
+
+Apart from Grammarly, almost all the other tools on this list enable checking support at an application level, meaning that if they don't support your application, then tough. This makes a degree of sense, as not all text fields are equal and are implemented in myriad ways. With LanguageTool, even the supported applications had mixed feature support. For example, not jumping to identified issues, or showing different checking features.
+
+So, until either of those two solves those issues, I guess I will stick with Grammarly. It has a lot that I would like improved or changed, but for the basics I need, grammar and style checking in almost all applications, it gets the job done.

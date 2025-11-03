@@ -18,6 +18,6 @@ const { Content } = await render(entry);
 
 <MarkdownPostLayout frontmatter={entry.data} rawContent={entry.body}>
   <Image   src={entry.data.image ? entry.data.image : defaultPostImage}
-  alt={entry.data.title} class="object-cover w-full h-full mb-6 rounded drop-shadow-lg" />
+  alt={entry.data.title} class="object-cover w-full h-full mb-6 rounded drop-shadow-lg" format='png' inferSize={true} />
   <Content />
 </MarkdownPostLayout>

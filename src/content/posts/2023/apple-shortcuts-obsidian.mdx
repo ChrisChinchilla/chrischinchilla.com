@@ -1,0 +1,113 @@
+---
+title: Bring the power of Apple Shortcuts to Obsidian
+publishDate: 2023-12-13T00:00:00.000Z
+author: Chris Ward
+categories:
+  - writing
+tags:
+  - Automation
+  - Apple
+  - Shortcuts
+image: /src/assets/images/articles/1*Soys68WY2ihqz-qiTHI_Ng.webp
+summary: >-
+  I’ve mentioned before that I have been using Obsidian more and more, and from
+  a knowledge management perspective, it’s fantastic, with a plethora of plugins
+  that extend its functionality to connect to many external services. But as a
+  cross-platform Electron application, integration with the host operating
+  system is one of the places it fails. As the underlying data store is a folder
+  of files, some integration is possible there, but Obsidian has minimal
+  awareness of changes that happen.
+---
+
+import { YouTube } from '@astro-community/astro-embed-youtube';
+
+I've mentioned before that I have been using Obsidian more and more, and from a knowledge management perspective, it's fantastic, with a plethora of plugins that extend its functionality to connect to many external services. But as a cross-platform Electron application, integration with the host operating system is one of the places it fails. As the underlying data store is a folder of files, some integration is possible there, but Obsidian has minimal awareness of changes that happen.
+
+Actions for Obsidian aims to add a degree of interaction between Apple's fantastic shortcuts and Obsidian. It's a start!
+
+## Video version
+
+<YouTube id="iRq98uUxpe4" />
+
+Want to watch a video version of the post?
+
+Thanks Midjourney for this delightful Chinchilla hugging an Obsidian
+
+## Installation and setup
+
+You need two components to get the actions working with Obsidian. First, add the Actions URI plugin to Obsidian, which handles incoming requests using Apple's internal callback URL system that allows you to communicate with other installed applications.
+
+The second is the Actions for Obsidian application, which adds the actions to Shortcuts and provides minimal preferences and license management. The app has an onboarding flow, prompting you to install the Obsidian plugin and then link it with one or more vaults.
+
+On the subject of licensing. You can use Actions for Obsidian for free, but it will notify you to purchase a license with increasing frequency that rapidly becomes fairly hard to use. While making this video and blog post, I ended up buying a license even though I wasn't sure I wanted to keep it, as it became impossible for me to record without constant notifications that stopped the shortcuts from running. However, it was only a few €/£/$s, and developers deserve to be paid. I was more irritated by how evaluating after a certain point became fairly challenging. I did also take quite a long time to evaluate 😅.
+
+Actions for Obsidian (AFO) divides the actions it provides into sections:
+
+- **Commands**: Use Obsidian commands
+- **Dataview**: Generate Dataviews of Obsidian data on the fly if you have the Dataview plugin installed
+- **Folders**: Create, delete, and manipulate folders in the vault
+- **Notes**: Create, delete, manipulate, add text to, and more with notes
+- **Periodic notes**: Much of the same functionality as notes, but specifically for working with the core daily notes or other periodic note types provided by the periodic notes plugin.
+- **Vaults**: Manipulate properties of the current vault
+
+The usage of some of these, such as creating notes, is more immediately obvious than others. Others, such as dataview and commands, require a little more thinking. Here's some of what I tried.
+
+## Notes
+
+Notes are the prime data type of Obsidian, so unsurprisingly, AFO supports the most options with them. Sometimes, with Apple Shortcuts, the difficulty is more in figuring out what combination of other useful actions to assemble. Here are a couple of basic ideas I tried, but there are many more I will try over time.
+
+### Create note
+
+Apple Notes and other native applications allow you to select text from elsewhere and quickly share it into a new or existing note, which I miss in Obsidian.
+
+Create a new Shortcut, and in the info view, check the share sheet and quick action options.
+
+![A screenshot of creating a note with input from a Shortcut](../../../assets/images/articles/1*Soys68WY2ihqz-qiTHI_Ng.webp)
+
+This then adds a Receive action where you probably want to change to "Text" and "Rich text" for the context of Obsidian.
+
+Now, search for the "Append Text to a Note" action and drag it into the shortcut. I found this more reliable than the "Create Note" action, as you can configure it to create a note if it doesn't exist anyway. Configuring this action is up to you, but I set the following.
+
+I left the note name blank. As for my use case, I wanted the shortcut to be fairly dynamic, and it would prompt you for a name when it runs. Set it to receive input from the shortcut, select the relevant vault, add newlines, and check the create note option. I chose to append it to the end of a note, but like many other steps in shortcut actions, you can prompt every time, too.
+
+### Open note
+
+I have a dataview-based note that contains anything in a note that's part of a checklist. It's my vague attempt at using Obsidian as a task management tool that hasn't quite worked yet, but I'm trying 😅.
+
+![Screenshot of Shortcut to open an Obsidian note](../../../assets/images/articles/1*pDulNtEPNZ8wI3Qm8Du6Fw.webp)
+
+The nature of Obsidian vaults means that despite the underlying note being a file on your operating system, they can often feel buried in something of a black box for quick access. The "Open note" action helps pull that note out more quickly. The action doesn't have much to configure, just the note and the vault.
+
+### Periodic notes
+
+You are probably familiar with Obsidian's core daily note feature, designed for tasks like journaling, daily task lists, and more. I didn't realise that using the periodic notes plugin you can also have weekly and monthly notes.
+
+As interesting as that sounded, I struggled to combine shortcut inputs and actions to be genuinely useful (see earlier comment). What I ended up with was a kind of daily schedule recap note. But I can imagine connecting it to different daily (or weekly or monthly) inputs as a starting point for regular note-taking on what happened during the period.
+
+### Daily meeting recap
+
+Create a Shortcut and add the "Append Text to periodic note" action, which works similarly to the non-periodic version, so use many of the same settings.
+
+I used the Fantastical "Show schedule" action as input to the note. If you use the default calendar, the equivalent is "find calendar events", but you need to filter based on the start date.
+
+Screenshot of creating a daily schedule shortcutI thought I'd need to loop through the returned events to add them to a note, but Shortcuts seems to handle that for you with lists of items, and you might have noticed in the AFO actions that you can set what properties of any types to send to Obsidian. In the case of calendar events, you can send the title, date, and many other properties.
+
+### Trigger commands
+
+Like many modern applications, Obsidian hides a wealth of power behind a command palette, and AFO also lets you trigger commands from that. This was another example of a potentially powerful action, but I wasn't sure what to do with it. Mostly as I don't have that many plugins that provide additional commands, and those that do make more sense triggered from within Obsidian. However, creating Shortcuts with these commands would mean I can trigger them from productivity tools such as Raycast, a Stream Deck, etc…
+
+I could also see some potentially powerful shortcuts where you trigger a command, pipe its output to something else, and so on.
+
+#### Open project management flow
+
+What I settled on as an example is a little basic but is useful for me, and I also connected it to a Stream Deck.
+I use Trello extensively for managing tasks and ideas, and I use the Obsidian Trello plugin to hook together articles and notes with tasks so I can update status in both places. But for larger scale planning, the Trello application is easier to use, so I created a shortcut that opened the Trello application, showed the Trello pane in Obsidian, and then placed both applications to the side of each other.
+
+Before using any command-based action, you need to run the "Get available commands from vault" action at least once, and maybe when commands update. You could keep this as a separate shortcut or probably add it as an initial step before a larger shortcut.
+
+Once AFO has that list of commands, use the "Trigger command" action, selecting the command and vault.
+In my example, it's just a series of steps with no data passed between them. I am unsure what happens if there is output and if you can do anything with it. I then use the "Open App" and "Resize Window" actions for my example.
+
+## With great power comes great possibility
+
+AFO does its utmost to provide flexibility and integration possibilities to a powerful application that is something of a black box regarding macOS. The developer is active and responsive and will likely add more features as the figure out how to build them. Some licensing niggles aside, my only negatives are more Shortcuts-related. It's one of those applications I know I can get so much more out of and streamline so many manual, repetitive processes, but I often find myself stuck knowing where to start. Or, I have a great idea for a shortcut and then hit a limitation or a lack of support with an application I regularly use and give up. But at least Actions for Obsidian fills one more of those gaps. The rest is up to me.
