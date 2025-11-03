@@ -1,11 +1,12 @@
 ---
 type: Technical writing
 title: Aspect
+current: true
 company_url: 'https://www.aspect.build'
 image: /src/assets/images/clients/aspect.png
 category: Chris writing
 start_date: 2024
-end_date: 2025
+end_date: current
 tags:
   - developer tools
   - Bazel

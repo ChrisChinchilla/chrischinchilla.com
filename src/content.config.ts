@@ -1,6 +1,5 @@
 import { z, defineCollection } from 'astro:content';
 import { glob, file } from 'astro/loaders';
-import { start } from 'repl';
 // TODO: This used to be possible
 // import defaultBlogImage from '~/src/assets/images/defaults/blog-chinchilla.jpg'
 
@@ -32,7 +31,7 @@ const posts = defineCollection({
       // image: image().optional().default(defaultBlogImage),
       image: image().optional(),
       publication_url: z.string().url().optional(),
-      summary: z.string().optional(),
+summary: z.string().optional(),
       // canonical: z.string().url().optional(),
 
       publishDate: z.date().or(z.string()).optional(),
@@ -86,8 +85,7 @@ const clients = defineCollection({
       description: z.string().optional(),
       image: z.union([z.string().url(), image()]),
       company_url: z.string().url().optional(),
-      start_date: z.number().optional(),
-      end_date: z.number().optional(),
+
       // canonical: z.string().url().optional(),
 
       // publishDate: z.date().or(z.string()).optional(),

@@ -90,7 +90,7 @@ if (podcast.title.length === 2) {
           }
           <ul>
             {episodeData && episodeData.descript_embed ? 
-              <li><a href=`https://share.descript.com/view/${episodeData.descript_embed}`>Interactive transcript</a></li>
+              <li><a href=`${episodeData.descript_embed}`>Interactive transcript</a></li>
               : ''}
             </ul>
           </div>

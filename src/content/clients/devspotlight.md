@@ -10,7 +10,7 @@ tags:
 current: false
 company_url: 'https://www.devspotlight.com/'
 start_date: 2020
-end_date: 2023
+end_date: Ongoing
 ---
 
 I write posts for several Dev Spotlight clients including Kong, Salesforce, and others.

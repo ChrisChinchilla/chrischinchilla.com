@@ -10,7 +10,7 @@ tags:
   - kubernetes
 current: false
 company_url: 'https://www.weave.works/'
-start_date: 2018
+start_date: 18-05-14
 end_date: 2018
 ---
 

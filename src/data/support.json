@@ -24,22 +24,6 @@
     "image": "/src/assets/images/affiliate/scrivener.png",
     "description": "Scrivener is the go-to app for writers of all kinds, used every day by best-selling novelists, screenwriters, non-fiction writers, students, academics, lawyers, journalists, translators and more.",
     "affiliate_link": "https://go.chrischinchilla.com/scrivener"},
-          {
-    "slug": "Sudowrite",
-    "title": "The AI writing tool with unparalleled story smarts",
-    "cta": "Sign up for Sudowrite",
-    "section": "affiliate",
-    "image": "/src/assets/images/affiliate/sudowrite.svg",
-    "description": "Sudowrite is an AI-powered writing assistant that helps you brainstorm, outline, and write your stories.",
-    "affiliate_link": "https://go.chrischinchilla.com/sudowrite"},
-      {
-    "slug": "simple-screenshot",
-    "title": "Capture your screen effortlessly",
-    "cta": "Get Simple Screenshot",
-    "section": "affiliate",
-    "image": "/src/assets/images/affiliate/simple-screenshot.png",
-    "description": "Simple and clear, but packed with features, Simple Screenshot is a drop in replacement for macOS.",
-    "affiliate_link": "https://go.chrischinchilla.com/simple-screenshot"},
   {
     "slug": "mermaid-chart",
     "cta": "Try Mermaid Chart",
