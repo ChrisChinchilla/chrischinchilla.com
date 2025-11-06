@@ -31,7 +31,6 @@
     "@astrojs/partytown": "^2.1.4",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.6.0",
-    "@astrojs/tailwind": "^6.0.2",
     "@astrolib/analytics": "^0.6.1",
     "@astrolib/seo": "^1.0.0-beta.8",
     "@fontsource/albert-sans": "^5.2.8",
@@ -59,7 +58,8 @@
     "prettier-plugin-astro": "^0.14.1",
     "reading-time": "^1.5.0",
     "svgo": "^4.0.0",
-    "tailwindcss": "^3.4.17",
+  "@tailwindcss/postcss": "^4.0.0",
+  "tailwindcss": "^4.1.16",
     "truncate-html": "^1.2.2",
     "typescript": "^5.9.3"
   }

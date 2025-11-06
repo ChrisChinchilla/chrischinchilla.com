@@ -1,23 +1,79 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer components {
-  .btn {
-    @apply inline-flex items-center justify-center rounded-md shadow-md border-gray-400 border bg-transparent font-medium text-center text-base text-gray-700 leading-snug transition py-3.5 px-6 md:px-7 ease-in duration-200 focus:ring-blue-500 focus:ring-offset-blue-200 focus:ring-2 focus:ring-offset-2 hover:bg-gray-100 hover:border-gray-600 dark:text-slate-300 dark:border-slate-500 dark:hover:bg-slate-800 dark:hover:border-slate-800;
-  }
+@import "tailwindcss";
 
-  .btn-ghost {
-    @apply border-none shadow-none text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white;
-  }
+/* Tell Tailwind which files to scan for classes (v4) */
+@source "../../**/*.{astro,html,js,jsx,md,mdx,ts,tsx,vue}";
 
-  .btn-primary {
-    @apply text-brandYellow font-semibold bg-brandGrey border-brandGrey hover:bg-brandBlue hover:border-brandBlue hover:text-white dark:text-white dark:bg-primary-700 dark:border-primary-700 dark:hover:border-primary-900 dark:hover:bg-primary-900;
-  }
+/* Custom theme tokens (v4) */
+@theme {
+  --color-brandBlue: #9db0c2;
+  --color-brandYellow: #eaba5d;
+  --color-brandGrey: #4b555c;
 }
 
-#header.scroll {
-  @apply shadow-md md:shadow-lg bg-white md:bg-white/90 md:backdrop-blur-sm dark:bg-slate-900 dark:md:bg-slate-900/90;
+/* Custom component styles (expanded from @apply for v4 compatibility) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-width: 1px;
+  border-color: rgb(156 163 175);
+  background-color: transparent;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.375;
+  color: rgb(55 65 81);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  padding: 0.875rem 1.5rem;
+}
+.btn:hover {
+  background-color: rgb(243 244 246);
+  border-color: rgb(75 85 99);
+}
+.btn:focus {
+  --tw-ring-color: rgb(59 130 246);
+  --tw-ring-offset-color: rgb(191 219 254);
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  --tw-ring-offset-width: 2px;
+}
+@media (min-width: 48rem) { /* md */
+  .btn { padding-left: 1.75rem; padding-right: 1.75rem; }
+}
+.dark .btn { color: rgb(203 213 225); border-color: rgb(100 116 139); }
+.dark .btn:hover { background-color: rgb(30 41 59); border-color: rgb(30 41 59); }
+
+.btn-ghost { border: none; box-shadow: none; color: rgb(75 85 99); }
+.btn-ghost:hover { color: rgb(17 24 39); }
+.dark .btn-ghost { color: rgb(156 163 175); }
+.dark .btn-ghost:hover { color: rgb(255 255 255); }
+
+.btn-primary {
+  color: var(--color-brandYellow);
+  font-weight: 600;
+  background-color: var(--color-brandGrey);
+  border-color: var(--color-brandGrey);
+}
+.btn-primary:hover {
+  background-color: var(--color-brandBlue);
+  border-color: var(--color-brandBlue);
+  color: rgb(255 255 255);
+}
+.dark .btn-primary { color: rgb(255 255 255); background-color: rgb(29 78 216); border-color: rgb(29 78 216); }
+.dark .btn-primary:hover { background-color: rgb(30 58 138); border-color: rgb(30 58 138); }
+
+#header.scroll { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); background-color: rgb(255 255 255); }
+.dark #header.scroll { background-color: rgb(15 23 42); }
+@media (min-width: 48rem) { /* md */
+  #header.scroll { box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); background-color: rgb(255 255 255 / 0.9); backdrop-filter: blur(8px); }
+  .dark #header.scroll { background-color: rgb(15 23 42 / 0.9); }
 }
 
 .dropdown:hover .dropdown-menu {
@@ -33,22 +89,28 @@
 }
 
 [data-aw-toggle-menu] path {
-  @apply transition;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 [data-aw-toggle-menu].expanded g > path:first-child {
-  @apply -rotate-45 translate-y-[15px] translate-x-[-3px];
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-translate-y: 15px;
+  --tw-translate-x: -3px;
 }
 
 [data-aw-toggle-menu].expanded g > path:last-child {
-  @apply rotate-45 translate-y-[-8px] translate-x-[14px];
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-translate-y: -8px;
+  --tw-translate-x: 14px;
 }
 
 
 /* Chris custom */
 
-.body p{
-  @apply mb-8;
-}
+.body p { margin-bottom: 2rem; }
 
 .cleanlink {
   text-decoration: none;
