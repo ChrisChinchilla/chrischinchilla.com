@@ -1,6 +1,6 @@
 ---
 import { type CollectionEntry } from 'astro:content';
-import { Image } from 'astro:assets';
+import ContentImage from '~/components/common/ContentImage.astro';
 import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg';
 import { slugify } from '~/utils/slugify';
 
@@ -25,9 +25,10 @@ var idOfTitle = slugify(newsletter.data.title);
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${newsletter.data.image ? 'md:grid-cols-2' : ''}`}>
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
-    <Image
-      src={newsletter.data.image ? newsletter.data.image : defaultPostImage}
+    <ContentImage
+      src={newsletter.data.image}
       alt={newsletter.data.title}
+      type="newsletter"
       class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
     />
   </div>

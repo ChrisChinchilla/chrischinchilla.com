@@ -8,7 +8,7 @@ tags:
   - Databases
   - MySQL
   - AI
-image: /src/assets/images/articles/mysql.jpg
+image: posts/mysql.jpg
 summary: >-
   On May 23rd 2025, the MySQL database celebrated its 30th anniversary. Look at the usage trends for databases on DB-engine and MySQL and its owner since 2010, Oracle's own product occupy the top two spots. However, the same rankings show that the popularity of most of the top four is declining, especially for MySQL.
   
