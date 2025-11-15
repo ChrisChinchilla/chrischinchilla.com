@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - tor
-  - privacy
-  - security
-  - decentralized
-  - blockchain
-  - encryption
-  - messaging
+  - Tor
+  - Privacy
+  - Security
+  - Decentralized
+  - Blockchain
+  - Encryption
+  - Messaging
 publication_url: 'https://dzone.com/articles/true-anonymity-privacy-and-snapps-with-simon-harma'
 image: /src/assets/images/articles/11521992.jpeg
 summary: Need to improve privacy and anonymity?

@@ -8,13 +8,12 @@ categories:
   - theweeklysqueak
 tags:
   - '2015'
-  - life
-  - personal
+  - Life
+  - Personal
 image: /src/assets/images/articles/image-farewell-2015.jpg
 summary: >-
   What better way to start my new blog post and podcast of semi-random uttering
   and opinions than with a round of the year and thoughts that have led me to
   starting it in the first place.
 ---
-
 What better way to start my new blog post and podcast of semi-random uttering and opinions than with a round of the year and thoughts that have led me to starting it in the first place.

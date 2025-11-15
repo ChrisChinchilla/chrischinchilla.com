@@ -8,9 +8,9 @@ categories:
   - writing
   - theweeklysqueak
 tags:
-  - australia
-  - europe
-  - travel
+  - Australia
+  - Europe
+  - Travel
 summary: >-
   Last weekend I was back in Tirana for my second OSCAL, an awesome little open
   source conference that has a massively diverse audience and punches well above
@@ -21,5 +21,4 @@ summary: >-
   Serbia (twice) and Croatia. Last year, everything was new and novel, this trip
   I was seeing beyond that into things I might have missed.
 ---
-
 Last weekend I was back in Tirana for my second OSCAL, an awesome little open source conference that has a massively diverse audience and punches well above it's weight. Whilst in Albania I was conducting some interviews and research for a forthcoming article on the Albanian (likely also including Kosovo) startup and tech scene(s), but more of that later. When I visited Albania last year it was my first trip to a Balkan country and since then I have visited Serbia (twice) and Croatia. Last year, everything was new and novel, this trip I was seeing beyond that into things I might have missed.

@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - openstack
-  - kubernetes
-  - bare metal
-  - containers
+  - Openstack
+  - Kubernetes
+  - Bare Metal
+  - Containers
 publication_url: 'https://dzone.com/articles/-openstack-stein-kubernetes-and-bare-metal'
 image: /src/assets/images/articles/11708672.jpeg
 summary: >-

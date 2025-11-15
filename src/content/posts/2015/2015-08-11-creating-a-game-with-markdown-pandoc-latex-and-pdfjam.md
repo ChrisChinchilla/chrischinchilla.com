@@ -6,17 +6,16 @@ categories:
   - chipshop
 image: /src/assets/images/articles/9up-cards.png
 tags:
-  - markdown
-  - pandoc
-  - latex
-  - pdf
+  - Markdown
+  - Pandoc
+  - Latex
+  - Pdf
 summary: >-
   The main reason for a lack of small posts on the progress of Chip Shop is that
   behind the scenes we have been working on some large stumbling blocks to push
   the game towards play testing. We wanted to focus on getting those completed
   over all else.
 ---
-
 The main reason for a lack of small posts on the progress of Chip Shop is that behind the scenes we have been working on some large stumbling blocks to push the game towards play testing. We wanted to focus on getting those completed over all else.
 
 ## New and Improved Cards

@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - mobile world congress
-  - mwc
-  - ai
-  - robots
-  - android
-  - mobile
-  - conferences
-  - iot
+  - Mobile World Congress
+  - MWC
+  - AI
+  - Robots
+  - Android
+  - Mobile
+  - Conferences
+  - IoT
 publication_url: 'https://dzone.com/articles/mobile-world-congress-2018-consolidation-and-colla'
 image: /src/assets/images/articles/8376594.jpeg
 summary: >-

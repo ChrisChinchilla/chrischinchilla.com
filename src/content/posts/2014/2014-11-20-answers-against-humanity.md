@@ -5,15 +5,14 @@ categories:
   - projects
   - software
 tags:
-  - aah
-  - games
-  - apps
+  - Aah
+  - Games
+  - Apps
 summary: >-
   Are you looking for smart answers to dumb questions? Then you might enjoy
   'Answers Against Humanity', based on that 'award' winning game, Cards Against
   Humanity.
 ---
-
 Are you looking for smart answers to dumb questions? Then you might enjoy 'Answers Against Humanity', based on that 'award' winning game, Cards Against Humanity.
 
 Code is available on [iOS](https://github.com/ChrisChinchilla/Answers-Against-Humanity) and [Android](https://github.com/ChrisChinchilla/AnswersAgainstHumanity), but you'll only find it in the [Google Play Store](https://play.google.com/store/apps/details?id=gregariousmammal.com.answersagainsthumanity) as Apple said it was:

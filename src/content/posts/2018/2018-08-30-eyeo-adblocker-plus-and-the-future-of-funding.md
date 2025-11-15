@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - advertising
-  - open source
-  - funding
-  - adblocker
-  - eyeo
-  - flattr
-  - micropayments
-  - adblock plus
+  - Advertising
+  - Open Source
+  - Funding
+  - Adblocker
+  - Eyeo
+  - Flattr
+  - Micropayments
+  - Adblock Plus
 publication_url: 'https://dzone.com/articles/eyeo-adblocker-plus-and-the-future-of-funding'
 image: /src/assets/images/articles/10029936.jpeg
 summary: >-

@@ -5,12 +5,11 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - life
+  - Life
 summary: >-
   By the way, going to have a few last minute drinks tonight for those who
   couldn't make the party... 7.30pm at the Green Man in Berwick st...
 ---
-
 Ok then...
 
 By the way, going to have a few last minute drinks tonight for those who couldn't make the party... 7.30pm at the Green Man in Berwick st...

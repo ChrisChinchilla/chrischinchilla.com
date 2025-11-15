@@ -6,15 +6,15 @@ categories:
   - writing
   - dzone
 tags:
-  - conference
-  - lithuania
-  - vilnius
-  - big data
-  - empathy
-  - robots
-  - futurism
-  - blockchain
-  - agile
+  - Conference
+  - Lithuania
+  - Vilnius
+  - Big Data
+  - Empathy
+  - Robots
+  - Futurism
+  - Blockchain
+  - Agile
 publication_url: 'https://dzone.com/articles/discovering-the-true-meaning-of-innovation-with-lo'
 image: /src/assets/images/articles/9553096.jpeg
 summary: >-

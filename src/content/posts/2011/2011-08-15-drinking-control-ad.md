@@ -5,14 +5,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - greatidea
+  - Greatidea
 image: /src/assets/images/articles/IMG_0599.jpg
 summary: >-
   I've sometimes been critical of drinking control ads in the past, generally
   wondering how effective they really are, but I really liked this one I found
   in a London toilet.
 ---
-
 I've sometimes been critical of drinking control ads in the past, generally wondering how effective they really are, but I really liked this one I found in a London toilet.
 
 Why do I like it? Well:

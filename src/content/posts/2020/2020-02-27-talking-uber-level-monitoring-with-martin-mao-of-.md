@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - m3
-  - chronosphere
-  - uber
-  - time series data
-  - monitoring
-  - big data
-  - monitoring and alerting
-  - interview
+  - M3
+  - Chronosphere
+  - Uber
+  - Time Series Data
+  - Monitoring
+  - Big Data
+  - Monitoring And Alerting
+  - Interview
 publication_url: 'https://dzone.com/articles/-talking-uber-level-monitoring-with-martin-mao-of'
 image: /src/assets/images/articles/13014178.jpeg
 summary: >-

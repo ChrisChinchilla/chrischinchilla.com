@@ -7,13 +7,12 @@ categories:
   - writing
   - crate
 tags:
-  - cli
-  - tools
+  - Cli
+  - Tools
 summary: >-
   Meet Mathias Fußenegger, aka 'Jordi', one of Crate's core engineers and a
   massive Linux fan.
 ---
-
 Meet Mathias Fußenegger, aka 'Jordi', one of Crate's core engineers and a massive Linux fan.
 
 At Snow Sprint, amongst other things, Jordi decided to add a random data generator to his Crate dev tools project.

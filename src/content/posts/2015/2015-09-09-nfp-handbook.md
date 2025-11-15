@@ -4,12 +4,11 @@ publishDate: 2015-09-09T00:00:00.000Z
 image: /src/assets/images/articles/notforprofitfpimage.png
 categories: projects not-profit-handbook
 tags:
-  - not-for-profit
+  - Not-For-Profit
 summary: >-
   You've had and developed an idea, got it started and hit the ground running
   with people involved, projects happening and hopefully some outcomes.
 ---
-
 You've had and developed an idea, got it started and hit the ground running with people involved, projects happening and hopefully some outcomes.
 
 _Now what happens?_

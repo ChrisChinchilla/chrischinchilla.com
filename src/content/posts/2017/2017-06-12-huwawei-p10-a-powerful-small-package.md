@@ -6,15 +6,14 @@ categories:
   - writing
   - theweeklysqueak
 tags:
-  - android
-  - devices
-  - reviews phones
+  - Android
+  - Devices
+  - Reviews Phones
 summary: >-
   Like any modern citizen, I love my smartphone, but I wouldn't describe myself
   as a power user, my phone is supplemental to my computer, not a replacement
   for it.
 ---
-
 Like any modern citizen, I love my smartphone, but I wouldn't describe myself as a power user, my phone is supplemental to my computer, not a replacement for it.
 
 My last phone was a [oneplus one](https://oneplus.net/one), great specs but I always found it too large, I don't wear tight jeans, but I like clothes that fit snuggly, and it always stuck out of my pocket, looking obvious, or worst case, breaking the stitching in my trouser pockets. For a while, I've been looking for a smaller device with good specs, and this was hard to find. Then finally Huawei released the [P10](https://consumer.huawei.com/en/mobile-phones/p10/index.htm) at this year's mobile world congress that matched my requirements, and it didn't take me long to snap one up.

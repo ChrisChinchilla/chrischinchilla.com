@@ -5,13 +5,12 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   The past 10 days I've been stupidly busy with some freelance work editing
   videos for a State government project, ohh the glamour!
 ---
-
 The past 10 days I've been stupidly busy with some freelance work editing videos for a State government project, ohh the glamour!
 
 So i'm giving you a double whammy this week as I have loads of great articles backlogged and ready to go, here they come!

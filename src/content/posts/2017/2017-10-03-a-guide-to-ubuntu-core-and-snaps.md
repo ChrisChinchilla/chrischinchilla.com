@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - ubuntu
-  - linux
-  - iot
-  - cloud containers
-  - snap
-  - tutorial
+  - Ubuntu
+  - Linux
+  - IoT
+  - Cloud Containers
+  - Snap
+  - Tutorial
 publication_url: 'https://dzone.com/articles/a-guide-to-ubuntu-core-and-snaps'
 image: /src/assets/images/articles/6788137.jpeg
 summary: >-

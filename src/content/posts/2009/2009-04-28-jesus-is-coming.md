@@ -5,10 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: So I guess you'll just have to wait
 ---
-
 Jesus is coming
 
 On the train

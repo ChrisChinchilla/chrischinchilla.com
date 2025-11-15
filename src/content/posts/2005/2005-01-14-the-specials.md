@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - biography
+  - Music
+  - Biography
 summary: >-
   Despite only existing as a band (defacto line up) for 3 years The Specials
   remain one of the most important and influential acts of their period.Forming
@@ -16,7 +16,6 @@ summary: >-
   guitar, Horace Panter - bass, Jerry Dammers - keyboards, Neville Staples -
   vocals) and most importantly an attitude and an image.
 ---
-
 Despite only existing as a band (defacto line up) for 3 years The Specials remain one of the most important and influential acts of their period.Forming in 1977 as the 'Coventry Automatics' it took until late 1978 for the band to finally settle on a name, a musical direction, a line up (consisting : Roddy Byers - guitar, John Bradbury - drums, Terry Hall - vocals, Lynval Golding - guitar, Horace Panter - bass, Jerry Dammers - keyboards, Neville Staples - vocals) and most importantly an attitude and an image.
 
 The 2-Tone image and ethos was primarily concocted by Jerry Dammers who, drawing influence from original Jamaican Rude boys such as Walt Jabsco, created the familiar 2-Tone check and look which accompanied a lot of their releases and indeed a lot of similarly influenced bands since then. After releasing their debut single 'Gangsters' (UK # 6) themselves through a distribution deal with Rough Trade the band and the label were finally signed to Chrysalis with the option to release other acts material through the 2-Tone brand (Including The Selecter, Madness and The Beat).

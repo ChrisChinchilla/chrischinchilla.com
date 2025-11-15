@@ -7,15 +7,14 @@ categories:
   - writing
   - sitepoint
 tags:
-  - events
-  - tech
-  - java
-  - android
+  - Events
+  - Tech
+  - Java
+  - Android
 summary: >-
   Android finds itself in interesting times. Google has begun creating it’s own
   ‘premium’ versions of the operating system (OS), Cyanogen have ceased
   development, and many feel that Android will change name or shape in the near
   future.
 ---
-
 Android finds itself in interesting times. Google has begun creating it’s own ‘premium’ versions of the operating system (OS), Cyanogen have ceased development, and many feel that Android will change name or shape in the near future.

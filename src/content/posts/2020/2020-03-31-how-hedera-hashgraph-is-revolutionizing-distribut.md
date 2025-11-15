@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - distributed ledger technology
-  - distributed systems
-  - cryptocurrency
-  - security
-  - distributed ledger
+  - Blockchain
+  - Distributed Ledger Technology
+  - Distributed Systems
+  - Cryptocurrency
+  - Security
+  - Distributed Ledger
 publication_url: 'https://dzone.com/articles/-how-hedera-hashgraph-is-revolutionizing-distribut'
 image: /src/assets/images/articles/13183559.jpeg
 summary: >-

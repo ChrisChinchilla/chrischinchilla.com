@@ -5,15 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - cycling
-  - opinion
+  - Cycling
+  - Opinion
 summary: >-
   One bright sunny day I stepped out on to Sydney rd in Brunswick to be greeted
   by a surprising and pleasurable sight, no cars! It was Moreland Council's
   first Cyclovia, with one of Melbourne's busiest, cramped and most hectic roads
   open only to bikes, pedestrians and public transport for several hours.
 ---
-
 One bright sunny day I stepped out on to Sydney rd in Brunswick to be greeted by a surprising and pleasurable sight, no cars! It was Moreland Council's first [Cyclovia](www.cyclovia.org), with one of Melbourne's busiest, cramped and most hectic roads open only to bikes, pedestrians and public transport for several hours.
 
 The previous night I had cycled up Sydney road into the wild lands of Coburg experiencing a more typical journey including reckless drivers attempting to take my life, hollers, shouts, honks and other utterances from individuals who's idea of a good night out is to drive round the streets in their cars all night.

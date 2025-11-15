@@ -5,13 +5,12 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: >-
   Megalomaniac had death at the press of a button, he'd declared war on the rest
   of the world and he wasn't backing down now. The world hadn't taken him
   seriously, hadn't met his demands, he'd have to show the world fear and harm.
 ---
-
 Megalomaniac had death at the press of a button, he'd declared war on the rest of the world and he wasn't backing down now. The world hadn't taken him seriously, hadn't met his demands, he'd have to show the world fear and harm.
 
 Head of a multinational, fifth richest man on earth, it was never enough, he always wanted more, needed to be the best, wanted everyone to call him sir.Sod ethics and morality, everyone else is dirt.

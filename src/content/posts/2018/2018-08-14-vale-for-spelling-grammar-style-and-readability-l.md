@@ -6,15 +6,15 @@ categories:
   - writing
   - dzone
 tags:
-  - linting
-  - writing
-  - technical writing
-  - best practice
-  - vale
-  - textlint
-  - documentation
-  - agile
-  - tutorial
+  - Linting
+  - Writing
+  - Technical Writing
+  - Best Practice
+  - Vale
+  - Textlint
+  - Documentation
+  - Agile
+  - Tutorial
 publication_url: 'https://dzone.com/articles/vale-for-spelling-grammar-style-and-readability-li'
 image: /src/assets/images/articles/9971378.jpeg
 summary: >-

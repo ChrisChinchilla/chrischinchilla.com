@@ -7,12 +7,11 @@ publication_url: >-
 categories:
   - writing
 tags:
-  - macos
-  - web browsers
+  - macOS
+  - Web Browsers
 image: /src/assets/images/articles/1*8NhAJxnIZ4q65Ay-0uBKUw.png
 summary: I have long been concerned about the state of browsers and the dominant
 ---
-
 I have long been concerned about the state of browsers and the dominant
 hegemony of one browser engine. OK, to be fair, it's a duopoly, but one
 of those options is almost exclusively restricted to one platform, so

@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - cms
-  - content management system
-  - static site generator
-  - git
-  - web dev
+  - Cms
+  - Content Management System
+  - Static Site Generator
+  - Git
+  - Web Dev
 publication_url: 'https://dzone.com/articles/adding-a-cms-to-your-static-site-with-netlify-cms'
 image: /src/assets/images/articles/7725432.jpeg
 summary: >-

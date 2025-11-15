@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - big data
-  - data analytics
-  - devops adoption
-  - processing
+  - Big Data
+  - Data Analytics
+  - Devops Adoption
+  - Processing
 publication_url: 'https://dzone.com/articles/pepperdata-bringing-devops-practices-to-the-big-da'
 image: /src/assets/images/articles/6293938.jpeg
 summary: >-

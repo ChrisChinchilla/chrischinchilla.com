@@ -7,9 +7,9 @@ categories:
   - writing
   - codeship
 tags:
-  - otto
-  - devops
-  - vagrant
+  - Otto
+  - DevOps
+  - Vagrant
 summary: >-
   Not so long ago, Vagrant was the prime tool that attempted to solve that
   time-immemorial problem of "it works on my machine." Developers could create
@@ -20,5 +20,4 @@ summary: >-
   sharing files between the host and virtual machine, and the speed of making
   configuration changes to virtual machines.
 ---
-
 Not so long ago, Vagrant was the prime tool that attempted to solve that time-immemorial problem of "it works on my machine." Developers could create shareable Vagrant files to allow coworkers to spin up replica machines for testing code and the interconnecting parts of a typical modern project. Vagrant is far from dead, but it suffers from a couple of long-lasting issues, including the resource footprint of virtual machines created, the speed of sharing files between the host and virtual machine, and the speed of making configuration changes to virtual machines.

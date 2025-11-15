@@ -7,12 +7,11 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
+  - Politics
+  - Degrowth
+  - Activism
 summary: 'A valid discussion, but what will the limitations and potentials be.'
 ---
-
 ## How the change we have been discussing can actually happen?
 
 A valid discussion, but what will the limitations and potentials be.

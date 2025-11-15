@@ -2,14 +2,13 @@
 title: Random Sunday - Creative Writing (poem)
 publishDate: 2008-12-30T00:00:00.000Z
 tags:
-  - poetry
-  - creative
+  - Poetry
+  - Creative
 categories:
   - writing
   - chrischinchilla
 summary: 'Let down the wall, try not to use a piano, you''ll amaze yourself.'
 ---
-
 Let down the wall, try not to use a piano, you'll amaze yourself.
 
 Take care to keep them straight; whilst not easy it's within reach.

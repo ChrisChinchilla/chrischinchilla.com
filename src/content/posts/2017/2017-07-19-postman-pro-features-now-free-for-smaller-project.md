@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - api
-  - postman
-  - mocking
-  - testing
-  - documentation
-  - integration
+  - API
+  - Postman
+  - Mocking
+  - Testing
+  - Documentation
+  - Integration
 publication_url: 'https://dzone.com/articles/postman-pro-features-now-free-for-smaller-projects'
 image: /src/assets/images/articles/5961644.jpeg
 summary: >-

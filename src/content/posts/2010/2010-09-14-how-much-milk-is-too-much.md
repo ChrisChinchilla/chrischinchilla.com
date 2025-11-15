@@ -5,11 +5,10 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - opinion
-  - coffee
+  - Opinion
+  - Coffee
 summary: Coffee is a very personal business.
 ---
-
 Coffee is a very personal business.
 
 My own personal journey started fairly late in life, coffee culture in England (where I spent most of my adult life) being somewhat behind Australia's. Up until several years ago the main coffee I drank was some form of frothy monster from Starbucks, full of caramel, copious amounts of milk and very little coffee flavour. Then I spent some time in Italy and was introduced to a far more simple way of enjoying coffee, pure, plain and uncluttered. Just dark, hot and strong coffee in the form of an espresso, or maybe with a dash of milk in the form of a macciatto. From then on I generally only ever drank black coffee as I always felt if the coffee was good enough, it didn't need anything else muddying it's flavour. I'm even a fan of many Italian's source of disdain, that most American brewed filter coffee, found in diners the length and breadth of the United States.

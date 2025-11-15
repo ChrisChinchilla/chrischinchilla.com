@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - red hat
-  - coreos
-  - open shift
-  - kubernetes
-  - containers
-  - devops
+  - Red Hat
+  - Coreos
+  - Open Shift
+  - Kubernetes
+  - Containers
+  - DevOps
 publication_url: 'https://dzone.com/articles/an-interview-with-richard-gracely-on-red-hats-acqu'
 image: /src/assets/images/articles/8332049.jpeg
 summary: >-

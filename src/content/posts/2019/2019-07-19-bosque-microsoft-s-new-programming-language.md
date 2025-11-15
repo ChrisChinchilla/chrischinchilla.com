@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - programming languages
-  - functional programming
-  - structural languages
-  - open source
-  - microsoft bosque
+  - Programming Languages
+  - Functional Programming
+  - Structural Languages
+  - Open Source
+  - Microsoft Bosque
 publication_url: 'https://dzone.com/articles/-bosque-microsofts-new-programming-language'
 image: /src/assets/images/articles/12202050.jpeg
 summary: >-

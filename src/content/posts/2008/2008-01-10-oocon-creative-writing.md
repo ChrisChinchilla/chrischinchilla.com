@@ -5,12 +5,11 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: >-
   Isn't it funny how people's legs move in harmony with each other when they
   walk together,
 ---
-
 Isn't it funny how people's legs move in harmony with each other when they walk together,
 
 Like a synchronised internal clock is shared between them,

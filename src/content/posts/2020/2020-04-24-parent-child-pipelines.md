@@ -6,8 +6,8 @@ categories:
   - writing gitlab
 tags:
   - CI
-  - gitlab
-  - devops
+  - Gitlab
+  - DevOps
   - CD
 publication_url: 'https://about.gitlab.com/blog/2020/04/24/parent-child-pipelines/'
 image: /src/assets/images/articles/parent_pipeline_graph.png

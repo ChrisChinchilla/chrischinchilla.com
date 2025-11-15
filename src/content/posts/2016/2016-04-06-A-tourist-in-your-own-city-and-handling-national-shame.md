@@ -8,11 +8,10 @@ categories:
   - life
   - tourism
 tags:
-  - ios
-  - swift
+  - iOS
+  - Swift
 summary: 'I was on holiday last week, so of course have been busy. People staying,'
 ---
-
 I was on holiday last week, so of course have been busy. People staying,
 two parties in our house, tourist stuff, and some work. My Wife has also
 been in Hospital the past two weeks and then left straight for a trip to

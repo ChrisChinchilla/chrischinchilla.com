@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - sxsw
-  - blockchain
-  - ai
-  - chatbot
-  - security
+  - Sxsw
+  - Blockchain
+  - AI
+  - Chatbot
+  - Security
 publication_url: 'https://dzone.com/articles/sxsw-part-1-blockchain-and-spacetech'
 image: /src/assets/images/articles/8544517.jpeg
 summary: >-
@@ -18,6 +18,5 @@ summary: >-
   applications thus far seem rather mundane. Read on to see what devs are doing
   to change that.
 ---
-
 We hear promises of how blockchain will revolutionize tech, but most of its applications thus far seem rather mundane. Read on to see what devs are doing to change that.
 

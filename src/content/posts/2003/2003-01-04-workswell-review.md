@@ -5,9 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - reviews
-  - apple
-  - software
+  - Reviews
+  - Apple
+  - Software
 summary: >-
   Drawwell is a stripped down version of Workswell, so lets take a quick look at
   it's feature first and then focus on the extras in Workswell. Drawwell is a

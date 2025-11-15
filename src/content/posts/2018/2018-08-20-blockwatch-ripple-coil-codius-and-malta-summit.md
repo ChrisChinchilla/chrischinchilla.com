@@ -6,16 +6,16 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - malta
-  - ripple
-  - interledger
-  - docker
-  - distributed
-  - decentralized
-  - payments
-  - cryptocurrencies
-  - security
+  - Blockchain
+  - Malta
+  - Ripple
+  - Interledger
+  - Docker
+  - Distributed
+  - Decentralized
+  - Payments
+  - Cryptocurrencies
+  - Security
 publication_url: 'https://dzone.com/articles/blockwatch-ripple-coil-codius-and-malta-summit'
 image: /src/assets/images/articles/10019354.jpeg
 summary: >-

@@ -5,7 +5,7 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - opendata
+  - Opendata
 summary: >-
   I've been learning to drive (again) recently, with an aim to finally actually
   take my driving test, I'm also a keen (legal) cyclist… None of this has any
@@ -13,7 +13,6 @@ summary: >-
   with my fascination in knowing about and understanding the various data sets
   that are available from our government agencies.
 ---
-
 I've been learning to drive (again) recently, with an aim to finally actually take my driving test, I'm also a keen (legal) cyclist… None of this has any real bearing on me deciding to attend tonight's event, that was more to do with my fascination in knowing about and understanding the various data sets that are available from our government agencies. 
 
 There was a slightly strange feeling in the air that is always present when those from ‘old school’ government agencies or business present in front of more entrepreneurial or activist audiences, and wow, did all the speakers have some rather ominous job titles that were sometimes six words long. 

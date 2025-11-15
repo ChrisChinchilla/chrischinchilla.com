@@ -5,14 +5,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - work
+  - Music
+  - Work
 summary: >-
   This week was another week where various elements kept pointing me towards a
   certain way of thinking, again, I'll just go through the week and ramble a
   bit...
 ---
-
 This week was another week where various elements kept pointing me towards a certain way of thinking, again, I'll just go through the week and ramble a bit...
 
 Err, Tuesday, Tuesday?? Oh yes, I had a job interview (the first of many this week) for an exam supervisor job, a fairly easy interview when I kind of got the impression that we all had the job already but the recruitment people were never actually specific about that fact. In the afternoon I probably did something, god damn, my memory is getting really bad! Oh yes, I applied for some more jobs, which I shall return to shortly.

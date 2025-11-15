@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - cloud
-  - kontena
-  - docker containers
-  - application stack
-  - tutorial
+  - Cloud
+  - Kontena
+  - Docker Containers
+  - Application Stack
+  - Tutorial
 publication_url: 'https://dzone.com/articles/an-overview-of-the-kontena-platform'
 image: /src/assets/images/articles/7427471.jpeg
 summary: >-

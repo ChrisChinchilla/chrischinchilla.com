@@ -4,8 +4,8 @@ title: >-
   Northcote Social Club
 publishDate: 2008-12-30T00:00:00.000Z
 tags:
-  - reviews
-  - music
+  - Reviews
+  - Music
 categories:
   - writing
   - chrischinchilla
@@ -16,7 +16,6 @@ summary: >-
   rather be in bed and the support band's job is a tough one to extract any sort
   of enthusiasm or energy.
 ---
-
 Friday night gigs need to start earlier to pull in the punters and keep them awake, bar a few overly enthusiastic members of the crowd, most of those hanging around the Northcote Social Club band room are looking like they'd rather be in bed and the support band's job is a tough one to extract any sort of enthusiasm or energy.
 
 'Look Who's Toxic√Æ start well with a flurry of fast and frantic songs about the life of rock and roll nerds, themes such as ninjas, junk food, fictional creatures and Fetuses. A few songs descend into rather dirge like territory but several punkier numbers stand out, there are some awesome bass lines and two drum machine led white-boy-hip-hop tunes wake up the audience enough to draw some shouting and bootie shaking.

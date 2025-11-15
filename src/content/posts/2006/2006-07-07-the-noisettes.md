@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   The Noisettes formed as the band they are now in the wilds of South East
   London at the infamous Brits school in Croydon less than three years ago.
@@ -16,7 +16,6 @@ summary: >-
   critical acclaim and some lucrative support slots with the likes of
   Babyshambles and Mystery Jets.
 ---
-
 The Noisettes formed as the band they are now in the wilds of South East London at the infamous Brits school in Croydon less than three years ago. Consisting of Shingai on vocals and bass, Dan on guitar and Jamie on drums, the band rapidly rehearsed and recorded their debut 4-track EP, Three moods of the Noisettes, releasing it in Summer 2004, the band then went on to receive critical acclaim and some lucrative support slots with the likes of Babyshambles and Mystery Jets.
 
 But that makes them all sound a little too conventional, look beneath the surface and you find an unusual band, doing things there own weird way but somehow making it work. Describing the band as meeting at Stage School gives the impression of a meeting of professional convenience, and their rapid rise to fame doesn't do them any favours in that department, however the band are not only incredibly likeable and friendly but intensely genuine, not the faintest glimmer of pretension. The band's shy and retiring guitarist, Dan Smith confesses, I started playing guitar because I wanted to impress Jimmy Page and pressed on his reasons for starting a band, I wanted to start a band to record some albums, tour the world, play in interesting places and to be like a 60's style 'backing band for hire' to superstar singers like Prince, and so far with Noisettes dates including rooftops, boats and South by South West, it seems to be working. His encounters with singer Shingai Shoniwa were initially an intense and emotional affair, as she proceeded to test burlesque dances in front of him, I couldn't be bothered with all that Art & Design shit, I just wanted to get out of my old school, they had a really bad library, she tells me. Like all the best partnerships there was an initial element of unrequited love, developing into a fruitful and productive song writing duo. We spent several years trying lots of different stuff, as a duo, at a Youth arts centre, we put on a jazz musical, all sorts of things. Finally the pair settled into playing under the moniker 'Sonarfly', who were apparently unsigned band of the year in 2000, though according to whom I have no idea. The same dedication to the cause of music and doing what they feel to be right seems to be prevalent in everything Dan and Shingai have ever done, but it wasn't until meeting drummer Jamie Morrison that everything gelled into a musical unit fit to realise what they had always been trying to achieve. Jamie had spent the majority of his formative years in his parents' attic practicing drums and then the next few years playing in a variety of bands, basically dodging any proper work. The trio instantly worked in a musical and mental capacity, rehearsing, recording and playing their first largely improvised gig within 4 days.

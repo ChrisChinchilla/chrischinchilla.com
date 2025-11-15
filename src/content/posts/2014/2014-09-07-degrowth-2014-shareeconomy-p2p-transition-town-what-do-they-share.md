@@ -5,14 +5,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
+  - Politics
+  - Degrowth
+  - Activism
 summary: >-
   We are looking at what these models and projects share in common and what is
   different between them and why.
 ---
-
 We are looking at what these models and projects share in common and what is different between them and why.
 
 **Astrid Lorenzen from [Hamburg FabLab](https://www.fablab-hamburg.org/).**

@@ -6,9 +6,9 @@ categories:
   - writing
   - cultofmac
 tags:
-  - apple
-  - mac
-  - software
+  - Apple
+  - Mac
+  - Software
 publication_url: >-
   https://www.cultofmac.com/482549/how-to-automatically-track-your-time-and-productivity-with-timing-app/
 summary: >-
@@ -17,5 +17,4 @@ summary: >-
   always been intrigued to know how much time I was spending on work tasks,
   especially those tasks that I didn’t directly bill for.
 ---
-
 I recently switched back to freelancing full-time, and whilst I am lucky enough to have clients who don’t ask for precise hourly breakdowns, I have always been intrigued to know how much time I was spending on work tasks, especially those tasks that I didn’t directly bill for.

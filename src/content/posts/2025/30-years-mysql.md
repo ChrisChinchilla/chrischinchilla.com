@@ -6,7 +6,7 @@ categories:
   - writing
 tags:
   - Databases
-  - MySQL
+  - Mysql
   - AI
 image: /src/assets/images/articles/mysql.jpg
 summary: >-
@@ -14,7 +14,6 @@ summary: >-
   
   It has been in slow decline since the era of "cloud computing" began, but like many other areas of technology, it is the demands of and for artificial intelligence (AI) that are causing the most pressure. As it celebrates its 30th year, what is the project doing to remain relevant and competitive in the new AI age? With rivals hot on its tail and some of its biggest competitors offering fully compatible, free alternatives, how does it plan to survive for another 30 years? 
 ---
-
 On May 23rd 2025, the MySQL database celebrated its 30th anniversary. [Look at the usage trends for databases on DB-engine](https://db-engines.com/en/ranking)(a respected database comparison and ranking site) and MySQL and its owner since 2010, Oracle's own product occupy the top two spots. However, the same rankings show that [the popularity of most of the top four is declining](https://db-engines.com/en/ranking_definition), especially for MySQL.
 
 It has been in slow decline since the era of "cloud computing" began, but like many other areas of technology, it is the demands of and for artificial intelligence (AI) that are causing the most pressure. As it celebrates its 30th year, what is the project doing to remain relevant and competitive in the new AI age? With rivals hot on its tail and some of its biggest competitors offering fully compatible, free alternatives, how does it plan to survive for another 30 years? 

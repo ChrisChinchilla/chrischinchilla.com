@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - app management
-  - enterprise
-  - mobile
-  - security
+  - App Management
+  - Enterprise
+  - Mobile
+  - Security
 publication_url: 'https://dzone.com/articles/managing-your-business-apps-with-apperian-an-inter'
 image: /src/assets/images/articles/6995560.jpeg
 summary: >-

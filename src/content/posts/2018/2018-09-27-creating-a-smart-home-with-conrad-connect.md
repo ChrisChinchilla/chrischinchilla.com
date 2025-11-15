@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - smart home
-  - connected devices
-  - iot platform
-  - security camera
-  - smart lighting
+  - Smart Home
+  - Connected Devices
+  - Iot Platform
+  - Security Camera
+  - Smart Lighting
 publication_url: 'https://dzone.com/articles/creating-a-smart-home-with-conrad-connect'
 image: /src/assets/images/articles/10328443.jpeg
 summary: >-

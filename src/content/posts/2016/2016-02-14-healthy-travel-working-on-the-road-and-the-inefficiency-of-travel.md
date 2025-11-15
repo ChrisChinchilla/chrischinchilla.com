@@ -8,9 +8,9 @@ categories:
   - writing
   - hackernoon
 tags:
-  - tech
-  - events
-  - travel
+  - Tech
+  - Events
+  - Travel
 summary: >-
   I apologise for the delay in this installment of the Weekly Squeak, I let
   various things get the better of me in the past weeks and am annoyed that I
@@ -21,5 +21,4 @@ summary: >-
   future and instead talk about some of the questions and issues that have
   arisen as a consequence of these past weeks.
 ---
-
 I apologise for the delay in this installment of the Weekly Squeak, I let various things get the better of me in the past weeks and am annoyed that I did. First the madness of a series of events, conferences and travel and then I got hit by a crippling cold-flu thing that has made me struggle to get even the work I needed to get done complete, let alone the things I wanted to do. I had a topic I wanted to cover in this post, but I think I will save it for the future and instead talk about some of the questions and issues that have arisen as a consequence of these past weeks.

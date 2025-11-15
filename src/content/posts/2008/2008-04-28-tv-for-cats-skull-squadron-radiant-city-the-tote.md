@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Playing Rock & Roll with a drum machine is a tough task, trying to maintain
   passion, emotion and flexibility within the confines of a machines rigid
@@ -16,7 +16,6 @@ summary: >-
   edgy and catchy, with ingenious arrangements and musical tricks scattered
   throughout their set.
 ---
-
 Playing Rock & Roll with a drum machine is a tough task, trying to maintain passion, emotion and flexibility within the confines of a machines rigid confine. Whilst TV for Cats aren't the most engaging band to watch, their lack of human backline doesn't notice and musically they are as flexible and fluid as any band with a sweaty skin pounder in the back row. The tunes are bright, edgy and catchy, with ingenious arrangements and musical tricks scattered throughout their set.
 
 Skull squadron have braved the journey down from Sydney for a Thursday night at the Tote and are shoe gaze in the good old dictionary definition of the word. David's vocals are lost in seas of effects and reverb that occasionally verge on the side of ear splittingly harsh but generally generate a warming sea of undulating music that carries through the entire set. Not to everyone's taste but walk the walk and talk the talk of the genre there most definitely within.

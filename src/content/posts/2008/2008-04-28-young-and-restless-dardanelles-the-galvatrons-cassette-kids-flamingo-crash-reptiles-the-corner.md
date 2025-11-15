@@ -7,8 +7,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Whoever named tonight's event 'Uh Huh' should be given a gentle slap round the
   face for concocting such an uninspiring name for such an inspiring line up.
@@ -17,7 +17,6 @@ summary: >-
   lengthy sound checks) night of cutting edge Rock and Roll in the company of
   some of the hottest and most vibrant bands in the Country.
 ---
-
 Whoever named tonight's event 'Uh Huh' should be given a gentle slap round the face for concocting such an uninspiring name for such an inspiring line up. The Corner is sadly sparser than expected tonight but those of us present are up for a full on (especially with no mind numbingly annoying and boring lengthy sound checks) night of cutting edge Rock and Roll in the company of some of the hottest and most vibrant bands in the Country.
 
 Reptiles are a big fuzzy mess, lank and greasy hair covers front man Em's face as he growls indiscernible vocals over distortion laden guitar and bass lines. The crowd are already down the front of The Corner's smaller stage slowly finding their dancing feet and oiling work weary joints with alcohol.

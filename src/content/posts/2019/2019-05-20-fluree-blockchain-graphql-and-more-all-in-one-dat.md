@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - qraphql
-  - sparql
-  - databases
-  - relational database
-  - distributed database
-  - java
-  - fluree
+  - Blockchain
+  - Qraphql
+  - Sparql
+  - Databases
+  - Relational Database
+  - Distributed Database
+  - Java
+  - Fluree
 publication_url: 'https://dzone.com/articles/-fluree-blockchain-graphql-and-more-all-in-one-dat'
 image: /src/assets/images/articles/11878511.jpeg
 summary: >-

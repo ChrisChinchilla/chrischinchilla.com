@@ -7,11 +7,10 @@ categories:
   - writing
   - sitepoint
 tags:
-  - android
+  - Android
 summary: >-
   When a project is created in Android Studio it contains several auto-generated
   files containing skeleton code for our project. In this video we look at what
   function these files perform and when and why we would edit them.
 ---
-
 When a project is created in Android Studio it contains several auto-generated files containing skeleton code for our project. In this video we look at what function these files perform and when and why we would edit them.

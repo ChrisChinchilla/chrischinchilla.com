@@ -8,12 +8,11 @@ categories:
   - writing
   - sitepoint
 tags:
-  - android
-  - tutorial
+  - Android
+  - Tutorial
 summary: >-
   Your app is ready, the next steps are to get it into the Google Play Store for
   people to download and use. In this video we look at preparing your
   application for release and creating a listings page for your creation.
 ---
-
 Your app is ready, the next steps are to get it into the Google Play Store for people to download and use. In this video we look at preparing your application for release and creating a listings page for your creation.

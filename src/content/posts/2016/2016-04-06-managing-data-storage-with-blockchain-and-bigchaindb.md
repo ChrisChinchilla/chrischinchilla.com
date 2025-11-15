@@ -8,14 +8,13 @@ categories:
   - writing
   - sitepoint
 tags:
-  - blockchain
-  - databases
+  - Blockchain
+  - Databases
 summary: >-
   There's no denying that whilst Bitcoin's future may be hazy right now, the
   underlying technology it relies upon -- the Blockchain -- has revolutionized
   many industries and projects, with more to come.
 ---
-
 There's no denying that whilst Bitcoin's future may be hazy right now, the underlying technology it relies upon -- the Blockchain -- has revolutionized many industries and projects, with more to come.
 
 Ascribe is a fascinating startup that uses Bitcoin's Blockchain to record a limited quantity of unique references to digital artworks. Thus making them traceable, accountable and (hopefully) more valuable, due to this finite amount of 'copies'.

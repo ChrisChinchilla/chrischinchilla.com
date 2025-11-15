@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - ico
-  - bitcoin
-  - ethereum
-  - security
+  - Blockchain
+  - Ico
+  - Bitcoin
+  - Ethereum
+  - Security
 publication_url: 'https://dzone.com/articles/blockwatch-the-9984-summit'
 image: /src/assets/images/articles/6891487.jpeg
 summary: >-

@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - iot
-  - smart home
-  - automation
-  - sensors
-  - ifttt
-  - home assistant
-  - raspberry pi
+  - IoT
+  - Smart Home
+  - Automation
+  - Sensors
+  - Ifttt
+  - Home Assistant
+  - Raspberry Pi
 publication_url: 'https://dzone.com/articles/what-smart-home-iot-platform-should-you-use'
 image: /src/assets/images/articles/9870974.jpeg
 summary: >-

@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - netlify
-  - serverless
-  - static site generator
-  - jekyll
-  - hugo
-  - react
-  - web dev
+  - Netlify
+  - Serverless
+  - Static Site Generator
+  - Jekyll
+  - Hugo
+  - React
+  - Web Dev
 publication_url: 'https://dzone.com/articles/-netlify-dev-test-the-netlify-hosting-platform-loc'
 image: /src/assets/images/articles/12139842.jpeg
 summary: >-

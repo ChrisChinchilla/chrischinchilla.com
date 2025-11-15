@@ -6,15 +6,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - reviews
-  - books
-  - civicrm
+  - Reviews
+  - Books
+  - Civicrm
 summary: >-
   CiviCRM like many open source tools is a blank canvas and a set of paints that
   different implementers will take in many different ways based on their myriad
   uses and requirements.
 ---
-
 CiviCRM like many open source tools is a blank canvas and a set of paints that different implementers will take in many different ways based on their myriad uses and requirements.
 
 This is why the cookbook concept always works so well, most implementers, developers and users will carry around their own sets of recipes, tips and tricks to accomplish particular results that may or may not be anything like someone else's.

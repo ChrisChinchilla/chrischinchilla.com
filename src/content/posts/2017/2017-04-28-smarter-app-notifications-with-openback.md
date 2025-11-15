@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - openback
-  - sdk
-  - app
-  - tutorial
-  - notifications
+  - Openback
+  - Sdk
+  - App
+  - Tutorial
+  - Notifications
 publication_url: 'https://dzone.com/articles/smarter-app-notifications-with-openback'
 summary: >-
   Notifications: you probably love them or hate them. I like them when they are
@@ -19,5 +19,4 @@ summary: >-
   annoying notices, but tailoring them to users contexts and allowing them to do
   more with notifications.
 ---
-
 Notifications: you probably love them or hate them. I like them when they are useful to me, and this is something that the OpenBack SDK attempts to solve. It offers a framework for you to make your in-app notifications more than annoying notices, but tailoring them to users contexts and allowing them to do more with notifications.

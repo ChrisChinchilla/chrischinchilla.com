@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - swift
-  - apple
-  - ipad
-  - education
-  - learning to code
-  - kids
-  - programming
+  - Swift
+  - Apple
+  - Ipad
+  - Education
+  - Learning To Code
+  - Kids
+  - Programming
 publication_url: 'https://dzone.com/articles/-learning-to-code-with-swift-playgrounds'
 image: /src/assets/images/articles/13186525.jpeg
 summary: >-

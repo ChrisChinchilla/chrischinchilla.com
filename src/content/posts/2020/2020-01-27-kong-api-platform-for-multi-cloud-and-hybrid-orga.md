@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - api
-  - microservices
-  - api management
-  - developer portal
-  - kubernetes
-  - kong
-  - kong api
-  - multi-cloud
+  - API
+  - Microservices
+  - Api Management
+  - Developer Portal
+  - Kubernetes
+  - Kong
+  - Kong Api
+  - Multi-Cloud
 publication_url: 'https://dzone.com/articles/-kong-api-platform-for-multi-cloud-and-hybrid-orga'
 image: /src/assets/images/articles/12971222.jpeg
 summary: >-

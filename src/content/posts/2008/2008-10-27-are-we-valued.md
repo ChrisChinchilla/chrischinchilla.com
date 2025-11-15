@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - opinion
-  - cycling
+  - Opinion
+  - Cycling
 summary: >-
   Cycling is experiencing a worldwide renaissance and Melbourne is no exception
   with sales of bikes out stripping cars by a scale of six. Wether it be
@@ -16,7 +16,6 @@ summary: >-
   frankly, in these days of environmental crisis, a little more valued in the
   part we play in doing the world a favour.
 ---
-
 Cycling is experiencing a worldwide renaissance and Melbourne is no exception with sales of bikes out stripping cars by a scale of six. Wether it be environmental, health or practical reasons, cyclists are rapidly becoming a consumer and user group large enough to start making some demands. So here's a short wish list to make any keen Melbourne cyclists life a little better, and frankly, in these days of environmental crisis, a little more valued in the part we play in doing the world a favour.
 
 An important issue to tackle first and foremost is tax. A common point made when Cyclists make too many demands is that we pay no road tax (and very little on vehicles and supplies) and thus shouldn't be entitled to very much. True, a fair point, but if you also consider the little impact cyclists have on road surfaces, the extremely low numbers of injured people we inflict upon our health system and the reduced amount of wide and varied support workers and facilities required to stop car drivers killing each other, the argument starts to collapse somewhat. I'm also of the opinion that most cyclists would not be adverse to paying a small road tax if it meant that facilities and resources would be improved, a licensing requirement could also lead to safer and less reckless cyclists and perhaps more understanding motorists.

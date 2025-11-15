@@ -5,11 +5,11 @@ author: Chris Ward
 categories:
   - writing
 tags:
-  - jetbrains
+  - JetBrains
   - IDE
-  - Grammar checking
-  - linting
-  - Spell checking
+  - Grammar Checking
+  - Linting
+  - Spell Checking
 image: /src/assets/images/articles/jb-overview.png
 publication_url: >-
   https://medium.com/geekculture/technical-writing-with-jetbrains-writerside-and-grazie-2009208f1d4b?source=rss-------1
@@ -17,7 +17,6 @@ summary: >-
   The docs as code trend, where technical writers and developers work more
   closely using similar tools and processes, has grown in the past few years.
 ---
-
 The docs as code trend, where technical writers and developers work more closely using similar tools and processes, has grown in the past few years.
 
 For some tech writers, who come from technical backgrounds, have always worked on technical projects, or were able to pick their toolchain, it's the only workflow we've ever known.

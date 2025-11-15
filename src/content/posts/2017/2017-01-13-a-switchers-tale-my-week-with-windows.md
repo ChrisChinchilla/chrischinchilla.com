@@ -6,10 +6,10 @@ categories:
   - writing
   - hackernoon
 tags:
-  - tech
-  - review
-  - windows
-  - macos
+  - Tech
+  - Review
+  - Windows
+  - macOS
 publication_url: >-
   https://hackernoon.com/a-switchers-tale-my-week-with-windows-612ea605291#.o4g70gtyi
 summary: >-
@@ -17,5 +17,4 @@ summary: >-
   and try other operating systems in my daily work. In this first part, I spend
   a month with Windows.
 ---
-
 After using macOS for over 20 years I was interested to get new perspectives and try other operating systems in my daily work. In this first part, I spend a month with Windows.

@@ -6,12 +6,11 @@ publication_url: 'https://medium.com/aimonks/google-io-2023-ee16469392f0'
 categories:
   - writing
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: /src/assets/images/articles/1*tIdGQFKa9xmb3dnfCY1Qeg.webp
 summary: Or how Google IO made me realise I probably need to find a new job in 2 years
 ---
-
 Or how Google IO made me realise I probably need to find a new job in 2 years
 
 Squeezed into the remodelled Google Berlin old medical school theatre I have a lovely glass of wine ready to go as I attempt to live blog a keynote for the first time in a while. I love watching American keynotes with Europeans, as we are much more… sceptical. One person in the crowd cheered for an announcement once and everyone looked at them like they were crazy.

@@ -5,13 +5,12 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: >-
   Take a listen (or read) to a light hearted and 'cheesy' romantic (and slightly
   explicit) short story I recently wrote about Doug, who bored in his office
   cubicle, fantasies about Julie...
 ---
-
 Take a listen (or read) to a light hearted and 'cheesy' romantic (and slightly explicit) short story I recently wrote about Doug, who bored in his office cubicle, fantasies about Julie...
 
 <object height="81" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F7997281&amp;show_comments=false&amp;auto_play=false&amp;color=D7DBDA" /><param name="allowscriptaccess" value="always" /><embed allowscriptaccess="always" height="81" mce_src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F7997281&amp;show_comments=false&amp;auto_play=false&amp;color=D7DBDA" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F7997281&amp;show_comments=false&amp;auto_play=false&amp;color=D7DBDA" type="application/x-shockwave-flash" width="100%"></embed></object>

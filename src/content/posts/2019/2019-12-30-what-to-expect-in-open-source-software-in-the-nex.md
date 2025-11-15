@@ -6,15 +6,15 @@ categories:
   - writing
   - dzone
 tags:
-  - open source
-  - docker
-  - containers
-  - linux
-  - git
-  - github
-  - gitlab
-  - wasm
-  - web assembly
+  - Open Source
+  - Docker
+  - Containers
+  - Linux
+  - Git
+  - GitHub
+  - Gitlab
+  - Wasm
+  - Web Assembly
 publication_url: 'https://dzone.com/articles/-what-do-you-predict-will-happen-in-open-source-so'
 image: /src/assets/images/articles/12862926.jpeg
 summary: >-

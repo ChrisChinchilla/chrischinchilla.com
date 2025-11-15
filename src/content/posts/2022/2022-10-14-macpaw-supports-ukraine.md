@@ -7,7 +7,7 @@ categories:
   - hackernoon
 tags:
   - Ukraine
-  - MacPaw
+  - Macpaw
   - Security
 publication_url: 'https://hackernoon.com/cybersecurity-awareness-month-macpaw-supports-ukraine'
 image: /src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-1a932gz.jpeg

@@ -5,16 +5,15 @@ categories:
   - writing
   - theweeklysqueak
 tags:
-  - apple
-  - tech
-  - berlin
-  - meetups
+  - Apple
+  - Tech
+  - Berlin
+  - Meetups
 publication_url: 'https://medium.com/@ChrisChinchilla/-b2a90319090f#.2w0ctuqzj'
 summary: >-
   In this Weekly Squeak I cover another week in Berlin meetups and after Apples
   September product announcements, do they no longer like the prosumer?
 ---
-
 In this Weekly Squeak I cover another week in Berlin meetups and after Apples September product announcements, do they no longer like the prosumer?
 
 ## A Week in Meetups

@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - drupal
-  - joomla
+  - Drupal
+  - Joomla
 summary: >-
   I generally find that in the process of migrating a website to a new system or
   framework, importing and moving data is the most fraught, frustrating and
@@ -14,7 +14,6 @@ summary: >-
   installation to another vanilla installation you might be in luck, but really,
   what are the chances of that?
 ---
-
 I generally find that in the process of migrating a website to a new system or framework, importing and moving data is the most fraught, frustrating and troublesome part of the process. If you're moving content from a vanilla installation to another vanilla installation you might be in luck, but really, what are the chances of that?
 
 I long ago decided to merge a joomla 1.5 site I have into a new site I was setting up in drupal 7, the content that needed to come across was:<ul><li><a href="https://www.virtuemart.net/" target="_blank">virtuemart</a> products into <a href="https://www.ubercart.org/" target="_blank">ubercart</a> and theoretically, order records</li><li>several hundred articles written by a dozen different authors, most with media</li><li>aforementioned authors' user records</li></ul>

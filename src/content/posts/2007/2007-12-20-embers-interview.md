@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Embers are an experimental four piece consisting of two saxophones, bass and
   drums who make an extraordinary amount of noise, conjuring incredible and
@@ -15,7 +15,6 @@ summary: >-
   respectively, and their answers just goes to show the differences between band
   members?
 ---
-
 Embers are an experimental four piece consisting of two saxophones, bass and drums who make an extraordinary amount of noise, conjuring incredible and unbelievable sounds from their instruments. I spoke to Adam Simmons and Kris Wanders of the band, their answers are shown in normal text and italics respectively, and their answers just goes to show the differences between band members?
 
 How did all the members of the band meet each other and why did you all decide to do what you are doing now?

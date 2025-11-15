@@ -6,7 +6,10 @@ import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
+import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import { remarkReadingTime } from './src/utils/frontmatter.mjs';
+import { customizeSitemapItem } from './src/utils/sitemap.ts';
 import { SITE } from './src/config.mjs';
 // import react from "@astrojs/react";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -58,7 +61,9 @@ export default defineConfig({
         applyBaseStyles: false,
       },
     }),
-    sitemap(),
+    sitemap({
+      serialize: customizeSitemapItem,
+    }),
     mdx(),
     ...whenExternalScripts(() =>
       partytown({
@@ -70,6 +75,18 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [remarkReadingTime],
+    rehypePlugins: [
+      rehypeSlug,
+      [
+        rehypeAutolinkHeadings,
+        {
+          behavior: 'wrap',
+          properties: {
+            className: ['heading-link'],
+          },
+        },
+      ],
+    ],
     extendDefaultPlugins: true,
   },
   vite: {

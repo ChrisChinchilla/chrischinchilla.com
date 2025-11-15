@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - ethics
-  - design
-  - best practises
-  - ux
-  - engineering
-  - good technology
-  - agile
+  - Ethics
+  - Design
+  - Best Practises
+  - Ux
+  - Engineering
+  - Good Technology
+  - Agile
 publication_url: 'https://dzone.com/articles/ethics-for-designers-and-developers-at-the-first-b'
 image: /src/assets/images/articles/9101997.jpeg
 summary: >-

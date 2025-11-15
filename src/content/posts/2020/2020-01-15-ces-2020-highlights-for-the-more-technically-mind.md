@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - ces 2020
-  - ces
-  - techology news
-  - laptops
-  - iot
-  - arduino
+  - Ces 2020
+  - Ces
+  - Techology News
+  - Laptops
+  - IoT
+  - Arduino
 publication_url: 'https://dzone.com/articles/-ces-2020-highlights-for-the-more-technically-mind'
 image: /src/assets/images/articles/12935500.jpeg
 summary: >-

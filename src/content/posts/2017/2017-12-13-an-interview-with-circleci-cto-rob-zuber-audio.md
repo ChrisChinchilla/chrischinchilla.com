@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - circleci
-  - testing
-  - deployment
-  - ci
-  - continuous integration
-  - continuous deployment
-  - devops
+  - Circleci
+  - Testing
+  - Deployment
+  - CI
+  - Continuous Integration
+  - Continuous Deployment
+  - DevOps
 publication_url: 'https://dzone.com/articles/an-interview-with-circleci-cto-rob-zuber'
 image: /src/assets/images/articles/7514233.jpeg
 summary: >-

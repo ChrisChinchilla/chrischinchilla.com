@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - chef
-  - cloud
-  - deployment
-  - continuous delivery
-  - devops
+  - Chef
+  - Cloud
+  - Deployment
+  - Continuous Delivery
+  - DevOps
 publication_url: 'https://dzone.com/articles/habitat-from-chef-build-deploy-and-manage-your-clo'
 image: /src/assets/images/articles/7625905.jpeg
 summary: >-
