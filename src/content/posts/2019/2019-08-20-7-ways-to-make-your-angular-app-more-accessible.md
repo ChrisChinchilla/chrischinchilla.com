@@ -6,8 +6,8 @@ categories:
   - writing
   - telerik
 tags:
-  - angular
-  - accessibility
+  - Angular
+  - Accessibility
 publication_url: 'https://www.telerik.com/blogs/7-ways-to-make-your-angular-app-more-accessible'
 summary: >-
   Angular is a popular framework for creating powerful JavaScript applications

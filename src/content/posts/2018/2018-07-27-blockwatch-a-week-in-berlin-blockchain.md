@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - ethereum
-  - solidity
-  - distributed systems
-  - governance
-  - scalability
-  - development
-  - security
+  - Blockchain
+  - Ethereum
+  - Solidity
+  - Distributed Systems
+  - Governance
+  - Scalability
+  - Development
+  - Security
 publication_url: 'https://dzone.com/articles/blockwatch-a-week-in-berlin-blockchain'
 image: /src/assets/images/articles/9845295.jpeg
 summary: >-

@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - open source
-  - software foundations
-  - foss
-  - governance
-  - community
-  - javascript
-  - hyperledger
-  - apache
+  - Open Source
+  - Software Foundations
+  - Foss
+  - Governance
+  - Community
+  - Javascript
+  - Hyperledger
+  - Apache
 publication_url: 'https://dzone.com/articles/what-can-software-foundations-bring-to-your-projec'
 image: /src/assets/images/articles/9356503.jpeg
 summary: >-

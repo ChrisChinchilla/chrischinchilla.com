@@ -5,9 +5,9 @@ author: Chris Ward
 categories:
   - writing chronosphere
 tags:
-  - observability
-  - prometheus
-  - promql
+  - Observability
+  - Prometheus
+  - Promql
 publication_url: >-
   https://chronosphere.io/learn/how-can-recording-and-roll-up-rules-help-your-metrics/
 image: /src/assets/images/defaults/blog-chinchilla.jpg
@@ -16,5 +16,4 @@ summary: >-
   database (TSDB) or improve query performance, there are generally two common
   methods to do so.
 ---
-
 If you need to reduce the amount of metrics data stored in your time series database (TSDB) or improve query performance, there are generally two common methods to do so.

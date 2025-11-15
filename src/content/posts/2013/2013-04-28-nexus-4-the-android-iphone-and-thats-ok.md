@@ -5,9 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - android
-  - nexus
-  - phones
+  - Android
+  - Nexus
+  - Phones
 image: /src/assets/images/articles/nexus-4.jpg
 summary: >-
   I decided to upgrade my Samsung S2 to a Nexus 4, there were several reasons
@@ -17,7 +17,6 @@ summary: >-
   version of 4.2 looks like it was never gong to happen.</li><li>I came into
   some money and thought I'd treat myself</li></ul>
 ---
-
 I decided to upgrade my Samsung S2 to a Nexus 4, there were several reasons for this...<ul><li>I dropped the S2 on a rock and it had a large hairline crack in the screen, not that bad but noticeable.</li><li>I rooted the phone and installed Cyanogen Mod, it ran really well until recently, and a stable version of 4.2 looks like it was never gong to happen.</li><li>I came into some money and thought I'd treat myself</li></ul>
 
 So why is this review entitled "The Android iPhone", well some of the reasons some people like the android platform is its flexibility. Therefore it's a strange choice with the Nexus 4 to have an iPhone style sim card slot that requires a silly 'tool' and a non-removable battery.

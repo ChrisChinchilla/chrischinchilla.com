@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - 5g
-  - 5g infrastructure
-  - 4g
-  - smart cities
-  - iot
-  - baltics
-  - connectivity
+  - 5G
+  - 5G Infrastructure
+  - 4G
+  - Smart Cities
+  - IoT
+  - Baltics
+  - Connectivity
 publication_url: 'https://dzone.com/articles/our-5g-futures-at-5gtechritory'
 image: /src/assets/images/articles/10655200.jpeg
 summary: >-

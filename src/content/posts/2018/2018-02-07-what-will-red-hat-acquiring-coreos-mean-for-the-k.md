@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - kubernetes
-  - coreos
-  - red hat
-  - open shift
-  - docker
-  - rkt
-  - containers
+  - Kubernetes
+  - Coreos
+  - Red Hat
+  - Open Shift
+  - Docker
+  - Rkt
+  - Containers
 publication_url: 'https://dzone.com/articles/what-will-red-hat-acquiring-coreos-mean-for-the-ku'
 image: /src/assets/images/articles/8086379.jpeg
 summary: >-

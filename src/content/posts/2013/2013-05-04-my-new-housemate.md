@@ -5,14 +5,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: >-
   He must works nights as I rarely see him, we've never spent a night together,
   just watching TV or anything like that, but he must have a set in his room,
   and a penchant for cheesy old horror films, because sometimes in the middle of
   the night I hear odd muffled shrieks and yells coming from his room.
 ---
-
 He must works nights as I rarely see him, we've never spent a night together, just watching TV or anything like that, but he must have a set in his room, and a penchant for cheesy old horror films, because sometimes in the middle of the night I hear odd muffled shrieks and yells coming from his room.
 
 I think he throws out meat or something in the bins at the front of the house, there's always foxes sniffing and lurking around since he moved in, well at least I think they're foxes, they're quite large.

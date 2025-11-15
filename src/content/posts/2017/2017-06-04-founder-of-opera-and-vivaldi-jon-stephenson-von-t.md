@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - browsers
-  - opera
-  - vivaldi
-  - web dev
+  - Browsers
+  - Opera
+  - Vivaldi
+  - Web Dev
 publication_url: 'https://dzone.com/articles/founder-of-opera-and-vivaldi-jon-stephenson-von-te'
 image: /src/assets/images/articles/5483774.jpeg
 summary: >-

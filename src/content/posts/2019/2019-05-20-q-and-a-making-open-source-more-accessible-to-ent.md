@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - open source
-  - enterprise
-  - security
-  - dependency management
-  - compliance
+  - Open Source
+  - Enterprise
+  - Security
+  - Dependency Management
+  - Compliance
 publication_url: 'https://dzone.com/articles/making-open-source-more-accessible-to-enterprises'
 image: /src/assets/images/articles/11875854.jpeg
 summary: >-

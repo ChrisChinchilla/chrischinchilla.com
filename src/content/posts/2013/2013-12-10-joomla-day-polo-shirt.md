@@ -6,9 +6,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - merchandise
-  - conferences
+  - Merchandise
+  - Conferences
 summary: 'Joomla! Day Melbourne 2013 polo shirt, very nice but a little large for me.'
 ---
-
 Joomla! Day Melbourne 2013 polo shirt, very nice but a little large for me.

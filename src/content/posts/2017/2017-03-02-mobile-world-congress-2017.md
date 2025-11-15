@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - events
-  - conferences
-  - mobile
-  - iot
+  - Events
+  - Conferences
+  - Mobile
+  - IoT
   - MWC
-  - MWC2017
+  - Mwc2017
 publication_url: 'https://dzone.com/articles/mobile-world-congress-2017'
 summary: >-
   2016 was quite a year for technology and its impact on the world.
@@ -20,5 +20,4 @@ summary: >-
   to accomplish something more meaningful. Here are some of the themes and
   concepts I feel will shape 2017 and 2018.
 ---
-
 2016 was quite a year for technology and its impact on the world. Subconsciously or not, nestled amongst the booths of generic Chinese handsets and app marketing companies were many projects and people at MWC that sought to accomplish something more meaningful. Here are some of the themes and concepts I feel will shape 2017 and 2018.

@@ -5,15 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
+  - Politics
+  - Degrowth
+  - Activism
 summary: >-
   It's refreshing to hear someone (unsurprisingly an engineer) mention that the
   Degrowth movement could do with more practical projects and methodologies to
   run alongside the theoretical discussions.
 ---
-
 ## The OAE Project: Open Data and Open Source software for a sustainable economy
 
 It's refreshing to hear someone (unsurprisingly an engineer) mention that the Degrowth movement could do with more practical projects and methodologies to run alongside the theoretical discussions.

@@ -6,9 +6,9 @@ categories:
   - writing
   - coralogix
 tags:
-  - logging
-  - ruby
-  - rails
+  - Logging
+  - Ruby
+  - Rails
 publication_url: 'https://coralogix.com/log-analytics-blog/ruby-logging-best-practices-tips/'
 summary: >-
   Ruby is an opinionated language with inbuilt Ruby logging options that will
@@ -18,5 +18,4 @@ summary: >-
   activity) and help you figure out the options for logging your Ruby (and Rails
   applications).
 ---
-
 Ruby is an opinionated language with inbuilt Ruby logging options that will serve the needs of small and basic applications. Whilst there are fewer alternatives to these than say, the JavaScript world, there are a handful, and in this post, I will highlight those that are active (based on age and commit activity) and help you figure out the options for logging your Ruby (and Rails applications).

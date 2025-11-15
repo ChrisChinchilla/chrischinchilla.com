@@ -6,9 +6,9 @@ categories:
   - writing
   - dzone
 tags:
-  - google
-  - cloud
-  - events
+  - Google
+  - Cloud
+  - Events
 publication_url: 'https://dzone.com/articles/whats-next-google-announces-new-features-for-its-c'
 summary: >-
   Cloud Next is Google’s regular conference that covers all their cloud-related
@@ -16,5 +16,4 @@ summary: >-
   squeezed into the Google office in Berlin to watch a live stream of the event
   and will get you all up to speed.
 ---
-
 Cloud Next is Google’s regular conference that covers all their cloud-related products. That’s something of a vague and overarching classification, but I squeezed into the Google office in Berlin to watch a live stream of the event and will get you all up to speed.

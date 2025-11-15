@@ -5,13 +5,12 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - melbourne
-  - sport
+  - Melbourne
+  - Sport
 summary: >-
   God knows when I last posted a personal post here, no reason why, just been
   stupidly busy, haven't been enough hours in the day...
 ---
-
 God knows when I last posted a personal post here, no reason why, just been stupidly busy, haven't been enough hours in the day...
 
 So, here's a few things I've been up to, might be repeating myself...

@@ -5,10 +5,10 @@ author: Chris Ward
 categories:
   - writing kauri
 tags:
-  - grammar
-  - languages
-  - documentation
-  - writing
+  - Grammar
+  - Languages
+  - Documentation
+  - Writing
 publication_url: 'https://kauri.io/article/01db62a1bdf54c4b99a852fe9700e930'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-

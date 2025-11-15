@@ -6,15 +6,15 @@ categories:
   - writing
   - dzone
 tags:
-  - macos
-  - linux
-  - desktop
-  - operating systems
-  - windows
-  - ubuntu
-  - manjaro
-  - elementary os
-  - arch linux
+  - macOS
+  - Linux
+  - Desktop
+  - Operating Systems
+  - Windows
+  - Ubuntu
+  - Manjaro
+  - Elementary Os
+  - Arch Linux
 publication_url: 'https://dzone.com/articles/-revisiting-desktop-linux-drowning-in-the-deep-end'
 image: /src/assets/images/articles/12848130.jpeg
 summary: >-

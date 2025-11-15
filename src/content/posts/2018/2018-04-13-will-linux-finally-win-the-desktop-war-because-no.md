@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - linux
-  - windows
-  - macos
-  - intel
-  - arm
-  - development
-  - agile
+  - Linux
+  - Windows
+  - macOS
+  - Intel
+  - Arm
+  - Development
+  - Agile
 publication_url: 'https://dzone.com/articles/will-linux-finally-win-the-desktop-war-because-no'
 image: /src/assets/images/articles/8770879.jpeg
 summary: >-

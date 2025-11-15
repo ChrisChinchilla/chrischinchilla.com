@@ -5,14 +5,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - startups
-  - events
+  - Startups
+  - Events
 summary: >-
   I love pitch events, I love hearing ideas good and bad and watching people's
   passion in what they do… This will be the first I attempt to summarise and my
   first attempt at live blogging, of sorts.
 ---
-
 I love pitch events, I love hearing ideas good and bad and watching people's passion in what they do… This will be the first I attempt to summarise and my first attempt at live blogging, of sorts.
 
 <a href="https://www.angelcube.com/" target="_blank">Angelcube</a> is a 'long' established Australian startup incubator offering mentorships, networks and funding for aspiring startups. It already feels a bit like the Australian (Melbourne?) startup scene  is on the verge of jumping the shark if it hasn't already, but still, no harm in people trying.

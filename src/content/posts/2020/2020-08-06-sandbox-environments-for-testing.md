@@ -5,7 +5,7 @@ author: Chris Ward
 categories:
   - writing humanitec
 tags:
-  - DX
+  - Dx
   - DevOps
 publication_url: 'https://humanitec.com/blog/sandbox-environments-for-testing'
 image: >-

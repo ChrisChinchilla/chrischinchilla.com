@@ -5,10 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - life music
+  - Life Music
 summary: This could be a long post...
 ---
-
 This could be a long post...
 
 Have you ever had a week where it feels like someone or something is trying to tell you something?

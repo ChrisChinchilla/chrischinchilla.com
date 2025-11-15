@@ -5,14 +5,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   It's very disorientating to enter a venue previously visited on the other side
   of the world in a completely different place, but that's the wonder of the
   Speigel Tent.
 ---
-
 It's very disorientating to enter a venue previously visited on the other side of the world in a completely different place, but that's the wonder of the Speigel Tent.
 
 Plastic Palace Alice are seemingly everywhere almost over night. Through some well-placed gigs, a tight press campaign and a lot of posters adorning every blank space all over town the band have transformed from Melbourne underdogs to a slick force to be reckoned with.

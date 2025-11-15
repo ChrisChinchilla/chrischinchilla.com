@@ -7,14 +7,13 @@ categories:
   - writing
   - crate
 tags:
-  - databases
+  - Databases
 summary: >-
   Our databases contain valuable and business critical information and whilst
   there have always been manual ways to create restorable backups of Crate
   databases, as of version 0.53, we are pleased to announce the 'Snapshots'
   feature.
 ---
-
 Our databases contain valuable and business critical information and whilst there have always been manual ways to create restorable backups of Crate databases, as of version 0.53, we are pleased to announce the 'Snapshots' feature.
 
 Snapshots allow you to create incremental backups of entire databases, specific tables or partitions and restore them through Crate's command line interface, Crash.

@@ -7,9 +7,9 @@ categories:
   - writing
   - sitepoint
 tags:
-  - events
-  - startups
-  - technology
+  - Events
+  - Startups
+  - Technology
 summary: >-
   Creating a modern and feature-rich mobile app has never been a simple task,
   but is now more complex than ever. There are a plethora of platforms,
@@ -17,5 +17,4 @@ summary: >-
   and what path to follow involves understanding and appreciating a lot of
   interconnected components.
 ---
-
 Creating a modern and feature-rich mobile app has never been a simple task, but is now more complex than ever. There are a plethora of platforms, programming languages and strategies to consider, and knowing where to start and what path to follow involves understanding and appreciating a lot of interconnected components.

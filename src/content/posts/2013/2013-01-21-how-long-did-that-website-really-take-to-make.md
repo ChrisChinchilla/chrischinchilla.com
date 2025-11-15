@@ -5,9 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - web
-  - html
-  - internet
+  - Web
+  - Html
+  - Internet
 image: /src/assets/images/articles/Internet_map_1024_0.jpg
 summary: >-
   That snazzy website your looking at took a while to make didn't it? What do
@@ -15,7 +15,6 @@ summary: >-
   taken them a few years of iterative development to create and perfect
   something more complex.
 ---
-
 That snazzy website your looking at took a while to make didn't it? What do you reckon? Maybe it took the developers a few months to make. Perhaps its taken them a few years of iterative development to create and perfect something more complex.
 
 But what about everything else you're using, ever given any thought on how long they all took to make?

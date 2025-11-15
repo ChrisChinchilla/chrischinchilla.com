@@ -5,9 +5,9 @@ author: Chris Ward
 categories:
   - writing gitlab
 tags:
-  - compliance
-  - gitlab
-  - devops
+  - Compliance
+  - Gitlab
+  - DevOps
 publication_url: >-
   https://about.gitlab.com/blog/2020/03/11/make-tracking-agreements-simple-compliance-dashboard/
 image: /src/assets/images/articles/compliance_dashboard.png

@@ -5,9 +5,9 @@ author: Chris Ward
 categories:
   - writing kauri
 tags:
-  - kauri
-  - writing
-  - community
+  - Kauri
+  - Writing
+  - Community
 publication_url: 'https://kauri.io/article/de927174d7b54ac2a33d8a37c43f9797'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-

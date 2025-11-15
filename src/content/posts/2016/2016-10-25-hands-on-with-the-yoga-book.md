@@ -6,15 +6,14 @@ categories:
   - writing
   - theweeklysqueak
 tags:
-  - android
-  - devices
-  - reviews
+  - Android
+  - Devices
+  - Reviews
 summary: >-
   When I saw the announcement of the Yoga Book at IFA I was fascinated. A tablet
   with a proper keyboard, and a graphics tablet that I could doodle and even
   write on. Sign me up!
 ---
-
 When I saw the announcement of the Yoga Book at IFA I was fascinated. A tablet with a proper keyboard, and a graphics tablet that I could doodle and even write on. Sign me up!
 
 I placed an order with Lenovo, realising that their online store wasn't as advanced or friendly as others I am used to. I then waited with baited breath, uncertain what I was going to receive, or when it would arrive.

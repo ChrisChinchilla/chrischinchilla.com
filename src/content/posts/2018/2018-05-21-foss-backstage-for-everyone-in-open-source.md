@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - berlin
-  - conference
-  - open source
-  - foss
-  - governance
-  - community
-  - licensing
+  - Berlin
+  - Conference
+  - Open Source
+  - Foss
+  - Governance
+  - Community
+  - Licensing
 publication_url: 'https://dzone.com/articles/foss-backstage-for-everyone-in-open-source'
 image: /src/assets/images/articles/9175876.jpeg
 summary: >-

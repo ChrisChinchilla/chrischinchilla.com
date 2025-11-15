@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - sdn
-  - cloud
-  - openstack pike
-  - cloud storage
+  - Sdn
+  - Cloud
+  - Openstack Pike
+  - Cloud Storage
 publication_url: 'https://dzone.com/articles/thierry-carrez-on-the-release-of-openstack-pike'
 image: /src/assets/images/articles/6752165.jpeg
 summary: >-

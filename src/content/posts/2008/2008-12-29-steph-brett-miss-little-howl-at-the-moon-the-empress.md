@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Steph Brett possesses a peculiar quality rarely found in singer-songwriters
   but one that delights and ensures an audience firmly on your side. Technically
@@ -18,7 +18,6 @@ summary: >-
   guitar, the last song becomes acapella, with most of the audience providing
   hand claps for the duration.
 ---
-
 Steph Brett possesses a peculiar quality rarely found in singer-songwriters but one that delights and ensures an audience firmly on your side. Technically she is not brilliant, she fumbles chords, awkwardly plays with the microphone and even manages to pull the jack plate out of her guitar towards the end of her set. Un yet there is a vibrancy and character in her silky, caramel voice and personality, an understated charm that wins through every problem and technical hitch, as an example, to counter the lack of electrics in her guitar, the last song becomes acapella, with most of the audience providing hand claps for the duration.
 
 Miss Little is an artist at the complete opposite end of the spectrum. She is slick, extremely well rehearsed, with a set of highly arranged material and obviously brimming with musical ability. She is just too spick and span, there seems to be a lack of feeling in her music, the set feels more like a tour through the various effects she can implement and utilise than an emotional journey. The vocoder, the loop station, the multiple keyboards all start to get a little dull and sadly the music drifts into the background.

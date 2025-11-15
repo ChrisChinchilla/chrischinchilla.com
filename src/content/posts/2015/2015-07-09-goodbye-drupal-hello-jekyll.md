@@ -6,15 +6,14 @@ categories:
   - projects
   - chipshop
 tags:
-  - jekyll
-  - drupal
+  - Jekyll
+  - Drupal
 summary: >-
   Sorry for the lack of updates in a while. There have been two main reasons for
   this, other commitments kept me busy and I've been reworking a lot of the
   technology stack that powers Chip Shop. I'd like to tell you more about
   updates to the later.
 ---
-
 Sorry for the lack of updates in a while. There have been two main reasons for this, other commitments kept me busy and I've been reworking a lot of the technology stack that powers Chip Shop. I'd like to tell you more about updates to the later.
 
 I have been a [Drupal](https://drupal.org) developer for many years. I have contributed to core, to documentation, run meetups and code sprints and developed almost exclusively in Drupal for over seven years. Therefore when it came to developing web applications for my own projects, Drupal always seemed to be the obvious choice for me.

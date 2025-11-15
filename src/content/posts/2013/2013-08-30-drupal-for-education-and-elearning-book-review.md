@@ -5,12 +5,11 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - drupal
-  - books
-  - reviews
+  - Drupal
+  - Books
+  - Reviews
 summary: Drupal for Education and elearning by James G Robertson and Bill Fitzgerald
 ---
-
 **Drupal for Education and elearning by James G Robertson and Bill Fitzgerald**
 
 One of the commonalities with packt's Drupal titles is that whilst covering a variety of themes, they often include a lot of basic material that is included in all titles. This makes the titles great for those looking to cover a particular theme or topic from start to finish, but for those looking for more depth (or reviewing titles) you will spend some time reading through familiar territory such as installing, modules, site maintenance etc. On one hand covering the basics each time enables the writers to put topics in  appropriate context for their audience, but on the other, it was could be a nice idea to sell smaller titles stripped down to the basics that only cover completely relevant topics.

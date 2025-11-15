@@ -6,7 +6,7 @@ categories:
   - writing
   - dzone
 tags:
-  - OCR
+  - Ocr
   - iOS
   - Android
   - Mobile
@@ -18,5 +18,4 @@ summary: >-
   showed the potential of what more traditional optical character recognition
   could be used for.
 ---
-
 I remember the first time I tried the image recognition technology in the Google translate app, snapping a poster to instantly translate what it said into a language I understood. It was far from perfect, but it was cool, and it showed the potential of what more traditional optical character recognition could be used for.

@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - big data
-  - data privacy
-  - big data sets
+  - Blockchain
+  - Big Data
+  - Data Privacy
+  - Big Data Sets
 publication_url: 'https://dzone.com/articles/embleema-the-blockchain-that-lets-you-own-your-hea'
 image: /src/assets/images/articles/11268343.jpeg
 summary: >-

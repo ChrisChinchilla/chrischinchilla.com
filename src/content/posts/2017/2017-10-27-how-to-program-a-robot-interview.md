@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - robotics
-  - ai
-  - natural language processing
-  - machine learning
+  - Robotics
+  - AI
+  - Natural Language Processing
+  - Machine Learning
 publication_url: 'https://dzone.com/articles/how-to-program-a-robot'
 image: /src/assets/images/articles/7032986.jpeg
 summary: >-

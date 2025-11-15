@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - big data
-  - data analytics
-  - app development
-  - indiastack
-  - data-driven development
+  - Big Data
+  - Data Analytics
+  - App Development
+  - Indiastack
+  - Data-Driven Development
 publication_url: 'https://dzone.com/articles/india-stack-disrupting-the-second-most-populous-na'
 image: /src/assets/images/articles/6224626.jpeg
 summary: >-

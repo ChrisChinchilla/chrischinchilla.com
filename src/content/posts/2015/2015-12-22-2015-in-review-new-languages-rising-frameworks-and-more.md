@@ -8,12 +8,11 @@ categories:
   - writing
   - sitepoint
 tags:
-  - mobile
-  - android
-  - ios
+  - Mobile
+  - Android
+  - iOS
 summary: >-
   Across the mobile channel in 2015 we had over 3 million views and published
   just over 160 posts.
 ---
-
 Across the mobile channel in 2015 we had over 3 million views and published just over 160 posts.

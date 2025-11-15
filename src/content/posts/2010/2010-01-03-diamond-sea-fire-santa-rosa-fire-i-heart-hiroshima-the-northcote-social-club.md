@@ -7,8 +7,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   A lot is being said about the Diamond Sea around Melbourne and a lot is being
   whispered about them in front of the stage tonight. What's wrong with them? Is
@@ -17,7 +17,6 @@ summary: >-
   show into a rather dull and listless experience with every song melding into
   the next with very little dynamics.
 ---
-
 A lot is being said about the Diamond Sea around Melbourne and a lot is being whispered about them in front of the stage tonight. What's wrong with them? Is it the bad and overly loud mix, their seeming lack of acknowledgement of the audience or something else that is reducing their usually sparkling and lively show into a rather dull and listless experience with every song melding into the next with very little dynamics.
 
 'Fire! Santa Rosa, Fire!' are part of a growing plethora of bands with annoying partial and disjointed sentence names that feel like they've been chosen just to be awkward and hip rather than any other reason. Their set starts well, especially after the dirge of The Diamond Sea's set, with some bright, well arranged tunes filled with a multitude of interesting instruments and counter melodies, especially in the grainy vocals of lead singer 'Caitlin'. Un yet, again, after a few songs something isn't gelling with the crowd, unhelped by guitarist 'Dave's' rather random, lengthy, bizarre and frankly annoying inter-song ramblings that result in an increasing amount of heckling throughout the set.

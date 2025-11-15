@@ -5,14 +5,13 @@ categories:
   - projects
   - chipshop
 tags:
-  - books
-  - reviews
+  - Books
+  - Reviews
 image: /src/assets/images/articles/amiga-visual-commpendium.jpg
 summary: >-
   First, let's get the disclaimers out of the way. I helped Kickstart this book,
   but that wouldn't necessarily make my review biased...
 ---
-
 First, let's get the disclaimers out of the way. I helped [Kickstart](https://www.kickstarter.com/projects/2146199819/commodore-amiga-a-visual-commpendium) this book, but that wouldn't necessarily make my review biased...
 
 I loved the Amiga when I was a child anyway, but this was also a perfect research volume for Chip Shop. I have the PDF digital version, but even so, the full page, full colour screen grabs are beautiful and even if you don't read the text it's an enjoyable read.

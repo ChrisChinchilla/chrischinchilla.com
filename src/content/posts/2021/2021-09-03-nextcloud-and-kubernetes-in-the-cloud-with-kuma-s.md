@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - kubernetes
-  - service mesh
-  - gke
-  - self-hosting
-  - cloud computing
+  - Kubernetes
+  - Service Mesh
+  - Gke
+  - Self-Hosting
+  - Cloud Computing
 publication_url: >-
   https://dzone.com/articles/powering-kubernetes-in-the-cloud-with-kuma-service-1
 image: /src/assets/images/articles/15125235.jpeg

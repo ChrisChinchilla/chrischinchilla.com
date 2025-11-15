@@ -7,13 +7,12 @@ categories:
   - writing
   - sitepoint
 tags:
-  - android
+  - Android
   - IDE
-  - development
+  - Development
 summary: >-
   In this video we'll look at understanding the differences between Android
   devices, system versions and the components that comprise the Android
   Operating System.
 ---
-
 In this video we'll look at understanding the differences between Android devices, system versions and the components that comprise the Android Operating System.

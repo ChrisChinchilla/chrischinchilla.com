@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - hashicorp
-  - continuous integration
-  - devops
-  - vagrant
-  - terraform
-  - vault
-  - consul
-  - nomad
+  - Hashicorp
+  - Continuous Integration
+  - DevOps
+  - Vagrant
+  - Terraform
+  - Vault
+  - Consul
+  - Nomad
 publication_url: 'https://dzone.com/articles/hashicorp-tools-useful-for-continuous-integration'
 image: /src/assets/images/articles/5703108.jpeg
 summary: >-

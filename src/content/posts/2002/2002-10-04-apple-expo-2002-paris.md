@@ -5,9 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - apple
-  - reviews
-  - conference
+  - Apple
+  - Reviews
+  - Conference
 summary: >-
   European Apple fans have been eagerly awaiting this year's Apple Expo. As last
   year's event was cancelled, and most could not really warrant the cost of
@@ -17,7 +17,6 @@ summary: >-
   would be nigh on impossible, so I will now try to present my own personal
   highlights.
 ---
-
 European Apple fans have been eagerly awaiting this year's Apple Expo. As last year's event was cancelled, and most could not really warrant the cost of travelling to America, this year's Expo was the first major Apple-related date for Europeans in two years. There were of course a lot of product releases and newsworthy events at the Expo this year but attempting to document them all would be nigh on impossible, so I will now try to present my own personal highlights.
 
 Developing for the Macintosh has never been an easy undertaking; with the advent of OS X life has been made easier for developers but there is still room for improvement. Several products caught my eye, however. The infamous and long-running CodeWarrior is now in its eighth incarnation (since the the product went cross-platform), with improved support for OS X and new APIs/libraries. On the whole the program has changed very little, but for hard-core Mac developers CodeWarrior is the only solution.

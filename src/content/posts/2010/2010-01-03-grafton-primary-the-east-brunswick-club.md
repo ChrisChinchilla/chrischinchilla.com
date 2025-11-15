@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Grafton Primary possesses an eclectic fan base, drawing in an increasing amount
   of musical sub genres, uniting them for fleeting moments in one room. Taking
@@ -21,7 +21,6 @@ summary: >-
   precision, perfectly suiting our era's obsession of regurgitating the past
   into gleaned pastiches.
 ---
-
 Grafton Primary posses an eclectic fan base, drawing in an increasing amount of musical sub genres, uniting them for fleeting moments in one room. Taking up centre ground are the chattering fashionistas, eyeing each other up and comparing clothing brands. Bang in front of the stage are an unruly bunch of mainstream-esque dance fans, jostling for space, hassling photographers and generally annoying most around them. Hanging around at the back are groups of lesbian punks and lurking in dark corners are gaggles of old school 80's Goths, the breadth and contradictory nature of the bands fan base also sums up the band and their music. An equally strange combination of retro electro, dark layered moods and modern rhythmic aggression is executed with flawless precision, perfectly suiting our era's obsession of regurgitating the past into gleaned pastiches.
 
 Grafton Primary's presentation is also impeccable; the band adorned with gang style tattoos around their eyes, fantasy feral hairstyles and a suite of jerky dance moves creating something of a freakish and surreal stage presence. The band's crew (who number more than the band) also deserve special attention, creating an spectacular visual and lighting show full of sweeping logos, fractals, archive footage, strobes and stage smoke. This is complimented by a slickly engineered live sound which is far better in quality than the band's recorded output, without which the Grafton Primary live set would be a lot less memorable and a lot less of an experience.

@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - database
-  - database indexes
-  - pilosa
-  - bitmap index
+  - Database
+  - Database Indexes
+  - Pilosa
+  - Bitmap Index
 publication_url: 'https://dzone.com/articles/pilosa-a-new-kind-of-database-index'
 image: /src/assets/images/articles/5449885.jpeg
 summary: >-

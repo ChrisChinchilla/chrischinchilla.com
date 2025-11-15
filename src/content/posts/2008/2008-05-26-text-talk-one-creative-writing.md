@@ -5,10 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: Fancied damaged boy any box or coy Cox kiss lips as they lisp.
 ---
-
 Fancied damaged boy any box or coy Cox kiss lips as they lisp.
 
 Awake, cycle, be late and laud Kate.

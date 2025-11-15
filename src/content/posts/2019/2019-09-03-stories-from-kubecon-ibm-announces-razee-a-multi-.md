@@ -6,15 +6,15 @@ categories:
   - writing
   - dzone
 tags:
-  - ibm
-  - kubernetes
-  - cloud native
-  - continous delivery
-  - hybrid cloud
-  - monitoring
-  - pull oriented model
-  - open source
-  - cloud
+  - Ibm
+  - Kubernetes
+  - Cloud Native
+  - Continous Delivery
+  - Hybrid Cloud
+  - Monitoring
+  - Pull Oriented Model
+  - Open Source
+  - Cloud
 publication_url: 'https://dzone.com/articles/-stories-from-kubecon-ibm-announces-razee-a-multi'
 image: /src/assets/images/articles/12428814.jpeg
 summary: >-

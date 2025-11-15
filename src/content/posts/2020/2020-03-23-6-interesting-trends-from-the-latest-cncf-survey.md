@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - kubernetes
-  - service mesh
-  - containers
-  - cncf
-  - cloud native
-  - serverless
+  - Kubernetes
+  - Service Mesh
+  - Containers
+  - Cncf
+  - Cloud Native
+  - Serverless
 publication_url: 'https://dzone.com/articles/-6-interesting-trends-from-the-latest-cncf-survey'
 image: /src/assets/images/articles/13141726.jpeg
 summary: >-

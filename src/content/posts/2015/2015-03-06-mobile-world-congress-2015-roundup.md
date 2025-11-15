@@ -6,9 +6,9 @@ categories:
   - writing
   - sitepoint
 tags:
-  - mobile
-  - analysis
-  - conference
+  - Mobile
+  - Analysis
+  - Conference
 summary: >-
   The mobile monolith that is Mobile World Congress is over for another year. I
   was lucky enough to get hold of a press pass and decided to spend the week in
@@ -16,5 +16,4 @@ summary: >-
   and preparing for the bombardment of marketing mumbo jumbo to unearth some
   gems for developers.
 ---
-
 The mobile monolith that is Mobile World Congress is over for another year. I was lucky enough to get hold of a press pass and decided to spend the week in Barcelona. Soaking up the warmer weather, joining the 90,000 other attendees and preparing for the bombardment of marketing mumbo jumbo to unearth some gems for developers.

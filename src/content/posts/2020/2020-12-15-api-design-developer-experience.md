@@ -5,7 +5,7 @@ author: Chris Ward
 categories:
   - writing humanitec
 tags:
-  - DX
+  - Dx
   - API
   - Design
 publication_url: 'https://humanitec.com/blog/api-design-developer-experience'
@@ -16,5 +16,4 @@ summary: >-
   options available? This article helps you make that decision based on the
   developer experience (DX) you should expect from an API.
 ---
-
 If you want to build your applications and business on existing APIs and not reinvent all functionality yourself, how do you decide between the plethora of options available? This article helps you make that decision based on the developer experience (DX) you should expect from an API.

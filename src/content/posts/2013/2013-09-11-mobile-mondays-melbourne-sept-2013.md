@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - mobile
-  - events
+  - Mobile
+  - Events
 summary: >-
   <a href="https://www.facebook.com/MobileMondayMelbourne"
   target="_blank">Mobile Mondays Melbourne</a> has been running for 8 years,
@@ -15,7 +15,6 @@ summary: >-
   the increasing feeling that some of these older events are wondering how to
   keep themselves relevant.
 ---
-
 <a href="https://www.facebook.com/MobileMondayMelbourne" target="_blank">Mobile Mondays Melbourne</a> has been running for 8 years, which in the tech event space makes it something of an elderly character and with the plethora of new events happening around town all the time, I have had the increasing feeling that some of these older events are wondering how to keep themselves relevant.
 
 One of MoMo's big advantages is it's international ubiquity, I met several people who knew the event from other countries and thus thought it would be a reliable event to come to to meet new like minded folks. The organisers were pushing hard the facts that they were looking to maintain more communication between attendees inbetween events and that they might start charging for events in the future. Both of these are challenging prospects, even for very large and popular events, but an increasing trend that I have noticed over the past few months. I'm yet to decide what I think about that.

@@ -5,10 +5,10 @@ categories:
   - writing
   - theweeklysqueak
 tags:
-  - politics
-  - tech
-  - berlin
-  - meetups
+  - Politics
+  - Tech
+  - Berlin
+  - Meetups
 publication_url: >-
   https://medium.com/@ChrisChinchilla/weekly-squeak-18th-september-maximum-linkage-396799deae1c#.uhv5n7a1s
 summary: >-
@@ -16,7 +16,6 @@ summary: >-
   must admit, when I present, I tend to forget what else happened. More of an
   adrenaline rush than egotism. I hope.
 ---
-
 This has been a week of me appearing at meetups rather than attending, and I must admit, when I present, I tend to forget what else happened. More of an adrenaline rush than egotism. I hope.
 
 I delivered an Ignite talk about technology in board games, which went well, but I think the Ignite format lends itself more to 'inspirational' style talks. I also appeared on a panel recapping new products from IFA, and added sufficient journalistic realism. I think.

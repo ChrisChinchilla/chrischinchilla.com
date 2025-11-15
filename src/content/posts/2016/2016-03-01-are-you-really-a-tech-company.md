@@ -8,10 +8,10 @@ categories:
   - writing
   - theweeklysqueak
 tags:
-  - tech
-  - events
-  - meetups
-  - startups
+  - Tech
+  - Events
+  - Meetups
+  - Startups
 summary: >-
   I go to a lot of events. Firstly because I get bored easily, but mainly
   because I like hearing what people are working on and their ideas. I have
@@ -19,5 +19,4 @@ summary: >-
   'tech', and I challenge if they actually are. To me it feels like some older
   phrases that are slowly dying and losing their meaning.
 ---
-
 I go to a lot of events. Firstly because I get bored easily, but mainly because I like hearing what people are working on and their ideas. I have noticed an increasing amount of companies and events that label themselves as 'tech', and I challenge if they actually are. To me it feels like some older phrases that are slowly dying and losing their meaning.

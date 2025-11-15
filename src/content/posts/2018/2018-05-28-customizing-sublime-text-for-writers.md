@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - text editor
-  - sublime text
-  - technical writing
-  - documentation
-  - linting
-  - markdown
-  - python
+  - Text Editor
+  - Sublime Text
+  - Technical Writing
+  - Documentation
+  - Linting
+  - Markdown
+  - Python
 publication_url: 'https://dzone.com/articles/customizing-sublime-text-for-writers'
 image: /src/assets/images/articles/9186379.jpeg
 summary: >-

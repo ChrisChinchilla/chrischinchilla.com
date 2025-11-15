@@ -6,8 +6,8 @@ publication_url: 'https://chrischinchilla.medium.com/my-tech-writing-setup-75bcb
 categories:
   - writing
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: /src/assets/images/articles/1*ujmfgf5E8f14RBpJ8k7DsQ.webp
 summary: >-
   In my previous post I covered my creative writing setup and the post proved
@@ -16,6 +16,5 @@ summary: >-
   writing. In this post I use the term “tech writing” to cover my documentation,
   blog post, and longer form technical writing work.
 ---
-
 In my previous post I covered my creative writing setup and the post proved quite popular, so I thank everyone who read and left comments for that. Next in this series of posts covering my various setups is my setup for technical writing. In this post I use the term “tech writing” to cover my documentation, blog post, and longer form technical writing work.
 My technical writing setup is also far more defined and established, with less areas where I am “still deciding” what’s best for me. My setup is also often decided by established wider industry practices and company or client requirements, meaning I have less opinion and influence on tooling choices and process.

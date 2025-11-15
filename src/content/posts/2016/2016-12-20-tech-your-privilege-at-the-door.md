@@ -6,13 +6,12 @@ categories:
   - writing
   - hackernoon
 tags:
-  - tech
-  - opinion
+  - Tech
+  - Opinion
 publication_url: 'https://hackernoon.com/tech-your-privilege-at-the-door-5d8da0c41c6b#.c32ghdfne'
 summary: >-
   I am a thirty-something white, English speaking male working in tech. I feel
   like this simultaneously gives me every right and no right to discuss
   privilege.
 ---
-
 I am a thirty-something white, English speaking male working in tech. I feel like this simultaneously gives me every right and no right to discuss privilege.

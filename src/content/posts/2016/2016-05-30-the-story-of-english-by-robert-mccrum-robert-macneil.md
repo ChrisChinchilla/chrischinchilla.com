@@ -2,10 +2,10 @@
 title: 'The Story of English by Robert McCrum, Robert MacNeil'
 publishDate: '2016-05-30 08:37:05 +0200'
 tags:
-  - books
-  - reviews
-  - language
-  - history
+  - Books
+  - Reviews
+  - Language
+  - History
 categories:
   - writing
   - chrischinchilla
@@ -15,7 +15,6 @@ summary: >-
   interest in learning about the origins of our bastard tongue and how it got to
   this position.
 ---
-
 It's taken moving to a non-English speaking country to realize how wide spread and common place the English languages is in the World. This has piqued my interest in learning about the origins of our bastard tongue and how it got to this position.
 
 The book was first written in the 1980s and was most recently revised in 2002, which makes it sometimes sound out of date in style. I would also say that since then English has become even more dominant, and some cultures less resistant to it.

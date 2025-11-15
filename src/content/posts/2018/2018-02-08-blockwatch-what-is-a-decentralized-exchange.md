@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - cryptocurrencies
-  - security
-  - decentralized exchange
+  - Blockchain
+  - Cryptocurrencies
+  - Security
+  - Decentralized Exchange
 publication_url: 'https://dzone.com/articles/blockwatch-what-is-a-decentralized-exchange'
 image: /src/assets/images/articles/8090160.jpeg
 summary: >-

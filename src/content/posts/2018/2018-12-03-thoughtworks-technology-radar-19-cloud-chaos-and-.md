@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - domain driven design
-  - chaos engineering
-  - secrets management
-  - docker
-  - cloud computing
-  - quantum computing
-  - database
-  - devops
+  - Domain Driven Design
+  - Chaos Engineering
+  - Secrets Management
+  - Docker
+  - Cloud Computing
+  - Quantum Computing
+  - Database
+  - DevOps
 publication_url: 'https://dzone.com/articles/thoughtworks-technology-radar-19-cloud-chaos-and-c'
 image: /src/assets/images/articles/10787158.jpeg
 summary: >-

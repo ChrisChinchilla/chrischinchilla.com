@@ -33,7 +33,7 @@ if (Astro.props.publication_url) {
 }
 const {
   title = SITE.name,
-  description = description,
+  description = SITE.description,
   image: _image = defaultImage,
   canonical = canonicalURL,
   noindex = false,
@@ -77,11 +77,12 @@ const image =
           },
         ]
       : undefined,
-    // site_name: 'SiteName',
+    site_name: SITE.name,
+    ...Astro.props.openGraph,
   }}
   twitter={{
-    // handle: '@handle',
-    // site: '@site',
+    handle: '@chrischinch',
+    site: '@chrischinch',
     cardType: image ? 'summary_large_image' : undefined,
   }}
 />

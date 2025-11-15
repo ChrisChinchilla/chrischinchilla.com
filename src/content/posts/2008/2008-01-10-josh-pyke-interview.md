@@ -5,13 +5,12 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   <b>You started playing and writing music from a young age (12 - 14), why so
   young? What motivated you to do it? </b>
 ---
-
 <b>You started playing and writing music from a young age (12 - 14), why so young? What motivated you to do it? </b>
 
 Music wasn't something I was always into, some friends started a band in High school and I wasn't keen but my Mum encouraged me, saying that if I didn't do it I might regret it and I could always quit, and that was it from then on.

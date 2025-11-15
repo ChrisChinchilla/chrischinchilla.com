@@ -5,15 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Despite a name influenced by wondrous family fantasy romp, Willow the band are
   yet another overproduced slab of boring American influenced trite. I barely
   noticed the tracks change from one to the other, I was just glad when it was
   all over.
 ---
-
 Despite a name influenced by wondrous family fantasy romp, Willow the band are yet another overproduced slab of boring American influenced trite. I barely noticed the tracks change from one to the other, I was just glad when it was all over.
 
 <a href='https://www.thedykeenies.com' target='_blank'>www.thedykeenies.com</a>

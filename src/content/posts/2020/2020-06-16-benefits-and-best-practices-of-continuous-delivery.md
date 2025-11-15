@@ -5,8 +5,8 @@ author: Chris Ward
 categories:
   - writing humanitec
 tags:
-  - cd
-  - devops
+  - CD
+  - DevOps
 publication_url: 'https://humanitec.com/blog/benefits-and-best-practices-of-continuous-delivery'
 image: >-
   /src/assets/images/articles/5eecbfdae75ba6808aba88fd_continuous-integration-vs-continuous-delivery-vs-continuous-deployment-humanitec.png

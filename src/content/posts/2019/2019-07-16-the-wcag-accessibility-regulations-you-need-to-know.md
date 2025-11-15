@@ -6,8 +6,8 @@ categories:
   - writing
   - telerik
 tags:
-  - accessibility
-  - web
+  - Accessibility
+  - Web
 publication_url: >-
   https://www.telerik.com/blogs/the-wcag-accessibility-regulations-you-need-to-know
 summary: >-

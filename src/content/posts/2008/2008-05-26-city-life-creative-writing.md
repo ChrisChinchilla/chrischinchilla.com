@@ -5,10 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: '- City life, don''t you just love it'
 ---
-
 - Applecore
 - Broken Door
 - Commercial crap

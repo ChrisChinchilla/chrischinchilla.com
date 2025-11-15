@@ -5,10 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: '_Phone on table, centre stage. Phone rings._'
 ---
-
 _Phone on table, centre stage. Phone rings._
 
 X : <i>(Enters from Stage L, Answers phone)</i> Hello?<br />Y : Hello.

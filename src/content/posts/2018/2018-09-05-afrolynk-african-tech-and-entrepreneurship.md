@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - africa
-  - startups
-  - entrepreneur
-  - conference
-  - event
-  - cloud
-  - ai
-  - fintech
+  - Africa
+  - Startups
+  - Entrepreneur
+  - Conference
+  - Event
+  - Cloud
+  - AI
+  - Fintech
 publication_url: 'https://dzone.com/articles/afrolynk-african-tech-and-entrepreneurship'
 image: /src/assets/images/articles/10154014.jpeg
 summary: >-

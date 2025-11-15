@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import OptimizedImage from '~/components/common/OptimizedImage.astro';
 import { BLOG } from '~/config.mjs';
 import type { Post } from '~/types';
 import defaultPostImage from '/src/assets/images/defaults/blog-chinchilla.jpg';
@@ -35,10 +35,14 @@ var formattedDate = rawDate.toLocaleString('en-GB', {
 <Debug {post} />
 <article class="mb-6 transition px-4">
   <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
-    <Image
+    <OptimizedImage
       src={post.image ? post.image : defaultPostImage}
-      alt={post.title}
+      alt={post.imageAlt || post.title}
+      title={post.title}
       class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+      format="webp"
+      quality={80}
+      loading="lazy"
     />
   </div>
 

@@ -5,14 +5,13 @@ categories:
   - projects
   - chipshop
 tags:
-  - boardgames
-  - playtesting
-  - gamedesign
+  - Boardgames
+  - Playtesting
+  - Gamedesign
 summary: >-
   A few small updates in this blog post, however, they have a large impact on
   the game.
 ---
-
 A few small updates in this blog post, however, they have a large impact on the game.
 
 ## Regional Focus

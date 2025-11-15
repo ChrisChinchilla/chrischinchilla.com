@@ -6,8 +6,8 @@ categories:
   - projects
   - chipshop
 tags:
-  - games
-  - playtesting
+  - Games
+  - Playtesting
 summary: A few more changes from my first play testing session.
 ---
 A few more changes from my first play testing session.

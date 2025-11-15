@@ -5,15 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   What's going on in Sydney? Are there copious amounts of young men mating with
   drum machines, synthesizers and 80's dropouts? The city seems to be spawning a
   lot of electro bands recently that generally favour epic, fantastical sounding
   names and presentation.
 ---
-
 What's going on in Sydney? Are there copious amounts of young men mating with drum machines, synthesizers and 80's dropouts? The city seems to be spawning a lot of electro bands recently that generally favour epic, fantastical sounding names and presentation.
 
 Los Valentinos have described their current release as 'Conquistadisco', which, frankly, is a brilliant if somewhat tongue-in-cheek sounding genre but sadly there's few discernable Latin overtones bar one Spanish song title (with English translation!). There are few undercurrents of indigenous struggle against powerful oppressive invading forces, no long lost secretive advanced civilizations, no gold, no cocoa, no smallpox (thankfully) and no sign of point for creating a 'new' genre. However there are a couple of songs that 'could' be about Latin America, though it's always kind of hard to tell quite what bands of this ilk are actually on about.

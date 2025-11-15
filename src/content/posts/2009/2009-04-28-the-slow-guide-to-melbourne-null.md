@@ -5,11 +5,10 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - books
-  - reviews
+  - Books
+  - Reviews
 summary: '<a href=https://www.slowguides.com.au>www.slowguides.com.au</a>'
 ---
-
 <a href=https://www.slowguides.com.au>www.slowguides.com.au</a>
 
 'Slow' is an increasingly popular worldwide movement encouraging us to all, well, slow down. To take time out from our increasingly (and frequently self inflicted) hectic lives to appreciate what is around us, to take time to notice little things that were previously unnoticed, investigate places un-investigated, try new experiences and treat the world in a different, more relaxed and inquisitive manner.

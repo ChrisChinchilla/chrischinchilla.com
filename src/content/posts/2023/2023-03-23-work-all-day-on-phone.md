@@ -5,9 +5,9 @@ author: Chris Ward
 categories:
   - writing
 tags:
-  - android
-  - pixel
-  - productivity
+  - Android
+  - Pixel
+  - Productivity
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-
   Last week, I stupidly left the apartment to take a stroll with my office keys.
@@ -16,7 +16,6 @@ summary: >-
   sick, the weather was foul, and my wife wasn’t due to return from a work trip
   until late evening.
 ---
-
 Last week, I stupidly left the apartment to take a stroll with my office keys. As I shut the front door to double lock it and stared at the wrong set of keys in my hands with disbelief, I realised my mistake. To make things worse, I was sick, the weather was foul, and my wife wasn’t due to return from a work trip until late evening.
 
 Resolved in the fact that I was stuck with just my wallet and phone for the day, and thanking the stars I had the option to go to the office, I headed in. I wondered if I could be like so many others I have heard of, and spend the entire day working on my phone.

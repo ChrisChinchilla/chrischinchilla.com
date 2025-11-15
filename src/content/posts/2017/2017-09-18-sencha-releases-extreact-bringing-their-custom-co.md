@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - react
-  - ext js
-  - javascript
-  - cross platform
-  - mobile
-  - mobile app development
-  - web development
+  - React
+  - Ext Js
+  - Javascript
+  - Cross Platform
+  - Mobile
+  - Mobile App Development
+  - Web Development
 publication_url: 'https://dzone.com/articles/sencha-releases-extreact-bringing-their-custom-com'
 image: /src/assets/images/articles/6602816.jpeg
 summary: >-

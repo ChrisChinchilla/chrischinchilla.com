@@ -5,9 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - reviews
-  - apple
-  - conference
+  - Reviews
+  - Apple
+  - Conference
 summary: >-
   There was excitement and enthusiasm in the air of MacExpo 2001, and there was
   a reason. Perhaps because Apple was exhibiting at a UK show for the first time
@@ -22,7 +22,6 @@ summary: >-
   Macs featured in adverts, TV programs, or films, so there really is a lot to
   celebrate.
 ---
-
 There was excitement and enthusiasm in the air of MacExpo 2001, and there was a reason. Perhaps because Apple was exhibiting at a UK show for the first time in five years, or perhaps because Mac users currently have a lot to celebrate, there was one of the largest turnouts of visitors and exhibitors in the history of the show. In a time of economic downturn (especially in the computing market), Apple is one of the very few IT companies currently running at a profit. A major upgrade to an amazing new OS has been released, developers are flocking back to the Mac in droves, machines are increasing in power but decreasing in price, and now Apple has once again starting manufacturing non-Mac products. To top all that you can't move without seeing Macs featured in adverts, TV programs, or films, so there really is a lot to celebrate.
 
 The major product releases aside, trade shows like MacExpo are an excellent place for smaller companies to flaunt their wares, so it was encouraging to see lesser known companies' equally competent software and hardware. It's almost impossible to detail every single product and manufacturer, but here are the products that appealed most to me, whether due to merit or the looks of their presentation stands.

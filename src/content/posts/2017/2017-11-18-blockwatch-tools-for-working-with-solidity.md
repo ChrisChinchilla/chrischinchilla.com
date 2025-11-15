@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - ethereum
-  - solidity
-  - blockchain
-  - smart contracts
-  - security
+  - Ethereum
+  - Solidity
+  - Blockchain
+  - Smart Contracts
+  - Security
 publication_url: 'https://dzone.com/articles/blockwatch-tools-for-working-with-solidity'
 image: /src/assets/images/articles/7251719.jpeg
 summary: >-

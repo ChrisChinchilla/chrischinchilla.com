@@ -5,13 +5,12 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - drama
-  - creative
+  - Drama
+  - Creative
 summary: >-
   When I was younger I did a lot of acting at school and at some youth drama
   groups, but that was nigh on 7 or 8 years ago...
 ---
-
 When I was younger I did a lot of acting at school and at some youth drama groups, but that was nigh on 7 or 8 years ago...
 
 I just got a part in a short film today!

@@ -6,13 +6,12 @@ categories:
   - chipshop
 image: /src/assets/images/articles/image-playtesting-is-open-again.jpg
 tags:
-  - games
-  - playtesting
+  - Games
+  - Playtesting
 summary: >-
   After making many changes, some of which I will get around to blogging about
   soon, play testing for Chip Shop is open again!
 ---
-
 After making many changes, some of which I will get around to blogging about soon, play testing for Chip Shop is open again!
 
 If you're not already signed up to the testing newsletter, [then join here](https://gregariousmammal.us10.list-manage.com/subscribe?u=a177a7811dd28fcd87829f78f&id=13bd96907c), but this isn't compulsory, it will just keep you up to date.

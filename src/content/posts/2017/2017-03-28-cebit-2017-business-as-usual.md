@@ -7,10 +7,10 @@ categories:
   - dzone
 tags:
   - IoT
-  - industrial
-  - CeBIT
-  - conferences
-  - enterprise
+  - Industrial
+  - Cebit
+  - Conferences
+  - Enterprise
 publication_url: 'https://dzone.com/articles/cebit-2017-business-as-usual'
 summary: >-
   I’ve never been to CeBit before, but it’s reasonably well-known on the tech
@@ -18,5 +18,4 @@ summary: >-
   from home, I jumped on a Deutsche Bahn and headed to the Worlds largest
   fairground in Hannover.
 ---
-
 I’ve never been to CeBit before, but it’s reasonably well-known on the tech conference circuit for announcements, and as it’s only a two-hour train ride from home, I jumped on a Deutsche Bahn and headed to the Worlds largest fairground in Hannover.

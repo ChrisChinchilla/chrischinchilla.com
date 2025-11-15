@@ -4,26 +4,51 @@ import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
 import SupportBlock from '~/components/SupportBlock.astro';
+import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import { MetaSEO } from '~/types';
 
 export interface Props {}
 
 const { frontmatter } = Astro.props;
-//TODO: Description needs to be excerpt
+
+// Generate breadcrumb items
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  { label: 'Blog', href: '/blog' },
+  { label: frontmatter.title },
+];
 const meta: MetaSEO = {
   title: frontmatter?.title,
-  description: frontmatter?.title,
+  description: frontmatter?.summary || frontmatter?.description || frontmatter?.title,
   publication_url: frontmatter?.publication_url,
+  openGraph: {
+    type: 'article',
+    article: {
+      publishedTime: frontmatter?.publishDate,
+      modifiedTime: frontmatter?.modifiedDate || frontmatter?.publishDate,
+      authors: frontmatter?.author ? [frontmatter.author] : undefined,
+      tags: frontmatter?.tags,
+      section: frontmatter?.categories?.[0],
+    },
+  },
 };
 ---
 
 <Layout {meta}>
+  <slot name="head" slot="head" />
   <Announcement />
   <Header />
 
   <main>
     <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
+      <Breadcrumb items={breadcrumbItems} />
       <h1 class="font-bold font-heading text-3xl md:text-4xl leading-tighter tracking-tighter">{frontmatter.title}</h1>
+      {frontmatter.publishDate && (
+        <p class="text-gray-600 dark:text-gray-400 mt-2">
+          Published on {new Date(frontmatter.publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          {frontmatter.author && ` by ${frontmatter.author}`}
+        </p>
+      )}
       <div
         class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
       >

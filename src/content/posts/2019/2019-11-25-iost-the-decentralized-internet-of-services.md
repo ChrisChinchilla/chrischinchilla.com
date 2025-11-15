@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - iost
-  - javascript
-  - consensus algorithm
-  - go lang
-  - agile
-  - interview
+  - Blockchain
+  - Iost
+  - Javascript
+  - Consensus Algorithm
+  - Go Lang
+  - Agile
+  - Interview
 publication_url: 'https://dzone.com/articles/-iost-the-decentralized-internet-of-services'
 image: /src/assets/images/articles/12746997.jpeg
 summary: >-

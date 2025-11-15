@@ -5,14 +5,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - tv
-  - film
-  - music
+  - Tv
+  - Film
+  - Music
 summary: >-
   Once again, I've let personal posts lapse to the point where I've forgotten
   when I last posted one and what I said...
 ---
-
 Once again, I've let personal posts lapse to the point where I've forgotten when I last posted one and what I said...
 
 So, I'll just catch up with a few random bits and pieces in no particular order and try again...

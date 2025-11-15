@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   With a name like Bass Clef, it was never going to be Fay Indie rock was it?
   Marvellous dark dub with fat (phat?) synth bass lines, frantic beats and eerie
@@ -14,5 +14,4 @@ summary: >-
   inventive dance music, a little repetitive in places, but hey, that's the
   point.
 ---
-
 With a name like Bass Clef, it was never going to be Fay Indie rock was it? Marvellous dark dub with fat (phat?) synth bass lines, frantic beats and eerie vocal snippets, each track melding into the next in an hour long slab of inventive dance music, a little repetitive in places, but hey, that's the point.

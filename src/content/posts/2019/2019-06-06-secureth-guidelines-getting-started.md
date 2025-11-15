@@ -5,7 +5,7 @@ author: Chris Ward
 categories:
   - writing kauri
 tags:
-  - guidelines
+  - Guidelines
 publication_url: 'https://kauri.io/article/791ef4c00e924247921e98c95efbdd73'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-

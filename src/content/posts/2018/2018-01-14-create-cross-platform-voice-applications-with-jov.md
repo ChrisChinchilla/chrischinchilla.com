@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - alexa
-  - google assistant
-  - voice interfaces
-  - vui
-  - ai
-  - tutorial
-  - bot development
+  - Alexa
+  - Google Assistant
+  - Voice Interfaces
+  - Vui
+  - AI
+  - Tutorial
+  - Bot Development
 publication_url: 'https://dzone.com/articles/create-cross-platform-voice-applications-with-jovo'
 image: /src/assets/images/articles/7827848.jpeg
 summary: >-

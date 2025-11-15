@@ -7,9 +7,9 @@ categories:
 tags:
   - Flink Community
   - Flink Features
-  - apache flink
-  - flink community
-  - year in review
+  - Apache Flink
+  - Flink Community
+  - Year In Review
 publication_url: 'https://data-artisans.com/blog/apache-flink-in-2017-year-in-review'
 image: /src/assets/images/articles/github-stats-2017.png
 summary: >-

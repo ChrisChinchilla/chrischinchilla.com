@@ -7,9 +7,9 @@ author: Chris Ward
 categories:
   - writing kauri
 tags:
-  - documentation
-  - hackathons
-  - community
+  - Documentation
+  - Hackathons
+  - Community
 publication_url: 'https://kauri.io/article/b2c15b0fc0ef49dfa4f4656590398d55'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-

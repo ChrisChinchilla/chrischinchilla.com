@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - books
-  - reviews
+  - Books
+  - Reviews
 summary: >-
   'Slow' is an increasingly popular worldwide movement encouraging us to all,
   well, slow down. To take time out from our increasingly (and frequently self
@@ -15,7 +15,6 @@ summary: >-
   un-investigated, try new experiences and treat the world in a different, more
   relaxed and inquisitive manner.
 ---
-
 'Slow' is an increasingly popular worldwide movement encouraging us to all, well, slow down. To take time out from our increasingly (and frequently self inflicted) hectic lives to appreciate what is around us, to take time to notice little things that were previously unnoticed, investigate places un-investigated, try new experiences and treat the world in a different, more relaxed and inquisitive manner.
 
 Affirm Press's 'Slow Guides' to Melbourne and Sydney are the first (of hopefully many) in a series of handbooks to an alternative way of enjoying your favourite city. This review will focus on the Melbourne edition as it's where I live and the city I know best.

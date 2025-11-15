@@ -5,7 +5,7 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - events
+  - Events
 summary: >-
   The <a href="https://www.ted.com/tedx" target="_blank">tedx</a> model is a
   slightly strange one, fraught with as many positives as negatives for
@@ -13,7 +13,6 @@ summary: >-
   Tonight had a packed room, but was unfortunately fraught with technical issues
   and joins several other local tedx events around Melbourne.
 ---
-
 The <a href="https://www.ted.com/tedx" target="_blank">tedx</a> model is a slightly strange one, fraught with as many positives as negatives for organisers, however it does create a fascinating ecosystem around the world. Tonight had a packed room, but was unfortunately fraught with technical issues and joins several other local tedx events around Melbourne.
 
 **Viv Benjamin, Oaktree foundation**

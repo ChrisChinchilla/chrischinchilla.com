@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - ubuntu
-  - linux
-  - canonical
-  - kubernetes
+  - Ubuntu
+  - Linux
+  - Canonical
+  - Kubernetes
 publication_url: 'https://dzone.com/articles/-ubuntu-2004-lts-focal-fossa-enterprise-ready'
 image: /src/assets/images/articles/13286291.jpeg
 summary: >-

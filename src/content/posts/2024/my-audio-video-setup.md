@@ -4,17 +4,16 @@ publishDate: 2024-05-29T00:00:00.000Z
 categories:
   - writing
 tags:
-  - podcasting
-  - video
-  - audio
-  - editing
+  - Podcasting
+  - Video
+  - Audio
+  - Editing
 image: /src/assets/images/articles/av-hero.png
 summary: >-
   A few years ago I detailed the hardware and software I use for producing my
   podcasts and videos. Since then, I have changed a lot, so it seemed a good
   time to revisit.
 ---
-
 [A few years ago I detailed the hardware and software I use for producing my podcasts and videos](https://chrischinchilla.com/blog/2021/2021-09-07-my-audio-video-production-setup/). Since then, I have changed a lot, so it seemed a good time to revisit.
 
 My last post mentioned that I had two setups for video and audio production, my “A” setup in my small office-cum-studio and my “B” setup at home. I almost exclusively use the “A” setup these days, and when I do use the “B” setup, it’s almost identical to what I detailed in the older post.
