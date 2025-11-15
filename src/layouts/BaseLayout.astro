@@ -1,5 +1,6 @@
 ---
 import '~/assets/styles/base.css';
+import '~/assets/styles/mobile.css';
 
 import MetaTags from '~/components/common/MetaTags.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
@@ -16,7 +17,7 @@ const { language = 'en', textDirection = 'ltr' } = SITE;
 ---
 
 <!DOCTYPE html>
-<html lang={language} dir={textDirection} class="2xl:text-[20px]">
+<html lang={language} dir={textDirection} class="text-base lg:text-lg 2xl:text-[20px]">
   <head>
     <MetaTags {...meta} />
     <slot name="head" />
