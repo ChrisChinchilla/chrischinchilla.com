@@ -12,7 +12,7 @@
 
   /* Social media icons - increase touch area */
   .social-icon,
-  a[class*="social"] {
+  a[class*='social'] {
     padding: 12px !important;
   }
 
@@ -25,14 +25,14 @@
 
   /* Card padding optimization */
   .card,
-  [class*="p-6"] {
+  [class*='p-6'] {
     padding: 16px !important;
   }
 
   /* Typography adjustments */
   .prose {
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.7;
   }
 
   .prose h1 {
@@ -67,7 +67,12 @@
   }
 
   /* Reduce excessive tracking on mobile */
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     letter-spacing: -0.01em;
   }
 
@@ -83,7 +88,7 @@
 
   /* Container adjustments */
   .container,
-  [class*="max-w"] {
+  [class*='max-w'] {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -179,7 +184,8 @@
   }
 
   /* Increase tap highlight */
-  a, button {
+  a,
+  button {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
   }
 
@@ -201,8 +207,8 @@
   }
 
   /* Better checkbox and radio sizing */
-  input[type="checkbox"],
-  input[type="radio"] {
+  input[type='checkbox'],
+  input[type='radio'] {
     width: 20px;
     height: 20px;
     min-width: 20px;
