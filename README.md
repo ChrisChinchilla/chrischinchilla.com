@@ -1,49 +1,100 @@
-# Welcome to [Astro](https://astro.build)
+# Chris Chinchilla - Personal Website
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+The personal website of Chris Chinchilla.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+🌐 **Live Site:** [https://chrischinchilla.com](https://chrischinchilla.com)
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+## About This Site
 
+Shows my work across multiple creative and technical domains:
 
-## 🚀 Project Structure
+- **Blog Posts** - Technical articles, tutorials, and opinion pieces
+- **Podcasts** - Audio content on technology and creative topics
+- **Books** - Published works and writing projects
+- **Games** - Interactive fiction and game development projects
+- **Events** - Speaking engagements, conferences, and workshops
+- **Client Work** - Portfolio of professional projects
 
-Inside of your Astro project, you'll see the following folders and files:
+## Tech Stack
+
+Built with [Astro](https://astro.build) and deployed on Netlify.
+
+## Project Structure
 
 ```
 /
-├── public/
-│   └── favicon.svg
+├── public/              # Static assets
 ├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── assets/         # Images and media files
+│   ├── components/     # Reusable Astro/React components
+│   ├── content/        # Content collections (blog, podcasts, books, etc.)
+│   ├── layouts/        # Page layouts
+│   ├── pages/          # Route pages
+│   ├── utils/          # Utility functions
+│   └── config.mjs      # Site configuration
+├── astro.config.mjs    # Astro configuration
+└── package.json        # Dependencies and scripts
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Development
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Prerequisites
 
-Any static assets, like images, can be placed in the `public/` directory.
+- Node.js (see package.json for version requirements)
+- npm
 
-## 🧞 Commands
+### Commands
 
-All commands are run from the root of the project, from a terminal:
+All commands are run from the root of the project:
 
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `npm install`          | Install dependencies                             |
+| `npm run dev`          | Start local dev server at `localhost:4321`       |
+| `npm run build`        | Build production site to `./dist/`               |
+| `npm run buildv`       | Build with verbose output                        |
+| `npm run preview`      | Preview build locally before deploying           |
+| `npm run format`       | Format code with Prettier                        |
+| `npm run lint:eslint`  | Lint code with ESLint                            |
 
-## 👀 Want to learn more?
+### Getting Started
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser to `http://localhost:4321`
+
+## Content Management
+
+Content is organized into collections located in `src/content/`:
+
+- `blog/` - Blog posts
+- `podcast/` - Podcast episodes
+- `book/` - Books and publications
+- `game/` - Game projects
+- `event/` - Speaking events and conferences
+- `client/` - Client work and portfolio items
+
+Each content type uses frontmatter for metadata and can be written in Markdown or MDX.
+
+## Configuration
+
+Site configuration is managed in `src/config.mjs`, including:
+
+- Site metadata (title, description, origin)
+- Content collection settings (pagination, permalinks)
+- Feature toggles for different content types
+
+## Deployment
+
+The site is automatically deployed to Netlify when changes are pushed to the main branch.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
