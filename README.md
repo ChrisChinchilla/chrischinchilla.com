@@ -32,7 +32,7 @@ Built with [Astro](https://astro.build) and deployed on Netlify.
 │   ├── pages/          # Route pages
 │   ├── utils/          # Utility functions
 │   └── config.mjs      # Site configuration
-├── astro.config.mjs    # Astro configuration
+├── astro.config.ts     # Astro configuration
 └── package.json        # Dependencies and scripts
 ```
 
