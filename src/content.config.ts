@@ -42,6 +42,10 @@ const posts = defineCollection({
       // category: z.string().optional(),
       tags: z.array(z.string()).optional(),
       // author: z.string().optional(),
+
+      // Hero carousel properties
+      herotext: z.string().optional(),
+      heroimage: image().optional(),
     }),
 });
 
@@ -72,6 +76,11 @@ const events = defineCollection({
       venue: z.string().optional(),
       pres_source: z.string().optional(),
       pres_url: z.string().optional(),
+      publication_url: z.string().url().optional(),
+
+      // Hero carousel properties
+      herotext: z.string().optional(),
+      heroimage: image().optional(),
     }),
 });
 
@@ -114,6 +123,11 @@ const books = defineCollection({
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
       publish_date: z.date(),
       role: z.string(),
+      publication_url: z.string().url().optional(),
+
+      // Hero carousel properties
+      herotext: z.string().optional(),
+      heroimage: image().optional(),
     }),
 });
 
@@ -145,6 +159,11 @@ const podcasts = defineCollection({
       descript_embed: z.string().optional(),
       transcript: z.string().optional(),
       category: z.string().optional().default('Chinchilla Squeaks'),
+      publication_url: z.string().url().optional(),
+
+      // Hero carousel properties
+      herotext: z.string().optional(),
+      heroimage: image().optional(),
     }),
 });
 
@@ -157,6 +176,11 @@ const newsletters = defineCollection({
       date: z.date(),
       summary: z.string().optional(),
       image: z.union([z.string().url(), image()]),
+      publication_url: z.string().url().optional(),
+
+      // Hero carousel properties
+      herotext: z.string().optional(),
+      heroimage: image().optional(),
     }),
 });
 

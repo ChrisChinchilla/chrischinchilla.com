@@ -1,14 +1,14 @@
 ---
-import { SITE } from '~/config.mjs';
-import Layout from '~/layouts/PageLayout.astro';
+import { SITE } from "~/config.mjs";
+import Layout from "~/layouts/PageLayout.astro";
 
-import Hero from '~/components/widgets/Hero.astro';
-import HeroBGImg from '~/components/widgets/HeroBGImg.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import HighlightedPosts from '~/components/blog/HighlightedPosts.astro';
-import LatestPosts from '~/components/blog/LatestPosts.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import Note from '~/components/widgets/Note.astro';
+import Hero from "~/components/widgets/Hero.astro";
+import HeroBGImg from "~/components/widgets/HeroBGImg.astro";
+import Features2 from "~/components/widgets/Features2.astro";
+import HighlightedPosts from "~/components/blog/HighlightedPosts.astro";
+import LatestPosts from "~/components/blog/LatestPosts.astro";
+import CallToAction from "~/components/widgets/CallToAction.astro";
+import Note from "~/components/widgets/Note.astro";
 
 const meta = {
   title: SITE.title,
@@ -20,15 +20,16 @@ const meta = {
 <Layout {meta}>
   <!-- Hero Widget ******************* -->
   <!-- TODO: Parameterise -->
-  <HeroBGImg callToAction={{ text: 'What do I do?', href: '#features2' }}>
+  <HeroBGImg callToAction={{ text: "What do I do?", href: "#features2" }}>
     <!-- TODO: Parameterise -->
     <Fragment slot="title"> I am Chris Chinchilla 👋 </Fragment>
     <!-- TODO: Parameterise -->
     <Fragment slot="subtitle">
-      I tell stories through documentation, blog posts, videos, books and more. I am a podcaster, video maker, writer of
-      interactive fiction, and games.
+      I tell stories through documentation, blog posts, videos, books and more.
+      I am a podcaster, video maker, writer of interactive fiction, and games.
     </Fragment>
   </HeroBGImg>
+  <Hero />
 
   <!-- Features Widget *************** -->
 
@@ -45,47 +46,54 @@ const meta = {
     subtitle="Here's all I do, well mostly…"
     items={[
       {
-        title: 'Writing',
-        description: 'Find my blog posts and books or hire me to write and edit something for you!',
-        icon: 'ph:pencil-circle-bold',
+        title: "Writing",
+        description:
+          "Find my blog posts and books or hire me to write and edit something for you!",
+        icon: "ph:pencil-circle-bold",
         // TODO: Generalised writing page
-        permalink: '/blog',
+        permalink: "/blog",
       },
       {
-        title: 'Podcasts',
-        description: 'Hear me on one of the many podcasts I regulary host and appear on.',
-        icon: 'fa:podcast',
-        permalink: '/podcast',
+        title: "Podcasts",
+        description:
+          "Hear me on one of the many podcasts I regulary host and appear on.",
+        icon: "fa:podcast",
+        permalink: "/podcast",
       },
       {
-        title: 'Videos',
-        description: 'Watch all my livestreams, recorded videos, and presentations.',
-        icon: 'fa:podcast',
-        permalink: '/videos',
+        title: "Videos",
+        description:
+          "Watch all my livestreams, recorded videos, and presentations.",
+        icon: "fa:podcast",
+        permalink: "/videos",
       },
       {
-        title: 'Games',
-        description: 'Download, buy, and play games I created or contributed to.',
-        icon: 'fa:podcast',
-        permalink: '/games',
+        title: "Games",
+        description:
+          "Download, buy, and play games I created or contributed to.",
+        icon: "fa:podcast",
+        permalink: "/games",
       },
       {
-        title: 'Events',
-        description: "Meetups and conferences I'm speaking at, reporting on, or attending.",
-        icon: 'carbon:calendar-heat-map',
-        permalink: '/events',
+        title: "Events",
+        description:
+          "Meetups and conferences I'm speaking at, reporting on, or attending.",
+        icon: "carbon:calendar-heat-map",
+        permalink: "/events",
       },
       {
-        title: 'Work',
-        description: "Who I've worked with, the work I've done, and how I can help you.",
-        icon: 'fluent:people-audience-20-filled',
-        permalink: '/clients',
+        title: "Work",
+        description:
+          "Who I've worked with, the work I've done, and how I can help you.",
+        icon: "fluent:people-audience-20-filled",
+        permalink: "/clients",
       },
       {
-        title: 'Support',
-        description: 'Like what I do? Support me with a donation, subscription, or buy merchandise.',
-        icon: 'ri:money-euro-circle-fill',
-        permalink: '/support',
+        title: "Support",
+        description:
+          "Like what I do? Support me with a donation, subscription, or buy merchandise.",
+        icon: "ri:money-euro-circle-fill",
+        permalink: "/support",
       },
     ]}
   />
@@ -115,9 +123,9 @@ const meta = {
 
   <CallToAction
     callToAction={{
-      text: 'View archive',
-      href: 'https://chinchillasqueaks.substack.com',
-      icon: 'tabler:download',
+      text: "View archive",
+      href: "https://chinchillasqueaks.substack.com",
+      icon: "tabler:download",
     }}
   >
     <Fragment slot="title">
