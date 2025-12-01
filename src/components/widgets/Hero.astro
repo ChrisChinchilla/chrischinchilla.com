@@ -19,6 +19,18 @@ import { getCollection } from 'astro:content';
 import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
 
+// Content entry from Astro collections with hero properties
+interface ContentEntry {
+  id: string;
+  data: {
+    title: string;
+    herotext?: string;
+    heroimage?: any;
+    publication_url?: string;
+  };
+}
+
+// Hero item for the carousel display
 interface HeroItem {
   slug: string;
   herotext: string;
@@ -35,7 +47,8 @@ const allPodcasts = await getCollection('podcasts');
 const allNewsletters = await getCollection('newsletters');
 
 // Helper function to map content to hero items
-const mapToHeroItem = (item: any, type: HeroItem['type'], basePath: string): HeroItem | null => {
+// Constructs the full slug URL using the content entry's id or publication_url
+const mapToHeroItem = (item: ContentEntry, type: HeroItem['type'], basePath: string): HeroItem | null => {
   if (!item.data.herotext || !item.data.heroimage) return null;
 
   return {
