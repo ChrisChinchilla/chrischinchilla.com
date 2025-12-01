@@ -80,7 +80,8 @@ const events = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: image().optional(),
+      heroimage: z.union([z.string().url(), image()]).optional(),
+
     }),
 });
 
