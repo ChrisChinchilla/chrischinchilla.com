@@ -14,6 +14,7 @@
  * - Supports both internal content and external publication URLs
  * - Responsive design with rounded corners and drop shadow
  * - Supports multiple content types: posts, books, events, podcasts, newsletters
+ * - Sorted by date (most recent first) for intentional display order
  */
 import { getCollection } from 'astro:content';
 import { Icon } from 'astro-icon/components';
@@ -25,6 +26,7 @@ interface HeroItem {
   heroimage: any;
   title: string;
   type: 'post' | 'book' | 'event' | 'podcast' | 'newsletter';
+  date: Date | null;
 }
 
 // Fetch all content collections
@@ -35,8 +37,15 @@ const allPodcasts = await getCollection('podcasts');
 const allNewsletters = await getCollection('newsletters');
 
 // Helper function to map content to hero items
-const mapToHeroItem = (item: any, type: HeroItem['type'], basePath: string): HeroItem | null => {
+const mapToHeroItem = (item: any, type: HeroItem['type'], basePath: string, dateField: string | null): HeroItem | null => {
   if (!item.data.herotext || !item.data.heroimage) return null;
+
+  // Extract date from the appropriate field (null for content types without dates)
+  let date: Date | null = null;
+  if (dateField) {
+    const dateValue = item.data[dateField];
+    date = dateValue instanceof Date ? dateValue : (typeof dateValue === 'string' ? new Date(dateValue) : null);
+  }
 
   return {
     slug: item.data.publication_url ?? `/${basePath}/${item.id}`,
@@ -44,17 +53,26 @@ const mapToHeroItem = (item: any, type: HeroItem['type'], basePath: string): Her
     heroimage: item.data.heroimage,
     title: item.data.title,
     type,
+    date,
   };
 };
 
 // Collect all hero items from different content types
 const heroItems: HeroItem[] = [
-  ...allPosts.map(post => mapToHeroItem(post, 'post', 'blog')),
-  ...allBooks.map(book => mapToHeroItem(book, 'book', 'books')),
-  ...allEvents.map(event => mapToHeroItem(event, 'event', 'events')),
-  ...allPodcasts.map(podcast => mapToHeroItem(podcast, 'podcast', 'podcast')),
-  ...allNewsletters.map(newsletter => mapToHeroItem(newsletter, 'newsletter', 'newsletter')),
-].filter((item): item is HeroItem => item !== null);
+  ...allPosts.map(post => mapToHeroItem(post, 'post', 'blog', 'publishDate')),
+  ...allBooks.map(book => mapToHeroItem(book, 'book', 'books', 'publish_date')),
+  ...allEvents.map(event => mapToHeroItem(event, 'event', 'events', 'start_date')),
+  ...allPodcasts.map(podcast => mapToHeroItem(podcast, 'podcast', 'podcast', null)),
+  ...allNewsletters.map(newsletter => mapToHeroItem(newsletter, 'newsletter', 'newsletter', 'date')),
+].filter((item): item is HeroItem => item !== null)
+  .sort((a, b) => {
+    // Sort by date descending (most recent first)
+    // Items without dates go to the end
+    if (!a.date && !b.date) return 0;
+    if (!a.date) return 1;
+    if (!b.date) return -1;
+    return b.date.getTime() - a.date.getTime();
+  });
 ---
 
 {heroItems.length > 0 && (
