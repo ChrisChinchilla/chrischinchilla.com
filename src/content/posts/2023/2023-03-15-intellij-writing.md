@@ -10,7 +10,7 @@ tags:
   - Grammar checking
   - linting
   - Spell checking
-image: /src/assets/images/articles/jb-overview.png
+image: articles/jb-overview.png
 publication_url: >-
   https://medium.com/geekculture/technical-writing-with-jetbrains-writerside-and-grazie-2009208f1d4b?source=rss-------1
 summary: >-

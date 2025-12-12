@@ -7,7 +7,7 @@ categories:
 tags:
   - books
   - reviews
-image: /src/assets/images/articles/amiga-visual-commpendium.jpg
+image: articles/amiga-visual-commpendium.jpg
 summary: >-
   First, let's get the disclaimers out of the way. I helped Kickstart this book,
   but that wouldn't necessarily make my review biased...

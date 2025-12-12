@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/a-beginners-guide-to-the-dockerfile/'
-image: /src/assets/images/articles/964db6a6-69da-4366-afea-b129019aff07.png
+image: articles/964db6a6-69da-4366-afea-b129019aff07.png
 summary: >-
   The humble but powerful Dockerfile is the building block of Docker images and
   containers. In essence, it’s a list of commands the Docker engine runs to

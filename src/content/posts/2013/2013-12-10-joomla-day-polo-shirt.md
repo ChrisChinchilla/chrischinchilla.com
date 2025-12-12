@@ -1,7 +1,7 @@
 ---
 title: Joomla! Day Polo shirt
 publishDate: 2013-12-10T00:00:00.000Z
-image: /src/assets/images/articles/joomlapolo.jpg
+image: articles/joomlapolo.jpg
 categories:
   - writing
   - chrischinchilla

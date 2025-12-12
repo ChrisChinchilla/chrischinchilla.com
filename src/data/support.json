@@ -4,7 +4,7 @@
     "title": "Try the best git GUI for macOS and Windows",
     "cta": "Try Tower for free",
     "section": "affiliate",
-    "image": "/src/assets/images/affiliate/tower.png",
+    "image": "affiliate/tower.png",
     "description": "Grapple git without the grief and try Tower, the best graphical interface for git on macOS and Windows.",
     "affiliate_link": "https://go.chrischinchilla.com/tower"
   },
@@ -21,7 +21,7 @@
     "title": "Write your way",
     "cta": "Get Scrivener",
     "section": "affiliate",
-    "image": "/src/assets/images/affiliate/scrivener.png",
+    "image": "affiliate/scrivener.png",
     "description": "Scrivener is the go-to app for writers of all kinds, used every day by best-selling novelists, screenwriters, non-fiction writers, students, academics, lawyers, journalists, translators and more.",
     "affiliate_link": "https://go.chrischinchilla.com/scrivener"},
           {
@@ -29,7 +29,7 @@
     "title": "The AI writing tool with unparalleled story smarts",
     "cta": "Sign up for Sudowrite",
     "section": "affiliate",
-    "image": "/src/assets/images/affiliate/sudowrite.svg",
+    "image": "affiliate/sudowrite.svg",
     "description": "Sudowrite is an AI-powered writing assistant that helps you brainstorm, outline, and write your stories.",
     "affiliate_link": "https://go.chrischinchilla.com/sudowrite"},
       {
@@ -37,7 +37,7 @@
     "title": "Capture your screen effortlessly",
     "cta": "Get Simple Screenshot",
     "section": "affiliate",
-    "image": "/src/assets/images/affiliate/simple-screenshot.png",
+    "image": "affiliate/simple-screenshot.png",
     "description": "Simple and clear, but packed with features, Simple Screenshot is a drop in replacement for macOS.",
     "affiliate_link": "https://go.chrischinchilla.com/simple-screenshot"},
   {
@@ -45,7 +45,7 @@
     "cta": "Try Mermaid Chart",
     "title": "Want the power of Mermaid for enterprises?",
     "section": "affiliate",
-    "image": "/src/assets/images/affiliate/mermaid.svg",
+    "image": "affiliate/mermaid.svg",
     "description": "Mermaid chart brings WYSIWYG editing, generative AI, collaboration, and more to the flexible syntax of Mermaid.",
     "affiliate_link": "https://go.chrischinchilla.com/mermaid"
   },
@@ -54,7 +54,7 @@
     "title": "Text based video and audio editing",
     "cta": "Download Descript",
     "section": "affiliate",
-    "image": "/src/assets/images/affiliate/descript.svg",
+    "image": "affiliate/descript.svg",
     "description": " Are you looking to make editing audio and video easier and more prowerful with a suite of AI-powerd features? Try Descript, I use it for editing all my podcasts and you can to!",
     "affiliate_link": "https://go.chrischinchilla.com/descript"
   },
@@ -63,7 +63,7 @@
     "title": "100s of amazing Mac apps",
     "cta": "Get Setapp",
     "section": "affiliate",
-    "image": "/src/assets/images/affiliate/setapp.svg",
+    "image": "affiliate/setapp.svg",
     "description": "Looking to supercharge your Mac with 100s of apps to choose from and one low monthly price? Take a look at Setapp from MacPaw.",
     "affiliate_link": "https://go.chrischinchilla.com/setapp"
   },
@@ -72,7 +72,7 @@
     "title": "The ultimate macOS productivity app",
     "cta": "Try Raycast",
     "section": "affiliate",
-    "image": "/src/assets/images/affiliate/raycast.png",
+    "image": "affiliate/raycast.png",
     "description": "Want to improve your productivity on macOS with a Shortcut to everything.",
     "affiliate_link": "https://go.chrischinchilla.com/raycast"
   },
@@ -81,7 +81,7 @@
     "title": "Learn something new today",
     "cta": "30% off ANYTHING at Manning",
     "section": "affiliate",
-    "image": "/src/assets/images/affiliate/manning.svg",
+    "image": "affiliate/manning.svg",
     "description": "Start learning something new or up-skilling with a book or course.",
     "affiliate_link": "https://go.chrischinchilla.com/manning"
   },

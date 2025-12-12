@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: /src/assets/images/articles/1*ujmfgf5E8f14RBpJ8k7DsQ.webp
+image: articles/1*ujmfgf5E8f14RBpJ8k7DsQ.webp
 summary: >-
   In my previous post I covered my creative writing setup and the post proved
   quite popular, so I thank everyone who read and left comments for that. Next

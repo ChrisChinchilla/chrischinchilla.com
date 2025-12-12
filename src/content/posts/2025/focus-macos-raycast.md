@@ -10,7 +10,7 @@ tags:
   - Apple
   - Raycast
   - macOS
-image: "/src/assets/images/articles/focus-chinchilla.jpg"
+image: "articles/focus-chinchilla.jpg"
 summary: >-
   Surrounded by digital devices, it's all too easy to use any number of them to access a world of distractions, rather than focus on doing what you need to get done. In a strange, ironic twist, many of the devices and operating systems now offer tools to help block and filter these distractions. When I split myself between macOS and Android, I had focus modes set on both (conveniently, both OSs call them the same thing), but I never found them to be that effective, as I'd have to keep remembering to keep the equivalent modes the same on both devices. Then I bought an iPhone and discovered that the focus modes mostly sync between devices.  With the arrival of the "Reduce Interruptions" focus mode in the 2024 operating systems, I went all in on optimising focus modes to work as efficiently as possible, not only blocking and filtering as many distractions as possible, but also automating them as much as possible.
 ---
@@ -33,7 +33,7 @@ The _Intelligent Breakthrough and Silencing_ section is an Apple intelligence fe
 
 I have found that in addition to the exceptions you set, this is generally when people directly "@" you in a chat app, messages relating to calendar events, 2FA requests, and a few other random things. It's not always accurate, and I run my computer in English, but I also receive a lot of notifications in German, so that might confuse the system.
 
-![A screenshot of application filters in focus modes](../../../assets/images/articles/focus-app-filters.jpeg)
+![A screenshot of application filters in focus modes](articles/focus-app-filters.jpeg)
 
 The _Allow_ sections let you set the people and applications that can always send you notifications, no matter what. There are several caveats here:
 
@@ -85,7 +85,7 @@ Then, once you have populated the file, you can import it into RayCast with the 
 
 One final setting to note for the Raycast focus feature is that by default, when it blocks an application, it also quits them. This is helpful, but it can make it easy to forget what you had open before starting the focus session. You can enable relaunching the applications in the focus settings.
 
-![A screenshot of the Raycast focus settings](../../../assets/images/articles/raycast-focus-quit.png)
+![A screenshot of the Raycast focus settings](articles/raycast-focus-quit.png)
 
 ## Tying it together
 
@@ -97,7 +97,7 @@ Depending on the applications you use, you may never have looked into the filter
 
 Click the focus mode you want to edit, and then the _Raycast_ section. You can select the categories and whether to block or allow them.
 
-![A screenshot of the Raycast focus filter](../../../assets/images/articles/add-raycast-focus-filter.jpeg)
+![A screenshot of the Raycast focus filter](articles/add-raycast-focus-filter.jpeg)
 
 ### Shortcuts
 
@@ -108,7 +108,7 @@ There are two ways to do this.
 One is to use the "Start Focus Session" action. You can set whether to "Block" or "Allow", set the categories, and then set a time. Any of these fields could be from variables, meaning that you could prompt for the time, categories, and more, or set them via a calendar event, or myriad other ways.
 
 The other is to use the "Set Raycast Focus Filter" action. Again, you can set most of the same fields, but the action is triggered by the specified focus mode being active. You can still pass some variables to the action, but fewer are available.
-![A screenshot of a shortcut](../../../assets/images/articles/focus-shortcut.jpeg)
+![A screenshot of a shortcut](articles/focus-shortcut.jpeg)
 
 Both actions have their use cases, personally I prefer the "Set Raycast Focus Filter" action as it makes the macOS focus mode the, err, "focus" of things. But I do like the idea of using a calendar event to trigger the "Start Focus Session" action, passing the time, etc.
 
@@ -116,7 +116,7 @@ And then by using Shortcuts, you can manually trigger them with lots of other to
 
 Once you have Shortcuts running things, you can use it to trigger more actions related to your focus session. For example, apps like FocusFlight are currently popular, and several of them, FocusFlight included, support Shortcuts. In the example Shortcut below, when I enable the "Reduce interruptions" focus mode, it starts a journey in FocusFlight, starts a playlist and changes my lights. You could change the shortcut or create a paired one to toggle everything to a different state when the focus mode is disabled.
 
-![A screenshot of a shortcut](../../../assets/images/articles/focus-shortcut-example.jpeg)
+![A screenshot of a shortcut](articles/focus-shortcut-example.jpeg)
 
 ## Stay focussed
 

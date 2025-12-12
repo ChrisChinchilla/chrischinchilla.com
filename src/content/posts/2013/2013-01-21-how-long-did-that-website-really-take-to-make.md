@@ -8,7 +8,7 @@ tags:
   - web
   - html
   - internet
-image: /src/assets/images/articles/Internet_map_1024_0.jpg
+image: articles/Internet_map_1024_0.jpg
 summary: >-
   That snazzy website your looking at took a while to make didn't it? What do
   you reckon? Maybe it took the developers a few months to make. Perhaps its

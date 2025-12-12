@@ -11,7 +11,7 @@ tags:
   - platform as a service
   - service
 publication_url: 'https://dzone.com/articles/the-differences-between-a-service-catalog-internal'
-image: /src/assets/images/articles/15617203.jpeg
+image: articles/15617203.jpeg
 summary: >-
   There are many services and tools to help manage microservices. This post
   looks at some options to highlight the similarities, differences, and when or

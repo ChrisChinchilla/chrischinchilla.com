@@ -3,7 +3,7 @@ title: 'Teaching Programming: What’s the Best Language for Beginners?'
 publishDate: 2016-05-25T00:00:00.000Z
 publication_url: >-
   https://www.sitepoint.com/teaching-programming-whats-the-best-language-for-beginners/
-image: /src/assets/images/articles/teaching-programming.jpg
+image: articles/teaching-programming.jpg
 categories:
   - writing
   - sitepoint

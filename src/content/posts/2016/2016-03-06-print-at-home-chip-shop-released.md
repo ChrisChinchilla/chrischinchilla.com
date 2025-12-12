@@ -6,7 +6,7 @@ categories:
   - chipshop
 tags:
   - games
-image: /src/assets/images/articles/card_previews.png
+image: articles/card_previews.png
 summary: >-
   Chip Shop has been a labour of love for me over the past two years. It has
   been through many changes and revisions and isn't yet 100%, but I have always

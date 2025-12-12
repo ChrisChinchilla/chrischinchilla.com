@@ -15,7 +15,7 @@ tags:
   - consul
   - nomad
 publication_url: 'https://dzone.com/articles/hashicorp-tools-useful-for-continuous-integration'
-image: /src/assets/images/articles/5703108.jpeg
+image: articles/5703108.jpeg
 summary: >-
   HashiCorp tools have been around and are a standard for their contributions to
   continuous integration workflows. Learn the basics here.

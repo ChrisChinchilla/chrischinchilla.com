@@ -9,7 +9,7 @@ categories:
 tags:
   - Community
   - Events
-image: /src/assets/images/articles/1*bvencr3aH29R1c30qUwPww.jpg
+image: articles/1*bvencr3aH29R1c30qUwPww.jpg
 summary: 2021 was a difficult year for many. That's not to say that 2020 was any
 ---
 

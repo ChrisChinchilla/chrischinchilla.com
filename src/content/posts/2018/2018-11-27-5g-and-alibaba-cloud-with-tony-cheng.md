@@ -16,7 +16,7 @@ tags:
   - kubernetes
   - infrastructure as a code
 publication_url: 'https://dzone.com/articles/5g-and-alibaba-cloud-with-tony-cheng'
-image: /src/assets/images/articles/10734974.jpeg
+image: articles/10734974.jpeg
 summary: >-
   Let's take a look at Alibaba Cloud and their plans for growth in European
   markets and push towards 5G.

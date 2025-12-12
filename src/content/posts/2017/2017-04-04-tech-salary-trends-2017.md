@@ -1,7 +1,7 @@
 ---
 title: Tech Salary Trends in 2017
 publishDate: '2017-04-04 10:13:30 +0100'
-image: /src/assets/images/articles/Reports-3-800x400.jpg
+image: articles/Reports-3-800x400.jpg
 categories:
   - writing
   - dzone

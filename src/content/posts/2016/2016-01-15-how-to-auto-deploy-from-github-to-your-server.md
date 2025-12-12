@@ -9,7 +9,7 @@ tags:
   - tutorial
   - github
   - github
-image: /src/assets/images/articles/chinchilla_octocat.png
+image: articles/chinchilla_octocat.png
 summary: >-
   GitHub, and the Git version control system it's based on, are fantastic tools
   for managing and collaborating on projects – code-based or otherwise.

@@ -16,7 +16,7 @@ tags:
   - data center
   - optimization
 publication_url: 'https://dzone.com/articles/optimize-your-cloud-native-infrastructure-with-rep'
-image: /src/assets/images/articles/8003560.jpeg
+image: articles/8003560.jpeg
 summary: >-
   I spoke with the three founders of replex.io who aim to help you identify
   infrastructure inefficiencies at every level of a stack.

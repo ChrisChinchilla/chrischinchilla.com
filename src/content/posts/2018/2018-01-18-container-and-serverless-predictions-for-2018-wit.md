@@ -14,7 +14,7 @@ tags:
   - devops
   - paas
 publication_url: 'https://dzone.com/articles/container-and-serverless-predictions-for-2018-with'
-image: /src/assets/images/articles/7877448.jpeg
+image: articles/7877448.jpeg
 summary: >-
   Check out this interview with Automic's Lucas Carlson about 2018 predictions
   for the container and serverless space, especially Docker.

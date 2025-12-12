@@ -2,7 +2,7 @@
 title: An Introduction to Docker for Mac
 publishDate: 2016-07-21T00:00:00.000Z
 publication_url: 'https://blog.codeship.com/docker-for-mac/'
-image: /src/assets/images/articles/docker-for-mac.jpg
+image: articles/docker-for-mac.jpg
 categories:
   - writing
   - codeship

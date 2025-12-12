@@ -1,7 +1,7 @@
 ---
 title: What affect is tech having on society? An interview with Yael Eisenstat
 publishDate: 2017-07-21T00:00:00.000Z
-image: /src/assets/images/articles/yael.jpg
+image: articles/yael.jpg
 categories:
   - writing
   - thenextweb

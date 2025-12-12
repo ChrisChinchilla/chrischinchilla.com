@@ -8,7 +8,7 @@ categories:
 tags:
   - macos
   - version control
-image: /src/assets/images/articles/0*tMHF1hJXN_tRbkXr.webp
+image: articles/0*tMHF1hJXN_tRbkXr.webp
 summary: >-
   I finally finished my first fiction novel after two years of work and have
   already begun work on my second. I’ve also produced several short stories and

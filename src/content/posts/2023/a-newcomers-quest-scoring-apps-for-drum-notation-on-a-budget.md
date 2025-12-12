@@ -9,7 +9,7 @@ categories:
 tags:
   - music
   - notation
-image: /src/assets/images/articles/newzik.png
+image: articles/newzik.png
 summary: >-
   I have a past life in music. In the late 1990s, I produced one of the first
   online fanzines and wrote for several street press magazines in London and

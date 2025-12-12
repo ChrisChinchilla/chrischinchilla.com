@@ -7,7 +7,7 @@ categories:
 tags:
   - observability
   - sustainability
-image: /src/assets/images/articles/lineChart.png
+image: articles/lineChart.png
 publication_url: >-
   https://chronosphere.io/learn/increasing-cloud-native-sustainability-with-observability/
 summary: >-

@@ -1,6 +1,6 @@
 ---
 title: Pioneer's Path To Port Luxus - An Urban Mystery Adventure!
-image: "/src/assets/images/games/408396.jpg"
+image: "games/408396.jpg"
 publisher: Art of Karthik
 publish_date: 2022-09-04
 role: Proofreader

@@ -9,7 +9,7 @@ categories:
 tags:
   - macos
   - version control
-image: /src/assets/images/articles/1*caSn3X5r3FDF-zKsg4WQqQ.webp
+image: articles/1*caSn3X5r3FDF-zKsg4WQqQ.webp
 summary: >-
   It’s been a few years since I attended Berlin’s Internationale
   Funkausstellung, better known as IFA. And after several slow years for

@@ -10,7 +10,7 @@ tags:
   - devops
 publication_url: >-
   https://about.gitlab.com/blog/2020/03/11/make-tracking-agreements-simple-compliance-dashboard/
-image: /src/assets/images/articles/compliance_dashboard.png
+image: articles/compliance_dashboard.png
 summary: >-
   New in GitLab 12.8, this dashboard helps to simplify the complex process of
   compliance tracking, right inside GitLab.

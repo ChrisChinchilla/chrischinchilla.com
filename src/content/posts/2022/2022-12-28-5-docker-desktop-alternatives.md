@@ -9,7 +9,7 @@ tags:
   - Docker
   - Containers
 publication_url: 'https://hackernoon.com/5-docker-desktop-alternatives'
-image: /src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-2293lbr.png
+image: articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-2293lbr.png
 summary: >-
   For Windows and macOS users, Docker Desktop has been the main way to use
   Docker containers for many years. While it remains a viable and usable option

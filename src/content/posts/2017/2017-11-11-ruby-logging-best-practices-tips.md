@@ -1,7 +1,7 @@
 ---
 title: Ruby logging best practices and tips
 publishDate: 2017-11-11T00:00:00.000Z
-image: /src/assets/images/articles/ruby-logo.png
+image: articles/ruby-logo.png
 categories:
   - writing
   - coralogix

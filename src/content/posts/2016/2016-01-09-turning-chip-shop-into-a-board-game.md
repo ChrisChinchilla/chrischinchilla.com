@@ -7,7 +7,7 @@ categories:
 tags:
   - games
   - playtesting
-image: /src/assets/images/articles/board_inspiration.jpg
+image: articles/board_inspiration.jpg
 summary: >-
   I spent some time this week finishing off a lot of the changes from my last
   round of playtesting, most of these have resulted in changing Chip Shop from a

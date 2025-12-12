@@ -11,7 +11,7 @@ tags:
   - data science
   - big data
 publication_url: 'https://dzone.com/articles/computational-knowledge-with-stephen-wolfram'
-image: /src/assets/images/articles/9444041.jpeg
+image: articles/9444041.jpeg
 summary: >-
   For decades Wolfram has created tools to help scientists, mathematicians, and
   programmers get answers. We speak with Stephen about his work and

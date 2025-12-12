@@ -9,7 +9,7 @@ tags:
   - audio
   - podcast
   - streaming
-image: /src/assets/images/articles/IMG_20210609_172640.jpeg
+image: articles/IMG_20210609_172640.jpeg
 summary: >-
   I’ve been running podcasts for years, and while I worked on some video courses
   in the past, over the past year I have invested more time in my audio and

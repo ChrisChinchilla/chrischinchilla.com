@@ -9,7 +9,7 @@ categories:
 tags:
   - macos
   - version control
-image: /src/assets/images/articles/1*897NdFvO-AMJ1NfpzlkrBA.webp
+image: articles/1*897NdFvO-AMJ1NfpzlkrBA.webp
 summary: >-
   I am extremely lucky to have a display problem. I have a small home office and
   a studio setup. At home, I sometimes have my laptop under my screen and

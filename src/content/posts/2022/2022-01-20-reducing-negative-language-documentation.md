@@ -9,7 +9,7 @@ tags:
   - linting
 publication_url: >-
   https://chronosphere.io/learn/reducing-negative-and-biased-language-in-documentation/
-image: /src/assets/images/articles/ato21.png
+image: articles/ato21.png
 summary: >-
   The discussions on what represents negative, biased, and diverse language
   continue in many open source communities, often sparking heated and strongly

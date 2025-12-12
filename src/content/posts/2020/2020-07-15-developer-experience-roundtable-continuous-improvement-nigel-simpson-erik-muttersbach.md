@@ -9,7 +9,7 @@ tags:
   - DevOps
 publication_url: >-
   https://humanitec.com/blog/developer-experience-roundtable-continuous-improvement-nigel-simpson-erik-muttersbach
-image: /src/assets/images/articles/5f0daa31a8930157574bc395.png
+image: articles/5f0daa31a8930157574bc395.png
 summary: >-
   A good developer experience is crucial to keep developer teams productive,
   happy, and focussed on work important to your business aims. In this first

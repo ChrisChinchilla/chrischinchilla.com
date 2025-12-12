@@ -6,7 +6,7 @@ categories:
   - writing
   - sitepoint
 image: >-
-  /src/assets/images/articles/image-using-layout-managers-to-craftandroid-interfaces.jpg
+  articles/image-using-layout-managers-to-craftandroid-interfaces.jpg
 tags:
   - tutorial
   - android

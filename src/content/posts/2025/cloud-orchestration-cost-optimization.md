@@ -9,7 +9,7 @@ tags:
   - Cloud
   - Cost Optimization
   - Cloud Native
-image: "/src/assets/images/articles/b7f29f87-4dca-4ee0-a7a1-f674fbbcd143_2626x1876.png"
+image: "articles/b7f29f87-4dca-4ee0-a7a1-f674fbbcd143_2626x1876.png"
 summary: >-
   The move to the cloud promised to save users money and give them insights into their usage and costs.
 

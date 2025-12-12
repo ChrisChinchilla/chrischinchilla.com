@@ -9,7 +9,7 @@ tags:
   - Docs as code
   - Tools
 publication_url: 'https://www.knowledgeowl.com/home/toolsforeditingdocsascode'
-image: /src/assets/images/articles/tools-for-editing-docs-as-code.png
+image: articles/tools-for-editing-docs-as-code.png
 summary: >-
   Docs as code is an increasingly popular approach for tech writers that follows
   similar principles for writing that developers follow for writing code. Docs

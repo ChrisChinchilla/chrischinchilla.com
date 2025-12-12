@@ -11,7 +11,7 @@ tags:
   - gpu
   - machine learning
 publication_url: 'https://dzone.com/articles/do-we-need-the-worlds-first-emotional-processing-u'
-image: /src/assets/images/articles/8606605.jpeg
+image: articles/8606605.jpeg
 summary: >-
   Emoshape has created what they call the first emotional processing unit (EPU)
   dedicated to understanding and putting a value on human emotions.

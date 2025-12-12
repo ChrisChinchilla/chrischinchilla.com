@@ -14,7 +14,7 @@ tags:
   - baltics
   - connectivity
 publication_url: 'https://dzone.com/articles/our-5g-futures-at-5gtechritory'
-image: /src/assets/images/articles/10655200.jpeg
+image: articles/10655200.jpeg
 summary: >-
   Click here to learn more on how 5G is changing the future of connectivity and
   mobile communication around the globe.

@@ -2,7 +2,7 @@
 type: Technical writing
 title: Aspect
 company_url: 'https://www.aspect.build'
-image: /src/assets/images/clients/aspect.png
+image: clients/aspect.png
 category: Chris writing
 start_date: 2024
 end_date: 2025

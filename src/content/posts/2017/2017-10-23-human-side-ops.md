@@ -6,7 +6,7 @@ categories:
   - writing
 tags:
   - DevOps
-image: /src/assets/images/articles/human-side-digital-ops.jpg
+image: articles/human-side-digital-ops.jpg
 summary: >-
   It’s the morning of February 28, 2017, and vast swathes of the internet are
   unavailable. From individual sites to services that thousands of others rely

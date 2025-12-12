@@ -1,7 +1,7 @@
 ---
 title: Pravin Halady of NodeSource - Enterprise Ready Node.js
 publishDate: 2017-07-06T00:00:00.000Z
-image: /src/assets/images/articles/download.png
+image: articles/download.png
 categories:
   - writing
   - dzone

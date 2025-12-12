@@ -8,7 +8,7 @@ tags:
   - News
   - Trends
   - Tools
-image: /src/assets/images/articles/cs-opera.jpg
+image: articles/cs-opera.jpg
 summary: >-
   Welcome to a new newsletter/post/radar/term-yet-to-be-defined from me that I
   have been planning for ages. I intend it to be something of a round up of

@@ -9,7 +9,7 @@ tags:
   - Kubernetes
   - KubeCon
   - Cloud-native
-image: /src/assets/images/articles/kceu.jpeg
+image: articles/kceu.jpeg
 summary: >-
   In June, Kubernetes celebrates its tenth birthday. The system is now so widely
   used by hundreds of thousands of companies worldwide to scale their

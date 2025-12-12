@@ -3,7 +3,7 @@ type: blogging
 title: Sitepoint
 current: false
 company_url: 'https://sitepoint.com/'
-image: /src/assets/images/clients/sitepoint.png
+image: clients/sitepoint.png
 category: Chris writing editing
 start_date: 2014
 end_date: 2017

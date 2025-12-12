@@ -8,7 +8,7 @@ tags:
   - emulation
   - virtualization
   - Containers
-image: /src/assets/images/articles/orka-desktop.png
+image: articles/orka-desktop.png
 summary: >-
   Changes in recent versions of macOS have made running macOS and Linux virtual
   machines far easier and more performant. Primarily used for testing, a
@@ -32,13 +32,13 @@ In this article, I take a look at creating macOS virtual machines with [Orka Des
 
 You can set default VM resource settings, directory locations for logs, and where to pull [IPSW](https://en.wikipedia.org/wiki/IPSW) files from, which is the format used for Apple operating systems.
 
-![A screenshot of Orka Desktop's main settings screen](../../../assets/images/articles/orka-desktop-settings.jpg)
+![A screenshot of Orka Desktop's main settings screen](articles/orka-desktop-settings.jpg)
 
 ## Creating a VM
 
 Settings get more interesting when creating a VM. Here, you can override the default resource settings and configure display settings. You can also select a local IPSW file to use or pull an image from an OCI repository. I'll come back to that later.
 
-![A screenshot of Orka Desktop's VM settings screen](../../../assets/images/articles/orka-desktop-vm.jpg)
+![A screenshot of Orka Desktop's VM settings screen](articles/orka-desktop-vm.jpg)
 
 The biggest complication is that even a minimal macOS image is dozens of gigabytes, so if you need to download an image, it takes a while. When the image is downloaded, installing macOS takes a little time and involves jumping through a series of setup steps. Trust me, I have had to install Windows to VMs a couple of times recently, and setting up macOS is quick compared to Windows. At least MacOS doesn't repeatedly advertise other products and services to you.
 
@@ -54,7 +54,7 @@ With Orka Desktop instead, once you've installed and customised a VM, you can th
 
 Many OCI registries don't expect you to upload dozens of gigabytes. You may even find that some set limitations on certain account levels. The image that Orka Desktop pushes is also a somewhat impenetrable binary format for some of the registries. So, when I was looking on the image page on the Docker registry, it was hard to find what I uploaded.
 
-![A screenshot of the Docker Hub showing the uploaded VM image](../../../assets/images/articles/orka-desktop-dh.png)
+![A screenshot of the Docker Hub showing the uploaded VM image](articles/orka-desktop-dh.png)
 
 ### Pulling an image
 

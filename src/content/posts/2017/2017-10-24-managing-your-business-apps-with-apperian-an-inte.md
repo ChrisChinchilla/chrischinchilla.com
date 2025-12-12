@@ -11,7 +11,7 @@ tags:
   - mobile
   - security
 publication_url: 'https://dzone.com/articles/managing-your-business-apps-with-apperian-an-inter'
-image: /src/assets/images/articles/6995560.jpeg
+image: articles/6995560.jpeg
 summary: >-
   This interview with Mark Lorion, President and General Manager at Apperian,
   discusses the company's offerings for business app management.

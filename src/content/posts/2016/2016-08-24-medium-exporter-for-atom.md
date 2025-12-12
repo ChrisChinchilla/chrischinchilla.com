@@ -9,7 +9,7 @@ tags:
   - medium
   - export
   - markdown
-image: /src/assets/images/articles/projects/medium-export.png
+image: articles/projects/medium-export.png
 summary: >-
   I love Markdown and I love editing Markdown in Atom. But I also love the
   exposure that Medium offers, and whilst I admit it has a great editor, I like

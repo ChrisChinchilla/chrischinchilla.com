@@ -10,7 +10,7 @@ tags:
   - devops
 publication_url: 'https://humanitec.com/blog/gitops-pros-and-cons'
 image: >-
-  /src/assets/images/articles/603fa53701adc72cf930752d_gitops-pros-and-cons-p-800.jpeg
+  articles/603fa53701adc72cf930752d_gitops-pros-and-cons-p-800.jpeg
 summary: >-
   GitOps takes familiar tools such as Git and Continuous Delivery pipelines to
   automate infrastructure. The GitOps approach is vendor-neutral, provides a

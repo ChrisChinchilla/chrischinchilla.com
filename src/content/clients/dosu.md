@@ -3,7 +3,7 @@ type: Advisory
 title: Dosu
 current: false
 company_url: 'https://dosu.dev'
-image: /src/assets/images/clients/dosu.svg
+image: clients/dosu.svg
 category: Chris advisory
 start_date: 2025
 end_date: 2025

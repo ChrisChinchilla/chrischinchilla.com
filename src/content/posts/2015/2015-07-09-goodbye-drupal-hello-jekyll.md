@@ -1,7 +1,7 @@
 ---
 title: 'Goodbye Drupal, Hello Jekyll'
 publishDate: 2015-07-09T00:00:00.000Z
-image: /src/assets/images/articles/image-goodbye-drupal-hello-jekyll.jpg
+image: articles/image-goodbye-drupal-hello-jekyll.jpg
 categories:
   - projects
   - chipshop

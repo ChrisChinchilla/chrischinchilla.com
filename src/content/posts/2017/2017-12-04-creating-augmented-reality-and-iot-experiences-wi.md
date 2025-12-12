@@ -11,7 +11,7 @@ tags:
   - thingworx
   - industrial iot
 publication_url: 'https://dzone.com/articles/creating-augmented-reality-and-iot-experiences-wit'
-image: /src/assets/images/articles/7443105.jpeg
+image: articles/7443105.jpeg
 summary: >-
   Thingworx is a comprehensive SaaS platform for creating AR experiences for
   Industry 4.0 and IoT-heavy workplaces. Here are some use cases to consider.

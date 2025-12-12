@@ -12,7 +12,7 @@ tags:
   - music
   - culture
   - news
-image: /src/assets/images/articles/image-celebrity-death.jpg
+image: articles/image-celebrity-death.jpg
 summary: >-
   It's been quite a week (month, year) for celebrity death and I'm certainly not
   going to be the first or last to talk about the subject this week. I am going

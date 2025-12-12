@@ -9,7 +9,7 @@ tags:
   - Screenshots
   - Tools
 publication_url: 'https://www.knowledgeowl.com/home/screenshot-tool-comparison'
-image: /src/assets/images/articles/screenshot-tool-comparison.jpg
+image: articles/screenshot-tool-comparison.jpg
 summary: >-
   I won’t repeat any famous phrases about how pictures equalling a quantity of
   words, I think we all understand the potential power of a good visual. Well

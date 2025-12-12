@@ -12,7 +12,7 @@ tags:
   - throughput
 publication_url: >-
   https://data-artisans.com/blog/how-to-size-your-apache-flink-cluster-general-guidelines
-image: /src/assets/images/articles/How-to6.png
+image: articles/How-to6.png
 summary: '&nbsp;Hypothetical Hardware Setup'
 ---
 &nbsp;Hypothetical Hardware Setup

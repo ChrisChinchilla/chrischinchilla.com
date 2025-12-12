@@ -7,7 +7,7 @@ tags:
   - boardgames
   - toleplay
   - tools
-image: /src/assets/images/articles/dice.jpeg
+image: articles/dice.jpeg
 summary: >-
   I endlessly discover cool digital tools, apps, and websites for enhancing
   board games and roleplay games and needed an excuse to try them. So I wrote a

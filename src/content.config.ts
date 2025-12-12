@@ -154,8 +154,9 @@ const newsletters = defineCollection({
       title: z.string(),
       date: z.date(),
       summary: z.string().optional(),
-      image: z.union([z.string(), image()]),
-    }),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      image: z.union([z.string(), image()]).optional(),
+        }),
 });
 
 export const collections = {

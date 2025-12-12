@@ -9,7 +9,7 @@ categories:
 tags:
   - macos
   - web browsers
-image: /src/assets/images/articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png
+image: articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png
 summary: 'Every time Apple announces a new macOS beta, I am tempted to somehow'
 ---
 

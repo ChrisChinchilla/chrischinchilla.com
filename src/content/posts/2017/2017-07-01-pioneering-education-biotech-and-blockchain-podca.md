@@ -12,7 +12,7 @@ tags:
   - agile
   - startups
 publication_url: 'https://dzone.com/articles/pioneering-education-biotech-and-blockchain'
-image: /src/assets/images/articles/5740446.jpeg
+image: articles/5740446.jpeg
 summary: >-
   A DZone Zone Leader interviews several startups to see how their developers
   are shaping the future across several industries.

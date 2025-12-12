@@ -1,7 +1,7 @@
 ---
 title: Research Update
 publishDate: 2015-01-13T08:38:37.000Z
-image: /src/assets/images/articles/videogamesinthebeginning.jpg
+image: articles/videogamesinthebeginning.jpg
 categories:
   - projects
   - chipshop

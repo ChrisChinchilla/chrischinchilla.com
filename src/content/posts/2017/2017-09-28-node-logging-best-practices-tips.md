@@ -1,7 +1,7 @@
 ---
 title: Node logging best practices and tips
 publishDate: 2017-09-28T00:00:00.000Z
-image: /src/assets/images/articles/nodejs.jpg
+image: articles/nodejs.jpg
 categories:
   - writing
   - coralogix

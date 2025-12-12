@@ -1,7 +1,7 @@
 ---
 title: Interview With Manish Gupta of Redis Labs
 publishDate: '2017-05-27 11:13:30 +0100'
-image: /src/assets/images/articles/redis.png
+image: articles/redis.png
 categories:
   - writing
   - dzone

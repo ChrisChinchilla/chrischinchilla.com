@@ -12,7 +12,7 @@ tags:
   - hybrid cloud management solutions
   - cloud considerations
 publication_url: 'https://dzone.com/articles/the-promises-payoff-and-products-of-hybrid-clouds'
-image: /src/assets/images/articles/8992384.jpeg
+image: articles/8992384.jpeg
 summary: >-
   With more complications than initially expected, public and private cloud
   infrastructures are quickly giving way to their combination: hybird clouds.

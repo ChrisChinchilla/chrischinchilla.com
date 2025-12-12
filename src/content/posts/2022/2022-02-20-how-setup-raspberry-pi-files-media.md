@@ -9,7 +9,7 @@ tags:
   - calibre
   - nextcloud
   - minidnla
-image: /src/assets/images/articles/raspberry-pi.jpeg
+image: articles/raspberry-pi.jpeg
 summary: >-
   Over the past months, I've been slowly assembling a suite of self-hosted tools
   and services on a shiny new RaspberryPi 400, and finally, I think I am

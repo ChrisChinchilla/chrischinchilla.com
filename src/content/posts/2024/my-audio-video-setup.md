@@ -8,7 +8,7 @@ tags:
   - video
   - audio
   - editing
-image: /src/assets/images/articles/av-hero.png
+image: articles/av-hero.png
 summary: >-
   A few years ago I detailed the hardware and software I use for producing my
   podcasts and videos. Since then, I have changed a lot, so it seemed a good
@@ -27,11 +27,11 @@ My last post mentioned that I had two setups for video and audio production, my 
 
 My video setup has changed quite a bit since the last post. I now have a second-hand Lumix G7 (bought from the awesome [mpb.com][1]) connected to an [Elgato Cam Link 4k](https://amzn.to/3VjGbGO). Getting used to using a "proper" camera and optimising the correct settings for capture has and is still taking me some time. I think the last time I had such a device was a Nikon D90 a long time ago.
 
-![An image of an Elgato Cam link](../../../assets/images/articles/IMG_0241.jpeg)
+![An image of an Elgato Cam link](articles/IMG_0241.jpeg)
 
 Almost immediately I realised I needed what's called a "dummy battery" so you can plug the camera into power instead of running it on battery. Which you need depends on the camera, [but this is one for my G7](https://amzn.to/4e2i3jw).
 
-![An image of a Lumix G7 with a dummy battery](../../../assets/images/articles/IMG_0250.jpeg)
+![An image of a Lumix G7 with a dummy battery](articles/IMG_0250.jpeg)
 
 > If you're interested in knowing the camera settings, let me know.
 
@@ -41,7 +41,7 @@ Almost immediately I realised I needed what's called a "dummy battery" so you ca
 
 Until last year, I exclusively used a [Blue yeti](https://amzn.to/3X1opJU) (now owned by Logitech), which has been serving me diligently for nearly eight years. However, I changed that several times recently for two reasons.
 
-![An image of a the Yeti Blue](../../../assets/images/articles/IMG_0249.jpeg)
+![An image of a the Yeti Blue](articles/IMG_0249.jpeg)
 
 I was looking for a mic that was less in my face for video work than the Yeti, and attempting to position it without doing that has been an endless task. So, I thought it was time to invest in a mic that sits more out of the way for video work and points upwards to your mouth. I was also interested in a mic that accepted XLR input if I ever wanted to take it into a more traditional studio and use it with a mixer.
 
@@ -51,7 +51,7 @@ There are a handful of mics that meet all these requirements, and I initially lo
 
 **Was**? Yup. I used it mostly happily for a few months, even tracking down [the only European distributer of the small barrel-style pop shields](https://www.runwayproaudio.com/microphone_pop_filters.htm) you see on a lot of YouTube videos. Actually the company is based in the UK, so no longer ships to the EU and I had to wait until a trip to collect it from a friend. I digress. Berlin had a fantastic bricks and mortar music store called "Just Music" and they finally shut their five floor haven of music nerdiness in March. This meant they had some epic clearance sales and I acquired an ex-demo [Shure MV7](https://amzn.to/3VjXrfe) that I now use, relegating the MB 7 (and it's expensive pop shield) to tasks yet unknown. Much like my camera, I am still investigating the right settings for the Shure, using USB vs XLR, etc etc.
 
-![An image of a Shure MV7](../../../assets/images/articles/IMG_0242.jpeg)
+![An image of a Shure MV7](articles/IMG_0242.jpeg)
 
 There are two more microphones I use that deserve mention. The one(s) I use for capturing interviews on the road. I have been through several of these in the past few years. My changes were born of requirements for something that is reasonable quality, easy to use for non-experienced interviewees, and easy to take on European budget airline carry-on.
 
@@ -61,7 +61,7 @@ I don't even remember how I came across it, but I ended up with the [Neweer CM 2
 
 #### Audio interfaces
 
-![An image of an Arturia minifuse 4](../../../assets/images/articles/IMG_0239.jpeg)
+![An image of an Arturia minifuse 4](articles/IMG_0239.jpeg)
 
 On the subject of audio and USB, for the times when I need to connect analogue inputs, I have an [Arturia Minifuse 4](https://amzn.to/3WZTjlO), but I will save discussions on that for future post on my music set-up.
 
@@ -79,7 +79,7 @@ I know I should install blinds of some description, but it's a lot of work, and 
 
 I have a couple of other bits and pieces around the core hardware that don’t completely fit into any other category.
 
-![An image of an Elgato Stream Deck +](../../../assets/images/articles/IMG_0237.jpeg)
+![An image of an Elgato Stream Deck +](articles/IMG_0237.jpeg)
 
 An [Elgato stream deck plus](https://amzn.to/453DTih). Even though I have owned a mini for a while (which moved to my B setup), I am only slowly starting to realise their full potential, especially with the dials on the plus, which are not fully supported in many plugins yet.
 
@@ -89,15 +89,15 @@ I have an [Elgato green screen](https://amzn.to/3V3Cfsw), but my aforementioned 
 
 Exclusively for editing, I have a [Korg nanoKontrol2](https://amzn.to/3yM5AA0) because I am old and like the feeling of pushing sliders and twiddling knobs. It supports different control modes, which makes it work with almost any application, but it means you have to note or write down a handful of keyboard combinations to switch between those modes in different applications. Combined with the stream deck, this gives a lot of possibilities and flexibility.
 
-![An image of a Korg nanoKontrol2](../../../assets/images/articles/IMG_0238.jpeg)
+![An image of a Korg nanoKontrol2](articles/IMG_0238.jpeg)
 
 Through various twists of fate, sales, and second-hand deals, I also have far too many headphones. But my now-favourite pair for editing work is the classic [DT 770 Pro](https://amzn.to/4e3aoBt). They are big, cable-only, and incredibly comfortable, especially for glasses wearers.
 
-![An image of DT 770 Pros](../../../assets/images/articles/IMG_0243.jpeg)
+![An image of DT 770 Pros](articles/IMG_0243.jpeg)
 
 I love VESA mounts as they get a lot of this gear out of the way and have two double VESA monitor stands. I'll cover more details on those in another more general setup post, but my latest purchase, [this camera shelf](https://amzn.to/4aDOwtp), is relevant, and I love it.
 
-![An image of a Lumix G7 on a VESA mount and an LED light](../../../assets/images/articles/IMG_0244.jpeg)
+![An image of a Lumix G7 on a VESA mount and an LED light](articles/IMG_0244.jpeg)
 
 Those major items aside, I have a bunch of arms, brackets, cables, widgets, and wotsits that support and hold things together. Endless amounts of them, yet I still never have that exact item I'm looking for 😅.
 
@@ -119,21 +119,21 @@ Whilst recording I use two other small applications. [Keycastr](https://github.c
 
 ### Editing
 
-![An image of editing in Adobe Premiere Pro](../../../assets/images/articles/premiere-screenshot.jpeg)
+![An image of editing in Adobe Premiere Pro](articles/premiere-screenshot.jpeg)
 
 I still edit most of my audio and video with [Adobe Premiere](https://www.adobe.com/products/premiere.html) and [Audition](https://www.adobe.com/products/audition.html). Not much has changed there. However, I have been using some of the newer features, such as essential graphics and sound for quick effects and processing. Premiere also has some excellent new text-based editing features that have significantly improved my productivity.
 
-![An image of editing in Adobe Premiere Pro](../../../assets/images/articles/audition-screenshot.jpeg)
+![An image of editing in Adobe Premiere Pro](articles/audition-screenshot.jpeg)
 
 On top of this, I now use [Descript](https://get.descript.com/hwdvp8thjpih) for final editing of my podcasts, as it generates a static and interactive transcript. I will start experimenting with using Descript for videos soon.
 
-![An image of editing in Adobe Premiere Pro](../../../assets/images/articles/descript.jpeg)
+![An image of editing in Adobe Premiere Pro](articles/descript.jpeg)
 
 I have been trying to build libraries of assets for text and graphics overlays while I edit, but the way Creative Cloud applications save and sync different styles and assets into synced libraries remains confusing, to say the least. But I will keep pursuing it, as my current workflow (embarrassingly, copying and pasting previous overlays from older videos 😬) is problematic.
 
 I try to use my ageing Wacom medium (I don't think my model exists anymore, [but this is the current closest one](https://amzn.to/4dWUsAx)) as much as possible for editing, but honestly, I forget about it a lot of the time, and as I'd prefer to use it wirelessly, I frequently find that the battery is flat and end up sticking to my mouse, a fabulous [Logitech MX master 3s for Mac](https://amzn.to/4bDuT5X). I struggled happily with Apple magic mice for years until I started using this beauty.
 
-![An image of the Logitech MX master 3s for Mac](../../../assets/images/articles/IMG_0248.jpeg)
+![An image of the Logitech MX master 3s for Mac](articles/IMG_0248.jpeg)
 
 ## Distribution
 

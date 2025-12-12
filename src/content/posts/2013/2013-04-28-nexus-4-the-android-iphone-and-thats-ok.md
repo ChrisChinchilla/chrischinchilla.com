@@ -8,7 +8,7 @@ tags:
   - android
   - nexus
   - phones
-image: /src/assets/images/articles/nexus-4.jpg
+image: articles/nexus-4.jpg
 summary: >-
   I decided to upgrade my Samsung S2 to a Nexus 4, there were several reasons
   for this...<ul><li>I dropped the S2 on a rock and it had a large hairline

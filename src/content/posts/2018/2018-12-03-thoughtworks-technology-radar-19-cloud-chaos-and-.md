@@ -15,7 +15,7 @@ tags:
   - database
   - devops
 publication_url: 'https://dzone.com/articles/thoughtworks-technology-radar-19-cloud-chaos-and-c'
-image: /src/assets/images/articles/10787158.jpeg
+image: articles/10787158.jpeg
 summary: >-
   Zone Leader Chris Ward discusses Thoughtworks technology trends and
   predictions.

@@ -1,7 +1,7 @@
 ---
 title: 'Battle Royale, Koushun Takami'
 publishDate: 2015-03-12T00:00:00.000Z
-image: /src/assets/images/articles/battle.jpg
+image: articles/battle.jpg
 categories: projects odtwe
 tags:
   - reviews

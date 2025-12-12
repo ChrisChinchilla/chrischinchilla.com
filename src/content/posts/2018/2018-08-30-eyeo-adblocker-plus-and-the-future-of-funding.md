@@ -15,7 +15,7 @@ tags:
   - micropayments
   - adblock plus
 publication_url: 'https://dzone.com/articles/eyeo-adblocker-plus-and-the-future-of-funding'
-image: /src/assets/images/articles/10029936.jpeg
+image: articles/10029936.jpeg
 summary: >-
   Since content has been created, companies have been attempting to monetize it.
   Read about this new way that one ad blocking companie is making money.

@@ -10,7 +10,7 @@ tags:
   - communication
   - collaboration
 publication_url: 'https://linearb.io/blog/three-git-pull-request-review-strategies/'
-image: /src/assets/images/articles/3PR-Feature-Image.png
+image: articles/3PR-Feature-Image.png
 summary: >-
   Software developers submit a pull request (often abbreviated to PR) in their
   git system like GitHub, GitLab or BitBucket to signal to their teammates or

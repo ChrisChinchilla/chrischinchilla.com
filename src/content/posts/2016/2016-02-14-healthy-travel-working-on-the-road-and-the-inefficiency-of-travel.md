@@ -3,7 +3,7 @@ title: 'Healthy Travel, Working on the Road and the Inefficiency of Travel'
 publishDate: 2016-02-14T00:00:00.000Z
 publication_url: >-
   https://hackernoon.com/healthy-travel-working-on-the-road-and-the-inefficiency-of-travel-ab40e43c9298
-image: /src/assets/images/articles/images.jpg
+image: articles/images.jpg
 categories:
   - writing
   - hackernoon

@@ -9,9 +9,9 @@ summary: >-
 
 After visiting the Tate Modern over Christmas and seeing these two images (I've forgotten the artist):
 
-![Illustrated Book](../../../assets/images/articles/tate_image_1.jpeg)
+![Illustrated Book](articles/tate_image_1.jpeg)
 
-![Illustrated Book](../../../assets/images/articles/tate_image_1.jpeg)
+![Illustrated Book](articles/tate_image_1.jpeg)
 
 I came up with the idea of having illustrations accompanying the text in ODTWE. I'm not the best illustrator, but enjoy drawing and have been pondering on what form these illustrations could take and looking into inspiration for them.
 
@@ -19,9 +19,9 @@ So today I took a trip to the monthly free day at [Leipzig's Museum of Modern Ar
 
 Here are my notes and visual doodling:
 
-![Visual Doodling](../../../assets/images/articles/odtwe_image_idea_1.jpg)
+![Visual Doodling](articles/odtwe_image_idea_1.jpg)
 
-![Visual Doodling](../../../assets/images/articles/odtwe_image_idea_2.jpg)
+![Visual Doodling](articles/odtwe_image_idea_2.jpg)
 
 I doubt you can read or see much there, so here are some of my ideas summarised.<ul><li>Various images of recurring themes in images of Jesus such as Stigmata, a Crown of Thorns, a Beard, a Forlorn look, his robe and bare feet. Occasionally you see a halo, wounds in his side and blood.</li><li>Explorations on different styles I could experiment with such as Grotesque, Exaggeration, Over Simplification, Vague shapes, Rigidity, Collage and Abstraction.</li></ul>
 

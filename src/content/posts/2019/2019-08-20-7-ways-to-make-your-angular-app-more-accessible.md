@@ -1,7 +1,7 @@
 ---
 title: 7 Ways to Make Your Angular App More Accessible
 publishDate: 2019-08-20T12:53:58.384Z
-image: /src/assets/images/articles/tb_870x22043dccabe89e4489095165891b587bb6b.png
+image: articles/tb_870x22043dccabe89e4489095165891b587bb6b.png
 categories:
   - writing
   - telerik

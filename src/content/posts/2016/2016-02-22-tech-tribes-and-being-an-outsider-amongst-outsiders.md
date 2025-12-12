@@ -11,7 +11,7 @@ tags:
   - events
   - conferences
   - community
-image: /src/assets/images/articles/image-tech-tribes.jpg
+image: articles/image-tech-tribes.jpg
 summary: >-
   I make no pretense that I am a generalist and get bored quickly. I have
   written before about how this sometimes makes you feel left out, or worse, an

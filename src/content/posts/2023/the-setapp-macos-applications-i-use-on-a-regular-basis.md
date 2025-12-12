@@ -9,7 +9,7 @@ categories:
 tags:
   - macos
   - version control
-image: /src/assets/images/articles/1*d0t6qGOCLETXbTrizU8TpQ.webp
+image: articles/1*d0t6qGOCLETXbTrizU8TpQ.webp
 summary: >-
   Welcome to Setapp Month! I have been a user of Setapp for quite a while now,
   almost ever since the service launched, and I visited Macpaw’s offices in

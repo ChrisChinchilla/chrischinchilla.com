@@ -1,7 +1,7 @@
 ---
 title: Further Changes From Play Testing
 publishDate: '2015-12-06'
-image: /src/assets/images/articles/image-activities-and-intents.jpg
+image: articles/image-activities-and-intents.jpg
 categories:
   - projects
   - chipshop

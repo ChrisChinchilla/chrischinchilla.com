@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/docker-guis/'
-image: /src/assets/images/articles/dgi-kitematic-images.jpg
+image: articles/dgi-kitematic-images.jpg
 summary: >-
   The Docker API has allowed for a plethora of options for interfacing with
   Docker, your containers, and images to emerge from CLIs to desktop

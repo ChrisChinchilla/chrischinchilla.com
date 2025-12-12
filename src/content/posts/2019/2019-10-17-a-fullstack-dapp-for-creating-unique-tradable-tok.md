@@ -12,7 +12,7 @@ tags:
   - erc721
   - token
 publication_url: 'https://kauri.io/article/2519d02a7a5244949dc12737817f5798'
-image: /src/assets/images/articles/QmYL7nkdTBNpsMSL1T4xQJP3g45j15pxg6EBHCrvXuTY7k.png
+image: articles/QmYL7nkdTBNpsMSL1T4xQJP3g45j15pxg6EBHCrvXuTY7k.png
 summary: >-
   This dapp implements is a Crypto-collectible game built on top of the ERC-721
   standard for creating unique tokens.. This tutorial is intended to be followed

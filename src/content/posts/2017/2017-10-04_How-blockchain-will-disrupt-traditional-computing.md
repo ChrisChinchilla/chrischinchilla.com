@@ -7,7 +7,7 @@ tags:
   - Blockchain
   - Computing
 publication_url: 'https://techbeacon.com/how-blockchain-will-disrupt-traditional-computing'
-image: /src/assets/images/articles/blockchain-disrupt-it.jpg
+image: articles/blockchain-disrupt-it.jpg
 summary: 'technologies](https://techbeacon.com/tags/blockchain){.markup--anchor'
 ---
 

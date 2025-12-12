@@ -12,7 +12,7 @@ tags:
   - continuous delivery
   - devops
 publication_url: 'https://dzone.com/articles/habitat-from-chef-build-deploy-and-manage-your-clo'
-image: /src/assets/images/articles/7625905.jpeg
+image: articles/7625905.jpeg
 summary: >-
   Chef recently introduced the Habitat tool, bringing Chef's advantages to
   automation and continuous integration. Learn about the suite of tools that

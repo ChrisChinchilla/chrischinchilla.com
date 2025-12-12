@@ -9,7 +9,7 @@ tags:
   - Operating systems
   - Immutable
   - NixOS
-image: /src/assets/images/articles/immutable.jpeg
+image: articles/immutable.jpeg
 summary: >-
   Developers talk a lot about “immutability.” Outside the technical world, it
   usually means something negative: unmoving, inflexible, and entrenched.

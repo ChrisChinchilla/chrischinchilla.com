@@ -13,7 +13,7 @@ tags:
   - containers
   - devops
 publication_url: 'https://dzone.com/articles/an-interview-with-brian-gracely-on-red-hats-acqu'
-image: /src/assets/images/articles/11437639.jpeg
+image: articles/11437639.jpeg
 summary: >-
   Chris Ward interviews OpenShift's product strategy director Brian Gracely
   about Red Hat's recent announcement of their acquisition of CoreOS.

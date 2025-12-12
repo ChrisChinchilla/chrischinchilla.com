@@ -3,7 +3,7 @@ title: >-
   Paddle Merges With DevMate to Offer macOS Developers a Consolidated
   Distribution Solution
 publishDate: '2017-05-29 11:13:30 +0100'
-image: /src/assets/images/articles/saas.jpeg
+image: articles/saas.jpeg
 categories:
   - writing
   - dzone

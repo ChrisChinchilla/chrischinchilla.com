@@ -4,7 +4,7 @@ categories:
   - projects
   - chipshop
 publishDate: 2015-04-27T00:00:00.000Z
-image: /src/assets/images/articles/image-new-cards-and-compuer-spiel-museum.jpg
+image: articles/image-new-cards-and-compuer-spiel-museum.jpg
 tags:
   - boardgames
   - gamedesign

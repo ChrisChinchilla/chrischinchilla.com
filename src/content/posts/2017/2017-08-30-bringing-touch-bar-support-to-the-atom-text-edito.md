@@ -17,7 +17,7 @@ tags:
   - node js
   - electron
 publication_url: 'https://dzone.com/articles/bringing-touch-bar-support-to-the-atom-text-editor'
-image: /src/assets/images/articles/6430600.jpeg
+image: articles/6430600.jpeg
 summary: >-
   The MacBook Touch Bar has been notoriously labelled as a useless feature...
   however, it may have found a home with the Atom Text Editor. Check out these

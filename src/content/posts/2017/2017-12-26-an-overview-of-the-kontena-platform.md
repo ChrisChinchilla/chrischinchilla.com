@@ -12,7 +12,7 @@ tags:
   - application stack
   - tutorial
 publication_url: 'https://dzone.com/articles/an-overview-of-the-kontena-platform'
-image: /src/assets/images/articles/7427471.jpeg
+image: articles/7427471.jpeg
 summary: >-
   The big question with any paid service is whether the cost justifies the
   features. Let's break down the Kontena SaaS platform so you can decide.

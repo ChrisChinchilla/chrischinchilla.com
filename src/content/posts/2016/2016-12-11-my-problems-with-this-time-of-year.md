@@ -1,7 +1,7 @@
 ---
 title: My problems with this time of year
 publishDate: '2016-12-11 11:00:06 +0100'
-image: /src/assets/images/articles/merchandise/christmas-chinchilla.png
+image: articles/merchandise/christmas-chinchilla.png
 categories:
   - writing
   - theweeklysqueak

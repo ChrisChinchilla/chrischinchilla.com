@@ -1,7 +1,7 @@
 ---
 title: Berlin-the blockchain capital of the world?
 publishDate: '2017-03-19 18:13:30 +0100'
-image: /src/assets/images/articles/berlin.jpg
+image: articles/berlin.jpg
 categories:
   - writing
   - dzone

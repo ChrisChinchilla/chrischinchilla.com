@@ -11,7 +11,7 @@ tags:
   - learn to code
   - screencasts
 publication_url: 'https://dzone.com/articles/scrimba-a-new-way-to-teach-and-learn-code'
-image: /src/assets/images/articles/6212136.jpeg
+image: articles/6212136.jpeg
 summary: >-
   We take a look at a new educational platform that allows beginning devs to
   sync up their GitHub accounts and practice their new found development skills.

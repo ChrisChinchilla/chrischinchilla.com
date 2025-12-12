@@ -8,7 +8,7 @@ tags:
   - DX
   - DevOps
 publication_url: 'https://humanitec.com/blog/developer-experience'
-image: /src/assets/images/articles/5f7c2ed2e4ed9315819650f9.png
+image: articles/5f7c2ed2e4ed9315819650f9.png
 summary: >-
   In this article I look mostly at improving the developer experience within a
   company, and touch upon other aspects where relevant, we have future articles

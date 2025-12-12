@@ -9,7 +9,7 @@ categories:
 tags:
   - macos
   - version control
-image: /src/assets/images/articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png
+image: articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png
 summary: >-
   Some time ago, I mentioned a process I triedthat allowed me to partially
   recreate my Mac setup on

@@ -15,7 +15,7 @@ tags:
   - security
   - programming languages
 publication_url: 'https://dzone.com/articles/a-year-in-review-blockchainops-entrepreneur'
-image: /src/assets/images/articles/10855656.jpeg
+image: articles/10855656.jpeg
 summary: >-
   What technologies were the most significant in 2018, and which will go to
   2019.

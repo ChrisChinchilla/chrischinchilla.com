@@ -1,7 +1,7 @@
 ---
 title: Smarter App Notifications With OpenBack
 publishDate: '2017-04-28 11:13:30 +0100'
-image: /src/assets/images/articles/mobile_sdk_2.jpg
+image: articles/mobile_sdk_2.jpg
 categories:
   - writing
   - dzone

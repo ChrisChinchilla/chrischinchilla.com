@@ -14,7 +14,7 @@ tags:
   - kids
   - programming
 publication_url: 'https://dzone.com/articles/-learning-to-code-with-swift-playgrounds'
-image: /src/assets/images/articles/13186525.jpeg
+image: articles/13186525.jpeg
 summary: >-
   Swift Playgrounds from Apple is a slick integrated coding education tool — how
   far does go it to teach one of the hottest languages of the past 5 years?
