@@ -44,7 +44,8 @@ const posts = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 
@@ -79,7 +80,8 @@ const events = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
 
     }),
 });
@@ -126,7 +128,8 @@ const books = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 
@@ -162,7 +165,8 @@ const podcasts = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 
@@ -181,7 +185,8 @@ const newsletters = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 

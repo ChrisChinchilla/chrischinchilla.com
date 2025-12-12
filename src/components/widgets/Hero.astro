@@ -19,6 +19,8 @@
 import { getCollection } from 'astro:content';
 import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
+import { resolveImage } from '~/utils/image-loader';
+import { getImageUrl } from '~/utils/supabase-images';
 
 // Content entry from Astro collections with hero properties
 interface ContentEntry {
@@ -73,21 +75,32 @@ const mapToHeroItem = (item: ContentEntry, type: HeroItem['type'], basePath: str
 };
 
 // Collect all hero items from different content types
-const heroItems: HeroItem[] = [
-  ...allPosts.map(post => mapToHeroItem(post, 'post', 'blog', 'publishDate')),
-  ...allBooks.map(book => mapToHeroItem(book, 'book', 'books', 'publish_date')),
-  ...allEvents.map(event => mapToHeroItem(event, 'event', 'events', 'start_date')),
-  ...allPodcasts.map(podcast => mapToHeroItem(podcast, 'podcast', 'podcast', null)),
-  ...allNewsletters.map(newsletter => mapToHeroItem(newsletter, 'newsletter', 'newsletter', 'date')),
-].filter((item): item is HeroItem => item !== null)
-  .sort((a, b) => {
+const heroItems: HeroItem[] = await Promise.all(
+  [
+    ...allPosts.map(post => mapToHeroItem(post, 'post', 'blog', 'publishDate')),
+    ...allBooks.map(book => mapToHeroItem(book, 'book', 'books', 'publish_date')),
+    ...allEvents.map(event => mapToHeroItem(event, 'event', 'events', 'start_date')),
+    ...allPodcasts.map(podcast => mapToHeroItem(podcast, 'podcast', 'podcast', null)),
+    ...allNewsletters.map(newsletter => mapToHeroItem(newsletter, 'newsletter', 'newsletter', 'date')),
+  ].filter((item): item is HeroItem => item !== null)
+).then(items =>
+  Promise.all(
+    items.map(async (item) => ({
+      ...item,
+      // Resolve the heroimage to either ImageMetadata or URL string
+      heroimage: await resolveImage(item.heroimage),
+    }))
+  )
+).then(items =>
+  items.sort((a, b) => {
     // Sort by date descending (most recent first)
     // Items without dates go to the end
     if (!a.date && !b.date) return 0;
     if (!a.date) return 1;
     if (!b.date) return -1;
     return b.date.getTime() - a.date.getTime();
-  });
+  })
+);
 ---
 
 {heroItems.length > 0 && (
@@ -102,7 +115,7 @@ const heroItems: HeroItem[] = [
           <div class="relative w-full h-[500px] md:h-[600px]">
             {typeof item.heroimage === 'string' ? (
               <img
-                src={item.heroimage}
+                src={getImageUrl(item.heroimage)}
                 alt={item.title}
                 class="w-full h-full object-cover rounded"
               />
