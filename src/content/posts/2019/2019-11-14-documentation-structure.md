@@ -5,8 +5,8 @@ author: Chris Ward
 categories:
   - writing kauri
 tags:
-  - writing
-  - documentation
+  - Writing
+  - Documentation
 publication_url: 'https://kauri.io/article/cb1cad8db083475389718cbea3217db2'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-

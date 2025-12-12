@@ -5,13 +5,12 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   <b>How did everything begin, why did you want to get into music in the first
   place? </b>
 ---
-
 <b>How did everything begin, why did you want to get into music in the first place? </b>
 
 To be part of something, it was part of my culture, getting into DJ'ing and remixing, then making records and things develop from there.

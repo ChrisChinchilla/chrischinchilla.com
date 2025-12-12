@@ -7,8 +7,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Putting on gigs in venues that are a little outside of the normal circuit is
   always a challenge, you pick a good night of the week, get a good line up
@@ -18,7 +18,6 @@ summary: >-
   the 40 or so people here are the only ones privileged and smart enough to
   realise a good deal when they see one.
 ---
-
 Putting on gigs in venues that are a little outside of the normal circuit is always a challenge, you pick a good night of the week, get a good line up together and promote the hell out of it unyet attendance is still not what it could and should be. Such is the lot of the Noise Bar tonight, a buzzing and eclectic line up but just because it's that little bit further from Coolsville the 40 or so people here are the only ones privileged and smart enough to realise a good deal when they see one.
 
 Tetrode Kink are dark, big whirling slabs of effect drenched guitars and pounding drums create vast walls of noise behind Nico White's timid but confrontational vocals as he clings to a mic stand. Sometimes his lyrics seem intense and deeply serious whilst other songs appear to be comprised of random crap strung together, all delivered in a delicious deep vocal.

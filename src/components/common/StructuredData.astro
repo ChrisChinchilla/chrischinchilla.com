@@ -1,0 +1,119 @@
+---
+import { SITE } from '~/config.mjs';
+
+export interface Props {
+  type?: 'Article' | 'BlogPosting' | 'Person' | 'Organization' | 'WebSite';
+  data?: any;
+}
+
+const { type = 'Article', data = {} } = Astro.props;
+
+const generateArticleSchema = (data: any) => {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': type === 'Article' ? 'Article' : 'BlogPosting',
+    headline: data.title,
+    description: data.description || data.summary,
+    author: {
+      '@type': 'Person',
+      name: data.author || SITE.name,
+      url: SITE.origin,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE.name,
+      logo: {
+        '@type': 'ImageObject',
+        url: data.defaultImage ? new URL(data.defaultImage, SITE.origin).toString() : undefined,
+      },
+    },
+    datePublished: data.publishDate || data.date,
+    dateModified: data.modifiedDate || data.publishDate || data.date,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': data.canonical || new URL(Astro.url.pathname, SITE.origin).toString(),
+    },
+  };
+
+  // Add image if available
+  if (data.image) {
+    schema['image'] = typeof data.image === 'string' 
+      ? data.image.startsWith('http') 
+        ? data.image 
+        : new URL(data.image, SITE.origin).toString()
+      : data.image;
+  }
+
+  // Add keywords/tags if available
+  if (data.tags && Array.isArray(data.tags)) {
+    schema['keywords'] = data.tags.join(', ');
+  }
+
+  // Add article section/category
+  if (data.category) {
+    schema['articleSection'] = data.category;
+  }
+
+  return schema;
+};
+
+const generatePersonSchema = () => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: SITE.name,
+    description: SITE.description,
+    url: SITE.origin,
+    sameAs: [
+      // Add your social media profiles here
+      // 'https://twitter.com/yourhandle',
+      // 'https://github.com/yourhandle',
+      // 'https://linkedin.com/in/yourhandle',
+    ],
+  };
+};
+
+const generateOrganizationSchema = () => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    description: SITE.description,
+    url: SITE.origin,
+    logo: data.defaultImage ? new URL(data.defaultImage, SITE.origin).toString() : undefined,
+  };
+};
+
+const generateWebSiteSchema = () => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    description: SITE.description,
+    url: SITE.origin,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${SITE.origin}/blog?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+};
+
+let schema;
+if (type === 'Article' || type === 'BlogPosting') {
+  schema = generateArticleSchema(data);
+} else if (type === 'Person') {
+  schema = generatePersonSchema();
+} else if (type === 'Organization') {
+  schema = generateOrganizationSchema();
+} else if (type === 'WebSite') {
+  schema = generateWebSiteSchema();
+}
+---
+
+{schema && (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+)}

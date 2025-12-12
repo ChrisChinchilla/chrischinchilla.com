@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   The Knockouts are straight ahead psychobilly rock and roll, feeling slightly
   stifled but warming up towards the end of the set. Strangely similar in
@@ -15,7 +15,6 @@ summary: >-
   American deep south, surrounded by far too much leather and cigarette smoke if
   it hasn't been banned yet?
 ---
-
 The Knockouts are straight ahead psychobilly rock and roll, feeling slightly stifled but warming up towards the end of the set. Strangely similar in delivery to old Ska band, the Selecter, their material is fairly paint by numbers, simple and uncomplicated conjuring images of Smokey bars in the American deep south, surrounded by far too much leather and cigarette smoke if it hasn't been banned yet?
 
 Gentle Ben and his sensitive side features Ben from 6ft hick on lead vocals showing his, well, unsurprisingly, sensitive side. Only the hardcore 6ft Hick Fans (or the hardcore Ben fans, who knows) are really into the set, down in front of the stage, gently bobbing away, which is a great shame, because all the tough nuts behind them filling up on beer and talking too loudly are missing a set of diverse and finely crafted songs. A freaky and schizophrenic combination of Pulp, Razorlight and Nick Cave, the set reveals a fine songsmith who can actually sing very well, managing to form some wonderfully dark and sparse songs that reveal a slightly softer side, but still not exactly sensitive with lyrics such as 'I'll see you in the Car park√Æ showing the Ben that everyone knows and loves lurking just beneath the surface of his red silk shirt.

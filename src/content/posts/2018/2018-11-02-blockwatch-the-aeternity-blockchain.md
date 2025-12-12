@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - dns
-  - tokens
-  - oracles
-  - state channels
-  - erlang
-  - functional programming
+  - Blockchain
+  - Dns
+  - Tokens
+  - Oracles
+  - State Channels
+  - Erlang
+  - Functional Programming
 publication_url: 'https://dzone.com/articles/blockwatch-the-aeligternity-blockchain'
 image: articles/10583037.jpeg
 summary: >-

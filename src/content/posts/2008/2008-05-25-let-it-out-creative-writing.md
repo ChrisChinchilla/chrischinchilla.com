@@ -5,10 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: 'Tell me what the matter is, I really want to know.'
 ---
-
 Tell me what the matter is, I really want to know.
 
 Don't keep it to yourself; you've got to let it go.

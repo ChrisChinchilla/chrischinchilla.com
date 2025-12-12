@@ -5,15 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Hey Mr C, how you? Yes, it's been too long, I'm very well thank-you. I've
   Mainly been finishing Capital, releasing the 'This Gun' EP and trying to get
   my live gigging self shipshape for next year. Had a struggle with lineups and
   lack of rehearsal time but it's coming together now and it'll be an ace year.
 ---
-
 Hey Mr C, how you? Yes, it's been too long, I'm very well thank-you. I've Mainly been finishing Capital, releasing the 'This Gun' EP and trying to get my live gigging self shipshape for next year. Had a struggle with lineups and lack of rehearsal time but it's coming together now and it'll be an ace year.
 
 **Blair's gone, Howard is gone, Bush is going to go, is the world changing or are we just replacing like with like still?**

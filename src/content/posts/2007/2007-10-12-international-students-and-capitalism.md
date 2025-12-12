@@ -5,12 +5,11 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - students
-  - australia
-  - politics
+  - Students
+  - Australia
+  - Politics
 summary: Firstly I wanted to share with you a recent experience of editing...
 ---
-
 Firstly I wanted to share with you a recent experience of editing...
 
 I was asked to write a news piece on the rising number of International Students in Australian Universities, here's what I wrote :

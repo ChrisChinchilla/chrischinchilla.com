@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - conference
-  - australia
-  - education
-  - learning
-  - presenations
-  - call for proposal
+  - Conference
+  - Australia
+  - Education
+  - Learning
+  - Presenations
+  - Call For Proposal
 publication_url: 'https://dzone.com/articles/yow-conferences-for-australian-developers-by-devel'
 image: articles/7409056.jpeg
 summary: >-

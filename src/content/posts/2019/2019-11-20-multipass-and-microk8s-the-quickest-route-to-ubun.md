@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - ubuntu
-  - kubernetes
-  - multipass
-  - microk8s
-  - cloud computing
-  - vm
-  - canonical
+  - Ubuntu
+  - Kubernetes
+  - Multipass
+  - Microk8S
+  - Cloud Computing
+  - Vm
+  - Canonical
 publication_url: 'https://dzone.com/articles/-multipass-and-microk8s-the-quickest-route-to-ubun'
 image: articles/12538752.jpeg
 summary: Would your Kubernetes-based workflows run better on Multipass and MicroK8s?

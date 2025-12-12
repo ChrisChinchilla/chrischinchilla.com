@@ -5,17 +5,16 @@ image: articles/how-to-become-a-digital-nomad.jpg
 categories:
   - writing envato
 tags:
-  - digital nomad
-  - freelance
-  - expat
-  - travel
-  - pension
-  - health insurance
+  - Digital Nomad
+  - Freelance
+  - Expat
+  - Travel
+  - Pension
+  - Health Insurance
 publication_url: 'https://envato.com/blog/realities-challenges-digital-nomad/'
 summary: >-
   You jet around the world, a road and sky warrior armed with a laptop in search
   of a power socket and decent WiFi. No ties, no responsibilities; work when you
   need it and when you’re bored, you move on. Sounds perfect, doesn’t it?
 ---
-
 You jet around the world, a road and sky warrior armed with a laptop in search of a power socket and decent WiFi. No ties, no responsibilities; work when you need it and when you’re bored, you move on. Sounds perfect, doesn’t it?

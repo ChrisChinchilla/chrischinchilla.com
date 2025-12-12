@@ -1,108 +1,277 @@
 ---
+/**
+ * Hero Carousel Component
+ *
+ * Displays a rotating carousel of featured content (posts, books, events,
+ * podcasts, newsletters) that have both herotext and heroimage frontmatter
+ * properties set.
+ *
+ * Features:
+ * - Auto-rotation every 5 seconds
+ * - Manual navigation with left/right arrows
+ * - Dot indicators for direct slide access
+ * - Pause on hover
+ * - Supports both internal content and external publication URLs
+ * - Responsive design with rounded corners and drop shadow
+ * - Supports multiple content types: posts, books, events, podcasts, newsletters
+ * - Sorted by date (most recent first) for intentional display order
+ */
+import { getCollection } from 'astro:content';
 import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
-import bgImage from '../../assets/images/chinch-head.svg';
-interface CallToAction {
-  text: string;
-  href: string;
-  icon?: string;
+
+// Content entry from Astro collections with hero properties
+interface ContentEntry {
+  id: string;
+  data: {
+    title: string;
+    herotext?: string;
+    heroimage?: any;
+    publication_url?: string;
+    // Date fields vary by content type
+    [key: string]: any;
+  };
 }
-// TODO: Migrate
-export interface Props {
-  title?: string;
-  subtitle?: string;
-  callToAction?: string | CallToAction;
-  callToAction2?: string | CallToAction;
-  image?: string | any; // TODO: find HTMLElementProps
+
+// Hero item for the carousel display
+interface HeroItem {
+  slug: string;
+  herotext: string;
+  heroimage: any;
+  title: string;
+  type: 'post' | 'book' | 'event' | 'podcast' | 'newsletter';
+  date: Date | null;
 }
-const {
-  title = await Astro.slots.render('title'),
-  subtitle = await Astro.slots.render('subtitle'),
-  callToAction = await Astro.slots.render('callToAction'),
-  callToAction2 = await Astro.slots.render('callToAction2'),
-  image = await Astro.slots.render('image'),
-} = Astro.props;
+
+// Fetch all content collections
+const allPosts = await getCollection('posts');
+const allBooks = await getCollection('books');
+const allEvents = await getCollection('events');
+const allPodcasts = await getCollection('podcasts');
+const allNewsletters = await getCollection('newsletters');
+
+// Helper function to map content to hero items
+// Constructs the full slug URL using the content entry's id or publication_url
+const mapToHeroItem = (item: ContentEntry, type: HeroItem['type'], basePath: string, dateField: string | null): HeroItem | null => {
+  if (!item.data.herotext || !item.data.heroimage) return null;
+
+  // Extract date from the appropriate field (null for content types without dates)
+  let date: Date | null = null;
+  if (dateField) {
+    const dateValue = item.data[dateField];
+    date = dateValue instanceof Date ? dateValue : (typeof dateValue === 'string' ? new Date(dateValue) : null);
+  }
+
+  return {
+    slug: item.data.publication_url ?? `/${basePath}/${item.id}`,
+    herotext: item.data.herotext,
+    heroimage: item.data.heroimage,
+    title: item.data.title,
+    type,
+    date,
+  };
+};
+
+// Collect all hero items from different content types
+const heroItems: HeroItem[] = [
+  ...allPosts.map(post => mapToHeroItem(post, 'post', 'blog', 'publishDate')),
+  ...allBooks.map(book => mapToHeroItem(book, 'book', 'books', 'publish_date')),
+  ...allEvents.map(event => mapToHeroItem(event, 'event', 'events', 'start_date')),
+  ...allPodcasts.map(podcast => mapToHeroItem(podcast, 'podcast', 'podcast', null)),
+  ...allNewsletters.map(newsletter => mapToHeroItem(newsletter, 'newsletter', 'newsletter', 'date')),
+].filter((item): item is HeroItem => item !== null)
+  .sort((a, b) => {
+    // Sort by date descending (most recent first)
+    // Items without dates go to the end
+    if (!a.date && !b.date) return 0;
+    if (!a.date) return 1;
+    if (!b.date) return -1;
+    return b.date.getTime() - a.date.getTime();
+  });
 ---
-<section>
-  <!-- TODO: Better way for this src? -->
-  <div class="max-w-6xl mx-auto px-4 sm:px-6" style=`background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(${bgImage.src});`>
-    <div class="py-6 md:py-12">
-      <div class="text-center pb-10 md:pb-16 max-w-5xl mx-auto">
-        {
-          title && (
-            <h1
-              class="text-5xl md:text-[3.50rem] leading-tighter tracking-tighter mb-4 font-heading font-bold"
-              set:html={title}
-            />
-          )
-        }
-        <div class="max-w-3xl mx-auto">
-          {subtitle && <p class="text-xl font-medium text-gray-500 mb-8 dark:text-slate-400" set:html={subtitle} />}
-          <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
-            {
-              callToAction && (
-                <div class="flex w-full sm:w-auto">
-                  {typeof callToAction === 'string' ? (
-                    <Fragment set:html={callToAction} />
-                  ) : (
-                    <a class="btn btn-primary font-btn sm:mb-0 w-full" href={callToAction?.href} rel="noopener">
-                      {callToAction?.icon && (
-                        <>
-                          <Icon name={callToAction.icon} class="w-5 h-5 mr-1 -ml-1.5" />{' '}
-                        </>
-                      )}
-                      {callToAction?.text}
-                    </a>
-                  )}
+
+{heroItems.length > 0 && (
+  <section class="hero-carousel-section relative px-4 sm:px-6 py-6 max-w-6xl mx-auto">
+    <div class="hero-carousel relative w-full rounded drop-shadow-lg overflow-hidden" data-carousel>
+
+      {heroItems.map((item, index) => (
+        <div
+          class={`hero-slide absolute inset-0 transition-opacity duration-700 ${index === 0 ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
+          data-slide={index}
+        >
+          <div class="relative w-full h-[500px] md:h-[600px]">
+            {typeof item.heroimage === 'string' ? (
+              <img
+                src={item.heroimage}
+                alt={item.title}
+                class="w-full h-full object-cover rounded"
+              />
+            ) : (
+              <Image
+                src={item.heroimage}
+                alt={item.title}
+                class="w-full h-full object-cover rounded"
+                widths={[400, 768, 1024, 1536, 2048]}
+                sizes="100vw"
+              />
+            )}
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent">
+              <div class="absolute bottom-0 left-0 right-0 p-8 md:p-12">
+                <div class="max-w-6xl mx-auto">
+                  <a href={item.slug} class="block group">
+                    <p class="text-white text-xl md:text-3xl lg:text-4xl font-bold mb-4 leading-tight group-hover:text-gray-200 transition-colors">
+                      {item.herotext}
+                    </p>
+                    <span class="text-white/80 text-sm md:text-base group-hover:text-white transition-colors">
+                      More →
+                    </span>
+                  </a>
                 </div>
-              )
-            }
-            {
-              callToAction2 && (
-                <div class="flex w-full sm:w-auto">
-                  {typeof callToAction2 === 'string' ? (
-                    <Fragment set:html={callToAction2} />
-                  ) : (
-                    <a class="btn w-full" href={callToAction2?.href}>
-                      {callToAction2?.icon && (
-                        <>
-                          <Icon name={callToAction2.icon} class="w-5 h-5 mr-1 -ml-1.5" />{' '}
-                        </>
-                      )}
-                      {callToAction2.text}
-                    </a>
-                  )}
-                </div>
-              )
-            }
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        {
-          image && (
-            <div class="relative m-auto max-w-4xl">
-              {typeof image === 'string' ? (
-                <Fragment set:html={image} />
-              ) : (
-                // <Picture
-                //   class="mx-auto rounded-md w-full"
-                //   widths={[400, 768, 1480]}
-                //   sizes="(max-width: 767px) 400px, (max-width: 1479px) 768px, 1480px"
-                //   aspectRatio={1480 / 833}
-                //   loading="eager"
-                //   width={1480}
-                //   fit="outside"
-                //   {...image}
-                // />
-                <Image {...image} class="mx-auto rounded-md w-full" />
-              )}
-            </div>
-          )
-        }
-      </div>
+      ))}
+
+      {heroItems.length > 1 && (
+        <>
+          <button
+            class="hero-nav-btn hero-nav-prev absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white rounded-full p-3 transition-all shadow-lg backdrop-blur-sm"
+            aria-label="Previous slide"
+          >
+            <Icon name="tabler:chevron-down" class="w-6 h-6 rotate-90 text-gray-900" />
+          </button>
+
+          <button
+            class="hero-nav-btn hero-nav-next absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white rounded-full p-3 transition-all shadow-lg backdrop-blur-sm"
+            aria-label="Next slide"
+          >
+            <Icon name="tabler:chevron-down" class="w-6 h-6 -rotate-90 text-gray-900" />
+          </button>
+
+          <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+            {heroItems.map((_, index) => (
+              <button
+                class={`hero-indicator w-2 h-2 rounded-full transition-all ${index === 0 ? 'bg-white w-8' : 'bg-white/50 hover:bg-white/75'}`}
+                data-indicator={index}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
+        </>
+      )}
     </div>
-  </div>
-</section>
+  </section>
+)}
+
+<script>
+  function initHeroCarousel() {
+    const carousel = document.querySelector('[data-carousel]') as HTMLElement;
+    if (!carousel) return;
+
+    const slides = carousel.querySelectorAll('[data-slide]') as NodeListOf<HTMLElement>;
+    const prevBtn = carousel.querySelector('.hero-nav-prev') as HTMLButtonElement;
+    const nextBtn = carousel.querySelector('.hero-nav-next') as HTMLButtonElement;
+    const indicators = carousel.querySelectorAll('[data-indicator]') as NodeListOf<HTMLButtonElement>;
+
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+    let autoplayInterval: ReturnType<typeof setInterval>;
+
+    function showSlide(index: number) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.remove('opacity-0', 'z-0');
+          slide.classList.add('opacity-100', 'z-10');
+        } else {
+          slide.classList.remove('opacity-100', 'z-10');
+          slide.classList.add('opacity-0', 'z-0');
+        }
+      });
+
+      indicators.forEach((indicator, i) => {
+        if (i === index) {
+          indicator.classList.remove('bg-white/50', 'hover:bg-white/75');
+          indicator.classList.add('bg-white', 'w-8');
+        } else {
+          indicator.classList.remove('bg-white', 'w-8');
+          indicator.classList.add('bg-white/50', 'hover:bg-white/75');
+        }
+      });
+
+      currentSlide = index;
+    }
+
+    function nextSlide() {
+      const next = (currentSlide + 1) % totalSlides;
+      showSlide(next);
+    }
+
+    function prevSlide() {
+      const prev = (currentSlide - 1 + totalSlides) % totalSlides;
+      showSlide(prev);
+    }
+
+    function startAutoplay() {
+      if (totalSlides > 1) {
+        autoplayInterval = setInterval(nextSlide, 5000);
+      }
+    }
+
+    function stopAutoplay() {
+      clearInterval(autoplayInterval);
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        stopAutoplay();
+        prevSlide();
+        startAutoplay();
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        stopAutoplay();
+        nextSlide();
+        startAutoplay();
+      });
+    }
+
+    indicators.forEach((indicator, index) => {
+      indicator.addEventListener('click', () => {
+        stopAutoplay();
+        showSlide(index);
+        startAutoplay();
+      });
+    });
+
+    carousel.addEventListener('mouseenter', stopAutoplay);
+    carousel.addEventListener('mouseleave', startAutoplay);
+
+    startAutoplay();
+  }
+
+  document.addEventListener('astro:page-load', initHeroCarousel);
+</script>
+
+<style>
+  .hero-carousel {
+    height: 500px;
+    position: relative;
+  }
+
+  @media (min-width: 768px) {
+    .hero-carousel {
+      height: 600px;
+    }
+  }
+
+  .hero-nav-btn:hover {
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  .hero-indicator {
+    cursor: pointer;
+  }
+</style>

@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - technical writing
-  - atom
-  - visual studio code
-  - markdown
-  - integration
+  - Technical Writing
+  - Atom
+  - Visual Studio Code
+  - Markdown
+  - Integration
 publication_url: 'https://dzone.com/articles/customizing-visual-studio-code-for-writing'
 image: articles/8660654.jpeg
 summary: >-

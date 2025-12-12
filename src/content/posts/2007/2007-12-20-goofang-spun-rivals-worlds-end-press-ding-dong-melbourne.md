@@ -5,14 +5,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Ding Dong is sadly a little empty tonight, maybe everyone is at home
   performing some last minute research into the capabilities of their local
   party candidates. We hope.
 ---
-
 Ding Dong is sadly a little empty tonight, maybe everyone is at home performing some last minute research into the capabilities of their local party candidates. We hope.
 
 Goofang are a perfect opening act, one of those slightly schizophrenic bands, with a set of songs that never quite stick to one genre or style but sharing a 'sound'. Some songs take a strut down funky street, others taking the well-trodden Indie-ish route whilst others wander down several paths at once. The band are still finding their feet, but they're solid, fun, play well and the variations between songs keeps the audiences attention, the perfect constituents to an opener.

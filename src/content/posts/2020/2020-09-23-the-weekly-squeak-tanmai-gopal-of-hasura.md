@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - graphql
-  - api
-  - hasura
-  - databases
+  - Graphql
+  - API
+  - Hasura
+  - Databases
 publication_url: 'https://dzone.com/articles/the-weekly-squeak-tanmai-gopal-of-hasura'
 image: articles/13968399.jpeg
 summary: >-

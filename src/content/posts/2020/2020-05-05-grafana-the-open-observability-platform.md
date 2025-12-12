@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - visualization
-  - monitoring
-  - grafana
-  - prometheus
-  - time-series data
+  - Visualization
+  - Monitoring
+  - Grafana
+  - Prometheus
+  - Time-Series Data
 publication_url: 'https://dzone.com/articles/-grafana-the-open-observability-platform'
 image: articles/13214989.jpeg
 summary: >-

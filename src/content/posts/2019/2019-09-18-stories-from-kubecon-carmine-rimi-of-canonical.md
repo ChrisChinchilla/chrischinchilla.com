@@ -6,15 +6,15 @@ categories:
   - writing
   - dzone
 tags:
-  - canonical
-  - ubuntu
-  - kubeflow
-  - micropass
-  - microk8
-  - kubernetes
-  - dzone
-  - ai
-  - interview
+  - Canonical
+  - Ubuntu
+  - Kubeflow
+  - Micropass
+  - Microk8
+  - Kubernetes
+  - Dzone
+  - AI
+  - Interview
 publication_url: 'https://dzone.com/articles/-stories-from-kubecon-carmine-rimi-of-canonical'
 image: articles/12486920.jpeg
 summary: >-

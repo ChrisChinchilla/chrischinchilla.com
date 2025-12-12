@@ -6,16 +6,16 @@ categories:
   - writing
   - dzone
 tags:
-  - openstack
-  - cloud
-  - kubernetes
-  - public cloud
-  - private cloud
-  - multi cloud
-  - open infrastructure
-  - 5g
-  - machine learning
-  - ai
+  - Openstack
+  - Cloud
+  - Kubernetes
+  - Public Cloud
+  - Private Cloud
+  - Multi Cloud
+  - Open Infrastructure
+  - 5G
+  - Machine Learning
+  - AI
 publication_url: 'https://dzone.com/articles/openstack-summit-berlin-2018-running-your-cloud'
 image: articles/10847788.jpeg
 summary: The latest cloud and DevOps news from Berlin.

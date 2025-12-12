@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - roleplaying
-  - team building
-  - communication
-  - improvement
-  - self improvement
+  - Roleplaying
+  - Team Building
+  - Communication
+  - Improvement
+  - Self Improvement
 publication_url: 'https://dzone.com/articles/why-development-teams-should-play-roleplay-games'
 image: articles/14455453.jpeg
 summary: >-

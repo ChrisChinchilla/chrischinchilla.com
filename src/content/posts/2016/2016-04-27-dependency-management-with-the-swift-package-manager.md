@@ -7,11 +7,10 @@ categories:
   - writing
   - sitepoint
 tags:
-  - ios
-  - swift
+  - iOS
+  - Swift
 summary: >-
   Chris Ward looks at the Swift Package Manager, an early-days dependency
   management utility for Swift.
 ---
-
 Chris Ward looks at the Swift Package Manager, an early-days dependency management utility for Swift.

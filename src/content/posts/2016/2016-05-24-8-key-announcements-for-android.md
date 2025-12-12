@@ -8,8 +8,8 @@ categories:
   - writing
   - sitepoint
 tags:
-  - google
-  - android
+  - Google
+  - Android
 summary: >-
   Another year, another IO. Google made a slew of announcements, from their own
   foray into the assistant arena, to several curious devices and apps. Few of
@@ -17,5 +17,4 @@ summary: >-
   those at a later date. If you’re interested in reading more, I recommend
   Google’s official IO blog post.
 ---
-
 Another year, another IO. Google made a slew of announcements, from their own foray into the assistant arena, to several curious devices and apps. Few of these have details or any API access for developers, so SitePoint will cover those at a later date. If you’re interested in reading more, I recommend Google’s official IO blog post.

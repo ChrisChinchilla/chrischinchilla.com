@@ -6,16 +6,16 @@ categories:
   - writing
   - dzone
 tags:
-  - linting
-  - text
-  - text analysis
-  - code analysis
-  - text editors
-  - atom
-  - sublime
-  - vim
-  - emacs
-  - visual studio code
+  - Linting
+  - Text
+  - Text Analysis
+  - Code Analysis
+  - Text Editors
+  - Atom
+  - Sublime
+  - Vim
+  - Emacs
+  - Visual Studio Code
 publication_url: 'https://dzone.com/articles/lint-lint-and-away-linters-for-the-english-languag'
 image: articles/8152919.jpeg
 summary: >-

@@ -6,8 +6,8 @@ categories:
   - writing
   - telerik
 tags:
-  - accessibility
-  - web
+  - Accessibility
+  - Web
 publication_url: 'https://www.telerik.com/blogs/top-5-resources-web-app-accessibility'
 summary: >-
   Kickstart turning your web pages into accessible web pages. Here are our 5

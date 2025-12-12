@@ -7,10 +7,10 @@ categories:
   - writing
   - dzone
 tags:
-  - kotlin
-  - programming
-  - jetbrains
-  - java
+  - Kotlin
+  - Programming
+  - JetBrains
+  - Java
 publication_url: 'https://dzone.com/articles/jvm-free-kotlin-with-kotlinnative'
 summary: >-
   I would never call myself a real programmer, but I have a healthy obsession
@@ -21,5 +21,4 @@ summary: >-
   worlds, but rapidly became used in more widespread contexts, and generally,
   have enthusiastic communities.
 ---
-
 I would never call myself a real programmer, but I have a healthy obsession with studying new languages that emerge, especially those that arrive with little baggage and attempt to solve current problems and new use cases. This brought about my explorations in recent years of Swift and Kotlin, both initially aimed to fix issues with the languages traditionally used in their worlds, but rapidly became used in more widespread contexts, and generally, have enthusiastic communities.

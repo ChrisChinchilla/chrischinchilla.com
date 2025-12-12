@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - git
-  - github
-  - version control
-  - collaboration
-  - integration
+  - Git
+  - GitHub
+  - Version Control
+  - Collaboration
+  - Integration
 publication_url: 'https://dzone.com/articles/github-universe-2017-collaboration-and-communicati'
 image: articles/6905329.jpeg
 summary: >-

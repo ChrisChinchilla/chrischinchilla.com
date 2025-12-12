@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - docker
-  - containers
-  - serverless
-  - faas
-  - saas
-  - devops
-  - paas
+  - Docker
+  - Containers
+  - Serverless
+  - Faas
+  - Saas
+  - DevOps
+  - Paas
 publication_url: 'https://dzone.com/articles/container-and-serverless-predictions-for-2018-with'
 image: articles/7877448.jpeg
 summary: >-

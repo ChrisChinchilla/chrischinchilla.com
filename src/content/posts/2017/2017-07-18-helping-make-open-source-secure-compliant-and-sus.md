@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - open souce
-  - compliance
-  - security
-  - iot
-  - enterprise
-  - integration
+  - Open Souce
+  - Compliance
+  - Security
+  - IoT
+  - Enterprise
+  - Integration
 publication_url: 'https://dzone.com/articles/helping-make-open-source-secure-compliant-and-sust'
 image: articles/5947880.jpeg
 summary: >-

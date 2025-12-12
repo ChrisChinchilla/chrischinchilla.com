@@ -6,10 +6,10 @@ categories:
   - writing dataartisans
 tags:
   - Resources
-  - capacity planning
-  - cluster sizing
-  - resource planning
-  - throughput
+  - Capacity Planning
+  - Cluster Sizing
+  - Resource Planning
+  - Throughput
 publication_url: >-
   https://data-artisans.com/blog/how-to-size-your-apache-flink-cluster-general-guidelines
 image: articles/How-to6.png

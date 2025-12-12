@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - machine learning
-  - ai
-  - agile
-  - development and ethics
+  - Machine Learning
+  - AI
+  - Agile
+  - Development And Ethics
 publication_url: 'https://dzone.com/articles/are-we-all-doomed-your-role-in-the-ethics-of-tech'
 image: articles/7134625.jpeg
 summary: >-

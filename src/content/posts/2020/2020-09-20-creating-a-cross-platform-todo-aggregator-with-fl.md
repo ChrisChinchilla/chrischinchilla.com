@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - flutter
-  - dart
-  - ios
-  - android
-  - mobile development
-  - web development
+  - Flutter
+  - Dart
+  - iOS
+  - Android
+  - Mobile Development
+  - Web Development
 publication_url: 'https://dzone.com/articles/creating-a-cross-platform-todo-aggregator-with-flu'
 image: articles/13957669.jpeg
 summary: >-
@@ -19,6 +19,5 @@ summary: >-
   various services. I turned to Flutter; was it a good idea? Read on to find
   out.
 ---
-
 I wanted to create a cross-platform app to aggregate all my todos across various services. I turned to Flutter; was it a good idea? Read on to find out.
 

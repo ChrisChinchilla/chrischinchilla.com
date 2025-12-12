@@ -6,7 +6,7 @@ categories:
   - writing humanitec
 tags:
   - Environment Variables
-  - devops
+  - DevOps
   - Kubernetes
 publication_url: 'https://humanitec.com/blog/handling-environment-variables-with-kubernetes'
 summary: >-

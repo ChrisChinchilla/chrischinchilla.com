@@ -5,7 +5,7 @@ author: Chris Ward
 categories:
   - writing humanitec
 tags:
-  - DX
+  - Dx
   - DevOps
 publication_url: >-
   https://humanitec.com/blog/testing-hotfixes-to-production-without-rolling-back-staging
@@ -16,6 +16,5 @@ summary: >-
   Production environment to allow immediate testing before hot-fixing
   Production.
 ---
-
 A major bug urgently needs fixing in Production, but QA is impossible because Staging is ahead of Prod. This blog post will detail how to clone your Production environment to allow immediate testing before hot-fixing Production.
 

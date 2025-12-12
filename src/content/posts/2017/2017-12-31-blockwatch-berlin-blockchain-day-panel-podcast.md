@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - ethereum
-  - smart contracts
-  - bitcoin
-  - iot
+  - Blockchain
+  - Ethereum
+  - Smart Contracts
+  - Bitcoin
+  - IoT
 publication_url: 'https://dzone.com/articles/blockwatch-berlin-blockchain-day-panel'
 image: articles/7672529.jpeg
 summary: >-

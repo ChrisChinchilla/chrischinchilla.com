@@ -6,11 +6,10 @@ image: articles/appcode.png
 categories:
   - writing jetbrains
 tags:
-  - video
-  - objective-c
-  - swift
-  - ide
+  - Video
+  - Objective-C
+  - Swift
+  - IDE
 summary: A video about new features and improvements in AppCode 2016.2 is here!
 ---
-
 A video about new features and improvements in AppCode 2016.2 is here!

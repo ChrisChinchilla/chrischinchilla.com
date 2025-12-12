@@ -7,9 +7,9 @@ author: Chris Ward
 categories:
   - writing humanitec
 tags:
-  - cd
-  - ci
-  - devops
+  - CD
+  - CI
+  - DevOps
 publication_url: >-
   https://humanitec.com/blog/continuous-integration-vs-continuous-delivery-vs-continuous-deployment
 image: articles/5eecc2c49d88e607c6011501_ci-cd-cd-humanitec.png

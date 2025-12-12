@@ -5,12 +5,11 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: >-
   Here's a quote/analogy I've been using for a while to overarchingly describe a
   strategy for engaging on social media that I've found helpful and descriptive.
 ---
-
 Here's a quote/analogy I've been using for a while to overarchingly describe a strategy for engaging on social media that I've found helpful and descriptive.
 
 > If you walk into a bar and all you do is stand on the bar, screaming and shouting about yourself, would you expect anyone to engage with you? It's the same with social media…

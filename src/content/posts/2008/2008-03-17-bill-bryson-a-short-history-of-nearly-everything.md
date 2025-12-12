@@ -5,15 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - reviews
-  - books
-  - history
+  - Reviews
+  - Books
+  - History
 summary: >-
   I have a recently rediscovered passion and interest for History, absorbing
   many tomes over the past few months, my favourite being brief surmises of 'all
   of History'.
 ---
-
 I have a recently rediscovered passion and interest for History, absorbing many tomes over the past few months, my favourite being brief surmises of 'all of History'.
 
 Possibly it's laziness or a fear of delving to deeply into specific areas of History so early into my enthusiasm, or perhaps a desire to get an overall picture of the state of the world before specialising. Whatever the reason Bill Bryson's infamous book that comes highly recommended from many sources is nothing to do with human history as such, rather a history of how we got here in the first place. 574 pages (plus 110 pages of notes and indices) dealing with weighty topics such as the creation of the universe, scientific pioneers and Evolution with an enthusiasm and clarity so often missing from such volumes, not only dealing with the issues but also revealing some of the fascinating characters and lives behind infamous discoveries.

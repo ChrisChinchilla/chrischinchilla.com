@@ -6,8 +6,8 @@ categories:
 publishDate: 2015-04-27T00:00:00.000Z
 image: articles/image-new-cards-and-compuer-spiel-museum.jpg
 tags:
-  - boardgames
-  - gamedesign
+  - Boardgames
+  - Gamedesign
 summary: >-
   Over the weekend thanks to Berlin Games Week I attended the <a
   href="https://www.computerspielemuseum.de/" target="_blank">Berlin Computer
@@ -15,7 +15,6 @@ summary: >-
   Chip Shop and the visit combined with several other events during the week
   inspired me to work on some of the product cards on Sunday.
 ---
-
 Over the weekend thanks to [Berlin Games Week](https://www.gamesweekberlin.com/) I attended the <a href="https://www.computerspielemuseum.de/" target="_blank">Berlin Computer Spiele Museum</a> for free. It was a small exhibition but great research for Chip Shop and the visit combined with several other events during the week inspired me to work on some of the product cards on Sunday.
 
 Interestingly this included working on cards for several products that were either failures or were never released commercially. I wondered how these should be represented in the game and opted for negative scores. There is a mechanic in the game that means players always have to draw new products, so it's unlikely that many of these products will ever be built, but they might.

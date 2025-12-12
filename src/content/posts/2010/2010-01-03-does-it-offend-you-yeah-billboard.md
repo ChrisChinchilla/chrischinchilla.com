@@ -5,15 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   'Does it Offend you, yeah?' lively blend of electro Indie rock bombards
   Billboard and the tightly packed boisterous Wednesday night crowd, not letting
   up for one minute or allowing a second of breathing space for the crowd or the
   band.
 ---
-
 Noise! Noise! Noise!
 
 'Does it Offend you, yeah?' lively blend of electro Indie rock bombards Billboard and the tightly packed boisterous Wednesday night crowd, not letting up for one minute or allowing a second of breathing space for the crowd or the band.

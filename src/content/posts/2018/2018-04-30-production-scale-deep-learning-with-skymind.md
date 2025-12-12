@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - deep learning
-  - data science
-  - model training
-  - neural nets
-  - ai
+  - Deep Learning
+  - Data Science
+  - Model Training
+  - Neural Nets
+  - AI
 publication_url: 'https://dzone.com/articles/production-scale-deep-learning-with-skymind'
 image: articles/8958033.jpeg
 summary: >-

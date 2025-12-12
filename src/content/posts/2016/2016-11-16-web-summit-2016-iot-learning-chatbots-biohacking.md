@@ -8,9 +8,9 @@ categories:
   - writing
   - sitepoint
 tags:
-  - events
-  - startups
-  - technology
+  - Events
+  - Startups
+  - Technology
 summary: >-
   53,056 people from 166 countries descended on Lisbon for this year’s Web
   Summit. I’m not sure if this makes it the world’s largest startup event, but
@@ -21,5 +21,4 @@ summary: >-
   interested in discussion, but would rather just network and party, you will
   also have a full schedule.
 ---
-
 53,056 people from 166 countries descended on Lisbon for this year’s Web Summit. I’m not sure if this makes it the world’s largest startup event, but it’s damn big. I have attended startup events around the world and have often found them obsessed with nothing but raising money. Whilst the topic was in abundance at Web Summit, it also had enough of something for everyone, with discussions on technology, design, ethics, futurism, and more. If you’re not interested in discussion, but would rather just network and party, you will also have a full schedule.

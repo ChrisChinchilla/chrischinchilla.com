@@ -5,7 +5,7 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: >-
   Cate and I got a bus, the 160 that used to run from Catford to Sidcup, we got
   off the bus near where I used to live, on the south circular, which was near
@@ -18,7 +18,6 @@ summary: >-
   there was no indication of being so, we instantly knew it was a tourist
   attraction and went inside.
 ---
-
 Cate and I got a bus, the 160 that used to run from Catford to Sidcup, we got off the bus near where I used to live, on the south circular, which was near where it used to go, but slightly off route. We got off the bus and all the shops were exactly as I remembered, as we walked down the road (which was a major street for traffic) we came across a fruit orchard, trees of apples, plums, gooseberries and more, I kept trying to take photos of the fruit and Cate kept getting in the way saying 'stop that! Take a picture of me!√Æ As we wandered through the forest we came across a normal looking house, although there was no indication of being so, we instantly knew it was a tourist attraction and went inside.
 
 We walked down a hallway and found it fascinating how authentic the house was, there was a dummy of an old lady in one room so when we entered another room upstairs I thought there was another dummy so cheekily waved at it, I was shocked when it answered back, it turned out there was an old couple in the room. We sat down with the couple and were amazed how realistic they were, I showed Cate the view from the window, which was of a typical English winter scene, there were Christmas cards and Christmas TV was on.

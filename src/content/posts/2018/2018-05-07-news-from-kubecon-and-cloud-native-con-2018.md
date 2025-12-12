@@ -6,15 +6,15 @@ categories:
   - writing
   - dzone
 tags:
-  - kubernetes
-  - cloud native
-  - serverless
-  - service mesh
-  - containers
-  - dependency management
-  - cloud
-  - kubecon
-  - cloud native con
+  - Kubernetes
+  - Cloud Native
+  - Serverless
+  - Service Mesh
+  - Containers
+  - Dependency Management
+  - Cloud
+  - KubeCon
+  - Cloud Native Con
 publication_url: 'https://dzone.com/articles/news-from-kubecon-and-cloud-native-con-2018'
 image: articles/9028266.jpeg
 summary: >-

@@ -5,15 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - cycling
-  - opinion
+  - Cycling
+  - Opinion
 summary: >-
   A license is not required to ride a bike on Melbourne's (and most other cities
   in the world as far as I know) streets and sometimes knowing quite what you
   are allowed and not allowed to do or indeed what others should be doing around
   you is difficult to ascertain.
 ---
-
 A license is not required to ride a bike on Melbourne's (and most other cities in the world as far as I know) streets and sometimes knowing quite what you are allowed and not allowed to do or indeed what others should be doing around you is difficult to ascertain.
 
 The fact is that when you are on a bike you should be obeying the rules of the road, but a lot of rules and regulations are squarely aimed at car drivers and if you haven't taken a license test, how are you supposed to know what they are anyway?

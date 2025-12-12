@@ -6,16 +6,16 @@ categories:
   - writing
   - dzone
 tags:
-  - twitter
-  - bots
-  - node
-  - random
-  - javascript
-  - tracery
-  - fiction
-  - artificial intelligence
-  - ai
-  - bot development
+  - Twitter
+  - Bots
+  - Node
+  - Random
+  - Javascript
+  - Tracery
+  - Fiction
+  - Artificial Intelligence
+  - AI
+  - Bot Development
 publication_url: 'https://dzone.com/articles/creating-your-own-whimsical-twitter-bot-with-trace'
 image: articles/9614647.jpeg
 summary: Read this fun article about how to create a Twitter bot with Tracery.

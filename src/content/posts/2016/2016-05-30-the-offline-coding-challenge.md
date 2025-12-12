@@ -10,9 +10,9 @@ categories:
   - writing
   - hackernoon
 tags:
-  - coding
-  - programming
-  - education
+  - Coding
+  - Programming
+  - Education
 summary: >-
   I recently read <https://www.bfilipek.com/2016/05/coding-without-google.html>
   about a Developer's workflow before the proliferation of the internet, search
@@ -20,5 +20,4 @@ summary: >-
   write about for a while and this blog post prompted me to drag it off my todo
   list.
 ---
-
 I recently read <https://www.bfilipek.com/2016/05/coding-without-google.html> about a Developer's workflow before the proliferation of the internet, search engines and developer websites. It reminded me of an idea I had wanted to write about for a while and this blog post prompted me to drag it off my todo list.

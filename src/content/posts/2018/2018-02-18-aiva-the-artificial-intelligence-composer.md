@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - music
-  - generative
-  - ai
-  - artificial intelligence
-  - nvidia
+  - Music
+  - Generative
+  - AI
+  - Artificial Intelligence
+  - Nvidia
 publication_url: 'https://dzone.com/articles/aiva-the-artificial-intelligence-composer'
 image: articles/8199518.jpeg
 summary: >-

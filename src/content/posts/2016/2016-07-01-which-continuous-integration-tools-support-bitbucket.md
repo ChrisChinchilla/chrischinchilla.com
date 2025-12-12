@@ -8,12 +8,11 @@ categories:
   - writing
   - sitepoint
 tags:
-  - git
-  - bitbucket
-  - video
+  - Git
+  - Bitbucket
+  - Video
 summary: Automate your tools with Bitbucket
 ---
-
 Automate your tools with Bitbucket
 
 Automating our development and deployment processes can save lots of valuable time, especially when the tasks are fairly repetitive. Using continuous integration tools such as Bamboo, Jenkins, and Code Ship with Bitbucket repositories can save time, and ultimately, money. Automated builds and deployments can draw right from the branches of your Bitbucket repository, allowing you to set up these automated processes and then sit back and let them run. This overview will give you a great summary of the setup and features for three different continuous integration tools that you might want to try out yourself!

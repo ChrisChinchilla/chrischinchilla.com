@@ -34,7 +34,7 @@ const affiliateSupportLinks = await getCollection('supportLinks', ({ data }) => 
     <section class={`grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12 dark:text-white items-stretch`}>
       {
         coreSupportLinks.map((supportLink) => (
-          <div class="flex flex-col p-6 bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
+          <div class="no-pseudo-borders flex flex-col p-6 bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
             <Fragment set:html={supportLink.data.affiliate_html}>
               <>
                 <h3>{supportLink.data.name}</h3>
@@ -48,7 +48,7 @@ const affiliateSupportLinks = await getCollection('supportLinks', ({ data }) => 
     <section class={`grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12 dark:text-white items-stretch`}>
       {
         affiliateSupportLinks.map((supportLink) => (
-          <div class="relative flex flex-col p-6 bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
+          <div class="no-pseudo-borders relative flex flex-col p-6 bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
             <div class="flex items-center">
               <ContentImage
                 src={supportLink.data.image}

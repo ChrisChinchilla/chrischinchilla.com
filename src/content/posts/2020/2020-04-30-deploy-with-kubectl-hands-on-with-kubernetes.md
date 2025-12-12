@@ -5,10 +5,10 @@ author: Chris Ward
 categories:
   - writing humanitec
 tags:
-  - cd
-  - ci
-  - kubernetes
-  - devops
+  - CD
+  - CI
+  - Kubernetes
+  - DevOps
 publication_url: 'https://humanitec.com/blog/deploy-with-kubectl-hands-on-with-kubernetes'
 image: >-
   articles/5ea2b84367b4a979d9ecb121_hands-on-with-kubernetes-humanitec-p-2000.png

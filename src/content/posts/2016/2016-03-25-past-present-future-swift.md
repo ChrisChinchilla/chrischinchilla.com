@@ -7,14 +7,13 @@ categories:
   - writing
   - sitepoint
 tags:
-  - ios
-  - swift
+  - iOS
+  - Swift
 summary: >-
   I'm excited about Swift for reasons I will expand upon later, but it's mostly
   the enthusiasm it has attracted. In less than six months, here are the
   project's GitHub stats.
 ---
-
 I'm excited about Swift for reasons I will expand upon later, but it's mostly the enthusiasm it has attracted. In less than six months, here are the project's GitHub stats.
 
 I know GitHub stats aren't always indicative of anything, but still, these numbers are impressive.

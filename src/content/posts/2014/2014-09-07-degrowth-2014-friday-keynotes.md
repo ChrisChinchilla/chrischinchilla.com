@@ -5,9 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
+  - Politics
+  - Degrowth
+  - Activism
 summary: >-
   Michelle Bauens, the P2P Foundation The Nutrient dense project is a global
   community of farmers and civic scientists who believe that putting nutrients
@@ -16,7 +16,6 @@ summary: >-
   knowledge and information is shareable and escapes the commodity model. This
   is the production of commons, not capital.
 ---
-
 ## The Transition to a Sustainable Commons Society in Ecuador and beyond
 
 **Michelle Bauens, the [P2P Foundation](https://p2pfoundation.net/)** The [Nutrient dense project](https://nutrientdenseproject.com/) is a global community of farmers and civic scientists who believe that putting nutrients into the soil it will improve food growth rates. These projects will often receive no funding, so they have mutualised their research and practices. This knowledge and information is shareable and escapes the commodity model. This is the production of commons, not capital.

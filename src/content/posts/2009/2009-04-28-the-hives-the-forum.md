@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   The Hives are past masters at staging a rock show, working their way through
   all of the tricks in 'Rock Live shows for beginners', the vast majority of
@@ -15,7 +15,6 @@ summary: >-
   vast backdrop and a tremendous amount of 'milking it' as the crowd gets
   rowdier awaiting the band's emergence.
 ---
-
 The Hives are past masters at staging a rock show, working their way through all of the tricks in 'Rock Live shows for beginners', the vast majority of 'Rock live shows for intermediates' and making fair headway into the advanced volume. Even before the band take to the stage we have subdued red lighting, a vast backdrop and a tremendous amount of 'milking it' as the crowd gets rowdier awaiting the band's emergence.
 
 Finally five figures emerge resplendent in splendid matching black and white (ubiquitous when it comes to the Hives) 'college' style blazers and ties and crash straight into an opening salvo of pure pop-punk Rock & Roll fun.The Holiday spirit is in the air and the unique 'inside-outside' d√àcor of the Forum create a festival atmosphere as the crowd slowly lets themselves slip into the grip of the Hives, or to be more precise, the vice like hold of the charismatic and instantly likeable (and simultaneously dislikeable) front man Pelle. His repartee and inter song banter is legendary for it's humorous self glorification all delivered in faux American drawl and tonight is no disappointment with lines such as "You'll do anything I tell you to won't you?", "I'm so hot, aren't I?" and "I am the rock and roll preacher here to exorcise your musical demons".

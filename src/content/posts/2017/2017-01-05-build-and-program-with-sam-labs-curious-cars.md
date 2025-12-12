@@ -7,17 +7,16 @@ categories:
   - writing
   - theweeklysqueak
 tags:
-  - tech
-  - review
-  - coding
-  - children
+  - Tech
+  - Review
+  - Coding
+  - Children
 excerpt: null
 summary: >-
   Last year at IFA I came across a small stall lurking within a gathering of
   startups. The booth was full of blinking small blocks, motors and switches
   that aimed to help children learn to code.
 ---
-
 Last year at IFA I came across a small stall lurking within a gathering of startups. The booth was full of blinking small blocks, motors and switches that aimed to help children learn to code.
 
 Fresh from my experiences and reflections teaching Syrian refugees to code, [I have been pondering the best ways to do so ever since](https://www.sitepoint.com/teaching-programming-whats-the-best-language-for-beginners/). In a series of posts that will cover a variety of projects, and a broader summary post, I intend to look at a variety of different techniques for teaching coding, especially to children.

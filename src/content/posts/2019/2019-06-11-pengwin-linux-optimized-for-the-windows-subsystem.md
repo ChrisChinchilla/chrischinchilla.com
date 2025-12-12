@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - windows
-  - linux
-  - wsl
-  - open source
-  - pengwin
-  - linux subsystem for windows
+  - Windows
+  - Linux
+  - Wsl
+  - Open Source
+  - Pengwin
+  - Linux Subsystem For Windows
 publication_url: 'https://dzone.com/articles/-pengwin-linux-optimized-for-the-windows-subsystem'
 image: articles/12008960.jpeg
 summary: >-

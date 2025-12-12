@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - nodejs
-  - enterprise
-  - javascript
-  - security
+  - Nodejs
+  - Enterprise
+  - Javascript
+  - Security
 publication_url: 'https://dzone.com/articles/pravin-halady-of-nodesource-enterprise-ready-nodej'
 summary: >-
   I sat down with Pravin Halady, product manager at NodeSource, to discuss why
@@ -17,5 +17,4 @@ summary: >-
   and npm and what it's like running a business where your biggest competition
   is the creator of the product you sell.
 ---
-
 I sat down with Pravin Halady, product manager at NodeSource, to discuss why enterprise developers might need a safer and more secure version of Node.js and npm and what it's like running a business where your biggest competition is the creator of the product you sell.

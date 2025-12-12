@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - data science
-  - data analysis
-  - python
-  - r
-  - big data
+  - Data Science
+  - Data Analysis
+  - Python
+  - R
+  - Big Data
 publication_url: 'https://dzone.com/articles/data-science-in-a-box-with-dataiku'
 image: articles/6491451.jpeg
 summary: >-

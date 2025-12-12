@@ -7,9 +7,9 @@ categories:
   - writing
   - sitepoint
 tags:
-  - indesign
-  - json
-  - xml
+  - Indesign
+  - Json
+  - Xml
 summary: >-
   As a coder of many years, I am a keen believer in writing everything once and
   being able to use it in multiple places. In the coding world, thanks to open
@@ -17,7 +17,6 @@ summary: >-
   of content and use it for different applications and use cases, all nicely in
   sync.
 ---
-
 As a coder of many years, I am a keen believer in writing everything once and being able to use it in multiple places. In the coding world, thanks to open data formats and widely supported APIs we can generally have one central set of content and use it for different applications and use cases, all nicely in sync.
 
 In the desktop design world, this has traditionally been harder, with sources of content in Word documents, InDesign files and maybe some content management systems or spreadsheets.

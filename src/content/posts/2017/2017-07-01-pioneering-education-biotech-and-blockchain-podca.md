@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - internet of things
-  - biotech
-  - blockchain
-  - agile
-  - startups
+  - Internet Of Things
+  - Biotech
+  - Blockchain
+  - Agile
+  - Startups
 publication_url: 'https://dzone.com/articles/pioneering-education-biotech-and-blockchain'
 image: articles/5740446.jpeg
 summary: >-

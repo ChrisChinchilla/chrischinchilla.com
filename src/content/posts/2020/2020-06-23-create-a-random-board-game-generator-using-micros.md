@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - microservices
-  - heroku
-  - chatbot
-  - api
-  - tutorial
+  - Microservices
+  - Heroku
+  - Chatbot
+  - API
+  - Tutorial
 publication_url: 'https://dzone.com/articles/-create-a-random-board-game-generator-using-micros'
 image: articles/13657533.jpeg
 summary: >-

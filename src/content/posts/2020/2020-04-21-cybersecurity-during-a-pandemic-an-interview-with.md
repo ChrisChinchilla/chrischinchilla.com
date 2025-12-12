@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - cybersecurity
-  - coronavirus
-  - covid-19
-  - phishing
-  - zero day vulnerability
-  - penetration testing
-  - mdr
+  - Cybersecurity
+  - Coronavirus
+  - Covid-19
+  - Phishing
+  - Zero Day Vulnerability
+  - Penetration Testing
+  - Mdr
 publication_url: 'https://dzone.com/articles/-cybersecurity-during-a-pandemic-an-interview-with'
 image: articles/13215198.jpeg
 summary: >-

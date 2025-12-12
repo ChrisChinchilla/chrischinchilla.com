@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - devops
-  - automated testing
-  - test automation
-  - chaos engineering
-  - tutorial
+  - DevOps
+  - Automated Testing
+  - Test Automation
+  - Chaos Engineering
+  - Tutorial
 publication_url: 'https://dzone.com/articles/embracing-the-chaos-of-chaos-engineering'
 image: articles/9801161.jpeg
 summary: >-

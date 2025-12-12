@@ -7,13 +7,11 @@ categories:
   - writing
   - codeship
 tags:
-  - otto
-  - devops
-  - vagrant
+  - Otto
+  - DevOps
+  - Vagrant
 summary: I'm leaving most of this post to the podcast version as I had a co-host
 ---
-
-
 I'm leaving most of this post to the podcast version as I had a co-host
 in the form of [Cate
 Lawrence](https://medium.com/u/529dde579def){.markup--user

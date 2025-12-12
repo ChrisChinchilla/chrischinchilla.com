@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - github
-  - git
-  - continious integration
-  - continious deployment
-  - java
-  - .net
-  - microsoft
+  - GitHub
+  - Git
+  - Continious Integration
+  - Continious Deployment
+  - Java
+  - .Net
+  - Microsoft
 publication_url: 'https://dzone.com/articles/github-universe-2018-enterprise-enterprise-enterpr'
 image: articles/10503347.jpeg
 summary: >-

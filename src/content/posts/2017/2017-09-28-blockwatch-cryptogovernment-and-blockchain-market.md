@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - cryptocurrency
-  - digital transformation
-  - security
+  - Blockchain
+  - Cryptocurrency
+  - Digital Transformation
+  - Security
 publication_url: 'https://dzone.com/articles/blockwatch-cryptogovernment-and-blockchain-marketi'
 image: articles/6726830.jpeg
 summary: >-

@@ -6,13 +6,19 @@ import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
+import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+
 import { remarkReadingTime } from './src/utils/frontmatter.mjs';
 import { remarkSupabaseImages } from './src/utils/remark-supabase-images.mjs';
+import { customizeSitemapItem } from './src/utils/sitemap';
 import { SITE } from './src/config.mjs';
-// import react from "@astrojs/react";
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const whenExternalScripts = (items = []) =>
-  SITE.googleAnalyticsId ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
+
+const hasExternalScripts = false;
+const whenExternalScripts = (items: (() => any) | (() => any)[] = []) =>
+  hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,6 +29,7 @@ export default defineConfig({
   base: SITE.basePathname,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
   output: 'static',
+  
   integrations: [
     icon({
       include: {
@@ -54,13 +61,17 @@ export default defineConfig({
         'simple-icons': ['applepodcasts', 'amazonmusic', 'pocketcasts'],
       },
     }),
+    
     tailwind({
-      config: {
-        applyBaseStyles: false,
-      },
+      applyBaseStyles: false,
     }),
-    sitemap(),
+    
+    sitemap({
+      serialize: customizeSitemapItem,
+    }),
+    
     mdx(),
+    
     ...whenExternalScripts(() =>
       partytown({
         config: {
@@ -69,10 +80,23 @@ export default defineConfig({
       })
     ),
   ],
+  
   markdown: {
     remarkPlugins: [remarkReadingTime, remarkSupabaseImages],
-    extendDefaultPlugins: true,
+    rehypePlugins: [
+      rehypeSlug,
+      [
+        rehypeAutolinkHeadings,
+        {
+          behavior: 'wrap',
+          properties: {
+            className: ['heading-link'],
+          },
+        },
+      ],
+    ],
   },
+  
   vite: {
     resolve: {
       alias: {

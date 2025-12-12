@@ -4,7 +4,7 @@ publishDate: '2022-07-29 09:26:58 UTC'
 author: ''
 categories: video
 tags:
-  - DX
+  - Dx
 orig_url: 'https://www.youtube.com/watch?v=QD7L45ZfmjY'
 video_embed: QD7L45ZfmjY
 image: /src/assets/images/defaults/blog-chinchilla.jpg

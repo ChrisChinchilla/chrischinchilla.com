@@ -6,14 +6,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - apple reviews
+  - Apple Reviews
 summary: >-
   I love living on the cutting edge, many times to my detriment, but it never
   ceases to dissuade me. So after a brief delay due to being away from home and
   nowhere near a backup drive (which, of course, is essential before a major
   system upgrade!) it was time to get my hands dirty.
 ---
-
 I love living on the cutting edge, many times to my detriment, but it never ceases to dissuade me. So after a brief delay due to being away from home and nowhere near a backup drive (which, of course, is essential before a major system upgrade!) it was time to get my hands dirty.
 
 One of the major criticisms of <a href="https://www.apple.com/au/macosx/what-is/" target="_blank">Lion</a> has been the loss of control and the somewhat excessive wrapping in cotton wool of users. I personally have no problem with the replacement of physical media with a download, I have a small but growing collection of unwanted OS CDs and am very happy to not add to it. The download was relatively swift and trouble free and fortunately the installer gave me time to finish what I was doing before just restarting on me.

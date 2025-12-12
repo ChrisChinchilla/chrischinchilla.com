@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - agile
-  - communication &amp;amp; collaboration
-  - operational agility
-  - knowledge base
-  - tools and techniques
+  - Agile
+  - Communication &Amp;Amp; Collaboration
+  - Operational Agility
+  - Knowledge Base
+  - Tools And Techniques
 publication_url: 'https://dzone.com/articles/distributing-operational-knowledge-across-a-team'
 image: articles/7741726.jpeg
 summary: >-

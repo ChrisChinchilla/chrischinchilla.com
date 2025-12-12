@@ -1,8 +1,11 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
-import ContentImage from '~/components/common/ContentImage.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import RelatedPosts from '~/components/RelatedPosts.astro';
+import OptimizedImage from '~/components/common/OptimizedImage.astro';
 import { getCollection, render } from 'astro:content';
 import defaultPostImage from '/src/assets/images/defaults/blog-chinchilla.jpg'
+import { getCanonical } from '~/utils/permalinks';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('posts');
@@ -14,14 +17,37 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+
+// Prepare structured data
+const structuredData = {
+  title: entry.data.title,
+  description: entry.data.summary || entry.data.description,
+  author: entry.data.author,
+  publishDate: entry.data.publishDate,
+  image: entry.data.image,
+  canonical: entry.data.publication_url || getCanonical(`/blog/${entry.id}`),
+  tags: entry.data.tags,
+  categories: entry.data.categories,
+};
 ---
 
 <MarkdownPostLayout frontmatter={entry.data}>
-  <ContentImage 
-    src={entry.data.image}
-    alt={entry.data.title}
-    type="post"
+  <StructuredData slot="head" type="BlogPosting" data={structuredData} />
+  <OptimizedImage 
+    src={entry.data.image ? entry.data.image : defaultPostImage}
+    alt={entry.data.imageAlt || entry.data.title}
+    title={entry.data.title}
     class="object-cover w-full h-full mb-6 rounded drop-shadow-lg"
+    format="webp"
+    quality={85}
+    fetchpriority="high"
+    loading="eager"
+    inferSize={true}
   />
   <Content />
+  <RelatedPosts 
+    currentPostId={entry.id} 
+    currentTags={entry.data.tags} 
+    currentCategories={entry.data.categories}
+  />
 </MarkdownPostLayout>

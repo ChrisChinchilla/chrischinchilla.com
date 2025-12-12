@@ -5,16 +5,17 @@ author: Chris Ward
 categories:
   - writing
 tags:
-  - productivity
-  - focus
+  - Productivity
+  - Focus
   - Apple
   - Raycast
   - macOS
 image: "articles/focus-chinchilla.jpg"
 summary: >-
   Surrounded by digital devices, it's all too easy to use any number of them to access a world of distractions, rather than focus on doing what you need to get done. In a strange, ironic twist, many of the devices and operating systems now offer tools to help block and filter these distractions. When I split myself between macOS and Android, I had focus modes set on both (conveniently, both OSs call them the same thing), but I never found them to be that effective, as I'd have to keep remembering to keep the equivalent modes the same on both devices. Then I bought an iPhone and discovered that the focus modes mostly sync between devices.  With the arrival of the "Reduce Interruptions" focus mode in the 2024 operating systems, I went all in on optimising focus modes to work as efficiently as possible, not only blocking and filtering as many distractions as possible, but also automating them as much as possible.
+herotext: Master your focus with macOS and Raycast to block distractions and boost productivity
+heroimage: ../../../assets/images/articles/focus-chinchilla.jpg
 ---
-
 Surrounded by digital devices, it's all too easy to use any number of them to access a world of distractions, rather than focus on doing what you need to get done. In a strange, ironic twist, many of the devices and operating systems now offer tools to help block and filter these distractions. When I split myself between macOS and Android, I had focus modes set on both (conveniently, both OSs call them the same thing), but I never found them to be that effective, as I'd have to keep remembering to keep the equivalent modes the same on both devices. Then I bought an iPhone and discovered that the focus modes mostly sync between devices. With the arrival of the "Reduce Interruptions" focus mode in the 2024 operating systems, I went all in on optimising focus modes to work as efficiently as possible, not only blocking and filtering as many distractions as possible, but also automating them as much as possible.
 
 One of the positives of keeping everything in Apple's ecosystem is the expectation of continuity (to use Apple's term) between devices. One of the negatives is that fewer developers than you hope integrate the necessary APIs and features to facilitate these continuity features, including Apple's Focus Modes APIs. This is especially true of cross-platform applications such as Discord and Slack, which will keep pinging away at you, no matter your focus mode settings. If developers do support focus modes, they are often limited to the options they offer, which typically include filtering and blocking notifications, but in some cases, filtering what you can see, such as mail accounts or calendar sets.

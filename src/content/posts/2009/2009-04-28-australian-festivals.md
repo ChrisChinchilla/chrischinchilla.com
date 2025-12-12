@@ -5,15 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - opinion
-  - australia
+  - Music
+  - Opinion
+  - Australia
 summary: >-
   I finally got my fist experience(s) of Australian festivals this summer,
   albeit a gentle one-day only festival introduction and I hate to say I wasn't
   greatly impressed.
 ---
-
 I finally got my fist experience(s) of Australian festivals this summer, albeit a gentle one-day only festival introduction and I hate to say I wasn't greatly impressed.
 
 Whilst most of my festival encounters were a couple of years ago and who knows what might have changed since then I have been to festivals all over Europe so have a fair amount of experience in the matter, from a performer, staff and punter's perspective.

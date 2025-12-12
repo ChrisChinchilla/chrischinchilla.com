@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - open source
-  - metrics
-  - community
-  - analysis
-  - monitoring
+  - Open Source
+  - Metrics
+  - Community
+  - Analysis
+  - Monitoring
 publication_url: 'https://dzone.com/articles/-measuring-metrics-in-open-source-projects'
 image: articles/13470735.jpeg
 summary: >-

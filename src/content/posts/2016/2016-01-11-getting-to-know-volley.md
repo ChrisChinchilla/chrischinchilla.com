@@ -8,11 +8,10 @@ categories:
   - writing
   - sitepoint
 tags:
-  - android
-  - tutorial
+  - Android
+  - Tutorial
 summary: 'Volley, next generation network communications for Android'
 ---
-
 Volley, next generation network communications for Android
 
 Volley is now the preferred method for communicating with external services to and from your Android app. In this video we look at how to use the library in your application and the options it provides for managing multiple connections quickly and efficiently.

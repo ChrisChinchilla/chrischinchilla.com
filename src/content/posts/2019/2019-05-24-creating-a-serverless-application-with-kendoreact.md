@@ -6,9 +6,9 @@ categories:
   - writing
   - telerik
 tags:
-  - kendo
-  - react
-  - serverless
+  - Kendo
+  - React
+  - Serverless
 publication_url: >-
   https://www.telerik.com/blogs/creating-a-serverless-application-with-kendoreact
 summary: >-

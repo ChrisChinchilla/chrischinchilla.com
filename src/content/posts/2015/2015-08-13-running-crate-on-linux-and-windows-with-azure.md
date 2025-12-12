@@ -7,12 +7,11 @@ categories:
   - writing
   - crate
 tags:
-  - azure
-  - windows
+  - Azure
+  - Windows
 summary: >-
   We have had requests from many of you about the potential of running Crate on
   Azure cloud hosting and/or Windows. Whilst this was always possible with some
   exploration, we now have official documentation.
 ---
-
 We have had requests from many of you about the potential of running Crate on Azure cloud hosting and/or Windows. Whilst this was always possible with some exploration, we now have official documentation.

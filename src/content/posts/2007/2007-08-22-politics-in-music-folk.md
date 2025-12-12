@@ -5,9 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - politics
-  - folk
+  - Music
+  - Politics
+  - Folk
 summary: 'Politics in Folk music, part 1...'
 ---
 Politics in Folk music, part 1...

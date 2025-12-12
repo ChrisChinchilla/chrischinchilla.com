@@ -50,12 +50,21 @@
     "affiliate_link": "https://go.chrischinchilla.com/mermaid"
   },
   {
+    "slug": "notegpt",
+    "cta": "Try NoteGPT",
+    "title": "AI-powered learning with NoteGPT",
+    "section": "affiliate",
+    "image": "/src/assets/images/affiliate/notegpt.png",
+    "description": "Summarize YouTube videos, PDFs, articles, lectures, audios, PPTs, and images. Instantly create notes, mind maps, and presentations. Boost your learning efficiency by 10x.",
+    "affiliate_link": "https://go.chrischinchilla.com/notegpt"
+  },
+  {
     "slug": "descript",
     "title": "Text based video and audio editing",
     "cta": "Download Descript",
     "section": "affiliate",
     "image": "affiliate/descript.svg",
-    "description": " Are you looking to make editing audio and video easier and more prowerful with a suite of AI-powerd features? Try Descript, I use it for editing all my podcasts and you can to!",
+    "description": " Are you looking to make editing audio and video easier and more powerful with a suite of AI-powerd features? Try Descript, I use it for editing all my podcasts and you can to!",
     "affiliate_link": "https://go.chrischinchilla.com/descript"
   },
   {

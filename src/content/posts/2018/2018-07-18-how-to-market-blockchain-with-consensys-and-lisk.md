@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - ethereum
-  - lisk
-  - sidechain
-  - distributed ledger
+  - Blockchain
+  - Ethereum
+  - Lisk
+  - Sidechain
+  - Distributed Ledger
 publication_url: 'https://dzone.com/articles/marketing-blockchain-with-consensys-and-lisk'
 image: articles/9771418.jpeg
 summary: >-

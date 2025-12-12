@@ -5,10 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: An image man does what his image can
 ---
-
 An image man does what his image can
 
 When he's on his own he'll be himself

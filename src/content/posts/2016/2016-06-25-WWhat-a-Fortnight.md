@@ -5,13 +5,11 @@ publication_url: 'https://medium.com/@chrischinchilla/wwhat-a-fortnight-4e660893
 categories:
   - writing
 tags:
-  - apple
-  - events
-  - wwdc
+  - Apple
+  - Events
+  - Wwdc
 summary: 'This is the latest editorial from my newsletter, [*subscribe'
 ---
-
-
 *This is the latest editorial from my newsletter,* [*subscribe
 here*](https://www.sitepoint.com/newsletter/){.markup--anchor
 .markup--p-anchor data-href="https://www.sitepoint.com/newsletter/"

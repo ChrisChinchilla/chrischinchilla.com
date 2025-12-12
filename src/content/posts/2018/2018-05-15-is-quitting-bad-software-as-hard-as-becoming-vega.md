@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - ethics
-  - technology
-  - artificial intelligence
-  - malware
-  - open source
-  - surveillance capitalism
+  - Ethics
+  - Technology
+  - Artificial Intelligence
+  - Malware
+  - Open Source
+  - Surveillance Capitalism
 publication_url: 'https://dzone.com/articles/is-quitting-bad-software-as-hard-as-becoming-vegan'
 image: articles/9126940.jpeg
 summary: >-

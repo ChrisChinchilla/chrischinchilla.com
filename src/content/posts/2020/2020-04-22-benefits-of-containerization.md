@@ -5,10 +5,10 @@ author: Chris Ward
 categories:
   - writing humanitec
 tags:
-  - devops
-  - containers
-  - kubernetes
-  - docker
+  - DevOps
+  - Containers
+  - Kubernetes
+  - Docker
 publication_url: 'https://humanitec.com/blog/benefits-of-containerization'
 image: >-
   articles/5e9ec368fa9f653e4386d691_benefits-of-containerization-humanitec.png

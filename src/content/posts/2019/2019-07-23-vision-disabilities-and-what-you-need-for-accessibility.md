@@ -6,8 +6,8 @@ categories:
   - writing
   - telerik
 tags:
-  - accessibility
-  - web
+  - Accessibility
+  - Web
 publication_url: >-
   https://www.telerik.com/blogs/vision-disabilities-and-what-you-need-for-accessibility
 summary: >-
@@ -15,5 +15,4 @@ summary: >-
   development strategies for improving accessibility for users with visual
   impairments.
 ---
-
 In this article, we'll define vision disabilities and talk about web development strategies for improving accessibility for users with visual impairments.

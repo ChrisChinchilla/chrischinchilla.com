@@ -7,8 +7,8 @@ categories:
   - writing
   - techbeacon
 tags:
-  - devops
-  - kubernetes
+  - DevOps
+  - Kubernetes
 publication_url: >-
   https://techbeacon.com/app-dev-testing/why-your-software-teams-need-internal-developer-platform
 summary: >-
@@ -17,5 +17,4 @@ summary: >-
   building new features and fixing bugs without operations teams slowing them
   down with complex and arduous processes?
 ---
-
 Companies that are built upon or are building software typically want to move fast and not break things. But how can growing teams allow developers to keep building new features and fixing bugs without operations teams slowing them down with complex and arduous processes?

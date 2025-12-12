@@ -5,10 +5,10 @@ author: Chris Ward
 categories:
   - writing kauri
 tags:
-  - ipfs
-  - web
-  - installation
-  - peer2peer
+  - Ipfs
+  - Web
+  - Installation
+  - Peer2Peer
 publication_url: 'https://dev2.kauri.io/article/b01b9b7bebcd4ebf80edf021bdd0e232'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: 'In this tutorial, we install IPFS and learn its basic commands.'

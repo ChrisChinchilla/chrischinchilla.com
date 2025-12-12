@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - debugging tools
-  - distributed apps
-  - kubernetes
-  - tracing
-  - logging
-  - cloud
+  - Debugging Tools
+  - Distributed Apps
+  - Kubernetes
+  - Tracing
+  - Logging
+  - Cloud
 publication_url: 'https://dzone.com/articles/best-tools-for-debugging-distributed-applications'
 image: articles/10494209.jpeg
 summary: >-

@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - chatbot
-  - nlp
-  - natural language processing
-  - salesforce
-  - heroku
-  - image analysis
-  - text processing
-  - voice interfaces
+  - Chatbot
+  - Nlp
+  - Natural Language Processing
+  - Salesforce
+  - Heroku
+  - Image Analysis
+  - Text Processing
+  - Voice Interfaces
 publication_url: 'https://dzone.com/articles/reducing-support-overload-with-an-einstein-powered'
 image: articles/13885283.jpeg
 summary: >-

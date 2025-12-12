@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - wolfram alpha
-  - jupyter notebook
-  - data science
-  - big data
+  - Wolfram Alpha
+  - Jupyter Notebook
+  - Data Science
+  - Big Data
 publication_url: 'https://dzone.com/articles/computational-knowledge-with-stephen-wolfram'
 image: articles/9444041.jpeg
 summary: >-

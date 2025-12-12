@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - cloud foundry
-  - cloud
-  - containers
-  - use cases
+  - Cloud Foundry
+  - Cloud
+  - Containers
+  - Use Cases
 publication_url: 'https://dzone.com/articles/chip-childers-cto-of-cloud-foundry'
 image: articles/5651398.jpeg
 summary: >-

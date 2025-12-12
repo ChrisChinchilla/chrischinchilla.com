@@ -2,14 +2,13 @@
 title: Text Talk one
 publishDate: 2008-12-30T00:00:00.000Z
 tags:
-  - poetry
-  - creative
+  - Poetry
+  - Creative
 categories:
   - writing
   - chrischinchilla
 summary: _A poem written completely in predictive text_
 ---
-
 _A poem written completely in predictive text_
 
 Fancied damaged boy any box or coy Cox kiss lips as they lisp.

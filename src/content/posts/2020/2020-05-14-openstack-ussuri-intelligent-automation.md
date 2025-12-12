@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - openstack
-  - ussuri
-  - infrastructure
-  - cloud computing
+  - Openstack
+  - Ussuri
+  - Infrastructure
+  - Cloud Computing
 publication_url: 'https://dzone.com/articles/-openstack-ussuri-intelligent-automation'
 image: articles/13457325.jpeg
 summary: >-

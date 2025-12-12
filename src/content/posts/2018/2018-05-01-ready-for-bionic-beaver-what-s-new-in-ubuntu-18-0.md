@@ -6,15 +6,15 @@ categories:
   - writing
   - dzone
 tags:
-  - ubuntu
-  - linux
-  - gnome
-  - kubernetes
-  - snaps
-  - bare metal
-  - hybrid cloud
-  - cloud
-  - devops
+  - Ubuntu
+  - Linux
+  - Gnome
+  - Kubernetes
+  - Snaps
+  - Bare Metal
+  - Hybrid Cloud
+  - Cloud
+  - DevOps
 publication_url: 'https://dzone.com/articles/ready-for-bionic-beaver-whats-new-in-ubuntu-1804'
 image: articles/8983114.jpeg
 summary: >-

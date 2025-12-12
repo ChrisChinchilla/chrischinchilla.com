@@ -6,17 +6,16 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - tech
-  - conferences
-  - links
-  - history
+  - Tech
+  - Conferences
+  - Links
+  - History
 summary: >-
   I haven't been to many meetups the past weeks as the beginning of October is
   traditionally conference season in tech, and as I look back through my Timehop
   for the past years, pretty much every year around this time I am at a
   conference.
 ---
-
 I haven't been to many meetups the past weeks as the beginning of October is traditionally conference season in tech, and as I look back through my [Timehop](https://timehop.com/) for the past years, pretty much every year around this time I am at a conference.
 
 This year has been the turn of Voxxed Belgrade (2nd time) and LinuxCon (also 2nd time). Both very different conferences and great in different ways. I'll tackle chronologically.

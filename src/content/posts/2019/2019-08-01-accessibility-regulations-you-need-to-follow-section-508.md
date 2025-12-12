@@ -6,8 +6,8 @@ categories:
   - writing
   - telerik
 tags:
-  - accessibility
-  - web design
+  - Accessibility
+  - Web Design
 publication_url: >-
   https://www.telerik.com/blogs/accessibility-regulations-you-need-to-follow-section-508
 summary: >-

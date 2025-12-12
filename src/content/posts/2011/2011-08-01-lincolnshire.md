@@ -6,11 +6,10 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - travel
-  - uk
+  - Travel
+  - Uk
 summary: It's amazing what you can find in the country with a little digging...
 ---
-
 It's amazing what you can find in the country with a little digging...
 
 We've been quite busy tucked away in this little corner on the English countryside known as <a href="https://en.wikipedia.org/wiki/Horncastle,_Lincolnshire" target="_blank">Horncastle</a>, which has a surprising amount of notable past residents, including <a href="https://en.wikipedia.org/wiki/Joseph_Banks" target="_blank">Joseph Banks</a>, for all my Australian and scientific readers.

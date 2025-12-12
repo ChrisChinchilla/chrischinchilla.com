@@ -5,7 +5,7 @@ author: Chris Ward
 categories:
   - writing humanitec
 tags:
-  - DX
+  - Dx
   - DevOps
 publication_url: >-
   https://humanitec.com/blog/developer-experience-roundtable-continuous-improvement-nigel-simpson-erik-muttersbach

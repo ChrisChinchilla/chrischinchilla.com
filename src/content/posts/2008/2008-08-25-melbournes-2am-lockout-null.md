@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   In another example of Western governments unable to comprehend why their
   populations are dead set on destroying themselves in a wave of hedonism or
@@ -16,7 +16,6 @@ summary: >-
   decided to follow Queensland and introduce a 2am lockout in the CBD in an
   effort to curb late night violence.
 ---
-
 In another example of Western governments unable to comprehend why their populations are dead set on destroying themselves in a wave of hedonism or violence, and instead of attempting to understand the motivations behind this they instead restrict them every way possible with an ever increasing amount of legislation. In its infinite wisdom the Victorian state government has decided to follow Queensland and introduce a 2am lockout in the CBD in an effort to curb late night violence.
 
 Melbourne is currently a busy and thriving late night location and a large contingent of inner city venue owners and promoters organised a large-scale campaign and protest to attempt to counter the new measures. Measures that the Police, who have to handle these aggressive drunks, are against, and measures that will push drinkers into the inner suburbs that will not be able to cope with the increase in numbers.

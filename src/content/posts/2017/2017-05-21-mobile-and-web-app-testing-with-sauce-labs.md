@@ -6,16 +6,15 @@ categories:
   - writing
   - dzone
 tags:
-  - testing
-  - mobile
-  - web
-  - selenium
-  - appium
+  - Testing
+  - Mobile
+  - Web
+  - Selenium
+  - Appium
 publication_url: 'https://dzone.com/articles/mobile-and-web-app-testing-with-sauce-labs'
 summary: >-
   Chris Ward's interview with Sauce Labs takes a look at the acquisition of
   TestObject automated app testing service, SauceCon, and how to test the
   Internet of Things.
 ---
-
 Chris Ward's interview with Sauce Labs takes a look at the acquisition of TestObject automated app testing service, SauceCon, and how to test the Internet of Things.

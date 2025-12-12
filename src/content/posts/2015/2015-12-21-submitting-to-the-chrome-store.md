@@ -7,14 +7,13 @@ categories:
   - writing
   - sitepoint
 tags:
-  - chrome
-  - javascript
-  - html
+  - Chrome
+  - Javascript
+  - Html
 summary: >-
   There are quite a lot of specific images and text descriptions required to
   create a listing page for your app, we detail them here and provide some
   useful tools to help create them. In this final section we submit our
   application to the store. You're almost there!
 ---
-
 There are quite a lot of specific images and text descriptions required to create a listing page for your app, we detail them here and provide some useful tools to help create them. In this final section we submit our application to the store. You're almost there!

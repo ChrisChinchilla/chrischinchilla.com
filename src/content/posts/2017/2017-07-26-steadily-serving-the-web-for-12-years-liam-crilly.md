@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - apache
-  - web servers
-  - nginx
-  - devops
+  - Apache
+  - Web Servers
+  - Nginx
+  - DevOps
 publication_url: 'https://dzone.com/articles/steadily-serving-the-web-for-12-years-liam-crilly'
 image: articles/6039129.jpeg
 summary: >-

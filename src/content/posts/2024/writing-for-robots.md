@@ -6,14 +6,13 @@ categories:
   - writing
 tags:
   - AI
-  - LLM
+  - Llm
   - Writing
 image: articles/1*WUfhLdT4ewEz0_trgoqFow.webp
 summary: >-
   Who do you think reads most of your technical writing? Customers? Potential
   customers?
 ---
-
 Who do you think reads most of your technical writing? Customers? Potential customers?
 
 If your work is public and not behind a log-in, I hate to disappoint you, but your most frequent reader probably isn't human. And this is nothing new.

@@ -6,12 +6,12 @@ categories:
   - writing
   - dzone
 tags:
-  - development
-  - task automation
-  - project management
-  - github
-  - automation
-  - bot
+  - Development
+  - Task Automation
+  - Project Management
+  - GitHub
+  - Automation
+  - Bot
 publication_url: 'https://dzone.com/articles/-automate-task-creation-with-the-todo-bot'
 image: articles/13060826.jpeg
 summary: >-

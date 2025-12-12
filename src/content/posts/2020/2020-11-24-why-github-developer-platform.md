@@ -5,7 +5,7 @@ author: Chris Ward
 categories:
   - writing humanitec
 tags:
-  - DX
+  - Dx
   - DevOps
   - GitHub
 publication_url: >-
@@ -18,5 +18,4 @@ summary: >-
   and previous VP of Engineering for Heroku about how IDPs help teams of that
   scale build efficiently.
 ---
-
 An Internal Developer Platform (IDP) is an essential step for rapidly scaling companies to keep their developers working productively and happily. In this roundtable discussion we speak with Jason Warner, the current CTO of GitHub and previous VP of Engineering for Heroku about how IDPs help teams of that scale build efficiently.

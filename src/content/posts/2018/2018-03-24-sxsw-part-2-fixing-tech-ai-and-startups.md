@@ -6,10 +6,10 @@ categories:
   - writing
   - dzone
 tags:
-  - ai
-  - machine learning
-  - ethics
-  - design strategy
+  - AI
+  - Machine Learning
+  - Ethics
+  - Design Strategy
 publication_url: 'https://dzone.com/articles/sxsw-part-2-fixing-tech-ai-and-startups'
 image: articles/8585381.jpeg
 summary: >-

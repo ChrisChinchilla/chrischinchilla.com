@@ -5,15 +5,14 @@ author: Chris Ward
 categories:
   - writing
 tags:
-  - gadgets
-  - mobile
-  - android
+  - Gadgets
+  - Mobile
+  - Android
 publication_url: >-
   https://medium.com/@chrischinchilla/the-pixel-6-to-google-or-not-to-google-f3938b718f57
 image: articles/1*IX-odNWMBhpz5RdNPkXT5Q.jpg
 summary: I am one of those rare and crazy people that owned the one and only
 ---
-
 I am one of those rare and crazy people that owned the one and only
 [Essential phone](https://www.gsmarena.com/_essential_ph_1-8710.php). And I loved it. It was just the right
 size for me, devoid of excessive branding, almost pure Android, and a

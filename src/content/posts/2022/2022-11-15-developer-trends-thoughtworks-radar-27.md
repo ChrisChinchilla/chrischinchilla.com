@@ -6,11 +6,11 @@ categories:
   - writing
   - hackernoon
 tags:
-  - thoughtworks
-  - trends
+  - Thoughtworks
+  - Trends
   - Machine Learning
   - Observability
-  - SBOM
+  - Sbom
   - Sustainability
 publication_url: 'https://hackernoon.com/developer-trends-from-thoughtworks-technology-radar-27'
 image: articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-n893mnh.jpeg

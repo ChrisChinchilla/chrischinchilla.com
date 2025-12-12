@@ -5,9 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
+  - Politics
+  - Degrowth
+  - Activism
 summary: >-
   Konstantatos Haris of the Harokopio University of Athens is a member of Syriza
   and Political scientist in the department of Geography. He states that
@@ -15,7 +15,6 @@ summary: >-
   socio-economic structures. There are commonalities amongst many Southern
   European countries that need to be addressed today.
 ---
-
 ## Facing the current crisis: Critique and Resistance
 
 **Konstantatos Haris of the Harokopio University of Athens** is a member of [Syriza](https://en.wikipedia.org/wiki/Coalition_of_the_Radical_Left) and Political scientist in the department of Geography. He states that Geography and History are also factors as well as different political and socio-economic structures. There are commonalities amongst many Southern European countries that need to be addressed today.

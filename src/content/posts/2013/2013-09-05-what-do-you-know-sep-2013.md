@@ -5,10 +5,10 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - events
-  - startups
-  - programming
-  - design
+  - Events
+  - Startups
+  - Programming
+  - Design
 summary: >-
   The Web Directions - <a href="https://wdyk-melb-sept13.eventbrite.com/"
   target="_blank">What do you know events</a> are always a fun night and tonight
@@ -18,7 +18,6 @@ summary: >-
   larger national scale. Anyway, enough of Politics, what were the talks? Bear
   in mind there were 10, so this will be very brief...
 ---
-
 The Web Directions - <a href="https://wdyk-melb-sept13.eventbrite.com/" target="_blank">What do you know events</a> are always a fun night and tonight was no exception with many running 'jokes' about some of the appalling policy decisions just announced by the coalition that will affect our industry, one which has been a boom area for Australia, but largely unrecognised on the larger national scale. Anyway, enough of Politics, what were the talks? Bear in mind there were 10, so this will be very brief...
 
 **"How to make a mobile app in 5 minutes"**<br />This was an Apache Cordova talk, which is what I did at the last what do you know event, <a href="https://au.linkedin.com/in/bbirch" target="_blank">Ben Birch</a> did an admirable job despite the lack of Internet connection, but is it me, or does the initial set-up for Cordova get more complex with each version?.<br /><a href="https://cordova.apache.org/" target="_blank">cordova.apache.org</a>

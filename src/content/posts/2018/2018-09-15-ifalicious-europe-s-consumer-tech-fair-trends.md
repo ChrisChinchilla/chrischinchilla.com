@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - ifa
-  - iot
-  - smart home
-  - robots
-  - computers
-  - china
-  - consumer electronics
+  - Ifa
+  - IoT
+  - Smart Home
+  - Robots
+  - Computers
+  - China
+  - Consumer Electronics
 publication_url: 'https://dzone.com/articles/ifalicious-europes-consumer-tech-fair-trends'
 image: articles/10228482.jpeg
 summary: >-

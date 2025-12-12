@@ -5,9 +5,9 @@ author: Chris Ward
 categories:
   - writing gitlab
 tags:
-  - code review
-  - gitlab
-  - devops
+  - Code Review
+  - Gitlab
+  - DevOps
 publication_url: >-
   https://about.gitlab.com/blog/2020/03/18/troubleshoot-delays-with-code-review-analytics/
 image: articles/code_review_analytics.png

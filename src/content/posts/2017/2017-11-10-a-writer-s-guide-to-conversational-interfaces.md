@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - ai
-  - chatbots
-  - conversational interfaces
-  - bot development
-  - machine learning
+  - AI
+  - Chatbots
+  - Conversational Interfaces
+  - Bot Development
+  - Machine Learning
 publication_url: 'https://dzone.com/articles/a-writers-guide-to-conversational-interfaces'
 image: articles/7164056.jpeg
 summary: >-

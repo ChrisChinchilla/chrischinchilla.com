@@ -7,13 +7,12 @@ categories:
   - writing
   - sitepoint
 tags:
-  - android
+  - Android
   - IDE
-  - development
+  - Development
 summary: >-
   Android Studio is now the official IDE for Android development. In this video
   we look at how to download and install it, tour the interface and look at some
   of the tools and features it offers.
 ---
-
 Android Studio is now the official IDE for Android development. In this video we look at how to download and install it, tour the interface and look at some of the tools and features it offers.

@@ -7,13 +7,12 @@ categories:
   - writing
   - crate
 tags:
-  - tools
-  - databases
+  - Tools
+  - Databases
 summary: >-
   Meet Christian Haudum, aka 'Haudi', one of Crate's integration engineers and a
   fan of vinyl and dub step.
 ---
-
 Meet Christian Haudum, aka 'Haudi', one of Crate's integration engineers and a fan of vinyl and dub step.
 
 At Snow Sprint, amongst other things, Haudi decided to create a process monitoring tool for Crate.

@@ -8,13 +8,12 @@ categories:
   - writing
   - sitepoint
 tags:
-  - ios
-  - css
+  - iOS
+  - Css
 summary: >-
   Classy is an intriguing project hoping to bridge some gaps between designers
   more used to web or front end projects and app developers. Classy allows for
   the use of 'CSS-esque' stylesheets to style native iOS app interface
   components.
 ---
-
 Classy is an intriguing project hoping to bridge some gaps between designers more used to web or front end projects and app developers. Classy allows for the use of 'CSS-esque' stylesheets to style native iOS app interface components.

@@ -7,14 +7,13 @@ categories:
   - writing
   - crate
 tags:
-  - azure
-  - cloud
+  - Azure
+  - Cloud
 summary: >-
   Crate.io focuses on database simplicity and horizontal scalability. We aim to
   make scaling your data from millions to billions of records and beyond as
   simple as possible.
 ---
-
 Crate.io focuses on database simplicity and horizontal scalability. We aim to make scaling your data from millions to billions of records and beyond as simple as possible.
 
 We have clients who write and query gigabytes of data a minute, store terabytes a day and love the performance and stability that Crate offers. But the question always remained at the back of our minds - when taken to the extreme, what is Crate really capable of?

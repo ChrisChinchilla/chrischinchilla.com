@@ -6,14 +6,13 @@ categories:
   - writing
   - cultofmac
 tags:
-  - apple
-  - mac
-  - software
+  - Apple
+  - Mac
+  - Software
 publication_url: 'https://www.cultofmac.com/467861/setapp-aims-solve-mac-apps-problem/'
 summary: >-
   There are currently two major issues and trends with application development.
   One is users finding your efforts, and the other is then making money when
   they do.
 ---
-
 There are currently two major issues and trends with application development. One is users finding your efforts, and the other is then making money when they do.

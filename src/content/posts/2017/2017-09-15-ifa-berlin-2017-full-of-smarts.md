@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - robots
-  - voice assistants
-  - virtual reality
-  - iot
-  - connected devices
+  - Robots
+  - Voice Assistants
+  - Virtual Reality
+  - IoT
+  - Connected Devices
 publication_url: 'https://dzone.com/articles/ifa-berlin-2017-full-of-smarts'
 image: articles/6577290.jpeg
 summary: >-

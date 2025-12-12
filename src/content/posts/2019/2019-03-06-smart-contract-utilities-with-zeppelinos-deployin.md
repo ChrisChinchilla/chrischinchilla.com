@@ -5,11 +5,11 @@ author: Chris Ward
 categories:
   - writing kauri
 tags:
-  - smart-contract
-  - zeppelinos
-  - zeppelin
-  - mainnet
-  - deploy
+  - Smart-Contract
+  - Zeppelinos
+  - Zeppelin
+  - Mainnet
+  - Deploy
 publication_url: 'https://dev2.kauri.io/article/c6aadc15a87b403ca428602f4d6ea30e'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-

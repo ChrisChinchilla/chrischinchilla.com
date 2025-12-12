@@ -9,13 +9,12 @@ categories:
   - dzone
 tags:
   - macOS
-  - developer
-  - saas
-  - payments
+  - Developer
+  - Saas
+  - Payments
 publication_url: 'https://dzone.com/articles/paddle-merges-with-devmate-offering-macos-develope'
 summary: >-
   DevMate has announced a merger with Paddle, bringing macOS developers a way to
   manage in-app payments and subscriptions, and more.
 ---
-
 DevMate has announced a merger with Paddle, bringing macOS developers a way to manage in-app payments and subscriptions, and more.

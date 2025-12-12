@@ -1,0 +1,91 @@
+---
+import { getCollection } from 'astro:content';
+import OptimizedImage from '~/components/common/OptimizedImage.astro';
+
+export interface Props {
+  currentPostId: string;
+  currentTags?: string[];
+  currentCategories?: string[];
+  maxPosts?: number;
+}
+
+const { currentPostId, currentTags = [], currentCategories = [], maxPosts = 3 } = Astro.props;
+
+// Get all blog posts
+const allPosts = await getCollection('posts');
+
+// Filter out current post and find related posts based on tags and categories
+const relatedPosts = allPosts
+  .filter(post => post.id !== currentPostId)
+  .map(post => {
+    let score = 0;
+    
+    // Score based on matching tags
+    if (post.data.tags && currentTags.length > 0) {
+      const matchingTags = post.data.tags.filter(tag => currentTags.includes(tag));
+      score += matchingTags.length * 2;
+    }
+    
+    // Score based on matching categories
+    if (post.data.categories && currentCategories.length > 0) {
+      const matchingCategories = post.data.categories.filter(cat => currentCategories.includes(cat));
+      score += matchingCategories.length * 3;
+    }
+    
+    return { post, score };
+  })
+  .filter(item => item.score > 0)
+  .sort((a, b) => b.score - a.score)
+  .slice(0, maxPosts)
+  .map(item => item.post);
+
+// If we don't have enough related posts, fill with recent posts
+if (relatedPosts.length < maxPosts) {
+  const recentPosts = allPosts
+    .filter(post => post.id !== currentPostId && !relatedPosts.includes(post))
+    .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
+    .slice(0, maxPosts - relatedPosts.length);
+  
+  relatedPosts.push(...recentPosts);
+}
+---
+
+{relatedPosts.length > 0 && (
+  <aside class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+    <h2 class="text-2xl font-bold font-heading mb-6">Related Posts</h2>
+    <div class="grid gap-6 md:grid-cols-3">
+      {relatedPosts.map(post => (
+        <article class="group">
+          <a href={`/blog/${post.id}`} class="block">
+            {post.data.image && (
+              <div class="mb-3 overflow-hidden rounded">
+                <OptimizedImage 
+                  src={post.data.image} 
+                  alt={post.data.imageAlt || post.data.title}
+                  title={post.data.title}
+                  class="w-full h-48 object-cover transition-transform group-hover:scale-105"
+                  loading="lazy"
+                  format="webp"
+                  quality={75}
+                  width={400}
+                  height={192}
+                />
+              </div>
+            )}
+            <h3 class="font-heading font-semibold text-lg mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+              {post.data.title}
+            </h3>
+            {post.data.summary && (
+              <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2">
+                {post.data.summary}
+              </p>
+            )}
+            <p class="text-xs text-gray-500 dark:text-gray-500 mt-2">
+              {new Date(post.data.publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+            </p>
+          </a>
+        </article>
+      ))}
+    </div>
+  </aside>
+)}

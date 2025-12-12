@@ -6,16 +6,16 @@ categories:
   - writing
   - dzone
 tags:
-  - programming
-  - teamwork
-  - board games
-  - role playing
-  - mental health
-  - health
-  - relaxation
-  - experimentation
-  - memory
-  - soft skills
+  - Programming
+  - Teamwork
+  - Board Games
+  - Role Playing
+  - Mental Health
+  - Health
+  - Relaxation
+  - Experimentation
+  - Memory
+  - Soft Skills
 publication_url: 'https://dzone.com/articles/why-programmers-should-play-boardgames'
 image: articles/9752699.jpeg
 summary: >-

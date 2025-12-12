@@ -6,8 +6,8 @@ categories:
   - chipshop
 image: articles/ukge_playtest.jpg
 tags:
-  - games
-  - playtesting
+  - Games
+  - Playtesting
 summary: >-
   It's been a while since my last update pertaining to the Chip Shop board game.
   After realising that board games isn't that lucrative of a business, it
@@ -15,7 +15,6 @@ summary: >-
   UK Games Expo (thanks to Carrie and Tyler for running the booth for me) to
   process and that took time...
 ---
-
 It's been a while since my last update pertaining to the Chip Shop board game. After realising that board games isn't that lucrative of a business, it slipped down my priority list somewhat. I also had a lot of feedback from the UK Games Expo (thanks to Carrie and Tyler for running the booth for me) to process and that took time...
 
 I am happy to now announce the release of what I will call, version 0.2 of Chip Shop, complete with a **lot** of changes. The aim to fix balance issues, make components have more of a purpose and make the game feel even more like a game.

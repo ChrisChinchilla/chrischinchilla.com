@@ -7,11 +7,11 @@ categories:
 tags:
   - Flink Features
   - Use Cases
-  - alerting
-  - cep
-  - complex event processing
-  - flinkcep
-  - pattern matching
+  - Alerting
+  - Cep
+  - Complex Event Processing
+  - Flinkcep
+  - Pattern Matching
 publication_url: 'https://data-artisans.com/blog/complex-event-processing-flink-cep-update'
 image: articles/flink-cep-post-image1.png
 summary: 'In the snippet above I named the individual patterns as:'

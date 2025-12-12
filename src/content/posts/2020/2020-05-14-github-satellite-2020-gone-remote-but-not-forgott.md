@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - github
-  - git
-  - visual studio code
-  - code scanning
-  - security
-  - community
-  - secrets management
-  - ide
+  - GitHub
+  - Git
+  - Visual Studio Code
+  - Code Scanning
+  - Security
+  - Community
+  - Secrets Management
+  - IDE
 publication_url: 'https://dzone.com/articles/-github-satellite-2020-gone-remote-but-not-forgott'
 image: articles/13418805.jpeg
 summary: >-

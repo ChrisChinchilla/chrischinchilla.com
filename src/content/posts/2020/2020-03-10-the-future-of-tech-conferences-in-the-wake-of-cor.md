@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - coronavirus
-  - conferences
-  - travel
-  - business
-  - agile
+  - Coronavirus
+  - Conferences
+  - Travel
+  - Business
+  - Agile
 publication_url: 'https://dzone.com/articles/future-of-tech-conferences-coronavirus'
 image: articles/13106811.jpeg
 summary: >-

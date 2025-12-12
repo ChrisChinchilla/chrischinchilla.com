@@ -8,7 +8,7 @@ categories:
   - writing
   - sitepoint
 tags:
-  - android
+  - Android
   - UI
 summary: >-
   Images enhance any interface and can help engagement and interaction with your
@@ -16,5 +16,4 @@ summary: >-
   remote location via an API and the Volley library. We will look at two methods
   for loading images and how to layout and format images in an interface.
 ---
-
 Images enhance any interface and can help engagement and interaction with your users. In this video we will look at how to load and display images from a remote location via an API and the Volley library. We will look at two methods for loading images and how to layout and format images in an interface.

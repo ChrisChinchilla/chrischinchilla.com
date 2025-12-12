@@ -6,10 +6,10 @@ categories:
   - writing
   - sqreen
 tags:
-  - sql
-  - ruby
-  - security
-  - rails
+  - Sql
+  - Ruby
+  - Security
+  - Rails
 publication_url: 'https://blog.sqreen.io/preventing-sql-injections-in-ruby/'
 summary: >-
   Ruby is a wonderful language for beginner coders to start with and scale to
@@ -17,5 +17,4 @@ summary: >-
   helpful community and strives to keep itself up to date to match the needs of
   developers.
 ---
-
 Ruby is a wonderful language for beginner coders to start with and scale to large, distributed Web and Desktop applications. It has an accepting and helpful community and strives to keep itself up to date to match the needs of developers.

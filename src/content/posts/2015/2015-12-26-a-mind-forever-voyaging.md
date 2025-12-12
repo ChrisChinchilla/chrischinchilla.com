@@ -8,13 +8,12 @@ categories:
   - projects
   - chipshop
 tags:
-  - books
-  - reviews
+  - Books
+  - Reviews
 summary: >-
   As part of creating Chip Shop (and future game ideas) I read recommendations
   on reading about (and playing) various types of games, not just board games.
 ---
-
 As part of creating Chip Shop (and future game ideas) I read recommendations on reading about (and playing) various types of games, not just board games.
 
 I'll admit that I have generally sucked at modern computer games, but I am still amazed by the storytelling, ideas and visuals in them.

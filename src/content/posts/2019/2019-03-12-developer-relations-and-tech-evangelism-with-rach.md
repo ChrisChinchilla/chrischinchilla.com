@@ -6,11 +6,11 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - lisk
-  - developer relations
-  - developer evangelism
-  - web dev
+  - Blockchain
+  - Lisk
+  - Developer Relations
+  - Developer Evangelism
+  - Web Dev
 publication_url: 'https://dzone.com/articles/developer-relations-and-tech-evangelism-with-rache'
 image: articles/11429278.jpeg
 summary: >-

@@ -6,15 +6,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - civicrm
-  - crm
+  - Civicrm
+  - Crm
 summary: >-
   At the time of writing this website isn't quite finished and maybe you can't
   quite tell that I love <a href="https://www.civicrm.org"
   target="_blank">civicrm</a>. I won't go into too much detail of why and what
   it is now, best you do a bit of searching and find that out for yourself.
 ---
-
 At the time of writing this website isn't quite finished and maybe you can't quite tell that I love <a href="https://www.civicrm.org" target="_blank">civicrm</a>. I won't go into too much detail of why and what it is now, best you do a bit of searching and find that out for yourself.
 
 Sadly I couldn't really spare the money or time to go to londons <a href="https://london2011.drupal.org/" target="_blank">drupalcon</a>, despite being in town at the time, but fortunately, running along side was the one day <a href="https://london2011.civicrm.org" target="_blank">civicon</a>, dedicated to civicrm. Here's my thoughts on the conference...

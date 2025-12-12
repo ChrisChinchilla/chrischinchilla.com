@@ -5,16 +5,15 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - politics
-  - degrowth
-  - activism
+  - Politics
+  - Degrowth
+  - Activism
 summary: >-
   Despite attending the conference, not everyone will fully understand what
   'Degrowth' is, or the multitude of related terms that will be mentioned during
   the conference. Thankfully the first session on the schedule is ideally suited
   for getting your knowledge up to scratch.
 ---
-
 Despite attending the conference, not everyone will fully understand what 'Degrowth' is, or the multitude of related terms that will be mentioned during the conference. Thankfully the first session on the schedule is ideally suited for getting your knowledge up to scratch.
 
 Judging by audience responses to the question "What is Degrowth?" there isn't a concrete definition yet, but one is needed to make the term more understandable to the wider world. Currently 'Degrowth' is more of an intersection of several concepts, we need to be clearer with our vocabulary to emphasise 'different', not 'less'.

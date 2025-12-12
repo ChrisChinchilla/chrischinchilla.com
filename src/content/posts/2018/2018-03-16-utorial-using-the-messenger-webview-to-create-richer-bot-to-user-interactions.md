@@ -7,16 +7,14 @@ author: Chris Ward
 categories:
   - writing
 tags:
-  - tutorial
-  - messenger
-  - bots
+  - Tutorial
+  - Messenger
+  - Bots
 publication_url: >-
   https://medium.com/@chrischinchilla/using-the-webview-to-create-richer-bot-to-user-interactions-ed8a789523c6
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: Developers are building many different types of experiences in
 ---
-
-
 Developers are building many different types of experiences in
 Messenger, and while messaging is at the core of a bot's architecture,
 the Messenger webview provides devs with the flexibility to incorporate

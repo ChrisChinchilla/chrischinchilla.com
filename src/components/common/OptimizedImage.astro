@@ -1,0 +1,61 @@
+---
+import { Image } from 'astro:assets';
+
+export interface Props {
+  src: any;
+  alt: string;
+  title?: string;
+  width?: number;
+  height?: number;
+  loading?: 'lazy' | 'eager';
+  decoding?: 'async' | 'auto' | 'sync';
+  fetchpriority?: 'high' | 'low' | 'auto';
+  class?: string;
+  format?: 'avif' | 'webp' | 'png' | 'jpg';
+  quality?: number;
+  inferSize?: boolean;
+}
+
+const {
+  src,
+  alt,
+  title,
+  width,
+  height,
+  loading = 'lazy',
+  decoding = 'async',
+  fetchpriority = 'auto',
+  class: className = '',
+  format = 'webp',
+  quality = 80,
+  inferSize = true,
+  ...rest
+} = Astro.props;
+
+// Validate alt text exists and is meaningful
+if (!alt || alt.trim() === '') {
+  console.warn(`Image missing alt text: ${src}`);
+}
+
+// Build Image component props
+const imageProps: any = {
+  src,
+  alt,
+  loading,
+  decoding,
+  format,
+  quality,
+  inferSize,
+  class: className,
+};
+
+if (title) imageProps.title = title;
+if (width) imageProps.width = width;
+if (height) imageProps.height = height;
+if (fetchpriority !== 'auto') imageProps.fetchpriority = fetchpriority;
+
+// Merge any additional props
+Object.assign(imageProps, rest);
+---
+
+<Image {...imageProps} />

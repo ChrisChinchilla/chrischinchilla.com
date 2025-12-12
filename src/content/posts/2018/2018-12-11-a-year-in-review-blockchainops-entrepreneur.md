@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - entrepreneur
-  - startups
-  - ops
-  - devops
-  - docops
-  - security
-  - programming languages
+  - Blockchain
+  - Entrepreneur
+  - Startups
+  - Ops
+  - DevOps
+  - Docops
+  - Security
+  - Programming Languages
 publication_url: 'https://dzone.com/articles/a-year-in-review-blockchainops-entrepreneur'
 image: articles/10855656.jpeg
 summary: >-

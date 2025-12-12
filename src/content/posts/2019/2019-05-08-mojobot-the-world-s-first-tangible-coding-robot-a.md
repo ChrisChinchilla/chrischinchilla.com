@@ -6,14 +6,14 @@ categories:
   - writing
   - dzone
 tags:
-  - coding
-  - education
-  - kids
-  - programming
-  - games
-  - board games
-  - robotics
-  - iot
+  - Coding
+  - Education
+  - Kids
+  - Programming
+  - Games
+  - Board Games
+  - Robotics
+  - IoT
 publication_url: 'https://dzone.com/articles/-mojobot-the-worlds-first-tangible-coding-robot-an'
 image: articles/11806332.jpeg
 summary: Learning to code with a board game? Sounds too good to be true.

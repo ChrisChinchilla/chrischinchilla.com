@@ -6,13 +6,13 @@ categories:
   - writing
   - dzone
 tags:
-  - blockchain
-  - hyperledger
-  - bitcoin
-  - distributed systems
-  - business
-  - enterprise
-  - cloud
+  - Blockchain
+  - Hyperledger
+  - Bitcoin
+  - Distributed Systems
+  - Business
+  - Enterprise
+  - Cloud
 publication_url: 'https://dzone.com/articles/hyperledgers-brian-behlendorf-blockchain-for-busin'
 image: articles/5836562.jpeg
 summary: >-

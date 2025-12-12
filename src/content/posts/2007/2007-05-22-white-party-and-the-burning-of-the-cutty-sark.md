@@ -5,14 +5,13 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - parties
-  - art
+  - Parties
+  - Art
 summary: >-
   Had a great weekend, went to some gigs on Friday night, though one of those
   nights when you try to do too much and end up doing next to nothing and
   staying in one place, Cate got very merry, she was a happy drunk... :-)
 ---
-
 Had a great weekend, went to some gigs on Friday night, though one of those nights when you try to do too much and end up doing next to nothing and staying in one place, Cate got very merry, she was a happy drunk... :-)
 
 Saturday we got invited to an ever so fancy party for the Birthday party of a club owner, apparently he'd won Temptation Island or something. it was a white themed party (highlight costumes : Jesus, Polar Bear and Naval Captain) and was full of pretentious people constantly worried about what other people thought of them... We took to the dance floor, enjoyed the free bar and made idiots of ourselves. After that we went to a much more down to earth party where I ate lots of mini pies and met some great people.

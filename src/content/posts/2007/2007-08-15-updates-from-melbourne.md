@@ -5,13 +5,12 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - melbourne
+  - Music
+  - Melbourne
 summary: >-
   It's been a while, I've moved countries, got a new band together, got my feet
   under the table and now it's time to tell everyone what's been going on.
 ---
-
 It's been a while, I've moved countries, got a new band together, got my feet under the table and now it's time to tell everyone what's been going on.
 
 ## Macaca Mulatta

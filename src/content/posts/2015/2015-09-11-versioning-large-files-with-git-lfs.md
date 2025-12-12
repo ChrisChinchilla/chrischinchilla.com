@@ -7,11 +7,10 @@ categories:
   - writing
   - sitepoint
 tags:
-  - git
+  - Git
 summary: >-
   Versioning large files can be problematic with distributed version control
   systems like Git. Git Large File Storage (or LFS) is a new, open-source
   extension to Git that aims to improve handling of large files.
 ---
-
 Versioning large files can be problematic with distributed version control systems like Git. Git Large File Storage (or LFS) is a new, open-source extension to Git that aims to improve handling of large files.

@@ -5,10 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - creative
+  - Creative
 summary: 'When you feel like the odd one out, like a fish whose water''s run out.'
 ---
-
 When you feel like the odd one out, like a fish whose water's run out.
 
 You don't look like them but do you even care, the smell of suspicion hangs heavy in the air.

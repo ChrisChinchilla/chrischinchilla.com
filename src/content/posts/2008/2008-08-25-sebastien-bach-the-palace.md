@@ -5,8 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - reviews
+  - Music
+  - Reviews
 summary: >-
   Sebastian Bach represents everything good and / or bad about heavy rock
   depending on your point of view. He and his band tick all the anticipated and
@@ -16,7 +16,6 @@ summary: >-
   resplendent in a sea of metal band T-Shirts, VB cans, Devil hands and
   increasingly drunken swaying.
 ---
-
 Sebastian Bach represents everything good and / or bad about heavy rock depending on your point of view. He and his band tick all the anticipated and expected boxes, long flowing curly locks, tight (and for some members, stripy) jeans, sleeveless vests, stupendous Marshall stacks and some on stage moves straight out of 'Rock moves 101'. The crowd is equally suited to the band, resplendent in a sea of metal band T-Shirts, VB cans, Devil hands and increasingly drunken swaying.
 
 The music is more of what you'd expect from the former front man of Skid Row, chugging heavy rock plain and simple, no complications, no fancy arrangements or experimental passages, verse, chorus, verse, chorus, searing instrumental and stop. The lyrics are equally straight forward, songs about being yourself and flying a finger to the 'man', drinking, Rock & Roll, Chicks, driving cars and bikes very fast and a little bit of sub religious clap-trap thrown in for good measure, brimming with cheesy lines and the occasional cringe inducing pun.

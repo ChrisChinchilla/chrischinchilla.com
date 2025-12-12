@@ -5,16 +5,15 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - drupal
-  - crm
-  - conference
+  - Drupal
+  - Crm
+  - Conference
 summary: >-
   An event that can be as specific as an event for the use of Drupal within
   government demonstrates a growing interest in Drupal (and maybe openness
   generally) within government and its great that such an event can attract
   nearly 150 people.
 ---
-
 An event that can be as specific as an event for the use of Drupal within government demonstrates a growing interest in Drupal (and maybe openness generally) within government and its great that such an event can attract nearly 150 people.
 
 Myself, Martin Schwall and Chris Dubrow ran our own session on using CRMs within government which went pretty smoothly and well, <a href="https://www.slideshare.net/chrischinchilla/extend-drupal-with-a-crm-drupalgov-2013" target="_blank">you can see slides here</a> and we received good feedback.

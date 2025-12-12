@@ -5,9 +5,9 @@ author: Chris Ward
 categories:
   - writing chronosphere
 tags:
-  - observability
-  - prometheus
-  - promql
+  - Observability
+  - Prometheus
+  - Promql
 publication_url: 'https://chronosphere.io/learn/an-eye-on-observability-for-july-2022/'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: "Well hello there! If you’re reading this monthly round up of Observability (and related) news, then you’re one of the few not on vacation and I thank you \U0001F647 . That last sentence was basically me making an excuse for not having too much to write about, but there’s just enough"

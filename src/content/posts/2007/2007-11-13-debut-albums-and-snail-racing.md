@@ -5,13 +5,12 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - music
-  - holidays
+  - Music
+  - Holidays
 summary: >-
   (I wrote a whole long and detailed post, then lost it... So now I'm just going
   to a brief summary!)
 ---
-
 (I wrote a whole long and detailed post, then lost it... So now I'm just going to a brief summary!)
 
 Macaca Mulatta finally recorded their debut album on Sunday, it's only taken me 2 years to get to doing it and then it took us 6 hours to record 9 songs! In a Child Care Centre... [See some pictures here](https://www.facebook.com/album.php?aid=67691&id=601440566).

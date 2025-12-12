@@ -5,10 +5,10 @@ author: Chris Ward
 categories:
   - writing linearb
 tags:
-  - git
-  - github
-  - communication
-  - collaboration
+  - Git
+  - GitHub
+  - Communication
+  - Collaboration
 publication_url: 'https://linearb.io/blog/three-git-pull-request-review-strategies/'
 image: articles/3PR-Feature-Image.png
 summary: >-
