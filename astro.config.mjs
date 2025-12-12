@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import { remarkReadingTime } from './src/utils/frontmatter.mjs';
+import { remarkSupabaseImages } from './src/utils/remark-supabase-images.mjs';
 import { SITE } from './src/config.mjs';
 // import react from "@astrojs/react";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -69,7 +70,7 @@ export default defineConfig({
     ),
   ],
   markdown: {
-    remarkPlugins: [remarkReadingTime],
+    remarkPlugins: [remarkReadingTime, remarkSupabaseImages],
     extendDefaultPlugins: true,
   },
   vite: {
