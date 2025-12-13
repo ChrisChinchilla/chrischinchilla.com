@@ -5,11 +5,11 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - Ebooks
-  - Calibre
-  - Nextcloud
-  - Minidnla
-image: /src/assets/images/articles/raspberry-pi.jpeg
+  - ebooks
+  - calibre
+  - nextcloud
+  - minidnla
+image: articles/raspberry-pi.jpeg
 summary: >-
   Over the past months, I've been slowly assembling a suite of self-hosted tools
   and services on a shiny new RaspberryPi 400, and finally, I think I am
@@ -17,6 +17,7 @@ summary: >-
   remind me what I have, but I hope it might also help others taking similar
   journeys.
 ---
+
 Over the past months, I've been slowly assembling a suite of self-hosted tools and services on a shiny new RaspberryPi 400, and finally, I think I am finished and ready to write up my experiences. At the least, it will help remind me what I have, but I hope it might also help others taking similar journeys.
 
 _Updated on 20th February 2022 to include changes I added to the setup._

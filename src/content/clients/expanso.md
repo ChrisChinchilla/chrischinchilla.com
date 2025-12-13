@@ -3,7 +3,7 @@ type: blogging
 title: Expanso
 current: false
 company_url: 'https://www.expanso.io'
-image: /src/assets/images/clients/expanso.svg
+image: clients/expanso.svg
 category: Chris writing
 start_date: 2024
 end_date: 2025

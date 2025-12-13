@@ -14,7 +14,7 @@ tags:
   - Continuous Deployment
   - DevOps
 publication_url: 'https://dzone.com/articles/an-interview-with-circleci-cto-rob-zuber'
-image: /src/assets/images/articles/7514233.jpeg
+image: articles/7514233.jpeg
 summary: >-
   CircleCI is becoming the CI tool of choice for developers who want to spend
   more time coding than managing infrastructure. Listen to Chris Ward speak with

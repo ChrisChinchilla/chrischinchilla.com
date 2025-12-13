@@ -1,7 +1,7 @@
 ---
 title: Thoughts on (Play) Testing
 publishDate: 2015-11-09T00:00:00.000Z
-image: /src/assets/images/articles/image-thoughts-on-play-testing.jpg
+image: articles/image-thoughts-on-play-testing.jpg
 categories:
   - projects
   - chipshop

@@ -13,7 +13,7 @@ tags:
   - IoT
   - Arduino
 publication_url: 'https://dzone.com/articles/-ces-2020-highlights-for-the-more-technically-mind'
-image: /src/assets/images/articles/12935500.jpeg
+image: articles/12935500.jpeg
 summary: >-
   Chris Ward is here (a week late) reporting on his favorite announcements from
   the Consumer electronics show.

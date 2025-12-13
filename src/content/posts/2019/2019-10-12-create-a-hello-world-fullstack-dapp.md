@@ -13,7 +13,7 @@ tags:
   - On-Boarding
   - Solidity
 publication_url: 'https://kauri.io/article/68fca74301814d09bfcc35e07ff30fbc'
-image: /src/assets/images/articles/QmWkqKZ61bGkReDVGZY8hdWhr9S9gaaNpQcADQkGQ9YE2q.png
+image: articles/QmWkqKZ61bGkReDVGZY8hdWhr9S9gaaNpQcADQkGQ9YE2q.png
 summary: >-
   This dapp implements a Hello World style application that echoes a message
   passed to the contract to the front end. This tutorial is intended to be

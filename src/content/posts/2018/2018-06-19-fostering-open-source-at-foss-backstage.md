@@ -16,7 +16,7 @@ tags:
   - Oss
   - Foss Backstage
 publication_url: 'https://dzone.com/articles/fostering-open-source-at-foss-backstage'
-image: /src/assets/images/articles/9478101.jpeg
+image: articles/9478101.jpeg
 summary: >-
   Zone Leader Chris Ward give a recap on some of the highlights of the FOSS
   Backstage Conference, on security, cost, empathy, and more.

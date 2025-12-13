@@ -3,7 +3,7 @@ type: Advisory
 title: Ekline
 current: false
 company_url: 'https://ekline.io'
-image: /src/assets/images/clients/ekline.png
+image: clients/ekline.png
 category: Chris advisory
 start_date: 2024
 end_date: 2025

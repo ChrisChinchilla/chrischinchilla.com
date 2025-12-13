@@ -12,7 +12,7 @@ tags:
   - DevOps
 publication_url: >-
   https://humanitec.com/blog/continuous-integration-vs-continuous-delivery-vs-continuous-deployment
-image: /src/assets/images/articles/5eecc2c49d88e607c6011501_ci-cd-cd-humanitec.png
+image: articles/5eecc2c49d88e607c6011501_ci-cd-cd-humanitec.png
 summary: >-
   Despite sounding similar, continuous integration, delivery, and deployment are
   subtly different from each other. While they have overlap, they are applicable

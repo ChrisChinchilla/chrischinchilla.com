@@ -7,11 +7,12 @@ publication_url: >-
 categories:
   - writing
 tags:
-  - macOS
-  - Web Browsers
-image: /src/assets/images/articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png
+  - macos
+  - web browsers
+image: articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png
 summary: 'Every time Apple announces a new macOS beta, I am tempted to somehow'
 ---
+
 Every time Apple announces a new macOS beta, I am tempted to somehow
 figure out how to install it alongside my daily operating system. I then
 realise it's harder than I hoped, or that I don't have a large enough

@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/an-introduction-to-coreos/'
-image: /src/assets/images/articles/964db6a6-69da-4366-afea-b129019aff07.png
+image: articles/964db6a6-69da-4366-afea-b129019aff07.png
 summary: >-
   If you’re reading this blog, then you have a rough idea of what containers are
   and why you want to use them. Docker has made it easy to experiment with

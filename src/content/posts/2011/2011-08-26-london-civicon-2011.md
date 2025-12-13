@@ -1,7 +1,7 @@
 ---
 title: London Civicon 2011
 publishDate: 2011-08-26T00:00:00.000Z
-image: /src/assets/images/articles/civiconlondon.png
+image: articles/civiconlondon.png
 categories:
   - writing
   - chrischinchilla

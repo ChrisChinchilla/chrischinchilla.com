@@ -3,7 +3,7 @@ type: blogging
 title: Parseable
 current: false
 company_url: 'https://parseable.com/'
-image: /src/assets/images/clients/parseable.png
+image: clients/parseable.png
 category: Chris writing
 start_date: 2024
 end_date: 2025

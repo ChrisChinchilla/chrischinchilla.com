@@ -3,7 +3,7 @@ type: blogging
 title: CodeShip
 current: false
 company_url: 'https://blog.codeship.com/'
-image: '/src/assets/images/clients/codeship.png'
+image: 'clients/codeship.png'
 start_date: 2016
 end_date: 2018
 tags:

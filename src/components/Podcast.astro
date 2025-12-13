@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import ContentImage from '~/components/common/ContentImage.astro';
 import { type CollectionEntry } from 'astro:content';
 
 export interface Props {
@@ -44,12 +44,11 @@ function slugify(str) {
 <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
     <!-- TODO: These images might be quite heavy -->
-    <Image
+    <ContentImage
       src={podcast.image ? podcast.image.att_href : '../../assets/images/default.png'}
       alt={podcast.title ? podcastTitle : 'null'}
+      type="podcast"
       class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-      width="420"
-      height="420"
     />
   </div>
 

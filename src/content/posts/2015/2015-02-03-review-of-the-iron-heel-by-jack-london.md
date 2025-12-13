@@ -1,7 +1,7 @@
 ---
 title: Review of The Iron Heel by Jack London
 publishDate: 2015-02-03T10:57:13.000Z
-image: /src/assets/images/articles/the-iron-heel.png
+image: articles/the-iron-heel.png
 categories: projects odtwe
 summary: >-
   As part of my research in projects odtwe I have been reading some classics of

@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/testing-code-examples-in-documentation/'
-image: /src/assets/images/articles/tca-setup.png
+image: articles/tca-setup.png
 summary: >-
   In my last post, I covered how to improve the written component of your
   documentation with automated spell-checking and suggestions for better

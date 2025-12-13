@@ -5,11 +5,11 @@ categories:
   - writing
   - hackernoon
 tags:
-  - Writing
-  - Techwriting
-  - Medium
-  - Atom
-image: /src/assets/images/articles/projects/medium-export.png
+  - writing
+  - techwriting
+  - medium
+  - atom
+image: articles/projects/medium-export.png
 publication_url: >-
   https://hackernoon.com/how-i-wrote-the-atom-medium-exporter-and-how-you-can-help-make-it-better-9e9e4c401da1#.1d09ezkoj
 summary: >-
@@ -17,4 +17,5 @@ summary: >-
   markdown files to Medium. Find out how I wrote it and how you can help me
   improve it.
 ---
+
  I recently created a package for the Atom text editor that exports your markdown files to Medium. Find out how I wrote it and how you can help me improve it.

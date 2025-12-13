@@ -14,7 +14,7 @@ tags:
   - Enterprise
   - Cloud
 publication_url: 'https://dzone.com/articles/hyperledgers-brian-behlendorf-blockchain-for-busin'
-image: /src/assets/images/articles/5836562.jpeg
+image: articles/5836562.jpeg
 summary: >-
   Check out a key interview with one of the key developers behind the Apache Web
   Server about the Hyperledger Foundation, which aims to bring blockchain

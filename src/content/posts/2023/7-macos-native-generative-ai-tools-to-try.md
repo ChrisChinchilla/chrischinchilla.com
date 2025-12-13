@@ -7,13 +7,14 @@ publication_url: >-
 categories:
   - writing
 tags:
-  - macOS
-  - Version Control
-image: /src/assets/images/articles/1*0WIx9BnykBO9R6RLQOH0mw.webp
+  - macos
+  - version control
+image: articles/1*0WIx9BnykBO9R6RLQOH0mw.webp
 summary: >-
   Generative AI tools and platforms are not just the flavour of the month (for
   now), they’re the flavour of the year, if not the decade.
 ---
+
 Generative AI tools and platforms are not just the flavour of the month (for now), they’re the flavour of the year, if not the decade.
 
 Many of these are web platforms, and I have always been the first to admit that I prefer good old-fashioned, offline-first native desktop applications. As many of the new wave of services were smart enough to include an API option, this has made it possible for enterprising developers to create any other type of application they want to, including, in the case of this article, macOS native ones.

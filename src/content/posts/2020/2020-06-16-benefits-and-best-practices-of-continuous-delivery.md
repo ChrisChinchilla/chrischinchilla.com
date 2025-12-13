@@ -9,7 +9,7 @@ tags:
   - DevOps
 publication_url: 'https://humanitec.com/blog/benefits-and-best-practices-of-continuous-delivery'
 image: >-
-  /src/assets/images/articles/5eecbfdae75ba6808aba88fd_continuous-integration-vs-continuous-delivery-vs-continuous-deployment-humanitec.png
+  articles/5eecbfdae75ba6808aba88fd_continuous-integration-vs-continuous-delivery-vs-continuous-deployment-humanitec.png
 summary: >-
   Continuous delivery helps software development teams get their code changes
   from development to testing, and into the hands of users more quickly. In this

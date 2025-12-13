@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/automating-screenshots-in-documentation/'
-image: /src/assets/images/articles/screenshot.png
+image: articles/screenshot.png
 summary: >-
   Drawing my short series to a close (we’ve talked about testing code examples
   in documentation and automating spelling and grammar checks in documentation),

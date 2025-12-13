@@ -11,7 +11,7 @@ tags:
   - Hasura
   - Databases
 publication_url: 'https://dzone.com/articles/the-weekly-squeak-tanmai-gopal-of-hasura'
-image: /src/assets/images/articles/13968399.jpeg
+image: articles/13968399.jpeg
 summary: >-
   This Weekly Squeak, I speak with Tanmai Gopal about Hasura, an open source and
   hosted platform that brings instant GraphQL APIs to your data.

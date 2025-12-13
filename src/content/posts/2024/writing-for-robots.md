@@ -8,7 +8,7 @@ tags:
   - AI
   - Llm
   - Writing
-image: /src/assets/images/articles/1*WUfhLdT4ewEz0_trgoqFow.webp
+image: articles/1*WUfhLdT4ewEz0_trgoqFow.webp
 summary: >-
   Who do you think reads most of your technical writing? Customers? Potential
   customers?
@@ -38,7 +38,7 @@ I think we can all agree that we have never found an ideal way to help people na
 
 ## Docs bot
 
-![My original Docs Bot prototype](../../../assets/images/articles/1*UtvnO5rBzu3_2l62iEOXfg.webp)
+![My original Docs Bot prototype](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/1*UtvnO5rBzu3_2l62iEOXfg.webp)
 
 Several years ago, at a Write the Docs event during the last wave of generally terrible chatbots, I proposed a kind of "docs bot" that could provide you with information based on your questions. It could maintain context and continue answering questions based on what it has learned from you so far. At the time, it seemed like a crazy idea. But now, this seems like table stakes for any chatbot.
 

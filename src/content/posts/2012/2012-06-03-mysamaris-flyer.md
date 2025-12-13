@@ -1,7 +1,7 @@
 ---
 title: MySamaris flyer
 publishDate: 2012-06-03T00:00:00.000Z
-image: /src/assets/images/articles/mysamaris.jpg
+image: articles/mysamaris.jpg
 categories:
   - writing
   - chrischinchilla

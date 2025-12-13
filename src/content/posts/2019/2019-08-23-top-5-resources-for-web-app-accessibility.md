@@ -1,7 +1,7 @@
 ---
 title: Top 5 Resources for Web App Accessibility
 publishDate: 2019-08-23T12:54:50.672Z
-image: /src/assets/images/articles/tb_870x22043dccabe89e4489095165891b587bb6b.png
+image: articles/tb_870x22043dccabe89e4489095165891b587bb6b.png
 categories:
   - writing
   - telerik

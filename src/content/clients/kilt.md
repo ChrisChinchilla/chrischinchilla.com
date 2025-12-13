@@ -3,7 +3,7 @@ type: Technical writing
 title: KILT
 current: false
 company_url: 'https://www.kilt.io'
-image: '/src/assets/images/clients/kilt.png'
+image: 'clients/kilt.png'
 start_date: 2023
 end_date: 2024
 tags:

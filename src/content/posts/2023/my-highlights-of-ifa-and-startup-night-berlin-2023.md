@@ -7,9 +7,9 @@ publication_url: >-
 categories:
   - writing
 tags:
-  - macOS
-  - Version Control
-image: /src/assets/images/articles/1*caSn3X5r3FDF-zKsg4WQqQ.webp
+  - macos
+  - version control
+image: articles/1*caSn3X5r3FDF-zKsg4WQqQ.webp
 summary: >-
   It’s been a few years since I attended Berlin’s Internationale
   Funkausstellung, better known as IFA. And after several slow years for
@@ -17,4 +17,5 @@ summary: >-
   tech-adjacent spending, I was interested to know what the show floor would
   feel like.
 ---
+
 It’s been a few years since I attended Berlin’s Internationale Funkausstellung, better known as IFA. And after several slow years for conferences and trade fairs, capped off with a slowdown in tech and tech-adjacent spending, I was interested to know what the show floor would feel like.

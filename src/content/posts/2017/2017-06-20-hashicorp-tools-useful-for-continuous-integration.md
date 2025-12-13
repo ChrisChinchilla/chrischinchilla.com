@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/hashicorp-tools-useful-in-ci/'
-image: /src/assets/images/articles/hc-vagrant-ssh.png
+image: articles/hc-vagrant-ssh.png
 summary: >-
   HashiCorp is a company that feels like it’s always been around. Quietly
   plugging away just out of the limelight working on awesome products and every

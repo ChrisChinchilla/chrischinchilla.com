@@ -5,13 +5,14 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - Greatidea
-  - Socialmedia
-image: /src/assets/images/articles/buffer.png
+  - greatidea
+  - socialmedia
+image: articles/buffer.png
 summary: >-
   I've been using buffer for ages, but not got around to writing anything about
   it, so now I met appear to be following the pack somewhat.
 ---
+
 I've been using buffer for ages, but not got around to writing anything about it, so now I met appear to be following the pack somewhat.
 
 I go through phases of having time to read through news and blogs, generally with a few days between opportunities. So I'll find a bunch of articles and links I want to share across one or more social networks but don't really want to share, say 20 at once. Enter buffer. It allows you to 'buffer' (or post immediately) several social shares across your networks and even set the times they should go out for maximum effect or just some space in between.

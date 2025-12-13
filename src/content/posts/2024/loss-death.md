@@ -8,7 +8,7 @@ categories:
 tags:
   - Death
   - Loss
-image: /src/assets/images/articles/1*Q5JULI5RlYh4apVdQa-N1w.webp
+image: articles/1*Q5JULI5RlYh4apVdQa-N1w.webp
 summary: >-
   We had to put our 17-year-old cat to sleep last week. First, why does English
   have such terrible words for this action? “Putting down”, “putting to sleep”.

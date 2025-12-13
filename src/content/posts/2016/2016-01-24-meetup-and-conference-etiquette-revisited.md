@@ -7,15 +7,16 @@ categories:
   - writing
   - theweeklysqueak
 tags:
-  - Meetups
-  - Conferences
-  - Culture
-image: /src/assets/images/articles/image-meetup-etiquette.jpg
+  - meetups
+  - conferences
+  - culture
+image: articles/image-meetup-etiquette.jpg
 summary: >-
   I don't have an particular themes from the week I can remember in enough
   detail to discuss this week, so thought it time I dragged out one of my long
   term 'topics to discuss'.
 ---
+
 I don't have an particular themes from the week I can remember in enough detail to discuss this week, so thought it time I dragged out one of my long term 'topics to discuss'.
 
 A couple of years ago I wrote a piece for The Fetch on Meetup Etiquette and after experiences from the past six months in Berlin it seemed time to revisit, update and revise this post. Many of the points in the original post still apply, I'm supplementing them here.

@@ -8,7 +8,7 @@ categories:
 tags:
   - Industry
 publication_url: 'https://blog.codeship.com/going-serverless-compare-your-faas-options/'
-image: /src/assets/images/articles/faas-gcp.png
+image: articles/faas-gcp.png
 summary: >-
   As is typical with new concepts and technologies, the absolute definition of
   “serverless” or FaaS (Functions as a Service) is broad and undefined. In

@@ -12,7 +12,7 @@ tags:
   - Token-Standard
   - Solidity
 publication_url: 'https://kauri.io/article/bdd65d6155a74b8aa52672b46b7230a8'
-image: /src/assets/images/articles/QmWUTMmZAbbLYUhZv9ZzR9R1Ey2R4xgcxQQoFRoNdBPW85.png
+image: articles/QmWUTMmZAbbLYUhZv9ZzR9R1Ey2R4xgcxQQoFRoNdBPW85.png
 summary: >-
   This dapp implements the simplest form of a cryptocurrency that uses the
   ERC-20 standard to define a token you can create and send to others. This

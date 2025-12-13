@@ -5,14 +5,15 @@ categories:
   - projects
   - chipshop
 tags:
-  - Games
-image: /src/assets/images/articles/card_previews.png
+  - games
+image: articles/card_previews.png
 summary: >-
   Chip Shop has been a labour of love for me over the past two years. It has
   been through many changes and revisions and isn't yet 100%, but I have always
   needed to get something live before it becomes a never ending process of
   'polishing'.
 ---
+
 [Chip Shop](https://chipshopgame.com) has been a labour of love for me over the past two years. It has been through many changes and revisions and isn't yet 100%, but I have always needed to get something live before it becomes a never ending process of 'polishing'.
 
 After several play test sessions, I consider the game 'ready enough' to put up for sale and available to the public. It's not complete, there are still a couple of issues with the game that I want to iron out, but I feel that 'releasing' will help me get more players and more feedback on the path to near-perfection.

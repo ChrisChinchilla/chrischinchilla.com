@@ -10,7 +10,7 @@ tags:
   - DevOps
   - CD
 publication_url: 'https://about.gitlab.com/blog/2020/04/24/parent-child-pipelines/'
-image: /src/assets/images/articles/parent_pipeline_graph.png
+image: articles/parent_pipeline_graph.png
 summary: >-
   We introduced improvements to pipelines to help scale applications and their
   repo structures more effectively. Here's how they work.

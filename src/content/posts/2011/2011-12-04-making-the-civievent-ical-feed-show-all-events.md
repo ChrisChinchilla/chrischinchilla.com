@@ -5,9 +5,9 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - Civicrm
-  - Php
-image: /src/assets/images/articles/civicrm_logo.png
+  - civicrm
+  - php
+image: articles/civicrm_logo.png
 summary: >-
   With Green Renters we find the iCal feed from CiviEvent (part of CiviCRM)
   invaluable to keep track of events and workshops we have coming up, generally
@@ -15,6 +15,7 @@ summary: >-
   internal organising, currently the feeds aren't available to anyone outside of
   staff.
 ---
+
 With [Green Renters](https://greenrenters.org) we find the iCal feed from CiviEvent (part of [CiviCRM](https://civicrm.org)) invaluable to keep track of events and workshops we have coming up, generally we use the feed pulled into our personal iCal and Google calendars for internal organising, currently the feeds aren't available to anyone outside of staff.
 
 We also have a variety of views feeds on our website pulling CiviEvents into several places based on various parameters, basically we have several things that need to be confirmed before we want events going live into public pages onto the website for people to view and register. Also, sometimes we have private events, that are only for a select group of people and not for the public to register. However, we would still like then to show up in our calendars so we know they're coming up, we usually do this through marking events as 'not active' or 'not public'.

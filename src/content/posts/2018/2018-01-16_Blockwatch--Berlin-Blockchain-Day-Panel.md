@@ -9,7 +9,7 @@ tags:
   - Event
 publication_url: >-
   https://medium.com/@chrischinchilla/blockwatch-berlin-blockchain-day-panel-22528d94933c
-image: /src/assets/images/articles/7672529.jpeg
+image: articles/7672529.jpeg
 summary: 'On a cold Friday December night, with a Christmas market buzzing'
 ---
 

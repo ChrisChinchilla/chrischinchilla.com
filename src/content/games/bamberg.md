@@ -1,6 +1,6 @@
 ---
 title: Bamberg
-image: "/src/assets/images/games/4d372347086b2ed6e709271d43bb91a9_original.png"
+image: "games/4d372347086b2ed6e709271d43bb91a9_original.png"
 publisher: Witch Hunt Games
 publish_date: 2023-02-23
 role: Proofreader

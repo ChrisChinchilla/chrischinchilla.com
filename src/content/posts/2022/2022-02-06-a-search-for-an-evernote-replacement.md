@@ -9,7 +9,7 @@ categories:
 tags:
   - Evernote
   - Productivity
-image: /src/assets/images/articles/1*MH_eaqejlm7i6PmMzV4ahA.webp
+image: articles/1*MH_eaqejlm7i6PmMzV4ahA.webp
 summary: 'I was a happy, loyal, and paying'
 ---
 

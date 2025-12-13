@@ -3,7 +3,7 @@ type: Advisory
 title: adoc Studio
 current: false
 company_url: 'https://www.adoc-studio.app'
-image: /src/assets/images/clients/adocstudio.webp
+image: clients/adocstudio.webp
 category: Chris advisory
 start_date: 2025
 end_date: 2025

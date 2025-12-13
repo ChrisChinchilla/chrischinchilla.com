@@ -1,5 +1,7 @@
 ---
 import { Image } from 'astro:assets';
+import { resolveImage } from '~/utils/image-loader';
+import { getImageUrl } from '~/utils/supabase-images';
 
 export interface Props {
   src: any;
@@ -17,7 +19,7 @@ export interface Props {
 }
 
 const {
-  src,
+  src: _src,
   alt,
   title,
   width,
@@ -32,30 +34,43 @@ const {
   ...rest
 } = Astro.props;
 
+// Resolve the image (handles Supabase paths, local paths, etc.)
+const src = await resolveImage(_src);
+
 // Validate alt text exists and is meaningful
 if (!alt || alt.trim() === '') {
-  console.warn(`Image missing alt text: ${src}`);
+  console.warn(`Image missing alt text: ${_src}`);
 }
-
-// Build Image component props
-const imageProps: any = {
-  src,
-  alt,
-  loading,
-  decoding,
-  format,
-  quality,
-  inferSize,
-  class: className,
-};
-
-if (title) imageProps.title = title;
-if (width) imageProps.width = width;
-if (height) imageProps.height = height;
-if (fetchpriority !== 'auto') imageProps.fetchpriority = fetchpriority;
-
-// Merge any additional props
-Object.assign(imageProps, rest);
 ---
 
-<Image {...imageProps} />
+{typeof src === 'string' ? (
+  <!-- Use regular img tag for Supabase/remote images -->
+  <img
+    src={getImageUrl(src)}
+    alt={alt}
+    {title}
+    {width}
+    {height}
+    loading={loading}
+    decoding={decoding}
+    class={className}
+    {...rest}
+  />
+) : (
+  <!-- Use Astro Image component for local images -->
+  <Image
+    src={src}
+    alt={alt}
+    {title}
+    {width}
+    {height}
+    {loading}
+    {decoding}
+    {fetchpriority}
+    {format}
+    {quality}
+    inferSize={inferSize}
+    class={className}
+    {...rest}
+  />
+)}

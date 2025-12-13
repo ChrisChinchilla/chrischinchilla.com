@@ -13,7 +13,7 @@ tags:
   - Cloud Native
   - Serverless
 publication_url: 'https://dzone.com/articles/-6-interesting-trends-from-the-latest-cncf-survey'
-image: /src/assets/images/articles/13141726.jpeg
+image: articles/13141726.jpeg
 summary: >-
   The Cloud Native Computing Foundation (CNCF) conducted another survey late
   last year and the results are now out. Here's what's popular in cloud native

@@ -8,7 +8,7 @@ categories:
 tags:
   - macOS
   - Homebrew
-image: /src/assets/images/articles/hb.jpeg
+image: articles/hb.jpeg
 summary: >-
   Installing and updating applications and other dependencies on a computer
   really should be a solved problem by now. Yet almost every major desktop

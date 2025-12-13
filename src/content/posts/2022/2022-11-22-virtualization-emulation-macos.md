@@ -11,7 +11,7 @@ tags:
   - Virtualization
   - Emulation
 publication_url: 'https://hackernoon.com/virtualization-and-emulation-on-macos'
-image: /src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-06c36e9.png
+image: articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-06c36e9.png
 summary: >-
   I have been using Parallels for a couple of years now, primarily for running
   Windows virtual machines (VMs), but occasionally Linux VMs too. I mostly use

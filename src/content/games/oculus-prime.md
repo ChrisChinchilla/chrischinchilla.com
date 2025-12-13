@@ -1,6 +1,6 @@
 ---
 title: Oculus Prime - A Bizarre Mystery Adventure
-image: "/src/assets/images/games/483011.jpg"
+image: "games/483011.jpg"
 publisher: Art of Karthik
 publish_date: 2023-07-17
 role: Proofreader

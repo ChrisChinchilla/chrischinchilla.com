@@ -3,7 +3,7 @@ type: Technical writing and editing
 title: ConsenSys
 current: false
 company_url: 'https://kauri.io'
-image: /src/assets/images/clients/kauri.png
+image: clients/kauri.png
 start_date: 2018
 end_date: 2020
 tags:

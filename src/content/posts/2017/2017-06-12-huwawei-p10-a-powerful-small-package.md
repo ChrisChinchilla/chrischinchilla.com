@@ -1,7 +1,7 @@
 ---
 title: 'The Huawei P10, a Powerfully Small Package'
 publishDate: '2017-06-12 09:36:36 +0200'
-image: /src/assets/images/articles/h-p10.jpg
+image: articles/h-p10.jpg
 categories:
   - writing
   - theweeklysqueak

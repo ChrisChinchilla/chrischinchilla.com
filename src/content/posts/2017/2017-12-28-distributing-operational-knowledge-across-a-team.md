@@ -8,7 +8,7 @@ categories:
 tags:
   - Industry
 publication_url: 'https://blog.codeship.com/distributing-operational-knowledge-across-a-team/'
-image: /src/assets/images/articles/communication_issues.png
+image: articles/communication_issues.png
 summary: >-
   I am sure we have all worked (or work) for companies, teams, or clients where
   communication of internal information is somewhere on the scale between

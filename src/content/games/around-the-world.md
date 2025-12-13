@@ -1,6 +1,6 @@
 ---
 title: Around The World In 80 Days - A Travel Adventure
-image: "/src/assets/images/games/428799.jpg"
+image: "games/428799.jpg"
 publisher: Art of Karthik
 publish_date: 2023-03-20
 role: Proofreader

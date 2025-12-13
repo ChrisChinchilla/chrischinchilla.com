@@ -7,15 +7,16 @@ categories:
   - writing
   - hackernoon
 tags:
-  - Tech
-  - Events
-  - Conferences
-  - Community
-image: /src/assets/images/articles/image-tech-tribes.jpg
+  - tech
+  - events
+  - conferences
+  - community
+image: articles/image-tech-tribes.jpg
 summary: >-
   I make no pretense that I am a generalist and get bored quickly. I have
   written before about how this sometimes makes you feel left out, or worse, an
   idiot who has wasted their life. I want to explore this topic in more detail,
   and that of 'tech tribes', that I feel it relates to.
 ---
+
 I make no pretense that I am a generalist and get bored quickly. I have written before about how this sometimes makes you feel left out, or worse, an idiot who has wasted their life. I want to explore this topic in more detail, and that of 'tech tribes', that I feel it relates to.

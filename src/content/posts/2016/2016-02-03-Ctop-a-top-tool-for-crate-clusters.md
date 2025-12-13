@@ -2,7 +2,7 @@
 title: 'CTop: A top tool for Crate Clusters'
 publishDate: 2016-02-03T00:00:00.000Z
 publication_url: 'https://crate.io/a/ctop-top-for-crate-cluster/'
-image: /src/assets/images/articles/ss_haudi.jpg
+image: articles/ss_haudi.jpg
 categories:
   - writing
   - crate

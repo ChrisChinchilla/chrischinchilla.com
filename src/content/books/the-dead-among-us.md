@@ -3,7 +3,7 @@ title: The dead among us
 publisher: Self-published
 role: Author
 publish_date: 2024-12-19
-image: /src/assets/images/books/the-dead-among-us.png
+image: books/the-dead-among-us.png
 store_urls:
   - label: eBook - Direct from me (pay what you feel)
     url: https://ko-fi.com/s/0a76b75a05

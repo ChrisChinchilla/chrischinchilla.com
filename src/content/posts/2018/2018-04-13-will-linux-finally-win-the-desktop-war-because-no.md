@@ -14,7 +14,7 @@ tags:
   - Development
   - Agile
 publication_url: 'https://dzone.com/articles/will-linux-finally-win-the-desktop-war-because-no'
-image: /src/assets/images/articles/8770879.jpeg
+image: articles/8770879.jpeg
 summary: >-
   As Apple and Microsoft lose enthusiasm for their desktop operating systems,
   will it be time for Linux to shine? Or do Linux enthusiasts even care about

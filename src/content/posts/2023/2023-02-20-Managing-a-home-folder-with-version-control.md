@@ -7,13 +7,14 @@ publication_url: >-
 categories:
   - writing
 tags:
-  - macOS
-  - Version Control
-image: /src/assets/images/articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png
+  - macos
+  - version control
+image: articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png
 summary: >-
   Some time ago, I mentioned a process I triedthat allowed me to partially
   recreate my Mac setup on
 ---
+
 Some time ago, [I mentioned a process I tried](https://medium.com/geekculture/migrating-applications-and-data-to-a-new-mac-without-using-time-machine-240e1de77892)that allowed me to partially recreate my Mac setup on
 another machine with scripts. As part of that process I attempted to add
 my home folder configuration to version control so that I could keep

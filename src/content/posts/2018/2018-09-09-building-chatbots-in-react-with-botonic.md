@@ -12,7 +12,7 @@ tags:
   - Web Dev
   - Tutorial
 publication_url: 'https://dzone.com/articles/building-chatbots-in-react-with-botonic'
-image: /src/assets/images/articles/10170821.jpeg
+image: articles/10170821.jpeg
 summary: >-
   Learn how to use the open source and popular React.js framework to create your
   own chatbot for that app you're developing.

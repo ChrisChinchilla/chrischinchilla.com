@@ -9,7 +9,7 @@ tags:
   - AI
   - APIs
   - Documentation
-image: /src/assets/images/articles/682f499d317d31671d4c0cab_Screenshot 2025-05-22 at 8.57.56 AM.png
+image: articles/682f499d317d31671d4c0cab_Screenshot 2025-05-22 at 8.57.56 AM.png
 summary: >-
   API documentation is generally predictable, follows common patterns, and is one of the least interesting tasks in a documentation project. It's also a task with a degree of pre-existing automatic generation tools and practices.
   

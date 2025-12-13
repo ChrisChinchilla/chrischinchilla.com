@@ -5,17 +5,18 @@ categories:
   - projects
   - software
 tags:
-  - Atom
-  - Medium
-  - Export
-  - Markdown
-image: /src/assets/images/articles/projects/medium-export.png
+  - atom
+  - medium
+  - export
+  - markdown
+image: articles/projects/medium-export.png
 summary: >-
   I love Markdown and I love editing Markdown in Atom. But I also love the
   exposure that Medium offers, and whilst I admit it has a great editor, I like
   to be able to write offline and I like having a central repository (i.e. Git)
   of my work for collaboration, consolidation and other purposes.
 ---
+
 I love Markdown and I love editing Markdown in Atom. But I also love the exposure that Medium offers, and whilst I admit it has a great editor, I like to be able to write offline and I like having a central repository (i.e. Git) of my work for collaboration, consolidation and other purposes.
 
 It turns out that Medium offer importers for Markdown and HTML in their API and inspired by the [Ulysses](https://www.ulyssesapp.com/) editor (which has a Medium export) I thought it was about time that my favourite editor had the same possibility.

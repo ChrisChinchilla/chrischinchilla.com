@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/docker-secrets-management/'
-image: /src/assets/images/articles/964db6a6-69da-4366-afea-b129019aff07.png
+image: articles/964db6a6-69da-4366-afea-b129019aff07.png
 summary: >-
   I’m sure we’ve all been there. That moment when you realize that important and
   sensitive access details have leaked online into a public space and

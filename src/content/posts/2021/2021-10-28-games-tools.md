@@ -4,15 +4,16 @@ publishDate: 2021-10-28T00:00:00.000Z
 categories:
   - writing chrischinchilla
 tags:
-  - Boardgames
-  - Toleplay
-  - Tools
-image: /src/assets/images/articles/dice.jpeg
+  - boardgames
+  - toleplay
+  - tools
+image: articles/dice.jpeg
 summary: >-
   I endlessly discover cool digital tools, apps, and websites for enhancing
   board games and roleplay games and needed an excuse to try them. So I wrote a
   blogpost!
 ---
+
 I endlessly discover cool digital tools, apps, and websites for enhancing board games and roleplay games and needed an excuse to try them. So I wrote a blogpost!
 
 I am aware that some tools overlap categories, and in those cases, I have tried to put them in a category that makes the most sense.

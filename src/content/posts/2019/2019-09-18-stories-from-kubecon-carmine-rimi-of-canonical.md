@@ -16,7 +16,7 @@ tags:
   - AI
   - Interview
 publication_url: 'https://dzone.com/articles/-stories-from-kubecon-carmine-rimi-of-canonical'
-image: /src/assets/images/articles/12486920.jpeg
+image: articles/12486920.jpeg
 summary: >-
   We're bringing you more from KubeCon with the Product Manager of Kubernetes
   and AI from Canonical.

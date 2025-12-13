@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/documenting-microservices/'
-image: /src/assets/images/articles/Topic-Based.png
+image: articles/Topic-Based.png
 summary: >-
   I will assume you are at least familiar with the concept of microservices —
   loosely coupled services that provide discrete solutions to business use cases

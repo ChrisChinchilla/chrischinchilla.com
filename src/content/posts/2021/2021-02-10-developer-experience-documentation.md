@@ -9,7 +9,7 @@ tags:
   - Documentation
 publication_url: 'https://humanitec.com/blog/developer-experience-documentation'
 image: >-
-  /src/assets/images/articles/60355881479bf2601bb1ec6a_kubernetes-environments-basics-p-800.jpeg
+  articles/60355881479bf2601bb1ec6a_kubernetes-environments-basics-p-800.jpeg
 summary: >-
   When comparing products, you want to decide on their usefulness. Yet, we often
   forget to evaluate the project's documentation. A project might offer an

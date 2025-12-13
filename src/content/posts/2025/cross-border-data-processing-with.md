@@ -9,7 +9,7 @@ tags:
   - Cloud
   - Privacy
   - Data
-image: "/src/assets/images/articles/5e5fdabb-a2f1-4098-9234-f6d089ec2a6f_2048x1463.png"
+image: "articles/5e5fdabb-a2f1-4098-9234-f6d089ec2a6f_2048x1463.png"
 summary: >-
   Many organizations work with clients and infrastructure around the world and face significant challenges ensuring they follow privacy regulations as their application data flows across borders.
   

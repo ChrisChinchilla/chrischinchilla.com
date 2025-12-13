@@ -4,7 +4,7 @@ publishDate: 2015-08-11T00:00:00.000Z
 categories:
   - projects
   - chipshop
-image: /src/assets/images/articles/9up-cards.png
+image: articles/9up-cards.png
 tags:
   - Markdown
   - Pandoc
@@ -85,7 +85,7 @@ I use [pdfjam](https://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-rese
 
 And that's it, we have a website and printable PDFs of the game cards.
 
-![Cards 9up](/images/9up-cards.png)
+![Cards 9up](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/images/9up-cards.png)
 
 ### The Latex file
 
@@ -149,7 +149,7 @@ We're attempting to create a simple layout that is clear and uncluttered. Here's
 
 A lot of the above is reasonably self explanatory for anyone used to code or markup. We're creating the elements of the card, aligning them, setting font sizes and checking if there are values before outputting them so the card doesn't end up with empty fields. The costs and score values are in a two column layout. We resize the image to a particular size and centre it.
 
-![Single Card](/images/single-card.png)
+![Single Card](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/images/single-card.png)
 
 I run the build script with:
 

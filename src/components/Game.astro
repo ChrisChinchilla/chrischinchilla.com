@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import ContentImage from '~/components/common/ContentImage.astro';
 import { type CollectionEntry } from 'astro:content';
 import { slugify } from '~/utils/slugify';
 export interface Props {
@@ -15,9 +15,10 @@ var idOfTitle = slugify(game.data.title);
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${game.data.image ? 'md:grid-cols-2' : ''}`}>
   <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
-    <Image
+    <ContentImage
       src={game.data.image}
       alt={game.data.title}
+      type="game"
       class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
     />
   </div>

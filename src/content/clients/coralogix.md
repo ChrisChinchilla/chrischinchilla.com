@@ -3,7 +3,7 @@ type: blogging
 title: Coralogix
 current: false
 company_url: 'https://coralogix.com/blog/'
-image: /src/assets/images/clients/coralogix.png
+image: clients/coralogix.png
 category: Chris writing
 start_date: 2017
 end_date: 2017

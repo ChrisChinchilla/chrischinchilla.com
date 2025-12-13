@@ -3,7 +3,7 @@ title: Automated Testing report
 publisher: DZone
 role: Contributor
 publish_date: 2023-09-14
-image: /src/assets/images/books/17204703-lp-dz-tr-testing-front-cover-alt-2023.jpeg
+image: books/17204703-lp-dz-tr-testing-front-cover-alt-2023.jpeg
 store_urls:
   - label: Dzone
     url: https://dzone.com/trendreports/automated-testing

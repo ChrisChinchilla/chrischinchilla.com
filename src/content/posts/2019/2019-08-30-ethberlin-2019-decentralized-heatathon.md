@@ -9,7 +9,7 @@ tags:
   - Berlin
   - Events
 publication_url: 'https://kauri.io/article/09019039d2564449a129f7f415b79187'
-image: /src/assets/images/articles/QmTFWWEboNpDm3ijRBaM21djhyB7JqkD1TC6ZSwSAJqtHt.png
+image: articles/QmTFWWEboNpDm3ijRBaM21djhyB7JqkD1TC6ZSwSAJqtHt.png
 summary: >-
   I wasn't at Berlin Blockchain week in 2018, so can't directly compare the two
   events, but this year seemed busy to me, others mentioned they thought it was

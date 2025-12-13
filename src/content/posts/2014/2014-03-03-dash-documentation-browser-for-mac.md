@@ -4,7 +4,7 @@ publishDate: 2014-03-03T20:20:49.000Z
 categories:
   - writing
   - chrischinchilla
-image: /src/assets/images/articles/dash.png
+image: articles/dash.png
 summary: >-
   Every now and then along comes a piece of software that just does pretty much
   everything right, one of these is Dash.

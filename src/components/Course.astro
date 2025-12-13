@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import ContentImage from '~/components/common/ContentImage.astro';
 import { type CollectionEntry } from 'astro:content';
 import Markdown from '@astrojs/markdown-component';
 import { slugify } from '~/utils/slugify';
@@ -23,22 +23,12 @@ var idOfTitle = slugify(course.data.title);
   <div
     class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg"
   >
-      <!-- <Picture
-        src={featured_image ? featured_image : '~/assets/images/default.png'}
-        class="absolute inset-0 object-cover w-full h-full mb-6 rounded drop-shadow-lg "
-        widths={[400, 900]}
-        sizes="(max-width: 900px) 400px, 900px"
+      <ContentImage
+        src={course.data.image}
         alt={course.data.title}
-        aspectRatio="16:9"
-        loading="lazy"
-        decoding="async"
-        fetchpriority="auto"
-      /> -->
-      <Image
-      src={course.data.image}
-      alt={course.data.title}
-      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-    />
+        type="av"
+        class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+      />
     </div>
   
     <div class="mt-2">
@@ -67,4 +57,3 @@ var idOfTitle = slugify(course.data.title);
       }
     </div>
   </article>
-  

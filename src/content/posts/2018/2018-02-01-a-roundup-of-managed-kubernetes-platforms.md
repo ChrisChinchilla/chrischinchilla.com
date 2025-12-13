@@ -8,7 +8,7 @@ categories:
 tags:
   - DevOps
 publication_url: 'https://blog.codeship.com/a-roundup-of-managed-kubernetes-platforms/'
-image: /src/assets/images/articles/mk-azure.jpg
+image: articles/mk-azure.jpg
 summary: >-
   In the race of container orchestrators, Kubernetes is surging ahead. But much
   like when I wrote my post on Docker hosting, people are often stuck on the

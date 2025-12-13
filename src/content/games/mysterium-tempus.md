@@ -1,6 +1,6 @@
 ---
 title: Mysterium Tempus - A Mystery in Spacetime
-image: "/src/assets/images/games/445342.jpg"
+image: "games/445342.jpg"
 publisher: Art of Karthik
 publish_date: 2023-07-17
 role: Proofreader
