@@ -9,7 +9,7 @@ tags:
   - DevOps
 publication_url: >-
   https://humanitec.com/blog/testing-hotfixes-to-production-without-rolling-back-staging
-image: /src/assets/images/articles/5fa1b9f4db998980b63c5607.jpg
+image: articles/5fa1b9f4db998980b63c5607.jpg
 summary: >-
   A major bug urgently needs fixing in Production, but QA is impossible because
   Staging is ahead of Prod. This blog post will detail how to clone your

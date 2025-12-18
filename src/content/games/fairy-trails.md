@@ -1,6 +1,6 @@
 ---
 title: Fairy Trails
-image: "/src/assets/images/games/Fairy-Trails-Books.png"
+image: "games/Fairy-Trails-Books.png"
 publisher: Mirth Drake
 publish_date: 2021-12-03
 role: Proofreader

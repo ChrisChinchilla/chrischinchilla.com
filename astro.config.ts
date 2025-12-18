@@ -10,6 +10,7 @@ import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
 import { remarkReadingTime } from './src/utils/frontmatter.mjs';
+import { remarkSupabaseImages } from './src/utils/remark-supabase-images.mjs';
 import { customizeSitemapItem } from './src/utils/sitemap';
 import { SITE } from './src/config.mjs';
 
@@ -81,7 +82,7 @@ export default defineConfig({
   ],
   
   markdown: {
-    remarkPlugins: [remarkReadingTime],
+    remarkPlugins: [remarkReadingTime, remarkSupabaseImages],
     rehypePlugins: [
       rehypeSlug,
       [

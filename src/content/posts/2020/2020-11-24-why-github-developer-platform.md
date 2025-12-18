@@ -10,7 +10,7 @@ tags:
   - GitHub
 publication_url: >-
   https://humanitec.com/blog/jason-warner-why-github-built-their-own-internal-developer-platform
-image: /src/assets/images/articles/5fc11394dea01eacb9630440.png
+image: articles/5fc11394dea01eacb9630440.png
 summary: >-
   An Internal Developer Platform (IDP) is an essential step for rapidly scaling
   companies to keep their developers working productively and happily. In this

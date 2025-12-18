@@ -8,7 +8,7 @@ tags:
   - Dx
   - DevOps
 publication_url: 'https://humanitec.com/blog/why-zalando-builds-an-own-developer-platform'
-image: /src/assets/images/articles/5f85609a9fe2ef3450198b1e.png
+image: articles/5f85609a9fe2ef3450198b1e.png
 summary: >-
   An internal developer platform (IDP) is an essential step for rapidly scaling
   companies to keep their developers working productively and happily. In this

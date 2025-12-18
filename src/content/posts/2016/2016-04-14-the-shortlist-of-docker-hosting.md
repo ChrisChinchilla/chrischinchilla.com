@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/the-shortlist-of-docker-hosting/'
-image: /src/assets/images/articles/docker-hosting-do-droplets.png
+image: articles/docker-hosting-do-droplets.png
 summary: 'Note that this post has been updated as of October 20, 2016.'
 ---
 Note that this post has been updated as of October 20, 2016.

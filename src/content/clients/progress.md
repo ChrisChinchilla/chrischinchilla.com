@@ -1,7 +1,7 @@
 ---
 type: Blogging
 title: Progress
-image: /src/assets/images/clients/progress.png
+image: clients/progress.png
 category: Chris
 tags:
   - .NET

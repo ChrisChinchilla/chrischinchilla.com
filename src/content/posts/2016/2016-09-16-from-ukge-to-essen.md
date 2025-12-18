@@ -4,7 +4,7 @@ publishDate: 2016-09-16T00:00:00.000Z
 categories:
   - projects
   - chipshop
-image: /src/assets/images/articles/ukge_playtest.jpg
+image: articles/ukge_playtest.jpg
 tags:
   - Games
   - Playtesting

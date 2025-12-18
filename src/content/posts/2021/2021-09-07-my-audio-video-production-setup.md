@@ -5,11 +5,11 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - Video
-  - Audio
-  - Podcast
-  - Streaming
-image: /src/assets/images/articles/IMG_20210609_172640.jpeg
+  - video
+  - audio
+  - podcast
+  - streaming
+image: articles/IMG_20210609_172640.jpeg
 summary: >-
   I’ve been running podcasts for years, and while I worked on some video courses
   in the past, over the past year I have invested more time in my audio and
@@ -18,6 +18,7 @@ summary: >-
   documented it. Partly so others can learn from my setup, and partly so I can
   keep tabs on it myself.
 ---
+
 I’ve been running podcasts for years, and while I worked on some video courses in the past, over the past year I have invested more time in my audio and video setup, primarily for live-streaming. After months and months of getting It to a point where I am “kind of” happy with it, I thought it was high time I documented it. Partly so others can learn from my setup, and partly so I can keep tabs on it myself.
 
 ## Disclaimer

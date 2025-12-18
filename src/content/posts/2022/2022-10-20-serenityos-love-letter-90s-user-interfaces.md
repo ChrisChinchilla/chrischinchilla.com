@@ -10,7 +10,7 @@ tags:
   - Serenityos
   - 90S
 publication_url: 'https://hackernoon.com/running-serenityos-a-love-letter-to-90s-user-interfaces'
-image: /src/assets/images/articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-26937di.jpeg
+image: articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-26937di.jpeg
 summary: >-
   I have always loved messing around with operating systems and desktop
   environments. I believe my first graphical operating system was AmigaOS. In

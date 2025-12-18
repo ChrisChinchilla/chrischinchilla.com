@@ -12,7 +12,7 @@ tags:
   - Chaos Engineering
   - Tutorial
 publication_url: 'https://dzone.com/articles/embracing-the-chaos-of-chaos-engineering'
-image: /src/assets/images/articles/9801161.jpeg
+image: articles/9801161.jpeg
 summary: >-
   Learn how chaos engineering helps you find seemingly random errors in today's
   modern, increasingly complex applications.

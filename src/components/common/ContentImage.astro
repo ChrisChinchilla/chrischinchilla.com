@@ -1,0 +1,92 @@
+---
+/**
+ * ContentImage Component
+ * 
+ * High-level component for rendering content images with smart defaults.
+ * Automatically handles fallbacks to default images based on content type.
+ * 
+ * @example Blog post image
+ * ```astro
+ * <ContentImage 
+ *   src={post.data.image} 
+ *   alt={post.data.title}
+ *   type="post"
+ *   width={800}
+ *   height={600}
+ * />
+ * ```
+ * 
+ * @example Newsletter image with Supabase
+ * ```astro
+ * <ContentImage 
+ *   src="newsletters/2024-01-newsletter.jpg" 
+ *   alt="Newsletter header"
+ *   type="newsletter"
+ * />
+ * ```
+ */
+
+import SupabaseImage from './SupabaseImage.astro';
+import defaultPostImage from '../../assets/images/defaults/blog-chinchilla.jpg';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  src?: string | ImageMetadata;
+  alt: string;
+  type?: 'post' | 'newsletter' | 'podcast' | 'book' | 'game' | 'client' | 'av';
+  width?: number;
+  height?: number;
+  quality?: number;
+  format?: 'origin' | 'webp' | 'avif';
+  class?: string;
+  inferSize?: boolean;
+  [key: string]: any;
+}
+
+const {
+  src,
+  alt,
+  type = 'post',
+  width,
+  height,
+  quality,
+  format,
+  class: className,
+  inferSize,
+  ...rest
+} = Astro.props;
+
+// Use provided image or fall back to default
+const imageSrc = src || defaultPostImage;
+
+// Determine default dimensions based on content type (for Supabase/external images)
+const defaultDimensions: Record<string, { width: number; height: number }> = {
+  post: { width: 1200, height: 630 },
+  newsletter: { width: 1200, height: 630 },
+  podcast: { width: 420, height: 420 },
+  book: { width: 600, height: 900 },
+  game: { width: 1024, height: 576 },
+  client: { width: 400, height: 400 },
+  av: { width: 900, height: 506 },
+};
+
+// Use provided dimensions, or defaults for the content type
+const finalWidth = width ?? defaultDimensions[type]?.width;
+const finalHeight = height ?? defaultDimensions[type]?.height;
+
+// For ImageMetadata objects (local images), use inferSize
+// For Supabase/external string paths, use explicit dimensions
+const shouldInferSize = inferSize ?? (typeof imageSrc !== 'string' || (!width && !height));
+---
+
+<SupabaseImage
+  src={imageSrc}
+  alt={alt}
+  width={finalWidth}
+  height={finalHeight}
+  quality={quality}
+  format={format}
+  class={className}
+  inferSize={shouldInferSize}
+  {...rest}
+/>

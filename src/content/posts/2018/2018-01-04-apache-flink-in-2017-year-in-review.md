@@ -11,7 +11,7 @@ tags:
   - Flink Community
   - Year In Review
 publication_url: 'https://data-artisans.com/blog/apache-flink-in-2017-year-in-review'
-image: /src/assets/images/articles/github-stats-2017.png
+image: articles/github-stats-2017.png
 summary: >-
   If you take a look at&nbsp;the resolved issues and enhancements for 2017 on
   Jira&nbsp;you can see that the community resolved over 1,831 issues and

@@ -1,7 +1,7 @@
 ---
 publishDate: 2015-05-16T05:16:42.000Z
 title: Adding Accessories
-image: /src/assets/images/articles/image-adding-accessories.jpg
+image: articles/image-adding-accessories.jpg
 categories:
   - projects
   - chipshop

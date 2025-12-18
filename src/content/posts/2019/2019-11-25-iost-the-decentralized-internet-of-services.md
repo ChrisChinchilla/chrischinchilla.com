@@ -14,7 +14,7 @@ tags:
   - Agile
   - Interview
 publication_url: 'https://dzone.com/articles/-iost-the-decentralized-internet-of-services'
-image: /src/assets/images/articles/12746997.jpeg
+image: articles/12746997.jpeg
 summary: >-
   An interview with Terry Wang, co-founder and CEO, Ling from White Matrix who
   built a web-based IDE for IOST, and Aleksi of Attic labs who build games.

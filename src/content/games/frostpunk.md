@@ -1,6 +1,6 @@
 ---
 title: Frostpunk
-image: "/src/assets/images/games/Box-combined-small.png"
+image: "games/Box-combined-small.png"
 publisher: Glass Cannon Unplugged
 publish_date: 2022-09-01
 role: Proofreader

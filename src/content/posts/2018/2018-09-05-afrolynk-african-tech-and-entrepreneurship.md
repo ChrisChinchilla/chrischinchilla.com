@@ -15,7 +15,7 @@ tags:
   - AI
   - Fintech
 publication_url: 'https://dzone.com/articles/afrolynk-african-tech-and-entrepreneurship'
-image: /src/assets/images/articles/10154014.jpeg
+image: articles/10154014.jpeg
 summary: >-
   Take a look at this developer's reflection on African involvement in
   technology and the challenges that African entrepreneurs and technologists

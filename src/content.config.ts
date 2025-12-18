@@ -15,7 +15,7 @@ const supportLinks = defineCollection({
       cta: z.string().optional(),
       affiliate_link: z.string().url().optional(),
       affiliate_html: z.string().optional(),
-      image: z.union([z.string().url(), image()]).optional(),
+      image: z.union([z.string(), image()]).optional(),
       icon: z.string().optional(),
       slug: z.string(),
     }),
@@ -28,9 +28,8 @@ const posts = defineCollection({
     z.object({
       title: z.string(),
       // description: z.string().optional(),
-      // TODO: This used to be possible
-      // image: image().optional().default(defaultBlogImage),
-      image: image().optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      image: z.union([z.string(), image()]).optional(),
       publication_url: z.string().url().optional(),
       summary: z.string().optional(),
       // canonical: z.string().url().optional(),
@@ -45,7 +44,8 @@ const posts = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 
@@ -55,7 +55,7 @@ const games = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
-      image: z.union([z.string().url(), image()]),
+      image: z.union([z.string(), image()]),
       publisher: z.string().optional(),
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
       publish_date: z.date().optional(),
@@ -80,7 +80,8 @@ const events = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
 
     }),
 });
@@ -94,7 +95,7 @@ const clients = defineCollection({
       title: z.string(),
       summary: z.string().optional(),
       description: z.string().optional(),
-      image: z.union([z.string().url(), image()]),
+      image: z.union([z.string(), image()]),
       company_url: z.string().url().optional(),
       start_date: z.number().optional(),
       end_date: z.number().optional(),
@@ -119,8 +120,7 @@ const books = defineCollection({
       summary: z.string().optional(),
       // description: z.string(),
       publisher: z.string(),
-      // image: z.union([z.string().url(), image()]),
-      image: z.union([z.string().url(), image()]),
+      image: z.union([z.string(), image()]),
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
       publish_date: z.date(),
       role: z.string(),
@@ -128,7 +128,8 @@ const books = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 
@@ -140,7 +141,7 @@ const av = defineCollection({
       title: z.string(),
       // description: z.string(),
       client: z.string(),
-      image: z.union([z.string().url(), image()]),
+      image: z.union([z.string(), image()]),
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
       publish_date: z.date(),
       video_type: z.string(),
@@ -154,7 +155,7 @@ const podcasts = defineCollection({
     z.object({
       title: z.string().optional(),
       description: z.string().optional(),
-      image: z.union([z.string().url(), image()]).optional(),
+      image: z.union([z.string(), image()]).optional(),
       audio_preview_url: z.string().optional(),
       player_embed: z.string().optional(),
       descript_embed: z.string().optional(),
@@ -164,7 +165,8 @@ const podcasts = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 
@@ -176,12 +178,15 @@ const newsletters = defineCollection({
       title: z.string(),
       date: z.date(),
       summary: z.string().optional(),
-      image: z.union([z.string().url(), image()]),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      image: z.union([z.string(), image()]).optional(),
+  
       publication_url: z.string().url().optional(),
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      heroimage: z.union([z.string().url(), image()]).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 

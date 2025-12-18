@@ -3,7 +3,7 @@ type: blogging
 title: GitLab
 current: false
 company_url: 'https://about.gitlab.com/blog'
-image: /src/assets/images/clients/gitlab.png
+image: clients/gitlab.png
 start_date: 2020
 end_date: 2020
 tags:

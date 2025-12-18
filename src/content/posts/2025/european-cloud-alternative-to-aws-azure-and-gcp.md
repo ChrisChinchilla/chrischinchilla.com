@@ -8,7 +8,7 @@ categories:
 tags:
   - Cloud
   - Europe
-image: /src/assets/images/articles/eucloud.jpeg
+image: articles/eucloud.jpeg
 summary: >-
   When the modern-day internet began emerging in the early 2000s, finding
   hosting services and resources to run the new wave of dynamic web applications

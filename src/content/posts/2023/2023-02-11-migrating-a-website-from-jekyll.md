@@ -6,12 +6,14 @@ publication_url: 'https://medium.com/geekculture/migrating-a-website-from-jekyll
 categories:
   - writing
 tags:
-  - Jekyll
-  - Websites
-  - Web Development
-image: /src/assets/images/articles/1*Q3r-jIt5lGDBYfRv_Z-SnQ.png
+  - jekyll
+  - websites
+  - web development
+image: articles/1*Q3r-jIt5lGDBYfRv_Z-SnQ.png
 summary: I have stuffed so much into my website over the years it was starting to creak
 ---
+
+
 I have stuffed so much into [my website](https://github.com/ChrisChinchilla/chrischinchilla.com) over the years it was starting to creak
 at the seams. For most of its life, at least the life I can remember, I
 used [Jekyll](https://jekyllrb.com). When

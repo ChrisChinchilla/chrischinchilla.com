@@ -16,7 +16,7 @@ tags:
   - Open Source
   - Cloud
 publication_url: 'https://dzone.com/articles/-stories-from-kubecon-ibm-announces-razee-a-multi'
-image: /src/assets/images/articles/12428814.jpeg
+image: articles/12428814.jpeg
 summary: >-
   Stop pushing and start pulling with this new continuous delivery tool for
   Kubernetes, straight from IBM at KubeCon.

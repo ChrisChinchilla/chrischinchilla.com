@@ -13,7 +13,7 @@ tags:
   - Pengwin
   - Linux Subsystem For Windows
 publication_url: 'https://dzone.com/articles/-pengwin-linux-optimized-for-the-windows-subsystem'
-image: /src/assets/images/articles/12008960.jpeg
+image: articles/12008960.jpeg
 summary: >-
   Here's a walkthrough of Pengwin, a custom Linux distro built specifically with
   Windows in mind.

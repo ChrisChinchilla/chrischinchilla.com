@@ -12,7 +12,7 @@ tags:
   - API
   - Tutorial
 publication_url: 'https://dzone.com/articles/-create-a-random-board-game-generator-using-micros'
-image: /src/assets/images/articles/13657533.jpeg
+image: articles/13657533.jpeg
 summary: >-
   Take a look at using Heroku to host the microservices behind a small bot
   project the author maintains.

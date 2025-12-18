@@ -1,7 +1,7 @@
 ---
 title: A guide to the hybrid cloud networking landscape
 publishDate: 2018-06-12T13:03:06.277Z
-image: /src/assets/images/articles/hybrid-cloud.png
+image: articles/hybrid-cloud.png
 author: Chris Ward
 categories:
   - writing exoscale

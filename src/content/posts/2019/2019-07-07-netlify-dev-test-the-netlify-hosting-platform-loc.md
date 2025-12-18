@@ -14,7 +14,7 @@ tags:
   - React
   - Web Dev
 publication_url: 'https://dzone.com/articles/-netlify-dev-test-the-netlify-hosting-platform-loc'
-image: /src/assets/images/articles/12139842.jpeg
+image: articles/12139842.jpeg
 summary: >-
   A DZone Zone Leader shares a podcast where he interviews the founder of
   Netlify and then shows how to use this platform on you local machine.

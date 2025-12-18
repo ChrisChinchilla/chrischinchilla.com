@@ -3,7 +3,7 @@ type: Technical writing
 title: Slint
 current: false
 company_url: 'https://slint.dev'
-image: '/src/assets/images/clients/slint.svg'
+image: 'clients/slint.svg'
 start_date: 2023
 end_date: 2024
 tags:

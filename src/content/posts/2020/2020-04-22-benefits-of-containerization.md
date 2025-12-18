@@ -11,7 +11,7 @@ tags:
   - Docker
 publication_url: 'https://humanitec.com/blog/benefits-of-containerization'
 image: >-
-  /src/assets/images/articles/5e9ec368fa9f653e4386d691_benefits-of-containerization-humanitec.png
+  articles/5e9ec368fa9f653e4386d691_benefits-of-containerization-humanitec.png
 summary: >-
   Breaking applications into smaller coupled components like microservices, and
   running each of those components in containers often go hand in hand. These

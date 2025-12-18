@@ -3,7 +3,7 @@ title: Collective Verses
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2023-09-04
-image: /src/assets/images/books/CV.png
+image: books/CV.png
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/product/445428/Collective-Verses

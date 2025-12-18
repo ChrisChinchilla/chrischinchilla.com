@@ -1,7 +1,7 @@
 ---
 title: The Highlights of Mobile World Congress 2017
 publishDate: '2017-03-04 18:13:30 +0100'
-image: /src/assets/images/articles/mwc-2017.jpg
+image: articles/mwc-2017.jpg
 categories:
   - writing
   - dzone

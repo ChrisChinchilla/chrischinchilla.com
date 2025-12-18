@@ -15,7 +15,7 @@ tags:
   - Java
   - Fluree
 publication_url: 'https://dzone.com/articles/-fluree-blockchain-graphql-and-more-all-in-one-dat'
-image: /src/assets/images/articles/11878511.jpeg
+image: articles/11878511.jpeg
 summary: >-
   Learn more about Fluree and listen to an interview one of our Zone Leaders had
   with Co-CEO Brian Platz.

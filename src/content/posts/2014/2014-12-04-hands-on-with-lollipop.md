@@ -20,14 +20,14 @@ Speaking of Lollipop's new design, I personally like it. It's animated enough, b
 ## Notifications / Settings pane
 I am loving the new notifications design and it's development has caused me to disable other notifications tweak apps I previously used such as <a href="https://play.google.com/store/apps/details?id=com.greatbytes.activenotifications&hl=en" target="_blank">Dynamic Notifications</a> and <a href="https://play.google.com/store/apps/details?id=com.squanda.swoop.app" target="_blank">Snowball</a>.
 
-![](/images/notscreen.jpg)
+![](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/images/notscreen.jpg)
 
 This are the two sides of the new look notifications and settings panes. I mostly like the compactness of this new layout, apart from one minor annoying omission. There is no longer a quick way of seeing what wifi networks are available, the icon here only switches wifi on and off. It's consistent, but does mean if you want to disconnect from a previous wifi network that you have inadvertently joined, you have to delve into the settings proper.
 
 ## Notifications modes and the slow irrelevance of the power button
 Lets deal with the power button first and possibly one of the more controversial Lollipop changes that may end up as Android's 'Start Menu' and eventually return. All the power button now does is turn the phone on and off. As we have already seen, Airplane mode is now accessed via the drop down settings menu, and silent mode, well it's been split in two. Android's new official way is to use notification modes.
 
-![](/images/notmode.jpg)
+![](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/images/notmode.jpg)
 
 With these modes you can set what levels (all, priority and none) notifications can disturb you when the phone is in each mode. It's not quite a silent mode, but if you do want to access the 'old style' silent mode you hold the volume down button until it hits silent, so it's there, but not as convenient.
 
@@ -36,7 +36,7 @@ Battery life on my Nexus 5 seems to be the same as before, but it's other, more 
 
 Many have had some issue with the new battery usage screen.
 
-![](/images/battery.png)
+![](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/images/battery.png)
 
 Instead of showing you the percentage use of an app overall, it shows you the battery use of each app as part of what is remaining. I still don't completely understand it myself...
 

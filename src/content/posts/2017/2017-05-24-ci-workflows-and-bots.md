@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/ci-workflows-and-bots/'
-image: /src/assets/images/articles/cb-create-app.png
+image: articles/cb-create-app.png
 summary: >-
   Chat bots are everywhere. Suddenly our messaging services are inundated with
   small automated systems inhabiting spaces in the domain of human-to-human

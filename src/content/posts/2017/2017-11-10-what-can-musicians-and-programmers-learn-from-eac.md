@@ -11,7 +11,7 @@ tags:
   - Career Growth
   - Learning And Development
 publication_url: 'https://dzone.com/articles/what-can-musicians-and-programmers-learn-from-each'
-image: /src/assets/images/articles/7164684.jpeg
+image: articles/7164684.jpeg
 summary: >-
   A DZone Zoner Leader and a fellow developer discuss the similarities between
   playing music and writing code. Listen in on this awesome conversation!

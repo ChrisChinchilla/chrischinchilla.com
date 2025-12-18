@@ -12,7 +12,7 @@ tags:
   - Security Camera
   - Smart Lighting
 publication_url: 'https://dzone.com/articles/creating-a-smart-home-with-conrad-connect'
-image: /src/assets/images/articles/10328443.jpeg
+image: articles/10328443.jpeg
 summary: >-
   Want to learn more about creating a smart home with Conrad Connect? Check out
   this review on using the Conrad Connect to see if you can use it for your next

@@ -11,7 +11,7 @@ tags:
   - Graph Query
   - Graphcool
 publication_url: 'https://dzone.com/articles/graphcool-the-graphql-backend-development-framewor'
-image: /src/assets/images/articles/7307314.jpeg
+image: articles/7307314.jpeg
 summary: >-
   GraphQL allows you to query data in the data-heavy age. It's backed and used
   by Facebook, but is new and still has tooling gaps. GraphCool aims to solve

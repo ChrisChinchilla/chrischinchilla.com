@@ -6,14 +6,15 @@ categories:
   - writing
   - sitepoint
 tags:
-  - Tutorial
-  - GitHub
-  - GitHub
-image: /src/assets/images/articles/chinchilla_octocat.png
+  - tutorial
+  - github
+  - github
+image: articles/chinchilla_octocat.png
 summary: >-
   GitHub, and the Git version control system it's based on, are fantastic tools
   for managing and collaborating on projects – code-based or otherwise.
 ---
+
 GitHub, and the Git version control system it's based on, are fantastic tools for managing and collaborating on projects – code-based or otherwise.
 
 In this article, we'll look at options for making Git and GitHub projects fit better into developer workflows, allowing for a smooth and hands-off deployment process.

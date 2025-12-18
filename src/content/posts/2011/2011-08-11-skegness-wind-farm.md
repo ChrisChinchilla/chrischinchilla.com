@@ -1,7 +1,7 @@
 ---
 title: Skegness wind farm
 publishDate: 2011-08-11T19:50:11.000Z
-image: /src/assets/images/articles/skeg2.jpg
+image: articles/skeg2.jpg
 categories:
   - writing
 tags:

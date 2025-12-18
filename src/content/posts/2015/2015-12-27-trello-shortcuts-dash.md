@@ -5,13 +5,14 @@ categories:
   - projects
   - software
 tags:
-  - Dash
-  - Documentation
-image: /src/assets/images/articles/dash_trello.png
+  - dash
+  - documentation
+image: articles/dash_trello.png
 summary: >-
   I have loved Kapeli's offline documentation browser, Dash for a while now and
   have been intending to start contributing to it for the best part of 2015.
 ---
+
 I have loved Kapeli's offline documentation browser, [Dash](https://kapeli.com/dash) for a while now and have been intending to start contributing to it for the best part of 2015.
 
 You can find my first of many contributions in the form of a cheatsheet for Trello's keyboard shortcuts.

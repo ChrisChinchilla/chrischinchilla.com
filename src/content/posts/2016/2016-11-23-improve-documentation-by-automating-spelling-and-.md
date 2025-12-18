@@ -9,7 +9,7 @@ tags:
   - Development
 publication_url: >-
   https://blog.codeship.com/improve-documentation-by-automating-spelling-and-grammar-checks/
-image: /src/assets/images/articles/setup-commands.png
+image: articles/setup-commands.png
 summary: >-
   What’s one of the first things you look at when trying a new piece of
   software? Or after you’ve hit that tempting Download button, what’s your usual

@@ -1,7 +1,7 @@
 ---
 title: Add your suggestions to "What Came Next"
 publishDate: 2015-03-22T10:13:03.000Z
-image: /src/assets/images/articles/image-what-came-next.jpg
+image: articles/image-what-came-next.jpg
 categories: projects odtwe
 summary: >-
   One Day the World Ended is designed to be an open source and collaborative

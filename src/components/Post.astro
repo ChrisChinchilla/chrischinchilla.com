@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import ContentImage from '~/components/common/ContentImage.astro';
 import Tags from '~/components/common/Tags.astro';
 import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
 
@@ -31,10 +32,10 @@ if (post.data.publication_url != null) {
 
 <article class="mb-6 transition px-4">
   <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
-    <Image
-      src={post.data.image ? post.data.image : defaultPostImage}
+    <ContentImage
+      src={post.data.image}
       alt={post.data.title}
-      inferSize={true}
+      type="post"
       class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
     />
   </div>

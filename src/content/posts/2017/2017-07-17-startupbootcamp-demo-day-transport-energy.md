@@ -1,7 +1,7 @@
 ---
 title: Startupbootcamp demo day on transport and energy
 publishDate: 2017-07-17T00:00:00.000Z
-image: /src/assets/images/articles/startupbootcamp.jpg
+image: articles/startupbootcamp.jpg
 categories:
   - writing
   - thenextweb

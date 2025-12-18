@@ -17,7 +17,7 @@ tags:
   - AI
   - Bot Development
 publication_url: 'https://dzone.com/articles/creating-your-own-whimsical-twitter-bot-with-trace'
-image: /src/assets/images/articles/9614647.jpeg
+image: articles/9614647.jpeg
 summary: Read this fun article about how to create a Twitter bot with Tracery.
 ---
 Read this fun article about how to create a Twitter bot with Tracery.

@@ -1,7 +1,7 @@
 ---
 type: Technical writing
 title: Glassfy
-image: /src/assets/images/clients/glassfy.png
+image: clients/glassfy.png
 category: Chris
 tags:
     - documentation

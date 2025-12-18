@@ -5,15 +5,16 @@ categories:
   - projects
   - chipshop
 tags:
-  - Games
-  - Playtesting
-image: /src/assets/images/articles/board_inspiration.jpg
+  - games
+  - playtesting
+image: articles/board_inspiration.jpg
 summary: >-
   I spent some time this week finishing off a lot of the changes from my last
   round of playtesting, most of these have resulted in changing Chip Shop from a
   somewhat random card game with a board (for no particular reason) into a more
   rounded actual board game.
 ---
+
 I spent some time this week finishing off a lot of the changes from my last round of playtesting, most of these have resulted in changing Chip Shop from a somewhat random card game with a board (for no particular reason) into a more rounded actual board game.
 
 This took a lot of time to balance the best way to represent concepts, undoing a lot of work I had undertaken and also keeping an eye on how this will affect production of the print on demand and boxed version of the game.

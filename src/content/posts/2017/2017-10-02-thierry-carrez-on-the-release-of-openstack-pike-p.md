@@ -11,7 +11,7 @@ tags:
   - Openstack Pike
   - Cloud Storage
 publication_url: 'https://dzone.com/articles/thierry-carrez-on-the-release-of-openstack-pike'
-image: /src/assets/images/articles/6752165.jpeg
+image: articles/6752165.jpeg
 summary: >-
   Listen in on this half-hour podcast interview with OpenStack's release
   manager, covering how to manage projects with large numbers of contributors.

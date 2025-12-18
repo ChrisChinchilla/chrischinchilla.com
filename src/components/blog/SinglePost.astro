@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { Image } from 'astro:assets';
+import ContentImage from '~/components/common/ContentImage.astro';
 // import { findImage } from '~/utils/images';
 // import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
@@ -51,19 +51,13 @@ const { post, url } = Astro.props;
 
       {
         post.image ? (
-          // <Picture
-          //   src={post.image}
-          //   class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md "
-          //   widths={[400, 900]}
-          //   sizes="(max-width: 900px) 400px, 900px"
-          //   alt={post.description || ''}
-          //   loading="eager"
-          //   aspectRatio={16 / 9}
-          //   width={900}
-          //   height={506}
-          // />
-          <Image src={post.image} alt={post.title} class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md "
-    />
+          <ContentImage 
+            src={post.image} 
+            alt={post.title}
+            type="post"
+            loading="eager"
+            class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md"
+          />
         ) : (
           <div class="max-w-3xl mx-auto px-4 sm:px-6">
             <div class="border-t dark:border-slate-700" />

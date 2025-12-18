@@ -11,7 +11,7 @@ tags:
   - Web Dev
   - Coding Exercise
 publication_url: 'https://dzone.com/articles/screeps-the-mmo-sandbox-game-for-programmers'
-image: /src/assets/images/articles/5620905.jpeg
+image: articles/5620905.jpeg
 summary: >-
   In this article, we explore a video game that requires players to code in
   JavaScript in order to make any progress in the game and interact with other

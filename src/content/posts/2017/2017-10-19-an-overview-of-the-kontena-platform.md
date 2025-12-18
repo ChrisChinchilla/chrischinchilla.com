@@ -8,7 +8,7 @@ categories:
 tags:
   - Development
 publication_url: 'https://blog.codeship.com/an-overview-of-the-kontena-platform/'
-image: /src/assets/images/articles/kontena-platform.jpg
+image: articles/kontena-platform.jpg
 summary: >-
   Back in my Docker hosting post, I noted that deploying and orchestrating
   containers live was still a missing step in the Docker workflow for many

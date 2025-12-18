@@ -14,7 +14,7 @@ tags:
   - Tutorial
   - Bot Development
 publication_url: 'https://dzone.com/articles/create-cross-platform-voice-applications-with-jovo'
-image: /src/assets/images/articles/7827848.jpeg
+image: articles/7827848.jpeg
 summary: >-
   Jovo aims to create a development framework that allows you to write code once
   and deliver to multiple voice platforms, taking out a lot of the extra work.

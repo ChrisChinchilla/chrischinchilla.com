@@ -5,9 +5,9 @@ author: Chris Ward
 categories:
   - writing chronosphere
 tags:
-  - Observability
-  - Sustainability
-image: /src/assets/images/articles/lineChart.png
+  - observability
+  - sustainability
+image: articles/lineChart.png
 publication_url: >-
   https://chronosphere.io/learn/increasing-cloud-native-sustainability-with-observability/
 summary: >-

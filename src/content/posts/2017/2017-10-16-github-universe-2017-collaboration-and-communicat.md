@@ -12,7 +12,7 @@ tags:
   - Collaboration
   - Integration
 publication_url: 'https://dzone.com/articles/github-universe-2017-collaboration-and-communicati'
-image: /src/assets/images/articles/6905329.jpeg
+image: articles/6905329.jpeg
 summary: >-
   See how GitHub became a leader in version control; learn about the Discovery
   tab, and how they help you not only code better, but collaborate and

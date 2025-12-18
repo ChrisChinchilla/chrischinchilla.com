@@ -9,7 +9,7 @@ tags:
   - DevOps
 publication_url: 'https://humanitec.com/blog/configuration-version-changes-kubernetes-apps'
 image: >-
-  /src/assets/images/articles/5f6872eb569a960627495d59_version-changes-configs-kubernetes-apps.png
+  articles/5f6872eb569a960627495d59_version-changes-configs-kubernetes-apps.png
 summary: >-
   Your Kubernetes configuration represents environments that are a fundamental
   part of your application, unyet we generally treat them as less important from
