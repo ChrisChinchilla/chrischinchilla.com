@@ -3,6 +3,12 @@ import { YouTube } from "@astro-community/astro-embed-youtube";
 
 const { video } = Astro.props;
 var url = `https://youtu.be/${video.snippet.resourceId.videoId}`;
+
+// Extract first two paragraphs from description
+const paragraphs = video.snippet.description
+  .split('\n\n')
+  .filter(p => p.trim().length > 0);
+const truncatedDescription = paragraphs.slice(0, 2).join('\n\n');
 ---
 
 <article class="mb-6 transition px-4">
@@ -25,8 +31,8 @@ var url = `https://youtu.be/${video.snippet.resourceId.videoId}`;
         }
       </h2>
       </header>
-      <p>
-        {video.snippet.description}
+      <p class="whitespace-pre-line">
+        {truncatedDescription}
       </p>
     </div>
 

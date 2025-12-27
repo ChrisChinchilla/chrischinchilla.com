@@ -197,6 +197,16 @@ const CONFIG = {
       disabled: true,
     },
   },
+
+  video: {
+    disabled: false,
+    postsPerPage: 30,
+    list: {
+      pathname: 'videos',
+      noindex: false,
+      disabled: false,
+    },
+  },
 };
 
 export const SITE = { ...CONFIG, blog: undefined, client: undefined };
@@ -206,4 +216,5 @@ export const CLIENT = CONFIG.client;
 export const EVENT = CONFIG.event;
 export const GAME = CONFIG.game;
 export const PODCAST = CONFIG.podcast;
+export const VIDEO = CONFIG.video;
 export const DATE_FORMATTER = CONFIG.dateFormatter;
