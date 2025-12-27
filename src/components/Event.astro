@@ -27,40 +27,42 @@ var eventFormat = '';
 }
 ---
 
-<!-- TODO: Fix mobile layout -->
-<article class=`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2 ${eventFormat}
-`>
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden">
-    <h3 class="text-xl">
-      {formatted_date}
-    </h3>
-    <h3 class="text-xl">
-      {venue}
-    </h3>
+<article class=`mb-8 md:mb-12 ${eventFormat}`>
+  <header class="mb-4">
+    <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">
+      {event}
+    </h2>
+    <div class="text-sm md:text-base text-gray-600 dark:text-gray-400 space-y-1">
+      <p class="font-medium">{formatted_date}</p>
+      <p>{venue}</p>
+    </div>
+  </header>
+
+  <div class="space-y-4">
     {
-      pres_source ? (
-        <a class="hover:text-primary transition ease-in duration-200" href={pres_source}>
-          {title}
-        </a>
-      ) : (
-        ''
+      pres_source && title && (
+        <div>
+          <h3 class="text-lg font-medium mb-1">
+            <a class="hover:text-primary transition ease-in duration-200" href={pres_source}>
+              {title}
+            </a>
+          </h3>
+        </div>
       )
     }
-  </div>
 
-  <div class="mt-2">
-    <header>
-      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">
-        {event}
-      </h2>
-    </header>
-    <div class="post-body body">
-      {body}
-    </div>
-    <div class="mt-2">
-      <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={pres_url}>
-        {pres_url}
-      </a>
-    </div>
+    {body && (
+      <div class="post-body body whitespace-pre-line">
+        {body}
+      </div>
+    )}
+
+    {pres_url && (
+      <div class="text-sm">
+        <a class="hover:text-primary transition ease-in duration-200 break-words" href={pres_url}>
+          {pres_url}
+        </a>
+      </div>
+    )}
   </div>
 </article>

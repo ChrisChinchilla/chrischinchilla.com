@@ -30,29 +30,26 @@ const meta = {
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
-    <ul>
+    <div class="space-y-0">
       {
         page.data.map((event) => (
-          <li class="">
-            <Event
-              title={event.data.title}
-              event={event.data.event}
-              body={event.body}
-              pres_url={event.data.pres_url}
-              pres_source={event.data.pres_source}
-              start_date={event.data.start_date}
-              venue={event.data.venue}
-            />
-          </li>
+          <Event
+            title={event.data.title}
+            event={event.data.event}
+            body={event.body}
+            pres_url={event.data.pres_url}
+            pres_source={event.data.pres_source}
+            start_date={event.data.start_date}
+            venue={event.data.venue}
+          />
         ))
       }
-    </ul>
-    <!-- TODO: Index page -->
+    </div>
     <Pagination
       firstPage={page.url.prev ? '/events' : null}
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
-      lastPage={page.url.next ? `/blog/${Math.round(page.total / page.size)}` : null}
+      lastPage={page.url.next ? `/events/${Math.round(page.total / page.size)}` : null}
       currentPage={page.currentPage}
       totalPages={Math.round(page.total / page.size)}
     />

@@ -2,21 +2,18 @@
 import ContentImage from '~/components/common/ContentImage.astro';
 import { type CollectionEntry, render } from 'astro:content';
 import { slugify } from '~/utils/slugify';
+import { formatShortDate } from '~/utils/utils';
 export interface Props {
   course: CollectionEntry<"av">;
 }
 
 const { course } = Astro.props;
 const { Content } = await render(course);
-// Format date
-// TODO: Method
-var rawDate = new Date(course.data.publish_date);
-var formattedDate = rawDate.toLocaleString('en-GB', {
-  dateStyle: 'short',
-  timeZone: 'UTC',
-});
+
 
 var idOfTitle = slugify(course.data.title);
+const formattedDate = formatShortDate(course.data.publish_date);
+const idOfTitle = slugify(course.data.title);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${course.data.image ? 'md:grid-cols-2' : ''}`}>

@@ -3,6 +3,7 @@ import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
 import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg';
 import { slugify } from '~/utils/slugify';
+import { formatShortDate } from '~/utils/utils';
 
 export interface Props {
   newsletter: CollectionEntry<'newsletters'>;
@@ -12,15 +13,8 @@ const { newsletter } = Astro.props;
 // const featured_image = await findImage(newsletter.data.image);
 // TODO: Why is slug broken again?
 
-// Format date
-// TODO: Method
-var rawDate = new Date(newsletter.data.date);
-var formattedDate = rawDate.toLocaleString('en-GB', {
-  dateStyle: 'short',
-  timeZone: 'UTC',
-});
-
-var idOfTitle = slugify(newsletter.data.title);
+const formattedDate = formatShortDate(newsletter.data.date);
+const idOfTitle = slugify(newsletter.data.title);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${newsletter.data.image ? 'md:grid-cols-2' : ''}`}>

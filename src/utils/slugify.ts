@@ -1,5 +1,4 @@
 // Format title for ID
-// TODO: Method or better way
 // Slugify a string
 export function slugify(str)
 {
