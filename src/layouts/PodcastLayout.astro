@@ -4,7 +4,7 @@ import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
-import { Image } from 'astro:assets';
+import ContentImage from '~/components/common/ContentImage.astro';
 import { type CollectionEntry } from 'astro:content';
 import truncateMarkdown from 'markdown-truncate';
 import { MetaSEO } from '~/types';
@@ -54,14 +54,17 @@ const breadcrumbItems = [
       >
         <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
           <div class="relative h-0 pb-[75%] md:pb-[100%] lg:pb-[75%] overflow-hidden rounded drop-shadow-lg">
-            <!-- TODO: These images might be quite heavy -->
-            <!-- TODO: Should also have w-full h-full  -->
-            <Image
+            <ContentImage
               src={podcast.image ? podcast.image.att_href : '../../assets/images/default.png'}
               alt={episodeTitle}
+              type="podcast"
+              width={420}
+              height={420}
+              quality={80}
+              format="webp"
+              loading="eager"
+              decoding="async"
               class="absolute object-contain h-full rounded drop-shadow-lg"
-              width="420"
-              height="420"
             />
           </div>
 
