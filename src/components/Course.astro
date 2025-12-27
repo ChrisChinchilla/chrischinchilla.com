@@ -1,7 +1,6 @@
 ---
 import ContentImage from '~/components/common/ContentImage.astro';
-import { type CollectionEntry } from 'astro:content';
-import Markdown from '@astrojs/markdown-component';
+import { type CollectionEntry, render } from 'astro:content';
 import { slugify } from '~/utils/slugify';
 import { formatShortDate } from '~/utils/utils';
 export interface Props {
@@ -9,6 +8,10 @@ export interface Props {
 }
 
 const { course } = Astro.props;
+const { Content } = await render(course);
+
+
+var idOfTitle = slugify(course.data.title);
 const formattedDate = formatShortDate(course.data.publish_date);
 const idOfTitle = slugify(course.data.title);
 ---
@@ -32,9 +35,9 @@ const idOfTitle = slugify(course.data.title);
         </h2>
         <i class="my-2 block">{course.data.client}, {formattedDate}</i>
       </header>
-      <!-- TODO: Better way -->
-      <!-- TODO: Deprecated, need an alternative -->
-      <Markdown class="m-2" />{course.body}
+      <div class="m-2">
+        <Content />
+      </div>
       {
         course.data.store_urls && (
         
