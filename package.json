@@ -19,7 +19,6 @@
     "check": "astro check"
   },
   "dependencies": {
-    "@astrojs/markdown-component": "1.0.5",
     "@astrojs/react": "^4.4.2",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -33,7 +32,6 @@
   "devDependencies": {
     "@astro-community/astro-embed-youtube": "^0.5.7",
     "@astrojs/check": "^0.9.5",
-    "@astrojs/markdown-component": "1.0.5",
     "@astrojs/mdx": "^4.3.10",
     "@astrojs/partytown": "^2.1.4",
     "@astrojs/rss": "^4.0.13",

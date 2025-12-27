@@ -16,7 +16,7 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 ---
 
-<MarkdownPostLayout frontmatter={entry.data}>
+<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Books', href: '/books' }}>
   <ContentImage
     src={entry.data.image}
     alt={entry.data.title}

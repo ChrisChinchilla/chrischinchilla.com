@@ -3,6 +3,7 @@ import Layout from '~/layouts/BaseLayout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
+import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import { Image } from 'astro:assets';
 import { type CollectionEntry } from 'astro:content';
 import truncateMarkdown from 'markdown-truncate';
@@ -25,30 +26,6 @@ const meta: MetaSEO = {
   description: truncateMarkdown(podcast.description, { limit: 400, ellipsis: true })
 };
 
-function slugify(str) {
-  str = str.replace(/^\s+|\s+$/g, '');
-
-  // Make the string lowercase
-  str = str.toLowerCase();
-
-  // Remove accents, swap ñ for n, etc
-  var from = 'ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;';
-  var to = 'AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------';
-  for (var i = 0, l = from.length; i < l; i++) {
-    str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
-  }
-
-  // Remove invalid chars
-  str = str
-    .replace(/[^a-z0-9 -]/g, '')
-    // Collapse whitespace and replace by -
-    .replace(/\s+/g, '-')
-    // Collapse dashes
-    .replace(/-+/g, '-');
-
-  return str;
-}
-
 // TODO: For some reason CS podcast has duplicate titles?
 let episodeTitle = '';
 if (podcast.title.length === 2) {
@@ -56,6 +33,13 @@ if (podcast.title.length === 2) {
 } else {
   episodeTitle = podcast.title;
 }
+
+// Generate breadcrumb items
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  { label: 'Podcast', href: '/podcast' },
+  { label: episodeTitle },
+];
 ---
 
 <Layout {meta}>
@@ -63,18 +47,19 @@ if (podcast.title.length === 2) {
   <Header />
   <main>
     <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
+      <Breadcrumb items={breadcrumbItems} />
       <h1 class="font-bold font-heading text-3xl md:text-4xl leading-tighter tracking-tighter">{episodeTitle}</h1>
       <div
         class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
       >
         <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
-          <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hiddenrounded drop-shadow-lg">
+          <div class="relative h-0 pb-[75%] md:pb-[100%] lg:pb-[75%] overflow-hidden rounded drop-shadow-lg">
             <!-- TODO: These images might be quite heavy -->
             <!-- TODO: Should also have w-full h-full  -->
             <Image
               src={podcast.image ? podcast.image.att_href : '../../assets/images/default.png'}
               alt={episodeTitle}
-              class="object-cover mb-6 rounded drop-shadow-lg"
+              class="absolute object-contain h-full rounded drop-shadow-lg"
               width="420"
               height="420"
             />
@@ -83,7 +68,7 @@ if (podcast.title.length === 2) {
           <div class="mt-2">
             <!-- TODO: Improve this -->
             <div class="my-2" set:html={truncateMarkdown(podcast.description, { limit: 2000, ellipsis: true })} />
-            <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading dark:text-slate-300">Listen and download</h2>
+            <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading">Listen and download</h2>
             {podcastID ?
             <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src=`https://player.simplecast.com/${podcastID}`></iframe>
             : <audio controls src={podcast.enclosure.att_url} preload="none"></audio>

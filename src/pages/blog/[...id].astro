@@ -31,7 +31,7 @@ const structuredData = {
 };
 ---
 
-<MarkdownPostLayout frontmatter={entry.data}>
+<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Blog', href: '/blog' }}>
   <StructuredData slot="head" type="BlogPosting" data={structuredData} />
   <OptimizedImage 
     src={entry.data.image ? entry.data.image : defaultPostImage}

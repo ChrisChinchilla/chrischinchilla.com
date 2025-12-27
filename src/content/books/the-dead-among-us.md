@@ -4,6 +4,8 @@ publisher: Self-published
 role: Author
 publish_date: 2024-12-19
 image: books/the-dead-among-us.png
+heroimage: books/the-dead-among-us.png
+herotext: 'A post-post-apocalyptic Thriller love story exploring understanding between the living and the previously dead.'
 store_urls:
   - label: eBook - Direct from me (pay what you feel)
     url: https://ko-fi.com/s/0a76b75a05
