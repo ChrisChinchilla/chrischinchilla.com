@@ -8,15 +8,10 @@ export interface Props {
 }
 
 const { course } = Astro.props;
-// Format date
-// TODO: Method
-var rawDate = new Date(course.data.publish_date);
-var formattedDate = rawDate.toLocaleString('en-GB', {
-  dateStyle: 'short',
-  timeZone: 'UTC',
-});
+const { Content } = await render(course);
 
-var idOfTitle = slugify(course.data.title);
+const formattedDate = formatShortDate(course.data.publish_date);
+const idOfTitle = slugify(course.data.title);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${course.data.image ? 'md:grid-cols-2' : ''}`}>
