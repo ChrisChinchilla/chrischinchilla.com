@@ -1,0 +1,44 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import { Pagination } from 'accessible-astro-components';
+import Headline from '~/components/blog/Headline.astro';
+import { BLOG } from '~/config.mjs';
+import Story from '~/components/Story.astro';
+
+import { getCollection } from 'astro:content';
+export async function getStaticPaths({ paginate }) {
+  let allStories = await getCollection('stories');
+  allStories = allStories.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
+
+  return paginate(allStories, {
+    pageSize: BLOG.postsPerPage,
+  });
+}
+
+const { page } = Astro.props;
+
+const meta = {
+  title: 'Stories',
+  description:
+    'My creative writing stories, fiction, and narrative works.',
+};
+---
+
+<Layout {meta}>
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {page.data.map((story) => <Story story={story} />)}
+    </div>
+    <Pagination
+      firstPage={page.url.prev ? '/stories' : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next ? `/stories/${Math.ceil(page.total / page.size)}` : null}
+      currentPage={page.currentPage}
+      totalPages={Math.ceil(page.total / page.size)}
+    />
+  </section>
+</Layout>

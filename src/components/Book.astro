@@ -2,6 +2,7 @@
 import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
 import { slugify } from '~/utils/slugify';
+import { formatShortDate } from '~/utils/utils';
 import { render } from 'astro:content';
 export interface Props {
   book: CollectionEntry<"books">;
@@ -11,15 +12,8 @@ const { Content } = await render(book);
 // const featured_image = await findImage(book.data.image);
 // TODO: Why is slug broken again?
 
-// Format date
-// TODO: Method
-var rawDate = new Date(book.data.publish_date);
-var formattedDate = rawDate.toLocaleString('en-GB', {
-  dateStyle: 'short',
-  timeZone: 'UTC',
-});
-
-var idOfTitle = slugify(book.data.title);
+const formattedDate = formatShortDate(book.data.publish_date);
+const idOfTitle = slugify(book.data.title);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${book.data.image ? 'md:grid-cols-2' : ''}`}>
@@ -36,9 +30,9 @@ var idOfTitle = slugify(book.data.title);
 
   <div class="mt-2">
     <header>
-      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading dark:text-slate-300" id={idOfTitle}>
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading" id={idOfTitle}>
         <a
-              class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
+              class="hover:text-primary transition ease-in duration-200"
               href=`${book.id}`
               rel="canonical"
             >

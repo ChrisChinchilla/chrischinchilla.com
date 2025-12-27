@@ -3,6 +3,7 @@ import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
 import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg';
 import { slugify } from '~/utils/slugify';
+import { formatShortDate } from '~/utils/utils';
 
 export interface Props {
   newsletter: CollectionEntry<'newsletters'>;
@@ -12,15 +13,8 @@ const { newsletter } = Astro.props;
 // const featured_image = await findImage(newsletter.data.image);
 // TODO: Why is slug broken again?
 
-// Format date
-// TODO: Method
-var rawDate = new Date(newsletter.data.date);
-var formattedDate = rawDate.toLocaleString('en-GB', {
-  dateStyle: 'short',
-  timeZone: 'UTC',
-});
-
-var idOfTitle = slugify(newsletter.data.title);
+const formattedDate = formatShortDate(newsletter.data.date);
+const idOfTitle = slugify(newsletter.data.title);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${newsletter.data.image ? 'md:grid-cols-2' : ''}`}>
@@ -35,11 +29,11 @@ var idOfTitle = slugify(newsletter.data.title);
   <div>
     <header>
       <h2
-        class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading dark:text-slate-300"
+        class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading"
         id={idOfTitle}
       >
         <a
-          class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
+          class="hover:text-primary transition ease-in duration-200"
           href=`newsletter/${newsletter.id}`
           rel="canonical"
         >
@@ -48,7 +42,7 @@ var idOfTitle = slugify(newsletter.data.title);
       </h2>
       <i>{formattedDate}</i>
     </header>
-    <div class="post-body body">
+    <div class="post-body body whitespace-pre-line">
       {newsletter.data.summary}
     </div>
   </div>

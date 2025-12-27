@@ -1,0 +1,62 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import { Pagination } from 'accessible-astro-components';
+import Video from '~/components/Video.astro';
+import Headline from '~/components/blog/Headline.astro';
+import { VIDEO } from '~/config.mjs';
+
+export async function getStaticPaths({ paginate }) {
+  const playlistId = 'PL1fnzsSshABw25W5Qscxw_gQII_MlCoOS';
+  const apiKey = import.meta.env.GOOGLE_API;
+  let allVideos = [];
+  let nextPageToken = null;
+
+  // Fetch all videos from YouTube playlist with pagination
+  do {
+    const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}${
+      nextPageToken ? `&pageToken=${nextPageToken}` : ''
+    }`;
+
+    const response = await fetch(url);
+    const data = await response.json();
+
+    if (data.items) {
+      allVideos = allVideos.concat(data.items);
+    }
+
+    nextPageToken = data.nextPageToken || null;
+  } while (nextPageToken);
+
+  return paginate(allVideos, {
+    pageSize: VIDEO.postsPerPage,
+  });
+}
+
+const { page } = Astro.props;
+
+const meta = {
+  title: 'Videos',
+  description: 'I have several regular livestreams and produce an edited video roughly once a month.',
+};
+---
+
+<Layout {meta}>
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {page.data.map((video) => <Video video={video} />)}
+    </div>
+    <Pagination
+      firstPage={page.url.prev ? '/videos' : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next
+        ? `/videos/${Math.ceil(page.total / page.size)}`
+        : null}
+      currentPage={page.currentPage}
+      totalPages={Math.ceil(page.total / page.size)}
+    />
+  </section>
+</Layout>

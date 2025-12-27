@@ -7,16 +7,21 @@ import SupportBlock from '~/components/SupportBlock.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import { MetaSEO } from '~/types';
 
-export interface Props {}
+export interface Props {
+  section?: {
+    label: string;
+    href: string;
+  };
+}
 
-const { frontmatter } = Astro.props;
+const { frontmatter, section } = Astro.props;
 
-// Generate breadcrumb items
-const breadcrumbItems = [
+// Generate breadcrumb items with dynamic section (only for content types)
+const breadcrumbItems = section ? [
   { label: 'Home', href: '/' },
-  { label: 'Blog', href: '/blog' },
+  { label: section.label, href: section.href },
   { label: frontmatter.title },
-];
+] : null;
 const meta: MetaSEO = {
   title: frontmatter?.title,
   description: frontmatter?.summary || frontmatter?.description || frontmatter?.title,
@@ -41,7 +46,7 @@ const meta: MetaSEO = {
 
   <main>
     <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
-      <Breadcrumb items={breadcrumbItems} />
+      {section && breadcrumbItems && <Breadcrumb items={breadcrumbItems} />}
       <h1 class="font-bold font-heading text-2xl sm:text-3xl md:text-4xl leading-tight md:leading-tighter tracking-normal md:tracking-tighter">{frontmatter.title}</h1>
       {frontmatter.publishDate && (
         <p class="text-gray-600 dark:text-gray-400 mt-2">

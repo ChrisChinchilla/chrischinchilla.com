@@ -1,36 +1,36 @@
 ---
-import { Image } from 'astro:assets';
 import ContentImage from '~/components/common/ContentImage.astro';
 import Tags from '~/components/common/Tags.astro';
-import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
+import defaultStoryImage from '../assets/images/defaults/blog-chinchilla.jpg'
 import { formatShortDate } from '~/utils/utils';
 
 import type { CollectionEntry } from 'astro:content';
 interface Props {
-  post: CollectionEntry<'posts'>;
+  story: CollectionEntry<'stories'>;
 }
 
-const { post } = Astro.props;
-// const { Content } = await post.render();
-// const featured_image = await findImage(post.data.image);
+const { story } = Astro.props;
 
-const formattedDate = formatShortDate(post.data.publishDate);
+const formattedDate = formatShortDate(story.data.date);
 
-// What sort of URL
+// What sort of URL - external publication or internal story
 var url = '';
-if (post.data.publication_url != null) {
-  url = post.data.publication_url;
+if (story.data.publication_url != null) {
+  url = story.data.publication_url;
 } else {
-  url = '/blog/' + post.id;
+  url = '/stories/' + story.id;
 }
+
+// Display title - use publication title if available, otherwise story title
+var displayTitle = story.data.publication_title || story.data.title;
 ---
 
 <article class="mb-6 transition px-4">
   <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
     <ContentImage
-      src={post.data.image}
-      alt={post.data.title}
-      type="post"
+      src={story.data.image}
+      alt={story.data.title}
+      type="story"
       class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
     />
   </div>
@@ -45,23 +45,28 @@ if (post.data.publication_url != null) {
               href={url}
               rel="canonical"
             >
-              {post.data.title}
+              {displayTitle}
             </a>
           ) : (
-            post.data.title
+            displayTitle
           )
         }
       </h2>
       <i class="my-2 block">{formattedDate}</i>
+      {story.data.publication_title && (
+        <p class="text-sm text-muted mb-2">
+          Originally published as "{story.data.publication_title}"
+        </p>
+      )}
     </header>
     <div class="post-body body whitespace-pre-line">
-      {post.data.summary}
+      {story.data.summary}
     </div>
   </div>
   {
-    post.data.tags && Array.isArray(post.data.tags) ? (
+    story.data.tags && Array.isArray(story.data.tags) ? (
       <footer class="mt-2">
-        <Tags tags={post.data.tags} />
+        <Tags tags={story.data.tags} />
       </footer>
     ) : (
       <Fragment />
