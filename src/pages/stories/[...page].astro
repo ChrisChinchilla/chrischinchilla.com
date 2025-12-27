@@ -36,9 +36,9 @@ const meta = {
       firstPage={page.url.prev ? '/stories' : null}
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
-      lastPage={page.url.next ? `/stories/${Math.round(page.total / page.size)}` : null}
+      lastPage={page.url.next ? `/stories/${Math.ceil(page.total / page.size)}` : null}
       currentPage={page.currentPage}
-      totalPages={Math.round(page.total / page.size)}
+      totalPages={Math.ceil(page.total / page.size)}
     />
   </section>
 </Layout>

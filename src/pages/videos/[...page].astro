@@ -53,10 +53,10 @@ const meta = {
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
       lastPage={page.url.next
-        ? `/videos/${Math.round(page.total / page.size)}`
+        ? `/videos/${Math.ceil(page.total / page.size)}`
         : null}
       currentPage={page.currentPage}
-      totalPages={Math.round(page.total / page.size)}
+      totalPages={Math.ceil(page.total / page.size)}
     />
   </section>
 </Layout>
