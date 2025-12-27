@@ -2,6 +2,7 @@
 import ContentImage from '~/components/common/ContentImage.astro';
 import Tags from '~/components/common/Tags.astro';
 import defaultStoryImage from '../assets/images/defaults/blog-chinchilla.jpg'
+import { formatShortDate } from '~/utils/utils';
 
 import type { CollectionEntry } from 'astro:content';
 interface Props {
@@ -10,12 +11,7 @@ interface Props {
 
 const { story } = Astro.props;
 
-// Format date
-var rawDate = new Date(story.data.date);
-var formattedDate = rawDate.toLocaleString('en-GB', {
-  dateStyle: 'short',
-  timeZone: 'UTC',
-});
+const formattedDate = formatShortDate(story.data.date);
 
 // What sort of URL - external publication or internal story
 var url = '';

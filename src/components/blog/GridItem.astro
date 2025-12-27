@@ -5,6 +5,7 @@ import { BLOG } from '~/config.mjs';
 import type { Post } from '~/types';
 import defaultPostImage from '/src/assets/images/defaults/blog-chinchilla.jpg';
 import Tags from '~/components/common/Tags.astro';
+import { formatShortDate } from '~/utils/utils';
 
 import { getPermalink } from '~/utils/permalinks';
 import { Debug } from 'astro:components';
@@ -24,13 +25,7 @@ if (post.publication_url != null) {
   url = `blog${getPermalink(post.id, 'post')}`.replace('.md', '');
 }
 
-// Format date
-// TODO: Method
-var rawDate = new Date(post.publishDate);
-var formattedDate = rawDate.toLocaleString('en-GB', {
-  dateStyle: 'short',
-  timeZone: 'UTC',
-});
+const formattedDate = formatShortDate(post.publishDate);
 
 ---
 <Debug {post} />

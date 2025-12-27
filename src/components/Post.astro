@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import ContentImage from '~/components/common/ContentImage.astro';
 import Tags from '~/components/common/Tags.astro';
 import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
+import { formatShortDate } from '~/utils/utils';
 
 import type { CollectionEntry } from 'astro:content';
 interface Props {
@@ -13,13 +14,7 @@ const { post } = Astro.props;
 // const { Content } = await post.render();
 // const featured_image = await findImage(post.data.image);
 
-// Format date
-// TODO: Method
-var rawDate = new Date(post.data.publishDate);
-var formattedDate = rawDate.toLocaleString('en-GB', {
-  dateStyle: 'short',
-  timeZone: 'UTC',
-});
+const formattedDate = formatShortDate(post.data.publishDate);
 
 // What sort of URL
 var url = '';
