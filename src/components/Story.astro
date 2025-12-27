@@ -1,0 +1,79 @@
+---
+import ContentImage from '~/components/common/ContentImage.astro';
+import Tags from '~/components/common/Tags.astro';
+import defaultStoryImage from '../assets/images/defaults/blog-chinchilla.jpg'
+
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  story: CollectionEntry<'stories'>;
+}
+
+const { story } = Astro.props;
+
+// Format date
+var rawDate = new Date(story.data.date);
+var formattedDate = rawDate.toLocaleString('en-GB', {
+  dateStyle: 'short',
+  timeZone: 'UTC',
+});
+
+// What sort of URL - external publication or internal story
+var url = '';
+if (story.data.publication_url != null) {
+  url = story.data.publication_url;
+} else {
+  url = '/stories/' + story.id;
+}
+
+// Display title - use publication title if available, otherwise story title
+var displayTitle = story.data.publication_title || story.data.title;
+---
+
+<article class="mb-6 transition px-4">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+    <ContentImage
+      src={story.data.image}
+      alt={story.data.title}
+      type="story"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+    />
+  </div>
+
+  <div>
+    <header>
+      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">
+        {
+          url ? (
+            <a
+              class="hover:text-primary transition ease-in duration-200"
+              href={url}
+              rel="canonical"
+            >
+              {displayTitle}
+            </a>
+          ) : (
+            displayTitle
+          )
+        }
+      </h2>
+      <i class="my-2 block">{formattedDate}</i>
+      {story.data.publication_title && (
+        <p class="text-sm text-muted mb-2">
+          Originally published as "{story.data.publication_title}"
+        </p>
+      )}
+    </header>
+    <div class="post-body body">
+      {story.data.summary}
+    </div>
+  </div>
+  {
+    story.data.tags && Array.isArray(story.data.tags) ? (
+      <footer class="mt-2">
+        <Tags tags={story.data.tags} />
+      </footer>
+    ) : (
+      <Fragment />
+    )
+  }
+</article>

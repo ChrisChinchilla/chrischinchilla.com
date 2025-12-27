@@ -41,7 +41,7 @@ interface HeroItem {
   herotext: string;
   heroimage: any;
   title: string;
-  type: 'post' | 'book' | 'event' | 'podcast' | 'newsletter';
+  type: 'post' | 'book' | 'event' | 'podcast' | 'newsletter' | 'story';
   date: Date | null;
 }
 
@@ -51,6 +51,7 @@ const allBooks = await getCollection('books');
 const allEvents = await getCollection('events');
 const allPodcasts = await getCollection('podcasts');
 const allNewsletters = await getCollection('newsletters');
+const allStories = await getCollection('stories');
 
 // Helper function to map content to hero items
 // Constructs the full slug URL using the content entry's id or publication_url
@@ -82,6 +83,7 @@ const heroItems: HeroItem[] = await Promise.all(
     ...allEvents.map(event => mapToHeroItem(event, 'event', 'events', 'start_date')),
     ...allPodcasts.map(podcast => mapToHeroItem(podcast, 'podcast', 'podcast', null)),
     ...allNewsletters.map(newsletter => mapToHeroItem(newsletter, 'newsletter', 'newsletter', 'date')),
+    ...allStories.map(story => mapToHeroItem(story, 'story', 'stories', 'date')),
   ].filter((item): item is HeroItem => item !== null)
 ).then(items =>
   Promise.all(

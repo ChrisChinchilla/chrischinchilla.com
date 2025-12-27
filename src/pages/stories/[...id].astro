@@ -1,0 +1,45 @@
+---
+import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import OptimizedImage from '~/components/common/OptimizedImage.astro';
+import { getCollection, render } from 'astro:content';
+import defaultStoryImage from '/src/assets/images/defaults/blog-chinchilla.jpg'
+import { getCanonical } from '~/utils/permalinks';
+
+export async function getStaticPaths() {
+  const storyEntries = await getCollection('stories');
+  return storyEntries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+// Prepare structured data
+const structuredData = {
+  title: entry.data.title,
+  description: entry.data.summary,
+  publishDate: entry.data.date,
+  image: entry.data.image,
+  canonical: entry.data.publication_url || getCanonical(`/stories/${entry.id}`),
+  tags: entry.data.tags,
+};
+---
+
+<MarkdownPostLayout frontmatter={entry.data}>
+  <StructuredData slot="head" type="Article" data={structuredData} />
+  <OptimizedImage
+    src={entry.data.image ? entry.data.image : defaultStoryImage}
+    alt={entry.data.title}
+    title={entry.data.title}
+    class="object-cover w-full h-full mb-6 rounded drop-shadow-lg"
+    format="webp"
+    quality={85}
+    fetchpriority="high"
+    loading="eager"
+    inferSize={true}
+  />
+  <Content />
+</MarkdownPostLayout>

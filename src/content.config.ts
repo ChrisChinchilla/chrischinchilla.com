@@ -180,12 +180,34 @@ const newsletters = defineCollection({
       summary: z.string().optional(),
       // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
       image: z.union([z.string(), image()]).optional(),
-  
+
       publication_url: z.string().url().optional(),
 
       // Hero carousel properties
       herotext: z.string().optional(),
       // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
+    }),
+});
+
+const stories = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/stories' }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      summary: z.string().optional(),
+      date: z.date().or(z.string()),
+      tags: z.array(z.string()).optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "stories/image.jpg")
+      image: z.union([z.string(), image()]).optional(),
+
+      // Published story details (if published elsewhere)
+      publication_url: z.string().url().optional(),
+      publication_title: z.string().optional(),
+
+      // Hero carousel properties
+      herotext: z.string().optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "stories/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
@@ -199,5 +221,6 @@ export const collections = {
   av: av,
   podcasts: podcasts,
   newsletters: newsletters,
+  stories: stories,
   supportLinks: supportLinks,
 };
