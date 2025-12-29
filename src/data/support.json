@@ -58,6 +58,15 @@
     "description": "Summarize YouTube videos, PDFs, articles, lectures, audios, PPTs, and images. Instantly create notes, mind maps, and presentations. Boost your learning efficiency by 10x.",
     "affiliate_link": "https://go.chrischinchilla.com/notegpt"
   },
+    {
+    "slug": "flexclip",
+    "cta": "Try FlexClip",
+    "title": "Your journey to stunning videos starts here",
+    "section": "affiliate",
+    "image": "/src/assets/images/affiliate/flexclip.png",
+    "description": "FlexClip is a simple yet powerful video maker and editor for everyone that helps users easily create compelling video content for personal or business purposes without any learning curve.",
+    "affiliate_link": "https://go.chrischinchilla.com/flexclip"
+  },
   {
     "slug": "descript",
     "title": "Text based video and audio editing",
