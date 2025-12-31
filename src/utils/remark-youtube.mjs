@@ -23,7 +23,7 @@ export function remarkYouTube() {
   return (tree) => {
     visit(tree, 'html', (node) => {
       // Check if this HTML node contains a YouTube comment
-      const match = node.value.match(/^<!--\s*youtube:([a-zA-Z0-9_-]+)\s*-->$/);
+      const match = node.value.match(/^<!--\s*youtube:([a-zA-Z0-9_-]{11})\s*-->$/);
 
       if (match) {
         const videoId = match[1];
