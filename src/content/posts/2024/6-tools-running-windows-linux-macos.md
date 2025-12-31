@@ -15,15 +15,10 @@ summary: >-
   supports a reasonable variety of guest operating systems, and, with some
   tweaks, can also run headless developer machines and Kubernetes clusters.
 ---
-import { YouTube } from '@astro-community/astro-embed-youtube';
 
 I've been happily using [Parallels Desktop][1] for my Windows and Linux virtual machine needs for about the past three years. It's performant, supports a reasonable variety of guest operating systems, and, with some tweaks, can also run headless developer machines and Kubernetes clusters.
 
 However, times are financially lean, so every time I see that recurring fee approaching, I wonder if there are any alternatives. With [VMware making Fusion Pro free for personal use in May][2], it seemed a good time to survey the desktop emulation landscape.
-
-## Video version
-
-<YouTube id="RsnSfp5JTKg" />
 
 ## Emulation, virtualisation, compatibility layers…
 
@@ -38,6 +33,8 @@ Before I begin, I want to clarify some of the terminology the tools I cover use 
 Those are the main groupings and terms you're likely to hear, but there are a few other smaller tools and terms you might see or hear that are somewhat connected, such as Apple's game porting kit. It is designed for developers to port Windows code to macOS, but you can also use it to run games directly and evaluate performance.
 
 OK then, with that out the way, let's get started.!
+
+<!-- youtube:RsnSfp5JTKg -->
 
 ## What I'm looking for
 

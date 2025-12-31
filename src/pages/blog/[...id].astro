@@ -6,6 +6,7 @@ import OptimizedImage from '~/components/common/OptimizedImage.astro';
 import { getCollection, render } from 'astro:content';
 import defaultPostImage from '/src/assets/images/defaults/blog-chinchilla.jpg'
 import { getCanonical } from '~/utils/permalinks';
+import { YouTube } from '@astro-community/astro-embed-youtube';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('posts');
@@ -33,7 +34,7 @@ const structuredData = {
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Blog', href: '/blog' }}>
   <StructuredData slot="head" type="BlogPosting" data={structuredData} />
-  <OptimizedImage 
+  <OptimizedImage
     src={entry.data.image ? entry.data.image : defaultPostImage}
     alt={entry.data.imageAlt || entry.data.title}
     title={entry.data.title}
@@ -44,6 +45,19 @@ const structuredData = {
     loading="eager"
     inferSize={true}
   />
+  {entry.data.youtube && (
+    <div class="mb-8">
+      {typeof entry.data.youtube === 'string' ? (
+        <YouTube id={entry.data.youtube} />
+      ) : (
+        <div class="space-y-4">
+          {entry.data.youtube.map((id: string) => (
+            <YouTube id={id} />
+          ))}
+        </div>
+      )}
+    </div>
+  )}
   <Content />
   <RelatedPosts 
     currentPostId={entry.id} 
