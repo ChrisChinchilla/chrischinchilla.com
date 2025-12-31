@@ -46,12 +46,6 @@ const posts = defineCollection({
       herotext: z.string().optional(),
       // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
-
-      // YouTube videos - supports single ID or array of IDs
-      youtube: z.union([
-        z.string(),
-        z.array(z.string())
-      ]).optional(),
     }),
 });
 
