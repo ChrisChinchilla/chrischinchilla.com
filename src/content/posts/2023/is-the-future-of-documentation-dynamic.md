@@ -16,8 +16,6 @@ summary: >-
   that era back on the streets and…
 ---
 
-import { YouTube } from '@astro-community/astro-embed-youtube';
-
 What do American Online, the Apple Newton, DVDs, Tamagochis, MP3, PDF, and Sony Discmans all share in common? They were all products born in (and some dying in) the 1990s. An era I remember vaguely well as I spent most of my mid to late teenage years in it. And now I see the fashions and band T-shirts from that era back on the streets and…
 
 Where was I? Ah, yes, so what else was born in the 1990s?
@@ -38,9 +36,7 @@ What has changed is how we can create those pages. Most web pages are a combinat
 
 OK, end of the potted history lesson. My question to those of us who produce documentation is the following. With all of these wonderful developments in web technologies over the past 30 years, why do we mostly insist on having such static walls of text?
 
-## Video version
-
-<YouTube id="9PMu3i4-RFk" />
+<!-- youtube:9PMu3i4-RFk -->
 
 ## Disclaimer
 
@@ -180,7 +176,7 @@ Interactive playgrounds. These are not new concepts and have existed as effectiv
 
 ## Docs everywhere
 
-So far, I’ve only talked about the impact on actual docs. What about outside of docs?
+So far, I've only talked about the impact on actual docs. What about outside of docs?
 
 Whilst not restricted to the platforms I cover, they open new possibilities and make some older ones easier.
 

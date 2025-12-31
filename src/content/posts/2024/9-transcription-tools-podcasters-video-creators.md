@@ -18,7 +18,6 @@ summary: >-
   backlog of podcasts. And that aside, accompanying transcriptions of shows are
   good for SEO and accessibility.
 ---
-import { YouTube } from "@astro-community/astro-embed-youtube";
 
 I create a lot of content with audio. Interviews that become final podcasts, final podcasts, videos, and more. In almost all cases, a transcript of that audio is useful. Often, I use it to create a blog post based on that audio, and I am also in the process of creating interactive transcripts for my backlog of podcasts. And that aside, accompanying transcriptions of shows are good for SEO and accessibility.
 
@@ -28,9 +27,7 @@ On top of this, I have a lot of older shows. How can I automate the backlog of t
 
 With several hours of old shows to transcribe and a growing backlog of episodes to release, I thought it was time to test the several potential services piled up in my "to check out pile".
 
-## Video version
-
-<YouTube id="a0_vvVxlivQ" />
+<!-- youtube:a0_vvVxlivQ -->
 
 ## Sample recording
 
