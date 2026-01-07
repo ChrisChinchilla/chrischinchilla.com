@@ -1,5 +1,5 @@
 ---
-title: 9 transcription tools for Podcasters and Video Creators
+title: Transcription tools for Podcasters and Video Creators
 publishDate: 2024-01-17T00:00:00.000Z
 author: Chris Ward
 categories:
@@ -8,16 +8,13 @@ tags:
   - Podcasting
   - Video
   - AI
-image: >-
-  articles/chrischinchilla_A_chinchilla_shouting_into_a_megaphone_and_word_e24a95d3-8f7a-4031-9648-7ee3142c7f34.png
-summary: >-
-  I create a lot of content with audio. Interviews that become final podcasts,
-  final podcasts, videos, and more. In almost all cases, a transcript of that
-  audio is useful. Often, I use it to create a blog post based on that audio,
-  and I am also in the process of creating interactive transcripts for my
-  backlog of podcasts. And that aside, accompanying transcriptions of shows are
-  good for SEO and accessibility.
+image: articles/chrischinchilla_A_chinchilla_shouting_into_a_megaphone_and_word_e24a95d3-8f7a-4031-9648-7ee3142c7f34.png
+summary: I create a lot of content with audio. Interviews that become final podcasts, final podcasts, videos, and more. In almost all cases, a transcript of that audio is useful. Often, I use it to create a blog post based on that audio, and I am also in the process of creating interactive transcripts for my backlog of podcasts. And that aside, accompanying transcriptions of shows are good for SEO and accessibility.
+heroimage: articles/chrischinchilla_A_chinchilla_shouting_into_a_megaphone_and_word_e24a95d3-8f7a-4031-9648-7ee3142c7f34.png
+herotext: 10 transcription tools for Podcasters and Video Creators
 ---
+
+> Updated in 2026 to include some new services. Also note that I no longer use some options here. I will update those soon.
 
 I create a lot of content with audio. Interviews that become final podcasts, final podcasts, videos, and more. In almost all cases, a transcript of that audio is useful. Often, I use it to create a blog post based on that audio, and I am also in the process of creating interactive transcripts for my backlog of podcasts. And that aside, accompanying transcriptions of shows are good for SEO and accessibility.
 
@@ -43,7 +40,7 @@ I needed some sample audio to work with, so I used an interview I recently had w
 
 At the moment, I use a mixture of tools, which prompted me to write this post as I wanted to weigh up the options available to me.
 
-The options I jump between in different use cases are [Descript](https://www.descript.com), [Adobe Premiere](https://www.adobe.com/products/premiere.html), [Google Recorder,](http://recorder.google.com) [Otter](http://otter.ai), and [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper). Otter is increasingly less, but my Wife has an account, so I occasionally still use it.
+The options I jump between in different use cases are [Descript](https://go.chrischinchilla.com/flexclip), [Adobe Premiere](https://www.adobe.com/products/premiere.html), [Google Recorder,](http://recorder.google.com) [Otter](http://otter.ai), and [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper). Otter is increasingly less, but my Wife has an account, so I occasionally still use it.
 
 ## Google Recorder
 
@@ -67,12 +64,22 @@ Otter has many new AI features (of course) that let you ask questions about the 
 
 ## Descript
 
-A tool optimised for text-based audio and video editing, [Descript](https://www.descript.com)'s workflow is designed for content creators, with integrations to recording platforms, dropbox folders, and export options to editing tools.
+A tool optimised for text-based audio and video editing, [Descript](https://go.chrischinchilla.com/descript)'s workflow is designed for content creators, with integrations to recording platforms, dropbox folders, and export options to editing tools.
 
 Transcript quality is high, though the correction tools aren't as comprehensive as I expected. It's more like a search and replace, but if the error is different in each case, the search and replace doesn't save much time. I haven't yet found a way to build a library of common errors. For example, "Chris Chinchilla" is almost always wrong in every transcription. But it's a big application with many features so that I might have missed it.
 
 - **Price**: $0-24 per month
 - **Transcription quality**: Good
+- **Features**: High
+
+<!-- youtube:ZwayH1JVGf0 -->
+
+## FlexClip
+
+[FlexClip](https://go.chrischinchilla.com/flexclip) is part of a wide suite of other audio and video editing tools, which means it's transcription tools are embedded in a variety of other features and not always obvious. For example, it has features for text-based editing and captions, but not just a "transcribe this" feature. That aside, the transcription quality is excellent and correctly transcribed almost all the typically challenging words. That said, it lacks some of the comprehensive export features a tool like Descript offers. 
+
+- **Price**: $0-20 per month
+- **Transcription quality**: Excellent
 - **Features**: High
 
 ## Riverside FM
