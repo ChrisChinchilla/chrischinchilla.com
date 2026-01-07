@@ -117,8 +117,6 @@ And then by using Shortcuts, you can manually trigger them with lots of other to
 
 Once you have Shortcuts running things, you can use it to trigger more actions related to your focus session. For example, apps like FocusFlight are currently popular, and several of them, FocusFlight included, support Shortcuts. In the example Shortcut below, when I enable the "Reduce interruptions" focus mode, it starts a journey in FocusFlight, starts a playlist and changes my lights. You could change the shortcut or create a paired one to toggle everything to a different state when the focus mode is disabled.
 
-![A screenshot of a shortcut](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/focus-shortcut-example.jpeg)
-
 ## Stay focussed
 
 Helping people stay focused is a big industry, one which often monetises selling you "easy solutions" to what is often fundamentally a case of "getting on with it". While [Raycast](https://go.chrischinchilla.com/raycast) has a paid tier, nothing in this article is part of it, and I hope it has shown you how to combine it with features in your operating system to make a setup that hopefully works for you. Let me know what you try.
