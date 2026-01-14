@@ -32,6 +32,7 @@ const links = await fetch(`https://api.raindrop.io/rest/v1/raindrops/45559645?so
 ---
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Newsletter', href: '/newsletter' }}>
+  <div slot="head" data-pagefind-filter="type">newsletter</div>
   <ContentImage
     src={entry.data.image}
     alt={entry.data.title}

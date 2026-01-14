@@ -1,0 +1,335 @@
+---
+import { Icon } from 'astro-icon/components';
+---
+
+<button
+  type="button"
+  class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+  aria-label="Search site content"
+  data-aw-toggle-search
+  id="search-trigger"
+>
+  <Icon name="tabler:search" class="w-5 h-5" />
+</button>
+
+<div id="search-modal" class="search-modal hidden" role="dialog" aria-modal="true" aria-labelledby="search-modal-title">
+  <div class="search-modal-overlay" data-search-close></div>
+  <div class="search-modal-content">
+    <div class="search-modal-header">
+      <h2 id="search-modal-title" class="sr-only">Search</h2>
+      <button
+        type="button"
+        class="search-modal-close"
+        aria-label="Close search"
+        data-search-close
+      >
+        <Icon name="tabler:x" class="w-5 h-5" />
+      </button>
+    </div>
+    <div id="pagefind-container"></div>
+  </div>
+</div>
+
+<style>
+  .search-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem 1rem;
+    overflow-y: auto;
+  }
+
+  .search-modal.hidden {
+    display: none;
+  }
+
+  .search-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+  }
+
+  .search-modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 48rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    margin-top: 4rem;
+  }
+
+  :global(.dark) .search-modal-content {
+    background-color: rgb(15 23 42);
+  }
+
+  .search-modal-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  :global(.dark) .search-modal-header {
+    border-bottom-color: rgb(51 65 85);
+  }
+
+  .search-modal-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    color: #6b7280;
+    transition: all 0.2s;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-modal-close:hover {
+    background-color: #f3f4f6;
+    color: #374151;
+  }
+
+  :global(.dark) .search-modal-close {
+    color: #9ca3af;
+  }
+
+  :global(.dark) .search-modal-close:hover {
+    background-color: rgb(51 65 85);
+    color: #d1d5db;
+  }
+
+  #pagefind-container {
+    padding: 0 1rem 1rem;
+  }
+
+  /* Pagefind UI customization */
+  :global(.pagefind-ui__search-input) {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    background-color: white;
+    color: #111827;
+  }
+
+  :global(.dark .pagefind-ui__search-input) {
+    background-color: rgb(30 41 59);
+    border-color: rgb(51 65 85);
+    color: #f1f5f9;
+  }
+
+  :global(.pagefind-ui__search-input:focus) {
+    outline: none;
+    border-color: #3b82f6;
+    ring: 2px;
+    ring-color: rgba(59, 130, 246, 0.5);
+  }
+
+  :global(.pagefind-ui__result) {
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    margin-top: 0.75rem;
+    transition: all 0.2s;
+  }
+
+  :global(.dark .pagefind-ui__result) {
+    border-color: rgb(51 65 85);
+  }
+
+  :global(.pagefind-ui__result:hover) {
+    background-color: #f9fafb;
+    border-color: #3b82f6;
+  }
+
+  :global(.dark .pagefind-ui__result:hover) {
+    background-color: rgb(30 41 59);
+  }
+
+  :global(.pagefind-ui__result-title) {
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #111827;
+    margin-bottom: 0.5rem;
+  }
+
+  :global(.dark .pagefind-ui__result-title) {
+    color: #f1f5f9;
+  }
+
+  :global(.pagefind-ui__result-excerpt) {
+    color: #6b7280;
+    line-height: 1.5;
+  }
+
+  :global(.dark .pagefind-ui__result-excerpt) {
+    color: #9ca3af;
+  }
+
+  :global(.pagefind-ui__result-link) {
+    text-decoration: none;
+  }
+
+  :global(.pagefind-ui__message) {
+    padding: 1rem;
+    text-align: center;
+    color: #6b7280;
+  }
+
+  :global(.dark .pagefind-ui__message) {
+    color: #9ca3af;
+  }
+
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .search-modal {
+      padding: 0;
+      align-items: flex-start;
+    }
+
+    .search-modal-content {
+      max-width: 100%;
+      margin-top: 0;
+      border-radius: 0;
+      min-height: 100vh;
+    }
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+</style>
+
+<script>
+  let pagefindLoaded = false;
+  let pagefindUI: any = null;
+
+  function openSearch() {
+    const modal = document.getElementById('search-modal');
+    if (!modal) return;
+
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+
+    // Load Pagefind UI on first open
+    if (!pagefindLoaded) {
+      loadPagefind();
+    } else {
+      // Focus the search input if already loaded
+      const searchInput = modal.querySelector('.pagefind-ui__search-input') as HTMLInputElement;
+      if (searchInput) {
+        setTimeout(() => searchInput.focus(), 100);
+      }
+    }
+  }
+
+  function closeSearch() {
+    const modal = document.getElementById('search-modal');
+    if (!modal) return;
+
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+
+    // Return focus to trigger button
+    const trigger = document.getElementById('search-trigger');
+    if (trigger) {
+      trigger.focus();
+    }
+  }
+
+  async function loadPagefind() {
+    try {
+      // Dynamically load Pagefind UI
+      const pagefindScript = document.createElement('script');
+      pagefindScript.src = '/pagefind/pagefind-ui.js';
+      pagefindScript.onload = () => {
+        // @ts-ignore
+        if (window.PagefindUI) {
+          const container = document.getElementById('pagefind-container');
+          if (container) {
+            // @ts-ignore
+            pagefindUI = new window.PagefindUI({
+              element: container,
+              showSubResults: true,
+              showImages: false,
+              excerptLength: 200,
+              resetStyles: false,
+            });
+
+            pagefindLoaded = true;
+
+            // Focus the search input after it's created
+            setTimeout(() => {
+              const searchInput = container.querySelector('.pagefind-ui__search-input') as HTMLInputElement;
+              if (searchInput) {
+                searchInput.focus();
+              }
+            }, 100);
+          }
+        }
+      };
+
+      // Load CSS
+      const pagefindCSS = document.createElement('link');
+      pagefindCSS.rel = 'stylesheet';
+      pagefindCSS.href = '/pagefind/pagefind-ui.css';
+
+      document.head.appendChild(pagefindCSS);
+      document.head.appendChild(pagefindScript);
+    } catch (error) {
+      console.error('Failed to load Pagefind:', error);
+    }
+  }
+
+  // Event listeners
+  document.addEventListener('DOMContentLoaded', () => {
+    const trigger = document.querySelector('[data-aw-toggle-search]');
+    const closeButtons = document.querySelectorAll('[data-search-close]');
+    const modal = document.getElementById('search-modal');
+
+    if (trigger) {
+      trigger.addEventListener('click', openSearch);
+    }
+
+    closeButtons.forEach(button => {
+      button.addEventListener('click', closeSearch);
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal && !modal.classList.contains('hidden')) {
+        closeSearch();
+      }
+    });
+
+    // Prevent clicks inside modal from closing it
+    modal?.querySelector('.search-modal-content')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+  });
+
+  // Export functions for keyboard shortcut
+  (window as any).openSearch = openSearch;
+</script>

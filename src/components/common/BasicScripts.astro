@@ -112,6 +112,16 @@ import { SITE } from '~/config.mjs';
         ticking = true;
       }
     });
+
+    // Add Cmd/Ctrl+K keyboard shortcut for search
+    document.addEventListener('keydown', function(e) {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        if (typeof window.openSearch === 'function') {
+          window.openSearch();
+        }
+      }
+    });
   };
 
   window.onpageshow = function () {

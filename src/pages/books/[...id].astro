@@ -17,6 +17,7 @@ const { Content } = await render(entry);
 ---
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Books', href: '/books' }}>
+  <div slot="head" data-pagefind-filter="type">book</div>
   <ContentImage
     src={entry.data.image}
     alt={entry.data.title}
