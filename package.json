@@ -7,9 +7,8 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && npx -y pagefind --site dist",
-    "build:astro": "astro build",
-    "buildv": "astro build --verbose && npx -y pagefind --site dist",
+    "build": "astro build",
+    "buildv": "astro build --verbose",
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier -w .",

@@ -24,7 +24,6 @@ const whenExternalScripts = (items: (() => any) | (() => any)[] = []) =>
 // https://astro.build/config
 export default defineConfig({
   image: {
-    service: { entrypoint: 'astro/assets/services/noop' },
     responsiveStyles: true,
   },
   site: SITE.origin,
@@ -53,8 +52,6 @@ export default defineConfig({
           'brand-discord',
           'download',
           'brand-facebook',
-          'search',
-          'x',
         ],
         'simple-line-icons': ['social-spotify'],
         fa: ['podcast'],
