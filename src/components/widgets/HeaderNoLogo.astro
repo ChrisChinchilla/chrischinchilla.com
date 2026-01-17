@@ -2,6 +2,8 @@
 import { Icon } from 'astro-icon/components';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
+import SearchBar from '~/components/common/SearchBar.astro';
+
 // TODO: Consolidate varied templates
 import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/utils/permalinks';
 // TODO: Function
@@ -130,6 +132,7 @@ const links = [
       <div class="md:self-center flex items-center md:mb-0 ml-4">
         <div class="hidden items-center md:flex">
           <!-- TODO: Fix image and return -->
+          <SearchBar />
 
           <!-- <ToggleTheme iconClass="w-5 h-5" /> -->
           <a

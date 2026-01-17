@@ -2,6 +2,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
+import react from '@astrojs/react';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
@@ -32,6 +33,7 @@ export default defineConfig({
   output: 'static',
   
   integrations: [
+    react(),
     icon({
       include: {
         tabler: [

@@ -1,0 +1,264 @@
+---
+import ContentImage from '~/components/common/ContentImage.astro';
+
+interface Post {
+  url: string;
+  title: string;
+  description: string;
+  image?: string;
+  publishDate?: string;
+  tags?: string[];
+}
+
+interface Props {
+  posts: Post[];
+}
+
+const { posts } = Astro.props;
+
+// Format date helper (server-side)
+function formatDate(dateString?: string): string {
+  if (!dateString) return '';
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  });
+}
+---
+
+<!-- Search trigger button -->
+<button
+  type="button"
+  class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+  aria-label="Search site content"
+  id="search-trigger"
+>
+  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+  </svg>
+</button>
+
+<!-- Search modal -->
+<div id="search-modal" class="search-modal hidden">
+  <!-- Overlay -->
+  <div class="search-modal-overlay" id="search-overlay"></div>
+
+  <!-- Modal content -->
+  <div class="search-modal-content">
+    <div class="search-modal-header">
+      <button
+        type="button"
+        class="search-modal-close"
+        aria-label="Close search"
+        id="search-close"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Search input -->
+    <div class="search-input-container">
+      <input
+        type="text"
+        class="search-input"
+        placeholder="Search posts..."
+        id="search-input"
+      />
+    </div>
+
+    <!-- Search results - pre-rendered at build time -->
+    <div class="search-results-container" id="search-results">
+      <div class="search-placeholder" id="search-placeholder">
+        Start typing to search posts...
+      </div>
+
+      <div class="search-no-results hidden" id="search-no-results">
+        No results found
+      </div>
+
+      <div class="search-results-grid" id="search-results-grid">
+        {posts.map((post, index) => (
+          <article
+            class="search-result-item mb-6 transition px-4 hidden"
+            data-search-index={index}
+            data-search-title={post.title.toLowerCase()}
+            data-search-description={post.description?.toLowerCase() || ''}
+            data-search-tags={post.tags?.join(' ').toLowerCase() || ''}
+          >
+            {post.image && (
+              <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+                <ContentImage
+                  src={post.image}
+                  alt={post.title}
+                  type="post"
+                  class="object-contain md:h-full mb-6 rounded drop-shadow-lg w-full"
+                />
+              </div>
+            )}
+            <div>
+              <header>
+                <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">
+                  <a class="hover:text-primary transition ease-in duration-200" href={post.url}>
+                    {post.title}
+                  </a>
+                </h2>
+                {post.publishDate && (
+                  <i class="my-2 block">{formatDate(post.publishDate)}</i>
+                )}
+              </header>
+              {post.description && (
+                <div class="post-body body whitespace-pre-line">
+                  {post.description}
+                </div>
+              )}
+            </div>
+            {post.tags && post.tags.length > 0 && (
+              <footer class="mt-2">
+                <ul class="text-sm">
+                  {post.tags.slice(0, 5).map(tag => (
+                    <li class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2 lowercase font-medium">
+                      <span class="text-muted dark:text-slate-300">{tag}</span>
+                    </li>
+                  ))}
+                </ul>
+              </footer>
+            )}
+          </article>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pass posts data for Fuse.js searching -->
+<script define:vars={{ posts }}>
+  window.__searchPosts = posts;
+</script>
+
+<script>
+  import Fuse from 'fuse.js';
+
+  interface Post {
+    url: string;
+    title: string;
+    description: string;
+    image?: string;
+    publishDate?: string;
+    tags?: string[];
+  }
+
+  // Get posts from server for Fuse.js
+  const posts: Post[] = (window as any).__searchPosts || [];
+
+  // Initialize Fuse.js for fuzzy search
+  const fuse = new Fuse(posts, {
+    keys: ['title', 'description', 'tags'],
+    threshold: 0.4,
+    minMatchCharLength: 2,
+  });
+
+  // DOM elements
+  const trigger = document.getElementById('search-trigger');
+  const modal = document.getElementById('search-modal');
+  const overlay = document.getElementById('search-overlay');
+  const closeBtn = document.getElementById('search-close');
+  const input = document.getElementById('search-input') as HTMLInputElement;
+  const placeholder = document.getElementById('search-placeholder');
+  const noResults = document.getElementById('search-no-results');
+  const allResultItems = document.querySelectorAll('.search-result-item');
+
+  function openSearch() {
+    modal?.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    input?.focus();
+  }
+
+  function closeSearch() {
+    modal?.classList.add('hidden');
+    document.body.style.overflow = '';
+    if (input) input.value = '';
+    hideAllResults();
+    placeholder?.classList.remove('hidden');
+    noResults?.classList.add('hidden');
+  }
+
+  function hideAllResults() {
+    allResultItems.forEach(item => {
+      item.classList.add('hidden');
+    });
+  }
+
+  function showResults(indices: number[]) {
+    hideAllResults();
+
+    if (indices.length === 0) {
+      const searchTerm = input?.value || '';
+      if (searchTerm.length >= 2) {
+        placeholder?.classList.add('hidden');
+        noResults?.classList.remove('hidden');
+        noResults!.textContent = `No results found for "${searchTerm}"`;
+      } else {
+        placeholder?.classList.remove('hidden');
+        noResults?.classList.add('hidden');
+      }
+      return;
+    }
+
+    placeholder?.classList.add('hidden');
+    noResults?.classList.add('hidden');
+
+    // Show matching results (limit to 12)
+    indices.slice(0, 12).forEach(index => {
+      const item = document.querySelector(`[data-search-index="${index}"]`);
+      if (item) {
+        item.classList.remove('hidden');
+      }
+    });
+  }
+
+  function handleSearch() {
+    const searchTerm = input?.value || '';
+
+    if (searchTerm.length < 2) {
+      hideAllResults();
+      placeholder?.classList.remove('hidden');
+      noResults?.classList.add('hidden');
+      return;
+    }
+
+    // Use Fuse.js for fuzzy search
+    const results = fuse.search(searchTerm);
+    const matchingIndices = results.map(result => result.refIndex);
+
+    showResults(matchingIndices);
+  }
+
+  // Event listeners
+  trigger?.addEventListener('click', openSearch);
+  overlay?.addEventListener('click', closeSearch);
+  closeBtn?.addEventListener('click', closeSearch);
+  input?.addEventListener('input', handleSearch);
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
+      closeSearch();
+    }
+  });
+
+  // Keyboard shortcut (Cmd/Ctrl + K)
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      if (modal?.classList.contains('hidden')) {
+        openSearch();
+      } else {
+        closeSearch();
+      }
+    }
+  });
+</script>
