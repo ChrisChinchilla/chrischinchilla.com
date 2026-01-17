@@ -51,6 +51,7 @@ function formatDate(dateString?: string): string {
     role="dialog"
     aria-modal="true"
     aria-labelledby="search-modal-title"
+    tabindex="-1"
   >
     <div class="search-modal-header">
       <h2 id="search-modal-title" class="sr-only">Search Posts</h2>
@@ -223,7 +224,14 @@ function formatDate(dateString?: string): string {
     modal?.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
     updateFocusableElements();
-    input?.focus();
+    
+    // Focus the first focusable element, or the modal itself if none exist
+    if (firstFocusableElement) {
+      firstFocusableElement.focus();
+    } else if (modalContent) {
+      (modalContent as HTMLElement).focus();
+    }
+    
     document.addEventListener('keydown', trapFocus);
   }
 
