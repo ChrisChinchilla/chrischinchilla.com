@@ -19,9 +19,6 @@
     "check": "astro check"
   },
   "dependencies": {
-    "@astrojs/react": "^4.4.2",
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
     "@netlify/functions": "^5.1.2",
     "fast-xml-parser": "^5.3.3",
     "fuse.js": "^7.1.0",
