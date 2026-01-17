@@ -150,10 +150,17 @@ function formatDate(dateString?: string): string {
   }
 
   // Get posts from data attribute
-  const dataElement = document.getElementById('search-data');
-  const posts: Post[] = dataElement 
-    ? JSON.parse(dataElement.getAttribute('data-posts') || '[]')
-    : [];
+  let posts: Post[] = [];
+  try {
+    const dataElement = document.getElementById('search-data');
+    if (dataElement) {
+      const postsData = dataElement.getAttribute('data-posts');
+      posts = postsData ? JSON.parse(postsData) : [];
+    }
+  } catch (error) {
+    console.error('Failed to parse search data:', error);
+    posts = [];
+  }
 
   // Initialize Fuse.js for fuzzy search
   const fuse = new Fuse(posts, {
