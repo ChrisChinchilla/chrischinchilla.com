@@ -245,15 +245,15 @@ function formatDate(dateString?: string): string {
   closeBtn?.addEventListener('click', closeSearch);
   input?.addEventListener('input', handleSearch);
 
-  // Close on Escape key
+  // Handle keyboard shortcuts
   document.addEventListener('keydown', (e) => {
+    // Close on Escape key
     if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
       closeSearch();
+      return;
     }
-  });
-
-  // Keyboard shortcut (Cmd/Ctrl + K)
-  document.addEventListener('keydown', (e) => {
+    
+    // Keyboard shortcut (Cmd/Ctrl + K)
     if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
       e.preventDefault();
       if (modal?.classList.contains('hidden')) {
