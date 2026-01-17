@@ -201,7 +201,9 @@ function formatDate(dateString?: string): string {
       if (searchTerm.length >= 2) {
         placeholder?.classList.add('hidden');
         noResults?.classList.remove('hidden');
-        noResults!.textContent = `No results found for "${searchTerm}"`;
+        if (noResults) {
+          noResults.textContent = `No results found for "${searchTerm}"`;
+        }
       } else {
         placeholder?.classList.remove('hidden');
         noResults?.classList.add('hidden');
