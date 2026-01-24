@@ -142,9 +142,7 @@ function formatDate(dateString?: string): string {
 </div>
 
 <!-- Pass posts data for Fuse.js searching -->
-<script define:vars={{ posts }}>
-  window.__searchPosts = posts;
-</script>
+<script type="application/json" id="search-data" data-posts={JSON.stringify(posts)}></script>
 
 <script>
   import Fuse from 'fuse.js';
@@ -158,8 +156,18 @@ function formatDate(dateString?: string): string {
     tags?: string[];
   }
 
-  // Get posts from server for Fuse.js
-  const posts: Post[] = (window as any).__searchPosts || [];
+  // Get posts from data attribute
+  let posts: Post[] = [];
+  try {
+    const dataElement = document.getElementById('search-data');
+    if (dataElement) {
+      const postsData = dataElement.getAttribute('data-posts');
+      posts = postsData ? JSON.parse(postsData) : [];
+    }
+  } catch (error) {
+    console.error('Failed to parse search data:', error);
+    posts = [];
+  }
 
   // Initialize Fuse.js for fuzzy search
   const fuse = new Fuse(posts, {
