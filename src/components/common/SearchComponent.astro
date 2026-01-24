@@ -87,15 +87,6 @@ const { posts } = Astro.props;
 <script>
   import Fuse from 'fuse.js';
 
-  interface Post {
-    url: string;
-    title: string;
-    description: string;
-    image?: string;
-    publishDate?: string;
-    tags?: string[];
-  }
-
   // Get posts from data attribute
   let posts: Post[] = [];
   try {
@@ -163,6 +154,7 @@ const { posts } = Astro.props;
             alt="${escapeHtml(post.title)}" 
             class="object-contain md:h-full mb-6 rounded drop-shadow-lg w-full"
             loading="lazy"
+            onerror="this.style.display='none'"
           />
         </div>
       `;
@@ -193,15 +185,12 @@ const { posts } = Astro.props;
 
     // Tags
     if (post.tags && post.tags.length > 0) {
-      html += '<footer class="mt-2"><ul class="text-sm">';
-      post.tags.slice(0, 5).forEach(tag => {
-        html += `
-          <li class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2 lowercase font-medium">
-            <span class="text-muted dark:text-slate-300">${escapeHtml(tag)}</span>
-          </li>
-        `;
-      });
-      html += '</ul></footer>';
+      const tagItems = post.tags.slice(0, 5).map(tag => `
+        <li class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2 lowercase font-medium">
+          <span class="text-muted dark:text-slate-300">${escapeHtml(tag)}</span>
+        </li>
+      `).join('');
+      html += `<footer class="mt-2"><ul class="text-sm">${tagItems}</ul></footer>`;
     }
 
     article.innerHTML = html;
