@@ -3,7 +3,7 @@ interface Post {
   url: string;
   title: string;
   description: string;
-  image?: string;
+  //image?: string;
   publishDate?: string;
   tags?: string[];
 }
@@ -146,19 +146,19 @@ const { posts } = Astro.props;
     let html = '';
 
     // Image
-    if (post.image) {
-      html += `
-        <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
-          <img 
-            src="${escapeHtml(post.image)}" 
-            alt="${escapeHtml(post.title)}" 
-            class="object-contain md:h-full mb-6 rounded drop-shadow-lg w-full"
-            loading="lazy"
-            onerror="this.style.display='none'"
-          />
-        </div>
-      `;
-    }
+    // if (post.image) {
+    //   html += `
+    //     <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+    //       <img 
+    //         src="${escapeHtml(post.image)}" 
+    //         alt="${escapeHtml(post.title)}" 
+    //         class="object-contain md:h-full mb-6 rounded drop-shadow-lg w-full"
+    //         loading="lazy"
+    //         onerror="this.style.display='none'"
+    //       />
+    //     </div>
+    //   `;
+    // }
 
     // Content
     html += '<div>';
