@@ -33,7 +33,7 @@ _Co-organiser, 2018 to 2021_
 
 - I ran the Write the Docs meetup in Berlin for technical writers.
 - I was on the organising committee for the 2018, 2019, 2020, 2021, 2025 EU, and 2019 Australian Write the Docs conferences.
-- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, and 2025.
+- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, 2025, and 2026.
 
 ## Open source
 
@@ -42,9 +42,9 @@ I have always been active in open source communities, including regular contribu
 - [Vale VSCode](https://github.com/ChrisChinchilla/vale-vscode)
 - [Pandoc VSCode](https://github.com/ChrisChinchilla/vscode-pandoc)
 - Task Overboard
-- Obsidian Trello
+- [Obsidian Trello](https://github.com/nathonius/obsidian-trello)]
 - [Raycast Trello](https://github.com/raycast/extensions/tree/ff986298ee3ca7ee04f7b3b4d4ca5faecb64fe8f/extensions/trello)
-- Obsidian Vale
+- [Obsidian Vale](https://github.com/ChrisChinchilla/obsidian-vale)
 - [Openly Vale style](https://github.com/ChrisChinchilla/Openly)
 - [Apple Vale style guide](https://github.com/ChrisChinchilla/Apple-style-guide)
 
