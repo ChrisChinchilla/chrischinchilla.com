@@ -46,8 +46,15 @@ function formatDate(dateString?: string): string {
   <div class="search-modal-overlay" id="search-overlay"></div>
 
   <!-- Modal content -->
-  <div class="search-modal-content">
+  <div 
+    class="search-modal-content"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="search-modal-title"
+    tabindex="-1"
+  >
     <div class="search-modal-header">
+      <h2 id="search-modal-title" class="sr-only">Search Posts</h2>
       <button
         type="button"
         class="search-modal-close"
@@ -172,11 +179,62 @@ function formatDate(dateString?: string): string {
   const placeholder = document.getElementById('search-placeholder');
   const noResults = document.getElementById('search-no-results');
   const allResultItems = document.querySelectorAll('.search-result-item');
+  const modalContent = document.querySelector('.search-modal-content');
+
+  // Focus trap variables
+  let focusableElements: HTMLElement[] = [];
+  let firstFocusableElement: HTMLElement | null = null;
+  let lastFocusableElement: HTMLElement | null = null;
+
+  function updateFocusableElements() {
+    if (!modalContent) return;
+    
+    const focusableSelectors = 'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+    const elements = modalContent.querySelectorAll(focusableSelectors);
+    focusableElements = Array.from(elements) as HTMLElement[];
+    
+    if (focusableElements.length > 0) {
+      firstFocusableElement = focusableElements[0];
+      lastFocusableElement = focusableElements[focusableElements.length - 1];
+    }
+  }
+
+  function trapFocus(e: KeyboardEvent) {
+    if (e.key !== 'Tab') return;
+    
+    if (focusableElements.length === 0) {
+      e.preventDefault();
+      return;
+    }
+
+    if (e.shiftKey) {
+      // Shift + Tab
+      if (document.activeElement === firstFocusableElement) {
+        e.preventDefault();
+        lastFocusableElement?.focus();
+      }
+    } else {
+      // Tab
+      if (document.activeElement === lastFocusableElement) {
+        e.preventDefault();
+        firstFocusableElement?.focus();
+      }
+    }
+  }
 
   function openSearch() {
     modal?.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
-    input?.focus();
+    updateFocusableElements();
+    
+    // Focus the first focusable element, or the modal itself if none exist
+    if (firstFocusableElement) {
+      firstFocusableElement.focus();
+    } else if (modalContent) {
+      (modalContent as HTMLElement).focus();
+    }
+    
+    document.addEventListener('keydown', trapFocus);
   }
 
   function closeSearch() {
@@ -186,6 +244,7 @@ function formatDate(dateString?: string): string {
     hideAllResults();
     placeholder?.classList.remove('hidden');
     noResults?.classList.add('hidden');
+    document.removeEventListener('keydown', trapFocus);
   }
 
   function hideAllResults() {
