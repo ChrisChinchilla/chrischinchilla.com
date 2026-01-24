@@ -3,6 +3,7 @@ import { Icon } from 'astro-icon/components';
 import Logo from '~/components/common/LogoChinch.astro';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
+import SearchBar from '~/components/common/SearchBar.astro';
 
 import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/utils/permalinks';
 
@@ -136,6 +137,7 @@ const links = [
           <!-- TODO: Fix image and return -->
 
           <!-- <ToggleTheme iconClass="w-5 h-5" /> -->
+          <SearchBar />
           <a
             class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
             aria-label="RSS Feed"

@@ -1,0 +1,366 @@
+---
+import SearchComponent from './SearchComponent.astro';
+import { getCollection } from 'astro:content';
+
+// Fetch all posts from different content types
+const posts = await getCollection('posts');
+const newsletters = await getCollection('newsletters');
+const podcasts = await getCollection('podcasts');
+const stories = await getCollection('stories');
+const videos = await getCollection('av');
+
+// Helper to convert date to ISO string safely
+const toISOString = (date: Date | string | undefined): string | undefined => {
+  if (!date) return undefined;
+  if (date instanceof Date) return date.toISOString();
+  if (typeof date === 'string') return new Date(date).toISOString();
+  return undefined;
+};
+
+// Combine and format all content for search
+const allContent = [
+  ...posts.map(post => ({
+    url: `/blog/${post.id}`,
+    title: post.data.title,
+    description: post.data.summary || '',
+    // TODO: Add back images later
+    // image: typeof post.data.image === 'string' ? post.data.image : undefined,
+    publishDate: toISOString(post.data.publishDate),
+    tags: post.data.tags || [],
+  })),
+  ...newsletters.map(item => ({
+    url: `/newsletter/${item.id}`,
+    title: item.data.title,
+    description: item.data.summary || '',
+    // image: typeof item.data.image === 'string' ? item.data.image : undefined,
+    publishDate: toISOString(item.data.date),
+    tags: [],
+  })),
+  ...podcasts.map(item => ({
+    url: `/podcast/${item.id}`,
+    title: item.data.title || '',
+    description: item.data.description || '',
+    // image: typeof item.data.image === 'string' ? item.data.image : undefined,
+    publishDate: undefined,
+    tags: [],
+  })),
+  ...stories.map(item => ({
+    url: `/stories/${item.id}`,
+    title: item.data.title,
+    description: item.data.summary || '',
+    // image: typeof item.data.image === 'string' ? item.data.image : undefined,
+    publishDate: toISOString(item.data.date),
+    tags: item.data.tags || [],
+  })),
+  ...videos.map(item => ({
+    url: `/videos/${item.id}`,
+    title: item.data.title,
+    description: '',
+    // image: typeof item.data.image === 'string' ? item.data.image : undefined,
+    publishDate: toISOString(item.data.publish_date),
+    tags: [],
+  })),
+];
+
+// Sort by publish date (newest first)
+const sortedContent = allContent.sort((a, b) => {
+  if (!a.publishDate) return 1;
+  if (!b.publishDate) return -1;
+  return new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime();
+});
+---
+
+<SearchComponent posts={sortedContent} />
+
+<style is:global>
+  /* Search Modal Styles */
+  .search-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem 1rem;
+    overflow-y: auto;
+  }
+
+  .search-modal.hidden {
+    display: none;
+  }
+
+  .search-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+    z-index: 1;
+  }
+
+  .search-modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 72rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    margin-top: 4rem;
+    z-index: 2;
+  }
+
+  .dark .search-modal-content {
+    background-color: rgb(15 23 42);
+  }
+
+  .search-modal-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .dark .search-modal-header {
+    border-bottom-color: rgb(51 65 85);
+  }
+
+  .search-modal-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    color: #6b7280;
+    transition: all 0.2s;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-modal-close:hover {
+    background-color: #f3f4f6;
+    color: #374151;
+  }
+
+  .dark .search-modal-close {
+    color: #9ca3af;
+  }
+
+  .dark .search-modal-close:hover {
+    background-color: rgb(51 65 85);
+    color: #d1d5db;
+  }
+
+  /* Search Input */
+  .search-input-container {
+    padding: 0 1rem 1rem;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    background-color: white !important;
+    color: #111827 !important;
+  }
+
+  .search-input::placeholder {
+    color: #9ca3af;
+    opacity: 1;
+  }
+
+  .dark .search-input {
+    background-color: rgb(30 41 59) !important;
+    border-color: rgb(51 65 85) !important;
+    color: #f1f5f9 !important;
+  }
+
+  .dark .search-input::placeholder {
+    color: #6b7280;
+    opacity: 1;
+  }
+
+  .search-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+
+  /* Search Results Container */
+  .search-results-container {
+    padding: 0 1rem 1rem;
+    max-height: calc(100vh - 16rem);
+    overflow-y: auto;
+  }
+
+  .search-results-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin-top: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .search-results-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .search-results-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  /* Search Result Card - matching blog post style */
+  .search-result-card {
+    margin-bottom: 1.5rem;
+    transition: all 0.2s;
+    border-radius: 0.5rem;
+    background-color: transparent;
+  }
+
+  .search-result-card:hover {
+    transform: translateY(-2px);
+  }
+
+  .search-result-image {
+    position: relative;
+    width: 100%;
+    max-height: 18rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  .search-result-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0.5rem;
+  }
+
+  .search-result-content {
+    padding: 0;
+  }
+
+  .search-result-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #111827;
+    margin-bottom: 0.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .search-result-title {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+
+  .dark .search-result-title {
+    color: #f1f5f9;
+  }
+
+  .search-result-title a {
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+    color: inherit;
+  }
+
+  .search-result-title a:hover {
+    color: var(--aw-color-primary, #3b82f6);
+  }
+
+  .search-result-date {
+    display: block;
+    font-style: italic;
+    margin: 0.5rem 0;
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+
+  .dark .search-result-date {
+    color: #9ca3af;
+  }
+
+  .search-result-description {
+    color: #6b7280;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    white-space: pre-line;
+  }
+
+  .dark .search-result-description {
+    color: #9ca3af;
+  }
+
+  .search-result-tags {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .search-result-tag {
+    background-color: #f3f4f6;
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    font-size: 0.875rem;
+    text-transform: lowercase;
+    font-weight: 500;
+    color: #6b7280;
+  }
+
+  .dark .search-result-tag {
+    background-color: rgb(51 65 85);
+    color: rgb(203 213 225);
+  }
+
+  .search-result-tag:hover {
+    color: var(--aw-color-primary, #3b82f6);
+  }
+
+  .dark .search-result-tag:hover {
+    color: #d1d5db;
+  }
+
+  /* Messages */
+  .search-no-results,
+  .search-placeholder {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #6b7280;
+  }
+
+  .dark .search-no-results,
+  .dark .search-placeholder {
+    color: #9ca3af;
+  }
+
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .search-modal {
+      padding: 0;
+      align-items: flex-start;
+    }
+
+    .search-modal-content {
+      max-width: 100%;
+      margin-top: 0;
+      border-radius: 0;
+      min-height: 100vh;
+    }
+  }
+</style>
