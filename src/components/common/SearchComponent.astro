@@ -1,6 +1,4 @@
 ---
-import ContentImage from '~/components/common/ContentImage.astro';
-
 interface Post {
   url: string;
   title: string;
@@ -15,17 +13,6 @@ interface Props {
 }
 
 const { posts } = Astro.props;
-
-// Format date helper (server-side)
-function formatDate(dateString?: string): string {
-  if (!dateString) return '';
-  const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric'
-  });
-}
 ---
 
 <!-- Search trigger button -->
@@ -77,7 +64,7 @@ function formatDate(dateString?: string): string {
       />
     </div>
 
-    <!-- Search results - pre-rendered at build time -->
+    <!-- Search results - rendered dynamically -->
     <div class="search-results-container" id="search-results">
       <div class="search-placeholder" id="search-placeholder">
         Start typing to search posts...
@@ -88,54 +75,7 @@ function formatDate(dateString?: string): string {
       </div>
 
       <div class="search-results-grid" id="search-results-grid">
-        {posts.map((post, index) => (
-          <article
-            class="search-result-item mb-6 transition px-4 hidden"
-            data-search-index={index}
-            data-search-title={post.title.toLowerCase()}
-            data-search-description={post.description?.toLowerCase() || ''}
-            data-search-tags={post.tags?.join(' ').toLowerCase() || ''}
-          >
-            {post.image && (
-              <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
-                <ContentImage
-                  src={post.image}
-                  alt={post.title}
-                  type="post"
-                  class="object-contain md:h-full mb-6 rounded drop-shadow-lg w-full"
-                />
-              </div>
-            )}
-            <div>
-              <header>
-                <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">
-                  <a class="hover:text-primary transition ease-in duration-200" href={post.url}>
-                    {post.title}
-                  </a>
-                </h2>
-                {post.publishDate && (
-                  <i class="my-2 block">{formatDate(post.publishDate)}</i>
-                )}
-              </header>
-              {post.description && (
-                <div class="post-body body whitespace-pre-line">
-                  {post.description}
-                </div>
-              )}
-            </div>
-            {post.tags && post.tags.length > 0 && (
-              <footer class="mt-2">
-                <ul class="text-sm">
-                  {post.tags.slice(0, 5).map(tag => (
-                    <li class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2 lowercase font-medium">
-                      <span class="text-muted dark:text-slate-300">{tag}</span>
-                    </li>
-                  ))}
-                </ul>
-              </footer>
-            )}
-          </article>
-        ))}
+        <!-- Results will be dynamically inserted here -->
       </div>
     </div>
   </div>
@@ -146,15 +86,6 @@ function formatDate(dateString?: string): string {
 
 <script>
   import Fuse from 'fuse.js';
-
-  interface Post {
-    url: string;
-    title: string;
-    description: string;
-    image?: string;
-    publishDate?: string;
-    tags?: string[];
-  }
 
   // Get posts from data attribute
   let posts: Post[] = [];
@@ -186,8 +117,85 @@ function formatDate(dateString?: string): string {
   const input = document.getElementById('search-input') as HTMLInputElement;
   const placeholder = document.getElementById('search-placeholder');
   const noResults = document.getElementById('search-no-results');
-  const allResultItems = document.querySelectorAll('.search-result-item');
+  const resultsGrid = document.getElementById('search-results-grid');
   const modalContent = document.querySelector('.search-modal-content');
+
+  // Format date helper (client-side)
+  function formatDate(dateString?: string): string {
+    if (!dateString) return '';
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    });
+  }
+
+  // Escape HTML to prevent XSS
+  function escapeHtml(text: string): string {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  // Create HTML for a single search result
+  function createResultElement(post: Post): HTMLElement {
+    const article = document.createElement('article');
+    article.className = 'search-result-item mb-6 transition px-4';
+
+    let html = '';
+
+    // Image
+    if (post.image) {
+      html += `
+        <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+          <img 
+            src="${escapeHtml(post.image)}" 
+            alt="${escapeHtml(post.title)}" 
+            class="object-contain md:h-full mb-6 rounded drop-shadow-lg w-full"
+            loading="lazy"
+            onerror="this.style.display='none'"
+          />
+        </div>
+      `;
+    }
+
+    // Content
+    html += '<div>';
+    html += '<header>';
+    html += `
+      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">
+        <a class="hover:text-primary transition ease-in duration-200" href="${escapeHtml(post.url)}">
+          ${escapeHtml(post.title)}
+        </a>
+      </h2>
+    `;
+    
+    if (post.publishDate) {
+      html += `<i class="my-2 block">${escapeHtml(formatDate(post.publishDate))}</i>`;
+    }
+    
+    html += '</header>';
+
+    if (post.description) {
+      html += `<div class="post-body body whitespace-pre-line">${escapeHtml(post.description)}</div>`;
+    }
+
+    html += '</div>';
+
+    // Tags
+    if (post.tags && post.tags.length > 0) {
+      const tagItems = post.tags.slice(0, 5).map(tag => `
+        <li class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2 lowercase font-medium">
+          <span class="text-muted dark:text-slate-300">${escapeHtml(tag)}</span>
+        </li>
+      `).join('');
+      html += `<footer class="mt-2"><ul class="text-sm">${tagItems}</ul></footer>`;
+    }
+
+    article.innerHTML = html;
+    return article;
+  }
 
   // Focus trap variables
   let focusableElements: HTMLElement[] = [];
@@ -255,7 +263,7 @@ function formatDate(dateString?: string): string {
     modal?.classList.add('hidden');
     document.body.style.overflow = '';
     if (input) input.value = '';
-    hideAllResults();
+    clearResults();
     placeholder?.classList.remove('hidden');
     noResults?.classList.add('hidden');
     
@@ -265,16 +273,16 @@ function formatDate(dateString?: string): string {
     }
   }
 
-  function hideAllResults() {
-    allResultItems.forEach(item => {
-      item.classList.add('hidden');
-    });
+  function clearResults() {
+    if (resultsGrid) {
+      resultsGrid.innerHTML = '';
+    }
   }
 
-  function showResults(indices: number[]) {
-    hideAllResults();
+  function showResults(results: Post[]) {
+    clearResults();
 
-    if (indices.length === 0) {
+    if (results.length === 0) {
       const searchTerm = input?.value || '';
       if (searchTerm.length >= 2) {
         placeholder?.classList.add('hidden');
@@ -292,30 +300,33 @@ function formatDate(dateString?: string): string {
     placeholder?.classList.add('hidden');
     noResults?.classList.add('hidden');
 
-    // Show matching results (limit to 12)
-    indices.slice(0, 12).forEach(index => {
-      const item = document.querySelector(`[data-search-index="${index}"]`);
-      if (item) {
-        item.classList.remove('hidden');
-      }
+    // Render matching results (limit to 12)
+    const fragment = document.createDocumentFragment();
+    results.slice(0, 12).forEach(post => {
+      fragment.appendChild(createResultElement(post));
     });
+    
+    resultsGrid?.appendChild(fragment);
+    
+    // Update focusable elements after rendering results
+    updateFocusableElements();
   }
 
   function handleSearch() {
     const searchTerm = input?.value || '';
 
     if (searchTerm.length < 2) {
-      hideAllResults();
+      clearResults();
       placeholder?.classList.remove('hidden');
       noResults?.classList.add('hidden');
       return;
     }
 
     // Use Fuse.js for fuzzy search
-    const results = fuse.search(searchTerm);
-    const matchingIndices = results.map(result => result.refIndex);
+    const searchResults = fuse.search(searchTerm);
+    const matchingPosts = searchResults.map(result => result.item);
 
-    showResults(matchingIndices);
+    showResults(matchingPosts);
   }
 
   // Keyboard shortcut handler
