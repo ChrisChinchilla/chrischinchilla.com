@@ -230,6 +230,9 @@ function formatDate(dateString?: string): string {
     }
   }
 
+  // Track if trapFocus is currently active
+  let isTrapFocusActive = false;
+
   function openSearch() {
     modal?.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
@@ -242,7 +245,10 @@ function formatDate(dateString?: string): string {
       (modalContent as HTMLElement).focus();
     }
     
-    document.addEventListener('keydown', trapFocus);
+    if (!isTrapFocusActive) {
+      document.addEventListener('keydown', trapFocus);
+      isTrapFocusActive = true;
+    }
   }
 
   function closeSearch() {
@@ -252,7 +258,11 @@ function formatDate(dateString?: string): string {
     hideAllResults();
     placeholder?.classList.remove('hidden');
     noResults?.classList.add('hidden');
-    document.removeEventListener('keydown', trapFocus);
+    
+    if (isTrapFocusActive) {
+      document.removeEventListener('keydown', trapFocus);
+      isTrapFocusActive = false;
+    }
   }
 
   function hideAllResults() {
@@ -334,7 +344,16 @@ function formatDate(dateString?: string): string {
     closeBtn?.removeEventListener('click', closeSearch);
     input?.removeEventListener('input', handleSearch);
     document.removeEventListener('keydown', handleKeyboardShortcuts);
-    document.removeEventListener('keydown', trapFocus);
+    
+    // Only remove trapFocus if it's currently active
+    if (isTrapFocusActive) {
+      document.removeEventListener('keydown', trapFocus);
+      isTrapFocusActive = false;
+    }
+    
+    // Remove lifecycle listeners
+    document.removeEventListener('astro:before-preparation', cleanup);
+    window.removeEventListener('beforeunload', cleanup);
   }
 
   // Initialize event listeners
@@ -345,7 +364,7 @@ function formatDate(dateString?: string): string {
   document.addEventListener('keydown', handleKeyboardShortcuts);
 
   // Cleanup on page navigation (for Astro view transitions)
-  document.addEventListener('astro:before-preparation', cleanup, { once: true });
+  document.addEventListener('astro:before-preparation', cleanup);
   
   // Cleanup on page unload (fallback for non-view-transition navigation)
   window.addEventListener('beforeunload', cleanup);
