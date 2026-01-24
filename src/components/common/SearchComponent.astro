@@ -308,14 +308,8 @@ function formatDate(dateString?: string): string {
     showResults(matchingIndices);
   }
 
-  // Event listeners
-  trigger?.addEventListener('click', openSearch);
-  overlay?.addEventListener('click', closeSearch);
-  closeBtn?.addEventListener('click', closeSearch);
-  input?.addEventListener('input', handleSearch);
-
-  // Handle keyboard shortcuts
-  document.addEventListener('keydown', (e) => {
+  // Keyboard shortcut handler
+  function handleKeyboardShortcuts(e: KeyboardEvent) {
     // Close on Escape key
     if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
       closeSearch();
@@ -331,5 +325,28 @@ function formatDate(dateString?: string): string {
         closeSearch();
       }
     }
-  });
+  }
+
+  // Cleanup function to remove all event listeners
+  function cleanup() {
+    trigger?.removeEventListener('click', openSearch);
+    overlay?.removeEventListener('click', closeSearch);
+    closeBtn?.removeEventListener('click', closeSearch);
+    input?.removeEventListener('input', handleSearch);
+    document.removeEventListener('keydown', handleKeyboardShortcuts);
+    document.removeEventListener('keydown', trapFocus);
+  }
+
+  // Initialize event listeners
+  trigger?.addEventListener('click', openSearch);
+  overlay?.addEventListener('click', closeSearch);
+  closeBtn?.addEventListener('click', closeSearch);
+  input?.addEventListener('input', handleSearch);
+  document.addEventListener('keydown', handleKeyboardShortcuts);
+
+  // Cleanup on page navigation (for Astro view transitions)
+  document.addEventListener('astro:before-preparation', cleanup, { once: true });
+  
+  // Cleanup on page unload (fallback for non-view-transition navigation)
+  window.addEventListener('beforeunload', cleanup);
 </script>
