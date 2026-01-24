@@ -10,8 +10,8 @@ image: "./path/to/story-cover.jpg"
 # publication_title: "The Story as Published Elsewhere"
 
 # Optional: For Hero carousel
-herotext: "An exciting new story about adventures in space"
-heroimage: "./path/to/hero-image.jpg"
+# herotext: "An exciting new story about adventures in space"
+# heroimage: "./path/to/hero-image.jpg"
 ---
 
 Your story content goes here in markdown format.

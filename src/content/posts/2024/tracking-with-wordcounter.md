@@ -15,19 +15,16 @@ summary: >-
   marketing copy, or script?
 ---
 
-import { YouTube } from '@astro-community/astro-embed-youtube';
-
 How many words do you write every day? Think about it. Every time you send an email, post in Slack, or comment on an Instagram post. Oh, you thought I would mention those wondrous words you pour into your latest novel, blog post, marketing copy, or script?
 
 On a good day, those more creative works are where I'd like most of my words to end up, but in reality, it's probably the former category on average most of the time.
 
 Over drinks with fellow writers last year, we started wondering how many words we wrote and where, and that might be an interesting programming experiment to create such a tool.
 
-## Video version
-
-<YouTube id="6KHr15xuV38" />
-
 Then, I came across WordCounter quite by chance, which saved me the bother. As a technical experiment, I was still interested in how I might create my own. A short email conversation with WordCounter's developer quickly told me that creating system-wide textfield observers (on macOS, anyway) was challenging.
+
+<!-- youtube:6KHr15xuV38 -->
+
 The Installation and setup of WordCounter simple, but you need to give the application accessibility permissions and let it run at login and in the background for maximum usefulness.
 
 ![A screenshot showing WordCounter's accessibility settings](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/1*V4LusgQz8XjWuVdrktPj4A.webp)
@@ -42,7 +39,7 @@ For tracking words in actual editors, WordCounter, by default, tracks plain text
 
 ![A screenshot showing the WordCounter setting for file types](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/1*dWV9iH0XqtMwLY9HoAc8RA.webp)
 
-## Is it useful?
+## Is it useful?
 
 "OK", I hear you saying, this is all very well and good, but show us the numbers! Where are your words ending up?
 The data analysis tools in WordCounter are a little inconsistent. On a daily and even hourly basis, it sorts the word counts by application, but when you want to look over a time period, it doesn't sort the results. There's also a CSV export, but it only exports the word count by day, and that's it. I was more interested in the by-application value.
@@ -67,7 +64,7 @@ I am disappointed but not surprised to see such high numbers on WhatsApp, Slack,
 
 A suggestion for an advanced feature in WordCounter could be to keep track of the actual words you type. That would be a weird and wonderful record to sift through later. Another might be to track word counts across matching applications on iOS, much like Timing does with time tracking.
 
-## Does any of this help me?
+## Does any of this help me?
 
 It proves my unfortunate assumptions and shows that if I want to be more productive, I need to set up do not disturb and focus modes to better block certain applications when I am writing. But here we get into discussions on what "productivity" means. Despite their reputation, writing emails and Slack messages can be essential to productive work. While I use Discord for a mixture of uses, I can imagine that, for the most part, it's communication that could wait. WhatsApp, well, some groups and contacts are, of course, more important than others, but again, I think I could be more selective about when I use it.
 

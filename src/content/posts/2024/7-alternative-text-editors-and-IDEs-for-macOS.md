@@ -18,15 +18,9 @@ summary: >-
   considered they offer, and if they bring anything new to your productivity.
 ---
 
-import { YouTube } from '@astro-community/astro-embed-youtube';
-
 I've been a mostly happy [VSCode](https://code.visualstudio.com) user for a few years now. So much so that [I even maintain a couple of extensions for it](https://marketplace.visualstudio.com/publishers/ChrisChinchilla). Before VSCode, I loved [Atom](https://atom-editor.cc). And before that… I can't remember anymore. But every now and then, it's good to look into alternatives and see how they compare, what options you haven't considered they offer, and if they bring anything new to your productivity.
 
 In this post, I look at seven alternatives to VSCode that interest me. Some are old and some new, some are macOS-native, and some are cross-platform. Notable exceptions are [VSCodium](https://vscodium.com/), the fully open fork of VSCode, which is fairly similar. I also leave out perennial classics such as Vim, Emacs, and Nano. I have nothing against them, but they aren't for me, and I don't think anyone needs another blog about them.
-
-## Video version
-
-<YouTube id="R1L8CbttZgc" />
 
 ## IDE vs Text editor
 
@@ -53,6 +47,8 @@ I wanted to try a mix of common file syntax and some more obscure formats to see
 - **KILT docs**: Uses Docusaurus, mixing MDX and React.
 - **Adoc studio manual**: Uses Asciidoc.
 
+<!-- youtube:R1L8CbttZgc -->
+
 ### Code edit
 
 I've covered [CodeEdit](https://www.codeedit.app) before, back when the project first started. It aims to sit alongside XCode and TextEdit, looking and feeling familiar but adding support for other languages and toolchains.
@@ -71,11 +67,11 @@ Aside from those two large feature areas, how else does CodeEdit compare on my r
 - **Extensions community**: In progress.
   - **Language server support**: In progress.
 
-<YouTube id="WSYc5ZqwQ6g" />
-
 My opinion of CodeEdit hasn't changed much since I last reviewed it. It's a great-looking project, and the community is making slow progress. Keep an eye on it, but it may not be ready for daily use yet.
 
 Find out more: https://www.codeedit.app
+
+<!-- youtube:WSYc5ZqwQ6g -->
 
 ### Nova
 
@@ -88,8 +84,6 @@ From macOS development stalwart Panic, [Nova](https://nova.app) reminds me a lit
 - **Cost**: $99 plus yearly upgrade fee
 - **Extensions community**: Yes, and growing.
   - **Language server support**: Yes.
-
-<YouTube id="RNjaxAnPC6k" />
 
 Find out more: https://nova.app
 
@@ -106,6 +100,8 @@ Largely developed by a lone developer, [Chime](https://www.chimehq.com) is a lea
   - **Language server support**: Yes.
 
 Find out more: https://www.chimehq.com
+
+<!-- youtube:RNjaxAnPC6k -->
 
 ### CotEditor
 
@@ -163,6 +159,8 @@ In my opinion, [JetBrains Fleet](https://www.jetbrains.com/fleet/) is the compan
 
 Find out more: https://www.jetbrains.com/fleet/
 
+<!-- youtube:ecAGPv-FC_I -->
+
 ## Honourable mentions
 
 Here are a few I missed, either because I ran out of time, they were too single-purpose, or for some other reason.
@@ -172,8 +170,6 @@ Here are a few I missed, either because I ran out of time, they were too single-
 - **[CudaText](https://cudatext.github.io)**: It's written in Pascal! CudaText also has many of the features I'm looking for but it didn't look OS-native enough for me.
 - **[Helix](https://helix-editor.com)**: Similar to Kakoune, it looks great, but I don't want to write in the terminal.
 - **[Adoc studio](https://www.adoc-studio.app)**: I've covered adoc before, and it's great, but it only works with Asciidoc, so if that's all you use, fantastic, check it out.
-
-<YouTube id="ecAGPv-FC_I" />
 
 ## Would I switch?
 

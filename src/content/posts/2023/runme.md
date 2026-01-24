@@ -9,22 +9,18 @@ tags:
   - Interactivity
 image: articles/1*m42kZBxdjFjcrAByDXGB6A.webp
 summary: >-
-  Markdown may be popular for its simplicity and “plainness”, but it’s often
+  Markdown may be popular for its simplicity and "plainness", but it's often
   full of information. Whether for internal or external consumption, that
   information often contains code snippets for running certain commands or code
-  examples. Wouldn’t it be great if you could run that code directly as you read
+  examples. Wouldn't it be great if you could run that code directly as you read
   from within the markdown?
 ---
 
-import { YouTube } from '@astro-community/astro-embed-youtube';
+Markdown may be popular for its simplicity and "plainness", but it's often full of information. Whether for internal or external consumption, that information often contains code snippets for running certain commands or code examples. Wouldn't it be great if you could run that code directly as you read from within the markdown?
 
-Markdown may be popular for its simplicity and “plainness”, but it’s often full of information. Whether for internal or external consumption, that information often contains code snippets for running certain commands or code examples. Wouldn’t it be great if you could run that code directly as you read from within the markdown?
+That's what [runme][1], a CLI tool, VSCode extension, and online service promises to do.
 
-That’s what [runme][1], a CLI tool, VSCode extension, and online service promises to do.
-
-## Video version
-
-<YouTube id="9PMu3i4-RFk" />
+<!-- youtube:9PMu3i4-RFk -->
 
 ## Example project
 

@@ -10,8 +10,8 @@ tags:
   - Shortcuts
 image: articles/1*Soys68WY2ihqz-qiTHI_Ng.webp
 summary: >-
-  I’ve mentioned before that I have been using Obsidian more and more, and from
-  a knowledge management perspective, it’s fantastic, with a plethora of plugins
+  I've mentioned before that I have been using Obsidian more and more, and from
+  a knowledge management perspective, it's fantastic, with a plethora of plugins
   that extend its functionality to connect to many external services. But as a
   cross-platform Electron application, integration with the host operating
   system is one of the places it fails. As the underlying data store is a folder
@@ -19,21 +19,17 @@ summary: >-
   awareness of changes that happen.
 ---
 
-import { YouTube } from '@astro-community/astro-embed-youtube';
-
 I've mentioned before that I have been using Obsidian more and more, and from a knowledge management perspective, it's fantastic, with a plethora of plugins that extend its functionality to connect to many external services. But as a cross-platform Electron application, integration with the host operating system is one of the places it fails. As the underlying data store is a folder of files, some integration is possible there, but Obsidian has minimal awareness of changes that happen.
 
 Actions for Obsidian aims to add a degree of interaction between Apple's fantastic shortcuts and Obsidian. It's a start!
 
-## Video version
-
-<YouTube id="iRq98uUxpe4" />
+<!-- youtube:iRq98uUxpe4 -->
 
 Want to watch a video version of the post?
 
 Thanks Midjourney for this delightful Chinchilla hugging an Obsidian
 
-## Installation and setup
+## Installation and setup
 
 You need two components to get the actions working with Obsidian. First, add the Actions URI plugin to Obsidian, which handles incoming requests using Apple's internal callback URL system that allows you to communicate with other installed applications.
 
@@ -62,7 +58,7 @@ Apple Notes and other native applications allow you to select text from elsewher
 
 Create a new Shortcut, and in the info view, check the share sheet and quick action options.
 
-![A screenshot of creating a note with input from a Shortcut](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/1*Soys68WY2ihqz-qiTHI_Ng.webp)
+![A screenshot of creating a note with input from a Shortcut](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/1*Soys68WY2ihqz-qiTHI_Ng.webp)
 
 This then adds a Receive action where you probably want to change to "Text" and "Rich text" for the context of Obsidian.
 
@@ -74,7 +70,7 @@ I left the note name blank. As for my use case, I wanted the shortcut to be fair
 
 I have a dataview-based note that contains anything in a note that's part of a checklist. It's my vague attempt at using Obsidian as a task management tool that hasn't quite worked yet, but I'm trying 😅.
 
-![Screenshot of Shortcut to open an Obsidian note](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/1*pDulNtEPNZ8wI3Qm8Du6Fw.webp)
+![Screenshot of Shortcut to open an Obsidian note](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/1*pDulNtEPNZ8wI3Qm8Du6Fw.webp)
 
 The nature of Obsidian vaults means that despite the underlying note being a file on your operating system, they can often feel buried in something of a black box for quick access. The "Open note" action helps pull that note out more quickly. The action doesn't have much to configure, just the note and the vault.
 
@@ -84,13 +80,13 @@ You are probably familiar with Obsidian's core daily note feature, designed for 
 
 As interesting as that sounded, I struggled to combine shortcut inputs and actions to be genuinely useful (see earlier comment). What I ended up with was a kind of daily schedule recap note. But I can imagine connecting it to different daily (or weekly or monthly) inputs as a starting point for regular note-taking on what happened during the period.
 
-### Daily meeting recap
+### Daily meeting recap
 
 Create a Shortcut and add the "Append Text to periodic note" action, which works similarly to the non-periodic version, so use many of the same settings.
 
 I used the Fantastical "Show schedule" action as input to the note. If you use the default calendar, the equivalent is "find calendar events", but you need to filter based on the start date.
 
-Screenshot of creating a daily schedule shortcutI thought I'd need to loop through the returned events to add them to a note, but Shortcuts seems to handle that for you with lists of items, and you might have noticed in the AFO actions that you can set what properties of any types to send to Obsidian. In the case of calendar events, you can send the title, date, and many other properties.
+Screenshot of creating a daily schedule shortcutI thought I'd need to loop through the returned events to add them to a note, but Shortcuts seems to handle that for you with lists of items, and you might have noticed in the AFO actions that you can set what properties of any types to send to Obsidian. In the case of calendar events, you can send the title, date, and many other properties.
 
 ### Trigger commands
 

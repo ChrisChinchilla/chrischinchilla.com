@@ -21,12 +21,10 @@ summary: >-
   it on and off for some time, and in this post, I take a look at some of its
   features, recent updates, and related plugins.
 ---
-import { YouTube } from '@astro-community/astro-embed-youtube';
 
 [JetBrains](https://www.jetbrains.com) is known for its variety of developer-focused IDEs, all based around its IntelliJ core. In recent years, they developed their own writer-focussed plugin, [Grazie](https://www.jetbrains.com/grazie/), for handling grammar and style guidance, [Writerside](https://www.jetbrains.com/writerside/) for a wide variety of tech writing tasks, and more recently, an AI assistant for writers. The company has also helped with community-maintained plugins such as those for [markdown](https://www.jetbrains.com/help/idea/markdown.html) and [asciidoc](https://plugins.jetbrains.com/plugin/7391-asciidoc). But then, a year or so ago, JetBrains announced that Writerside would become a fully-fledged tech writing IDE. I've been using it on and off for some time, and in this post, I take a look at some of its features, recent updates, and related plugins.
 
-<YouTube id="YTWe7Nf4sfE" />
-<YouTube id="5gh1TqMsYKE" />
+<!-- youtube:YTWe7Nf4sfE -->
 
 ## Plugin or IDE
 
@@ -287,6 +285,8 @@ The configuration for all of these is spread out across the settings and IDE int
 - **[JetBrains AI](https://www.jetbrains.com/ai/)**: A new AI tool that does many of the assistive tasks we have now come to expect, and on the text-related front, this is a content generation, summaries, autocompletes, and more. Again, I am going to cover it separately in the same post as Grazie.
 
 The different tools, their overlap, and how to configure them is slightly confusing, but it's nice to have these different types of tools available, integrated, and configurable.
+
+<!-- youtube:5gh1TqMsYKE -->
 
 ## Building and publishing
 

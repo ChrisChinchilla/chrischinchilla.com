@@ -17,15 +17,12 @@ summary: >-
   range of virtualisation tools, one feature in particular stood out to me as
   something different and potentially useful.
 ---
-import { YouTube } from '@astro-community/astro-embed-youtube';
 
 [Changes in recent versions of macOS](https://developer.apple.com/documentation/virtualization) have made running macOS and Linux virtual machines far easier and more performant. Primarily used for testing, a plethora of new applications that take advantage of these features emerged, so when Mac Stadium released a free desktop version of their long-running Okra range of virtualisation tools, one feature in particular stood out to me as something different and potentially useful.
 
 In this article, I take a look at creating macOS virtual machines with [Orka Desktop](https://orkadocs.macstadium.com/docs/desktop-getting-started) and how to share them amongst your team and collaborators using its support for [open container initiative (OCI) compliant containers](https://opencontainers.org).
 
-## Video version
-
-<YouTube id="GKzN2ilMf3A" />
+<!-- youtube:GKzN2ilMf3A -->
 
 ## Settings
 
