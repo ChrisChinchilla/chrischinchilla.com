@@ -76,11 +76,6 @@ const breadcrumbItems = [
             <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src=`https://player.simplecast.com/${podcastID}`></iframe>
             : <audio controls src={podcast.enclosure.att_url} preload="none"></audio>
           }
-          <ul>
-            {episodeData && episodeData.descript_embed ? 
-              <li><a href=`https://share.descript.com/view/${episodeData.descript_embed}`>Interactive transcript</a></li>
-              : ''}
-            </ul>
           </div>
         </article>
       </div>
