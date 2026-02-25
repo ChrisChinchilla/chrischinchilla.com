@@ -14,7 +14,7 @@ summary: >-
   CleanMyMac has long been a go-to tool for macOS maintenance, but its recent addition of cloud storage cleanup is worth examining. In this post, I test the new feature to see how well it helps manage cloud storage across services like iCloud and Google Drive, and whether it's a useful addition or just a gimmick.
 heroimage: articles/cleaning-chinchilla.png
 herotext: >-
-  Evaluating CleanMyMac's new cloud storage cleanup feature to see if it effectively helps manage and declutter files across popular cloud services.
+  CleanMyMac's new cloud storage cleanup feature helps declutter files across popular cloud services.
 ---
 
 [CleanMyMac](https://go.chrischinchilla.com/cleanmymac) has existed for a few years as a maintenance tool for macOS, handling everything from disk cleanup to malware detection. Generally, I am a fan of it, despite often wondering if some of what it recommends is necessary. Still, a lot of modern applications are terrible at cleaning up after themselves, and I am obsessed with digital cleanliness, so…
