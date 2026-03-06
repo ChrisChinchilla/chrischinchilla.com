@@ -19,6 +19,7 @@
     "check": "astro check"
   },
   "dependencies": {
+    "@netlify/blobs": "^10.7.0",
     "@netlify/functions": "^5.1.2",
     "fast-xml-parser": "^5.3.3",
     "fuse.js": "^7.1.0",

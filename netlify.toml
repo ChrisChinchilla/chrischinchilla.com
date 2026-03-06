@@ -1,5 +1,6 @@
 [functions]
   node_bundler = "esbuild"
+  included_files = ["src/content/newsletters/**"]
 
 [[redirects]]
   from = "/support"
