@@ -21,17 +21,6 @@ store_urls:
     url: https://books2read.com/u/m09D0W
 ---
 
-## July 2025 promo
-
-To celebrate the release of _28 years later_ and the new season of _The Last of Us_, I am offering a discount on the eBook version in some stores for the entire month of July.
-
-> - [On DriveThruFiction, the eBook costs **$1** during July](https://tools.drivethrufiction.com/browse.php?discount=9761189197).
-> - [On Smashwords, the eBook is **75% off**](https://www.smashwords.com/books/view/1665156).
-
-Unfortunately I can't offer a discount on Amazon without giving them exclusive rights to the book 😿.
-
-**Audio book coming soon!**
-
 _What happens when the living and the previously dead fall in love?_
 
 Ten years after a long and brutal war, there is an uneasy peace between the living and the previously dead. Reluctantly reunited families, industries, and governments struggle to keep the world from falling back into bloody chaos.
