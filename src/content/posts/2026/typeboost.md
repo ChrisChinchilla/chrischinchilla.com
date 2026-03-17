@@ -21,7 +21,7 @@ herotext: >-
 
 In this post, I put it through its paces to see how well it performs and how much it improves my productivity.
 
-## How Does TypeBoost Work?
+## How does TypeBoost work?
 
 TypeBoost sits in your macOS menu bar and activates via a global keyboard shortcut. Select some text, press *Control + Space*, and a small prompt picker appears. Choose a prompt, and TypeBoost sends your text to an AI model, then replaces the selected text with the result.
 
@@ -29,7 +29,7 @@ It ships with a range of default prompts, including options for grammar fixing, 
 
 Beneath the surface, TypeBoost passes your text and a system prompt to an external AI model. Older tools did similar things when they first appeared, and other applications have since absorbed most of those features. This pits TypeBoost against some stiff competition.
 
-## Installation and Setup
+## Installation and setup
 
 On first launch, TypeBoost walks you through permissions. You need to grant microphone access, accessibility access, and automation access. These are generally standard requirements for any tool that interacts with other applications.
 
@@ -63,7 +63,7 @@ Voice input switches between text manipulation and a more direct capture mode, w
 
 ## Limitations
 
-The Electron foundation has a real impact on the experience. Features like macOS services and sharing, which many Mac-native apps expose for similar text manipulation tasks, can work in Electron apps, but often aren't added. The prompt picker panel also looks and behaves like a web interface rather than a native macOS popover, which is noticeable, but I acknowledge is a "me problem".
+The Electron foundation has a real impact on the experience. Features like macOS services and sharing, which many Mac-native apps expose for similar text manipulation tasks, can work in Electron apps, but often aren't added. The prompt picker panel also looks and behaves like a web interface rather than a native macOS popover, which is noticeable, but I acknowledge it's a "me problem".
 
 The prompt selection list is small and needs to be taller. With more prompts loaded, scrolling through them becomes fiddly.
 
