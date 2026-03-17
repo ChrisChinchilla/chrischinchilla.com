@@ -1,20 +1,20 @@
 ---
-title: Is TypeBoost the AI Personal Assistant You've Been Looking For?
-publishDate: 2026-03-04T00:00:00.000Z
+title: Is TypeBoost the AI personal assistant you've been looking for?
+publishDate: 2026-03-17T00:00:00.000Z
 author: Chris Ward
 categories:
   - writing
 tags:
   - AI
-  - agentic browsers
-  - Opera
-  - Browsers
-image: articles/opera-chinchilla.png
+  - Productivity
+  - macOS
+  - Assistant
+image: articles/typeboost-chinchilla.png
 summary: >-
-  Opera Neon is a new browser with an AI assistant that interacts with web pages on your behalf, completing tasks that typically require manual clicking, typing, and navigation. In this post, I test the browser with real tasks to see how well it performs.
-heroimage: articles/opera-chinchilla.png
+  TypeBoost is an AI personal assistant that helps boost writing productivity by allowing you to apply prompts to text in any application. In this post, I test the tool to see how well it performs and how much it improves my productivity.
+heroimage: articles/typeboost-chinchilla.png
 herotext: >-
-  Opera Neon's AI assistant helps automate web tasks, making browsing more efficient.
+  TypeBoost's AI assistant helps automate text manipulation, making writing more efficient.
 ---
 
 [TypeBoost](https://www.typeboost.ai/) is one of a growing number of tools that use AI to boost writing productivity. Select text in any application, hit a keyboard shortcut, and apply a prompt, such as making text more formal, translating it, or shortening it, directly in place. It supports voice input as well as text, and claims to work system-wide across any text field.
@@ -46,10 +46,10 @@ I tried selecting some text in a web browser and triggering the prompt picker. T
 The workaround is copying the result manually. That works, but it removes some appeal of an inline tool.
 
 ### Text manipulation in Obsidian
-<!-- TODO: Check this was correct -->
+
 The next test used [Obsidian](https://obsidian.md/), also an Electron app, which makes it an interesting case. I selected a chunk of notes and triggered TypeBoost. This time, text replacement worked. I tried the voice brain dump to structure prompt on a rambling list of ideas. The result was reasonable, though it condensed rather aggressively.
 
-I also tried working with a file that contained images mixed in with text. TypeBoost handled the text portions correctly and ignored the images, which is sensible behaviour.
+I also tried working with a file that contained images mixed in with text. TypeBoost handled the text portions correctly and ignored the images, which I guess makes sense.
 
 ### Translating in Apple Notes
 
