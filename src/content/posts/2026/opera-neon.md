@@ -27,15 +27,15 @@ The browser maintains Opera's existing features, including a VPN, ad blocker, an
 
 The interface offers different modes: chat for conversations, do for task execution, research for gathering information, and make for content creation. You need an Opera account to access these AI features, which Opera currently offers as a paid service with trial periods available.
 
-## Installation and Setup
+## Installation and setup
 
 I downloaded and installed Opera Neon on macOS. The installation process matches Opera's standard browser setup once you have enrolled for an Opera account and subscription. After launching, a side panel displays options for different modes, though switching between them often caused the chat context to vanish, which I guess makes sense, but there was no hint that this would happen. As you might expect, the assistant shows its progress through visual overlays on pages and status updates in the sidebar.
 
-## Testing with Real Tasks
+## Testing with real tasks
 
 I ran several real-world tests to understand the assistant's capabilities and limitations.
 
-### Flight Search: Berlin to Malaysia
+### Flight search: Berlin to Malaysia
 
 The first test involved booking a flight. I asked the "do" assistant to find flights from Berlin to Malaysia. The assistant started working through various travel comparison sites.
 
@@ -49,7 +49,7 @@ The experience showed that whilst the assistant can navigate travel sites, date 
 
 One interesting caveat is that Berlin is a poorly served airport, which highlights that no tool, no matter how smart, can solve real world limitations. After considerable time, the assistant did find flight options, though they were essentially the same flights available through normal search. The prices looked reasonable (though some seemed suspiciously cheap), but I had to verify everything myself anyway.
 
-### Guitar Shopping on Reverb
+### Guitar shopping on Reverb
 
 I tested e-commerce functionality by asking the "do" assistant to find and buy a [Yamaha Pacifica electric guitar](https://usa.yamaha.com/products/musical_instruments/guitars_basses/el_guitars/pacifica/index.html). The assistant navigated to Reverb and other music retailers, searching for options.
 
@@ -57,7 +57,7 @@ The assistant found several guitars and even added one to the cart on Reverb. Ho
 
 The interesting aspect here was watching it compare prices across different sites, though the results were mostly what I'd find through normal price comparison tools. The assistant opened multiple tabs and navigated between them, but the time saved was questionable compared to doing this manually. Also what it considered "cheapest" was interesting, it picked a guitar based in the USA, which was cheaper than the same model available in Germany, but the shipping costs and import taxes would likely make it more expensive overall. As everything with AI, you need to be specific with prompts.
 
-### Research Task: Compiling Reviews
+### Research task: Compiling reviews
 
 I tested the research mode by asking the "research" assistant to compile reviews about text editors to form the basis of an article. This triggered a different interface showing "researcher thinking" and "researcher summarizing to supervisor" messages.
 
@@ -65,7 +65,7 @@ The assistant searched for information and compiled results, eventually producin
 
 The research mode took considerable time, running for a long time before producing results.
 
-### Analysing My Own Content
+### Analysing my own content
 
 I tested whether the assistant could analyse a specific page from my blog and asked the "make" assistant to create a presentation based on the content.
 
@@ -73,7 +73,7 @@ Here the assistant showed some confusion. It pulled images from my blog but not 
 
 The assistant correctly identified the main text editors I'd reviewed and included honourable mentions, so it did extract the right information. The formatting and structure needed work though, and again, the content was overly verbose.
 
-## Interface and Context Issues
+## Interface and context issues
 
 Testing revealed several interface quirks. The assistant occasionally switched to German unexpectedly, presumably based on location rather than language preference. This created confusion until I noticed and switched back.
 
@@ -83,13 +83,13 @@ Running multiple tasks simultaneously was possible but confusing. I tested havin
 
 Different modes also presented different interfaces. Sometimes the sidebar showed controls, other times a full-page interface appeared. This inconsistency made it unclear which mode I was actually using at times.
 
-## The Date Picker Problem
+## The date picker problem
 
 Date pickers emerged as the assistant's biggest weakness, which is odd as "booking a trip" is often the example companies use to demonstrate assistant tools. Almost every travel site uses custom date picker interfaces, often showing price calendars or date ranges in visually complex ways. These interfaces make sense to humans who can quickly scan and select, but the assistant consistently struggled.
 
 The assistant would correctly identify the date picker element but couldn't reliably select dates. It would click wrong elements, select the same date for departure and return, or simply get stuck trying to interact with the calendar interface.
 
-## When Opera Neon Makes Sense
+## When Opera Neon makes sense
 
 Opera Neon works best for research tasks where you want information compiled from multiple sources. The research mode can gather information whilst you work on something else, though you'll need to clean up the verbose output.
 
@@ -99,7 +99,7 @@ Price comparison across e-commerce sites shows promise, though it's not dramatic
 
 Opera Neon has limited utility for complex web applications, booking systems with custom interfaces, or tasks requiring subjective judgement. The assistant works best with standard, predictable web interfaces.
 
-## Should You Use Opera Neon?
+## Should you use Opera Neon?
 
 Like all agentic browsers, Opera Neon demonstrates interesting possibilities for AI-assisted browsing, but the technology needs refinement. It works for straightforward tasks but struggles with common web interface patterns like date pickers.
 
