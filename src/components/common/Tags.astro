@@ -1,5 +1,5 @@
 ---
-import { getPermalink } from '~/utils/permalinks';
+import { getPermalink, cleanSlug } from '~/utils/permalinks';
 
 import { BLOG } from '~/config.mjs';
 import type { Post } from '~/types';
@@ -22,7 +22,7 @@ const { tags, class: className = 'text-sm', tagBase } = Astro.props;
             tag
           ) : (
             <a
-              href={tagBase ? `/${tagBase}/${tag}` : getPermalink(tag, 'tag')}
+              href={tagBase ? getPermalink(`${tagBase}/${cleanSlug(tag)}`, 'page') : getPermalink(cleanSlug(tag), 'tag')}
               class="text-muted dark:text-slate-300 hover:text-primary dark:hover:text-gray-200"
             >
               {tag}
