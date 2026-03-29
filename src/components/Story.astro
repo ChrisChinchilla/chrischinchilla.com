@@ -1,7 +1,6 @@
 ---
 import ContentImage from '~/components/common/ContentImage.astro';
 import Tags from '~/components/common/Tags.astro';
-import defaultStoryImage from '../assets/images/defaults/blog-chinchilla.jpg'
 import { formatShortDate } from '~/utils/utils';
 
 import type { CollectionEntry } from 'astro:content';
@@ -43,7 +42,6 @@ var displayTitle = story.data.publication_title || story.data.title;
             <a
               class="hover:text-primary transition ease-in duration-200"
               href={url}
-              rel="canonical"
             >
               {displayTitle}
             </a>
@@ -66,10 +64,8 @@ var displayTitle = story.data.publication_title || story.data.title;
   {
     story.data.tags && Array.isArray(story.data.tags) ? (
       <footer class="mt-2">
-        <Tags tags={story.data.tags} />
+        <Tags tags={story.data.tags} tagBase="stories/tag" />
       </footer>
-    ) : (
-      <Fragment />
-    )
+    ) : null
   }
 </article>

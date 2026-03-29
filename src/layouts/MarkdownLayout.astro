@@ -29,8 +29,8 @@ const meta: MetaSEO = {
   openGraph: {
     type: 'article',
     article: {
-      publishedTime: frontmatter?.publishDate,
-      modifiedTime: frontmatter?.modifiedDate || frontmatter?.publishDate,
+      publishedTime: frontmatter?.publishDate || frontmatter?.date,
+      modifiedTime: frontmatter?.modifiedDate || frontmatter?.publishDate || frontmatter?.date,
       authors: frontmatter?.author ? [frontmatter.author] : undefined,
       tags: frontmatter?.tags,
       section: frontmatter?.categories?.[0],

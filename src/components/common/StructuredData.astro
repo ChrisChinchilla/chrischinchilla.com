@@ -2,7 +2,7 @@
 import { SITE } from '~/config.mjs';
 
 export interface Props {
-  type?: 'Article' | 'BlogPosting' | 'Person' | 'Organization' | 'WebSite';
+  type?: 'Article' | 'BlogPosting' | 'CreativeWork' | 'Person' | 'Organization' | 'WebSite';
   data?: any;
 }
 
@@ -102,9 +102,42 @@ const generateWebSiteSchema = () => {
   };
 };
 
+const generateCreativeWorkSchema = (data: any) => {
+  const schema: any = {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    name: data.title,
+    description: data.description || data.summary,
+    author: {
+      '@type': 'Person',
+      name: data.author || SITE.name,
+      url: SITE.origin,
+    },
+    datePublished: data.publishDate || data.date,
+    dateModified: data.modifiedDate || data.publishDate || data.date,
+    url: data.canonical || new URL(Astro.url.pathname, SITE.origin).toString(),
+  };
+
+  if (data.image) {
+    schema['image'] = typeof data.image === 'string'
+      ? data.image.startsWith('http')
+        ? data.image
+        : new URL(data.image, SITE.origin).toString()
+      : data.image;
+  }
+
+  if (data.tags && Array.isArray(data.tags)) {
+    schema['keywords'] = data.tags.join(', ');
+  }
+
+  return schema;
+};
+
 let schema;
 if (type === 'Article' || type === 'BlogPosting') {
   schema = generateArticleSchema(data);
+} else if (type === 'CreativeWork') {
+  schema = generateCreativeWorkSchema(data);
 } else if (type === 'Person') {
   schema = generatePersonSchema();
 } else if (type === 'Organization') {
