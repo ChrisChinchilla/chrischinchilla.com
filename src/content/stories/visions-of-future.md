@@ -3,7 +3,7 @@ date: 2023-02-06
 title: "Visions of Future"
 summary: "Cthulhu receives a deeply unsettling vision — not of apocalyptic triumph, but of a plan that was never going to work — and is forced to confront an existential mid-aeons career crisis."
 tags: ["fiction", "humor", "cosmic", "fantasy"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

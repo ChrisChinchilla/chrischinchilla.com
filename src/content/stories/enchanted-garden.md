@@ -3,7 +3,7 @@ date: 2023-02-25
 title: "Enchanted Garden"
 summary: "Yasmin tends a beloved garden with one unsettling corner she has never been able to cultivate — a permanently shadowed patch of shifting shapes she has quietly learned to leave alone."
 tags: ["fiction", "supernatural", "dark"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

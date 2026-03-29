@@ -3,7 +3,7 @@ date: 2023-02-25
 title: "Moving Faster Than Light"
 summary: "David Bowie and H.G. Wells take a faster-than-light joyride through space in a steam-powered ship, trading quips and setting a course for Mars."
 tags: ["fiction", "scifi", "humor", "adventure"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

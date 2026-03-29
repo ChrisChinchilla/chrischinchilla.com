@@ -3,7 +3,7 @@ date: 2023-02-14
 title: "Odd Nocturnal Ritual"
 summary: "The townsfolk of a coastal village have long ignored the strange nightly walks of cantankerous Ol' Perwiddle — until one bold young thief follows him to the beach and witnesses something she cannot explain."
 tags: ["fiction", "horror", "supernatural", "folklore"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

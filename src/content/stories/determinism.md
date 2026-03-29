@@ -3,7 +3,7 @@ date: 2023-02-18
 title: "Determinism"
 summary: "A mysterious website offers vague prophecies about your future — and Morris discovers that knowing what's coming is entirely useless when you have no way to change it."
 tags: ["fiction", "scifi", "humor", "philosophical"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

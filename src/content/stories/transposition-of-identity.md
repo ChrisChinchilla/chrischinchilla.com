@@ -3,7 +3,7 @@ date: 2023-02-18
 title: "Transposition of Identity"
 summary: "A narrator casually recounts life with their homemade 'meat puppet' — an eerie physical clone they mostly use for company at bars and dancing — while cheerfully sidestepping any ethical questions."
 tags: ["fiction", "scifi", "humor", "philosophical"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

@@ -3,7 +3,7 @@ date: 2023-02-15
 title: "Ancient Stairs"
 summary: "On his deathbed, legendary dwarven warrior Grangal is haunted by the one quest he fled from — a crumbling castle staircase where a Lich's nightmare curse brought him to his knees in guilt and shame."
 tags: ["fiction", "fantasy", "horror", "dark"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

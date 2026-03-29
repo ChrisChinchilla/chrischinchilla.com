@@ -3,7 +3,7 @@ date: 2023-03-04
 title: "Museum of Antiquities"
 summary: "A far-future museum guide leads a crowd through the baffling mysteries of early 21st-century technology, culminating in the most horrifying revelation of all: people had to talk to each other."
 tags: ["fiction", "scifi", "humor", "satire"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

@@ -3,7 +3,7 @@ date: 2023-03-04
 title: "Invisible Follower"
 summary: "Walking home through a rain-soaked alley, a person becomes aware of unseen footsteps perfectly matching their own — and must decide whether to flee or face whatever is there."
 tags: ["fiction", "supernatural", "suspense"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

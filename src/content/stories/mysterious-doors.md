@@ -3,7 +3,7 @@ date: 2023-02-12
 title: "Mysterious Doors"
 summary: "Friedre wages an escalating battle of wills against a door that refuses to stay shut, resorting to increasingly drastic measures to defeat her wooden adversary."
 tags: ["fiction", "humor", "absurdist"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

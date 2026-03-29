@@ -3,7 +3,7 @@ date: 2023-02-06
 title: "House of Horror"
 summary: "A legendary house in an ancient city has swallowed every visitor who dared enter — and now a plucky young traveller, spurred on by her peers and an unrequited love, pushes open the door."
 tags: ["fiction", "horror", "fantasy", "suspense"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

@@ -3,7 +3,7 @@ date: 2023-02-28
 title: "Happenings in Interval"
 summary: "A time-stopping thief slips between the ticks of a frozen party, helping themselves to valuables and mischief before stepping back through a tear in time — never to see the chaos they leave behind."
 tags: ["fiction", "supernatural", "scifi", "humor"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

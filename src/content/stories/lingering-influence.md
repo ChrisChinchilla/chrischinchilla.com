@@ -3,7 +3,7 @@ date: 2023-02-06
 title: "Lingering Influence"
 summary: "A self-declared atheist spends a night on the couch of a friend's 'murder house', musing on how we confront the dark history of the places we inhabit — and wakes utterly untroubled."
 tags: ["fiction", "supernatural", "philosophical", "humor"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

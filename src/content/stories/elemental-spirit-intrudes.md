@@ -3,7 +3,7 @@ date: 2023-02-10
 title: "Elemental Spirit Intrudes"
 summary: "On her first day as a dungeon cleaner, goblin Azravel gets an earful from her veteran colleague Grengel about the particular misery of cleaning up after elemental spirits."
 tags: ["fiction", "fantasy", "humor"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

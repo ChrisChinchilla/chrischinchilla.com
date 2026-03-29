@@ -3,7 +3,7 @@ date: 2023-02-23
 title: "Steepled Town"
 summary: "A battle-hardened army camps on the eve of their assault on a great walled city, drinking and gambling as their officers contemplate the uncertain fate awaiting them at dawn."
 tags: ["fiction", "fantasy", "dark", "historical"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"

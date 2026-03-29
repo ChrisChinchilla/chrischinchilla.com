@@ -3,7 +3,7 @@ date: 2023-03-01
 title: "The Daughter of Death"
 summary: "Moments after a fatal car accident, a man finds himself in darkness where a quietly confident woman in impossible black approaches to guide him — with patient answers — to whatever comes next."
 tags: ["fiction", "supernatural", "dark", "philosophical"]
-image: "./path/to/story-cover.jpg"
+image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
 # publication_url: "https://example.com/published-story"
