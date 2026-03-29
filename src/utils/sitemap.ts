@@ -20,6 +20,14 @@ export function customizeSitemapItem(item: any) {
     // Blog index
     item.priority = 0.9;
     item.changefreq = 'daily';
+  } else if (path.startsWith('/stories/') && !path.includes('/tag/') && !path.includes('/page/')) {
+    // Individual stories
+    item.priority = 0.7;
+    item.changefreq = 'monthly';
+  } else if (path === '/stories' || path === '/stories/') {
+    // Stories index
+    item.priority = 0.8;
+    item.changefreq = 'weekly';
   } else if (path.startsWith('/podcast/')) {
     item.priority = 0.8;
     item.changefreq = 'monthly';
