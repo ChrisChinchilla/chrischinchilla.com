@@ -1,17 +1,17 @@
 ---
 date: 2023-02-02
-title: “Return of Body”
-summary: “A professional body-swap operator rents their consciousness to a rich teenager for a night out, then must navigate 24 hours inside an unfamiliar body while hoping the customer returns theirs on time.”
-tags: [“fiction”, “scifi”, “supernatural”, “humor”]
+title: "Return of Body"
+summary: "A professional body-swap operator rents their consciousness to a rich teenager for a night out, then must navigate 24 hours inside an unfamiliar body while hoping the customer returns theirs on time."
+tags: ["fiction", "scifi", "supernatural", "humor"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere
-# publication_url: “https://example.com/published-story”
-# publication_title: “The Story as Published Elsewhere”
+# publication_url: "https://example.com/published-story"
+# publication_title: "The Story as Published Elsewhere"
 
 # Optional: For Hero carousel
-# herotext: “An exciting new story about adventures in space”
-# heroimage: “./path/to/hero-image.jpg”
+# herotext: "An exciting new story about adventures in space"
+# heroimage: "./path/to/hero-image.jpg"
 ---
 
 “You’ll bring it back by the end of the day, yeah?” I asked nervously. This wasn’t my first time, but the last time had left me with a queasy feeling, rough around the edges, and not quite myself.
