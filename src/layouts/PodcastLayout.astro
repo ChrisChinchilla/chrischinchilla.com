@@ -80,7 +80,14 @@ const breadcrumbItems = [
             <div class="my-2" set:html={truncateMarkdown(podcast.description, { limit: 2000, ellipsis: true })} />
             <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading">Listen and download</h2>
             {podcastID ?
-            <iframe height="200px" width="100%" style="border: none; overflow: hidden;" seamless src=`https://player.simplecast.com/${podcastID}`></iframe>
+            <iframe
+              title={`Simplecast audio player for podcast episode: ${episodeTitle}`}
+              height="200px"
+              width="100%"
+              style="border: none; overflow: hidden;"
+              seamless
+              src={`https://player.simplecast.com/${podcastID}`}
+            ></iframe>
             : <audio controls src={podcast.enclosure.att_url} preload="none"></audio>
           }
           </div>
