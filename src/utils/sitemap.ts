@@ -28,6 +28,13 @@ export function customizeSitemapItem(item: any) {
     // Individual stories
     item.priority = 0.7;
     item.changefreq = 'monthly';
+  } else if (path === '/videos' || path === '/videos/') {
+    item.priority = 0.8;
+    item.changefreq = 'weekly';
+  } else if (path.startsWith('/videos/') && !/\/\d+$/.test(path)) {
+    // Individual video pages (not paginated list)
+    item.priority = 0.7;
+    item.changefreq = 'monthly';
   } else if (path.startsWith('/podcast/')) {
     item.priority = 0.8;
     item.changefreq = 'monthly';

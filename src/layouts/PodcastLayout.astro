@@ -5,34 +5,31 @@ import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import ContentImage from '~/components/common/ContentImage.astro';
-import { type CollectionEntry } from 'astro:content';
+import StructuredData from '~/components/common/StructuredData.astro';
 import truncateMarkdown from 'markdown-truncate';
-import { MetaSEO } from '~/types';
-
-export interface Props {}
-
-const { frontmatter } = Astro.props;
+import type { MetaSEO } from '~/types';
+import { SITE } from '~/config.mjs';
 
 export interface Props {
-  podcast: CollectionEntry<'podcasts'>;
+  podcast: any;
 }
-const { podcast, episodeData } = Astro.props;
-const urlParams = new URLSearchParams(podcast.enclosure.att_url);
-const podcastID = urlParams.get('awEpisodeId')
-const meta: MetaSEO = {
-  title: frontmatter?.title,
-  image: podcast.image.att_href,
-  // TODO: Switch to using manual FM override
-  description: truncateMarkdown(podcast.description, { limit: 400, ellipsis: true })
-};
+
+const { podcast } = Astro.props;
 
 // TODO: For some reason CS podcast has duplicate titles?
-let episodeTitle = '';
-if (podcast.title.length === 2) {
-  episodeTitle = podcast.title[0];
-} else {
-  episodeTitle = podcast.title;
-}
+const episodeTitle = Array.isArray(podcast.title) ? podcast.title[0] : podcast.title;
+
+const urlParams = new URLSearchParams(podcast.enclosure.att_url);
+const podcastID = urlParams.get('awEpisodeId')
+const canonical = new URL(Astro.url.pathname, SITE.origin).toString();
+const meta: MetaSEO = {
+  title: episodeTitle,
+  image: podcast.image?.att_href,
+  // TODO: Switch to using manual FM override
+  description: truncateMarkdown(podcast.description, { limit: 400, ellipsis: true }),
+  canonical,
+  ogType: 'article',
+};
 
 // Generate breadcrumb items
 const breadcrumbItems = [
@@ -43,6 +40,16 @@ const breadcrumbItems = [
 ---
 
 <Layout {meta}>
+  <Fragment slot="head">
+    <StructuredData type="PodcastEpisode" data={{
+      title: episodeTitle,
+      description: podcast.description,
+      image: podcast.image?.att_href,
+      audioUrl: podcast.enclosure?.att_url,
+      pubDate: podcast.pubDate,
+      canonical,
+    }} />
+  </Fragment>
   <Announcement />
   <Header />
   <main>
@@ -73,7 +80,7 @@ const breadcrumbItems = [
             <div class="my-2" set:html={truncateMarkdown(podcast.description, { limit: 2000, ellipsis: true })} />
             <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading">Listen and download</h2>
             {podcastID ?
-            <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src=`https://player.simplecast.com/${podcastID}`></iframe>
+            <iframe height="200px" width="100%" style="border: none; overflow: hidden;" seamless src=`https://player.simplecast.com/${podcastID}`></iframe>
             : <audio controls src={podcast.enclosure.att_url} preload="none"></audio>
           }
           </div>

@@ -2,7 +2,7 @@
 import { SITE } from '~/config.mjs';
 
 export interface Props {
-  type?: 'Article' | 'BlogPosting' | 'CreativeWork' | 'Person' | 'Organization' | 'WebSite';
+  type?: 'Article' | 'BlogPosting' | 'CreativeWork' | 'VideoObject' | 'PodcastEpisode' | 'Person' | 'Organization' | 'WebSite';
   data?: any;
 }
 
@@ -102,6 +102,49 @@ const generateWebSiteSchema = () => {
   };
 };
 
+const generatePodcastEpisodeSchema = (data: any) => {
+  const schema: any = {
+    '@context': 'https://schema.org',
+    '@type': 'PodcastEpisode',
+    name: data.title,
+    description: data.description,
+    datePublished: data.pubDate,
+    url: data.canonical || new URL(Astro.url.pathname, SITE.origin).toString(),
+    author: {
+      '@type': 'Person',
+      name: SITE.name,
+      url: SITE.origin,
+    },
+  };
+
+  if (data.image) {
+    schema['image'] = data.image;
+  }
+
+  if (data.audioUrl) {
+    schema['audio'] = {
+      '@type': 'AudioObject',
+      contentUrl: data.audioUrl,
+    };
+  }
+
+  return schema;
+};
+
+const generateVideoObjectSchema = (data: any) => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name: data.title,
+    description: data.description,
+    thumbnailUrl: data.thumbnailUrl,
+    uploadDate: data.uploadDate,
+    embedUrl: data.videoId ? `https://www.youtube.com/embed/${data.videoId}` : undefined,
+    contentUrl: data.videoId ? `https://www.youtube.com/watch?v=${data.videoId}` : undefined,
+    url: data.canonical || new URL(Astro.url.pathname, SITE.origin).toString(),
+  };
+};
+
 const generateCreativeWorkSchema = (data: any) => {
   const schema: any = {
     '@context': 'https://schema.org',
@@ -133,9 +176,13 @@ const generateCreativeWorkSchema = (data: any) => {
   return schema;
 };
 
-let schema;
+let schema: any;
 if (type === 'Article' || type === 'BlogPosting') {
   schema = generateArticleSchema(data);
+} else if (type === 'PodcastEpisode') {
+  schema = generatePodcastEpisodeSchema(data);
+} else if (type === 'VideoObject') {
+  schema = generateVideoObjectSchema(data);
 } else if (type === 'CreativeWork') {
   schema = generateCreativeWorkSchema(data);
 } else if (type === 'Person') {
@@ -148,5 +195,5 @@ if (type === 'Article' || type === 'BlogPosting') {
 ---
 
 {schema && (
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
 )}
