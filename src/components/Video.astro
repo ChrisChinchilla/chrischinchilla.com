@@ -3,7 +3,8 @@ import { YouTube } from "@astro-community/astro-embed-youtube";
 import { slugify } from '~/utils/slugify';
 
 const { video } = Astro.props;
-var url = `/videos/${slugify(video.snippet.title)}`;
+const videoId = video.snippet.resourceId?.videoId;
+var url = `/videos/${slugify(video.snippet.title)}-${videoId}`;
 
 // Extract first two paragraphs from description
 const paragraphs = video.snippet.description

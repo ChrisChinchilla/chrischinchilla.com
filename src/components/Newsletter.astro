@@ -1,7 +1,6 @@
 ---
 import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
-import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg';
 import { slugify } from '~/utils/slugify';
 import { formatShortDate } from '~/utils/utils';
 
@@ -34,7 +33,7 @@ const idOfTitle = slugify(newsletter.data.title);
       >
         <a
           class="hover:text-primary transition ease-in duration-200"
-          href=`newsletter/${newsletter.id}`
+          href=`/newsletter/${newsletter.id}`
           rel="canonical"
         >
           {newsletter.data.title}</a
