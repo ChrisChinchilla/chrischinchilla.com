@@ -11,7 +11,17 @@ import type { MetaSEO } from '~/types';
 import { SITE } from '~/config.mjs';
 
 export interface Props {
-  podcast: any;
+  podcast: {
+    title: string | string[];
+    enclosure: {
+      att_url: string;
+    };
+    image?: {
+      att_href?: string;
+    } | null;
+    description: string;
+    pubDate?: string;
+  };
 }
 
 const { podcast } = Astro.props;
