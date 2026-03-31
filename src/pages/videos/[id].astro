@@ -23,10 +23,15 @@ export async function getStaticPaths() {
     nextPageToken = data.nextPageToken || null;
   } while (nextPageToken);
 
-  return allVideos.map((video) => ({
-    params: { id: slugify(video.snippet.title) },
-    props: { video },
-  }));
+  return allVideos.map((video) => {
+    const slug = slugify(video.snippet.title);
+    const videoId = video?.snippet?.resourceId?.videoId;
+
+    return {
+      params: { id: `${slug}-${videoId}` },
+      props: { video },
+    };
+  });
 }
 
 const { video } = Astro.props;
