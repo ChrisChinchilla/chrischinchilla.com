@@ -102,13 +102,23 @@ const generateWebSiteSchema = () => {
   };
 };
 
+const toIsoDateString = (value: any): string | undefined => {
+  if (!value) return undefined;
+  const date = new Date(value);
+  if (isNaN(date.getTime())) {
+    return undefined;
+  }
+  return date.toISOString();
+};
+
 const generatePodcastEpisodeSchema = (data: any) => {
   const schema: any = {
     '@context': 'https://schema.org',
     '@type': 'PodcastEpisode',
     name: data.title,
     description: data.description,
-    datePublished: data.pubDate,
+    // Normalize datePublished to ISO-8601 when possible to satisfy structured data guidelines
+    datePublished: toIsoDateString(data.pubDate) ?? data.pubDate,
     url: data.canonical || new URL(Astro.url.pathname, SITE.origin).toString(),
     author: {
       '@type': 'Person',
