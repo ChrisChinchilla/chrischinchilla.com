@@ -1,0 +1,40 @@
+---
+import VideoLayout from '~/layouts/VideoLayout.astro';
+import { slugify } from '~/utils/slugify';
+
+export async function getStaticPaths() {
+  const playlistId = 'PL1fnzsSshABw25W5Qscxw_gQII_MlCoOS';
+  const apiKey = import.meta.env.GOOGLE_API;
+  let allVideos = [];
+  let nextPageToken = null;
+
+  do {
+    const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}${
+      nextPageToken ? `&pageToken=${nextPageToken}` : ''
+    }`;
+
+    const response = await fetch(url);
+    const data = await response.json();
+
+    if (data.items) {
+      allVideos = allVideos.concat(data.items);
+    }
+
+    nextPageToken = data.nextPageToken || null;
+  } while (nextPageToken);
+
+  return allVideos.map((video) => {
+    const slug = slugify(video.snippet.title);
+    const videoId = video?.snippet?.resourceId?.videoId;
+
+    return {
+      params: { id: `${slug}-${videoId}` },
+      props: { video },
+    };
+  });
+}
+
+const { video } = Astro.props;
+---
+
+<VideoLayout {video} />
