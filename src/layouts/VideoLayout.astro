@@ -35,13 +35,17 @@ function linkifyDescription(text: string, videoId: string): string {
     .replace(/>/g, '&gt;');
   return escaped
     .replace(/\n/g, '<br>')
-    .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>')
+    .replace(/(https?:\/\/[^\s<]+)/g, (match) => {
+      const safeHref = match.replace(/"/g, '&quot;');
+      return `<a href="${safeHref}" target="_blank" rel="noopener noreferrer">${match}</a>`;
+    })
     .replace(/\b(\d{1,2}:\d{2}(?::\d{2})?)\b/g, (match) => {
       const parts = match.split(':').map(Number);
       const seconds = parts.length === 3
         ? parts[0] * 3600 + parts[1] * 60 + parts[2]
         : parts[0] * 60 + parts[1];
-      return `<a href="https://youtu.be/${videoId}?t=${seconds}" target="_blank" rel="noopener noreferrer">${match}</a>`;
+      const safeVideoId = String(videoId).replace(/"/g, '&quot;');
+      return `<a href="https://youtu.be/${safeVideoId}?t=${seconds}" target="_blank" rel="noopener noreferrer">${match}</a>`;
     });
 }
 
