@@ -4,25 +4,29 @@ import Headline from '~/components/blog/Headline.astro';
 import Story from '~/components/Story.astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
+import { groupTagsBySlug } from '~/utils/permalinks';
 
 export async function getStaticPaths() {
   const allStories = await getCollection('stories');
-  const uniqueTags = [...new Set(allStories.map((story) => story.data.tags).flat())];
+  const allTags = allStories.map((story) => story.data.tags ?? []).flat();
+  const slugToTags = groupTagsBySlug(allTags);
 
-  return uniqueTags.map((tag) => {
-    const filteredStories = allStories.filter((story) => story.data.tags?.includes(tag));
+  return [...slugToTags.entries()].map(([slug, originalTags]) => {
+    const filteredStories = allStories.filter((story) =>
+      story.data.tags?.some((t) => originalTags.has(t))
+    );
+    const displayTag = [...originalTags].sort()[0];
     return {
-      params: { tag },
-      props: { stories: filteredStories },
+      params: { tag: slug },
+      props: { stories: filteredStories, originalTag: displayTag },
     };
   });
 }
 
-const { tag } = Astro.params;
-const { stories } = Astro.props as { stories: CollectionEntry<'stories'>[] };
+const { stories, originalTag } = Astro.props as { stories: CollectionEntry<'stories'>[], originalTag: string };
 const meta = {
-  title: tag,
-  description: `Stories tagged with ${tag}`,
+  title: originalTag,
+  description: `Stories tagged with ${originalTag}`,
   noindex: true,
 };
 ---
