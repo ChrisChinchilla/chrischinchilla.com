@@ -4,19 +4,12 @@ import Headline from '~/components/blog/Headline.astro';
 import Story from '~/components/Story.astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
-import { cleanSlug } from '~/utils/permalinks';
+import { groupTagsBySlug } from '~/utils/permalinks';
 
 export async function getStaticPaths() {
   const allStories = await getCollection('stories');
   const allTags = allStories.map((story) => story.data.tags ?? []).flat();
-
-  // Group original tags by their slugified form to handle mixed casing
-  const slugToTags = new Map<string, Set<string>>();
-  for (const tag of allTags) {
-    const slug = cleanSlug(tag);
-    if (!slugToTags.has(slug)) slugToTags.set(slug, new Set());
-    slugToTags.get(slug)!.add(tag);
-  }
+  const slugToTags = groupTagsBySlug(allTags);
 
   return [...slugToTags.entries()].map(([slug, originalTags]) => {
     const filteredStories = allStories.filter((story) =>

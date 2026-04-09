@@ -28,6 +28,17 @@ export const CLIENT_BASE = cleanSlug(CLIENT?.list?.pathname);
 export const CATEGORY_BASE = cleanSlug(BLOG?.category?.pathname || 'category');
 export const TAG_BASE = cleanSlug(BLOG?.tag?.pathname) || 'tag';
 
+/** Groups raw tags by their slugified form, returning a Map of slug → Set<originalTag>. */
+export const groupTagsBySlug = (tags: string[]): Map<string, Set<string>> => {
+  const slugToTags = new Map<string, Set<string>>();
+  for (const tag of tags) {
+    const slug = cleanSlug(tag);
+    if (!slugToTags.has(slug)) slugToTags.set(slug, new Set());
+    slugToTags.get(slug)!.add(tag);
+  }
+  return slugToTags;
+};
+
 /** */
 export const getCanonical = (path = ''): string | URL => new URL(path, SITE.origin);
 

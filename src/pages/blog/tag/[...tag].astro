@@ -3,20 +3,14 @@ import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
 import Post from '~/components/Post.astro';
 import { getCollection } from 'astro:content';
-import { cleanSlug } from '~/utils/permalinks';
+import { groupTagsBySlug } from '~/utils/permalinks';
+import { BLOG } from '~/config.mjs';
 
 // TODO: Paginate 😱
 export async function getStaticPaths() {
   const allPosts = await getCollection('posts');
   const allTags = allPosts.map((post) => post.data.tags ?? []).flat();
-
-  // Group original tags by their slugified form to handle mixed casing
-  const slugToTags = new Map<string, Set<string>>();
-  for (const tag of allTags) {
-    const slug = cleanSlug(tag);
-    if (!slugToTags.has(slug)) slugToTags.set(slug, new Set());
-    slugToTags.get(slug)!.add(tag);
-  }
+  const slugToTags = groupTagsBySlug(allTags);
 
   return [...slugToTags.entries()].map(([slug, originalTags]) => {
     const filteredPosts = allPosts.filter((post) =>
@@ -34,10 +28,7 @@ const { posts, originalTag } = Astro.props;
 const meta = {
   title: originalTag,
   description: `Blog posts tagged with ${originalTag}`,
-  // canonical: post.canonical || url,
-  // image: await findImage(post.image),
-  // noindex: BLOG?.post?.noindex,
-  // ogType: 'article',
+  noindex: BLOG?.tag?.noindex,
 };
 ---
 
