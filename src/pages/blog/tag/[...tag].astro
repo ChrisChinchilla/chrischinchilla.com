@@ -3,26 +3,37 @@ import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
 import Post from '~/components/Post.astro';
 import { getCollection } from 'astro:content';
+import { cleanSlug } from '~/utils/permalinks';
 
 // TODO: Paginate 😱
 export async function getStaticPaths() {
   const allPosts = await getCollection('posts');
-  const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+  const allTags = allPosts.map((post) => post.data.tags ?? []).flat();
 
-  return uniqueTags.map((tag) => {
-    const filteredPosts = allPosts.filter((post) => post.data.tags?.includes(tag));
+  // Group original tags by their slugified form to handle mixed casing
+  const slugToTags = new Map<string, Set<string>>();
+  for (const tag of allTags) {
+    const slug = cleanSlug(tag);
+    if (!slugToTags.has(slug)) slugToTags.set(slug, new Set());
+    slugToTags.get(slug)!.add(tag);
+  }
+
+  return [...slugToTags.entries()].map(([slug, originalTags]) => {
+    const filteredPosts = allPosts.filter((post) =>
+      post.data.tags?.some((t) => originalTags.has(t))
+    );
+    const displayTag = [...originalTags].sort()[0];
     return {
-      params: { tag },
-      props: { posts: filteredPosts },
+      params: { tag: slug },
+      props: { posts: filteredPosts, originalTag: displayTag },
     };
   });
 }
 
-const { tag } = Astro.params;
-const { posts } = Astro.props;
+const { posts, originalTag } = Astro.props;
 const meta = {
-  title: tag,
-  description: `Blog posts tagged with ${tag}`,
+  title: originalTag,
+  description: `Blog posts tagged with ${originalTag}`,
   // canonical: post.canonical || url,
   // image: await findImage(post.image),
   // noindex: BLOG?.post?.noindex,
