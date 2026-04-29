@@ -40,13 +40,13 @@ const links = await fetch(`https://api.raindrop.io/rest/v1/raindrops/45559645?so
   />
 
   <Content />
-  <ul>
+  <div>
     {
       links.map((link) => (
-        <li class="mb-12 md:mb-20 list-none">
+        <div class="mb-12 md:mb-20">
           <Link link={link} />
-        </li>
+        </div>
       ))
     }
-  </ul>
+  </div>
 </MarkdownPostLayout>

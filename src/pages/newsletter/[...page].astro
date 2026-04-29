@@ -30,15 +30,15 @@ const meta = {
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
-    <ul>
+    <div>
       {
         page.data.map((newsletter) => (
-          <li class="mb-12 md:mb-20">
+          <div class="mb-12 md:mb-20">
             <Newsletter newsletter={newsletter} />
-        </li>
+          </div>
         ))
       }
-    </ul>
+    </div>
     <Pagination
       firstPage={page.url.prev ? '/books' : null}
       previousPage={page.url.prev ? page.url.prev : null}
