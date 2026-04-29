@@ -1,0 +1,57 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import { Pagination } from 'accessible-astro-components';
+import Headline from '~/components/blog/Headline.astro';
+import Gear from '~/components/Gear.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths({ paginate }) {
+  let allGear = await getCollection('gear');
+  allGear = allGear.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+  return paginate(allGear, {
+    pageSize: 25,
+  });
+}
+
+const { page } = Astro.props;
+
+const renderedItems = await Promise.all(
+  page.data.map(async (gear) => {
+    const { Content } = await render(gear);
+    return { gear, Content };
+  })
+);
+
+const meta = {
+  title: 'Gear',
+  description: 'The equipment and tools I use for content creation and music production.',
+};
+---
+
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <div>
+      {
+        renderedItems.map(({ gear, Content }) => (
+          <div class="mb-12 md:mb-20">
+            <Gear gear={gear}>
+              <Content />
+            </Gear>
+          </div>
+        ))
+      }
+    </div>
+    <Pagination
+      firstPage={page.url.prev ? '/gear' : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next ? `/gear/${Math.round(page.total / page.size)}` : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    />
+  </section>
+</Layout>

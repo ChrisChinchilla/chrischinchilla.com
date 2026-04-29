@@ -1,0 +1,57 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import Headline from '~/components/blog/Headline.astro';
+import Gear from '~/components/Gear.astro';
+import { getCollection, render } from 'astro:content';
+import { groupTagsBySlug } from '~/utils/permalinks';
+
+export async function getStaticPaths() {
+  const allGear = await getCollection('gear');
+  const allTags = allGear.map((item) => item.data.tags ?? []).flat();
+  const slugToTags = groupTagsBySlug(allTags);
+
+  return [...slugToTags.entries()].map(([slug, originalTags]) => {
+    const filteredGear = allGear.filter((item) =>
+      item.data.tags?.some((t) => originalTags.has(t))
+    );
+    const displayTag = [...originalTags].sort()[0];
+    return {
+      params: { tag: slug },
+      props: { gearItems: filteredGear, originalTag: displayTag },
+    };
+  });
+}
+
+const { gearItems, originalTag } = Astro.props;
+
+const renderedItems = await Promise.all(
+  gearItems.map(async (gear) => {
+    const { Content } = await render(gear);
+    return { gear, Content };
+  })
+);
+
+const meta = {
+  title: originalTag,
+  description: `Gear tagged with ${originalTag}`,
+};
+---
+
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <div>
+      {
+        renderedItems.map(({ gear, Content }) => (
+          <div class="mb-12 md:mb-20">
+            <Gear gear={gear}>
+              <Content />
+            </Gear>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</Layout>

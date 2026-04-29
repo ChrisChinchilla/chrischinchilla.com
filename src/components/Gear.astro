@@ -1,0 +1,45 @@
+---
+import Tags from '~/components/common/Tags.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  gear: CollectionEntry<'gear'>;
+}
+
+const { gear } = Astro.props;
+---
+
+<article class="mb-6">
+  <header>
+    <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
+      <a class="hover:text-primary transition ease-in duration-200" href={`/gear/${gear.id}`}>
+        {gear.data.title}
+      </a>
+      {gear.data.current && (
+        <span class="ml-2 text-sm bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-0.5 rounded">
+          Current
+        </span>
+      )}
+    </h2>
+  </header>
+  <div class="prose prose-sm sm:prose-base dark:prose-invert mt-4">
+    <slot />
+  </div>
+  {gear.data.affiliate_url && (
+    <p class="mt-4">
+      <a
+        href={gear.data.affiliate_url}
+        class="text-primary hover:underline"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+      >
+        Buy / Learn more →
+      </a>
+    </p>
+  )}
+  {gear.data.tags && Array.isArray(gear.data.tags) && (
+    <footer class="mt-2">
+      <Tags tags={gear.data.tags} tagBase="/gear/tag" />
+    </footer>
+  )}
+</article>

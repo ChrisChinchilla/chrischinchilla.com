@@ -1,0 +1,31 @@
+---
+import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const gearEntries = await getCollection('gear');
+  return gearEntries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Gear', href: '/gear' }}>
+  <Content />
+  {entry.data.affiliate_url && (
+    <p class="mt-6">
+      <a
+        href={entry.data.affiliate_url}
+        class="text-primary hover:underline"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+      >
+        Buy / Learn more →
+      </a>
+    </p>
+  )}
+</MarkdownPostLayout>

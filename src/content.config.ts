@@ -211,6 +211,16 @@ const stories = defineCollection({
     }),
 });
 
+const gear = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/gear' }),
+  schema: z.object({
+    title: z.string(),
+    affiliate_url: z.string().url().optional(),
+    tags: z.array(z.string()).optional(),
+    current: z.boolean().optional(),
+  }),
+});
+
 export const collections = {
   posts: posts,
   clients: clients,
@@ -222,4 +232,5 @@ export const collections = {
   newsletters: newsletters,
   stories: stories,
   supportLinks: supportLinks,
+  gear: gear,
 };
