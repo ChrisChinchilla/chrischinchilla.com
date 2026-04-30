@@ -1,4 +1,4 @@
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import { SITE } from '~/config.mjs';
 
 const origin = SITE.origin;
