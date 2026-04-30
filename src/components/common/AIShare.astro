@@ -65,7 +65,6 @@ const frontmatterBlock = fmLines.join('\n');
     <!-- Copy as Markdown -->
     <button
       id="ai-copy-md"
-      data-frontmatter={frontmatterBlock}
       class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
       role="menuitem"
       title="Copy page as Markdown"
@@ -124,121 +123,135 @@ const frontmatterBlock = fmLines.join('\n');
   </div>
 </div>
 
+<!-- Frontmatter data for copy-as-markdown (avoids HTML attribute mangling of multi-line strings) -->
+<script type="application/json" id="ai-frontmatter-data" set:text={JSON.stringify(frontmatterBlock)}></script>
+
 <script>
-  const toggle = document.getElementById('ai-share-toggle');
-  const menu = document.getElementById('ai-share-menu');
-  const chevron = document.getElementById('ai-share-chevron');
-  const copyBtn = document.getElementById('ai-copy-md');
-  const copyLabel = document.getElementById('ai-copy-md-label');
+  let _aiShareAbort: AbortController | null = null;
 
-  if (toggle && menu && chevron) {
-    toggle.addEventListener('click', () => {
-      const expanded = toggle.getAttribute('aria-expanded') === 'true';
-      toggle.setAttribute('aria-expanded', String(!expanded));
-      menu.classList.toggle('hidden');
-      menu.classList.toggle('flex');
-      chevron.style.transform = expanded ? '' : 'rotate(180deg)';
-    });
+  function initAiShare() {
+    _aiShareAbort?.abort();
+    _aiShareAbort = new AbortController();
+    const signal = _aiShareAbort.signal;
 
-    // Close when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!document.getElementById('ai-share-bar')?.contains(e.target as Node)) {
-        toggle.setAttribute('aria-expanded', 'false');
-        menu.classList.add('hidden');
-        menu.classList.remove('flex');
-        chevron.style.transform = '';
-      }
-    });
-  }
+    const toggle = document.getElementById('ai-share-toggle');
+    const menu = document.getElementById('ai-share-menu');
+    const chevron = document.getElementById('ai-share-chevron');
+    const copyBtn = document.getElementById('ai-copy-md');
+    const copyLabel = document.getElementById('ai-copy-md-label');
 
-  function nodeToMarkdown(node: Node): string {
-    if (node.nodeType === Node.TEXT_NODE) {
-      return node.textContent ?? '';
+    if (toggle && menu && chevron) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        menu.classList.toggle('hidden');
+        menu.classList.toggle('flex');
+        chevron.style.transform = expanded ? '' : 'rotate(180deg)';
+      }, { signal });
+
+      // Close when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!document.getElementById('ai-share-bar')?.contains(e.target as Node)) {
+          toggle.setAttribute('aria-expanded', 'false');
+          menu.classList.add('hidden');
+          menu.classList.remove('flex');
+          chevron.style.transform = '';
+        }
+      }, { signal });
     }
-    if (node.nodeType !== Node.ELEMENT_NODE) return '';
 
-    const el = node as HTMLElement;
-    const tag = el.tagName.toLowerCase();
-    const children = Array.from(el.childNodes).map(nodeToMarkdown).join('');
+    function nodeToMarkdown(node: Node): string {
+      if (node.nodeType === Node.TEXT_NODE) {
+        return node.textContent ?? '';
+      }
+      if (node.nodeType !== Node.ELEMENT_NODE) return '';
 
-    switch (tag) {
-      case 'a': {
-        const href = el.getAttribute('href') ?? '';
-        return href ? `[${children}](${href})` : children;
+      const el = node as HTMLElement;
+      const tag = el.tagName.toLowerCase();
+      const children = Array.from(el.childNodes).map(nodeToMarkdown).join('');
+
+      switch (tag) {
+        case 'a': {
+          const href = el.getAttribute('href') ?? '';
+          return href ? `[${children}](${href})` : children;
+        }
+        case 'strong': case 'b': return `**${children}**`;
+        case 'em': case 'i': return `*${children}*`;
+        case 'code': return el.closest('pre') ? children : `\`${children}\``;
+        case 'pre': return `\`\`\`\n${el.textContent}\n\`\`\`\n\n`;
+        case 'h1': return `# ${children}\n\n`;
+        case 'h2': return `## ${children}\n\n`;
+        case 'h3': return `### ${children}\n\n`;
+        case 'h4': return `#### ${children}\n\n`;
+        case 'h5': return `##### ${children}\n\n`;
+        case 'h6': return `###### ${children}\n\n`;
+        case 'p': return `${children}\n\n`;
+        case 'br': return `\n`;
+        case 'hr': return `---\n\n`;
+        case 'blockquote': return children.split('\n').map(l => `> ${l}`).join('\n') + '\n\n';
+        case 'ul': return children + '\n';
+        case 'ol': {
+          let i = 0;
+          return Array.from(el.children).map(li => `${++i}. ${nodeToMarkdown(li).replace(/^- /, '')}`).join('\n') + '\n\n';
+        }
+        case 'li': return `- ${children}\n`;
+        case 'img': {
+          const src = el.getAttribute('src') ?? '';
+          const alt = el.getAttribute('alt') ?? '';
+          return `![${alt}](${src})\n\n`;
+        }
+        default: return children;
       }
-      case 'strong': case 'b': return `**${children}**`;
-      case 'em': case 'i': return `*${children}*`;
-      case 'code': return el.closest('pre') ? children : `\`${children}\``;
-      case 'pre': return `\`\`\`\n${el.textContent}\n\`\`\`\n\n`;
-      case 'h1': return `# ${children}\n\n`;
-      case 'h2': return `## ${children}\n\n`;
-      case 'h3': return `### ${children}\n\n`;
-      case 'h4': return `#### ${children}\n\n`;
-      case 'h5': return `##### ${children}\n\n`;
-      case 'h6': return `###### ${children}\n\n`;
-      case 'p': return `${children}\n\n`;
-      case 'br': return `\n`;
-      case 'hr': return `---\n\n`;
-      case 'blockquote': return children.split('\n').map(l => `> ${l}`).join('\n') + '\n\n';
-      case 'ul': return children + '\n';
-      case 'ol': {
-        let i = 0;
-        return Array.from(el.children).map(li => `${++i}. ${nodeToMarkdown(li).replace(/^- /, '')}`).join('\n') + '\n\n';
-      }
-      case 'li': return `- ${children}\n`;
-      case 'img': {
-        const src = el.getAttribute('src') ?? '';
-        const alt = el.getAttribute('alt') ?? '';
-        return `![${alt}](${src})\n\n`;
-      }
-      default: return children;
+    }
+
+    const claudeBtn = document.getElementById('ai-open-claude');
+    if (claudeBtn) {
+      claudeBtn.addEventListener('click', () => {
+        const appUrl = claudeBtn.dataset.appUrl!;
+        const webUrl = claudeBtn.dataset.webUrl!;
+
+        // Try the desktop app via a hidden iframe so we don't navigate away.
+        // If the app is installed it intercepts the claude:// scheme immediately.
+        // After 1.5s with no page-hide event (app focus switch), fall back to web.
+        const iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        document.body.appendChild(iframe);
+        iframe.src = appUrl;
+
+        const fallbackTimer = setTimeout(() => {
+          window.open(webUrl, '_blank', 'noopener,noreferrer');
+          iframe.remove();
+        }, 1500);
+
+        // If the app opened, the browser loses focus — cancel the web fallback
+        window.addEventListener('blur', () => {
+          clearTimeout(fallbackTimer);
+          iframe.remove();
+        }, { once: true });
+      }, { signal });
+    }
+
+    if (copyBtn && copyLabel) {
+      copyBtn.addEventListener('click', async () => {
+        const dataEl = document.getElementById('ai-frontmatter-data');
+        const frontmatter = dataEl ? JSON.parse(dataEl.textContent ?? 'null') ?? '' : '';
+
+        const article = document.querySelector('.prose');
+        const bodyText = article ? nodeToMarkdown(article) : '';
+
+        const markdown = `${frontmatter}\n\n${bodyText}`;
+
+        try {
+          await navigator.clipboard.writeText(markdown);
+          copyLabel.textContent = 'Copied!';
+          setTimeout(() => { copyLabel.textContent = 'Copy as Markdown'; }, 2000);
+        } catch {
+          copyLabel.textContent = 'Failed to copy';
+          setTimeout(() => { copyLabel.textContent = 'Copy as Markdown'; }, 2000);
+        }
+      }, { signal });
     }
   }
 
-  const claudeBtn = document.getElementById('ai-open-claude');
-  if (claudeBtn) {
-    claudeBtn.addEventListener('click', () => {
-      const appUrl = claudeBtn.dataset.appUrl!;
-      const webUrl = claudeBtn.dataset.webUrl!;
-
-      // Try the desktop app via a hidden iframe so we don't navigate away.
-      // If the app is installed it intercepts the claude:// scheme immediately.
-      // After 1.5s with no page-hide event (app focus switch), fall back to web.
-      const iframe = document.createElement('iframe');
-      iframe.style.display = 'none';
-      document.body.appendChild(iframe);
-      iframe.src = appUrl;
-
-      const fallbackTimer = setTimeout(() => {
-        window.open(webUrl, '_blank', 'noopener,noreferrer');
-        iframe.remove();
-      }, 1500);
-
-      // If the app opened, the browser loses focus — cancel the web fallback
-      window.addEventListener('blur', () => {
-        clearTimeout(fallbackTimer);
-        iframe.remove();
-      }, { once: true });
-    });
-  }
-
-  if (copyBtn && copyLabel) {
-    copyBtn.addEventListener('click', async () => {
-      const frontmatter = copyBtn.dataset.frontmatter ?? '';
-
-      const article = document.querySelector('.prose');
-      const bodyText = article ? nodeToMarkdown(article) : '';
-
-      const markdown = `${frontmatter}\n\n${bodyText}`;
-
-      try {
-        await navigator.clipboard.writeText(markdown);
-        copyLabel.textContent = 'Copied!';
-        setTimeout(() => { copyLabel.textContent = 'Copy as Markdown'; }, 2000);
-      } catch {
-        copyLabel.textContent = 'Failed to copy';
-        setTimeout(() => { copyLabel.textContent = 'Copy as Markdown'; }, 2000);
-      }
-    });
-  }
+  document.addEventListener('astro:page-load', initAiShare);
 </script>

@@ -1,20 +1,10 @@
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import { SITE } from '~/config.mjs';
 
 const origin = SITE.origin;
 
 function entryUrl(localPath: string, publicationUrl?: string): string {
   return publicationUrl ?? `${origin}${localPath}`;
-}
-
-async function renderBody(entry: any): Promise<string> {
-  try {
-    const { remarkPluginFrontmatter, ...rest } = await render(entry);
-    // render() gives us the compiled component; extract raw body via the entry
-    return entry.body ?? '';
-  } catch {
-    return '';
-  }
 }
 
 function sectionSeparator(title: string, url: string, date: string, summary?: string): string {
@@ -111,7 +101,7 @@ export const GET = async () => {
     }
   }
 
-  // Books — metadata only, no body to render
+  // Books — metadata + body
   lines.push('# Books', '', '---', '');
   for (const book of sortedBooks) {
     const externalUrl = book.data.publication_url ?? book.data.store_urls?.[0]?.url;
