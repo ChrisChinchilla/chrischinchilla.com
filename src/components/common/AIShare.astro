@@ -7,8 +7,7 @@ export interface Props {
 
 const { url, title, frontmatter } = Astro.props;
 
-const encodedUrl = encodeURIComponent(url);
-const prompt = encodeURIComponent(`Please read and summarise this article: ${url}`);
+const prompt = encodeURIComponent(`Please read and summarise "${title}": ${url}`);
 
 const claudeWebUrl = `https://claude.ai/new?q=${prompt}`;
 const claudeAppUrl = `claude://claude.ai/new?q=${prompt}`;
