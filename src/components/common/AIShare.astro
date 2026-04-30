@@ -14,22 +14,10 @@ const claudeAppUrl = `claude://claude.ai/new?q=${prompt}`;
 const chatgptUrl = `https://chatgpt.com/?q=${prompt}`;
 const geminiUrl = `https://gemini.google.com/app?q=${prompt}`;
 
-// Build frontmatter block for copy-as-markdown
-const fmLines: string[] = ['---'];
-for (const [key, value] of Object.entries(frontmatter)) {
-  if (value === undefined || value === null) continue;
-  if (Array.isArray(value)) {
-    fmLines.push(`${key}:`);
-    for (const item of value) fmLines.push(`  - ${item}`);
-  } else if (value instanceof Date) {
-    fmLines.push(`${key}: ${value.toISOString().split('T')[0]}`);
-  } else {
-    const str = String(value);
-    fmLines.push(`${key}: ${str.includes('\n') ? `|\n  ${str.replace(/\n/g, '\n  ')}` : str}`);
-  }
-}
-fmLines.push('---');
-const frontmatterBlock = fmLines.join('\n');
+// Serialise frontmatter to JSON for safe DOM embedding (avoids HTML entity issues in data attributes)
+const frontmatterJson = JSON.stringify(frontmatter, (_key, value) =>
+  value instanceof Date ? value.toISOString() : value
+);
 ---
 
 <div
@@ -62,6 +50,9 @@ const frontmatterBlock = fmLines.join('\n');
     class="hidden flex-col gap-1 items-end w-52"
     role="menu"
   >
+    <!-- Frontmatter data — JSON avoids HTML entity encoding issues in attributes -->
+    <script id="ai-frontmatter-data" type="application/json" is:inline set:html={frontmatterJson}></script>
+
     <!-- Copy as Markdown -->
     <button
       id="ai-copy-md"
@@ -123,8 +114,6 @@ const frontmatterBlock = fmLines.join('\n');
   </div>
 </div>
 
-<!-- Frontmatter data for copy-as-markdown (avoids HTML attribute mangling of multi-line strings) -->
-<script type="application/json" id="ai-frontmatter-data" set:text={JSON.stringify(frontmatterBlock)}></script>
 
 <script>
   let _aiShareAbort: AbortController | null = null;
@@ -231,10 +220,29 @@ const frontmatterBlock = fmLines.join('\n');
       }, { signal });
     }
 
+    function toYamlFrontmatter(obj: Record<string, unknown>): string {
+      const lines = ['---'];
+      for (const [key, value] of Object.entries(obj)) {
+        if (value === null || value === undefined) continue;
+        if (Array.isArray(value)) {
+          lines.push(`${key}:`);
+          for (const item of value) lines.push(`  - ${item}`);
+        } else if (typeof value === 'string' && (value.includes('\n') || value.includes(':'))) {
+          lines.push(`${key}: |`);
+          for (const line of value.split('\n')) lines.push(`  ${line}`);
+        } else {
+          lines.push(`${key}: ${value}`);
+        }
+      }
+      lines.push('---');
+      return lines.join('\n');
+    }
+
     if (copyBtn && copyLabel) {
       copyBtn.addEventListener('click', async () => {
         const dataEl = document.getElementById('ai-frontmatter-data');
-        const frontmatter = dataEl ? JSON.parse(dataEl.textContent ?? 'null') ?? '' : '';
+        const raw = dataEl ? JSON.parse(dataEl.textContent ?? '{}') : {};
+        const frontmatter = toYamlFrontmatter(raw);
 
         const article = document.querySelector('.prose');
         const bodyText = article ? nodeToMarkdown(article) : '';
