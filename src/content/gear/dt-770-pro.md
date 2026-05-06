@@ -1,6 +1,7 @@
 ---
 title: DT 770 Pro
 affiliate_url: https://amzn.to/4e3aoBt
+current: true
 tags:
   - Audio
 ---

@@ -1,6 +1,7 @@
 ---
-title: Dummy Battery (Lumix G7)
+title: Dummy camera battery
 affiliate_url: https://amzn.to/4e2i3jw
+current: true
 tags:
   - Camera Setup
 ---

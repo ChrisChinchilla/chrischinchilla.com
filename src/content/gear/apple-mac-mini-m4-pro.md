@@ -1,8 +1,9 @@
 ---
 title: Apple Mac Mini M4 Pro
 affiliate_url: https://www.amazon.de/s?k=Apple+Mac+Mini+M4+Pro
+current: true
 tags:
   - Desk and Streaming Setup
 ---
 
-The brains of the operation is an **Apple Mac Mini M4 Pro** — Apple's compact desktop powerhouse. The M4 Pro chip offers exceptional multi-core CPU and GPU performance in a tiny footprint, making it ideal for video editing, music production, and software development without the bulk of a tower.
+As you can see, I have a lot of gear, which use a lot of USB ports. For a while I used an M1 macBook Pro, but plugging it in and out of the hub/monitors I use was annoying. For music work I also have gigabytes of sample libraries and plugin data on an external drive. I liked the idea of keeping it all in one place, and I am pretty happy with the setup so far.

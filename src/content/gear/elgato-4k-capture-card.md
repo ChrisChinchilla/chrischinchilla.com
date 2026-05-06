@@ -1,6 +1,7 @@
 ---
 title: Elgato Cam Link 4K
 affiliate_url: https://amzn.to/3VjGbGO
+current: true
 tags:
   - Camera Setup
   - Desk and Streaming Setup
