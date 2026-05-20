@@ -1,7 +1,7 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
@@ -63,10 +63,6 @@ export default defineConfig({
       },
     }),
     
-    tailwind({
-      applyBaseStyles: false,
-    }),
-    
     sitemap({
       serialize: customizeSitemapItem,
     }),
@@ -99,6 +95,7 @@ export default defineConfig({
   },
   
   vite: {
+    plugins: [tailwindcss()],
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src'),

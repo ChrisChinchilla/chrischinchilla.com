@@ -1,0 +1,265 @@
+---
+export interface Props {
+  url: string;
+  title: string;
+  frontmatter: Record<string, unknown>;
+}
+
+const { url, title, frontmatter } = Astro.props;
+
+const prompt = encodeURIComponent(`Please read and summarise "${title}": ${url}`);
+
+const claudeWebUrl = `https://claude.ai/new?q=${prompt}`;
+const claudeAppUrl = `claude://claude.ai/new?q=${prompt}`;
+const chatgptUrl = `https://chatgpt.com/?q=${prompt}`;
+const geminiUrl = `https://gemini.google.com/app?q=${prompt}`;
+
+// Serialise frontmatter to JSON for safe DOM embedding (avoids HTML entity issues in data attributes)
+const frontmatterJson = JSON.stringify(frontmatter, (_key, value) =>
+  value instanceof Date ? value.toISOString() : value
+);
+---
+
+<div
+  id="ai-share-bar"
+  class="fixed bottom-6 right-4 z-50 flex flex-col gap-2 items-end sm:bottom-8 sm:right-6"
+  aria-label="AI tools"
+>
+  <!-- Collapsed toggle (always visible) -->
+  <button
+    id="ai-share-toggle"
+    class="flex items-center gap-2 rounded-full bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow-lg px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+    aria-expanded="false"
+    aria-controls="ai-share-menu"
+    title="Open with AI"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2a4 4 0 0 1 4 4v1h1a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V10a3 3 0 0 1 3-3h1V6a4 4 0 0 1 4-4z"/>
+      <circle cx="9" cy="13" r="1" fill="currentColor" stroke="none"/>
+      <circle cx="15" cy="13" r="1" fill="currentColor" stroke="none"/>
+    </svg>
+    <span>Open with AI</span>
+    <svg id="ai-share-chevron" xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <!-- Expanded menu -->
+  <div
+    id="ai-share-menu"
+    class="hidden flex-col gap-1 items-end w-52"
+    role="menu"
+  >
+    <!-- Frontmatter data — JSON avoids HTML entity encoding issues in attributes -->
+    <script id="ai-frontmatter-data" type="application/json" is:inline set:html={frontmatterJson}></script>
+
+    <!-- Copy as Markdown -->
+    <button
+      id="ai-copy-md"
+      class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+      role="menuitem"
+      title="Copy page as Markdown"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+      </svg>
+      <span id="ai-copy-md-label">Copy as Markdown</span>
+    </button>
+
+    <!-- Open in Claude (tries Desktop app first, falls back to web) -->
+    <button
+      id="ai-open-claude"
+      data-app-url={claudeAppUrl}
+      data-web-url={claudeWebUrl}
+      class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+      role="menuitem"
+      title="Open in Claude (Desktop app if installed, otherwise web)"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+        <path d="m4.7144 15.9555 4.7174-2.6471.079-.2307-.079-.1275h-.2307l-.7893-.0486-2.6956-.0729-2.3375-.0971-2.2646-.1214-.5707-.1215-.5343-.7042.0546-.3522.4797-.3218.686.0608 1.5179.1032 2.2767.1578 1.6514.0972 2.4468.255h.3886l.0546-.1579-.1336-.0971-.1032-.0972L6.973 9.8356l-2.55-1.6879-1.3356-.9714-.7225-.4918-.3643-.4614-.1578-1.0078.6557-.7225.8803.0607.2246.0607.8925.686 1.9064 1.4754 2.4893 1.8336.3643.3035.1457-.1032.0182-.0728-.164-.2733-1.3539-2.4467-1.445-2.4893-.6435-1.032-.17-.6194c-.0607-.255-.1032-.4674-.1032-.7285L6.287.1335 6.6997 0l.9957.1336.419.3642.6192 1.4147 1.0018 2.2282 1.5543 3.0296.4553.8985.2429.8318.091.255h.1579v-.1457l.1275-1.706.2368-2.0947.2307-2.6957.0789-.7589.3764-.9107.7468-.4918.5828.2793.4797.686-.0668.4433-.2853 1.8517-.5586 2.9021-.3643 1.9429h.2125l.2429-.2429.9835-1.3053 1.6514-2.0643.7286-.8196.85-.9046.5464-.4311h1.0321l.759 1.1293-.34 1.1657-1.0625 1.3478-.8804 1.1414-1.2628 1.7-.7893 1.36.0729.1093.1882-.0183 2.8535-.607 1.5421-.2794 1.8396-.3157.8318.3886.091.3946-.3278.8075-1.967.4857-2.3072.4614-3.4364.8136-.0425.0304.0486.0607 1.5482.1457.6618.0364h1.621l3.0175.2247.7892.522.4736.6376-.079.4857-1.2142.6193-1.6393-.3886-3.825-.9107-1.3113-.3279h-.1822v.1093l1.0929 1.0686 2.0035 1.8092 2.5075 2.3314.1275.5768-.3218.4554-.34-.0486-2.2039-1.6575-.85-.7468-1.9246-1.621h-.1275v.17l.4432.6496 2.3436 3.5214.1214 1.0807-.17.3521-.6071.2125-.6679-.1214-1.3721-1.9246L14.38 17.959l-1.1414-1.9428-.1397.079-.674 7.2552-.3156.3703-.7286.2793-.6071-.4614-.3218-.7468.3218-1.4753.3886-1.9246.3157-1.53.2853-1.9004.17-.6314-.0121-.0425-.1397.0182-1.4328 1.9672-2.1796 2.9446-1.7243 1.8456-.4128.164-.7164-.3704.0667-.6618.4008-.5889 2.386-3.0357 1.4389-1.882.929-1.0868-.0062-.1579h-.0546l-6.3385 4.1164-1.1293.1457-.4857-.4554.0608-.7467.2307-.2429 1.9064-1.3114Z"/>
+      </svg>
+      Open in Claude
+    </button>
+
+    <!-- Open in ChatGPT -->
+    <a
+      href={chatgptUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+      role="menuitem"
+      title="Open in ChatGPT"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M22.28 9.98a5.6 5.6 0 0 0-.48-4.61 5.67 5.67 0 0 0-6.1-2.72A5.65 5.65 0 0 0 11.44 1a5.67 5.67 0 0 0-5.41 3.93 5.65 5.65 0 0 0-3.77 2.74 5.7 5.7 0 0 0 .7 6.67 5.6 5.6 0 0 0 .48 4.61 5.67 5.67 0 0 0 6.1 2.72A5.65 5.65 0 0 0 13.79 23a5.67 5.67 0 0 0 5.4-3.93 5.65 5.65 0 0 0 3.78-2.74 5.7 5.7 0 0 0-.69-6.35zM13.8 21.5a4.19 4.19 0 0 1-2.69-.98l.13-.08 4.47-2.58a.74.74 0 0 0 .37-.64v-6.3l1.89 1.09a.07.07 0 0 1 .04.05v5.22a4.23 4.23 0 0 1-4.21 4.22zM3.62 17.58a4.19 4.19 0 0 1-.5-2.82l.13.08 4.47 2.58a.73.73 0 0 0 .74 0l5.46-3.15v2.18a.07.07 0 0 1-.03.06L9.4 19.1a4.23 4.23 0 0 1-5.78-1.52zm-1.1-9.28a4.2 4.2 0 0 1 2.19-1.85v5.29a.72.72 0 0 0 .37.63l5.45 3.15-1.89 1.09a.07.07 0 0 1-.07 0L4.1 13.87a4.23 4.23 0 0 1-1.57-5.57zm15.55 3.63-5.46-3.15 1.89-1.09a.07.07 0 0 1 .07 0l4.46 2.57a4.22 4.22 0 0 1-.65 7.62V12.57a.73.73 0 0 0-.31-.64zm1.88-2.84-.13-.08-4.47-2.58a.73.73 0 0 0-.74 0L9.15 9.58V7.4a.07.07 0 0 1 .03-.06l4.46-2.57a4.22 4.22 0 0 1 6.27 4.37l.04-.05zM8.17 12.87 6.28 11.78a.07.07 0 0 1-.04-.05V6.51a4.22 4.22 0 0 1 6.93-3.24l-.13.08-4.47 2.58a.74.74 0 0 0-.37.64l-.03 6.3zm1.02-2.21 2.43-1.4 2.43 1.4v2.79l-2.43 1.4-2.43-1.4v-2.79z"/>
+      </svg>
+      Open in ChatGPT
+    </a>
+
+    <!-- Open in Gemini -->
+    <a
+      href={geminiUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+      role="menuitem"
+      title="Open in Gemini"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 24A14.31 14.31 0 0 0 0 12 14.31 14.31 0 0 0 12 0a14.31 14.31 0 0 0 12 12 14.31 14.31 0 0 0-12 12z"/>
+      </svg>
+      Open in Gemini
+    </a>
+  </div>
+</div>
+
+
+<script>
+  let _aiShareAbort: AbortController | null = null;
+
+  function initAiShare() {
+    _aiShareAbort?.abort();
+    _aiShareAbort = new AbortController();
+    const signal = _aiShareAbort.signal;
+
+    const toggle = document.getElementById('ai-share-toggle');
+    const menu = document.getElementById('ai-share-menu');
+    const chevron = document.getElementById('ai-share-chevron');
+    const copyBtn = document.getElementById('ai-copy-md');
+    const copyLabel = document.getElementById('ai-copy-md-label');
+
+    if (toggle && menu && chevron) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        menu.classList.toggle('hidden');
+        menu.classList.toggle('flex');
+        chevron.style.transform = expanded ? '' : 'rotate(180deg)';
+      }, { signal });
+
+      // Close when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!document.getElementById('ai-share-bar')?.contains(e.target as Node)) {
+          toggle.setAttribute('aria-expanded', 'false');
+          menu.classList.add('hidden');
+          menu.classList.remove('flex');
+          chevron.style.transform = '';
+        }
+      }, { signal });
+    }
+
+    function nodeToMarkdown(node: Node): string {
+      if (node.nodeType === Node.TEXT_NODE) {
+        return node.textContent ?? '';
+      }
+      if (node.nodeType !== Node.ELEMENT_NODE) return '';
+
+      const el = node as HTMLElement;
+      const tag = el.tagName.toLowerCase();
+      const children = Array.from(el.childNodes).map(nodeToMarkdown).join('');
+
+      switch (tag) {
+        case 'a': {
+          const href = el.getAttribute('href') ?? '';
+          return href ? `[${children}](${href})` : children;
+        }
+        case 'strong': case 'b': return `**${children}**`;
+        case 'em': case 'i': return `*${children}*`;
+        case 'code': return el.closest('pre') ? children : `\`${children}\``;
+        case 'pre': return `\`\`\`\n${el.textContent}\n\`\`\`\n\n`;
+        case 'h1': return `# ${children}\n\n`;
+        case 'h2': return `## ${children}\n\n`;
+        case 'h3': return `### ${children}\n\n`;
+        case 'h4': return `#### ${children}\n\n`;
+        case 'h5': return `##### ${children}\n\n`;
+        case 'h6': return `###### ${children}\n\n`;
+        case 'p': return `${children}\n\n`;
+        case 'br': return `\n`;
+        case 'hr': return `---\n\n`;
+        case 'blockquote': return children.split('\n').map(l => `> ${l}`).join('\n') + '\n\n';
+        case 'ul': return children + '\n';
+        case 'ol': {
+          let i = 0;
+          return Array.from(el.children).map(li => `${++i}. ${nodeToMarkdown(li).replace(/^- /, '')}`).join('\n') + '\n\n';
+        }
+        case 'li': return `- ${children}\n`;
+        case 'img': {
+          const src = el.getAttribute('src') ?? '';
+          const alt = el.getAttribute('alt') ?? '';
+          return `![${alt}](${src})\n\n`;
+        }
+        default: return children;
+      }
+    }
+
+    const claudeBtn = document.getElementById('ai-open-claude');
+    if (claudeBtn) {
+      claudeBtn.addEventListener('click', () => {
+        const appUrl = claudeBtn.dataset.appUrl!;
+        const webUrl = claudeBtn.dataset.webUrl!;
+
+        // Try the desktop app via a hidden iframe so we don't navigate away.
+        // If the app is installed it intercepts the claude:// scheme immediately.
+        // After 1.5s with no page-hide event (app focus switch), fall back to web.
+        const iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        document.body.appendChild(iframe);
+        iframe.src = appUrl;
+
+        const fallbackTimer = setTimeout(() => {
+          window.open(webUrl, '_blank', 'noopener,noreferrer');
+          iframe.remove();
+        }, 1500);
+
+        // If the app opened, the browser loses focus — cancel the web fallback
+        window.addEventListener('blur', () => {
+          clearTimeout(fallbackTimer);
+          iframe.remove();
+        }, { once: true });
+      }, { signal });
+    }
+
+    function toYamlFrontmatter(obj: Record<string, unknown>): string {
+      const lines = ['---'];
+      for (const [key, value] of Object.entries(obj)) {
+        if (value === null || value === undefined) continue;
+        if (Array.isArray(value)) {
+          lines.push(`${key}:`);
+          for (const item of value) lines.push(`  - ${item}`);
+        } else if (typeof value === 'string' && (value.includes('\n') || value.includes(':'))) {
+          lines.push(`${key}: |`);
+          for (const line of value.split('\n')) lines.push(`  ${line}`);
+        } else {
+          lines.push(`${key}: ${value}`);
+        }
+      }
+      lines.push('---');
+      return lines.join('\n');
+    }
+
+    if (copyBtn && copyLabel) {
+      copyBtn.addEventListener('click', async () => {
+        const dataEl = document.getElementById('ai-frontmatter-data');
+        const raw = dataEl ? JSON.parse(dataEl.textContent ?? '{}') : {};
+        const frontmatter = toYamlFrontmatter(raw);
+
+        const article = document.querySelector('.prose');
+        const bodyText = article ? nodeToMarkdown(article) : '';
+
+        const markdown = `${frontmatter}\n\n${bodyText}`;
+
+        try {
+          await navigator.clipboard.writeText(markdown);
+          copyLabel.textContent = 'Copied!';
+          setTimeout(() => { copyLabel.textContent = 'Copy as Markdown'; }, 2000);
+        } catch {
+          copyLabel.textContent = 'Failed to copy';
+          setTimeout(() => { copyLabel.textContent = 'Copy as Markdown'; }, 2000);
+        }
+      }, { signal });
+    }
+  }
+
+  document.addEventListener('astro:page-load', initAiShare);
+</script>

@@ -5,6 +5,7 @@ import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
 import SupportBlock from '~/components/SupportBlock.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
+import AIShare from '~/components/common/AIShare.astro';
 import { MetaSEO } from '~/types';
 
 export interface Props {
@@ -64,5 +65,10 @@ const meta: MetaSEO = {
       </div>
     </section>
   </main>
+  <AIShare
+    url={Astro.url.href}
+    title={frontmatter.title}
+    frontmatter={frontmatter}
+  />
   <Footer />
 </Layout>
