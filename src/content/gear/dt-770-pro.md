@@ -1,9 +1,9 @@
 ---
 title: DT 770 Pro
-affiliate_url: https://amzn.to/4e3aoBt
+affiliate_url: https://www.amazon.com/dp/B0006NL5SM/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
 current: true
 tags:
   - Audio
 ---
 
-Through various twists of fate, sales, and second-hand deals, I also have far too many headphones. But my now-favourite pair for editing work is the classic [DT 770 Pro](https://amzn.to/4e3aoBt). They are big, cable-only, and incredibly comfortable, especially for those who wear glasses.
+Through various twists of fate, sales, and second-hand deals, I also have far too many headphones. But my now-favourite pair for editing work is the classic [DT 770 Pro](https://www.amazon.com/dp/B0006NL5SM/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20). They are big, cable-only, and incredibly comfortable, especially for those who wear glasses.

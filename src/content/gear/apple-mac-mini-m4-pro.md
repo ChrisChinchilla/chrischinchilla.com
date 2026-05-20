@@ -1,6 +1,6 @@
 ---
 title: Apple Mac Mini M4 Pro
-affiliate_url: https://www.amazon.de/s?k=Apple+Mac+Mini+M4+Pro
+affiliate_url: https://www.amazon.com/dp/B0DLBVHSLD/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
 current: true
 tags:
   - Desk and Streaming Setup
