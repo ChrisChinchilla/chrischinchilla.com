@@ -1,5 +1,6 @@
 ---
 title: Novation Launchkey 49
+summary: A 49-key MIDI controller that replaced my Akai MPK Mini and Korg nanoKontrol 2 for music production and editing control.
 affiliate_url: https://www.amazon.com/dp/B0F43TMNK4/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
 current: true
 tags:

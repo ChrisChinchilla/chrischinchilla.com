@@ -13,9 +13,10 @@ export interface Props {
     label: string;
     href: string;
   };
+  ogType?: 'article' | 'website';
 }
 
-const { frontmatter, section } = Astro.props;
+const { frontmatter, section, ogType = 'article' } = Astro.props;
 
 // Generate breadcrumb items with dynamic section (only for content types)
 const breadcrumbItems = section ? [
@@ -27,16 +28,20 @@ const meta: MetaSEO = {
   title: frontmatter?.title,
   description: frontmatter?.summary || frontmatter?.description || frontmatter?.title,
   publication_url: frontmatter?.publication_url,
-  openGraph: {
-    type: 'article',
-    article: {
-      publishedTime: frontmatter?.publishDate || frontmatter?.date,
-      modifiedTime: frontmatter?.modifiedDate || frontmatter?.publishDate || frontmatter?.date,
-      authors: frontmatter?.author ? [frontmatter.author] : undefined,
-      tags: frontmatter?.tags,
-      section: frontmatter?.categories?.[0],
-    },
-  },
+  openGraph: ogType === 'article'
+    ? {
+        type: 'article',
+        article: {
+          publishedTime: frontmatter?.publishDate || frontmatter?.date,
+          modifiedTime: frontmatter?.modifiedDate || frontmatter?.publishDate || frontmatter?.date,
+          authors: frontmatter?.author ? [frontmatter.author] : undefined,
+          tags: frontmatter?.tags,
+          section: frontmatter?.categories?.[0],
+        },
+      }
+    : {
+        type: 'website',
+      },
 };
 ---
 

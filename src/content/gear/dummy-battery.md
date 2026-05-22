@@ -1,5 +1,6 @@
 ---
 title: Dummy camera battery
+summary: A dummy battery that lets you run a Lumix G7 (or similar) on mains power instead of draining a real battery during long recordings.
 affiliate_url: https://amzn.to/4e2i3jw
 current: true
 tags:

@@ -14,7 +14,7 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 ---
 
-<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Gear', href: '/gear' }}>
+<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Gear', href: '/gear' }} ogType="website">
   <Content />
   {entry.data.affiliate_url && (
     <p class="mt-6">

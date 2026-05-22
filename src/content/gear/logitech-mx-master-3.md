@@ -1,5 +1,6 @@
 ---
 title: Logitech MX Master 3S for Mac
+summary: The Mac-tuned mouse I switched to from the Apple Magic Mouse and can no longer do without.
 affiliate_url: https://www.amazon.com/dp/B09HMV6K1W/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
 current: true
 tags:

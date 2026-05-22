@@ -1,5 +1,6 @@
 ---
 title: Keychron Mechanical Keyboard
+summary: A wireless tenkeyless Keychron K-series mechanical keyboard, popular with writers and developers and a daily driver for me.
 affiliate_url: https://www.amazon.de/s?k=Keychron+K2+mechanical+keyboard
 tags:
   - Desk and Streaming Setup

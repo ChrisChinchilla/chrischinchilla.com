@@ -1,5 +1,6 @@
 ---
 title: Blue Yeti
+summary: A trusty USB condenser I still use in a dedicated booth for voiceover and audiobook work, replaced on camera by the Shure MV7.
 affiliate_url: https://en.wikipedia.org/wiki/Blue_Microphones
 current: true
 tags:

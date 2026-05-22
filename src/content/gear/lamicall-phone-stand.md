@@ -1,5 +1,6 @@
 ---
 title: Lamicall Phone / Tablet Stand
+summary: A small adjustable Lamicall stand that keeps a phone or tablet upright at eye level on the desk.
 affiliate_url: https://www.amazon.de/s?k=Lamicall+phone+stand
 tags:
   - Desk and Streaming Setup

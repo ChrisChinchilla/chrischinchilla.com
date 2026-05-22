@@ -1,5 +1,6 @@
 ---
 title: Flexispot Desk
+summary: A large Flexispot standing desk on wheels so I can roll it out and rewire gear easily.
 affiliate_url: https://amzn.to/3yM5AA0
 current: true
 tags:

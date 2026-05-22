@@ -1,5 +1,6 @@
 ---
 title: Elgato Key Light
+summary: An app-controlled, colour-temperature-adjustable LED panel mounted on the camera's hot shoe — sadly now discontinued by Elgato.
 affiliate_url: https://www.amazon.de/s?k=Elgato+Key+Light
 current: true
 tags:

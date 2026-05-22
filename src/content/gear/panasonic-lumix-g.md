@@ -1,5 +1,6 @@
 ---
 title: Panasonic Lumix G7 Camera
+summary: A second-hand Panasonic Lumix G7 mirrorless that serves as my main camera, captured via an Elgato Cam Link 4K.
 affiliate_url: https://www.amazon.de/s?k=Panasonic+Lumix+G85
 current: true
 tags:

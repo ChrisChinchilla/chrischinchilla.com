@@ -1,5 +1,6 @@
 ---
 title: Descript
+summary: The pioneering text-based audio/video editor and Squadcast remote recorder I've subscribed to, cancelled, and reconsidered several times.
 affiliate_url: https://go.chrischinchilla.com/descript
 current: false
 tags:

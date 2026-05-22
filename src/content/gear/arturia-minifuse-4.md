@@ -1,5 +1,6 @@
 ---
 title: Arturia MiniFuse 4
+summary: My audio interface for podcast recording and music work, chosen for the dual headphone outputs that suit collaborative sessions.
 affiliate_url: https://www.amazon.com/dp/B0BHC6V1KT/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
 current: true
 tags:

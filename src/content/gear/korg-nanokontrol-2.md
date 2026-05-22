@@ -1,5 +1,6 @@
 ---
 title: Korg nanoKontrol 2
+summary: A compact MIDI control surface I used for editing audio and video, now replaced by the Launchkey 49 and Stream Deck combo.
 affiliate_url: https://amzn.to/3yM5AA0
 current: false
 tags:
