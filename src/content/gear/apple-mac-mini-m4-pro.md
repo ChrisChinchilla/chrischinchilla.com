@@ -1,0 +1,10 @@
+---
+title: Apple Mac Mini M4 Pro
+summary: My main desktop machine, chosen to consolidate USB ports, external drives, and sample libraries in one always-connected setup.
+affiliate_url: https://www.amazon.com/dp/B0DLBVHSLD/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
+current: true
+tags:
+  - Desk and Streaming Setup
+---
+
+As you can see, I have a lot of gear, which use a lot of USB ports. For a while I used an M1 macBook Pro, but plugging it in and out of the hub/monitors I use was annoying. For music work I also have gigabytes of sample libraries and plugin data on an external drive. I liked the idea of keeping it all in one place, and I am pretty happy with the setup so far.

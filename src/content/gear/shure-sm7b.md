@@ -1,0 +1,11 @@
+---
+title: Shure SM7B
+summary: The industry-standard dynamic broadcast mic, used on countless podcasts and voiceovers for its warm sound and off-axis rejection.
+current: true
+affiliate_url: https://www.amazon.de/s?k=Shure+SM7B
+tags:
+  - Audio
+  - Microphone
+---
+
+The microphone is a **Shure SM7B** (or SM7dB) — an industry-standard dynamic broadcast microphone on a desktop stand. Used on countless podcasts, voiceovers, and even music recordings, it delivers a warm, smooth sound and excellent off-axis rejection.

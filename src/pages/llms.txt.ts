@@ -13,12 +13,13 @@ function formatLink(title: string, url: string, summary?: string): string {
 }
 
 export const GET = async () => {
-  const [posts, stories, newsletters, books, av] = await Promise.all([
+  const [posts, stories, newsletters, books, av, gear] = await Promise.all([
     getCollection('posts'),
     getCollection('stories'),
     getCollection('newsletters'),
     getCollection('books'),
     getCollection('av'),
+    getCollection('gear'),
   ]);
 
   const sortedPosts = posts
@@ -37,6 +38,9 @@ export const GET = async () => {
 
   const sortedAv = av
     .sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
+
+  const sortedGear = gear
+    .sort((a, b) => a.data.title.localeCompare(b.data.title));
 
   const lines: string[] = [
     `# ${SITE.name}`,
@@ -85,6 +89,14 @@ export const GET = async () => {
   for (const item of sortedAv) {
     const url = item.data.store_urls?.[0]?.url ?? `${origin}/videos/${item.id}`;
     lines.push(formatLink(item.data.title, url));
+  }
+  lines.push('');
+
+  // Gear
+  lines.push('## Gear', '');
+  for (const item of sortedGear) {
+    const url = `${origin}/gear/${item.id}`;
+    lines.push(formatLink(item.data.title, url, item.data.summary));
   }
   lines.push('');
 

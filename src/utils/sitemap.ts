@@ -41,6 +41,12 @@ export function customizeSitemapItem(item: any) {
   } else if (path.startsWith('/books/')) {
     item.priority = 0.7;
     item.changefreq = 'monthly';
+  } else if (path === '/gear' || path === '/gear/') {
+    item.priority = 0.8;
+    item.changefreq = 'weekly';
+  } else if (path.startsWith('/gear/') && !path.includes('/tag/') && !/\/\d+\/?$/.test(path)) {
+    item.priority = 0.7;
+    item.changefreq = 'monthly';
   } else {
     item.priority = 0.6;
     item.changefreq = 'monthly';

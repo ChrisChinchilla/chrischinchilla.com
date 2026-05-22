@@ -15,12 +15,13 @@ function sectionSeparator(title: string, url: string, date: string, summary?: st
 }
 
 export const GET = async () => {
-  const [posts, stories, newsletters, books, av] = await Promise.all([
+  const [posts, stories, newsletters, books, av, gear] = await Promise.all([
     getCollection('posts'),
     getCollection('stories'),
     getCollection('newsletters'),
     getCollection('books'),
     getCollection('av'),
+    getCollection('gear'),
   ]);
 
   const sortedPosts = posts
@@ -39,6 +40,9 @@ export const GET = async () => {
 
   const sortedAv = av
     .sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
+
+  const sortedGear = gear
+    .sort((a, b) => a.data.title.localeCompare(b.data.title));
 
   const lines: string[] = [
     `# ${SITE.name} — Full Content`,
@@ -136,6 +140,19 @@ export const GET = async () => {
       `Type: ${item.data.video_type}`,
       ''
     );
+    const body = item.body ?? '';
+    if (body) lines.push(body, '');
+    lines.push('---', '');
+  }
+
+  // Gear — metadata + body
+  lines.push('# Gear', '', '---', '');
+  for (const item of sortedGear) {
+    const url = `${origin}/gear/${item.id}`;
+    lines.push(`## [${item.data.title}](${url})`, '');
+    if (item.data.tags?.length) lines.push(`Tags: ${item.data.tags.join(', ')}`, '');
+    if (item.data.affiliate_url) lines.push(`Affiliate link: ${item.data.affiliate_url}`, '');
+    if (item.data.summary) lines.push(item.data.summary, '');
     const body = item.body ?? '';
     if (body) lines.push(body, '');
     lines.push('---', '');
