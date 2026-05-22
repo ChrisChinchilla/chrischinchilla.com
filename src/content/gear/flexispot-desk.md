@@ -1,5 +1,5 @@
 ---
-title: Flexspot Desk
+title: Flexispot Desk
 affiliate_url: https://amzn.to/3yM5AA0
 current: true
 tags:
