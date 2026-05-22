@@ -4,7 +4,7 @@ current: true
 affiliate_url: https://www.amazon.de/s?k=Shure+SM7B
 tags:
   - Audio
-  - Microphones
+  - Microphone
 ---
 
 The microphone is a **Shure SM7B** (or SM7dB) — an industry-standard dynamic broadcast microphone on a desktop stand. Used on countless podcasts, voiceovers, and even music recordings, it delivers a warm, smooth sound and excellent off-axis rejection.
