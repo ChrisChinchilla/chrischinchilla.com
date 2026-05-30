@@ -1,0 +1,66 @@
+---
+import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
+import { getCollection, render } from 'astro:content';
+import ContentImage from '~/components/common/ContentImage.astro';
+import { formatShortDate } from '~/utils/utils';
+
+export async function getStaticPaths() {
+  const musicEntries = await getCollection('music');
+  return musicEntries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { forthcoming } = entry.data;
+const buyLabel = forthcoming ? 'Pre-order in the following places:' : 'Buy a copy in the following places:';
+---
+
+<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Music', href: '/music' }}>
+  <ContentImage
+    src={entry.data.image}
+    alt={entry.data.title}
+    type="music"
+    class="object-contain h-full mb-6 rounded drop-shadow-lg"
+  />
+  {
+    forthcoming && (
+      <p class="my-2">
+        <span class="inline-block px-2 py-0.5 text-xs font-semibold uppercase tracking-wide rounded bg-primary text-white">
+          Out {formatShortDate(entry.data.release_date)}
+        </span>
+      </p>
+    )
+  }
+  {
+    entry.data.store_urls && (
+      <>
+        <b class="my-2 block">{buyLabel}</b>
+        <ul class="list-disc list-inside m-2">
+          {entry.data.store_urls.map((store_url) => (
+            <li>
+              <a href={store_url.url}>{store_url.label}</a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+  {
+    entry.data.stream_urls && (
+      <>
+        <b class="my-2 block">Stream in the following places:</b>
+        <ul class="list-disc list-inside m-2">
+          {entry.data.stream_urls.map((stream_url) => (
+            <li>
+              <a href={stream_url.url}>{stream_url.label}</a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+  <Content />
+</MarkdownPostLayout>

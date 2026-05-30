@@ -15,11 +15,12 @@ function sectionSeparator(title: string, url: string, date: string, summary?: st
 }
 
 export const GET = async () => {
-  const [posts, stories, newsletters, books, av, gear] = await Promise.all([
+  const [posts, stories, newsletters, books, music, av, gear] = await Promise.all([
     getCollection('posts'),
     getCollection('stories'),
     getCollection('newsletters'),
     getCollection('books'),
+    getCollection('music'),
     getCollection('av'),
     getCollection('gear'),
   ]);
@@ -37,6 +38,9 @@ export const GET = async () => {
 
   const sortedBooks = books
     .sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
+
+  const sortedMusic = music
+    .sort((a, b) => new Date(b.data.release_date).valueOf() - new Date(a.data.release_date).valueOf());
 
   const sortedAv = av
     .sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
@@ -122,6 +126,23 @@ export const GET = async () => {
     );
     if (book.data.summary) lines.push(book.data.summary, '');
     const body = book.body ?? '';
+    if (body) lines.push(body, '');
+    lines.push('---', '');
+  }
+
+  // Music — metadata + body
+  lines.push('# Music', '', '---', '');
+  for (const release of sortedMusic) {
+    const externalUrl = release.data.store_urls?.[0]?.url ?? release.data.stream_urls?.[0]?.url;
+    const url = entryUrl(`/music/${release.id}`, externalUrl);
+    const date = new Date(release.data.release_date).toISOString().split('T')[0];
+
+    lines.push(`## [${release.data.title}](${url})`, '', `Date: ${date}`, `Band: ${release.data.band}`);
+    if (release.data.record_label) lines.push(`Label: ${release.data.record_label}`);
+    if (release.data.role) lines.push(`Role: ${release.data.role}`);
+    lines.push('');
+    if (release.data.summary) lines.push(release.data.summary, '');
+    const body = release.body ?? '';
     if (body) lines.push(body, '');
     lines.push('---', '');
   }

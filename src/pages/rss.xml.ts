@@ -17,6 +17,7 @@ export const GET = async () => {
   const newsletters = await getCollection('newsletters');
   const stories = await getCollection('stories');
   const books = await getCollection('books');
+  const music = await getCollection('music');
 
   const allItems = [
     ...posts.map((post) => ({
@@ -42,6 +43,12 @@ export const GET = async () => {
       title: entry.data.title,
       description: entry.data.summary,
       pubDate: new Date(entry.data.publish_date),
+    })),
+    ...music.map((entry) => ({
+      link: `/music/${entry.id}`,
+      title: entry.data.title,
+      description: entry.data.summary,
+      pubDate: new Date(entry.data.release_date),
     })),
   ].sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf());
 

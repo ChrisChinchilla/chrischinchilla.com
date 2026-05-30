@@ -41,6 +41,14 @@ export function customizeSitemapItem(item: any) {
   } else if (path.startsWith('/books/')) {
     item.priority = 0.7;
     item.changefreq = 'monthly';
+  } else if (path === '/music' || path === '/music/') {
+    // Music index
+    item.priority = 0.8;
+    item.changefreq = 'weekly';
+  } else if (path.startsWith('/music/') && !/\/\d+\/?$/.test(path)) {
+    // Individual music releases (not paginated list)
+    item.priority = 0.7;
+    item.changefreq = 'monthly';
   } else if (path === '/gear' || path === '/gear/') {
     item.priority = 0.8;
     item.changefreq = 'weekly';

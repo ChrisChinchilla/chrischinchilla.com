@@ -12,9 +12,6 @@ tags:
 image: articles/opera-chinchilla.png
 summary: >-
   Opera Neon is a new browser with an AI assistant that interacts with web pages on your behalf, completing tasks that typically require manual clicking, typing, and navigation. In this post, I test the browser with real tasks to see how well it performs.
-heroimage: articles/opera-chinchilla.png
-herotext: >-
-  Opera Neon's AI assistant helps automate web tasks, making browsing more efficient.
 ---
 
 Opera released [Neon](https://www.operaneon.com), a new browser that includes an AI assistant. This assistant interacts with web pages on your behalf, completing tasks that typically need manual clicking, typing, and navigation. I, like many, am sceptical about agentic browsers, so wanted to test the browser with real tasks to see how it performs.

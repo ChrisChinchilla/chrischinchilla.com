@@ -133,6 +133,31 @@ const books = defineCollection({
     }),
 });
 
+const music = defineCollection({
+  // type: 'content', // v2.5.0 and later
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/music' }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(), // release name
+      band: z.string(), // band / artist name
+      summary: z.string().optional(),
+      record_label: z.string().optional(),
+      image: z.union([z.string(), image()]),
+      role: z.string().optional(), // e.g. composer, performer, producer
+      release_date: z.date(),
+      forthcoming: z.boolean().optional(), // not yet released — show as a pre-order
+      // Where to buy the release
+      store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
+      // Where to stream the release
+      stream_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
+
+      // Hero carousel properties
+      herotext: z.string().optional(),
+      // Supports: local imports, full URLs, or Supabase paths (e.g., "music/image.jpg")
+      heroimage: z.union([z.string(), image()]).optional(),
+    }),
+});
+
 const av = defineCollection({
   // type: 'content', // v2.5.0 and later
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/av' }),
@@ -228,6 +253,7 @@ export const collections = {
   games: games,
   events: events,
   books: books,
+  music: music,
   av: av,
   podcasts: podcasts,
   newsletters: newsletters,
