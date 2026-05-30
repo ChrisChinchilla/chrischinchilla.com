@@ -1,0 +1,50 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import { Pagination } from 'accessible-astro-components';
+import Headline from '~/components/blog/Headline.astro';
+import { MUSIC } from '~/config.mjs';
+
+import Music from '~/components/Music.astro';
+import { getCollection } from 'astro:content';
+export async function getStaticPaths({ paginate }) {
+  let allReleases = await getCollection('music');
+  allReleases = allReleases.sort(
+    (a, b) => new Date(b.data.release_date).valueOf() - new Date(a.data.release_date).valueOf()
+  );
+
+  return paginate(allReleases, {
+    pageSize: MUSIC.postsPerPage,
+  });
+}
+
+const { page } = Astro.props;
+const meta = {
+  title: 'Music',
+  description: 'Musical projects, releases, and bands I have worked on, performed with, or produced.',
+};
+---
+
+<Layout {meta}>
+  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <ul>
+      {
+        page.data.map((release) => (
+          <li class="mb-12 md:mb-20">
+            <Music release={release} />
+          </li>
+        ))
+      }
+    </ul>
+    <Pagination
+      firstPage={page.url.prev ? '/music' : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next ? `/music/${Math.round(page.total / page.size)}` : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    />
+  </section>
+</Layout>
