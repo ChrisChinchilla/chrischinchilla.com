@@ -33,7 +33,7 @@ import type { ImageMetadata } from 'astro';
 interface Props {
   src?: string | ImageMetadata;
   alt: string;
-  type?: 'post' | 'newsletter' | 'podcast' | 'book' | 'game' | 'client' | 'av' | 'story';
+  type?: 'post' | 'newsletter' | 'podcast' | 'book' | 'game' | 'client' | 'av' | 'story' | 'music';
   width?: number;
   height?: number;
   quality?: number;
@@ -68,6 +68,7 @@ const defaultDimensions: Record<string, { width: number; height: number }> = {
   game: { width: 1024, height: 576 },
   client: { width: 400, height: 400 },
   av: { width: 900, height: 506 },
+  music: { width: 600, height: 600 },
 };
 
 // Use provided dimensions, or defaults for the content type

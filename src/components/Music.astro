@@ -1,0 +1,87 @@
+---
+import { type CollectionEntry } from 'astro:content';
+import ContentImage from '~/components/common/ContentImage.astro';
+import { slugify } from '~/utils/slugify';
+import { formatShortDate } from '~/utils/utils';
+import { render } from 'astro:content';
+export interface Props {
+  release: CollectionEntry<"music">;
+}
+const { release } = Astro.props;
+const { Content } = await render(release);
+
+const formattedDate = formatShortDate(release.data.release_date);
+const idOfTitle = slugify(release.data.title);
+const { forthcoming } = release.data;
+
+const meta = [release.data.band, formattedDate, release.data.record_label, release.data.role]
+  .filter(Boolean)
+  .join(', ');
+
+const buyLabel = forthcoming ? 'Pre-order in the following places:' : 'Buy a copy in the following places:';
+---
+
+<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${release.data.image ? 'md:grid-cols-2' : ''}`}>
+  <div
+    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg"
+  >
+  <ContentImage
+    src={release.data.image}
+    alt={release.data.title}
+    type="music"
+    class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+  />
+  </div>
+
+  <div class="mt-2">
+    <header>
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading" id={idOfTitle}>
+        <a
+              class="hover:text-primary transition ease-in duration-200"
+              href=`/music/${release.id}`
+              rel="canonical"
+            >
+        {release.data.title}</a>
+      </h2>
+      {
+        forthcoming && (
+          <span class="inline-block mb-2 px-2 py-0.5 text-xs font-semibold uppercase tracking-wide rounded bg-primary text-white">
+            Out {formattedDate}
+          </span>
+        )
+      }
+      <i class="my-2 block">{meta}</i>
+    </header>
+    <div class="post-body body">
+      <Content />
+    {
+      release.data.store_urls && (
+        <>
+          <b class="my-2 block">{buyLabel}</b>
+          <ul class="list-disc list-inside m-2">
+            {release.data.store_urls.map((store_url) => (
+              <li>
+                <a href={store_url.url}>{store_url.label}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+    {
+      release.data.stream_urls && (
+        <>
+          <b class="my-2 block">Stream in the following places:</b>
+          <ul class="list-disc list-inside m-2">
+            {release.data.stream_urls.map((stream_url) => (
+              <li>
+                <a href={stream_url.url}>{stream_url.label}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+    </div>
+  </div>
+</article>

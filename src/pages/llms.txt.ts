@@ -13,11 +13,12 @@ function formatLink(title: string, url: string, summary?: string): string {
 }
 
 export const GET = async () => {
-  const [posts, stories, newsletters, books, av, gear] = await Promise.all([
+  const [posts, stories, newsletters, books, music, av, gear] = await Promise.all([
     getCollection('posts'),
     getCollection('stories'),
     getCollection('newsletters'),
     getCollection('books'),
+    getCollection('music'),
     getCollection('av'),
     getCollection('gear'),
   ]);
@@ -35,6 +36,9 @@ export const GET = async () => {
 
   const sortedBooks = books
     .sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
+
+  const sortedMusic = music
+    .sort((a, b) => new Date(b.data.release_date).valueOf() - new Date(a.data.release_date).valueOf());
 
   const sortedAv = av
     .sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
@@ -81,6 +85,15 @@ export const GET = async () => {
     const externalUrl = book.data.publication_url ?? book.data.store_urls?.[0]?.url;
     const url = entryUrl(`/books/${book.id}`, externalUrl);
     lines.push(formatLink(book.data.title, url, book.data.summary));
+  }
+  lines.push('');
+
+  // Music
+  lines.push('## Music', '');
+  for (const release of sortedMusic) {
+    const externalUrl = release.data.store_urls?.[0]?.url ?? release.data.stream_urls?.[0]?.url;
+    const url = entryUrl(`/music/${release.id}`, externalUrl);
+    lines.push(formatLink(release.data.title, url, release.data.summary));
   }
   lines.push('');
 
