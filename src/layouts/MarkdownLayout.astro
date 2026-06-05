@@ -7,6 +7,7 @@ import SupportBlock from '~/components/SupportBlock.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import AIShare from '~/components/common/AIShare.astro';
 import { MetaSEO } from '~/types';
+import { getImageUrl } from '~/utils/supabase-images';
 
 export interface Props {
   section?: {
@@ -24,9 +25,25 @@ const breadcrumbItems = section ? [
   { label: section.label, href: section.href },
   { label: frontmatter.title },
 ] : null;
+// Resolve the social-share (Open Graph / Twitter) image from frontmatter.
+// - Supabase paths (e.g. "articles/foo.png") and full URLs resolve to absolute URLs.
+// - Imported local assets (objects with `.src`) are passed through for MetaTags to handle.
+// - Bare `/src/...` source paths aren't web-resolvable, so we omit them and let
+//   MetaTags fall back to the site default image.
+const fmImage = frontmatter?.image;
+let ogImage: string | { src: string } | undefined;
+if (typeof fmImage === 'string') {
+  if (!fmImage.startsWith('/src/')) {
+    ogImage = getImageUrl(fmImage);
+  }
+} else if (fmImage && typeof fmImage.src !== 'undefined') {
+  ogImage = fmImage;
+}
+
 const meta: MetaSEO = {
   title: frontmatter?.title,
   description: frontmatter?.summary || frontmatter?.description || frontmatter?.title,
+  image: ogImage,
   publication_url: frontmatter?.publication_url,
   openGraph: ogType === 'article'
     ? {

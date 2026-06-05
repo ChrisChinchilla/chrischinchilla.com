@@ -2,6 +2,7 @@ import type { AstroSeoProps } from '@astrolib/seo';
 
 export type MetaSEO = AstroSeoProps & {
   publication_url?: string;
+  image?: string | { src: string };
 };
 
 export interface Post {
