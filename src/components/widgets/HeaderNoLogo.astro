@@ -1,5 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
+import Logo from '~/components/common/LogoChinch.astro';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import SearchBar from '~/components/common/SearchBar.astro';
@@ -86,7 +87,9 @@ const links = [
 <header class="sticky top-0 z-40 flex-none mx-auto w-full transition-all ease-in duration-100" id="header">
   <div class="py-3 px-3 md:py-3.5 md:px-4 mx-auto w-full md:flex md:justify-between max-w-6xl">
     <div class="flex justify-between">
-      <a class="flex items-center" href={getHomePermalink()}> </a>
+      <a class="flex items-center" href={getHomePermalink()}>
+        <Logo />
+      </a>
       <div class="flex items-center md:hidden">
         <!-- TODO: Fix image and return -->
         <!-- <ToggleTheme /> -->
