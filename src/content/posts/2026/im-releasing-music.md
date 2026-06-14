@@ -46,3 +46,5 @@ Listen. Buy if you want. Subscribe. Share. All the usual things content creators
 Most of all, I’d appreciate opinions, emotions. In this increasingly AI-filled world, they are increasingly important, and the inefficient creation process an important part of being and feeling human.
 
 Enjoy. And more to come.
+
+> Looking for someone to compose music for your project? [Get in touch](https://calendar.app.google/Ks79ZWhYJrPLwLRNA)!
