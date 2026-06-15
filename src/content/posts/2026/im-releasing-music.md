@@ -35,7 +35,10 @@ But there was always a desire to make music lurking behind the scenes, and despi
 
 Fast forward to the past couple of years, and I reignited my musical bones by teaching at a volunteer music school, which has been invigorating for my creativity and sense of musical discovery. I formed a music writing and production partnership with someone else and we have been slowly creating a body of work covering a mix of genres, intended use cases, and instruments.
 
-And today, that new duo, Aeon V, releases a debut EP, “[The dark embrace of infinite space](../../music/the-dark-embrace-of-infinite-space)”. It’s a conceptual EP of four tracks around a loose theme of an astronaut getting stranded in space after some sort of dramatic incident, and slowly dying, drifting in the vast blackness. I am not sure if you could describe it all as a soundtrack, as there is some singing (well, it’s me, so…). Maybe consider it as more of a statement of intent, and we will also be releasing other tracks to our profile pages over the coming months.
+And today, that new duo, Aeon V, releases a debut EP, “[The dark embrace of infinite space](/music/the-dark-embrace-of-infinite-space)”. It’s a conceptual EP of four tracks around a loose theme of an astronaut getting stranded in space after some sort of dramatic incident, and slowly dying, drifting in the vast blackness. I am not sure if you could describe it all as a soundtrack, as there is some singing (well, it’s me, so…). Maybe consider it as more of a statement of intent, and we will also be releasing other tracks to our profile pages over the coming months.
+
+>   - [Bandcamp](https://aeonv.bandcamp.com/album/the-dark-embrace-of-infinite-space)
+>   - [All others](https://distrokid.com/hyperfollow/aeonv/the-dark-embrace-of-infinite-space-2?ref=release)
 
 If you were an Art Brut fan, I am not sure if you will like it. Maybe you and your tastes have changed too in the past 20 years. You might recognise a few stylistic signatures, but it’s fairly different.
 
