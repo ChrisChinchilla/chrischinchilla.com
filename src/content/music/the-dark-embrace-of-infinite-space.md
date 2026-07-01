@@ -12,15 +12,17 @@ store_urls:
   - label: All others
     url: https://distrokid.com/hyperfollow/aeonv/the-dark-embrace-of-infinite-space-2?ref=release
 stream_urls:
-  - label: Bandcamp
-    url: https://aeonv.bandcamp.com/album/the-dark-embrace-of-infinite-space
-  - label: Apple Music
+ - label: Apple Music
     url: https://music.apple.com/us/album/the-dark-embrace-of-infinite-space-ep/6776185184
+  - label: Spotify
+    url: https://open.spotify.com/album/1xO4VwctDx5vif5vDu6tqK
+  - label: Deezer
+    url: https://www.deezer.com/en/album/992556081
   - label: All others
     url: https://distrokid.com/hyperfollow/aeonv/the-dark-embrace-of-infinite-space-2?ref=release
 ---
 
-A forthcoming EP from Aeon V, *The dark embrace of infinite space* is a set of electronic, cinematic soundscapes. Available to pre-order now on Bandcamp ahead of its release on 14 June 2026.
+The debut EP from Aeon V, *The dark embrace of infinite space* is a set of electronic, cinematic soundscapes.
 
 Tracklist:
 
