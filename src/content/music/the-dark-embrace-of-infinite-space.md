@@ -12,7 +12,7 @@ store_urls:
   - label: All others
     url: https://distrokid.com/hyperfollow/aeonv/the-dark-embrace-of-infinite-space-2?ref=release
 stream_urls:
- - label: Apple Music
+  - label: Apple Music
     url: https://music.apple.com/us/album/the-dark-embrace-of-infinite-space-ep/6776185184
   - label: Spotify
     url: https://open.spotify.com/album/1xO4VwctDx5vif5vDu6tqK
