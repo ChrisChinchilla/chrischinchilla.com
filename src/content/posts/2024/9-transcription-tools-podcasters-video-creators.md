@@ -10,8 +10,6 @@ tags:
   - AI
 image: articles/chrischinchilla_A_chinchilla_shouting_into_a_megaphone_and_word_e24a95d3-8f7a-4031-9648-7ee3142c7f34.png
 summary: I create a lot of content with audio. Interviews that become final podcasts, final podcasts, videos, and more. In almost all cases, a transcript of that audio is useful. Often, I use it to create a blog post based on that audio, and I am also in the process of creating interactive transcripts for my backlog of podcasts. And that aside, accompanying transcriptions of shows are good for SEO and accessibility.
-heroimage: articles/chrischinchilla_A_chinchilla_shouting_into_a_megaphone_and_word_e24a95d3-8f7a-4031-9648-7ee3142c7f34.png
-herotext: 10 transcription tools for Podcasters and Video Creators
 ---
 
 > Updated in 2026 to include some new services. Also note that I no longer use some options here. I will update those soon.
