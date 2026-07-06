@@ -12,9 +12,6 @@ tags:
 image: articles/typeboost-chinchilla.png
 summary: >-
   TypeBoost is an AI personal assistant that helps boost writing productivity by allowing you to apply prompts to text in any application. In this post, I test the tool to see how well it performs and how much it improves my productivity.
-heroimage: articles/typeboost-chinchilla.png
-herotext: >-
-  TypeBoost's AI assistant helps automate text manipulation, making writing more efficient.
 ---
 
 [TypeBoost](https://www.typeboost.ai/) is one of a growing number of tools that use AI to boost writing productivity. Select text in any application, hit a keyboard shortcut, and apply a prompt, such as making text more formal, translating it, or shortening it, directly in place. It supports voice input as well as text, and claims to work system-wide across any text field.
