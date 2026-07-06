@@ -1,21 +1,19 @@
 ---
-title: I am releasing music for the first time in 15 years
-publishDate: 2026-06-13T01:00:00.000Z
+title: I have a new book out on creating the sustainable web
+publishDate: 2026-07-06T01:00:00.000Z
 author: Chris Ward
 categories:
   - writing
 tags:
-  - news
-  - music
-image: /src/assets/images/articles/kid-chris.jpeg
+  - Books
+  - News
+  - Sustainability
+image: /books/9798868825217_cover_image.jpg
 summary: >-
-  Today I am 45, so I am releasing music for the first time in about 15 years. A look at my musical journey and the new EP I am releasing.
-heroimage: https://f4.bcbits.com/img/a3762217678_16.jpg
-herotext: >-
-  I am releasing music for the first time in 15 years
+  Finally, after a lot of work over a long period of time, I have a new non-fiction book out, co-written with Ines Akrap. It’s [“Building the Sustainable Web”, out with Apress now](/books/building-the-sustainable-web).
 ---
 
-Finally, after a lot of work over a long period of time, I have a new non-fiction book out, co-written with Ines Akrap. It’s [“Building the Sustainable Web”, out with Apress now](https://chrischinchilla.com/books/the-sustainable-fullstack/).
+Finally, after a lot of work over a long period of time, I have a new non-fiction book out, co-written with Ines Akrap. It’s [“Building the Sustainable Web”, out with Apress now](/books/building-the-sustainable-web).
 
 Building the Sustainable Web takes you through the entire digital stack, showing where impact happens, why it matters, and how to make meaningful progress. From infrastructure choices and backend architecture to frontend performance, UX design, content strategy, and marketing practices, this book gives you practical ways to make digital products lighter, faster, and more responsible. It also explains what we can measure today, what remains uncertain, and how to navigate that complexity without getting stuck.
 
@@ -33,4 +31,4 @@ We hope you buy, read, enjoy, and share. I would like to thank Ines for working 
 
 Finally, I would like to thank my wife Cate for putting up with me vanishing regularly to work on yet another side project.
 
-[Find out more and buy yourself a copy](https://chrischinchilla.com/books/the-sustainable-fullstack/).
+[Find out more and buy yourself a copy](/books/building-the-sustainable-web/).

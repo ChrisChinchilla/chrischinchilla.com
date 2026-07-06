@@ -4,7 +4,7 @@ publisher: Apress
 role: Co-author
 publish_date: 2026-07-01
 image: /books/9798868825217_cover_image.jpg
-heroimage: books/9798868825217_cover_image.jpg
+heroimage: /books/9798868825217_cover_image.jpg
 herotext: 'A book for our times. How to Create Web Products That Respect People and the Planet'
 store_urls:
   - label: Direct from Apress
