@@ -15,10 +15,9 @@ Long-form (technical) writing
 
 - 2017, "Jump start responsive design" from SitePoint.
 - Edited three books for Packt publishing.
-- Technical editor for four books with Manning.
+- Technical editor for six books with Manning.
 - "Technical Writing for Developers" for Packt publishing, released in March 2024.
-- Working on a book on Ableton Live 12 for Packt Publishing. (Cancelled)
-- Working on a book soon to be released on Sustainable computing for Apress.
+- "Building the Sustainable Web" for Apress, released in June 2026.
 
 ### Courses
 
@@ -44,13 +43,28 @@ I have always been active in open-source communities, maintaining several widely
 
 ### Community
 
-- I ran the Write the Docs meetup in Berlin and have previously organised other meetups.
+- I have helped run the Write the Docs EU conference six times.
 - I was on the organising committee for the 2018, 2019, 2020, 2021 EU, and 2019 Australian Write the Docs conferences.
 - I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, and 2025.
 - I was a judge for the Mozilla Open Source Awards in 2020.
 - I run the Berlin Shut Up & Write© meetup with over 4,000 members, and thanks to the co-organisers, we run meetups almost every day. It is the world's largest chapter, and I was recently invited to speak at the community symposium.
 
 ## Work Experience
+
+### Documentation Team lead, Supabase
+
+_July 2025 - Present_
+
+I am the documentation team lead at Supabase, a company that provides an open-source backend-as-a-service platform. My role includes:
+
+- Task management, planning, and reviewing for the documentation team
+- Mentoring and coaching team members
+- Writing, editing, and reviewing key documentation
+- Working with product managers, engineers, and designers to create and maintain documentation for new and existing products
+- Proposing and steering new improvement projects
+- Editing and reviewing submissions from internal and external contributors
+- Liaising and working with developer relations and marketing teams for collaboration ideas
+- Optimising documentation for AI and agent consumption
 
 ### Freelance Technical Writer, Blogger, and Developer Relations
 
