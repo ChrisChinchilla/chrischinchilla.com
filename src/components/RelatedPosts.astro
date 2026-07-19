@@ -48,6 +48,7 @@ if (relatedPosts.length < maxPosts) {
   
   relatedPosts.push(...recentPosts);
 }
+
 ---
 
 {relatedPosts.length > 0 && (
@@ -56,7 +57,7 @@ if (relatedPosts.length < maxPosts) {
     <div class="grid gap-6 md:grid-cols-3">
       {relatedPosts.map(post => (
         <article class="group">
-          <a href={`/blog/${post.id}`} class="block">
+          <a href={post.data.publication_url != null ? post.data.publication_url : `/blog/${post.id}`} class="block">
             {post.data.image && (
               <div class="mb-3 overflow-hidden rounded">
                 <OptimizedImage 
