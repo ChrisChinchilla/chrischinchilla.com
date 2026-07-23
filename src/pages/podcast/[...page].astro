@@ -2,35 +2,27 @@
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
 import { PODCAST } from '~/config.mjs';
-import Podcast from '../../components/Podcast.astro';
+import Podcast from '~/components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
+import Content from '~/components/widgets/Content.astro';
+import showImage from '../../assets/images/tech-lounge.png';
 
 // TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
-export function returnFeed(feedURL) {
+
+export async function getStaticPaths({ paginate }) {
   const options = {
     ignoreAttributes: false,
     attributeNamePrefix: 'att_',
     removeNSPrefix: true,
   };
+  //TODO: As the content list is fed from the feed it renders using Astro content collections moot. Is there a better way?
   const parser = new XMLParser(options);
+  const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
+  let rssFeedData = await feedTest.text();
+  let parsedFeed = await parser.parse(rssFeedData);
+  const allEpisodes = parsedFeed.rss.channel.item;
 
-  return new Promise((resolve, reject) => {
-    fetch(feedURL).then(async (feed) => {
-      await feed.text().then(async (rssFeedData) => {
-        let parsedFeed = await parser.parse(rssFeedData);
-        resolve(parsedFeed);
-      });
-    });
-  }).catch((error) => {
-  });
-}
-export async function getStaticPaths({ paginate }) {
-  const wwwPod = await returnFeed('https://anchor.fm/s/ef311c90/podcast/rss');
-  const csPod = await returnFeed('https://feeds.simplecast.com/whlwDbyc');
-  let allEpisodes = wwwPod.rss.channel.item.concat(csPod.rss.channel.item);
-
-  allEpisodes = allEpisodes.sort((a, b) => new Date(b.pubDate).valueOf() - new Date(a.pubDate).valueOf());
   return paginate(allEpisodes, {
     pageSize: PODCAST.postsPerPage,
   });
@@ -38,22 +30,47 @@ export async function getStaticPaths({ paginate }) {
 
 const { page } = Astro.props;
 const meta = {
-  title: 'Podcasts',
-  description:
-    'Hear me ramble. Hear me roar! Drink whisky, cover the news, and more.',
-  // canonical: post.canonical || url,
-  // image: await findImage(post.image),
-  // noindex: BLOG?.post?.noindex,
-  // ogType: 'article',
+  title: 'Tech Lounge podcast',
+  description: 'Every two weeks, the tech lounge invites tech luminaries, entrepreneurs, and creatives from small scrappy startups and open source enthusiasts to those working in large global companies. If you\'re interested in deep and creative technology and conversations with some of its most interesting practitioners, this is the show for you. Come in and get yourself comfortable.',
+  image: showImage,
 };
 ---
 
 <Layout {meta}>
   <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
-    <Headline subtitle={meta.description}>
+    <Headline>
       {meta.title}
     </Headline>
-
+    <Content
+      isReversed
+      content={meta.description}
+      items={[
+      {
+        link: 'https://open.spotify.com/show/4esINQS7W6emShb6fwt5Vr',
+          icon: 'simple-line-icons:social-spotify'
+      },
+      {
+        link: 'https://podcasts.apple.com/us/podcast/chinchilla-squeaks/id1071207052',
+          icon: 'simple-icons:applepodcasts'
+      },
+      {
+        link: 'https://podcasters.amazon.com/podcasts/0b519ff4-1afe-4b46-8873-f38b51405f89',
+          icon: 'simple-icons:amazonmusic'
+      },
+      {
+        link: 'https://pca.st/nNqR',
+          icon: 'simple-icons:pocketcasts'
+      },
+    ]}
+    image={{
+      src: showImage,
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
     <ul>
       {
         page.data.map((episode) => (

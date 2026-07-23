@@ -59,25 +59,13 @@ function slugify(str) {
 
   <div class="mt-2">
     <div class="mt-2">
-      <!-- TODO: Is there a less brittle way? -->
-       <!-- TODO: Find a way to show shows before renaming -->
-      {
-        podcast.link.startsWith('https://chrischinchilla.com/podcast') ? (
           <a
-            href="/podcast/techlounge"
+            href="/podcast"
             class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2  font-medium"
           >
             Tech Lounge
           </a>
-        ) : (
-          <a
-            href="/podcast/whiskywordswit"
-            class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2  font-medium"
-          >
-            Whisky, Words, & Wit
-          </a>
-        )
-      }
+    
       <header>
         <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
           {
