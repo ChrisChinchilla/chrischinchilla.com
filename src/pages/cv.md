@@ -3,15 +3,7 @@ title: 'CV and resume'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-I have been a freelancer and contractor in the past, so attempting to
-summarise my work experience and history is challenging.
-
-Below are chronologically the most recent and relevant projects I have
-worked on, I can supply more details on request.
-
-## Accomplishments
-
-Long-form (technical) writing
+## Books
 
 - 2017, "Jump start responsive design" from SitePoint.
 - Edited three books for Packt publishing.
@@ -19,36 +11,34 @@ Long-form (technical) writing
 - "Technical Writing for Developers" for Packt publishing, released in March 2024.
 - "Building the Sustainable Web" for Apress, released in June 2026.
 
-### Courses
+Find links at [chrischinchilla.com/books](https://chrischinchilla.com).
 
-- Two video courses for SitePoint.
-- "CSS in Depth" for Manning.
-- An introduction to Swift for Flatiron school.
-- An introduction to web development for Career Foundry.
+## Podcasts and Video
 
-### Presentations
-
-Over the past 4-5 years, I have spoken at over 100 events on a wide variety of subjects. Find more on my [website][1].
-
-### Podcasts and Video
-
-- My 10+ year-old podcast, "Chinchilla Squeaks", recently renamed to "Tech Lounge".
+- My 10+ year-old podcast, "Chinchilla Squeaks", recently renamed to "Tech Lounge" has interviewed numerous guests from the tech industry.
 - My YouTube channel is monetised with regular technical and creative content.
 
-Find links to all these at [chrischinchilla.com][2].
+Find links at [chrischinchilla.com](https://chrischinchilla.com).
 
-### Open Source
+## Open Source
 
-I have always been active in open-source communities, maintaining several widely used tools and contributing documentation suggestions to many projects. See [my GitHub profile][3] for more.
+I have always been active in open-source communities, maintaining widely used tools and contributing documentation suggestions to many projects.
 
-### Community
+See [my GitHub profile](https://github.com/chrischinchilla) for more.
 
-- I have helped run the Write the Docs EU conference six times.
-- I was on the organising committee for the 2018, 2019, 2020, 2021, 2025, 2026 EU, and 2019 Australian Write the Docs conferences.
-- I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, 2025, and 2026.
-- I was a judge for the Mozilla Open Source Awards in 2020.
-- I run the Berlin Shut Up & Write© meetup with over 4,000 members, and thanks to the co-organisers, we run meetups almost every day. It is the world's largest chapter, and I was invited to speak at the community symposium in 2024.
+## Presentations
+
+Over the past 4-5 years, I have spoken at over 100 events on a wide variety of subjects.
+
+Find more at [chrischinchilla.com/events](https://chrischinchilla.com/events).
+
+## Community
+
+- I run the Berlin Shut Up & Write© meetup with over 4,000 members. I brought the group back to life after the Pandemic, and thanks to the co-organisers, we run meetups almost every day. It's the world's most active chapter, and I was invited to speak at the community symposium in 2024.
+- I have helped run the Write the Docs EU conference six times. I was on the organising committee for the 2018, 2019, 2020, 2021, 2025, 2026 EU, and 2019 Australian Write the Docs conferences. I co-organised the "Tool the Docs" devroom at FOSDEM in 2018, 2019, 2021, 2024, 2025, and 2026.
+- I am helping organise Berlin’s only international tabletop gaming event, Bircon, for the third time. We sold out an 80-person event within a week in 2023, and in 2026. we are organising a two-day event for 500 people. Our Discord server is lively between events.
 - I have moderated stages at the We Are Developers conference for the past two years, one of the largest developer conferences in Europe.
+- I was a judge for the Mozilla Open Source Awards in 2020.
 
 ## Work Experience
 
@@ -59,7 +49,7 @@ _July 2025 - Present_
 I am the documentation team lead at Supabase, a company that provides an open-source backend-as-a-service platform. My role includes:
 
 - Task management, planning, and reviewing for the documentation team
-- Mentoring and coaching team members
+- Building, mentoring, and coaching team members
 - Writing, editing, and reviewing key documentation
 - Working with product managers, engineers, and designers to create and maintain documentation for new and existing products
 - Proposing and steering new improvement projects
@@ -71,9 +61,9 @@ I am the documentation team lead at Supabase, a company that provides an open-so
 
 _March 2017 - Present_
 
-When not working full time, I work as a freelance writer and blogger, I have contributed to the blogs and documentation sets of technical companies, ranging from small cutting-edge startups to large enterprises.
+When not working full time, I have worked as a freelance writer and developer relations consultant, I have contributed to the blogs and documentation sets of technical companies, created videos, and more. Ranging from small cutting-edge startups to large enterprises.
 
-Current clients and work include:
+Past clients and work include:
 
 - **Parseable**: Technical blog posts and videos.
 - **Aspect**: Documentation and documentation tooling.
@@ -83,9 +73,6 @@ Current clients and work include:
 - **Expansio**: Technical blog posts, documentation, and documentation tooling.
 - **IEEE Spectrum**: Technical journalism.
 - **The Next Web**: Technical journalism.
-
-Past clients and work include:
-
 - **Caepe**: Documenting a new product release.
 - **n8n**: Creating a series of self-hosting guides for documentation.
 - **KILT**: Working on documentation for the decentralised identity platform.
@@ -100,6 +87,10 @@ Past clients and work include:
 - **here technologies**: Updating and maintaining API and reference documentation for the GeoVisualization product.
 - **PagerDuty**: Non-technical blog posts.
 - **OverOps**: Technical blog posts.
+- **SitePoint**: Two video courses on mobile development.
+- **Manning**: CSS in Depth video course.
+- **Flatiron School**: An introduction to Swift course.
+- **Career Foundry**: An introduction to web development course.
 - **Coralogix**: Technical blog posts.
 - **Facebook Messenger**: Technical blog posts.
 - **data artisans**: Technical blog posts and documentation for Apache© Flink.
@@ -206,22 +197,11 @@ Responsible for Europe, my tasks include handling support, organising events
 and presentations, networking, creating content, documentation and sample
 applications, partnerships, social media, and much more.
 
-### SitePoint Mobile Channel Editor
-
-_March 2014 - Aug 2016_
-
-In this part-time role, I was responsible for the SitePoint mobile channel. SitePoint
-is a global resource site for Developers and Designers that ranks highly on
-Alexis and has weekly traffic of about 1.5 million page views. My role involved
-commissioning and editing articles, engaging our community, and creating a
-strategy based on trends in our readership. As part of editing articles, I had to
-understand, test, and streamline code in a variety of languages, such as Swift,
-Java, and JavaScript.
-
 ## Older work
 
 Summarised for brevity.
 
+- SitePoint Mobile Channel Editor: _March 2014 - Aug 2016_
 - This Little Duck, Senior Drupal Developer: _March - July 2014_
 - The Monthly, Drupal and CiviCRM Developer: _December 2013 - March 2014_
 - Moat Media / Go: _April 2012 - October 2013_
@@ -229,7 +209,3 @@ Summarised for brevity.
 - CERES, Online Coordinator
 - Green Renters, Operations
 - Portable Content, Developer
-
-[1]: https://chrischinchilla.com/events
-[2]: http://chrischinchilla.com/
-[3]: https://github.com/chrischinchilla
