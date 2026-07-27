@@ -4,6 +4,8 @@ publisher: Aduki Independent Press
 role: Publisher
 publish_date: 2012-05-02
 image: books/23394592._UY630_SR1200,630_.jpg
+categories:
+  - writing
 store_urls:
   - label: Goodreads
     url: https://www.goodreads.com/book/show/23394592-wrapped-in-pastry

@@ -4,6 +4,9 @@ publisher: Packt
 role: Author
 publish_date: 2024-03-29
 image: books/dgtw.jpeg
+categories:
+  - tech
+  - writing
 store_urls:
   - label: Amazon
     url: https://www.amazon.com/dp/B0CYL9SWZ5

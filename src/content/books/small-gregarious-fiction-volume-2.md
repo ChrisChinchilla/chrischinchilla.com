@@ -4,6 +4,8 @@ publisher: Self-published
 role: Author
 publish_date: 2024-02-15
 image: books/sgf-2.png
+categories:
+  - writing
 store_urls:
   - label: Drive Thru Fiction (pay what you feel)
     url: https://www.drivethrufiction.com/product/468695/Small-gregarious-fiction-volume-2

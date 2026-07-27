@@ -1,6 +1,5 @@
 import { z, defineCollection } from 'astro:content';
 import { glob, file } from 'astro/loaders';
-import { start } from 'repl';
 // TODO: This used to be possible
 // import defaultBlogImage from '~/src/assets/images/defaults/blog-chinchilla.jpg'
 
@@ -38,7 +37,8 @@ const posts = defineCollection({
       // draft: z.boolean().optional(),
 
       // excerpt: z.string().optional(),
-      // category: z.string().optional(),
+      category: z.string().optional(),
+      categories: z.any().optional(),
       tags: z.array(z.string()).optional(),
       // author: z.string().optional(),
 
@@ -60,6 +60,9 @@ const games = defineCollection({
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
       publish_date: z.date().optional(),
       role: z.string(),
+      category: z.string().optional(),
+      categories: z.any().optional(),
+      tags: z.array(z.string()).optional(),
     }),
 });
 
@@ -77,6 +80,10 @@ const events = defineCollection({
       pres_source: z.string().optional(),
       pres_url: z.string().optional(),
       publication_url: z.string().url().optional(),
+
+      category: z.string().optional(),
+      categories: z.any().optional(),
+      tags: z.array(z.string()).optional(),
 
       // Hero carousel properties
       herotext: z.string().optional(),
@@ -99,6 +106,9 @@ const clients = defineCollection({
       company_url: z.string().url().optional(),
       start_date: z.number().optional(),
       end_date: z.number().optional(),
+      category: z.string().optional(),
+      categories: z.any().optional(),
+      tags: z.array(z.string()).optional(),
       // canonical: z.string().url().optional(),
 
       // publishDate: z.date().or(z.string()).optional(),
@@ -125,6 +135,9 @@ const books = defineCollection({
       publish_date: z.date(),
       role: z.string(),
       publication_url: z.string().url().optional(),
+      category: z.string().optional(),
+      categories: z.any().optional(),
+      tags: z.array(z.string()).optional(),
 
       // Hero carousel properties
       herotext: z.string().optional(),
@@ -150,6 +163,9 @@ const music = defineCollection({
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
       // Where to stream the release
       stream_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
+      category: z.string().optional(),
+      categories: z.any().optional(),
+      tags: z.array(z.string()).optional(),
 
       // Hero carousel properties
       herotext: z.string().optional(),
@@ -170,6 +186,9 @@ const av = defineCollection({
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
       publish_date: z.date(),
       video_type: z.string(),
+      category: z.string().optional(),
+      categories: z.any().optional(),
+      tags: z.array(z.string()).optional(),
     }),
 });
 
@@ -183,8 +202,10 @@ const podcasts = defineCollection({
       image: z.union([z.string(), image()]).optional(),
       audio_preview_url: z.string().optional(),
       player_embed: z.string().optional(),
-transcript: z.string().optional(),
+      transcript: z.string().optional(),
       category: z.string().optional().default('Chinchilla Squeaks'),
+      categories: z.any().optional(),
+      tags: z.array(z.string()).optional(),
       publication_url: z.string().url().optional(),
 
       // Hero carousel properties
@@ -206,6 +227,9 @@ const newsletters = defineCollection({
       image: z.union([z.string(), image()]).optional(),
 
       publication_url: z.string().url().optional(),
+      category: z.string().optional(),
+      categories: z.any().optional(),
+      tags: z.array(z.string()).optional(),
 
       // Hero carousel properties
       herotext: z.string().optional(),
@@ -221,6 +245,8 @@ const stories = defineCollection({
       title: z.string(),
       summary: z.string().optional(),
       date: z.date().or(z.string()),
+      category: z.string().optional(),
+      categories: z.any().optional(),
       tags: z.array(z.string()).optional(),
       // Supports: local imports, full URLs, or Supabase paths (e.g., "stories/image.jpg")
       image: z.union([z.string(), image()]).optional(),
@@ -242,6 +268,8 @@ const gear = defineCollection({
     title: z.string(),
     summary: z.string().optional(),
     affiliate_url: z.string().url().optional(),
+    category: z.string().optional(),
+    categories: z.array(z.string()).optional(),
     tags: z.array(z.string()).optional(),
     current: z.boolean().optional(),
   }),

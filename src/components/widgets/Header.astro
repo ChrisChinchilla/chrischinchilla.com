@@ -5,10 +5,22 @@ import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import SearchBar from '~/components/common/SearchBar.astro';
 
-import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/utils/permalinks';
+import { getHomePermalink, getPermalink, getAsset } from '~/utils/permalinks';
+import { SITE_CATEGORIES, getCategoryMenuLinks } from '~/utils/content-categories';
 
 // TODO: Function
-const links = [
+type NavLeafLink = { text: string; href: string };
+type NavItem = { text: string; links: NavLeafLink[] } | NavLeafLink;
+
+const categoryMenus = await Promise.all(
+  SITE_CATEGORIES.map(async (category) => ({
+    text: category.title,
+    links: await getCategoryMenuLinks(category.slug),
+  }))
+);
+
+const links: NavItem[] = [
+  ...categoryMenus,
   {
     text: 'About',
     links: [
@@ -20,65 +32,9 @@ const links = [
         text: 'Community & volunteering',
         href: getPermalink('/community'),
       },
-            {
+      {
         text: 'Gear',
         href: getPermalink('/gear'),
-      },
-    ],
-  },
-  {
-    text: 'Writing',
-    links: [
-      {
-        text: 'Blog',
-        href: getBlogPermalink(),
-      },
-      {
-        text: 'Books',
-        href: getPermalink('/books'),
-      },
-      {
-        text: 'Stories',
-        href: getPermalink('/stories'),
-      },
-    ],
-  },
-  {
-    text: 'Work',
-    links: [
-      {
-        text: 'Work with me',
-        href: getPermalink('/contact'),
-      },
-      {
-        text: 'CV',
-        href: getPermalink('/cv'),
-      },
-      {
-        text: 'Clients',
-        href: getPermalink('/clients'),
-      },
-      {
-        text: 'Games',
-        href: getPermalink('/games'),
-      },
-    ],
-  },
-  {
-    text: 'Audio & Video',
-    links: [
-      {
-        text: 'Videos',
-        href: getPermalink('/videos'),
-      },
-      { text: 'Podcast', href: getPermalink('/podcast') },
-      {
-        text: 'Music',
-        href: getPermalink('/music'),
-      },
-      {
-        text: 'Courses',
-        href: getPermalink('/courses'),
       },
     ],
   },
@@ -106,21 +62,21 @@ const links = [
     >
       <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-base">
         {
-          links.map(({ text, href, links }) => (
-            <li class={links?.length ? 'dropdown' : ''}>
-              {links?.length ? (
+          links.map((item) => (
+            <li class={'links' in item ? 'dropdown' : ''}>
+              {'links' in item ? (
                 <>
                   <button class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out">
-                    {text} <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 hidden md:inline" />
+                    {item.text} <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 hidden md:inline" />
                   </button>
-                  <ul class="dropdown-menu rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white md:min-w-[200px] dark:md:bg-slate-800 drop-shadow-xl">
-                    {links.map(({ text: text2, href: href2 }) => (
+                  <ul class="dropdown-menu rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white md:min-w-50.25 dark:md:bg-slate-800 drop-shadow-xl">
+                    {item.links.map((submenuItem) => (
                       <li>
                         <a
                           class="first:rounded-t last:rounded-b md:hover:bg-gray-100 dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap"
-                          href={href2}
+                          href={submenuItem.href}
                         >
-                          {text2}
+                          {submenuItem.text}
                         </a>
                       </li>
                     ))}
@@ -129,9 +85,9 @@ const links = [
               ) : (
                 <a
                   class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                  href={href}
+                  href={item.href}
                 >
-                  {text}
+                  {item.text}
                 </a>
               )}
             </li>

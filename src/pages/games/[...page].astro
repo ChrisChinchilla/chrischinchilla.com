@@ -26,32 +26,20 @@ const meta = {
 };
 ---
 <Layout {meta}>
-    <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
-      <Headline
-        subtitle={meta.description}
-      >
-        {meta.title}
-      </Headline>
-    <ul>
-      {
-        page.data.map((game) => (
-        <li class="mb-12 md:mb-20">
-          <Game
-          game={game}
-            />
-        </li>
-        ))
-      }
-    </ul>
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {page.data.map((game) => <Game game={game} />)}
+    </div>
     <Pagination
       firstPage={page.url.prev ? "/games" : null}
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
-      lastPage={page.url.next
-        ? `/games/${Math.round(page.total / page.size)}`
-        : null}
+      lastPage={page.url.next ? `/games/${Math.round(page.total / page.size)}` : null}
       currentPage={page.currentPage}
       totalPages={Math.round(page.total / page.size)}
     />
-</section>
+  </section>
 </Layout>

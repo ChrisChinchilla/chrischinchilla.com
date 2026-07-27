@@ -4,6 +4,9 @@ publisher: DZone
 role: Contributor
 publish_date: 2023-09-14
 image: books/17204703-lp-dz-tr-testing-front-cover-alt-2023.jpeg
+categories:
+  - tech
+  - writing
 store_urls:
   - label: Dzone
     url: https://dzone.com/trendreports/automated-testing

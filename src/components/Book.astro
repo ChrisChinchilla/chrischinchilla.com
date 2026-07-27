@@ -16,19 +16,17 @@ const formattedDate = formatShortDate(book.data.publish_date);
 const idOfTitle = slugify(book.data.title);
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${book.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div
-    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg"
-  >
-  <ContentImage
-    src={book.data.image}
-    alt={book.data.title}
-    type="book"
-    class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-  />
+<article class="mb-6 transition px-4">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+    <ContentImage
+      src={book.data.image}
+      alt={book.data.title}
+      type="book"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+    />
   </div>
 
-  <div class="mt-2">
+  <div>
     <header>
       <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading" id={idOfTitle}>
         <a

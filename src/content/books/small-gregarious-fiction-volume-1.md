@@ -4,6 +4,8 @@ publisher: Self-published
 role: Author
 publish_date: 2023-05-15
 image: books/437813.jpg
+categories:
+  - writing
 store_urls:
   - label: Drive Thru Fiction (pay what you feel)
     url: https://www.drivethrufiction.com/product/437813/Small-gregarious-fiction-volume-1

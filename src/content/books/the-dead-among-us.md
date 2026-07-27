@@ -4,6 +4,8 @@ publisher: Self-published
 role: Author
 publish_date: 2024-12-19
 image: books/the-dead-among-us.png
+categories:
+  - writing
 store_urls:
   - label: eBook - Direct from me (pay what you feel)
     url: https://ko-fi.com/s/0a76b75a05

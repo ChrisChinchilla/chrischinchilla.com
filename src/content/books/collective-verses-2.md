@@ -4,6 +4,8 @@ publisher: Storytelling Collective
 role: Contributor
 publish_date: 2022-06-01
 image: books/397653.png
+categories:
+  - writing
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/product/397653/Collective-Verses--Volume-II

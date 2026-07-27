@@ -4,6 +4,8 @@ publisher: Aduki Independent Press
 role: Publisher
 publish_date: 2010-03-01
 image: books/surveying-the-wreckage.jpg
+categories:
+  - writing
 store_urls:
   - label: Goodreads
     url: https://www.goodreads.com/book/show/77180248-surveying-the-wreckage-the-new-matilda-columns-2008-2010

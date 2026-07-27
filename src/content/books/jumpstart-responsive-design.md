@@ -4,6 +4,9 @@ publisher: Sitepoint
 role: Author
 publish_date: 2017-04-18
 image: books/jumpstart-761x1000.png
+categories:
+  - tech
+  - writing
 store_urls:
   - label: Sitepoint
     url: https://www.sitepoint.com/premium/books/jump-start-responsive-web-design-2nd-edition/

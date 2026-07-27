@@ -4,6 +4,8 @@ publisher: Storytelling Collective
 role: Contributor
 publish_date: 2023-09-04
 image: books/CV.png
+categories:
+  - writing
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/product/445428/Collective-Verses

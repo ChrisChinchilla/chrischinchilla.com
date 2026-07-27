@@ -13,7 +13,7 @@ const { game } = Astro.props;
 var idOfTitle = slugify(game.data.title);
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${game.data.image ? 'md:grid-cols-2' : ''}`}>
+<article class="mb-6 transition px-4">
   <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
     <ContentImage
       src={game.data.image}
@@ -23,9 +23,9 @@ var idOfTitle = slugify(game.data.title);
     />
   </div>
 
-  <div class="mt-2">
+  <div>
     <header>
-      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading" id={idOfTitle}>
+      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold" id={idOfTitle}>
         {game.data.title}
       </h2>
       <i class="my-2 block">{game.data.role}</i>
