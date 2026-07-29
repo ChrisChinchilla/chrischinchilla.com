@@ -60,6 +60,10 @@ const games = defineCollection({
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
       publish_date: z.date().optional(),
       role: z.string(),
+
+      // Hero carousel properties
+      herotext: z.string().optional(),
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 
