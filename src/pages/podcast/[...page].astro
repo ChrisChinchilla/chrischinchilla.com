@@ -18,10 +18,16 @@ export async function getStaticPaths({ paginate }) {
   };
   //TODO: As the content list is fed from the feed it renders using Astro content collections moot. Is there a better way?
   const parser = new XMLParser(options);
-  const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
-  let rssFeedData = await feedTest.text();
-  let parsedFeed = await parser.parse(rssFeedData);
-  const allEpisodes = parsedFeed.rss.channel.item;
+  let allEpisodes = [];
+
+  try {
+    const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
+    const rssFeedData = await feedTest.text();
+    const parsedFeed = parser.parse(rssFeedData);
+    allEpisodes = parsedFeed?.rss?.channel?.item ?? [];
+  } catch (error) {
+    console.warn('Unable to fetch podcast feed during build:', error);
+  }
 
   return paginate(allEpisodes, {
     pageSize: PODCAST.postsPerPage,

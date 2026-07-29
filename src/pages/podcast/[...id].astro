@@ -13,10 +13,16 @@ export async function getStaticPaths() {
     removeNSPrefix: true,
   };
   const parser = new XMLParser(options);
-  const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
-  let rssFeedData = await feedTest.text();
-  let parsedFeed = await parser.parse(rssFeedData);
-  const allEpisodes = parsedFeed.rss.channel.item;
+  let allEpisodes = [];
+
+  try {
+    const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
+    const rssFeedData = await feedTest.text();
+    const parsedFeed = parser.parse(rssFeedData);
+    allEpisodes = parsedFeed?.rss?.channel?.item ?? [];
+  } catch (error) {
+    console.warn('Unable to fetch podcast feed during build:', error);
+  }
 
   return await Promise.all(
     allEpisodes.map(async (episode) => {

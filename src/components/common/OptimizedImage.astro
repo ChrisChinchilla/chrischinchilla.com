@@ -44,7 +44,6 @@ if (!alt || alt.trim() === '') {
 ---
 
 {typeof src === 'string' ? (
-  <!-- Use regular img tag for Supabase/remote images -->
   <img
     src={getImageUrl(src)}
     alt={alt}
@@ -57,7 +56,6 @@ if (!alt || alt.trim() === '') {
     {...rest}
   />
 ) : (
-  <!-- Use Astro Image component for local images -->
   <Image
     src={src}
     alt={alt}

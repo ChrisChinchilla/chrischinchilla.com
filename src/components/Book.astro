@@ -33,7 +33,7 @@ const idOfTitle = slugify(book.data.title);
       <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading" id={idOfTitle}>
         <a
               class="hover:text-primary transition ease-in duration-200"
-              href=`${book.id}`
+              href={book.id}
               rel="canonical"
             >
         {book.data.title}</a>
@@ -42,9 +42,8 @@ const idOfTitle = slugify(book.data.title);
     </header>
     <div class="post-body body">
       <Content />
-    {
-      book.data.store_urls && (
-        
+      {book.data.store_urls && (
+        <>
           <b class="my-2 block">Buy a copy in the following places:</b>
           <ul class="list-disc list-inside m-2">
             {book.data.store_urls.map((store_url) => (
@@ -53,9 +52,8 @@ const idOfTitle = slugify(book.data.title);
               </li>
             ))}
           </ul>
-        
-      )
-          </div>
-    }
+        </>
+      )}
+    </div>
   </div>
 </article>
