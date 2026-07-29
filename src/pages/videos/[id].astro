@@ -8,20 +8,28 @@ export async function getStaticPaths() {
   let allVideos = [];
   let nextPageToken = null;
 
-  do {
-    const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}${
-      nextPageToken ? `&pageToken=${nextPageToken}` : ''
-    }`;
+  if (!apiKey) {
+    return [];
+  }
 
-    const response = await fetch(url);
-    const data = await response.json();
+  try {
+    do {
+      const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}${
+        nextPageToken ? `&pageToken=${nextPageToken}` : ''
+      }`;
 
-    if (data.items) {
-      allVideos = allVideos.concat(data.items);
-    }
+      const response = await fetch(url);
+      const data = await response.json();
 
-    nextPageToken = data.nextPageToken || null;
-  } while (nextPageToken);
+      if (data.items) {
+        allVideos = allVideos.concat(data.items);
+      }
+
+      nextPageToken = data.nextPageToken || null;
+    } while (nextPageToken);
+  } catch (error) {
+    console.warn('Unable to fetch YouTube playlist during build:', error);
+  }
 
   return allVideos.map((video) => {
     const slug = slugify(video.snippet.title);

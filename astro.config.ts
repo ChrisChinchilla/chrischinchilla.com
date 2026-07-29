@@ -6,6 +6,7 @@ import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
+import { unified } from '@astrojs/markdown-remark';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
@@ -79,19 +80,21 @@ export default defineConfig({
   ],
   
   markdown: {
-    remarkPlugins: [remarkReadingTime, remarkSupabaseImages, remarkYouTube],
-    rehypePlugins: [
-      rehypeSlug,
-      [
-        rehypeAutolinkHeadings,
-        {
-          behavior: 'wrap',
-          properties: {
-            className: ['heading-link'],
+    processor: unified({
+      remarkPlugins: [remarkReadingTime, remarkSupabaseImages, remarkYouTube],
+      rehypePlugins: [
+        rehypeSlug,
+        [
+          rehypeAutolinkHeadings,
+          {
+            behavior: 'wrap',
+            properties: {
+              className: ['heading-link'],
+            },
           },
-        },
+        ],
       ],
-    ],
+    }),
   },
   
   vite: {

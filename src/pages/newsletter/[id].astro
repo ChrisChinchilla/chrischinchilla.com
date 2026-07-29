@@ -16,19 +16,26 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 
-const links = await fetch(`https://api.raindrop.io/rest/v1/raindrops/45559645?sort=-created&search=${entry.id}`, {
-  method: 'GET',
-  headers: {
+let links = [];
+
+try {
+  links = await fetch(`https://api.raindrop.io/rest/v1/raindrops/45559645?sort=-created&search=${entry.id}`, {
+    method: 'GET',
+    headers: {
     Authorization: `Bearer ${import.meta.env.RAINDROP}`,
-  },
-})
-  .then((response) => response.json())
-  .then((response) =>
-    Object.values(response.items).filter((item) => {
-      const createdDate = new Date(item.created);
-      return createdDate <= entry.data.date;
-    })
-  );
+    },
+  })
+    .then((response) => response.json())
+    .then((response) =>
+      Object.values(response.items).filter((item) => {
+        const createdDate = new Date(item.created);
+        return createdDate <= entry.data.date;
+      })
+    );
+} catch (error) {
+  console.warn('Unable to fetch newsletter links during build:', error);
+}
+
 ---
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Newsletter', href: '/newsletter' }}>
