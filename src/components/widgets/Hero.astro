@@ -3,8 +3,8 @@
  * Hero Carousel Component
  *
  * Displays a rotating carousel of featured content (posts, books, events,
- * podcasts, newsletters) that have both herotext and heroimage frontmatter
- * properties set.
+ * podcasts, newsletters, stories, music, games) that have both herotext and
+ * heroimage frontmatter properties set.
  *
  * Features:
  * - Auto-rotation every 5 seconds
@@ -13,7 +13,8 @@
  * - Pause on hover
  * - Supports both internal content and external publication URLs
  * - Responsive design with rounded corners and drop shadow
- * - Supports multiple content types: posts, books, events, podcasts, newsletters
+ * - Supports multiple content types: posts, books, events, podcasts, newsletters,
+ *   stories, music, games
  * - Sorted by date (most recent first) for intentional display order
  */
 import { getCollection } from 'astro:content';
@@ -26,7 +27,7 @@ import { getImageUrl } from '~/utils/supabase-images';
 interface ContentEntry {
   id: string;
   data: {
-    title: string;
+    title?: string;
     herotext?: string;
     heroimage?: any;
     publication_url?: string;
@@ -41,7 +42,7 @@ interface HeroItem {
   herotext: string;
   heroimage: any;
   title: string;
-  type: 'post' | 'book' | 'event' | 'podcast' | 'newsletter' | 'story' | 'music';
+  type: 'post' | 'book' | 'event' | 'podcast' | 'newsletter' | 'story' | 'music' | 'game';
   date: Date | null;
 }
 
@@ -53,6 +54,7 @@ const allPodcasts = await getCollection('podcasts');
 const allNewsletters = await getCollection('newsletters');
 const allStories = await getCollection('stories');
 const allMusic = await getCollection('music');
+const allGames = await getCollection('games');
 
 // Helper function to map content to hero items
 // Constructs the full slug URL using the content entry's id or publication_url
@@ -70,7 +72,7 @@ const mapToHeroItem = (item: ContentEntry, type: HeroItem['type'], basePath: str
     slug: item.data.publication_url ?? `/${basePath}/${item.id}`,
     herotext: item.data.herotext,
     heroimage: item.data.heroimage,
-    title: item.data.title,
+    title: item.data.title ?? item.id,
     type,
     date,
   };
@@ -86,6 +88,7 @@ const heroItems: HeroItem[] = await Promise.all(
     ...allNewsletters.map(newsletter => mapToHeroItem(newsletter, 'newsletter', 'newsletter', 'date')),
     ...allStories.map(story => mapToHeroItem(story, 'story', 'stories', 'date')),
     ...allMusic.map(release => mapToHeroItem(release, 'music', 'music', 'release_date')),
+    ...allGames.map(game => mapToHeroItem(game, 'game', 'games', 'publish_date')),
   ].filter((item): item is HeroItem => item !== null)
 ).then(items =>
   Promise.all(
