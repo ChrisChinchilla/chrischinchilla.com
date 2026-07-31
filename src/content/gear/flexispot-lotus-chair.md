@@ -2,7 +2,7 @@
 title: Flexispot Lotus chair
 summary: A fully-reclining lounge chair I use for breaks and power naps — folds back 180 degrees with a footrest.
 current: true
-affiliate_url: https://amzn.to/3V3Cfsw
+affiliate_url:  https://www.flexispot.nl/relaxfauteuil-lotus-xc6-xr6.html?utm_source=Media&utm_medium=KOL&utm_campaign=The+Next+Web%2B%289th25%29
 tags:
   - Furniture
 ---

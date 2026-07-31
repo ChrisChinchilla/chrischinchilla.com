@@ -7,4 +7,4 @@ tags:
   - Monitors
 ---
 
-These two monitors are slightly different models, but both from the 27" Dell UltraSharp series.
+These two monitors are slightly different models, but both from the 27" Dell UltraSharp series. I am a big fan of all the ports they support and even though my eyes are too bad to run them in 4k, I generally like the quality of the displays. I have one set up horizontally and one vertically.
