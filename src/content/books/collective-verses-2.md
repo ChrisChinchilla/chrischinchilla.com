@@ -1,5 +1,6 @@
 ---
 title: Collective Verses Volume II
+summary: A collection of poetry written during the April 2022 April Daily Poem challenge hosted by the Storytelling Collective, featuring three of my poems - Hunger, Endless, and Decay.
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2022-06-01

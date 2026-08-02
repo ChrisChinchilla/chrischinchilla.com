@@ -1,5 +1,6 @@
 ---
 title: Flashbang! A Collection of Very Short Stories Volume III
+summary: A collection of short fiction written during the Storytelling Collective's February 2022 Flash Fiction February challenge, featuring my story - Oath.
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2022-05-06

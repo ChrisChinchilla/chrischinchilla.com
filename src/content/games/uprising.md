@@ -1,5 +1,6 @@
 ---
 title: Uprising
+summary: The first fully cooperative 4X fantasy board game, which raised over $300k on Kickstarter and $600k for a second printing.
 image: "games/heroshot-2020.jpg"
 publisher: Nemesis Games
 publish_date: 2021-06-05

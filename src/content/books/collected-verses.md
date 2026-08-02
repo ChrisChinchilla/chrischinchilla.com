@@ -1,5 +1,6 @@
 ---
 title: Collective Verses
+summary: A collection of poetry written during the Storytelling Collective's annual April Daily Poem challenge, in which poets write a poem every day for the month based on simple prompts.
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2023-09-04

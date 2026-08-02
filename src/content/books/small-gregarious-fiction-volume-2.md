@@ -1,5 +1,6 @@
 ---
 title: Small gregarious fiction volume 2
+summary: A second collection of flash fiction full of short tales set in strange, slightly recognisable worlds, with characters undertaking the unexpected.
 publisher: Self-published
 role: Author
 publish_date: 2024-02-15

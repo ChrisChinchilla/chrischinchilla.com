@@ -1,5 +1,6 @@
 ---
 title: Pioneer's Path To Port Luxus - An Urban Mystery Adventure!
+summary: An urban mystery adventure to Port Luxus for Dungeon Masters looking to spice up dragon encounters beyond a repetitive slugfest.
 image: "games/408396.jpg"
 publisher: Art of Karthik
 publish_date: 2022-09-04

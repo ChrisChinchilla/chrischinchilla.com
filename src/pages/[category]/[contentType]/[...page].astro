@@ -102,7 +102,17 @@ const sectionClass = isGridLayout
       isGridLayout ? (
         <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
           {page.data.map((entry: any) =>
-            contentType.collection === 'posts' ? <Post post={entry} /> : <Story story={entry} />
+            contentType.collection === 'posts' ? (
+              <Post post={entry} />
+            ) : contentType.collection === 'books' ? (
+              <Book book={entry} />
+            ) : contentType.collection === 'music' ? (
+              <Music release={entry} />
+            ) : contentType.collection === 'games' ? (
+              <Game game={entry} />
+            ) : (
+              <Story story={entry} />
+            )
           )}
         </div>
       ) : (

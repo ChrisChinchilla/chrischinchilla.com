@@ -42,14 +42,14 @@ export type CategoryContentType = {
 
 export const CATEGORY_CONTENT_TYPES: CategoryContentType[] = [
   { slug: 'blog', label: 'Blog', collection: 'posts', listStyle: 'grid', pageSize: 30 },
-  { slug: 'books', label: 'Books', collection: 'books', listStyle: 'list', pageSize: 15 },
+  { slug: 'books', label: 'Books', collection: 'books', listStyle: 'grid', pageSize: 15 },
   { slug: 'podcasts', label: 'Podcasts', collection: 'podcasts', listStyle: 'list', pageSize: 15 },
   { slug: 'videos', label: 'Videos', collection: 'av', listStyle: 'list', pageSize: 30 },
   { slug: 'stories', label: 'Stories', collection: 'stories', listStyle: 'grid', pageSize: 30 },
-  { slug: 'games', label: 'Games', collection: 'games', listStyle: 'list', pageSize: 30 },
+  { slug: 'games', label: 'Games', collection: 'games', listStyle: 'grid', pageSize: 30 },
   { slug: 'clients', label: 'Clients', collection: 'clients', listStyle: 'list', pageSize: 25 },
   { slug: 'newsletters', label: 'Newsletters', collection: 'newsletters', listStyle: 'list', pageSize: 25 },
-  { slug: 'music', label: 'Music', collection: 'music', listStyle: 'list', pageSize: 15 },
+  { slug: 'music', label: 'Music', collection: 'music', listStyle: 'grid', pageSize: 15 },
 ];
 
 export type CategoryContentTypeWithEntries = CategoryContentType & {

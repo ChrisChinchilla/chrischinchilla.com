@@ -1,5 +1,6 @@
 ---
 title: A.I.Pokalypse
+summary: An auto-battle card game where you build your engine and fight for survival after the A.I.Pokalypse - raised €54,000 on Kickstarter in 2024.
 image: "games/aipokalypse.jpeg"
 publisher: Owly Mowly
 publish_date: 2024-07-10

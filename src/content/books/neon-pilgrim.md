@@ -1,5 +1,6 @@
 ---
 title: Neon Pilgrim
+summary: Lisa Dempster's account of hiking the 1,200km Henro Michi Buddhist pilgrimage through Japan, a witty and fascinating insight into the 88 Temple Pilgrimage.
 publisher: Aduki Independent Press
 role: Publisher
 publish_date: 2009-10-01

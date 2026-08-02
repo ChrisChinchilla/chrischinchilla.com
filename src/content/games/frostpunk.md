@@ -1,5 +1,6 @@
 ---
 title: Frostpunk
+summary: The epic board game based on the video game, which raised over €2 million on Kickstarter in 2020.
 image: "games/Box-combined-small.png"
 publisher: Glass Cannon Unplugged
 publish_date: 2022-09-01

@@ -1,5 +1,6 @@
 ---
 title: Building the Sustainable Web
+summary: A guide to designing, building, and hosting digital products that respect people and the planet, covering infrastructure, backend architecture, frontend performance, UX, content strategy, and marketing practices that reduce environmental impact while improving performance and accessibility.
 publisher: Apress
 role: Co-author
 publish_date: 2026-07-01

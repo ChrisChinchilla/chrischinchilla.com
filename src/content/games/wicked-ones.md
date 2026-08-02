@@ -1,5 +1,6 @@
 ---
 title: Wicked Ones
+summary: A Forged in the Dark tabletop RPG where you play fantasy monsters raiding human lands and building a dungeon to protect your loot.
 image: "games/354307.jpg"
 publisher: Bandit Camp
 publish_date: 2020-12-23

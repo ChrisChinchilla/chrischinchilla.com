@@ -1,5 +1,6 @@
 ---
 title: Dork Borg - A Mork Borg Hack
+summary: A Mork Borg hack about nerds and dorks locked into a vast city-sized arena, forced to survive through strategy, skill, and cunning.
 publisher: TBD
 publish_date: 2025-09-01
 image: "/src/assets/images/defaults/game-chinchilla.jpg"

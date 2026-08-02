@@ -1,5 +1,6 @@
 ---
 title: Technical Writing for Software Developers
+summary: A practical guide to documentation for software developers, covering essential grammar, language tips, and the fundamental types and styles of technical writing.
 publisher: Packt
 role: Author
 publish_date: 2024-03-29

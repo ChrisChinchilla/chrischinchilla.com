@@ -1,5 +1,6 @@
 ---
 title: Silicon Vallery mystery
+summary: A detective game where players race to solve a mystery using the freshest clues, set in Silicon Valley with resources to create your own scenarios.
 image: "/src/assets/images/defaults/game-chinchilla.jpg"
 publisher: Self-published
 publish_date: 2022-06-05

@@ -1,5 +1,6 @@
 ---
 title: Jump Start Responsive Web Design, 2nd Edition
+summary: An introduction to the building blocks of responsive web design, covering grid systems, media queries, responsive text, images, and video.
 publisher: Sitepoint
 role: Author
 publish_date: 2017-04-18

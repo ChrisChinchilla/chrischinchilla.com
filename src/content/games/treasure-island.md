@@ -1,5 +1,6 @@
 ---
 title: Return to Treasure Island - A Pirate Adventure!
+summary: A one-shot pirate adventure for 4-6 players at level 10, returning to the fabled treasure island years after the first fortune ran out.
 image: "games/423696.jpg"
 publisher: Art of Karthik
 publish_date: 2023-01-17

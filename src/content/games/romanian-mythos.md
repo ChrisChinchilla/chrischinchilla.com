@@ -1,5 +1,6 @@
 ---
 title: Romanian Mythos - Sourcebook of Horrors for Lovecraftian RPGs
+summary: A compendium and setting guide for Lovecraftian investigative RPGs, inspired by Romanian culture and history.
 image: "games/454061.png"
 publisher: Chaos Badger Publishing
 publish_date: 2023-09-25

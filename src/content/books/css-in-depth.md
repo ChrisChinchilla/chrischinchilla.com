@@ -1,5 +1,6 @@
 ---
 title: CSS in Depth, 2nd Edition
+summary: A revised edition covering advanced CSS techniques, patterns, layouts, and methods for building beautiful, modern front ends beyond the basics.
 publisher: Manning
 role: Technical reviewer
 publish_date: 2024-02-18

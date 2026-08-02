@@ -1,19 +1,22 @@
 ---
 import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
-import { slugify } from '~/utils/slugify';
+import Tags from '~/components/common/Tags.astro';
 import { formatShortDate } from '~/utils/utils';
-import { render } from 'astro:content';
 export interface Props {
   book: CollectionEntry<"books">;
 }
 const { book } = Astro.props;
-const { Content } = await render(book);
-// const featured_image = await findImage(book.data.image);
-// TODO: Why is slug broken again?
 
 const formattedDate = formatShortDate(book.data.publish_date);
-const idOfTitle = slugify(book.data.title);
+
+// What sort of URL - external publication or internal book page
+var url = '';
+if (book.data.publication_url != null) {
+  url = book.data.publication_url;
+} else {
+  url = '/books/' + book.id;
+}
 ---
 
 <article class="mb-6 transition px-4">
@@ -28,32 +31,42 @@ const idOfTitle = slugify(book.data.title);
 
   <div>
     <header>
-      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading" id={idOfTitle}>
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
         <a
-              class="hover:text-primary transition ease-in duration-200"
-              href=`${book.id}`
-              rel="canonical"
-            >
-        {book.data.title}</a>
+          class="hover:text-primary transition ease-in duration-200"
+          href={url}
+          rel="canonical"
+        >
+          {book.data.title}
+        </a>
       </h2>
       <i class="my-2 block">{book.data.publisher}, {formattedDate}, {book.data.role}</i>
     </header>
-    <div class="post-body body">
-      <Content />
+    <div class="post-body body whitespace-pre-line">
+      {book.data.summary}
+    </div>
     {
-      book.data.store_urls && (
-        
-          <b class="my-2 block">Buy a copy in the following places:</b>
-          <ul class="list-disc list-inside m-2">
+      book.data.store_urls && book.data.store_urls.length > 0 && (
+        <div class="mt-3">
+          <b class="block mb-1">Buy a copy:</b>
+          <ul class="list-disc list-inside">
             {book.data.store_urls.map((store_url) => (
               <li>
-                <a href={store_url.url}>{store_url.label}</a>
+                <a class="hover:text-primary transition ease-in duration-200" href={store_url.url}>
+                  {store_url.label}
+                </a>
               </li>
             ))}
           </ul>
-        
+        </div>
       )
-          </div>
     }
   </div>
+  {
+    book.data.tags && Array.isArray(book.data.tags) ? (
+      <footer class="mt-2">
+        <Tags tags={book.data.tags} />
+      </footer>
+    ) : null
+  }
 </article>

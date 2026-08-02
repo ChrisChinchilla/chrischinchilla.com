@@ -1,5 +1,6 @@
 ---
 title: Humanity in Flames - 3286
+summary: A tactical miniatures game - proofread and edited the manual.
 image: "/src/assets/images/defaults/game-chinchilla.jpg"
 role: Proofreader
 ---

@@ -1,5 +1,6 @@
 ---
 title: In a flash
+summary: A collection of flash fiction under 1,500 words, written during the Storytelling Collective's month-long Flash Fiction February challenge.
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2023-09-04
