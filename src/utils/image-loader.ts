@@ -61,7 +61,7 @@ export async function getLocalImage(imagePath: string): Promise<ImageMetadata | 
 
 /**
  * Resolve an image path to either an ImageMetadata object (for local images)
- * or the original path (for external URLs or Supabase paths)
+ * or the original path (for external URLs or R2 paths)
  *
  * @param imagePath - The image path or URL
  * @returns ImageMetadata object for local images, or the original string for others
@@ -71,7 +71,7 @@ export async function getLocalImage(imagePath: string): Promise<ImageMetadata | 
  * // Local image - returns ImageMetadata
  * const img1 = await resolveImage('/src/assets/images/hero.jpg');
  *
- * // Supabase path - returns string
+ * // R2 path - returns string
  * const img2 = await resolveImage('posts/hero.jpg');
  *
  * // External URL - returns string
@@ -94,7 +94,7 @@ export async function resolveImage(
     }
   }
 
-  // Return as-is for external URLs or Supabase paths
+  // Return as-is for external URLs or R2 paths
   return imagePath;
 }
 

@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import { resolveImage } from '~/utils/image-loader';
-import { getImageUrl } from '~/utils/supabase-images';
+import { getImageUrl } from '~/utils/r2-images';
 
 export interface Props {
   src: any;
@@ -34,7 +34,7 @@ const {
   ...rest
 } = Astro.props;
 
-// Resolve the image (handles Supabase paths, local paths, etc.)
+// Resolve the image (handles R2 paths, local paths, etc.)
 const src = await resolveImage(_src);
 
 // Validate alt text exists and is meaningful

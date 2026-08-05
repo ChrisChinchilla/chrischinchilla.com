@@ -11,7 +11,7 @@ import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
 import { remarkReadingTime } from './src/utils/frontmatter.mjs';
-import { remarkSupabaseImages } from './src/utils/remark-supabase-images.mjs';
+import { remarkR2Images } from './src/utils/remark-r2-images.mjs';
 import { remarkYouTube } from './src/utils/remark-youtube.mjs';
 import { customizeSitemapItem } from './src/utils/sitemap';
 import { SITE } from './src/config.mjs';
@@ -81,7 +81,7 @@ export default defineConfig({
   
   markdown: {
     processor: unified({
-      remarkPlugins: [remarkReadingTime, remarkSupabaseImages, remarkYouTube],
+      remarkPlugins: [remarkReadingTime, remarkR2Images, remarkYouTube],
       rehypePlugins: [
         rehypeSlug,
         [

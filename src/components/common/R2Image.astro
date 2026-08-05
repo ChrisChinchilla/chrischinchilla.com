@@ -1,44 +1,44 @@
 ---
 /**
- * SupabaseImage Component
- * 
- * A flexible image component that supports both local Astro assets and Supabase Storage.
+ * R2Image Component
+ *
+ * A flexible image component that supports both local Astro assets and Cloudflare R2.
  * Automatically detects the image source and handles it appropriately.
- * 
+ *
  * @example Local image
  * ```astro
- * <SupabaseImage 
- *   src="/src/assets/images/logo.png" 
- *   alt="Logo" 
- *   width={200} 
- *   height={100} 
+ * <R2Image
+ *   src="/src/assets/images/logo.png"
+ *   alt="Logo"
+ *   width={200}
+ *   height={100}
  * />
  * ```
- * 
- * @example Supabase image with path
+ *
+ * @example R2 image with path
  * ```astro
- * <SupabaseImage 
- *   src="posts/my-article.jpg" 
- *   alt="Article hero" 
- *   width={800} 
- *   height={600} 
+ * <R2Image
+ *   src="posts/my-article.jpg"
+ *   alt="Article hero"
+ *   width={800}
+ *   height={600}
  * />
  * ```
- * 
- * @example Supabase image with full URL
+ *
+ * @example R2 image with full URL
  * ```astro
- * <SupabaseImage 
- *   src="https://xxx.supabase.co/storage/v1/object/public/images/posts/hero.jpg" 
- *   alt="Hero" 
- *   width={1200} 
- *   height={630} 
+ * <R2Image
+ *   src="https://images.example.com/posts/hero.jpg"
+ *   alt="Hero"
+ *   width={1200}
+ *   height={630}
  * />
  * ```
- * 
+ *
  * @example With transformations
  * ```astro
- * <SupabaseImage 
- *   src="posts/large-image.jpg" 
+ * <R2Image
+ *   src="posts/large-image.jpg"
  *   alt="Optimized image"
  *   width={800}
  *   height={600}
@@ -49,7 +49,7 @@
  */
 
 import { Image } from 'astro:assets';
-import { shouldUseSupabase, getSupabaseImageUrl } from '../../utils/supabase-images';
+import { shouldUseR2, getR2ImageUrl } from '../../utils/r2-images';
 import { resolveImage } from '../../utils/image-loader';
 import type { ImageMetadata } from 'astro';
 
@@ -89,14 +89,14 @@ const resolvedSrc = await resolveImage(src);
 // Determine image type after resolution
 // - ImageMetadata object: actual Astro import, use Image component with inferSize
 // - String starting with '/src/': this shouldn't happen after resolution, but handle it
-// - String (other): Supabase path or external URL
+// - String (other): R2 path or external URL
 const isImageMetadata = typeof resolvedSrc !== 'string';
 const isLocalStringPath = typeof resolvedSrc === 'string' && resolvedSrc.startsWith('/src/');
-const useSupabase = typeof resolvedSrc === 'string' && !isLocalStringPath && shouldUseSupabase(resolvedSrc);
+const useR2 = typeof resolvedSrc === 'string' && !isLocalStringPath && shouldUseR2(resolvedSrc);
 
-// For Supabase images, construct the URL with transformations
+// For R2 images, construct the URL with transformations
 let imageSrc = resolvedSrc;
-if (useSupabase && typeof resolvedSrc === 'string') {
+if (useR2 && typeof resolvedSrc === 'string') {
   const transformOptions = {
     width,
     height,
@@ -104,7 +104,7 @@ if (useSupabase && typeof resolvedSrc === 'string') {
     format,
     resize,
   };
-  imageSrc = getSupabaseImageUrl(resolvedSrc, transformOptions);
+  imageSrc = getR2ImageUrl(resolvedSrc, transformOptions);
 }
 ---
 
