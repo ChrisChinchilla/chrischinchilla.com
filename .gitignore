@@ -30,5 +30,5 @@ src/content/types.generated.d.ts
 src/pages/podcast/convert.js
 .astro
 .vscode
-scripts/convert-images-to-supabase.mjs
-SUPABASE_IMAGES.md
+scripts/convert-images-to-r2.mjs
+R2_IMAGES.md

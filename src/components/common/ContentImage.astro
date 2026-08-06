@@ -4,6 +4,7 @@
  * 
  * High-level component for rendering content images with smart defaults.
  * Automatically handles fallbacks to default images based on content type.
+ * Remote images are served from Cloudflare R2.
  * 
  * @example Blog post image
  * ```astro
@@ -16,17 +17,17 @@
  * />
  * ```
  * 
- * @example Newsletter image with Supabase
+ * @example Newsletter image with R2
  * ```astro
- * <ContentImage 
- *   src="newsletters/2024-01-newsletter.jpg" 
+ * <ContentImage
+ *   src="newsletters/2024-01-newsletter.jpg"
  *   alt="Newsletter header"
  *   type="newsletter"
  * />
  * ```
  */
 
-import SupabaseImage from './SupabaseImage.astro';
+import R2Image from './R2Image.astro';
 import defaultPostImage from '../../assets/images/defaults/blog-chinchilla.jpg';
 import type { ImageMetadata } from 'astro';
 
@@ -37,7 +38,7 @@ interface Props {
   width?: number;
   height?: number;
   quality?: number;
-  format?: 'origin' | 'webp' | 'avif';
+  format?: 'avif' | 'webp' | 'png' | 'jpg';
   class?: string;
   inferSize?: boolean;
   [key: string]: any;
@@ -59,7 +60,7 @@ const {
 // Use provided image or fall back to default
 const imageSrc = src || defaultPostImage;
 
-// Determine default dimensions based on content type (for Supabase/external images)
+// Determine default dimensions based on content type (for R2/external images)
 const defaultDimensions: Record<string, { width: number; height: number }> = {
   post: { width: 1200, height: 630 },
   newsletter: { width: 1200, height: 630 },
@@ -76,11 +77,11 @@ const finalWidth = width ?? defaultDimensions[type]?.width;
 const finalHeight = height ?? defaultDimensions[type]?.height;
 
 // For ImageMetadata objects (local images), use inferSize
-// For Supabase/external string paths, use explicit dimensions
+// For R2/external string paths, use explicit dimensions
 const shouldInferSize = inferSize ?? (typeof imageSrc !== 'string' || (!width && !height));
 ---
 
-<SupabaseImage
+<R2Image
   src={imageSrc}
   alt={alt}
   width={finalWidth}

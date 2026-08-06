@@ -1,0 +1,151 @@
+---
+/**
+ * R2Image Component
+ *
+ * A flexible image component that supports both local Astro assets and Cloudflare R2.
+ * Automatically detects the image source and handles it appropriately.
+ * R2 images are optimized at build time the same way local imports are — this
+ * requires the R2 host to be allow-listed via `image.domains` in astro.config.ts.
+ * If an R2 object is missing/unreachable at build time, falls back to the
+ * site's default image rather than failing the whole static build.
+ *
+ * @example Local image
+ * ```astro
+ * <R2Image
+ *   src="/src/assets/images/logo.png"
+ *   alt="Logo"
+ *   width={200}
+ *   height={100}
+ * />
+ * ```
+ *
+ * @example R2 image with path
+ * ```astro
+ * <R2Image
+ *   src="posts/my-article.jpg"
+ *   alt="Article hero"
+ *   width={800}
+ *   height={600}
+ * />
+ * ```
+ *
+ * @example R2 image with full URL
+ * ```astro
+ * <R2Image
+ *   src="https://images.example.com/posts/hero.jpg"
+ *   alt="Hero"
+ *   width={1200}
+ *   height={630}
+ * />
+ * ```
+ *
+ * @example With transformations
+ * ```astro
+ * <R2Image
+ *   src="posts/large-image.jpg"
+ *   alt="Optimized image"
+ *   width={800}
+ *   height={600}
+ *   quality={80}
+ *   format="webp"
+ * />
+ * ```
+ */
+
+import { getImage } from 'astro:assets';
+import { shouldUseR2, getR2ImageUrl } from '../../utils/r2-images';
+import { resolveImage } from '../../utils/image-loader';
+import defaultImage from '../../assets/images/defaults/blog-chinchilla.jpg';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  src: string | ImageMetadata;
+  alt: string;
+  width?: number;
+  height?: number;
+  quality?: number;
+  format?: 'avif' | 'webp' | 'png' | 'jpg';
+  class?: string;
+  loading?: 'lazy' | 'eager';
+  decoding?: 'async' | 'sync' | 'auto';
+  inferSize?: boolean;
+  [key: string]: any; // Allow additional props to pass through
+}
+
+const {
+  src,
+  alt,
+  width,
+  height,
+  quality,
+  format,
+  class: className,
+  loading = 'lazy',
+  decoding = 'async',
+  inferSize,
+  ...rest
+} = Astro.props;
+
+// Resolve the image - convert local paths to ImageMetadata objects
+const resolvedSrc = await resolveImage(src);
+
+// Determine image type after resolution
+// - ImageMetadata object: actual Astro import, optimize with inferSize
+// - String starting with '/src/': this shouldn't happen after resolution, but handle it
+// - R2 string path/URL: also optimized, since the R2 host is allow-listed
+// - Any other string (arbitrary external URL): plain <img>, since Astro would fail
+//   to build if asked to optimize an unlisted remote host
+const isImageMetadata = typeof resolvedSrc !== 'string';
+const isLocalStringPath = typeof resolvedSrc === 'string' && resolvedSrc.startsWith('/src/');
+const useR2 = typeof resolvedSrc === 'string' && !isLocalStringPath && shouldUseR2(resolvedSrc);
+const canOptimize = isImageMetadata || useR2;
+
+const optimizableSrc = isImageMetadata
+  ? resolvedSrc
+  : useR2 && typeof resolvedSrc === 'string'
+    ? getR2ImageUrl(resolvedSrc)
+    : undefined;
+
+let optimized: Awaited<ReturnType<typeof getImage>> | null = null;
+if (canOptimize) {
+  try {
+    optimized = await getImage({
+      src: optimizableSrc as any,
+      width,
+      height,
+      quality,
+      format,
+      inferSize: inferSize ?? true,
+    });
+  } catch (error) {
+    // The R2 object may be missing/unreachable at build time (renamed, not
+    // yet uploaded, etc). One bad reference shouldn't fail the whole static
+    // build, so fall back to the site's default image instead.
+    console.warn(`R2Image: failed to optimize "${src}", falling back to the default image.`, error);
+    optimized = await getImage({ src: defaultImage, width, height, quality, format });
+  }
+}
+---
+
+{optimized ? (
+  <img
+    src={optimized.src}
+    {...optimized.attributes}
+    alt={alt}
+    class={className}
+    loading={loading}
+    decoding={decoding}
+    {...rest}
+  />
+) : (
+  <img
+    src={resolvedSrc as string}
+    alt={alt}
+    width={width}
+    height={height}
+    class={className}
+    loading={loading}
+    decoding={decoding}
+    {...rest}
+  />
+)}
