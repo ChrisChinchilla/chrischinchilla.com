@@ -1,6 +1,7 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
+import { loadEnv } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
@@ -22,10 +23,24 @@ const hasExternalScripts = false;
 const whenExternalScripts = (items: (() => any) | (() => any)[] = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
+// Allow-list the R2 bucket's host so Astro's <Image> component can fetch and
+// optimize R2-hosted images at build time, the same way it does local assets.
+// astro.config.ts runs before Astro loads .env into process.env, so it's
+// read explicitly here via Vite's loadEnv.
+const { PUBLIC_R2_URL } = loadEnv(process.env.NODE_ENV ?? 'production', process.cwd(), 'PUBLIC_');
+const r2Hostname = (() => {
+  try {
+    return PUBLIC_R2_URL ? new URL(PUBLIC_R2_URL).hostname : undefined;
+  } catch {
+    return undefined;
+  }
+})();
+
 // https://astro.build/config
 export default defineConfig({
   image: {
     responsiveStyles: true,
+    domains: r2Hostname ? [r2Hostname] : [],
   },
   site: SITE.origin,
   base: SITE.basePathname,
