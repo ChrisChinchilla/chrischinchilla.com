@@ -6,6 +6,7 @@ import Announcement from '~/components/widgets/Announcement.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import ContentImage from '~/components/common/ContentImage.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import truncateMarkdown from 'markdown-truncate';
 import type { MetaSEO } from '~/types';
 import { SITE } from '~/config.mjs';
@@ -107,6 +108,13 @@ const breadcrumbItems = [
     </section>
 
   </main>
+
+  <ShareLinks
+    title={episodeTitle}
+    url={canonical}
+    summary={truncateMarkdown(podcast.description, { limit: 200, ellipsis: true })}
+    class="px-4 pb-8 sm:px-6 mx-auto lg:px-8 max-w-4xl"
+  />
 
   <Footer />
 </Layout>

@@ -6,6 +6,7 @@ import Announcement from '~/components/widgets/Announcement.astro';
 import SupportBlock from '~/components/SupportBlock.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import AIShare from '~/components/common/AIShare.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import { MetaSEO } from '~/types';
 import { getImageUrl } from '~/utils/r2-images';
 
@@ -60,6 +61,9 @@ const meta: MetaSEO = {
         type: 'website',
       },
 };
+
+const shareUrl = frontmatter?.publication_url || Astro.url.href;
+const shareSummary = frontmatter?.summary || frontmatter?.description;
 ---
 
 <Layout {meta}>
@@ -87,6 +91,12 @@ const meta: MetaSEO = {
       </div>
     </section>
   </main>
+  <ShareLinks
+    title={frontmatter.title}
+    url={shareUrl}
+    summary={shareSummary}
+    class="px-4 pb-8 sm:px-6 mx-auto lg:px-8 max-w-4xl"
+  />
   <AIShare
     url={Astro.url.href}
     title={frontmatter.title}

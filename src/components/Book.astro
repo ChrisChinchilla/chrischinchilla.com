@@ -1,6 +1,7 @@
 ---
 import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import { slugify } from '~/utils/slugify';
 import { formatShortDate } from '~/utils/utils';
 import { render } from 'astro:content';
@@ -14,6 +15,7 @@ const { Content } = await render(book);
 
 const formattedDate = formatShortDate(book.data.publish_date);
 const idOfTitle = slugify(book.data.title);
+const shareUrl = book.data.publication_url || `/books/${book.id}`;
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${book.data.image ? 'md:grid-cols-2' : ''}`}>
@@ -55,5 +57,6 @@ const idOfTitle = slugify(book.data.title);
         </>
       )}
     </div>
+    <ShareLinks title={book.data.title} url={shareUrl} summary={book.data.summary} compact class="mt-2" />
   </div>
 </article>

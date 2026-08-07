@@ -5,6 +5,7 @@ import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import { YouTube } from "@astro-community/astro-embed-youtube";
 import type { MetaSEO } from '~/types';
 import { SITE } from '~/config.mjs';
@@ -92,5 +93,11 @@ const breadcrumbItems = [
       </div>
     </section>
   </main>
+  <ShareLinks
+    title={snippet.title}
+    url={canonical}
+    summary={snippet.description.slice(0, 200)}
+    class="px-4 pb-8 sm:px-6 mx-auto lg:px-8 max-w-4xl"
+  />
   <Footer />
 </Layout>

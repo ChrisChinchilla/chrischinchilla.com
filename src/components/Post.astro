@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import ContentImage from '~/components/common/ContentImage.astro';
 import Tags from '~/components/common/Tags.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
 import { formatShortDate } from '~/utils/utils';
 
@@ -57,6 +58,7 @@ if (post.data.publication_url != null) {
     <div class="post-body body whitespace-pre-line">
       {post.data.summary}
     </div>
+    <ShareLinks title={post.data.title} url={url} summary={post.data.summary} compact class="mt-2" />
   </div>
   {
     post.data.tags && Array.isArray(post.data.tags) ? (

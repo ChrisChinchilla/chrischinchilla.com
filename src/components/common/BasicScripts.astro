@@ -91,6 +91,20 @@ import { SITE } from '~/config.mjs';
       newlink.click();
     });
 
+    attachEvent('[data-aw-mastodon-share]', 'click', function (_, elem) {
+      const instance = window.prompt('Which Mastodon instance are you on? (e.g. mastodon.social)');
+      if (!instance) return;
+
+      const host = instance.trim().replace(/^https?:\/\//i, '').replace(/\/.*$/, '');
+      if (!host) return;
+
+      const text = encodeURIComponent(elem.getAttribute('data-aw-text'));
+      const newlink = document.createElement('a');
+      newlink.target = '_blank';
+      newlink.href = `https://${host}/share?text=${text}`;
+      newlink.click();
+    });
+
     function appyHeaderStylesOnScroll() {
       const header = document.getElementById('header');
       if (lastKnownScrollPosition > 60 && !header.classList.contains('scroll')) {
