@@ -78,8 +78,11 @@ const breadcrumbItems = [
         class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400"
       >
         <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
-          <div class="overflow-hidden rounded drop-shadow-lg">
-            <YouTube id={snippet.resourceId.videoId} />
+          <div>
+            <div class="overflow-hidden rounded drop-shadow-lg">
+              <YouTube id={snippet.resourceId.videoId} />
+            </div>
+            <ShareLinks title={snippet.title} url={canonical} summary={snippet.description.slice(0, 200)} class="mt-4" />
           </div>
           <div class="mt-2">
             <p set:html={linkifyDescription(snippet.description, snippet.resourceId.videoId)} />
@@ -93,11 +96,5 @@ const breadcrumbItems = [
       </div>
     </section>
   </main>
-  <ShareLinks
-    title={snippet.title}
-    url={canonical}
-    summary={snippet.description.slice(0, 200)}
-    class="px-4 pb-8 sm:px-6 mx-auto lg:px-8 max-w-4xl"
-  />
   <Footer />
 </Layout>

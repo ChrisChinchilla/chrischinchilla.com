@@ -20,6 +20,7 @@ const buyLabel = forthcoming ? 'Pre-order in the following places:' : 'Buy a cop
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Music', href: '/music' }}>
   <ContentImage
+    slot="image"
     src={entry.data.image}
     alt={entry.data.title}
     type="music"

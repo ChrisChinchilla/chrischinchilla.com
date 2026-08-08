@@ -1,10 +1,10 @@
 // Share-intent URL builders for the ShareLinks component.
 // Mastodon has no single share endpoint (it's federated), so it's built
-// separately from the visitor-supplied instance domain — see buildMastodonShareUrl.
+// separately from the visitor-supplied instance domain — see buildMastodonShareText.
 
 export type ShareNetwork = 'twitter' | 'linkedin' | 'bluesky' | 'threads';
 
-export const SOCIAL_HANDLES = {
+export const SOCIAL_HANDLES: Record<ShareNetwork | 'mastodon', string> = {
   twitter: 'chrischinch',
   linkedin: 'chrischinchilla',
   mastodon: 'chrischinchilla@mastodon.social',
@@ -32,31 +32,41 @@ const buildText = (content: ShareContent, mention?: string): string => {
   return parts.join(' — ');
 };
 
+const withParams = (base: string, params: Record<string, string>): string => {
+  const shareUrl = new URL(base);
+  for (const [key, value] of Object.entries(params)) shareUrl.searchParams.set(key, value);
+  return shareUrl.toString();
+};
+
 export const buildShareUrl = (network: ShareNetwork, content: ShareContent): string => {
   const { url, title } = content;
 
   switch (network) {
     case 'twitter':
-      return `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(
-        buildText(content)
-      )}&via=${SOCIAL_HANDLES.twitter}`;
+      return withParams('https://twitter.com/intent/tweet', {
+        url,
+        text: buildText(content),
+        via: SOCIAL_HANDLES.twitter,
+      });
 
     case 'linkedin':
-      return `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent(
-        title
-      )}&summary=${encodeURIComponent(buildText(content, SOCIAL_HANDLES.linkedin))}&source=${encodeURIComponent(
-        'chrischinchilla.com'
-      )}`;
+      return withParams('https://www.linkedin.com/shareArticle', {
+        mini: 'true',
+        url,
+        title,
+        summary: buildText(content, SOCIAL_HANDLES.linkedin),
+        source: 'chrischinchilla.com',
+      });
 
     case 'bluesky':
-      return `https://bsky.app/intent/compose?text=${encodeURIComponent(
-        `${buildText(content, `@${SOCIAL_HANDLES.bluesky}`)} ${url}`
-      )}`;
+      return withParams('https://bsky.app/intent/compose', {
+        text: `${buildText(content, `@${SOCIAL_HANDLES.bluesky}`)} ${url}`,
+      });
 
     case 'threads':
-      return `https://www.threads.net/intent/post?text=${encodeURIComponent(
-        `${buildText(content, `@${SOCIAL_HANDLES.threads}`)} ${url}`
-      )}`;
+      return withParams('https://www.threads.net/intent/post', {
+        text: `${buildText(content, `@${SOCIAL_HANDLES.threads}`)} ${url}`,
+      });
   }
 };
 

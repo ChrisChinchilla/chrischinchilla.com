@@ -23,12 +23,12 @@ const networks: { id: ShareNetwork; label: string; icon: string }[] = [
   { id: 'threads', label: 'Share on Threads', icon: 'tabler:brand-threads' },
 ];
 
-const iconSize = compact ? 'w-4 h-4' : 'w-5 h-5';
+const iconSize = compact ? 'w-4 h-4 sm:w-5 sm:h-5' : 'w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7';
 const mastodonText = buildMastodonShareText(content);
+const wrapperClass = ['aw-share-links flex items-center flex-wrap gap-1', className].filter(Boolean).join(' ');
 ---
 
-<div class={`aw-share-links flex items-center flex-wrap gap-1 ${className}`}>
-  {!compact && <span class="align-super text-sm dark:text-slate-400 mr-1">Share:</span>}
+<div class={wrapperClass}>
   {
     networks.map(({ id, label, icon }) => (
       <a

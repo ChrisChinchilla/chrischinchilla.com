@@ -40,6 +40,7 @@ try {
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Newsletter', href: '/newsletter' }}>
   <ContentImage
+    slot="image"
     src={entry.data.image}
     alt={entry.data.title}
     type="newsletter"

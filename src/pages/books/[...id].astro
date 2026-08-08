@@ -18,6 +18,7 @@ const { Content } = await render(entry);
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Books', href: '/books' }}>
   <ContentImage
+    slot="image"
     src={entry.data.image}
     alt={entry.data.title}
     type="book"
