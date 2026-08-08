@@ -146,3 +146,10 @@ export const findLatestPosts = async ({ count }: { count?: number }): Promise<Ar
 
   return posts ? posts.slice(0, _count) : [];
 };
+
+/** Posts flagged for highlighting via `herotext` + `heroimage` frontmatter, newest first. */
+export const findHeroPosts = async (): Promise<Array<CollectionEntry<'posts'>>> => {
+  const posts = await getCollection('posts', ({ data }) => !!data.herotext && !!data.heroimage);
+
+  return posts.sort((a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf());
+};
