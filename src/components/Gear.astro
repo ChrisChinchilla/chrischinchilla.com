@@ -1,5 +1,6 @@
 ---
 import Tags from '~/components/common/Tags.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -37,6 +38,7 @@ const { gear } = Astro.props;
       </a>
     </p>
   )}
+  <ShareLinks title={gear.data.title} url={`/gear/${gear.id}`} summary={gear.data.summary} compact class="mt-2" />
   {gear.data.tags && Array.isArray(gear.data.tags) && (
     <footer class="mt-2">
       <Tags tags={gear.data.tags} tagBase="/gear/tag" />

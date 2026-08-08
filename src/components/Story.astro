@@ -1,6 +1,7 @@
 ---
 import ContentImage from '~/components/common/ContentImage.astro';
 import Tags from '~/components/common/Tags.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import { formatShortDate } from '~/utils/utils';
 
 import type { CollectionEntry } from 'astro:content';
@@ -60,6 +61,7 @@ var displayTitle = story.data.publication_title || story.data.title;
     <div class="post-body body whitespace-pre-line">
       {story.data.summary}
     </div>
+    <ShareLinks title={displayTitle} url={url} summary={story.data.summary} compact class="mt-2" />
   </div>
   {
     story.data.tags && Array.isArray(story.data.tags) ? (

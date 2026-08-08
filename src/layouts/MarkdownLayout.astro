@@ -6,8 +6,9 @@ import Announcement from '~/components/widgets/Announcement.astro';
 import SupportBlock from '~/components/SupportBlock.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import AIShare from '~/components/common/AIShare.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import { MetaSEO } from '~/types';
-import { getImageUrl } from '~/utils/supabase-images';
+import { getImageUrl } from '~/utils/r2-images';
 
 export interface Props {
   section?: {
@@ -26,7 +27,7 @@ const breadcrumbItems = section ? [
   { label: frontmatter.title },
 ] : null;
 // Resolve the social-share (Open Graph / Twitter) image from frontmatter.
-// - Supabase paths (e.g. "articles/foo.png") and full URLs resolve to absolute URLs.
+// - R2 paths (e.g. "articles/foo.png") and full URLs resolve to absolute URLs.
 // - Imported local assets (objects with `.src`) are passed through for MetaTags to handle.
 // - Bare `/src/...` source paths aren't web-resolvable, so we omit them and let
 //   MetaTags fall back to the site default image.
@@ -60,6 +61,9 @@ const meta: MetaSEO = {
         type: 'website',
       },
 };
+
+const shareUrl = frontmatter?.publication_url || Astro.url.href;
+const shareSummary = frontmatter?.summary || frontmatter?.description;
 ---
 
 <Layout {meta}>
@@ -77,6 +81,14 @@ const meta: MetaSEO = {
           {frontmatter.author && ` by ${frontmatter.author}`}
         </p>
       )}
+      {Astro.slots.has('image') && (
+        <>
+          <div class="mt-8">
+            <slot name="image" />
+          </div>
+          <ShareLinks title={frontmatter.title} url={shareUrl} summary={shareSummary} class="mt-4" />
+        </>
+      )}
       <div
         class="mx-auto prose prose-sm sm:prose-base lg:prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-normal md:prose-headings:leading-tighter prose-headings:tracking-normal md:prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
       >
@@ -87,6 +99,14 @@ const meta: MetaSEO = {
       </div>
     </section>
   </main>
+  {!Astro.slots.has('image') && (
+    <ShareLinks
+      title={frontmatter.title}
+      url={shareUrl}
+      summary={shareSummary}
+      class="px-4 pb-8 sm:px-6 mx-auto lg:px-8 max-w-4xl"
+    />
+  )}
   <AIShare
     url={Astro.url.href}
     title={frontmatter.title}

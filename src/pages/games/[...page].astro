@@ -7,8 +7,11 @@ import Game from "~/components/Game.astro";
 import { getCollection } from 'astro:content';
 export async function getStaticPaths({ paginate }) {
     let allGames = await getCollection('games');
-// allGames = allGames.sort(    (a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf()
-// );
+    allGames = allGames.sort((a, b) => {
+      const aDate = a.data.publish_date ? new Date(a.data.publish_date).valueOf() : 0;
+      const bDate = b.data.publish_date ? new Date(b.data.publish_date).valueOf() : 0;
+      return bDate - aDate;
+    });
 
   return paginate(allGames, {
     pageSize: GAME.postsPerPage,

@@ -6,6 +6,7 @@ import Announcement from '~/components/widgets/Announcement.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import ContentImage from '~/components/common/ContentImage.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import truncateMarkdown from 'markdown-truncate';
 import type { MetaSEO } from '~/types';
 import { SITE } from '~/config.mjs';
@@ -71,18 +72,26 @@ const breadcrumbItems = [
         class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
       >
         <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
-          <div class="relative h-0 pb-[75%] md:pb-[100%] lg:pb-[75%] overflow-hidden rounded drop-shadow-lg">
-            <ContentImage
-              src={podcast.image ? podcast.image.att_href : techLoungeImage}
-              alt={episodeTitle}
-              type="podcast"
-              width={420}
-              height={420}
-              quality={80}
-              format="webp"
-              loading="eager"
-              decoding="async"
-              class="absolute object-contain h-full rounded drop-shadow-lg"
+          <div>
+            <div class="relative h-0 pb-[75%] md:pb-[100%] lg:pb-[75%] overflow-hidden rounded drop-shadow-lg">
+              <ContentImage
+                src={podcast.image ? podcast.image.att_href : techLoungeImage}
+                alt={episodeTitle}
+                type="podcast"
+                width={420}
+                height={420}
+                quality={80}
+                format="webp"
+                loading="eager"
+                decoding="async"
+                class="absolute object-contain h-full rounded drop-shadow-lg"
+              />
+            </div>
+            <ShareLinks
+              title={episodeTitle}
+              url={canonical}
+              summary={truncateMarkdown(podcast.description, { limit: 200, ellipsis: true })}
+              class="mt-4"
             />
           </div>
 

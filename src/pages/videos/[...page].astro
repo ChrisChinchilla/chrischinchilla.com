@@ -11,21 +11,31 @@ export async function getStaticPaths({ paginate }) {
   let allVideos = [];
   let nextPageToken = null;
 
+  if (!apiKey) {
+    return paginate([], {
+      pageSize: VIDEO.postsPerPage,
+    });
+  }
+
   // Fetch all videos from YouTube playlist with pagination
-  do {
-    const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}${
-      nextPageToken ? `&pageToken=${nextPageToken}` : ''
-    }`;
+  try {
+    do {
+      const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}${
+        nextPageToken ? `&pageToken=${nextPageToken}` : ''
+      }`;
 
-    const response = await fetch(url);
-    const data = await response.json();
+      const response = await fetch(url);
+      const data = await response.json();
 
-    if (data.items) {
-      allVideos = allVideos.concat(data.items);
-    }
+      if (data.items) {
+        allVideos = allVideos.concat(data.items);
+      }
 
-    nextPageToken = data.nextPageToken || null;
-  } while (nextPageToken);
+      nextPageToken = data.nextPageToken || null;
+    } while (nextPageToken);
+  } catch (error) {
+    console.warn('Unable to fetch YouTube playlist during build:', error);
+  }
 
   return paginate(allVideos, {
     pageSize: VIDEO.postsPerPage,

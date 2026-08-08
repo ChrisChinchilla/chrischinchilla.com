@@ -1,7 +1,8 @@
 ---
-import { Image } from 'astro:assets';
+import { getImage } from 'astro:assets';
 import { resolveImage } from '~/utils/image-loader';
-import { getImageUrl } from '~/utils/supabase-images';
+import { shouldUseR2, getImageUrl } from '~/utils/r2-images';
+import defaultImage from '~/assets/images/defaults/blog-chinchilla.jpg';
 
 export interface Props {
   src: any;
@@ -34,42 +35,56 @@ const {
   ...rest
 } = Astro.props;
 
-// Resolve the image (handles Supabase paths, local paths, etc.)
+// Resolve the image (handles R2 paths, local paths, etc.)
 const src = await resolveImage(_src);
 
 // Validate alt text exists and is meaningful
 if (!alt || alt.trim() === '') {
   console.warn(`Image missing alt text: ${_src}`);
 }
+
+// R2 images are routed through Astro's build-time optimization, the same as
+// local imports (requires the R2 host to be allow-listed via `image.domains`).
+// Any other string src (an arbitrary external URL) stays a plain <img>, since
+// Astro would fail the build trying to optimize an unlisted remote host.
+const useR2 = typeof src === 'string' && shouldUseR2(src);
+const optimizableSrc = typeof src === 'string' ? (useR2 ? getImageUrl(src) : undefined) : src;
+
+let optimized: Awaited<ReturnType<typeof getImage>> | null = null;
+if (optimizableSrc) {
+  try {
+    optimized = await getImage({ src: optimizableSrc as any, width, height, quality, format, inferSize });
+  } catch (error) {
+    // The R2 object may be missing/unreachable at build time (renamed, not
+    // yet uploaded, etc). One bad reference shouldn't fail the whole static
+    // build, so fall back to the site's default image instead.
+    console.warn(`OptimizedImage: failed to optimize "${_src}", falling back to the default image.`, error);
+    optimized = await getImage({ src: defaultImage, width, height, quality, format });
+  }
+}
 ---
 
-{typeof src === 'string' ? (
-  <!-- Use regular img tag for Supabase/remote images -->
+{optimized ? (
   <img
-    src={getImageUrl(src)}
+    src={optimized.src}
+    {...optimized.attributes}
+    alt={alt}
+    {title}
+    class={className}
+    loading={loading}
+    decoding={decoding}
+    fetchpriority={fetchpriority}
+    {...rest}
+  />
+) : (
+  <img
+    src={getImageUrl(src as string)}
     alt={alt}
     {title}
     {width}
     {height}
     loading={loading}
     decoding={decoding}
-    class={className}
-    {...rest}
-  />
-) : (
-  <!-- Use Astro Image component for local images -->
-  <Image
-    src={src}
-    alt={alt}
-    {title}
-    {width}
-    {height}
-    {loading}
-    {decoding}
-    {fetchpriority}
-    {format}
-    {quality}
-    inferSize={inferSize}
     class={className}
     {...rest}
   />

@@ -27,7 +27,7 @@ const posts = defineCollection({
     z.object({
       title: z.string(),
       // description: z.string().optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "posts/image.jpg")
       image: z.union([z.string(), image()]).optional(),
       publication_url: z.string().url().optional(),
       summary: z.string().optional(),
@@ -44,7 +44,7 @@ const posts = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "posts/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
@@ -64,6 +64,10 @@ const games = defineCollection({
       category: z.string().optional(),
       categories: z.any().optional(),
       tags: z.array(z.string()).optional(),
+
+      // Hero carousel properties
+      herotext: z.string().optional(),
+      heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
 
@@ -88,7 +92,7 @@ const events = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "posts/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
 
     }),
@@ -142,7 +146,7 @@ const books = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "posts/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
@@ -170,7 +174,7 @@ const music = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "music/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "music/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
@@ -211,7 +215,7 @@ const podcasts = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "posts/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
@@ -224,7 +228,7 @@ const newsletters = defineCollection({
       title: z.string(),
       date: z.date(),
       summary: z.string().optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "posts/image.jpg")
       image: z.union([z.string(), image()]).optional(),
 
       publication_url: z.string().url().optional(),
@@ -234,7 +238,7 @@ const newsletters = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "posts/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "posts/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
     }),
 });
@@ -249,7 +253,7 @@ const stories = defineCollection({
       category: z.string().optional(),
       categories: z.any().optional(),
       tags: z.array(z.string()).optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "stories/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "stories/image.jpg")
       image: z.union([z.string(), image()]).optional(),
 
       // Published story details (if published elsewhere)
@@ -258,7 +262,7 @@ const stories = defineCollection({
 
       // Hero carousel properties
       herotext: z.string().optional(),
-      // Supports: local imports, full URLs, or Supabase paths (e.g., "stories/image.jpg")
+      // Supports: local imports, full URLs, or R2 paths (e.g., "stories/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
     }),
 });

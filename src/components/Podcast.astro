@@ -1,5 +1,7 @@
 ---
 import ContentImage from '~/components/common/ContentImage.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
+import { stripHtml } from '~/utils/social-share';
 import { type CollectionEntry } from 'astro:content';
 import techLoungeImage from '../assets/images/tech-lounge.png';
 
@@ -81,6 +83,7 @@ function slugify(str) {
         </h2>
       </header>
       <div class="my-2" set:html={podcast.summary} />
+      <ShareLinks title={podcastTitle} url={url} summary={stripHtml(podcast.summary || '')} compact class="mt-2" />
     </div>
   </div>
 </article>
