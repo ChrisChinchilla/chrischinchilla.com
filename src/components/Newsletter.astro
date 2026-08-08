@@ -1,6 +1,7 @@
 ---
 import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import { slugify } from '~/utils/slugify';
 import { formatShortDate } from '~/utils/utils';
 
@@ -44,5 +45,12 @@ const idOfTitle = slugify(newsletter.data.title);
     <div class="post-body body whitespace-pre-line">
       {newsletter.data.summary}
     </div>
+    <ShareLinks
+      title={newsletter.data.title}
+      url={newsletter.data.publication_url || `/newsletter/${newsletter.id}`}
+      summary={newsletter.data.summary}
+      compact
+      class="mt-2"
+    />
   </div>
 </article>

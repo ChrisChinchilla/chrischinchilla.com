@@ -1,6 +1,7 @@
 ---
 import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import { slugify } from '~/utils/slugify';
 import { formatShortDate } from '~/utils/utils';
 import { render } from 'astro:content';
@@ -83,5 +84,6 @@ const buyLabel = forthcoming ? 'Pre-order in the following places:' : 'Buy a cop
       )
     }
     </div>
+    <ShareLinks title={release.data.title} url={`/music/${release.id}`} summary={release.data.summary} compact class="mt-2" />
   </div>
 </article>

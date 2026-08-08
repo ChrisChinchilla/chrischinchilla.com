@@ -1,5 +1,6 @@
 ---
 import { YouTube } from "@astro-community/astro-embed-youtube";
+import ShareLinks from '~/components/common/ShareLinks.astro';
 import { slugify } from '~/utils/slugify';
 
 const { video } = Astro.props;
@@ -36,6 +37,7 @@ const truncatedDescription = paragraphs.slice(0, 2).join('\n\n');
       <p class="whitespace-pre-line">
         {truncatedDescription}
       </p>
+      <ShareLinks title={video.snippet.title} url={url} summary={truncatedDescription} compact class="mt-2" />
     </div>
 
 </article>

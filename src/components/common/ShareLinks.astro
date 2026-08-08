@@ -1,0 +1,54 @@
+---
+import { Icon } from 'astro-icon/components';
+import { buildShareUrl, buildMastodonShareText, type ShareNetwork } from '~/utils/social-share';
+import { getCanonical } from '~/utils/permalinks';
+
+export interface Props {
+  title: string;
+  url: string;
+  summary?: string;
+  compact?: boolean;
+  class?: string;
+}
+
+const { title, url, summary, compact = false, class: className = '' } = Astro.props;
+
+const absoluteUrl = url.startsWith('http') ? url : getCanonical(url).toString();
+const content = { title, url: absoluteUrl, summary };
+
+const networks: { id: ShareNetwork; label: string; icon: string }[] = [
+  { id: 'twitter', label: 'Share on X', icon: 'tabler:brand-twitter' },
+  { id: 'linkedin', label: 'Share on LinkedIn', icon: 'tabler:brand-linkedin' },
+  { id: 'bluesky', label: 'Share on Bluesky', icon: 'tabler:brand-bluesky' },
+  { id: 'threads', label: 'Share on Threads', icon: 'tabler:brand-threads' },
+];
+
+const iconSize = compact ? 'w-4 h-4 sm:w-5 sm:h-5' : 'w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7';
+const mastodonText = buildMastodonShareText(content);
+const wrapperClass = ['aw-share-links flex items-center flex-wrap gap-1', className].filter(Boolean).join(' ');
+---
+
+<div class={wrapperClass}>
+  {
+    networks.map(({ id, label, icon }) => (
+      <a
+        class="p-1 text-gray-500 dark:text-slate-400 hover:text-primary transition ease-in duration-200"
+        href={buildShareUrl(id, content)}
+        title={label}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Icon name={icon} class={iconSize} />
+      </a>
+    ))
+  }
+  <button
+    class="p-1 text-gray-500 dark:text-slate-400 hover:text-primary transition ease-in duration-200"
+    title="Share on Mastodon"
+    type="button"
+    data-aw-mastodon-share
+    data-aw-text={mastodonText}
+  >
+    <Icon name="tabler:brand-mastodon" class={iconSize} />
+  </button>
+</div>
