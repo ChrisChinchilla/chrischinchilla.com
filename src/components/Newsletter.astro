@@ -9,23 +9,24 @@ export interface Props {
   newsletter: CollectionEntry<'newsletters'>;
 }
 const { newsletter } = Astro.props;
-// const { Content } = await post.render();
-// const featured_image = await findImage(newsletter.data.image);
-// TODO: Why is slug broken again?
 
 const formattedDate = formatShortDate(newsletter.data.date);
 const idOfTitle = slugify(newsletter.data.title);
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${newsletter.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg">
-    <ContentImage
-      src={newsletter.data.image}
-      alt={newsletter.data.title}
-      type="newsletter"
-      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-    />
-  </div>
+<article class="mb-6 transition px-4">
+  {
+    newsletter.data.image && (
+      <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+        <ContentImage
+          src={newsletter.data.image}
+          alt={newsletter.data.title}
+          type="newsletter"
+          class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+        />
+      </div>
+    )
+  }
   <div>
     <header>
       <h2
@@ -40,7 +41,7 @@ const idOfTitle = slugify(newsletter.data.title);
           {newsletter.data.title}</a
         >
       </h2>
-      <i>{formattedDate}</i>
+      <i class="my-2 block">{formattedDate}</i>
     </header>
     <div class="post-body body whitespace-pre-line">
       {newsletter.data.summary}
