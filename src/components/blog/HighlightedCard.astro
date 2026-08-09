@@ -1,0 +1,37 @@
+---
+import ContentImage from '~/components/common/ContentImage.astro';
+import { formatShortDate } from '~/utils/utils';
+import type { HighlightedItem } from '~/utils/highlighted';
+
+interface Props {
+  item: HighlightedItem;
+}
+
+const { item } = Astro.props;
+const formattedDate = item.date ? formatShortDate(item.date) : null;
+---
+
+<article class="mb-6 transition px-4">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+    <ContentImage
+      src={item.image}
+      alt={item.title}
+      type="post"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+    />
+  </div>
+
+  <div>
+    <header>
+      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">
+        <a class="hover:text-primary transition ease-in duration-200" href={item.slug} rel="canonical">
+          {item.title}
+        </a>
+      </h2>
+      {formattedDate && <i class="my-2 block">{formattedDate}</i>}
+    </header>
+    <div class="post-body body whitespace-pre-line">
+      {item.summary}
+    </div>
+  </div>
+</article>
