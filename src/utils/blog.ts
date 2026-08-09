@@ -146,3 +146,4 @@ export const findLatestPosts = async ({ count }: { count?: number }): Promise<Ar
 
   return posts ? posts.slice(0, _count) : [];
 };
+
