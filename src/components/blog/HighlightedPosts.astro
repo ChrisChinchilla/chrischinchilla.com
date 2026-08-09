@@ -6,15 +6,15 @@ import { findHighlightedItems } from '~/utils/highlighted';
 
 export interface Props {
   title?: string;
-  allPostsText?: string;
-  allPostsLink?: string | URL;
+  // allPostsText?: string;
+  // allPostsLink?: string | URL;
   information?: string;
 }
 
 const {
   title = await Astro.slots.render('title'),
-  allPostsText = 'View all posts',
-  allPostsLink = getBlogPermalink(),
+  // allPostsText = 'View all posts',
+  // allPostsLink = getBlogPermalink(),
   information = await Astro.slots.render('information'),
 } = Astro.props;
 
@@ -32,19 +32,10 @@ const items = await findHighlightedItems();
               set:html={title}
             />
           )}
-          {allPostsText && allPostsLink && (
-            <a
-              class="text-muted dark:text-slate-400 hover:text-primary transition ease-in duration-200 block mb-6 md:mb-0"
-              href={allPostsLink}
-            >
-              {allPostsText} »
-            </a>
-          )}
-        </div>
 
         {information && <p class="text-muted dark:text-slate-400 lg:text-sm lg:max-w-md" set:html={information} />}
       </div>
-
+      </div>
       <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
         {items.map((item) => <HighlightedCard item={item} />)}
       </div>

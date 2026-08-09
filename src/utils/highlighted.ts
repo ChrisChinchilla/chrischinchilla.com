@@ -39,7 +39,7 @@ const mapToHighlightedItem = (
     slug: item.data.publication_url ?? `/${basePath}/${item.id}`,
     title: item.data.title ?? item.id,
     image: item.data.heroimage,
-    summary: item.data.summary ?? item.data.herotext,
+    summary: item.data.herotext ?? item.data.summary,
     date,
   };
 };

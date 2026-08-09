@@ -11,13 +11,13 @@ const { item } = Astro.props;
 const formattedDate = item.date ? formatShortDate(item.date) : null;
 ---
 
-<article class="mb-6 transition px-4">
+<article class="mb-6 p-4 transition bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md border border-transparent dark:border-slate-800">
   <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
     <ContentImage
       src={item.image}
       alt={item.title}
       type="post"
-      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+      class="object-contain md:h-full mb-2 rounded drop-shadow-lg"
     />
   </div>
 

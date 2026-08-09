@@ -17,11 +17,16 @@ const { meta } = Astro.props;
 <Layout {meta}>
   <Announcement />
   <Header />
-  <main style=`background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: top 11% center;
-  background-attachment: fixed;
-    background-image: url("${bgImage.src}");`>
+  <main class="relative">
+    <div
+      class="pointer-events-none fixed inset-0 -z-10"
+      style=`opacity: 0.2;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      background-position: top 11% center;
+      background-image: url("${bgImage.src}");`
+    >
+    </div>
     <slot />
   </main>
   <Footer />
