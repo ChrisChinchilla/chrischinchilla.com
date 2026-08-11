@@ -58,10 +58,12 @@ well-known filenames.
 
 - `/` → 1.0 / weekly
 - `/blog` index → 0.9 / daily; individual posts → 0.8 / monthly
-- `/stories`, `/videos`, `/podcast/`, `/books/`, `/music`, `/gear` → 0.7–0.8, weekly/monthly
-- **Everything else** (including `/clients/*`, `/events/*`, `/games/*`, `/newsletter/*`,
-  `/courses`, `/contact`, `/community`, `/cv`, `/support`) → generic fallback, 0.6 / monthly
-  (`sitemap.ts:58-61`)
+- `/stories`, `/videos`, `/podcast/`, `/books/`, `/music`, `/gear`, `/newsletter`, `/events`,
+  `/clients`, `/games` → 0.7–0.8, weekly/monthly (see below — `/newsletter` etc. now have
+  dedicated branches instead of falling through)
+- `/courses` → 0.6 / monthly (explicit branch, same value as the fallback but no longer
+  falling through to it)
+- **Still generic fallback** (0.6 / monthly): `/contact`, `/community`, `/cv`, `/support`
 
 **Status: Fixed.** Individual blog post `lastmod` was previously hardcoded to `new Date()`
 at build time, so every post reported "modified today" on every rebuild regardless of
@@ -70,9 +72,14 @@ whether it actually changed. `customizeSitemapItem` now reads each post's real
 `src/content/posts/`, since `@astrojs/sitemap`'s `serialize` callback only receives the
 built URL, not collection data) and uses that as `lastmod`.
 
-The generic-fallback and per-collection sitemap coverage gaps for `clients`, `events`,
-`games`, `newsletter`, `courses` (still falling through to the generic 0.6/monthly branch)
-remain open — see `SEO-AEO-PLAN.md` item 11.
+**Status: Fixed.** The per-collection sitemap coverage gap for `clients`, `events`, `games`,
+`newsletter`, `courses` (previously falling through to the generic 0.6/monthly branch) is
+closed — dedicated branches added, see the bullet list above. Fixing this surfaced a real
+bug: newsletter issue slugs are 6-digit `ddmmyy` date codes (e.g. `/newsletter/010825`),
+which the first version of the new pagination-detection regex matched too, misclassifying
+every individual newsletter issue as a pagination page. Narrowed the regex to match only
+1-2 digit page numbers; verified against the built `sitemap-0.xml` that every
+`/newsletter/*` URL now gets the correct priority.
 
 ## 4. llms.txt / llms-full.txt
 
@@ -169,9 +176,25 @@ across the 12 collections:
 
 ## 7. RSS feed
 
-`src/pages/rss.xml.ts:16-52` aggregates only `posts` (via `fetchPosts()`), `newsletters`,
-`stories`, `books`, `music`. **Missing**: `av` (videos), `gear`, `podcasts`, `games`,
-`events`, `clients` — narrower than even llms.txt, which at least includes `av` and `gear`.
+**Status: Fixed (scope decision made, partial extension).** `src/pages/rss.xml.ts`
+aggregated only `posts` (via `fetchPosts()`), `newsletters`, `stories`, `books`, `music` —
+narrower than llms.txt, which also includes `av` and `gear`. Rather than a blanket
+all-or-nothing extension, each missing collection was checked individually and either
+added or explicitly excluded with a reason:
+
+- **`av` added** — has a required `publish_date` field, sorts correctly into the
+  chronological feed.
+- **`gear` excluded** — the collection has no date field at all; nothing to sort a
+  chronological feed by.
+- **`podcasts` excluded** — the content collection carries metadata but not a publish
+  date; the real date only exists in the external Simplecast RSS feed that
+  `src/pages/podcast/[...id].astro` fetches and merges at build time, which this feed
+  doesn't replicate.
+- **`games`, `events`, `clients` excluded** — portfolio/reference content rather than
+  periodically-published material (a new client or past speaking engagement isn't "new
+  content to subscribe to" the way a blog post or book release is); `games.publish_date`
+  is also optional and frequently absent.
+
 Feed is gated by `BLOG.disabled` returning a 404 (`rss.xml.ts:9-14`).
 
 ## 8. Existing SEO/AEO documentation

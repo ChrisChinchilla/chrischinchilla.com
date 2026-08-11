@@ -99,6 +99,31 @@ export function customizeSitemapItem(item: any) {
   } else if (path.startsWith('/gear/') && !path.includes('/tag/') && !/\/\d+\/?$/.test(path)) {
     item.priority = 0.7;
     item.changefreq = 'monthly';
+  } else if (path === '/newsletter' || path === '/newsletter/' || /^\/newsletter\/\d{1,2}\/?$/.test(path)) {
+    // Newsletter index + pagination. Pagination page numbers are 1-2 digits; individual
+    // newsletter issue slugs are 6-digit ddmmyy date codes (e.g. /newsletter/010825), so a
+    // digit-count check distinguishes them without needing to read collection data here.
+    item.priority = 0.8;
+    item.changefreq = 'weekly';
+  } else if (path.startsWith('/newsletter/') && !/^\/newsletter\/\d{1,2}\/?$/.test(path)) {
+    // Individual newsletter issues
+    item.priority = 0.7;
+    item.changefreq = 'monthly';
+  } else if (path === '/events' || path === '/events/' || /^\/events\/\d+\/?$/.test(path)) {
+    // Events index + pagination (no individual detail pages)
+    item.priority = 0.7;
+    item.changefreq = 'weekly';
+  } else if (path === '/clients' || path === '/clients/' || /^\/clients\/\d+\/?$/.test(path)) {
+    // Clients index + pagination (no individual detail pages)
+    item.priority = 0.7;
+    item.changefreq = 'monthly';
+  } else if (path === '/games' || path === '/games/' || /^\/games\/\d+\/?$/.test(path)) {
+    // Games index + pagination (no individual detail pages)
+    item.priority = 0.7;
+    item.changefreq = 'monthly';
+  } else if (path === '/courses' || path === '/courses/') {
+    item.priority = 0.6;
+    item.changefreq = 'monthly';
   } else {
     item.priority = 0.6;
     item.changefreq = 'monthly';

@@ -128,22 +128,39 @@ previously emitted none.
     with a full production build — all 928 posts still validate against the tightened
     schema, confirming the audit was accurate before changing it.
 
-## Sitemap coverage
+## Sitemap coverage — done
 
-11. **Add explicit sitemap entries for clients, events, games, newsletter, courses** — *SEO*.
-    `src/utils/sitemap.ts` currently sends these to the generic 0.6/monthly fallback branch.
-    Add dedicated branches (index pages ~0.7-0.8/weekly, detail pages ~0.6-0.7/monthly,
-    matching the pattern already used for stories/videos/music/gear). Effort: **S**.
+11. **~~Add explicit sitemap entries for clients, events, games, newsletter, courses~~ —
+    Done.** *SEO*. Added dedicated branches to `src/utils/sitemap.ts`: newsletter index +
+    pagination 0.8/weekly, individual issues 0.7/monthly; events index + pagination
+    0.7/weekly (no individual pages); clients index + pagination 0.7/monthly (no individual
+    pages); games index + pagination 0.7/monthly (no individual pages); courses 0.6/monthly.
+    Caught and fixed a bug while verifying against the built sitemap: newsletter issue slugs
+    are 6-digit `ddmmyy` date codes (e.g. `/newsletter/010825`), which the first version of
+    the pagination-detection regex (`/^\/newsletter\/\d+\/?$/`) matched too, misclassifying
+    every individual issue as a pagination page. Narrowed it to `\d{1,2}` (pagination page
+    numbers) so it no longer collides with the 6-digit issue slugs — verified by parsing the
+    built `sitemap-0.xml` and checking every `/newsletter/*` URL got the right priority.
 
-## RSS coverage
+## RSS coverage — done
 
-12. **Decide RSS scope and extend if needed** — *SEO*. `src/pages/rss.xml.ts` is narrower
-    than llms.txt (missing `av`, `gear`, `podcasts`, `games`, `events`, `clients`). If this
-    is intentional (RSS as a "written content only" feed vs. llms.txt as "everything"),
-    document that decision in `.claude/CLAUDE.md`'s routing section. If not intentional, add
-    the missing collections following the existing `.map()` pattern per entry
-    (`rss.xml.ts:22-52`). Consider whether podcasts/videos want a separate typed feed instead
-    of blending into the general one. Effort: **S** (extend) or **XS** (just document).
+12. **~~Decide RSS scope and extend if needed~~ — Done (partial extension + documented
+    exclusions).** *SEO*. `src/pages/rss.xml.ts` was narrower than llms.txt (missing `av`,
+    `gear`, `podcasts`, `games`, `events`, `clients`). Rather than an all-or-nothing choice,
+    added only `av` and explicitly excluded the rest, each for a concrete reason checked
+    against the actual schema/data:
+    - **`av` added**: has a required `publish_date` field, so it sorts into the
+      chronological feed correctly, same as books/music.
+    - **`gear` excluded**: the collection has no date field at all (checked
+      `content.config.ts`) — nothing to sort an RSS feed by.
+    - **`podcasts` excluded**: its content collection entries carry metadata but not a
+      publish date — the real date only exists in the external Simplecast RSS feed that
+      `src/pages/podcast/[...id].astro` fetches and merges at build time. Pulling a date in
+      here would mean duplicating that fetch, out of scope for this item.
+    - **`games`, `events`, `clients` excluded**: portfolio/reference content, not
+      periodically-published material — a new client or a past speaking engagement isn't
+      naturally "new content to subscribe to" the way a blog post or a book release is, and
+      `games.publish_date` is optional/frequently absent anyway.
 
 ## Dependency health
 
@@ -155,6 +172,5 @@ previously emitted none.
 
 ## Suggested sequencing
 
-Quick wins (1–4), llms.txt completeness (14), structured data coverage (5–8), and content
-schema consistency (9–10) are all done. What's left: sitemap coverage (11), RSS scope (12),
-and the `@astrolib/seo` dependency check (13) — all low urgency, can happen anytime.
+Everything is done except item 13 (the `@astrolib/seo` dependency check) — low urgency,
+can happen anytime.
