@@ -1,8 +1,10 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import { getCollection, render } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
 import { formatShortDate } from '~/utils/utils';
+import { getCanonical } from '~/utils/permalinks';
 
 export async function getStaticPaths() {
   const musicEntries = await getCollection('music');
@@ -16,9 +18,18 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 const { forthcoming } = entry.data;
 const buyLabel = forthcoming ? 'Pre-order in the following places:' : 'Buy a copy in the following places:';
+
+const structuredData = {
+  title: entry.data.title,
+  description: entry.data.summary,
+  publishDate: entry.data.release_date,
+  image: entry.data.image,
+  canonical: getCanonical(`/music/${entry.id}`),
+};
 ---
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Music', href: '/music' }}>
+  <StructuredData slot="head" type="CreativeWork" data={structuredData} />
   <ContentImage
     slot="image"
     src={entry.data.image}

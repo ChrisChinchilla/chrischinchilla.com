@@ -2,3 +2,8 @@ User-agent: *
 Allow: /
 
 Sitemap: https://chrischinchilla.com/sitemap-index.xml
+
+# AI/LLM crawlers: machine-readable content index and full-text dump
+# https://llmstxt.org/
+# https://chrischinchilla.com/llms.txt
+# https://chrischinchilla.com/llms-full.txt
