@@ -18,7 +18,12 @@ export const GET = async () => {
   const stories = await getCollection('stories');
   const books = await getCollection('books');
   const music = await getCollection('music');
+  const av = await getCollection('av');
 
+  // gear, podcasts, games, events, and clients are deliberately excluded from this feed —
+  // see SEO-AEO-AUDIT.md finding 7 for why (no usable publish date to sort a feed by, or
+  // the date only exists in an external source, or the content is reference/portfolio data
+  // rather than periodically published content).
   const allItems = [
     ...posts.map((post) => ({
       link: getPermalink(post.id, 'post'),
@@ -49,6 +54,12 @@ export const GET = async () => {
       title: entry.data.title,
       description: entry.data.summary,
       pubDate: new Date(entry.data.release_date),
+    })),
+    ...av.map((entry) => ({
+      link: entry.data.store_urls?.[0]?.url ?? `/videos/${entry.id}`,
+      title: entry.data.title,
+      description: entry.data.summary,
+      pubDate: new Date(entry.data.publish_date),
     })),
   ].sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf());
 

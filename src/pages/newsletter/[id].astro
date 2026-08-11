@@ -1,9 +1,11 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import { getCollection, render } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
 import defaultPostImage from '/src/assets/images/defaults/book-chinchilla.jpg';
 import Link from '../../components/Link.astro';
+import { getCanonical } from '~/utils/permalinks';
 
 export async function getStaticPaths() {
   const newsletterEntried = await getCollection('newsletters');
@@ -36,9 +38,17 @@ try {
   console.warn('Unable to fetch newsletter links during build:', error);
 }
 
+const structuredData = {
+  title: entry.data.title,
+  description: entry.data.summary,
+  publishDate: entry.data.date,
+  image: entry.data.image,
+  canonical: entry.data.publication_url || getCanonical(`/newsletter/${entry.id}`),
+};
 ---
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Newsletter', href: '/newsletter' }}>
+  <StructuredData slot="head" type="CreativeWork" data={structuredData} />
   <ContentImage
     slot="image"
     src={entry.data.image}

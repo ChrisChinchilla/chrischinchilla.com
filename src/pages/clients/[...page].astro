@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 
 import Client from '~/components/Client.astro';
 import { getCollection } from 'astro:content';
@@ -24,9 +25,18 @@ const meta = {
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
+
+const itemListData = {
+  name: 'Clients',
+  items: page.data.map((client) => ({
+    name: client.data.title,
+    url: client.data.company_url,
+  })),
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
     <Headline subtitle={meta.description}>
       {meta.title}

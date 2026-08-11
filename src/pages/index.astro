@@ -2,21 +2,34 @@
 import { SITE } from "~/config.mjs";
 import Layout from "~/layouts/PageLayout.astro";
 
-import Hero from "~/components/widgets/Hero.astro";
 import HeroBGImg from "~/components/widgets/HeroBGImg.astro";
 import Features2 from "~/components/widgets/Features2.astro";
 import LatestPosts from "~/components/blog/LatestPosts.astro";
+import HighlightedPosts from "~/components/blog/HighlightedPosts.astro";
 import CallToAction from "~/components/widgets/CallToAction.astro";
 import Note from "~/components/widgets/Note.astro";
+import StructuredData from "~/components/common/StructuredData.astro";
 
 const meta = {
   title: SITE.title,
   description: SITE.description,
   dontUseTitleTemplate: true,
 };
+
+// Confirmed profile URLs sourced from the codebase (Footer.astro's social links,
+// MetaTags.astro's Twitter handle) rather than guessed.
+const personData = {
+  sameAs: [
+    'https://github.com/chrischinchilla',
+    'https://www.youtube.com/channel/UCgnrx8qi4qhmN6sBebdDrmg',
+    'https://twitter.com/chrischinch',
+  ],
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="Person" data={personData} />
+  <StructuredData slot="head" type="WebSite" />
   <!-- Hero Widget ******************* -->
   <!-- TODO: Parameterise -->
   <HeroBGImg callToAction={{ text: "What do I do?", href: "#features2" }}>
@@ -28,7 +41,7 @@ const meta = {
       I am a podcaster, video maker, writer of interactive fiction, and games.
     </Fragment>
   </HeroBGImg>
-  <Hero />
+  <HighlightedPosts title="Highlights" />
 
   <!-- Features Widget *************** -->
 
@@ -100,8 +113,7 @@ const meta = {
   <!-- Note Widget ******************* -->
 
   <Note />
-  <!-- TODO: Fix -->
-  <LatestPosts />
+  <!-- <LatestPosts /> -->
 
   <!-- FAQs Widget ******************* -->
 
