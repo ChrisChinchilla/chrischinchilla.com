@@ -36,11 +36,9 @@ export const GET = async () => {
   ]);
 
   const sortedPosts = posts
-    .filter((p) => p.data.publishDate)
-    .sort((a, b) => new Date(b.data.publishDate!).valueOf() - new Date(a.data.publishDate!).valueOf());
+    .sort((a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf());
 
   const sortedStories = stories
-    .filter((s) => s.data.date)
     .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
   const sortedNewsletters = newsletters
@@ -140,7 +138,7 @@ export const GET = async () => {
   lines.push('## Video Courses & Audio/Visual', '');
   for (const item of sortedAv) {
     const url = item.data.store_urls?.[0]?.url ?? `${origin}/videos/${item.id}`;
-    lines.push(formatLink(item.data.title, url));
+    lines.push(formatLink(item.data.title, url, item.data.summary));
   }
   lines.push('');
 
@@ -148,7 +146,7 @@ export const GET = async () => {
   lines.push('## Games', '');
   for (const game of sortedGames) {
     const url = game.data.store_urls?.[0]?.url ?? `${origin}/games`;
-    lines.push(formatLink(game.data.title, url));
+    lines.push(formatLink(game.data.title, url, game.data.summary));
   }
   lines.push('');
 
@@ -156,7 +154,7 @@ export const GET = async () => {
   lines.push('## Events & Talks', '');
   for (const event of sortedEvents) {
     const url = event.data.pres_url ?? `${origin}/events`;
-    lines.push(formatLink(event.data.title ?? event.data.event, url));
+    lines.push(formatLink(event.data.title ?? event.data.event, url, event.data.summary));
   }
   lines.push('');
 

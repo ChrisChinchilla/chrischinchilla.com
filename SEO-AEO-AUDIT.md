@@ -149,22 +149,23 @@ inventing an artificial intermediate category for these three standalone pages.
 
 ## 6. Content collection schema (`src/content.config.ts`)
 
-SEO-relevant field coverage is inconsistent across the 12 collections:
+**Status: Fixed** (summary coverage and date optionality). SEO-relevant field coverage
+across the 12 collections:
 
 - `summary` (optional): present on `posts`, `clients`, `books`, `music`, `newsletters`,
-  `stories`, `gear`. **Absent** on `games`, `events`, `av`, `podcasts` (`podcasts` has
-  `description` instead, `:186`).
-- No description-equivalent field at all on `events` — only `event`/`action`/`venue` fields,
-  nothing to feed a meta description or `Article.description`.
-- Dates: mostly required `z.date()`, but `posts.publishDate` (`:37`) and `stories.date`
-  (`:227`) are optional (`z.date().or(z.string()).optional()` /
-  `z.date().or(z.string())` — `posts` is fully optional, `stories` requires *a* date value
-  but as string-or-date). `llms.txt.ts:27,31` and `llms-full.txt.ts:29,33` already defensively
-  `.filter()` out posts/stories missing a date before sorting — evidence this optionality
-  causes real problems downstream (items with no date silently vanish from both llms.txt
-  files, and would sort incorrectly in RSS/sitemap if not filtered).
+  `stories`, `gear`, and now `av`, `events`, `games` too. `podcasts` deliberately still uses
+  its existing `description` field instead of also adding `summary` — same purpose, no need
+  for both.
+- Dates: `posts.publishDate` is now required (previously
+  `z.date().or(z.string()).optional()`) after auditing actual content — 0 of 928 post files
+  were missing it, so tightening the schema needed no backfill. `stories.date` turned out to
+  already be required at the schema level (`z.date().or(z.string())`, no `.optional()`); an
+  earlier draft of this audit mischaracterized it as optional. The `.filter()` calls in
+  `llms.txt.ts`/`llms-full.txt.ts` that worked around the old optional `posts.publishDate`
+  have been removed as redundant.
 - Images: required (non-optional) on `games`, `clients`, `books`, `music`, `av`; optional
-  everywhere else including `posts`, `events`, `podcasts`, `newsletters`, `stories`, `gear`.
+  everywhere else including `posts`, `events`, `podcasts`, `newsletters`, `stories`, `gear`
+  (unchanged — not in scope for this pass).
 
 ## 7. RSS feed
 

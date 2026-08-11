@@ -54,11 +54,9 @@ export const GET = async () => {
   ]);
 
   const sortedPosts = posts
-    .filter((p) => p.data.publishDate)
-    .sort((a, b) => new Date(b.data.publishDate!).valueOf() - new Date(a.data.publishDate!).valueOf());
+    .sort((a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf());
 
   const sortedStories = stories
-    .filter((s) => s.data.date)
     .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
   const sortedNewsletters = newsletters
@@ -109,7 +107,7 @@ export const GET = async () => {
   lines.push('# Blog Posts', '', '---', '');
   for (const post of sortedPosts) {
     const url = entryUrl(`/blog/${post.id}`, post.data.publication_url);
-    const date = post.data.publishDate ? new Date(post.data.publishDate).toISOString().split('T')[0] : 'unknown';
+    const date = new Date(post.data.publishDate).toISOString().split('T')[0];
 
     if (post.data.publication_url) {
       // Externally published — link only, no body
@@ -223,6 +221,7 @@ export const GET = async () => {
       `Type: ${item.data.video_type}`,
       ''
     );
+    if (item.data.summary) lines.push(item.data.summary, '');
     const body = item.body ?? '';
     if (body) lines.push(body, '');
     lines.push('---', '');
@@ -237,6 +236,7 @@ export const GET = async () => {
     lines.push(`## [${game.data.title}](${url})`, '', `Date: ${date}`);
     if (game.data.publisher) lines.push(`Publisher: ${game.data.publisher}`);
     lines.push(`Role: ${game.data.role}`, '');
+    if (game.data.summary) lines.push(game.data.summary, '');
     const body = game.body ?? '';
     if (body) lines.push(body, '');
     lines.push('---', '');
@@ -253,6 +253,7 @@ export const GET = async () => {
     if (event.data.venue) lines.push(`Venue: ${event.data.venue}`);
     if (event.data.pres_source) lines.push(`Source: ${event.data.pres_source}`);
     lines.push('');
+    if (event.data.summary) lines.push(event.data.summary, '');
     const body = event.body ?? '';
     if (body) lines.push(body, '');
     lines.push('---', '');

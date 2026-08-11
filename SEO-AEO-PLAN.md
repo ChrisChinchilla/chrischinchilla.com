@@ -100,24 +100,33 @@ previously emitted none.
    the new `StructuredData` calls in items 6–7) passed into pages using those two layouts.
    Both now forward the slot the same way `MarkdownLayout.astro` does.
 
-## Content schema consistency
+## Content schema consistency — done
 
-9. **Add `summary` to `av`, `podcasts`, `events`, `games` collections** — *AEO + SEO*. These
-   four collections in `src/content.config.ts` have no dedicated short-description field,
-   forcing meta descriptions and llms.txt summaries to fall back to the title or nothing.
-   Add `summary: z.string().optional()` matching the pattern already used on `posts`,
-   `books`, `music`, etc. Effort: **S** (schema-only; existing content won't retroactively
-   populate but new/edited entries can).
+9. **~~Add `summary` to `av`, `events`, `games` collections~~ — Done (podcasts skipped).**
+   *AEO + SEO*. Added `summary: z.string().optional()` to `av`, `events`, and `games` in
+   `src/content.config.ts`, matching the pattern already used on `posts`/`books`/`music`.
+   `podcasts` was excluded from this item on inspection: it already has a `description`
+   field serving the identical purpose (already used throughout `llms.txt.ts`,
+   `llms-full.txt.ts`) — adding `summary` too would just be two fields doing the same job.
+   Wired the three new fields into `llms.txt.ts`/`llms-full.txt.ts`'s AV/Games/Events
+   sections, which previously had no summary line since the field didn't exist yet when
+   those sections were added (llms.txt completeness, item 2/14). Schema-only for existing
+   content — no current `av`/`events`/`games` entries have a `summary` yet, but new/edited
+   ones can add one going forward.
 
-10. **Resolve optional dates on `posts.publishDate` and `stories.date`** — *SEO + AEO*.
-    Both llms.txt files already have to defensively `.filter()` these out
-    (`llms.txt.ts:27,31`) before they can sort — a sign the optionality is actively causing
-    missing-content bugs, not a deliberate feature. Either make the fields required (and
-    backfill any content missing them), or explicitly document why some content is
-    undated and audit every consumer (`sitemap.ts`, `rss.xml.ts`, `StructuredData.astro`'s
-    `datePublished`) to confirm they all handle the missing case the same way llms.txt does.
-    Effort: **M** (needs a content audit to find entries actually missing dates before
-    tightening the schema).
+10. **~~Resolve optional dates on `posts.publishDate` and `stories.date`~~ — Done.**
+    *SEO + AEO*. Audited actual content first rather than guessing: `grep`-checked all 928
+    files in `src/content/posts/` and all 39 in `src/content/stories/` for the relevant
+    date field — zero were missing it. `stories.date` was already required at the schema
+    level (`z.date().or(z.string())`, no `.optional()` — the audit's original claim that it
+    was optional was imprecise, it requires *a* value, just accepts either type). Only
+    `posts.publishDate` was genuinely optional; since no real content relies on that
+    (0 of 928 missing it), made it required in `src/content.config.ts` rather than leaving
+    defensive fallbacks scattered across consumers. Removed the now-redundant
+    `.filter((p) => p.data.publishDate)` calls in `llms.txt.ts`/`llms-full.txt.ts` (and the
+    matching `!` non-null assertions) since the schema now guarantees presence. Verified
+    with a full production build — all 928 posts still validate against the tightened
+    schema, confirming the audit was accurate before changing it.
 
 ## Sitemap coverage
 
@@ -146,7 +155,6 @@ previously emitted none.
 
 ## Suggested sequencing
 
-Quick wins (1–4), llms.txt completeness (14), and structured data coverage (5–8) are done.
-Next up: content schema consistency (9–10), since it builds on the same frontmatter
-structured data now reads from. Sitemap/RSS coverage (11–12) and the dependency check (13)
-can happen anytime, lowest urgency.
+Quick wins (1–4), llms.txt completeness (14), structured data coverage (5–8), and content
+schema consistency (9–10) are all done. What's left: sitemap coverage (11), RSS scope (12),
+and the `@astrolib/seo` dependency check (13) — all low urgency, can happen anytime.
