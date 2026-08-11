@@ -15,7 +15,7 @@ function sectionSeparator(title: string, url: string, date: string, summary?: st
 }
 
 export const GET = async () => {
-  const [posts, stories, newsletters, books, music, av, gear] = await Promise.all([
+  const [posts, stories, newsletters, books, music, av, gear, podcasts, games, events, clients] = await Promise.all([
     getCollection('posts'),
     getCollection('stories'),
     getCollection('newsletters'),
@@ -23,6 +23,10 @@ export const GET = async () => {
     getCollection('music'),
     getCollection('av'),
     getCollection('gear'),
+    getCollection('podcasts'),
+    getCollection('games'),
+    getCollection('events'),
+    getCollection('clients'),
   ]);
 
   const sortedPosts = posts
@@ -47,6 +51,18 @@ export const GET = async () => {
 
   const sortedGear = gear
     .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+  const sortedPodcasts = podcasts
+    .sort((a, b) => (a.data.title ?? '').localeCompare(b.data.title ?? ''));
+
+  const sortedGames = games
+    .sort((a, b) => new Date(b.data.publish_date ?? 0).valueOf() - new Date(a.data.publish_date ?? 0).valueOf());
+
+  const sortedEvents = events
+    .sort((a, b) => new Date(b.data.start_date).valueOf() - new Date(a.data.start_date).valueOf());
+
+  const sortedClients = clients
+    .sort((a, b) => (b.data.end_date ?? 0) - (a.data.end_date ?? 0));
 
   const lines: string[] = [
     `# ${SITE.name} — Full Content`,
@@ -109,6 +125,20 @@ export const GET = async () => {
     }
   }
 
+  // Podcasts — metadata + body/transcript
+  lines.push('# Podcasts', '', '---', '');
+  for (const podcast of sortedPodcasts) {
+    const url = entryUrl(`/podcast/${podcast.id}`, podcast.data.publication_url);
+    const title = podcast.data.title ?? podcast.id;
+
+    lines.push(`## [${title}](${url})`, '');
+    if (podcast.data.category) lines.push(`Category: ${podcast.data.category}`, '');
+    if (podcast.data.description) lines.push(podcast.data.description, '');
+    const body = podcast.data.transcript || podcast.body || '';
+    if (body) lines.push(body, '');
+    lines.push('---', '');
+  }
+
   // Books — metadata + body
   lines.push('# Books', '', '---', '');
   for (const book of sortedBooks) {
@@ -162,6 +192,54 @@ export const GET = async () => {
       ''
     );
     const body = item.body ?? '';
+    if (body) lines.push(body, '');
+    lines.push('---', '');
+  }
+
+  // Games — no individual detail pages exist yet, so entries link to the list page
+  lines.push('# Games', '', '---', '');
+  for (const game of sortedGames) {
+    const url = game.data.store_urls?.[0]?.url ?? `${origin}/games`;
+    const date = game.data.publish_date ? new Date(game.data.publish_date).toISOString().split('T')[0] : 'unknown';
+
+    lines.push(`## [${game.data.title}](${url})`, '', `Date: ${date}`);
+    if (game.data.publisher) lines.push(`Publisher: ${game.data.publisher}`);
+    lines.push(`Role: ${game.data.role}`, '');
+    const body = game.body ?? '';
+    if (body) lines.push(body, '');
+    lines.push('---', '');
+  }
+
+  // Events — no individual detail pages exist yet, link to the talk/press source when available
+  lines.push('# Events & Talks', '', '---', '');
+  for (const event of sortedEvents) {
+    const url = event.data.pres_url ?? `${origin}/events`;
+    const date = new Date(event.data.start_date).toISOString().split('T')[0];
+    const title = event.data.title ?? event.data.event;
+
+    lines.push(`## [${title}](${url})`, '', `Date: ${date}`, `Event: ${event.data.event}`);
+    if (event.data.venue) lines.push(`Venue: ${event.data.venue}`);
+    if (event.data.pres_source) lines.push(`Source: ${event.data.pres_source}`);
+    lines.push('');
+    const body = event.body ?? '';
+    if (body) lines.push(body, '');
+    lines.push('---', '');
+  }
+
+  // Clients — no individual detail pages exist yet, link to the client's site when available
+  lines.push('# Clients', '', '---', '');
+  for (const client of sortedClients) {
+    const url = client.data.company_url ?? `${origin}/clients`;
+
+    lines.push(`## [${client.data.title}](${url})`, '', `Type: ${client.data.type}`);
+    if (client.data.start_date) {
+      const range = client.data.current ? `${client.data.start_date} — present` : `${client.data.start_date}${client.data.end_date ? ` — ${client.data.end_date}` : ''}`;
+      lines.push(`Engagement: ${range}`);
+    }
+    lines.push('');
+    if (client.data.summary) lines.push(client.data.summary, '');
+    if (client.data.description) lines.push(client.data.description, '');
+    const body = client.body ?? '';
     if (body) lines.push(body, '');
     lines.push('---', '');
   }

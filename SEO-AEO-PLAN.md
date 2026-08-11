@@ -7,36 +7,46 @@ data, clean semantics), since the two audiences want different things: search en
 mostly care about the sitemap, meta tags, and canonical URLs; answer engines care most
 about llms.txt/llms-full.txt discoverability and machine-readable structured data.
 
-## Quick wins
+## Quick wins — done
 
-Low effort, clear value, no schema/architecture changes required.
+Low effort, clear value, no schema/architecture changes required. All four implemented on
+this branch; see `SEO-AEO-AUDIT.md` for the corresponding `Status: Fixed` notes.
 
-1. **Link llms.txt/llms-full.txt from robots.txt** — *AEO*. Add a comment/reference to
-   `/llms.txt` and `/llms-full.txt` in `public/robots.txt` next to the existing `Sitemap:`
-   line so AI crawlers that check robots.txt for the convention can discover them without
-   guessing the filename. Effort: **S**.
+1. **~~Link llms.txt/llms-full.txt from robots.txt~~ — Done.** *AEO*. `public/robots.txt`
+   now references `/llms.txt` and `/llms-full.txt` alongside the existing `Sitemap:` line.
 
-2. **Add missing collections to llms.txt / llms-full.txt** — *AEO*. `src/pages/llms.txt.ts`
-   and `src/pages/llms-full.txt.ts` both need `podcasts`, `games`, `events`, `clients`, and
-   `supportLinks` added to the `getCollection()` calls and a corresponding section in the
-   output, mirroring the existing per-collection blocks. Also consider adding the static
-   pages (`cv.md`, `community.md`, `contact.mdx`, `courses.astro`) as a short "About" section.
-   Effort: **M** (mechanical but touches two files with several new sections each).
+2. **~~Add missing collections to llms.txt / llms-full.txt~~ — Done.** *AEO*.
+   `src/pages/llms.txt.ts` and `src/pages/llms-full.txt.ts` now include `podcasts`,
+   `games`, `events`, and `clients`. `supportLinks` was deliberately excluded (affiliate
+   card data with no per-entry URL — see audit finding 4) rather than force-fit; if that
+   changes, revisit. Adding the static pages (`cv.md`, `community.md`, `contact.mdx`,
+   `courses.astro`) as a short "About" section is still open — folded into a new item 14
+   below since it wasn't part of the original mechanical scope.
 
-3. **Fix sitemap `lastmod` for blog posts** — *SEO*. `src/utils/sitemap.ts:17-18` hardcodes
-   `lastmod = new Date()` for every blog post on every build. Replace with the post's actual
-   `publishDate` (or a real `modifiedDate` field if one exists) passed through from the
-   sitemap integration's entry data, so `lastmod` reflects reality instead of "always just
-   changed." Effort: **S–M** depending on whether `@astrojs/sitemap`'s serialize callback has
-   access to frontmatter (may need to pass content dates through a lookup map keyed by URL).
+3. **~~Fix sitemap `lastmod` for blog posts~~ — Done.** *SEO*. `src/utils/sitemap.ts` no
+   longer hardcodes `lastmod = new Date()`. It now reads each blog post's real
+   `publishDate` from its frontmatter file directly (via `gray-matter`, already a
+   dependency) at module load, since `@astrojs/sitemap`'s `serialize` callback only
+   receives the built URL, not collection data.
 
-4. **Give clients/events pages real meta tags** — *SEO*. `src/layouts/Client.astro` and
-   `src/layouts/Event.astro` currently import the bare `src/layouts/Layout.astro` (only
-   `<title>`, no description/canonical/OG/Twitter/structured data). Switch them to the
-   standard `BaseLayout.astro` + `MetaTags` pattern used by `PageLayout.astro`/
-   `MarkdownLayout.astro`, building a `meta` object from `clients`/`events` frontmatter.
-   This is the single highest-impact fix in this list — two entire content types currently
-   have no discoverable meta description or social preview. Effort: **M**.
+4. **~~Give clients/events pages real meta tags~~ — Turned out to be already true; did
+   cleanup instead.** *SEO*. Re-investigation found the original premise was wrong: the
+   live `/clients` and `/events` list pages already render through `PageLayoutNoBG.astro`
+   → `BaseLayout`/`MetaTags` with real `meta.title`/`meta.description`. Neither collection
+   has individual detail pages at all (only paginated lists) — `src/layouts/Client.astro`,
+   `src/layouts/Event.astro` (bare-`<title>`-only layouts), and the `src/layouts/Layout.astro`
+   they both imported had zero importers anywhere in `src/` and were dead code, not a live
+   SEO gap. Deleted all three so they can't be accidentally wired up later and reintroduce
+   the gap. See `SEO-AEO-AUDIT.md` finding 1 for the full correction.
+
+## llms.txt completeness
+
+14. **Add static pages to llms.txt / llms-full.txt** — *AEO*. `cv.md`, `community.md`,
+    `contact.mdx`, and `courses.astro` still have no llms.txt representation — they're not
+    content collection entries, so they weren't in scope for the mechanical collection-add
+    in quick win 2. Add a short "About" section linking to them, hand-written rather than
+    generated from frontmatter since there's no shared schema across these four pages.
+    Effort: **S**.
 
 ## Structured data coverage
 
@@ -113,7 +123,7 @@ most of what's needed) to content types that currently emit none.
 
 ## Suggested sequencing
 
-Quick wins (1–4) first — they're low-risk, high-value, and item 4 in particular closes a
-real SEO gap (two content types with zero meta tags). Structured data (5–8) and content
-schema (9–10) next, since they build on consistent frontmatter. Sitemap/RSS coverage (11–12)
-and the dependency check (13) can happen anytime, lowest urgency.
+Quick wins (1–4) are done. Next up: structured data coverage (5–8) and content schema
+consistency (9–10), since they build on consistent frontmatter. Item 14 (llms.txt static
+pages) is a small standalone follow-up. Sitemap/RSS coverage (11–12) and the dependency
+check (13) can happen anytime, lowest urgency.

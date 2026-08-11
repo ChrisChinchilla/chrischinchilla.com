@@ -13,7 +13,7 @@ function formatLink(title: string, url: string, summary?: string): string {
 }
 
 export const GET = async () => {
-  const [posts, stories, newsletters, books, music, av, gear] = await Promise.all([
+  const [posts, stories, newsletters, books, music, av, gear, podcasts, games, events, clients] = await Promise.all([
     getCollection('posts'),
     getCollection('stories'),
     getCollection('newsletters'),
@@ -21,6 +21,10 @@ export const GET = async () => {
     getCollection('music'),
     getCollection('av'),
     getCollection('gear'),
+    getCollection('podcasts'),
+    getCollection('games'),
+    getCollection('events'),
+    getCollection('clients'),
   ]);
 
   const sortedPosts = posts
@@ -45,6 +49,18 @@ export const GET = async () => {
 
   const sortedGear = gear
     .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+  const sortedPodcasts = podcasts
+    .sort((a, b) => (a.data.title ?? '').localeCompare(b.data.title ?? ''));
+
+  const sortedGames = games
+    .sort((a, b) => new Date(b.data.publish_date ?? 0).valueOf() - new Date(a.data.publish_date ?? 0).valueOf());
+
+  const sortedEvents = events
+    .sort((a, b) => new Date(b.data.start_date).valueOf() - new Date(a.data.start_date).valueOf());
+
+  const sortedClients = clients
+    .sort((a, b) => (b.data.end_date ?? 0) - (a.data.end_date ?? 0));
 
   const lines: string[] = [
     `# ${SITE.name}`,
@@ -79,6 +95,14 @@ export const GET = async () => {
   }
   lines.push('');
 
+  // Podcasts
+  lines.push('## Podcasts', '');
+  for (const podcast of sortedPodcasts) {
+    const url = entryUrl(`/podcast/${podcast.id}`, podcast.data.publication_url);
+    lines.push(formatLink(podcast.data.title ?? podcast.id, url, podcast.data.description));
+  }
+  lines.push('');
+
   // Books
   lines.push('## Books', '');
   for (const book of sortedBooks) {
@@ -102,6 +126,30 @@ export const GET = async () => {
   for (const item of sortedAv) {
     const url = item.data.store_urls?.[0]?.url ?? `${origin}/videos/${item.id}`;
     lines.push(formatLink(item.data.title, url));
+  }
+  lines.push('');
+
+  // Games — no individual detail pages exist yet, so entries link to the list page
+  lines.push('## Games', '');
+  for (const game of sortedGames) {
+    const url = game.data.store_urls?.[0]?.url ?? `${origin}/games`;
+    lines.push(formatLink(game.data.title, url));
+  }
+  lines.push('');
+
+  // Events — no individual detail pages exist yet, link to the talk/press source when available
+  lines.push('## Events & Talks', '');
+  for (const event of sortedEvents) {
+    const url = event.data.pres_url ?? `${origin}/events`;
+    lines.push(formatLink(event.data.title ?? event.data.event, url));
+  }
+  lines.push('');
+
+  // Clients — no individual detail pages exist yet, link to the client's site when available
+  lines.push('## Clients', '');
+  for (const client of sortedClients) {
+    const url = client.data.company_url ?? `${origin}/clients`;
+    lines.push(formatLink(client.data.title, url, client.data.summary || client.data.description));
   }
   lines.push('');
 

@@ -5,43 +5,50 @@ crawlers) and AEO (answer-engine / LLM consumption: llms.txt, structured data, c
 semantic content). Findings only — no prioritization here, see `SEO-AEO-PLAN.md` for
 that.
 
+**Update:** the "Quick wins" items from `SEO-AEO-PLAN.md` have since been implemented on
+this branch. Findings below are marked `Status: Fixed` where applicable; the rest remain
+open and are tracked in the plan.
+
 ## 1. Meta tags
 
-Two separate, inconsistent layout stacks exist:
+**Status: Fixed** (dead-code part) — see below.
 
-- **Standard stack** (`src/layouts/BaseLayout.astro:5,23` → `src/components/common/MetaTags.astro`):
-  `BaseLayout` renders `<MetaTags {...meta} />` in `<head>`. `MetaTags.astro` wraps
-  `@astrolib/seo`'s `AstroSeo` component (`src/components/common/MetaTags.astro:64-92`),
-  producing title (with template `` `%s — ${SITE.name}` ``, `MetaTags.astro:66`),
-  description, canonical (`getCanonical()`, or a `publication_url` override for syndicated
-  content, `MetaTags.astro:29-33`), Open Graph, Twitter card
-  (`cardType: image ? 'summary_large_image' : undefined`, `MetaTags.astro:87-91`),
-  `google-site-verification`, GA/Splitbee analytics, and favicon/sitemap `<link>` tags.
-  `PageLayout.astro` and `MarkdownLayout.astro` build the `meta` object per page from
-  frontmatter (e.g. `MarkdownLayout.astro:44-63`: `description = summary || description ||
-  title`, OG `article` fields for `publishedTime`/`modifiedTime`/`authors`/`tags`).
+All rendered pages go through one consistent stack:
+`src/layouts/BaseLayout.astro:5,23` → `src/components/common/MetaTags.astro`.
+`BaseLayout` renders `<MetaTags {...meta} />` in `<head>`. `MetaTags.astro` wraps
+`@astrolib/seo`'s `AstroSeo` component (`src/components/common/MetaTags.astro:64-92`),
+producing title (with template `` `%s — ${SITE.name}` ``, `MetaTags.astro:66`),
+description, canonical (`getCanonical()`, or a `publication_url` override for syndicated
+content, `MetaTags.astro:29-33`), Open Graph, Twitter card
+(`cardType: image ? 'summary_large_image' : undefined`, `MetaTags.astro:87-91`),
+`google-site-verification`, GA/Splitbee analytics, and favicon/sitemap `<link>` tags.
+`PageLayout.astro`, `PageLayoutNoBG.astro`, and `MarkdownLayout.astro` build the `meta`
+object per page from frontmatter (e.g. `MarkdownLayout.astro:44-63`: `description =
+summary || description || title`, OG `article` fields for
+`publishedTime`/`modifiedTime`/`authors`/`tags`).
 
-- **Bare stack** (`src/layouts/Layout.astro`): a second, independent layout with only
-  `<title>{title}</title>` (`Layout.astro:16`) — no description, no canonical, no Open
-  Graph, no Twitter card, no structured data hook. This is **not dead code** — it's the
-  layout used by `src/layouts/Client.astro:2,12` and `src/layouts/Event.astro:2,12`, i.e.
-  every clients and events detail page renders with zero SEO meta tags beyond a raw
-  `<title>`.
+**Correction to an earlier draft of this audit**: a previous pass claimed a second, bare
+layout (`src/layouts/Layout.astro`, with only `<title>` and no description/canonical/OG/
+Twitter) was live and used by `src/layouts/Client.astro`/`src/layouts/Event.astro` for
+clients/events detail pages. That was wrong — re-checked directly against the actual
+routes: `src/pages/clients/[...page].astro` and `src/pages/events/[...page].astro` render
+via `~/components/Client.astro`/`~/components/Event.astro` (list-card *components*, a
+different pair of files from the similarly-named *layouts*) inside `PageLayoutNoBG.astro`,
+which uses the standard `BaseLayout`/`MetaTags` stack with real `meta.title`/
+`meta.description` objects. Neither `clients` nor `events` currently has individual
+per-entry detail pages at all (only paginated list pages) — this differs from the
+llms.txt/RSS findings below, which are real coverage gaps for these two collections.
+`src/layouts/Layout.astro`, `src/layouts/Client.astro`, and `src/layouts/Event.astro` had
+no importers anywhere in `src/` and have been deleted as dead code so they can't be
+accidentally reused as an SEO-incomplete layout later.
 
 ## 2. robots.txt
 
-Static file, `public/robots.txt`:
-
-```
-User-agent: *
-Allow: /
-
-Sitemap: https://chrischinchilla.com/sitemap-index.xml
-```
-
-Allows all crawling, references the sitemap. Does **not** reference `/llms.txt` or
-`/llms-full.txt` — there is no discovery path for AI crawlers to find them other than
-guessing the well-known filenames.
+**Status: Fixed.** `public/robots.txt` now also references `/llms.txt` and
+`/llms-full.txt` (as a comment, per the informal `llmstxt.org` convention — `robots.txt`
+has no formal directive for this) alongside the existing sitemap reference, so crawlers
+checking robots.txt have a discovery path to them instead of having to guess the
+well-known filenames.
 
 ## 3. Sitemap
 
@@ -56,33 +63,43 @@ guessing the well-known filenames.
   `/courses`, `/contact`, `/community`, `/cv`, `/support`) → generic fallback, 0.6 / monthly
   (`sitemap.ts:58-61`)
 
-Individual blog post `lastmod` is hardcoded to `new Date()` at build time
-(`sitemap.ts:17-18`, comment: "Set lastmod to current date for now — in production you'd
-read file stats"), so every post reports "modified today" on every rebuild regardless of
-whether it actually changed — actively misleading to crawlers that use `lastmod` for
-re-crawl scheduling.
+**Status: Fixed.** Individual blog post `lastmod` was previously hardcoded to `new Date()`
+at build time, so every post reported "modified today" on every rebuild regardless of
+whether it actually changed. `customizeSitemapItem` now reads each post's real
+`publishDate` from its frontmatter (via a small `gray-matter`-based file scan of
+`src/content/posts/`, since `@astrojs/sitemap`'s `serialize` callback only receives the
+built URL, not collection data) and uses that as `lastmod`.
+
+The generic-fallback and per-collection sitemap coverage gaps for `clients`, `events`,
+`games`, `newsletter`, `courses` (still falling through to the generic 0.6/monthly branch)
+remain open — see `SEO-AEO-PLAN.md` item 11.
 
 ## 4. llms.txt / llms-full.txt
 
-Two hand-rolled endpoints:
+**Status: Mostly fixed.** Two hand-rolled endpoints:
 
 - `src/pages/llms.txt.ts` — index-only (title + link + one-line summary per entry).
 - `src/pages/llms-full.txt.ts` — full body content inlined for self-hosted entries; a
   link-only stub (no body) for entries with a `publication_url` (syndicated elsewhere).
 
-Both pull the exact same set of collections (`llms.txt.ts:16-24`,
-`llms-full.txt.ts:18-26`): `posts, stories, newsletters, books, music, av, gear`.
+Both now pull `posts, stories, newsletters, books, music, av, gear, podcasts, games,
+events, clients` — `podcasts`, `games`, `events`, and `clients` were added, closing the
+gap CLAUDE.md flagged ("Update both if a new collection should be crawlable this way").
+Since `games`, `events`, and `clients` have no individual detail pages (see finding 1),
+their llms.txt entries link out to an external URL when the frontmatter has one
+(`store_urls`, `pres_url`, `company_url`) and fall back to the section's list page
+(`/games`, `/events`, `/clients`) otherwise.
 
-**Missing collections**: `podcasts`, `games`, `events`, `clients`, `supportLinks` — none of
-these appear in either file. Also missing: the static pages `cv.md`, `community.md`,
-`contact.mdx`, `courses.astro`, which have no llms.txt representation at all.
+**`supportLinks` was deliberately excluded**, not added: it's affiliate/promotional card
+data rendered onto a single page (`src/pages/support.astro`) with no per-entry URL or
+canonical content, unlike every other collection — including it would mean many llms.txt
+lines all pointing at the same `/support` URL, which doesn't serve the "content index"
+purpose the file is for. Also still missing: the static pages `cv.md`, `community.md`,
+`contact.mdx`, `courses.astro`, which have no llms.txt representation at all (open, not
+addressed here).
 
-Neither file is linked from `robots.txt` or from a `<link>` tag anywhere in `MetaTags.astro`
-— see finding 2.
-
-CLAUDE.md already documents this exact gap: "Update both if a new collection should be
-crawlable this way" — the two files have drifted out of sync with the 12 collections now
-defined in `content.config.ts`.
+`robots.txt` now links both files — see finding 2 (fixed). Neither file is yet linked from
+a `<link>` tag in `MetaTags.astro` (open).
 
 ## 5. Structured data (JSON-LD)
 
