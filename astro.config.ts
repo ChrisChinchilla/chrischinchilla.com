@@ -68,6 +68,8 @@ export default defineConfig({
           'brand-discord',
           'download',
           'brand-facebook',
+          'sun',
+          'moon',
         ],
         'simple-line-icons': ['social-spotify'],
         fa: ['podcast'],

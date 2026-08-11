@@ -25,21 +25,25 @@ This document is a snapshot for planning purposes. It is not implemented yet —
 
 ### Moderate
 
-4. **Dark mode toggle is orphaned and lacks `aria-pressed`.**
+4. **Dark mode toggle is orphaned and lacks `aria-pressed`.** ~~Fixed~~
    `src/components/common/ToggleTheme.astro` has an `aria-label` (default "Toggle between Dark and Light mode") but no `aria-pressed`/state indicator. More importantly, it is currently commented out and not rendered in `Header.astro:99,151` or `HeaderNoLogo.astro` — there is no way for a user to toggle dark mode via the UI at all right now. This is a product/UX gap as much as an accessibility one; needs a decision on whether the toggle should be reinstated, and if so, fixed to expose state via `aria-pressed`.
    *WCAG: 4.1.2 Name, Role, Value (Level A).*
+   *Resolution:* reinstated in both headers. Root cause of the original comment-out was that `tabler:sun` wasn't in the `astro-icon` allowlist (`astro.config.ts`), so the build failed — added `sun`/`moon` to the allowlist and switched to a proper sun/moon icon swap via `dark:` classes. `aria-pressed` now syncs with theme state in `BasicScripts.astro`.
 
-5. **Borderline/low text contrast, both themes.**
-   `text-gray-500` (light mode) / `text-gray-400` (dark mode) is reused widely for icon buttons and secondary text: `ToggleTheme.astro:14`, `ToggleMenu.astro:14`, `Header.astro:154`, `Footer.astro:121`, `ShareLinks.astro:35,46`. Post dates use `text-gray-600 dark:text-gray-400` (`src/layouts/PageLayout.astro:79`). Against `bg-white` (light) / `dark:bg-slate-900` (dark, set in `src/layouts/BaseLayout.astro:28`), several of these combinations are borderline or fail WCAG AA (4.5:1 for text, 3:1 for UI components/icons). Needs a measured contrast pass (not just code inspection) in both themes.
+5. **Borderline/low text contrast, both themes.** ~~Investigated — no change needed~~
+   `text-gray-500` (light mode) / `text-gray-400` (dark mode) is reused widely for icon buttons and secondary text: `ToggleTheme.astro:14`, `ToggleMenu.astro:14`, `Header.astro:154`, `Footer.astro:121`, `ShareLinks.astro:35,46`. Post dates use `text-gray-600 dark:text-gray-400` (`src/layouts/PageLayout.astro:79`). This item originally flagged these as "borderline/failing" from static code inspection alone.
    *WCAG: 1.4.3 Contrast (Minimum) (Level AA), 1.4.11 Non-text Contrast (Level AA).*
+   *Resolution:* measured actual contrast ratios against the resolved Tailwind v4 palette: `gray-500` on white = 4.84:1, `gray-400` on `slate-900` = 6.85:1, `gray-600` on white (dates) = 7.56:1 light / 6.85:1 dark. All already clear the WCAG AA thresholds (4.5:1 text, 3:1 icons/UI) — no code change made. Original estimate was overly cautious; left as a corrected finding for the record rather than a to-do.
 
-6. **Search modal uses hardcoded hex colors, not theme-aware.**
+6. **Search modal uses hardcoded hex colors, not theme-aware.** ~~Partially fixed~~
    `SearchComponent.astro`/`SearchBar.astro` use hardcoded grays (`#6b7280`, `#9ca3af`) instead of Tailwind `dark:` variants, so contrast in dark mode hasn't been deliberately tuned and is likely insufficient.
    *WCAG: 1.4.3 Contrast (Minimum) (Level AA).*
+   *Resolution:* the file already handles theme-awareness via `.dark` class selector overrides (not Tailwind's `dark:` utility syntax, but functionally equivalent) — measuring each pair found only one real failure: the search input's `::placeholder` had light/dark colors swapped, giving 2.54:1 (light) and 3.03:1 (dark), both under AA. Swapped the two values to match the already-passing pattern used everywhere else in the file (4.83:1 light / 5.76:1 dark). All other hardcoded grays in the file (close button, result date/description/tags, no-results message) were already using the correct, passing ordering.
 
-7. **`alt` text is only soft-enforced on images, and inconsistently.**
+7. **`alt` text is only soft-enforced on images, and inconsistently.** ~~Fixed~~
    `alt` is a required TypeScript prop on both image components, but `src/components/common/OptimizedImage.astro:42-44` only `console.warn`s on an empty value rather than failing the build, and `src/components/common/R2Image.astro` doesn't warn at all. Given the recent Supabase→R2 image swap (#161), `alt` text should be spot-checked across content for regressions introduced during migration.
    *WCAG: 1.1.1 Non-text Content (Level A).*
+   *Resolution:* added the same `console.warn` check to `R2Image.astro` so both components warn consistently on empty `alt`. Kept as a warning rather than a build failure by decision — a hard failure would break the build on existing content gaps before they've been audited. Content audit for missing `alt` post-migration is still open (not done as part of this pass).
 
 ### Minor
 
@@ -60,10 +64,11 @@ This document is a snapshot for planning purposes. It is not implemented yet —
 - [x] Add `aria-expanded` (and toggle it in JS) to the mobile menu toggle (`ToggleMenu.astro`) and desktop nav dropdown buttons (`Header.astro`, `HeaderNoLogo.astro`), following the pattern in `AIShare.astro` — dropdowns also gained `aria-haspopup`, click/outside-click/Escape handling, and `:focus-within` CSS for keyboard use
 - [x] Add a skip-to-content link to the base layout, targeting the `<main>` landmark (added `id="main-content"` to `<main>` across all layouts)
 - [x] Replace `title`-only labeling on icon-only share links/buttons with `aria-label` (`ShareLinks.astro`, `SocialShare.astro`)
-- [ ] Decide whether to reinstate the dark mode toggle in `Header.astro`/`HeaderNoLogo.astro`; if kept, add `aria-pressed` to `ToggleTheme.astro`
-- [ ] Run a measured contrast check (e.g. axe/Lighthouse) on `text-gray-500`/`text-gray-400` usages in both light and dark mode and adjust shades where they fail WCAG AA
-- [ ] Convert hardcoded hex grays in the search modal (`SearchComponent.astro`/`SearchBar.astro`) to theme-aware Tailwind classes
-- [ ] Make `alt` text validation fail the build (or at minimum warn consistently) in both `OptimizedImage.astro` and `R2Image.astro`; audit existing content for missing `alt` text post-R2-migration
+- [x] Reinstate the dark mode toggle in `Header.astro`/`HeaderNoLogo.astro`; add `aria-pressed` to `ToggleTheme.astro` (also fixed the underlying `astro-icon` allowlist bug that caused the original build failure)
+- [x] Measure actual contrast for `text-gray-500`/`text-gray-400` usages in both light and dark mode — confirmed all already pass WCAG AA, no change needed
+- [x] Fix the search modal's placeholder text contrast (`SearchBar.astro`) — light/dark colors were swapped, causing a real AA failure; other hardcoded grays in the file were already correct
+- [x] Warn consistently (not build-fail) on missing `alt` text in both `OptimizedImage.astro` and `R2Image.astro`
+- [ ] Audit existing content for missing `alt` text introduced during the R2 migration
 - [ ] Fix or remove the hardcoded `lang="en"` in the legacy `Layout.astro` if it's still in use
 - [ ] Spot-check `Newsletter.astro` card heading level against the page's h1 for correct hierarchy
 - [ ] Confirm `prefers-reduced-motion` rules in `mobile.css` cover all `transition`/`animate-*` usage across components

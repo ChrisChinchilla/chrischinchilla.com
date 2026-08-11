@@ -18,6 +18,12 @@ while living here so all project knowledge stays consolidated in one syncable pl
 There is no test suite/framework in this repo (no test script, no Jest/Vitest/Playwright
 dependency) — `npm run check` and lint are the only correctness gates.
 
+## Git workflow
+
+Never run `git commit` or `git push` in this repo, even if asked to as part of a larger
+task — the user handles committing and pushing themselves. Leave changes staged/unstaged
+in the working tree and say so; don't create commits on their behalf.
+
 ## Architecture
 
 ### Content collections live in `src/content.config.ts`, not `src/content/config.ts`

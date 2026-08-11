@@ -3,12 +3,20 @@ import { SITE } from '~/config.mjs';
 ---
 
 <script is:inline define:vars={{ defaultTheme: SITE.defaultTheme }}>
+  function syncThemeToggleState() {
+    const isDark = document.documentElement.classList.contains('dark');
+    document.querySelectorAll('[data-aw-toggle-color-scheme]').forEach((elem) => {
+      elem.setAttribute('aria-pressed', String(isDark));
+    });
+  }
+
   function applyTheme(theme) {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
+    syncThemeToggleState();
   }
 
   function initTheme() {
@@ -90,6 +98,7 @@ import { SITE } from '~/config.mjs';
       }
       document.documentElement.classList.toggle('dark');
       localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+      syncThemeToggleState();
     });
 
     attachEvent('[data-aw-social-share]', 'click', function (_, elem) {
