@@ -24,6 +24,19 @@ Never run `git commit` or `git push` in this repo, even if asked to as part of a
 task — the user handles committing and pushing themselves. Leave changes staged/unstaged
 in the working tree and say so; don't create commits on their behalf.
 
+## Accessibility
+
+Accessibility is a standing requirement, not a separate task — factor it into every change
+to markup, components, or styles, not just when explicitly asked for an a11y pass. In
+practice: semantic elements over `<div>`/`<span>` with handlers, accessible names on
+icon-only controls (`aria-label`, not `title` alone), `aria-expanded`/`aria-pressed` on
+stateful toggles, keyboard operability (not just mouse/hover), and sufficient color
+contrast in both light and dark mode (this site uses Tailwind's `class`-strategy dark
+mode — check both). `.claude/A11Y_AUDIT.md` is a living record of past findings and their
+resolutions (or the reasoning for leaving something as-is, e.g. a measured contrast ratio
+that already passes) — check it before re-investigating something, and update it when a
+change touches an area it covers or introduces a new a11y-relevant pattern.
+
 ## Architecture
 
 ### Content collections live in `src/content.config.ts`, not `src/content/config.ts`
@@ -55,11 +68,14 @@ The `~` import alias (tsconfig + Vite alias in `astro.config.ts`) points at `src
 
 `src/pages/<type>/` (blog, books, clients, events, games, gear, music, newsletter, podcast,
 stories, videos) provides list + detail + tag pages per collection, each typically backed
-by a matching layout in `src/layouts/` (`Client.astro`, `Event.astro`, `Game.astro`,
-`PodcastLayout.astro`, `VideoLayout.astro`, `MarkdownLayout.astro`, plus the shared
-`BaseLayout`/`Layout`/`PageLayout`). Tag pages (`src/pages/*/tag/[...tag].astro`) use
-`groupTagsBySlug` in `src/utils/permalinks.ts` to merge tags that differ only in casing
-into one slug.
+by a matching layout in `src/layouts/` (`Game.astro`, `PodcastLayout.astro`,
+`VideoLayout.astro`, `MarkdownLayout.astro`, plus the shared `BaseLayout`/`PageLayout`/
+`PageLayoutNoBG`). Clients and events are the exception — their card rendering lives in
+`src/components/Client.astro`/`Event.astro` (components, not layouts) rather than a
+dedicated layout file; a same-named `src/layouts/Client.astro`/`Event.astro` pair existed
+previously but was unreferenced dead code and has been removed. Tag pages
+(`src/pages/*/tag/[...tag].astro`) use `groupTagsBySlug` in `src/utils/permalinks.ts` to
+merge tags that differ only in casing into one slug.
 
 Two non-visual feed routes exist for AI crawlers/agents: `src/pages/llms.txt.ts` (linked
 summary) and `src/pages/llms-full.txt.ts` (full content dump) — both pull from

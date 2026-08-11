@@ -47,17 +47,20 @@ This document is a snapshot for planning purposes. It is not implemented yet —
 
 ### Minor
 
-8. **Legacy layout hardcodes `lang="en"`.**
+8. **Legacy layout hardcodes `lang="en"`.** ~~Resolved — deleted as dead code~~
    `src/layouts/Layout.astro:10` hardcodes `lang="en"` instead of reading the site's language config the way `src/layouts/BaseLayout.astro:21` does (`<html lang={language} dir={textDirection}>`). Confirm whether `Layout.astro` is still referenced anywhere; if so, bring it in line for consistency (low impact today since the site is English-only, but worth fixing if the layout survives).
    *WCAG: 3.1.1 Language of Page (Level A) — currently satisfied by coincidence, not by design, in the legacy layout.*
+   *Resolution:* traced all references — `Layout.astro` was only imported by `src/layouts/Event.astro` and `src/layouts/Client.astro`, and neither of those was imported by anything in `src/pages` (the live `/events` and `/clients` routes render through the differently-named `src/components/Event.astro`/`Client.astro` instead). All three were confirmed-dead code and deleted per repo convention rather than patched.
 
-9. **Verify heading hierarchy on the new newsletter grid cards.**
+9. **Verify heading hierarchy on the new newsletter grid cards.** ~~Verified — correct, no fix needed~~
    The #165 refactor moved the newsletter list to the standard content grid layout. `src/pages/newsletter/[...page].astro` and its `PageLayoutNoBG` wrapper look structurally sound (single top-level heading, header/main/footer landmarks retained), but the `Newsletter.astro` card component's internal heading level should be spot-checked to confirm it doesn't duplicate or skip levels relative to the page's h1.
    *WCAG: 1.3.1 Info and Relationships (Level A).*
+   *Resolution:* `Headline.astro` renders the page title as `<h1>`, and each `Newsletter.astro` card renders its title as `<h2>` — correct hierarchy, no skipped or duplicate levels. No stray headings in `Header.astro`/`PageLayoutNoBG.astro`/`LogoChinch.astro` to conflict. No change needed.
 
-10. **Confirm `prefers-reduced-motion` coverage is complete.**
+10. **Confirm `prefers-reduced-motion` coverage is complete.** ~~Verified — already comprehensive~~
     A `@media (prefers-reduced-motion: reduce)` rule exists in `src/assets/styles/mobile.css:229-232` and is imported site-wide via `BaseLayout.astro:3` — good baseline. Worth confirming it covers all `transition`/`animate-*` Tailwind utility classes used across components, not just the rules already scoped in `mobile.css`.
     *WCAG: 2.3.3 Animation from Interactions (Level AAA, best practice).*
+    *Resolution:* the rule targets `*, *::before, *::after` with `!important`, which overrides `animation-duration`/`transition-duration` globally regardless of how the animation/transition was declared (Tailwind utility class, scoped component CSS, or inline style). This already covers every case in the codebase — no gaps found, no change needed.
 
 ## Task Checklist
 
@@ -68,8 +71,8 @@ This document is a snapshot for planning purposes. It is not implemented yet —
 - [x] Measure actual contrast for `text-gray-500`/`text-gray-400` usages in both light and dark mode — confirmed all already pass WCAG AA, no change needed
 - [x] Fix the search modal's placeholder text contrast (`SearchBar.astro`) — light/dark colors were swapped, causing a real AA failure; other hardcoded grays in the file were already correct
 - [x] Warn consistently (not build-fail) on missing `alt` text in both `OptimizedImage.astro` and `R2Image.astro`
+- [x] Fix or remove the hardcoded `lang="en"` in the legacy `Layout.astro` — deleted it and its two dead-code dependents (`Event.astro`, `Client.astro`) instead, since none were referenced anywhere
+- [x] Spot-check `Newsletter.astro` card heading level against the page's h1 — confirmed correct (h1 → h2), no change needed
+- [x] Confirm `prefers-reduced-motion` rules in `mobile.css` cover all `transition`/`animate-*` usage — confirmed, the global `*` selector already covers every case
 - [ ] Audit existing content for missing `alt` text introduced during the R2 migration
-- [ ] Fix or remove the hardcoded `lang="en"` in the legacy `Layout.astro` if it's still in use
-- [ ] Spot-check `Newsletter.astro` card heading level against the page's h1 for correct hierarchy
-- [ ] Confirm `prefers-reduced-motion` rules in `mobile.css` cover all `transition`/`animate-*` usage across components
 - [ ] Run a full automated pass (axe-core or Lighthouse a11y audit) and a manual keyboard/screen-reader pass once the above items are addressed, to catch anything static code review missed
