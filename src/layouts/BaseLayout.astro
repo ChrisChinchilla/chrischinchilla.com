@@ -26,6 +26,11 @@ const { language = 'en', textDirection = 'ltr' } = SITE;
   </head>
 
   <body class="antialiased text-gray-900 dark:text-slate-300 tracking-tight bg-white dark:bg-slate-900">
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:rounded-lg focus:bg-white focus:text-gray-900 focus:shadow-lg dark:focus:bg-slate-800 dark:focus:text-white"
+      >Skip to content</a
+    >
     <slot />
     <BasicScripts />
     <style is:global>

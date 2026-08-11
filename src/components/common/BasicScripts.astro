@@ -45,9 +45,43 @@ import { SITE } from '~/config.mjs';
 
     attachEvent('[data-aw-toggle-menu]', 'click', function (_, elem) {
       elem.classList.toggle('expanded');
+      elem.setAttribute('aria-expanded', elem.classList.contains('expanded') ? 'true' : 'false');
       document.body.classList.toggle('overflow-hidden');
       document.getElementById('header')?.classList.toggle('h-screen');
       document.querySelector('#header nav')?.classList.toggle('hidden');
+    });
+
+    attachEvent('[data-aw-dropdown-toggle]', 'click', function (_, elem) {
+      const dropdown = elem.closest('.dropdown');
+      const expanded = elem.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('[data-aw-dropdown-toggle]').forEach((other) => {
+        if (other !== elem) {
+          other.setAttribute('aria-expanded', 'false');
+          other.closest('.dropdown')?.classList.remove('show');
+        }
+      });
+
+      elem.setAttribute('aria-expanded', String(!expanded));
+      dropdown?.classList.toggle('show', !expanded);
+    });
+
+    document.addEventListener('click', function (e) {
+      document.querySelectorAll('[data-aw-dropdown-toggle]').forEach((elem) => {
+        if (!elem.closest('.dropdown')?.contains(e.target)) {
+          elem.setAttribute('aria-expanded', 'false');
+          elem.closest('.dropdown')?.classList.remove('show');
+        }
+      });
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('[data-aw-dropdown-toggle]').forEach((elem) => {
+          elem.setAttribute('aria-expanded', 'false');
+          elem.closest('.dropdown')?.classList.remove('show');
+        });
+      }
     });
 
     attachEvent('[data-aw-toggle-color-scheme]', 'click', function () {
@@ -133,6 +167,7 @@ import { SITE } from '~/config.mjs';
     const elem = document.querySelector('[data-aw-toggle-menu]');
     if (elem) {
       elem.classList.remove('expanded');
+      elem.setAttribute('aria-expanded', 'false');
     }
     document.body.classList.remove('overflow-hidden');
     document.getElementById('header')?.classList.remove('h-screen');

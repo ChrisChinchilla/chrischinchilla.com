@@ -57,9 +57,9 @@ This document is a snapshot for planning purposes. It is not implemented yet —
 
 ## Task Checklist
 
-- [ ] Add `aria-expanded` (and toggle it in JS) to the mobile menu toggle (`ToggleMenu.astro`) and desktop nav dropdown buttons (`Header.astro`), following the pattern in `AIShare.astro`
-- [ ] Add a skip-to-content link to the base layout, targeting the `<main>` landmark
-- [ ] Replace `title`-only labeling on icon-only share links/buttons with `aria-label` or visually-hidden text (`ShareLinks.astro`, `SocialShare.astro`)
+- [x] Add `aria-expanded` (and toggle it in JS) to the mobile menu toggle (`ToggleMenu.astro`) and desktop nav dropdown buttons (`Header.astro`, `HeaderNoLogo.astro`), following the pattern in `AIShare.astro` — dropdowns also gained `aria-haspopup`, click/outside-click/Escape handling, and `:focus-within` CSS for keyboard use
+- [x] Add a skip-to-content link to the base layout, targeting the `<main>` landmark (added `id="main-content"` to `<main>` across all layouts)
+- [x] Replace `title`-only labeling on icon-only share links/buttons with `aria-label` (`ShareLinks.astro`, `SocialShare.astro`)
 - [ ] Decide whether to reinstate the dark mode toggle in `Header.astro`/`HeaderNoLogo.astro`; if kept, add `aria-pressed` to `ToggleTheme.astro`
 - [ ] Run a measured contrast check (e.g. axe/Lighthouse) on `text-gray-500`/`text-gray-400` usages in both light and dark mode and adjust shades where they fail WCAG AA
 - [ ] Convert hardcoded hex grays in the search modal (`SearchComponent.astro`/`SearchBar.astro`) to theme-aware Tailwind classes

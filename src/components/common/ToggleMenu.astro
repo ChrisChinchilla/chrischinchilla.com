@@ -17,6 +17,6 @@ const {
 } = Astro.props;
 ---
 
-<button type="button" class={className} aria-label={label} data-aw-toggle-menu>
+<button type="button" class={className} aria-label={label} aria-expanded="false" aria-controls="header-nav" data-aw-toggle-menu>
   <Icon name={iconName} class={iconClass} optimize={false} />
 </button>
