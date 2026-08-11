@@ -50,34 +50,55 @@ this branch; see `SEO-AEO-AUDIT.md` for the corresponding `Status: Fixed` notes.
     for a clean text dump); `courses.astro` has no static body to extract (it's built from
     the `av` collection at request time), so it gets a short hand-written blurb instead.
 
-## Structured data coverage
+## Structured data coverage — done
 
-Extend `src/components/common/StructuredData.astro` usage (the generator already supports
-most of what's needed) to content types that currently emit none.
+Extended `src/components/common/StructuredData.astro` usage to content types that
+previously emitted none.
 
-5. **Add structured data to books, music, gear** — *AEO*. Use the existing `CreativeWork`
-   schema (already used for stories) on `src/pages/books/[...id].astro`,
-   `src/pages/music/[...id].astro`, `src/pages/gear/[...id].astro`. Effort: **S** per page,
-   **M** total.
+5. **~~Add structured data to books, music, gear~~ — Done.** *AEO*. Added `CreativeWork`
+   structured data (same pattern already used for stories) to `src/pages/books/[...id].astro`,
+   `src/pages/music/[...id].astro`, `src/pages/gear/[...id].astro`, and — while in the same
+   area — `src/pages/newsletter/[id].astro`, which had the same gap but wasn't listed
+   explicitly in this item.
 
-6. **Add structured data to clients, events, games, newsletters, courses** — *AEO*. Pick the
-   closest-fitting existing schema type per content type (e.g. `CreativeWork` or a light
-   custom type for `events`/`games`) once item 4 gives clients/events real layouts to hang it
-   on. Effort: **M**.
+6. **~~Add structured data to clients, events, games, courses~~ — Done, via a new `ItemList`
+   type instead of `CreativeWork`.** *AEO*. As found while implementing quick win 4 (see
+   `SEO-AEO-AUDIT.md` finding 1), `clients`, `events`, and `games` have no individual detail
+   pages — only paginated lists — so per-item `CreativeWork` records had no page to live on.
+   Added a new `ItemList` schema type to `StructuredData.astro` instead, and wired one into
+   each paginated list page (`src/pages/clients/[...page].astro`,
+   `src/pages/events/[...page].astro`, `src/pages/games/[...page].astro`,
+   `src/pages/courses.astro`) scoped to that page's own items. `newsletters` already has
+   individual pages and was folded into item 5 above instead.
 
-7. **Wire up Person/Organization/WebSite schema on the homepage** — *AEO + SEO*. The
-   generator functions already exist in `StructuredData.astro` (`generatePersonSchema`,
-   `generateOrganizationSchema`, `generateWebSiteSchema`) but have zero call sites anywhere —
-   currently unreachable. Add `<StructuredData type="Person" />` (with real `sameAs` social
-   profile URLs filled in — currently a commented-out empty array) and/or `Organization`/
-   `WebSite` (the `WebSite` schema includes a `SearchAction` pointing at `/blog?q=...`, worth
-   verifying that search endpoint actually exists) to `src/pages/index.astro`. This is what
-   powers Google's Knowledge Panel and many "who is X" answer-engine queries. Effort: **S**.
+7. **~~Wire up Person/WebSite schema on the homepage~~ — Done (Organization skipped).**
+   *AEO + SEO*. Added `<StructuredData type="Person" />` and `<StructuredData
+   type="WebSite" />` to `src/pages/index.astro`. `Person.sameAs` is populated with profile
+   URLs already confirmed elsewhere in the codebase (GitHub and YouTube from
+   `Footer.astro`, the `@chrischinch` Twitter handle from `MetaTags.astro`'s Twitter card
+   config) rather than guessed. `Organization` was deliberately **not** added — this is a
+   personal site representing an individual, and Person is the correct schema.org type for
+   that; adding Organization too would misrepresent a personal brand as a company. Also
+   fixed a correctness bug found while verifying this item: `generateWebSiteSchema`'s
+   `SearchAction` pointed at `/blog?q={search_term_string}`, but site search
+   (`SearchBar.astro`/`SearchComponent.astro`) runs entirely client-side via `fuse.js` with
+   no query-string-driven results URL — visiting that URL doesn't actually perform a
+   search. Removed the `potentialAction` rather than ship structured data that fails
+   Google's "the action must work" requirement.
 
-8. **Extend Breadcrumb to cv/community/contact** — *SEO*. These pages route through
-   `MarkdownLayout.astro` but never pass a `section` prop, so they get no `BreadcrumbList`
-   and no visible breadcrumb nav. Decide on a sensible parent ("Home") and pass `section`.
-   Effort: **S**.
+8. **~~Extend Breadcrumb to cv/community/contact~~ — Done.** *SEO*. Rather than inventing an
+   artificial middle "section" for these three standalone pages, `MarkdownLayout.astro`'s
+   breadcrumb logic now renders a plain `Home > <title>` trail whenever a page has no
+   `section` prop (previously breadcrumbs were skipped entirely unless `section` was set).
+   Pages that do pass `section` (blog, books, stories, newsletter, music, gear) are
+   unaffected — verified only `cv.md`, `community.md`, and `contact.mdx` use
+   `MarkdownLayout` without a `section` prop, so no other page's breadcrumb changed.
+   While verifying this rendered end-to-end, found and fixed a related bug: `PageLayout.astro`
+   (used by the homepage) and `PageLayoutNoBG.astro` (used by clients/events/games/courses)
+   never forwarded a `head` named slot to `BaseLayout` at all — `MarkdownLayout.astro` was
+   the only layout that did. This silently dropped any `<... slot="head" />` content (like
+   the new `StructuredData` calls in items 6–7) passed into pages using those two layouts.
+   Both now forward the slot the same way `MarkdownLayout.astro` does.
 
 ## Content schema consistency
 
@@ -125,7 +146,7 @@ most of what's needed) to content types that currently emit none.
 
 ## Suggested sequencing
 
-Quick wins (1–4) and llms.txt completeness (14) are done. Next up: structured data
-coverage (5–8) and content schema consistency (9–10), since they build on consistent
-frontmatter. Sitemap/RSS coverage (11–12) and the dependency check (13) can happen
-anytime, lowest urgency.
+Quick wins (1–4), llms.txt completeness (14), and structured data coverage (5–8) are done.
+Next up: content schema consistency (9–10), since it builds on the same frontmatter
+structured data now reads from. Sitemap/RSS coverage (11–12) and the dependency check (13)
+can happen anytime, lowest urgency.

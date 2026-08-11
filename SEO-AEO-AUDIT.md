@@ -103,13 +103,13 @@ a `<link>` tag in `MetaTags.astro` (open).
 
 ## 5. Structured data (JSON-LD)
 
-`src/components/common/StructuredData.astro` is a general-purpose schema generator
-supporting `Article`/`BlogPosting` (`:11-58`), `Person` (`:60-74`), `Organization`
-(`:76-85`), `WebSite` (`:87-103`), `PodcastEpisode` (`:114-142`), `VideoObject`
-(`:144-156`), and `CreativeWork` (`:158-187`) — dispatched by a `type` prop
-(`:189-204`).
+**Status: Fixed.** `src/components/common/StructuredData.astro` is a general-purpose
+schema generator supporting `Article`/`BlogPosting`, `Person`, `Organization`, `WebSite`,
+`PodcastEpisode`, `VideoObject`, `CreativeWork`, and now `ItemList` (added — see below),
+dispatched by a `type` prop.
 
-Actual usage, per grep, is narrow — only 4 call sites:
+Coverage, previously only 4 call sites (blog → `BlogPosting`, stories → `CreativeWork`,
+videos → `VideoObject`, podcasts → `PodcastEpisode`), is now:
 
 | Content type | File | Schema used |
 |---|---|---|
@@ -117,21 +117,35 @@ Actual usage, per grep, is narrow — only 4 call sites:
 | Stories | `src/pages/stories/[...id].astro` | `CreativeWork` |
 | Videos | `src/layouts/VideoLayout.astro` | `VideoObject` |
 | Podcasts | `src/layouts/PodcastLayout.astro` | `PodcastEpisode` |
+| Books, music, gear, newsletters | detail pages | `CreativeWork` |
+| Clients, events, games, courses | list pages | `ItemList` (new type) |
+| Homepage | `src/pages/index.astro` | `Person`, `WebSite` |
 
-**No structured data emitted for**: books, music releases, gear, clients, events, games,
-newsletters, courses, or the homepage. The `Person`/`Organization`/`WebSite` generator
-functions exist in the component but a grep for their invocation (`type="Person"`,
-`type="Organization"`, `type="WebSite"`) finds no call sites anywhere outside the
-component's own definition — they are currently unreachable dead code, and the site has no
-`Person`/`Organization`/`WebSite` JSON-LD anywhere, including the homepage
-(`src/pages/index.astro`).
+`clients`, `events`, and `games` got `ItemList` rather than per-item `CreativeWork`
+because — corrected in finding 1 — they have no individual detail pages, only paginated
+lists; each list page now emits one `ItemList` scoped to its own page of items.
+`Organization` was deliberately not added to the homepage: this is a personal site, and
+`Person` is the correct schema.org type for an individual, not a company. The
+`generatePersonSchema`/`generateWebSiteSchema` functions that were previously unreachable
+dead code are now wired up; `generateWebSiteSchema`'s `SearchAction` (pointing at
+`/blog?q={search_term_string}`) was removed in the process after verifying the site's
+search (`SearchBar.astro`/`SearchComponent.astro`, `fuse.js`) runs entirely client-side
+with no query-string-driven results URL — the action wouldn't have actually performed a
+search.
+
+Fixing this also surfaced a real bug: `src/layouts/PageLayout.astro` (homepage) and
+`src/layouts/PageLayoutNoBG.astro` (clients/events/games/courses/support) never forwarded
+a `head` named slot to `BaseLayout` at all — only `MarkdownLayout.astro` did. Any
+`slot="head"` content passed into a page using either of those two layouts was silently
+dropped. Both layouts now forward the slot.
 
 `src/components/common/Breadcrumb.astro` independently emits its own `BreadcrumbList`
-JSON-LD (`Breadcrumb.astro:16-25`), rendered only when `MarkdownLayout.astro`'s `section`
-prop is passed and truthy (`MarkdownLayout.astro:24,76`). Grep of pages that pass `section`
-shows blog, books, stories, newsletter, music, and gear detail pages do; `cv.md`,
-`community.md`, and `contact.mdx` all route through `MarkdownLayout` (via `PageLayout`) but
-never set `section`, so they get no breadcrumb and no `BreadcrumbList` schema.
+JSON-LD, previously rendered only when `MarkdownLayout.astro`'s `section` prop was passed
+and truthy. `cv.md`, `community.md`, and `contact.mdx` set `layout:
+'~/layouts/MarkdownLayout.astro'` in frontmatter but never set `section`, so they got no
+breadcrumb. `MarkdownLayout.astro` now renders a plain `Home > <title>` breadcrumb whenever
+`section` is absent, instead of skipping the breadcrumb entirely — fixing this without
+inventing an artificial intermediate category for these three standalone pages.
 
 ## 6. Content collection schema (`src/content.config.ts`)
 
