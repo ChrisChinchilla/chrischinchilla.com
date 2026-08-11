@@ -3,12 +3,20 @@ import { SITE } from '~/config.mjs';
 ---
 
 <script is:inline define:vars={{ defaultTheme: SITE.defaultTheme }}>
+  function syncThemeToggleState() {
+    const isDark = document.documentElement.classList.contains('dark');
+    document.querySelectorAll('[data-aw-toggle-color-scheme]').forEach((elem) => {
+      elem.setAttribute('aria-pressed', String(isDark));
+    });
+  }
+
   function applyTheme(theme) {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
+    syncThemeToggleState();
   }
 
   function initTheme() {
@@ -30,6 +38,10 @@ import { SITE } from '~/config.mjs';
   // Re-initialize theme on page navigation (for ViewTransitions)
   document.addEventListener('astro:page-load', initTheme);
 
+  // Follow OS-level theme changes live, but only when the user hasn't made
+  // an explicit choice via the toggle (localStorage.theme takes priority in initTheme).
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', initTheme);
+
   function attachEvent(selector, event, fn) {
     const matches = typeof selector === 'string' ? document.querySelectorAll(selector) : selector;
     if (matches && matches.length) {
@@ -45,9 +57,43 @@ import { SITE } from '~/config.mjs';
 
     attachEvent('[data-aw-toggle-menu]', 'click', function (_, elem) {
       elem.classList.toggle('expanded');
+      elem.setAttribute('aria-expanded', elem.classList.contains('expanded') ? 'true' : 'false');
       document.body.classList.toggle('overflow-hidden');
       document.getElementById('header')?.classList.toggle('h-screen');
       document.querySelector('#header nav')?.classList.toggle('hidden');
+    });
+
+    attachEvent('[data-aw-dropdown-toggle]', 'click', function (_, elem) {
+      const dropdown = elem.closest('.dropdown');
+      const expanded = elem.getAttribute('aria-expanded') === 'true';
+
+      document.querySelectorAll('[data-aw-dropdown-toggle]').forEach((other) => {
+        if (other !== elem) {
+          other.setAttribute('aria-expanded', 'false');
+          other.closest('.dropdown')?.classList.remove('show');
+        }
+      });
+
+      elem.setAttribute('aria-expanded', String(!expanded));
+      dropdown?.classList.toggle('show', !expanded);
+    });
+
+    document.addEventListener('click', function (e) {
+      document.querySelectorAll('[data-aw-dropdown-toggle]').forEach((elem) => {
+        if (!elem.closest('.dropdown')?.contains(e.target)) {
+          elem.setAttribute('aria-expanded', 'false');
+          elem.closest('.dropdown')?.classList.remove('show');
+        }
+      });
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('[data-aw-dropdown-toggle]').forEach((elem) => {
+          elem.setAttribute('aria-expanded', 'false');
+          elem.closest('.dropdown')?.classList.remove('show');
+        });
+      }
     });
 
     attachEvent('[data-aw-toggle-color-scheme]', 'click', function () {
@@ -56,6 +102,7 @@ import { SITE } from '~/config.mjs';
       }
       document.documentElement.classList.toggle('dark');
       localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+      syncThemeToggleState();
     });
 
     attachEvent('[data-aw-social-share]', 'click', function (_, elem) {
@@ -133,6 +180,7 @@ import { SITE } from '~/config.mjs';
     const elem = document.querySelector('[data-aw-toggle-menu]');
     if (elem) {
       elem.classList.remove('expanded');
+      elem.setAttribute('aria-expanded', 'false');
     }
     document.body.classList.remove('overflow-hidden');
     document.getElementById('header')?.classList.remove('h-screen');

@@ -1,6 +1,6 @@
 ---
 title: Wicked Ones
-image: "games/354307.jpg"
+image: "/games/354307.jpg"
 publisher: Bandit Camp
 publish_date: 2020-12-23
 role: Proofreader

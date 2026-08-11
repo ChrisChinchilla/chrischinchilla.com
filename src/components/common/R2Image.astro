@@ -89,6 +89,11 @@ const {
 // Resolve the image - convert local paths to ImageMetadata objects
 const resolvedSrc = await resolveImage(src);
 
+// Validate alt text exists and is meaningful
+if (!alt || alt.trim() === '') {
+  console.warn(`Image missing alt text: ${src}`);
+}
+
 // Determine image type after resolution
 // - ImageMetadata object: actual Astro import, optimize with inferSize
 // - String starting with '/src/': this shouldn't happen after resolution, but handle it

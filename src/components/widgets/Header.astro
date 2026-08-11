@@ -95,25 +95,33 @@ const links = [
         <Logo />
       </a>
       <div class="flex items-center md:hidden">
-        <!-- TODO: Fix image and return -->
-        <!-- <ToggleTheme /> -->
+        <ToggleTheme />
         <ToggleMenu />
       </div>
     </div>
     <nav
+      id="header-nav"
       class="items-center w-full md:w-auto hidden md:flex text-gray-600 dark:text-slate-200 h-[calc(100vh-72px)] md:h-auto overflow-y-auto md:overflow-visible"
       aria-label="Main navigation"
     >
       <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-base">
         {
-          links.map(({ text, href, links }) => (
+          links.map(({ text, href, links }) => {
+            const dropdownId = `dropdown-${text.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+            return (
             <li class={links?.length ? 'dropdown' : ''}>
               {links?.length ? (
                 <>
-                  <button class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                  <button
+                    class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-controls={dropdownId}
+                    data-aw-dropdown-toggle
+                  >
                     {text} <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 hidden md:inline" />
                   </button>
-                  <ul class="dropdown-menu rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white md:min-w-[200px] dark:md:bg-slate-800 drop-shadow-xl">
+                  <ul id={dropdownId} class="dropdown-menu rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white md:min-w-[200px] dark:md:bg-slate-800 drop-shadow-xl">
                     {links.map(({ text: text2, href: href2 }) => (
                       <li>
                         <a
@@ -135,7 +143,8 @@ const links = [
                 </a>
               )}
             </li>
-          ))
+            );
+          })
         }
         <li class="md:hidden">
           <a
@@ -146,9 +155,7 @@ const links = [
       </ul>
       <div class="md:self-center flex items-center md:mb-0 ml-4">
         <div class="hidden items-center md:flex">
-          <!-- TODO: Fix image and return -->
-
-          <!-- <ToggleTheme iconClass="w-5 h-5" /> -->
+          <ToggleTheme iconClass="w-5 h-5" />
           <SearchBar />
           <a
             class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"

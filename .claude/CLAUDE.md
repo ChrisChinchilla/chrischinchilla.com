@@ -18,6 +18,25 @@ while living here so all project knowledge stays consolidated in one syncable pl
 There is no test suite/framework in this repo (no test script, no Jest/Vitest/Playwright
 dependency) — `npm run check` and lint are the only correctness gates.
 
+## Git workflow
+
+Never run `git commit` or `git push` in this repo, even if asked to as part of a larger
+task — the user handles committing and pushing themselves. Leave changes staged/unstaged
+in the working tree and say so; don't create commits on their behalf.
+
+## Accessibility
+
+Accessibility is a standing requirement, not a separate task — factor it into every change
+to markup, components, or styles, not just when explicitly asked for an a11y pass. In
+practice: semantic elements over `<div>`/`<span>` with handlers, accessible names on
+icon-only controls (`aria-label`, not `title` alone), `aria-expanded`/`aria-pressed` on
+stateful toggles, keyboard operability (not just mouse/hover), and sufficient color
+contrast in both light and dark mode (this site uses Tailwind's `class`-strategy dark
+mode — check both). `.claude/A11Y_AUDIT.md` is a living record of past findings and their
+resolutions (or the reasoning for leaving something as-is, e.g. a measured contrast ratio
+that already passes) — check it before re-investigating something, and update it when a
+change touches an area it covers or introduces a new a11y-relevant pattern.
+
 ## Architecture
 
 ### Content collections live in `src/content.config.ts`, not `src/content/config.ts`
@@ -52,11 +71,14 @@ stories, videos) provides list pages per collection, and detail pages too for th
 collections that have individual content (blog, books, stories, newsletter, music, gear,
 podcasts, videos) — `clients`, `events`, and `games` are list-only (paginated, no
 per-entry page), so their content only ever appears on `/clients`, `/events`, `/games` and
-their pagination pages. List/detail pages are typically backed by a matching layout in
-`src/layouts/` (`PodcastLayout.astro`, `VideoLayout.astro`, `MarkdownLayout.astro`, plus
-the shared `BaseLayout`/`PageLayout`/`PageLayoutNoBG`). Tag pages
-(`src/pages/*/tag/[...tag].astro`) use `groupTagsBySlug` in `src/utils/permalinks.ts` to
-merge tags that differ only in casing into one slug.
+their pagination pages, rendered via `src/components/Client.astro`/`Event.astro`/
+`Game.astro` (components, not layouts). List/detail pages are typically backed by a
+matching layout in `src/layouts/` (`PodcastLayout.astro`, `VideoLayout.astro`,
+`MarkdownLayout.astro`, plus the shared `BaseLayout`/`PageLayout`/`PageLayoutNoBG`) — a
+same-named `src/layouts/Client.astro`/`Event.astro` pair existed previously but was
+unreferenced dead code and has been removed; `src/layouts/Game.astro` is unreferenced too
+and likely the same. Tag pages (`src/pages/*/tag/[...tag].astro`) use `groupTagsBySlug` in
+`src/utils/permalinks.ts` to merge tags that differ only in casing into one slug.
 
 See "SEO and AEO" below for what to update when adding or changing a content type — routing
 is only part of the story.
