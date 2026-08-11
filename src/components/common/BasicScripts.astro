@@ -38,6 +38,10 @@ import { SITE } from '~/config.mjs';
   // Re-initialize theme on page navigation (for ViewTransitions)
   document.addEventListener('astro:page-load', initTheme);
 
+  // Follow OS-level theme changes live, but only when the user hasn't made
+  // an explicit choice via the toggle (localStorage.theme takes priority in initTheme).
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', initTheme);
+
   function attachEvent(selector, event, fn) {
     const matches = typeof selector === 'string' ? document.querySelectorAll(selector) : selector;
     if (matches && matches.length) {
