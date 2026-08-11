@@ -41,12 +41,14 @@ this branch; see `SEO-AEO-AUDIT.md` for the corresponding `Status: Fixed` notes.
 
 ## llms.txt completeness
 
-14. **Add static pages to llms.txt / llms-full.txt** — *AEO*. `cv.md`, `community.md`,
-    `contact.mdx`, and `courses.astro` still have no llms.txt representation — they're not
-    content collection entries, so they weren't in scope for the mechanical collection-add
-    in quick win 2. Add a short "About" section linking to them, hand-written rather than
-    generated from frontmatter since there's no shared schema across these four pages.
-    Effort: **S**.
+14. **~~Add static pages to llms.txt / llms-full.txt~~ — Done.** *AEO*. `cv.md`,
+    `community.md`, `contact.mdx`, and `courses.astro` now have an "About" section in both
+    files. `llms.txt` links each with a hand-written one-line summary (no shared frontmatter
+    schema across these four pages to generate one from). `llms-full.txt` reads the real
+    body content of `cv.md`/`community.md`/`contact.mdx` directly from `src/pages/` via
+    `gray-matter` (stripping MDX `import`/self-closing-component lines from `contact.mdx`
+    for a clean text dump); `courses.astro` has no static body to extract (it's built from
+    the `av` collection at request time), so it gets a short hand-written blurb instead.
 
 ## Structured data coverage
 
@@ -123,7 +125,7 @@ most of what's needed) to content types that currently emit none.
 
 ## Suggested sequencing
 
-Quick wins (1–4) are done. Next up: structured data coverage (5–8) and content schema
-consistency (9–10), since they build on consistent frontmatter. Item 14 (llms.txt static
-pages) is a small standalone follow-up. Sitemap/RSS coverage (11–12) and the dependency
-check (13) can happen anytime, lowest urgency.
+Quick wins (1–4) and llms.txt completeness (14) are done. Next up: structured data
+coverage (5–8) and content schema consistency (9–10), since they build on consistent
+frontmatter. Sitemap/RSS coverage (11–12) and the dependency check (13) can happen
+anytime, lowest urgency.

@@ -3,6 +3,14 @@ import { SITE } from '~/config.mjs';
 
 const origin = SITE.origin;
 
+// Static, non-collection pages (no shared frontmatter schema), listed by hand.
+const staticPages = [
+  { title: 'CV and resume', path: '/cv', summary: 'Work history, publications, talks, and community involvement.' },
+  { title: 'Community and volunteering', path: '/community', summary: 'Communities and volunteering efforts Chris organises or contributes to.' },
+  { title: 'Work with me', path: '/contact', summary: 'Services offered (writing, editing, video/audio production, workshops) and how to get in touch.' },
+  { title: 'Courses', path: '/courses', summary: 'Video courses Chris has produced or contributed to.' },
+];
+
 function entryUrl(localPath: string, publicationUrl?: string): string {
   return publicationUrl ?? `${origin}${localPath}`;
 }
@@ -70,6 +78,13 @@ export const GET = async () => {
     `> Full content available at [${origin}/llms-full.txt](${origin}/llms-full.txt)`,
     '',
   ];
+
+  // About — static pages with no shared content collection schema
+  lines.push('## About', '');
+  for (const page of staticPages) {
+    lines.push(formatLink(page.title, `${origin}${page.path}`, page.summary));
+  }
+  lines.push('');
 
   // Blog Posts
   lines.push('## Blog Posts', '');

@@ -1,7 +1,31 @@
 import { getCollection } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
+import matter from 'gray-matter';
 import { SITE } from '~/config.mjs';
 
 const origin = SITE.origin;
+
+// Static, non-collection pages (no shared frontmatter schema): read their real body
+// content directly from src/pages/ rather than hand-duplicating it here.
+function readStaticPage(filename: string): { title: string; body: string } {
+  const filePath = path.resolve(process.cwd(), 'src/pages', filename);
+  const raw = fs.readFileSync(filePath, 'utf-8');
+  const { data, content } = matter(raw);
+  const body = content
+    .split('\n')
+    .filter((line) => !/^import .+ from ['"].+['"];?$/.test(line.trim()) && !/^<[A-Za-z][^>]*\/>$/.test(line.trim()))
+    .join('\n')
+    .trim();
+  return { title: data.title ?? filename, body };
+}
+
+const staticPages = [
+  { ...readStaticPage('cv.md'), path: '/cv' },
+  { ...readStaticPage('community.md'), path: '/community' },
+  { ...readStaticPage('contact.mdx'), path: '/contact' },
+  { title: 'Courses', path: '/courses', body: 'Video courses Chris has produced or contributed to.' },
+];
 
 function entryUrl(localPath: string, publicationUrl?: string): string {
   return publicationUrl ?? `${origin}${localPath}`;
@@ -72,6 +96,14 @@ export const GET = async () => {
     `> Index at [${origin}/llms.txt](${origin}/llms.txt)`,
     '',
   ];
+
+  // About — static pages with no shared content collection schema
+  lines.push('# About', '', '---', '');
+  for (const page of staticPages) {
+    lines.push(`## [${page.title}](${origin}${page.path})`, '');
+    if (page.body) lines.push(page.body, '');
+    lines.push('---', '');
+  }
 
   // Blog Posts
   lines.push('# Blog Posts', '', '---', '');

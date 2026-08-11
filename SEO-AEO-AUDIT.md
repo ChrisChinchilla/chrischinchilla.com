@@ -94,9 +94,9 @@ their llms.txt entries link out to an external URL when the frontmatter has one
 data rendered onto a single page (`src/pages/support.astro`) with no per-entry URL or
 canonical content, unlike every other collection — including it would mean many llms.txt
 lines all pointing at the same `/support` URL, which doesn't serve the "content index"
-purpose the file is for. Also still missing: the static pages `cv.md`, `community.md`,
-`contact.mdx`, `courses.astro`, which have no llms.txt representation at all (open, not
-addressed here).
+purpose the file is for. The static pages `cv.md`, `community.md`, `contact.mdx`, and
+`courses.astro` (not content collection entries, so out of scope for the mechanical
+collection-add above) now have their own "About" section in both files instead.
 
 `robots.txt` now links both files — see finding 2 (fixed). Neither file is yet linked from
 a `<link>` tag in `MetaTags.astro` (open).
