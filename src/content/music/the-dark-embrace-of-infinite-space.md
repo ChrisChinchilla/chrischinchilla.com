@@ -1,10 +1,10 @@
 ---
 title: The dark embrace of infinite space
 band: Aeon V
-summary: Forthcoming EP from Aeon V — electronic, cinematic soundscapes exploring the dark embrace of infinite space.
+summary: Debut EP from Aeon V — electronic, cinematic soundscapes exploring the dark embrace of infinite space.
 role: Multi-instrumentalist & Producer
 release_date: 2026-06-14
-forthcoming: true
+forthcoming: false
 image: https://f4.bcbits.com/img/a3762217678_16.jpg
 store_urls:
   - label: Bandcamp
