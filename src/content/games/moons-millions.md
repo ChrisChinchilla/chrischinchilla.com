@@ -1,7 +1,7 @@
 ---
 title: Moon's Millions - A Phandalin Adventure!
 summary: A Phandalin adventure that gives high-level adventurers a fresh challenge beyond typical combat, puzzles, and traps.
-image: "games/407574.jpg"
+image: "/games/407574.jpg"
 publisher: Art of Karthik
 publish_date: 2022-08-30
 role: Proofreader

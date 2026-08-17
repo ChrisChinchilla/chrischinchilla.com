@@ -4,9 +4,9 @@ summary: A post-post-apocalyptic thriller love story set ten years after a war b
 publisher: Self-published
 role: Author
 publish_date: 2024-12-19
-image: books/the-dead-among-us.png
 categories:
   - writing
+image: /books/the-dead-among-us.png
 store_urls:
   - label: eBook - Direct from me (pay what you feel)
     url: https://ko-fi.com/s/0a76b75a05

@@ -33,7 +33,7 @@ const posts = defineCollection({
       summary: z.string().optional(),
       // canonical: z.string().url().optional(),
 
-      publishDate: z.date().or(z.string()).optional(),
+      publishDate: z.date().or(z.string()),
       // draft: z.boolean().optional(),
 
       // excerpt: z.string().optional(),
@@ -79,6 +79,7 @@ const events = defineCollection({
       title: z.string().optional(),
       action: z.string().optional(),
       event: z.string(),
+      summary: z.string().optional(),
       start_date: z.date(),
       end_date: z.date().optional(),
       venue: z.string().optional(),
@@ -185,7 +186,7 @@ const av = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
-      // description: z.string(),
+      summary: z.string().optional(),
       client: z.string(),
       image: z.union([z.string(), image()]),
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),

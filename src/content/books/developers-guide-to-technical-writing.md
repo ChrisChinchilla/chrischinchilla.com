@@ -4,10 +4,10 @@ summary: A practical guide to documentation for software developers, covering es
 publisher: Packt
 role: Author
 publish_date: 2024-03-29
-image: books/dgtw.jpeg
 categories:
   - tech
   - writing
+image: /books/dgtw.jpeg
 store_urls:
   - label: Amazon
     url: https://www.amazon.com/dp/B0CYL9SWZ5

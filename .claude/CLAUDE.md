@@ -18,6 +18,25 @@ while living here so all project knowledge stays consolidated in one syncable pl
 There is no test suite/framework in this repo (no test script, no Jest/Vitest/Playwright
 dependency) — `npm run check` and lint are the only correctness gates.
 
+## Git workflow
+
+Never run `git commit` or `git push` in this repo, even if asked to as part of a larger
+task — the user handles committing and pushing themselves. Leave changes staged/unstaged
+in the working tree and say so; don't create commits on their behalf.
+
+## Accessibility
+
+Accessibility is a standing requirement, not a separate task — factor it into every change
+to markup, components, or styles, not just when explicitly asked for an a11y pass. In
+practice: semantic elements over `<div>`/`<span>` with handlers, accessible names on
+icon-only controls (`aria-label`, not `title` alone), `aria-expanded`/`aria-pressed` on
+stateful toggles, keyboard operability (not just mouse/hover), and sufficient color
+contrast in both light and dark mode (this site uses Tailwind's `class`-strategy dark
+mode — check both). `.claude/A11Y_AUDIT.md` is a living record of past findings and their
+resolutions (or the reasoning for leaving something as-is, e.g. a measured contrast ratio
+that already passes) — check it before re-investigating something, and update it when a
+change touches an area it covers or introduces a new a11y-relevant pattern.
+
 ## Architecture
 
 ### Content collections live in `src/content.config.ts`, not `src/content/config.ts`
@@ -48,21 +67,74 @@ The `~` import alias (tsconfig + Vite alias in `astro.config.ts`) points at `src
 ### Routing mirrors collections
 
 `src/pages/<type>/` (blog, books, clients, events, games, gear, music, newsletter, podcast,
-stories, videos) provides list + detail + tag pages per collection, each typically backed
-by a matching layout in `src/layouts/` (`Client.astro`, `Event.astro`, `Game.astro`,
-`PodcastLayout.astro`, `VideoLayout.astro`, `MarkdownLayout.astro`, plus the shared
-`BaseLayout`/`Layout`/`PageLayout`). Tag pages (`src/pages/*/tag/[...tag].astro`) use
-`groupTagsBySlug` in `src/utils/permalinks.ts` to merge tags that differ only in casing
-into one slug.
+stories, videos) provides list pages per collection, and detail pages too for the
+collections that have individual content (blog, books, stories, newsletter, music, gear,
+podcasts, videos) — `clients`, `events`, and `games` are list-only (paginated, no
+per-entry page), so their content only ever appears on `/clients`, `/events`, `/games` and
+their pagination pages, rendered via `src/components/Client.astro`/`Event.astro`/
+`Game.astro` (components, not layouts). List/detail pages are typically backed by a
+matching layout in `src/layouts/` (`PodcastLayout.astro`, `VideoLayout.astro`,
+`MarkdownLayout.astro`, plus the shared `BaseLayout`/`PageLayout`/`PageLayoutNoBG`) — a
+same-named `src/layouts/Client.astro`/`Event.astro` pair existed previously but was
+unreferenced dead code and has been removed; `src/layouts/Game.astro` is unreferenced too
+and likely the same. Tag pages (`src/pages/*/tag/[...tag].astro`) use `groupTagsBySlug` in
+`src/utils/permalinks.ts` to merge tags that differ only in casing into one slug.
 
-Two non-visual feed routes exist for AI crawlers/agents: `src/pages/llms.txt.ts` (linked
-summary) and `src/pages/llms-full.txt.ts` (full content dump) — both pull from
-`getCollection()` across posts/stories/newsletters/books/music/av/gear. Update both if a
-new collection should be crawlable this way. `src/pages/rss.xml.ts` is the standard RSS
-feed. Sitemap priority/changefreq per path pattern is hand-tuned in
-`src/utils/sitemap.ts` (`customizeSitemapItem`), wired in via `@astrojs/sitemap` in
-`astro.config.ts` — new top-level sections need an entry here or they fall through to the
-generic `priority: 0.6` branch.
+See "SEO and AEO" below for what to update when adding or changing a content type — routing
+is only part of the story.
+
+### SEO and AEO
+
+`.claude/SEO-AEO-AUDIT.md` and `.claude/SEO-AEO-PLAN.md` are the canonical reference for
+this site's SEO (search engine ranking) and AEO (LLM/answer-engine consumption) surface
+area — read them before large content-type or routing changes, and keep them current when
+you touch any of the surfaces below.
+
+Every content collection touches several of these surfaces independently — there is no
+single place that wires a new collection into "SEO." When adding a new collection, a new
+top-level page, or changing a content type's shape, check each of the following and update
+it if it should apply to the new/changed content:
+
+- **Meta tags**: does the page route through `BaseLayout.astro` → `MetaTags.astro` (via
+  `PageLayout.astro`, `PageLayoutNoBG.astro`, or `MarkdownLayout.astro`) with a real
+  `meta.title`/`meta.description`? All three of those layouts forward a `head` named slot
+  to `BaseLayout` — required for `StructuredData` (below) to render at all; a layout that
+  doesn't forward it will silently drop anything passed with `slot="head"`.
+- **Structured data (JSON-LD)**: does the content type have a `<StructuredData
+  slot="head" type="..." data={...} />` call somewhere? `src/components/common/
+  StructuredData.astro` supports `Article`/`BlogPosting`, `CreativeWork`, `PodcastEpisode`,
+  `VideoObject`, `Person`, `Organization`, `WebSite`, and `ItemList` (for list-only
+  collections with no per-entry detail page — see `clients`/`events`/`games` for the
+  pattern). Pick the closest-fitting type rather than skipping it.
+- **`summary` field**: does the collection's Zod schema in `content.config.ts` have a short
+  description field (`summary` by convention, or `description` where that's already
+  established, e.g. `podcasts`) to feed meta descriptions, structured data, and llms.txt —
+  rather than falling back to the title?
+- **Dates**: does the collection have a real, ideally-required date field? Optional dates
+  quietly break sorting and `lastmod`/`datePublished` downstream; if a field must stay
+  optional, check the actual content first (e.g. `grep` frontmatter across
+  `src/content/<type>/`) before assuming it's needed — content may already be complete
+  enough to tighten the schema instead of adding defensive fallbacks everywhere.
+- **`src/pages/llms.txt.ts` / `llms-full.txt.ts`**: both hand-list collections via
+  `getCollection()` — a new collection needs adding to both, with a summary/index line in
+  `llms.txt.ts` and a full-body dump (or metadata-only block, for collections with no
+  useful body) in `llms-full.txt.ts`. Not every collection belongs here — data with no
+  per-entry canonical URL (like `supportLinks`) doesn't serve the "content index" purpose
+  of the file; document the exclusion if you skip one.
+- **`src/pages/rss.xml.ts`**: narrower in scope than llms.txt by design — only add a
+  collection here if it's genuinely periodically-published content with a real date to
+  sort by (not portfolio/reference data like clients/events/games, and not something whose
+  real publish date lives only in an external feed, like podcasts).
+- **`src/utils/sitemap.ts`** (`customizeSitemapItem`): new top-level path prefixes need an
+  explicit branch or they fall through to the generic `priority: 0.6` fallback. When a
+  collection has short, human-authored slugs that could look like page numbers (numeric or
+  short strings), double-check the pagination-detection regex doesn't misclassify them —
+  this already bit the `/newsletter/<6-digit-date-code>` slugs once.
+- **`public/robots.txt`**: rarely needs touching, but should keep referencing both
+  `llms.txt` and `llms-full.txt`.
+- **Breadcrumbs**: `MarkdownLayout.astro` renders `Home > <title>` by default and
+  `Home > <section> > <title>` when a `section` prop is passed — pass `section` for any
+  content type that has a natural parent listing page.
 
 ### Images: three sources, resolved by convention
 

@@ -2,6 +2,7 @@
 import Layout from "~/layouts/PageLayoutNoBG.astro";
 import { Pagination } from "accessible-astro-components";
 import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import { GAME } from '~/config.mjs';
 import Game from "~/components/Game.astro";
 import { getCollection } from 'astro:content';
@@ -27,8 +28,17 @@ const meta = {
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
+
+const itemListData = {
+  name: 'Games',
+  items: page.data.map((game) => ({
+    name: game.data.title,
+    url: game.data.store_urls?.[0]?.url,
+  })),
+};
 ---
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline subtitle={meta.description}>
       {meta.title}

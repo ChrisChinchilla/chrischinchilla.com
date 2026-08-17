@@ -4,9 +4,9 @@ summary: A collection of poetry written during the April 2022 April Daily Poem c
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2022-06-01
-image: books/397653.png
 categories:
   - writing
+image: /books/397653.png
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/product/397653/Collective-Verses--Volume-II

@@ -2,7 +2,7 @@
 import { SITE } from '~/config.mjs';
 
 export interface Props {
-  type?: 'Article' | 'BlogPosting' | 'CreativeWork' | 'VideoObject' | 'PodcastEpisode' | 'Person' | 'Organization' | 'WebSite';
+  type?: 'Article' | 'BlogPosting' | 'CreativeWork' | 'VideoObject' | 'PodcastEpisode' | 'Person' | 'Organization' | 'WebSite' | 'ItemList';
   data?: any;
 }
 
@@ -57,19 +57,14 @@ const generateArticleSchema = (data: any) => {
   return schema;
 };
 
-const generatePersonSchema = () => {
+const generatePersonSchema = (data: any) => {
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: SITE.name,
     description: SITE.description,
     url: SITE.origin,
-    sameAs: [
-      // Add your social media profiles here
-      // 'https://twitter.com/yourhandle',
-      // 'https://github.com/yourhandle',
-      // 'https://linkedin.com/in/yourhandle',
-    ],
+    sameAs: Array.isArray(data.sameAs) ? data.sameAs : [],
   };
 };
 
@@ -85,20 +80,15 @@ const generateOrganizationSchema = () => {
 };
 
 const generateWebSiteSchema = () => {
+  // No potentialAction/SearchAction: site search (SearchBar.astro/SearchComponent.astro,
+  // fuse.js-based) runs entirely client-side with no query-string-driven results URL, so a
+  // SearchAction target would not actually perform a search when visited.
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: SITE.name,
     description: SITE.description,
     url: SITE.origin,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${SITE.origin}/blog?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
   };
 };
 
@@ -186,6 +176,23 @@ const generateCreativeWorkSchema = (data: any) => {
   return schema;
 };
 
+const generateItemListSchema = (data: any) => {
+  const items = Array.isArray(data.items) ? data.items : [];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: data.name,
+    description: data.description,
+    numberOfItems: items.length,
+    itemListElement: items.map((item: any, index: number) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      url: item.url,
+    })),
+  };
+};
+
 let schema: any;
 if (type === 'Article' || type === 'BlogPosting') {
   schema = generateArticleSchema(data);
@@ -196,11 +203,13 @@ if (type === 'Article' || type === 'BlogPosting') {
 } else if (type === 'CreativeWork') {
   schema = generateCreativeWorkSchema(data);
 } else if (type === 'Person') {
-  schema = generatePersonSchema();
+  schema = generatePersonSchema(data);
 } else if (type === 'Organization') {
   schema = generateOrganizationSchema();
 } else if (type === 'WebSite') {
   schema = generateWebSiteSchema();
+} else if (type === 'ItemList') {
+  schema = generateItemListSchema(data);
 }
 ---
 

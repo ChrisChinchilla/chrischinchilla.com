@@ -1,7 +1,7 @@
 ---
 title: Jack Frost - A Murder Mystery in Icewind Dale
 summary: A murder mystery adventure in Icewind Dale for 4-6 players at level 5, culminating in an epic climactic battle.
-image: "games/442399.jpg"
+image: "/games/442399.jpg"
 publisher: Art of Karthik
 publish_date: 2023-06-28
 role: Proofreader

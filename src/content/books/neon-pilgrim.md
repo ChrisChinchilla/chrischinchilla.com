@@ -4,9 +4,9 @@ summary: Lisa Dempster's account of hiking the 1,200km Henro Michi Buddhist pilg
 publisher: Aduki Independent Press
 role: Publisher
 publish_date: 2009-10-01
-image: books/11039527.jpg
 categories:
   - writing
+image: /books/11039527.jpg
 store_urls:
   - label: Goodreads
     url: https://www.goodreads.com/book/show/7106492-neon-pilgrim

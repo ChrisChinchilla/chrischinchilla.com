@@ -4,9 +4,9 @@ summary: A collection of poetry written during the Storytelling Collective's ann
 publisher: Storytelling Collective
 role: Contributor
 publish_date: 2023-09-04
-image: books/CV.png
 categories:
   - writing
+image: /books/CV.png
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/product/445428/Collective-Verses

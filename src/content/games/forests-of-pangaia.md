@@ -1,7 +1,7 @@
 ---
 title: Forests of Pangaia
 summary: A competitive forest-building game - proofread the rules manual.
-image: "games/pic7421954.jpg"
+image: "/games/pic7421954.jpg"
 publisher: Pangia games
 publish_date: 2022-01-01
 role: Proofreader

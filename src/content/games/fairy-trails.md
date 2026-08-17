@@ -1,7 +1,7 @@
 ---
 title: Fairy Trails
 summary: A Forged in the Dark tabletop RPG where you play fairies on wild and wonderful adventures.
-image: "games/Fairy-Trails-Books.png"
+image: "/games/Fairy-Trails-Books.png"
 publisher: Mirth Drake
 publish_date: 2021-12-03
 role: Proofreader

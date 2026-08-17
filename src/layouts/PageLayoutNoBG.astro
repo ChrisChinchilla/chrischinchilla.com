@@ -14,9 +14,10 @@ const { meta } = Astro.props;
 ---
 <!-- TODO: Add background at some point -->
 <Layout {meta}>
+  <slot name="head" slot="head" />
   <Announcement />
   <Header />
-  <main>
+  <main id="main-content">
     <slot />
   </main>
   <Footer />

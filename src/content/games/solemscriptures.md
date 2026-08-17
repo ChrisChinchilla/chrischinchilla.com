@@ -1,7 +1,7 @@
 ---
 title: Solemn Scriptures of the Battle Nuns of the Mercyful Sepulcher
 summary: A sourcebook of occult and divine spells for the Order, system neutral with stats for 5e and Hypertellurians.
-image: "games/nun-cover900.jpg-832.jpeg"
+image: "/games/nun-cover900.jpg-832.jpeg"
 publisher: Mottokrosh Machinations
 publish_date: 2022-06-05
 role: Proofreader

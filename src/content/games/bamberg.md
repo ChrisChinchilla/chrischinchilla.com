@@ -1,7 +1,7 @@
 ---
 title: Bamberg
 summary: A game of social deduction inspired by the European witch hunts of the 17th century.
-image: "games/4d372347086b2ed6e709271d43bb91a9_original.png"
+image: "/games/4d372347086b2ed6e709271d43bb91a9_original.png"
 publisher: Witch Hunt Games
 publish_date: 2023-02-23
 role: Proofreader
