@@ -2,7 +2,7 @@
 title: Pop Levi - Water Rats
 publishDate: 2007-01-24T00:00:00.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

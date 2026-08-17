@@ -4,8 +4,13 @@ publishDate: 1970-08-22T05:18:40.000Z
 publication_url: 'https://www.sitepoint.com/first-look-platform-sh-development-deployment-saas/'
 image: articles/image-first-look-at-platform-sh.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
+tags:
+  - Development
+  - Deployment
+  - Saas
+  - Web
 summary: >-
   Not so long ago, many of us were satisfied handling deployment of our projects
   by uploading files via FTP to a web server. I was doing it myself until

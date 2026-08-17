@@ -3,7 +3,7 @@ title: Distributing Operational Knowledge Across a Team
 publishDate: '2018-01-06 20:01:01 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Agile

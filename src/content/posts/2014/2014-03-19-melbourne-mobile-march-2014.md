@@ -1,5 +1,12 @@
 ---
 title: Melbourne Mobile March 2014
+categories:
+  - tech
+tags:
+  - Mobile
+  - Melbourne
+  - Ubuntu
+  - Apps
 publishDate: 2014-03-19T00:43:18.000Z
 summary: We had two local and two international speakers this month&hellip;
 ---

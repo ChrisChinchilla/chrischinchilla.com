@@ -2,8 +2,10 @@
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import { BLOG } from '~/config.mjs';
 import Post from '~/components/Post.astro';
+import { getEntryHref } from '~/utils/content-categories';
 
 import { getCollection } from 'astro:content';
 export async function getStaticPaths({ paginate }) {
@@ -26,9 +28,19 @@ const meta = {
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
+
+const itemListData = {
+  name: 'Blog',
+  description: meta.description,
+  items: page.data.map((post) => ({
+    name: post.data.title,
+    url: getEntryHref(post),
+  })),
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline subtitle={meta.description}>
       {meta.title}

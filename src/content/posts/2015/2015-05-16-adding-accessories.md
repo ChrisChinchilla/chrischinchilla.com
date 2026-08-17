@@ -3,8 +3,12 @@ publishDate: 2015-05-16T05:16:42.000Z
 title: Adding Accessories
 image: articles/image-adding-accessories.jpg
 categories:
+  - games
   - projects
   - chipshop
+tags:
+  - Gamedesign
+  - Games
 summary: >-
   Sorry for the lack of updates, I have been traveling with work the past few
   weeks.

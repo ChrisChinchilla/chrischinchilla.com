@@ -1,5 +1,10 @@
 ---
 title: The Kill Devil Hills - The Spanish Club
+categories:
+  - music
+tags:
+  - Music
+  - Help
 publishDate: 2007-05-18T18:42:52.000Z
 summary: >-
   When I hear the phrase 'country music' I can't help but imagine either

@@ -3,7 +3,7 @@ title: How AI tools are changing the way developers solve problems
 publishDate: 2026-04-16T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - AI
   - software development

@@ -1,5 +1,11 @@
 ---
 title: 'It''s all change, again'
+categories:
+  - tech
+tags:
+  - Tech
+  - Work
+  - Berlin
 publishDate: 2015-02-16T08:29:00.000Z
 summary: >-
   My plan for 2015 was to spend another few months working on my various

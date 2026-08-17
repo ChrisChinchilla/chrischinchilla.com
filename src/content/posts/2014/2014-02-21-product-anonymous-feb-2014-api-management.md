@@ -1,5 +1,12 @@
 ---
 title: Product Anonymous Feb 2014 - API management
+categories:
+  - tech
+tags:
+  - API
+  - Api Management
+  - Business
+  - APIs
 publishDate: 2014-02-20T23:42:44.000Z
 summary: >-
   This was a great <a href="https://productanonymous.com/"

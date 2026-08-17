@@ -3,8 +3,13 @@ title: Avoiding problems with your Drupal project
 publishDate: 2013-08-03T07:54:23.000Z
 image: articles/druplicon_sad.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Drupal
+  - Development
+  - Web
+  - Business
 summary: >-
   Over the past year I've been slowly building a list of gotchas, mistaken
   assumptions and potential slip ups that have hit projects I've been involved

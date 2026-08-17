@@ -1,5 +1,9 @@
 ---
 title: Win a ticket to CiviCon San Francisco 2014
+categories:
+  - tech
+tags:
+  - Tech
 publishDate: 2014-03-22T19:30:19.000Z
 summary: >-
   My new tech collective, Gregarious Mammal is a proud sponsor of the next <a

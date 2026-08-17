@@ -1,11 +1,15 @@
 ---
 title: Building the Sustainable Web
+summary: A guide to designing, building, and hosting digital products that respect people and the planet, covering infrastructure, backend architecture, frontend performance, UX, content strategy, and marketing practices that reduce environmental impact while improving performance and accessibility.
 publisher: Apress
 role: Co-author
 publish_date: 2026-07-01
 image: /books/9798868825217_cover_image.jpg
 heroimage: /books/9798868825217_cover_image.jpg
 herotext: 'A book for our times. How to Create Web Products That Respect People and the Planet'
+categories:
+  - tech
+  - writing
 store_urls:
   - label: Direct from Apress
     url: https://link.springer.com/book/10.1007/979-8-8688-2521-7

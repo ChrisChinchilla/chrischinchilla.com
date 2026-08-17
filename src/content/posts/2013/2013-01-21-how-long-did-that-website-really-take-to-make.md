@@ -2,7 +2,7 @@
 title: How long did that website really take to make?
 publishDate: 2013-01-21T00:00:00.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - web

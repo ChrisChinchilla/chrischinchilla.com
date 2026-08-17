@@ -3,7 +3,7 @@ title: Improve Documentation by Automating Spelling and Grammar Checks
 publishDate: '2016-11-23 16:15:11 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - Development

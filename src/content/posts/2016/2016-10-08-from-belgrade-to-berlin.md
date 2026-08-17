@@ -3,7 +3,7 @@ title: 'Belgrade to Berlin, it''s tech conference season'
 publishDate: 2016-10-08T00:00:00.000Z
 image: articles/voxxed-belgrade.jpg
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Tech

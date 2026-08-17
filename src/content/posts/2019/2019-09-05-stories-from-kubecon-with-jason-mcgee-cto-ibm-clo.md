@@ -3,7 +3,7 @@ title: 'Stories From KubeCon With Jason McGee, CTO, IBM Cloud Platform'
 publishDate: 2019-09-05T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Kubernetes

@@ -5,6 +5,7 @@ title: >-
 publishDate: 2020-06-19T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing humanitec
 tags:
   - CD

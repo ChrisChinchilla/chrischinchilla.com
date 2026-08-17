@@ -1,62 +1,74 @@
 ---
 import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
+import Tags from '~/components/common/Tags.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
-import { slugify } from '~/utils/slugify';
 import { formatShortDate } from '~/utils/utils';
-import { render } from 'astro:content';
 export interface Props {
   book: CollectionEntry<"books">;
 }
 const { book } = Astro.props;
-const { Content } = await render(book);
-// const featured_image = await findImage(book.data.image);
-// TODO: Why is slug broken again?
 
 const formattedDate = formatShortDate(book.data.publish_date);
-const idOfTitle = slugify(book.data.title);
-const shareUrl = book.data.publication_url || `/books/${book.id}`;
+
+// What sort of URL - external publication or internal book page
+var url = '';
+if (book.data.publication_url != null) {
+  url = book.data.publication_url;
+} else {
+  url = '/books/' + book.id;
+}
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${book.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div
-    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg"
-  >
-  <ContentImage
-    src={book.data.image}
-    alt={book.data.title}
-    type="book"
-    class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-  />
+<article class="mb-6 transition px-4">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+    <ContentImage
+      src={book.data.image}
+      alt={book.data.title}
+      type="book"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+    />
   </div>
 
-  <div class="mt-2">
+  <div>
     <header>
-      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading" id={idOfTitle}>
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
         <a
-              class="hover:text-primary transition ease-in duration-200"
-              href={book.id}
-              rel="canonical"
-            >
-        {book.data.title}</a>
+          class="hover:text-primary transition ease-in duration-200"
+          href={url}
+          rel="canonical"
+        >
+          {book.data.title}
+        </a>
       </h2>
       <i class="my-2 block">{book.data.publisher}, {formattedDate}, {book.data.role}</i>
     </header>
-    <div class="post-body body">
-      <Content />
-      {book.data.store_urls && (
-        <>
-          <b class="my-2 block">Buy a copy in the following places:</b>
-          <ul class="list-disc list-inside m-2">
+    <div class="post-body body whitespace-pre-line">
+      {book.data.summary}
+    </div>
+    {
+      book.data.store_urls && book.data.store_urls.length > 0 && (
+        <div class="mt-3">
+          <b class="block mb-1">Buy a copy:</b>
+          <ul class="list-disc list-inside">
             {book.data.store_urls.map((store_url) => (
               <li>
-                <a href={store_url.url}>{store_url.label}</a>
+                <a class="hover:text-primary transition ease-in duration-200" href={store_url.url}>
+                  {store_url.label}
+                </a>
               </li>
             ))}
           </ul>
-        </>
-      )}
-    </div>
-    <ShareLinks title={book.data.title} url={shareUrl} summary={book.data.summary} compact class="mt-2" />
+        </div>
+      )
+    }
+    <ShareLinks title={book.data.title} url={url} summary={book.data.summary} compact class="mt-2" />
   </div>
+  {
+    book.data.tags && Array.isArray(book.data.tags) ? (
+      <footer class="mt-2">
+        <Tags tags={book.data.tags} />
+      </footer>
+    ) : null
+  }
 </article>

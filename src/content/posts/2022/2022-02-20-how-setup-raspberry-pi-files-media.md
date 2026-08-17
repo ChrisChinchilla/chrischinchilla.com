@@ -2,7 +2,7 @@
 title: How I set up a RaspberryPi to share my files and media
 publishDate: 2022-02-20T00:00:00.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - ebooks

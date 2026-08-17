@@ -3,7 +3,7 @@ title: OpenStack Ussuri - Intelligent Automation
 publishDate: 2020-05-14T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Openstack

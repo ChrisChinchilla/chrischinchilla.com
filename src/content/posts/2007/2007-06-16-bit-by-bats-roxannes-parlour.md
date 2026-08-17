@@ -2,7 +2,7 @@
 title: Bit by Bats - Roxanne's Parlour
 publishDate: 2007-06-16T17:28:30.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -3,7 +3,7 @@ title: An Introduction to CoreOS
 publishDate: '2016-09-22 15:15:55 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - Development

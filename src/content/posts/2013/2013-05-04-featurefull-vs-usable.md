@@ -3,8 +3,12 @@ title: Featurefull vs Usable
 publishDate: 2013-05-04T12:16:05.000Z
 image: articles/feature-bloat.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Open Source
+  - Work
+  - Developer
 summary: >-
   I've been having some thoughts recently on the paths that many open source
   projects seem to follow and who they are really designed for, the developer or

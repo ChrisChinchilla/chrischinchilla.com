@@ -3,7 +3,7 @@ title: Hyperledger&#39;s Brian Behlendorf- Blockchain for Business
 publishDate: '2017-07-07 05:01:39 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Blockchain

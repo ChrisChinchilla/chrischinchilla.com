@@ -3,6 +3,7 @@ title: Developer Experience Roundtable - Continuous Improvement
 publishDate: 2020-07-15T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing humanitec
 tags:
   - Dx

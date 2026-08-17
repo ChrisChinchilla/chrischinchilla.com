@@ -4,7 +4,7 @@ publishDate: 2016-03-25T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/the-past-present-and-future-of-swift/'
 image: articles/swift.jpeg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - iOS

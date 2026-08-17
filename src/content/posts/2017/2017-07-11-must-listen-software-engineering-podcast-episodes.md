@@ -3,7 +3,7 @@ title: 12 must-listen software engineering podcast episodes
 publishDate: 2017-07-11T00:00:00.000Z
 image: articles/12-must-listen-podcasts-software-engineers.jpg
 categories:
-  - writing
+  - tech
   - techbeacon
 tags:
   - Podcasts

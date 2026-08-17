@@ -2,8 +2,10 @@
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import { BLOG } from '~/config.mjs';
 import Story from '~/components/Story.astro';
+import { getEntryHref } from '~/utils/content-categories';
 
 import { getCollection } from 'astro:content';
 export async function getStaticPaths({ paginate }) {
@@ -22,9 +24,19 @@ const meta = {
   description:
     'My creative writing stories, fiction, and narrative works.',
 };
+
+const itemListData = {
+  name: 'Stories',
+  description: meta.description,
+  items: page.data.map((story) => ({
+    name: story.data.publication_title || story.data.title,
+    url: getEntryHref(story),
+  })),
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline subtitle={meta.description}>
       {meta.title}

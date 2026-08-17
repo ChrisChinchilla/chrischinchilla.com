@@ -3,6 +3,7 @@ title: Continuous Delivery With the Humanitec Postman Collection
 publishDate: 2021-11-08T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing humanitec
 tags:
   - Postman

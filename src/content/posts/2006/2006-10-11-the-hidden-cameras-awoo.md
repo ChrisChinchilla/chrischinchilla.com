@@ -2,7 +2,7 @@
 title: The Hidden Cameras - Awoo
 publishDate: 2006-10-11T17:18:28.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

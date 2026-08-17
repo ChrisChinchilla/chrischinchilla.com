@@ -1,7 +1,12 @@
 ---
 title: The Lean Traveller alpha launches
 publishDate: 2014-11-20T10:14:21.000Z
-categories: projects leantraveller
+categories:
+  - tech
+  - leantraveller
+tags:
+  - Drupal
+  - Services
 summary: >-
   I have just rolled it the first incarnation of <a
   href="https://theleantraveller.com/" target="_blank">The Lean Traveller</a>,

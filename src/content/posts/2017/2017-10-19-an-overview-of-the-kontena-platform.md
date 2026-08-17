@@ -3,7 +3,7 @@ title: An Overview of the Kontena Platform
 publishDate: '2017-10-19 15:15:39 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - Development

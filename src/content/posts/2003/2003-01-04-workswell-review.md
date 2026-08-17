@@ -2,7 +2,7 @@
 title: Workswell review
 publishDate: 2003-01-04T00:00:00.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Reviews

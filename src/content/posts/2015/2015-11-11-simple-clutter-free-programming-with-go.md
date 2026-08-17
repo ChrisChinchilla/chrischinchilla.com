@@ -3,8 +3,11 @@ title: 'Simple, Clutter-free Programming with Go'
 publishDate: 2015-11-11T00:00:00.000Z
 image: articles/image-simple-clutter-free-programming.jpg
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Programming
+  - Language
 summary: >-
   GoLang (generally shortened to Go) is the latest
   language-that-everyone-wants-to-learn-and-use. In this article, I'll provide

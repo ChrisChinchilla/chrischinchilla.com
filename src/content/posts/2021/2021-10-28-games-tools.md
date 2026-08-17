@@ -2,6 +2,8 @@
 title: Digital tools for boardgames and roleplay games
 publishDate: 2021-10-28T00:00:00.000Z
 categories:
+  - games
+  - tech
   - writing chrischinchilla
 tags:
   - boardgames

@@ -2,7 +2,7 @@
 title: Louis Elliot
 publishDate: 2003-10-04T00:00:00.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

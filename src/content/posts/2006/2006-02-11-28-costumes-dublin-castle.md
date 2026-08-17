@@ -2,7 +2,7 @@
 title: 28 Costumes - Dublin Castle
 publishDate: 2006-02-11T16:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

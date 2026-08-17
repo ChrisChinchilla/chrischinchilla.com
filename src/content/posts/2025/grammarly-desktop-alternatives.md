@@ -3,7 +3,7 @@ title: 3 Grammarly desktop alternatives
 publishDate: 2025-07-28T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Writing
   - Writing tools

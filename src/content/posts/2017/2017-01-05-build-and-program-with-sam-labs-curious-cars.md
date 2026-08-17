@@ -4,7 +4,7 @@ publishDate: '2017-01-05 19:45:01 +0100'
 image: >-
   articles/2017-01-05-build-and-program-with-sam-labs-curious-cars-eca73892.jpg
 categories:
-  - writing
+  - tech
   - theweeklysqueak
 tags:
   - Tech

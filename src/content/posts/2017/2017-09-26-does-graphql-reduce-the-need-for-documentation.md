@@ -3,7 +3,7 @@ title: Does GraphQL Reduce the Need for Documentation?
 publishDate: '2017-09-26 14:03:06 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Graphql

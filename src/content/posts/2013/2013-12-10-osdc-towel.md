@@ -3,7 +3,7 @@ title: OSDC Towel
 publishDate: 2013-12-10T00:00:00.000Z
 image: articles/OSDCtowel.jpg
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Merchandise

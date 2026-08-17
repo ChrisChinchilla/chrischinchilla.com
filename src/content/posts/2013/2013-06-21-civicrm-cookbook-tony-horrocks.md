@@ -3,7 +3,7 @@ title: 'CiviCRM Cookbook, Tony Horrocks'
 publishDate: 2013-06-21T00:00:00.000Z
 image: articles/civicrm-cookbook.jpg
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Reviews

@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/8-key-announcements-for-android-developers-at-google-io/
 image: articles/googleio.jpeg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Google

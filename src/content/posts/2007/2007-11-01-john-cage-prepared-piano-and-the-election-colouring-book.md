@@ -2,7 +2,7 @@
 title: John Cage's Prepared Piano and the Election Colouring Book
 publishDate: '2007-11-01T17:59:52+00:00'
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

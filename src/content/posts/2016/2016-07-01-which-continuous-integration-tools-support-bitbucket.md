@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/premium/screencasts/which-continuous-integration-tools-support-bitbucket
 image: articles/bitbucket.png
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Git

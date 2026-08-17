@@ -3,6 +3,7 @@ title: How can recording and roll-up rules help your metrics?
 publishDate: 2021-06-24T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing chronosphere
 tags:
   - Observability

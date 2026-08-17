@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/premium/screencasts/using-volley-to-communicate-with-external-services-from-your-android-app
 image: articles/image-getting-to-know-android-volley.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Android

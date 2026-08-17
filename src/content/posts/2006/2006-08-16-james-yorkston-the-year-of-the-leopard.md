@@ -2,7 +2,7 @@
 title: James Yorkston - The Year of the Leopard
 publishDate: 2006-08-16T10:59:43.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

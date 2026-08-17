@@ -4,7 +4,7 @@ publishDate: 2023-03-08T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://medium.com/macoclock/my-creative-writing-setup-8691c3a65b3f'
 categories:
-  - writing
+  - tech
 tags:
   - macos
   - version control

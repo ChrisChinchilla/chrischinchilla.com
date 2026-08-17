@@ -1,5 +1,10 @@
 ---
 title: Dardanelles - Interview
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-11-15T20:32:16.000Z
 summary: >-
   <strong>Why did you guys decide to get together and form a band?</strong><br

@@ -3,7 +3,7 @@ title: Kong API Platform for Multi-Cloud and Hybrid Organizations
 publishDate: 2020-01-27T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - API

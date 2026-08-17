@@ -3,7 +3,7 @@ title: Blockwatch- Tools for Working With Solidity
 publishDate: '2017-11-18 06:01:49 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Ethereum

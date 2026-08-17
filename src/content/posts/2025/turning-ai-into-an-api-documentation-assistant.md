@@ -4,7 +4,7 @@ publishDate: 2025-05-22T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://ekline.io/blog/turning-ai-into-an-api-documentation-assistant'
 categories:
-  - writing
+  - tech
 tags:
   - AI
   - APIs

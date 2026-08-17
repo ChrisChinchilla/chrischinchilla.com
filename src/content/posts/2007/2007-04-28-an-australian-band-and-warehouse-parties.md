@@ -4,7 +4,7 @@ publishDate: '2007-04-28T20:15:38+00:00'
 tags:
   - Melbourne Music
 categories:
-  - writing
+  - music
   - chrischinchilla
 summary: >-
   I haven't made any personal posts for a while, not due to lack of anything to

@@ -2,7 +2,7 @@
 title: 'Drupal for Education and elearning, book review'
 publishDate: 2013-08-30T06:42:06.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Drupal

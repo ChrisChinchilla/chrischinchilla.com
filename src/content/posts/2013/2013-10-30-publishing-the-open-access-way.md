@@ -1,5 +1,12 @@
 ---
 title: Publishing the Open Access Way
+categories:
+  - writing
+tags:
+  - Creative
+  - Politics
+  - Australia
+  - culture
 publishDate: 2013-10-30T09:19:08.000Z
 summary: >-
   <p class="p1"><span style="line-height: 1.538em;">As part of RMIT&rsquo;s

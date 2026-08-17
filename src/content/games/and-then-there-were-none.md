@@ -1,5 +1,6 @@
 ---
 title: Fairytale Fables of the Feywild
+summary: An adventure into the Feywild where classic fairytales come to life, featuring Puss in Boots, Little Miss Muffet, Goldilocks, and more.
 image: "/games/473859.jpg"
 publisher: Art of Karthik
 publish_date: 2024-03-23

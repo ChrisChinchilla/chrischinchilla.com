@@ -3,7 +3,7 @@ title: Is the Future of Documentation Dynamic?
 publishDate: 2023-09-19T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - macos
   - version control

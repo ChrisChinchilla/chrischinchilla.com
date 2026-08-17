@@ -3,8 +3,14 @@ title: Do You Need an API
 publishDate: 1970-08-22T05:15:12.000Z
 publication_url: 'https://www.sitepoint.com/do-you-need-an-api'
 categories:
-  - writing
+  - tech
+  - music
   - sitepoint
+tags:
+  - API
+  - Programming
+  - Business
+  - Folk
 summary: >-
   API stands for 'Application Programming Interface' and as the name implies,
   creating one is a technical process. This article will talk very little about

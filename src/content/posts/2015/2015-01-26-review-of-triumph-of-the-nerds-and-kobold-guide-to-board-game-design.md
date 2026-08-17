@@ -1,7 +1,13 @@
 ---
 title: Review of "Triumph of the Nerds" and "Kobold Guide to Board Game Design"
 publishDate: 2015-01-26T12:23:12.000Z
-categories: projects
+categories:
+  - tech
+tags:
+  - Design
+  - Review
+  - Reviews
+  - Industry
 summary: "Continuing my reviews of research I have just finished the classic\_\"Kobold Guide to Board Game Design<img alt=\"\" border=\"0\" height=\"1\" src=\"https://ir-na.amazon-adsystem.com/e/ir?t=gregamamma-20&l=as2&o=1&a=1936781042\" style=\"border:none !important; margin:0px !important;\" width=\"1\" />\" and can highly recommend it as a good overview of board game design advice. It is a collection of essays more than an end-to-end guide, so some essays will hold more relevance with you than others. However I picked up enough nuggets of advice to make it a worthwhile purchase and have a long list of 'todos. it includes essays from some stalwarts of the industry such as <a href=\"https://en.wikipedia.org/wiki/Richard_Garfield\" target=\"_blank\">Richard Garfield</a> and <a href=\"https://en.wikipedia.org/wiki/Steve_Jackson_(US_game_designer)\" target=\"_blank\">Steve Jackson</a> (who created large parts of my childhood) and is divided into sections of the design process.\_One of the encouraging outcomes of reading the book was realising that I am currently on track and already doing a lot of what was recommended, but also realised I have a long way to go yet!"
 ---
 

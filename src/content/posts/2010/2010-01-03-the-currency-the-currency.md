@@ -2,7 +2,7 @@
 title: The Currency - The Currency
 publishDate: 2010-01-03T14:47:53.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

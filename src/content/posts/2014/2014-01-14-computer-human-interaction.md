@@ -1,5 +1,11 @@
 ---
 title: Computer Human Interaction
+categories:
+  - tech
+tags:
+  - Technology
+  - Computers
+  - Film
 publishDate: 2014-01-14T21:23:48.000Z
 summary: >-
   <p class="p1"><span style="line-height: 1.538em;">Over the weekend I saw <a

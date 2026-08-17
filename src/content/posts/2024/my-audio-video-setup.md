@@ -2,7 +2,8 @@
 title: My Audio And Video Setup
 publishDate: 2024-05-29T00:00:00.000Z
 categories:
-  - writing
+  - tech
+  - music
 tags:
   - podcasting
   - video

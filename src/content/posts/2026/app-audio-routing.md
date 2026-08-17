@@ -3,7 +3,8 @@ title: I Replaced My Custom Mac App Audio Routing Solution with Elgato Wave Link
 publishDate: 2026-04-02T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
+  - music
 tags:
   - macOS
   - Audio

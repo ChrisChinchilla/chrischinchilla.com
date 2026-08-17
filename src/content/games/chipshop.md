@@ -1,5 +1,6 @@
 ---
 title: Chip Shop
+summary: A prototype board game where players run computer companies in the 1980s, playtested at two gaming conventions and currently on hiatus.
 image: "/src/assets/images/defaults/game-chinchilla.jpg"
 publisher: TBC
 role: Designer

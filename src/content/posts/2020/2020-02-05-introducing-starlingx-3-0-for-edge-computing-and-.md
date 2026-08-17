@@ -3,7 +3,7 @@ title: Introducing StarlingX 3.0 For Edge Computing and IoT
 publishDate: 2020-02-05T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Openstack

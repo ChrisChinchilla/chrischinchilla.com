@@ -3,7 +3,7 @@ title: How to get started in computer science - A course roundup
 publishDate: 2017-08-21T00:00:00.000Z
 image: articles/coding-courses-resources.jpg
 categories:
-  - writing
+  - tech
   - techbeacon
 tags:
   - Courses

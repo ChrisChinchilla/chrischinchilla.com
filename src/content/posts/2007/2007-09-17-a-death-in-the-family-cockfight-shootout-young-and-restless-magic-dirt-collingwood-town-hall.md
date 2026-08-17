@@ -2,6 +2,13 @@
 title: >-
   A Death in the family, Cockfight shootout, Young & Restless, Magic Dirt -
   Collingwood Town Hall
+categories:
+  - music
+tags:
+  - Family
+  - Death
+  - Music
+  - Children
 publishDate: 2007-09-17T20:30:49.000Z
 summary: >-
   All Ages gigs are tough; everyone claims there are not enough taking place and

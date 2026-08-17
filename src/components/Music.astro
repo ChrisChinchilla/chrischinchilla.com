@@ -2,17 +2,13 @@
 import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
-import { slugify } from '~/utils/slugify';
 import { formatShortDate } from '~/utils/utils';
-import { render } from 'astro:content';
 export interface Props {
   release: CollectionEntry<"music">;
 }
 const { release } = Astro.props;
-const { Content } = await render(release);
 
 const formattedDate = formatShortDate(release.data.release_date);
-const idOfTitle = slugify(release.data.title);
 const { forthcoming } = release.data;
 
 const meta = [release.data.band, formattedDate, release.data.record_label, release.data.role]
@@ -22,27 +18,26 @@ const meta = [release.data.band, formattedDate, release.data.record_label, relea
 const buyLabel = forthcoming ? 'Pre-order in the following places:' : 'Buy a copy in the following places:';
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${release.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div
-    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg"
-  >
-  <ContentImage
-    src={release.data.image}
-    alt={release.data.title}
-    type="music"
-    class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-  />
+<article class="mb-6 transition px-4">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+    <ContentImage
+      src={release.data.image}
+      alt={release.data.title}
+      type="music"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+    />
   </div>
 
-  <div class="mt-2">
+  <div>
     <header>
-      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading" id={idOfTitle}>
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
         <a
-              class="hover:text-primary transition ease-in duration-200"
-              href=`/music/${release.id}`
-              rel="canonical"
-            >
-        {release.data.title}</a>
+          class="hover:text-primary transition ease-in duration-200"
+          href={`/music/${release.id}`}
+          rel="canonical"
+        >
+          {release.data.title}
+        </a>
       </h2>
       {
         forthcoming && (
@@ -53,37 +48,41 @@ const buyLabel = forthcoming ? 'Pre-order in the following places:' : 'Buy a cop
       }
       <i class="my-2 block">{meta}</i>
     </header>
-    <div class="post-body body">
-      <Content />
+    <div class="post-body body whitespace-pre-line">
+      {release.data.summary}
+    </div>
     {
-      release.data.store_urls && (
-        <>
-          <b class="my-2 block">{buyLabel}</b>
-          <ul class="list-disc list-inside m-2">
+      release.data.store_urls && release.data.store_urls.length > 0 && (
+        <div class="mt-3">
+          <b class="block mb-1">{buyLabel}</b>
+          <ul class="list-disc list-inside">
             {release.data.store_urls.map((store_url) => (
               <li>
-                <a href={store_url.url}>{store_url.label}</a>
+                <a class="hover:text-primary transition ease-in duration-200" href={store_url.url}>
+                  {store_url.label}
+                </a>
               </li>
             ))}
           </ul>
-        </>
+        </div>
       )
     }
     {
-      release.data.stream_urls && (
-        <>
-          <b class="my-2 block">Stream in the following places:</b>
-          <ul class="list-disc list-inside m-2">
+      release.data.stream_urls && release.data.stream_urls.length > 0 && (
+        <div class="mt-3">
+          <b class="block mb-1">Stream in the following places:</b>
+          <ul class="list-disc list-inside">
             {release.data.stream_urls.map((stream_url) => (
               <li>
-                <a href={stream_url.url}>{stream_url.label}</a>
+                <a class="hover:text-primary transition ease-in duration-200" href={stream_url.url}>
+                  {stream_url.label}
+                </a>
               </li>
             ))}
           </ul>
-        </>
+        </div>
       )
     }
-    </div>
     <ShareLinks title={release.data.title} url={`/music/${release.id}`} summary={release.data.summary} compact class="mt-2" />
   </div>
 </article>

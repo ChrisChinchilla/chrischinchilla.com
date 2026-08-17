@@ -1,5 +1,10 @@
 ---
 title: 'Bitch Slap - Pony, Melbourne'
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-09-17T20:33:30.000Z
 summary: >-
   There are a lot of young bands like Karate Party, some nice songs, with a few

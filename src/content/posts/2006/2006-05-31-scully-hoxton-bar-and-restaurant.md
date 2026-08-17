@@ -2,7 +2,7 @@
 title: Scully - Hoxton Bar & Restaurant
 publishDate: 2006-05-31T15:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

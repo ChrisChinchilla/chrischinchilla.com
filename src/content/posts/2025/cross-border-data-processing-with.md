@@ -4,7 +4,7 @@ publishDate: 2025-05-22T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://blog.bacalhau.org/p/cross-border-data-processing-with'
 categories:
-  - writing
+  - tech
 tags:
   - Cloud
   - Privacy

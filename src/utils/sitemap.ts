@@ -99,6 +99,12 @@ export function customizeSitemapItem(item: any) {
   } else if (path.startsWith('/gear/') && !path.includes('/tag/') && !/\/\d+\/?$/.test(path)) {
     item.priority = 0.7;
     item.changefreq = 'monthly';
+  } else if (path === '/software' || path === '/software/') {
+    item.priority = 0.7;
+    item.changefreq = 'weekly';
+  } else if (path.startsWith('/software/') && !path.includes('/tag/') && !/\/\d+\/?$/.test(path)) {
+    item.priority = 0.6;
+    item.changefreq = 'monthly';
   } else if (path === '/newsletter' || path === '/newsletter/' || /^\/newsletter\/\d{1,2}\/?$/.test(path)) {
     // Newsletter index + pagination. Pagination page numbers are 1-2 digits; individual
     // newsletter issue slugs are 6-digit ddmmyy date codes (e.g. /newsletter/010825), so a

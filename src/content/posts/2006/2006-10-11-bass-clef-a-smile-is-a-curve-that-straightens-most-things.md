@@ -2,7 +2,7 @@
 title: Bass Clef - A smile is a curve that straightens most things
 publishDate: 2006-10-11T16:51:52.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

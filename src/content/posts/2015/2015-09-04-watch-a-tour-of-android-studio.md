@@ -4,7 +4,7 @@ publishDate: 2015-09-04T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/watch-a-tour-of-android-studio/'
 image: articles/image-understanding-android-images.png
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Android

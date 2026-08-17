@@ -1,5 +1,10 @@
 ---
 title: Ben Birchall & The Corrections - Last Ditch Brigade
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-10-04T16:09:13.000Z
 summary: >-
   It&#39;s taken me a long time to get round to writing this review, I&#39;ve

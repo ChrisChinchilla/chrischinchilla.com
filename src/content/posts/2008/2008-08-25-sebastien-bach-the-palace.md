@@ -2,7 +2,7 @@
 title: Sebastien Bach - The Palace
 publishDate: 2008-08-25T00:00:00.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

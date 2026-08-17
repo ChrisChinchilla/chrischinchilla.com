@@ -2,7 +2,7 @@
 title: New Rhodes - History of Britain
 publishDate: 2006-09-26T13:17:43.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

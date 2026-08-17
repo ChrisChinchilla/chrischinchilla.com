@@ -4,7 +4,7 @@ publishDate: 2024-04-11T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://thenextweb.com/news/state-open-source-europe'
 categories:
-  - writing
+  - tech
 tags:
   - Open source
   - Europe

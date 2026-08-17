@@ -3,6 +3,7 @@ title: SecurEth Guidelines - Getting Started
 publishDate: '2019-06-06 18:15:48 UTC'
 author: Chris Ward
 categories:
+  - writing
   - writing kauri
 tags:
   - Guidelines

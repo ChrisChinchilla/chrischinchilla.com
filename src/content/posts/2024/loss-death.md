@@ -4,7 +4,7 @@ publishDate: 2024-01-06T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://chrischinchilla.medium.com/loss-and-absence-in-death-6c41d86be448'
 categories:
-  - writing
+  - tech
 tags:
   - Death
   - Loss

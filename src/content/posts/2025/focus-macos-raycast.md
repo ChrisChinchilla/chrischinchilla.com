@@ -3,7 +3,7 @@ title: Increasing focus with macOS Focus Modes and Raycast
 publishDate: 2025-10-05T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Productivity
   - Focus

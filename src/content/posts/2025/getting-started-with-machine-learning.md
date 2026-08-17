@@ -4,7 +4,7 @@ publishDate: 2025-05-08T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://blog.bacalhau.org/p/getting-started-with-machine-learning'
 categories:
-  - writing
+  - tech
 tags:
   - Cloud
   - Machine Learning

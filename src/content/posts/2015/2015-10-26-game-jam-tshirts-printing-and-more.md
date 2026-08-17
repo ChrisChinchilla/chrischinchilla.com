@@ -2,8 +2,12 @@
 title: 'WikiMedia Game Jam, T-Shirts, Printing Experiments and so much more'
 publishDate: '2015-10-26'
 categories:
+  - games
   - projects
   - chipshop
+tags:
+  - Gamedesign
+  - Games
 image: articles/cs_tshirt.jpg
 summary: >-
   Pushing forward to play testing (which has now begun, more on that later) I

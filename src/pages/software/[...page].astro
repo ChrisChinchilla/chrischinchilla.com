@@ -1,0 +1,53 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import { Pagination } from 'accessible-astro-components';
+import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import Software from '~/components/Software.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths({ paginate }) {
+  let allSoftware = await getCollection('software');
+  allSoftware = allSoftware.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+  return paginate(allSoftware, {
+    pageSize: 25,
+  });
+}
+
+const { page } = Astro.props;
+
+const meta = {
+  title: 'Software',
+  description: 'Open-source software I have created or contributed to, including editor extensions, plugins, and style guides.',
+};
+
+const itemListData = {
+  name: 'Software',
+  description: meta.description,
+  items: page.data.map((software) => ({
+    name: software.data.title,
+    url: `/software/${software.id}`,
+  })),
+};
+---
+
+<Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {page.data.map((software) => <Software software={software} />)}
+    </div>
+    <Pagination
+      firstPage={page.url.prev ? '/software' : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next ? `/software/${Math.round(page.total / page.size)}` : null}
+      currentPage={page.currentPage}
+      totalPages={Math.round(page.total / page.size)}
+    />
+  </section>
+</Layout>

@@ -4,7 +4,7 @@ publishDate: 2015-08-13T00:00:00.000Z
 publication_url: 'https://crate.io/a/azure-documentation/'
 image: articles/azure.png
 categories:
-  - writing
+  - tech
   - crate
 tags:
   - Azure

@@ -3,7 +3,7 @@ title: Learning to Code With Swift Playgrounds
 publishDate: 2020-04-01T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Swift

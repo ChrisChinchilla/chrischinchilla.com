@@ -2,7 +2,9 @@
 title: How blockchain will disrupt traditional computing
 publishDate: '2017-10-04 13:01:01 UTC'
 author: Chris Ward
-categories: writing dzone
+categories:
+  - tech
+  - dzone
 tags:
   - Blockchain
   - Computing

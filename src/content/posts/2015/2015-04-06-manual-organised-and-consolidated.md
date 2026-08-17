@@ -3,8 +3,12 @@ title: Manual organised and consolidated
 publishDate: 2015-04-06T19:09:52.000Z
 image: articles/image-manual-organised-and-consolidated.png
 categories:
+  - games
   - projects
   - chipshop
+tags:
+  - Gamedesign
+  - Games
 summary: >-
   I spent today drawing together the disparate parts of the game manual and
   concepts into something more cohesive and readable, it can be found here. I

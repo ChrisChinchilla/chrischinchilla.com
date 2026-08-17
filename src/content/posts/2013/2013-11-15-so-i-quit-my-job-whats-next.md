@@ -1,5 +1,12 @@
 ---
 title: 'So, I quit my job. What''s next?'
+categories:
+  - tech
+tags:
+  - Development
+  - Writing
+  - Agile
+  - Tools
 publishDate: 2013-11-15T01:31:28.000Z
 summary: >-
   <p class="p1"><span style="line-height: 1.538em;">A few weeks ago I quit my

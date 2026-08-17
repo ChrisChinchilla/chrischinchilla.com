@@ -3,7 +3,7 @@ title: Cotypist AI-powered autocomplete for macOS review
 publishDate: 2025-03-31T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - macOS
   - AI

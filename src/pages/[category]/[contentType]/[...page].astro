@@ -1,0 +1,162 @@
+---
+import { Pagination } from 'accessible-astro-components';
+
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import Post from '~/components/Post.astro';
+import Story from '~/components/Story.astro';
+import Book from '~/components/Book.astro';
+import Game from '~/components/Game.astro';
+import Newsletter from '~/components/Newsletter.astro';
+import Music from '~/components/Music.astro';
+import Course from '~/components/Course.astro';
+import Podcast from '~/components/Podcast.astro';
+import Software from '~/components/Software.astro';
+import {
+  SITE_CATEGORIES,
+  type CategoryContentType,
+  getCategoryContentTypes,
+  getCategoryTypePermalink,
+  getEntryHref,
+} from '~/utils/content-categories';
+
+type RouteProps = {
+  category: {
+    slug: string;
+    title: string;
+    description: string;
+  };
+  contentType: CategoryContentType;
+  totalEntries: number;
+};
+
+const toPodcastCardItem = (entry: any): any => {
+  const title = entry.data?.title ?? entry.id;
+  const normalizedTitle = Array.isArray(title) ? title : [title];
+  const imageSource =
+    typeof entry.data?.image === 'string'
+      ? entry.data.image
+      : entry.data?.image?.src;
+
+  return {
+    title: normalizedTitle,
+    image: imageSource ? { att_href: imageSource } : undefined,
+    summary: entry.data?.description ?? entry.data?.summary ?? '',
+  };
+};
+
+export async function getStaticPaths({ paginate }: { paginate: any }) {
+  const allPaths: any[] = [];
+
+  for (const category of SITE_CATEGORIES) {
+    const contentTypes = await getCategoryContentTypes(category.slug);
+
+    for (const contentType of contentTypes) {
+      const paginatedPaths = paginate(contentType.entries, {
+        params: {
+          category: category.slug,
+          contentType: contentType.slug,
+        },
+        props: {
+          category,
+          contentType,
+          totalEntries: contentType.entries.length,
+        },
+        pageSize: contentType.pageSize,
+      });
+
+      allPaths.push(...paginatedPaths);
+    }
+  }
+
+  return allPaths;
+}
+
+const { page, category, contentType, totalEntries } = Astro.props as {
+  page: any;
+  category: RouteProps['category'];
+  contentType: RouteProps['contentType'];
+  totalEntries: RouteProps['totalEntries'];
+};
+
+const pageBase = getCategoryTypePermalink(category.slug, contentType.slug);
+const totalPages = Math.ceil(page.total / page.size);
+
+const meta = {
+  title: `${category.title}: ${contentType.label}`,
+  description: `${totalEntries} ${contentType.label.toLowerCase()} items in ${category.title}.`,
+};
+
+const isGridLayout = contentType.listStyle === 'grid';
+const sectionClass = isGridLayout
+  ? 'px-4 py-16 mx-auto max-w-6xl lg:py-20'
+  : 'px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl';
+
+const getEntryName = (entry: any): string => {
+  const title = entry.data?.title ?? entry.data?.event ?? entry.id;
+  return Array.isArray(title) ? title[0] : title;
+};
+
+const itemListData = {
+  name: meta.title,
+  description: meta.description,
+  items: page.data.map((entry: any) => ({
+    name: getEntryName(entry),
+    url: getEntryHref(entry),
+  })),
+};
+---
+
+<Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
+  <section class={sectionClass}>
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+
+    {
+      isGridLayout ? (
+        <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+          {page.data.map((entry: any) =>
+            contentType.collection === 'posts' ? (
+              <Post post={entry} />
+            ) : contentType.collection === 'books' ? (
+              <Book book={entry} />
+            ) : contentType.collection === 'music' ? (
+              <Music release={entry} />
+            ) : contentType.collection === 'games' ? (
+              <Game game={entry} />
+            ) : contentType.collection === 'software' ? (
+              <Software software={entry} />
+            ) : (
+              <Story story={entry} />
+            )
+          )}
+        </div>
+      ) : (
+        <ul>
+          {page.data.map((entry: any) => (
+            <li class="mb-12 md:mb-20">
+              {contentType.collection === 'books' && <Book book={entry} />}
+              {contentType.collection === 'games' && <Game game={entry} />}
+              {contentType.collection === 'newsletters' && <Newsletter newsletter={entry} />}
+              {contentType.collection === 'music' && <Music release={entry} />}
+              {contentType.collection === 'av' && <Course course={entry} />}
+              {contentType.collection === 'podcasts' && <Podcast podcast={toPodcastCardItem(entry)} />}
+            </li>
+          ))}
+        </ul>
+      )
+    }
+
+    <Pagination
+      firstPage={page.url.prev ? pageBase : null}
+      previousPage={page.url.prev ? page.url.prev : null}
+      nextPage={page.url.next ? page.url.next : null}
+      lastPage={page.url.next ? `${pageBase}/${totalPages}` : null}
+      currentPage={page.currentPage}
+      totalPages={totalPages}
+    />
+  </section>
+</Layout>

@@ -5,6 +5,7 @@ title: >-
 publishDate: '2019-04-23 00:05:34 UTC'
 author: Chris Ward
 categories:
+  - tech
   - writing kauri
 tags:
   - Documentation

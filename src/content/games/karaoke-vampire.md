@@ -1,5 +1,6 @@
 ---
 title: Karaoke Vampire 
+summary: A story-driven, rules-light roleplaying game for 2+ players who love to sing, love to sparkle, and love to suck blood.
 image: "/src/assets/images/defaults/game-chinchilla.jpg"
 herotext: A story-driven, rules-light RPG where vampires sing loud and sparkle hard.
 heroimage: "/src/assets/images/defaults/game-chinchilla.jpg"

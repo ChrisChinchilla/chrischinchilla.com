@@ -1,5 +1,6 @@
 ---
 title: Mysterium Tempus - A Mystery in Spacetime
+summary: A mystery in spacetime for 4-6 players at level 5, exploring a village frozen in a single instant.
 image: "/games/445342.jpg"
 publisher: Art of Karthik
 publish_date: 2023-07-17

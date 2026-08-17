@@ -5,8 +5,13 @@ publication_url: >-
   https://crate.io/blog/how-voipstudio-searches-multiple-cloud-systems-with-crate/
 imae: image-how-voip-studio.png"
 categories:
-  - writing
+  - tech
   - crate
+tags:
+  - Cloud
+  - Data
+  - Data Center
+  - Backup
 summary: >-
   The VoIPstudio Telecom system is a unique cloud system running on a large
   amount of servers in a wide variety of locations. Each data center has two

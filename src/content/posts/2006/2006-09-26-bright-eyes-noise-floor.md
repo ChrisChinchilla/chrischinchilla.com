@@ -2,7 +2,7 @@
 title: Bright Eyes - Noise Floor
 publishDate: 2006-09-26T13:16:28.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

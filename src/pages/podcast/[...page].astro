@@ -1,11 +1,13 @@
 ---
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import { PODCAST } from '~/config.mjs';
 import Podcast from '~/components/Podcast.astro';
 import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
 import Content from '~/components/widgets/Content.astro';
+import { slugify } from '~/utils/slugify';
 import showImage from '../../assets/images/tech-lounge.png';
 
 // TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
@@ -40,9 +42,22 @@ const meta = {
   description: 'Every two weeks, the tech lounge invites tech luminaries, entrepreneurs, and creatives from small scrappy startups and open source enthusiasts to those working in large global companies. If you\'re interested in deep and creative technology and conversations with some of its most interesting practitioners, this is the show for you. Come in and get yourself comfortable.',
   image: showImage,
 };
+
+const itemListData = {
+  name: meta.title,
+  description: meta.description,
+  items: page.data.map((episode) => {
+    const title = Array.isArray(episode.title) ? episode.title[0] : episode.title;
+    return {
+      name: title,
+      url: `/podcast/${slugify(title)}`,
+    };
+  }),
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
     <Headline>
       {meta.title}

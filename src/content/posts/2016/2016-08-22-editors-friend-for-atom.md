@@ -2,6 +2,7 @@
 title: Editors Friend for Atom
 publishDate: 2016-08-22T00:00:00.000Z
 categories:
+  - tech
   - projects
   - software
 tags:

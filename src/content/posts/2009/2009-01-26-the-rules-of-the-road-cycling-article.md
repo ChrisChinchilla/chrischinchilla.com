@@ -1,5 +1,11 @@
 ---
 title: The rules of the road - Cycling article
+categories:
+  - tech
+tags:
+  - Cycling
+  - Opinion
+  - Melbourne
 publishDate: 2009-01-26T00:02:28.000Z
 summary: >-
   Rules of the road<br>Chris Chinchilla<br><br>A license is not required to ride

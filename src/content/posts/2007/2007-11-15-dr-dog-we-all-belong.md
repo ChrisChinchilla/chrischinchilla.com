@@ -1,5 +1,10 @@
 ---
 title: Dr Dog - We all Belong
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-11-15T20:30:37.000Z
 summary: >-
   I reviewed one of <em>Dr Dog</em>'s past albums, though now looking back

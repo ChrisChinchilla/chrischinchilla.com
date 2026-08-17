@@ -4,7 +4,7 @@ publishDate: 2025-11-10T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://spectrum.ieee.org/ukraine-weapons'
 categories:
-  - writing
+  - tech
 tags:
   - Ukraine
   - Defense tech

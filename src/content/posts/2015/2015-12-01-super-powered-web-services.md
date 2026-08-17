@@ -5,8 +5,13 @@ publication_url: >-
   https://www.sitepoint.com/premium/screencasts/connecting-your-android-app-to-external-services
 image: articles/image-super-powers.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
+tags:
+  - Web
+  - Video
+  - Services
+  - Android
 summary: >-
   No application exists in isolation, in most cases it will frequently need to
   access external data and services to bring it to life. In this video we look

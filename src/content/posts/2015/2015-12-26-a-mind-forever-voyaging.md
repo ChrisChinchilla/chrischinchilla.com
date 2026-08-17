@@ -5,6 +5,7 @@ title: >-
 publishDate: 2015-12-26T00:00:00.000Z
 image: articles/image-a-mind-forever-voyaging.jpg
 categories:
+  - writing
   - projects
   - chipshop
 tags:

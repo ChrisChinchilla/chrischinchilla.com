@@ -1,5 +1,11 @@
 ---
 title: Various - Out of the woods and trees
+categories:
+  - music
+  - tech
+tags:
+  - Music
+  - Angular
 publishDate: 2007-11-15T20:25:40.000Z
 summary: >-
   It can't have escaped many people in the world's attention that the North of

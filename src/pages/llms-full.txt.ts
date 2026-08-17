@@ -39,7 +39,7 @@ function sectionSeparator(title: string, url: string, date: string, summary?: st
 }
 
 export const GET = async () => {
-  const [posts, stories, newsletters, books, music, av, gear, podcasts, games, events, clients] = await Promise.all([
+  const [posts, stories, newsletters, books, music, av, gear, software, podcasts, games, events, clients] = await Promise.all([
     getCollection('posts'),
     getCollection('stories'),
     getCollection('newsletters'),
@@ -47,6 +47,7 @@ export const GET = async () => {
     getCollection('music'),
     getCollection('av'),
     getCollection('gear'),
+    getCollection('software'),
     getCollection('podcasts'),
     getCollection('games'),
     getCollection('events'),
@@ -72,6 +73,9 @@ export const GET = async () => {
     .sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
 
   const sortedGear = gear
+    .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+  const sortedSoftware = software
     .sort((a, b) => a.data.title.localeCompare(b.data.title));
 
   const sortedPodcasts = podcasts
@@ -284,6 +288,19 @@ export const GET = async () => {
     lines.push(`## [${item.data.title}](${url})`, '');
     if (item.data.tags?.length) lines.push(`Tags: ${item.data.tags.join(', ')}`, '');
     if (item.data.affiliate_url) lines.push(`Affiliate link: ${item.data.affiliate_url}`, '');
+    if (item.data.summary) lines.push(item.data.summary, '');
+    const body = item.body ?? '';
+    if (body) lines.push(body, '');
+    lines.push('---', '');
+  }
+
+  // Software — metadata + body
+  lines.push('# Software', '', '---', '');
+  for (const item of sortedSoftware) {
+    const url = `${origin}/software/${item.id}`;
+    lines.push(`## [${item.data.title}](${url})`, '');
+    if (item.data.tags?.length) lines.push(`Tags: ${item.data.tags.join(', ')}`, '');
+    if (item.data.project_url) lines.push(`Project link: ${item.data.project_url}`, '');
     if (item.data.summary) lines.push(item.data.summary, '');
     const body = item.body ?? '';
     if (body) lines.push(body, '');

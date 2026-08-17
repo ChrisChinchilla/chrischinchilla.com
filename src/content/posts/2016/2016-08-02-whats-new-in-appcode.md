@@ -4,6 +4,7 @@ publishDate: 2016-08-02T00:00:00.000Z
 publication_url: 'https://blog.jetbrains.com/objc/2016/07/new-video-whats-new-in-appcode-2016-2/'
 image: articles/appcode.png
 categories:
+  - tech
   - writing jetbrains
 tags:
   - Video

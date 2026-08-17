@@ -1,5 +1,12 @@
 ---
 title: US Small city travels
+categories:
+  - tech
+tags:
+  - Security
+  - Australia
+  - Europe
+  - Help
 publishDate: 2014-08-13T19:16:01.000Z
 summary: >-
   <p class="p1"><em>The more I come to USA, the less I understand it, in fact I

@@ -4,7 +4,7 @@ publishDate: 2024-07-26T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://thenextweb.com/news/homebrew-maintainer-make-a-living-15-weeks'
 categories:
-  - writing
+  - tech
 tags:
   - macOS
   - Homebrew

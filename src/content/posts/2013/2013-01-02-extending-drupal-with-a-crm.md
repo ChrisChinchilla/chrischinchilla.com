@@ -1,5 +1,12 @@
 ---
 title: Extending Drupal with a CRM
+categories:
+  - tech
+tags:
+  - Drupal
+  - Crm
+  - Business
+  - Installation
 publishDate: 2013-01-02T05:25:30.000Z
 summary: >-
   A CRM (Contact Relationship Manager or Constituent Relationship Manager

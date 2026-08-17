@@ -2,7 +2,7 @@
 title: The Rip - I Heart Hiroshima
 publishDate: 2010-01-03T14:53:50.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

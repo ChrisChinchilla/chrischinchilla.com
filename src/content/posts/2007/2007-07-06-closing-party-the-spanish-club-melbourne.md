@@ -1,5 +1,10 @@
 ---
 title: 'Closing Party - The Spanish Club, Melbourne'
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-07-06T15:25:27.000Z
 summary: >-
   Melbourne is in the grips of a worrying and growing trend of Latte sipping

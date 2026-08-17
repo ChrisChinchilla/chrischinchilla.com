@@ -1,8 +1,11 @@
 ---
 title: The Australian Veg Food Guide 2011
+summary: A rewritten and redesigned nationwide edition featuring over 200 reviews and listings of vegan, vegetarian, and veg-friendly restaurants from around Australia, with an accompanying website, mobile app, and ratings.
 publisher: Aduki Independent Press
 role: Publisher
 publish_date: 2010-10-21
+categories:
+  - writing
 image: /books/7106492.jpg
 store_urls:
   - label: Goodreads

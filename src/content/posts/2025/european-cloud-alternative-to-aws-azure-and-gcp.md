@@ -4,7 +4,7 @@ publishDate: 2025-03-13T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://thenextweb.com/news/european-cloud-alternative-to-aws-azure-and-gcp'
 categories:
-  - writing
+  - tech
 tags:
   - Cloud
   - Europe

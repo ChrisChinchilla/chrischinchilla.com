@@ -37,8 +37,9 @@ const personData = {
     <Fragment slot="title"> I am Chris Chinchilla 👋 </Fragment>
     <!-- TODO: Parameterise -->
     <Fragment slot="subtitle">
-      I tell stories through documentation, blog posts, videos, books and more.
-      I am a podcaster, video maker, writer of interactive fiction, and games.
+
+      Tech writer | Podcaster | Video maker | Journalist | Developer | Author | Games designer | Enthusiastic amateur generalist
+
     </Fragment>
   </HeroBGImg>
   <HighlightedPosts title="Highlights" />
@@ -52,61 +53,38 @@ const personData = {
   <!-- Steps Widget ****************** -->
 
   <!-- Features2 Widget ************** -->
-  <!-- TODO: refactor to match content types -->
   <Features2
-    title="More about me"
-    subtitle="Here's all I do, well mostly…"
+    title="Here's what I love most"
+    subtitle="Yes, I am an enthusiastic amateur about many things, but these are the things I do most often."
     items={[
+      {
+        title: "Tech",
+        description:
+          "Writing, video, and podcasts about technology. My open and close-source apps, extensions, and plugins.",
+        icon: "ph:code-bold",
+        permalink: "/tech",
+      },
       {
         title: "Writing",
         description:
-          "Find my blog posts and books or hire me to write and edit something for you!",
+          "Writing, video, and podcasts about the art and techniques of writing. My fiction, non-fiction, apps, extensions, and plugins aimed at writers.",
         icon: "ph:pencil-circle-bold",
-        // TODO: Generalised writing page
-        permalink: "/blog",
+        permalink: "/writing",
       },
       {
-        title: "Podcasts",
+        title: "Music",
         description:
-          "Hear me on one of the many podcasts I regularly host and appear on.",
-        icon: "fa:podcast",
-        permalink: "/podcast",
-      },
-      {
-        title: "Videos",
-        description:
-          "Watch all my livestreams, recorded videos, and presentations.",
-        icon: "fa:podcast",
-        permalink: "/videos",
+          "Writing, video, and podcasts about and creating music. Releases and performance work from the bands and projects I've played in.",
+        icon: "ph:music-notes-bold",
+        permalink: "/music",
       },
       {
         title: "Games",
         description:
-          "Download, buy, and play games I created or contributed to.",
-        icon: "fa:podcast",
+          "Writing, video, and podcasts about and creating and playing games. Download, buy, and play games I created or contributed to.",
+        icon: "ph:dice-six-bold",
         permalink: "/games",
-      },
-      {
-        title: "Events",
-        description:
-          "Meetups and conferences I'm speaking at, reporting on, or attending.",
-        icon: "carbon:calendar-heat-map",
-        permalink: "/events",
-      },
-      {
-        title: "Work",
-        description:
-          "Who I've worked with, the work I've done, and how I can help you.",
-        icon: "fluent:people-audience-20-filled",
-        permalink: "/clients",
-      },
-      {
-        title: "Support",
-        description:
-          "Like what I do? Support me with a donation, subscription, or buy merchandise.",
-        icon: "ri:money-euro-circle-fill",
-        permalink: "/support",
-      },
+      }
     ]}
   />
 

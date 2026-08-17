@@ -7,7 +7,7 @@ tags:
   - Reviews
   - Music
 categories:
-  - writing
+  - music
   - chrischinchilla
 summary: >-
   Friday night gigs need to start earlier to pull in the punters and keep them

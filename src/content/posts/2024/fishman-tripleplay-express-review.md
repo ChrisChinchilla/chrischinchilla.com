@@ -3,7 +3,7 @@ title: Fishman TriplePlay Express MIDI guitar pickup review
 publishDate: 2024-12-10T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - music
 tags:
   - Music
   - MIDI

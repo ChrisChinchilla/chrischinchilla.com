@@ -3,7 +3,7 @@ title: London Civicon 2011
 publishDate: 2011-08-26T00:00:00.000Z
 image: articles/civiconlondon.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Civicrm

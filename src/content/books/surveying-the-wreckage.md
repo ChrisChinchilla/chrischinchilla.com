@@ -1,8 +1,11 @@
 ---
 title: Surveying the Wreckage - The New Matilda Columns 2008-2010
+summary: Ben Pobjie, one of New Matilda's most infamous columnists, surveys the wreckage and reassembles his columns into something insightful, biting, and humorous.
 publisher: Aduki Independent Press
 role: Publisher
 publish_date: 2010-03-01
+categories:
+  - writing
 image: /books/surveying-the-wreckage.jpg
 store_urls:
   - label: Goodreads

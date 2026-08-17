@@ -2,7 +2,7 @@
 title: Rubber Records 20th Birthday - Northcote Town Hall
 publishDate: 2008-10-27T22:36:53.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

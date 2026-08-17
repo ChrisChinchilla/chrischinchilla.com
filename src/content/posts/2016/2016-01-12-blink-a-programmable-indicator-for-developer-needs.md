@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/blink1-a-programmable-indicator-for-all-developer-needs/
 image: articles/image-blink1.png
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Tutorial

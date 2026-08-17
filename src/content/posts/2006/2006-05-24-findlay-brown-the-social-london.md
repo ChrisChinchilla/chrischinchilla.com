@@ -2,7 +2,7 @@
 title: 'Findlay Brown - The Social, London'
 publishDate: 2006-05-24T15:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

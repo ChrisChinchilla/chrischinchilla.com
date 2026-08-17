@@ -4,7 +4,7 @@ publishDate: 2025-02-24T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://blog.aspect.build/dagger-and-bazel'
 categories:
-  - writing
+  - tech
 tags:
   - Dagger
   - Bazel

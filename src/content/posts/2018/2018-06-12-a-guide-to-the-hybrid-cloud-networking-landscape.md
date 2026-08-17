@@ -4,6 +4,7 @@ publishDate: 2018-06-12T13:03:06.277Z
 image: articles/hybrid-cloud.png
 author: Chris Ward
 categories:
+  - tech
   - writing exoscale
 tags:
   - Cloud

@@ -1,9 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import Post from '~/components/Post.astro';
 import { getCollection } from 'astro:content';
 import { groupTagsBySlug } from '~/utils/permalinks';
+import { getEntryHref } from '~/utils/content-categories';
 import { BLOG } from '~/config.mjs';
 
 // TODO: Paginate 😱
@@ -30,9 +32,19 @@ const meta = {
   description: `Blog posts tagged with ${originalTag}`,
   noindex: BLOG?.tag?.noindex,
 };
+
+const itemListData = {
+  name: `Blog: ${originalTag}`,
+  description: meta.description,
+  items: posts.map((post) => ({
+    name: post.data.title,
+    url: getEntryHref(post),
+  })),
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline subtitle={meta.description}>
       {meta.title}

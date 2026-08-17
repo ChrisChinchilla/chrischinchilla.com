@@ -2,7 +2,7 @@
 title: 'Ludes - Barfly, London'
 publishDate: 2006-03-16T16:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

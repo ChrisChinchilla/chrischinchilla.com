@@ -5,7 +5,7 @@ publication_url: >-
   https://thenextweb.com/entrepreneur/2016/08/19/how-communism-still-affects-some-tech-spaces
 image: articles/shutterstock_146645084-796x533.jpg
 categories:
-  - writing
+  - tech
   - thenextweb
 tags:
   - Albania

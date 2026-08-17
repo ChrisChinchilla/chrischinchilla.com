@@ -5,7 +5,7 @@ publication_url: 'https://crate.io/blog/managing-crate-with-mesos/'
 image: >-
   articles/image-running-and-creating-crate-databases-with.mesos.jpg
 categories:
-  - writing
+  - tech
   - crate
 tags:
   - Mesos

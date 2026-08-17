@@ -5,7 +5,7 @@ publication_url: >-
   https://medium.com/@ChrisChinchilla/are-you-really-a-tech-company-63e7b4ed54d4#.x547tw4zr
 image: articles/image-are-you-really-a-tech-company.jpg
 categories:
-  - writing
+  - tech
   - theweeklysqueak
 tags:
   - Tech

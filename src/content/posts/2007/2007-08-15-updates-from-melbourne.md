@@ -2,7 +2,7 @@
 title: Updates from Melbourne
 publishDate: '2007-08-15T20:52:26+00:00'
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

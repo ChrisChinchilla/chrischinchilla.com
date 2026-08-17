@@ -3,7 +3,7 @@ title: FOSS Backstage – For Everyone in Open Source
 publishDate: '2018-05-21 12:01:36 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Berlin

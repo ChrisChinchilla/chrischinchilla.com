@@ -2,7 +2,7 @@
 title: Mac Expo 2002 - London
 publishDate: 2002-11-15T00:00:00.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Reviews

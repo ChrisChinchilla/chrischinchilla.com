@@ -3,7 +3,7 @@ title: 6 Interesting Trends from the Latest CNCF Survey
 publishDate: 2020-03-23T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Kubernetes

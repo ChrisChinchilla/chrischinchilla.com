@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/rapid-iot-development-with-the-relayr-android-app-and-sdk/
 image: articles/relayr.png
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - IoT

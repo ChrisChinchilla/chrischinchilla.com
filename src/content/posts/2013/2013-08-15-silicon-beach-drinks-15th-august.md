@@ -3,7 +3,7 @@ title: 'Silicon Beach drinks, 15th August'
 publishDate: 2013-08-15T00:57:56.000Z
 image: articles/drupalmel.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Events

@@ -2,7 +2,8 @@
 title: My audio and video production setup 2021
 publishDate: 2021-09-07T00:00:00.000Z
 categories:
-  - writing
+  - tech
+  - music
   - chrischinchilla
 tags:
   - video

@@ -3,7 +3,7 @@ title: 'GitHub Satellite 2020- Gone Remote, but Not Forgotten'
 publishDate: 2020-05-14T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - GitHub

@@ -1,5 +1,10 @@
 ---
 title: Lovecraft and John Harrison return
+categories:
+  - tech
+tags:
+  - Tech
+  - Learning
 publishDate: 2014-02-20T22:13:37.000Z
 summary: >-
   I have the fantastic opportunity to represent two of my favourite non-tech

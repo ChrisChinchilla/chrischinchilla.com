@@ -1,0 +1,41 @@
+---
+import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import { getCollection, render } from 'astro:content';
+import { getCanonical } from '~/utils/permalinks';
+
+export async function getStaticPaths() {
+  const softwareEntries = await getCollection('software');
+  return softwareEntries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const structuredData = {
+  title: entry.data.title,
+  description: entry.data.summary,
+  canonical: getCanonical(`/software/${entry.id}`),
+  tags: entry.data.tags,
+};
+---
+
+<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Software', href: '/software' }} ogType="website">
+  <StructuredData slot="head" type="CreativeWork" data={structuredData} />
+  <Content />
+  {entry.data.project_url && (
+    <p class="mt-6">
+      <a
+        href={entry.data.project_url}
+        class="text-primary hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View project →
+      </a>
+    </p>
+  )}
+</MarkdownPostLayout>

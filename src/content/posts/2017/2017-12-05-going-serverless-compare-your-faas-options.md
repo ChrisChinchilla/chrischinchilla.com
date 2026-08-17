@@ -3,7 +3,7 @@ title: Going Serverless? Compare Your FaaS Options
 publishDate: '2017-12-05 05:01:01 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Cloud

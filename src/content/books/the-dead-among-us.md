@@ -1,8 +1,11 @@
 ---
 title: The dead among us
+summary: A post-post-apocalyptic thriller love story set ten years after a war between the living and the previously dead, where fate throws two couples together and turns their lives upside down.
 publisher: Self-published
 role: Author
 publish_date: 2024-12-19
+categories:
+  - writing
 image: /books/the-dead-among-us.png
 store_urls:
   - label: eBook - Direct from me (pay what you feel)

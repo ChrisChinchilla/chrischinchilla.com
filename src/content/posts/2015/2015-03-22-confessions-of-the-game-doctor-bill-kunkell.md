@@ -3,8 +3,12 @@ title: 'Confessions of the Game Doctor, Bill Kunkell'
 publishDate: 2015-03-22T09:50:20.000Z
 image: articles/confessions-game-doctor.jpg
 categories:
+  - games
   - projects
   - chipshop
+tags:
+  - Gamedesign
+  - Games
 summary: >-
   Bill Kunkell helped create "Electronic Games Magazine" in 1981,  the first
   magazine dedicated to video games. It seemed a great research resource for

@@ -4,7 +4,7 @@ publishDate: 2016-04-17T00:00:00.000Z
 publication_url: 'https://crate.io/a/1001-node-crate-cluster-with-microsoft-azure/'
 image: articles/Cloud-Azure.png
 categories:
-  - writing
+  - tech
   - crate
 tags:
   - Azure

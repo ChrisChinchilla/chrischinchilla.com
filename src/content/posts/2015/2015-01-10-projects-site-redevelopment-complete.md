@@ -1,7 +1,12 @@
 ---
 title: Projects Site Redevelopment Complete
 publishDate: 2015-01-10T16:04:10.000Z
-categories: projects
+categories:
+  - tech
+tags:
+  - Javascript
+  - Drupal
+  - Cms
 image: articles/gm_siteplan.png
 summary: >-
   I have just finished getting in place the basic structures behind the sites

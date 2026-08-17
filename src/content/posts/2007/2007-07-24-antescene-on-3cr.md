@@ -2,7 +2,8 @@
 title: Antescene on 3CR
 publishDate: '2007-07-24T06:06:48+00:00'
 categories:
-  - writing
+  - music
+  - tech
   - chrischinchilla
 tags:
   - Music

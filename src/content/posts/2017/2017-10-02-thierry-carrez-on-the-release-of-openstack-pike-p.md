@@ -3,7 +3,7 @@ title: 'Thierry Carrez on the Release of OpenStack Pike [Podcast]'
 publishDate: '2017-10-02 16:01:00 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Sdn

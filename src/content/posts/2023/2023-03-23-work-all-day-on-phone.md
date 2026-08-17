@@ -3,7 +3,7 @@ title: Would it be possible to work all day on a phone?
 publishDate: 2023-03-23T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Android
   - Pixel

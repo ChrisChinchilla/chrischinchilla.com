@@ -2,7 +2,7 @@
 title: The Lodger - Let her go
 publishDate: 2006-04-18T15:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

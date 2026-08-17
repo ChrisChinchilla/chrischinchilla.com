@@ -3,7 +3,7 @@ title: Making Markdown Interactive with Runme
 publishDate: 2023-12-22T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Markdown
   - Interactivity

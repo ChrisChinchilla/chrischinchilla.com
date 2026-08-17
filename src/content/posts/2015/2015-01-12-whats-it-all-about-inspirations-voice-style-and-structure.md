@@ -1,7 +1,11 @@
 ---
 title: 'What’s it all about - Inspirations, Voice, Style and Structure'
 publishDate: 2015-01-12T13:51:31.000Z
-categories: projects odtwe
+categories:
+  - writing
+  - odtwe
+tags:
+  - Work
 summary: >-
   I guess most of its stylistic inspiration comes from Kurt Vonnegut and to a
   lesser extent surreal dark British comedy such as Douglas Adams. It is about

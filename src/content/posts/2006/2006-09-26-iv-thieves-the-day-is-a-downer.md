@@ -2,7 +2,7 @@
 title: IV Thieves - The Day is a Downer
 publishDate: 2006-09-26T13:15:40.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -3,7 +3,7 @@ title: 'The Promises, Payoff, and Products of Hybrid Clouds'
 publishDate: '2018-05-02 12:01:01 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Cloud

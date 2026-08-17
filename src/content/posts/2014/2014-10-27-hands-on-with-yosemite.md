@@ -2,8 +2,12 @@
 title: Hands on With Yosemite
 publishDate: 2014-10-27T09:03:18.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Mac
+  - Intel
+  - 90S
 summary: >-
   I have been Macs for a very long time, since the dark days of the mid 90s and
   the days of <a href="https://en.wikipedia.org/wiki/Macintosh_Performa"

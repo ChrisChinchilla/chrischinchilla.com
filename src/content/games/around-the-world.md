@@ -1,5 +1,6 @@
 ---
 title: Around The World In 80 Days - A Travel Adventure
+summary: A short travel adventure for 4-6 players at level 3, journeying to remote corners of the map and back within 80 days.
 image: "/games/428799.jpg"
 publisher: Art of Karthik
 publish_date: 2023-03-20

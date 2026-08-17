@@ -2,7 +2,7 @@
 title: Holy Hail - County Fair
 publishDate: 2006-10-11T16:59:19.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

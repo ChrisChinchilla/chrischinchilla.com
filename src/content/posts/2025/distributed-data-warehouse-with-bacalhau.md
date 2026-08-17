@@ -4,7 +4,7 @@ publishDate: 2025-03-28T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://blog.bacalhau.org/p/cloud-orchestration-cost-optimization'
 categories:
-  - writing
+  - tech
 tags:
   - DuckDB
   - Data

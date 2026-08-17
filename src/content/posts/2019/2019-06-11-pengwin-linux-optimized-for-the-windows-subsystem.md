@@ -3,7 +3,7 @@ title: Pengwin- Linux Optimized for the Windows Subsystem
 publishDate: 2019-06-11T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Windows

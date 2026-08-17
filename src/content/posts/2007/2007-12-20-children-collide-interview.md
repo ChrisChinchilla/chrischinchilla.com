@@ -1,5 +1,10 @@
 ---
 title: Children Collide - Interview
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-12-20T19:18:13.000Z
 summary: >-
   Children Collide are part of plethora of Melbourne bands successfully

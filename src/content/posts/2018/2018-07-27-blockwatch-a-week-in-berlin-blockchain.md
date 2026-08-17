@@ -3,7 +3,7 @@ title: Blockwatch- A Week in Berlin Blockchain
 publishDate: '2018-07-27 09:07:01 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Blockchain

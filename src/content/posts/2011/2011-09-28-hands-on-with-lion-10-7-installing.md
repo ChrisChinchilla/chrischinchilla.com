@@ -3,7 +3,7 @@ title: 'Hands on with Lion, 10.7 - Installing'
 publishDate: 2011-09-28T00:00:00.000Z
 image: articles/lion.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Apple Reviews

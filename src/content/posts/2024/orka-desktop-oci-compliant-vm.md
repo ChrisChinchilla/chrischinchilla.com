@@ -3,7 +3,7 @@ title: Using Orka Desktop to run and create OCI-compliant VMs on macOS
 publishDate: 2024-12-30T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Emulation
   - Virtualization

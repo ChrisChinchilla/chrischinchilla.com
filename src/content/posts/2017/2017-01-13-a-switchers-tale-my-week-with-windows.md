@@ -3,7 +3,7 @@ title: A switchers tale - My week with Windows
 publishDate: '2017-01-13 19:45:01 +0100'
 image: articles/windows-running.jpg
 categories:
-  - writing
+  - tech
   - hackernoon
 tags:
   - Tech

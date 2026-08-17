@@ -3,7 +3,7 @@ title: An Introduction to the Docker Trusted Registry
 publishDate: '2016-05-25 15:15:23 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - Development

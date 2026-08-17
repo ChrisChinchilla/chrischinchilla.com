@@ -3,7 +3,7 @@ title: 'Founder of Opera and Vivaldi, Jon Stephenson von Tetzchner [Interview]'
 publishDate: '2017-06-04 05:01:20 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Browsers

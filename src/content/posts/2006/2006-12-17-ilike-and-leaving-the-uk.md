@@ -5,7 +5,7 @@ tags:
   - Music
   - Life
 categories:
-  - writing
+  - music
   - chrischinchilla
 summary: >-
   Firstly, a few more bits and pieces for you...<br><br>I am such a geek... <a

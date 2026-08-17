@@ -3,6 +3,7 @@ title: The Benefits and Best Practices of Continuous Delivery
 publishDate: 2020-06-16T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing humanitec
 tags:
   - CD

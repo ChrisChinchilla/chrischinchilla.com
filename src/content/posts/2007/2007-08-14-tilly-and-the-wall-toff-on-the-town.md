@@ -1,5 +1,10 @@
 ---
 title: Tilly & The Wall - Toff on the Town
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-08-14T17:31:14.000Z
 summary: >-
   It's hard to mention Tilly and the Wall without mentioning Tap Dancing, they

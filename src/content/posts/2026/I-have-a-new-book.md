@@ -3,7 +3,7 @@ title: I have a new book out on creating the sustainable web
 publishDate: 2026-07-06T01:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Books
   - News

@@ -3,7 +3,7 @@ title: 'iTake, Bucharest: A Crash Course in Software Craftsmanship'
 publishDate: 2017-05-17T00:00:00.000Z
 image: articles/itake.jpg
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Bucharest

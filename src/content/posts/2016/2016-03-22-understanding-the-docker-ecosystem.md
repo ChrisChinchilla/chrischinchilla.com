@@ -3,7 +3,7 @@ title: Understanding the Docker Ecosystem
 publishDate: '2016-03-22 15:15:46 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - Development

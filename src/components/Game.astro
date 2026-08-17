@@ -1,19 +1,13 @@
 ---
 import ContentImage from '~/components/common/ContentImage.astro';
 import { type CollectionEntry } from 'astro:content';
-import { slugify } from '~/utils/slugify';
 export interface Props {
   game: CollectionEntry<'games'>;
 }
 const { game } = Astro.props;
-
-// const { Content } = await game.render();
-// const featured_image = await findImage(game.data.image);
-
-var idOfTitle = slugify(game.data.title);
 ---
 
-<article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${game.data.image ? 'md:grid-cols-2' : ''}`}>
+<article class="mb-6 transition px-4">
   <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
     <ContentImage
       src={game.data.image}
@@ -23,28 +17,30 @@ var idOfTitle = slugify(game.data.title);
     />
   </div>
 
-  <div class="mt-2">
+  <div>
     <header>
-      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading" id={idOfTitle}>
+      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">
         {game.data.title}
       </h2>
       <i class="my-2 block">{game.data.role}</i>
     </header>
-    <div class="post-body body">
-      {game.body}
+    <div class="post-body body whitespace-pre-line">
+      {game.data.summary}
     </div>
     {
-      game.data.store_urls && (
-        
-          <b class="my-2 block">Buy a copy in the following places:</b>
-          <ul class="list-disc list-inside m-2">
+      game.data.store_urls && game.data.store_urls.length > 0 && (
+        <div class="mt-3">
+          <b class="block mb-1">Buy a copy in the following places:</b>
+          <ul class="list-disc list-inside">
             {game.data.store_urls.map((store_url) => (
               <li>
-                <a href={store_url.url}>{store_url.label}</a>
+                <a class="hover:text-primary transition ease-in duration-200" href={store_url.url}>
+                  {store_url.label}
+                </a>
               </li>
             ))}
           </ul>
-        
+        </div>
       )
     }
   </div>

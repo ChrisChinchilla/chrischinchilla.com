@@ -3,7 +3,7 @@ title: Real-Time OCR for Mobile Apps With RTR SDK
 publishDate: '2017-04-17 11:13:30 +0100'
 image: articles/Portable_scanner_and_OCR_(video).webm.jpg
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Ocr

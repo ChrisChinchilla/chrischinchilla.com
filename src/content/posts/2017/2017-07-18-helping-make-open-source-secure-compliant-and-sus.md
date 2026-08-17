@@ -3,7 +3,7 @@ title: 'Helping Make Open Source Secure, Compliant, and Sustainable With Jeff...
 publishDate: '2017-07-18 05:01:01 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Open Souce

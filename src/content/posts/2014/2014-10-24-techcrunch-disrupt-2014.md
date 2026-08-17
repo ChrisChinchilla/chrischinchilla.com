@@ -5,6 +5,8 @@ publication_url: 'https://www.sitepoint.com/techcrunch-disrupt-2014/'
 categories:
   - writing
   - sitepoint
+tags:
+  - Melbourne
 summary: >-
   Before spending seven years in Melbourne and then moving to Germany, I lived
   and grew up in London. I am one of London's rarities, a real, born-and-bred,

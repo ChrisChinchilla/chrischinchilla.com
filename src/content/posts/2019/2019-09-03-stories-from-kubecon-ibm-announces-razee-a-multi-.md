@@ -3,7 +3,7 @@ title: 'Stories From KubeCon- IBM announces Razee, a Multi-Cluster Continuous...
 publishDate: 2019-09-03T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Ibm

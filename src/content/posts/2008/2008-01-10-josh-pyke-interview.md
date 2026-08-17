@@ -2,7 +2,7 @@
 title: Josh Pyke - Interview
 publishDate: 2008-01-10T17:13:16.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

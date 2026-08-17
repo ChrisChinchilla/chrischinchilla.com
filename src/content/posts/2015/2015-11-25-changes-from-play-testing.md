@@ -2,8 +2,12 @@
 title: Changes From Play Testing
 publishDate: '2015-11-25'
 categories:
+  - games
   - projects
   - chipshop
+tags:
+  - Gamedesign
+  - Games
 summary: >-
   After my first constructive play test session, here is the first wave of
   changes to the game.

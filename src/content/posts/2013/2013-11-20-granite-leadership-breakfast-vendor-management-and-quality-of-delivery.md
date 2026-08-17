@@ -1,5 +1,10 @@
 ---
 title: Granite Leadership breakfast - Vendor Management & Quality of Delivery
+categories:
+  - tech
+tags:
+  - Writing
+  - Agile
 publishDate: 2013-11-20T09:58:03.000Z
 summary: >-
   First up, I find it strange how different sectors describe the same things

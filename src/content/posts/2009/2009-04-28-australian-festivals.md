@@ -2,7 +2,7 @@
 title: Australian Festivals
 publishDate: 2009-04-28T18:10:31.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

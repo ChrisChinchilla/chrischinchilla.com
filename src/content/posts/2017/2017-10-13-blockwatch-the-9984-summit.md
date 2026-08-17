@@ -3,7 +3,7 @@ title: Blockwatch - The 9984 Summit
 publishDate: '2017-10-13 17:02:04 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Blockchain

@@ -1,5 +1,10 @@
 ---
 title: Apocalypse-ish
+categories:
+  - writing
+tags:
+  - History
+  - Life
 publishDate: 2009-04-28T17:55:20.000Z
 summary: >-
   I&#39;ve been intending to write this for months, but never quite got around

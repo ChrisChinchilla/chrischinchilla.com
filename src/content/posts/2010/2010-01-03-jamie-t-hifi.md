@@ -2,7 +2,7 @@
 title: Jamie T - HiFi
 publishDate: 2010-01-03T14:52:18.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

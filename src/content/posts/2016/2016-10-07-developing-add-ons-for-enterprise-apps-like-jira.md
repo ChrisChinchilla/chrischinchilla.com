@@ -4,7 +4,7 @@ publishDate: 2016-10-07T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/developing-add-ons-for-enterprise-apps-like-jira'
 image: articles/jira.png
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Developing

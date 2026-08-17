@@ -2,7 +2,8 @@
 title: Online Video and The Kaiser Chiefs
 publishDate: '2007-08-08T23:23:59+00:00'
 categories:
-  - writing
+  - music
+  - tech
   - chrischinchilla
 tags:
   - Music

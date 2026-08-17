@@ -4,7 +4,7 @@ publishDate: 2016-02-03T00:00:00.000Z
 publication_url: 'https://crate.io/a/cr8-utility-scripts/'
 image: articles/ss_jordi.jpg
 categories:
-  - writing
+  - tech
   - crate
 tags:
   - Cli

@@ -5,7 +5,7 @@ author: Chris Ward
 publication_url: >-
   https://javascript.plainenglish.io/my-experiences-migrating-a-site-from-jekyll-to-astro-9bd422d106bc
 categories:
-  - writing
+  - tech
 tags:
   - macos
   - version control

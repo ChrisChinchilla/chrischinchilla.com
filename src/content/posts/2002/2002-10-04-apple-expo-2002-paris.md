@@ -2,7 +2,7 @@
 title: Apple Expo 2002 - Paris
 publishDate: 2002-10-04T00:00:00.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Apple

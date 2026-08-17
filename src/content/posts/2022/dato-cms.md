@@ -1,5 +1,7 @@
 ---
 title: Testing DatoCMS, another headless CMS that promises an easier life
+categories:
+  - tech
 publishDate: 2022-02-23
 summary: I put DatoCMS through its paces to see if it finally solves the gap between a great editing experience and simple content delivery that every other headless CMS has left me with.
 tags:

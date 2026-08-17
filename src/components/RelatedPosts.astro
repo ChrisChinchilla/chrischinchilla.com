@@ -11,6 +11,48 @@ export interface Props {
 
 const { currentPostId, currentTags = [], currentCategories = [], maxPosts = 3 } = Astro.props;
 
+const normalizeCategories = (value: unknown): string[] => {
+  const categories = new Set<string>();
+
+  const addValue = (input: unknown): void => {
+    if (typeof input === 'string' && input.trim()) {
+      categories.add(input.trim());
+      return;
+    }
+
+    if (Array.isArray(input)) {
+      input.forEach((item) => addValue(item));
+      return;
+    }
+
+    if (input && typeof input === 'object') {
+      Object.entries(input as Record<string, unknown>).forEach(([key, nestedValue]) => {
+        if (typeof nestedValue === 'boolean' && nestedValue) {
+          categories.add(key.trim());
+          return;
+        }
+
+        if (typeof nestedValue === 'string' && nestedValue.trim()) {
+          categories.add(nestedValue.trim());
+          return;
+        }
+
+        addValue(nestedValue);
+      });
+    }
+  };
+
+  addValue(value);
+  return [...categories];
+};
+
+const normalizedCurrentCategories = new Set(currentCategories.map((category) => category.toLowerCase().trim()));
+const getDateValue = (value: Date | string | undefined): number => {
+  if (!value) return 0;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? 0 : date.getTime();
+};
+
 // Get all blog posts
 const allPosts = await getCollection('posts');
 
@@ -27,8 +69,11 @@ const relatedPosts = allPosts
     }
     
     // Score based on matching categories
-    if (post.data.categories && currentCategories.length > 0) {
-      const matchingCategories = post.data.categories.filter(cat => currentCategories.includes(cat));
+    if (normalizedCurrentCategories.size > 0) {
+      const postCategories = normalizeCategories(post.data.categories ?? post.data.category);
+      const matchingCategories = postCategories.filter((category) =>
+        normalizedCurrentCategories.has(category.toLowerCase().trim())
+      );
       score += matchingCategories.length * 3;
     }
     
@@ -43,7 +88,7 @@ const relatedPosts = allPosts
 if (relatedPosts.length < maxPosts) {
   const recentPosts = allPosts
     .filter(post => post.id !== currentPostId && !relatedPosts.includes(post))
-    .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
+    .sort((a, b) => getDateValue(b.data.publishDate) - getDateValue(a.data.publishDate))
     .slice(0, maxPosts - relatedPosts.length);
   
   relatedPosts.push(...recentPosts);
@@ -62,7 +107,7 @@ if (relatedPosts.length < maxPosts) {
               <div class="mb-3 overflow-hidden rounded">
                 <OptimizedImage 
                   src={post.data.image} 
-                  alt={post.data.imageAlt || post.data.title}
+                  alt={post.data.title}
                   title={post.data.title}
                   class="w-full h-48 object-cover transition-transform group-hover:scale-105"
                   loading="lazy"
@@ -82,7 +127,13 @@ if (relatedPosts.length < maxPosts) {
               </p>
             )}
             <p class="text-xs text-gray-500 dark:text-gray-500 mt-2">
-              {new Date(post.data.publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+              {post.data.publishDate
+                ? new Date(post.data.publishDate).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric',
+                  })
+                : ''}
             </p>
           </a>
         </article>

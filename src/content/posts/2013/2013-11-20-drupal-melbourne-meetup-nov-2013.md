@@ -3,8 +3,11 @@ title: Drupal Melbourne Meetup Nov 2013
 publishDate: 2013-11-20T09:46:52.000Z
 image: articles/druplicon.large_.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Drupal
+  - Melbourne
 summary: A great session tonight with two case studies from local Drupal shops...
 ---
 

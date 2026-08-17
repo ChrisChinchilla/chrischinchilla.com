@@ -2,7 +2,7 @@
 title: 'The Hot Puppies - Drill Hall, Lincoln'
 publishDate: 2006-10-19T02:59:37.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -3,7 +3,7 @@ title: Cybersecurity During a Pandemic- An Interview With Critical Start
 publishDate: 2020-04-21T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Cybersecurity

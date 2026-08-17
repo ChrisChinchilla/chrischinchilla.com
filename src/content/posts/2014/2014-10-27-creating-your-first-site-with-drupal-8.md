@@ -1,5 +1,10 @@
 ---
 title: Creating Your First Site with Drupal 8
+categories:
+  - tech
+tags:
+  - Drupal
+  - Installation
 publishDate: 2014-10-27T09:54:10.000Z
 summary: >-
   We have been hearing about Drupal 8 for quite a while now and it&rsquo;s

@@ -1,5 +1,6 @@
 ---
 title: Triad of Death - A Murder Mystery In Waterdeep
+summary: A murder mystery adventure in Waterdeep for 4-6 players at level 5, centred on three legendary artifacts of Vecna and Orcus.
 image: "/games/440170.jpg"
 publisher: Art of Karthik
 publish_date: 2023-06-25

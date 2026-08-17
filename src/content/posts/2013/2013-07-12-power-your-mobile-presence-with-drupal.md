@@ -1,5 +1,12 @@
 ---
 title: Power your mobile presence with Drupal
+categories:
+  - tech
+tags:
+  - Mobile
+  - Drupal
+  - Integration
+  - Melbourne
 publishDate: 2013-07-12T02:03:41.000Z
 summary: >-
   <p class="p1">Drupal has a plethora of ways to power your mobile apps and

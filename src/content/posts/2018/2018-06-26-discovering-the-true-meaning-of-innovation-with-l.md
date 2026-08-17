@@ -3,7 +3,7 @@ title: Discovering the True Meaning of Innovation with Login Festival
 publishDate: '2018-06-26 05:06:00 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Conference

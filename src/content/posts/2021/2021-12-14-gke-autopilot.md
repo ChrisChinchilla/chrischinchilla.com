@@ -3,6 +3,7 @@ title: How to use Chronosphere to monitor your GKE Autopilot deployment
 publishDate: 2021-12-14T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing chronosphere
 tags:
   - Alerting

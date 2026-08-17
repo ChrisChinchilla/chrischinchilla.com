@@ -1,5 +1,6 @@
 ---
 title: Penance of Charity - A Summer Solstice Adventure
+summary: A summer solstice adventure where pilgrims travel to ten temples seeking the blessings of the gods, while locals exploit their generosity.
 image: "/games/484496.jpg"
 publisher: Art of Karthik
 publish_date: 2024-07-29

@@ -3,7 +3,7 @@ title: Cybersecurity Awareness Month - MacPaw Supports Ukraine
 publishDate: 2022-10-14T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - hackernoon
 tags:
   - Ukraine

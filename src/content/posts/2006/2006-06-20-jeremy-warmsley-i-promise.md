@@ -2,7 +2,7 @@
 title: Jeremy Warmsley - I Promise
 publishDate: 2006-06-20T15:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

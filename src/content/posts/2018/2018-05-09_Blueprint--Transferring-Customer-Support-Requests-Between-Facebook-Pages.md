@@ -2,7 +2,8 @@
 title: 'Blueprint: Transferring Customer Support Requests Between Facebook Pages '
 publishDate: '2018-05-09 17:01:11 UTC'
 author: Chris Ward
-categories: writing
+categories:
+  - tech
 tags:
   - Facebook
   - Messaging

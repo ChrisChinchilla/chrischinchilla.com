@@ -3,7 +3,7 @@ title: An Introduction to Docker for Mac
 publishDate: '2016-07-21 15:15:44 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - Development

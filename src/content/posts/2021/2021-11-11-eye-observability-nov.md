@@ -3,6 +3,7 @@ title: An eye on observability for November 2021
 publishDate: 2021-11-11T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing chronosphere
 tags:
   - Observability

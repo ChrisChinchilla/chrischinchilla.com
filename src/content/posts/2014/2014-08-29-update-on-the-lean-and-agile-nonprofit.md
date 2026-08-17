@@ -1,5 +1,10 @@
 ---
 title: Update on The Lean and Agile Nonprofit
+categories:
+  - tech
+tags:
+  - Agile
+  - Not-For-Profit
 publishDate: 2014-08-29T16:29:53.000Z
 summary: >-
   A little while back I announced my intention to write a book on some

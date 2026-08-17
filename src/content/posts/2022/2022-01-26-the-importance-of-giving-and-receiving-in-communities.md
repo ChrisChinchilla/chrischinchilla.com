@@ -5,7 +5,7 @@ author: Chris Ward
 publication_url: >-
   https://medium.com/@chrischinchilla/the-importance-of-giving-and-receiving-in-communities-2aaeb10ea86a
 categories:
-  - writing
+  - tech
 tags:
   - Community
   - Events

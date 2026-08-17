@@ -1,5 +1,12 @@
 ---
 title: 2013 New Years resolutions
+categories:
+  - tech
+tags:
+  - Conferences
+  - Meetups
+  - Sustainability
+  - personal
 publishDate: 2013-01-01T22:16:43.000Z
 summary: >-
   2012 has been a big year, equal good and bad, extremely busy moments and dull

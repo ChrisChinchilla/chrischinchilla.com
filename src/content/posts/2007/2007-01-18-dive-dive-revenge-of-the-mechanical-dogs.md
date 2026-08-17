@@ -2,7 +2,7 @@
 title: Dive Dive - Revenge of the Mechanical Dogs
 publishDate: 2007-01-18T00:00:00.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

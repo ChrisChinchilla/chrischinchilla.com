@@ -2,7 +2,7 @@
 title: Rocket Science - The East Brunswick Club
 publishDate: 2008-05-27T15:35:47.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -1,5 +1,10 @@
 ---
 title: Creative vs Commons
+categories:
+  - writing
+tags:
+  - Creative
+  - Melbourne
 publishDate: 2013-11-24T23:07:27.000Z
 summary: >-
   With&hellip;&nbsp;Cory Doctorow, Melbourne Writers Festival Director Lisa

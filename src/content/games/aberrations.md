@@ -1,5 +1,6 @@
 ---
 title: Aberrations - Inflection Point - A Monster Horror Adventure In Icewind Dale
+summary: A monster horror adventure in Icewind Dale, where an elder mindflayer melds aberration biology with creatures of the North inside a shattered, buried castle.
 image: "/games/463789.jpg"
 publisher: Art of Karthik
 publish_date: 2023-12-27

@@ -1,5 +1,10 @@
 ---
 title: Gym Class Heroes - Billboard
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-08-14T17:48:12.000Z
 summary: >-
   Gym Class Heroes are perhaps one of the oddest, biggest bundle of

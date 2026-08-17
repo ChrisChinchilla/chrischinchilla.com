@@ -3,8 +3,12 @@ title: Thoughts on (Play) Testing
 publishDate: 2015-11-09T00:00:00.000Z
 image: articles/image-thoughts-on-play-testing.jpg
 categories:
+  - games
   - projects
   - chipshop
+tags:
+  - Boardgames
+  - Games
 summary: >-
   I just had my first play testing session for Chip Shop and returned with lots
   of feedback. The three players helped me identify a lot of small problems with

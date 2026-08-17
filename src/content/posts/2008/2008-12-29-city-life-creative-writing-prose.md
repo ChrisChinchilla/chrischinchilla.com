@@ -1,5 +1,12 @@
 ---
 title: City Life - Creative writing (Prose)
+categories:
+  - tech
+tags:
+  - Creative
+  - Writing
+  - Life
+  - Work
 publishDate: 2008-12-29T22:53:31.000Z
 summary: >-
   Applecore<br>Broken Door<br>Commercial crap<br>Cat flap<br>High crime<br>Sign

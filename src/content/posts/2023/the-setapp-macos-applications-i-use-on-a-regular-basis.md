@@ -5,7 +5,7 @@ author: Chris Ward
 publication_url: >-
   https://medium.com/macoclock/the-setapp-macos-applications-i-use-on-a-regular-basis-14abdb64f271
 categories:
-  - writing
+  - tech
 tags:
   - macos
   - version control

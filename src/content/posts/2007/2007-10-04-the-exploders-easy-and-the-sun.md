@@ -1,5 +1,10 @@
 ---
 title: The Exploders - Easy & The Sun
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-10-04T16:10:04.000Z
 summary: >-
   The biggest surprise is that The Exploders are a two-piece, how on earth do

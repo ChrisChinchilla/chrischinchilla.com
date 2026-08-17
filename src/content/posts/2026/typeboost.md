@@ -3,7 +3,7 @@ title: Is TypeBoost the AI personal assistant you've been looking for?
 publishDate: 2026-03-17T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - AI
   - Productivity

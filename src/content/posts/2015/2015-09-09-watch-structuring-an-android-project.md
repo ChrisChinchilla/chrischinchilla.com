@@ -4,7 +4,7 @@ publishDate: 2015-09-09T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/watch-structuring-an-android-project/'
 image: articles/image-structuring-an-android-project.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Android

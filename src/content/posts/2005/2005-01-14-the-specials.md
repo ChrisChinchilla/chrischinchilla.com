@@ -2,7 +2,7 @@
 title: The Specials
 publishDate: 2005-01-14T00:00:00.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

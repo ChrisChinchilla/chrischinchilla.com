@@ -5,7 +5,7 @@ tags:
   - Music
   - Politics
 categories:
-  - writing
+  - music
   - chrischinchilla
 summary: >-
   My latest Indieoma post is the second installment of my series of articles on

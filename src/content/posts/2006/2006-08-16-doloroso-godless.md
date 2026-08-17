@@ -2,7 +2,7 @@
 title: Doloroso - Godless
 publishDate: 2006-08-16T10:52:54.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -2,7 +2,7 @@
 title: Children Collide and Clutch Reviews
 publishDate: '2007-12-06T18:18:10+00:00'
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music
