@@ -2,7 +2,7 @@
 title: The Pipettes - Judy
 publishDate: 2006-10-11T17:34:41.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

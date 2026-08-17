@@ -3,7 +3,8 @@ title: I am releasing music for the first time in 15 years
 publishDate: 2026-06-13T01:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
+  - music
 tags:
   - news
   - music

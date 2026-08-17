@@ -3,7 +3,7 @@ title: 'Lint, Lint and Away! Linters for the English Language'
 publishDate: '2018-02-16 13:01:01 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Linting

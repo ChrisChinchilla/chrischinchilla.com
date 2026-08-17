@@ -2,7 +2,7 @@
 title: Betty Curse - Hear Lies
 publishDate: 2006-09-19T07:47:22.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

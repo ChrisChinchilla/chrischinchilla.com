@@ -1,5 +1,12 @@
 ---
 title: Today Google told me my flight was delayed before my airline.
+categories:
+  - tech
+tags:
+  - Google
+  - Big Data
+  - Technology
+  - Melbourne
 publishDate: 2013-09-20T23:54:52.000Z
 summary: >-
   <p class="p1">I am travelling on a three stage international flight today, it

@@ -4,7 +4,7 @@ publishDate: 2025-09-04T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://spectrum.ieee.org/esoteric-programming-languages-daniel-temkin'
 categories:
-  - writing
+  - tech
 tags:
   - Programming
   - Art

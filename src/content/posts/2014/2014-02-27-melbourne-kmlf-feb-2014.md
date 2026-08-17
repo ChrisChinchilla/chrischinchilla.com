@@ -4,6 +4,8 @@ publishDate: 2014-02-27T00:19:32.000Z
 categories:
   - writing
   - chrischinchilla
+tags:
+  - Melbourne
 summary: >-
   I&rsquo;ve been attending the <a
   href="https://www.meetup.com/Melbourne-KMLF/events/142133462/" 

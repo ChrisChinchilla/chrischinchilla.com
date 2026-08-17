@@ -76,7 +76,7 @@ export default defineConfig({
         carbon: ['calendar-heat-map'],
         fluent: ['people-audience-20-filled'],
         ri: ['money-euro-circle-fill'],
-        ph: ['pencil-circle-bold'],
+        ph: ['pencil-circle-bold', 'code-bold', 'music-notes-bold', 'dice-six-bold'],
         'simple-icons': ['applepodcasts', 'amazonmusic', 'pocketcasts'],
       },
     }),

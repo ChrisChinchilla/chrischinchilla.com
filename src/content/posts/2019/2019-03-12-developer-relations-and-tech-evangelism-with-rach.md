@@ -3,7 +3,7 @@ title: Developer Relations and Tech Evangelism With Rachel Black of Lisk
 publishDate: '2019-03-12 09:02:03 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Blockchain

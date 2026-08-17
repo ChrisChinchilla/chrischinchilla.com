@@ -2,7 +2,7 @@
 title: DrupalGov and Canberra 2013
 publishDate: 2013-08-25T00:00:00.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Drupal

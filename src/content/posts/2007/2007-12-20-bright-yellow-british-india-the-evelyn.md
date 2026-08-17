@@ -1,5 +1,10 @@
 ---
 title: 'Bright Yellow, British India - The Evelyn'
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-12-20T19:17:22.000Z
 summary: >-
   Bright Yellow are floppy. Floppy hair, floppy shirts and floppy rock. Their

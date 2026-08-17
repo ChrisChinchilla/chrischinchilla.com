@@ -1,5 +1,12 @@
 ---
 title: Creating campaigns with Drupal and CiviCRM
+categories:
+  - tech
+tags:
+  - Drupal
+  - Civicrm
+  - Tools
+  - Tools And Techniques
 publishDate: 2013-01-02T05:24:34.000Z
 summary: >-
   <span style="line-height: 1.538em;">In this sessions we look at utilising a

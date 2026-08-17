@@ -3,7 +3,7 @@ title: A Guide to Ubuntu Core and Snaps
 publishDate: '2017-10-03 05:02:00 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Ubuntu

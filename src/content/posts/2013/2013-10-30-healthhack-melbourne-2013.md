@@ -1,5 +1,12 @@
 ---
 title: HealthHack Melbourne 2013
+categories:
+  - tech
+tags:
+  - Melbourne
+  - Writing
+  - Programming
+  - Web
 publishDate: 2013-10-30T10:01:38.000Z
 summary: >-
   <p class="p1">I feel slightly cheeky writing much about the event as I

@@ -3,7 +3,7 @@ title: Technical writing with JetBrains' Writerside and Grazie
 publishDate: 2023-03-15T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - jetbrains
   - IDE

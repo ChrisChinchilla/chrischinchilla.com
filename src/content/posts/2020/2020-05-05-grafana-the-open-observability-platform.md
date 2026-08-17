@@ -3,7 +3,7 @@ title: Grafana- The Open Observability Platform
 publishDate: 2020-05-05T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Visualization

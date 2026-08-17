@@ -3,6 +3,7 @@ title: An eye on observability for June 2022
 publishDate: 2022-07-07T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing chronosphere
 tags:
   - Observability

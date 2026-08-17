@@ -3,7 +3,7 @@ title: Nextcloud and Kubernetes in the Cloud With Kuma Service Mesh
 publishDate: 2021-09-03T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Kubernetes

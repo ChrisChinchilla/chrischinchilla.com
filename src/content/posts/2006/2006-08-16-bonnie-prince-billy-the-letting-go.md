@@ -2,7 +2,7 @@
 title: Bonnie Prince Billy - The Letting Go
 publishDate: 2006-08-16T10:55:39.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

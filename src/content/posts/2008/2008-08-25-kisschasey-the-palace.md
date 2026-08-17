@@ -2,7 +2,7 @@
 title: Kisschasey - The Palace
 publishDate: 2008-08-25T18:56:11.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

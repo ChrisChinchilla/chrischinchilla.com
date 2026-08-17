@@ -1,5 +1,10 @@
 ---
 title: Voxtrot - Voxtrot
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-08-14T17:26:59.000Z
 summary: >-
   I think my main problem with this release is it's press release, it's almost

@@ -5,7 +5,7 @@ tags:
   - Music
   - Life Travel
 categories:
-  - writing
+  - music
   - chrischinchilla
 summary: >-
   Been rather lame with blog posts recently, you see I'm know self-employed, so

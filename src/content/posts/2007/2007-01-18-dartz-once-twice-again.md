@@ -2,7 +2,7 @@
 title: 'Dartz! - Once, Twice again'
 publishDate: 2007-01-18T00:00:00.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

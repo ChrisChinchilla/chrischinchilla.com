@@ -1,5 +1,10 @@
 ---
 title: 'Bellaruche, Fat Freddy''s Drop - Metro'
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-11-15T20:29:01.000Z
 summary: >-
   Kathrin deBoer of Bellaruche has a star quality, an ability to captivate and

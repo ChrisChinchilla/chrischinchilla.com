@@ -3,7 +3,7 @@ title: 6 new macOS and iOS tools for April 2025
 publishDate: 2025-04-16T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - News
   - Trends

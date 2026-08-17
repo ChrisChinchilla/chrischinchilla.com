@@ -2,7 +2,7 @@
 title: NinetyNine - The Northcote Social Club
 publishDate: 2007-05-18T19:25:59.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

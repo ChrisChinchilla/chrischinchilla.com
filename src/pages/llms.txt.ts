@@ -21,7 +21,7 @@ function formatLink(title: string, url: string, summary?: string): string {
 }
 
 export const GET = async () => {
-  const [posts, stories, newsletters, books, music, av, gear, podcasts, games, events, clients] = await Promise.all([
+  const [posts, stories, newsletters, books, music, av, gear, software, podcasts, games, events, clients] = await Promise.all([
     getCollection('posts'),
     getCollection('stories'),
     getCollection('newsletters'),
@@ -29,6 +29,7 @@ export const GET = async () => {
     getCollection('music'),
     getCollection('av'),
     getCollection('gear'),
+    getCollection('software'),
     getCollection('podcasts'),
     getCollection('games'),
     getCollection('events'),
@@ -54,6 +55,9 @@ export const GET = async () => {
     .sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
 
   const sortedGear = gear
+    .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+  const sortedSoftware = software
     .sort((a, b) => a.data.title.localeCompare(b.data.title));
 
   const sortedPodcasts = podcasts
@@ -170,6 +174,14 @@ export const GET = async () => {
   lines.push('## Gear', '');
   for (const item of sortedGear) {
     const url = `${origin}/gear/${item.id}`;
+    lines.push(formatLink(item.data.title, url, item.data.summary));
+  }
+  lines.push('');
+
+  // Software
+  lines.push('## Software', '');
+  for (const item of sortedSoftware) {
+    const url = `${origin}/software/${item.id}`;
     lines.push(formatLink(item.data.title, url, item.data.summary));
   }
   lines.push('');

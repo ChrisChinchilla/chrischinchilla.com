@@ -1,5 +1,9 @@
 ---
 title: Kaiser Chiefs & Maximo Park - Various
+categories:
+  - tech
+tags:
+  - Learning
 publishDate: 2007-09-17T20:29:31.000Z
 summary: >-
   It seemed appropriate to group these two shows together as my last experience

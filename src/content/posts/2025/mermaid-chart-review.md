@@ -3,7 +3,7 @@ title: Text-based diagrams taken mainstream with Mermaid Chart
 publishDate: 2025-03-13T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Mermaid
   - Diagrams

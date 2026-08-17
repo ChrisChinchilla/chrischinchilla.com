@@ -4,7 +4,7 @@ publishDate: 2015-12-21T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/premium/screencasts/submitting-to-the-chrome-store'
 image: articles/image-submitting-to-the-chrome-store.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Chrome

@@ -1,5 +1,12 @@
 ---
 title: Travel tips
+categories:
+  - tech
+tags:
+  - Travel
+  - Australia
+  - Data
+  - Service
 publishDate: 2013-10-16T23:43:03.000Z
 summary: >-
   An ever growing miscellaneous list of travel tips and thoughts that occur to

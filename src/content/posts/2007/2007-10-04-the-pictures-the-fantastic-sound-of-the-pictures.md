@@ -1,5 +1,10 @@
 ---
 title: The Pictures - The Fantastic Sound of the Pictures
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-10-04T16:11:32.000Z
 summary: >-
   A compilation of rarities from a band I've never heard of, it seems one half

@@ -1,5 +1,12 @@
 ---
 title: Predicted Increase in International Students - News Feature
+categories:
+  - tech
+tags:
+  - Students
+  - News
+  - Education
+  - Australia
 publishDate: 2007-10-04T16:21:33.000Z
 summary: >-
   According to a forthcoming research report to be issued by overseas student

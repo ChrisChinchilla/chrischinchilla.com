@@ -2,6 +2,11 @@
 title: >-
   The Jacks, Assassination Collective, Actor/Model, Shooting at Unarmed Men -
   Pony
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2008-12-29T23:09:41.000Z
 summary: >-
   Cup eve is a strange night of the year, everyone feels obliged to go out and

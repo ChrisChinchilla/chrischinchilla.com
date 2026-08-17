@@ -3,6 +3,7 @@ title: Testing hotfixes to Production without rolling back Staging
 publishDate: 2020-11-04T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing humanitec
 tags:
   - Dx

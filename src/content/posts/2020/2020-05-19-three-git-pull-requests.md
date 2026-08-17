@@ -3,6 +3,7 @@ title: '1 Dev, 3 Teams, 3 Git Pull Request Review Experiences'
 publishDate: 2020-05-19T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing linearb
 tags:
   - Git

@@ -3,7 +3,8 @@ title: Why Development Teams Should Play Roleplaying Games
 publishDate: 2021-02-25T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - games
+  - tech
   - dzone
 tags:
   - Roleplaying

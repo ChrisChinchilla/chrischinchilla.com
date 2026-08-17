@@ -1,5 +1,12 @@
 ---
 title: Melbourne Mobile February 2014
+categories:
+  - tech
+tags:
+  - Mobile
+  - Melbourne
+  - Development
+  - Business
 publishDate: 2014-02-18T20:52:54.000Z
 summary: >-
   <p class="p1"><span style="line-height: 1.538em;">A strange session tonight as

@@ -3,7 +3,7 @@ title: CeBIT 2017 - Business as Usual
 publishDate: '2017-03-28 18:13:30 +0100'
 image: articles/cebit-1024x470.jpg
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - IoT

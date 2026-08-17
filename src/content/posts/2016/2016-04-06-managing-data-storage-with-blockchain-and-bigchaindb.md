@@ -5,7 +5,7 @@ publication_url: >-
 title: Managing data storage with block chain and big chain DB
 image: articles/image-managing-data-storage.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Blockchain

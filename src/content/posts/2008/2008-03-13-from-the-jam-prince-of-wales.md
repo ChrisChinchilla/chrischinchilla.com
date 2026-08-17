@@ -2,7 +2,7 @@
 title: From The Jam - Prince of Wales
 publishDate: 2008-03-12T23:42:19.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

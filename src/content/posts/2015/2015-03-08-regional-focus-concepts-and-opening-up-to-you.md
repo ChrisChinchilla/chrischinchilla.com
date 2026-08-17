@@ -2,6 +2,7 @@
 title: 'Regional Focus, ''Concepts'' and opening up to you'
 publishDate: 2015-03-08T00:00:00.000Z
 categories:
+  - games
   - projects
   - chipshop
 tags:

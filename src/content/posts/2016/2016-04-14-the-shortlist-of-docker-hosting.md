@@ -3,7 +3,7 @@ title: The Shortlist of Docker Hosting
 publishDate: '2016-04-14 15:15:06 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - Development

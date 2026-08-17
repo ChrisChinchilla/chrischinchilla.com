@@ -3,8 +3,11 @@ title: What people want from websites
 publishDate: 2013-12-05T09:54:37.000Z
 image: articles/whatpeoplewantfromwebsites-sales.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - websites
+  - Design
 summary: >-
   I've been sitting on the post for a while, a series of (comical) screen shots
   on what different people want from a website during it's design process. You

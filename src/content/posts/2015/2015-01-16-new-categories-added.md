@@ -2,7 +2,12 @@
 title: New Categories added
 publishDate: 2015-01-16T07:57:12.000Z
 categories:
+  - writing
   - writing leantraveller
+tags:
+  - Travel
+  - Resources
+  - Communication
 summary: >-
   I added a set of new categories and related resources to the Lean Traveller
   site yesterday including Communication, travel and some resources under

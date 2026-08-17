@@ -1,5 +1,9 @@
 ---
 title: Chinese receipts
+categories:
+  - writing
+tags:
+  - China
 publishDate: 2011-07-25T15:21:51.000Z
 summary: >-
   I kept noticing these silver scratch panels on some receipts in china and

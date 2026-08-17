@@ -5,7 +5,7 @@ tags:
   - Music
   - Australia
 categories:
-  - writing
+  - music
   - chrischinchilla
 summary: >-
   Lots of news and reviews to post here soon, but in the meantime here's my

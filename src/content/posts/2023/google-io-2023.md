@@ -4,7 +4,7 @@ publishDate: 2023-05-11T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://medium.com/aimonks/google-io-2023-ee16469392f0'
 categories:
-  - writing
+  - tech
 tags:
   - macos
   - version control

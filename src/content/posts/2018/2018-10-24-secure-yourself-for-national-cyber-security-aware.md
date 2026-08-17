@@ -3,7 +3,7 @@ title: Secure Yourself for National Cyber Security Awareness Month
 publishDate: '2018-10-24 04:01:01 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Malware

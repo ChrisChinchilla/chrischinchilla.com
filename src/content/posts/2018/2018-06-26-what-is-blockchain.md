@@ -3,7 +3,7 @@ title: What Is Blockchain?
 publishDate: '2018-06-26 15:15:30 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - Development

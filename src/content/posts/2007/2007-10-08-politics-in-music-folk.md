@@ -5,7 +5,7 @@ tags:
   - Music
   - Opinion
 categories:
-  - writing
+  - music
   - chrischinchilla
 summary: >-
   The latest instalment of my series, featuring Folk Music from the 70's onwards

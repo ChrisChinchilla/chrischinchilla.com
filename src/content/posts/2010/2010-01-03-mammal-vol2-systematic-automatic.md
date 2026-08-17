@@ -2,7 +2,7 @@
 title: Mammal - Vol2 Systematic / Automatic
 publishDate: 2010-01-03T14:53:12.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

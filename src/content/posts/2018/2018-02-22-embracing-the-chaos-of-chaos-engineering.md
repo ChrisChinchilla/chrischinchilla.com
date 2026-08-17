@@ -3,7 +3,7 @@ title: Embracing the Chaos of Chaos Engineering
 publishDate: '2018-02-22 16:15:44 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - DevOps

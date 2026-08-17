@@ -35,7 +35,7 @@ export const SITE_CATEGORIES: SiteCategory[] = [
 export type CategoryContentType = {
   slug: string;
   label: string;
-  collection: 'posts' | 'books' | 'podcasts' | 'av' | 'stories' | 'games' | 'clients' | 'newsletters' | 'music';
+  collection: 'posts' | 'books' | 'podcasts' | 'av' | 'stories' | 'games' | 'newsletters' | 'music' | 'software';
   listStyle: 'grid' | 'list';
   pageSize: number;
 };
@@ -47,9 +47,9 @@ export const CATEGORY_CONTENT_TYPES: CategoryContentType[] = [
   { slug: 'videos', label: 'Videos', collection: 'av', listStyle: 'list', pageSize: 30 },
   { slug: 'stories', label: 'Stories', collection: 'stories', listStyle: 'grid', pageSize: 30 },
   { slug: 'games', label: 'Games', collection: 'games', listStyle: 'grid', pageSize: 30 },
-  { slug: 'clients', label: 'Clients', collection: 'clients', listStyle: 'list', pageSize: 25 },
   { slug: 'newsletters', label: 'Newsletters', collection: 'newsletters', listStyle: 'list', pageSize: 25 },
   { slug: 'music', label: 'Music', collection: 'music', listStyle: 'grid', pageSize: 15 },
+  { slug: 'software', label: 'Software', collection: 'software', listStyle: 'grid', pageSize: 25 },
 ];
 
 export type CategoryContentTypeWithEntries = CategoryContentType & {
@@ -113,6 +113,17 @@ export const getEntryCategories = (entry: ArchiveEntry): string[] => {
 
   if (categories.size === 0 && entry.collection === 'music') {
     categories.add('music');
+  }
+
+  // Software entries are always tech, regardless of their (mostly tool-name) tags.
+  if (entry.collection === 'software') {
+    categories.add('tech');
+  }
+
+  // Stories always belong to the writing category, regardless of their genre tags
+  // (e.g. fiction/fantasy/horror), which never match the site taxonomy on their own.
+  if (entry.collection === 'stories') {
+    categories.add('writing');
   }
 
   return [...categories];
@@ -195,33 +206,33 @@ export const getEntryDate = (entry: ArchiveEntry): Date | undefined => {
 
 export const getEntryImage = (entry: ArchiveEntry): unknown => entry.data?.image ?? entry.data?.heroimage;
 
-export const getEntryHref = (entry: ArchiveEntry): string => {
+export const getEntryHref = (entry: ArchiveEntry): string | undefined => {
   const data = entry.data ?? {};
 
   if (typeof data.publication_url === 'string' && data.publication_url) return data.publication_url;
   if (typeof data.company_url === 'string' && data.company_url) return data.company_url;
   if (typeof data.affiliate_url === 'string' && data.affiliate_url) return data.affiliate_url;
+  if (Array.isArray(data.store_urls) && data.store_urls[0]?.url) return data.store_urls[0].url;
 
+  // Only these collections have a real internal detail page - `games`, `av`, and the
+  // markdown `podcasts` collection don't (their listings link out via store_urls/
+  // publication_url above, or - for games/av with neither - have no per-entry page at all).
   switch (entry.collection) {
     case 'posts':
       return `/blog/${entry.id}`;
     case 'books':
       return `/books/${entry.id}`;
-    case 'podcasts':
-      return `/podcast/${entry.id}`;
-    case 'av':
-      return `/videos/${entry.id}`;
     case 'stories':
       return `/stories/${entry.id}`;
-    case 'games':
-      return `/games/${entry.id}`;
     case 'newsletters':
       return `/newsletter/${entry.id}`;
     case 'music':
       return `/music/${entry.id}`;
+    case 'software':
+      return `/software/${entry.id}`;
     case 'clients':
       return '/clients';
     default:
-      return '/';
+      return undefined;
   }
 };

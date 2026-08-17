@@ -2,7 +2,7 @@
 title: 'TV for Cats, Skull Squadron, Radiant City - The Tote'
 publishDate: 2008-04-28T16:23:50.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -3,7 +3,7 @@ title: MySamaris flyer
 publishDate: 2012-06-03T00:00:00.000Z
 image: articles/mysamaris.jpg
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Merchandise

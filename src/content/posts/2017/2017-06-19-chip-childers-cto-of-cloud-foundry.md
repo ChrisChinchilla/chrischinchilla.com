@@ -3,7 +3,7 @@ title: 'Chatting With Chip Childers, CTO of Cloud Foundry'
 publishDate: 2017-06-19T00:00:00.000Z
 image: articles/CloudFoundryCorp_vertical.svg.png
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - DevOps

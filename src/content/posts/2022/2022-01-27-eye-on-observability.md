@@ -3,6 +3,7 @@ title: An eye on observability for January 2022
 publishDate: 2022-01-27T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing chronosphere
 tags:
   - Observability

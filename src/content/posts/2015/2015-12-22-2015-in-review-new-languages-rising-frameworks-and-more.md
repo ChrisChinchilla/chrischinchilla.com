@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/2015-in-review-new-languages-rising-frameworks-and-more/
 image: articles/image-2015-in-review.png
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Mobile

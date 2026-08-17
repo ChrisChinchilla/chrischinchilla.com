@@ -2,7 +2,7 @@
 title: 'Drupal Melbourne meetup, Sep 2013'
 publishDate: 2013-09-11T10:55:26.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Events

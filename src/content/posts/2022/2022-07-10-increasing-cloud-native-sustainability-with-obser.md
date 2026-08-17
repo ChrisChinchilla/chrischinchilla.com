@@ -3,7 +3,7 @@ title: Increasing Cloud-Native Sustainability With Observability
 publishDate: 2022-07-10T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Cloud Native

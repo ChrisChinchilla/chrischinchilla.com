@@ -3,8 +3,8 @@ title: KendoUI T-Shirt
 publishDate: 2013-12-10T00:00:00.000Z
 image: "articles/kentshirt.jpg"
 categories:
- - writing
- - chrischinchilla
+  - tech
+  - chrischinchilla
 tags:
  - merchandise
  - conferences

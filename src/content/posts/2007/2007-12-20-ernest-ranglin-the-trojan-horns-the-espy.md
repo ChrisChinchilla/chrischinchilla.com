@@ -2,7 +2,7 @@
 title: 'Ernest Ranglin, The Trojan Horns - The Espy'
 publishDate: 2007-12-20T19:15:26.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

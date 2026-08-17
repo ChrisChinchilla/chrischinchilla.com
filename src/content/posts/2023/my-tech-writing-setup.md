@@ -4,7 +4,7 @@ publishDate: 2023-05-17T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://chrischinchilla.medium.com/my-tech-writing-setup-75bcbcb9cf19'
 categories:
-  - writing
+  - tech
 tags:
   - macos
   - version control

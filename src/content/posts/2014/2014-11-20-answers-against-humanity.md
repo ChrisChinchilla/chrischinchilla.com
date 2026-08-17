@@ -2,6 +2,8 @@
 title: Answers Against Humanity
 publishDate: 2014-11-20T00:00:00.000Z
 categories:
+  - tech
+  - games
   - projects
   - software
 tags:

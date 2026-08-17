@@ -3,7 +3,7 @@ title: How to Market Blockchain With Consensys and Lisk
 publishDate: '2018-07-18 13:01:01 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Blockchain

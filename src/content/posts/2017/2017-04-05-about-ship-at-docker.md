@@ -3,7 +3,7 @@ title: About Ship at Docker
 publishDate: '2017-05-04 10:13:30 +0100'
 image: articles/pYgBswUk.jpg
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Docker

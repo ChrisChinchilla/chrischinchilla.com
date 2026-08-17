@@ -3,6 +3,7 @@ title: Why Zalando built their Internal Developer Platform‍
 publishDate: 2020-10-12T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing humanitec
 tags:
   - Dx

@@ -3,20 +3,22 @@ import { Pagination } from 'accessible-astro-components';
 
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import Post from '~/components/Post.astro';
 import Story from '~/components/Story.astro';
 import Book from '~/components/Book.astro';
 import Game from '~/components/Game.astro';
-import Client from '~/components/Client.astro';
 import Newsletter from '~/components/Newsletter.astro';
 import Music from '~/components/Music.astro';
 import Course from '~/components/Course.astro';
 import Podcast from '~/components/Podcast.astro';
+import Software from '~/components/Software.astro';
 import {
   SITE_CATEGORIES,
   type CategoryContentType,
   getCategoryContentTypes,
   getCategoryTypePermalink,
+  getEntryHref,
 } from '~/utils/content-categories';
 
 type RouteProps = {
@@ -90,9 +92,24 @@ const isGridLayout = contentType.listStyle === 'grid';
 const sectionClass = isGridLayout
   ? 'px-4 py-16 mx-auto max-w-6xl lg:py-20'
   : 'px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl';
+
+const getEntryName = (entry: any): string => {
+  const title = entry.data?.title ?? entry.data?.event ?? entry.id;
+  return Array.isArray(title) ? title[0] : title;
+};
+
+const itemListData = {
+  name: meta.title,
+  description: meta.description,
+  items: page.data.map((entry: any) => ({
+    name: getEntryName(entry),
+    url: getEntryHref(entry),
+  })),
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class={sectionClass}>
     <Headline subtitle={meta.description}>
       {meta.title}
@@ -110,6 +127,8 @@ const sectionClass = isGridLayout
               <Music release={entry} />
             ) : contentType.collection === 'games' ? (
               <Game game={entry} />
+            ) : contentType.collection === 'software' ? (
+              <Software software={entry} />
             ) : (
               <Story story={entry} />
             )
@@ -121,7 +140,6 @@ const sectionClass = isGridLayout
             <li class="mb-12 md:mb-20">
               {contentType.collection === 'books' && <Book book={entry} />}
               {contentType.collection === 'games' && <Game game={entry} />}
-              {contentType.collection === 'clients' && <Client client={entry} />}
               {contentType.collection === 'newsletters' && <Newsletter newsletter={entry} />}
               {contentType.collection === 'music' && <Music release={entry} />}
               {contentType.collection === 'av' && <Course course={entry} />}

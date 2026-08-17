@@ -2,7 +2,7 @@
 title: Murder by Death - Water Rats
 publishDate: 2006-11-14T01:11:59.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

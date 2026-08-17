@@ -3,6 +3,7 @@ title: Create a &quot;Hello World&quot; fullstack dapp
 publishDate: '2019-10-12 07:24:18 UTC'
 author: Chris Ward
 categories:
+  - tech
   - writing kauri
 tags:
   - Smart-Contract

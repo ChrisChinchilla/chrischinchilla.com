@@ -5,7 +5,7 @@ tags:
   - Cycling
   - Accident
 categories:
-  - writing
+  - tech
   - chrischinchilla
 summary: >-
   I suffered a uniquely Melbourne (and several other Cities) injury yesterday, I

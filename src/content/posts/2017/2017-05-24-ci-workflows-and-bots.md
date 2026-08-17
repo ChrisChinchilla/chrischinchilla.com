@@ -3,7 +3,7 @@ title: CI Workflows and Bots
 publishDate: '2017-05-24 15:15:12 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - codeship
 tags:
   - Development

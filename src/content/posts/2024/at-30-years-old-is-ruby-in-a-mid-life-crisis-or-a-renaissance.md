@@ -5,7 +5,7 @@ author: Chris Ward
 publication_url: >-
   https://thenextweb.com/news/at-30-years-old-is-ruby-in-a-mid-life-crisis-or-a-renaissance
 categories:
-  - writing
+  - tech
 tags:
   - Ruby
   - Programming

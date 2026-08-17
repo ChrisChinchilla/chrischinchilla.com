@@ -3,7 +3,7 @@ title: Heroku Logging and Coralogix
 publishDate: 2017-07-28T00:00:00.000Z
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 categories:
-  - writing
+  - tech
   - coralogix
 tags:
   - Logging

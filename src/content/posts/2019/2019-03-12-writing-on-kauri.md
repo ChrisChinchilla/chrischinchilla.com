@@ -3,6 +3,7 @@ title: Writing on Kauri
 publishDate: '2019-03-12 16:53:43 UTC'
 author: Chris Ward
 categories:
+  - tech
   - writing kauri
 tags:
   - Help

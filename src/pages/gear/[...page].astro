@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import Gear from '~/components/Gear.astro';
 import { getCollection, render } from 'astro:content';
 
@@ -27,9 +28,19 @@ const meta = {
   title: 'Gear',
   description: 'The hardware and software I use for content creation, music production, and other work. Contains affiliate links.',
 };
+
+const itemListData = {
+  name: 'Gear',
+  description: meta.description,
+  items: page.data.map((gear) => ({
+    name: gear.data.title,
+    url: `/gear/${gear.id}`,
+  })),
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
     <Headline subtitle={meta.description}>
       {meta.title}

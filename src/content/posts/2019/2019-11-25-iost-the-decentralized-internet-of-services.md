@@ -3,7 +3,7 @@ title: IOST — The Decentralized Internet of Services
 publishDate: 2019-11-25T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Blockchain

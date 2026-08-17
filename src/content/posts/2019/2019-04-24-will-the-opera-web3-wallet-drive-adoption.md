@@ -3,6 +3,7 @@ title: Will the Opera web3 wallet drive adoption?
 publishDate: '2019-04-24 02:16:11 UTC'
 author: Chris Ward
 categories:
+  - tech
   - writing kauri
 tags:
   - Opera

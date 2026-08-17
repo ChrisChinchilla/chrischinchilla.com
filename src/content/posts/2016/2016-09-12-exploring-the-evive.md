@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/building-an-all-in-one-book-sized-iot-device-with-evive/
 image: articles/evive.png
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Arduino

@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/premium/screencasts/real-world-use-cases-of-nosql-databases
 image: articles/nosql.png
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Nosql

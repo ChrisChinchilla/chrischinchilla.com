@@ -1,5 +1,12 @@
 ---
 title: Lean Startup Melbourne Jan 2014
+categories:
+  - tech
+tags:
+  - Melbourne
+  - Startups
+  - Event
+  - Work
 publishDate: 2014-01-29T07:30:47.000Z
 summary: >-
   This was a great session with a myriad of conflicting opinions and points of

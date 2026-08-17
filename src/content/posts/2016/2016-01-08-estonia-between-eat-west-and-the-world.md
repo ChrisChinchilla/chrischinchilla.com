@@ -5,7 +5,7 @@ link: >-
   https://thenextweb.com/insider/2016/01/08/estonia-between-east-west-and-the-world/
 image: articles/image-estonia.jpg
 categories:
-  - writing
+  - tech
   - thenextweb
 tags:
   - Estonia

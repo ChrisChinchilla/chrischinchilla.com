@@ -2,7 +2,7 @@
 title: Mattafix - Cool Down the Place
 publishDate: 2006-09-26T13:17:17.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

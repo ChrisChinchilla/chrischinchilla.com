@@ -3,6 +3,7 @@ title: An eye on observability for July 2021
 publishDate: 2021-08-03T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing chronosphere
 tags:
   - Observability

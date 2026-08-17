@@ -2,8 +2,11 @@
 title: 'Global Space Odyssey, Leipzig 2014'
 publishDate: 2014-07-12T16:46:13.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - News
+  - Event
 summary: >-
   I just took part in my first rally in Leipzig (and Germany), The '<a
   href="https://www.gso-le.de/" target="_blank">Global Space Odyssey</a>',

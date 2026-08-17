@@ -5,7 +5,7 @@ author: Chris Ward
 publication_url: >-
   https://medium.com/macoclock/creating-narrative-story-timelines-with-aeon-timeline-9261f3065f21
 categories:
-  - writing
+  - tech
 tags:
   - macos
   - version control

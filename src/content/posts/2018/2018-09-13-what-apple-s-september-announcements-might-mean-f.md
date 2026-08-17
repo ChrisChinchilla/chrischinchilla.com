@@ -3,7 +3,7 @@ title: What Apple&#39;s September Announcements Might Mean for Developers
 publishDate: '2018-09-13 20:46:02 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Apple

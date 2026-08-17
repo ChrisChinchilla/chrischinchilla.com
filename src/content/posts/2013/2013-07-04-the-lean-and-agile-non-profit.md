@@ -1,5 +1,11 @@
 ---
 title: The lean and agile non profit
+categories:
+  - tech
+tags:
+  - Agile
+  - Tech
+  - Enterprise
 publishDate: 2013-07-04T01:57:38.000Z
 summary: >-
   I&#39;m working on a book/presentation/series of workshops/who knows what

@@ -2,7 +2,7 @@
 title: The Television personalities - The Barfly
 publishDate: 2006-03-24T03:59:37.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

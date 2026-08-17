@@ -2,7 +2,7 @@
 title: Delta Mainline - Dublin Castle
 publishDate: 2006-11-14T01:15:09.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

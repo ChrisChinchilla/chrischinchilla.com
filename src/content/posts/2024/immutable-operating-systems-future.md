@@ -4,7 +4,7 @@ publishDate: 2024-09-06T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://thenextweb.com/news/immutable-operating-systems-future'
 categories:
-  - writing
+  - tech
 tags:
   - Operating systems
   - Immutable

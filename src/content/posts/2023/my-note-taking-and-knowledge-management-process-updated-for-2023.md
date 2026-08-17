@@ -5,7 +5,7 @@ author: Chris Ward
 publication_url: >-
   https://chrischinchilla.medium.com/my-note-taking-and-knowledge-management-process-updated-for-2023-d570ffaf61f0
 categories:
-  - writing
+  - tech
 tags:
   - macos
   - version control

@@ -1,5 +1,12 @@
 ---
 title: Melbourne Geek night Nov 2013
+categories:
+  - tech
+tags:
+  - Melbourne
+  - Web
+  - Design
+  - Devices
 publishDate: 2013-11-21T21:07:05.000Z
 summary: >-
   It seems as the year draws to an end, we&#39;re having some of the best talks!

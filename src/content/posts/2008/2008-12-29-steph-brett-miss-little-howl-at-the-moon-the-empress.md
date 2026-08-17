@@ -2,7 +2,7 @@
 title: 'Steph Brett, Miss Little, Howl at the Moon  - The Empress'
 publishDate: 2008-12-29T22:55:32.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

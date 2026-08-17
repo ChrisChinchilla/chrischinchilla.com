@@ -3,6 +3,7 @@ title: The Benefits of Containerization
 publishDate: 2020-04-24T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing humanitec
 tags:
   - DevOps

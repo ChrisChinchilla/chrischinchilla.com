@@ -6,7 +6,7 @@ tags:
   - Books
   - Cycling
 categories:
-  - writing
+  - tech
   - chrischinchilla
 summary: >-
   It's hard to effectively review a guide to cycle paths in South East

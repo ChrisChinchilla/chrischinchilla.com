@@ -2,8 +2,12 @@
 title: eLance big idea Melbourne
 publishDate: 2014-02-01T21:53:12.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Melbourne
+  - Event
+  - Pitching
 summary: >-
   This was a strange event for a couple of reasons, firstly it didn't run very
   smoothly with lots of minor technical issues and delays that made the event

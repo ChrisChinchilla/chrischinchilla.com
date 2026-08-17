@@ -4,7 +4,7 @@ publishDate: '2017-04-11 10:13:30 +0100'
 image: >-
   articles/AAEAAQAAAAAAAA16AAAAJDZkYmU2ODM0LWZiZWQtNDc5NS1hMTYxLWM3MTM2ZjBmODI5NQ.jpg
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Kotlin

@@ -4,7 +4,7 @@ title: >-
   Club
 publishDate: 2010-01-03T14:54:56.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

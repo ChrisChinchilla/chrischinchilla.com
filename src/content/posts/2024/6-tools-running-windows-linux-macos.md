@@ -3,7 +3,7 @@ title: 6 tools for running Windows & Linux on macOS
 publishDate: 2024-08-07T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Emulation
   - Virtualization

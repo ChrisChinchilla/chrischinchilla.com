@@ -3,8 +3,10 @@ title: Drupal 7 webform cookbook
 publishDate: 2012-08-08T22:03:24.000Z
 image: articles/drupal7-webform-cookbook.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Drupal
 summary: >-
   Webform is a module that has equal parts lovers and haters... On one hand it
   makes creating complex forms with no technical knowledge extremely easy. On

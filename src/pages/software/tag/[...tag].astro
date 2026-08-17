@@ -1,0 +1,53 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import Software from '~/components/Software.astro';
+import { getCollection } from 'astro:content';
+import { groupTagsBySlug } from '~/utils/permalinks';
+
+export async function getStaticPaths() {
+  const allSoftware = await getCollection('software');
+  const allTags = allSoftware.map((item) => item.data.tags ?? []).flat();
+  const slugToTags = groupTagsBySlug(allTags);
+
+  return [...slugToTags.entries()].map(([slug, originalTags]) => {
+    const filteredSoftware = allSoftware.filter((item) =>
+      item.data.tags?.some((t) => originalTags.has(t))
+    );
+    const displayTag = [...originalTags].sort()[0];
+    return {
+      params: { tag: slug },
+      props: { softwareItems: filteredSoftware, originalTag: displayTag },
+    };
+  });
+}
+
+const { softwareItems, originalTag } = Astro.props;
+
+const meta = {
+  title: originalTag,
+  description: `Software tagged with ${originalTag}`,
+};
+
+const itemListData = {
+  name: `Software: ${originalTag}`,
+  description: meta.description,
+  items: softwareItems.map((software) => ({
+    name: software.data.title,
+    url: `/software/${software.id}`,
+  })),
+};
+---
+
+<Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {softwareItems.map((software) => <Software software={software} />)}
+    </div>
+  </section>
+</Layout>

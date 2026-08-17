@@ -1,5 +1,12 @@
 ---
 title: The lean and agile non profit
+categories:
+  - tech
+tags:
+  - Agile
+  - Tech
+  - Work
+  - Trends
 publishDate: 2013-05-13T03:59:47.000Z
 summary: >-
   &nbsp;<p class="p1">What can the non-profit sector learn from from the tech

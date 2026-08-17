@@ -4,7 +4,7 @@ publishDate: 2015-11-30T00:00:00.000Z
 publication_url: 'https://crate.io/a/backing-up-and-restoring-crate/'
 image: articles/opengraph.png
 categories:
-  - writing
+  - tech
   - crate
 tags:
   - Databases

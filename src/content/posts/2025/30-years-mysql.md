@@ -3,7 +3,7 @@ title: At 30 years old, can MySQL Revamp Itself for the AI Age?
 publishDate: 2025-08-14T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Databases
   - Mysql

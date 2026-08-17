@@ -3,7 +3,7 @@ title: 7 alternative text editors and IDEs for macOS
 publishDate: 2024-11-15T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - IDE
   - Text Editor

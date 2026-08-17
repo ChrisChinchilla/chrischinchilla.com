@@ -1,5 +1,11 @@
 ---
 title: 'Talking CiviCRM at Joomla!Day Melbourne, 20th Jan'
+categories:
+  - tech
+tags:
+  - Civicrm
+  - Melbourne
+  - Joomla
 publishDate: 2013-01-13T23:58:12.000Z
 summary: >-
   Completing the tricefta of talking about <a href="https://civicrm.org"

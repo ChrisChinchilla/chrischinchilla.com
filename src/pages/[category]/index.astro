@@ -1,0 +1,139 @@
+---
+import Layout from '~/layouts/PageLayoutNoBG.astro';
+import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import Post from '~/components/Post.astro';
+import Story from '~/components/Story.astro';
+import Book from '~/components/Book.astro';
+import Game from '~/components/Game.astro';
+import Newsletter from '~/components/Newsletter.astro';
+import Music from '~/components/Music.astro';
+import Course from '~/components/Course.astro';
+import Podcast from '~/components/Podcast.astro';
+import Software from '~/components/Software.astro';
+import {
+  SITE_CATEGORIES,
+  type SiteCategory,
+  type CategoryContentTypeWithEntries,
+  getCategoryContentTypes,
+  getCategoryTypePermalink,
+  getEntryHref,
+} from '~/utils/content-categories';
+
+const PREVIEW_COUNT = 5;
+
+const toPodcastCardItem = (entry: any): any => {
+  const title = entry.data?.title ?? entry.id;
+  const normalizedTitle = Array.isArray(title) ? title : [title];
+  const imageSource =
+    typeof entry.data?.image === 'string'
+      ? entry.data.image
+      : entry.data?.image?.src;
+
+  return {
+    title: normalizedTitle,
+    image: imageSource ? { att_href: imageSource } : undefined,
+    summary: entry.data?.description ?? entry.data?.summary ?? '',
+  };
+};
+
+const getEntryName = (entry: any): string => {
+  const title = entry.data?.title ?? entry.data?.event ?? entry.id;
+  return Array.isArray(title) ? title[0] : title;
+};
+
+export async function getStaticPaths() {
+  return Promise.all(
+    SITE_CATEGORIES.map(async (category) => ({
+      params: { category: category.slug },
+      props: { category, contentTypes: await getCategoryContentTypes(category.slug) },
+    }))
+  );
+}
+
+const { category, contentTypes } = Astro.props as {
+  category: SiteCategory;
+  contentTypes: CategoryContentTypeWithEntries[];
+};
+
+const meta = {
+  title: category.title,
+  description: category.description,
+};
+
+const sections = contentTypes.map((contentType) => {
+  const preview = contentType.entries.slice(0, PREVIEW_COUNT);
+  return {
+    contentType,
+    preview,
+    isGridLayout: contentType.listStyle === 'grid',
+    viewAllHref: getCategoryTypePermalink(category.slug, contentType.slug),
+    itemListData: {
+      name: `${category.title}: ${contentType.label}`,
+      items: preview.map((entry: any) => ({
+        name: getEntryName(entry),
+        url: getEntryHref(entry),
+      })),
+    },
+  };
+});
+---
+
+<Layout {meta}>
+  {sections.map(({ itemListData }) => (
+    <StructuredData slot="head" type="ItemList" data={itemListData} />
+  ))}
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
+    <Headline subtitle={meta.description}>
+      {meta.title}
+    </Headline>
+
+    {
+      sections.map(({ contentType, preview, isGridLayout, viewAllHref }) => {
+        return (
+          <section class="mb-16">
+            <div class="flex items-center justify-between mb-6">
+              <h2 class="text-2xl font-subheading font-semibold">{contentType.label}</h2>
+              <a href={viewAllHref} class="text-primary hover:underline font-medium whitespace-nowrap ml-4">
+                View all {contentType.label.toLowerCase()} &rarr;
+              </a>
+            </div>
+
+            {isGridLayout ? (
+              <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+                {preview.map((entry: any) =>
+                  contentType.collection === 'posts' ? (
+                    <Post post={entry} />
+                  ) : contentType.collection === 'books' ? (
+                    <Book book={entry} />
+                  ) : contentType.collection === 'music' ? (
+                    <Music release={entry} />
+                  ) : contentType.collection === 'games' ? (
+                    <Game game={entry} />
+                  ) : contentType.collection === 'software' ? (
+                    <Software software={entry} />
+                  ) : (
+                    <Story story={entry} />
+                  )
+                )}
+              </div>
+            ) : (
+              <ul>
+                {preview.map((entry: any) => (
+                  <li class="mb-12 md:mb-20">
+                    {contentType.collection === 'books' && <Book book={entry} />}
+                    {contentType.collection === 'games' && <Game game={entry} />}
+                    {contentType.collection === 'newsletters' && <Newsletter newsletter={entry} />}
+                    {contentType.collection === 'music' && <Music release={entry} />}
+                    {contentType.collection === 'av' && <Course course={entry} />}
+                    {contentType.collection === 'podcasts' && <Podcast podcast={toPodcastCardItem(entry)} />}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+        );
+      })
+    }
+  </section>
+</Layout>

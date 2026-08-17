@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/premium/tutorials/displaying-images-on-your-android-interface
 image: articles/android-interface.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Android

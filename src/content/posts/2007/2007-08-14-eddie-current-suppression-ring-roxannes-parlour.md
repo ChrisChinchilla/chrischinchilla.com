@@ -1,5 +1,10 @@
 ---
 title: Eddie Current Suppression Ring - Roxanne's Parlour
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-08-14T17:52:40.000Z
 summary: >-
   Eddie Current Suppression Ring (Henceforth ECSR or this review will go on for

@@ -1,5 +1,12 @@
 ---
 title: 'Melbourne Geek night, September 2013'
+categories:
+  - tech
+tags:
+  - Melbourne
+  - Writing
+  - Web
+  - Marketing
 publishDate: 2013-09-20T08:09:55.000Z
 summary: >-
   <p align="left">The speaker line ups and topics keep getting better for the

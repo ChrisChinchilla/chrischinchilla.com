@@ -4,8 +4,12 @@ publishDate: 2015-09-30T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/creating-pdfs-from-markdown-with-pandoc-and-latex/'
 image: articles/image-pandoc-latex.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
+tags:
+  - Markdown
+  - Pandoc
+  - Latex
 summary: >-
   If you've read some of my previous posts on SitePoint or elsewhere, you may
   know that I'm working on a board game. In the game, called Chip Shop, you get

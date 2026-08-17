@@ -3,6 +3,7 @@ title: How PagerDuty and Chronosphere work together to help you get alerted fast
 publishDate: 2021-11-18T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing chronosphere
 tags:
   - Alerting

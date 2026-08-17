@@ -2,7 +2,7 @@
 title: Big Strides - Always Together
 publishDate: 2007-02-26T00:00:00.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

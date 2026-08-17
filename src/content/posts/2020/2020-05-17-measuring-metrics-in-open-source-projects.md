@@ -3,7 +3,7 @@ title: Measuring Metrics in Open-Source Projects
 publishDate: 2020-05-17T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Open Source

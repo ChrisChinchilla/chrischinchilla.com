@@ -2,7 +2,7 @@
 title: Early Gray - Wesley Anne
 publishDate: 2007-07-07T00:02:22.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -2,8 +2,12 @@
 title: 'Dec 19th Updates, refining concepts'
 publishDate: 2015-01-10T14:58:27.000Z
 categories:
+  - games
   - projects
   - chipshop
+tags:
+  - Gamedesign
+  - Games
 summary: >-
   This update is more behind the scenes updates I'm afraid, I have been working
   on the product release and event cards, making very good progress. However I

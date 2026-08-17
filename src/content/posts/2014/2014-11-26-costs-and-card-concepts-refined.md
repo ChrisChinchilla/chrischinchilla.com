@@ -2,6 +2,7 @@
 title: Costs and Card concepts Refined
 publishDate: 2014-11-26T00:00:00.000Z
 categories:
+  - games
   - projects
   - chipshop
 tags:

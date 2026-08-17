@@ -2,7 +2,7 @@
 title: Los Valentines - Cities of Gold
 publishDate: 2010-01-03T14:48:59.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

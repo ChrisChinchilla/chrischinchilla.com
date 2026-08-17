@@ -2,7 +2,9 @@
 title: Becoming the First Cyborgs With Liviu Babitz
 publishDate: 2017-07-21T00:00:00.000Z
 image: articles/liviubabbitz.jpeg
-categories: writing dzone
+categories:
+  - tech
+  - dzone
 tags:
   - Wearables
   - Cyborgs

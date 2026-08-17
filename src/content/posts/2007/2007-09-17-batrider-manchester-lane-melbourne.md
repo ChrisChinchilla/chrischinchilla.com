@@ -1,5 +1,10 @@
 ---
 title: 'Batrider - Manchester Lane, Melbourne'
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-09-17T20:36:58.000Z
 summary: >-
   Let's talk about loop pedals. These little boxes of tricks are popping up

@@ -2,7 +2,13 @@
 title: Review of The Iron Heel by Jack London
 publishDate: 2015-02-03T10:57:13.000Z
 image: articles/the-iron-heel.png
-categories: projects odtwe
+categories:
+  - writing
+  - odtwe
+tags:
+  - Review
+  - Fiction
+  - Reading
 summary: >-
   As part of my research in projects odtwe I have been reading some classics of
   utopian and dystopian fiction. Most recently I completed Jack London's The

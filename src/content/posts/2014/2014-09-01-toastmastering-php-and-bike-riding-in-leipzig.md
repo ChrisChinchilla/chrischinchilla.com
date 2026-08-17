@@ -1,5 +1,12 @@
 ---
 title: 'Toast(mastering), PHP and Bike Riding in Leipzig'
+categories:
+  - tech
+tags:
+  - php
+  - Event
+  - Meetups
+  - Melbourne
 publishDate: 2014-09-01T05:42:07.000Z
 summary: >-
   <p class="p1"><span style="line-height: 1.538em;">Phew, quite a week! I

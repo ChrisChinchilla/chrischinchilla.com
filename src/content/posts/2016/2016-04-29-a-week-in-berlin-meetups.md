@@ -5,7 +5,7 @@ publication_url: >-
   https://medium.com/@ChrisChinchilla/a-week-in-berlin-meetups-29th-april-d392b505a75a#.sgy49u2qy
 image: articles/berlin_meetups.jpg
 categories:
-  - writing
+  - tech
   - theweeklysqueak
 tags:
   - Berlin

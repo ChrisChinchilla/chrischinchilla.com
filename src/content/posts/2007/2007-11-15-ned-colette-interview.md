@@ -1,5 +1,10 @@
 ---
 title: Ned Colette - Interview
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-11-15T20:26:38.000Z
 summary: >-
   <strong>When, why and how did you get into music?</strong><br />  My Dad is

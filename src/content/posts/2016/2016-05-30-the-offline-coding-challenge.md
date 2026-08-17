@@ -7,7 +7,7 @@ publication_url: >-
   https://hackernoon.com/the-offline-coding-challenge-theoretical-concepts-in-videos-and-beginner-coders-wanted-626674c3fbc9#.25lbm2hfk
 image: articles/confusedchinch.png
 categories:
-  - writing
+  - tech
   - hackernoon
 tags:
   - Coding

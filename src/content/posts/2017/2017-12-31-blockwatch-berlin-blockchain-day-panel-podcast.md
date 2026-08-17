@@ -3,7 +3,7 @@ title: 'Blockwatch- Berlin Blockchain Day Panel [Podcast]'
 publishDate: '2017-12-31 06:01:02 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Blockchain

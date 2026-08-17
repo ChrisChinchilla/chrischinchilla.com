@@ -2,7 +2,9 @@
 title: Sustaining and Maintaining your Not-for-Profit
 publishDate: 2015-09-09T00:00:00.000Z
 image: articles/notforprofitfpimage.png
-categories: projects not-profit-handbook
+categories:
+  - writing
+  - not-profit-handbook
 tags:
   - Not-For-Profit
 summary: >-

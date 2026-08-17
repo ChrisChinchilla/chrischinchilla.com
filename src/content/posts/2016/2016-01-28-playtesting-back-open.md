@@ -2,6 +2,7 @@
 title: Play Testing is Open Again
 publishDate: '2016-01-28'
 categories:
+  - games
   - projects
   - chipshop
 image: articles/image-playtesting-is-open-again.jpg

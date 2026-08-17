@@ -4,7 +4,7 @@ publishDate: 2021-07-15T00:00:00.000Z
 image: >-
   articles/internal-developer-platform-self-service-chris-ward.jpg
 categories:
-  - writing
+  - tech
   - techbeacon
 tags:
   - DevOps

@@ -1,5 +1,12 @@
 ---
 title: Lean Startup Melbourne - Jon Teo
+categories:
+  - tech
+tags:
+  - Melbourne
+  - Tech
+  - Australia
+  - Funding
 publishDate: 2013-11-01T22:06:56.000Z
 summary: >-
   Jonathan Teo (originally from Sydney) from General Catalyst Partners, a

@@ -2,8 +2,10 @@
 title: Launch of Startup Victoria
 publishDate: 2014-04-29T23:54:44.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Startups
 summary: >-
   There was a panel discussion at tonight's launch but it was really all about
   launching Victoria's peak body for startups, entrepreneurs and founders

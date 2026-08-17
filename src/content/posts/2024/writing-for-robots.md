@@ -3,6 +3,7 @@ title: Writing for robots – How to optimise your writing for LLMs
 publishDate: 2024-04-23T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing
 tags:
   - AI

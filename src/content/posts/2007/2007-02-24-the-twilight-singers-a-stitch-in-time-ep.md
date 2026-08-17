@@ -2,7 +2,7 @@
 title: The Twilight Singers - A Stitch in Time EP
 publishDate: 2007-02-24T00:00:00.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -3,6 +3,7 @@ title: An Introduction to PromQL
 publishDate: 2021-05-27T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing chronosphere
 tags:
   - Observability

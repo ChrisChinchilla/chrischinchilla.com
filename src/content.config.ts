@@ -281,6 +281,18 @@ const gear = defineCollection({
   }),
 });
 
+const software = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/software' }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string().optional(),
+    project_url: z.string().url().optional(),
+    category: z.string().optional(),
+    categories: z.array(z.string()).optional(),
+    tags: z.array(z.string()).optional(),
+  }),
+});
+
 export const collections = {
   posts: posts,
   clients: clients,
@@ -294,4 +306,5 @@ export const collections = {
   stories: stories,
   supportLinks: supportLinks,
   gear: gear,
+  software: software,
 };

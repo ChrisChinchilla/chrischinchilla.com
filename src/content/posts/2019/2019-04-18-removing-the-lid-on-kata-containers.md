@@ -3,7 +3,7 @@ title: Removing the Lid on Kata Containers
 publishDate: '2019-04-18 17:01:02 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Runc

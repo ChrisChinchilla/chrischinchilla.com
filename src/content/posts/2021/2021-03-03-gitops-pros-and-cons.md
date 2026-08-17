@@ -3,6 +3,7 @@ title: The Pros and Cons of GitOps
 publishDate: 2021-03-03T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing humanitec
 tags:
   - Kubernetes

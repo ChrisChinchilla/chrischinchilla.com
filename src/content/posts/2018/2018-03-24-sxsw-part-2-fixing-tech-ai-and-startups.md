@@ -3,7 +3,7 @@ title: 'SXSW Part 2- Fixing Tech, AI, and Startups'
 publishDate: '2018-03-24 05:01:50 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - AI

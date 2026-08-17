@@ -3,7 +3,7 @@ title: JetBrains' Writerside - A Tech Writing IDE
 publishDate: 2024-07-25T00:00:00.000Z
 author: Chris Chinchilla
 categories:
-  - writing
+  - tech
 tags:
   - IDE
   - JetBrains

@@ -2,7 +2,7 @@
 title: Security and design thinking
 publishDate: 2013-08-27T22:09:36.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Events

@@ -5,7 +5,7 @@ publication_url: >-
   https://hackernoon.com/healthy-travel-working-on-the-road-and-the-inefficiency-of-travel-ab40e43c9298
 image: articles/images.jpg
 categories:
-  - writing
+  - tech
   - hackernoon
 tags:
   - Tech

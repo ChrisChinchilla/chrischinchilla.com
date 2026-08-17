@@ -1,5 +1,9 @@
 ---
 title: What do you know - April 2014
+categories:
+  - tech
+tags:
+  - Web
 publishDate: 2014-04-07T02:37:29.000Z
 summary: >-
   Another great 'What do you know' session from <a

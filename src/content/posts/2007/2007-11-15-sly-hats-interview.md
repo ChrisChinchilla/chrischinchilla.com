@@ -1,5 +1,12 @@
 ---
 title: Sly Hats - Interview
+categories:
+  - music
+tags:
+  - Interview
+  - Music
+  - Australia
+  - Melbourne
 publishDate: 2007-11-15T20:23:29.000Z
 summary: >-
   Geoff O'Conner is one of a multitude of Melbournian musicians with a penchant

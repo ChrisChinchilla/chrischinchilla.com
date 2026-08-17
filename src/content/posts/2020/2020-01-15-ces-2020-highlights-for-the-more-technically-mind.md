@@ -3,7 +3,7 @@ title: CES 2020 — Highlights for the More Technically Minded
 publishDate: 2020-01-15T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Ces 2020

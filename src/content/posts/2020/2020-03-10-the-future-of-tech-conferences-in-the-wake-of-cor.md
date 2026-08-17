@@ -3,7 +3,7 @@ title: The Future of Tech Conferences in the Wake of Coronavirus
 publishDate: 2020-03-10T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Coronavirus

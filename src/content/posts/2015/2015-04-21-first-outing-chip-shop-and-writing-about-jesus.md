@@ -3,8 +3,12 @@ publishDate: 2015-04-21T00:00:00.000Z
 title: Adding Accessories
 images: back-card.jpg card-packs.jpg cards-out.jpg"
 categories:
+  - games
   - projects
   - chipshop
+tags:
+  - Gamedesign
+  - Games
 summary: >-
   Last week I presented Chip Shop at an event here in Berlin. I was woefully
   unprepared and just had my laptop, showing a few screens and telling people

@@ -2,8 +2,13 @@
 title: Hands on with Lollipop
 publishDate: 2014-12-04T14:38:09.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Android
+  - Design
+  - Notifications
+  - Google
 summary: >-
   I've had Lollipop (Android 5) on my phone for about ten days now, so it seemed
   like a good time to report back on my feelings and experiences with this new,

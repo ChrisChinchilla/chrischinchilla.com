@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/web-summit-2016-iot-learning-chatbots-biohacking-more/
 image: articles/web-summit.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Events

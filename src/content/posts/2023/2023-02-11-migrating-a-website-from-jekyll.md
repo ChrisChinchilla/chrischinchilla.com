@@ -4,7 +4,7 @@ publishDate: 2023-02-11T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://medium.com/geekculture/migrating-a-website-from-jekyll-to-54f0bea3de7a'
 categories:
-  - writing
+  - tech
 tags:
   - jekyll
   - websites

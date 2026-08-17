@@ -4,7 +4,7 @@ publishDate: 2016-04-27T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/introducing-the-swift-package-manager/'
 image: articles/Screenshot-2016.png
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - iOS

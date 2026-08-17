@@ -3,7 +3,7 @@ title: 'Fluree- Blockchain, GraphQL, and More- All in One Database'
 publishDate: '2019-05-21 13:45:05 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Blockchain

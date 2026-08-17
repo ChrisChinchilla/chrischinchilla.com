@@ -1,5 +1,10 @@
 ---
 title: Carus & The True Believers - Three Boxes
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-10-04T16:10:49.000Z
 summary: >-
   A folk hero belonging truly to the old school, Carus has chalked up an average

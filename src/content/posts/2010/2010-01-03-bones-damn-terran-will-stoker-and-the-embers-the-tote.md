@@ -2,7 +2,7 @@
 title: 'Bones, Damn Terran, Will Stoker and the Embers - The Tote'
 publishDate: 2010-01-03T14:46:41.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -3,8 +3,12 @@ title: Effective PDF Generation with Drupal
 publishDate: 1970-08-22T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/effective-pdf-generation-drupal/'
 categories:
-  - writing
+  - tech
   - sitepoint
+tags:
+  - Drupal
+  - Pdf
+  - personal
 summary: >-
   A few months ago I had a client requirement for PDF generation, in this case
   to generate certificates that could be viewed online or printed. I spent some

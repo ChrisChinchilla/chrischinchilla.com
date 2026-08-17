@@ -2,7 +2,7 @@
 title: 'Weekly Squeak, 9th September - Apple vs the Prosumer'
 publishDate: '2016-09-10 21:44:51 +0200'
 categories:
-  - writing
+  - tech
   - theweeklysqueak
 tags:
   - Apple

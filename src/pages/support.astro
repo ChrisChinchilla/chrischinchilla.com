@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
 // import { Icon } from 'astro-icon/components';
 import ContentImage from '~/components/common/ContentImage.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 import defaultPostImage from '/src/assets/images/defaults/book-chinchilla.jpg';
 import { getCollection } from 'astro:content';
 
@@ -22,9 +23,19 @@ const coreSupportLinks = await getCollection('supportLinks', ({ data }) => {
 const affiliateSupportLinks = await getCollection('supportLinks', ({ data }) => {
   return data.section === 'affiliate';
 });
+
+const itemListData = {
+  name: 'Support',
+  description: meta.description,
+  items: [...coreSupportLinks, ...affiliateSupportLinks].map((supportLink) => ({
+    name: supportLink.data.title || supportLink.data.name,
+    url: supportLink.data.affiliate_link,
+  })),
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
     <Headline subtitle={meta.description}>
       {meta.title}

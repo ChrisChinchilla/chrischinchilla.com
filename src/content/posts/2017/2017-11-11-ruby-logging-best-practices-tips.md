@@ -3,7 +3,7 @@ title: Ruby logging best practices and tips
 publishDate: 2017-11-11T00:00:00.000Z
 image: articles/ruby-logo.png
 categories:
-  - writing
+  - tech
   - coralogix
 tags:
   - Logging

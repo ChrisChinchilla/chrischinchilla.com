@@ -3,6 +3,7 @@ title: What is Continuous Integration?
 publishDate: 2018-11-08T13:59:23.016Z
 image: articles/what-is-continuous-integration.png
 categories:
+  - tech
   - writing exoscale
 author: Chris Ward
 tags:

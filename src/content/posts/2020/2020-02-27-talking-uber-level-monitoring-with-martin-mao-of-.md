@@ -3,7 +3,7 @@ title: Talking Uber-Level Monitoring With Martin Mao of M3 and Chronosphere
 publishDate: 2020-02-27T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - M3

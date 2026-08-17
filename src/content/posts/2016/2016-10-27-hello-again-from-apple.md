@@ -1,5 +1,12 @@
 ---
 title: Live Blogging Hello Again from Apple
+categories:
+  - tech
+tags:
+  - Apple
+  - Berlin
+  - Mac
+  - Event
 publishDate: '2016-10-27 19:04:02 +0200'
 summary: >-
   I'm sat at an Apple event in Berlin and there's not many people here, which

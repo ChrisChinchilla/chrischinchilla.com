@@ -1,5 +1,9 @@
 ---
 title: Drupal 7 Multi-sites configuration - Matt Butcher
+categories:
+  - tech
+tags:
+  - Drupal
 publishDate: 2012-06-25T11:17:37.000Z
 image: articles/drupal7multisite.png
 summary: >-

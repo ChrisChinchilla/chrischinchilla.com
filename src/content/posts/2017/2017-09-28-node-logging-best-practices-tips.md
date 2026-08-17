@@ -3,7 +3,7 @@ title: Node logging best practices and tips
 publishDate: 2017-09-28T00:00:00.000Z
 image: articles/nodejs.jpg
 categories:
-  - writing
+  - tech
   - coralogix
 tags:
   - Logging

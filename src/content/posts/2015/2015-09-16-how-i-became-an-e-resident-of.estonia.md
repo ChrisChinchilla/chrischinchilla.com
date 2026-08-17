@@ -7,6 +7,11 @@ image: articles/image-becoming-an-eresident-estonia.jpg
 categories:
   - writing
   - sitepoint
+tags:
+  - Estonia
+  - Travel
+  - Life
+  - Business
 summary: >-
   I've lived in three countries in my life, and I travel on a regular basis. I
   wouldn't go as far as to say that we should have global open borders, but

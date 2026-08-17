@@ -3,7 +3,7 @@ title: 'What Can Musicians and Programmers Learn From Each Other? [Audio]'
 publishDate: '2017-11-10 15:01:40 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Agile

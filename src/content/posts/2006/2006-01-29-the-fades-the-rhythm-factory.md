@@ -2,7 +2,7 @@
 title: The Fades - The Rhythm Factory
 publishDate: 2006-01-29T16:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

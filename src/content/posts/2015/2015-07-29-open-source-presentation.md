@@ -4,7 +4,7 @@ publishDate: 2015-07-29T00:00:00.000Z
 publication_url: 'https://www.sitepoint.com/open-source-presentation/'
 image: articles/image-opensource-presentation-tools.jpg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Revealjs

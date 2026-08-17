@@ -4,7 +4,7 @@ publishDate: 2023-05-02T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://chrischinchilla.medium.com/kubecon-back-to-business-722007516c02'
 categories:
-  - writing
+  - tech
 tags:
   - macos
   - version control

@@ -2,7 +2,7 @@
 title: Bearsuit - Highbury Buffalo Bar
 publishDate: 2005-10-11T13:45:18.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

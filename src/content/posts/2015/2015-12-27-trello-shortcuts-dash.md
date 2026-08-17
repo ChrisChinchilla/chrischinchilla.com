@@ -2,6 +2,7 @@
 title: Trello Shortcuts for Dash
 publishDate: 2015-12-27T00:00:00.000Z
 categories:
+  - tech
   - projects
   - software
 tags:

@@ -1,7 +1,10 @@
 ---
 title: 'Payment and Production blocks, Favicons and more'
 publishDate: 2015-02-14T08:37:18.000Z
-categories: projects
+categories:
+  - writing
+tags:
+  - Updates
 summary: >-
   Quite a lot of small updates, tweaks and additions to the various Gregarious
   Mammal sites, here they are.

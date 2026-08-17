@@ -1,5 +1,10 @@
 ---
 title: The Drones - Interview
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-11-15T20:31:28.000Z
 summary: >-
   The Drones are an Australian Indie institution, but largely unknown outside of

@@ -1,5 +1,12 @@
 ---
 title: 'Leads, musicians gear and technical gubbins for sale / free'
+categories:
+  - tech
+  - music
+tags:
+  - Apple
+  - Guitar
+  - Share
 publishDate: 2014-06-14T02:30:06.000Z
 summary: >-
   Not a post I would usually share, but it seemed the easiest way of getting

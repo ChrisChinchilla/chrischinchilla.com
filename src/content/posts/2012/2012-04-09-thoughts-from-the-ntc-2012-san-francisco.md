@@ -3,8 +3,13 @@ title: Thoughts from the NTC 2012 / San Francisco
 publishDate: 2012-04-09T21:32:34.000Z
 image: articles/12ntc_banner.jpg
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Conferences
+  - Australia
+  - Service
+  - culture
 summary: >-
   As is usual from my blog posts, this may or may not grow as I remember
   things&hellip;<ul><li>The visual discrepancy between rich and poor in San

@@ -2,7 +2,7 @@
 title: 'New Work, New Amp'
 publishDate: '2007-09-01T18:13:01+00:00'
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

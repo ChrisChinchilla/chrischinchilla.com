@@ -3,8 +3,11 @@ title: Feature-zilla! Will Featureful Kill Usable on the Web?
 publishDate: 2014-01-23T05:16:42.000Z
 publication_url: 'https://www.sitepoint.com/featureful-vs-usable/'
 categories:
-  - writing
+  - tech
   - sitepoint
+tags:
+  - Web
+  - Microsoft
 summary: When did you last use the references feature in Microsoft Word?
 ---
 

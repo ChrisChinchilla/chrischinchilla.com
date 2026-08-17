@@ -1,5 +1,12 @@
 ---
 title: 'Schvendes - Ding Dong, Melbourne'
+categories:
+  - writing
+tags:
+  - Melbourne
+  - Work
+  - medium
+  - Rest
 publishDate: 2007-09-17T20:35:03.000Z
 summary: >-
   Landing the opening slot is a daunting and unenviable task for any band,

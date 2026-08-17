@@ -1,5 +1,10 @@
 ---
 title: 'NinetyNine - Worlds Of Space, Worlds Of Population, Worlds Of Robots'
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-08-14T17:35:05.000Z
 summary: >-
   Ninetynine's live show is a stupendous feat of intense musicianship and song

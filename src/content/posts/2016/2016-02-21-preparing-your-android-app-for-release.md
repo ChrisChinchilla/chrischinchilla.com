@@ -5,7 +5,7 @@ publication_url: >-
   https://www.sitepoint.com/premium/screencasts/preparing-your-app-for-the-google-play-store
 image: articles/image-preparing-your-android-app-for-release.jpeg
 categories:
-  - writing
+  - tech
   - sitepoint
 tags:
   - Android

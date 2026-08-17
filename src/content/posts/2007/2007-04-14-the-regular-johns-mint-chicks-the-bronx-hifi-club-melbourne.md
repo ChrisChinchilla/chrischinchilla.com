@@ -2,7 +2,7 @@
 title: 'The Regular John''s, Mint Chicks, The Bronx - HiFi Club, Melbourne'
 publishDate: 2007-04-13T23:21:43.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

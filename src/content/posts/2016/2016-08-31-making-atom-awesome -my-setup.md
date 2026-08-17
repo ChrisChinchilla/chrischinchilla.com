@@ -5,7 +5,7 @@ publication_url: >-
   https://hackernoon.com/making-atom-even-more-awesome-my-setup-e7a89969a876#.7okd9lrnn
 image: articles/atom.png
 categories:
-  - writing
+  - tech
   - hackernoon
 tags:
   - Atom

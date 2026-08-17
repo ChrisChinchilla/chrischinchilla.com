@@ -1,7 +1,13 @@
 ---
 title: Production Updates 26th January
 publishDate: 2015-01-26T11:02:45.000Z
-categories: projects
+categories:
+  - tech
+tags:
+  - Updates
+  - Creative
+  - Git
+  - Drupal
 summary: >-
   Last week I spent time on creating some of the common elements that can be
   found across all of the Gregarious Mammal sites, this

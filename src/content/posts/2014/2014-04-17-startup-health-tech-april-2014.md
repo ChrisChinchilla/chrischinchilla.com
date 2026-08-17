@@ -2,8 +2,13 @@
 title: Startup Health Tech - April 2014
 publishDate: 2014-04-17T05:41:00.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Tech
+  - Health
+  - Melbourne
+  - Industry
 summary: >-
   I have dabbled with a little bit of work in the tech/health scene and always
   knew that Melbourne generally had a large and healthy medical ‘industry’, but

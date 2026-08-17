@@ -2,7 +2,7 @@
 title: The Hives - The Forum
 publishDate: 2009-04-28T17:43:48.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

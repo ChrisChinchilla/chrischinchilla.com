@@ -2,7 +2,9 @@
 title: Berlin Blockchain Day Panel
 publishDate: '2018-01-16 13:01:01 UTC'
 author: Chris Ward
-categories: writing dzone
+categories:
+  - tech
+  - dzone
 tags:
   - Blockchain
   - Computing

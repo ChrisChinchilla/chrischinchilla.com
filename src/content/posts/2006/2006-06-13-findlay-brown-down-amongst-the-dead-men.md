@@ -2,7 +2,7 @@
 title: Findlay Brown - Down amongst the Dead men
 publishDate: 2006-06-13T15:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

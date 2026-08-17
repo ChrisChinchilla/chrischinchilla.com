@@ -2,8 +2,10 @@
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
 
 import Newsletter from '~/components/Newsletter.astro';
+import { getEntryHref } from '~/utils/content-categories';
 import { getCollection } from 'astro:content';
 export async function getStaticPaths({ paginate }) {
   let allNewsletters = await getCollection('newsletters');
@@ -23,9 +25,19 @@ const meta = {
   // noindex: BLOG?.post?.noindex,
   // ogType: 'article',
 };
+
+const itemListData = {
+  name: 'Newsletters',
+  description: meta.description,
+  items: page.data.map((newsletter) => ({
+    name: newsletter.data.title,
+    url: getEntryHref(newsletter),
+  })),
+};
 ---
 
 <Layout {meta}>
+  <StructuredData slot="head" type="ItemList" data={itemListData} />
   <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline subtitle={meta.description}>
       {meta.title}

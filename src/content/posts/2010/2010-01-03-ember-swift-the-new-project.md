@@ -2,7 +2,7 @@
 title: Ember Swift - The New project
 publishDate: 2010-01-03T14:56:42.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

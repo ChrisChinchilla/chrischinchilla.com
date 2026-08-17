@@ -1,5 +1,10 @@
 ---
 title: WA Music showcase - The Spanish Club
+categories:
+  - music
+tags:
+  - Music
+  - Australia
 publishDate: 2007-05-18T18:57:39.000Z
 summary: >-
   Western Australia has produced some of Australia's most talented and popular

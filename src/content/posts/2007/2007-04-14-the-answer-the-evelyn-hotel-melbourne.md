@@ -2,7 +2,7 @@
 title: 'The Answer - The Evelyn Hotel, Melbourne'
 publishDate: 2007-04-13T23:29:23.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

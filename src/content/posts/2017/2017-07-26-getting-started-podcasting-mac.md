@@ -3,7 +3,8 @@ title: Podcasting 101 - What you need to get started on Mac
 publishDate: 2017-07-26T00:00:00.000Z
 image: articles/DSC0019-780x640.jpg
 categories:
-  - writing
+  - tech
+  - music
   - cultofmac
 tags:
   - Mac

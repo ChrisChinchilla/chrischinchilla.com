@@ -3,8 +3,12 @@ title: Evolve SMS
 publishDate: 2014-03-17T05:42:54.000Z
 image: articles/evolve.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Android
+  - App
+  - Apps
 summary: >-
   One of the peculiar aspects of Android is that theoretically, everything is
   replaceable. This includes phone features, which initially seems odd, the fact

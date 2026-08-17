@@ -3,7 +3,7 @@ title: Tracking the words you write with WordCounter
 publishDate: 2024-02-19T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Prodictivity
   - Writing

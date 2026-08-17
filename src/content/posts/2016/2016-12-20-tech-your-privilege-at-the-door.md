@@ -3,7 +3,7 @@ title: Tech your privilege at the door
 publishDate: '2016-12-20 09:36:36 +0200'
 image: articles/merchandise/privileged-chinchilla.png
 categories:
-  - writing
+  - tech
   - hackernoon
 tags:
   - Tech

@@ -5,7 +5,7 @@ title: >-
 publishDate: '2017-05-29 11:13:30 +0100'
 image: articles/saas.jpeg
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - macOS

@@ -2,7 +2,7 @@
 title: The Needles - In Search of The Needles
 publishDate: 2006-07-12T15:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

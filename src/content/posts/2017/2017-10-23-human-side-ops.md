@@ -3,7 +3,7 @@ title: The Human Side of Digital Operations
 publishDate: '2017-10-23 00:00:00 UTC'
 publication_url: 'https://www.pagerduty.com/blog/human-side-digital-operations/'
 categories:
-  - writing
+  - tech
 tags:
   - DevOps
 image: articles/human-side-digital-ops.jpg

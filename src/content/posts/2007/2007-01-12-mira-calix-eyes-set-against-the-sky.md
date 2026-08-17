@@ -2,7 +2,7 @@
 title: Mira Calix - Eyes Set against the Sky
 publishDate: 2007-01-12T03:59:37.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

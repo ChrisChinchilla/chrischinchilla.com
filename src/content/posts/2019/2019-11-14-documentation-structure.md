@@ -3,6 +3,7 @@ title: Documentation structure
 publishDate: '2019-11-14 14:13:05 UTC'
 author: Chris Ward
 categories:
+  - tech
   - writing kauri
 tags:
   - Writing

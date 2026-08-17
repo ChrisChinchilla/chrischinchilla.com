@@ -2,7 +2,7 @@
 title: The Album Leaf - Into the Blue again
 publishDate: 2006-09-19T07:18:07.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

@@ -1,5 +1,9 @@
 ---
 title: 'Snowman, The Drones - The Corner'
+categories:
+  - music
+tags:
+  - Guitar
 publishDate: 2007-11-15T20:29:47.000Z
 summary: >-
   The Drones are something of an enigma, they posses an extremely loyal and

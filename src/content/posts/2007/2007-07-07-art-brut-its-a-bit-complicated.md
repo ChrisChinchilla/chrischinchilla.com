@@ -2,7 +2,7 @@
 title: Art Brut - It's a bit Complicated
 publishDate: 2007-07-07T00:13:52.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

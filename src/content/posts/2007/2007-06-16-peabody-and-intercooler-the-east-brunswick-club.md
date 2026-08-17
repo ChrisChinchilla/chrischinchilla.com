@@ -2,7 +2,7 @@
 title: Peabody & Intercooler - The East Brunswick Club
 publishDate: 2007-06-16T17:36:17.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

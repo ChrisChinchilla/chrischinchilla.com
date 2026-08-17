@@ -3,7 +3,7 @@ title: OpenStack Stein- Kubernetes and Bare Metal
 publishDate: 2019-04-23T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Openstack

@@ -1,5 +1,10 @@
 ---
 title: I Heart Hiroshima - Interview
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-10-04T16:20:26.000Z
 summary: >-
   I Heart Hiroshima are one of many Australian bands operating on independent

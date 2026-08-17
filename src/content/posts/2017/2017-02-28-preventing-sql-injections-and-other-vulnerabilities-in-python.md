@@ -3,7 +3,7 @@ title: Preventing SQL injections in Python (and other vulnerabilities)
 publishDate: '2017-02-28 18:13:30 +0100'
 image: articles/sql-python.jpg
 categories:
-  - writing
+  - tech
   - sqreen
 tags:
   - Programming

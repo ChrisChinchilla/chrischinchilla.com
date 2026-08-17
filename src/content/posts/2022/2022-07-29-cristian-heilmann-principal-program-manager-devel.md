@@ -2,7 +2,8 @@
 title: Cristian Heilmann - Principal Program Manager Developer Tools at Microsoft
 publishDate: '2022-07-29 09:26:58 UTC'
 author: ''
-categories: video
+categories:
+  - tech
 tags:
   - Dx
 orig_url: 'https://www.youtube.com/watch?v=QD7L45ZfmjY'

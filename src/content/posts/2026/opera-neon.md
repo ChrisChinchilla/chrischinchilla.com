@@ -3,7 +3,7 @@ title: Testing Neon - Opera's agentic browser
 publishDate: 2026-03-04T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - AI
   - agentic browsers

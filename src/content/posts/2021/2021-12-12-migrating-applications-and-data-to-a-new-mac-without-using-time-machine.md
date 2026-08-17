@@ -3,7 +3,7 @@ title: Migrating applications and data to a new Mac without using Time Machine
 publishDate: 2021-12-12T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - macOS
   - Backup

@@ -3,7 +3,7 @@ title: Cleaning Cloud Storage with CleanMyMac
 publishDate: 2026-01-24T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Mac
   - Mac Utilities

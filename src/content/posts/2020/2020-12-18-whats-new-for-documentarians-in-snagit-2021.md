@@ -3,7 +3,7 @@ title: What's new for documentarians in Snagit 2021
 publishDate: 2020-12-18T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Documentation
   - Screenshots

@@ -3,7 +3,7 @@ title: Ready for Bionic Beaver? What&#39;s New in Ubuntu 18.04
 publishDate: '2018-05-01 09:03:11 UTC'
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - Ubuntu

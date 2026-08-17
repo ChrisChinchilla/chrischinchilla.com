@@ -2,7 +2,7 @@
 title: The Immediate - Scala
 publishDate: 2006-06-29T15:10:36.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

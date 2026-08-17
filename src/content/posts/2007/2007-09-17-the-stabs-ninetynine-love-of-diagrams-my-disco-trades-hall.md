@@ -1,5 +1,10 @@
 ---
 title: 'The Stabs, NinetyNine, Love of Diagrams, My Disco - Trades Hall'
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-09-17T20:32:24.000Z
 summary: >-
   It's a busy weekend for all age's shows and there is something very strange

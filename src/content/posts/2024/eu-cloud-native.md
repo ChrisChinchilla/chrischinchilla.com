@@ -4,7 +4,7 @@ publishDate: 2024-05-02T00:00:00.000Z
 author: Chris Ward
 publication_url: 'https://thenextweb.com/news/the-future-of-cloud-native-kubernetes'
 categories:
-  - writing
+  - tech
 tags:
   - Kubernetes
   - KubeCon

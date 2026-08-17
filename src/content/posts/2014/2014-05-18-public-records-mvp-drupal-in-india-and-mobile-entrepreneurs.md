@@ -1,5 +1,12 @@
 ---
 title: 'Public records, MVP, Drupal in India and mobile entrepreneurs'
+categories:
+  - tech
+tags:
+  - Mobile
+  - Drupal
+  - Startups
+  - Melbourne
 publishDate: 2014-05-17T23:56:13.000Z
 summary: >-
   <p class="p1"><span style="line-height: 1.538em;">It&rsquo;s been a busy week

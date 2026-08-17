@@ -3,6 +3,7 @@ title: Developer Experience - How to Define Good Documentation?
 publishDate: 2021-02-10T00:00:00.000Z
 author: Chris Ward
 categories:
+  - tech
   - writing humanitec
 tags:
   - Developer Experience

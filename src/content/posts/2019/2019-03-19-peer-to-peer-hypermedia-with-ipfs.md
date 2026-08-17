@@ -3,6 +3,7 @@ title: Peer-to-peer hypermedia with IPFS
 publishDate: '2019-03-19 18:47:26 UTC'
 author: Chris Ward
 categories:
+  - tech
   - writing kauri
 tags:
   - Server

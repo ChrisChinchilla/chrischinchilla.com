@@ -1,5 +1,10 @@
 ---
 title: 'Sir, Sly Hats, Guy Blackman - Northcote Social Club'
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-11-15T20:27:47.000Z
 summary: >-
   It's a lazy Sunday afternoon after a seemingly long weekend as music fans

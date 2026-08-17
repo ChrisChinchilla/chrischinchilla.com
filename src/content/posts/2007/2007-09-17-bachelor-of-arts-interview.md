@@ -1,5 +1,10 @@
 ---
 title: Bachelor of Arts - Interview
+categories:
+  - music
+tags:
+  - Music
+  - Reviews
 publishDate: 2007-09-17T20:38:50.000Z
 summary: >-
   Angus Tarnawsky and Bill Forshaw, the drums and guitar of Bachelor of Arts

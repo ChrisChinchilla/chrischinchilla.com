@@ -3,7 +3,7 @@ title: Revisiting Desktop Linux- Drowning in the Deep End
 publishDate: 2019-12-16T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
   - dzone
 tags:
   - macOS

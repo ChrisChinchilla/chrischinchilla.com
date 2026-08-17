@@ -4,8 +4,12 @@ publishDate: 2015-07-28T05:16:42.000Z
 publication_url: 'https://crate.io/blog/crate-unicast-host-discovery-dns-aws/'
 image: articles/image-crate-adds-unicast.png
 categories:
-  - writing
+  - tech
   - crate
+tags:
+  - API
+  - Dns
+  - Service
 summary: >-
   A well functioning Crate cluster relies on its nodes being able to utilize
   service discovery to become aware of each other.

@@ -6,7 +6,7 @@ tags:
   - Eurovision
   - Fanzine
 categories:
-  - writing
+  - music
   - chrischinchilla
 summary: >-
   After a surreal party on Saturday night... It had a Gangster theme, Gangster

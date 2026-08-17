@@ -3,8 +3,13 @@ title: 'Drupal Melbourne meetup, Aug 13th 2013'
 publishDate: 2013-08-14T00:57:56.000Z
 image: articles/drupalmel.png
 categories:
-  - writing
+  - tech
   - chrischinchilla
+tags:
+  - Drupal
+  - Melbourne
+  - Tools
+  - Work
 summary: >-
   Three presentations tonight, followed by usual natters at the lovely Last Jar
   afterwards.

@@ -3,7 +3,7 @@ title: Bring the power of Apple Shortcuts to Obsidian
 publishDate: 2023-12-13T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Automation
   - Apple

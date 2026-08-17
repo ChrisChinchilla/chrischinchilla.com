@@ -3,7 +3,7 @@ title: The Pixel 6. To Google or not to Google?
 publishDate: 2021-12-27T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Gadgets
   - Mobile

@@ -2,7 +2,7 @@
 title: Psychopaths and Cyclepaths
 publishDate: 2008-10-27T00:00:00.000Z
 categories:
-  - writing
+  - tech
   - chrischinchilla
 tags:
   - Cycling

@@ -2,7 +2,7 @@
 title: The Stranglers - The Palace
 publishDate: 2009-04-28T17:45:28.000Z
 categories:
-  - writing
+  - music
   - chrischinchilla
 tags:
   - Music

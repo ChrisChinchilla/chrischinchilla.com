@@ -5,7 +5,7 @@ title: >-
 publishDate: 2018-03-16T00:00:00.000Z
 author: Chris Ward
 categories:
-  - writing
+  - tech
 tags:
   - Tutorial
   - Messenger
