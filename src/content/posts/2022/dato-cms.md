@@ -9,9 +9,9 @@ tags:
   - Jamstack
 ---
 
-I'm on an endless mission to find a headless CMS that works as easily as the marketing copy claims. I love the concept. I've spent a long time building content management systems, and I got tired of the weight they add. Static site generators and markdown files solved that for a while, but they hit their own limits.
+I'm on an endless mission to find a headless CMS that works as easily as the marketing copy claims. I love the concept. I spent a long time building content management systems, and I got tired of the weight they add. Static site generators and markdown files solved that for a while, but they hit their own limits.
 
-So headless CMSs appeal to me. I've tested a few on my channel already, including Contentful and Strapi. Every time, I get let down at the same point. The editing experience is great. Then I try to render that content, and it turns out to be far more complex than I expect. This time I tried DatoCMS to see if it breaks the pattern.
+So headless CMS appeal to me. I've tested a few already, including [Contentful](https://contentful.com)] and [Strapi](https://strapi.io/)]. Every time, I get let down at the same point. The editing experience is great. Then I try to render that content, and it turns out to be far more complex than I expect. This time I tried [DatoCMS](https://www.datocms.com/)] to see if it breaks the pattern.
 
 ## Getting started
 
