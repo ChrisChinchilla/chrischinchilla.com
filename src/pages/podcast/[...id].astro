@@ -1,28 +1,12 @@
 ---
 import PodcastLayout from '~/layouts/PodcastLayout.astro';
 import Podcast from '~/components/Podcast.astro';
-import { XMLParser } from 'fast-xml-parser';
 import { getEntry } from 'astro:content';
 import { slugify } from '~/utils/slugify';
+import { getAllPodcastEpisodes } from '~/utils/podcast-feed';
 
 export async function getStaticPaths() {
-  const options = {
-    ignoreAttributes: false,
-    stopNodes: ['root.itunes:title'],
-    attributeNamePrefix: 'att_',
-    removeNSPrefix: true,
-  };
-  const parser = new XMLParser(options);
-  let allEpisodes = [];
-
-  try {
-    const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
-    const rssFeedData = await feedTest.text();
-    const parsedFeed = parser.parse(rssFeedData);
-    allEpisodes = parsedFeed?.rss?.channel?.item ?? [];
-  } catch (error) {
-    console.warn('Unable to fetch podcast feed during build:', error);
-  }
+  const allEpisodes = await getAllPodcastEpisodes();
 
   return await Promise.all(
     allEpisodes.map(async (episode) => {

@@ -11,6 +11,7 @@ import Music from '~/components/Music.astro';
 import Course from '~/components/Course.astro';
 import Podcast from '~/components/Podcast.astro';
 import Software from '~/components/Software.astro';
+import Video from '~/components/Video.astro';
 import {
   SITE_CATEGORIES,
   type SiteCategory,
@@ -21,21 +22,6 @@ import {
 } from '~/utils/content-categories';
 
 const PREVIEW_COUNT = 5;
-
-const toPodcastCardItem = (entry: any): any => {
-  const title = entry.data?.title ?? entry.id;
-  const normalizedTitle = Array.isArray(title) ? title : [title];
-  const imageSource =
-    typeof entry.data?.image === 'string'
-      ? entry.data.image
-      : entry.data?.image?.src;
-
-  return {
-    title: normalizedTitle,
-    image: imageSource ? { att_href: imageSource } : undefined,
-    summary: entry.data?.description ?? entry.data?.summary ?? '',
-  };
-};
 
 const getEntryName = (entry: any): string => {
   const title = entry.data?.title ?? entry.data?.event ?? entry.id;
@@ -112,6 +98,8 @@ const sections = contentTypes.map((contentType) => {
                     <Game game={entry} />
                   ) : contentType.collection === 'software' ? (
                     <Software software={entry} />
+                  ) : contentType.collection === 'youtube' ? (
+                    <Video video={entry} />
                   ) : (
                     <Story story={entry} />
                   )
@@ -126,7 +114,7 @@ const sections = contentTypes.map((contentType) => {
                     {contentType.collection === 'newsletters' && <Newsletter newsletter={entry} />}
                     {contentType.collection === 'music' && <Music release={entry} />}
                     {contentType.collection === 'av' && <Course course={entry} />}
-                    {contentType.collection === 'podcasts' && <Podcast podcast={toPodcastCardItem(entry)} />}
+                    {contentType.collection === 'podcast-feed' && <Podcast podcast={entry} />}
                   </li>
                 ))}
               </ul>

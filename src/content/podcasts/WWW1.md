@@ -1,3 +1,6 @@
 ---
-category: "Whiskey, Words, and Wit"
+category: 'Whiskey, Words, and Wit'
+categories:
+  - tech
 ---
+

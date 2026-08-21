@@ -1,3 +1,6 @@
 ---
-player_embed: 'a1905e32-24c5-4088-8c70-b0eb0b58e3ae'
+player_embed: a1905e32-24c5-4088-8c70-b0eb0b58e3ae
+categories:
+  - tech
 ---
+

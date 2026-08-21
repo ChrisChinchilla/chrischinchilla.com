@@ -1,3 +1,6 @@
 ---
-player_embed: '33ee0718-c11a-4842-9fcb-8d272167405a'
+player_embed: 33ee0718-c11a-4842-9fcb-8d272167405a
+categories:
+  - tech
 ---
+

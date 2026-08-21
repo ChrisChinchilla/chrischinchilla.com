@@ -210,7 +210,7 @@ const podcasts = defineCollection({
       player_embed: z.string().optional(),
       transcript: z.string().optional(),
       category: z.string().optional().default('Chinchilla Squeaks'),
-      categories: z.any().optional(),
+      categories: z.array(z.string()).optional(),
       tags: z.array(z.string()).optional(),
       publication_url: z.string().url().optional(),
 

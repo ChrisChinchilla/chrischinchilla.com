@@ -212,15 +212,54 @@ Main had moved ahead 11 commits, including social-share links (`ShareLinks.astro
 
 Note: the "Images: three sources" section above still documents the old Supabase pipeline (`supabase-images.ts`, `SupabaseImage.astro`, `PUBLIC_SUPABASE_URL`) — main's R2 migration replaced these with `r2-images.ts`/`R2Image.astro`, but this doc wasn't updated to match. Worth a follow-up pass, unrelated to the reorg work.
 
+### Done: podcast and real-video coverage in the tech category (2026-08-21)
+
+`RelatedPosts.astro` crash is fixed (confirmed via a clean full build) and `software` (open-source
+projects Chris created/contributed to) was added as a new grid content type under Tech — see
+its own section above the taxonomy notes for details. This entry covers the follow-up: podcasts
+and real YouTube videos still weren't showing anywhere in `/tech`, for two different reasons.
+
+**Podcasts**: first pass bulk-added `categories: [tech]` to all 356 files in
+`src/content/podcasts/*.md` (a slug-matched metadata overlay on real episodes fetched live from
+the Simplecast RSS feed, most files near-empty or literally 0 bytes) and pointed the `podcasts`
+taxonomy slug at that collection — it worked, but looked nothing like the real `/podcast` page,
+since `Podcast.astro` actually expects a raw RSS episode object (`podcast.title`,
+`podcast.image.att_href`, `podcast.summary`), not a sparse markdown entry. Chris asked for the
+`/tech/podcasts` archive to look identical to `/podcast`, so the source was switched to match:
+extracted the RSS fetch (previously duplicated across `podcast/[...page].astro` and
+`podcast/[...id].astro`, with slightly different XML parser options between the two - now
+unified) into a shared, memoized `src/utils/podcast-feed.ts`, and `getPodcastEpisodeEntries()` in
+`content-categories.ts` wraps each live episode the same way `getYouTubeVideoEntries()` wraps
+videos - `categories: ['tech']` attached automatically, raw episode fields preserved via spread so
+`<Podcast podcast={entry} />` renders byte-for-byte the same card as the real page. The `podcasts`
+collection's `categories: [tech]` backfill and the `getEntryHref()`/schema changes from the first
+pass are harmless leftovers (still accurate metadata) but are no longer what drives the archive -
+the `podcasts` collection itself is untouched by the taxonomy system now, only used for its
+original purpose (transcript/tag overlay on `/podcast/[...id].astro`).
+
+**Videos**: the public `/videos` page is 100% YouTube Data API-driven
+(`src/utils/youtube.ts`, playlist `PL1fnzsSshABw25W5Qscxw_gQII_MlCoOS`) with zero markdown/content-
+collection backing — there was never a file to add `categories` to. Meanwhile the *taxonomy's*
+pre-existing `videos` slug was actually mapped to the unrelated `av` collection ("Video Courses &
+Audio/Visual", e.g. Sitepoint screencasts — only 3 entries, still uncategorized and still
+invisible today, unchanged). Renamed that mapping's slug to `courses` and gave the freed-up
+`videos` slug to a new synthetic source: `getYouTubeVideoEntries()` in `content-categories.ts`
+fetches the same playlist (via the new shared `getAllYouTubeVideos()`, memoized so the build only
+hits the YouTube API once total, not once per page/category that needs it — `/videos`,
+`/videos/[id]`, and the tech archive all now share one fetch) and wraps each video in an
+entry-like object with `data.categories: ['tech']` attached automatically — there's no frontmatter
+to hand-edit, so this stands in for it. `getEntryHref()` and the two `[category]` route files'
+render branches (`<Video video={entry} />`, reusing the existing `Video.astro` card) got a
+`'youtube'` case each. All ~250+ real videos now appear under `/tech/videos`.
+
 ### Not done yet
 
-1. **`podcasts`, `videos` (av), `clients`, `newsletters` still use the row/list layout.** Same grid treatment (summary field + compact link list + `listStyle: 'grid'` + dynamic-route case) can be applied on request.
+1. **`clients`, `newsletters` still use the row/list layout.** Same grid treatment (summary field + compact link list + `listStyle: 'grid'` + dynamic-route case) can be applied on request.
 2. **`posts` has messy legacy category data.** Most posts (815+) have an empty `categories:` field; some have garbage single-line values inherited from an old WordPress export (e.g. `categories: projects odtwe`) that aren't valid YAML lists and won't match `getEntryCategories()`. Only a handful of newer 2025 posts have proper `categories: [writing]` lists. Needs real cleanup/backfill.
-3. **`podcasts`, `av`, `stories`, `clients`, `newsletters` have zero entries with a `categories`/`category` value matching the new taxonomy.** `stories` and `clients` do have `tags`, but those are unrelated free-form values (e.g. stories: "fiction"/"fantasy"; clients: "Kubernetes"/"Bazel") that don't map to tech/writing/music/games — so these collections currently produce **empty archives** on `/[category]/[contentType]` and are invisible in the new nav until frontmatter is backfilled or a mapping/fallback is added.
-4. **Old standalone listing pages still exist in parallel** with the new dynamic route: `src/pages/books/[...page].astro`, `src/pages/games/[...page].astro`, `src/pages/music/[...page].astro`, plus `stories`, `blog`, `podcast`, `videos`, `newsletter`, `clients` pages. Not yet consolidated, redirected, or removed.
+3. **`av` (now `courses` slug), `clients`, `newsletters` still have zero entries with a `categories`/`category` value matching the new taxonomy** and so are still invisible under `/[category]/[contentType]` — `stories` and `podcasts` are now fixed (see above), and `clients` was deliberately pulled out of the category system entirely and moved under "About" (see its own section above). `av`/`courses` is small (3 entries) and low-priority; a `games`/`music`-style hardcoded `tech` fallback in `getEntryCategories()` would fix it in one line whenever it's worth doing.
+4. **Old standalone listing pages still exist in parallel** with the new dynamic route: `src/pages/books/[...page].astro`, `src/pages/games/[...page].astro`, `src/pages/music/[...page].astro`, plus `stories`, `blog`, `podcast`, `videos`, `newsletter` pages. Not yet consolidated, redirected, or removed.
 5. **No redirects** from old URLs (`/books`, `/games`, `/music`) to new category-based URLs if/when those old routes get removed.
-6. **Pre-existing, unrelated bug:** `RelatedPosts.astro` throws `TypeError: currentCategories.map is not a function` on older blog posts whose `category` frontmatter is a plain string rather than an array. This aborts a full `astro build` entirely (confirmed via `npm run build`, exit code 1) before later pages (like the books archive) get generated. `astro dev` is unaffected. Not yet fixed.
 
 ### Next priorities
 
-(a) backfill `categories` frontmatter on posts/podcasts/av/stories/clients/newsletters so the new archive routes aren't empty; (b) fix the `RelatedPosts.astro` crash since it blocks production builds; (c) decide whether to keep, redirect, or delete the old standalone listing pages now that `/[category]/[contentType]` covers the same ground — confirm with Chris before deleting routes or committing to a URL redirect scheme, since that affects live site URLs/SEO.
+(a) backfill `categories` frontmatter on posts/newsletters so those archive routes aren't empty; (b) decide whether to keep, redirect, or delete the old standalone listing pages now that `/[category]/[contentType]` covers the same ground — Chris has said he'll tidy these up himself at a later date, so don't do this proactively; confirm first if asked, since it affects live site URLs/SEO.

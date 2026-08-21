@@ -2,6 +2,10 @@ import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
 
 import { getPermalink, cleanSlug } from '~/utils/permalinks';
+import { getAllYouTubeVideos } from '~/utils/youtube';
+import { getAllPodcastEpisodes, getPodcastEpisodeTitle } from '~/utils/podcast-feed';
+import { slugify } from '~/utils/slugify';
+import { VIDEO, PODCAST } from '~/config.mjs';
 
 export type SiteCategory = {
   slug: string;
@@ -35,7 +39,7 @@ export const SITE_CATEGORIES: SiteCategory[] = [
 export type CategoryContentType = {
   slug: string;
   label: string;
-  collection: 'posts' | 'books' | 'podcasts' | 'av' | 'stories' | 'games' | 'newsletters' | 'music' | 'software';
+  collection: 'posts' | 'books' | 'av' | 'stories' | 'games' | 'newsletters' | 'music' | 'software' | 'youtube' | 'podcast-feed';
   listStyle: 'grid' | 'list';
   pageSize: number;
 };
@@ -43,8 +47,18 @@ export type CategoryContentType = {
 export const CATEGORY_CONTENT_TYPES: CategoryContentType[] = [
   { slug: 'blog', label: 'Blog', collection: 'posts', listStyle: 'grid', pageSize: 30 },
   { slug: 'books', label: 'Books', collection: 'books', listStyle: 'grid', pageSize: 15 },
-  { slug: 'podcasts', label: 'Podcasts', collection: 'podcasts', listStyle: 'list', pageSize: 15 },
-  { slug: 'videos', label: 'Videos', collection: 'av', listStyle: 'list', pageSize: 30 },
+  // Real podcast episodes, fetched live from the Simplecast RSS feed rather than the
+  // markdown `podcasts` collection - that collection is a sparse, slug-matched metadata
+  // overlay (transcript/tags for some episodes), not the actual episode content, and using
+  // it here made the tech archive look nothing like the real /podcast page. See
+  // getPodcastEpisodeEntries() below.
+  { slug: 'podcasts', label: 'Podcasts', collection: 'podcast-feed', listStyle: 'list', pageSize: PODCAST.postsPerPage },
+  // Real YouTube videos, fetched live rather than from a content collection - see
+  // getYouTubeVideoEntries() below. `courses` (below) is the separate, markdown-backed
+  // `av` collection ("Video Courses & Audio/Visual") - different content, kept apart so
+  // the two don't collide on the same `videos` slug.
+  { slug: 'videos', label: 'Videos', collection: 'youtube', listStyle: 'grid', pageSize: VIDEO.postsPerPage },
+  { slug: 'courses', label: 'Video Courses', collection: 'av', listStyle: 'list', pageSize: 30 },
   { slug: 'stories', label: 'Stories', collection: 'stories', listStyle: 'grid', pageSize: 30 },
   { slug: 'games', label: 'Games', collection: 'games', listStyle: 'grid', pageSize: 30 },
   { slug: 'newsletters', label: 'Newsletters', collection: 'newsletters', listStyle: 'list', pageSize: 25 },
@@ -132,12 +146,68 @@ export const getEntryCategories = (entry: ArchiveEntry): string[] => {
 export const matchesCategory = (entry: ArchiveEntry, categorySlug: string): boolean =>
   getEntryCategories(entry).includes(cleanSlug(categorySlug));
 
+// YouTube videos have no markdown/frontmatter to hold a `categories` field, and no
+// content collection to fetch from - so instead of hand-editing per-video metadata,
+// this synthesizes an entry-like object per video with `categories: ['tech']` already
+// attached, automatically, at fetch time. All real YouTube videos land in Tech until
+// this gets more granular categorization.
+const getYouTubeVideoEntries = async (): Promise<ArchiveEntry[]> => {
+  const videos = await getAllYouTubeVideos();
+
+  return videos.map((video) => {
+    const title = video.snippet?.title ?? 'Untitled video';
+    const videoId = video.snippet?.resourceId?.videoId ?? '';
+    const id = `${slugify(title)}-${videoId}`;
+
+    return {
+      ...video,
+      id,
+      collection: 'youtube',
+      data: {
+        title,
+        publishDate: video.snippet?.publishedAt,
+        categories: ['tech'],
+      },
+    } as unknown as ArchiveEntry;
+  });
+};
+
+// Same reasoning as getYouTubeVideoEntries() above: no per-episode frontmatter to edit,
+// so `categories: ['tech']` is attached automatically at fetch time. The raw episode
+// object is preserved via spread so it still has the exact shape Podcast.astro expects
+// (podcast.title, podcast.image.att_href, podcast.summary), matching the real /podcast
+// page look, per Chris's request.
+const getPodcastEpisodeEntries = async (): Promise<ArchiveEntry[]> => {
+  const episodes = await getAllPodcastEpisodes();
+
+  return episodes.map((episode) => {
+    const title = getPodcastEpisodeTitle(episode);
+    const id = slugify(title);
+
+    return {
+      ...episode,
+      id,
+      collection: 'podcast-feed',
+      data: {
+        title,
+        publishDate: episode.pubDate,
+        categories: ['tech'],
+      },
+    } as unknown as ArchiveEntry;
+  });
+};
+
 const buildCategoryContentTypeCache = async (): Promise<Map<string, CategoryContentTypeWithEntries[]>> => {
   const entriesByCollection = new Map<string, ArchiveEntry[]>();
 
   await Promise.all(
     CATEGORY_CONTENT_TYPES.map(async (contentType) => {
-      const entries = await getCollection(contentType.collection);
+      const entries =
+        contentType.collection === 'youtube'
+          ? await getYouTubeVideoEntries()
+          : contentType.collection === 'podcast-feed'
+            ? await getPodcastEpisodeEntries()
+            : await getCollection(contentType.collection);
       entriesByCollection.set(contentType.collection, entries);
     })
   );
@@ -214,9 +284,9 @@ export const getEntryHref = (entry: ArchiveEntry): string | undefined => {
   if (typeof data.affiliate_url === 'string' && data.affiliate_url) return data.affiliate_url;
   if (Array.isArray(data.store_urls) && data.store_urls[0]?.url) return data.store_urls[0].url;
 
-  // Only these collections have a real internal detail page - `games`, `av`, and the
-  // markdown `podcasts` collection don't (their listings link out via store_urls/
-  // publication_url above, or - for games/av with neither - have no per-entry page at all).
+  // Only these collections have a real internal detail page - `games` and `av` don't
+  // (their listings link out via store_urls/publication_url above, or - with neither -
+  // have no per-entry page at all).
   switch (entry.collection) {
     case 'posts':
       return `/blog/${entry.id}`;
@@ -232,6 +302,10 @@ export const getEntryHref = (entry: ArchiveEntry): string | undefined => {
       return `/software/${entry.id}`;
     case 'clients':
       return '/clients';
+    case 'podcast-feed':
+      return `/podcast/${entry.id}`;
+    case 'youtube':
+      return `/videos/${entry.id}`;
     default:
       return undefined;
   }

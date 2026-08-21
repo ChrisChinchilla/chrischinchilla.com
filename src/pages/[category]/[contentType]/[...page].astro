@@ -13,6 +13,9 @@ import Music from '~/components/Music.astro';
 import Course from '~/components/Course.astro';
 import Podcast from '~/components/Podcast.astro';
 import Software from '~/components/Software.astro';
+import Video from '~/components/Video.astro';
+import Content from '~/components/widgets/Content.astro';
+import podcastShowImage from '~/assets/images/tech-lounge.png';
 import {
   SITE_CATEGORIES,
   type CategoryContentType,
@@ -29,21 +32,6 @@ type RouteProps = {
   };
   contentType: CategoryContentType;
   totalEntries: number;
-};
-
-const toPodcastCardItem = (entry: any): any => {
-  const title = entry.data?.title ?? entry.id;
-  const normalizedTitle = Array.isArray(title) ? title : [title];
-  const imageSource =
-    typeof entry.data?.image === 'string'
-      ? entry.data.image
-      : entry.data?.image?.src;
-
-  return {
-    title: normalizedTitle,
-    image: imageSource ? { att_href: imageSource } : undefined,
-    summary: entry.data?.description ?? entry.data?.summary ?? '',
-  };
 };
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {
@@ -93,6 +81,18 @@ const sectionClass = isGridLayout
   ? 'px-4 py-16 mx-auto max-w-6xl lg:py-20'
   : 'px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl';
 
+// Matches the header block on the real /podcast page (src/pages/podcast/[...page].astro)
+// word for word, per Chris's request that /tech/podcasts look identical to /podcast.
+const podcastShowDescription =
+  "Every two weeks, the tech lounge invites tech luminaries, entrepreneurs, and creatives from small scrappy startups and open source enthusiasts to those working in large global companies. If you're interested in deep and creative technology and conversations with some of its most interesting practitioners, this is the show for you. Come in and get yourself comfortable.";
+
+const podcastSubscribeLinks = [
+  { link: 'https://open.spotify.com/show/4esINQS7W6emShb6fwt5Vr', icon: 'simple-line-icons:social-spotify' },
+  { link: 'https://podcasts.apple.com/us/podcast/chinchilla-squeaks/id1071207052', icon: 'simple-icons:applepodcasts' },
+  { link: 'https://podcasters.amazon.com/podcasts/0b519ff4-1afe-4b46-8873-f38b51405f89', icon: 'simple-icons:amazonmusic' },
+  { link: 'https://pca.st/nNqR', icon: 'simple-icons:pocketcasts' },
+];
+
 const getEntryName = (entry: any): string => {
   const title = entry.data?.title ?? entry.data?.event ?? entry.id;
   return Array.isArray(title) ? title[0] : title;
@@ -115,6 +115,19 @@ const itemListData = {
       {meta.title}
     </Headline>
 
+    {contentType.collection === 'podcast-feed' && (
+      <Content
+        isReversed
+        content={podcastShowDescription}
+        items={podcastSubscribeLinks}
+        image={{ src: podcastShowImage, alt: 'Colorful Image' }}
+      >
+        <Fragment slot="bg">
+          <div class="absolute inset-0 bg-blue-50 dark:bg-transparent" />
+        </Fragment>
+      </Content>
+    )}
+
     {
       isGridLayout ? (
         <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
@@ -129,6 +142,8 @@ const itemListData = {
               <Game game={entry} />
             ) : contentType.collection === 'software' ? (
               <Software software={entry} />
+            ) : contentType.collection === 'youtube' ? (
+              <Video video={entry} />
             ) : (
               <Story story={entry} />
             )
@@ -143,7 +158,7 @@ const itemListData = {
               {contentType.collection === 'newsletters' && <Newsletter newsletter={entry} />}
               {contentType.collection === 'music' && <Music release={entry} />}
               {contentType.collection === 'av' && <Course course={entry} />}
-              {contentType.collection === 'podcasts' && <Podcast podcast={toPodcastCardItem(entry)} />}
+              {contentType.collection === 'podcast-feed' && <Podcast podcast={entry} />}
             </li>
           ))}
         </ul>

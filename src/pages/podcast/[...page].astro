@@ -4,32 +4,14 @@ import Headline from '~/components/blog/Headline.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import { PODCAST } from '~/config.mjs';
 import Podcast from '~/components/Podcast.astro';
-import { XMLParser } from 'fast-xml-parser';
 import { Pagination } from 'accessible-astro-components';
 import Content from '~/components/widgets/Content.astro';
 import { slugify } from '~/utils/slugify';
+import { getAllPodcastEpisodes } from '~/utils/podcast-feed';
 import showImage from '../../assets/images/tech-lounge.png';
 
-// TODO: Feels odd to duplicate calls to API for generating each individual items and the pagination?
-
 export async function getStaticPaths({ paginate }) {
-  const options = {
-    ignoreAttributes: false,
-    attributeNamePrefix: 'att_',
-    removeNSPrefix: true,
-  };
-  //TODO: As the content list is fed from the feed it renders using Astro content collections moot. Is there a better way?
-  const parser = new XMLParser(options);
-  let allEpisodes = [];
-
-  try {
-    const feedTest = await fetch('https://feeds.simplecast.com/whlwDbyc');
-    const rssFeedData = await feedTest.text();
-    const parsedFeed = parser.parse(rssFeedData);
-    allEpisodes = parsedFeed?.rss?.channel?.item ?? [];
-  } catch (error) {
-    console.warn('Unable to fetch podcast feed during build:', error);
-  }
+  const allEpisodes = await getAllPodcastEpisodes();
 
   return paginate(allEpisodes, {
     pageSize: PODCAST.postsPerPage,

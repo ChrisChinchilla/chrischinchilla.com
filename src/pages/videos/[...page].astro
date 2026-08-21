@@ -6,38 +6,10 @@ import Headline from '~/components/blog/Headline.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import { VIDEO } from '~/config.mjs';
 import { slugify } from '~/utils/slugify';
+import { getAllYouTubeVideos } from '~/utils/youtube';
 
 export async function getStaticPaths({ paginate }) {
-  const playlistId = 'PL1fnzsSshABw25W5Qscxw_gQII_MlCoOS';
-  const apiKey = import.meta.env.GOOGLE_API;
-  let allVideos = [];
-  let nextPageToken = null;
-
-  if (!apiKey) {
-    return paginate([], {
-      pageSize: VIDEO.postsPerPage,
-    });
-  }
-
-  // Fetch all videos from YouTube playlist with pagination
-  try {
-    do {
-      const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}${
-        nextPageToken ? `&pageToken=${nextPageToken}` : ''
-      }`;
-
-      const response = await fetch(url);
-      const data = await response.json();
-
-      if (data.items) {
-        allVideos = allVideos.concat(data.items);
-      }
-
-      nextPageToken = data.nextPageToken || null;
-    } while (nextPageToken);
-  } catch (error) {
-    console.warn('Unable to fetch YouTube playlist during build:', error);
-  }
+  const allVideos = await getAllYouTubeVideos();
 
   return paginate(allVideos, {
     pageSize: VIDEO.postsPerPage,

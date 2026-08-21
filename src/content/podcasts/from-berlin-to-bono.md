@@ -1,3 +1,6 @@
 ---
-player_embed: 'afb96287-01c9-469d-8aed-56427a1dbdf0'
+player_embed: afb96287-01c9-469d-8aed-56427a1dbdf0
+categories:
+  - tech
 ---
+
