@@ -1,6 +1,7 @@
 ---
 title: Elgato Stream Deck +
 summary: My go-to control surface for audio, lights, and apps, with dials and an LED strip that increasingly replace dedicated controllers.
+image: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Elgato_Stream_Deck_%2B.jpg'
 affiliate_url: https://www.amazon.com/dp/B0BJL8SJ59/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
 current: true
 tags:

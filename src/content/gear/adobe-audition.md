@@ -1,6 +1,7 @@
 ---
 title: Adobe Audition
 summary: The audio editor I use for podcasts, kept mainly thanks to a grandfathered education licence — though I'm weighing alternatives.
+image: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Adobe_Audition_CC_2026_icon.svg'
 affiliate_url: https://www.adobe.com/products/audition.html
 current: true
 tags:
