@@ -4,25 +4,18 @@ import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import Gear from '~/components/Gear.astro';
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths({ paginate }) {
   let allGear = await getCollection('gear');
   allGear = allGear.sort((a, b) => a.data.title.localeCompare(b.data.title));
 
   return paginate(allGear, {
-    pageSize: 25,
+    pageSize: 30,
   });
 }
 
 const { page } = Astro.props;
-
-const renderedItems = await Promise.all(
-  page.data.map(async (gear) => {
-    const { Content } = await render(gear);
-    return { gear, Content };
-  })
-);
 
 const meta = {
   title: 'Gear',
@@ -41,20 +34,12 @@ const itemListData = {
 
 <Layout {meta}>
   <StructuredData slot="head" type="ItemList" data={itemListData} />
-  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
-    <div>
-      {
-        renderedItems.map(({ gear, Content }) => (
-          <div class="mb-12 md:mb-20">
-            <Gear gear={gear}>
-              <Content />
-            </Gear>
-          </div>
-        ))
-      }
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {page.data.map((gear) => <Gear gear={gear} />)}
     </div>
     <Pagination
       firstPage={page.url.prev ? '/gear' : null}

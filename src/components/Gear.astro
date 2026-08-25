@@ -11,18 +11,17 @@ interface Props {
 const { gear } = Astro.props;
 ---
 
-<article class="mb-6 sm:flex sm:gap-4">
-  {gear.data.image && (
-    <div class="relative w-full h-40 sm:w-32 sm:h-32 shrink-0 mb-4 sm:mb-0 rounded drop-shadow-lg overflow-hidden">
-      <ContentImage
-        src={gear.data.image}
-        alt={gear.data.title}
-        type="gear"
-        class="object-cover w-full h-full rounded"
-      />
-    </div>
-  )}
-  <div class="min-w-0 flex-1">
+<article class="mb-6 transition px-4">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+    <ContentImage
+      src={gear.data.image}
+      alt={gear.data.title}
+      type="gear"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+    />
+  </div>
+
+  <div>
     <header>
       <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
         <a class="hover:text-primary transition ease-in duration-200" href={`/gear/${gear.id}`}>
@@ -35,8 +34,8 @@ const { gear } = Astro.props;
         )}
       </h2>
     </header>
-    <div class="prose prose-sm sm:prose-base dark:prose-invert mt-4">
-      <slot />
+    <div class="post-body body whitespace-pre-line">
+      {gear.data.summary}
     </div>
     {gear.data.affiliate_url && (
       <p class="mt-4">
