@@ -1,6 +1,7 @@
 ---
 title: Apple Mac Mini M4 Pro
 summary: My main desktop machine, chosen to consolidate USB ports, external drives, and sample libraries in one always-connected setup.
+image: 'https://upload.wikimedia.org/wikipedia/commons/1/17/M4_Mac_mini.jpg'
 affiliate_url: https://www.amazon.com/dp/B0DLBVHSLD/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
 current: true
 tags:

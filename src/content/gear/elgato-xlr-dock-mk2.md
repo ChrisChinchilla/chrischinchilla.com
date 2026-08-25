@@ -1,6 +1,7 @@
 ---
 title: Elgato XLR Dock Mk2
 summary: A hybrid USB/XLR broadcast mic I use as my main microphone on camera, balancing audio quality with on-screen visibility.
+image: 'https://elgato-assets.imgix.net/image/upload/f_auto/q_auto/v1771590861/Products/10GBQ9901%20(XLR%20Dock%20MK.2)/ATF/Wave-XLR-Dock-ATF-01.avif'
 affiliate_url: https://www.amazon.com/Elgato-Dock-Stream-Audio-Interface/dp/B0GK6MJTG3?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20&th=1
 tags:
   - Microphone

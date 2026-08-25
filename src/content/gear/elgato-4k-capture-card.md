@@ -1,6 +1,7 @@
 ---
 title: Elgato Cam Link 4K
 summary: The HDMI-to-USB capture device I use to bring my Lumix G7 into the computer as a high-quality camera source.
+image: 'https://elgato-assets.imgix.net/image/upload/f_auto/q_auto/v1770647638/Products/10GAM9901/ATF%20(new)/2026/Cam_Link_4K_ATF_01.jpg'
 affiliate_url: https://www.amazon.com/dp/B07K3FN5MR/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
 current: true
 tags:

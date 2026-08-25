@@ -1,6 +1,7 @@
 ---
 title: Adobe Premiere Pro
 summary: My main video editor for almost everything I produce, with text-based editing and AI sound enhancement now central to my workflow.
+image: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Adobe_Premiere_Pro_CC_2026_icon.svg'
 affiliate_url: https://www.adobe.com/products/premiere.html
 current: true
 tags:

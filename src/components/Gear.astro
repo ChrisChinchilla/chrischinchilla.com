@@ -1,6 +1,7 @@
 ---
 import Tags from '~/components/common/Tags.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
+import ContentImage from '~/components/common/ContentImage.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -10,38 +11,49 @@ interface Props {
 const { gear } = Astro.props;
 ---
 
-<article class="mb-6">
-  <header>
-    <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
-      <a class="hover:text-primary transition ease-in duration-200" href={`/gear/${gear.id}`}>
-        {gear.data.title}
-      </a>
-      {gear.data.current && (
-        <span class="ml-2 text-sm bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-0.5 rounded">
-          Current
-        </span>
-      )}
-    </h2>
-  </header>
-  <div class="prose prose-sm sm:prose-base dark:prose-invert mt-4">
-    <slot />
+<article class="mb-6 transition px-4">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
+    <ContentImage
+      src={gear.data.image}
+      alt={gear.data.title}
+      type="gear"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
+    />
   </div>
-  {gear.data.affiliate_url && (
-    <p class="mt-4">
-      <a
-        href={gear.data.affiliate_url}
-        class="text-primary hover:underline"
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-      >
-        Buy / Learn more →
-      </a>
-    </p>
-  )}
-  <ShareLinks title={gear.data.title} url={`/gear/${gear.id}`} summary={gear.data.summary} compact class="mt-2" />
-  {gear.data.tags && Array.isArray(gear.data.tags) && (
-    <footer class="mt-2">
-      <Tags tags={gear.data.tags} tagBase="/gear/tag" />
-    </footer>
-  )}
+
+  <div>
+    <header>
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
+        <a class="hover:text-primary transition ease-in duration-200" href={`/gear/${gear.id}`}>
+          {gear.data.title}
+        </a>
+        {gear.data.current && (
+          <span class="ml-2 text-sm bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-0.5 rounded">
+            Current
+          </span>
+        )}
+      </h2>
+    </header>
+    <div class="post-body body whitespace-pre-line">
+      {gear.data.summary}
+    </div>
+    {gear.data.affiliate_url && (
+      <p class="mt-4">
+        <a
+          href={gear.data.affiliate_url}
+          class="text-primary hover:underline"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          Buy / Learn more →
+        </a>
+      </p>
+    )}
+    <ShareLinks title={gear.data.title} url={`/gear/${gear.id}`} summary={gear.data.summary} compact class="mt-2" />
+    {gear.data.tags && Array.isArray(gear.data.tags) && (
+      <footer class="mt-2">
+        <Tags tags={gear.data.tags} tagBase="/gear/tag" />
+      </footer>
+    )}
+  </div>
 </article>

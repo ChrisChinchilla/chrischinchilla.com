@@ -1,6 +1,7 @@
 ---
 title: Vesa Shelf
 summary: A VESA-mounted shelf that fits between monitors, keeping the camera and other gear neatly out of the way.
+image: 'https://www.humancentric.com/cdn/shop/products/101-2096_angle.png?v=1656346912'
 affiliate_url: https://amzn.to/4aDOwtp
 current: true
 tags:

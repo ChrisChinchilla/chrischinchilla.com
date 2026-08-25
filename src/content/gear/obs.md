@@ -1,6 +1,7 @@
 ---
 title: OBS
 summary: The free, open-source software I use to record almost all my YouTube videos, mostly as a two-scene switcher capturing in ProRes.
+image: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/OBS_Studio_Logo.svg'
 affiliate_url: https://obsproject.com/
 current: true
 tags:

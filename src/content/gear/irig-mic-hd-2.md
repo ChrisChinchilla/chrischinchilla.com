@@ -1,6 +1,7 @@
 ---
 title: iRig Mic HD 2
 summary: A compact USB cardioid mic I used for years and still use for late-night home podcast interviews.
+image: 'https://www.ikmultimedia.com/products/irigmichd2/main-banner/regular.jpg'
 affiliate_url: https://amzn.to/3yMk033
 current: true
 tags:

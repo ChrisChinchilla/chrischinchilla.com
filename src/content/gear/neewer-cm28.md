@@ -1,6 +1,7 @@
 ---
 title: Neewer CM 28
 summary: A pair of wireless lavalier mics with onboard recording that I use for travel and field podcast interviews.
+image: 'https://eu.neewer.com/cdn/shop/products/21000052_d6038dc2-e275-4379-93f4-ea0c5c9d405a.jpg?v=1720520157'
 affiliate_url: https://www.amazon.com/dp/B0DS5NTXGL/?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20
 current: true
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Monitor-Mounted Camera Bracket
 summary: A metal clamp that slots between two monitors to position a camera at eye level — great for replacing a webcam with a proper camera.
+image: 'https://www.raubay.net/cdn/shop/files/1136_1-1.jpg?v=1779690837&width=1600'
 affiliate_url: https://www.amazon.de/s?k=monitor+mount+camera+bracket+between+screens
 tags:
   - Camera Setup
