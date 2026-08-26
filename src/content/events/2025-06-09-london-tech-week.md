@@ -1,14 +1,16 @@
 ---
-action: to hear about
-
+type: attending
 title: your projects and ideas
 event: London Tech Week
 start_date: 2025-06-09T12:20:00.000Z
 end_date: 2025-06-13T12:20:00.000Z
-venue: Berlin, Germany
-pres_url: https://londontechweek.com
+venue: 'Berlin, Germany'
+pres_url: 'https://londontechweek.com'
+summary: >-
+  Innovators. Investors. Tech giants. The visionaries applying new tech to solve
+  the world’s biggest problems. Enterprise tech leaders who are creating
+  solutions to make work easier and life more fun.
 ---
-
 Innovators. Investors. Tech giants. The visionaries applying new tech to solve the world’s biggest problems. Enterprise tech leaders who are creating solutions to make work easier and life more fun.
 
 They all come to London Tech Week to see where tech will take them next.

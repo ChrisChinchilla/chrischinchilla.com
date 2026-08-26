@@ -1,12 +1,13 @@
 ---
-action: to hear about
+type: attending
 title: your ideas and projects
 event: Open Infra Summit
-
-venue: Berlin, Germany
-pres_url: https://openinfra.dev/summit/
+venue: 'Berlin, Germany'
+pres_url: 'https://openinfra.dev/summit/'
 start_date: 2022-06-07T12:20:00.000Z
 end_date: 2022-06-09T12:20:00.000Z
+summary: >-
+  I report on the latest updates and best practices for Kubernetes and
+  Cloud-native computing.
 ---
-
 I report on the latest updates and best practices for Kubernetes and Cloud-native computing.

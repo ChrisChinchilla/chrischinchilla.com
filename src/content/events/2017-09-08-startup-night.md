@@ -1,6 +1,5 @@
 ---
-action: to hear about
-
+type: attending
 categories:
 title: your ideas and projects
 event: Startup Night

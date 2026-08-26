@@ -1,12 +1,16 @@
 ---
-action: to speak about
+type: speaking
 title: An Introduction to Developer Experience
 event: LAST Clubhouse
-
 venue: Online
-pres_source: https://clubhouse.lastconference.com/offers/jt4DeFvC
-pres_url: https://clubhouse.lastconference.com/offers/jt4DeFvC
+slides_url: 'https://clubhouse.lastconference.com/offers/jt4DeFvC'
+pres_url: 'https://clubhouse.lastconference.com/offers/jt4DeFvC'
 start_date: 2021-03-09T12:20:00.000Z
 end_date: 2021-03-09T12:20:00.000Z
+summary: >-
+  Developers are users too! In this presentation I give a quick overview of the
+  growing field of developer experience (DX), and how to tailor
+  developer-focussed projects to meet the demands and needs of this very
+  particular user group.
 ---
 Developers are users too! In this presentation I give a quick overview of the growing field of developer experience (DX), and how to tailor developer-focussed projects to meet the demands and needs of this very particular user group.

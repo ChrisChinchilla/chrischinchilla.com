@@ -253,9 +253,11 @@ export const GET = async () => {
     const date = new Date(event.data.start_date).toISOString().split('T')[0];
     const title = event.data.title ?? event.data.event;
 
-    lines.push(`## [${title}](${url})`, '', `Date: ${date}`, `Event: ${event.data.event}`);
+    lines.push(`## [${title}](${url})`, '', `Type: ${event.data.type}`, `Date: ${date}`, `Event: ${event.data.event}`);
     if (event.data.venue) lines.push(`Venue: ${event.data.venue}`);
-    if (event.data.pres_source) lines.push(`Source: ${event.data.pres_source}`);
+    if (event.data.slides_url) lines.push(`Slides: ${event.data.slides_url}`);
+    if (event.data.video_url) lines.push(`Recording: ${event.data.video_url}`);
+    if (event.data.related_post_url) lines.push(`Related post: ${event.data.related_post_url}`);
     lines.push('');
     if (event.data.summary) lines.push(event.data.summary, '');
     const body = event.body ?? '';

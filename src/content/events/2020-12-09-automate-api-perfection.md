@@ -1,13 +1,16 @@
 ---
-action: to speak about
+type: speaking
 title: Automate your APIs to perfection
 event: APIDays
-
-venue: 'online'
-pres_source: 'https://writethedocs.org/'
+venue: online
+slides_url: 'https://writethedocs.org/'
 pres_url: 'https://writethedocs.org/'
 start_date: 2020-12-07T12:20:00.000Z
 end_date: 2020-12-09T12:20:00.000Z
+summary: >-
+  API documentation can originate from many sources, and take many forms, so how
+  do you ensure that the content is accurate and crucially, works? In this
+  presentation Chris looks at options for testing, standardising, and checking
+  your API documentation is as good as your API.
 ---
-
 API documentation can originate from many sources, and take many forms, so how do you ensure that the content is accurate and crucially, works? In this presentation Chris looks at options for testing, standardising, and checking your API documentation is as good as your API.
