@@ -77,13 +77,15 @@ const events = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string().optional(),
-      action: z.string().optional(),
+      type: z.enum(['speaking', 'attending', 'organizing']).default('attending'),
       event: z.string(),
       summary: z.string().optional(),
       start_date: z.date(),
       end_date: z.date().optional(),
       venue: z.string().optional(),
-      pres_source: z.string().optional(),
+      slides_url: z.string().url().optional(),
+      video_url: z.string().url().optional(),
+      related_post_url: z.string().url().optional(),
       pres_url: z.string().optional(),
       publication_url: z.string().url().optional(),
 

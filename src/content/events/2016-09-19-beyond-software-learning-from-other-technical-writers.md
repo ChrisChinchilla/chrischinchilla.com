@@ -1,16 +1,16 @@
 ---
-action: to speak about
-
-
-
+type: speaking
 title: Beyond Software - Learning from Other Technical Writers
 event: Write The Docs EU
 start_date: 2016-09-19T10:00:00.000Z
 venue: 'Prague, Czech Republic'
-
 pres_url: 'https://www.writethedocs.org/conf/eu/2016/speakers/#speaker-chris-ward'
+summary: >-
+  Outside of my technical writing work for software projects I have been
+  creating a board game. A board game also requires mechanics to function and
+  players to clearly understand how these mechanics work to use and appreciate
+  fully.
 ---
-
 Outside of my technical writing work for software projects I have been creating a board game. A board game also requires mechanics to function and players to clearly understand how these mechanics work to use and appreciate fully.
 
 As part of my research for writing game manuals I looked at manuals for furniture, electronics, and cars to see how they explain to users how to setup and use their products.

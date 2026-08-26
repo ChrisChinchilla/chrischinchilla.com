@@ -1,12 +1,10 @@
 ---
-action: to hear about
-
-
+type: attending
 title: your ideas and projects
 event: DAppCon
-venue: Säälchen, Berlin
-pres_url: https://blockchainvis.co
+venue: 'Säälchen, Berlin'
+pres_url: 'https://blockchainvis.co'
 start_date: 2018-07-23T12:20:00.000Z
+summary: Discussions on various aspects of a decentralised future.
 ---
-
 Discussions on various aspects of a decentralised future.

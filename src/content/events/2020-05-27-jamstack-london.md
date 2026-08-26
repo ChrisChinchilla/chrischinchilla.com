@@ -1,12 +1,11 @@
 ---
-action: to hear about
+type: attending
 title: your ideas and projects
 event: JAMStack London
-
-venue: The Brewery, London
-pres_url: https://ti.to/netlify/jamstack-conf-london-2020/
+venue: 'The Brewery, London'
+pres_url: 'https://ti.to/netlify/jamstack-conf-london-2020/'
 start_date: 2020-05-27T12:20:00.000Z
 end_date: 2020-05-28T12:20:00.000Z
+summary: A two day celebration of the next generation of web apps.
 ---
-
 A two day celebration of the next generation of web apps.

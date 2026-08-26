@@ -1,16 +1,14 @@
 ---
-action: to speak about
-
-
-
+type: speaking
 title: The Future of Cardboard
 event: Quo Vadis
 start_date: 2017-04-25T11:00:00.000Z
 venue: Station Berlin
-
-pres_url: https://qvconf.com/
+pres_url: 'https://qvconf.com/'
+summary: >-
+  Games have been with us for centuries, from those that emulate battles like
+  Chess and Risk, to the intricate mysteries of Go.
 ---
-
 Games have been with us for centuries, from those that emulate battles like Chess and Risk, to the intricate mysteries of Go.
 
 In the past decades the world of boardgames has growing in popularity, breaking into the mainstream with games like Catan. However the industry is generally staunchly traditional in the way it produces and markets it's ideas.

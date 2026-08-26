@@ -1,13 +1,17 @@
 ---
-action: to speak about
+type: speaking
 title: AIAPI
 event: API Days
 start_date: 2024-12-04T12:20:00.000Z
 end_date: 2024-12-06T12:20:00.000Z
 venue: 'CNIT Forest, Paris'
-pres_url: https://www.apidays.global/paris/
+pres_url: 'https://www.apidays.global/paris/'
+summary: >-
+  API documentation is generally predictable, follows common patterns, and is
+  one of the least interesting tasks in a documentation project. It's also a
+  task that has had a degree of automatic generation tools and practices for
+  some time.
 ---
-
 API documentation is generally predictable, follows common patterns, and is one of the least interesting tasks in a documentation project. It's also a task that has had a degree of automatic generation tools and practices for some time.
 
 It sounds like a perfect use case for AI-assistive tools!

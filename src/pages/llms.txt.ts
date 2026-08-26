@@ -158,9 +158,11 @@ export const GET = async () => {
   lines.push('## Events & Talks', '');
   for (const event of sortedEvents) {
     const url = event.data.pres_url ?? `${origin}/events`;
-    lines.push(formatLink(event.data.title ?? event.data.event, url, event.data.summary));
+    const label = event.data.type === 'speaking' ? ' (speaking)' : event.data.type === 'organizing' ? ' (organizing)' : '';
+    lines.push(formatLink(`${event.data.title ?? event.data.event}${label}`, url, event.data.summary));
   }
   lines.push('');
+  lines.push(`Subscribe to upcoming events: ${origin}/events.ics`, '');
 
   // Clients — no individual detail pages exist yet, link to the client's site when available
   lines.push('## Clients', '');

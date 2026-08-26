@@ -1,14 +1,15 @@
 ---
-action: to speak about
-
-
+type: speaking
 title: Are we all doomed and what can we do about it?
 event: ChangeCon
 start_date: 2017-10-21T00:00:00.000Z
 venue: Zagreb
-pres_url: https://changecon.com/speakers/chris-ward/
+pres_url: 'https://changecon.com/speakers/chris-ward/'
+summary: >-
+  As programmers, designers, writers and those who pursue 'creative' pursuits we
+  consider ourselves mostly immune to the predicted forthcoming robot invasion
+  of our jobs.
 ---
-
 As programmers, designers, writers and those who pursue 'creative' pursuits we consider ourselves mostly immune to the predicted forthcoming robot invasion of our jobs.
 
 But should we be so confident? A recent tool released to tell you the percentage chance of robots taking your job set the percentage at 89% for technical writers. Scary news.

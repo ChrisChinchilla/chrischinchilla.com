@@ -1,14 +1,16 @@
 ---
-action: to speak about
-
-
+type: speaking
 title: Documentation beyond words
 event: Write the Docs EU
 start_date: 2017-09-10T00:00:00.000Z
-venue: Autoclub of the Czech Republic, Opletalova 1337/29, 110 00 Praha 1-Nové Město, Czechia
+venue: >-
+  Autoclub of the Czech Republic, Opletalova 1337/29, 110 00 Praha 1-Nové Město,
+  Czechia
 pres_url: 'https://www.writethedocs.org/conf/eu/2017/speakers/'
+summary: >-
+  In this presentation I will explore other ways to communicate concepts beyond
+  words to show that documentation needn't just be about technical writing.
 ---
-
 In this presentation I will explore other ways to communicate concepts beyond words to show that documentation needn't just be about technical writing.
 
 In the first part of the presentation I will briefly cover theories and principles behind forms of communication and what documentarians can learn from them. Topics such as:

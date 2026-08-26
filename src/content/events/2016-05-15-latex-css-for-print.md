@@ -1,14 +1,12 @@
 ---
-action: to speak about
-
-
-
-title: LaTeX, CSS for Print
+type: speaking
+title: 'LaTeX, CSS for Print'
 event: Oscal 16
 start_date: 2016-05-15T14:00:00.000Z
-venue: Tirana, Albania
-
-pres_url: https://oscal.openlabs.cc/
+venue: 'Tirana, Albania'
+pres_url: 'https://oscal.openlabs.cc/'
+summary: >-
+  In this presentation I'll be dragging LaTeX out of the past kicking and
+  screaming and be showing that it's actually kinda cool.
 ---
-
 In this presentation I'll be dragging LaTeX out of the past kicking and screaming and be showing that it's actually kinda cool.

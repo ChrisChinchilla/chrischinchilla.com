@@ -1,6 +1,5 @@
 ---
-action: to hear about
-
+type: attending
 categories:
 title: the latest tech news
 event: IFA

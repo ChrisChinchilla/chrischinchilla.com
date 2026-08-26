@@ -1,16 +1,17 @@
 ---
-action: to speak about
-
-
-
+type: speaking
 title: Developer Health
 event: Voxxed Days Vienna
 start_date: 2016-02-29T00:00:00.000Z
 venue: 'Cineplex, Wienerbergstraße 11, 1100, Vienna, Austria'
 pres_url: 'https://voxxeddays.com/vienna/'
-pres_source: 'https://chrischinchilla.github.io/Presentations/geek_health/voxxed_days.html'
+slides_url: 'https://chrischinchilla.github.io/Presentations/geek_health/voxxed_days.html'
+summary: >-
+  We keep up to date with the latest developments in technologies and tools. We
+  make sure to post pull requests to fix bugs we found in projects. We offer
+  helpful advice in forums to people with coding questions. We propose talks for
+  meetups and conferences to provide insight and inspiration.
 ---
-
 We keep up to date with the latest developments in technologies and tools. We make sure to post pull requests to fix bugs we found in projects. We offer helpful advice in forums to people with coding questions. We propose talks for meetups and conferences to provide insight and inspiration.
 
 All this on top of our day job.

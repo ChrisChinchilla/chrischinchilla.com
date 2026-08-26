@@ -1,15 +1,15 @@
 ---
-action: to hear about
-
-categories:
+type: attending
+categories: null
 title: the latest tech news
 event: IFA
 start_date: 2018-08-31T00:00:00.000Z
 end_date: 2018-09-03T00:00:00.000Z
-venue: Messe, Berlin
+venue: 'Messe, Berlin'
 image: ~/assets/images/default.png
-
-pres_url: https://b2b.ifa-berlin.com/
+pres_url: 'https://b2b.ifa-berlin.com/'
+summary: >-
+  Chris and cate are back at IFA, the world largest consumer electronics show to
+  see what crazy ideas the world is working on.
 ---
-
 Chris and cate are back at IFA, the world largest consumer electronics show to see what crazy ideas the world is working on.

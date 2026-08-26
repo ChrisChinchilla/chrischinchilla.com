@@ -2,7 +2,7 @@
 import { SITE } from '~/config.mjs';
 
 export interface Props {
-  type?: 'Article' | 'BlogPosting' | 'CreativeWork' | 'VideoObject' | 'PodcastEpisode' | 'Person' | 'Organization' | 'WebSite' | 'ItemList';
+  type?: 'Article' | 'BlogPosting' | 'CreativeWork' | 'VideoObject' | 'PodcastEpisode' | 'Person' | 'Organization' | 'WebSite' | 'ItemList' | 'Event';
   data?: any;
 }
 
@@ -176,6 +176,37 @@ const generateCreativeWorkSchema = (data: any) => {
   return schema;
 };
 
+const generateEventListSchema = (data: any) => {
+  const events = Array.isArray(data.events) ? data.events : [];
+  return events.map((event: any) => {
+    const schema: any = {
+      '@type': 'Event',
+      name: event.name,
+      startDate: toIsoDateString(event.startDate) ?? event.startDate,
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      eventStatus: 'https://schema.org/EventScheduled',
+    };
+
+    if (event.endDate) schema.endDate = toIsoDateString(event.endDate) ?? event.endDate;
+    if (event.url) schema.url = event.url;
+
+    if (event.venue) {
+      schema.location = {
+        '@type': 'Place',
+        name: event.venue,
+      };
+    }
+
+    if (event.type === 'speaking') {
+      schema.performer = { '@type': 'Person', name: SITE.name, url: SITE.origin };
+    } else if (event.type === 'organizing') {
+      schema.organizer = { '@type': 'Person', name: SITE.name, url: SITE.origin };
+    }
+
+    return schema;
+  });
+};
+
 const generateItemListSchema = (data: any) => {
   const items = Array.isArray(data.items) ? data.items : [];
   return {
@@ -210,6 +241,9 @@ if (type === 'Article' || type === 'BlogPosting') {
   schema = generateWebSiteSchema();
 } else if (type === 'ItemList') {
   schema = generateItemListSchema(data);
+} else if (type === 'Event') {
+  const events = generateEventListSchema(data);
+  schema = events.length > 0 ? { '@context': 'https://schema.org', '@graph': events } : undefined;
 }
 ---
 

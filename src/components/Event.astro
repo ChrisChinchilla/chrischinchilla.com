@@ -1,68 +1,107 @@
 ---
-// TODO: refactor to content collection
+import { Icon } from 'astro-icon/components';
+import { buildEventIcs } from '~/utils/ics';
+
 export interface Props {
-  title: string;
+  type: 'speaking' | 'attending' | 'organizing';
+  title?: string;
   event: string;
-  body: string;
-  pres_url: string;
-  pres_source: string;
+  summary?: string;
+  pres_url?: string;
+  slides_url?: string;
+  video_url?: string;
+  related_post_url?: string;
   start_date: Date;
-  venue: string;
+  end_date?: Date;
+  venue?: string;
 }
 
-const { title, event, body, pres_url, pres_source, start_date, venue } = Astro.props;
+const {
+  type,
+  title,
+  event,
+  summary,
+  pres_url,
+  slides_url,
+  video_url,
+  related_post_url,
+  start_date,
+  end_date,
+  venue,
+} = Astro.props;
 
-var formatted_date = start_date.toLocaleDateString('en-GB', {
-  weekday: 'long',
+const formatted_date = start_date.toLocaleDateString('en-GB', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
 
-var currentDate = new Date();
-var eventDate = new Date(start_date);
-var eventFormat = '';
-{
-  currentDate < eventDate ? (eventFormat = 'opacity-100') : (eventFormat = 'opacity-45');
-}
+const currentDate = new Date();
+const eventDate = new Date(start_date);
+const eventFormat = currentDate < eventDate ? 'opacity-100' : 'opacity-45';
+
+const typeLabel = type === 'organizing' ? 'Organizing' : type === 'speaking' ? 'Speaking' : null;
+
+const icsHref = buildEventIcs({ title: title ?? event, event, summary, venue, url: pres_url, start_date, end_date });
 ---
 
-<article class=`mb-8 md:mb-12 ${eventFormat}`>
-  <header class="mb-4">
-    <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">
-      {event}
-    </h2>
-    <div class="text-sm md:text-base text-gray-600 dark:text-gray-400 space-y-1">
-      <p class="font-medium">{formatted_date}</p>
-      <p>{venue}</p>
+<article class=`mb-6 transition px-4 ${eventFormat}`>
+  <header>
+    <div class="flex items-center gap-2 mb-2">
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight font-subheading">
+        {pres_url ? (
+          <a class="hover:text-primary transition ease-in duration-200" href={pres_url}>
+            {event}
+          </a>
+        ) : (
+          event
+        )}
+      </h2>
+      {typeLabel && (
+        <span class="text-xs font-medium uppercase tracking-wide px-2 py-0.5 rounded bg-brandBlue/10 text-brandBlue dark:bg-brandBlue/20 dark:text-brandYellow">
+          {typeLabel}
+        </span>
+      )}
     </div>
+    <i class="my-2 block">{formatted_date}{venue ? `, ${venue}` : ''}</i>
   </header>
 
-  <div class="space-y-4">
+  <div>
     {
-      pres_source && title && (
-        <div>
-          <h3 class="text-lg font-medium mb-1">
-            <a class="hover:text-primary transition ease-in duration-200" href={pres_source}>
+      type === 'speaking' && title && (
+        <p class="font-medium mb-1">
+          {slides_url ? (
+            <a class="hover:text-primary transition ease-in duration-200" href={slides_url}>
               {title}
             </a>
-          </h3>
-        </div>
+          ) : (
+            title
+          )}
+        </p>
       )
     }
 
-    {body && (
-      <div class="post-body body whitespace-pre-line">
-        {body}
-      </div>
-    )}
+    {summary && <div class="post-body body whitespace-pre-line">{summary}</div>}
 
-    {pres_url && (
-      <div class="text-sm">
-        <a class="hover:text-primary transition ease-in duration-200 break-words" href={pres_url}>
-          {pres_url}
+    <div class="flex flex-wrap gap-x-4 gap-y-1 text-sm mt-3">
+      {type === 'speaking' && video_url && (
+        <a class="inline-flex items-center gap-1 hover:text-primary transition ease-in duration-200 break-words" href={video_url}>
+          Watch recording
         </a>
-      </div>
-    )}
+      )}
+      {type === 'speaking' && related_post_url && (
+        <a class="inline-flex items-center gap-1 hover:text-primary transition ease-in duration-200 break-words" href={related_post_url}>
+          Related post
+        </a>
+      )}
+      <a
+        class="inline-flex items-center gap-1 hover:text-primary transition ease-in duration-200 break-words"
+        href={icsHref}
+        download={`${event.replace(/[^a-z0-9]+/gi, '-')}.ics`}
+      >
+        <Icon name="tabler:calendar-plus" class="w-4 h-4" />
+        Add to calendar
+      </a>
+    </div>
   </div>
 </article>

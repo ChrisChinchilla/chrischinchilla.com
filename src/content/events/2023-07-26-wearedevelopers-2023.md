@@ -1,12 +1,13 @@
 ---
-action: to hear about
+type: attending
 title: your ideas and projects
 event: We are Developers Congress 2023
-
-venue: Berlin, Germany
-pres_url: https://www.wearedevelopers.com/world-congress/
+venue: 'Berlin, Germany'
+pres_url: 'https://www.wearedevelopers.com/world-congress/'
 start_date: 2023-07-26T12:20:00.000Z
 end_date: 2023-07-28T12:20:00.000Z
+summary: >-
+  I report on the latest updates and best practices for developers of various
+  topics.
 ---
-
 I report on the latest updates and best practices for developers of various topics.

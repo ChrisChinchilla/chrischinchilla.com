@@ -70,6 +70,8 @@ export default defineConfig({
           'brand-facebook',
           'sun',
           'moon',
+          'calendar-plus',
+          'calendar-event',
         ],
         'simple-line-icons': ['social-spotify'],
         fa: ['podcast'],

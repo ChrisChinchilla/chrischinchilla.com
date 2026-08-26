@@ -1,15 +1,17 @@
 ---
-action: to speak about
-
-
+type: speaking
 title: Your Favourite New Language - The Future of Swift
 event: Voxxed Days Belgrade
 start_date: 2016-09-29T00:00:00.000Z
 venue: Bel Expo Centar
-pres_source: 'https://www.slideshare.net/chrischinchilla/the-past-present-and-future-of-swift-voxxed-belgrade-2016'
+slides_url: >-
+  https://www.slideshare.net/chrischinchilla/the-past-present-and-future-of-swift-voxxed-belgrade-2016
 pres_url: 'https://www.youtube.com/watch?v=AEYdDOHVxK0'
+summary: >-
+  Whilst open sourcing a language is nothing new, Apple's unprecedented step has
+  caused massive excitement and activity for this new language, with a flurry of
+  development and contributions.
 ---
-
 Whilst open sourcing a language is nothing new, Apple's unprecedented step has caused massive excitement and activity for this new language, with a flurry of development and contributions.
 
 In this presentation I would like to explore the current potential of Swift and what's going to be possible in the future.
