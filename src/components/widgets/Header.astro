@@ -5,51 +5,10 @@ import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import SearchBar from '~/components/common/SearchBar.astro';
 
-import { getHomePermalink, getPermalink, getAsset } from '~/utils/permalinks';
-import { SITE_CATEGORIES, getCategoryMenuLinks } from '~/utils/content-categories';
+import { getHomePermalink, getAsset } from '~/utils/permalinks';
+import { getSiteNavLinks } from '~/utils/nav-links';
 
-// TODO: Function
-type NavLeafLink = { text: string; href: string };
-type NavItem = { text: string; links: NavLeafLink[] } | NavLeafLink;
-
-const categoryMenus = await Promise.all(
-  SITE_CATEGORIES.map(async (category) => ({
-    text: category.title,
-    links: await getCategoryMenuLinks(category.slug),
-  }))
-);
-
-const links: NavItem[] = [
-  ...categoryMenus,
-  {
-    text: 'About',
-    links: [
-      {
-        text: 'Contact',
-        href: getPermalink('/contact'),
-      },
-      {
-        text: 'CV',
-        href: getPermalink('/cv'),
-      },
-      {
-        text: 'Clients',
-        href: getPermalink('/clients'),
-      },
-      {
-        text: 'Community & volunteering',
-        href: getPermalink('/community'),
-      },
-      {
-        text: 'Gear',
-        href: getPermalink('/gear'),
-      },
-    ],
-  },
-  { text: 'Support', href: getPermalink('/support') },
-  { text: 'Events', href: getPermalink('/events') },
-  { text: 'Newsletters', href: getPermalink('/newsletter') },
-];
+const links = await getSiteNavLinks();
 ---
 
 <header class="sticky top-0 z-40 flex-none mx-auto w-full transition-all ease-in duration-100" id="header">
