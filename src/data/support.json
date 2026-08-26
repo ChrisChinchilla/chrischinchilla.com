@@ -119,6 +119,15 @@
     "affiliate_html": "<script type=\"text/javascript\" src=\"https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js\" data-name=\"bmc-button\" data-slug=\"chrischinchilla\" data-color=\"#4b555c\" data-emoji=\"\" data-font=\"Lato\" data-text=\"Buy me a coffee\" data-outline-color=\"#ffffff\" data-font-color=\"#ffffff\" data-coffee-color=\"#FFDD00\" ></script>"
   },
   {
+    "slug": "keychron",
+    "title": "Great keyboards for work and play",
+    "cta": "Shop Keychron",
+    "section": "affiliate",
+    "image": "affiliate/keychron.png",
+    "description": "Keychron makes some of the best mechanical keyboards around, wired or wireless, for Mac and Windows.",
+    "affiliate_link": "https://go.chrischinchilla.com/keychron"
+  },
+  {
     "slug": "ko-fi",
     "name": "Support me on Ko-fi",
     "section": "core",
