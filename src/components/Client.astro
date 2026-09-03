@@ -1,15 +1,38 @@
 ---
 import ContentImage from '~/components/common/ContentImage.astro';
 import { type CollectionEntry } from 'astro:content';
+
 export interface Props {
   client: CollectionEntry<'clients'>;
 }
 const { client } = Astro.props;
+
+const url = client.data.company_url;
+
+const years = [client.data.start_date, client.data.end_date]
+  .filter((year): year is number => typeof year === 'number');
+const yearLabel =
+  years.length === 0
+    ? ''
+    : years[0] === years[years.length - 1]
+      ? `${years[0]}`
+      : `${years[0]}–${years[years.length - 1]}`;
+const meta = [client.data.type, yearLabel].filter(Boolean).join(', ');
+
+// No client has a `summary` field yet, so fall back to the first paragraph of the
+// body, stripped of light markdown and truncated for an even card height.
+const firstParagraph =
+  client.data.summary ??
+  (client.body ?? '')
+    .split('\n\n')
+    .map((block) => block.trim())
+    .find(Boolean) ??
+  '';
+const plain = firstParagraph.replace(/[*_`>#]|\[(.*?)\]\(.*?\)/g, '$1').replace(/\s+/g, ' ').trim();
+const cardSummary = plain.length > 220 ? plain.slice(0, 220).trimEnd() + '…' : plain;
 ---
 
-<article
-  class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2 ${client.data.current === true ? 'opacity-100' : 'opacity-55'}`}
->
+<article class={`mb-6 transition px-4 ${client.data.current === true ? 'opacity-100' : 'opacity-55'}`}>
   <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
     <ContentImage
       src={client.data.image}
@@ -19,15 +42,12 @@ const { client } = Astro.props;
     />
   </div>
 
-  <div class="mt-2">
+  <div>
     <header>
       <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading">
         {
-          client.data.company_url ? (
-            <a
-              class="hover:text-primary transition ease-in duration-200"
-              href={client.data.company_url}
-            >
+          url ? (
+            <a class="hover:text-primary transition ease-in duration-200" href={url}>
               {client.data.title}
             </a>
           ) : (
@@ -35,10 +55,10 @@ const { client } = Astro.props;
           )
         }
       </h2>
-      <i class="my-2 block">{client.data.type}</i>
+      {meta && <i class="my-2 block">{meta}</i>}
     </header>
     <div class="post-body body">
-      {client.body}
+      {cardSummary}
     </div>
   </div>
 </article>

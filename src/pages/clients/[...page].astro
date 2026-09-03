@@ -4,18 +4,18 @@ import Headline from '~/components/blog/Headline.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 
 import Client from '~/components/Client.astro';
-import { getCollection } from 'astro:content';
-// const allClients = await getCollection('clients');
+import { getCollection, type CollectionEntry } from 'astro:content';
+import type { GetStaticPaths, Page } from 'astro';
 
-export async function getStaticPaths({ paginate }) {
-    let allClients = await getCollection('clients');
-  allClients = allClients.sort((a, b) => b.data.end_date - a.data.end_date);
+export const getStaticPaths = (async ({ paginate }) => {
+  let allClients = await getCollection('clients');
+  allClients = allClients.sort((a, b) => (b.data.end_date ?? 0) - (a.data.end_date ?? 0));
   return paginate(allClients, {
     pageSize: 25,
   });
-}
+}) satisfies GetStaticPaths;
 
-const { page } = Astro.props;
+const { page } = Astro.props as { page: Page<CollectionEntry<'clients'>> };
 
 const meta = {
   title: 'Clients',
@@ -37,18 +37,12 @@ const itemListData = {
 
 <Layout {meta}>
   <StructuredData slot="head" type="ItemList" data={itemListData} />
-  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline subtitle={meta.description}>
       {meta.title}
     </Headline>
-    <ul>
-      {
-        page.data.map((client) => (
-          <li class="mb-12 md:mb-20">
-            <Client client={client} />
-          </li>
-        ))
-      }
-    </ul>
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {page.data.map((client) => <Client client={client} />)}
+    </div>
   </section>
 </Layout>

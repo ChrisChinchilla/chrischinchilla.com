@@ -100,6 +100,8 @@ const sections = contentTypes.map((contentType) => {
                     <Software software={entry} />
                   ) : contentType.collection === 'youtube' ? (
                     <Video video={entry} />
+                  ) : contentType.collection === 'podcast-feed' ? (
+                    <Podcast podcast={entry} />
                   ) : (
                     <Story story={entry} />
                   )

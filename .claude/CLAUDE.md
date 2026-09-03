@@ -252,9 +252,46 @@ to hand-edit, so this stands in for it. `getEntryHref()` and the two `[category]
 render branches (`<Video video={entry} />`, reusing the existing `Video.astro` card) got a
 `'youtube'` case each. All ~250+ real videos now appear under `/tech/videos`.
 
+### Done: clients listing switched to grid layout (2026-09-03)
+
+`/clients` (`src/pages/clients/[...page].astro`) now uses the same blog-style grid
+(`grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3`, `max-w-6xl`) instead of a
+one-per-row `<ul>`. `src/components/Client.astro` was rewritten from the wide two-column
+list card to the compact grid card: image on top (`md:h-72`), linked title, a meta line
+(`type` + a `start_date–end_date` year range), and a short blurb. No client has a `summary`
+field, so the blurb falls back to the first paragraph of the body, stripped of light
+markdown and truncated to ~220 chars. The `opacity-55` dimming for non-`current` clients is
+preserved on the card `<article>`. Tags were dropped (the old card never rendered them, and
+there are no client tag pages to link to). `getStaticPaths`/`Astro.props` got explicit
+types (same pattern as the podcast page). Clients stays list-only and outside the category
+taxonomy — this is purely the `/clients` page itself.
+
+### Done: podcast listing switched to grid layout (2026-09-03)
+
+`/podcast` (`src/pages/podcast/[...page].astro`) now renders the same blog-style grid
+(`grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3`, `max-w-6xl`) as `/blog`, `/books`,
+etc. instead of a one-episode-per-row `<ul>`. `src/components/Podcast.astro` was rewritten
+from the wide two-column list card to the compact grid card shared by
+`Post.astro`/`Story.astro`/`Music.astro`: image on top (`md:h-72`), "Tech Lounge" tag,
+linked title, date (`podcast.pubDate` via `formatShortDate`), a plain-text summary
+truncated to ~220 chars (`stripHtml` of `podcast.summary`), and `ShareLinks`. Its `Props`
+type was corrected to `PodcastEpisode` (the raw Simplecast RSS shape it actually receives)
+instead of the wrong `CollectionEntry<'podcasts'>`.
+
+To keep `/tech/podcasts` identical to `/podcast` (per the note in the video-coverage entry
+above), `podcasts` `listStyle` was flipped `'list'` → `'grid'` in `content-categories.ts`
+and a `podcast-feed` case added to the grid branch of both `[category]` route files
+(`[category]/[contentType]/[...page].astro`, `[category]/index.astro`). The now-unreachable
+`podcast-feed` entries in those files' list branches were left as harmless fallback.
+
+Note: local `npm run build`/`check`/`lint` can't fully run in this environment (TS 7 /
+ESLint 10 / rolldown-vite are ahead of the project's pins) — verified instead via `npm run
+dev` (both routes 200, grid markup present) and a partial `astro build` that compiled all
+entrypoints and rendered 1085/1167 pages before failing only on unrelated R2 image 429s.
+
 ### Not done yet
 
-1. **`clients`, `newsletters` still use the row/list layout.** Same grid treatment (summary field + compact link list + `listStyle: 'grid'` + dynamic-route case) can be applied on request.
+1. **`newsletters` still uses the row/list layout.** Same grid treatment (summary field + compact link list + `listStyle: 'grid'` + dynamic-route case) can be applied on request. (`clients` and `podcast` listings are now grid — see the Done entries above.)
 2. **`posts` has messy legacy category data.** Most posts (815+) have an empty `categories:` field; some have garbage single-line values inherited from an old WordPress export (e.g. `categories: projects odtwe`) that aren't valid YAML lists and won't match `getEntryCategories()`. Only a handful of newer 2025 posts have proper `categories: [writing]` lists. Needs real cleanup/backfill.
 3. **`av` (now `courses` slug), `clients`, `newsletters` still have zero entries with a `categories`/`category` value matching the new taxonomy** and so are still invisible under `/[category]/[contentType]` — `stories` and `podcasts` are now fixed (see above), and `clients` was deliberately pulled out of the category system entirely and moved under "About" (see its own section above). `av`/`courses` is small (3 entries) and low-priority; a `games`/`music`-style hardcoded `tech` fallback in `getEntryCategories()` would fix it in one line whenever it's worth doing.
 4. **Old standalone listing pages still exist in parallel** with the new dynamic route: `src/pages/books/[...page].astro`, `src/pages/games/[...page].astro`, `src/pages/music/[...page].astro`, plus `stories`, `blog`, `podcast`, `videos`, `newsletter` pages. Not yet consolidated, redirected, or removed.
