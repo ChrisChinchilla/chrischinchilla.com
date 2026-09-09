@@ -1,138 +1,150 @@
 [
-  {
-    "slug": "tower",
-    "title": "Try the best git GUI for macOS and Windows",
-    "cta": "Try Tower for free",
-    "section": "affiliate",
-    "image": "affiliate/tower.png",
-    "description": "Grapple git without the grief and try Tower, the best graphical interface for git on macOS and Windows.",
-    "affiliate_link": "https://go.chrischinchilla.com/tower"
-  },
-  {
-    "slug": "patreon",
-    "name": "Join my Patreon",
-    "section": "core",
-    "icon": "tabler:brand-patreon",
-    "description": "Chris Chinchilla's YouTube channel, featuring tech reviews, tutorials, and insights.",
-    "affiliate_html": "<a href='https://patreon.com/ChrisChinchilla?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link' class='btn btn-primary font-btn sm:mb-0 w-full'>Join Patreon</a>"
-  },
-  {
-    "slug": "scrivener",
-    "title": "Write your way",
-    "cta": "Get Scrivener",
-    "section": "affiliate",
-    "image": "affiliate/scrivener.png",
-    "description": "Scrivener is the go-to app for writers of all kinds, used every day by best-selling novelists, screenwriters, non-fiction writers, students, academics, lawyers, journalists, translators and more.",
-    "affiliate_link": "https://go.chrischinchilla.com/scrivener"},
-          {
-    "slug": "Sudowrite",
-    "title": "The AI writing tool with unparalleled story smarts",
-    "cta": "Sign up for Sudowrite",
-    "section": "affiliate",
-    "image": "affiliate/sudowrite.svg",
-    "description": "Sudowrite is an AI-powered writing assistant that helps you brainstorm, outline, and write your stories.",
-    "affiliate_link": "https://go.chrischinchilla.com/sudowrite"},
-      {
-    "slug": "simple-screenshot",
-    "title": "Capture your screen effortlessly",
-    "cta": "Get Simple Screenshot",
-    "section": "affiliate",
-    "image": "affiliate/simple-screenshot.png",
-    "description": "Simple and clear, but packed with features, Simple Screenshot is a drop in replacement for macOS.",
-    "affiliate_link": "https://go.chrischinchilla.com/simple-screenshot"},
-  {
-    "slug": "mermaid-chart",
-    "cta": "Try Mermaid Chart",
-    "title": "Want the power of Mermaid for enterprises?",
-    "section": "affiliate",
-    "image": "affiliate/mermaid.svg",
-    "description": "Mermaid chart brings WYSIWYG editing, generative AI, collaboration, and more to the flexible syntax of Mermaid.",
-    "affiliate_link": "https://go.chrischinchilla.com/mermaid"
-  },
-  {
-    "slug": "notegpt",
-    "cta": "Try NoteGPT",
-    "title": "AI-powered learning with NoteGPT",
-    "section": "affiliate",
-    "image": "affiliate/notegpt.png",
-    "description": "Summarize YouTube videos, PDFs, articles, lectures, audios, PPTs, and images. Instantly create notes, mind maps, and presentations. Boost your learning efficiency by 10x.",
-    "affiliate_link": "https://go.chrischinchilla.com/notegpt"
-  },
     {
-    "slug": "flexclip",
-    "cta": "Try FlexClip",
-    "title": "Your journey to stunning videos starts here",
-    "section": "affiliate",
-    "image": "affiliate/flexclip.png",
-    "description": "FlexClip is a simple yet powerful video maker and editor for everyone that helps users easily create compelling video content for personal or business purposes without any learning curve.",
-    "affiliate_link": "https://go.chrischinchilla.com/flexclip"
-  },
-  {
-    "slug": "descript",
-    "title": "Text based video and audio editing",
-    "cta": "Download Descript",
-    "section": "affiliate",
-    "image": "affiliate/descript.svg",
-    "description": " Are you looking to make editing audio and video easier and more powerful with a suite of AI-powerd features? Try Descript, I use it for editing all my podcasts and you can to!",
-    "affiliate_link": "https://go.chrischinchilla.com/descript"
-  },
-  {
-    "slug": "setapp",
-    "title": "100s of amazing Mac apps",
-    "cta": "Get Setapp",
-    "section": "affiliate",
-    "image": "affiliate/setapp.svg",
-    "description": "Looking to supercharge your Mac with 100s of apps to choose from and one low monthly price? Take a look at Setapp from MacPaw.",
-    "affiliate_link": "https://go.chrischinchilla.com/setapp"
-  },
-  {
-    "slug": "raycast",
-    "title": "The ultimate macOS productivity app",
-    "cta": "Try Raycast",
-    "section": "affiliate",
-    "image": "affiliate/raycast.png",
-    "description": "Want to improve your productivity on macOS with a Shortcut to everything.",
-    "affiliate_link": "https://go.chrischinchilla.com/raycast"
-  },
-  {
-    "slug": "manning",
-    "title": "Learn something new today",
-    "cta": "30% off ANYTHING at Manning",
-    "section": "affiliate",
-    "image": "affiliate/manning.svg",
-    "description": "Start learning something new or up-skilling with a book or course.",
-    "affiliate_link": "https://go.chrischinchilla.com/manning"
-  },
-  {
-    "slug": "github-sponsors",
-    "name": "Support me on GitHub Sponsors",
-    "section": "core",
-    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
-    "affiliate_html": "<iframe src=\"https://github.com/sponsors/ChrisChinchilla/card\" title=\"Sponsor ChrisChinchilla\"></iframe>"
-  },
-  {
-    "slug": "buy-me-a-coffee",
-    "name": "Buy Me a Coffee",
-    "section": "core",
-    "icon": "tabler:brand-github",
-    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
-    "affiliate_html": "<script type=\"text/javascript\" src=\"https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js\" data-name=\"bmc-button\" data-slug=\"chrischinchilla\" data-color=\"#4b555c\" data-emoji=\"\" data-font=\"Lato\" data-text=\"Buy me a coffee\" data-outline-color=\"#ffffff\" data-font-color=\"#ffffff\" data-coffee-color=\"#FFDD00\" ></script>"
-  },
-  {
-    "slug": "keychron",
-    "title": "Great keyboards for work and play",
-    "cta": "Shop Keychron",
-    "section": "affiliate",
-    "image": "affiliate/keychron.png",
-    "description": "Keychron makes some of the best mechanical keyboards around, wired or wireless, for Mac and Windows.",
-    "affiliate_link": "https://go.chrischinchilla.com/keychron"
-  },
-  {
-    "slug": "ko-fi",
-    "name": "Support me on Ko-fi",
-    "section": "core",
-    "icon": "tabler:brand-github",
-    "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
-    "affiliate_html": "<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'P5P3JYHDE');kofiwidget2.draw();</script>"
-  }
+        "slug": "tower",
+        "title": "Try the best git GUI for macOS and Windows",
+        "cta": "Try Tower for free",
+        "section": "affiliate",
+        "image": "affiliate/tower.png",
+        "description": "Grapple git without the grief and try Tower, the best graphical interface for git on macOS and Windows.",
+        "affiliate_link": "https://go.chrischinchilla.com/tower"
+    },
+    {
+        "slug": "patreon",
+        "name": "Join my Patreon",
+        "section": "core",
+        "icon": "tabler:brand-patreon",
+        "description": "Chris Chinchilla's YouTube channel, featuring tech reviews, tutorials, and insights.",
+        "affiliate_html": "<a href='https://patreon.com/ChrisChinchilla?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link' class='btn btn-primary font-btn sm:mb-0 w-full'>Join Patreon</a>"
+    },
+    {
+        "slug": "scrivener",
+        "title": "Write your way",
+        "cta": "Get Scrivener",
+        "section": "affiliate",
+        "image": "affiliate/scrivener.png",
+        "description": "Scrivener is the go-to app for writers of all kinds, used every day by best-selling novelists, screenwriters, non-fiction writers, students, academics, lawyers, journalists, translators and more.",
+        "affiliate_link": "https://go.chrischinchilla.com/scrivener"
+    },
+    {
+        "slug": "Sudowrite",
+        "title": "The AI writing tool with unparalleled story smarts",
+        "cta": "Sign up for Sudowrite",
+        "section": "affiliate",
+        "image": "affiliate/sudowrite.svg",
+        "description": "Sudowrite is an AI-powered writing assistant that helps you brainstorm, outline, and write your stories.",
+        "affiliate_link": "https://go.chrischinchilla.com/sudowrite"
+    },
+    {
+        "slug": "simple-screenshot",
+        "title": "Capture your screen effortlessly",
+        "cta": "Get Simple Screenshot",
+        "section": "affiliate",
+        "image": "affiliate/simple-screenshot.png",
+        "description": "Simple and clear, but packed with features, Simple Screenshot is a drop in replacement for macOS.",
+        "affiliate_link": "https://go.chrischinchilla.com/simple-screenshot"
+    },
+    {
+        "slug": "mermaid-chart",
+        "cta": "Try Mermaid Chart",
+        "title": "Want the power of Mermaid for enterprises?",
+        "section": "affiliate",
+        "image": "affiliate/mermaid.svg",
+        "description": "Mermaid chart brings WYSIWYG editing, generative AI, collaboration, and more to the flexible syntax of Mermaid.",
+        "affiliate_link": "https://go.chrischinchilla.com/mermaid"
+    },
+    {
+        "slug": "notegpt",
+        "cta": "Try NoteGPT",
+        "title": "AI-powered learning with NoteGPT",
+        "section": "affiliate",
+        "image": "affiliate/notegpt.png",
+        "description": "Summarize YouTube videos, PDFs, articles, lectures, audios, PPTs, and images. Instantly create notes, mind maps, and presentations. Boost your learning efficiency by 10x.",
+        "affiliate_link": "https://go.chrischinchilla.com/notegpt"
+    },
+    {
+        "slug": "flexclip",
+        "cta": "Try FlexClip",
+        "title": "Your journey to stunning videos starts here",
+        "section": "affiliate",
+        "image": "affiliate/flexclip.png",
+        "description": "FlexClip is a simple yet powerful video maker and editor for everyone that helps users easily create compelling video content for personal or business purposes without any learning curve.",
+        "affiliate_link": "https://go.chrischinchilla.com/flexclip"
+    },
+    {
+        "slug": "descript",
+        "title": "Text based video and audio editing",
+        "cta": "Download Descript",
+        "section": "affiliate",
+        "image": "affiliate/descript.svg",
+        "description": " Are you looking to make editing audio and video easier and more powerful with a suite of AI-powerd features? Try Descript, I use it for editing all my podcasts and you can to!",
+        "affiliate_link": "https://go.chrischinchilla.com/descript"
+    },
+    {
+        "slug": "Fantastical",
+        "title": "The best calendar and scheduling app for macOS and iOS",
+        "cta": "Download Fantastical",
+        "section": "affiliate",
+        "image": "affiliate/fantastical.png",
+        "description": "Unify all of your calendars. Say goodbye to double-bookings and missed updates. And more.",
+        "affiliate_link": "https://go.chrischinchilla.com/fantastical"
+    },
+    {
+        "slug": "setapp",
+        "title": "100s of amazing Mac apps",
+        "cta": "Get Setapp",
+        "section": "affiliate",
+        "image": "affiliate/setapp.svg",
+        "description": "Looking to supercharge your Mac with 100s of apps to choose from and one low monthly price? Take a look at Setapp from MacPaw.",
+        "affiliate_link": "https://go.chrischinchilla.com/setapp"
+    },
+    {
+        "slug": "raycast",
+        "title": "The ultimate macOS productivity app",
+        "cta": "Try Raycast",
+        "section": "affiliate",
+        "image": "affiliate/raycast.png",
+        "description": "Want to improve your productivity on macOS with a Shortcut to everything.",
+        "affiliate_link": "https://go.chrischinchilla.com/raycast"
+    },
+    {
+        "slug": "manning",
+        "title": "Learn something new today",
+        "cta": "30% off ANYTHING at Manning",
+        "section": "affiliate",
+        "image": "affiliate/manning.svg",
+        "description": "Start learning something new or up-skilling with a book or course.",
+        "affiliate_link": "https://go.chrischinchilla.com/manning"
+    },
+    {
+        "slug": "github-sponsors",
+        "name": "Support me on GitHub Sponsors",
+        "section": "core",
+        "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+        "affiliate_html": "<iframe src=\"https://github.com/sponsors/ChrisChinchilla/card\" title=\"Sponsor ChrisChinchilla\"></iframe>"
+    },
+    {
+        "slug": "buy-me-a-coffee",
+        "name": "Buy Me a Coffee",
+        "section": "core",
+        "icon": "tabler:brand-github",
+        "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+        "affiliate_html": "<script type=\"text/javascript\" src=\"https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js\" data-name=\"bmc-button\" data-slug=\"chrischinchilla\" data-color=\"#4b555c\" data-emoji=\"\" data-font=\"Lato\" data-text=\"Buy me a coffee\" data-outline-color=\"#ffffff\" data-font-color=\"#ffffff\" data-coffee-color=\"#FFDD00\" ></script>"
+    },
+    {
+        "slug": "keychron",
+        "title": "Great keyboards for work and play",
+        "cta": "Shop Keychron",
+        "section": "affiliate",
+        "image": "affiliate/keychron.png",
+        "description": "Keychron makes some of the best mechanical keyboards around, wired or wireless, for Mac and Windows.",
+        "affiliate_link": "https://go.chrischinchilla.com/keychron"
+    },
+    {
+        "slug": "ko-fi",
+        "name": "Support me on Ko-fi",
+        "section": "core",
+        "icon": "tabler:brand-github",
+        "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+        "affiliate_html": "<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'P5P3JYHDE');kofiwidget2.draw();</script>"
+    }
 ]
