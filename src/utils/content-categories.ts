@@ -52,7 +52,7 @@ export const CATEGORY_CONTENT_TYPES: CategoryContentType[] = [
   // overlay (transcript/tags for some episodes), not the actual episode content, and using
   // it here made the tech archive look nothing like the real /podcast page. See
   // getPodcastEpisodeEntries() below.
-  { slug: 'podcasts', label: 'Podcasts', collection: 'podcast-feed', listStyle: 'list', pageSize: PODCAST.postsPerPage },
+  { slug: 'podcasts', label: 'Podcasts', collection: 'podcast-feed', listStyle: 'grid', pageSize: PODCAST.postsPerPage },
   // Real YouTube videos, fetched live rather than from a content collection - see
   // getYouTubeVideoEntries() below. `courses` (below) is the separate, markdown-backed
   // `av` collection ("Video Courses & Audio/Visual") - different content, kept apart so

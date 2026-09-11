@@ -2,53 +2,33 @@
 import ContentImage from '~/components/common/ContentImage.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
 import { stripHtml } from '~/utils/social-share';
-import { type CollectionEntry } from 'astro:content';
+import { formatShortDate } from '~/utils/utils';
+import { slugify } from '~/utils/slugify';
+import type { PodcastEpisode } from '~/utils/podcast-feed';
 import techLoungeImage from '../assets/images/tech-lounge.png';
 
 export interface Props {
-  podcast: CollectionEntry<'podcasts'>;
+  // A raw episode object from the Simplecast RSS feed, not the `podcasts`
+  // content collection (which is only a sparse metadata overlay).
+  podcast: PodcastEpisode;
 }
 const { podcast } = Astro.props;
-// For some reason one feed returns duplicate title as an array
-let podcastTitle;
-if (Array.isArray(podcast.title)) {
-  podcastTitle = podcast.title[0];
-} else {
-  podcastTitle = podcast.title;
-}
 
-var url = '/podcast/' + slugify(podcastTitle);
-function slugify(str) {
-  str = str.replace(/^\s+|\s+$/g, '');
+// For some reason one feed returns the title as a duplicate array
+const podcastTitle = Array.isArray(podcast.title) ? podcast.title[0] : podcast.title;
 
-  // Make the string lowercase
-  str = str.toLowerCase();
+const url = '/podcast/' + slugify(podcastTitle);
+const formattedDate = formatShortDate(podcast.pubDate);
 
-  // Remove accents, swap ñ for n, etc
-  var from = 'ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;';
-  var to = 'AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------';
-  for (var i = 0, l = from.length; i < l; i++) {
-    str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
-  }
-
-  // Remove invalid chars
-  str = str
-    .replace(/[^a-z0-9 -]/g, '')
-    // Collapse whitespace and replace by -
-    .replace(/\s+/g, '-')
-    // Collapse dashes
-    .replace(/-+/g, '-');
-
-  return str;
-}
-// const { podcast } = Astro.props;
+const plainSummary = stripHtml(podcast.summary || podcast.description || '');
+const cardSummary = plainSummary.length > 220 ? plainSummary.slice(0, 220).trimEnd() + '…' : plainSummary;
 ---
 
-<article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
-  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg">
+<article class="mb-6 transition px-4">
+  <div class="relative md:h-72 max-w-6xl mx-auto rounded drop-shadow-lg mb-6">
     <ContentImage
       src={podcast.image ? podcast.image.att_href : techLoungeImage}
-      alt={podcast.title ? podcastTitle : 'null'}
+      alt={podcastTitle || 'Tech Lounge'}
       type="podcast"
       width={420}
       height={420}
@@ -56,34 +36,28 @@ function slugify(str) {
       format="webp"
       loading="lazy"
       decoding="async"
-      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+      class="object-contain md:h-full mb-6 rounded drop-shadow-lg"
     />
   </div>
 
-  <div class="mt-2">
-    <div class="mt-2">
-          <a
-            href="/podcast"
-            class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2  font-medium"
-          >
-            Tech Lounge
-          </a>
-    
-      <header>
-        <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
-          {
-            url ? (
-              <a class="hover:text-primary transition ease-in duration-200" href={url}>
-                {podcastTitle}
-              </a>
-            ) : (
-              podcastTitle
-            )
-          }
-        </h2>
-      </header>
-      <div class="my-2" set:html={podcast.summary} />
-      <ShareLinks title={podcastTitle} url={url} summary={stripHtml(podcast.summary || '')} compact class="mt-2" />
+  <div>
+    <a
+      href="/podcast"
+      class="bg-gray-100 dark:bg-slate-700 inline-block mr-2 mb-2 py-0.5 px-2 font-medium"
+    >
+      Tech Lounge
+    </a>
+    <header>
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
+        <a class="hover:text-primary transition ease-in duration-200" href={url}>
+          {podcastTitle}
+        </a>
+      </h2>
+      {formattedDate && <i class="my-2 block">{formattedDate}</i>}
+    </header>
+    <div class="post-body body">
+      {cardSummary}
     </div>
+    <ShareLinks title={podcastTitle} url={url} summary={cardSummary} compact class="mt-2" />
   </div>
 </article>

@@ -7,18 +7,19 @@ import Podcast from '~/components/Podcast.astro';
 import { Pagination } from 'accessible-astro-components';
 import Content from '~/components/widgets/Content.astro';
 import { slugify } from '~/utils/slugify';
-import { getAllPodcastEpisodes } from '~/utils/podcast-feed';
+import { getAllPodcastEpisodes, type PodcastEpisode } from '~/utils/podcast-feed';
 import showImage from '../../assets/images/tech-lounge.png';
+import type { GetStaticPaths, Page } from 'astro';
 
-export async function getStaticPaths({ paginate }) {
+export const getStaticPaths = (async ({ paginate }) => {
   const allEpisodes = await getAllPodcastEpisodes();
 
   return paginate(allEpisodes, {
     pageSize: PODCAST.postsPerPage,
   });
-}
+}) satisfies GetStaticPaths;
 
-const { page } = Astro.props;
+const { page } = Astro.props as { page: Page<PodcastEpisode> };
 const meta = {
   title: 'Tech Lounge podcast',
   description: 'Every two weeks, the tech lounge invites tech luminaries, entrepreneurs, and creatives from small scrappy startups and open source enthusiasts to those working in large global companies. If you\'re interested in deep and creative technology and conversations with some of its most interesting practitioners, this is the show for you. Come in and get yourself comfortable.',
@@ -40,7 +41,7 @@ const itemListData = {
 
 <Layout {meta}>
   <StructuredData slot="head" type="ItemList" data={itemListData} />
-  <section class="px-6 sm:px-6 py-6 sm:py-6 lg:py-6 mx-auto max-w-4xl">
+  <section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
     <Headline>
       {meta.title}
     </Headline>
@@ -74,17 +75,9 @@ const itemListData = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
-    <ul>
-      {
-        page.data.map((episode) => (
-          <>
-            <li class="mb-12 md:mb-20">
-              <Podcast podcast={episode} />
-            </li>
-          </>
-        ))
-      }
-    </ul>
+    <div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-3 -mb-6">
+      {page.data.map((episode) => <Podcast podcast={episode} />)}
+    </div>
 
     <Pagination
       firstPage={page.url.prev ? '/podcast' : null}

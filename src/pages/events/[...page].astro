@@ -10,34 +10,38 @@ import { EVENT, SITE } from '~/config.mjs';
 
 export async function getStaticPaths({ paginate }) {
   const now = new Date();
-  let allEvents = await getCollection('events');
-  allEvents = allEvents.sort((a, b) => {
-    const aUpcoming = new Date(a.data.start_date) >= now;
-    const bUpcoming = new Date(b.data.start_date) >= now;
-    if (aUpcoming && !bUpcoming) return -1;
-    if (!aUpcoming && bUpcoming) return 1;
-    // Upcoming events soonest-first, past events most-recent-first.
-    return aUpcoming
-      ? new Date(a.data.start_date).valueOf() - new Date(b.data.start_date).valueOf()
-      : new Date(b.data.start_date).valueOf() - new Date(a.data.start_date).valueOf();
-  });
-  return paginate(allEvents, {
+  const allEvents = await getCollection('events');
+  const upcomingEvents = allEvents
+    .filter((event) => new Date(event.data.start_date) >= now)
+    .sort(
+      (a, b) =>
+        new Date(a.data.start_date).valueOf() - new Date(b.data.start_date).valueOf(),
+    );
+  const pastEvents = allEvents
+    .filter((event) => new Date(event.data.start_date) < now)
+    .sort(
+      (a, b) =>
+        new Date(b.data.start_date).valueOf() - new Date(a.data.start_date).valueOf(),
+    );
+
+  return paginate(pastEvents, {
     pageSize: EVENT.postsPerPage,
+    props: { upcomingEvents },
   });
 }
-const { page } = Astro.props;
+const { page, upcomingEvents } = Astro.props;
 
 const meta = {
   title: 'Events',
   description: 'I have spoken at and reported on hundreds of events around the world.',
 };
 
-const now = new Date();
-const upcoming = page.data.filter((event) => new Date(event.data.start_date) >= now);
-const past = page.data.filter((event) => new Date(event.data.start_date) < now);
+const upcoming = page.currentPage === 1 ? upcomingEvents : [];
+const past = page.data;
+const displayedEvents = [...upcoming, ...past];
 
 const eventListData = {
-  events: page.data.map((event) => ({
+  events: displayedEvents.map((event) => ({
     name: event.data.title || event.data.event,
     url: event.data.pres_url,
     startDate: event.data.start_date,
@@ -123,9 +127,9 @@ const eventListData = {
       firstPage={page.url.prev ? '/events' : null}
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
-      lastPage={page.url.next ? `/events/${Math.round(page.total / page.size)}` : null}
+      lastPage={page.url.next ? `/events/${Math.ceil(page.total / page.size)}` : null}
       currentPage={page.currentPage}
-      totalPages={Math.round(page.total / page.size)}
+      totalPages={Math.ceil(page.total / page.size)}
     />
   </section>
 </Layout>
