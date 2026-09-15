@@ -71,12 +71,21 @@
         "affiliate_link": "https://go.chrischinchilla.com/flexclip"
     },
     {
+        "slug": "tiinyhost",
+        "cta": "Upload your project today",
+        "title": "The simplest way to host & share your work online",
+        "section": "affiliate",
+        "image": "affiliate/tiinyhost.png",
+        "description": "You can use tiiny to share over 100 different types of documents, files or projects online.",
+        "affiliate_link": "https://go.chrischinchilla.com/tiinyhost"
+    },
+    {
         "slug": "descript",
         "title": "Text based video and audio editing",
         "cta": "Download Descript",
         "section": "affiliate",
         "image": "affiliate/descript.svg",
-        "description": " Are you looking to make editing audio and video easier and more powerful with a suite of AI-powerd features? Try Descript, I use it for editing all my podcasts and you can to!",
+        "description": " Are you looking to make editing audio and video easier and more powerful with a suite of AI-powered features? Try Descript, I use it for editing all my podcasts and you can to!",
         "affiliate_link": "https://go.chrischinchilla.com/descript"
     },
     {
