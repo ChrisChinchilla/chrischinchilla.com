@@ -19,9 +19,8 @@ this branch; see `SEO-AEO-AUDIT.md` for the corresponding `Status: Fixed` notes.
    `src/pages/llms.txt.ts` and `src/pages/llms-full.txt.ts` now include `podcasts`,
    `games`, `events`, and `clients`. `supportLinks` was deliberately excluded (affiliate
    card data with no per-entry URL — see audit finding 4) rather than force-fit; if that
-   changes, revisit. Adding the static pages (`cv.md`, `community.md`, `contact.mdx`,
-   `courses.astro`) as a short "About" section is still open — folded into a new item 14
-   below since it wasn't part of the original mechanical scope.
+   changes, revisit. The static pages (`cv.md`, `community.md`, `contact.mdx`, and
+   `courses.astro`) were subsequently added as the "About" section in item 14 below.
 
 3. **~~Fix sitemap `lastmod` for blog posts~~ — Done.** *SEO*. `src/utils/sitemap.ts` no
    longer hardcodes `lastmod = new Date()`. It now reads each blog post's real
@@ -49,6 +48,13 @@ this branch; see `SEO-AEO-AUDIT.md` for the corresponding `Status: Fixed` notes.
     `gray-matter` (stripping MDX `import`/self-closing-component lines from `contact.mdx`
     for a clean text dump); `courses.astro` has no static body to extract (it's built from
     the `av` collection at request time), so it gets a short hand-written blurb instead.
+
+15. **~~Advertise llms.txt endpoints from HTML~~ — Done.** *AEO*. `MetaTags.astro` now
+    emits `rel="describedby"` discovery links for `/llms.txt` and `/llms-full.txt` on every
+    HTML page, following the llms.txt v2 proposal. Both endpoints now return
+    `Content-Type: text/markdown; charset=utf-8`, matching the discovery metadata and their
+    Markdown-formatted bodies; `public/_headers` preserves that content type on Netlify's
+    static deployment.
 
 ## Structured data coverage — done
 
@@ -164,13 +170,14 @@ previously emitted none.
 
 ## Dependency health
 
-13. **Evaluate `@astrolib/seo` beta status** — *SEO, low urgency*. Still on a `1.0.0-beta.8`
-    release with `MetaTags.astro` as the sole consumer of its `AstroSeo` component. Check for
-    a stable 1.0 release or evaluate whether the wrapper is thin enough to inline directly
-    (removing a beta dependency from the critical meta-tag path). Effort: **S** to check,
-    **M** if migration is warranted.
+13. **~~Evaluate `@astrolib/seo` beta status~~ — Done.** *SEO*. No stable release was
+    available and the package's peer range stopped at Astro 5 while this site uses Astro 7.
+    Its only consumer was `MetaTags.astro`, so the small required surface was inlined there
+    and the dependency plus Astro override were removed. The replacement preserves title,
+    description, robots, canonical, Open Graph/image, article, and Twitter metadata; it also
+    emits article properties under the correct `article:*` namespace instead of the old
+    package's invalid `og:article:*` names. Verified with a full 2,029-page production build.
 
 ## Suggested sequencing
 
-Everything is done except item 13 (the `@astrolib/seo` dependency check) — low urgency,
-can happen anytime.
+All items in this plan are complete.

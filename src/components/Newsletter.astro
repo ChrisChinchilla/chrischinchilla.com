@@ -2,7 +2,6 @@
 import { type CollectionEntry } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
-import { slugify } from '~/utils/slugify';
 import { formatShortDate } from '~/utils/utils';
 
 export interface Props {
@@ -11,7 +10,6 @@ export interface Props {
 const { newsletter } = Astro.props;
 
 const formattedDate = formatShortDate(newsletter.data.date);
-const idOfTitle = slugify(newsletter.data.title);
 ---
 
 <article class="mb-6 transition px-4">
@@ -29,10 +27,7 @@ const idOfTitle = slugify(newsletter.data.title);
   }
   <div>
     <header>
-      <h2
-        class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading"
-        id={idOfTitle}
-      >
+      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
         <a
           class="hover:text-primary transition ease-in duration-200"
           href=`/newsletter/${newsletter.id}`

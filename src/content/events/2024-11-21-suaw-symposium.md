@@ -1,6 +1,7 @@
 ---
 type: speaking
 title: The Berlin Meetup
+summary: A presentation about the Berlin meetup at the SU&W Community symposium in Cambridge.
 event: SU&W Community symposium
 start_date: 2024-11-21T12:20:00.000Z
 end_date: 2024-11-21T12:20:00.000Z

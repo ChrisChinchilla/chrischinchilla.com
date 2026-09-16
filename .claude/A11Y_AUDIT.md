@@ -1,10 +1,13 @@
 # Accessibility Audit — chrischinchilla.com
 
 **Date:** 2026-08-09
+**Follow-up:** 2026-09-16
 **Commit audited:** `5bb2983` (post #165 newsletter grid refactor, #163 social share links, #161 Cloudflare R2 image swap, #158 dependency/build hardening)
 **Scope:** Static code review of layouts, components, and styles across light and dark mode (Tailwind `class`-strategy dark mode). This is not a substitute for automated tooling (axe, Lighthouse) or manual screen-reader/keyboard testing — both are recommended as a follow-up once the items below are addressed.
 
-This document is a snapshot for planning purposes. It is not implemented yet — see the task checklist at the end for a prioritized to-do list.
+This document began as a planning snapshot. All static-review findings and the content
+image audit are now implemented; the remaining validation item is described in the task
+checklist.
 
 ## Findings
 
@@ -43,7 +46,7 @@ This document is a snapshot for planning purposes. It is not implemented yet —
 7. **`alt` text is only soft-enforced on images, and inconsistently.** ~~Fixed~~
    `alt` is a required TypeScript prop on both image components, but `src/components/common/OptimizedImage.astro:42-44` only `console.warn`s on an empty value rather than failing the build, and `src/components/common/R2Image.astro` doesn't warn at all. Given the recent Supabase→R2 image swap (#161), `alt` text should be spot-checked across content for regressions introduced during migration.
    *WCAG: 1.1.1 Non-text Content (Level A).*
-   *Resolution:* added the same `console.warn` check to `R2Image.astro` so both components warn consistently on empty `alt`. Kept as a warning rather than a build failure by decision — a hard failure would break the build on existing content gaps before they've been audited. Content audit for missing `alt` post-migration is still open (not done as part of this pass).
+   *Resolution:* added the same `console.warn` check to `R2Image.astro` so both components warn consistently on empty `alt`. Kept as a warning rather than a build failure by decision. The follow-up content and rendered-output audit covered all 1,726 Markdown/MDX content files and all 2,029 generated HTML pages. It added meaningful alt text to 14 screenshots and explicit empty alt text to 19 decorative RSS icons; the existing empty alt text on 1×1 affiliate tracking pixels remains intentionally decorative. The final rendered scan reports zero images without `alt` and zero non-decorative empty values.
 
 ### Minor
 
@@ -74,5 +77,5 @@ This document is a snapshot for planning purposes. It is not implemented yet —
 - [x] Fix or remove the hardcoded `lang="en"` in the legacy `Layout.astro` — deleted it and its two dead-code dependents (`Event.astro`, `Client.astro`) instead, since none were referenced anywhere
 - [x] Spot-check `Newsletter.astro` card heading level against the page's h1 — confirmed correct (h1 → h2), no change needed
 - [x] Confirm `prefers-reduced-motion` rules in `mobile.css` cover all `transition`/`animate-*` usage — confirmed, the global `*` selector already covers every case
-- [ ] Audit existing content for missing `alt` text introduced during the R2 migration
-- [ ] Run a full automated pass (axe-core or Lighthouse a11y audit) and a manual keyboard/screen-reader pass once the above items are addressed, to catch anything static code review missed
+- [x] Audit existing content for missing `alt` text introduced during the R2 migration — scanned 1,726 content files and all 2,029 rendered pages; fixed 14 screenshots and 19 decorative RSS icons, leaving zero rendered omissions
+- [ ] Complete the external-browser portion of the automated/manual validation. A rendered static audit across 16 representative page types found and fixed an unlabeled search input and duplicate newsletter heading ID, then passed with zero unnamed buttons/links/inputs, duplicate IDs, missing main landmarks, or heading-level skips. Static keyboard review also added search-dialog focus restoration, live-result announcements, and Escape/focus handling for navigation menus. Lighthouse/axe and an actual screen-reader session remain pending because no browser runner was available and the PageSpeed API returned HTTP 429 during the 2026-09-16 follow-up.

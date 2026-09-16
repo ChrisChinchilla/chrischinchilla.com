@@ -1,7 +1,9 @@
 ---
 title: From Chrome extensions to Chrome DevTools
+summary: A four-part course on creating Chrome extensions and debugging them with Chrome DevTools.
 client: Sitepoint
 video_type: course
+categories: [tech]
 publish_date: 2017-07-01
 image: ~/assets/images/default.png
 store_urls:

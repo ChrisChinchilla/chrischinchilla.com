@@ -3,7 +3,6 @@ import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import { getCollection, render } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
-import defaultPostImage from '/src/assets/images/defaults/book-chinchilla.jpg'
 import { getCanonical } from '~/utils/permalinks';
 
 export async function getStaticPaths() {
@@ -37,7 +36,7 @@ const structuredData = {
   />
   {
     entry.data.store_urls && (
-      
+      <>
         <b class="my-2 block">Buy a copy in the following places:</b>
         <ul class="list-disc list-inside m-2">
           {entry.data.store_urls.map((store_url) => (
@@ -46,7 +45,7 @@ const structuredData = {
             </li>
           ))}
         </ul>
-      
+      </>
     )
   }
   <Content />

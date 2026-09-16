@@ -1,7 +1,6 @@
 ---
-import { AstroSeo } from '@astrolib/seo';
 import { GoogleAnalytics } from '@astrolib/analytics';
-import { Image, getImage } from 'astro:assets';
+import { getImage } from 'astro:assets';
 
 import { SITE } from '~/config.mjs';
 import { MetaSEO } from '~/types';
@@ -52,6 +51,26 @@ const image =
       ? // @ts-ignore
         new URL(getRelativeUrlByFilePath(_image.src), Astro.site)
       : null;
+
+const openGraph = {
+  url: String(canonical),
+  title: ogTitle,
+  description,
+  type: ogType,
+  images: image
+    ? [
+        {
+          url: image.toString(),
+          alt: ogTitle,
+        },
+      ]
+    : undefined,
+  site_name: SITE.name,
+  ...Astro.props.openGraph,
+};
+
+const robots = `${noindex ? 'noindex' : 'index'},${nofollow ? 'nofollow' : 'follow'}`;
+const renderedTitle = dontUseTitleTemplate ? title : `${title} — ${SITE.name}`;
 ---
 
 <meta charset="UTF-8" />
@@ -61,35 +80,45 @@ const image =
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
-<AstroSeo
-  title={title}
-  titleTemplate={dontUseTitleTemplate ? '%s' : `%s — ${SITE.name}`}
-  description={description}
-  canonical={String(canonical)}
-  noindex={noindex}
-  nofollow={nofollow}
-  openGraph={{
-    url: String(canonical),
-    title: ogTitle,
-    description: description,
-    type: ogType,
-    images: image
-      ? [
-          {
-            url: image.toString(),
-            alt: ogTitle,
-          },
-        ]
-      : undefined,
-    site_name: SITE.name,
-    ...Astro.props.openGraph,
-  }}
-  twitter={{
-    handle: '@chrischinch',
-    site: '@chrischinch',
-    cardType: image ? 'summary_large_image' : undefined,
-  }}
-/>
+<title>{renderedTitle}</title>
+<meta name="description" content={description} />
+<meta name="robots" content={robots} />
+<link rel="canonical" href={String(canonical)} />
+
+<meta property="og:title" content={openGraph.title} />
+<meta property="og:description" content={openGraph.description} />
+<meta property="og:url" content={openGraph.url} />
+<meta property="og:type" content={openGraph.type} />
+<meta property="og:site_name" content={openGraph.site_name} />
+{openGraph.locale && <meta property="og:locale" content={openGraph.locale} />}
+{
+  openGraph.images?.map((ogImage) => (
+    <>
+      <meta property="og:image" content={ogImage.url} />
+      {ogImage.alt && <meta property="og:image:alt" content={ogImage.alt} />}
+      {ogImage.secureUrl && <meta property="og:image:secure_url" content={ogImage.secureUrl} />}
+      {ogImage.type && <meta property="og:image:type" content={ogImage.type} />}
+      {ogImage.width && <meta property="og:image:width" content={String(ogImage.width)} />}
+      {ogImage.height && <meta property="og:image:height" content={String(ogImage.height)} />}
+    </>
+  ))
+}
+{
+  openGraph.article && (
+    <>
+      {openGraph.article.publishedTime && <meta property="article:published_time" content={openGraph.article.publishedTime} />}
+      {openGraph.article.modifiedTime && <meta property="article:modified_time" content={openGraph.article.modifiedTime} />}
+      {openGraph.article.expirationTime && <meta property="article:expiration_time" content={openGraph.article.expirationTime} />}
+      {openGraph.article.authors?.map((author) => <meta property="article:author" content={author} />)}
+      {openGraph.article.section && <meta property="article:section" content={openGraph.article.section} />}
+      {openGraph.article.tags?.map((tag) => <meta property="article:tag" content={tag} />)}
+    </>
+  )
+}
+
+{image && <meta name="twitter:card" content="summary_large_image" />}
+<meta name="twitter:site" content="@chrischinch" />
+<meta name="twitter:creator" content="@chrischinch" />
 
 <Fonts />
 
@@ -105,3 +134,5 @@ const image =
 <link rel="icon" type="image/svg+xml" href={getAsset('/favicon.svg')} />
 <link rel="mask-icon" href={getAsset('/favicon.svg')} color="#8D46E7" />
 <link rel="sitemap" href={getAsset('/sitemap-index.xml')} />
+<link rel="describedby" href={getAsset('/llms.txt')} type="text/markdown" title="LLM content index" />
+<link rel="describedby" href={getAsset('/llms-full.txt')} type="text/markdown" title="Full LLM-readable site content" />

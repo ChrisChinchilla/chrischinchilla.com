@@ -61,7 +61,7 @@ export const CATEGORY_CONTENT_TYPES: CategoryContentType[] = [
   { slug: 'courses', label: 'Video Courses', collection: 'av', listStyle: 'list', pageSize: 30 },
   { slug: 'stories', label: 'Stories', collection: 'stories', listStyle: 'grid', pageSize: 30 },
   { slug: 'games', label: 'Games', collection: 'games', listStyle: 'grid', pageSize: 30 },
-  { slug: 'newsletters', label: 'Newsletters', collection: 'newsletters', listStyle: 'list', pageSize: 25 },
+  { slug: 'newsletters', label: 'Newsletters', collection: 'newsletters', listStyle: 'grid', pageSize: 25 },
   { slug: 'music', label: 'Music', collection: 'music', listStyle: 'grid', pageSize: 15 },
   { slug: 'software', label: 'Software', collection: 'software', listStyle: 'grid', pageSize: 25 },
 ];
