@@ -43,6 +43,9 @@ const displayedEvents = [...upcoming, ...past];
 const eventListData = {
   events: displayedEvents.map((event) => ({
     name: event.data.title || event.data.event,
+    organizerName: event.data.event,
+    description: event.data.summary,
+    image: event.data.heroimage,
     url: event.data.pres_url,
     startDate: event.data.start_date,
     endDate: event.data.end_date,
