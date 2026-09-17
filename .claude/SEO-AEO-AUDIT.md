@@ -15,12 +15,10 @@ open and are tracked in the plan.
 
 All rendered pages go through one consistent stack:
 `src/layouts/BaseLayout.astro:5,23` → `src/components/common/MetaTags.astro`.
-`BaseLayout` renders `<MetaTags {...meta} />` in `<head>`. `MetaTags.astro` wraps
-`@astrolib/seo`'s `AstroSeo` component (`src/components/common/MetaTags.astro:64-92`),
-producing title (with template `` `%s — ${SITE.name}` ``, `MetaTags.astro:66`),
+`BaseLayout` renders `<MetaTags {...meta} />` in `<head>`. `MetaTags.astro` directly
+renders the title (with template `` `%s — ${SITE.name}` ``),
 description, canonical (`getCanonical()`, or a `publication_url` override for syndicated
-content, `MetaTags.astro:29-33`), Open Graph, Twitter card
-(`cardType: image ? 'summary_large_image' : undefined`, `MetaTags.astro:87-91`),
+content), Open Graph, Twitter card,
 `google-site-verification`, GA/Splitbee analytics, and favicon/sitemap `<link>` tags.
 `PageLayout.astro`, `PageLayoutNoBG.astro`, and `MarkdownLayout.astro` build the `meta`
 object per page from frontmatter (e.g. `MarkdownLayout.astro:44-63`: `description =
@@ -83,7 +81,7 @@ every individual newsletter issue as a pagination page. Narrowed the regex to ma
 
 ## 4. llms.txt / llms-full.txt
 
-**Status: Mostly fixed.** Two hand-rolled endpoints:
+**Status: Fixed.** Two hand-rolled endpoints:
 
 - `src/pages/llms.txt.ts` — index-only (title + link + one-line summary per entry).
 - `src/pages/llms-full.txt.ts` — full body content inlined for self-hosted entries; a
@@ -105,8 +103,11 @@ purpose the file is for. The static pages `cv.md`, `community.md`, `contact.mdx`
 `courses.astro` (not content collection entries, so out of scope for the mechanical
 collection-add above) now have their own "About" section in both files instead.
 
-`robots.txt` now links both files — see finding 2 (fixed). Neither file is yet linked from
-a `<link>` tag in `MetaTags.astro` (open).
+`robots.txt` links both files — see finding 2 (fixed). Every HTML page also advertises both
+files from `MetaTags.astro` with the llms.txt v2 standard `rel="describedby"` relation and
+`type="text/markdown"`; both endpoint responses now use the matching `text/markdown`
+content type, reinforced by explicit Netlify rules in `public/_headers` for the static
+deployment.
 
 ## 5. Structured data (JSON-LD)
 
@@ -206,10 +207,14 @@ prior to this audit.
 
 ## 9. SEO/AEO-related dependencies
 
-`package.json`: `@astrojs/sitemap` (^3.7.3), `@astrojs/rss` (^4.0.19), `@astrolib/seo`
-(^1.0.0-beta.8 — still in beta), `@astrolib/analytics`. No `schema-dts` or other JSON-LD
-type-safety package; llms.txt/llms-full.txt are fully hand-rolled with no dedicated package
-for the emerging llms.txt convention.
+**Status: Fixed.** `@astrolib/seo` remained on `1.0.0-beta.8` with no stable release and
+peer support capped below the site's Astro version. Its only consumer was the thin
+`MetaTags.astro` wrapper, so the required title, description, robots, canonical, Open Graph,
+article, and Twitter tags are now rendered directly and the dependency/override have been
+removed. This also corrects the old library's invalid `og:article:*` property names to the
+standard `article:*` namespace. `package.json` retains `@astrojs/sitemap` (^3.7.3),
+`@astrojs/rss` (^4.0.19), and `@astrolib/analytics`. No `schema-dts` or other JSON-LD
+type-safety package is used; llms.txt/llms-full.txt remain hand-rolled.
 
 ## 10. Semantic HTML / heading hierarchy
 

@@ -26,7 +26,7 @@ In the end, it was one of those stupidly simple solutions that takes advantage o
 
 Then around line 754, depending on your CiviCRM version, find
 
-```html
+```text
 
   <em>WHERE civicrm_event.is_active = 1</em>
 </div>

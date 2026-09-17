@@ -90,9 +90,23 @@ import { SITE } from '~/config.mjs';
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') {
         document.querySelectorAll('[data-aw-dropdown-toggle]').forEach((elem) => {
+          const wasExpanded = elem.getAttribute('aria-expanded') === 'true';
           elem.setAttribute('aria-expanded', 'false');
           elem.closest('.dropdown')?.classList.remove('show');
+          if (wasExpanded) {
+            elem.focus();
+          }
         });
+
+        const menuToggle = document.querySelector('[data-aw-toggle-menu]');
+        if (menuToggle?.getAttribute('aria-expanded') === 'true') {
+          menuToggle.classList.remove('expanded');
+          menuToggle.setAttribute('aria-expanded', 'false');
+          document.body.classList.remove('overflow-hidden');
+          document.getElementById('header')?.classList.remove('h-screen');
+          document.querySelector('#header nav')?.classList.add('hidden');
+          menuToggle.focus();
+        }
       }
     });
 

@@ -4,7 +4,7 @@ import { type CollectionEntry, render } from 'astro:content';
 import { slugify } from '~/utils/slugify';
 import { formatShortDate } from '~/utils/utils';
 export interface Props {
-  course: CollectionEntry<"av">;
+  course: CollectionEntry<'av'>;
 }
 
 const { course } = Astro.props;
@@ -15,40 +15,38 @@ const formattedDate = formatShortDate(course.data.publish_date);
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${course.data.image ? 'md:grid-cols-2' : ''}`}>
-  <div
-    class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg"
-  >
-      <ContentImage
-        src={course.data.image}
-        alt={course.data.title}
-        type="av"
-        class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
-      />
+  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden rounded drop-shadow-lg">
+    <ContentImage
+      src={course.data.image}
+      alt={course.data.title}
+      type="av"
+      class="absolute object-contain h-full mb-6 rounded drop-shadow-lg"
+    />
+  </div>
+
+  <div class="mt-2">
+    <header>
+      <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading" id={idOfTitle}>
+        {course.data.title}
+      </h2>
+      <i class="my-2 block">{course.data.client}, {formattedDate}</i>
+    </header>
+    <div class="m-2">
+      <Content />
     </div>
-  
-    <div class="mt-2">
-      <header>
-        <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading" id={idOfTitle}>
-          {course.data.title}
-        </h2>
-        <i class="my-2 block">{course.data.client}, {formattedDate}</i>
-      </header>
-      <div class="m-2">
-        <Content />
-      </div>
-      {
-        course.data.store_urls && (
-        
-            <b class="my-2 block">Find the course in the following places:</b>
-            <ul class="list-disc list-inside m-2">
-              {course.data.store_urls.map((store_url) => (
-                <li>
-                  <a href={store_url.url}>{store_url.label}</a>
-                </li>
-              ))}
-            </ul>
-        
-        )
-      }
-    </div>
-  </article>
+    {
+      course.data.store_urls && (
+        <>
+          <b class="my-2 block">Find the course in the following places:</b>
+          <ul class="list-disc list-inside m-2">
+            {course.data.store_urls.map((store_url) => (
+              <li>
+                <a href={store_url.url}>{store_url.label}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+  </div>
+</article>

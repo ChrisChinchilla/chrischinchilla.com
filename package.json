@@ -15,7 +15,7 @@
     "format:check": "prettier --check .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "lint:eslint": "eslint . --ext .js,.ts,.astro",
+    "lint:eslint": "eslint .",
     "check": "astro check"
   },
   "dependencies": {
@@ -32,12 +32,10 @@
     "@astrolib/analytics": {
       "astro": "$astro"
     },
-    "@astrolib/seo": {
-      "astro": "$astro"
-    },
     "sharp": "$sharp"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@astro-community/astro-embed-youtube": "^0.5.10",
     "@astrojs/check": "^0.9.10",
     "@astrojs/mdx": "^7.0.5",
@@ -45,7 +43,6 @@
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "@astrolib/analytics": "^0.6.1",
-    "@astrolib/seo": "^1.0.0-beta.8",
     "@fontsource/albert-sans": "^5.3.0",
     "@fontsource/bitter": "^5.3.0",
     "@iconify-json/carbon": "^1.2.24",
@@ -67,6 +64,7 @@
     "astro-icon": "^1.1.5",
     "eslint": "^10.8.0",
     "eslint-plugin-astro": "^3.0.1",
+    "globals": "^17.3.0",
     "gray-matter": "^4.0.3",
     "limax": "4.2.3",
     "mdast-util-to-string": "^4.0.0",
@@ -78,6 +76,6 @@
     "svgo": "^4.0.2",
     "tailwindcss": "^4.3.3",
     "truncate-html": "^1.2.2",
-    "typescript": "^7.0.2"
+    "typescript": "^6.0.2"
   }
 }

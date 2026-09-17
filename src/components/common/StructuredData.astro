@@ -101,6 +101,17 @@ const toIsoDateString = (value: any): string | undefined => {
   return date.toISOString();
 };
 
+const toAbsoluteUrl = (value: any): string | undefined => {
+  const source = typeof value === 'string' ? value : value?.src;
+  if (!source) return undefined;
+
+  try {
+    return new URL(source, SITE.origin).toString();
+  } catch {
+    return undefined;
+  }
+};
+
 const generatePodcastEpisodeSchema = (data: any) => {
   const schema: any = {
     '@context': 'https://schema.org',
@@ -179,28 +190,46 @@ const generateCreativeWorkSchema = (data: any) => {
 const generateEventListSchema = (data: any) => {
   const events = Array.isArray(data.events) ? data.events : [];
   return events.map((event: any) => {
+    const eventUrl = toAbsoluteUrl(event.url);
+    const image = toAbsoluteUrl(event.image) ?? toAbsoluteUrl(SITE.defaultImage);
     const schema: any = {
       '@type': 'Event',
       name: event.name,
+      description: event.description || `${event.name}${event.venue ? ` at ${event.venue}` : ''}.`,
       startDate: toIsoDateString(event.startDate) ?? event.startDate,
       eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
       eventStatus: 'https://schema.org/EventScheduled',
+      image,
+      organizer: {
+        '@type': event.type === 'organizing' ? 'Person' : 'Organization',
+        name: event.type === 'organizing' ? SITE.name : event.organizerName || event.name,
+        url: event.type === 'organizing' ? SITE.origin : eventUrl,
+      },
+      performer: {
+        '@type': 'Person',
+        name: SITE.name,
+        url: SITE.origin,
+      },
     };
 
     if (event.endDate) schema.endDate = toIsoDateString(event.endDate) ?? event.endDate;
-    if (event.url) schema.url = event.url;
+    if (eventUrl) {
+      schema.url = eventUrl;
+      schema.offers = {
+        '@type': 'Offer',
+        url: eventUrl,
+      };
+    }
 
     if (event.venue) {
       schema.location = {
         '@type': 'Place',
         name: event.venue,
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: event.venue,
+        },
       };
-    }
-
-    if (event.type === 'speaking') {
-      schema.performer = { '@type': 'Person', name: SITE.name, url: SITE.origin };
-    } else if (event.type === 'organizing') {
-      schema.organizer = { '@type': 'Person', name: SITE.name, url: SITE.origin };
     }
 
     return schema;

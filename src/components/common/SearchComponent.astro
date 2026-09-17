@@ -61,11 +61,12 @@ const { posts } = Astro.props;
         class="search-input"
         placeholder="Search posts..."
         id="search-input"
+        aria-label="Search posts"
       />
     </div>
 
     <!-- Search results - rendered dynamically -->
-    <div class="search-results-container" id="search-results">
+    <div class="search-results-container" id="search-results" aria-live="polite">
       <div class="search-placeholder" id="search-placeholder">
         Start typing to search posts...
       </div>
@@ -119,6 +120,7 @@ const { posts } = Astro.props;
   const noResults = document.getElementById('search-no-results');
   const resultsGrid = document.getElementById('search-results-grid');
   const modalContent = document.querySelector('.search-modal-content');
+  let previouslyFocusedElement: HTMLElement | null = null;
 
   // Format date helper (client-side)
   function formatDate(dateString?: string): string {
@@ -242,12 +244,15 @@ const { posts } = Astro.props;
   let isTrapFocusActive = false;
 
   function openSearch() {
+    previouslyFocusedElement = document.activeElement as HTMLElement | null;
     modal?.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
     updateFocusableElements();
-    
-    // Focus the first focusable element, or the modal itself if none exist
-    if (firstFocusableElement) {
+
+    // Put keyboard and screen-reader users directly in the search field.
+    if (input) {
+      input.focus();
+    } else if (firstFocusableElement) {
       firstFocusableElement.focus();
     } else if (modalContent) {
       (modalContent as HTMLElement).focus();
@@ -271,6 +276,9 @@ const { posts } = Astro.props;
       document.removeEventListener('keydown', trapFocus);
       isTrapFocusActive = false;
     }
+
+    previouslyFocusedElement?.focus();
+    previouslyFocusedElement = null;
   }
 
   function clearResults() {

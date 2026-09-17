@@ -176,6 +176,7 @@ under *Messenger → Settings* of the app.
 <figure id="9bdf" class="graf graf--figure graf-after--p">
 <img
 src="https://cdn-images-1.medium.com/max/800/1*vyoGJgMKzoaw-Y7sB5PR7A.png"
+alt="Facebook Messenger webhook subscription settings for messages"
 class="graf-image" data-image-id="1*vyoGJgMKzoaw-Y7sB5PR7A.png"
 data-width="817" data-height="328" />
 </figure>
@@ -188,6 +189,7 @@ Settings*. We cover handling these events in the next step.
 <figure id="b01b" class="graf graf--figure graf-after--p">
 <img
 src="https://cdn-images-1.medium.com/max/800/1*F2XuC07bY0ciEHDEzUh5Zg.png"
+alt="Facebook page webhook subscriptions for feed and conversations"
 class="graf-image" data-image-id="1*F2XuC07bY0ciEHDEzUh5Zg.png"
 data-width="797" data-height="303" />
 </figure>
@@ -317,6 +319,7 @@ Messenger.
 <figure id="eece" class="graf graf--figure graf-after--p">
 <img
 src="https://cdn-images-1.medium.com/max/800/1*5B4bp4NRYYFpdbN24a3HYQ.png"
+alt="Support bot webhook subscriptions in Facebook Messenger"
 class="graf-image" data-image-id="1*5B4bp4NRYYFpdbN24a3HYQ.png"
 data-width="815" data-height="333" />
 </figure>
@@ -332,6 +335,7 @@ this from the *Edit Page Info \> Create Page username* dialogue.
 <figure id="dc86" class="graf graf--figure graf-after--p">
 <img
 src="https://cdn-images-1.medium.com/max/800/1*AlrcyDyuOK8I1jOBlcxpdA.png"
+alt="Facebook dialogue for creating a support page username"
 class="graf-image" data-image-id="1*AlrcyDyuOK8I1jOBlcxpdA.png"
 data-width="1024" data-height="1024" />
 </figure>
@@ -421,6 +425,7 @@ the page.
 <figure id="fae7" class="graf graf--figure graf-after--p">
 <img
 src="https://cdn-images-1.medium.com/max/800/1*wXzatBJUXnHrRfkftPQeEw.png"
+alt="Test message exchange between the marketing and support pages"
 class="graf-image" data-image-id="1*wXzatBJUXnHrRfkftPQeEw.png"
 data-width="508" data-height="199" />
 </figure>

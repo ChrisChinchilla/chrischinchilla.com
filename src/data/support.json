@@ -80,6 +80,15 @@
         "affiliate_link": "https://go.chrischinchilla.com/tiinyhost"
     },
     {
+        "slug": "ulysses",
+        "title": "The only writing app you'll need",
+        "cta": "Subscribe to Ulysses",
+        "section": "affiliate",
+        "image": "affiliate/ulysses.svg",
+        "description": "The Ultimate Writing App for Mac, iPad and iPhone: Powerful features and a pleasant, focused writing experience combined in one tool, made for people who love to write and write a lot — this is Ulysses.",
+        "affiliate_link": "https://go.chrischinchilla.com/ulysses"
+    },
+    {
         "slug": "descript",
         "title": "Text based video and audio editing",
         "cta": "Download Descript",

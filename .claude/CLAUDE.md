@@ -50,7 +50,7 @@ content type or field, edit this file, not a `src/content/<type>/config.ts`.
 
 Most schemas share a pattern worth knowing: `image`/`heroimage` fields are
 `z.union([z.string(), image()])` — they accept a local Astro-optimized asset, a full URL,
-or a Supabase Storage path, resolved at render time (see Images below).
+or a Cloudflare R2 object path, resolved at render time (see Images below).
 
 ### Per-content-type settings live in `src/config.mjs`
 
@@ -136,16 +136,20 @@ it if it should apply to the new/changed content:
   `Home > <section> > <title>` when a `section` prop is passed — pass `section` for any
   content type that has a natural parent listing page.
 
-### Images: three sources, resolved by convention
+### Images: local assets, Cloudflare R2, and external URLs
 
-`src/utils/supabase-images.ts` builds Supabase Storage URLs (with optional
-width/height/quality/format transforms) from `PUBLIC_SUPABASE_URL` /
-`PUBLIC_SUPABASE_IMAGES_BUCKET` env vars. `shouldUseSupabase`/`getImageUrl` decide by
-convention: paths starting `/src/assets` are local (Astro-optimized), full Supabase
-storage URLs pass through, and anything else is treated as a Supabase bucket path.
-`src/components/common/SupabaseImage.astro` and `OptimizedImage.astro` are the two
-rendering paths content ends up on; `src/utils/remark-supabase-images.mjs` rewrites plain
-markdown image references in post bodies the same way.
+`src/utils/r2-images.ts` resolves content image strings using `PUBLIC_R2_URL` and the
+optional `PUBLIC_R2_IMAGES_PREFIX`. Paths beginning `/src/assets` stay local, URLs on the
+configured R2 host pass through, and other relative strings are treated as R2 object keys.
+Arbitrary external HTTP(S) URLs remain external.
+
+`src/components/common/R2Image.astro` optimizes local and R2 images through Astro's image
+service; `astro.config.ts` allow-lists the configured R2 hostname. If an R2 object cannot
+be fetched during a static build, the component uses the site's default image instead of
+failing the build. `OptimizedImage.astro` and `ContentImage.astro` route content through
+the same helpers, while `src/utils/remark-r2-images.mjs` rewrites Markdown image references
+to R2 URLs. Because Astro config runs before normal environment loading, it reads the
+public R2 variables with Vite's `loadEnv`.
 
 ### Content maintenance scripts (not part of the build)
 
@@ -209,8 +213,6 @@ Fixed for all three, same pattern:
 ### Merged from main (2026-08-02)
 
 Main had moved ahead 11 commits, including social-share links (`ShareLinks.astro`) added to `Book.astro`/`Music.astro`/`Post.astro`/etc., and a Supabase→Cloudflare R2 image migration. Conflicts (in `Book.astro`, `Music.astro`, `content.config.ts`, `content/games/europop-vampire.md`, and this `CLAUDE.md`/`.claude/CLAUDE.md` split) were resolved by combining both sides — reorg branch's grid/summary layout plus main's `ShareLinks` component — following the established pattern already shared by `Post.astro`/`Story.astro` on main. `Book.astro`/`Music.astro` also dropped their old `slugify`/`id={idOfTitle}` anchor-id pattern during this merge, matching `Post.astro`/`Story.astro` which no longer use it.
-
-Note: the "Images: three sources" section above still documents the old Supabase pipeline (`supabase-images.ts`, `SupabaseImage.astro`, `PUBLIC_SUPABASE_URL`) — main's R2 migration replaced these with `r2-images.ts`/`R2Image.astro`, but this doc wasn't updated to match. Worth a follow-up pass, unrelated to the reorg work.
 
 ### Done: podcast and real-video coverage in the tech category (2026-08-21)
 
@@ -284,19 +286,30 @@ and a `podcast-feed` case added to the grid branch of both `[category]` route fi
 (`[category]/[contentType]/[...page].astro`, `[category]/index.astro`). The now-unreachable
 `podcast-feed` entries in those files' list branches were left as harmless fallback.
 
-Note: local `npm run build`/`check`/`lint` can't fully run in this environment (TS 7 /
-ESLint 10 / rolldown-vite are ahead of the project's pins) — verified instead via `npm run
-dev` (both routes 200, grid markup present) and a partial `astro build` that compiled all
-entrypoints and rendered 1085/1167 pages before failing only on unrelated R2 image 429s.
+### Done: post, newsletter, and course taxonomy coverage (2026-09-16)
+
+- All 940 post files now contain valid taxonomy categories; the earlier legacy-category
+  cleanup item is complete.
+- All 29 newsletter files now have `categories: [writing]`. The taxonomy archive uses the
+  same compact `Newsletter.astro` card as `/newsletter`, with `listStyle: 'grid'` and an
+  explicit newsletter case in both category route renderers. `/writing/newsletters` and its
+  second pagination page are generated successfully.
+- All three `av` entries now have `categories: [tech]`, making `/tech/courses` visible while
+  retaining its existing row-style `Course.astro` presentation.
+- A full production build completed successfully with 2,032 pages. Restricted-network feed
+  and R2 fetches used their existing fallbacks and did not fail the build.
 
 ### Not done yet
 
-1. **`newsletters` still uses the row/list layout.** Same grid treatment (summary field + compact link list + `listStyle: 'grid'` + dynamic-route case) can be applied on request. (`clients` and `podcast` listings are now grid — see the Done entries above.)
-2. **`posts` has messy legacy category data.** Most posts (815+) have an empty `categories:` field; some have garbage single-line values inherited from an old WordPress export (e.g. `categories: projects odtwe`) that aren't valid YAML lists and won't match `getEntryCategories()`. Only a handful of newer 2025 posts have proper `categories: [writing]` lists. Needs real cleanup/backfill.
-3. **`av` (now `courses` slug), `clients`, `newsletters` still have zero entries with a `categories`/`category` value matching the new taxonomy** and so are still invisible under `/[category]/[contentType]` — `stories` and `podcasts` are now fixed (see above), and `clients` was deliberately pulled out of the category system entirely and moved under "About" (see its own section above). `av`/`courses` is small (3 entries) and low-priority; a `games`/`music`-style hardcoded `tech` fallback in `getEntryCategories()` would fix it in one line whenever it's worth doing.
-4. **Old standalone listing pages still exist in parallel** with the new dynamic route: `src/pages/books/[...page].astro`, `src/pages/games/[...page].astro`, `src/pages/music/[...page].astro`, plus `stories`, `blog`, `podcast`, `videos`, `newsletter` pages. Not yet consolidated, redirected, or removed.
-5. **No redirects** from old URLs (`/books`, `/games`, `/music`) to new category-based URLs if/when those old routes get removed.
+1. **Old standalone listing pages still exist in parallel** with the new dynamic route for
+   blog, books, stories, podcasts, videos, and newsletters. Not yet consolidated,
+   redirected, or removed. The older note naming separate games and music listing files was
+   stale; those files no longer exist.
+2. **No redirects** from any old archive URLs to category-based URLs if those old routes are
+   eventually removed.
 
 ### Next priorities
 
-(a) backfill `categories` frontmatter on posts/newsletters so those archive routes aren't empty; (b) decide whether to keep, redirect, or delete the old standalone listing pages now that `/[category]/[contentType]` covers the same ground — Chris has said he'll tidy these up himself at a later date, so don't do this proactively; confirm first if asked, since it affects live site URLs/SEO.
+The remaining archive consolidation and redirect decision is deliberately deferred at
+Chris's request. Do not change those live URLs proactively; confirm before implementing it
+because it affects public routes and SEO.

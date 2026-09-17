@@ -23,10 +23,10 @@ In my case I had a view that displayed the various product options in a right ha
 
 Finally, I created a custom text field, which by default displays the price on application text and in the 'no results' section displays the sell price and anything else you want to display. This basically means that the field will display the price on application if there is one, but the price instead, if one is set.
 
-![](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/poa-1.png)
+![Ubercart Views fields hidden from display](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/poa-1.png)
 
-![](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/poa-2.png)
+![Ubercart Views custom text field configuration](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/poa-2.png)
 
-![](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/poa-3.png)
+![Ubercart product displaying price-on-application text](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/poa-3.png)
 
-![](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/poa-4.png)
+![Ubercart product displaying its standard price](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/poa-4.png)

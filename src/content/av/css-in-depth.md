@@ -1,7 +1,9 @@
 ---
 title: CSS in Depth in Motion
+summary: A practical video course exploring advanced CSS techniques through examples and projects.
 client: Manning
 video_type: course
+categories: [tech]
 publish_date: 2018-07-01
 image: ~/assets/images/av/livevideo-css-in-depth-in-motion.jpeg
 store_urls:

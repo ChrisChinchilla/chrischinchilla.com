@@ -30,6 +30,7 @@ building blocks of compute infrastructure:
 
 <figure id="c649" class="graf graf--figure graf-after--p">
 <img src="https://cdn-images-1.medium.com/max/800/0*BeKFg60CKvMvBnfW."
+alt="Blockchain projects transforming storage, processing, and communications"
 class="graf-image" data-image-id="0*BeKFg60CKvMvBnfW." data-width="614"
 data-height="345" />
 </figure>
@@ -161,6 +162,7 @@ Some of the key projects under way include:
 
 <figure id="a685" class="graf graf--figure graf-after--p">
 <img src="https://cdn-images-1.medium.com/max/800/0*OGoWG7sPIcczmgRA."
+alt="Summary of blockchain cash and asset projects"
 class="graf-image" data-image-id="0*OGoWG7sPIcczmgRA." data-width="614"
 data-height="346" />
 </figure>

@@ -1,6 +1,7 @@
 ---
 type: speaking
 title: a panel discussing trends and highlights from IFA
+summary: Joined a Munich panel discussing trends and highlights from IFA.
 event: IXDS IFA Pre-Work talk, Munich
 start_date: 2017-09-21T12:20:00.000Z
 venue: IXDS Munich, Ganghoferstraße 68b, 80339 München

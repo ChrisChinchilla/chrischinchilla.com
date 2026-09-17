@@ -146,6 +146,8 @@ const itemListData = {
               <Video video={entry} />
             ) : contentType.collection === 'podcast-feed' ? (
               <Podcast podcast={entry} />
+            ) : contentType.collection === 'newsletters' ? (
+              <Newsletter newsletter={entry} />
             ) : (
               <Story story={entry} />
             )
