@@ -248,19 +248,25 @@
   }
 }
 
-/* Dark mode specific mobile adjustments */
-@media (max-width: 640px) and (prefers-color-scheme: dark) {
+/* Dark mode specific mobile adjustments.
+   Scoped to the `.dark` class (the site uses Tailwind's class dark-mode
+   strategy), not `prefers-color-scheme`. An OS-level dark preference on its
+   own must not restyle anything here: it used to darken the mobile background
+   while every class-based `dark:` text colour stayed in light mode, leaving
+   inherited body text — listing-card summaries in particular — near-black on
+   near-black. */
+@media (max-width: 640px) {
   /* Slightly increase brightness for small screens */
-  body {
+  .dark body {
     background-color: #0f172a;
   }
 
-  .prose {
+  .dark .prose {
     color: #e2e8f0;
   }
 
   /* Better contrast for links */
-  a {
+  .dark a {
     color: #60a5fa;
   }
 }

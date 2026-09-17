@@ -94,7 +94,7 @@ import { SITE } from '~/config.mjs';
           elem.setAttribute('aria-expanded', 'false');
           elem.closest('.dropdown')?.classList.remove('show');
           if (wasExpanded) {
-            (elem as HTMLElement).focus();
+            elem.focus();
           }
         });
 
@@ -105,7 +105,7 @@ import { SITE } from '~/config.mjs';
           document.body.classList.remove('overflow-hidden');
           document.getElementById('header')?.classList.remove('h-screen');
           document.querySelector('#header nav')?.classList.add('hidden');
-          (menuToggle as HTMLElement).focus();
+          menuToggle.focus();
         }
       }
     });

@@ -65,6 +65,33 @@ checklist.
     *WCAG: 2.3.3 Animation from Interactions (Level AAA, best practice).*
     *Resolution:* the rule targets `*, *::before, *::after` with `!important`, which overrides `animation-duration`/`transition-duration` globally regardless of how the animation/transition was declared (Tailwind utility class, scoped component CSS, or inline style). This already covers every case in the codebase — no gaps found, no change needed.
 
+11. **Dark mode silently stopped applying, making listing-card summaries unreadable.** ~~Fixed~~
+    Two defects compounded. (a) The theme bootstrap in `src/components/common/BasicScripts.astro`
+    lives in a `<script is:inline>` block, which Astro ships to the browser verbatim — no
+    TypeScript transpiling. Two `(elem as HTMLElement).focus()` casts added alongside the Escape-key
+    focus-restoration work threw `SyntaxError: Unexpected identifier 'as'` at parse time, killing
+    the *entire* block: `initTheme()` never ran, so the `.dark` class was never added to
+    `<html>` and every `dark:` utility on the site went dead (as did the mobile menu toggle,
+    dropdown handling, the theme toggle's `aria-pressed` sync, and `motion-safe:scroll-smooth`).
+    (b) `src/assets/styles/mobile.css` keyed its dark-mode block on `@media (prefers-color-scheme: dark)`
+    rather than the `.dark` class the rest of the site uses, so an OS-level dark preference alone
+    set `body { background-color: #0f172a }` on viewports ≤640px. With (a) suppressing the class,
+    the result was `text-gray-900` body text on a near-black background — measured 1.01:1, i.e.
+    invisible. Listing-card summaries (`.post-body`, which has no colour of its own and inherits
+    from `<body>`) were the most visible casualty; card titles stayed legible because the same
+    media query recoloured links to `#60a5fa`, which is why the symptom read as "summary text
+    is missing".
+    *WCAG: 1.4.3 Contrast (Minimum) (Level AA).*
+    *Resolution:* dropped the two TS casts (plain `elem.focus()` — the values are already
+    elements at runtime), and rescoped the `mobile.css` block to `.dark body` / `.dark .prose` /
+    `.dark a` so OS preference alone never restyles anything. Verified in headless Chromium at
+    390px and 1280px: summary contrast is now 12.0:1 across `/blog`, `/books`, `/clients`,
+    `/music`, `/games`, `/newsletter`, `/stories`, `/gear`, `/tech/blog`,
+    `/writing/newsletters` and `/`. The (b) fix also removes a light-mode failure that (a) had
+    been masking: a visitor on a dark-OS phone who picks light mode used to get `#60a5fa` links
+    on white (2.54:1). Scanned every other `is:inline` script in `src/` for TypeScript syntax —
+    this was the only instance.
+
 ## Task Checklist
 
 - [x] Add `aria-expanded` (and toggle it in JS) to the mobile menu toggle (`ToggleMenu.astro`) and desktop nav dropdown buttons (`Header.astro`, `HeaderNoLogo.astro`), following the pattern in `AIShare.astro` — dropdowns also gained `aria-haspopup`, click/outside-click/Escape handling, and `:focus-within` CSS for keyboard use
@@ -78,4 +105,5 @@ checklist.
 - [x] Spot-check `Newsletter.astro` card heading level against the page's h1 — confirmed correct (h1 → h2), no change needed
 - [x] Confirm `prefers-reduced-motion` rules in `mobile.css` cover all `transition`/`animate-*` usage — confirmed, the global `*` selector already covers every case
 - [x] Audit existing content for missing `alt` text introduced during the R2 migration — scanned 1,726 content files and all 2,029 rendered pages; fixed 14 screenshots and 19 decorative RSS icons, leaving zero rendered omissions
+- [x] Fix dark mode failing to apply at all (TypeScript casts in an `is:inline` script) and rescope `mobile.css`'s dark block from `prefers-color-scheme` to the `.dark` class — together these had left listing-card summary text at 1.01:1 on mobile; now 12.0:1
 - [ ] Complete the external-browser portion of the automated/manual validation. A rendered static audit across 16 representative page types found and fixed an unlabeled search input and duplicate newsletter heading ID, then passed with zero unnamed buttons/links/inputs, duplicate IDs, missing main landmarks, or heading-level skips. Static keyboard review also added search-dialog focus restoration, live-result announcements, and Escape/focus handling for navigation menus. Lighthouse/axe and an actual screen-reader session remain pending because no browser runner was available and the PageSpeed API returned HTTP 429 during the 2026-09-16 follow-up.
