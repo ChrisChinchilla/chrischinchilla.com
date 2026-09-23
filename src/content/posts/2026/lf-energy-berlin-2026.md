@@ -1,18 +1,17 @@
 ---
-title: What's in the LF Energy toolbox, and what's new this week in Berlin
-publishDate: 2026-09-16T09:00:00.000Z
+title: What's new for LF Energy in 2026
+publishDate: 2026-09-23T09:00:00.000Z
 author: Chris Ward
 categories:
   - tech
+image: articles/lf-energy-26.jpeg
 tags:
   - Energy
   - Open source
   - Linux Foundation
   - Berlin
 summary: >-
-  A tour of Linux Foundation Energy's project portfolio, and a look at what's
-  actually being announced and demoed this week at LF Energy Summit Europe in
-  Berlin.
+  A tour of Linux Foundation Energy's project portfolio, and a look at what was announced and demoed at LF Energy Summit Europe in Berlin.
 ---
 
 I was at [LF Energy Summit Europe](https://events.linuxfoundation.org/lfenergysummit-europe/) in Berlin last week, and it seemed like a good excuse to finally write the "what is LF Energy actually doing" post I've been meaning to put together for a while.

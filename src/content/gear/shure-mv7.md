@@ -2,7 +2,7 @@
 title: Shure MV7
 summary: A hybrid USB/XLR broadcast mic I use as my main microphone on camera, balancing audio quality with on-screen visibility.
 image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Shure_MV7_microphone.jpg/330px-Shure_MV7_microphone.jpg'
-affiliate_url: https://www.amazon.de/dp/B0CTJ8BSWN?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20&th=1
+affiliate_url: https://www.amazon.de/dp/B08G7RG9ML?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20&th=1
 tags:
   - Microphone
   - Audio
