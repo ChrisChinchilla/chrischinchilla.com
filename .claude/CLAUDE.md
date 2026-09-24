@@ -183,6 +183,37 @@ strategy. Icons use `astro-icon` with an explicit per-icon-set `include` allowli
 Client-side search (`SearchBar.astro` / `SearchComponent.astro`) is powered by `fuse.js`
 over statically-generated content, not a hosted search service.
 
+### Amazon affiliate links
+
+Chris's Amazon Associates tag is `gregamamma-20`, used consistently across existing content
+(`grep -r "tag=gregamamma-20" src/content` to see prior examples). Older posts use the full
+`ref=as_li_tl&...&tag=gregamamma-20&linkId=...` SiteStripe URL format or `amzn.to` shortlinks
+(both need the Associates dashboard/browser extension to generate — not reproducible from
+here); the simplest link that still works and is easy to build by hand is:
+
+```
+https://www.amazon.com/dp/<ASIN>?tag=gregamamma-20
+```
+
+When asked to add affiliate links for products mentioned in a post:
+
+1. **Verify real availability first** — search the web (or fetch the Amazon listing
+   directly) for each product; don't link anything that's pre-order-with-no-price,
+   announced-but-unlisted, or crowdfunding-only. "Currently active" means actually buyable on
+   Amazon today.
+2. **Match the exact SKU** — brands frequently sell near-identical variants (different
+   generations, ANC vs non-ANC, bundle/case options, a sub-brand name dropped from the Amazon
+   title). Don't substitute a similar-looking listing for the one actually being written
+   about; if the exact match can't be confirmed, leave it unlinked and note why rather than
+   guessing an ASIN. Never fabricate an ASIN or product URL — it must come from a real,
+   verified listing.
+3. **Only Amazon.com (US)** has been used so far — no confirmed EU Associates tag exists for
+   `.de`/`.co.uk`, so don't assume `tag=gregamamma-20` works there.
+4. For products that can't be confirmed yet (too new, no listing found, ambiguous SKU), leave
+   an inline `%% TODO: ... %%` comment explaining what's blocking it, matching the style
+   already used for unresolved facts in draft posts (see `src/content/posts/2026/ifa-2026.md`
+   for an example of this whole workflow).
+
 ## Current initiative: activity-based site restructure
 
 Branch: `chrischinch/reorg`. Started at commit `5367b01e` "Start of design change".
