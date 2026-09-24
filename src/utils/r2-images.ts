@@ -4,9 +4,8 @@
  * Helper functions for working with images stored in a Cloudflare R2 bucket,
  * served via a public bucket URL (r2.dev subdomain or a custom domain).
  *
- * Resizing/format optimization is handled by Astro's <Image> component at
- * build time (see astro.config.ts `image.domains`), not by these helpers —
- * they only resolve the plain object URL.
+ * Remote objects are served directly rather than downloaded during the static
+ * build. These helpers resolve an object path to its public URL.
  */
 
 /**
