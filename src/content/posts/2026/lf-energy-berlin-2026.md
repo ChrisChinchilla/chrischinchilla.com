@@ -20,14 +20,14 @@ I was at [LF Energy Summit Europe](https://events.linuxfoundation.org/lfenergysu
 
 ## The LF Energy toolbox, curated
 
-- **[PowSyBl](https://lfenergy.org/projects/powsybl/)** — an open platform for power grid modelling, monitoring, and stability assessment. This is one of the more mature, widely deployed projects in the portfolio, RTE, RTE, France's Transmission System Operator (TSO) and other European TSOs building production tooling on top of it.
+- **[PowSyBl](https://lfenergy.org/projects/powsybl/)** — an open platform for power grid modelling, monitoring, and stability assessment. This is one of the more mature, widely deployed projects in the portfolio, RTE, France's Transmission System Operator (TSO) and other European TSOs building production tooling on top of it.
 - **[Dynawo](https://lfenergy.org/projects/dyna%cf%89o/)** — power system simulation, stability, and dynamic modelling. Grew out of RTE's own internal tooling.
 - **[SEAPATH](https://lfenergy.org/projects/seapath/)** — a high-availability, real-time hypervisor for virtualising substation control. Think of it as a "substation as software" project.
 - **[CoMPAS](https://lfenergy.org/projects/compas/)** — open source tools for [IEC 61850](http://iec61850.dvl.iec.ch), an international standard defining communication protocols for intelligent electronic devices at electrical substations. It's intention is to make substation engineering less of a vendor-locked nightmare.
 - **[EVerest](https://lfenergy.org/projects/everest/)** — a firmware stack for standards-compliant, interoperable, secure EV charging. If you've ever been annoyed by incompatible charge points, this is the project trying to fix that.
 - **[CitrineOS](https://lfenergy.org/projects/citrineos/)** — the backend counterpart to EVerest, Open Charge Point Protocol (OCPP)-compliant charge management software.
 - **[OperatorFabric](https://lfenergy.org/projects/operatorfabric/)** — a modular platform for electricity, water, and utility operations, essentially the control-room software layer.
-- **[OpenSTEF](https://lfenergy.org/projects/openstef/)** — short-term energy forecasting, used by Dutch grid operator [Alliander](https://www.alliander.com/en)] among others.
+- **[OpenSTEF](https://lfenergy.org/projects/openstef/)** — short-term energy forecasting, used by Dutch grid operator [Alliander](https://www.alliander.com/en) among others.
 - **[OpenGridFM](https://lfenergy.org/projects/opengridfm/)** — a newer project, building open source foundation models for power grids.
 - **[OpenSynth](https://lfenergy.org/projects/opensynth/)** — an open data community producing AI-generated synthetic and real energy data, useful when you want to train or test something without exposing real customer data.
 - **[Grid2Op](https://lfenergy.org/projects/grid2op/)** — a framework for intelligent power grid control, designed for modeling and simulating sequential decision-making processes in the context of power systems.
@@ -48,7 +48,7 @@ Four projects were accepted as new open source projects:
 - **[CityLearn](https://lfenergy.org/projects/citylearn/)** — a multi-agent reinforcement learning environment for urban energy and microgrids.
 - **[EnerGNN](https://lfenergy.org/projects/energnn/)** — a graph neural network platform for power grid modelling and optimisation.
 - **[Smart HEMS Benchmark](https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-06-09/LF-Energy%20Smart%20HEMS-BenchMark.pdf)** — a manufacturer-neutral platform for benchmarking home and community energy management systems.
-- **[SEAPATH](https://seapathgroup.com/)** advanced all the way to **Graduated** stage, the top of the ladder.
+- **[SEAPATH](https://lfenergy.org/projects/seapath/)** advanced to **Graduated** stage.
 - **[CoMPAS](https://lfenergy.org/projects/compas/)** progressed to **Early Adoption**.
 - **[Grid2Op](https://github.com/Grid2op/grid2op)** and **[OpenGridFM](https://lfenergy.org/projects/opengridfm/)** both moved from Sandbox to **Incubation**.
 
