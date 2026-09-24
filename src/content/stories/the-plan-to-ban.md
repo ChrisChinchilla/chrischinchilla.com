@@ -2,7 +2,7 @@
 date: 2024-03-12
 title: "The plan to ban"
 summary: "A weary government clerk works through a long list of furious, blustering wizards to inform them that magic is being banned."
-tags: ["fiction", "fantasy", "humour", "satire"]
+tags: ["Fiction", "fantasy", "Humor", "satire"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

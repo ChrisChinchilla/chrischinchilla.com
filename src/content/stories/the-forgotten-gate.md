@@ -2,7 +2,7 @@
 date: 2024-02-01
 title: "The Forgotten Gate"
 summary: "Two old friends reminisce in a cosy tavern about the chaotic days when magical gates spat unpredictable creatures into the world — and they decide to have one last adventure."
-tags: ["fiction", "fantasy", "humour", "adventure"]
+tags: ["Fiction", "fantasy", "Humor", "adventure"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

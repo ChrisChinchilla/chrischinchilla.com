@@ -11,7 +11,7 @@ tags:
   - Foss
   - Governance
   - Community
-  - Javascript
+  - JavaScript
   - Hyperledger
   - Apache
 publication_url: 'https://dzone.com/articles/what-can-software-foundations-bring-to-your-projec'

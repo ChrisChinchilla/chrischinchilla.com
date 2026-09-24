@@ -6,8 +6,8 @@ publication_url: 'https://medium.com/macoclock/my-creative-writing-setup-8691c3a
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/0*tMHF1hJXN_tRbkXr.webp
 summary: >-
   I finally finished my first fiction novel after two years of work and have

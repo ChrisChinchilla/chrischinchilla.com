@@ -9,12 +9,12 @@ tags:
   - Linting
   - Writing
   - Technical Writing
-  - Best Practice
+  - Best Practices
   - Vale
   - Textlint
   - Documentation
   - Agile
-  - Tutorial
+  - Tutorials
 publication_url: 'https://dzone.com/articles/vale-for-spelling-grammar-style-and-readability-li'
 image: articles/9971378.jpeg
 summary: >-

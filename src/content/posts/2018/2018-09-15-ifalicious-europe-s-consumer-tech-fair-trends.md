@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Ifa
+  - IFA
   - IoT
   - Smart Home
   - Robots

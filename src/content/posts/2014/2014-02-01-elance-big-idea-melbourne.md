@@ -6,7 +6,7 @@ categories:
   - chrischinchilla
 tags:
   - Melbourne
-  - Event
+  - Events
   - Pitching
 summary: >-
   This was a strange event for a couple of reasons, firstly it didn't run very

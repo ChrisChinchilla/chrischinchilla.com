@@ -9,7 +9,7 @@ categories:
 tags:
   - API
   - Dns
-  - Service
+  - Services
 summary: >-
   A well functioning Crate cluster relies on its nodes being able to utilize
   service discovery to become aware of each other.

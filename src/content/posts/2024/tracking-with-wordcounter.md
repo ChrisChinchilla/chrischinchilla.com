@@ -5,7 +5,7 @@ author: Chris Ward
 categories:
   - tech
 tags:
-  - Prodictivity
+  - Productivity
   - Writing
 image: articles/1*StgPE0QKkMOWm96uUFCFCQ.webp
 summary: >-

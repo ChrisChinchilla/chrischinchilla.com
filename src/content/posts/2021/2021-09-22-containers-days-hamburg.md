@@ -6,7 +6,7 @@ categories:
   - tech
   - writing chronosphere
 tags:
-  - Conference
+  - Conferences
   - Open Source
   - Containers
 publication_url: 'https://chronosphere.io/learn/reporting-back-from-container-days-hamburg/'

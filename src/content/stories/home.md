@@ -2,7 +2,7 @@
 date: 2024-02-08
 title: "Home"
 summary: "A lifelong runaway recounts leaving home again and again across the decades."
-tags: ["fiction", "literary", "melancholy"]
+tags: ["Fiction", "literary", "melancholy"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

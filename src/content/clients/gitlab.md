@@ -7,11 +7,11 @@ image: clients/gitlab.png
 start_date: 2020
 end_date: 2020
 tags:
-  - technology
-  - development
+  - Technology
+  - Development
   - CI
   - CD
-  - devops
+  - DevOps
 ---
 
 GitLab is a complete CI/CD toolchain in a single application. One interface. One conversation. One permission model. I contributed technical articles to their blog.

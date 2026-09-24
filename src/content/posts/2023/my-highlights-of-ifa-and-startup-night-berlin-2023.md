@@ -7,8 +7,8 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*caSn3X5r3FDF-zKsg4WQqQ.webp
 summary: >-
   It’s been a few years since I attended Berlin’s Internationale

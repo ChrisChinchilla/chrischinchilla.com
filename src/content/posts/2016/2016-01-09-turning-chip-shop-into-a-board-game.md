@@ -6,8 +6,8 @@ categories:
   - projects
   - chipshop
 tags:
-  - games
-  - playtesting
+  - Games
+  - Playtesting
 image: articles/board_inspiration.jpg
 summary: >-
   I spent some time this week finishing off a lot of the changes from my last

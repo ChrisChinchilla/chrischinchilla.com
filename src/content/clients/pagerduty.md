@@ -8,9 +8,9 @@ category: Chris writing
 start_date: 2017
 end_date: 2017
 tags:
-  - devops
+  - DevOps
   - IT
-  - communication
+  - Communication
 ---
 
 PagerDuty is the enterprise incident resolution service that integrates with ITOps and DevOps monitoring stacks to improve operational reliability and agility. I created articles for their new FAQ section and some blogs.

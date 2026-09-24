@@ -2,7 +2,7 @@
 date: 2023-02-11
 title: "Dreams of Flying"
 summary: "Frankie the fly accidentally ends up on a plane and finally achieves their lifelong dream of soaring high above the city — right up until a rolled-up newspaper intervenes."
-tags: ["fiction", "humor", "absurdist"]
+tags: ["Fiction", "Humor", "absurdist"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

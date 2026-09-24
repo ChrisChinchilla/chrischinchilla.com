@@ -10,7 +10,7 @@ tags:
   - Https
   - Vpn
   - Secrets Management
-  - Token
+  - Tokens
   - Encryption
   - Privacy
   - Security

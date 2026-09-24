@@ -6,9 +6,9 @@ categories:
   - tech
   - writing chrischinchilla
 tags:
-  - boardgames
+  - Board Games
   - toleplay
-  - tools
+  - Tools
 image: articles/dice.jpeg
 summary: >-
   I endlessly discover cool digital tools, apps, and websites for enhancing

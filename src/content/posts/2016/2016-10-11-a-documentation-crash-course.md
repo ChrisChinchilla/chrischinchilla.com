@@ -7,7 +7,7 @@ categories:
   - hackernoon
 tags:
   - Writing
-  - Techwriting
+  - Technical Writing
 publication_url: 'https://hackernoon.com/a-documentation-crash-course-45006a85c15c#.8kqz1lau4'
 summary: >-
   When you've spent a lot of time working on the latest great project, library,

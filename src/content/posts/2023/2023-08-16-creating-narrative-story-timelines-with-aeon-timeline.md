@@ -7,8 +7,8 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*3X2OlyaUqWp26Sh4c4wFCg.webp
 summary: >-
   In this post, I cover how I use Aeon Timeline, an application for building

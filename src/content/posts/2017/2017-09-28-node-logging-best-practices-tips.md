@@ -8,7 +8,7 @@ categories:
 tags:
   - Logging
   - Nodejs
-  - Javascript
+  - JavaScript
 publication_url: 'https://coralogix.com/log-analytics-blog/node-logging-best-practices-tips/'
 summary: >-
   As is traditional with the JavaScript world, there are a dizzying amount of

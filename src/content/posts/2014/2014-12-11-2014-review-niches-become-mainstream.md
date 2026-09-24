@@ -6,7 +6,7 @@ categories:
   - tech
   - sitepoint
 tags:
-  - Review
+  - Reviews
   - Technology
 summary: >-
   2014 was quite a year, especially for technology and how it affects everyone.

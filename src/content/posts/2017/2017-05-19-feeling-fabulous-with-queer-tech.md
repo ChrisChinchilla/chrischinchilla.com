@@ -7,7 +7,7 @@ categories:
   - hackernoon
 tags:
   - Unit2017
-  - Event
+  - Events
   - Technology
   - Culture
   - History

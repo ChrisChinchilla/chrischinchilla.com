@@ -10,7 +10,7 @@ tags:
   - Automated Testing
   - Test Automation
   - Chaos Engineering
-  - Tutorial
+  - Tutorials
 publication_url: 'https://dzone.com/articles/embracing-the-chaos-of-chaos-engineering'
 image: articles/9801161.jpeg
 summary: >-

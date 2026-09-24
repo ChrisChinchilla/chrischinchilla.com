@@ -6,7 +6,7 @@ categories:
   - chrischinchilla
 tags:
   - Melbourne
-  - Sport
+  - Sports
 summary: >-
   God knows when I last posted a personal post here, no reason why, just been
   stupidly busy, haven't been enough hours in the day...

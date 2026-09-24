@@ -8,7 +8,7 @@ categories:
 image: >-
   articles/image-using-layout-managers-to-craftandroid-interfaces.jpg
 tags:
-  - Tutorial
+  - Tutorials
   - Android
   - Video
 summary: Using layout managers to craft awesome Android interfaces

@@ -5,8 +5,8 @@ author: Chris Ward
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*D_dgOpg2pSWZrXk39_aqIg.webp
 summary: >-
   What do American Online, the Apple Newton, DVDs, Tamagochis, MP3, PDF, and

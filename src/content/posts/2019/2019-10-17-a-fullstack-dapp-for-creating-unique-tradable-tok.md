@@ -6,12 +6,12 @@ categories:
   - tech
   - writing kauri
 tags:
-  - Smart-Contract
+  - Smart Contracts
   - Cryptoeconomics
   - Erc-20
   - Token-Standard
   - Erc721
-  - Token
+  - Tokens
 publication_url: 'https://kauri.io/article/2519d02a7a5244949dc12737817f5798'
 image: articles/QmYL7nkdTBNpsMSL1T4xQJP3g45j15pxg6EBHCrvXuTY7k.png
 summary: >-

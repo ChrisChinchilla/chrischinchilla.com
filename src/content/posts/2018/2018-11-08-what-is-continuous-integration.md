@@ -8,7 +8,7 @@ categories:
 author: Chris Ward
 tags:
   - DevOps
-  - Tutorial
+  - Tutorials
   - CI
   - CD
   - Continuous Integration

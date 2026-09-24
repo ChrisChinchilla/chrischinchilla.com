@@ -9,7 +9,7 @@ categories:
 tags:
   - Video
   - Life
-  - Browser
+  - Browsers
   - Chrome
 summary: >-
   A Chrome Extension Manifest file contains important metadata about your

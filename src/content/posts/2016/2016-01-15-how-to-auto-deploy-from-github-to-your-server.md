@@ -6,9 +6,8 @@ categories:
   - tech
   - sitepoint
 tags:
-  - tutorial
-  - github
-  - github
+  - Tutorials
+  - GitHub
 image: articles/chinchilla_octocat.png
 summary: >-
   GitHub, and the Git version control system it's based on, are fantastic tools

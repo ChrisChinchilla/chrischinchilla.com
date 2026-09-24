@@ -4,9 +4,9 @@ title: Sentry
 image: clients/sentry.png
 category: Chris
 tags:
-  - security
+  - Security
   - debug
-  - programming
+  - Programming
 current: false
 company_url: 'https://sentry.io/welcome/'
 start_date: 2023

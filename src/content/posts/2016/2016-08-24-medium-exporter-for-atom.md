@@ -6,10 +6,10 @@ categories:
   - projects
   - software
 tags:
-  - atom
+  - Atom
   - medium
   - export
-  - markdown
+  - Markdown
 image: articles/projects/medium-export.png
 summary: >-
   I love Markdown and I love editing Markdown in Atom. But I also love the

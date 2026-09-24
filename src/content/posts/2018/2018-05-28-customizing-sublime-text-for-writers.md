@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Text Editor
+  - Text Editors
   - Sublime Text
   - Technical Writing
   - Documentation

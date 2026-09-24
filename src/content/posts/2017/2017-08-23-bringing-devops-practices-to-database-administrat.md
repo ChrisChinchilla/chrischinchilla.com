@@ -9,7 +9,7 @@ tags:
   - Data Science
   - DevOps
   - Database Administration
-  - Database
+  - Databases
   - Data Analytics
 publication_url: 'https://dzone.com/articles/datical-bringing-devops-practices-to-database-admi'
 image: articles/6345521.jpeg

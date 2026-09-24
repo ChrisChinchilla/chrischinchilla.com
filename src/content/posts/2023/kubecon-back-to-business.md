@@ -6,8 +6,8 @@ publication_url: 'https://chrischinchilla.medium.com/kubecon-back-to-business-72
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*iicL_Tu_p9Uh4UdBR9pjYA.webp
 summary: >-
   I didn’t attend Detroit last year, but did attend Valencia, and while it was

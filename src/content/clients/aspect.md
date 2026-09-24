@@ -7,7 +7,7 @@ category: Chris writing
 start_date: 2024
 end_date: 2025
 tags:
-  - developer tools
+  - Developer Tools
   - Bazel
   - Build
   - Test

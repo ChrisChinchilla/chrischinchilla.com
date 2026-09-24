@@ -6,7 +6,7 @@ publication_url: 'https://thenextweb.com/news/immutable-operating-systems-future
 categories:
   - tech
 tags:
-  - Operating systems
+  - Operating Systems
   - Immutable
   - NixOS
 image: articles/immutable.jpeg

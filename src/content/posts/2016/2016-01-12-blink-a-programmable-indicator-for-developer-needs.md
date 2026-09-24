@@ -8,7 +8,7 @@ categories:
   - tech
   - sitepoint
 tags:
-  - Tutorial
+  - Tutorials
   - DevOps
   - IoT
 summary: >-

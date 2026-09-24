@@ -4,9 +4,9 @@ publishDate: 2015-01-10T16:04:10.000Z
 categories:
   - tech
 tags:
-  - Javascript
+  - JavaScript
   - Drupal
-  - Cms
+  - CMS
 image: articles/gm_siteplan.png
 summary: >-
   I have just finished getting in place the basic structures behind the sites

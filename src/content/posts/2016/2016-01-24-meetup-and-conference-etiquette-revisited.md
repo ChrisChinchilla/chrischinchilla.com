@@ -7,9 +7,9 @@ categories:
   - tech
   - theweeklysqueak
 tags:
-  - meetups
-  - conferences
-  - culture
+  - Meetups
+  - Conferences
+  - Culture
 image: articles/image-meetup-etiquette.jpg
 summary: >-
   I don't have an particular themes from the week I can remember in enough

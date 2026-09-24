@@ -8,7 +8,7 @@ categories:
 tags:
   - Open Source
   - Work
-  - Developer
+  - Developers
 summary: >-
   I've been having some thoughts recently on the paths that many open source
   projects seem to follow and who they are really designed for, the developer or

@@ -8,9 +8,9 @@ category: Chris writing
 start_date: 2024
 end_date: 2025
 tags:
-  - logging
-  - database
-  - cloud native
+  - Logging
+  - Databases
+  - Cloud Native
   - Kubernetes
 ---
 

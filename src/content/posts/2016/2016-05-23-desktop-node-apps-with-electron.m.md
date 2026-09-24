@@ -7,7 +7,7 @@ categories:
   - tech
   - sitepoint
 tags:
-  - Javascript
+  - JavaScript
   - Development
 summary: >-
   Call me old-fashioned, but I have always preferred using a desktop app suited

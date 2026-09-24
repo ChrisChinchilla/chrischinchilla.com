@@ -5,7 +5,7 @@ author: Chris Ward
 categories:
   - tech
 tags:
-  - Technical writing
+  - Technical Writing
   - AsciiDoc
   - Documentation
   - AI

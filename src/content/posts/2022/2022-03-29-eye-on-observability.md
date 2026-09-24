@@ -8,7 +8,7 @@ categories:
 tags:
   - Observability
   - Prometheus
-  - Promql
+  - PromQL
 publication_url: 'https://chronosphere.io/learn/an-eye-on-observability-for-march-2022/'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-

@@ -8,7 +8,7 @@ categories:
 tags:
   - Observability
   - Prometheus
-  - Promql
+  - PromQL
 publication_url: >-
   https://chronosphere.io/learn/how-can-recording-and-roll-up-rules-help-your-metrics/
 image: /src/assets/images/defaults/blog-chinchilla.jpg

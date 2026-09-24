@@ -10,7 +10,7 @@ tags:
   - Ubuntu
   - Kubeflow
   - Micropass
-  - Microk8
+  - MicroK8s
   - Kubernetes
   - Dzone
   - AI

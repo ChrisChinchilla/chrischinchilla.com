@@ -6,9 +6,9 @@ categories:
   - projects
   - chipshop
 tags:
-  - Boardgames
+  - Board Games
   - Playtesting
-  - Gamedesign
+  - Game Design
 summary: >-
   A few small updates in this blog post, however, they have a large impact on
   the game.

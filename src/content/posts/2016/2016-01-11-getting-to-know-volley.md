@@ -9,7 +9,7 @@ categories:
   - sitepoint
 tags:
   - Android
-  - Tutorial
+  - Tutorials
 summary: 'Volley, next generation network communications for Android'
 ---
 Volley, next generation network communications for Android

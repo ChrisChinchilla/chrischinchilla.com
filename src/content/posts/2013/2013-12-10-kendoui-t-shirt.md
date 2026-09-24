@@ -6,8 +6,8 @@ categories:
   - tech
   - chrischinchilla
 tags:
- - merchandise
- - conferences
+ - Merchandise
+ - Conferences
 ---
 
 Pretty cool logo :)

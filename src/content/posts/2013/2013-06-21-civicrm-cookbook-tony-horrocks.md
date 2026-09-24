@@ -8,7 +8,7 @@ categories:
 tags:
   - Reviews
   - Books
-  - Civicrm
+  - CiviCRM
 summary: >-
   CiviCRM like many open source tools is a blank canvas and a set of paints that
   different implementers will take in many different ways based on their myriad

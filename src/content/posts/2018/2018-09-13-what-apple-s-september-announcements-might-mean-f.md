@@ -12,7 +12,7 @@ tags:
   - macOS
   - Iphone
   - Ipad
-  - Ar
+  - AR
   - Machine Learning
   - Augmented Reality
 publication_url: 'https://dzone.com/articles/what-apples-september-announcements-might-mean-for'

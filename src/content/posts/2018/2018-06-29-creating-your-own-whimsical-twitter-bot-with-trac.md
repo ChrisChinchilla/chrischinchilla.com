@@ -10,7 +10,7 @@ tags:
   - Bots
   - Node
   - Random
-  - Javascript
+  - JavaScript
   - Tracery
   - Fiction
   - Artificial Intelligence

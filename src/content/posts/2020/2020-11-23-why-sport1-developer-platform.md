@@ -6,7 +6,7 @@ categories:
   - tech
   - writing humanitec
 tags:
-  - Dx
+  - Developer Experience
   - DevOps
 publication_url: 'https://humanitec.com/blog/why-sport1-built-their-internal-developer-platform'
 image: articles/5fc546fd4e3943b25292653f_paolo-garri-why-spot1.png

@@ -7,7 +7,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
   - Games
 summary: >-
   Sorry for the lack of updates, I have been traveling with work the past few

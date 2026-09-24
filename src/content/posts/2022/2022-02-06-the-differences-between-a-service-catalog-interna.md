@@ -7,9 +7,9 @@ categories:
   - dzone
 tags:
   - Paas
-  - Microservice
+  - Microservices
   - Platform As A Service
-  - Service
+  - Services
 publication_url: 'https://dzone.com/articles/the-differences-between-a-service-catalog-internal'
 image: articles/15617203.jpeg
 summary: >-

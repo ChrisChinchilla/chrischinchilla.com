@@ -6,7 +6,7 @@ categories:
   - tech
   - writing humanitec
 tags:
-  - Dx
+  - Developer Experience
   - API
   - Design
 publication_url: 'https://humanitec.com/blog/api-design-developer-experience'

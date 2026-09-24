@@ -6,8 +6,8 @@ categories:
   - tech
 tags:
   - IDE
-  - Text Editor
-  - Writing tool
+  - Text Editors
+  - Writing Tools
   - Programming tool
 image: articles/7-alternative-text-editors-and-IDEs-for-macOS.jpg
 summary: >-

@@ -4,7 +4,7 @@ publishDate: '2016-05-30 08:36:38 +0200'
 tags:
   - Books
   - Reviews
-  - Language
+  - Languages
   - History
 categories:
   - writing

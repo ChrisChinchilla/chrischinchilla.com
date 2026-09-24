@@ -8,7 +8,7 @@ categories:
 tags:
   - Ethics
   - Design
-  - Best Practises
+  - Best Practices
   - Ux
   - Engineering
   - Good Technology

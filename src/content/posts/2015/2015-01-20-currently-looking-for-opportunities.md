@@ -7,7 +7,7 @@ categories:
 tags:
   - Development
   - Work
-  - Developer
+  - Developers
   - Contribute
 summary: >-
   I am currently open to opportunities for full-time and part-time work. Ideally

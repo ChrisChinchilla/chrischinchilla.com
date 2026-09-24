@@ -7,7 +7,7 @@ categories:
 image: articles/lf-energy-26.jpeg
 tags:
   - Energy
-  - Open source
+  - Open Source
   - Linux Foundation
   - Berlin
 summary: >-

@@ -11,7 +11,7 @@ tags:
   - Kubernetes
   - Public Cloud
   - Private Cloud
-  - Multi Cloud
+  - Multi-cloud
   - Open Infrastructure
   - 5G
   - Machine Learning

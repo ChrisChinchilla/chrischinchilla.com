@@ -7,7 +7,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
   - Games
 summary: >-
   Last week I presented Chip Shop at an event here in Berlin. I was woefully

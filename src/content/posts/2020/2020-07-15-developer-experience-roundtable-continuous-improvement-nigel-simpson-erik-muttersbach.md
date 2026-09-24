@@ -6,7 +6,7 @@ categories:
   - tech
   - writing humanitec
 tags:
-  - Dx
+  - Developer Experience
   - DevOps
 publication_url: >-
   https://humanitec.com/blog/developer-experience-roundtable-continuous-improvement-nigel-simpson-erik-muttersbach

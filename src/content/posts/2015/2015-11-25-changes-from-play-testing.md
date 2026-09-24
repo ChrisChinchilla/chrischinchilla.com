@@ -6,7 +6,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
   - Games
 summary: >-
   After my first constructive play test session, here is the first wave of

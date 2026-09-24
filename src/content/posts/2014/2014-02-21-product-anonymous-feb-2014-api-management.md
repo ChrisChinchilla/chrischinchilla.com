@@ -6,7 +6,6 @@ tags:
   - API
   - Api Management
   - Business
-  - APIs
 publishDate: 2014-02-20T23:42:44.000Z
 summary: >-
   This was a great <a href="https://productanonymous.com/"

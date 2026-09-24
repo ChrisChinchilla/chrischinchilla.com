@@ -2,7 +2,7 @@
 date: 2023-02-22
 title: "Visit to Someone Wil"
 summary: "A journalist treks across two continents to interview Alfonso, a 3,437-year-old tortoise and the oldest known creature alive — only to find he has very little to say for himself."
-tags: ["fiction", "humor", "absurdist"]
+tags: ["Fiction", "Humor", "absurdist"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

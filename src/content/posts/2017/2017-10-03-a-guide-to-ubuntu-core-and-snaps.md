@@ -10,8 +10,8 @@ tags:
   - Linux
   - IoT
   - Cloud Containers
-  - Snap
-  - Tutorial
+  - Snaps
+  - Tutorials
 publication_url: 'https://dzone.com/articles/a-guide-to-ubuntu-core-and-snaps'
 image: articles/6788137.jpeg
 summary: >-

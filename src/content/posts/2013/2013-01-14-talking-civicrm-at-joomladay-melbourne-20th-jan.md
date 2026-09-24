@@ -3,7 +3,7 @@ title: 'Talking CiviCRM at Joomla!Day Melbourne, 20th Jan'
 categories:
   - tech
 tags:
-  - Civicrm
+  - CiviCRM
   - Melbourne
   - Joomla
 publishDate: 2013-01-13T23:58:12.000Z

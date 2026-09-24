@@ -6,7 +6,7 @@ categories:
   - chrischinchilla
 tags:
   - News
-  - Event
+  - Events
 summary: >-
   I just took part in my first rally in Leipzig (and Germany), The '<a
   href="https://www.gso-le.de/" target="_blank">Global Space Odyssey</a>',

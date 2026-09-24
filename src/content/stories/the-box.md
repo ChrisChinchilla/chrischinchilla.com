@@ -2,7 +2,7 @@
 date: 2024-02-07
 title: "The Box"
 summary: "A buyer finally takes delivery of a legendary, history-shaping artefact from its reverent seller."
-tags: ["fiction", "fantasy", "humour", "satire"]
+tags: ["Fiction", "fantasy", "Humor", "satire"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

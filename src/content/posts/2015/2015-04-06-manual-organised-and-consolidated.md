@@ -7,7 +7,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
   - Games
 summary: >-
   I spent today drawing together the disparate parts of the game manual and

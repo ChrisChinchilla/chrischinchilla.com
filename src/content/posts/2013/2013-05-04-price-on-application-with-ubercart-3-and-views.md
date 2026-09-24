@@ -7,7 +7,7 @@ categories:
   - chrischinchilla
 tags:
   - Drupal
-  - Php
+  - PHP
 summary: >-
   A few weeks back I needed to create an ability for certain products in
   Ubercart to be available for 'price on application', there were a few modules

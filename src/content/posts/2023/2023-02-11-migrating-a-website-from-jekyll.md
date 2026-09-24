@@ -6,9 +6,9 @@ publication_url: 'https://medium.com/geekculture/migrating-a-website-from-jekyll
 categories:
   - tech
 tags:
-  - jekyll
+  - Jekyll
   - websites
-  - web development
+  - Web Development
 image: articles/1*Q3r-jIt5lGDBYfRv_Z-SnQ.png
 summary: I have stuffed so much into my website over the years it was starting to creak
 ---

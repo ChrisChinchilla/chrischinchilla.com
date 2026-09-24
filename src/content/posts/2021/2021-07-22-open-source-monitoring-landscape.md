@@ -8,7 +8,7 @@ categories:
 tags:
   - Observability
   - Prometheus
-  - Promql
+  - PromQL
 publication_url: 'https://chronosphere.io/learn/open-source-monitoring-landscape/'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-

@@ -5,8 +5,8 @@ categories:
   - tech
   - chrischinchilla
 tags:
-  - greatidea
-  - socialmedia
+  - Great Idea
+  - Social Media
 image: articles/buffer.png
 summary: >-
   I've been using buffer for ages, but not got around to writing anything about

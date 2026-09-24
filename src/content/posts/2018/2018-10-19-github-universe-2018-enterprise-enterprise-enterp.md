@@ -8,10 +8,10 @@ categories:
 tags:
   - GitHub
   - Git
-  - Continious Integration
-  - Continious Deployment
+  - Continuous Integration
+  - Continuous Deployment
   - Java
-  - .Net
+  - .NET
   - Microsoft
 publication_url: 'https://dzone.com/articles/github-universe-2018-enterprise-enterprise-enterpr'
 image: articles/10503347.jpeg

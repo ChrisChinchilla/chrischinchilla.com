@@ -13,7 +13,7 @@ tags:
   - Git
   - GitHub
   - Gitlab
-  - Wasm
+  - WASM
   - Web Assembly
 publication_url: 'https://dzone.com/articles/-what-do-you-predict-will-happen-in-open-source-so'
 image: articles/12862926.jpeg

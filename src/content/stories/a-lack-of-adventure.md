@@ -2,7 +2,7 @@
 date: 2024-03-12
 title: "A Lack of adventure"
 summary: "A swaggering adventurer named Morag the Mighty is indignantly turned away at a city gate by thoroughly unimpressed guards."
-tags: ["fiction", "fantasy", "humour", "adventure"]
+tags: ["Fiction", "fantasy", "Humor", "adventure"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

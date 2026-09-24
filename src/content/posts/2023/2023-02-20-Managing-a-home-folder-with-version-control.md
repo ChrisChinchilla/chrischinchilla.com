@@ -7,8 +7,8 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*Uiknwqvt_OrsFmcQ4HtNFQ.png
 summary: >-
   Some time ago, I mentioned a process I triedthat allowed me to partially

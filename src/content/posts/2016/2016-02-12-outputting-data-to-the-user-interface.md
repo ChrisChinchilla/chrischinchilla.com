@@ -8,7 +8,7 @@ categories:
   - sitepoint
 tags:
   - Android
-  - Tutorial
+  - Tutorials
 summary: >-
   In this video you'll be building upon previously learned techniques by taking
   data imported via API and displaying it to the interface. We'll learn how to

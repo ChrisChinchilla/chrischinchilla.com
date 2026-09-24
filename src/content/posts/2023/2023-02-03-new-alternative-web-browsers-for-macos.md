@@ -7,7 +7,7 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - macos
+  - macOS
   - web browsers
 image: articles/1*8NhAJxnIZ4q65Ay-0uBKUw.png
 summary: I have long been concerned about the state of browsers and the dominant

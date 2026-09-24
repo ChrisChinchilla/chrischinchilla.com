@@ -6,8 +6,8 @@ categories:
   - tech
   - writing chronosphere
 tags:
-  - observability
-  - sustainability
+  - Observability
+  - Sustainability
 image: articles/lineChart.png
 publication_url: >-
   https://chronosphere.io/learn/increasing-cloud-native-sustainability-with-observability/

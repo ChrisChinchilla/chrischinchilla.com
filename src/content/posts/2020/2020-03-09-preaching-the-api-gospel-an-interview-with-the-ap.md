@@ -9,7 +9,7 @@ tags:
   - API
   - Rest Api
   - Grpc
-  - Graphql
+  - GraphQL
   - Postman
   - Http
 publication_url: 'https://dzone.com/articles/-preaching-the-api-gospel-an-interview-with-the-ap'

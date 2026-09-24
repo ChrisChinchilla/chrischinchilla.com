@@ -7,8 +7,8 @@ categories:
   - projects
   - chipshop
 tags:
-  - Boardgames
-  - Gamedesign
+  - Board Games
+  - Game Design
   - Games
 summary: >-
   I spent Christmas undertaking some more general board game theory and computer

@@ -5,7 +5,7 @@ categories:
   - tech
   - chrischinchilla
 tags:
-  - android
+  - Android
   - nexus
   - phones
 image: articles/nexus-4.jpg

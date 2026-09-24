@@ -7,7 +7,7 @@ categories:
 tags:
   - Reviews
   - Apple
-  - Conference
+  - Conferences
 summary: >-
   There was excitement and enthusiasm in the air of MacExpo 2001, and there was
   a reason. Perhaps because Apple was exhibiting at a UK show for the first time

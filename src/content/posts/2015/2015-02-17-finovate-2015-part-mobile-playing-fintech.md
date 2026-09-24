@@ -7,7 +7,7 @@ categories:
   - sitepoint
 tags:
   - Fintech
-  - Conference
+  - Conferences
   - Startups
 summary: >-
   The financial sector is an industry ripe for technical disruption. It is

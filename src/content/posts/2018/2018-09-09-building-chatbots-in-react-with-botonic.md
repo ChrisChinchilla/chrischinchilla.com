@@ -6,11 +6,11 @@ categories:
   - tech
   - dzone
 tags:
-  - Javascript
+  - JavaScript
   - React
   - Chatbots
-  - Web Dev
-  - Tutorial
+  - Web Development
+  - Tutorials
 publication_url: 'https://dzone.com/articles/building-chatbots-in-react-with-botonic'
 image: articles/10170821.jpeg
 summary: >-

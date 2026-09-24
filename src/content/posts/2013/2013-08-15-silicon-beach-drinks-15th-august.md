@@ -7,7 +7,7 @@ categories:
   - chrischinchilla
 tags:
   - Events
-  - Socialmedia
+  - Social Media
   - Startups
 summary: >-
   One of the challenges of my new attempt to blog about all the events I attend

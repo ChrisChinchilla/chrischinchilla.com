@@ -8,7 +8,7 @@ categories:
   - theweeklysqueak
 tags:
   - '2015'
-  - life
+  - Life
   - personal
 image: articles/image-farewell-2015.jpg
 summary: >-

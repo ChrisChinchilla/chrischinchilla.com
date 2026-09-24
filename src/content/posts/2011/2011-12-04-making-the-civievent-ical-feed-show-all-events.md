@@ -5,8 +5,8 @@ categories:
   - tech
   - chrischinchilla
 tags:
-  - civicrm
-  - php
+  - CiviCRM
+  - PHP
 image: articles/civicrm_logo.png
 summary: >-
   With Green Renters we find the iCal feed from CiviEvent (part of CiviCRM)

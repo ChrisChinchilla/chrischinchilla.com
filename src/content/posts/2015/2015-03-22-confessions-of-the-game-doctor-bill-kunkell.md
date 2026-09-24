@@ -7,7 +7,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
   - Games
 summary: >-
   Bill Kunkell helped create "Electronic Games Magazine" in 1981,  the first

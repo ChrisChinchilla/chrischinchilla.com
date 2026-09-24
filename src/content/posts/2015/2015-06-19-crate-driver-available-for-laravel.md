@@ -9,7 +9,7 @@ categories:
 tags:
   - Open Source
   - Community
-  - php
+  - PHP
 summary: >-
   One of the best things about being an open source community is the unexpected
   contributions that appear.

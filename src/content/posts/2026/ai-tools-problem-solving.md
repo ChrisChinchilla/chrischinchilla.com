@@ -6,9 +6,9 @@ categories:
   - tech
 tags:
   - AI
-  - software development
+  - Software Development
   - problem-solving
-  - ethics
+  - Ethics
 image: https://images.pexels.com/photos/16129724/pexels-photo-16129724.jpeg
 summary: >-
     AI tools are transforming how we approach complex problems by automating tasks, enhancing decision-making, and fostering collaboration. This article explores the impact of AI on my software development work, ethical considerations, and the future of problem-solving in the AI-driven era.

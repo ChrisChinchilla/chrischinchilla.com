@@ -8,11 +8,11 @@ categories:
 tags:
   - Atom.Io
   - Atom
-  - Text Editor
+  - Text Editors
   - Mac
   - Apple
   - Touch Bar
-  - Javascript
+  - JavaScript
   - Coffeescript
   - Node Js
   - Electron

@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Database
+  - Databases
   - Database Indexes
   - Pilosa
   - Bitmap Index

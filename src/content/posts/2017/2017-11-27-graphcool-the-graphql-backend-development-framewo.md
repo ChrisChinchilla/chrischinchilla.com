@@ -6,8 +6,8 @@ categories:
   - tech
   - dzone
 tags:
-  - Graphql
-  - Database
+  - GraphQL
+  - Databases
   - Graph Query
   - Graphcool
 publication_url: 'https://dzone.com/articles/graphcool-the-graphql-backend-development-framewor'

@@ -9,8 +9,8 @@ categories:
   - sitepoint
 tags:
   - Video
-  - Browser
-  - Javascript
+  - Browsers
+  - JavaScript
   - Web
 summary: >-
   A Chrome extensions prime function is to interact and enhance a users' web

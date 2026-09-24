@@ -4,7 +4,7 @@ categories:
   - tech
 tags:
   - Drupal
-  - Civicrm
+  - CiviCRM
   - Tools
   - Tools And Techniques
 publishDate: 2013-01-02T05:24:34.000Z

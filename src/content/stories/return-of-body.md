@@ -2,7 +2,7 @@
 date: 2023-02-02
 title: "Return of Body"
 summary: "A professional body-swap operator rents their consciousness to a rich teenager for a night out, then must navigate 24 hours inside an unfamiliar body while hoping the customer returns theirs on time."
-tags: ["fiction", "scifi", "supernatural", "humor"]
+tags: ["Fiction", "Science Fiction", "supernatural", "Humor"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

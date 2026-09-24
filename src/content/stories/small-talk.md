@@ -2,7 +2,7 @@
 date: 2024-03-12
 title: "Small talk"
 summary: "An unreliable narrator tells a story about a chance encounter with a stranger."
-tags: ["fiction", "speculative", "humour", "satire"]
+tags: ["Fiction", "speculative", "Humor", "satire"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

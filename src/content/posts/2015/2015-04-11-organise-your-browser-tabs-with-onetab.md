@@ -6,7 +6,7 @@ categories:
   - tech
   - chrischinchilla
 tags:
-  - Browser
+  - Browsers
   - Productivity
 summary: >-
   One of the main perils of the modern world is there is far too much to

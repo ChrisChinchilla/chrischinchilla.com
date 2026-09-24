@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Blockchain
-  - Qraphql
+  - GraphQL
   - Sparql
   - Databases
   - Relational Database

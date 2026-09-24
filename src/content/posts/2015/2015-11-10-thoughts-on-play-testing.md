@@ -7,7 +7,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Boardgames
+  - Board Games
   - Games
 summary: >-
   I just had my first play testing session for Chip Shop and returned with lots

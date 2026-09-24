@@ -7,8 +7,8 @@ categories:
 publishDate: 2015-04-27T00:00:00.000Z
 image: articles/image-new-cards-and-compuer-spiel-museum.jpg
 tags:
-  - Boardgames
-  - Gamedesign
+  - Board Games
+  - Game Design
 summary: >-
   Over the weekend thanks to Berlin Games Week I attended the <a
   href="https://www.computerspielemuseum.de/" target="_blank">Berlin Computer

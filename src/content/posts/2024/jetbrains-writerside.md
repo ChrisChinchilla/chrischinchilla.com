@@ -7,7 +7,7 @@ categories:
 tags:
   - IDE
   - JetBrains
-  - Tech Writing
+  - Technical Writing
   - AI
 image: articles/ws-ws.jpg
 summary: >-

@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Chatbot
+  - Chatbots
   - Nlp
   - Natural Language Processing
   - Salesforce

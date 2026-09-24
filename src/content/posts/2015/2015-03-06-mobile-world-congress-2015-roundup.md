@@ -8,7 +8,7 @@ categories:
 tags:
   - Mobile
   - Analysis
-  - Conference
+  - Conferences
 summary: >-
   The mobile monolith that is Mobile World Congress is over for another year. I
   was lucky enough to get hold of a press pass and decided to spend the week in

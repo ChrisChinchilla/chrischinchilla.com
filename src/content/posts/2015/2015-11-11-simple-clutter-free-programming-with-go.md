@@ -7,7 +7,7 @@ categories:
   - chrischinchilla
 tags:
   - Programming
-  - Language
+  - Languages
 summary: >-
   GoLang (generally shortened to Go) is the latest
   language-that-everyone-wants-to-learn-and-use. In this article, I'll provide

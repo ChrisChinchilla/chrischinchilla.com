@@ -5,7 +5,7 @@ categories:
 tags:
   - Melbourne
   - Startups
-  - Event
+  - Events
   - Work
 publishDate: 2014-01-29T07:30:47.000Z
 summary: >-

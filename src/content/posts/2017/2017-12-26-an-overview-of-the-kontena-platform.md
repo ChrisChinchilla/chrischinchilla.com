@@ -10,7 +10,7 @@ tags:
   - Kontena
   - Docker Containers
   - Application Stack
-  - Tutorial
+  - Tutorials
 publication_url: 'https://dzone.com/articles/an-overview-of-the-kontena-platform'
 image: articles/7427471.jpeg
 summary: >-

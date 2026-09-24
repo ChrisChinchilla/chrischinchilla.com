@@ -9,7 +9,7 @@ categories:
   - dzone
 tags:
   - macOS
-  - Developer
+  - Developers
   - Saas
   - Payments
 publication_url: 'https://dzone.com/articles/paddle-merges-with-devmate-offering-macos-develope'

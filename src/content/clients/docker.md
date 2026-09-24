@@ -7,8 +7,8 @@ image: 'clients/docker.svg'
 start_date: 2023
 end_date: 2023
 tags:
-  - docker
-  - containers
+  - Docker
+  - Containers
 ---
 
 Docker Inc is a major contributor to many container-related technologies and its own commercial offerings. I was a staff technical writer on the documentation team and was attached to working on a number of commercial products. My responsibilities included:

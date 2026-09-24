@@ -10,7 +10,7 @@ tags:
   - Lisk
   - Developer Relations
   - Developer Evangelism
-  - Web Dev
+  - Web Development
 publication_url: 'https://dzone.com/articles/developer-relations-and-tech-evangelism-with-rache'
 image: articles/11429278.jpeg
 summary: >-

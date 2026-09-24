@@ -7,7 +7,7 @@ categories:
   - chipshop
 tags:
   - Playtesting
-  - Gamedesign
+  - Game Design
   - Games
 image: articles/pt-cards.png
 summary: Chip Shop is ready for play testing! Find out how to get involved.

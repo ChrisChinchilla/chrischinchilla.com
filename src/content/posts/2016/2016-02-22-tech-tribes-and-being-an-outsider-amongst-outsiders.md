@@ -7,10 +7,10 @@ categories:
   - tech
   - hackernoon
 tags:
-  - tech
-  - events
-  - conferences
-  - community
+  - Tech
+  - Events
+  - Conferences
+  - Community
 image: articles/image-tech-tribes.jpg
 summary: >-
   I make no pretense that I am a generalist and get bored quickly. I have

@@ -7,7 +7,7 @@ categories:
   - tech
 tags:
   - AI
-  - APIs
+  - API
   - Documentation
 image: articles/682f499d317d31671d4c0cab_Screenshot 2025-05-22 at 8.57.56 AM.png
 summary: >-

@@ -4,9 +4,9 @@ title: Ethereum Foundation
 image: clients/ethereum-logo-1c9a722bb1-seeklogo.com.png
 category: Chris
 tags:
-  - documentation
-  - blockchain
-  - ethereum
+  - Documentation
+  - Blockchain
+  - Ethereum
 current: false
 company_url: 'https://www.ethereum.org/'
 work_link:

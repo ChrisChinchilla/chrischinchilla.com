@@ -8,7 +8,7 @@ categories:
 tags:
   - Nodejs
   - Enterprise
-  - Javascript
+  - JavaScript
   - Security
 publication_url: 'https://dzone.com/articles/pravin-halady-of-nodesource-enterprise-ready-nodej'
 summary: >-

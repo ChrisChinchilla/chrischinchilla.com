@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Conference
+  - Conferences
   - Lithuania
   - Vilnius
   - Big Data

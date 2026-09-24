@@ -7,9 +7,9 @@ image: clients/kauri.png
 start_date: 2018
 end_date: 2020
 tags:
-  - technology
-  - ethereum
-  - blockchain
+  - Technology
+  - Ethereum
+  - Blockchain
   - workshops
 ---
 

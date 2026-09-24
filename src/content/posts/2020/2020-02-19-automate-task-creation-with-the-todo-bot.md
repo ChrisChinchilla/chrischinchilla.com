@@ -11,7 +11,7 @@ tags:
   - Project Management
   - GitHub
   - Automation
-  - Bot
+  - Bots
 publication_url: 'https://dzone.com/articles/-automate-task-creation-with-the-todo-bot'
 image: articles/13060826.jpeg
 summary: >-

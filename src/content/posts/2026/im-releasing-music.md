@@ -6,8 +6,8 @@ categories:
   - tech
   - music
 tags:
-  - news
-  - music
+  - News
+  - Music
 image: /src/assets/images/articles/kid-chris.jpeg
 summary: >-
   Today I am 45, so I am releasing music for the first time in about 15 years. A look at my musical journey and the new EP I am releasing.

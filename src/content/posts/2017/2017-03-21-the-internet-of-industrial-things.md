@@ -9,7 +9,7 @@ tags:
   - Iiot
   - IoT
   - Industrial
-  - Maitenance
+  - Maintenance
 publication_url: 'https://dzone.com/articles/the-internet-of-industrial-things'
 summary: >-
   When most people think about the Internet of Things (IoT), it likely conjures

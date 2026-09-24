@@ -6,7 +6,7 @@ categories:
   - tech
 tags:
   - Writing
-  - Writing tools
+  - Writing Tools
   - Style checking
 image: articles/prowritingaid.png
 summary: >-

@@ -6,7 +6,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
   - Games
 summary: >-
   This week I have added rules to the 'Playing the Game' section of the manual

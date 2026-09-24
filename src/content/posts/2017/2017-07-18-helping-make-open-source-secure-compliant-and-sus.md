@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Open Souce
+  - Open Source
   - Compliance
   - Security
   - IoT

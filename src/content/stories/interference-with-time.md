@@ -2,7 +2,7 @@
 date: 2023-02-06
 title: "Interference with Time"
 summary: "In a world where everyone gets a once-a-decade undo of any past action, one recipient agonises over how to spend their CTRL+Z day — and ends up paralysed by the infinite weight of consequence."
-tags: ["fiction", "scifi", "humor", "philosophical"]
+tags: ["Fiction", "Science Fiction", "Humor", "philosophical"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

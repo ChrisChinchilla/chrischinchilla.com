@@ -8,8 +8,8 @@ categories:
 tags:
   - React
   - Ext Js
-  - Javascript
-  - Cross Platform
+  - JavaScript
+  - Cross-platform
   - Mobile
   - Mobile App Development
   - Web Development

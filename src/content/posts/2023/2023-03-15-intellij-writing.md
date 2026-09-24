@@ -5,10 +5,10 @@ author: Chris Ward
 categories:
   - tech
 tags:
-  - jetbrains
+  - JetBrains
   - IDE
   - Grammar checking
-  - linting
+  - Linting
   - Spell checking
 image: articles/jb-overview.png
 publication_url: >-

@@ -4,8 +4,8 @@ title: Glassfy
 image: clients/glassfy.png
 category: Chris
 tags:
-    - documentation
-    - mobile
+    - Documentation
+    - Mobile
     - SDK
 company_url: 'https://github.com/glassfy'
 work_link: https://github.com/glassfy

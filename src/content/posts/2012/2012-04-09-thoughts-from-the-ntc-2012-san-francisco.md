@@ -8,8 +8,8 @@ categories:
 tags:
   - Conferences
   - Australia
-  - Service
-  - culture
+  - Services
+  - Culture
 summary: >-
   As is usual from my blog posts, this may or may not grow as I remember
   things&hellip;<ul><li>The visual discrepancy between rich and poor in San

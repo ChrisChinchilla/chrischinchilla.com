@@ -5,7 +5,7 @@ categories:
 tags:
   - Web
   - Melbourne
-  - Event
+  - Events
 publishDate: 2013-04-19T22:59:14.000Z
 summary: >-
   I am honoured, happy and excited to have been asked to speak at a Web

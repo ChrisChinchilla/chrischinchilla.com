@@ -5,8 +5,8 @@ categories:
   - tech
   - chrischinchilla
 tags:
-  - web
-  - html
+  - Web
+  - HTML
   - internet
 image: articles/Internet_map_1024_0.jpg
 summary: >-

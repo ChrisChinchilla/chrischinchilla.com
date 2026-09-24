@@ -7,7 +7,7 @@ categories:
   - software
 tags:
   - dash
-  - documentation
+  - Documentation
 image: articles/dash_trello.png
 summary: >-
   I have loved Kapeli's offline documentation browser, Dash for a while now and

@@ -8,8 +8,8 @@ categories:
   - sitepoint
 tags:
   - Chrome
-  - Javascript
-  - Html
+  - JavaScript
+  - HTML
 summary: >-
   There are quite a lot of specific images and text descriptions required to
   create a listing page for your app, we detail them here and provide some

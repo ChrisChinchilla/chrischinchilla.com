@@ -9,7 +9,7 @@ tags:
   - Ibm
   - Kubernetes
   - Cloud Native
-  - Continous Delivery
+  - Continuous Delivery
   - Hybrid Cloud
   - Monitoring
   - Pull Oriented Model

@@ -10,8 +10,8 @@ categories:
 tags:
   - Atom
   - Writing
-  - Techwriting
-  - Texteditors
+  - Technical Writing
+  - Text Editors
 summary: >-
   I spent a long time researching, trying and tweaking text editors. As a
   cross-platform developer and technical writer (mostly writer these days) I

@@ -5,10 +5,10 @@ categories:
   - tech
   - hackernoon
 tags:
-  - writing
-  - techwriting
+  - Writing
+  - Technical Writing
   - medium
-  - atom
+  - Atom
 image: articles/projects/medium-export.png
 publication_url: >-
   https://hackernoon.com/how-i-wrote-the-atom-medium-exporter-and-how-you-can-help-make-it-better-9e9e4c401da1#.1d09ezkoj

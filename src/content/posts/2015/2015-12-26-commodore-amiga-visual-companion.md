@@ -6,8 +6,8 @@ categories:
   - projects
   - chipshop
 tags:
-  - books
-  - reviews
+  - Books
+  - Reviews
 image: articles/amiga-visual-commpendium.jpg
 summary: >-
   First, let's get the disclaimers out of the way. I helped Kickstart this book,

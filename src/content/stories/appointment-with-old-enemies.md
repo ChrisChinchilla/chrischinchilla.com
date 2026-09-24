@@ -2,7 +2,7 @@
 date: 2023-02-27
 title: "Appointment with Old Enemies"
 summary: "Jared visits a brusque supernatural functionary who will arrange any act of revenge for a fee — and impulsively commits to something far worse than he intended before he can take it back."
-tags: ["fiction", "supernatural", "humor", "dark"]
+tags: ["Fiction", "supernatural", "Humor", "dark"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

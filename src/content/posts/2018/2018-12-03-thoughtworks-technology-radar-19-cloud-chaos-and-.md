@@ -12,7 +12,7 @@ tags:
   - Docker
   - Cloud Computing
   - Quantum Computing
-  - Database
+  - Databases
   - DevOps
 publication_url: 'https://dzone.com/articles/thoughtworks-technology-radar-19-cloud-chaos-and-c'
 image: articles/10787158.jpeg

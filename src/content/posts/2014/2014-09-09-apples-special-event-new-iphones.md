@@ -7,7 +7,6 @@ categories:
   - sitepoint
 tags:
   - Apple
-  - Event
   - Events
 summary: >-
   Today Apple held one of its signature events in its home town of Cupertino,

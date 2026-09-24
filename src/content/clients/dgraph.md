@@ -4,9 +4,9 @@ title: Dgraph
 image: clients/dgraph.jpg
 category: Chris
 tags:
-  - documentation
-  - database
-  - graphql
+  - Documentation
+  - Databases
+  - GraphQL
 current: false
 company_url: 'http://dgraph.io'
 work_link: https://dgraph.io/docs/graphql/

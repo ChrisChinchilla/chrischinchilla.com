@@ -2,7 +2,7 @@
 date: 2023-02-10
 title: "Dreams of Falling"
 summary: "A man wakes every morning from the same recurring vision of apocalyptic destruction wrought by vast, incomprehensible beings — and instead of fearing it, he feels chosen."
-tags: ["fiction", "horror", "cosmic", "dark"]
+tags: ["Fiction", "horror", "cosmic", "dark"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

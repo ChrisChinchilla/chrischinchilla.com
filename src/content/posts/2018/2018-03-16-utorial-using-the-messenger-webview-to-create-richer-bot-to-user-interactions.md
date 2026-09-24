@@ -7,7 +7,7 @@ author: Chris Ward
 categories:
   - tech
 tags:
-  - Tutorial
+  - Tutorials
   - Messenger
   - Bots
 publication_url: >-

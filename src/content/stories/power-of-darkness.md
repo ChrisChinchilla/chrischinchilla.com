@@ -2,7 +2,7 @@
 date: 2023-02-10
 title: "Power of Darkness"
 summary: "Darkness speaks in first person, tracing its ancient relationship with humanity — from the comfort of the womb to the final mystery of death."
-tags: ["fiction", "prose-poetry", "supernatural", "philosophical"]
+tags: ["Fiction", "prose-poetry", "supernatural", "philosophical"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

@@ -8,7 +8,7 @@ tags:
   - Documentation
   - Mac
   - dash
-  - Browser
+  - Browsers
 image: articles/dash.png
 summary: >-
   Every now and then along comes a piece of software that just does pretty much

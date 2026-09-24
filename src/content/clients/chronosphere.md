@@ -7,8 +7,8 @@ image: 'clients/chronosphere.png'
 start_date: 2020
 end_date: 2022
 tags:
-  - kubernetes
-  - observability
+  - Kubernetes
+  - Observability
 current: false
 ---
 

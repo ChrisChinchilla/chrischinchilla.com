@@ -6,8 +6,8 @@ publication_url: 'https://medium.com/aimonks/google-io-2023-ee16469392f0'
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*tIdGQFKa9xmb3dnfCY1Qeg.webp
 summary: Or how Google IO made me realise I probably need to find a new job in 2 years
 ---

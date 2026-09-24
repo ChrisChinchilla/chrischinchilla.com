@@ -5,10 +5,10 @@ categories:
   - tech
   - music
 tags:
-  - podcasting
-  - video
-  - audio
-  - editing
+  - Podcasting
+  - Video
+  - Audio
+  - Editing
 image: articles/av-hero.png
 summary: >-
   A few years ago I detailed the hardware and software I use for producing my

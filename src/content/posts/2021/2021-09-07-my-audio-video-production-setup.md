@@ -6,9 +6,9 @@ categories:
   - music
   - chrischinchilla
 tags:
-  - video
-  - audio
-  - podcast
+  - Video
+  - Audio
+  - Podcasts
   - streaming
 image: articles/IMG_20210609_172640.jpeg
 summary: >-

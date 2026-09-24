@@ -2,7 +2,7 @@
 date: 2024-02-04
 title: "Planet JL"
 summary: "David and Herbert explore the mysterious Planet JL, encountering signs of life and hope amidst the chaos of their journey."
-tags: ["fiction", "science fiction", "adventure", "space"]
+tags: ["Fiction", "Science Fiction", "adventure", "space"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

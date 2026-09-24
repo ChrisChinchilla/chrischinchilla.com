@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Javascript
+  - JavaScript
   - Metrics
 publication_url: 'https://dzone.com/articles/instrumenting-a-javascript-application-for-opentel'
 image: articles/15922777.jpeg

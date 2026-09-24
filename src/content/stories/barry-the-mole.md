@@ -2,7 +2,7 @@
 date: 2024-02-03
 title: "Barry the Mole"
 summary: "Barry, the bravest mole his colony has ever known, has burrowed in every direction without fear — until he digs too far down and encounters something so unsettling he refuses to ever speak of what lies beneath."
-tags: ["fiction", "fable", "horror", "dark"]
+tags: ["Fiction", "fable", "horror", "dark"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

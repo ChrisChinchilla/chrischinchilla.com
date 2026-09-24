@@ -5,7 +5,7 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - greatidea
+  - Great Idea
 image: articles/IMG_0599.jpg
 summary: >-
   I've sometimes been critical of drinking control ads in the past, generally

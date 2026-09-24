@@ -13,7 +13,7 @@ tags:
   - Kubernetes
   - Kong
   - Kong Api
-  - Multi-Cloud
+  - Multi-cloud
 publication_url: 'https://dzone.com/articles/-kong-api-platform-for-multi-cloud-and-hybrid-orga'
 image: articles/12971222.jpeg
 summary: >-

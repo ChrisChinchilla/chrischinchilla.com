@@ -4,8 +4,8 @@ title: n8n
 image: clients/n8n.svg
 category: Chris
 tags:
-  - documentation
-  - automation
+  - Documentation
+  - Automation
   - hosting
   - Containers
 current: false

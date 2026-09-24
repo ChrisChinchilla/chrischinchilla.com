@@ -3,7 +3,7 @@ title: 'clarity, context and how to understand each other better'
 categories:
   - tech
 tags:
-  - Developer
+  - Developers
 publishDate: 2013-07-02T08:01:53.000Z
 summary: >-
   Developer says to designer &quot;blah blah blah&quot;</div>Client says to

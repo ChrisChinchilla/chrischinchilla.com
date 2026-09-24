@@ -7,7 +7,7 @@ categories:
   - hackernoon
 tags:
   - Tech
-  - Review
+  - Reviews
   - Windows
   - macOS
 publication_url: >-

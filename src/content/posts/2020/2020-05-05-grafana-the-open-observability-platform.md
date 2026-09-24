@@ -10,7 +10,7 @@ tags:
   - Monitoring
   - Grafana
   - Prometheus
-  - Time-Series Data
+  - Time-series Data
 publication_url: 'https://dzone.com/articles/-grafana-the-open-observability-platform'
 image: articles/13214989.jpeg
 summary: >-

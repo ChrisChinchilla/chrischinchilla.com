@@ -8,7 +8,7 @@ categories:
   - music
   - tech
 tags:
-  - music
+  - Music
   - notation
 image: articles/newzik.png
 summary: >-

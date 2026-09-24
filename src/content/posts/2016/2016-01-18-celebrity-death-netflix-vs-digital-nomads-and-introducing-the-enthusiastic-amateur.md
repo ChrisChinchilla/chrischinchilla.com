@@ -10,9 +10,9 @@ categories:
   - tech
   - theweeklysqueak
 tags:
-  - music
-  - culture
-  - news
+  - Music
+  - Culture
+  - News
 image: articles/image-celebrity-death.jpg
 summary: >-
   It's been quite a week (month, year) for celebrity death and I'm certainly not

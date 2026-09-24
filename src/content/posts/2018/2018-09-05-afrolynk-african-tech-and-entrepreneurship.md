@@ -9,8 +9,8 @@ tags:
   - Africa
   - Startups
   - Entrepreneur
-  - Conference
-  - Event
+  - Conferences
+  - Events
   - Cloud
   - AI
   - Fintech

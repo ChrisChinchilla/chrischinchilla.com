@@ -7,8 +7,8 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*897NdFvO-AMJ1NfpzlkrBA.webp
 summary: >-
   I am extremely lucky to have a display problem. I have a small home office and

@@ -6,7 +6,7 @@ tags:
   - Travel
   - Australia
   - Data
-  - Service
+  - Services
 publishDate: 2013-10-16T23:43:03.000Z
 summary: >-
   An ever growing miscellaneous list of travel tips and thoughts that occur to

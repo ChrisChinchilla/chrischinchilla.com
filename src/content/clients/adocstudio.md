@@ -8,9 +8,9 @@ category: Chris advisory
 start_date: 2025
 end_date: 2025
 tags:
-  - Technical writing
+  - Technical Writing
   - Documentation
-  - Asciidoc
+  - AsciiDoc
 ---
 
 Create technical documents in no time at all. Use the full range of AsciiDoc – wherever you are. I helped with product advisory and marketing.

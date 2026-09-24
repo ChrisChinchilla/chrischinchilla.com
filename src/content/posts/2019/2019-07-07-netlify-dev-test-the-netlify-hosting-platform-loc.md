@@ -12,7 +12,7 @@ tags:
   - Jekyll
   - Hugo
   - React
-  - Web Dev
+  - Web Development
 publication_url: 'https://dzone.com/articles/-netlify-dev-test-the-netlify-hosting-platform-loc'
 image: articles/12139842.jpeg
 summary: >-

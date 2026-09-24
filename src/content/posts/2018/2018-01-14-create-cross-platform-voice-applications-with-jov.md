@@ -11,7 +11,7 @@ tags:
   - Voice Interfaces
   - Vui
   - AI
-  - Tutorial
+  - Tutorials
   - Bot Development
 publication_url: 'https://dzone.com/articles/create-cross-platform-voice-applications-with-jovo'
 image: articles/7827848.jpeg

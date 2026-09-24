@@ -6,8 +6,8 @@ publication_url: 'https://chrischinchilla.medium.com/my-tech-writing-setup-75bcb
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*ujmfgf5E8f14RBpJ8k7DsQ.webp
 summary: >-
   In my previous post I covered my creative writing setup and the post proved

@@ -7,9 +7,9 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - jekyll
+  - Jekyll
   - websites
-  - web development
+  - Web Development
 image: articles/1*UutqlqFpWNkLpDK3fDcIJw.webp
 summary: >-
   Or, maybe in a more click-generating sub-heading, “how to combine creative

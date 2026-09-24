@@ -6,7 +6,7 @@ categories:
   - tech
   - chrischinchilla
 tags:
-  - Civicrm
+  - CiviCRM
   - Crm
 summary: >-
   At the time of writing this website isn't quite finished and maybe you can't

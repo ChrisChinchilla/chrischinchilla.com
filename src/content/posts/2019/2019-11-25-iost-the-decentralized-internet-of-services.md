@@ -8,7 +8,7 @@ categories:
 tags:
   - Blockchain
   - Iost
-  - Javascript
+  - JavaScript
   - Consensus Algorithm
   - Go Lang
   - Agile

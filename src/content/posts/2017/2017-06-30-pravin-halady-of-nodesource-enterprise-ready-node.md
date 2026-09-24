@@ -7,8 +7,8 @@ categories:
   - dzone
 tags:
   - Nodejs
-  - Javascript
-  - Web Dev
+  - JavaScript
+  - Web Development
 publication_url: 'https://dzone.com/articles/pravin-halady-of-nodesource-enterprise-ready-nodej'
 image: articles/5761399.jpeg
 summary: >-

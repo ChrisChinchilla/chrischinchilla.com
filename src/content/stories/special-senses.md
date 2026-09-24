@@ -2,7 +2,7 @@
 date: 2023-02-16
 title: "Special Senses"
 summary: "A soul-finder with a preternatural sixth sense describes their nightly work tracking down panicked, newly-dead souls and guiding them to the next stage of the afterlife."
-tags: ["fiction", "supernatural", "humor", "first-person"]
+tags: ["Fiction", "supernatural", "Humor", "first-person"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

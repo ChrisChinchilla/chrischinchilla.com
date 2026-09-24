@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Berlin
-  - Conference
+  - Conferences
   - Open Source
   - Foss
   - Governance

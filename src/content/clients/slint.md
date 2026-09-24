@@ -7,8 +7,8 @@ image: 'clients/slint.svg'
 start_date: 2023
 end_date: 2024
 tags:
-  - cross-platform
-  - sdk
+  - Cross-platform
+  - SDK
   - API
 ---
 

@@ -5,7 +5,7 @@ author: ''
 categories:
   - tech
 tags:
-  - Dx
+  - Developer Experience
 orig_url: 'https://www.youtube.com/watch?v=QD7L45ZfmjY'
 video_embed: QD7L45ZfmjY
 image: /src/assets/images/defaults/blog-chinchilla.jpg

@@ -7,8 +7,8 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*7zvSrLaMylyjRuE-Qg8dhg.webp
 summary: >-
   In my last post, I looked at the decision process I went through in deciding

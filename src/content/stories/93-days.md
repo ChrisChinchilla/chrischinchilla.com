@@ -2,7 +2,7 @@
 date: 2024-02-07
 title: "93 days"
 summary: "Ninety-three days after the sun vanishes from the sky."
-tags: ["fiction", "dark", "apocalyptic"]
+tags: ["Fiction", "dark", "apocalyptic"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

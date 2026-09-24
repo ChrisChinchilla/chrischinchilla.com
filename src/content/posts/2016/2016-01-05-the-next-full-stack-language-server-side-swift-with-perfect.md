@@ -8,7 +8,7 @@ categories:
   - sitepoint
 tags:
   - Swift
-  - Language
+  - Languages
   - Server
 summary: >-
   I will keep re-iterating (for the next 6 months at least) that whilst Swift is

@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Bucharest
-  - Conference
+  - Conferences
   - Testing
   - Documentation
   - Programming

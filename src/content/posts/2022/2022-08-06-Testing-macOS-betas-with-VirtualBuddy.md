@@ -7,7 +7,7 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - macos
+  - macOS
   - web browsers
 image: articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png
 summary: 'Every time Apple announces a new macOS beta, I am tempted to somehow'

@@ -6,7 +6,7 @@ publication_url: 'https://thenextweb.com/news/state-open-source-europe'
 categories:
   - tech
 tags:
-  - Open source
+  - Open Source
   - Europe
   - FOSDEM
 image: articles/oseu.jpeg

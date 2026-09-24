@@ -6,7 +6,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - games
+  - Games
 image: articles/card_previews.png
 summary: >-
   Chip Shop has been a labour of love for me over the past two years. It has

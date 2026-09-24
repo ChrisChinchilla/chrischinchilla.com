@@ -9,7 +9,7 @@ tags:
   - Sxsw
   - Blockchain
   - AI
-  - Chatbot
+  - Chatbots
   - Security
 publication_url: 'https://dzone.com/articles/sxsw-part-1-blockchain-and-spacetech'
 image: articles/8544517.jpeg

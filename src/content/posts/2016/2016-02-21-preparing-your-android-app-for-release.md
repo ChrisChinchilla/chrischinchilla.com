@@ -9,7 +9,7 @@ categories:
   - sitepoint
 tags:
   - Android
-  - Tutorial
+  - Tutorials
 summary: >-
   Your app is ready, the next steps are to get it into the Google Play Store for
   people to download and use. In this video we look at preparing your

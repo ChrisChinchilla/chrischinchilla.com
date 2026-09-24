@@ -5,7 +5,7 @@ categories:
   - tech
 tags:
   - Cloud
-  - Bare metal
+  - Bare Metal
   - Containers
 publication_url: 'https://dzone.com/articles/virtualized-containers-vs-bare-metal'
 summary: >-

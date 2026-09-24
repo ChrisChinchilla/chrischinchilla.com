@@ -9,7 +9,7 @@ tags:
   - M3
   - Chronosphere
   - Uber
-  - Time Series Data
+  - Time-series Data
   - Monitoring
   - Big Data
   - Monitoring And Alerting

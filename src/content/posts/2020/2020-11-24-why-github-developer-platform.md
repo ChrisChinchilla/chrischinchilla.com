@@ -6,7 +6,7 @@ categories:
   - tech
   - writing humanitec
 tags:
-  - Dx
+  - Developer Experience
   - DevOps
   - GitHub
 publication_url: >-

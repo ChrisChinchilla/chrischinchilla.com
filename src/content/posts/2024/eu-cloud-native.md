@@ -8,7 +8,7 @@ categories:
 tags:
   - Kubernetes
   - KubeCon
-  - Cloud-native
+  - Cloud Native
 image: articles/kceu.jpeg
 summary: >-
   In June, Kubernetes celebrates its tenth birthday. The system is now so widely

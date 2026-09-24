@@ -6,7 +6,7 @@ categories:
   - tech
   - writing kauri
 tags:
-  - Smart-Contract
+  - Smart Contracts
   - Getting-Started
   - Dapp
   - Erc-20

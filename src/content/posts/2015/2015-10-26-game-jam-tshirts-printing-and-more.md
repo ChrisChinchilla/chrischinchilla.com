@@ -6,7 +6,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
   - Games
 image: articles/cs_tshirt.jpg
 summary: >-

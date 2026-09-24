@@ -9,7 +9,7 @@ tags:
   - Speech
   - Synthesis
   - Ssml
-  - Tutorial
+  - Tutorials
 publication_url: 'https://dzone.com/articles/an-introduction-to-speech-synthesis-markup-languag'
 summary: >-
   Speech synthesis is a not a new technology — computers have been attempting to

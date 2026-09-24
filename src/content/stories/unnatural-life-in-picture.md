@@ -2,7 +2,7 @@
 date: 2023-02-07
 title: "Unnatural Life in Picture"
 summary: "An anonymous painting appears in a hip gallery, and while the owner sees only a publicity coup, her friend is filled with creeping dread at the disturbing forms emerging from its impossible colours."
-tags: ["fiction", "horror", "supernatural", "dark"]
+tags: ["Fiction", "horror", "supernatural", "dark"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

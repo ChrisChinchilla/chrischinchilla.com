@@ -7,7 +7,7 @@ categories:
 tags:
   - Drupal
   - Crm
-  - Conference
+  - Conferences
 summary: >-
   An event that can be as specific as an event for the use of Drupal within
   government demonstrates a growing interest in Drupal (and maybe openness

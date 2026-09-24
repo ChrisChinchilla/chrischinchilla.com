@@ -7,7 +7,7 @@ categories:
 tags:
   - Apple
   - Reviews
-  - Conference
+  - Conferences
 summary: >-
   European Apple fans have been eagerly awaiting this year's Apple Expo. As last
   year's event was cancelled, and most could not really warrant the cost of

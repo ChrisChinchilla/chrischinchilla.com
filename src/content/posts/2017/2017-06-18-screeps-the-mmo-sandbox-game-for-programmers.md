@@ -6,9 +6,9 @@ categories:
   - tech
   - dzone
 tags:
-  - Javascript
+  - JavaScript
   - Coding Challenges
-  - Web Dev
+  - Web Development
   - Coding Exercise
 publication_url: 'https://dzone.com/articles/screeps-the-mmo-sandbox-game-for-programmers'
 image: articles/5620905.jpeg

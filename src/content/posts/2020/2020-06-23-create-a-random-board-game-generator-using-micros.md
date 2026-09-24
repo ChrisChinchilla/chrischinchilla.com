@@ -8,9 +8,9 @@ categories:
 tags:
   - Microservices
   - Heroku
-  - Chatbot
+  - Chatbots
   - API
-  - Tutorial
+  - Tutorials
 publication_url: 'https://dzone.com/articles/-create-a-random-board-game-generator-using-micros'
 image: articles/13657533.jpeg
 summary: >-

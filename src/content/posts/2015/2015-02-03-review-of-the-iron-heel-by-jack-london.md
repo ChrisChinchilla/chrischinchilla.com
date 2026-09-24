@@ -6,7 +6,7 @@ categories:
   - writing
   - odtwe
 tags:
-  - Review
+  - Reviews
   - Fiction
   - Reading
 summary: >-

@@ -6,7 +6,7 @@ categories:
   - writing
 tags:
   - nostalgia
-  - links
+  - Links
   - "2016"
 image: articles/2016.png
 summary: >-

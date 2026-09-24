@@ -6,7 +6,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
   - Games
 summary: >-
   This update is more behind the scenes updates I'm afraid, I have been working

@@ -6,7 +6,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
   - Games
 summary: >-
   Chip Shop has had quite a busy week and I have a few updates to tell you

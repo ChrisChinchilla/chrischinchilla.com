@@ -4,10 +4,10 @@ title: Weave
 image: clients/weave.png
 category: Chris
 tags:
-  - cloud
-  - devops
-  - docker
-  - kubernetes
+  - Cloud
+  - DevOps
+  - Docker
+  - Kubernetes
 current: false
 company_url: 'https://www.weave.works/'
 start_date: 2018

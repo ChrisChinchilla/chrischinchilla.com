@@ -6,7 +6,7 @@ categories:
   - projects
   - chipshop
 tags:
-  - Gamedesign
+  - Game Design
 summary: 'Just a small update, with a much larger one coming next week.'
 ---
 Just a small update, with a much larger one coming next week.

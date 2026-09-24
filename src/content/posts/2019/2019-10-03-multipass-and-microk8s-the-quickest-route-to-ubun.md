@@ -9,7 +9,7 @@ tags:
   - Ubuntu
   - Kubernetes
   - Multipass
-  - Microk8S
+  - MicroK8s
   - Cloud Computing
   - Vm
   - Canonical

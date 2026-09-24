@@ -7,8 +7,8 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*d0t6qGOCLETXbTrizU8TpQ.webp
 summary: >-
   Welcome to Setapp Month! I have been a user of Setapp for quite a while now,

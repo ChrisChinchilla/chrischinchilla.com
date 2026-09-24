@@ -7,7 +7,7 @@ start_date: 2022
 end_date: 2023
 tags:
     - Kubernetes
-    - containers
+    - Containers
 current: false
 ---
 

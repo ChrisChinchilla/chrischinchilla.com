@@ -8,7 +8,7 @@ categories:
   - theweeklysqueak
 tags:
   - Tech
-  - Review
+  - Reviews
   - Coding
   - Children
 excerpt: null

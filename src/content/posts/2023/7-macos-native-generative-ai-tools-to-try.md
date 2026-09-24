@@ -7,8 +7,8 @@ publication_url: >-
 categories:
   - tech
 tags:
-  - macos
-  - version control
+  - macOS
+  - Version Control
 image: articles/1*0WIx9BnykBO9R6RLQOH0mw.webp
 summary: >-
   Generative AI tools and platforms are not just the flavour of the month (for

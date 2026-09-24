@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Graphql
+  - GraphQL
   - API
   - Hasura
   - Databases

@@ -7,7 +7,7 @@ categories:
   - tech
   - sitepoint
 tags:
-  - Anroid
+  - Android
   - iOS
   - Parse
 summary: >-
