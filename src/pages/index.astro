@@ -6,7 +6,6 @@ import HeroBGImg from "~/components/widgets/HeroBGImg.astro";
 import Features2 from "~/components/widgets/Features2.astro";
 import LatestPosts from "~/components/blog/LatestPosts.astro";
 import HighlightedPosts from "~/components/blog/HighlightedPosts.astro";
-import CallToAction from "~/components/widgets/CallToAction.astro";
 import Note from "~/components/widgets/Note.astro";
 import StructuredData from "~/components/common/StructuredData.astro";
 
@@ -97,24 +96,5 @@ const personData = {
 
   <!-- Stats Widget ****************** -->
 
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    callToAction={{
-      text: "View archive",
-      href: "https://chinchillasqueaks.substack.com",
-      icon: "tabler:download",
-    }}
-  >
-    <Fragment slot="title">
-      Join my mailing list
-      <iframe
-        src="https://chinchillasqueaks.substack.com/embed"
-        width="480"
-        height="320"
-        style="border:1px solid #EEE; background:white;"
-        frameborder="0"
-        scrolling="no"></iframe>
-    </Fragment>
-  </CallToAction>
+  <!-- Newsletter sign-up renders site-wide from Footer.astro -->
 </Layout>

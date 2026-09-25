@@ -107,3 +107,13 @@ checklist.
 - [x] Audit existing content for missing `alt` text introduced during the R2 migration — scanned 1,726 content files and all 2,029 rendered pages; fixed 14 screenshots and 19 decorative RSS icons, leaving zero rendered omissions
 - [x] Fix dark mode failing to apply at all (TypeScript casts in an `is:inline` script) and rescope `mobile.css`'s dark block from `prefers-color-scheme` to the `.dark` class — together these had left listing-card summary text at 1.01:1 on mobile; now 12.0:1
 - [ ] Complete the external-browser portion of the automated/manual validation. A rendered static audit across 16 representative page types found and fixed an unlabeled search input and duplicate newsletter heading ID, then passed with zero unnamed buttons/links/inputs, duplicate IDs, missing main landmarks, or heading-level skips. Static keyboard review also added search-dialog focus restoration, live-result announcements, and Escape/focus handling for navigation menus. Lighthouse/axe and an actual screen-reader session remain pending because no browser runner was available and the PageSpeed API returned HTTP 429 during the 2026-09-16 follow-up.
+
+## Newsletter sign-up (2026-09-25)
+
+`NewsletterSignup.astro` (site-wide via `Footer.astro`) replaces the home-page embed, which
+had the Substack iframe nested inside an `<h2>` (so the heading's accessible name was empty
+and the form was announced as heading content) and no iframe `title`. The section is now
+`aria-labelledby` its own `<h2>`, and the iframe has a descriptive `title` and loads lazily. (A native
+form was tried and reverted; see CLAUDE.md.) Measured contrast on the card background:
+light mode — eyebrow `brandGrey` 6.9:1, body `gray-700` 9.3:1, date `gray-600` 6.8:1; dark
+mode — eyebrow `brandYellow` 8.9:1, body `slate-300` 10.8:1, date `slate-400` 6.2:1.

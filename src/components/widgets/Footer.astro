@@ -3,11 +3,14 @@ import { Icon } from 'astro-icon/components';
 import { getHomePermalink, getAsset } from '~/utils/permalinks';
 import { getFooterNavLinks } from '~/utils/nav-links';
 import contactLinks from '~/data/contact.json';
+import NewsletterSignup from '~/components/widgets/NewsletterSignup.astro';
 
 const links = getFooterNavLinks();
 
 const social = [{ label: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') }, ...contactLinks.map(({ title, image, network_link }) => ({ label: title, icon: image, href: network_link }))];
 ---
+
+<NewsletterSignup />
 
 <footer class="border-t border-gray-200 dark:border-slate-800">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">

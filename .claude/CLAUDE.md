@@ -330,6 +330,17 @@ and a `podcast-feed` case added to the grid branch of both `[category]` route fi
 - A full production build completed successfully with 2,032 pages. Restricted-network feed
   and R2 fetches used their existing fallbacks and did not fail the build.
 
+### Done: site-wide newsletter sign-up (2026-09-25)
+
+`src/components/widgets/NewsletterSignup.astro` renders at the top of `Footer.astro`, so
+every layout that includes the footer gets it; the home page's old `CallToAction` copy was
+removed (`CallToAction.astro` is now unused). Two-column card: site-styled copy (eyebrow,
+heading, description, "Latest issue" link from the `newsletters` collection, "View archive"
+to the local `/newsletter`) beside Substack's official `/embed` iframe in a white card
+(`loading="lazy"`, `title`, responsive width). A native form POSTing to Substack's
+undocumented `/api/v1/free` endpoint was tried and didn't work in practice (Cloudflare sits in
+front of Substack) — stick to the official embed.
+
 ### Not done yet
 
 1. **Old standalone listing pages still exist in parallel** with the new dynamic route for
