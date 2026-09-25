@@ -2,7 +2,7 @@
 title: The house of Bernarda Alba
 band: Aeon V
 summary: Soundtrack for the performance of "The House of Bernarda Alba"
-role: Multi-instrumentalist & Producer
+role: Multi-instrumentalist, songwriter, Producer
 release_date: 2024-07-20
 forthcoming: false
 image: https://f4.bcbits.com/img/a2898577413_1x1_700.avif

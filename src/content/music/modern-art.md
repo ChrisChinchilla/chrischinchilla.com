@@ -3,7 +3,7 @@ title: Modern Art / My Little Brother
 band: Art Brut
 summary: Art Brut's second single, a standalone double A-side for Fierce Panda, with both tracks re-recorded for Bang Bang Rock & Roll.
 record_label: Fierce Panda Records
-role: Guitarist
+role: Guitarist, songwriter, backing vocals
 release_date: 2004-12-06
 image: https://upload.wikimedia.org/wikipedia/en/4/4f/Artbrutbbrr.jpg
 stream_urls:

@@ -3,7 +3,7 @@ title: Emily Kane
 band: Art Brut
 summary: A lovelorn ode to a teenage sweetheart, and Art Brut's highest-charting single — it reached number 41, Fierce Panda's best-ever chart placing.
 record_label: Fierce Panda Records
-role: Guitarist
+role: Guitarist, songwriter, backing vocals
 release_date: 2005-05-02
 image: https://upload.wikimedia.org/wikipedia/en/4/4f/Artbrutbbrr.jpg
 stream_urls:

@@ -2,7 +2,7 @@
 title: Antony & Cleopatra - Love is War soundtrack
 band: Aeon V
 summary: Soundtrack for the performance of "Antony & Cleopatra - Love is War"
-role: Multi-instrumentalist & Producer
+role: Multi-instrumentalist, songwriter, Producer
 release_date: 2026-08-04
 forthcoming: false
 image: https://f4.bcbits.com/img/a1148751678_1x1_700.avif

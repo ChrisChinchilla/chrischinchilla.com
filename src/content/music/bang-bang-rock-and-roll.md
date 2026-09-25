@@ -3,7 +3,7 @@ title: Bang Bang Rock & Roll
 band: Art Brut
 summary: The debut studio album by British rock band Art Brut, blending indie rock, art punk, and garage punk to universal acclaim.
 record_label: Fierce Panda Records
-role: Guitarist
+role: Guitarist, songwriter, backing vocals
 release_date: 2005-05-30
 image: https://upload.wikimedia.org/wikipedia/en/4/4f/Artbrutbbrr.jpg
 store_urls:

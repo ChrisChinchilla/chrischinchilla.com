@@ -3,7 +3,7 @@ title: Good Weekend
 band: Art Brut
 summary: The fourth single from Bang Bang Rock & Roll, an exuberant celebration of new love ("I've seen her naked... twice!").
 record_label: Fierce Panda Records
-role: Guitarist
+role: Guitarist, songwriter, backing vocals
 release_date: 2005-09-26
 image: https://upload.wikimedia.org/wikipedia/en/4/4f/Artbrutbbrr.jpg
 stream_urls:
