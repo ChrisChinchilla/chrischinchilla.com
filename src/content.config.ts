@@ -16,6 +16,10 @@ const supportLinks = defineCollection({
       affiliate_html: z.string().optional(),
       image: z.union([z.string(), image()]).optional(),
       icon: z.string().optional(),
+      // Set on core support links that should also appear as per-page tip links (TipBar)
+      tip_label: z.string().optional(),
+      tip_icon: z.string().optional(),
+      tip_url: z.string().url().optional(),
       slug: z.string(),
     }),
 });

@@ -330,6 +330,22 @@ and a `podcast-feed` case added to the grid branch of both `[category]` route fi
 - A full production build completed successfully with 2,032 pages. Restricted-network feed
   and R2 fetches used their existing fallbacks and did not fail the build.
 
+### Done: per-content tip bar (2026-09-25)
+
+`src/components/common/TipBar.astro` renders a hideable floating "Tip me for …" panel on the
+right edge, separate from `SupportBlock` (affiliate/support cards at the end of the post).
+Links come from `src/data/support.json` entries with `tip_url`/`tip_label`/`tip_icon`
+(Buy Me a Coffee, Ko-fi), read by `src/utils/tips.ts`, so the URLs live in one place. It
+uses plain links styled in the brand colours, not the BMC/Ko-fi widget scripts, because
+those scripts write into the page with `document.write`, which breaks under `ClientRouter`.
+
+Enabled via `MarkdownLayout`'s `tipSubject` prop (blog "this post", newsletter "this
+newsletter", books "this book", music "this release"). The same prop passes a plain
+Markdown tip line to `AIShare.astro`, which inserts it between the frontmatter and body in
+"Copy as Markdown". Games have no detail pages, so `/games/games` renders
+`<TipBar subject="my games" />` directly in `[category]/[contentType]/[...page].astro`.
+`llms-full.txt` does not include tip links.
+
 ### Not done yet
 
 1. **Old standalone listing pages still exist in parallel** with the new dynamic route for
@@ -338,6 +354,16 @@ and a `podcast-feed` case added to the grid branch of both `[category]` route fi
    stale; those files no longer exist.
 2. **No redirects** from any old archive URLs to category-based URLs if those old routes are
    eventually removed.
+3. **Follow-up (future): let readers choose a tip amount on the page.** Neither BMC nor Ko-fi
+   has a public payments API for third-party sites, so the amount picker must be theirs.
+   Agreed approach when picked up: the TipBar's Ko-fi button opens an accessible in-page
+   `<dialog>` with Ko-fi's embeddable donation panel iframe, loaded only on click (keeps
+   third-party scripts/cookies off pages by default — performance and EU consent). Check
+   whether BMC's page allows framing before doing the same for it; otherwise it stays a
+   new-tab link. Don't use the vendors' own floating widgets (they'd clash with TipBar and
+   AIShare, and break under `ClientRouter`). Stripe (embedded checkout + Netlify function)
+   is the only route to a real custom amount field, and only worth it if moving off
+   Ko-fi/BMC.
 
 ### Next priorities
 

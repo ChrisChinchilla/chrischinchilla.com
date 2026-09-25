@@ -15,6 +15,7 @@ import Podcast from '~/components/Podcast.astro';
 import Software from '~/components/Software.astro';
 import Video from '~/components/Video.astro';
 import Content from '~/components/widgets/Content.astro';
+import TipBar from '~/components/common/TipBar.astro';
 import podcastShowImage from '~/assets/images/tech-lounge.png';
 import {
   SITE_CATEGORIES,
@@ -178,4 +179,6 @@ const itemListData = {
       totalPages={totalPages}
     />
   </section>
+  {/* Games have no per-entry detail page, so their tip bar lives on the archive instead */}
+  {contentType.collection === 'games' && <TipBar subject="my games" />}
 </Layout>

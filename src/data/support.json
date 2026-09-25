@@ -146,6 +146,9 @@
         "section": "core",
         "icon": "tabler:brand-github",
         "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+        "tip_label": "Buy me a coffee",
+        "tip_icon": "simple-icons:buymeacoffee",
+        "tip_url": "https://www.buymeacoffee.com/chrischinchilla",
         "affiliate_html": "<script type=\"text/javascript\" src=\"https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js\" data-name=\"bmc-button\" data-slug=\"chrischinchilla\" data-color=\"#4b555c\" data-emoji=\"\" data-font=\"Lato\" data-text=\"Buy me a coffee\" data-outline-color=\"#ffffff\" data-font-color=\"#ffffff\" data-coffee-color=\"#FFDD00\" ></script>"
     },
     {
@@ -163,6 +166,9 @@
         "section": "core",
         "icon": "tabler:brand-github",
         "description": "Support Chris Chinchilla's open-source projects and content on GitHub.",
+        "tip_label": "Support me on Ko-fi",
+        "tip_icon": "simple-icons:kofi",
+        "tip_url": "https://ko-fi.com/P5P3JYHDE",
         "affiliate_html": "<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'P5P3JYHDE');kofiwidget2.draw();</script>"
     }
 ]

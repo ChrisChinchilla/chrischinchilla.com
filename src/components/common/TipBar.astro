@@ -1,0 +1,140 @@
+---
+import { Icon } from 'astro-icon/components';
+import { getTipHeading, getTipLinks } from '~/utils/tips';
+
+export interface Props {
+  // Completes "Tip me for …", e.g. "this post" or "my games"
+  subject: string;
+}
+
+const { subject } = Astro.props;
+const links = await getTipLinks();
+const heading = getTipHeading(subject);
+
+// Brand colours from the existing Ko-fi / Buy Me a Coffee widget settings in support.json.
+// Dark text on both keeps contrast above 4.5:1 in light and dark mode.
+const brandStyles: Record<string, string> = {
+  'simple-icons:kofi': 'background-color: #29abe0;',
+  'simple-icons:buymeacoffee': 'background-color: #ffdd00;',
+};
+---
+
+{
+  links.length > 0 && (
+    <aside id="tip-bar" class="fixed right-0 top-1/2 -translate-y-1/2 z-40 print:hidden" aria-label="Tips">
+      <div
+        id="tip-bar-panel"
+        class="hidden sm:flex flex-col gap-2 w-44 sm:w-52 p-3 rounded-l-xl bg-white dark:bg-slate-800 border border-r-0 border-gray-200 dark:border-slate-700 shadow-lg"
+      >
+        <div class="flex items-start justify-between gap-2">
+          <p class="text-sm font-semibold font-heading text-gray-800 dark:text-gray-100">{heading}</p>
+          <button
+            id="tip-bar-hide"
+            type="button"
+            class="shrink-0 rounded p-0.5 text-gray-500 dark:text-slate-400 hover:text-gray-800 dark:hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary"
+            aria-label="Hide tip links"
+            aria-controls="tip-bar-panel"
+            aria-expanded="true"
+          >
+            <Icon name="tabler:x" class="w-4 h-4" />
+          </button>
+        </div>
+        {links.map((link) => (
+          <a
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium font-btn text-slate-900 hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition-opacity"
+            style={link.icon ? brandStyles[link.icon] : undefined}
+          >
+            {link.icon && <Icon name={link.icon} class="w-4 h-4 shrink-0" aria-hidden="true" />}
+            <span>{link.label}</span>
+          </a>
+        ))}
+      </div>
+      <button
+        id="tip-bar-show"
+        type="button"
+        class="flex sm:hidden items-center gap-1 rounded-l-xl bg-white dark:bg-slate-800 border border-r-0 border-gray-200 dark:border-slate-700 shadow-lg px-2 py-3 text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary"
+        aria-label={`Show tip links: ${heading}`}
+        aria-controls="tip-bar-panel"
+        aria-expanded="false"
+      >
+        <Icon name="tabler:coffee" class="w-5 h-5" aria-hidden="true" />
+        <span>Tip</span>
+      </button>
+    </aside>
+  )
+}
+
+<!-- Apply the initial state synchronously so mobile and previously dismissed panels do not flash open. -->
+<script is:inline data-astro-rerun>
+  (() => {
+    const panel = document.getElementById('tip-bar-panel');
+    const showBtn = document.getElementById('tip-bar-show');
+    if (!panel || !showBtn) return;
+
+    let persistedHidden = false;
+    try {
+      persistedHidden = localStorage.getItem('tipBarHidden') === '1';
+    } catch {}
+
+    const hidden = persistedHidden || window.matchMedia('(max-width: 639px)').matches;
+
+    // Remove the no-JS responsive defaults before the interactive script takes over.
+    panel.classList.remove('hidden', 'sm:flex');
+    panel.classList.add('flex');
+    showBtn.classList.remove('sm:hidden');
+    panel.hidden = hidden;
+    showBtn.hidden = !hidden;
+  })();
+</script>
+
+<script>
+  const STORAGE_KEY = 'tipBarHidden';
+
+  function readHidden(): boolean {
+    try {
+      return localStorage.getItem(STORAGE_KEY) === '1';
+    } catch {
+      return false;
+    }
+  }
+
+  function writeHidden(hidden: boolean) {
+    try {
+      if (hidden) localStorage.setItem(STORAGE_KEY, '1');
+      else localStorage.removeItem(STORAGE_KEY);
+    } catch {
+      // Storage unavailable (private mode etc.) - the choice just won't persist
+    }
+  }
+
+  function initTipBar() {
+    const panel = document.getElementById('tip-bar-panel');
+    const hideBtn = document.getElementById('tip-bar-hide');
+    const showBtn = document.getElementById('tip-bar-show');
+    if (!panel || !hideBtn || !showBtn) return;
+
+    const setHidden = (hidden: boolean, moveFocus = false) => {
+      // Tailwind's preflight makes [hidden] win over the `flex` utility
+      panel.hidden = hidden;
+      showBtn.hidden = !hidden;
+      if (moveFocus) (hidden ? showBtn : hideBtn).focus();
+    };
+
+    const shouldStartHidden = readHidden() || window.matchMedia('(max-width: 639px)').matches;
+    setHidden(shouldStartHidden);
+
+    hideBtn.addEventListener('click', () => {
+      writeHidden(true);
+      setHidden(true, true);
+    });
+    showBtn.addEventListener('click', () => {
+      writeHidden(false);
+      setHidden(false, true);
+    });
+  }
+
+  document.addEventListener('astro:page-load', initTipBar);
+</script>

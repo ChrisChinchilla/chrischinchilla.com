@@ -25,7 +25,7 @@ const structuredData = {
 };
 ---
 
-<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Books', href: '/books' }}>
+<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Books', href: '/books' }} tipSubject="this book">
   <StructuredData slot="head" type="CreativeWork" data={structuredData} />
   <ContentImage
     slot="image"

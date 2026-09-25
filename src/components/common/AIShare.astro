@@ -3,9 +3,11 @@ export interface Props {
   url: string;
   title: string;
   frontmatter: Record<string, unknown>;
+  // Plain tip links inserted at the top of the copied Markdown
+  tipMarkdown?: string;
 }
 
-const { url, title, frontmatter } = Astro.props;
+const { url, title, frontmatter, tipMarkdown } = Astro.props;
 
 const prompt = encodeURIComponent(`Please read and summarise "${title}": ${url}`);
 
@@ -59,6 +61,7 @@ const frontmatterJson = JSON.stringify(frontmatter, (_key, value) =>
       class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
       role="menuitem"
       title="Copy page as Markdown"
+      data-tip-markdown={tipMarkdown}
     >
       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
@@ -247,7 +250,8 @@ const frontmatterJson = JSON.stringify(frontmatter, (_key, value) =>
         const article = document.querySelector('.prose');
         const bodyText = article ? nodeToMarkdown(article) : '';
 
-        const markdown = `${frontmatter}\n\n${bodyText}`;
+        const tipLine = copyBtn.dataset.tipMarkdown;
+        const markdown = tipLine ? `${frontmatter}\n\n${tipLine}\n\n${bodyText}` : `${frontmatter}\n\n${bodyText}`;
 
         try {
           await navigator.clipboard.writeText(markdown);

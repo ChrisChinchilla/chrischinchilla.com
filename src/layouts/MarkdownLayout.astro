@@ -7,8 +7,10 @@ import SupportBlock from '~/components/SupportBlock.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import AIShare from '~/components/common/AIShare.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
+import TipBar from '~/components/common/TipBar.astro';
 import { MetaSEO } from '~/types';
 import { getImageUrl } from '~/utils/r2-images';
+import { getTipLinks, tipLinksToMarkdown } from '~/utils/tips';
 
 export interface Props {
   section?: {
@@ -16,9 +18,12 @@ export interface Props {
     href: string;
   };
   ogType?: 'article' | 'website';
+  // Completes "Tip me for …" (e.g. "this post"); when set, shows the floating TipBar and
+  // adds tip links to the "Copy as Markdown" output
+  tipSubject?: string;
 }
 
-const { frontmatter, section, ogType = 'article' } = Astro.props;
+const { frontmatter, section, ogType = 'article', tipSubject } = Astro.props;
 
 // Generate breadcrumb items. `section` (e.g. 'Blog') inserts a middle level for content
 // types; pages with no section (cv/community/contact) still get a plain Home > Title trail.
@@ -67,6 +72,7 @@ const meta: MetaSEO = {
 
 const shareUrl = frontmatter?.publication_url || Astro.url.href;
 const shareSummary = frontmatter?.summary || frontmatter?.description;
+const tipMarkdown = tipSubject ? tipLinksToMarkdown(tipSubject, await getTipLinks()) : undefined;
 ---
 
 <Layout {meta}>
@@ -114,6 +120,8 @@ const shareSummary = frontmatter?.summary || frontmatter?.description;
     url={Astro.url.href}
     title={frontmatter.title}
     frontmatter={frontmatter}
+    tipMarkdown={tipMarkdown}
   />
+  {tipSubject && <TipBar subject={tipSubject} />}
   <Footer />
 </Layout>

@@ -107,3 +107,17 @@ checklist.
 - [x] Audit existing content for missing `alt` text introduced during the R2 migration — scanned 1,726 content files and all 2,029 rendered pages; fixed 14 screenshots and 19 decorative RSS icons, leaving zero rendered omissions
 - [x] Fix dark mode failing to apply at all (TypeScript casts in an `is:inline` script) and rescope `mobile.css`'s dark block from `prefers-color-scheme` to the `.dark` class — together these had left listing-card summary text at 1.01:1 on mobile; now 12.0:1
 - [ ] Complete the external-browser portion of the automated/manual validation. A rendered static audit across 16 representative page types found and fixed an unlabeled search input and duplicate newsletter heading ID, then passed with zero unnamed buttons/links/inputs, duplicate IDs, missing main landmarks, or heading-level skips. Static keyboard review also added search-dialog focus restoration, live-result announcements, and Escape/focus handling for navigation menus. Lighthouse/axe and an actual screen-reader session remain pending because no browser runner was available and the PageSpeed API returned HTTP 429 during the 2026-09-16 follow-up.
+
+## Tip bar (2026-09-25)
+
+`src/components/common/TipBar.astro` is a floating `<aside aria-label="Tips">` on the right
+edge of blog, newsletter, book, and music detail pages and the games archive.
+
+- Hide/show are two real `<button>`s with `aria-label`, `aria-controls`, and
+  `aria-expanded`; focus moves to whichever button replaces the one that was pressed, and
+  the hidden state persists in `localStorage` (wrapped in try/catch).
+- Tip links use the Ko-fi (`#29abe0`) and Buy Me a Coffee (`#ffdd00`) brand colours with
+  `text-slate-900` rather than the widgets' white text: measured 6.8:1 and 13.3:1. White on
+  those backgrounds would be 2.6:1 and 1.4:1 (AA fail). Backgrounds are identical in light
+  and dark mode, so the ratios hold in both.
+- Brand icons are `aria-hidden`; the visible text is the accessible name.

@@ -57,6 +57,8 @@ export default defineConfig({
           'moon',
           'calendar-plus',
           'calendar-event',
+          'x',
+          'coffee',
         ],
         'simple-line-icons': ['social-spotify'],
         fa: ['podcast'],
@@ -64,7 +66,7 @@ export default defineConfig({
         fluent: ['people-audience-20-filled'],
         ri: ['money-euro-circle-fill'],
         ph: ['pencil-circle-bold', 'code-bold', 'music-notes-bold', 'dice-six-bold'],
-        'simple-icons': ['applepodcasts', 'amazonmusic', 'pocketcasts'],
+        'simple-icons': ['applepodcasts', 'amazonmusic', 'pocketcasts', 'kofi', 'buymeacoffee'],
       },
     }),
 
