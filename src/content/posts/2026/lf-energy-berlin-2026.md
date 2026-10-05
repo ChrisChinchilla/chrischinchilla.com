@@ -12,6 +12,9 @@ tags:
   - Berlin
 summary: >-
   A tour of Linux Foundation Energy's project portfolio, and a look at what was announced and demoed at LF Energy Summit Europe in Berlin.
+heroimage: articles/lf-energy-26.jpeg
+herotext: >-
+  A tour of Linux Foundation Energy's project portfolio, and a look at what was announced.
 ---
 
 I was at [LF Energy Summit Europe](https://events.linuxfoundation.org/lfenergysummit-europe/) in Berlin last week, and it seemed like a good excuse to finally write the "what is LF Energy actually doing" post I've been meaning to put together for a while.

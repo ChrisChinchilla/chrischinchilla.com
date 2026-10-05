@@ -11,9 +11,6 @@ tags:
 image: articles/2016.png
 summary: >-
   Revisiting links saved ten years ago, exploring what captured my attention and the world's interests back in 2016.
-heroimage: articles/2016.png
-herotext: >-
-  A look at the links that shaped my reading habits a decade ago.
 ---
 
 Last year, [when Pocket finally closed](https://support.mozilla.org/en-US/kb/future-of-pocket), I needed an alternative read-it-later service. I looked at all the new cool options such as [Matter](https://www.getmatter.com/), but they were overly complex and expensive for my needs. I also looked at cutting out an additional service and instead using Safari's read-it-later features, but I use my read-it-later service to kick off items for my newsletter, so I needed something with API access.

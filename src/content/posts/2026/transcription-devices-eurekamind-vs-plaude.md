@@ -12,6 +12,9 @@ tags:
 image: articles/speaker-chinchilla.png
 summary: >-
     In this post I compare two AI-powered transcription devices, EurekaMind and Plaude, and discuss whether you need a dedicated device at all.
+heroimage: articles/speaker-chinchilla.png
+herotext: >-
+    In this post I compare two AI-powered transcription devices, EurekaMind and Plaude.
 ---
 
 As far as I know Plaude were one of the first movers in the dedicated recording and transcription device space. But if the show floor at IFA was anything to go by, the space is rapidly filling up with competitors or as someone at Plaude put it, "copy cats".
