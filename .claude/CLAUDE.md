@@ -375,7 +375,9 @@ One content model, three ways in:
   (prompt, listing JSON, page JSON) come from the URL's first path segment — add a segment to its
   `SECTIONS` map when adding a content type with detail pages.
 - A draft announcement post is at `src/content/posts/2026/ai-features-on-this-site.md`, full of
-  `%% TODO %%` markers. Posts have no draft flag, so it publishes if pushed as-is.
+  `%% TODO %%` markers (the menu screenshot is done: `src/assets/images/articles/ai-open-with-menu.png`,
+  referenced by relative path, which Astro optimises). Posts have no draft flag, so it publishes if
+  pushed as-is.
 
 Not yet done: MCP resources/prompts, a `/.well-known` server card, rate limiting, bodies for
 podcasts/videos, a real-browser WebMCP test (only tested with a mocked API), a Netlify run of the
