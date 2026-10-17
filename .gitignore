@@ -20,7 +20,6 @@ pnpm-debug.log*
 .DS_Store
 *.plist
 
-package-lock.json
 pnpm-lock.yaml
 
 src/content/types.generated.d.ts

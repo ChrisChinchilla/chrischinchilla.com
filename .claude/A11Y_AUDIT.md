@@ -117,3 +117,16 @@ and the form was announced as heading content) and no iframe `title`. The sectio
 form was tried and reverted; see CLAUDE.md.) Measured contrast on the card background:
 light mode — eyebrow `brandGrey` 6.9:1, body `gray-700` 9.3:1, date `gray-600` 6.8:1; dark
 mode — eyebrow `brandYellow` 8.9:1, body `slate-300` 10.8:1, date `slate-400` 6.2:1.
+
+## AI agent tools (2026-10-16)
+
+`AIShare.astro` gained a "For AI agents" group (copy MCP server URL, copy a section-specific
+prompt, section/page JSON links, link to `/ai`). The group is `role="group"` with an
+`aria-label` inside the existing `role="menu"`, its items are `role="menuitem"`, the new
+icons are `aria-hidden`, and the copy buttons flash "Copied!"/"Failed to copy" in their visible
+label like the existing Copy as Markdown button (no new live region). The group heading uses
+`gray-600`/`gray-400` on the page background: 7.6:1 light, 7.0:1 dark. The footer's "For AI
+agents" line (`Footer.astro`) uses plain text links with `hover:underline` in `gray-700`/`slate-400`
+(10.3:1 light, 7.0:1 dark). Not done: a keyboard walkthrough of the menu (arrow-key navigation is
+not implemented for the existing menu either, items are reachable by Tab) and a screen-reader pass.
+

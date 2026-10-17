@@ -5,6 +5,8 @@ export interface Props {
   frontmatter: Record<string, unknown>;
 }
 
+import { SITE } from '~/config.mjs';
+
 const { url, title, frontmatter } = Astro.props;
 
 const prompt = encodeURIComponent(`Please read and summarise "${title}": ${url}`);
@@ -13,6 +15,26 @@ const claudeWebUrl = `https://claude.ai/new?q=${prompt}`;
 const claudeAppUrl = `claude://claude.ai/new?q=${prompt}`;
 const chatgptUrl = `https://chatgpt.com/?q=${prompt}`;
 const geminiUrl = `https://gemini.google.com/app?q=${prompt}`;
+
+// Agent tools relevant to this page's section (blog, books, ...), derived from the URL so every
+// layout that renders this gets them. Maps the first path segment to the content-API type slug.
+const SECTIONS: Record<string, { type: string; label: string }> = {
+  blog: { type: 'blog', label: 'Blog posts' },
+  books: { type: 'books', label: 'Books' },
+  stories: { type: 'stories', label: 'Stories' },
+  newsletter: { type: 'newsletters', label: 'Newsletters' },
+  music: { type: 'music', label: 'Music' },
+  software: { type: 'software', label: 'Software' },
+  gear: { type: 'gear', label: 'Gear' },
+};
+const [firstSegment, ...restSegments] = new URL(url).pathname.split('/').filter(Boolean);
+const section = SECTIONS[firstSegment ?? ''];
+const entryId = restSegments.join('/');
+
+const mcpUrl = `${SITE.origin}/mcp`;
+const sectionPrompt = section
+  ? `Use the chrischinchilla.com MCP server (${mcpUrl}). Call list_content with type "${section.type}" to browse ${section.label.toLowerCase()}, search_content to find specific topics, and get_content to read an entry in full.`
+  : '';
 
 // Serialise frontmatter to JSON for safe DOM embedding (avoids HTML entity issues in data attributes)
 const frontmatterJson = JSON.stringify(frontmatter, (_key, value) =>
@@ -111,6 +133,85 @@ const frontmatterJson = JSON.stringify(frontmatter, (_key, value) =>
       </svg>
       Open in Gemini
     </a>
+
+    <!-- Tools for AI agents: the MCP server and the JSON API, scoped to this section -->
+    <div role="group" aria-label="For AI agents" class="flex flex-col gap-1 items-end w-full mt-2">
+      <p class="w-full px-1 text-xs font-medium uppercase tracking-wide text-gray-600 dark:text-gray-400">For AI agents</p>
+
+      <button
+        type="button"
+        data-copy-text={mcpUrl}
+        class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+        role="menuitem"
+        title="Copy the MCP server URL to add this site to your AI assistant"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+          <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+        </svg>
+        <span data-copy-label="Copy MCP server URL">Copy MCP server URL</span>
+      </button>
+
+      {section && (
+        <button
+          type="button"
+          data-copy-text={sectionPrompt}
+          class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+          role="menuitem"
+          title={`Copy a prompt that tells an AI assistant how to use the MCP tools for ${section.label.toLowerCase()}`}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+          </svg>
+          <span data-copy-label={`Copy ${section.label.toLowerCase()} prompt`}>Copy {section.label.toLowerCase()} prompt</span>
+        </button>
+      )}
+
+      {section && (
+        <a
+          href={`/api/content/${section.type}.json`}
+          class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+          role="menuitem"
+          title={`All ${section.label.toLowerCase()} as JSON`}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="16 18 22 12 16 6"/>
+            <polyline points="8 6 2 12 8 18"/>
+          </svg>
+          {section.label} as JSON
+        </a>
+      )}
+
+      {section && entryId && (
+        <a
+          href={`/api/content/${section.type}/${entryId}.json`}
+          class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+          role="menuitem"
+          title="This page as JSON"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+          </svg>
+          This page as JSON
+        </a>
+      )}
+
+      <a
+        href="/ai"
+        class="ai-share-btn w-full flex items-center gap-3 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow px-4 py-2.5 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+        role="menuitem"
+        title="How to use this site with AI agents"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+          <line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+        How to connect
+      </a>
+    </div>
   </div>
 </div>
 
@@ -259,6 +360,24 @@ const frontmatterJson = JSON.stringify(frontmatter, (_key, value) =>
         }
       }, { signal });
     }
+
+    // Generic copy buttons (MCP URL, section prompt): copy data-copy-text, flash the label.
+    document.querySelectorAll<HTMLButtonElement>('#ai-share-menu [data-copy-text]').forEach((btn) => {
+      const label = btn.querySelector<HTMLElement>('[data-copy-label]');
+      btn.addEventListener('click', async () => {
+        const original = label?.dataset.copyLabel ?? '';
+        let message = 'Copied!';
+        try {
+          await navigator.clipboard.writeText(btn.dataset.copyText ?? '');
+        } catch {
+          message = 'Failed to copy';
+        }
+        if (label) {
+          label.textContent = message;
+          setTimeout(() => { label.textContent = original; }, 2000);
+        }
+      }, { signal });
+    });
   }
 
   document.addEventListener('astro:page-load', initAiShare);

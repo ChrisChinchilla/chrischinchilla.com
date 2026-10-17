@@ -341,6 +341,47 @@ to the local `/newsletter`) beside Substack's official `/embed` iframe in a whit
 undocumented `/api/v1/free` endpoint was tried and didn't work in practice (Cloudflare sits in
 front of Substack) — stick to the official embed.
 
+### Done: content API, WebMCP, remote MCP server, and AI discovery surfaces (2026-10-16)
+
+One content model, three ways in:
+
+- **Static JSON API** (`src/pages/api/content/`): `index.json` (every type + entry, no bodies,
+  newest first), `<type>.json` (one listing per type), and `<type>/<id>.json` (full entry with
+  Markdown body, links, and leftover scalar frontmatter). Built by `src/utils/content-api.ts`,
+  which holds the single `TYPES` registry (blog, books, stories, newsletters, music, software,
+  gear, courses, games, events, clients, podcasts, videos). Adding a collection means adding a
+  `TYPES` entry there; it then shows up everywhere. Podcasts/videos are live feeds (via the
+  exported `getPodcastEpisodeEntries`/`getYouTubeVideoEntries`), so they're metadata-only with no
+  body, and are empty where those feeds can't be fetched. Entry `categories` are filtered to the
+  four site categories.
+- **Shared tools** (`src/shared/content-tools.ts`): transport-agnostic `list_content_types`,
+  `list_content` (type/category/tag/date filters, sort, pagination; omit `type` for all types),
+  `search_content` (Fuse.js), `get_content` (by type+id or site path), `list_tags`. Plain
+  TypeScript + `fuse.js` only, so both the browser and the Netlify bundler can import it.
+- **WebMCP** (`src/components/common/WebMCP.astro`, rendered by `BaseLayout.astro`): registers
+  those tools in-browser, plus a browser-only `get_page_content` for non-collection pages (CV,
+  contact). Feature-detects `document.modelContext` with a `navigator.modelContext` fallback (the
+  getter moved in the 2026 spec drafts), no-ops when absent, and a window flag stops duplicate
+  registration across `ClientRouter` navigations. Spec is a draft; re-check
+  https://webmachinelearning.github.io/webmcp/ if tools stop registering.
+- **Remote MCP server** (`netlify/functions/mcp.ts`, served at `/mcp` via the function's
+  `config.path`): stateless Streamable HTTP using `@modelcontextprotocol/sdk` (low-level `Server`,
+  because tools are plain JSON Schema shared with WebMCP; `McpServer` needs zod), JSON responses,
+  POST only, open CORS. Fetches the static API from `DEPLOY_URL`/`URL` (cached 5 min per warm
+  instance), so it only serves what the build published. Read-only; no auth; no rate limiting.
+- **Discovery surfaces**: `src/pages/ai.md` (`/ai`) explains it all and is listed in
+  `llms.txt`/`llms-full.txt`; `Footer.astro` has a "For AI agents" line; `AIShare.astro` (the
+  "Open with AI" menu on `MarkdownLayout` pages) has a "For AI agents" group whose section items
+  (prompt, listing JSON, page JSON) come from the URL's first path segment — add a segment to its
+  `SECTIONS` map when adding a content type with detail pages.
+- A draft announcement post is at `src/content/posts/2026/ai-features-on-this-site.md`, full of
+  `%% TODO %%` markers. Posts have no draft flag, so it publishes if pushed as-is.
+
+Not yet done: MCP resources/prompts, a `/.well-known` server card, rate limiting, bodies for
+podcasts/videos, a real-browser WebMCP test (only tested with a mocked API), a Netlify run of the
+function (tested bundled with esbuild against a local build), and an end-to-end build check on
+this machine.
+
 ### Not done yet
 
 1. **Old standalone listing pages still exist in parallel** with the new dynamic route for

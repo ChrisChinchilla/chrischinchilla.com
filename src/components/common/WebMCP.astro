@@ -1,0 +1,133 @@
+---
+// Exposes read-only site tools to in-browser AI agents via WebMCP
+// (https://webmachinelearning.github.io/webmcp/). Progressive enhancement: does nothing in
+// browsers without `modelContext`. The content tools are the same definitions the remote MCP
+// server (/mcp) serves (src/shared/content-tools.ts), backed by the static /api/content/** JSON,
+// so there is no server-side surface and no write access.
+---
+
+<script>
+  import type { ContentDetail, ContentIndex, ToolContext } from '~/shared/content-tools';
+
+  type ToolResult = { content: { type: 'text'; text: string }[]; isError?: boolean };
+
+  interface ModelContext {
+    registerTool(tool: {
+      name: string;
+      title?: string;
+      description: string;
+      inputSchema: object;
+      annotations?: { readOnlyHint?: boolean };
+      execute: (input: Record<string, unknown>) => Promise<ToolResult> | ToolResult;
+    }): unknown;
+  }
+
+  const flag = '__webmcpRegistered';
+  const w = window as unknown as Record<string, unknown>;
+  // The getter moved from Navigator to Document in the 2026 spec drafts; support both.
+  const modelContext = ((document as unknown as { modelContext?: ModelContext }).modelContext ??
+    (navigator as unknown as { modelContext?: ModelContext }).modelContext) as ModelContext | undefined;
+
+  const initialiseWebMcp = async (modelContext: ModelContext) => {
+    // Keep Fuse and the shared tool implementation out of the initial page bundle. Browsers
+    // without WebMCP support should not download code they cannot use.
+    const { CONTENT_TOOLS, runContentTool } = await import('~/shared/content-tools');
+
+    const fetchJson = async <T,>(path: string): Promise<T | null> => {
+      const response = await fetch(path);
+      if (response.status === 404) return null;
+      if (!response.ok) throw new Error(`Request failed: ${response.status}`);
+      return (await response.json()) as T;
+    };
+
+    let indexPromise: Promise<ContentIndex> | undefined;
+    const context: ToolContext = {
+      getIndex() {
+        indexPromise ??= fetchJson<ContentIndex>('/api/content/index.json').then((index) => {
+          if (!index) throw new Error('Content index missing');
+          return index;
+        });
+        indexPromise.catch(() => (indexPromise = undefined));
+        return indexPromise;
+      },
+      getDetail: (type, id) =>
+        fetchJson<ContentDetail>(
+          `/api/content/${encodeURIComponent(type)}/${id.split('/').map(encodeURIComponent).join('/')}.json`,
+        ),
+    };
+
+    const toResult = (data: unknown, isError = false): ToolResult => ({
+      content: [{ type: 'text', text: typeof data === 'string' ? data : JSON.stringify(data, null, 2) }],
+      ...(isError ? { isError } : {}),
+    });
+
+    const register = (tool: Parameters<ModelContext['registerTool']>[0]) => {
+      try {
+        // registerTool may return a promise that rejects on duplicate names; never let that surface.
+        Promise.resolve(modelContext.registerTool({ ...tool, annotations: { readOnlyHint: true } })).catch(() => {});
+      } catch {
+        // Unsupported or changed API shape: skip silently.
+      }
+    };
+
+    for (const tool of CONTENT_TOOLS) {
+      register({
+        name: tool.name,
+        title: tool.title,
+        description: tool.description,
+        inputSchema: tool.inputSchema,
+        execute: async (input) => {
+          const { isError, data } = await runContentTool(tool.name, input, context);
+          return toResult(data, isError);
+        },
+      });
+    }
+
+    // Browser-only extra: read any rendered page (CV, contact, ... pages that aren't content
+    // collections), which a remote server can't do without scraping HTML.
+    register({
+      name: 'get_page_content',
+      title: 'Get rendered page text',
+      description:
+        'Fetch the readable text of any page on this site, including pages that are not content entries (e.g. "/cv", "/contact"). For blog posts, books and other entries prefer get_content.',
+      inputSchema: {
+        type: 'object',
+        properties: {
+          path: { type: 'string', description: 'Site-relative path beginning with "/".' },
+        },
+        required: ['path'],
+      },
+      execute: async (input) => {
+        const path = String(input.path ?? '');
+        let url: URL;
+        try {
+          url = new URL(path, window.location.origin);
+        } catch {
+          return toResult('Path must be a valid site-relative path.', true);
+        }
+        // Parse before fetching: strings such as `/\\evil.example` begin with one slash but
+        // URL-normalise to a different origin.
+        if (!path.startsWith('/') || url.origin !== window.location.origin) {
+          return toResult('Path must be a site-relative path beginning with a single "/".', true);
+        }
+        const response = await fetch(url, { credentials: 'omit', redirect: 'error' });
+        if (!response.ok) return toResult(`Page request failed: ${response.status}`, true);
+        const doc = new DOMParser().parseFromString(await response.text(), 'text/html');
+        const root = doc.querySelector('#main-content') ?? doc.querySelector('main') ?? doc.body;
+        root.querySelectorAll('script, style, nav, form, iframe, noscript').forEach((el) => el.remove());
+        const body = (root.textContent ?? '').replace(/\n{3,}/g, '\n\n').replace(/[ \t]+/g, ' ').trim();
+        const limit = 20000;
+        return toResult(`# ${doc.title}\n\n${body.slice(0, limit)}${body.length > limit ? '\n\n[Truncated]' : ''}`);
+      },
+    });
+  };
+
+  if (modelContext && !w[flag]) {
+    // Reserve registration immediately so Astro client-side navigation cannot race another
+    // initialisation while the dynamic import is loading. Allow a retry if loading fails.
+    w[flag] = true;
+    void initialiseWebMcp(modelContext).catch(() => {
+      w[flag] = false;
+    });
+  }
+</script>

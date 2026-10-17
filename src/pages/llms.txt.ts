@@ -9,6 +9,7 @@ const staticPages = [
   { title: 'Community and volunteering', path: '/community', summary: 'Communities and volunteering efforts Chris organises or contributes to.' },
   { title: 'Work with me', path: '/contact', summary: 'Services offered (writing, editing, video/audio production, workshops) and how to get in touch.' },
   { title: 'Courses', path: '/courses', summary: 'Video courses Chris has produced or contributed to.' },
+  { title: 'Use this site with AI', path: '/ai', summary: 'How to connect to the MCP server, WebMCP tools, JSON API, and llms.txt.' },
 ];
 
 function entryUrl(localPath: string, publicationUrl?: string): string {
@@ -78,6 +79,8 @@ export const GET = async () => {
     `> ${SITE.description}`,
     '',
     `> Full content available at [${origin}/llms-full.txt](${origin}/llms-full.txt)`,
+    '',
+    `> Structured access: remote MCP server at ${origin}/mcp (Streamable HTTP, read-only), JSON content API at ${origin}/api/content/index.json`,
     '',
   ];
 

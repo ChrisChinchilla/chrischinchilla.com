@@ -19,6 +19,8 @@
     "check": "astro check"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.0",
+    "@modelcontextprotocol/sdk": "^1.32.1",
     "@netlify/functions": "^5.3.0",
     "fast-xml-parser": "^5.10.1",
     "fuse.js": "^7.5.0",
@@ -32,7 +34,8 @@
     "@astrolib/analytics": {
       "astro": "$astro"
     },
-    "sharp": "$sharp"
+    "sharp": "$sharp",
+    "fast-uri": "^3.1.8"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

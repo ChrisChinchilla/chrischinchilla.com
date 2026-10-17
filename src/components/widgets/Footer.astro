@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { getHomePermalink, getAsset } from '~/utils/permalinks';
+import { getHomePermalink, getAsset, getPermalink } from '~/utils/permalinks';
 import { getFooterNavLinks } from '~/utils/nav-links';
 import contactLinks from '~/data/contact.json';
 import NewsletterSignup from '~/components/widgets/NewsletterSignup.astro';
@@ -26,6 +26,12 @@ const social = [{ label: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') }
         ))
       }
     </div>
+    <p class="text-sm text-gray-700 dark:text-slate-400 pb-2">
+      For AI agents:{' '}
+      <a class="font-medium hover:underline" href={getPermalink('/ai')}>MCP server</a>,{' '}
+      <a class="font-medium hover:underline" href={getAsset('/llms.txt')}>llms.txt</a>, and a{' '}
+      <a class="font-medium hover:underline" href={getAsset('/api/content/index.json')}>JSON API</a>.
+    </p>
     <div class="md:flex md:items-center md:justify-between py-3 sm:py-4 lg:py-6 xl:py-8">
       <ul class="flex flex-wrap mb-3 sm:mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
         {

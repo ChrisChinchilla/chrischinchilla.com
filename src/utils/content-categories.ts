@@ -151,7 +151,7 @@ export const matchesCategory = (entry: ArchiveEntry, categorySlug: string): bool
 // this synthesizes an entry-like object per video with `categories: ['tech']` already
 // attached, automatically, at fetch time. All real YouTube videos land in Tech until
 // this gets more granular categorization.
-const getYouTubeVideoEntries = async (): Promise<ArchiveEntry[]> => {
+export const getYouTubeVideoEntries = async (): Promise<ArchiveEntry[]> => {
   const videos = await getAllYouTubeVideos();
 
   return videos.map((video) => {
@@ -177,7 +177,7 @@ const getYouTubeVideoEntries = async (): Promise<ArchiveEntry[]> => {
 // object is preserved via spread so it still has the exact shape Podcast.astro expects
 // (podcast.title, podcast.image.att_href, podcast.summary), matching the real /podcast
 // page look, per Chris's request.
-const getPodcastEpisodeEntries = async (): Promise<ArchiveEntry[]> => {
+export const getPodcastEpisodeEntries = async (): Promise<ArchiveEntry[]> => {
   const episodes = await getAllPodcastEpisodes();
 
   return episodes.map((episode) => {

@@ -24,6 +24,7 @@ const staticPages = [
   { ...readStaticPage('cv.md'), path: '/cv' },
   { ...readStaticPage('community.md'), path: '/community' },
   { ...readStaticPage('contact.mdx'), path: '/contact' },
+  { ...readStaticPage('ai.md'), path: '/ai' },
   { title: 'Courses', path: '/courses', body: 'Video courses Chris has produced or contributed to.' },
 ];
 
