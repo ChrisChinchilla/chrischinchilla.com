@@ -1,5 +1,6 @@
 ---
 import YouTube from '~/components/common/YouTubeEmbed.astro';
+import YouTubeWatchLink from '~/components/common/YouTubeWatchLink.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
 import { slugify } from '~/utils/slugify';
 
@@ -19,7 +20,8 @@ const truncatedDescription = paragraphs.slice(0, 2).join('\n\n');
   <div class="relative md:h-72 max-w-6xl mx-auto  rounded drop-shadow-lg mb-6">
     <YouTube id={video.snippet.resourceId.videoId} />
 </div>
-  
+  <YouTubeWatchLink id={videoId} class="-mt-3 mb-3" />
+
     <div class="mt-2">
       <header>
       <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-subheading font-semibold">

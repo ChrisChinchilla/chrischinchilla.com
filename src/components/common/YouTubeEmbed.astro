@@ -1,7 +1,7 @@
 ---
 // Local copy of @astro-community/astro-embed-youtube's <YouTube>, because the library
 // hard-codes the fallback play link to `youtube.com/watch?v=ID` with no way to add query
-// params. This version adds `sub_confirmation=1` to that link (and to the iframe URL).
+// params. This version adds `sub_confirmation=1` to that link.
 import 'lite-youtube-embed/src/lite-yt-embed.css';
 
 export interface Props extends astroHTML.JSX.HTMLAttributes {
@@ -24,7 +24,6 @@ const styles = [style, `background-image: url('${posterURL}')`].filter(Boolean);
   videoid={id}
   title={title}
   data-title={title}
-  params="sub_confirmation=1"
   {...attrs}
   style={styles.join(';')}
 >

@@ -1,0 +1,23 @@
+---
+// Plain link to the video on YouTube with sub_confirmation=1, shown beneath an embed.
+// YouTube only honours the parameter on a watch-page navigation, not inside the embedded
+// player, so this is the link that actually triggers the subscribe prompt.
+interface Props {
+  id: string;
+  class?: string;
+}
+
+const { id, class: className } = Astro.props;
+const href = `https://www.youtube.com/watch?v=${id}&sub_confirmation=1`;
+---
+
+<p class:list={['text-sm', className]}>
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="underline hover:text-primary transition ease-in duration-200"
+  >
+    Watch on YouTube and subscribe<span class="sr-only"> (opens in a new tab)</span>
+  </a>
+</p>
