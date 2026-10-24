@@ -6,6 +6,7 @@ import Announcement from '~/components/widgets/Announcement.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
+import { Icon } from 'astro-icon/components';
 import { YouTube } from "@astro-community/astro-embed-youtube";
 import type { MetaSEO } from '~/types';
 import { SITE } from '~/config.mjs';
@@ -90,9 +91,10 @@ const breadcrumbItems = [
                 href={channelSubscribeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="underline hover:text-primary transition ease-in duration-200"
+                class="inline-flex items-center gap-1.5 hover:text-primary transition ease-in duration-200"
               >
-                Subscribe to my channel<span class="sr-only"> on YouTube (opens in a new tab)</span>
+                <Icon name="tabler:brand-youtube" class="w-5 h-5" aria-hidden="true" />
+                <span class="underline">Subscribe to my channel</span><span class="sr-only"> on YouTube (opens in a new tab)</span>
               </a>
             </p>
             <ShareLinks title={snippet.title} url={canonical} summary={snippet.description.slice(0, 200)} class="mt-4" />
