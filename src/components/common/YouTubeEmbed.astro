@@ -1,0 +1,49 @@
+---
+// Local copy of @astro-community/astro-embed-youtube's <YouTube>, because the library
+// hard-codes the fallback play link to `youtube.com/watch?v=ID` with no way to add query
+// params. This version adds `sub_confirmation=1` to that link (and to the iframe URL).
+import 'lite-youtube-embed/src/lite-yt-embed.css';
+
+export interface Props extends astroHTML.JSX.HTMLAttributes {
+  id: string;
+  posterQuality?: 'max' | 'high' | 'default' | 'low';
+  playlabel?: string;
+}
+
+const { id, posterQuality = 'default', title, style, playlabel, ...attrs } = Astro.props as Props;
+
+const posterFile =
+  { max: 'maxresdefault', high: 'sddefault', default: 'hqdefault', low: 'default' }[posterQuality] ||
+  'hqdefault';
+const posterURL = `https://i.ytimg.com/vi/${id}/${posterFile}.jpg`;
+const href = `https://youtube.com/watch?v=${id}&sub_confirmation=1`;
+const styles = [style, `background-image: url('${posterURL}')`].filter(Boolean);
+---
+
+<lite-youtube
+  videoid={id}
+  title={title}
+  data-title={title}
+  params="sub_confirmation=1"
+  {...attrs}
+  style={styles.join(';')}
+>
+  <a href={href} class="lyt-playbtn">
+    <span class="lyt-visually-hidden">{playlabel || 'Play'}</span>
+  </a>
+</lite-youtube>
+
+<script>
+  import 'lite-youtube-embed';
+</script>
+
+<style is:global>
+  lite-youtube > iframe {
+    all: unset !important;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+    inset: 0 !important;
+    border: 0 !important;
+  }
+</style>
