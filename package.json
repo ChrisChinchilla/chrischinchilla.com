@@ -35,7 +35,7 @@
       "astro": "$astro"
     },
     "sharp": "$sharp",
-    "fast-uri": "^3.1.8"
+    "fast-uri": "^3.1.9"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
