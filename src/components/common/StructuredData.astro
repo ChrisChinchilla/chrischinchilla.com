@@ -213,13 +213,10 @@ const generateEventListSchema = (data: any) => {
     };
 
     if (event.endDate) schema.endDate = toIsoDateString(event.endDate) ?? event.endDate;
-    if (eventUrl) {
-      schema.url = eventUrl;
-      schema.offers = {
-        '@type': 'Offer',
-        url: eventUrl,
-      };
-    }
+    // No `offers`: these are talks/attendances with no ticket data, and a
+    // partial Offer (no price/currency/availability/validFrom) triggers
+    // Search Console warnings. Add a complete Offer only if real ticket info exists.
+    if (eventUrl) schema.url = eventUrl;
 
     if (event.venue) {
       schema.location = {
