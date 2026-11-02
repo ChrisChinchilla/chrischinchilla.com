@@ -7,6 +7,7 @@ import SupportBlock from '~/components/SupportBlock.astro';
 import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import AIShare from '~/components/common/AIShare.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
+import { getContentDates } from '~/utils/content-dates';
 import { MetaSEO } from '~/types';
 import { getImageUrl } from '~/utils/r2-images';
 
@@ -44,6 +45,14 @@ if (typeof fmImage === 'string') {
   ogImage = fmImage;
 }
 
+const dates = getContentDates(frontmatter);
+const publishedDate = dates.publishedDate ? new Date(dates.publishedDate) : undefined;
+const modifiedDate = dates.modifiedDate ? new Date(dates.modifiedDate) : undefined;
+const formatLongDate = (date: Date) =>
+  date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const showUpdated = !!modifiedDate;
+const updateNote: string | undefined = showUpdated ? frontmatter?.updateNote : undefined;
+
 const meta: MetaSEO = {
   title: frontmatter?.title,
   description: frontmatter?.summary || frontmatter?.description || frontmatter?.title,
@@ -53,8 +62,8 @@ const meta: MetaSEO = {
     ? {
         type: 'article',
         article: {
-          publishedTime: frontmatter?.publishDate || frontmatter?.date,
-          modifiedTime: frontmatter?.modifiedDate || frontmatter?.publishDate || frontmatter?.date,
+          publishedTime: publishedDate?.toISOString(),
+          modifiedTime: (modifiedDate ?? publishedDate)?.toISOString(),
           authors: frontmatter?.author ? [frontmatter.author] : undefined,
           tags: frontmatter?.tags,
           section: frontmatter?.categories?.[0],
@@ -78,10 +87,26 @@ const shareSummary = frontmatter?.summary || frontmatter?.description;
     <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
       {breadcrumbItems && <Breadcrumb items={breadcrumbItems} />}
       <h1 class="font-bold font-heading text-2xl sm:text-3xl md:text-4xl leading-tight md:leading-tighter tracking-normal md:tracking-tighter">{frontmatter.title}</h1>
-      {frontmatter.publishDate && (
+      {publishedDate && (
         <p class="text-gray-600 dark:text-gray-400 mt-2">
-          Published on {new Date(frontmatter.publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          Published on {formatLongDate(publishedDate)}
           {frontmatter.author && ` by ${frontmatter.author}`}
+          {showUpdated && modifiedDate && (
+            <>
+              {' · '}
+              <span>Updated <time datetime={modifiedDate.toISOString().slice(0, 10)}>{formatLongDate(modifiedDate)}</time></span>
+            </>
+          )}
+        </p>
+      )}
+      {!publishedDate && showUpdated && modifiedDate && (
+        <p class="text-gray-600 dark:text-gray-400 mt-2">
+          Updated <time datetime={modifiedDate.toISOString().slice(0, 10)}>{formatLongDate(modifiedDate)}</time>
+        </p>
+      )}
+      {updateNote && (
+        <p class="text-gray-600 dark:text-gray-400 mt-1 text-sm">
+          <strong class="font-semibold">What changed:</strong> {updateNote}
         </p>
       )}
       {Astro.slots.has('image') && (

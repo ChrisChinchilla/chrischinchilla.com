@@ -24,6 +24,7 @@ const structuredData = {
   description: entry.data.summary || entry.data.description,
   author: entry.data.author,
   publishDate: entry.data.publishDate,
+  modifiedDate: entry.data.modifiedDate,
   image: entry.data.image,
   canonical: entry.data.publication_url || getCanonical(`/blog/${entry.id}`),
   tags: entry.data.tags,

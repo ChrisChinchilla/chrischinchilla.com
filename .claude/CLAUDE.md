@@ -130,6 +130,13 @@ it if it should apply to the new/changed content:
   collection has short, human-authored slugs that could look like page numbers (numeric or
   short strings), double-check the pagination-detection regex doesn't misclassify them —
   this already bit the `/newsletter/<6-digit-date-code>` slugs once.
+- **Updating / resurfacing existing content**: keep the URL and the original date; set
+  `modifiedDate` (and a short `updateNote`) in frontmatter only for substantive edits — never
+  for typo fixes. It flows to the byline, JSON-LD `dateModified`, sitemap `lastmod`,
+  llms.txt/llms-full.txt, the JSON API and MCP tools. A new collection with detail pages
+  should spread `updateFields` (top of `content.config.ts`) into its schema, pass
+  `modifiedDate` into its `StructuredData`, and add a branch to `DATED_SECTIONS` in
+  `src/utils/sitemap.ts`. RSS deliberately ignores it. See audit section 11.
 - **`public/robots.txt`**: rarely needs touching, but should keep referencing both
   `llms.txt` and `llms-full.txt`.
 - **Breadcrumbs**: `MarkdownLayout.astro` renders `Home > <title>` by default and

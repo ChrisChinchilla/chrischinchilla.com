@@ -19,6 +19,7 @@ const { Content } = await render(entry);
 const structuredData = {
   title: entry.data.title,
   description: entry.data.summary,
+  modifiedDate: entry.data.modifiedDate,
   image: entry.data.image,
   canonical: getCanonical(`/gear/${entry.id}`),
   tags: entry.data.tags,
