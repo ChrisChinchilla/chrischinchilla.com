@@ -148,6 +148,13 @@ previously emitted none.
     numbers) so it no longer collides with the 6-digit issue slugs — verified by parsing the
     built `sitemap-0.xml` and checking every `/newsletter/*` URL got the right priority.
 
+## Content freshness — done
+
+Optional `modifiedDate` + `updateNote` frontmatter on posts, stories, newsletters, books,
+music, gear, and software, wired through the visible byline, JSON-LD `dateModified`, sitemap
+`lastmod`, llms.txt/llms-full.txt, the JSON content API, and the MCP/WebMCP tools
+(`updated_since`, `recently_updated` sort). RSS intentionally untouched. See audit section 11.
+
 ## RSS coverage — done
 
 12. **~~Decide RSS scope and extend if needed~~ — Done (partial extension + documented

@@ -20,6 +20,7 @@ const structuredData = {
   title: entry.data.title,
   description: entry.data.summary,
   publishDate: entry.data.publish_date,
+  modifiedDate: entry.data.modifiedDate,
   image: entry.data.image,
   canonical: entry.data.publication_url || getCanonical(`/books/${entry.id}`),
 };

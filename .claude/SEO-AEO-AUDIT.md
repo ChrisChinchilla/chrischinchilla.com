@@ -224,3 +224,36 @@ markdown pipeline adds `rehype-slug` + `rehype-autolink-headings` for anchor-lin
 headings (h2+), which helps both classic SEO deep-linking and AEO citation/quoting of
 specific sections. `Breadcrumb.astro:28` uses semantic `<nav aria-label="Breadcrumb"><ol>`.
 No issues found in this area.
+
+## 11. Content freshness: `modifiedDate` / `updateNote`
+
+Resurfacing an updated article without losing its ranking or citations means keeping the URL
+and the original publish date, and reporting a separate, honest "last substantive edit" date
+everywhere. Implemented 2026-11-02 via two optional frontmatter fields shared by every
+collection that has a detail page (posts, stories, newsletters, books, music, gear, software —
+defined once as `updateFields` in `src/content.config.ts`):
+
+- `modifiedDate` — date of the last *substantive* edit (new facts, corrected steps, new
+  sections, replaced screenshots). Do **not** set it for typo fixes; fake freshness is
+  penalised by Google and is detectable by agents comparing content to dates.
+- `updateNote` — short "what changed" note. Only surfaced when `modifiedDate` is set.
+
+Where it surfaces:
+
+- **Page**: `MarkdownLayout.astro` shows "Updated <date>" (a `<time datetime>`) beside the
+  published date, plus a "What changed:" line. Hidden if the dates fall on the same day.
+  `article:published_time` / `article:modified_time` are emitted as ISO strings.
+- **JSON-LD**: each detail page passes `modifiedDate` to `StructuredData`, which already
+  emitted `dateModified` (falling back to the publish date).
+- **Sitemap**: `src/utils/sitemap.ts` now sets `lastmod` for all detail-page types from
+  `modifiedDate`, else the original date (previously posts only, publish date only).
+- **llms.txt / llms-full.txt**: `(updated YYYY-MM-DD)` on index lines; `Updated:` and
+  `What changed:` lines in the full dump.
+- **JSON API / MCP / WebMCP**: `modifiedDate` and `updateNote` on every record; `list_content`
+  and `search_content` accept `updated_since`, and `list_content` has a `recently_updated`
+  sort. `modifiedDate` is dropped from API output if it isn't after the original date.
+- **RSS: deliberately unchanged.** Entries keep their original `pubDate`; changing it (or the
+  guid) makes readers treat an edited post as new. Revisit only for major rewrites.
+
+Not automated by design: there is no script listing stale posts; refresh candidates are chosen
+by hand. After a meaningful update, request indexing in Search Console (and IndexNow for Bing).

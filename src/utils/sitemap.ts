@@ -1,3 +1,4 @@
+import { getContentDates } from './content-dates';
 // Sitemap customization utility
 // This function is called during build to customize sitemap entries
 
@@ -5,13 +6,23 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 
-const postsDir = path.resolve(process.cwd(), 'src/content/posts');
+// URL prefix -> content directory and the frontmatter field holding the original date.
+// `modifiedDate` (when set for a substantive edit) always wins over the original date.
+const DATED_SECTIONS: { prefix: string; dir: string; dateField: string }[] = [
+  { prefix: '/blog/', dir: 'posts', dateField: 'publishDate' },
+  { prefix: '/stories/', dir: 'stories', dateField: 'date' },
+  { prefix: '/newsletter/', dir: 'newsletters', dateField: 'date' },
+  { prefix: '/books/', dir: 'books', dateField: 'publish_date' },
+  { prefix: '/music/', dir: 'music', dateField: 'release_date' },
+  { prefix: '/gear/', dir: 'gear', dateField: 'modifiedDate' },
+  { prefix: '/software/', dir: 'software', dateField: 'modifiedDate' },
+];
 
 // @astrojs/sitemap's serialize callback only receives the built URL, not
-// content collection frontmatter, so blog post publishDate is read directly
-// from the source files here to give lastmod a real value instead of the
-// build timestamp.
-function loadPostDates(dir: string): Map<string, string> {
+// content collection frontmatter, so the dates are read directly from the
+// source files here to give lastmod a real value (the last substantive edit,
+// else the original publish date) instead of the build timestamp.
+function loadDates(dir: string, dateField: string): Map<string, string> {
   const dates = new Map<string, string>();
 
   function walk(current: string, relative: string) {
@@ -30,7 +41,9 @@ function loadPostDates(dir: string): Map<string, string> {
         const id = entryRelative.replace(/\.(md|mdx)$/, '');
         try {
           const { data } = matter(fs.readFileSync(entryPath, 'utf-8'));
-          if (data.publishDate) dates.set(id, new Date(data.publishDate).toISOString());
+          const normalized = getContentDates({ date: dateField === 'modifiedDate' ? undefined : data[dateField], modifiedDate: data.modifiedDate });
+          const lastmod = normalized.modifiedDate ?? normalized.publishedDate;
+          if (lastmod) dates.set(id, new Date(lastmod).toISOString());
         } catch {
           // Skip files that fail to parse — lastmod falls back to the build date.
         }
@@ -42,12 +55,26 @@ function loadPostDates(dir: string): Map<string, string> {
   return dates;
 }
 
-const postDates = loadPostDates(postsDir);
+const sectionDates = DATED_SECTIONS.map((section) => ({
+  ...section,
+  dates: loadDates(path.resolve(process.cwd(), 'src/content', section.dir), section.dateField),
+}));
+
+// Applies a real lastmod to individual entry pages (not tag/pagination pages).
+function applyLastmod(item: any, pathname: string) {
+  const section = sectionDates.find((s) => pathname.startsWith(s.prefix));
+  if (!section) return;
+  const id = pathname.slice(section.prefix.length).replace(/\/$/, '');
+  const lastmod = section.dates.get(id);
+  if (lastmod) item.lastmod = lastmod;
+}
 
 export function customizeSitemapItem(item: any) {
   // Extract path from URL
   const url = new URL(item.url);
   const path = url.pathname;
+
+  if (!path.includes('/tag/') && !path.includes('/page/')) applyLastmod(item, path);
 
   // Set priority and changefreq based on page type
   if (path === '/') {
@@ -57,9 +84,6 @@ export function customizeSitemapItem(item: any) {
     // Individual blog posts
     item.priority = 0.8;
     item.changefreq = 'monthly';
-    const id = path.replace(/^\/blog\//, '').replace(/\/$/, '');
-    const publishDate = postDates.get(id);
-    if (publishDate) item.lastmod = publishDate;
   } else if (path === '/blog' || path === '/blog/') {
     // Blog index
     item.priority = 0.9;

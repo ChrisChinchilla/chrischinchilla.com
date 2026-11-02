@@ -18,6 +18,7 @@ const { Content } = await render(entry);
 const structuredData = {
   title: entry.data.title,
   description: entry.data.summary,
+  modifiedDate: entry.data.modifiedDate,
   canonical: getCanonical(`/software/${entry.id}`),
   tags: entry.data.tags,
 };

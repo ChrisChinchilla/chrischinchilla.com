@@ -1,4 +1,5 @@
 ---
+import { getContentDates } from '~/utils/content-dates';
 import { SITE } from '~/config.mjs';
 
 export interface Props {
@@ -27,8 +28,8 @@ const generateArticleSchema = (data: any) => {
         url: data.defaultImage ? new URL(data.defaultImage, SITE.origin).toString() : undefined,
       },
     },
-    datePublished: data.publishDate || data.date,
-    dateModified: data.modifiedDate || data.publishDate || data.date,
+    datePublished: getContentDates(data).publishedDate,
+    dateModified: getContentDates(data).modifiedDate ?? getContentDates(data).publishedDate,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': data.canonical || new URL(Astro.url.pathname, SITE.origin).toString(),
@@ -167,8 +168,8 @@ const generateCreativeWorkSchema = (data: any) => {
       name: data.author || SITE.name,
       url: SITE.origin,
     },
-    datePublished: data.publishDate || data.date,
-    dateModified: data.modifiedDate || data.publishDate || data.date,
+    datePublished: getContentDates(data).publishedDate,
+    dateModified: getContentDates(data).modifiedDate ?? getContentDates(data).publishedDate,
     url: data.canonical || new URL(Astro.url.pathname, SITE.origin).toString(),
   };
 
