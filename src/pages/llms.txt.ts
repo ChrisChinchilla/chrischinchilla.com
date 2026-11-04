@@ -1,3 +1,4 @@
+import { getContentDates, type ContentDates } from '~/utils/content-dates';
 import { getCollection } from 'astro:content';
 import { SITE } from '~/config.mjs';
 
@@ -16,9 +17,10 @@ function entryUrl(localPath: string, publicationUrl?: string): string {
   return publicationUrl ?? `${origin}${localPath}`;
 }
 
-function formatLink(title: string, url: string, summary?: string): string {
+function formatLink(title: string, url: string, summary?: string, data: ContentDates = {}): string {
   const desc = summary ? ` — ${summary.replace(/\n/g, ' ').trim()}` : '';
-  return `- [${title}](${url})${desc}`;
+  const { modifiedDate } = getContentDates(data);
+  return `- [${title}](${url})${desc}${modifiedDate ? ` (updated ${modifiedDate})` : ''}`;
 }
 
 export const GET = async () => {
@@ -96,7 +98,7 @@ export const GET = async () => {
   for (const post of sortedPosts) {
     const url = entryUrl(`/blog/${post.id}`, post.data.publication_url);
     const video = typeof post.data.youtubeId === 'string' ? ` Video version: https://www.youtube.com/watch?v=${post.data.youtubeId}` : '';
-    lines.push(formatLink(post.data.title, url, `${post.data.summary ?? ''}${video}`.trim() || undefined));
+    lines.push(formatLink(post.data.title, url, `${post.data.summary ?? ''}${video}`.trim() || undefined, post.data));
   }
   lines.push('');
 
@@ -104,7 +106,7 @@ export const GET = async () => {
   lines.push('## Fiction & Stories', '');
   for (const story of sortedStories) {
     const url = entryUrl(`/stories/${story.id}`, story.data.publication_url);
-    lines.push(formatLink(story.data.title, url, story.data.summary));
+    lines.push(formatLink(story.data.title, url, story.data.summary, story.data));
   }
   lines.push('');
 
@@ -112,7 +114,7 @@ export const GET = async () => {
   lines.push('## Newsletters', '');
   for (const newsletter of sortedNewsletters) {
     const url = entryUrl(`/newsletter/${newsletter.id}`, newsletter.data.publication_url);
-    lines.push(formatLink(newsletter.data.title, url, newsletter.data.summary));
+    lines.push(formatLink(newsletter.data.title, url, newsletter.data.summary, newsletter.data));
   }
   lines.push('');
 
@@ -129,7 +131,7 @@ export const GET = async () => {
   for (const book of sortedBooks) {
     const externalUrl = book.data.publication_url ?? book.data.store_urls?.[0]?.url;
     const url = entryUrl(`/books/${book.id}`, externalUrl);
-    lines.push(formatLink(book.data.title, url, book.data.summary));
+    lines.push(formatLink(book.data.title, url, book.data.summary, book.data));
   }
   lines.push('');
 
@@ -138,7 +140,7 @@ export const GET = async () => {
   for (const release of sortedMusic) {
     const externalUrl = release.data.store_urls?.[0]?.url ?? release.data.stream_urls?.[0]?.url;
     const url = entryUrl(`/music/${release.id}`, externalUrl);
-    lines.push(formatLink(release.data.title, url, release.data.summary));
+    lines.push(formatLink(release.data.title, url, release.data.summary, release.data));
   }
   lines.push('');
 
@@ -180,7 +182,7 @@ export const GET = async () => {
   lines.push('## Gear', '');
   for (const item of sortedGear) {
     const url = `${origin}/gear/${item.id}`;
-    lines.push(formatLink(item.data.title, url, item.data.summary));
+    lines.push(formatLink(item.data.title, url, item.data.summary, item.data));
   }
   lines.push('');
 
@@ -188,7 +190,7 @@ export const GET = async () => {
   lines.push('## Software', '');
   for (const item of sortedSoftware) {
     const url = `${origin}/software/${item.id}`;
-    lines.push(formatLink(item.data.title, url, item.data.summary));
+    lines.push(formatLink(item.data.title, url, item.data.summary, item.data));
   }
   lines.push('');
 

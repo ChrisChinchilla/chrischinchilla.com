@@ -15,6 +15,10 @@ export interface ContentRecord {
   summary: string;
   /** ISO date (YYYY-MM-DD) when the entry has a real one. */
   date?: string;
+  /** ISO date (YYYY-MM-DD) of the last substantive edit; absent if never meaningfully updated. */
+  modifiedDate?: string;
+  /** Short "what changed" note accompanying modifiedDate. */
+  updateNote?: string;
   tags: string[];
   /** Site categories (tech, writing, music, games) this entry belongs to. */
   categories: string[];
@@ -120,6 +124,7 @@ interface Filters {
   tag?: string;
   since?: string;
   until?: string;
+  updatedSince?: string;
 }
 
 const readFilters = (index: ContentIndex, input: Record<string, unknown>): Filters => ({
@@ -128,7 +133,11 @@ const readFilters = (index: ContentIndex, input: Record<string, unknown>): Filte
   tag: str(input.tag)?.toLowerCase(),
   since: requireDate(input.since, 'since'),
   until: requireDate(input.until, 'until'),
+  updatedSince: requireDate(input.updated_since, 'updated_since'),
 });
+
+/** When the entry last changed substantively: its modifiedDate, else its original date. */
+const lastUpdated = (item: ContentRecord): string | undefined => item.modifiedDate ?? item.date;
 
 const applyFilters = (items: ContentRecord[], f: Filters): ContentRecord[] =>
   items.filter((item) => {
@@ -138,6 +147,8 @@ const applyFilters = (items: ContentRecord[], f: Filters): ContentRecord[] =>
     // Date bounds only make sense for dated entries; partial dates compare as prefixes.
     if (f.since && (!item.date || item.date < f.since)) return false;
     if (f.until && (!item.date || item.date.slice(0, f.until.length) > f.until)) return false;
+    // Only entries that were genuinely updated (have a modifiedDate) on/after this date.
+    if (f.updatedSince && (!item.modifiedDate || item.modifiedDate < f.updatedSince)) return false;
     return true;
   });
 
@@ -172,6 +183,11 @@ const categoryProperty = {
 const tagProperty = { type: 'string', description: 'Only entries with this tag (case-insensitive exact match).' };
 const sinceProperty = { type: 'string', description: 'Only entries dated on/after this ISO date (YYYY, YYYY-MM or YYYY-MM-DD). Undated entries are excluded.' };
 const untilProperty = { type: 'string', description: 'Only entries dated on/before this ISO date (YYYY, YYYY-MM or YYYY-MM-DD). Undated entries are excluded.' };
+const updatedSinceProperty = {
+  type: 'string',
+  description:
+    'Only entries substantively updated on/after this ISO date (YYYY, YYYY-MM or YYYY-MM-DD), i.e. with a modifiedDate. Entries never updated are excluded.',
+};
 const limitProperty = (fallback: number) => ({
   type: 'number',
   description: `Maximum results (1-${MAX_LIMIT}, default ${fallback}).`,
@@ -202,10 +218,12 @@ export const CONTENT_TOOLS: ContentTool[] = [
         tag: tagProperty,
         since: sinceProperty,
         until: untilProperty,
+        updated_since: updatedSinceProperty,
         sort: {
           type: 'string',
-          enum: ['newest', 'oldest', 'title'],
-          description: 'Sort order (default "newest"). Undated entries sort last for newest/oldest.',
+          enum: ['newest', 'oldest', 'title', 'recently_updated'],
+          description:
+            'Sort order (default "newest", by original date). "recently_updated" orders by last substantive edit (modifiedDate, else original date). Undated entries sort last for newest/oldest.',
         },
         limit: limitProperty(20),
         offset: { type: 'number', description: 'Number of results to skip, for pagination (default 0).' },
@@ -219,8 +237,14 @@ export const CONTENT_TOOLS: ContentTool[] = [
         filtered.sort((a, b) => (a.date ? (b.date ? a.date.localeCompare(b.date) : -1) : b.date ? 1 : 0));
       } else if (sort === 'title') {
         filtered.sort((a, b) => a.title.localeCompare(b.title));
+      } else if (sort === 'recently_updated') {
+        filtered.sort((a, b) => {
+          const au = lastUpdated(a);
+          const bu = lastUpdated(b);
+          return au ? (bu ? bu.localeCompare(au) : -1) : bu ? 1 : 0;
+        });
       } else if (sort !== 'newest') {
-        throw new ToolError('"sort" must be one of newest, oldest, title.');
+        throw new ToolError('"sort" must be one of newest, oldest, title, recently_updated.');
       }
       const limit = int(input.limit, 20, 1, MAX_LIMIT);
       const offset = int(input.offset, 0, 0, Number.MAX_SAFE_INTEGER);
@@ -248,6 +272,7 @@ export const CONTENT_TOOLS: ContentTool[] = [
         tag: tagProperty,
         since: sinceProperty,
         until: untilProperty,
+        updated_since: updatedSinceProperty,
         limit: limitProperty(10),
       },
       required: ['query'],

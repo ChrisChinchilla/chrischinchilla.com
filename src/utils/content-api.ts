@@ -1,3 +1,4 @@
+import { getContentDates, toIsoDate } from './content-dates';
 import { getCollection } from 'astro:content';
 
 import { SITE } from '~/config.mjs';
@@ -52,12 +53,6 @@ export const CONTENT_TYPE_SLUGS = TYPES.map((t) => t.slug);
 
 const SITE_CATEGORY_SLUGS = new Set(SITE_CATEGORIES.map((c) => c.slug));
 
-const toIsoDate = (value: unknown): string | undefined => {
-  if (!(value instanceof Date) && typeof value !== 'string') return undefined;
-  const date = value instanceof Date ? value : new Date(value);
-  return Number.isNaN(date.valueOf()) ? undefined : date.toISOString().slice(0, 10);
-};
-
 const stripMarkup = (value: string): string =>
   value
     .replace(/<[^>]+>/g, ' ')
@@ -80,7 +75,7 @@ const firstParagraph = (body?: string): string => {
 
 const SKIPPED_FIELDS = new Set([
   // Surfaced as top-level `title`/`date` already.
-  'event', 'publishDate', 'publish_date', 'release_date', 'date',
+  'event', 'publishDate', 'publish_date', 'release_date', 'date', 'modifiedDate', 'updateNote',
   'title', 'summary', 'description', 'image', 'heroimage', 'herotext', 'tags', 'categories',
   'category', 'store_urls', 'stream_urls',
 ]);
@@ -162,6 +157,10 @@ const buildDetail = (def: TypeDef, entry: Entry): ContentDetail => {
 
   externalUrl ??= links[0]?.url;
 
+  // Only set for substantive edits; ignore it if it is not after the original date.
+  const { modifiedDate } = getContentDates({ date, modifiedDate: data.modifiedDate });
+  const updateNote = modifiedDate && typeof data.updateNote === 'string' ? data.updateNote.trim() || undefined : undefined;
+
   const categories = getEntryCategories(entry as unknown as Parameters<typeof getEntryCategories>[0]).filter((slug) =>
     SITE_CATEGORY_SLUGS.has(slug),
   );
@@ -179,6 +178,8 @@ const buildDetail = (def: TypeDef, entry: Entry): ContentDetail => {
           : def.listUrl,
     summary,
     date,
+    modifiedDate,
+    updateNote,
     tags: Array.isArray(data.tags) ? data.tags.filter((t: unknown): t is string => typeof t === 'string') : [],
     categories,
     externalUrl,

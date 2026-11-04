@@ -1,3 +1,4 @@
+import { getContentDates, type ContentDates } from '~/utils/content-dates';
 import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -34,8 +35,23 @@ function entryUrl(localPath: string, publicationUrl?: string): string {
   return publicationUrl ?? `${origin}${localPath}`;
 }
 
-function sectionSeparator(title: string, url: string, date: string, summary?: string): string {
-  const lines = [`## [${title}](${url})`, ``, `Date: ${date}`];
+// "Updated:" / "What changed:" lines for entries with a substantive edit (modifiedDate set).
+function updateLines(data: ContentDates & { updateNote?: string }): string[] {
+  const { modifiedDate } = getContentDates(data);
+  if (!modifiedDate) return [];
+  const lines = [`Updated: ${modifiedDate}`];
+  if (data.updateNote?.trim()) lines.push(`What changed: ${data.updateNote.trim().replace(/\n+/g, ' ')}`);
+  return lines;
+}
+
+function sectionSeparator(
+  title: string,
+  url: string,
+  date: string,
+  summary?: string,
+  data: ContentDates & { updateNote?: string } = {},
+): string {
+  const lines = [`## [${title}](${url})`, ``, `Date: ${date}`, ...updateLines(data)];
   if (summary) lines.push(``, summary);
   lines.push('', '---', '');
   return lines.join('\n');
@@ -134,12 +150,12 @@ export const GET = async () => {
 
     if (post.data.publication_url) {
       // Externally published — link only, no body
-      lines.push(`## [${post.data.title}](${url})`, '', `Date: ${date}`, '', `Originally published at: ${url}`, '');
+      lines.push(`## [${post.data.title}](${url})`, '', `Date: ${date}`, ...updateLines(post.data), '', `Originally published at: ${url}`, '');
       if (post.data.summary) lines.push(post.data.summary, '');
       lines.push(...(await videoLines(post.id, post.data.title)));
       lines.push('---', '');
     } else {
-      lines.push(sectionSeparator(post.data.title, url, date, post.data.summary));
+      lines.push(sectionSeparator(post.data.title, url, date, post.data.summary, post.data));
       lines.push(...(await videoLines(post.id, post.data.title)));
       const body = post.body ?? '';
       if (body) lines.push(body, '', '---', '');
@@ -153,11 +169,11 @@ export const GET = async () => {
     const date = new Date(story.data.date).toISOString().split('T')[0];
 
     if (story.data.publication_url) {
-      lines.push(`## [${story.data.title}](${url})`, '', `Date: ${date}`, '', `Originally published at: ${url}`, '');
+      lines.push(`## [${story.data.title}](${url})`, '', `Date: ${date}`, ...updateLines(story.data), '', `Originally published at: ${url}`, '');
       if (story.data.summary) lines.push(story.data.summary, '');
       lines.push('---', '');
     } else {
-      lines.push(sectionSeparator(story.data.title, url, date, story.data.summary));
+      lines.push(sectionSeparator(story.data.title, url, date, story.data.summary, story.data));
       const body = story.body ?? '';
       if (body) lines.push(body, '', '---', '');
     }
@@ -170,11 +186,11 @@ export const GET = async () => {
     const date = new Date(newsletter.data.date).toISOString().split('T')[0];
 
     if (newsletter.data.publication_url) {
-      lines.push(`## [${newsletter.data.title}](${url})`, '', `Date: ${date}`, '', `Originally published at: ${url}`, '');
+      lines.push(`## [${newsletter.data.title}](${url})`, '', `Date: ${date}`, ...updateLines(newsletter.data), '', `Originally published at: ${url}`, '');
       if (newsletter.data.summary) lines.push(newsletter.data.summary, '');
       lines.push('---', '');
     } else {
-      lines.push(sectionSeparator(newsletter.data.title, url, date, newsletter.data.summary));
+      lines.push(sectionSeparator(newsletter.data.title, url, date, newsletter.data.summary, newsletter.data));
       const body = newsletter.body ?? '';
       if (body) lines.push(body, '', '---', '');
     }
@@ -205,6 +221,7 @@ export const GET = async () => {
       `## [${book.data.title}](${url})`,
       '',
       `Date: ${date}`,
+      ...updateLines(book.data),
       `Publisher: ${book.data.publisher}`,
       `Role: ${book.data.role}`,
       ''
@@ -222,7 +239,7 @@ export const GET = async () => {
     const url = entryUrl(`/music/${release.id}`, externalUrl);
     const date = new Date(release.data.release_date).toISOString().split('T')[0];
 
-    lines.push(`## [${release.data.title}](${url})`, '', `Date: ${date}`, `Band: ${release.data.band}`);
+    lines.push(`## [${release.data.title}](${url})`, '', `Date: ${date}`, ...updateLines(release.data), `Band: ${release.data.band}`);
     if (release.data.record_label) lines.push(`Label: ${release.data.record_label}`);
     if (release.data.role) lines.push(`Role: ${release.data.role}`);
     lines.push('');
@@ -309,6 +326,8 @@ export const GET = async () => {
   for (const item of sortedGear) {
     const url = `${origin}/gear/${item.id}`;
     lines.push(`## [${item.data.title}](${url})`, '');
+    const gearUpdate = updateLines(item.data);
+    if (gearUpdate.length) lines.push(...gearUpdate, '');
     if (item.data.tags?.length) lines.push(`Tags: ${item.data.tags.join(', ')}`, '');
     if (item.data.affiliate_url) lines.push(`Affiliate link: ${item.data.affiliate_url}`, '');
     if (item.data.summary) lines.push(item.data.summary, '');
@@ -322,6 +341,8 @@ export const GET = async () => {
   for (const item of sortedSoftware) {
     const url = `${origin}/software/${item.id}`;
     lines.push(`## [${item.data.title}](${url})`, '');
+    const softwareUpdate = updateLines(item.data);
+    if (softwareUpdate.length) lines.push(...softwareUpdate, '');
     if (item.data.tags?.length) lines.push(`Tags: ${item.data.tags.join(', ')}`, '');
     if (item.data.project_url) lines.push(`Project link: ${item.data.project_url}`, '');
     if (item.data.summary) lines.push(item.data.summary, '');

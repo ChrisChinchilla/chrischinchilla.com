@@ -20,11 +20,23 @@ const supportLinks = defineCollection({
     }),
 });
 
+// Shared "refresh" fields for every collection that has its own detail page. Keep the original
+// publish date untouched and set these only for substantive edits (new facts, corrected steps,
+// new sections) — they feed the visible "Updated" line, JSON-LD dateModified, sitemap lastmod,
+// llms.txt / llms-full.txt, the JSON content API and the MCP/WebMCP tools.
+const updateFields = {
+  // Date of the last substantive edit (YYYY-MM-DD). Leave unset for typo fixes.
+  modifiedDate: z.date().or(z.string()).optional(),
+  // Short "what changed" note, shown under the date and exposed to agents.
+  updateNote: z.string().optional(),
+};
+
 const posts = defineCollection({
   // type: 'content', // v2.5.0 and later
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/posts' }),
   schema: ({ image }) =>
     z.object({
+      ...updateFields,
       title: z.string(),
       // description: z.string().optional(),
       // Supports: local imports, full URLs, or R2 paths (e.g., "posts/image.jpg")
@@ -150,6 +162,7 @@ const books = defineCollection({
       title: z.string(),
       summary: z.string().optional(),
       // description: z.string(),
+      ...updateFields,
       publisher: z.string(),
       image: z.union([z.string(), image()]),
       store_urls: z.array(z.object({ url: z.string(), label: z.string() })).optional(),
@@ -172,6 +185,7 @@ const music = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/music' }),
   schema: ({ image }) =>
     z.object({
+      ...updateFields,
       title: z.string(), // release name
       band: z.string(), // band / artist name
       summary: z.string().optional(),
@@ -241,6 +255,7 @@ const newsletters = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/newsletters' }),
   schema: ({ image }) =>
     z.object({
+      ...updateFields,
       title: z.string(),
       date: z.date(),
       summary: z.string().optional(),
@@ -263,6 +278,7 @@ const stories = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/stories' }),
   schema: ({ image }) =>
     z.object({
+      ...updateFields,
       title: z.string(),
       summary: z.string().optional(),
       date: z.date().or(z.string()),
@@ -287,6 +303,7 @@ const gear = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/gear' }),
   schema: ({ image }) =>
     z.object({
+      ...updateFields,
       title: z.string(),
       summary: z.string().optional(),
       affiliate_url: z.string().url().optional(),
@@ -302,6 +319,7 @@ const gear = defineCollection({
 const software = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/software' }),
   schema: z.object({
+    ...updateFields,
     title: z.string(),
     summary: z.string().optional(),
     project_url: z.string().url().optional(),
