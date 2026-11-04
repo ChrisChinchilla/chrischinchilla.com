@@ -13,7 +13,9 @@ and a weekly report workflow. 11 videos are paired (all primary; `relatedYoutube
 
 - **Podcast episodes are never paired.** Where an article and video are also a Tech Lounge podcast
   episode, the podcast is canonical. `next-app-devcon` and `cybersecurity-dark-wolf` were
-  un-paired (`youtubeId: false`, videos in `src/data/video-matching-ignore.json`). The rule is in
+  un-paired (`youtubeId: false`, videos in `src/data/video-matching-ignore.json`), and their Q&A
+  articles have since been merged into the podcast episode pages (the posts are gone; the ignore
+  entries stay so the videos are not paired with anything else). The rule is in
   `.claude/CLAUDE.md`. Matching now also checks titles against `src/content/podcasts` and skips
   anything that looks like an episode (18 of the 50 newest videos), so most episodes without
   articles no longer appear as "no plausible article". Revisit once the podcast content is tidied.
@@ -23,6 +25,15 @@ and a weekly report workflow. 11 videos are paired (all primary; `relatedYoutube
   `src/data/video-matching-ignore.json`.
 
 ## Decisions still needed
+
+0. **Rethink how videos appear in menus and archives.** Videos stays in the Tech menu for now:
+   too many videos are still unmatched to a podcast episode or article to drop the section. The
+   item is data-driven (`getCategoryMenuLinks`), so it appears whenever the YouTube API returns
+   videos, and is absent in builds without `GOOGLE_API` (such as local ones). Once matching is
+   done, decide: keep a Videos section for the unmatched ones only, fold videos into their
+   article/episode pages, or remove it. Also decide whether `/videos` and `/tech/videos` should
+   both exist, whether paired videos should still be listed there (they are today, linking to the
+   article), and whether the menu should survive a missing API key.
 
 1. **IFA 2026**: three 2026 videos (`J7oNAXIzRt4` input devices/smart plants/e-ink,
    `GHohnveeItY` mini PCs/local AI/NAS, `Onj_cXZUbR8` audio gear) and IFA 2025 (`wqQnM2DacHI`)

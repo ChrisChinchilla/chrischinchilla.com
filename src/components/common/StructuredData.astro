@@ -134,6 +134,12 @@ const generatePodcastEpisodeSchema = (data: any) => {
     },
   };
 
+  // Condensed Q&A write-up (from the episode's content stub), when there is one.
+  const modifiedDate = getContentDates({ publishDate: data.pubDate, modifiedDate: data.modifiedDate }).modifiedDate;
+  if (modifiedDate) schema['dateModified'] = modifiedDate;
+  if (Array.isArray(data.keywords) && data.keywords.length) schema['keywords'] = data.keywords.join(', ');
+  if (data.text) schema['text'] = data.text;
+
   if (data.image) {
     schema['image'] = data.image;
   }

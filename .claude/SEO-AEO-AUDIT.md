@@ -287,3 +287,21 @@ page is removed rather than kept as a near-duplicate.
 - **Data:** `src/data/videos/<id>.json` holds duration and upload date so article pages build
   without the YouTube API; chapters come from the YouTube description when the playlist is
   fetched, so they are absent in a build without `GOOGLE_API`.
+
+## 13. Podcast episodes with a condensed Q&A (2026-11-04)
+
+Q&A write-ups of Tech Lounge episodes live in the episode's stub (`src/content/podcasts/<slug>.md`),
+not in `posts`; see "Done: podcast Q&A merged into episode pages" in `.claude/CLAUDE.md` for the
+script and file map. The old `/blog/...` URLs 301 to `/podcast/<slug>` via `netlify.toml`.
+
+What carries the Q&A: the episode page (meta description from `summary`, `PodcastEpisode` JSON-LD
+with `text`/`keywords`/`dateModified`), `llms.txt` (summary), `llms-full.txt` (full body), and the
+JSON API / MCP / WebMCP (`podcasts` entries have a `body` when a stub has one). Episode pages only
+exist for episodes in the live RSS feed, so the stub filename must equal the slugified feed title.
+
+Deliberately not done (consider later):
+- Adding podcasts / Q&A to `rss.xml`. The show has its own Simplecast feed and the relationship
+  between the two is muddled, so decide that first. Until then, migrated Q&A posts drop out of the
+  site RSS.
+- Using the Q&A's publish date for sitemap `lastmod` on `/podcast/*`.
+- `FAQPage` markup: skipped, Google has restricted FAQ rich results; headings plus `text` cover it.

@@ -122,7 +122,7 @@ export const GET = async () => {
   lines.push('## Podcasts', '');
   for (const podcast of sortedPodcasts) {
     const url = entryUrl(`/podcast/${podcast.id}`, podcast.data.publication_url);
-    lines.push(formatLink(podcast.data.title ?? podcast.id, url, podcast.data.description));
+    lines.push(formatLink(podcast.data.title ?? podcast.id, url, podcast.data.summary ?? podcast.data.description));
   }
   lines.push('');
 

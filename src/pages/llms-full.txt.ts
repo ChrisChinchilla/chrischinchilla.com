@@ -204,7 +204,12 @@ export const GET = async () => {
 
     lines.push(`## [${title}](${url})`, '');
     if (podcast.data.category) lines.push(`Category: ${podcast.data.category}`, '');
-    if (podcast.data.description) lines.push(podcast.data.description, '');
+    if (podcast.data.publishDate) lines.push(`Published: ${new Date(podcast.data.publishDate).toISOString().split('T')[0]}`, '');
+    if (podcast.data.modifiedDate) lines.push(`Updated: ${new Date(podcast.data.modifiedDate).toISOString().split('T')[0]}`, '');
+    if (podcast.data.tags?.length) lines.push(`Tags: ${podcast.data.tags.join(', ')}`, '');
+    const summary = podcast.data.summary ?? podcast.data.description;
+    if (summary) lines.push(summary, '');
+    // A stub body is the episode's condensed Q&A; a transcript, if present, takes precedence.
     const body = podcast.data.transcript || podcast.body || '';
     if (body) lines.push(body, '');
     lines.push('---', '');

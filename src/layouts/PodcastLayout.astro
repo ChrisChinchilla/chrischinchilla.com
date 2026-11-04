@@ -24,9 +24,29 @@ export interface Props {
     description: string;
     pubDate?: string;
   };
+  /** Frontmatter of the episode's content stub (summary, tags, modifiedDate, ...), if any. */
+  episodeData?: {
+    summary?: string;
+    tags?: string[];
+    modifiedDate?: Date | string;
+    updateNote?: string;
+  };
+  /** Raw Markdown of the condensed Q&A, used for the plain-text JSON-LD `text`. */
+  qaBody?: string;
+  QaContent?: any;
+  qaHeadings?: { depth: number; slug: string; text: string }[];
 }
 
-const { podcast } = Astro.props;
+const { podcast, episodeData, qaBody, QaContent, qaHeadings = [] } = Astro.props;
+const hasQa = Boolean(QaContent);
+const qaTopics = qaHeadings.filter((h) => h.depth === 3);
+const qaText = qaBody
+  ?.replace(/!?\[([^\]]*)\]\([^)]*\)/g, '$1')
+  .replace(/[*_`#>]+/g, '')
+  .replace(/\s+/g, ' ')
+  .trim();
+const modifiedDate = episodeData?.modifiedDate ? new Date(episodeData.modifiedDate) : undefined;
+const formatDate = (d: Date) => d.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
 
 // TODO: For some reason CS podcast has duplicate titles?
 const episodeTitle = Array.isArray(podcast.title) ? podcast.title[0] : podcast.title;
@@ -38,7 +58,7 @@ const meta: MetaSEO = {
   title: episodeTitle,
   image: podcast.image?.att_href,
   // TODO: Switch to using manual FM override
-  description: truncateMarkdown(podcast.description, { limit: 400, ellipsis: true }),
+  description: episodeData?.summary ?? truncateMarkdown(podcast.description, { limit: 400, ellipsis: true }),
   canonical,
   ogType: 'article',
 };
@@ -55,8 +75,11 @@ const breadcrumbItems = [
   <Fragment slot="head">
     <StructuredData type="PodcastEpisode" data={{
       title: episodeTitle,
-      description: podcast.description,
+      description: episodeData?.summary ?? podcast.description,
       image: podcast.image?.att_href,
+      keywords: episodeData?.tags,
+      modifiedDate: episodeData?.modifiedDate,
+      text: qaText,
       audioUrl: podcast.enclosure?.att_url,
       pubDate: podcast.pubDate,
       canonical,
@@ -98,6 +121,11 @@ const breadcrumbItems = [
           <div class="mt-2">
             <!-- TODO: Improve this -->
             <div class="my-2" set:html={truncateMarkdown(podcast.description, { limit: 2000, ellipsis: true })} />
+            {hasQa && (
+              <p class="my-2">
+                <a href="#qa-heading" class="font-medium">Skip to the condensed Q&amp;A</a>
+              </p>
+            )}
             <h2 class="text-xl sm:text-2xl leading-tight mb-2 font-heading">Listen and download</h2>
             {podcastID ?
             <iframe
@@ -113,6 +141,32 @@ const breadcrumbItems = [
           </div>
         </article>
       </div>
+
+      {hasQa && (
+        <section
+          aria-labelledby="qa-heading"
+          class="mt-12 mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md"
+        >
+          <h2 id="qa-heading" class="scroll-mt-24">Condensed Q&amp;A</h2>
+          {modifiedDate && (
+            <p class="text-sm text-gray-600 dark:text-gray-400">
+              Updated <time datetime={modifiedDate.toISOString().split('T')[0]}>{formatDate(modifiedDate)}</time>
+              {episodeData?.updateNote && <> &mdash; {episodeData.updateNote}</>}
+            </p>
+          )}
+          {qaTopics.length > 2 && (
+            <nav aria-label="Q&A contents" class="not-prose my-6 rounded border border-gray-300 dark:border-gray-600 p-4">
+              <p class="font-heading font-bold mb-2">In this Q&amp;A</p>
+              <ul class="list-disc pl-5 space-y-1">
+                {qaTopics.map((h) => (
+                  <li><a href={`#${h.slug}`} class="text-primary-600 dark:text-primary-400 underline">{h.text}</a></li>
+                ))}
+              </ul>
+            </nav>
+          )}
+          <QaContent />
+        </section>
+      )}
     </section>
 
   </main>

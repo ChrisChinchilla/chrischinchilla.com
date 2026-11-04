@@ -232,8 +232,13 @@ const podcasts = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/podcasts' }),
   schema: ({ image }) =>
     z.object({
+      ...updateFields,
       title: z.string().optional(),
       description: z.string().optional(),
+      // Short plain-text summary of the Q&A (feeds meta description, JSON-LD, llms.txt, API).
+      summary: z.string().optional(),
+      // Date the Q&A write-up was published (the episode's own pubDate comes from the RSS feed).
+      publishDate: z.date().or(z.string()).optional(),
       image: z.union([z.string(), image()]).optional(),
       audio_preview_url: z.string().optional(),
       player_embed: z.string().optional(),

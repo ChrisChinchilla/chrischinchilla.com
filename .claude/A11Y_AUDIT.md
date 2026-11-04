@@ -147,3 +147,16 @@ transcripts are labelled as unproofread above the text. Text uses `gray-600`/`gr
 caption and note, the same pairing as the page date line (6.8:1 light, 6.2:1 dark); the
 `<details>` border is `gray-300`/`gray-600`. Not done: keyboard and screen-reader pass on a built
 page, and a contrast measurement of the `<details>` border (a non-text boundary, 3:1 needed).
+
+## Podcast episode pages with condensed Q&A (2026-11-04)
+
+`PodcastLayout.astro` renders an episode's condensed Q&A (the body of its
+`src/content/podcasts/<slug>.md` stub) below the player in a `<section aria-labelledby="qa-heading">`
+with an `<h2>`. Headings nest `h1` (episode) > `h2` (Q&A) > `h3` (topics) > `h4` (questions); the
+migration script demotes post headings and turns bold question lines into real `h4`s instead of
+styled paragraphs. A "Skip to the condensed Q&A" link sits beside the player, and a
+`<nav aria-label="Q&A contents">` lists the topics when there are three or more. Text and links use
+the existing `prose`/`dark:prose-invert` colours (same as posts); the update line is
+`gray-600`/`gray-400` (same pairing as the page date line, 6.8:1 light, 6.2:1 dark); the TOC border
+is `gray-300`/`gray-600` and its links reuse `primary-600`/`primary-400`. Not done: a measured
+contrast pass of the TOC box and a keyboard/screen-reader walkthrough.

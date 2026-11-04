@@ -182,20 +182,34 @@ export const getYouTubeVideoEntries = async (): Promise<ArchiveEntry[]> => {
 // (podcast.title, podcast.image.att_href, podcast.summary), matching the real /podcast
 // page look, per Chris's request.
 export const getPodcastEpisodeEntries = async (): Promise<ArchiveEntry[]> => {
-  const episodes = await getAllPodcastEpisodes();
+  const [episodes, stubs] = await Promise.all([getAllPodcastEpisodes(), getCollection('podcasts')]);
+  const stubsById = new Map(stubs.map((stub) => [stub.id, stub]));
 
   return episodes.map((episode) => {
     const title = getPodcastEpisodeTitle(episode);
     const id = slugify(title);
+    // A stub with a body is the condensed Q&A for this episode; surface its text and metadata
+    // so the JSON API / MCP tools can serve it (the episode page reads the stub directly).
+    const stub = stubsById.get(id);
+    const qa = stub?.body?.trim() ? stub : undefined;
 
     return {
       ...episode,
       id,
       collection: 'podcast-feed',
+      ...(qa ? { body: qa.body } : {}),
       data: {
         title,
         publishDate: episode.pubDate,
         categories: ['tech'],
+        ...(qa
+          ? {
+              summary: qa.data.summary,
+              tags: qa.data.tags,
+              modifiedDate: qa.data.modifiedDate,
+              updateNote: qa.data.updateNote,
+            }
+          : {}),
       },
     } as unknown as ArchiveEntry;
   });

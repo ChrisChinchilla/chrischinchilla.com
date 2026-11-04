@@ -45,7 +45,7 @@ const TYPES: TypeDef[] = [
   { slug: 'games', label: 'Games', description: 'Game projects Chris has worked on.', source: 'games', listUrl: '/games' },
   { slug: 'events', label: 'Events & talks', description: 'Talks given, events organised, and events attended.', source: 'events', listUrl: '/events' },
   { slug: 'clients', label: 'Clients', description: 'Clients and companies Chris has worked with.', source: 'clients', listUrl: '/clients' },
-  { slug: 'podcasts', label: 'Podcasts', description: 'Podcast episodes (live from the podcast feed).', source: 'podcast-feed', listUrl: '/podcast', entryPath: (id) => `/podcast/${id}` },
+  { slug: 'podcasts', label: 'Podcasts', description: 'Podcast episodes (live from the podcast feed). Some include a condensed Q&A write-up as the body.', source: 'podcast-feed', listUrl: '/podcast', entryPath: (id) => `/podcast/${id}` },
   { slug: 'videos', label: 'Videos', description: 'YouTube videos (live from the YouTube playlist).', source: 'youtube', listUrl: '/videos', entryPath: (id) => `/videos/${id}` },
 ];
 
@@ -135,12 +135,14 @@ const buildDetail = (def: TypeDef, entry: Entry): ContentDetail => {
   // Preserve the site's existing publication policy: content originally published elsewhere
   // is link-only here, just as it is in llms-full.txt. Republishing the source Markdown through
   // the JSON API/MCP would bypass that policy.
-  const body = feed || data.publication_url ? undefined : entry.body?.trim() || undefined;
+  // Podcast episodes are the exception: when a stub carries a condensed Q&A, its body is ours.
+  const body = (feed && def.source !== 'podcast-feed') || data.publication_url ? undefined : entry.body?.trim() || undefined;
   const links = collectLinks(data);
 
   if (def.source === 'podcast-feed') {
     const raw = entry as unknown as Data;
-    summary = truncate(stripMarkup(typeof raw.summary === 'string' ? raw.summary : ''), 400);
+    const qaSummary = typeof data.summary === 'string' ? data.summary : '';
+    summary = truncate(stripMarkup(qaSummary || (typeof raw.summary === 'string' ? raw.summary : '')), 400);
     if (isHttp(raw.link)) externalUrl = raw.link;
   } else if (def.source === 'youtube') {
     const snippet = asRecord((entry as unknown as Data).snippet);
@@ -247,7 +249,7 @@ const build = async (): Promise<ContentApiData> => {
     description: def.description,
     count: details.get(def.slug)?.length ?? 0,
     listUrl: def.listUrl,
-    hasBody: def.source !== 'podcast-feed' && def.source !== 'youtube',
+    hasBody: def.source !== 'youtube',
   }));
 
   const categories = SITE_CATEGORIES.map((c) => ({

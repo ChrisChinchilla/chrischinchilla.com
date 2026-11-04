@@ -413,9 +413,11 @@ An article can be the canonical page for a YouTube video. Details, since this sp
     videos: real episodes scored 0.57-1.0, everything else 0.42 or lower. It can miss an episode
     whose podcast file is titled differently, so it is not a guarantee.
   - *Explicit (manual):* set `youtubeId: false` on the article and list the video ID in
-    `src/data/video-matching-ignore.json` (currently `next-app-devcon`/`Qn0iciS-mIk` and
-    `cybersecurity-dark-wolf`/`i4VcllS1Xys`, and the CoTypist developer interview `4J1HKrfnt1A`, a
-    podcast episode that is separate from the hands-on Cotypist review). This overrides the heuristic's misses.
+    `src/data/video-matching-ignore.json` (currently `Qn0iciS-mIk` (next.app devCon), `i4VcllS1Xys`
+    (Dark Wolf) and the CoTypist developer interview `4J1HKrfnt1A`, a podcast episode that is
+    separate from the hands-on Cotypist review). This overrides the heuristic's misses. The
+    devCon and Dark Wolf Q&A articles no longer exist as posts (see "Done: podcast Q&A merged into
+    episode pages"), so their IDs stay in the ignore list only to keep the videos unpaired.
   - An explicit `youtubeId`/`relatedYoutubeIds` still wins over the heuristic, but the report and
     the build log warn when such a pair looks like a podcast episode.
   Before pairing any new article/video, check whether it is a podcast episode (the article usually
@@ -436,6 +438,35 @@ An article can be the canonical page for a YouTube video. Details, since this sp
   the weekly `.github/workflows/video-matches.yml` (needs a `GOOGLE_API` repo secret) which keeps
   one open issue up to date.
 - **Open items and edge cases:** `.claude/VIDEO-ARTICLE-FOLLOWUPS.md`.
+
+### Done: podcast Q&A merged into episode pages (2026-11-04)
+
+Q&A write-ups of Tech Lounge episodes now live in the episode's stub
+(`src/content/podcasts/<slug>.md`), shown on `/podcast/<slug>` below the player, instead of as
+separate `posts`. Two are migrated (`punk-rock-cybersecurity-with-brian-panarello-of-dark-wolf`,
+`the-worlds-largest-conference-for-mobile-developers-with-greg-fawson`); add the rest by hand with
+`npm run merge-qa -- <post-file> <podcast-slug>` (dry run), then `npm run merge-qa:apply -- ...` to write.
+It copies title/summary/date/tags into the stub, demotes headings, appends a 301 to `netlify.toml`
+from the old `/blog/...` URL, and deletes the post. It refuses a stub that already has a body.
+
+- **Schema:** `podcasts` gained `summary`, `publishDate` and `updateFields`. A stub with a Markdown
+  body is a Q&A; stubs without one behave as before (transcript/tag overlay).
+- **Page:** `PodcastLayout.astro` renders a "Condensed Q&A" `<section aria-labelledby>` with a skip
+  link and a topic table of contents (`h2` > `h3` topics > `h4` questions). Meta description and
+  JSON-LD use `summary`; `PodcastEpisode` JSON-LD also gets `text`, `keywords` and `dateModified`.
+  `datePublished` stays the RSS `pubDate`; the Q&A's own date is `publishDate` on the stub.
+- **Agents:** `getPodcastEpisodeEntries()` merges the stub in, so the JSON API / MCP / WebMCP
+  `podcasts` entries have a `body` (`hasBody` is now true for podcasts); `llms.txt` uses the
+  summary and `llms-full.txt` the full text. `AIShare` has a `podcast` section.
+- **Video interplay:** the episode's video must stay unpaired from articles; keep its ID in
+  `src/data/video-matching-ignore.json`. The stub titles now also feed the podcast-similarity check.
+- **Menus:** Videos stays in the Tech menu while matching is unfinished (no code change needed:
+  the menu is built from content types with entries, and the YouTube API supplies them in
+  production). Longer-term plan: `.claude/VIDEO-ARTICLE-FOLLOWUPS.md` item 0.
+- **Open items:** `.claude/PODCAST-QA-FOLLOWUPS.md`. Not done (consider later): adding podcasts/Q&A to `rss.xml` (the show has its own Simplecast
+  feed and the relationship is muddled, so decide that first; migrated Q&As drop out of the site
+  RSS until then), and using the Q&A date for sitemap `lastmod` on `/podcast/*`. `FAQPage` markup
+  was skipped on purpose.
 
 ### Not done yet
 
