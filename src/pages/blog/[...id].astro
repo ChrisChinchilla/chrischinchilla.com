@@ -3,6 +3,9 @@ import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import RelatedPosts from '~/components/RelatedPosts.astro';
 import OptimizedImage from '~/components/common/OptimizedImage.astro';
+import ArticleVideo from '~/components/ArticleVideo.astro';
+import ArticleVideoDetails from '~/components/ArticleVideoDetails.astro';
+import { getArticleVideos } from '~/utils/video-articles';
 import { getCollection, render } from 'astro:content';
 import defaultPostImage from '/src/assets/images/defaults/blog-chinchilla.jpg'
 import { getCanonical } from '~/utils/permalinks';
@@ -18,6 +21,11 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 
+// Videos this article is the canonical version of (see src/utils/video-articles.ts).
+const videos = await getArticleVideos(entry.id, { title: entry.data.title });
+const primaryVideo = videos.find((video) => video.role === 'primary');
+const articleUrl = getCanonical(`/blog/${entry.id}`);
+
 // Prepare structured data
 const structuredData = {
   title: entry.data.title,
@@ -28,24 +36,40 @@ const structuredData = {
   canonical: entry.data.publication_url || getCanonical(`/blog/${entry.id}`),
   tags: entry.data.tags,
   categories: entry.data.categories,
+  videos: videos.map((video) => ({
+    title: video.title,
+    description: video.role === 'primary' ? entry.data.summary || video.title : video.description?.slice(0, 400) || video.title,
+    thumbnailUrl: video.thumbnailUrl,
+    uploadDate: video.uploadDate,
+    duration: video.duration,
+    videoId: video.id,
+    canonical: articleUrl,
+    transcript: video.transcript?.text,
+    chapters: video.chapters,
+  })),
 };
 ---
 
 <MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Blog', href: '/blog' }}>
   <StructuredData slot="head" type="BlogPosting" data={structuredData} />
-  <OptimizedImage
-    slot="image"
-    src={entry.data.image ? entry.data.image : defaultPostImage}
-    alt={entry.data.imageAlt || entry.data.title}
-    title={entry.data.title}
-    class="object-cover w-full h-full mb-6 rounded drop-shadow-lg"
-    format="png"
-    quality={85}
-    fetchpriority="high"
-    loading="eager"
-    inferSize={true}
-  />
+  {primaryVideo ? (
+    <ArticleVideo slot="image" video={primaryVideo} />
+  ) : (
+    <OptimizedImage
+      slot="image"
+      src={entry.data.image ? entry.data.image : defaultPostImage}
+      alt={entry.data.imageAlt || entry.data.title}
+      title={entry.data.title}
+      class="object-cover w-full h-full mb-6 rounded drop-shadow-lg"
+      format="png"
+      quality={85}
+      fetchpriority="high"
+      loading="eager"
+      inferSize={true}
+    />
+  )}
   <Content />
+  {videos.map((video) => <ArticleVideoDetails video={video} />)}
   <RelatedPosts 
     currentPostId={entry.id} 
     currentTags={entry.data.tags} 

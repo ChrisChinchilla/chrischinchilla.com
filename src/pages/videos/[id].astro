@@ -2,11 +2,16 @@
 import VideoLayout from '~/layouts/VideoLayout.astro';
 import { slugify } from '~/utils/slugify';
 import { getAllYouTubeVideos } from '~/utils/youtube';
+import { getVideoArticleMap } from '~/utils/video-articles';
 
 export async function getStaticPaths() {
-  const allVideos = await getAllYouTubeVideos();
+  const [allVideos, videoArticles] = await Promise.all([getAllYouTubeVideos(), getVideoArticleMap()]);
 
-  return allVideos.map((video) => {
+  // Videos that have an article get no page of their own: the article is canonical and the old
+  // /videos/<slug>-<id> URL is redirected to it (src/pages/[redirectsFile].ts).
+  return allVideos
+    .filter((video) => !videoArticles.byVideoId.has(video?.snippet?.resourceId?.videoId ?? ''))
+    .map((video) => {
     const slug = slugify(video.snippet.title);
     const videoId = video?.snippet?.resourceId?.videoId;
 

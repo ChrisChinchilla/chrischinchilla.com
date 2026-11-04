@@ -95,7 +95,8 @@ export const GET = async () => {
   lines.push('## Blog Posts', '');
   for (const post of sortedPosts) {
     const url = entryUrl(`/blog/${post.id}`, post.data.publication_url);
-    lines.push(formatLink(post.data.title, url, post.data.summary));
+    const video = typeof post.data.youtubeId === 'string' ? ` Video version: https://www.youtube.com/watch?v=${post.data.youtubeId}` : '';
+    lines.push(formatLink(post.data.title, url, `${post.data.summary ?? ''}${video}`.trim() || undefined));
   }
   lines.push('');
 

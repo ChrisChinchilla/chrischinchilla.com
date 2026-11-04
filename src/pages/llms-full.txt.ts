@@ -2,6 +2,8 @@ import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
+import { getArticleVideos, getVideoArticleMap } from '~/utils/video-articles';
+import { formatClock } from '~/utils/video-data';
 import { SITE } from '~/config.mjs';
 
 const origin = SITE.origin;
@@ -108,6 +110,22 @@ export const GET = async () => {
     lines.push('---', '');
   }
 
+  // Articles that are the canonical version of a video list the video and its chapters. The
+  // transcript is left out here (it would double the size of this file); it is in the JSON API.
+  const videoArticles = await getVideoArticleMap();
+  const videoLines = async (id: string, title: string): Promise<string[]> => {
+    if (!videoArticles.byArticleId.has(id)) return [];
+    const out: string[] = [];
+    for (const video of await getArticleVideos(id, { title })) {
+      out.push(`${video.role === 'primary' ? 'Video version' : 'Related video'}: [${video.title}](${video.watchUrl})`, '');
+      if (video.chapters.length) {
+        out.push('Video chapters:', ...video.chapters.map((c) => `- ${formatClock(c.start)} ${c.label}`), '');
+      }
+      if (video.transcript) out.push(`Video transcript: ${origin}/api/content/blog/${id}.json`, '');
+    }
+    return out;
+  };
+
   // Blog Posts
   lines.push('# Blog Posts', '', '---', '');
   for (const post of sortedPosts) {
@@ -118,9 +136,11 @@ export const GET = async () => {
       // Externally published — link only, no body
       lines.push(`## [${post.data.title}](${url})`, '', `Date: ${date}`, '', `Originally published at: ${url}`, '');
       if (post.data.summary) lines.push(post.data.summary, '');
+      lines.push(...(await videoLines(post.id, post.data.title)));
       lines.push('---', '');
     } else {
       lines.push(sectionSeparator(post.data.title, url, date, post.data.summary));
+      lines.push(...(await videoLines(post.id, post.data.title)));
       const body = post.body ?? '';
       if (body) lines.push(body, '', '---', '');
     }

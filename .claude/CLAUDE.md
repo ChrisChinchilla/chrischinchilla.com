@@ -384,6 +384,52 @@ podcasts/videos, a real-browser WebMCP test (only tested with a mocked API), a N
 function (tested bundled with esbuild against a local build), and an end-to-end build check on
 this machine.
 
+### Done: video ↔ article canonicalisation (2026-11-04)
+
+An article can be the canonical page for a YouTube video. Details, since this spans many files:
+
+- **Pairing:** `youtubeId` (primary) and `relatedYoutubeIds` (extra videos) in post frontmatter;
+  `youtubeId: false` opts an article out of automatic matching. Automatic title/date matching
+  (`src/utils/video-match.mjs`) only applies to videos published since `AUTO_MATCH_FROM`; older
+  videos need explicit frontmatter because a wrong pair redirects a live page. A video claimed
+  by two articles fails the build. `src/utils/video-articles.ts` builds the map and
+  `getArticleVideos()` resolves everything an article page needs.
+- **Podcast episodes are excluded.** Many articles and videos are the written and video forms of a
+  Tech Lounge podcast episode, and those must never be paired (the podcast episode is their
+  canonical home). Two layers, because the podcast content is still untidy (tidy-up is separate
+  planned work, so revisit this when it lands):
+  - *Automatic (heuristic):* the matcher compares video and article titles with the entries in
+    `src/content/podcasts` (named after the episode title, so the file name is the title). Videos
+    at or above `PODCAST_THRESHOLD` (0.55) and articles at or above `PODCAST_ARTICLE_THRESHOLD`
+    (0.8) in `src/utils/video-match.mjs` are skipped for automatic pairing, and listed in the
+    `npm run match-videos` report ("Skipped: look like podcast episodes"). Checked on the 50 newest
+    videos: real episodes scored 0.57-1.0, everything else 0.42 or lower. It can miss an episode
+    whose podcast file is titled differently, so it is not a guarantee.
+  - *Explicit (manual):* set `youtubeId: false` on the article and list the video ID in
+    `src/data/video-matching-ignore.json` (currently `next-app-devcon`/`Qn0iciS-mIk` and
+    `cybersecurity-dark-wolf`/`i4VcllS1Xys`, and the CoTypist developer interview `4J1HKrfnt1A`, a
+    podcast episode that is separate from the hands-on Cotypist review). This overrides the heuristic's misses.
+  - An explicit `youtubeId`/`relatedYoutubeIds` still wins over the heuristic, but the report and
+    the build log warn when such a pair looks like a podcast episode.
+  Before pairing any new article/video, check whether it is a podcast episode (the article usually
+  opens "For this episode of the Tech Lounge").
+- **Article page:** `src/pages/blog/[...id].astro` shows `ArticleVideo.astro` in place of the hero
+  image (the image is still used for social cards), then `ArticleVideoDetails.astro` (chapters,
+  transcript, related-video embeds) after the body, and nests a `VideoObject` per video in the
+  `BlogPosting` JSON-LD (`StructuredData.astro`).
+- **Video side:** paired videos get no `/videos/<slug>-<id>` page; `src/pages/[redirectsFile].ts`
+  writes Netlify `_redirects` (`301!`) to the article. `Video.astro`, the tech archive
+  (`canonicalPath` on entries, `getEntryHref`) and the content API point at the article.
+- **Data:** `src/data/videos/<id>.json` (duration, upload date, transcript source) and optional
+  `<id>.transcript.md` (`[m:ss] text` lines); see its README. Chapters are parsed from the YouTube
+  description, so they only appear in builds that have `GOOGLE_API`.
+- **Agents:** `videos` on the blog entry in the content API / MCP `get_content`; video lines in
+  `llms.txt` and `llms-full.txt`; described in `src/pages/ai.md`.
+- **Tooling:** `npm run match-videos` (report; `--since`, `--new-only`, `--write pairs.json`) and
+  the weekly `.github/workflows/video-matches.yml` (needs a `GOOGLE_API` repo secret) which keeps
+  one open issue up to date.
+- **Open items and edge cases:** `.claude/VIDEO-ARTICLE-FOLLOWUPS.md`.
+
 ### Not done yet
 
 1. **Old standalone listing pages still exist in parallel** with the new dynamic route for

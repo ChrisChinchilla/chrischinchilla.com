@@ -12,6 +12,7 @@ tags:
 image: articles/cotypist-review.png
 summary: >-
   Autocomplete has existed on macOS in some form for years, and it's always been inconsistent. I tried Cotypist, an AI-powered autocomplete tool that works across almost every app on the Mac, to see if it does a better job.
+youtubeId: BY-uddDOsx8
 ---
 
 Autocomplete has existed in one form or another on macOS for years. It's always been inconsistent. Some implementations are cleverer than others, some don't pick up the context of what you're writing, and sometimes just getting it to trigger is a small exercise in frustration. AI tools open up some new possibilities here, so I tried [Cotypist](https://cotypist.app/), an app that does exactly what it sounds like. It types alongside you.

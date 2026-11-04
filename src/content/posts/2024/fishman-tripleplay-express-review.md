@@ -12,6 +12,7 @@ tags:
 image: articles/fishman-tripleplay-chinchilla.png
 summary: >-
   I used to be a full time guitar player, and more recently I've been experimenting with electronic drums, MIDI devices, and DAWs. Converting an analogue instrument I'm used to playing into MIDI signals has always interested me, so I tried the Fishman TriplePlay Express, a relatively affordable MIDI guitar pickup, to see how it holds up.
+youtubeId: 0FH_sXijn0w
 ---
 
 I used to be a full time guitar player. More recently, I've been experimenting with electronic drums, MIDI devices, and DAWs. Converting an analogue instrument I'm used to playing into MIDI signals has always interested me, so I was keen to try [the Fishman TriplePlay Express](https://www.amazon.com/Fishman-TriplePlay-Express-Guitar-6-String/dp/B0CPVR5DDS?ref=as_li_ss_tl&ie=UTF8&linkCode=sl1&tag=gregamamma-20&th=1), a relatively affordable but good-quality MIDI guitar pickup. Thanks to Fishman for sending me a review unit.

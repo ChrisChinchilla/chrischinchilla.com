@@ -224,3 +224,33 @@ markdown pipeline adds `rehype-slug` + `rehype-autolink-headings` for anchor-lin
 headings (h2+), which helps both classic SEO deep-linking and AEO citation/quoting of
 specific sections. `Breadcrumb.astro:28` uses semantic `<nav aria-label="Breadcrumb"><ol>`.
 No issues found in this area.
+
+## 11. Video ↔ article canonicalisation (2026-11-04)
+
+When an article has a video version, the article is the single canonical URL and the video's own
+page is removed rather than kept as a near-duplicate.
+
+- **Pairing:** `youtubeId` (and `relatedYoutubeIds`) in post frontmatter, or an automatic
+  title/date match for videos published since `AUTO_MATCH_FROM` in `src/utils/video-match.mjs`
+  (conservative: high score, clear lead, one video per article). Older videos need explicit
+  frontmatter. `src/utils/video-articles.ts` builds the map; `npm run match-videos` and the weekly
+  `.github/workflows/video-matches.yml` report candidates.
+- **Podcast episodes** are excluded from pairing (heuristic against `src/content/podcasts`, plus
+  `youtubeId: false` and `src/data/video-matching-ignore.json`); see `.claude/CLAUDE.md`.
+- **Redirects:** `/videos/<slug>-<id>` for a paired video is no longer built.
+  `src/pages/[redirectsFile].ts` emits Netlify `_redirects` with `301!` rules to the article.
+  The `/videos` list, the tech archive and the JSON API point at the article instead. No
+  `canonical`/sitemap work was needed because the old page no longer exists. Not verified
+  against a build that has the playlist (no `GOOGLE_API` locally), so check `dist/_redirects` in a
+  deploy preview.
+- **Structured data:** the article's `BlogPosting` carries a nested `video` `VideoObject` per
+  video: `embedUrl`, `contentUrl`, `thumbnailUrl`, `uploadDate`, `duration`, `url` = the article,
+  `transcript` (when stored) and `hasPart` `Clip`s for chapters. The VideoObject description is
+  the article summary for the primary video.
+- **Meta:** the article keeps its own title, description and image, so social cards are unchanged.
+- **AEO:** `llms.txt` appends the watch URL to the article's line; `llms-full.txt` adds the video,
+  chapters and a pointer to the transcript; `/api/content/blog/<id>.json` (and the MCP
+  `get_content`) returns a `videos` array with chapters and the transcript text.
+- **Data:** `src/data/videos/<id>.json` holds duration and upload date so article pages build
+  without the YouTube API; chapters come from the YouTube description when the playlist is
+  fetched, so they are absent in a build without `GOOGLE_API`.

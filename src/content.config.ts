@@ -31,6 +31,19 @@ const posts = defineCollection({
       image: z.union([z.string(), image()]).optional(),
       publication_url: z.string().url().optional(),
       summary: z.string().optional(),
+      // YouTube video ID of the video version of this article. Makes the article the canonical
+      // page for that video (see src/utils/video-articles.ts). Set to `false` to stop the
+      // automatic title/date matcher from pairing this article with a video.
+      youtubeId: z
+        .string()
+        .regex(/^[A-Za-z0-9_-]{11}$/, 'Expected an 11-character YouTube video ID')
+        .or(z.literal(false))
+        .optional(),
+      // Further videos that belong to this article (an interview, a follow-up). They are shown
+      // below the article and their /videos pages also point here. Needs `youtubeId` set.
+      relatedYoutubeIds: z
+        .array(z.string().regex(/^[A-Za-z0-9_-]{11}$/, 'Expected an 11-character YouTube video ID'))
+        .optional(),
       // canonical: z.string().url().optional(),
 
       publishDate: z.date().or(z.string()),

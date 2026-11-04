@@ -4,6 +4,7 @@ description: I speak with Brian "BP" Panarello, technical director at Dark Wolf,
 tags: [Security, AI]
 section: tech
 publishDate: 2026-10-26T00:00:00.000Z
+youtubeId: false # Tech Lounge podcast episode: not paired with its video (see .claude/CLAUDE.md)
 ---
 
 For this episode of the Tech Lounge, I spoke with Brian "BP" Panarello, technical director for cybersecurity engineering and risk management at [Dark Wolf](https://darkwolf.io). He styles himself the punk rock cyber engineer, and we talked about what that means, how he secures software for the US military, and how AI is changing the picture. This post is a condensed Q&A of our conversation.

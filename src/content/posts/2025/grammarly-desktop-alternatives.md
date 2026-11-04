@@ -11,6 +11,7 @@ tags:
 image: articles/prowritingaid.png
 summary: >-
   Much like "googling" has become a generic term for searching, Grammarly has become almost synonymous with a general grammar and style checker, outside of those provided by tools like Word or Google Docs. I have used the pro version for several years, and while its advice is not always correct and inconsistent, it's generally a good aid in giving ideas and pointers for writing. However, every year, that subscription comes up for renewal, and I start thinking about alternatives and features I'd like to have that Grammarly doesn't offer. In this post, I look at the disappointingly few alternatives that exist.
+youtubeId: JTR19h-BL4s
 ---
 
 Much like "googling" has become a generic term for searching, Grammarly has become almost synonymous with a general grammar and style checker, outside of those provided by tools like Word or Google Docs.

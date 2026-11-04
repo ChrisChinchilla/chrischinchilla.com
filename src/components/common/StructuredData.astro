@@ -9,7 +9,7 @@ export interface Props {
 const { type = 'Article', data = {} } = Astro.props;
 
 const generateArticleSchema = (data: any) => {
-  const schema = {
+  const schema: any = {
     '@context': 'https://schema.org',
     '@type': type === 'Article' ? 'Article' : 'BlogPosting',
     headline: data.title,
@@ -52,6 +52,11 @@ const generateArticleSchema = (data: any) => {
   // Add article section/category
   if (data.category) {
     schema['articleSection'] = data.category;
+  }
+
+  // Articles that are the canonical version of a video carry it as a nested VideoObject.
+  if (Array.isArray(data.videos) && data.videos.length) {
+    schema['video'] = data.videos.map(videoObjectBody);
   }
 
   return schema;
@@ -142,19 +147,38 @@ const generatePodcastEpisodeSchema = (data: any) => {
   return schema;
 };
 
-const generateVideoObjectSchema = (data: any) => {
+// Shared by the standalone VideoObject (the /videos pages) and by the `video` property of an
+// article that embeds a video. Optional fields are dropped by JSON.stringify when undefined.
+const videoObjectBody = (data: any) => {
+  const chapters = Array.isArray(data.chapters) ? data.chapters : [];
   return {
-    '@context': 'https://schema.org',
     '@type': 'VideoObject',
     name: data.title,
     description: data.description,
     thumbnailUrl: data.thumbnailUrl,
     uploadDate: data.uploadDate,
+    duration: data.duration,
+    inLanguage: data.transcript || data.inLanguage ? 'en' : undefined,
     embedUrl: data.videoId ? `https://www.youtube.com/embed/${data.videoId}` : undefined,
     contentUrl: data.videoId ? `https://www.youtube.com/watch?v=${data.videoId}` : undefined,
     url: data.canonical || new URL(Astro.url.pathname, SITE.origin).toString(),
+    transcript: data.transcript,
+    hasPart: chapters.length
+      ? chapters.map((chapter: any) => ({
+          '@type': 'Clip',
+          name: chapter.label,
+          startOffset: chapter.start,
+          endOffset: chapter.end,
+          url: `https://www.youtube.com/watch?v=${data.videoId}&t=${chapter.start}s`,
+        }))
+      : undefined,
   };
 };
+
+const generateVideoObjectSchema = (data: any) => ({
+  '@context': 'https://schema.org',
+  ...videoObjectBody(data),
+});
 
 const generateCreativeWorkSchema = (data: any) => {
   const schema: any = {

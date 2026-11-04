@@ -7,6 +7,7 @@ import {
   getPodcastEpisodeEntries,
   getYouTubeVideoEntries,
 } from '~/utils/content-categories';
+import { getArticleVideos, getVideoArticleMap } from '~/utils/video-articles';
 import type { ContentDetail, ContentIndex, ContentRecord, ContentTypeInfo } from '~/shared/content-tools';
 
 // Builds the machine-readable content API (index + per-type listings + per-entry detail)
@@ -169,7 +170,13 @@ const buildDetail = (def: TypeDef, entry: Entry): ContentDetail => {
     type: def.slug,
     id: entry.id,
     title,
-    url: def.entryPath ? def.entryPath(entry.id) : def.listUrl,
+    // A video that has an article is canonical there; its own /videos page no longer exists.
+    url:
+      typeof (entry as unknown as Data).canonicalPath === 'string'
+        ? ((entry as unknown as Data).canonicalPath as string)
+        : def.entryPath
+          ? def.entryPath(entry.id)
+          : def.listUrl,
     summary,
     date,
     tags: Array.isArray(data.tags) ? data.tags.filter((t: unknown): t is string => typeof t === 'string') : [],
@@ -181,7 +188,8 @@ const buildDetail = (def: TypeDef, entry: Entry): ContentDetail => {
   };
 };
 
-const toRecord = ({ body: _body, links: _links, fields: _fields, ...record }: ContentDetail): ContentRecord => record;
+const toRecord = ({ body: _body, links: _links, fields: _fields, videos: _videos, ...record }: ContentDetail): ContentRecord =>
+  record;
 
 const loadEntries = async (source: string): Promise<Entry[]> => {
   if (source === 'youtube') return (await getYouTubeVideoEntries()) as unknown as Entry[];
@@ -203,6 +211,28 @@ const build = async (): Promise<ContentApiData> => {
       const entries = await loadEntries(def.source);
       details.set(def.slug, entries.map((entry) => buildDetail(def, entry)));
     }),
+  );
+
+  // Articles that are the canonical version of a video carry its watch/embed URLs, chapters
+  // and transcript, so an agent reading the article gets the video's content too.
+  const videoArticles = await getVideoArticleMap();
+  await Promise.all(
+    (details.get('blog') ?? [])
+      .filter((detail) => videoArticles.byArticleId.has(detail.id))
+      .map(async (detail) => {
+        const videos = await getArticleVideos(detail.id, { title: detail.title });
+        detail.videos = videos.map((video) => ({
+          id: video.id,
+          role: video.role,
+          title: video.title,
+          watchUrl: video.watchUrl,
+          embedUrl: video.embedUrl,
+          uploadDate: video.uploadDate,
+          duration: video.duration,
+          chapters: video.chapters.map(({ start, label }) => ({ start, label })),
+          transcript: video.transcript && { source: video.transcript.source, text: video.transcript.text },
+        }));
+      }),
   );
 
   // Newest first, undated last; ties broken by title for stable output.

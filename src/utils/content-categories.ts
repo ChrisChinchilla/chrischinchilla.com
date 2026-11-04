@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 
 import { getPermalink, cleanSlug } from '~/utils/permalinks';
 import { getAllYouTubeVideos } from '~/utils/youtube';
+import { articlePath, getVideoArticleMap } from '~/utils/video-articles';
 import { getAllPodcastEpisodes, getPodcastEpisodeTitle } from '~/utils/podcast-feed';
 import { slugify } from '~/utils/slugify';
 import { VIDEO, PODCAST } from '~/config.mjs';
@@ -152,16 +153,19 @@ export const matchesCategory = (entry: ArchiveEntry, categorySlug: string): bool
 // attached, automatically, at fetch time. All real YouTube videos land in Tech until
 // this gets more granular categorization.
 export const getYouTubeVideoEntries = async (): Promise<ArchiveEntry[]> => {
-  const videos = await getAllYouTubeVideos();
+  const [videos, videoArticles] = await Promise.all([getAllYouTubeVideos(), getVideoArticleMap()]);
 
   return videos.map((video) => {
     const title = video.snippet?.title ?? 'Untitled video';
     const videoId = video.snippet?.resourceId?.videoId ?? '';
     const id = `${slugify(title)}-${videoId}`;
+    const pair = videoArticles.byVideoId.get(videoId);
 
     return {
       ...video,
       id,
+      // Set when the video has an article, which is then its canonical page.
+      canonicalPath: pair ? articlePath(pair.articleId) : undefined,
       collection: 'youtube',
       data: {
         title,
@@ -305,7 +309,7 @@ export const getEntryHref = (entry: ArchiveEntry): string | undefined => {
     case 'podcast-feed':
       return `/podcast/${entry.id}`;
     case 'youtube':
-      return `/videos/${entry.id}`;
+      return (entry as unknown as { canonicalPath?: string }).canonicalPath ?? `/videos/${entry.id}`;
     default:
       return undefined;
   }

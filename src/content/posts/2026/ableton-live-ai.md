@@ -12,6 +12,7 @@ tags:
   - Claude
 summary: >-
   AI tools promise to automate the tedious parts of starting a music project. I tried two MCP-based options for Ableton Live, Feater and Producer Pal, to see how much they help me make music.
+youtubeId: gJA_alJD4hg
 ---
 
 Almost every creative pursuit is being disrupted by AI tools, and music is no different. AI-like technologies have been in music for a long time, but the new generation promises something different. It promises to automate the tedious tasks at the start of a project, so you can focus on the creative parts.

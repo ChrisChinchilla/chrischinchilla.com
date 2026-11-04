@@ -12,6 +12,7 @@ tags:
 image: articles/johnny-streamdeck.jpg
 summary: >-
   macOS has always lacked a built-in way to route and mix audio on a per-application basis. Windows users have had per-app volume control for years, but on macOS, you need third-party tools to get anything close. I had been using a combination of SoundDesk, the Stream Deck MIDI plugin, and a Stream Deck plus with dials to solve this. The setup worked, but configuring it was fiddly. Then Elgato released Wave Link 3, and everything changed.
+youtubeId: L8Pv7hlfsc8
 ---
 
 macOS has always lacked a built-in way to route and mix audio on a per-application basis. Windows users have had per-app volume control for years, but on macOS, you need third-party tools to get anything close.

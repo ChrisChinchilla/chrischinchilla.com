@@ -1,0 +1,33 @@
+---
+// The video version of an article, shown above it. Uses the same click-to-load embed as the
+// /videos pages, so no YouTube scripts or iframe load until the visitor presses play.
+import { YouTube } from '@astro-community/astro-embed-youtube';
+import { durationToSeconds } from '~/utils/video-data';
+import type { ArticleVideo } from '~/utils/video-articles';
+
+export interface Props {
+  video: ArticleVideo;
+  class?: string;
+}
+
+const { video, class: className } = Astro.props;
+
+const seconds = durationToSeconds(video.duration);
+const minutes = seconds ? Math.max(1, Math.round(seconds / 60)) : undefined;
+---
+
+<figure class:list={['m-0', className]}>
+  <div class="overflow-hidden rounded drop-shadow-lg">
+    <YouTube id={video.id} title={video.title} playlabel={`Play video: ${video.title}`} posterQuality="max" />
+  </div>
+  <figcaption class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+    Video version{minutes ? ` (${minutes} min)` : ''}.
+    <a
+      href={video.watchUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="underline hover:text-primary transition ease-in duration-200"
+      >Watch on YouTube<span class="sr-only"> (opens in a new tab)</span></a
+    >
+  </figcaption>
+</figure>
