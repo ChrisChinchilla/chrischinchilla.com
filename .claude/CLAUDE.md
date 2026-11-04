@@ -391,6 +391,83 @@ podcasts/videos, a real-browser WebMCP test (only tested with a mocked API), a N
 function (tested bundled with esbuild against a local build), and an end-to-end build check on
 this machine.
 
+### Done: video ↔ article canonicalisation (2026-11-04)
+
+An article can be the canonical page for a YouTube video. Details, since this spans many files:
+
+- **Pairing:** `youtubeId` (primary) and `relatedYoutubeIds` (extra videos) in post frontmatter;
+  `youtubeId: false` opts an article out of automatic matching. Automatic title/date matching
+  (`src/utils/video-match.mjs`) only applies to videos published since `AUTO_MATCH_FROM`; older
+  videos need explicit frontmatter because a wrong pair redirects a live page. A video claimed
+  by two articles fails the build. `src/utils/video-articles.ts` builds the map and
+  `getArticleVideos()` resolves everything an article page needs.
+- **Podcast episodes are excluded.** Many articles and videos are the written and video forms of a
+  Tech Lounge podcast episode, and those must never be paired (the podcast episode is their
+  canonical home). Two layers, because the podcast content is still untidy (tidy-up is separate
+  planned work, so revisit this when it lands):
+  - *Automatic (heuristic):* the matcher compares video and article titles with the entries in
+    `src/content/podcasts` (named after the episode title, so the file name is the title). Videos
+    at or above `PODCAST_THRESHOLD` (0.55) and articles at or above `PODCAST_ARTICLE_THRESHOLD`
+    (0.8) in `src/utils/video-match.mjs` are skipped for automatic pairing, and listed in the
+    `npm run match-videos` report ("Skipped: look like podcast episodes"). Checked on the 50 newest
+    videos: real episodes scored 0.57-1.0, everything else 0.42 or lower. It can miss an episode
+    whose podcast file is titled differently, so it is not a guarantee.
+  - *Explicit (manual):* set `youtubeId: false` on the article and list the video ID in
+    `src/data/video-matching-ignore.json` (currently `Qn0iciS-mIk` (next.app devCon), `i4VcllS1Xys`
+    (Dark Wolf) and the CoTypist developer interview `4J1HKrfnt1A`, a podcast episode that is
+    separate from the hands-on Cotypist review). This overrides the heuristic's misses. The
+    devCon and Dark Wolf Q&A articles no longer exist as posts (see "Done: podcast Q&A merged into
+    episode pages"), so their IDs stay in the ignore list only to keep the videos unpaired.
+  - An explicit `youtubeId`/`relatedYoutubeIds` still wins over the heuristic, but the report and
+    the build log warn when such a pair looks like a podcast episode.
+  Before pairing any new article/video, check whether it is a podcast episode (the article usually
+  opens "For this episode of the Tech Lounge").
+- **Article page:** `src/pages/blog/[...id].astro` shows `ArticleVideo.astro` in place of the hero
+  image (the image is still used for social cards), then `ArticleVideoDetails.astro` (chapters,
+  transcript, related-video embeds) after the body, and nests a `VideoObject` per video in the
+  `BlogPosting` JSON-LD (`StructuredData.astro`).
+- **Video side:** paired videos get no `/videos/<slug>-<id>` page; `src/pages/[redirectsFile].ts`
+  writes Netlify `_redirects` (`301!`) to the article. `Video.astro`, the tech archive
+  (`canonicalPath` on entries, `getEntryHref`) and the content API point at the article.
+- **Data:** `src/data/videos/<id>.json` (duration, upload date, transcript source) and optional
+  `<id>.transcript.md` (`[m:ss] text` lines); see its README. Chapters are parsed from the YouTube
+  description, so they only appear in builds that have `GOOGLE_API`.
+- **Agents:** `videos` on the blog entry in the content API / MCP `get_content`; video lines in
+  `llms.txt` and `llms-full.txt`; described in `src/pages/ai.md`.
+- **Tooling:** `npm run match-videos` (report; `--since`, `--new-only`, `--write pairs.json`) and
+  the weekly `.github/workflows/video-matches.yml` (needs a `GOOGLE_API` repo secret) which keeps
+  one open issue up to date.
+- **Open items and edge cases:** `.claude/VIDEO-ARTICLE-FOLLOWUPS.md`.
+
+### Done: podcast Q&A merged into episode pages (2026-11-04)
+
+Q&A write-ups of Tech Lounge episodes now live in the episode's stub
+(`src/content/podcasts/<slug>.md`), shown on `/podcast/<slug>` below the player, instead of as
+separate `posts`. Two are migrated (`punk-rock-cybersecurity-with-brian-panarello-of-dark-wolf`,
+`the-worlds-largest-conference-for-mobile-developers-with-greg-fawson`); add the rest by hand with
+`npm run merge-qa -- <post-file> <podcast-slug>` (dry run), then `npm run merge-qa:apply -- ...` to write.
+It copies title/summary/date/tags into the stub, demotes headings, appends a 301 to `netlify.toml`
+from the old `/blog/...` URL, and deletes the post. It refuses a stub that already has a body.
+
+- **Schema:** `podcasts` gained `summary`, `publishDate` and `updateFields`. A stub with a Markdown
+  body is a Q&A; stubs without one behave as before (transcript/tag overlay).
+- **Page:** `PodcastLayout.astro` renders a "Condensed Q&A" `<section aria-labelledby>` with a skip
+  link and a topic table of contents (`h2` > `h3` topics > `h4` questions). Meta description and
+  JSON-LD use `summary`; `PodcastEpisode` JSON-LD also gets `text`, `keywords` and `dateModified`.
+  `datePublished` stays the RSS `pubDate`; the Q&A's own date is `publishDate` on the stub.
+- **Agents:** `getPodcastEpisodeEntries()` merges the stub in, so the JSON API / MCP / WebMCP
+  `podcasts` entries have a `body` (`hasBody` is now true for podcasts); `llms.txt` uses the
+  summary and `llms-full.txt` the full text. `AIShare` has a `podcast` section.
+- **Video interplay:** the episode's video must stay unpaired from articles; keep its ID in
+  `src/data/video-matching-ignore.json`. The stub titles now also feed the podcast-similarity check.
+- **Menus:** Videos stays in the Tech menu while matching is unfinished (no code change needed:
+  the menu is built from content types with entries, and the YouTube API supplies them in
+  production). Longer-term plan: `.claude/VIDEO-ARTICLE-FOLLOWUPS.md` item 0.
+- **Open items:** `.claude/PODCAST-QA-FOLLOWUPS.md`. Not done (consider later): adding podcasts/Q&A to `rss.xml` (the show has its own Simplecast
+  feed and the relationship is muddled, so decide that first; migrated Q&As drop out of the site
+  RSS until then), and using the Q&A date for sitemap `lastmod` on `/podcast/*`. `FAQPage` markup
+  was skipped on purpose.
+
 ### Not done yet
 
 1. **Old standalone listing pages still exist in parallel** with the new dynamic route for

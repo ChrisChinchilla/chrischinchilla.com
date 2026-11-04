@@ -16,7 +16,10 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:eslint": "eslint .",
-    "check": "astro check"
+    "check": "astro check",
+    "match-videos": "node scripts/match-videos.mjs",
+    "merge-qa": "node scripts/merge-qa-into-podcast.mjs",
+    "merge-qa:apply": "node scripts/merge-qa-into-podcast.mjs --apply"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.0",

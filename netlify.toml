@@ -7,3 +7,14 @@
 [[redirects]]
   from = "/blog/2024/6-tools-running-windows-linus-macos/"
   to = "/blog/2024/6-tools-running-windows-linux-macos/"
+
+[[redirects]]
+  from = "/blog/2026/cybersecurity-dark-wolf"
+  to = "/podcast/punk-rock-cybersecurity-with-brian-panarello-of-dark-wolf"
+  status = 301
+
+
+[[redirects]]
+  from = "/blog/2026/next-app-devcon"
+  to = "/podcast/the-worlds-largest-conference-for-mobile-developers-with-greg-fawson"
+  status = 301

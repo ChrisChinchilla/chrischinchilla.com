@@ -257,3 +257,51 @@ Where it surfaces:
 
 Not automated by design: there is no script listing stale posts; refresh candidates are chosen
 by hand. After a meaningful update, request indexing in Search Console (and IndexNow for Bing).
+
+## 12. Video ↔ article canonicalisation (2026-11-04)
+
+When an article has a video version, the article is the single canonical URL and the video's own
+page is removed rather than kept as a near-duplicate.
+
+- **Pairing:** `youtubeId` (and `relatedYoutubeIds`) in post frontmatter, or an automatic
+  title/date match for videos published since `AUTO_MATCH_FROM` in `src/utils/video-match.mjs`
+  (conservative: high score, clear lead, one video per article). Older videos need explicit
+  frontmatter. `src/utils/video-articles.ts` builds the map; `npm run match-videos` and the weekly
+  `.github/workflows/video-matches.yml` report candidates.
+- **Podcast episodes** are excluded from pairing (heuristic against `src/content/podcasts`, plus
+  `youtubeId: false` and `src/data/video-matching-ignore.json`); see `.claude/CLAUDE.md`.
+- **Redirects:** `/videos/<slug>-<id>` for a paired video is no longer built.
+  `src/pages/[redirectsFile].ts` emits Netlify `_redirects` with `301!` rules to the article.
+  The `/videos` list, the tech archive and the JSON API point at the article instead. No
+  `canonical`/sitemap work was needed because the old page no longer exists. Not verified
+  against a build that has the playlist (no `GOOGLE_API` locally), so check `dist/_redirects` in a
+  deploy preview.
+- **Structured data:** the article's `BlogPosting` carries a nested `video` `VideoObject` per
+  video: `embedUrl`, `contentUrl`, `thumbnailUrl`, `uploadDate`, `duration`, `url` = the article,
+  `transcript` (when stored) and `hasPart` `Clip`s for chapters. The VideoObject description is
+  the article summary for the primary video.
+- **Meta:** the article keeps its own title, description and image, so social cards are unchanged.
+- **AEO:** `llms.txt` appends the watch URL to the article's line; `llms-full.txt` adds the video,
+  chapters and a pointer to the transcript; `/api/content/blog/<id>.json` (and the MCP
+  `get_content`) returns a `videos` array with chapters and the transcript text.
+- **Data:** `src/data/videos/<id>.json` holds duration and upload date so article pages build
+  without the YouTube API; chapters come from the YouTube description when the playlist is
+  fetched, so they are absent in a build without `GOOGLE_API`.
+
+## 13. Podcast episodes with a condensed Q&A (2026-11-04)
+
+Q&A write-ups of Tech Lounge episodes live in the episode's stub (`src/content/podcasts/<slug>.md`),
+not in `posts`; see "Done: podcast Q&A merged into episode pages" in `.claude/CLAUDE.md` for the
+script and file map. The old `/blog/...` URLs 301 to `/podcast/<slug>` via `netlify.toml`.
+
+What carries the Q&A: the episode page (meta description from `summary`, `PodcastEpisode` JSON-LD
+with `text`/`keywords`/`dateModified`), `llms.txt` (summary), `llms-full.txt` (full body), and the
+JSON API / MCP / WebMCP (`podcasts` entries have a `body` when a stub has one). Episode pages only
+exist for episodes in the live RSS feed, so the stub filename must equal the slugified feed title.
+
+Deliberately not done (consider later):
+- Adding podcasts / Q&A to `rss.xml`. The show has its own Simplecast feed and the relationship
+  between the two is muddled, so decide that first. Until then, migrated Q&A posts drop out of the
+  site RSS.
+- Using the Q&A's publish date for sitemap `lastmod` on `/podcast/*`.
+- `FAQPage` markup: skipped, Google has restricted FAQ rich results; headings plus `text` cover it.

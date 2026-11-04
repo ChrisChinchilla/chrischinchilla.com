@@ -130,3 +130,33 @@ agents" line (`Footer.astro`) uses plain text links with `hover:underline` in `g
 (10.3:1 light, 7.0:1 dark). Not done: a keyboard walkthrough of the menu (arrow-key navigation is
 not implemented for the existing menu either, items are reachable by Tab) and a screen-reader pass.
 
+
+## Article videos (2026-11-04)
+
+Articles that are the canonical version of a YouTube video (`youtubeId` frontmatter) show the
+click-to-load embed (`ArticleVideo.astro`, same `astro-embed-youtube` pattern as `/videos`) in the
+article's image slot, with chapters and transcript as page text below the article
+(`ArticleVideoDetails.astro`). Nothing from YouTube loads until the visitor presses play, and the
+embed's play link is a real `<a>` with the accessible name "Play video: <title>". The video is in
+a `<figure>` whose `<figcaption>` has a visible "Watch on YouTube" link (external, with an
+`sr-only` "opens in a new tab"). The section is `aria-labelledby` its `<h2>` ("About the video", or
+"Related video: <title>"), chapters are an `<ol>` of text links, and the transcript is a native
+`<details>/<summary>`, so it is keyboard operable and announces its expanded state without ARIA.
+Transcript timestamps are links to that moment, with an `sr-only` new-tab note. Auto-generated
+transcripts are labelled as unproofread above the text. Text uses `gray-600`/`gray-400` for the
+caption and note, the same pairing as the page date line (6.8:1 light, 6.2:1 dark); the
+`<details>` border is `gray-300`/`gray-600`. Not done: keyboard and screen-reader pass on a built
+page, and a contrast measurement of the `<details>` border (a non-text boundary, 3:1 needed).
+
+## Podcast episode pages with condensed Q&A (2026-11-04)
+
+`PodcastLayout.astro` renders an episode's condensed Q&A (the body of its
+`src/content/podcasts/<slug>.md` stub) below the player in a `<section aria-labelledby="qa-heading">`
+with an `<h2>`. Headings nest `h1` (episode) > `h2` (Q&A) > `h3` (topics) > `h4` (questions); the
+migration script demotes post headings and turns bold question lines into real `h4`s instead of
+styled paragraphs. A "Skip to the condensed Q&A" link sits beside the player, and a
+`<nav aria-label="Q&A contents">` lists the topics when there are three or more. Text and links use
+the existing `prose`/`dark:prose-invert` colours (same as posts); the update line is
+`gray-600`/`gray-400` (same pairing as the page date line, 6.8:1 light, 6.2:1 dark); the TOC border
+is `gray-300`/`gray-600` and its links reuse `primary-600`/`primary-400`. Not done: a measured
+contrast pass of the TOC box and a keyboard/screen-reader walkthrough.

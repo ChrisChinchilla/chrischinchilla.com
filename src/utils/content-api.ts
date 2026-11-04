@@ -8,6 +8,7 @@ import {
   getPodcastEpisodeEntries,
   getYouTubeVideoEntries,
 } from '~/utils/content-categories';
+import { getArticleVideos, getVideoArticleMap } from '~/utils/video-articles';
 import type { ContentDetail, ContentIndex, ContentRecord, ContentTypeInfo } from '~/shared/content-tools';
 
 // Builds the machine-readable content API (index + per-type listings + per-entry detail)
@@ -44,7 +45,7 @@ const TYPES: TypeDef[] = [
   { slug: 'games', label: 'Games', description: 'Game projects Chris has worked on.', source: 'games', listUrl: '/games' },
   { slug: 'events', label: 'Events & talks', description: 'Talks given, events organised, and events attended.', source: 'events', listUrl: '/events' },
   { slug: 'clients', label: 'Clients', description: 'Clients and companies Chris has worked with.', source: 'clients', listUrl: '/clients' },
-  { slug: 'podcasts', label: 'Podcasts', description: 'Podcast episodes (live from the podcast feed).', source: 'podcast-feed', listUrl: '/podcast', entryPath: (id) => `/podcast/${id}` },
+  { slug: 'podcasts', label: 'Podcasts', description: 'Podcast episodes (live from the podcast feed). Some include a condensed Q&A write-up as the body.', source: 'podcast-feed', listUrl: '/podcast', entryPath: (id) => `/podcast/${id}` },
   { slug: 'videos', label: 'Videos', description: 'YouTube videos (live from the YouTube playlist).', source: 'youtube', listUrl: '/videos', entryPath: (id) => `/videos/${id}` },
 ];
 
@@ -134,12 +135,14 @@ const buildDetail = (def: TypeDef, entry: Entry): ContentDetail => {
   // Preserve the site's existing publication policy: content originally published elsewhere
   // is link-only here, just as it is in llms-full.txt. Republishing the source Markdown through
   // the JSON API/MCP would bypass that policy.
-  const body = feed || data.publication_url ? undefined : entry.body?.trim() || undefined;
+  // Podcast episodes are the exception: when a stub carries a condensed Q&A, its body is ours.
+  const body = (feed && def.source !== 'podcast-feed') || data.publication_url ? undefined : entry.body?.trim() || undefined;
   const links = collectLinks(data);
 
   if (def.source === 'podcast-feed') {
     const raw = entry as unknown as Data;
-    summary = truncate(stripMarkup(typeof raw.summary === 'string' ? raw.summary : ''), 400);
+    const qaSummary = typeof data.summary === 'string' ? data.summary : '';
+    summary = truncate(stripMarkup(qaSummary || (typeof raw.summary === 'string' ? raw.summary : '')), 400);
     if (isHttp(raw.link)) externalUrl = raw.link;
   } else if (def.source === 'youtube') {
     const snippet = asRecord((entry as unknown as Data).snippet);
@@ -168,7 +171,13 @@ const buildDetail = (def: TypeDef, entry: Entry): ContentDetail => {
     type: def.slug,
     id: entry.id,
     title,
-    url: def.entryPath ? def.entryPath(entry.id) : def.listUrl,
+    // A video that has an article is canonical there; its own /videos page no longer exists.
+    url:
+      typeof (entry as unknown as Data).canonicalPath === 'string'
+        ? ((entry as unknown as Data).canonicalPath as string)
+        : def.entryPath
+          ? def.entryPath(entry.id)
+          : def.listUrl,
     summary,
     date,
     modifiedDate,
@@ -182,7 +191,8 @@ const buildDetail = (def: TypeDef, entry: Entry): ContentDetail => {
   };
 };
 
-const toRecord = ({ body: _body, links: _links, fields: _fields, ...record }: ContentDetail): ContentRecord => record;
+const toRecord = ({ body: _body, links: _links, fields: _fields, videos: _videos, ...record }: ContentDetail): ContentRecord =>
+  record;
 
 const loadEntries = async (source: string): Promise<Entry[]> => {
   if (source === 'youtube') return (await getYouTubeVideoEntries()) as unknown as Entry[];
@@ -206,6 +216,28 @@ const build = async (): Promise<ContentApiData> => {
     }),
   );
 
+  // Articles that are the canonical version of a video carry its watch/embed URLs, chapters
+  // and transcript, so an agent reading the article gets the video's content too.
+  const videoArticles = await getVideoArticleMap();
+  await Promise.all(
+    (details.get('blog') ?? [])
+      .filter((detail) => videoArticles.byArticleId.has(detail.id))
+      .map(async (detail) => {
+        const videos = await getArticleVideos(detail.id, { title: detail.title });
+        detail.videos = videos.map((video) => ({
+          id: video.id,
+          role: video.role,
+          title: video.title,
+          watchUrl: video.watchUrl,
+          embedUrl: video.embedUrl,
+          uploadDate: video.uploadDate,
+          duration: video.duration,
+          chapters: video.chapters.map(({ start, label }) => ({ start, label })),
+          transcript: video.transcript && { source: video.transcript.source, text: video.transcript.text },
+        }));
+      }),
+  );
+
   // Newest first, undated last; ties broken by title for stable output.
   const items = TYPES.flatMap((def) => (details.get(def.slug) ?? []).map(toRecord)).sort((a, b) =>
     a.date && b.date ? b.date.localeCompare(a.date) || a.title.localeCompare(b.title) : a.date ? -1 : b.date ? 1 : a.title.localeCompare(b.title),
@@ -217,7 +249,7 @@ const build = async (): Promise<ContentApiData> => {
     description: def.description,
     count: details.get(def.slug)?.length ?? 0,
     listUrl: def.listUrl,
-    hasBody: def.source !== 'podcast-feed' && def.source !== 'youtube',
+    hasBody: def.source !== 'youtube',
   }));
 
   const categories = SITE_CATEGORIES.map((c) => ({

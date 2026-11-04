@@ -40,7 +40,7 @@ The same data the tools use is available as plain static JSON:
 
 - [`/api/content/index.json`](/api/content/index.json) lists every entry with its type, summary, date, tags, and categories.
 - `/api/content/<type>.json` lists one content type, for example [`/api/content/books.json`](/api/content/books.json).
-- `/api/content/<type>/<id>.json` returns a full entry, including the Markdown text.
+- `/api/content/<type>/<id>.json` returns a full entry, including the Markdown text. Articles that have a video version also include a `videos` list with the YouTube link, chapters, and a transcript where one exists (auto-generated transcripts are marked as such). For those videos, the entry in the `videos` listing points at the article, which is the canonical page.
 
 ## llms.txt
 

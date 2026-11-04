@@ -26,6 +26,7 @@ const SECTIONS: Record<string, { type: string; label: string }> = {
   music: { type: 'music', label: 'Music' },
   software: { type: 'software', label: 'Software' },
   gear: { type: 'gear', label: 'Gear' },
+  podcast: { type: 'podcasts', label: 'Podcast episodes' },
 };
 const [firstSegment, ...restSegments] = new URL(url).pathname.split('/').filter(Boolean);
 const section = SECTIONS[firstSegment ?? ''];

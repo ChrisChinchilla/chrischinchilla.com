@@ -43,6 +43,19 @@ const posts = defineCollection({
       image: z.union([z.string(), image()]).optional(),
       publication_url: z.string().url().optional(),
       summary: z.string().optional(),
+      // YouTube video ID of the video version of this article. Makes the article the canonical
+      // page for that video (see src/utils/video-articles.ts). Set to `false` to stop the
+      // automatic title/date matcher from pairing this article with a video.
+      youtubeId: z
+        .string()
+        .regex(/^[A-Za-z0-9_-]{11}$/, 'Expected an 11-character YouTube video ID')
+        .or(z.literal(false))
+        .optional(),
+      // Further videos that belong to this article (an interview, a follow-up). They are shown
+      // below the article and their /videos pages also point here. Needs `youtubeId` set.
+      relatedYoutubeIds: z
+        .array(z.string().regex(/^[A-Za-z0-9_-]{11}$/, 'Expected an 11-character YouTube video ID'))
+        .optional(),
       // canonical: z.string().url().optional(),
 
       publishDate: z.date().or(z.string()),
@@ -219,8 +232,13 @@ const podcasts = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/podcasts' }),
   schema: ({ image }) =>
     z.object({
+      ...updateFields,
       title: z.string().optional(),
       description: z.string().optional(),
+      // Short plain-text summary of the Q&A (feeds meta description, JSON-LD, llms.txt, API).
+      summary: z.string().optional(),
+      // Date the Q&A write-up was published (the episode's own pubDate comes from the RSS feed).
+      publishDate: z.date().or(z.string()).optional(),
       image: z.union([z.string(), image()]).optional(),
       audio_preview_url: z.string().optional(),
       player_embed: z.string().optional(),

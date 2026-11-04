@@ -3,6 +3,8 @@ import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
+import { getArticleVideos, getVideoArticleMap } from '~/utils/video-articles';
+import { formatClock } from '~/utils/video-data';
 import { SITE } from '~/config.mjs';
 
 const origin = SITE.origin;
@@ -124,6 +126,22 @@ export const GET = async () => {
     lines.push('---', '');
   }
 
+  // Articles that are the canonical version of a video list the video and its chapters. The
+  // transcript is left out here (it would double the size of this file); it is in the JSON API.
+  const videoArticles = await getVideoArticleMap();
+  const videoLines = async (id: string, title: string): Promise<string[]> => {
+    if (!videoArticles.byArticleId.has(id)) return [];
+    const out: string[] = [];
+    for (const video of await getArticleVideos(id, { title })) {
+      out.push(`${video.role === 'primary' ? 'Video version' : 'Related video'}: [${video.title}](${video.watchUrl})`, '');
+      if (video.chapters.length) {
+        out.push('Video chapters:', ...video.chapters.map((c) => `- ${formatClock(c.start)} ${c.label}`), '');
+      }
+      if (video.transcript) out.push(`Video transcript: ${origin}/api/content/blog/${id}.json`, '');
+    }
+    return out;
+  };
+
   // Blog Posts
   lines.push('# Blog Posts', '', '---', '');
   for (const post of sortedPosts) {
@@ -134,9 +152,11 @@ export const GET = async () => {
       // Externally published — link only, no body
       lines.push(`## [${post.data.title}](${url})`, '', `Date: ${date}`, ...updateLines(post.data), '', `Originally published at: ${url}`, '');
       if (post.data.summary) lines.push(post.data.summary, '');
+      lines.push(...(await videoLines(post.id, post.data.title)));
       lines.push('---', '');
     } else {
       lines.push(sectionSeparator(post.data.title, url, date, post.data.summary, post.data));
+      lines.push(...(await videoLines(post.id, post.data.title)));
       const body = post.body ?? '';
       if (body) lines.push(body, '', '---', '');
     }
@@ -184,7 +204,12 @@ export const GET = async () => {
 
     lines.push(`## [${title}](${url})`, '');
     if (podcast.data.category) lines.push(`Category: ${podcast.data.category}`, '');
-    if (podcast.data.description) lines.push(podcast.data.description, '');
+    if (podcast.data.publishDate) lines.push(`Published: ${new Date(podcast.data.publishDate).toISOString().split('T')[0]}`, '');
+    if (podcast.data.modifiedDate) lines.push(`Updated: ${new Date(podcast.data.modifiedDate).toISOString().split('T')[0]}`, '');
+    if (podcast.data.tags?.length) lines.push(`Tags: ${podcast.data.tags.join(', ')}`, '');
+    const summary = podcast.data.summary ?? podcast.data.description;
+    if (summary) lines.push(summary, '');
+    // A stub body is the episode's condensed Q&A; a transcript, if present, takes precedence.
     const body = podcast.data.transcript || podcast.body || '';
     if (body) lines.push(body, '');
     lines.push('---', '');

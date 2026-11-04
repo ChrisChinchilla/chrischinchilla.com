@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 
 import { getPermalink, cleanSlug } from '~/utils/permalinks';
 import { getAllYouTubeVideos } from '~/utils/youtube';
+import { articlePath, getVideoArticleMap } from '~/utils/video-articles';
 import { getAllPodcastEpisodes, getPodcastEpisodeTitle } from '~/utils/podcast-feed';
 import { slugify } from '~/utils/slugify';
 import { VIDEO, PODCAST } from '~/config.mjs';
@@ -152,16 +153,19 @@ export const matchesCategory = (entry: ArchiveEntry, categorySlug: string): bool
 // attached, automatically, at fetch time. All real YouTube videos land in Tech until
 // this gets more granular categorization.
 export const getYouTubeVideoEntries = async (): Promise<ArchiveEntry[]> => {
-  const videos = await getAllYouTubeVideos();
+  const [videos, videoArticles] = await Promise.all([getAllYouTubeVideos(), getVideoArticleMap()]);
 
   return videos.map((video) => {
     const title = video.snippet?.title ?? 'Untitled video';
     const videoId = video.snippet?.resourceId?.videoId ?? '';
     const id = `${slugify(title)}-${videoId}`;
+    const pair = videoArticles.byVideoId.get(videoId);
 
     return {
       ...video,
       id,
+      // Set when the video has an article, which is then its canonical page.
+      canonicalPath: pair ? articlePath(pair.articleId) : undefined,
       collection: 'youtube',
       data: {
         title,
@@ -178,20 +182,34 @@ export const getYouTubeVideoEntries = async (): Promise<ArchiveEntry[]> => {
 // (podcast.title, podcast.image.att_href, podcast.summary), matching the real /podcast
 // page look, per Chris's request.
 export const getPodcastEpisodeEntries = async (): Promise<ArchiveEntry[]> => {
-  const episodes = await getAllPodcastEpisodes();
+  const [episodes, stubs] = await Promise.all([getAllPodcastEpisodes(), getCollection('podcasts')]);
+  const stubsById = new Map(stubs.map((stub) => [stub.id, stub]));
 
   return episodes.map((episode) => {
     const title = getPodcastEpisodeTitle(episode);
     const id = slugify(title);
+    // A stub with a body is the condensed Q&A for this episode; surface its text and metadata
+    // so the JSON API / MCP tools can serve it (the episode page reads the stub directly).
+    const stub = stubsById.get(id);
+    const qa = stub?.body?.trim() ? stub : undefined;
 
     return {
       ...episode,
       id,
       collection: 'podcast-feed',
+      ...(qa ? { body: qa.body } : {}),
       data: {
         title,
         publishDate: episode.pubDate,
         categories: ['tech'],
+        ...(qa
+          ? {
+              summary: qa.data.summary,
+              tags: qa.data.tags,
+              modifiedDate: qa.data.modifiedDate,
+              updateNote: qa.data.updateNote,
+            }
+          : {}),
       },
     } as unknown as ArchiveEntry;
   });
@@ -305,7 +323,7 @@ export const getEntryHref = (entry: ArchiveEntry): string | undefined => {
     case 'podcast-feed':
       return `/podcast/${entry.id}`;
     case 'youtube':
-      return `/videos/${entry.id}`;
+      return (entry as unknown as { canonicalPath?: string }).canonicalPath ?? `/videos/${entry.id}`;
     default:
       return undefined;
   }

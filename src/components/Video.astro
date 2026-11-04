@@ -2,10 +2,12 @@
 import { YouTube } from "@astro-community/astro-embed-youtube";
 import ShareLinks from '~/components/common/ShareLinks.astro';
 import { slugify } from '~/utils/slugify';
+import { articlePath, getVideoArticleMap } from '~/utils/video-articles';
 
 const { video } = Astro.props;
 const videoId = video.snippet.resourceId?.videoId;
-var url = `/videos/${slugify(video.snippet.title)}-${videoId}`;
+const pair = (await getVideoArticleMap()).byVideoId.get(videoId);
+const url = pair ? articlePath(pair.articleId) : `/videos/${slugify(video.snippet.title)}-${videoId}`;
 
 // Extract first two paragraphs from description
 const paragraphs = video.snippet.description

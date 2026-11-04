@@ -1,0 +1,66 @@
+---
+// Chapters and transcript for a video that belongs to an article, as real page text (not just
+// inside the player) so it is readable by screen readers, search engines and AI agents.
+// Related videos (e.g. an interview linked from a review) also get their own embed here;
+// the primary video's embed sits at the top of the article instead.
+import ArticleVideo from '~/components/ArticleVideo.astro';
+import { formatClock } from '~/utils/video-data';
+import type { ArticleVideo as ArticleVideoData } from '~/utils/video-articles';
+
+export interface Props {
+  video: ArticleVideoData;
+}
+
+const { video } = Astro.props;
+const related = video.role === 'related';
+const hasChapters = video.chapters.length > 0;
+const hasTranscript = Boolean(video.transcript);
+const timeLink = (seconds: number) => `${video.watchUrl}&t=${Math.floor(seconds)}s`;
+---
+
+{
+  (related || hasChapters || hasTranscript) && (
+    <section class="mt-12" aria-labelledby={`video-${video.id}`}>
+      <h2 id={`video-${video.id}`}>{related ? `Related video: ${video.title}` : 'About the video'}</h2>
+
+      {related && <ArticleVideo video={video} class="not-prose mb-6" />}
+
+      {hasChapters && (
+        <>
+          <h3>Chapters</h3>
+          <ol class="list-none pl-0">
+            {video.chapters.map((chapter) => (
+              <li>
+                <a href={timeLink(chapter.start)} target="_blank" rel="noopener noreferrer">
+                  <span class="font-mono">{formatClock(chapter.start)}</span>
+                  <span class="sr-only">: </span> {chapter.label}
+                  <span class="sr-only"> (opens in a new tab)</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </>
+      )}
+
+      {hasTranscript && video.transcript && (
+        <details class="mt-6 rounded border border-gray-300 dark:border-gray-600 px-4 py-2">
+          <summary class="cursor-pointer font-semibold">Transcript of {related ? 'this' : 'the'} video</summary>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            {video.transcript.source === 'auto-generated'
+              ? 'Automatically generated from the video captions and not proofread, so it may contain mistakes.'
+              : 'Edited from the video captions.'}
+            {' '}The article above is the written version.
+          </p>
+          {video.transcript.lines.map((line) => (
+            <p>
+              <a href={timeLink(line.start)} target="_blank" rel="noopener noreferrer" class="font-mono text-sm">
+                {formatClock(line.start)}<span class="sr-only"> (opens in a new tab)</span>
+              </a>{' '}
+              {line.text}
+            </p>
+          ))}
+        </details>
+      )}
+    </section>
+  )
+}

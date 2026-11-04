@@ -13,6 +13,7 @@ tags:
 image: articles/adoc-5.png
 summary: >-
   There aren't many desktop tools for technical writing that are native to macOS and iPadOS. adoc Studio is one of the few, built specifically around AsciiDoc. I covered it before, and the team has been busy since. Here's what's new in versions 4 and 5, including export options, accessibility tools, multilingual support, and AI features.
+youtubeId: g2QvNsTSFLk
 ---
 
 There aren't many desktop tools for technical writing that are native to macOS and iPadOS. Plenty of cross-platform options exist, but they don't feel the same. I mean fully Mac first, built around Apple's APIs and OS updates.

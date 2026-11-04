@@ -97,7 +97,8 @@ export const GET = async () => {
   lines.push('## Blog Posts', '');
   for (const post of sortedPosts) {
     const url = entryUrl(`/blog/${post.id}`, post.data.publication_url);
-    lines.push(formatLink(post.data.title, url, post.data.summary, post.data));
+    const video = typeof post.data.youtubeId === 'string' ? ` Video version: https://www.youtube.com/watch?v=${post.data.youtubeId}` : '';
+    lines.push(formatLink(post.data.title, url, `${post.data.summary ?? ''}${video}`.trim() || undefined, post.data));
   }
   lines.push('');
 
@@ -121,7 +122,7 @@ export const GET = async () => {
   lines.push('## Podcasts', '');
   for (const podcast of sortedPodcasts) {
     const url = entryUrl(`/podcast/${podcast.id}`, podcast.data.publication_url);
-    lines.push(formatLink(podcast.data.title ?? podcast.id, url, podcast.data.description));
+    lines.push(formatLink(podcast.data.title ?? podcast.id, url, podcast.data.summary ?? podcast.data.description));
   }
   lines.push('');
 

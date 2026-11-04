@@ -1,7 +1,6 @@
 ---
 import PodcastLayout from '~/layouts/PodcastLayout.astro';
-import Podcast from '~/components/Podcast.astro';
-import { getEntry } from 'astro:content';
+import { getEntry, render } from 'astro:content';
 import { slugify } from '~/utils/slugify';
 import { getAllPodcastEpisodes } from '~/utils/podcast-feed';
 
@@ -11,26 +10,26 @@ export async function getStaticPaths() {
   return await Promise.all(
     allEpisodes.map(async (episode) => {
       const additionalData = await getEntry('podcasts', slugify(episode.title[0]));
-      // TODO: Is this the optimal way?
-      if (additionalData) {
-        let episodeData = additionalData.data;
-        return {
-          params: { id: slugify(episode.title[0]) },
-          props: { episode, episodeData },
-        };
-      } else {
-        return {
-          params: { id: slugify(episode.title[0]) },
-          props: { episode },
-        };
-      }
+      // A stub with a Markdown body is the episode's condensed Q&A.
+      const hasQa = Boolean(additionalData?.body?.trim());
+      const rendered = hasQa && additionalData ? await render(additionalData) : undefined;
+      return {
+        params: { id: slugify(episode.title[0]) },
+        props: {
+          episode,
+          episodeData: additionalData?.data,
+          qaBody: hasQa ? additionalData?.body : undefined,
+          QaContent: rendered?.Content,
+          qaHeadings: rendered?.headings,
+        },
+      };
     })
   );
 }
-const { episode, episodeData } = Astro.props;
+const { episode, episodeData, qaBody, QaContent, qaHeadings } = Astro.props;
 ---
 
 <!-- TODO: Frontmatter duplicated -->
-<PodcastLayout frontmatter={episode} podcast={episode} episodeData={episodeData}>
+<PodcastLayout frontmatter={episode} podcast={episode} episodeData={episodeData} qaBody={qaBody} QaContent={QaContent} qaHeadings={qaHeadings}>
   <!-- <Image src={entry.data.image} alt={entry.data.title} class="object-contain h-full mb-6 rounded drop-shadow-lg" /> -->
 </PodcastLayout>
