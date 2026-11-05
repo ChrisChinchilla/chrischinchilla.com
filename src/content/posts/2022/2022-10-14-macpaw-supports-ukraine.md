@@ -22,4 +22,4 @@ While I was there I bumped into some of the team from MacPaw a macOS and iOS sof
 
 I have met MacPaw employees many times at conferences over the years, and even once visited their wonderful offices in Kyiv where I saw their famous Mac museum and met their equally famous office cats.
 
-They are probably best known for CleanMyMac, Gemini, and Setapp. But since the beginning of Russia’s invasion, they also created a handful of small apps designed to help personal and digital security in a time of conflict.
+They are probably best known for CleanMyMac, Gemini, and [Setapp](https://go.chrischinchilla.com/setapp). But since the beginning of Russia’s invasion, they also created a handful of small apps designed to help personal and digital security in a time of conflict.

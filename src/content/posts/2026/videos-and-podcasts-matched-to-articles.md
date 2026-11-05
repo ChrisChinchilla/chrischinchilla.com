@@ -12,6 +12,9 @@ tags:
   - YouTube
 summary: >-
   When I publish the same idea as an article, a video, and sometimes a podcast episode, I used to end up with several near-duplicate pages. Now each content has one home, with the video or Q&A on the same page. Here's what changed, the best examples, and what's next.
+heroimage: /src/assets/images/defaults/blog-chinchilla.jpg
+herotext: >-
+  Each video, podcast episode and article now has one home, with the video or Q&A on the same page.
 ---
 
 I often cover the same topic in more than one format. A review might be an article and a YouTube video, and an interview might be a Tech Lounge podcast episode, a video, and a written Q&A. Until now each of those had its own page on this site, saying nearly the same thing. That's confusing for readers, and search engines and AI tools have to guess which page is the best option.
