@@ -116,7 +116,7 @@ This change came with newer versions of OBS that supported recording natively in
 
 When I record, I mostly use OBS as a simple two-scene switcher, one for face-to-camera and one for screen sharing. I don't add any filters or effects, as I add those in editing for recorded videos. I use Prores 422 LT for the codec, as my video work is not complex enough to need anything higher in terms of quality, but I like having uncompressed footage to edit with. OBS settings are a topic unto themselves, so guess what? That will be a future post 😁.
 
-Whilst recording I use two other small applications. [Keycastr](https://github.com/keycastr/keycastr) for showing my keypresses. [Presentify](https://presentifyapp.com) ([also on Setapp](https://setapp.sjv.io/y2bBOG)) for highlighting my mouse and annotating the screen.
+Whilst recording I use two other small applications. [Keycastr](https://github.com/keycastr/keycastr) for showing my keypresses. [Presentify](https://presentifyapp.com) ([also on Setapp](https://go.chrischinchilla.com/setapp)) for highlighting my mouse and annotating the screen.
 
 ### Editing
 
@@ -126,7 +126,7 @@ I still edit most of my audio and video with [Adobe Premiere](https://www.adobe.
 
 ![An image of editing in Adobe Premiere Pro](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/audition-screenshot.jpeg)
 
-On top of this, I now use [Descript](https://get.descript.com/hwdvp8thjpih) for final editing of my podcasts, as it generates a static and interactive transcript. I will start experimenting with using Descript for videos soon.
+On top of this, I now use [Descript](https://go.chrischinchilla.com/descript) for final editing of my podcasts, as it generates a static and interactive transcript. I will start experimenting with using Descript for videos soon.
 
 ![An image of editing in Adobe Premiere Pro](https://jkiudypxrctjskezxyfy.supabase.co/storage/v1/object/public/images/articles/descript.jpeg)
 

@@ -6,6 +6,7 @@ import matter from 'gray-matter';
 import { getArticleVideos, getVideoArticleMap } from '~/utils/video-articles';
 import { formatClock } from '~/utils/video-data';
 import { SITE } from '~/config.mjs';
+import { getRandomSponsorMarkdown } from '~/utils/sponsor';
 
 const origin = SITE.origin;
 
@@ -158,7 +159,7 @@ export const GET = async () => {
       lines.push(sectionSeparator(post.data.title, url, date, post.data.summary, post.data));
       lines.push(...(await videoLines(post.id, post.data.title)));
       const body = post.body ?? '';
-      if (body) lines.push(body, '', '---', '');
+      if (body) lines.push(body, '', await getRandomSponsorMarkdown(), '', '---', '');
     }
   }
 
@@ -175,7 +176,7 @@ export const GET = async () => {
     } else {
       lines.push(sectionSeparator(story.data.title, url, date, story.data.summary, story.data));
       const body = story.body ?? '';
-      if (body) lines.push(body, '', '---', '');
+      if (body) lines.push(body, '', await getRandomSponsorMarkdown(), '', '---', '');
     }
   }
 

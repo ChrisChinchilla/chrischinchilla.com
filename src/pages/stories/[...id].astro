@@ -29,7 +29,7 @@ const structuredData = {
 };
 ---
 
-<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Stories', href: '/stories' }}>
+<MarkdownPostLayout inlineSponsor frontmatter={entry.data} section={{ label: 'Stories', href: '/stories' }}>
   <StructuredData slot="head" type="CreativeWork" data={structuredData} />
   <OptimizedImage
     slot="image"

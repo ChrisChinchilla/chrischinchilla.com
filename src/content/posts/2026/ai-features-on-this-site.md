@@ -13,6 +13,9 @@ tags:
 image: articles/robot-reader.png
 summary: >-
   I've added several ways for AI assistants and agents to read, search, and cite this site properly: a remote MCP server, in-browser WebMCP tools, a JSON content API, llms.txt, and an "Open with AI" menu on articles. Here's what each does and how to use them.
+heroimage: articles/robot-reader.png
+herotext: >-
+  A remote MCP server, WebMCP tools, a JSON API and more, so AI tools can read this site properly.
 ---
 
 I have always been a fan of automation and the new generation of AI tools opens up levels of informed automation that were never possible before. One area I have been increasingly automating is my content pipeline. This has included creating first drafts of Q&A style articles from podcast interviews and video transcripts. A task that I could do "fully human" but I am not sure it's the best use of my time. Another has been using Claude and the wonderful [Typefully](https://typefully.com/) to promote some of my work.
