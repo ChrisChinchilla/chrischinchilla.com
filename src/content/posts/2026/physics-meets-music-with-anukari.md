@@ -3,6 +3,7 @@ title: Physics meets music with Anukari
 description: I speak with Evan, creator of Anukari, a 3D physics-based synthesiser plugin, about building instruments from masses and springs, writing plugins with JUCE, and why he won't make you use iLok.
 tags: [Music, Audio, Interview]
 section: tech
+publishDate: 2026-11-05
 ---
 
 For this episode of the Tech Lounge, I spoke with Evan, the developer behind [Anukari](https://anukari.com), a 3D physics synthesiser and effects plugin. Music and technology are two things I like to combine, and it's a treat when they meet. Anukari is easiest to understand visually, so if you only listen to the audio, watch the video as well. This post is a condensed Q&A of our conversation.

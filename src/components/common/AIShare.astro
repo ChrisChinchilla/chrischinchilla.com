@@ -6,8 +6,12 @@ export interface Props {
 }
 
 import { SITE } from '~/config.mjs';
+import { getRandomSponsorMarkdown } from '~/utils/sponsor';
 
 const { url, title, frontmatter } = Astro.props;
+
+// One sponsor appended to the copied Markdown; fixed at build time, so it changes per build.
+const sponsorMarkdown = await getRandomSponsorMarkdown();
 
 const prompt = encodeURIComponent(`Please read and summarise "${title}": ${url}`);
 
@@ -75,6 +79,7 @@ const frontmatterJson = JSON.stringify(frontmatter, (_key, value) =>
   >
     <!-- Frontmatter data — JSON avoids HTML entity encoding issues in attributes -->
     <script id="ai-frontmatter-data" type="application/json" is:inline set:html={frontmatterJson}></script>
+    <script id="ai-sponsor-data" type="application/json" is:inline set:html={JSON.stringify(sponsorMarkdown)}></script>
 
     <!-- Copy as Markdown -->
     <button
@@ -349,7 +354,10 @@ const frontmatterJson = JSON.stringify(frontmatter, (_key, value) =>
         const article = document.querySelector('.prose');
         const bodyText = article ? nodeToMarkdown(article) : '';
 
-        const markdown = `${frontmatter}\n\n${bodyText}`;
+        const sponsorEl = document.getElementById('ai-sponsor-data');
+        const sponsor: string = sponsorEl ? JSON.parse(sponsorEl.textContent ?? '""') : '';
+
+        const markdown = `${frontmatter}\n\n${bodyText}${sponsor ? `\n\n---\n\n${sponsor}\n` : ''}`;
 
         try {
           await navigator.clipboard.writeText(markdown);

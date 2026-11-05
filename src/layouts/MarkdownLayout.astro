@@ -17,9 +17,25 @@ export interface Props {
     href: string;
   };
   ogType?: 'article' | 'website';
+  // Render the support block where the rehype-sponsor-slot marker sits (after the 2nd paragraph)
+  // instead of at the end of the content.
+  inlineSponsor?: boolean;
 }
 
-const { frontmatter, section, ogType = 'article' } = Astro.props;
+const { frontmatter, section, ogType = 'article', inlineSponsor = false } = Astro.props;
+
+// With `inlineSponsor`, render the body to a string and split it at the marker that
+// src/utils/rehype-sponsor-slot.mjs inserted, so the Astro SupportBlock can sit mid-article.
+// No marker (e.g. an unexpected content type) means the block falls back to the end.
+const SPONSOR_MARKER = /<div data-sponsor-slot(?:="")?><\/div>/;
+let bodyBefore = '';
+let bodyAfter = '';
+if (inlineSponsor) {
+  const rendered = await Astro.slots.render('default');
+  const match = SPONSOR_MARKER.exec(rendered);
+  bodyBefore = match ? rendered.slice(0, match.index) : rendered;
+  bodyAfter = match ? rendered.slice(match.index + match[0].length) : '';
+}
 
 // Generate breadcrumb items. `section` (e.g. 'Blog') inserts a middle level for content
 // types; pages with no section (cv/community/contact) still get a plain Home > Title trail.
@@ -120,10 +136,18 @@ const shareSummary = frontmatter?.summary || frontmatter?.description;
       <div
         class="mx-auto prose prose-sm sm:prose-base lg:prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-normal md:prose-headings:leading-tighter prose-headings:tracking-normal md:prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
       >
-        <slot />
-
-        <!-- TODO: How to inject in the middle? -->
-        <SupportBlock />
+        {inlineSponsor ? (
+          <>
+            <Fragment set:html={bodyBefore} />
+            <SupportBlock />
+            <Fragment set:html={bodyAfter} />
+          </>
+        ) : (
+          <>
+            <slot />
+            <SupportBlock />
+          </>
+        )}
       </div>
     </section>
   </main>

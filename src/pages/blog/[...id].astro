@@ -51,7 +51,7 @@ const structuredData = {
 };
 ---
 
-<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Blog', href: '/blog' }}>
+<MarkdownPostLayout inlineSponsor frontmatter={entry.data} section={{ label: 'Blog', href: '/blog' }}>
   <StructuredData slot="head" type="BlogPosting" data={structuredData} />
   {primaryVideo ? (
     <ArticleVideo slot="image" video={primaryVideo} />

@@ -13,6 +13,7 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import { remarkReadingTime } from './src/utils/frontmatter.mjs';
 import { remarkR2Images } from './src/utils/remark-r2-images.mjs';
 import { remarkYouTube } from './src/utils/remark-youtube.mjs';
+import { rehypeSponsorSlot } from './src/utils/rehype-sponsor-slot.mjs';
 import { customizeSitemapItem } from './src/utils/sitemap';
 import { SITE } from './src/config.mjs';
 
@@ -88,6 +89,7 @@ export default defineConfig({
       remarkPlugins: [remarkReadingTime, remarkR2Images, remarkYouTube],
       rehypePlugins: [
         rehypeSlug,
+        rehypeSponsorSlot,
         [
           rehypeAutolinkHeadings,
           {
