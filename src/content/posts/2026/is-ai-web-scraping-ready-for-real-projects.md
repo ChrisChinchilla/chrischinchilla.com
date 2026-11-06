@@ -9,7 +9,6 @@ tags:
   - Web Scraping
   - Python
   - LLM
-image: /src/assets/images/articles/ai-web-scraping.png
 summary: >-
   AI web scraping can survive page redesigns that break CSS selectors, but cost, accuracy, and hallucinations are real trade-offs. Here is the hybrid Python pipeline I use, what it costs at volume, and how I catch bad records.
 ---
