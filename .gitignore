@@ -31,3 +31,4 @@ src/pages/podcast/convert.js
 .vscode
 scripts/convert-images-to-r2.mjs
 R2_IMAGES.md
+.idea
