@@ -18,3 +18,8 @@
   from = "/blog/2026/next-app-devcon"
   to = "/podcast/the-worlds-largest-conference-for-mobile-developers-with-greg-fawson"
   status = 301
+
+[[redirects]]
+  from = "/software/task-overboard"
+  to = "/software/task-bag/"
+  status = 301

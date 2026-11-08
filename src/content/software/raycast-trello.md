@@ -1,7 +1,18 @@
 ---
 title: Raycast Trello
+raycast_url: https://www.raycast.com/ChrisChinchilla/trello
+raycast_installs: 7013
+platform: 'Raycast on macOS and Windows'
+requirements: 'Raycast, a Trello account, and Trello API credentials'
+role: 'Contributor'
+availability: 'Available on the Raycast Store'
+software_type: 'SoftwareApplication'
+operating_system: ['macOS', 'Windows']
+project_label: 'View Trello on the Raycast Store'
+license_name: 'MIT'
+license_url: 'https://github.com/raycast/extensions/blob/main/LICENSE'
 summary: A Trello extension for Raycast that I contribute to, part of the raycast/extensions community repository.
-project_url: https://github.com/raycast/extensions/tree/ff986298ee3ca7ee04f7b3b4d4ca5faecb64fe8f/extensions/trello
+project_url: https://www.raycast.com/ChrisChinchilla/trello
 tags:
   - Raycast
   - Trello

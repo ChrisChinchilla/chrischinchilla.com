@@ -122,7 +122,6 @@ const events = defineCollection({
       herotext: z.string().optional(),
       // Supports: local imports, full URLs, or R2 paths (e.g., "posts/image.jpg")
       heroimage: z.union([z.string(), image()]).optional(),
-
     }),
 });
 
@@ -327,7 +326,31 @@ const software = defineCollection({
     ...updateFields,
     title: z.string(),
     summary: z.string().optional(),
+    image: z
+      .string()
+      .refine(
+        (value) => value.startsWith('/images/software/') || URL.canParse(value),
+        'Expected a software image path or URL'
+      )
+      .optional(),
+    image_alt: z.string().optional(),
+    github_repo: z
+      .string()
+      .regex(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/)
+      .optional(),
+    raycast_url: z.string().url().optional(),
+    raycast_installs: z.number().int().nonnegative().optional(),
+    status: z.enum(['Work in progress']).optional(),
     project_url: z.string().url().optional(),
+    project_label: z.string().optional(),
+    platform: z.string(),
+    operating_system: z.array(z.string()).optional(),
+    requirements: z.string(),
+    role: z.enum(['Creator', 'Contributor']),
+    availability: z.string(),
+    license_name: z.string().optional(),
+    license_url: z.string().url().optional(),
+    software_type: z.enum(['SoftwareApplication', 'SoftwareSourceCode']),
     category: z.string().optional(),
     categories: z.array(z.string()).optional(),
     tags: z.array(z.string()).optional(),

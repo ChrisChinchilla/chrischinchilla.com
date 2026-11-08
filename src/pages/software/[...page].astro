@@ -1,4 +1,5 @@
 ---
+import { getCanonical } from '~/utils/permalinks';
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
@@ -19,7 +20,7 @@ const { page } = Astro.props;
 
 const meta = {
   title: 'Software',
-  description: 'Open-source software I have created or contributed to, including editor extensions, plugins, and style guides.',
+  description: 'Apps, editor extensions, plugins, and writing tools I have created or contributed to.',
 };
 
 const itemListData = {
@@ -27,7 +28,7 @@ const itemListData = {
   description: meta.description,
   items: page.data.map((software) => ({
     name: software.data.title,
-    url: `/software/${software.id}`,
+    url: getCanonical(`/software/${software.id}`).toString(),
   })),
 };
 ---
@@ -45,9 +46,9 @@ const itemListData = {
       firstPage={page.url.prev ? '/software' : null}
       previousPage={page.url.prev ? page.url.prev : null}
       nextPage={page.url.next ? page.url.next : null}
-      lastPage={page.url.next ? `/software/${Math.round(page.total / page.size)}` : null}
+      lastPage={page.url.next ? `/software/${Math.ceil(page.total / page.size)}` : null}
       currentPage={page.currentPage}
-      totalPages={Math.round(page.total / page.size)}
+      totalPages={Math.ceil(page.total / page.size)}
     />
   </section>
 </Layout>

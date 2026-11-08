@@ -1,0 +1,40 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  software: CollectionEntry<'software'>;
+}
+const { software } = Astro.props;
+const { platform, requirements, role, availability, license_name, license_url } = software.data;
+---
+
+<section aria-labelledby="project-facts">
+  <h2 id="project-facts">Project facts</h2>
+  <dl class="software-facts">
+    <div><dt>Platform</dt><dd>{platform}</dd></div>
+    <div><dt>Requirements</dt><dd>{requirements}</dd></div>
+    <div><dt>My role</dt><dd>{role}</dd></div>
+    <div><dt>Availability</dt><dd>{availability}</dd></div>
+    {
+      license_name && (
+        <div>
+          <>
+            <dt>Licence</dt>
+            <dd>{license_url ? <a href={license_url}>{license_name}</a> : license_name}</dd>
+          </>
+        </div>
+      )
+    }
+  </dl>
+</section>
+
+<style>
+  .software-facts > div {
+    margin-block: 1rem;
+  }
+  dt {
+    font-weight: 600;
+  }
+  dd {
+    margin: 0.25rem 0 0;
+  }
+</style>
