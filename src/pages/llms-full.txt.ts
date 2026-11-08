@@ -248,6 +248,9 @@ export const GET = async () => {
     lines.push(`## [${release.data.title}](${url})`, '', `Date: ${date}`, ...updateLines(release.data), `Band: ${release.data.band}`);
     if (release.data.record_label) lines.push(`Label: ${release.data.record_label}`);
     if (release.data.role) lines.push(`Role: ${release.data.role}`);
+    for (const l of [...(release.data.store_urls ?? []), ...(release.data.stream_urls ?? [])]) {
+      lines.push(`Listen/buy (${l.label}): ${l.url}`);
+    }
     lines.push('');
     if (release.data.summary) lines.push(release.data.summary, '');
     const body = release.body ?? '';

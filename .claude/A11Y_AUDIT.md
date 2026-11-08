@@ -160,3 +160,12 @@ the existing `prose`/`dark:prose-invert` colours (same as posts); the update lin
 `gray-600`/`gray-400` (same pairing as the page date line, 6.8:1 light, 6.2:1 dark); the TOC border
 is `gray-300`/`gray-600` and its links reuse `primary-600`/`primary-400`. Not done: a measured
 contrast pass of the TOC box and a keyboard/screen-reader walkthrough.
+
+## Music release player (2026-11-08)
+
+`MusicPlayer.astro` renders the third-party embed (Bandcamp, else SoundCloud, else Spotify) in a
+`<section aria-label="Listen to <title>">` with an `<iframe title="Listen to <title>">`, lazy-loaded.
+The visible stream/buy link lists stay on the page, so there is a non-iframe route to every service.
+Layout: player above the text on small screens (DOM order, so it is also first for keyboard and
+screen-reader users), beside it from `md`. Not done: keyboard walkthrough inside the embeds (their
+markup is not ours), and the Bandcamp embed is fixed white (`bgcol=ffffff`) in dark mode.

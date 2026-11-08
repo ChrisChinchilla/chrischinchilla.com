@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da03c99-c456-4c02-ad02-bd6c0aa71e29" name="Changes" comment="Merge branch 'main' of https://github.com/ChrisChinchilla/chrischinchilla.com" />
+    <list default="true" id="5da03c99-c456-4c02-ad02-bd6c0aa71e29" name="Changes" comment="Merge branch 'main' of https://github.com/ChrisChinchilla/chrischinchilla.com">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,10 @@
     &quot;accountId&quot;: &quot;6bbf29c3-aba7-482e-b47c-b662dad0262d&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0351632096702623" />
@@ -98,10 +104,11 @@
     "CidrDebugProfileConversion": "true",
     "CidrDebugProfileConversion262": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/chrisward/Workspace/chrischinchilla.com",
     "node.js.detected.package.eslint": "true",

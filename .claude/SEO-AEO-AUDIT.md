@@ -305,3 +305,12 @@ Deliberately not done (consider later):
   site RSS.
 - Using the Q&A's publish date for sitemap `lastmod` on `/podcast/*`.
 - `FAQPage` markup: skipped, Google has restricted FAQ rich results; headings plus `text` cover it.
+
+## Music release embeds (2026-11-08)
+
+`src/utils/music-embed.ts` picks the player (Bandcamp > SoundCloud > Spotify; the Bandcamp numeric id
+is scraped from the release page at build time, memoized, falling back to the next provider on
+failure). `/music/<id>` `CreativeWork` JSON-LD now carries `sameAs` (every store/stream URL) and
+`audio` (`AudioObject` with `embedUrl`); `StructuredData` passes `sameAs`/`audio` through for any
+`CreativeWork` that supplies them. `llms-full.txt` lists each release's `Listen/buy (<label>): <url>`
+links. Not done: `MusicAlbum`/`MusicRecording` types (would need track data), and `llms.txt` links.

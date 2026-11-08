@@ -1,0 +1,26 @@
+---
+import { getMusicEmbed } from '~/utils/music-embed';
+
+export interface Props {
+  title: string;
+  urls: string[];
+}
+const { title, urls } = Astro.props;
+const embed = await getMusicEmbed(urls);
+---
+
+{
+  embed && (
+    <section aria-label={`Listen to ${title}`}>
+      <iframe
+        src={embed.src}
+        title={`Listen to ${title}`}
+        width="100%"
+        height={embed.height}
+        loading="lazy"
+        allow="encrypted-media"
+        class="w-full border-0 rounded"
+      />
+    </section>
+  )
+}

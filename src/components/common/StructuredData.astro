@@ -229,6 +229,9 @@ const generateCreativeWorkSchema = (data: any) => {
     schema['keywords'] = data.tags.join(', ');
   }
 
+  if (data.sameAs?.length) schema['sameAs'] = data.sameAs;
+  if (data.audio) schema['audio'] = data.audio;
+
   return schema;
 };
 
