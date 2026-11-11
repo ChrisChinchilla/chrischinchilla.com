@@ -1,5 +1,17 @@
 ---
 title: Pandoc VSCode
+github_repo: ChrisChinchilla/vscode-pandoc
+image: /images/software/pandoc-vscode.webp
+image_alt: Pandoc Render selected in the VS Code command palette
+platform: 'Visual Studio Code on macOS, Windows, and Linux'
+requirements: 'VS Code 1.110.0 or later and Pandoc; a LaTeX engine for PDF output'
+role: 'Creator'
+availability: 'Available as a VS Code extension'
+software_type: 'SoftwareApplication'
+operating_system: ['macOS', 'Windows', 'Linux']
+project_label: 'View Pandoc VSCode on GitHub'
+license_name: 'MIT'
+license_url: 'https://github.com/ChrisChinchilla/vscode-pandoc/blob/main/package.json'
 summary: A Visual Studio Code extension I created for rendering markdown to PDF, Word, or HTML using Pandoc, without leaving the editor.
 project_url: https://github.com/ChrisChinchilla/vscode-pandoc
 tags:

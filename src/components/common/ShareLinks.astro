@@ -35,7 +35,7 @@ const wrapperClass = ['aw-share-links flex items-center flex-wrap gap-1', classN
         class="p-1 text-gray-500 dark:text-slate-400 hover:text-primary transition ease-in duration-200"
         href={buildShareUrl(id, content)}
         title={label}
-        aria-label={label}
+        aria-label={`${label}: ${title}`}
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -46,7 +46,7 @@ const wrapperClass = ['aw-share-links flex items-center flex-wrap gap-1', classN
   <button
     class="p-1 text-gray-500 dark:text-slate-400 hover:text-primary transition ease-in duration-200"
     title="Share on Mastodon"
-    aria-label="Share on Mastodon"
+    aria-label={`Share on Mastodon: ${title}`}
     type="button"
     data-aw-mastodon-share
     data-aw-text={mastodonText}

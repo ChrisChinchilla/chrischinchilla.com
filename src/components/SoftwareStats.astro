@@ -1,0 +1,51 @@
+---
+import { getRaycastInstalls } from '~/utils/software-raycast';
+import { getSoftwareStats } from '~/utils/software-github';
+interface Props {
+  title: string;
+  repo?: string;
+  raycast_url?: string;
+  raycast_installs?: number;
+}
+const { title, repo, raycast_url, raycast_installs } = Astro.props;
+const installs = raycast_url ? await getRaycastInstalls(raycast_url, raycast_installs) : undefined;
+const stats = repo ? await getSoftwareStats(repo) : undefined;
+---
+
+{
+  repo && stats && (
+    <div class="my-4 not-prose text-sm">
+      <p class="mb-2 text-xs text-gray-600 dark:text-gray-400">On GitHub</p>
+      <div class="flex flex-wrap gap-4">
+        <a
+          href={`https://github.com/${repo}/stargazers`}
+          aria-label={`${stats.stars.toLocaleString('en-US')} GitHub stars for ${title}`}
+          class="text-primary-700 dark:text-primary-300 underline underline-offset-2"
+        >
+          {stats.stars.toLocaleString('en-US')} stars
+        </a>
+        <a
+          href={`https://github.com/${repo}/forks`}
+          aria-label={`${stats.forks.toLocaleString('en-US')} GitHub forks for ${title}`}
+          class="text-primary-700 dark:text-primary-300 underline underline-offset-2"
+        >
+          {stats.forks.toLocaleString('en-US')} forks
+        </a>
+      </div>
+    </div>
+  )
+}
+
+{
+  raycast_url && installs !== undefined && (
+    <p class="my-4 text-sm not-prose">
+      <a
+        href={raycast_url}
+        aria-label={`${installs.toLocaleString('en-US')} installs of ${title} on the Raycast Store`}
+        class="text-primary-700 dark:text-primary-300 underline underline-offset-2"
+      >
+        {installs.toLocaleString('en-US')} installs on Raycast Store
+      </a>
+    </p>
+  )
+}

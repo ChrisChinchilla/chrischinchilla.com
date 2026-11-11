@@ -3,7 +3,19 @@ import { getContentDates } from '~/utils/content-dates';
 import { SITE } from '~/config.mjs';
 
 export interface Props {
-  type?: 'Article' | 'BlogPosting' | 'CreativeWork' | 'VideoObject' | 'PodcastEpisode' | 'Person' | 'Organization' | 'WebSite' | 'ItemList' | 'Event';
+  type?:
+    | 'Article'
+    | 'BlogPosting'
+    | 'CreativeWork'
+    | 'SoftwareApplication'
+    | 'SoftwareSourceCode'
+    | 'VideoObject'
+    | 'PodcastEpisode'
+    | 'Person'
+    | 'Organization'
+    | 'WebSite'
+    | 'ItemList'
+    | 'Event';
   data?: any;
 }
 
@@ -38,11 +50,12 @@ const generateArticleSchema = (data: any) => {
 
   // Add image if available
   if (data.image) {
-    schema['image'] = typeof data.image === 'string' 
-      ? data.image.startsWith('http') 
-        ? data.image 
-        : new URL(data.image, SITE.origin).toString()
-      : data.image;
+    schema['image'] =
+      typeof data.image === 'string'
+        ? data.image.startsWith('http')
+          ? data.image
+          : new URL(data.image, SITE.origin).toString()
+        : data.image;
   }
 
   // Add keywords/tags if available
@@ -204,17 +217,47 @@ const generateCreativeWorkSchema = (data: any) => {
   };
 
   if (data.image) {
-    schema['image'] = typeof data.image === 'string'
-      ? data.image.startsWith('http')
-        ? data.image
-        : new URL(data.image, SITE.origin).toString()
-      : data.image;
+    schema['image'] =
+      typeof data.image === 'string'
+        ? data.image.startsWith('http')
+          ? data.image
+          : new URL(data.image, SITE.origin).toString()
+        : data.image;
   }
 
   if (data.tags && Array.isArray(data.tags)) {
     schema['keywords'] = data.tags.join(', ');
   }
 
+  if (data.sameAs?.length) schema['sameAs'] = data.sameAs;
+  if (data.audio) schema['audio'] = data.audio;
+
+  return schema;
+};
+
+const generateSoftwareSchema = (data: any) => {
+  const software = data.software;
+  const schema = generateCreativeWorkSchema(data);
+  schema['@type'] = type;
+  delete schema.author;
+  schema[software.role === 'Contributor' ? 'contributor' : 'creator'] = {
+    '@type': 'Person',
+    name: SITE.name,
+    url: SITE.origin,
+  };
+  schema.sameAs = software.project_url;
+  schema.license = software.license_url;
+  if (type === 'SoftwareApplication') {
+    schema.applicationCategory = ['Task Bag', 'Raycast Trello', 'Obsidian Trello'].includes(software.title)
+      ? 'ProductivityApplication'
+      : 'DeveloperApplication';
+    schema.operatingSystem = software.operating_system;
+    if (software.requirements !== 'To be announced') schema.softwareRequirements = software.requirements;
+    schema.screenshot = data.image ? toAbsoluteUrl(data.image) : undefined;
+  } else {
+    schema.runtimePlatform = software.platform;
+    schema.codeRepository = software.github_repo ? `https://github.com/${software.github_repo}` : undefined;
+  }
   return schema;
 };
 
@@ -288,6 +331,8 @@ if (type === 'Article' || type === 'BlogPosting') {
   schema = generatePodcastEpisodeSchema(data);
 } else if (type === 'VideoObject') {
   schema = generateVideoObjectSchema(data);
+} else if (type === 'SoftwareApplication' || type === 'SoftwareSourceCode') {
+  schema = generateSoftwareSchema(data);
 } else if (type === 'CreativeWork') {
   schema = generateCreativeWorkSchema(data);
 } else if (type === 'Person') {
@@ -304,6 +349,4 @@ if (type === 'Article' || type === 'BlogPosting') {
 }
 ---
 
-{schema && (
-  <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
-)}
+{schema && <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />}

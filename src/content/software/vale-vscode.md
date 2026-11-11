@@ -1,5 +1,17 @@
 ---
 title: Vale VSCode
+github_repo: ChrisChinchilla/vale-vscode
+image: https://raw.githubusercontent.com/ChrisChinchilla/vale-vscode/main/img/vale-vscode-problems-view.png
+image_alt: Vale diagnostics highlighted in the VS Code editor and problems view
+platform: 'Visual Studio Code on macOS, Windows, and Linux'
+requirements: 'VS Code 1.109.0 or later and Vale 3.10.0 or later'
+role: 'Creator'
+availability: 'Available on the Visual Studio Marketplace'
+software_type: 'SoftwareApplication'
+operating_system: ['macOS', 'Windows', 'Linux']
+project_label: 'View Vale VSCode on GitHub'
+license_name: 'MIT'
+license_url: 'https://github.com/ChrisChinchilla/vale-vscode/blob/main/LICENSE'
 summary: A Visual Studio Code extension I created that integrates the Vale prose linter directly into the editor.
 project_url: https://github.com/ChrisChinchilla/vale-vscode
 tags:

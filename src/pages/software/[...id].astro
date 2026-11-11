@@ -1,4 +1,7 @@
 ---
+import SoftwareFacts from '~/components/SoftwareFacts.astro';
+import SoftwarePreview from '~/components/SoftwarePreview.astro';
+import SoftwareStats from '~/components/SoftwareStats.astro';
 import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import { getCollection, render } from 'astro:content';
@@ -14,6 +17,10 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+const frontmatter = {
+  ...entry.data,
+  image: entry.data.image ? new URL(entry.data.image, Astro.site).toString() : undefined,
+};
 
 const structuredData = {
   title: entry.data.title,
@@ -21,22 +28,40 @@ const structuredData = {
   modifiedDate: entry.data.modifiedDate,
   canonical: getCanonical(`/software/${entry.id}`),
   tags: entry.data.tags,
+  image: entry.data.image,
+  software: entry.data,
 };
 ---
 
-<MarkdownPostLayout frontmatter={entry.data} section={{ label: 'Software', href: '/software' }} ogType="website">
-  <StructuredData slot="head" type="CreativeWork" data={structuredData} />
-  <Content />
-  {entry.data.project_url && (
-    <p class="mt-6">
-      <a
-        href={entry.data.project_url}
-        class="text-primary hover:underline"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        View project →
-      </a>
-    </p>
-  )}
+<MarkdownPostLayout frontmatter={frontmatter} section={{ label: 'Software', href: '/software' }} ogType="website">
+  <StructuredData slot="head" type={entry.data.software_type} data={structuredData} />
+  <SoftwarePreview slot="image" software={entry} overview />
+  <div class="software-details">
+    {entry.data.status && <p class="font-semibold">{entry.data.status}</p>}
+    <Content />
+    <SoftwareFacts software={entry} />
+    <SoftwareStats
+      title={entry.data.title}
+      repo={entry.data.github_repo}
+      raycast_url={entry.data.raycast_url}
+      raycast_installs={entry.data.raycast_installs}
+    />
+    {
+      entry.data.project_url && (
+        <p class="mt-6">
+          <a href={entry.data.project_url} class="text-primary-700 dark:text-primary-300 underline underline-offset-2">
+            {entry.data.project_label ?? `View ${entry.data.title}`} →
+          </a>
+        </p>
+      )
+    }
+  </div>
 </MarkdownPostLayout>
+
+<style>
+  .software-details :global(a:focus-visible),
+  .software-details :global(button:focus-visible) {
+    outline: 3px solid currentColor;
+    outline-offset: 4px;
+  }
+</style>

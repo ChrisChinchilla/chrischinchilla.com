@@ -1,5 +1,15 @@
 ---
 title: Obsidian Vale
+github_repo: ChrisChinchilla/obsidian-vale
+platform: 'Obsidian on desktop'
+requirements: 'Obsidian 1.7.0 or later; Vale installed and configured'
+role: 'Creator'
+availability: 'Available through GitHub releases or BRAT'
+software_type: 'SoftwareApplication'
+operating_system: ['macOS', 'Windows', 'Linux']
+project_label: 'View Obsidian Vale on GitHub'
+license_name: 'MIT'
+license_url: 'https://github.com/ChrisChinchilla/obsidian-vale/blob/main/LICENSE'
 summary: A Vale client for Obsidian that I created, bringing prose linting into Obsidian notes.
 project_url: https://github.com/ChrisChinchilla/obsidian-vale
 tags:

@@ -1,4 +1,5 @@
 ---
+import { getCanonical } from '~/utils/permalinks';
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import Headline from '~/components/blog/Headline.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
@@ -12,9 +13,7 @@ export async function getStaticPaths() {
   const slugToTags = groupTagsBySlug(allTags);
 
   return [...slugToTags.entries()].map(([slug, originalTags]) => {
-    const filteredSoftware = allSoftware.filter((item) =>
-      item.data.tags?.some((t) => originalTags.has(t))
-    );
+    const filteredSoftware = allSoftware.filter((item) => item.data.tags?.some((t) => originalTags.has(t)));
     const displayTag = [...originalTags].sort()[0];
     return {
       params: { tag: slug },
@@ -35,7 +34,7 @@ const itemListData = {
   description: meta.description,
   items: softwareItems.map((software) => ({
     name: software.data.title,
-    url: `/software/${software.id}`,
+    url: getCanonical(`/software/${software.id}`).toString(),
   })),
 };
 ---

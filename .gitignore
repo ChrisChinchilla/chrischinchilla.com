@@ -31,10 +31,4 @@ src/pages/podcast/convert.js
 .vscode
 scripts/convert-images-to-r2.mjs
 R2_IMAGES.md
-.idea/.gitignore
-.idea/inspectionProfiles/Project_Default.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/new-site.iml
-.idea/prettier.xml
-.idea/vcs.xml
+.idea

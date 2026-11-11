@@ -1,5 +1,15 @@
 ---
 title: Openly
+github_repo: ChrisChinchilla/Openly
+platform: 'Vale on macOS, Windows, and Linux'
+requirements: 'Vale installed and configured'
+role: 'Creator'
+availability: 'Available on GitHub; work in progress'
+software_type: 'SoftwareSourceCode'
+operating_system: ['macOS', 'Windows', 'Linux']
+project_label: 'View Openly on GitHub'
+license_name: 'MIT'
+license_url: 'https://github.com/ChrisChinchilla/Openly/blob/main/LICENSE'
 summary: A Vale linter style I created that aims to replicate Grammarly's checks in an open-source, privacy-friendly way.
 project_url: https://github.com/ChrisChinchilla/Openly
 tags:

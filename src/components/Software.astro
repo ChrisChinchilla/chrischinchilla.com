@@ -1,4 +1,6 @@
 ---
+import SoftwarePreview from './SoftwarePreview.astro';
+import SoftwareStats from './SoftwareStats.astro';
 import Tags from '~/components/common/Tags.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
 import type { CollectionEntry } from 'astro:content';
@@ -12,34 +14,60 @@ const url = `/software/${software.id}`;
 ---
 
 <article class="mb-6 transition px-4">
-  <div>
-    <header>
-      <h2 class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
-        <a class="hover:text-primary transition ease-in duration-200" href={url}>
-          {software.data.title}
-        </a>
+  <header>
+    <a class="software-link block" href={url} aria-labelledby={`software-${software.id}`}>
+      <div class="mb-6"><SoftwarePreview {software} /></div>
+      <h2 id={`software-${software.id}`} class="text-xl sm:text-2xl font-semibold leading-tight mb-2 font-subheading">
+        {software.data.title}
       </h2>
-    </header>
+    </a>
+    {
+      software.data.status && (
+        <p class="text-sm text-primary-700 dark:text-primary-300 font-semibold mb-2">{software.data.status}</p>
+      )
+    }
+  </header>
+  <div>
     <div class="post-body body whitespace-pre-line">
       {software.data.summary}
     </div>
-    {software.data.project_url && (
-      <p class="mt-3">
-        <a
-          href={software.data.project_url}
-          class="text-primary hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View project →
-        </a>
-      </p>
-    )}
+    <SoftwareStats
+      title={software.data.title}
+      repo={software.data.github_repo}
+      raycast_url={software.data.raycast_url}
+      raycast_installs={software.data.raycast_installs}
+    />
+    {
+      software.data.project_url && (
+        <p class="mt-3">
+          <a
+            href={software.data.project_url}
+            class="text-primary-700 dark:text-primary-300 underline underline-offset-2"
+          >
+            {software.data.project_label ?? `View ${software.data.title}`} →
+          </a>
+        </p>
+      )
+    }
     <ShareLinks title={software.data.title} url={url} summary={software.data.summary} compact class="mt-2" />
   </div>
-  {software.data.tags && Array.isArray(software.data.tags) && (
-    <footer class="mt-2">
-      <Tags tags={software.data.tags} tagBase="/software/tag" />
-    </footer>
-  )}
+  {
+    software.data.tags && Array.isArray(software.data.tags) && (
+      <footer class="mt-2">
+        <Tags tags={software.data.tags} tagBase="/software/tag" />
+      </footer>
+    )
+  }
 </article>
+
+<style>
+  .software-link:hover h2 {
+    color: var(--aw-color-primary, #8d46e7);
+  }
+  article :global(a:focus-visible),
+  article :global(button:focus-visible) {
+    outline: 3px solid currentColor;
+    outline-offset: 6px;
+    border-radius: 0.25rem;
+  }
+</style>
