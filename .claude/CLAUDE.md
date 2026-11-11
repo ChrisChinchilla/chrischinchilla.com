@@ -500,6 +500,10 @@ from the old `/blog/...` URL, and deletes the post. It refuses a stub that alrea
 - **Follow-up (not done):** audit sponsor placement across all content types (books, music, gear,
   podcasts, newsletters, etc.) and decide where each belongs.
 
+### Done: Vivoo draft post from video (2026-11-10)
+
+`src/content/posts/2026/vivoo-at-home-tests.md`, written from the Descript transcript of the unpublished video `bzWRfmM-f9c` (set as `youtubeId`; the schema field is `youtubeId`, not `youtube`). Vivoo is not in `support.json`, so there is no go link. The Amazon link reuses the tagged one already in `ifa-2026.md` (ASIN `B088TVK9S1`) and carries a `%% TODO %%` to confirm it is the general test kit. Open items are `%% TODO %%` comments in the post (supplier disclosure) plus no `image`/`heroimage` yet and a placeholder `publishDate`. Posts have no draft flag, so it publishes if pushed as-is.
+
 ### Not done yet
 
 1. **Old standalone listing pages still exist in parallel** with the new dynamic route for
