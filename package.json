@@ -25,7 +25,7 @@
     "@astrojs/markdown-remark": "^7.3.0",
     "@modelcontextprotocol/sdk": "^1.32.1",
     "@netlify/functions": "^5.3.0",
-    "fast-xml-parser": "^5.10.1",
+    "fast-xml-parser": "^5.12.0",
     "fuse.js": "^7.5.0",
     "ical-generator": "^11.1.1",
     "markdown-truncate": "^1.1.1",
