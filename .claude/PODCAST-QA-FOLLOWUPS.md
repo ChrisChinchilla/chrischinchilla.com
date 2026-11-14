@@ -14,6 +14,8 @@ Design and file map: see "Done: podcast Q&A merged into episode pages" in `.clau
 
 0e. **Peter Staar (Docling) Q&A written straight into the stub** (2026-11-14), from a MacWhisper transcript. Check the Docling GitHub link and the "ISO-style standard" wording against the standard's release. Video `vRg6StHiMdI` added to the ignore list.
 
+0f. **Den Odell (Fast by Default) Q&A written straight into `den-odell.md`** (2026-11-14), from a transcript attached by Chris (no Descript project found). Needs the specific Manning book URL (only the go link is used) and, if a YouTube video exists, its ID in `src/data/video-matching-ignore.json`.
+
 1. **Migrate the remaining Q&A posts by hand.** Per post: `npm run merge-qa -- <post-file> <podcast-slug>`
    (dry run), then `npm run merge-qa:apply -- ...`. If the episode has a YouTube video, add its ID to
    `src/data/video-matching-ignore.json`. The stub filename must equal the slugified feed title.
