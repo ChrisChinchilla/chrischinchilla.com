@@ -152,6 +152,16 @@ const generatePodcastEpisodeSchema = (data: any) => {
   if (modifiedDate) schema['dateModified'] = modifiedDate;
   if (Array.isArray(data.keywords) && data.keywords.length) schema['keywords'] = data.keywords.join(', ');
   if (data.text) schema['text'] = data.text;
+  if (data.videoId) {
+    schema['video'] = videoObjectBody({
+      title: data.title,
+      description: data.description,
+      videoId: data.videoId,
+      thumbnailUrl: `https://i.ytimg.com/vi/${data.videoId}/maxresdefault.jpg`,
+      uploadDate: toIsoDateString(data.pubDate) ?? data.pubDate,
+      canonical: data.canonical,
+    });
+  }
 
   if (data.image) {
     schema['image'] = data.image;

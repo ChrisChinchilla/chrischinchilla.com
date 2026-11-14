@@ -6,6 +6,7 @@
 // netlify.toml still apply alongside this file. The `!` forces the rule even if a file exists.
 
 import type { APIRoute, GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
 import { slugify } from '~/utils/slugify';
 import { getAllYouTubeVideos } from '~/utils/youtube';
 import { articlePath, getVideoArticleMap } from '~/utils/video-articles';
@@ -21,6 +22,11 @@ export const GET: APIRoute = async () => {
     const pair = videoId ? videoArticles.byVideoId.get(videoId) : undefined;
     if (!videoId || !pair) continue;
     rules.push(`/videos/${slugify(video.snippet.title)}-${videoId} ${articlePath(pair.articleId)} 301!`);
+  }
+
+  // TEMPORARY: episode videos removed from the playlist (see `oldVideoPath` in content.config.ts).
+  for (const stub of await getCollection('podcasts')) {
+    if (stub.data.oldVideoPath) rules.push(`${stub.data.oldVideoPath} /podcast/${stub.id} 301!`);
   }
 
   const body = [

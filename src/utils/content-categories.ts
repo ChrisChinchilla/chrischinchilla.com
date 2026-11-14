@@ -210,6 +210,7 @@ export const getPodcastEpisodeEntries = async (): Promise<ArchiveEntry[]> => {
               updateNote: qa.data.updateNote,
             }
           : {}),
+        ...(stub?.data.youtubeId ? { youtubeId: stub.data.youtubeId } : {}),
       },
     } as unknown as ArchiveEntry;
   });

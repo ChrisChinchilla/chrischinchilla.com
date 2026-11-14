@@ -6,6 +6,14 @@ Design and file map: see "Done: podcast Q&A merged into episode pages" in `.clau
 
 0. **Luca Belli (Hidden Influences) Q&A written straight into the stub** (2026-11-14), no source post. Needs the specific Manning book URL (the body links manning.com generically) and, if a YouTube video exists, its ID in `src/data/video-matching-ignore.json`.
 
+0b. **Enclave Q&A written straight into the stub** (2026-11-14), no source post. Only Tal appears (Yanir's recording was lost). If a YouTube video exists, add its ID to `src/data/video-matching-ignore.json`.
+
+0c. **Daniel Gräfe (Timing/CoTypist) Q&A written straight into the stub** (2026-11-14), from a MacWhisper transcript with many ASR errors (checked names/terms by hand). Video `4J1HKrfnt1A` is already in the ignore list. Check the in-body link to the CoTypist review post resolves.
+
+0d. **Ricardo Noriega / Doug Smith (video generation, vLLM Omni) Q&A written straight into the stub** (2026-11-14), from a MacWhisper transcript; speakers attributed by topic (Doug = vLLM CI/LTX-2 experiments, Ricardo = Kubernetes/OpenShift). The GitHub Gist from their talk is not linked yet. Video `7KwTYjCBvxs` added to the ignore list.
+
+0e. **Peter Staar (Docling) Q&A written straight into the stub** (2026-11-14), from a MacWhisper transcript. Check the Docling GitHub link and the "ISO-style standard" wording against the standard's release. Video `vRg6StHiMdI` added to the ignore list.
+
 1. **Migrate the remaining Q&A posts by hand.** Per post: `npm run merge-qa -- <post-file> <podcast-slug>`
    (dry run), then `npm run merge-qa:apply -- ...`. If the episode has a YouTube video, add its ID to
    `src/data/video-matching-ignore.json`. The stub filename must equal the slugified feed title.

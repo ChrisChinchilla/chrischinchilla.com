@@ -468,6 +468,17 @@ from the old `/blog/...` URL, and deletes the post. It refuses a stub that alrea
   RSS until then), and using the Q&A date for sitemap `lastmod` on `/podcast/*`. `FAQPage` markup
   was skipped on purpose.
 
+### Done: video on podcast episode pages (2026-11-14)
+
+A podcast stub can set `youtubeId`: `PodcastLayout.astro` shows a "Watch the episode" click-to-load
+embed between the player and the Q&A, `PodcastEpisode` JSON-LD gets a `VideoObject`, and the content
+API/MCP (`videos`) and `llms-full.txt` list it. Because these videos are removed from the YouTube
+playlist, the old `/videos/<slug>-<id>` URL can't be rebuilt from a title, so the stub also holds a
+**temporary** `oldVideoPath`, which `src/pages/[redirectsFile].ts` turns into a `301!` to the episode
+(delete the field when the old URLs no longer matter). One command does it all:
+`npm run merge-qa:apply -- <post-file|-> <podcast-slug> --video <id> --video-path /videos/<slug>-<id>`
+(`-` = video only; also adds the ID to `video-matching-ignore.json`). Done for the Luca Belli episode.
+
 ### Done: home highlights, affiliate links, image audit (2026-11-05)
 
 - **Home "Highlights"** are items with `herotext` + `heroimage` frontmatter (any of posts, books,

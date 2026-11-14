@@ -16,8 +16,13 @@
 //      #### headings, so they nest under the "Condensed Q&A" <h2> on the episode page.
 //   3. Appends a 301 redirect from the old /blog/... URL to /podcast/<slug> in netlify.toml.
 //   4. Deletes the post file.
-// It does not touch src/data/video-matching-ignore.json: if the episode has a YouTube video, make
-// sure its ID is listed there so it is never paired with an article.
+//
+// Optional, for an episode that also has a video (can be used with or without a post; pass `-` as
+// the post file to only add the video):
+//   --video <youtubeId> --video-path /videos/<slug>-<id>
+//   Sets `youtubeId` and `oldVideoPath` on the stub (the latter is a TEMPORARY field that becomes a
+//   301 from the old video page, see src/pages/[redirectsFile].ts) and lists the ID in
+//   src/data/video-matching-ignore.json so it is never paired with an article.
 // Not part of the build; run by hand.
 
 import { readFileSync, writeFileSync, existsSync, unlinkSync, appendFileSync } from 'node:fs';
@@ -26,7 +31,16 @@ import matter from 'gray-matter';
 
 const args = process.argv.slice(2);
 const apply = args.includes('--apply');
-const [postArg, slug] = args.filter((a) => !a.startsWith('--'));
+const flag = (name) => {
+  const i = args.indexOf(name);
+  return i === -1 ? undefined : args[i + 1];
+};
+const videoId = flag('--video');
+const videoPath = flag('--video-path');
+const [postArg, slug] = args.filter((a, i) => !a.startsWith('--') && !args[i - 1]?.match(/^--video(-path)?$/));
+if (videoId && !/^[A-Za-z0-9_-]{11}$/.test(videoId)) throw new Error('--video must be an 11-character YouTube ID');
+if (videoPath && !videoPath.startsWith('/videos/')) throw new Error('--video-path must start with /videos/');
+if (videoId && !videoPath) console.warn('Warning: no --video-path, so the old video page will not be redirected.');
 
 if (!postArg || !slug) {
   console.error('Usage: npm run merge-qa -- <post-file> <podcast-slug>   (or merge-qa:apply to write)');
@@ -34,21 +48,22 @@ if (!postArg || !slug) {
 }
 
 const root = process.cwd();
-const postPath = resolve(root, postArg);
+const qaMode = postArg !== '-';
+const postPath = qaMode ? resolve(root, postArg) : undefined;
 const stubPath = resolve(root, 'src/content/podcasts', `${slug}.md`);
 
-if (!existsSync(postPath)) throw new Error(`Post not found: ${postPath}`);
+if (qaMode && !existsSync(postPath)) throw new Error(`Post not found: ${postPath}`);
 if (!existsSync(stubPath)) throw new Error(`No podcast stub at ${relative(root, stubPath)} - check the slug.`);
 
-const post = matter(readFileSync(postPath, 'utf8'));
+const post = qaMode ? matter(readFileSync(postPath, 'utf8')) : undefined;
 const stub = matter(readFileSync(stubPath, 'utf8'));
 
-if (stub.content.trim()) {
+if (qaMode && stub.content.trim()) {
   throw new Error(`Stub ${slug} already has a body; refusing to overwrite it.`);
 }
 
 // Old URL: the posts glob id is the path under src/content/posts without the extension.
-const postId = relative(resolve(root, 'src/content/posts'), postPath).replace(/\.(md|mdx)$/, '');
+const postId = qaMode ? relative(resolve(root, 'src/content/posts'), postPath).replace(/\.(md|mdx)$/, '') : '';
 const oldUrl = `/blog/${postId}`;
 const newUrl = `/podcast/${slug}`;
 
@@ -61,19 +76,24 @@ const transform = (body) =>
 
 const toIso = (value) => (value instanceof Date ? value.toISOString() : value);
 const data = { ...stub.data };
-data.title = post.data.title;
-data.summary = post.data.summary ?? post.data.description;
-data.publishDate = toIso(post.data.publishDate ?? post.data.date);
-if (Array.isArray(post.data.tags) && post.data.tags.length) data.tags = post.data.tags;
-if (post.data.modifiedDate) data.modifiedDate = toIso(post.data.modifiedDate);
-if (post.data.updateNote) data.updateNote = post.data.updateNote;
+if (qaMode) {
+  data.title = post.data.title;
+  data.summary = post.data.summary ?? post.data.description;
+  data.publishDate = toIso(post.data.publishDate ?? post.data.date);
+  if (Array.isArray(post.data.tags) && post.data.tags.length) data.tags = post.data.tags;
+  if (post.data.modifiedDate) data.modifiedDate = toIso(post.data.modifiedDate);
+  if (post.data.updateNote) data.updateNote = post.data.updateNote;
+}
+if (videoId) data.youtubeId = videoId;
+if (videoPath) data.oldVideoPath = videoPath;
 for (const key of Object.keys(data)) if (data[key] === undefined) delete data[key];
 
-const output = matter.stringify(`\n${transform(post.content)}\n`, data);
+const output = matter.stringify(qaMode ? `\n${transform(post.content)}\n` : `\n${stub.content.trim()}\n`, data);
 
-console.log(`Post:     ${relative(root, postPath)}`);
+if (qaMode) console.log(`Post:     ${relative(root, postPath)}`);
 console.log(`Stub:     ${relative(root, stubPath)}`);
-console.log(`Redirect: ${oldUrl} -> ${newUrl}`);
+if (qaMode) console.log(`Redirect: ${oldUrl} -> ${newUrl}`);
+if (videoPath) console.log(`Redirect: ${videoPath} -> ${newUrl} (from frontmatter)`);
 console.log(`Fields:   ${Object.keys(data).join(', ')}`);
 
 if (!apply) {
@@ -82,6 +102,14 @@ if (!apply) {
 }
 
 writeFileSync(stubPath, output);
-appendFileSync(resolve(root, 'netlify.toml'), `\n\n[[redirects]]\n  from = "${oldUrl}"\n  to = "${newUrl}"\n  status = 301\n`);
-unlinkSync(postPath);
+if (qaMode) {
+  appendFileSync(resolve(root, 'netlify.toml'), `\n\n[[redirects]]\n  from = "${oldUrl}"\n  to = "${newUrl}"\n  status = 301\n`);
+  unlinkSync(postPath);
+}
+if (videoId) {
+  const ignorePath = resolve(root, 'src/data/video-matching-ignore.json');
+  const ignore = JSON.parse(readFileSync(ignorePath, 'utf8'));
+  ignore[videoId] ??= `Tech Lounge podcast episode (${data.title ?? slug})`;
+  writeFileSync(ignorePath, `${JSON.stringify(ignore, null, 2)}\n`);
+}
 console.log('\nDone. Review the diff, then run npm run check && npm run build.');

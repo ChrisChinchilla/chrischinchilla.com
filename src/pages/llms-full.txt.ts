@@ -210,6 +210,7 @@ export const GET = async () => {
     if (podcast.data.tags?.length) lines.push(`Tags: ${podcast.data.tags.join(', ')}`, '');
     const summary = podcast.data.summary ?? podcast.data.description;
     if (summary) lines.push(summary, '');
+    if (podcast.data.youtubeId) lines.push(`Video: https://www.youtube.com/watch?v=${podcast.data.youtubeId}`, '');
     // A stub body is the episode's condensed Q&A; a transcript, if present, takes precedence.
     const body = podcast.data.transcript || podcast.body || '';
     if (body) lines.push(body, '');

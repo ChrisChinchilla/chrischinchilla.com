@@ -216,6 +216,15 @@ const build = async (): Promise<ContentApiData> => {
     }),
   );
 
+  // Podcast episodes with a video carry it too.
+  for (const detail of details.get('podcasts') ?? []) {
+    const id = detail.fields.youtubeId;
+    if (typeof id !== 'string') continue;
+    detail.videos = [
+      { id, role: 'primary', title: detail.title, watchUrl: `https://www.youtube.com/watch?v=${id}`, embedUrl: `https://www.youtube.com/embed/${id}`, chapters: [] },
+    ];
+  }
+
   // Articles that are the canonical version of a video carry its watch/embed URLs, chapters
   // and transcript, so an agent reading the article gets the video's content too.
   const videoArticles = await getVideoArticleMap();

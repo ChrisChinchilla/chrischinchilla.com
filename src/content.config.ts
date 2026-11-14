@@ -241,6 +241,13 @@ const podcasts = defineCollection({
       image: z.union([z.string(), image()]).optional(),
       audio_preview_url: z.string().optional(),
       player_embed: z.string().optional(),
+      // YouTube video of this episode, shown on the episode page. Keep it in
+      // src/data/video-matching-ignore.json so it is never paired with an article.
+      youtubeId: z.string().regex(/^[A-Za-z0-9_-]{11}$/, 'Expected an 11-character YouTube video ID').optional(),
+      // TEMPORARY: the old /videos/<slug>-<id> path, 301'd to this episode by src/pages/[redirectsFile].ts.
+      // Needed only because the video is removed from the YouTube playlist, so the slug can no longer be
+      // derived from its title. Delete once the old URLs no longer matter.
+      oldVideoPath: z.string().startsWith('/videos/').optional(),
       transcript: z.string().optional(),
       category: z.string().optional().default('Chinchilla Squeaks'),
       categories: z.array(z.string()).optional(),
