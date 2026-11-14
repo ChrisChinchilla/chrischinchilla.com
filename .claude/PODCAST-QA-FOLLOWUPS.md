@@ -4,6 +4,8 @@ Design and file map: see "Done: podcast Q&A merged into episode pages" in `.clau
 
 ## To do
 
+0. **Luca Belli (Hidden Influences) Q&A written straight into the stub** (2026-11-14), no source post. Needs the specific Manning book URL (the body links manning.com generically) and, if a YouTube video exists, its ID in `src/data/video-matching-ignore.json`.
+
 1. **Migrate the remaining Q&A posts by hand.** Per post: `npm run merge-qa -- <post-file> <podcast-slug>`
    (dry run), then `npm run merge-qa:apply -- ...`. If the episode has a YouTube video, add its ID to
    `src/data/video-matching-ignore.json`. The stub filename must equal the slugified feed title.
