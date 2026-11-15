@@ -1,18 +1,18 @@
 ---
-import { Image } from 'astro:assets';
-import { type CollectionEntry } from 'astro:content';
 // import { findImage } from '~/utils/images';
+export interface RaindropLink {
+  title: string;
+  link: string;
+  note?: string;
+  cover?: string;
+  created: string;
+}
 export interface Props {
-  link: CollectionEntry<'newsletters'>;
+  link: RaindropLink;
 }
 const { link } = Astro.props;
 // Default images
-var src = '';
-if (link.cover != null) {
-  src = link.cover;
-} else {
-  src = '/images/default.png';
-}
+const src = link.cover ?? '/images/default.png';
 ---
 
 <div>

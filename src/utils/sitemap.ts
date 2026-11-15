@@ -61,6 +61,7 @@ const sectionDates = DATED_SECTIONS.map((section) => ({
 }));
 
 // Applies a real lastmod to individual entry pages (not tag/pagination pages).
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function applyLastmod(item: any, pathname: string) {
   const section = sectionDates.find((s) => pathname.startsWith(s.prefix));
   if (!section) return;
@@ -69,6 +70,7 @@ function applyLastmod(item: any, pathname: string) {
   if (lastmod) item.lastmod = lastmod;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function customizeSitemapItem(item: any) {
   // Extract path from URL
   const url = new URL(item.url);

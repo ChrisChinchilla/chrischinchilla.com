@@ -9,7 +9,6 @@ const formatter =
     timeZone: 'UTC',
   });
 
-/* eslint-disable no-mixed-spaces-and-tabs */
 export const getFormattedDate = (date: Date) => (date ? formatter.format(date) : '');
 
 /**

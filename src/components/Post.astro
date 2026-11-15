@@ -1,9 +1,7 @@
 ---
-import { Image } from 'astro:assets';
 import ContentImage from '~/components/common/ContentImage.astro';
 import Tags from '~/components/common/Tags.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
-import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg'
 import { formatShortDate } from '~/utils/utils';
 
 import type { CollectionEntry } from 'astro:content';
@@ -18,12 +16,7 @@ const { post } = Astro.props;
 const formattedDate = formatShortDate(post.data.publishDate);
 
 // What sort of URL
-var url = '';
-if (post.data.publication_url != null) {
-  url = post.data.publication_url;
-} else {
-  url = '/blog/' + post.id;
-}
+const url = post.data.publication_url ?? '/blog/' + post.id;
 ---
 
 <article class="mb-6 transition px-4">

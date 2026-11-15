@@ -1,20 +1,20 @@
 ---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
 import { BLOG } from '~/config.mjs';
-import Post from '~/components/Post.astro';
 import { getCollection } from 'astro:content';
-export async function getStaticPaths({ paginate }) {
+export const getStaticPaths = (async ({ paginate }) => {
   let allPosts = await getCollection('posts');
   const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 
   return paginate(tags, {
     pageSize: BLOG.postsPerPage,
   });
-}
+}) satisfies GetStaticPaths;
 
-const { page } = Astro.props;
+const { page } = Astro.props as InferGetStaticPropsType<typeof getStaticPaths>;
 
 const meta = {
   title: 'Blog',

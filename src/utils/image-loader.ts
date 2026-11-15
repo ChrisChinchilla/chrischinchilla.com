@@ -8,9 +8,6 @@
 
 import type { ImageMetadata } from 'astro';
 
-// Base path for local images
-const LOCAL_IMAGES_PATH = '/src/assets/images';
-
 // Cache the glob result (persists across builds for performance)
 let imageCache: Record<string, ImageMetadata> | null = null;
 

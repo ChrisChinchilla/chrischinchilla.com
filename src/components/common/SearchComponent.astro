@@ -88,6 +88,14 @@ const { posts } = Astro.props;
 <script>
   import Fuse from 'fuse.js';
 
+  interface Post {
+    url: string;
+    title: string;
+    description: string;
+    publishDate?: string;
+    tags?: string[];
+  }
+
   // Get posts from data attribute
   let posts: Post[] = [];
   try {

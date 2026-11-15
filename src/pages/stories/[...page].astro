@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
@@ -8,16 +9,16 @@ import Story from '~/components/Story.astro';
 import { getEntryHref } from '~/utils/content-categories';
 
 import { getCollection } from 'astro:content';
-export async function getStaticPaths({ paginate }) {
+export const getStaticPaths = (async ({ paginate }) => {
   let allStories = await getCollection('stories');
   allStories = allStories.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
   return paginate(allStories, {
     pageSize: BLOG.postsPerPage,
   });
-}
+}) satisfies GetStaticPaths;
 
-const { page } = Astro.props;
+const { page } = Astro.props as InferGetStaticPropsType<typeof getStaticPaths>;
 
 const meta = {
   title: 'Stories',

@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
@@ -6,16 +7,16 @@ import StructuredData from '~/components/common/StructuredData.astro';
 import Gear from '~/components/Gear.astro';
 import { getCollection } from 'astro:content';
 
-export async function getStaticPaths({ paginate }) {
+export const getStaticPaths = (async ({ paginate }) => {
   let allGear = await getCollection('gear');
   allGear = allGear.sort((a, b) => a.data.title.localeCompare(b.data.title));
 
   return paginate(allGear, {
     pageSize: 30,
   });
-}
+}) satisfies GetStaticPaths;
 
-const { page } = Astro.props;
+const { page } = Astro.props as InferGetStaticPropsType<typeof getStaticPaths>;
 
 const meta = {
   title: 'Gear',

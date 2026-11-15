@@ -6,7 +6,8 @@ import { XMLParser } from 'fast-xml-parser';
 
 export interface PodcastEpisode {
   title: string | string[];
-  description?: string;
+  description: string;
+  enclosure: { att_url: string };
   summary?: string;
   pubDate?: string;
   image?: { att_href?: string };

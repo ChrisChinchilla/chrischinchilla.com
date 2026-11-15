@@ -12,7 +12,7 @@ const url = pair ? articlePath(pair.articleId) : `/videos/${slugify(video.snippe
 // Extract first two paragraphs from description
 const paragraphs = video.snippet.description
   .split('\n\n')
-  .filter(p => p.trim().length > 0);
+  .filter((p: string) => p.trim().length > 0);
 const truncatedDescription = paragraphs.slice(0, 2).join('\n\n');
 ---
 

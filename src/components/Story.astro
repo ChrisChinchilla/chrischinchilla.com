@@ -14,12 +14,7 @@ const { story } = Astro.props;
 const formattedDate = formatShortDate(story.data.date);
 
 // What sort of URL - external publication or internal story
-var url = '';
-if (story.data.publication_url != null) {
-  url = story.data.publication_url;
-} else {
-  url = '/stories/' + story.id;
-}
+const url = story.data.publication_url ?? '/stories/' + story.id;
 
 // Display title - use publication title if available, otherwise story title
 var displayTitle = story.data.publication_title || story.data.title;

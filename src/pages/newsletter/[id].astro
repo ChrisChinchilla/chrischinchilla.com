@@ -3,8 +3,7 @@ import MarkdownPostLayout from '../../layouts/MarkdownLayout.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import { getCollection, render } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
-import defaultPostImage from '/src/assets/images/defaults/book-chinchilla.jpg';
-import Link from '../../components/Link.astro';
+import Link, { type RaindropLink } from '../../components/Link.astro';
 import { getCanonical } from '~/utils/permalinks';
 
 export async function getStaticPaths() {
@@ -18,7 +17,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 
-let links = [];
+let links: RaindropLink[] = [];
 
 try {
   links = await fetch(`https://api.raindrop.io/rest/v1/raindrops/45559645?sort=-created&search=${entry.id}`, {
@@ -27,7 +26,7 @@ try {
     Authorization: `Bearer ${import.meta.env.RAINDROP}`,
     },
   })
-    .then((response) => response.json())
+    .then((response) => response.json() as Promise<{ items: Record<string, RaindropLink> }>)
     .then((response) =>
       Object.values(response.items).filter((item) => {
         const createdDate = new Date(item.created);

@@ -1,4 +1,3 @@
-import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
 
 import { getPermalink, cleanSlug } from '~/utils/permalinks';
@@ -71,7 +70,9 @@ export type CategoryContentTypeWithEntries = CategoryContentType & {
   entries: ArchiveEntry[];
 };
 
-type ArchiveEntry = CollectionEntry<any>;
+// Entries come from many collections plus synthetic feeds (YouTube, podcasts), so the shape is loose.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+type ArchiveEntry = { id: string; data: Record<string, any>; [key: string]: any };
 
 let categoryContentTypeCache: Map<string, CategoryContentTypeWithEntries[]> | undefined;
 

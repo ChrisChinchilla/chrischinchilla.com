@@ -44,7 +44,7 @@ if (!alt || alt.trim() === '') {
 
 // Only bundled ImageMetadata is passed to Astro's optimizer. String sources
 // (including R2 paths) remain remote, keeping static builds network-independent.
-const optimized = typeof src === 'string' ? null : await getImage({ src, width, height, quality, format, inferSize });
+const optimized = !src || typeof src === 'string' ? null : await getImage({ src, width, height, quality, format, inferSize });
 ---
 
 {

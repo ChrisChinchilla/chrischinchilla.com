@@ -96,7 +96,7 @@ if (!alt || alt.trim() === '') {
 // - String starting with '/src/': this shouldn't happen after resolution, but handle it
 // - String sources: render as plain <img> elements. In particular, keeping R2
 //   images remote prevents thousands of network requests during a static build.
-const isImageMetadata = typeof resolvedSrc !== 'string';
+const isImageMetadata = !!resolvedSrc && typeof resolvedSrc !== 'string';
 const renderedSrc = typeof resolvedSrc === 'string' ? getImageUrl(resolvedSrc) : resolvedSrc;
 
 let optimized: Awaited<ReturnType<typeof getImage>> | null = null;

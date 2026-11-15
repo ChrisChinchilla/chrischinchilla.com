@@ -20,6 +20,7 @@ import { SITE } from './src/config.mjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const hasExternalScripts = false;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const whenExternalScripts = (items: (() => any) | (() => any)[] = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 

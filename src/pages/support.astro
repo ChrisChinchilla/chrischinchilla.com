@@ -4,7 +4,6 @@ import Headline from '~/components/blog/Headline.astro';
 // import { Icon } from 'astro-icon/components';
 import ContentImage from '~/components/common/ContentImage.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
-import defaultPostImage from '/src/assets/images/defaults/book-chinchilla.jpg';
 import { getCollection } from 'astro:content';
 
 const meta = {
@@ -46,11 +45,7 @@ const itemListData = {
       {
         coreSupportLinks.map((supportLink) => (
           <div class="no-pseudo-borders flex flex-col p-6 bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
-            <Fragment set:html={supportLink.data.affiliate_html}>
-              <>
-                <h3>{supportLink.data.name}</h3>
-              </>
-            </Fragment>
+            <Fragment set:html={supportLink.data.affiliate_html} />
           </div>
         ))
       }

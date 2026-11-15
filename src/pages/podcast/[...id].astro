@@ -29,7 +29,6 @@ export async function getStaticPaths() {
 const { episode, episodeData, qaBody, QaContent, qaHeadings } = Astro.props;
 ---
 
-<!-- TODO: Frontmatter duplicated -->
-<PodcastLayout frontmatter={episode} podcast={episode} episodeData={episodeData} qaBody={qaBody} QaContent={QaContent} qaHeadings={qaHeadings}>
+<PodcastLayout podcast={episode} episodeData={episodeData} qaBody={qaBody} QaContent={QaContent} qaHeadings={qaHeadings}>
   <!-- <Image src={entry.data.image} alt={entry.data.title} class="object-contain h-full mb-6 rounded drop-shadow-lg" /> -->
 </PodcastLayout>

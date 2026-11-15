@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import Headline from '~/components/blog/Headline.astro';
@@ -8,16 +9,16 @@ import { BOOK } from '~/config.mjs';
 import Book from '~/components/Book.astro';
 import { getEntryHref } from '~/utils/content-categories';
 import { getCollection } from 'astro:content';
-export async function getStaticPaths({ paginate }) {
+export const getStaticPaths = (async ({ paginate }) => {
   let allBooks = await getCollection('books');
   allBooks = allBooks.sort((a, b) => new Date(b.data.publish_date).valueOf() - new Date(a.data.publish_date).valueOf());
 
   return paginate(allBooks, {
     pageSize: BOOK.postsPerPage,
   });
-}
+}) satisfies GetStaticPaths;
 
-const { page } = Astro.props;
+const { page } = Astro.props as InferGetStaticPropsType<typeof getStaticPaths>;
 const meta = {
   title: 'Books',
   description: 'The fiction and non-fiction books I have contributed to, written, or edited.',

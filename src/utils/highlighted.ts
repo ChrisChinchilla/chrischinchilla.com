@@ -1,10 +1,11 @@
+import type { ImageMetadata } from 'astro';
 import { getCollection } from 'astro:content';
 
 export interface HighlightedItem {
   id: string;
   slug: string;
   title: string;
-  image: string | any;
+  image: string | ImageMetadata | undefined;
   summary?: string;
   date: Date | null;
 }
@@ -14,10 +15,10 @@ interface HeroFlaggedEntry {
   data: {
     title?: string;
     herotext?: string;
-    heroimage?: any;
+    heroimage?: string | ImageMetadata;
     summary?: string;
     publication_url?: string;
-    [key: string]: any;
+    [key: string]: unknown;
   };
 }
 

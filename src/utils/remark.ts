@@ -4,6 +4,6 @@ type Plugin = RemarkPlugins[number];
 
 export const injectFrontmatter: Plugin = () => {
   return (tree, { data }) => {
-    (data.astro as any).frontmatter.layout = "../../../layouts/Post.astro";
+    (data.astro as { frontmatter: Record<string, unknown> }).frontmatter.layout = "../../../layouts/Post.astro";
   };
 };

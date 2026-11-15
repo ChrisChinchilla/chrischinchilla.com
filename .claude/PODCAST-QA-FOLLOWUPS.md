@@ -16,6 +16,8 @@ Design and file map: see "Done: podcast Q&A merged into episode pages" in `.clau
 
 0f. **Den Odell (Fast by Default) Q&A written straight into `den-odell.md`** (2026-11-14), from a transcript attached by Chris (no Descript project found). Needs the specific Manning book URL (only the go link is used) and, if a YouTube video exists, its ID in `src/data/video-matching-ignore.json`.
 
+0g. **Rita Barbosa (Guardian Labs) Q&A written straight into `ai-powered-protection-from-digital-fraud-with-guardian.md` (renamed from `guardian-proactive-...` to match the feed title)** (2026-11-15), from Descript project "Chris and Rita". The stub filename (`guardian-proactive-...`) differs from the feed title ("AI powered protection from digital fraud with Guardian"), so check the page resolves. No YouTube video found; if one exists add its ID to `src/data/video-matching-ignore.json`. Confirm guardianlabs.eu.
+
 1. **Migrate the remaining Q&A posts by hand.** Per post: `npm run merge-qa -- <post-file> <podcast-slug>`
    (dry run), then `npm run merge-qa:apply -- ...`. If the episode has a YouTube video, add its ID to
    `src/data/video-matching-ignore.json`. The stub filename must equal the slugified feed title.

@@ -27,12 +27,12 @@ async function fetchAllYouTubeVideos(): Promise<YouTubePlaylistItem[]> {
 
   try {
     do {
-      const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${PLAYLIST_ID}&key=${apiKey}${
+      const url: string = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${PLAYLIST_ID}&key=${apiKey}${
         nextPageToken ? `&pageToken=${nextPageToken}` : ''
       }`;
 
-      const response = await fetch(url);
-      const data = await response.json();
+      const response: Response = await fetch(url);
+      const data: { items?: YouTubePlaylistItem[]; nextPageToken?: string } = await response.json();
 
       if (data.items) {
         allVideos = allVideos.concat(data.items);

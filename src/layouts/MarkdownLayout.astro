@@ -8,10 +8,12 @@ import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import AIShare from '~/components/common/AIShare.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
 import { getContentDates } from '~/utils/content-dates';
-import { MetaSEO } from '~/types';
+import type { MetaSEO } from '~/types';
 import { getImageUrl } from '~/utils/r2-images';
 
 export interface Props {
+  // Entry frontmatter; shape differs per collection.
+  frontmatter?: Record<string, any>;
   section?: {
     label: string;
     href: string;
@@ -22,7 +24,7 @@ export interface Props {
   inlineSponsor?: boolean;
 }
 
-const { frontmatter, section, ogType = 'article', inlineSponsor = false } = Astro.props;
+const { frontmatter = {}, section, ogType = 'article', inlineSponsor = false } = Astro.props;
 
 // With `inlineSponsor`, render the body to a string and split it at the marker that
 // src/utils/rehype-sponsor-slot.mjs inserted, so the Astro SupportBlock can sit mid-article.

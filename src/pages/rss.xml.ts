@@ -2,7 +2,6 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 
 import { SITE, BLOG } from '~/config.mjs';
-import { fetchPosts } from '~/utils/blog';
 import { getPermalink } from '~/utils/permalinks';
 
 export const GET = async () => {
@@ -13,7 +12,7 @@ export const GET = async () => {
     });
   }
 
-  const posts = await fetchPosts();
+  const posts = await getCollection('posts');
   const newsletters = await getCollection('newsletters');
   const stories = await getCollection('stories');
   const books = await getCollection('books');
@@ -27,9 +26,9 @@ export const GET = async () => {
   const allItems = [
     ...posts.map((post) => ({
       link: getPermalink(post.id, 'post'),
-      title: post.title,
-      description: post.description,
-      pubDate: post.publishDate,
+      title: post.data.title,
+      description: post.data.summary,
+      pubDate: new Date(post.data.publishDate),
     })),
     ...newsletters.map((entry) => ({
       link: `/newsletter/${entry.id}`,

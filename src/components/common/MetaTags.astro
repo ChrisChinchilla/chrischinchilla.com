@@ -3,7 +3,7 @@ import { GoogleAnalytics } from '@astrolib/analytics';
 import { getImage } from 'astro:assets';
 
 import { SITE } from '~/config.mjs';
-import { MetaSEO } from '~/types';
+import type { MetaSEO } from '~/types';
 import { getCanonical, getAsset } from '~/utils/permalinks';
 import { getRelativeUrlByFilePath } from '~/utils/directories';
 
@@ -24,12 +24,13 @@ const defaultImage = SITE.defaultImage
       })
     ).src
   : '';
-let canonicalURL = '';
-if (Astro.props.publication_url) {
-  canonicalURL = Astro.props.publication_url;
-} else {
-  canonicalURL = getCanonical(String(Astro.url.pathname));
-}
+// Optional analytics settings that config.mjs doesn't define yet.
+const { googleSiteVerificationId, googleAnalyticsId, splitbeeAnalytics } = SITE as typeof SITE & {
+  googleSiteVerificationId?: string;
+  googleAnalyticsId?: string;
+  splitbeeAnalytics?: { enabled?: boolean };
+};
+const canonicalURL = String(Astro.props.publication_url || getCanonical(String(Astro.url.pathname)));
 const {
   title = SITE.name,
   description = SITE.description,
@@ -123,12 +124,12 @@ const renderedTitle = dontUseTitleTemplate ? title : `${title} — ${SITE.name}`
 <Fonts />
 
 <!-- Google Site Verification -->
-{SITE.googleSiteVerificationId && <meta name="google-site-verification" content={SITE.googleSiteVerificationId} />}
+{googleSiteVerificationId && <meta name="google-site-verification" content={googleSiteVerificationId} />}
 
 <!-- Google Analytics -->
-{SITE.googleAnalyticsId && <GoogleAnalytics id={String(SITE.googleAnalyticsId)} partytown={true} />}
+{googleAnalyticsId && <GoogleAnalytics id={String(googleAnalyticsId)} partytown={true} />}
 
-{SITE.splitbeeAnalytics?.enabled && <SplitbeeAnalytics {...SITE.splitbeeAnalytics} />}
+{splitbeeAnalytics?.enabled && <SplitbeeAnalytics {...splitbeeAnalytics} />}
 
 <link rel="shortcut icon" href={getAsset('/favicon.ico')} />
 <link rel="icon" type="image/svg+xml" href={getAsset('/favicon.svg')} />

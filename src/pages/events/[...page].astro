@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths } from 'astro';
 import Layout from '~/layouts/PageLayoutNoBG.astro';
 import { Pagination } from 'accessible-astro-components';
 import { Icon } from 'astro-icon/components';
@@ -8,7 +9,7 @@ import Event from '~/components/Event.astro';
 import { getCollection } from 'astro:content';
 import { EVENT, SITE } from '~/config.mjs';
 
-export async function getStaticPaths({ paginate }) {
+export const getStaticPaths = (async ({ paginate }) => {
   const now = new Date();
   const allEvents = await getCollection('events');
   const upcomingEvents = allEvents
@@ -28,7 +29,7 @@ export async function getStaticPaths({ paginate }) {
     pageSize: EVENT.postsPerPage,
     props: { upcomingEvents },
   });
-}
+}) satisfies GetStaticPaths;
 const { page, upcomingEvents } = Astro.props;
 
 const meta = {

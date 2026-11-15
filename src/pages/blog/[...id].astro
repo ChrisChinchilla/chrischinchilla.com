@@ -29,8 +29,7 @@ const articleUrl = getCanonical(`/blog/${entry.id}`);
 // Prepare structured data
 const structuredData = {
   title: entry.data.title,
-  description: entry.data.summary || entry.data.description,
-  author: entry.data.author,
+  description: entry.data.summary,
   publishDate: entry.data.publishDate,
   modifiedDate: entry.data.modifiedDate,
   image: entry.data.image,
@@ -59,7 +58,7 @@ const structuredData = {
     <OptimizedImage
       slot="image"
       src={entry.data.image ? entry.data.image : defaultPostImage}
-      alt={entry.data.imageAlt || entry.data.title}
+      alt={entry.data.title}
       title={entry.data.title}
       class="object-cover w-full h-full mb-6 rounded drop-shadow-lg"
       format="png"

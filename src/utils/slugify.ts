@@ -1,6 +1,6 @@
 // Format title for ID
 // Slugify a string
-export function slugify(str)
+export function slugify(str: string)
 {
     str = str.replace(/^\s+|\s+$/g, '');
 

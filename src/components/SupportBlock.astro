@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import ContentImage from '~/components/common/ContentImage.astro';
-import defaultPostImage from '../assets/images/defaults/blog-chinchilla.jpg';
 
 const allSupportLinks = await getCollection('supportLinks');
 const shuffled = allSupportLinks.sort(() => 0.5 - Math.random());
@@ -18,11 +17,7 @@ const randomSupportLinks = shuffled.slice(0, 2);
     randomSupportLinks.map((supportLink) =>
       supportLink.data.section === 'core' ? (
         <div class="flex flex-col p-6 bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
-          <Fragment set:html={supportLink.data.affiliate_html}>
-            <>
-              <h3>{supportLink.data.name}</h3>
-            </>
-          </Fragment>
+          <Fragment set:html={supportLink.data.affiliate_html} />
         </div>
       ) : (
         <div class="relative flex flex-col p-6 bg-white/70 dark:bg-slate-900 rounded drop-shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">

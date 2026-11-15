@@ -12,12 +12,7 @@ const { book } = Astro.props;
 const formattedDate = formatShortDate(book.data.publish_date);
 
 // What sort of URL - external publication or internal book page
-var url = '';
-if (book.data.publication_url != null) {
-  url = book.data.publication_url;
-} else {
-  url = '/books/' + book.id;
-}
+const url = book.data.publication_url ?? '/books/' + book.id;
 ---
 
 <article class="mb-6 transition px-4">
