@@ -15,6 +15,8 @@ tags:
   - Vulnerabilities
 youtubeId: OfrTw7UgAo8
 oldVideoPath: /videos/autonomous-security-in-the-agent-age-with-enclave-OfrTw7UgAo8
+modifiedDate: '2026-11-15'
+updateNote: Added the video of this episode.
 ---
 
 For this episode of the Tech Lounge, I spoke with Tal, co-founder of [Enclave](https://enclave.ai), a company building an autonomous security tool for the age of AI and agents. His co-founder Yanir also joined the call, but his recording didn't come through, so this is a conversation with Tal alone. This episode is sponsored by [Ulysses](https://go.chrischinchilla.com/ulysses), the Mac and iOS Markdown editor made in Leipzig. This is a condensed Q&A of our conversation.

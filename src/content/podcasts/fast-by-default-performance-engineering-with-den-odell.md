@@ -15,6 +15,8 @@ tags:
   - Web development
 youtubeId: IQG8qLv60Cw
 oldVideoPath: /videos/fast-by-default-performance-engineering-with-den-odell-IQG8qLv60Cw
+modifiedDate: '2026-11-15'
+updateNote: Added the video of this episode.
 ---
 
 For this episode of the Tech Lounge, I spoke with Den Odell about his forthcoming Manning book, Fast by Default, on performance engineering. I reviewed some of the early chapters, and they cover justifying performance work with whatever metric your business cares about, practical ways to apply it at different levels of the stack, and then monitoring and iterating. You can find out more about the book, and many others in the Manning catalogue, through [my discount link](https://go.chrischinchilla.com/manning). This is a condensed Q&A of our conversation.

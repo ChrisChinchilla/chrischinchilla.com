@@ -18,6 +18,8 @@ tags:
 youtubeId: vRg6StHiMdI
 oldVideoPath: >-
   /videos/converting-messy-documents-into-structured-data-with-peter-staar-of-docling-vRg6StHiMdI
+modifiedDate: '2026-11-15'
+updateNote: Added the video of this episode.
 ---
 
 For this episode of the Tech Lounge, I spoke with Peter Staar, who works on [Docling](https://github.com/docling-project/docling), at PyTorchCon in Paris in April. I do a lot of documentation work and help maintain some Pandoc-related projects, so Docling looked like something I should love, though I couldn't quite work out what it was. This episode is also available as [video](https://www.youtube.com/watch?v=vRg6StHiMdI), and was sponsored by [Mermaid Chart](https://go.chrischinchilla.com/mermaid). This is a condensed Q&A of our conversation.

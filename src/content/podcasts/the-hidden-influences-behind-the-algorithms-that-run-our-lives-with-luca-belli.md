@@ -18,6 +18,8 @@ tags:
 youtubeId: 2w9EzGI9OZY
 oldVideoPath: >-
   /videos/the-hidden-influences-behind-the-algorithms-that-run-our-lives-with-luca-belli-2w9EzGI9OZY
+modifiedDate: '2026-11-15'
+updateNote: Added the video of this episode.
 ---
 
 For this episode of the Tech Lounge, I spoke with Luca Belli, author of [Hidden Influences](https://www.manning.com/), a book on how algorithmic recommendation systems work. It's not a technical manual, and it's as much about ethics as engineering. The book is in Manning's early access programme, and you can get it, or any other Manning book, with [my discount link](https://go.chrischinchilla.com/manning). This is a condensed Q&A of our conversation.

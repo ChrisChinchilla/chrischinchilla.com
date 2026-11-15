@@ -21,6 +21,11 @@ tags:
   - Events
   - Berlin
   - AI
+youtubeId: Qn0iciS-mIk
+oldVideoPath: >-
+  /videos/the-worlds-largest-conference-for-mobile-developers-with-greg-fawson-Qn0iciS-mIk
+modifiedDate: '2026-11-15'
+updateNote: Added the video of this episode.
 ---
 
 For this episode of the Tech Lounge, I met Greg Fawson at Messe Berlin, the city's main trade fair venue. Thankfully not on the show floor, as Greg works for the Messe itself. He's the CEO of Mobile Seasons GmbH, the company behind droidcon, and we talked about [next.app devCon](https://www.nextappcon.com/), which takes place at the CityCube Berlin from 7 to 9 October 2026.

@@ -17,6 +17,8 @@ tags:
 youtubeId: 4J1HKrfnt1A
 oldVideoPath: >-
   /videos/cotypist-developer-daniel-grafe-talks-about-his-journey-and-process-4J1HKrfnt1A
+modifiedDate: '2026-11-15'
+updateNote: Added the video of this episode.
 ---
 
 For this episode of the Tech Lounge, I spoke with Daniel Gräfe, an independent developer in Berlin who makes [Timing](https://timingapp.com) and [CoTypist](https://cotypist.app). Unusually, Daniel was here in person, so this episode started life as a video interview. My two microphones didn't work out well, and I'm much louder than Daniel in the audio, so the video is the better way to hear him. This is a condensed Q&A of our conversation.

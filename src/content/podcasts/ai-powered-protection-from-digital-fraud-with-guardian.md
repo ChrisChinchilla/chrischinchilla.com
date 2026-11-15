@@ -16,6 +16,8 @@ tags:
   - Scams
 youtubeId: k9inOINfKOo
 oldVideoPath: /videos/ai-powered-protection-from-digital-fraud-with-guardian-k9inOINfKOo
+modifiedDate: '2026-11-15'
+updateNote: Added the video of this episode.
 ---
 
 For this episode of the Tech Lounge, I spoke with Rita Barbosa of [Guardian Labs](https://guardianlabs.eu) at the Open Source Summit in Prague. Guardian is working on an app and a platform to reduce phone scams, mainly aimed at older people who get pulled into banking scams, and on extending that across the languages of Europe. This episode was sponsored by [Tiiny Host](https://go.chrischinchilla.com/tiinyhost), which lets you upload files and share your work online. This is a condensed Q&A of our conversation.

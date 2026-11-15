@@ -1,6 +1,8 @@
 ---
 title: 'Videos and podcast episodes now live with their articles'
 publishDate: 2026-11-06T00:00:00.000Z
+modifiedDate: 2026-11-15
+updateNote: Podcast episode pages now include the video as well as the Q&A, with new examples and subscribe links.
 author: Chris Ward
 categories:
   - tech
@@ -44,16 +46,25 @@ Eleven videos are paired so far. These show the new work best:
 - [Testing Neon - Opera's agentic browser](/blog/2026/opera-neon) shows the embed replacing the hero image.
 - [I Replaced My Custom Mac App Audio Routing Solution with Elgato Wave Link 3](/blog/2026/app-audio-routing) is a hands-on piece where the video and the written steps complement each other.
 
-## Podcast episodes with their Q&As
+## Podcast episodes with their video and Q&A
 
-For some Tech Lounge episodes I have started producing a condensed Q&A of the conversation. Those used to be separate blog posts, competing with the episode page. Now the Q&A lives on the episode page, below the player, with a skip link and a table of contents of the topics covered. The old post URLs redirect to the episode.
+For some Tech Lounge episodes I produce a condensed Q&A of the conversation, and many also have a video. Those used to be separate blog posts and a separate `/videos` page, competing with the episode page. Now the episode page is the one home. Under the thumbnail you get the audio player, subscribe links (Apple Podcasts, Spotify, Pocket Casts, the RSS feed, or just search for "Tech Lounge" in your app), and the video, with a link to subscribe to the YouTube channel. Below that is the Q&A, with a skip link and a table of contents of the topics covered. The old post and video URLs redirect to the episode.
 
-I have migrated two so far:
+Nine episodes have the full combination of audio, video, and Q&A:
 
+- [Fast by default: Performance engineering with Den Odell](/podcast/fast-by-default-performance-engineering-with-den-odell)
+- [AI powered protection from digital fraud with Guardian](/podcast/ai-powered-protection-from-digital-fraud-with-guardian)
+- [Converting messy documents into structured data with Peter Staar of Docling](/podcast/converting-messy-documents-into-structured-data-with-peter-staar-of-docling)
+- [Video generation as a service with Ricardo Noriega and Doug Smith](/podcast/video-generation-as-a-service-with-ricardo-noriega-and-doug-smith)
+- [Daniel Gräfe of Timing and CoTypist](/podcast/daniel-grafe-of-timing-and-cotypist)
+- [Autonomous security in the agent age with Enclave](/podcast/autonomous-security-in-the-agent-age-with-enclave)
+- [The hidden influences behind the algorithms that run our lives with Luca Belli](/podcast/the-hidden-influences-behind-the-algorithms-that-run-our-lives-with-luca-belli)
 - [Punk rock cybersecurity with Brian Panarello of Dark Wolf](/podcast/punk-rock-cybersecurity-with-brian-panarello-of-dark-wolf)
 - [Running the world's largest mobile developer conference with Greg Fawson of next.app devCon](/podcast/the-worlds-largest-conference-for-mobile-developers-with-greg-fawson)
 
-Episodes are never paired with an article or video through the automatic matcher. If a video is an episode, the podcast page is its home, and the matcher checks video and article titles against the episode list to avoid pairing them.
+The last two had a Q&A that replaced a blog post, so they redirect from the old post URL as well as from the old video URL.
+
+Episodes are never paired with an article through the automatic matcher. If a video is an episode, the podcast page is its home, and the matcher checks video and article titles against the episode list to avoid pairing them. The video is set on the episode itself, and the episode page, not an article, receives the old video URL's redirect.
 
 ## Reasons beyond tidiness
 
@@ -62,7 +73,7 @@ Episodes are never paired with an article or video through the automatic matcher
 
 ## What's next
 
-- **Migrate the remaining Q&As.** There are more episode write-ups still living as blog posts and many episodes with no article at all yet.
+- **Migrate the remaining Q&As and videos.** More episodes have write-ups still living as blog posts, and many episodes have neither a Q&A nor their video on the page yet. I'll move them over as I go.
 - **Transcripts for the other paired videos.** Generating transcripts from YouTube is not as easy as it could be. As I produce new content I use Descript to generate a transcript, but I haven't gone back to the older videos yet.
 - **Multiple videos per article.** I have several videos for one article. The schema supports an article with one main video and related ones, but I haven't decided how to show them.
 - **Go through the older videos.** About 490 predate automatic matching. I'll review them in batches.

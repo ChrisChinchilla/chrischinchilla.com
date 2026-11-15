@@ -18,6 +18,8 @@ tags:
 youtubeId: 7KwTYjCBvxs
 oldVideoPath: >-
   /videos/video-generation-as-a-service-with-ricardo-noriega-and-doug-smith-7KwTYjCBvxs
+modifiedDate: '2026-11-15'
+updateNote: Added the video of this episode.
 ---
 
 For this episode of the Tech Lounge, I spoke with Ricardo Noriega and Doug Smith from Red Hat at PyTorchCon in Paris in April. They gave a talk on video generation as a service using vLLM Omni, and I missed it because I was interviewing someone else, so this conversation filled the gap. This episode is also available as [video](https://www.youtube.com/watch?v=7KwTYjCBvxs), and was sponsored by [FlexClip](https://go.chrischinchilla.com/flexclip), an online video maker and editor. This is a condensed Q&A of our conversation.

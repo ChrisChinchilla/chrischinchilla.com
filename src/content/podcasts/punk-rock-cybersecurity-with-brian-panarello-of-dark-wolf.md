@@ -11,6 +11,10 @@ publishDate: '2026-10-26T00:00:00.000Z'
 tags:
   - Security
   - AI
+youtubeId: i4VcllS1Xys
+oldVideoPath: /videos/punk-rock-cybersecurity-with-brian-panarello-of-dark-wolf-i4VcllS1Xys
+modifiedDate: '2026-11-15'
+updateNote: Added the video of this episode.
 ---
 
 For this episode of the Tech Lounge, I spoke with Brian "BP" Panarello, technical director for cybersecurity engineering and risk management at [Dark Wolf](https://darkwolf.io). He styles himself the punk rock cyber engineer, and we talked about what that means, how he secures software for the US military, and how AI is changing the picture. This is a condensed Q&A of our conversation.
