@@ -5,6 +5,7 @@ author: Chris Ward
 categories:
   - music
   - games
+image: articles/pexels-anna-pou-8133244.jpg
 tags:
   - Music
   - AI
