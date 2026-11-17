@@ -14,6 +14,8 @@ Article pages read this instead of the YouTube API, so they build the same witho
 
 - `transcriptSource` is `auto-generated` (YouTube captions, not proofread) or `edited`. It is shown
   to readers above the transcript and exposed to agents.
+- Keep `uploadDate` as the video's actual YouTube publication timestamp (not the date it was added
+  to the playlist); a `VideoObject` is omitted when this value is missing or invalid.
 - An optional `<youtubeId>.transcript.md` holds the transcript, one line per caption in the form
   `[m:ss] text` (or `[h:mm:ss]`). The timestamps become links to that moment in the video.
 - Chapters are not stored here: they are read from the timestamps in the YouTube description

@@ -1,6 +1,7 @@
 ---
 import { getContentDates } from '~/utils/content-dates';
 import { SITE } from '~/config.mjs';
+import { createVideoObjectSchema, normalizeVideoUploadDate } from '~/utils/video-schema.mjs';
 
 export interface Props {
   type?:
@@ -70,7 +71,8 @@ const generateArticleSchema = (data: any) => {
 
   // Articles that are the canonical version of a video carry it as a nested VideoObject.
   if (Array.isArray(data.videos) && data.videos.length) {
-    schema['video'] = data.videos.map(videoObjectBody);
+    const videos = data.videos.map(videoObjectBody).filter(Boolean);
+    if (videos.length) schema['video'] = videos;
   }
 
   return schema;
@@ -153,14 +155,15 @@ const generatePodcastEpisodeSchema = (data: any) => {
   if (Array.isArray(data.keywords) && data.keywords.length) schema['keywords'] = data.keywords.join(', ');
   if (data.text) schema['text'] = data.text;
   if (data.videoId) {
-    schema['video'] = videoObjectBody({
+    const video = videoObjectBody({
       title: data.title,
       description: data.description,
       videoId: data.videoId,
       thumbnailUrl: `https://i.ytimg.com/vi/${data.videoId}/maxresdefault.jpg`,
-      uploadDate: toIsoDateString(data.pubDate) ?? data.pubDate,
+      uploadDate: normalizeVideoUploadDate(data.pubDate),
       canonical: data.canonical,
     });
+    if (video) schema['video'] = video;
   }
 
   if (data.image) {
@@ -180,35 +183,20 @@ const generatePodcastEpisodeSchema = (data: any) => {
 // Shared by the standalone VideoObject (the /videos pages) and by the `video` property of an
 // article that embeds a video. Optional fields are dropped by JSON.stringify when undefined.
 const videoObjectBody = (data: any) => {
-  const chapters = Array.isArray(data.chapters) ? data.chapters : [];
-  return {
-    '@type': 'VideoObject',
-    name: data.title,
-    description: data.description,
-    thumbnailUrl: data.thumbnailUrl,
-    uploadDate: data.uploadDate,
-    duration: data.duration,
-    inLanguage: data.transcript || data.inLanguage ? 'en' : undefined,
-    embedUrl: data.videoId ? `https://www.youtube.com/embed/${data.videoId}` : undefined,
-    contentUrl: data.videoId ? `https://www.youtube.com/watch?v=${data.videoId}` : undefined,
-    url: data.canonical || new URL(Astro.url.pathname, SITE.origin).toString(),
-    transcript: data.transcript,
-    hasPart: chapters.length
-      ? chapters.map((chapter: any) => ({
-          '@type': 'Clip',
-          name: chapter.label,
-          startOffset: chapter.start,
-          endOffset: chapter.end,
-          url: `https://www.youtube.com/watch?v=${data.videoId}&t=${chapter.start}s`,
-        }))
-      : undefined,
-  };
+  const schema = createVideoObjectSchema(data, new URL(Astro.url.pathname, SITE.origin).toString());
+  if (!schema) {
+    console.warn(
+      `[structured-data] Skipping VideoObject for ${data.videoId ?? data.title ?? 'unknown video'}: ` +
+        'uploadDate is missing or invalid.'
+    );
+  }
+  return schema;
 };
 
-const generateVideoObjectSchema = (data: any) => ({
-  '@context': 'https://schema.org',
-  ...videoObjectBody(data),
-});
+const generateVideoObjectSchema = (data: any) => {
+  const video = videoObjectBody(data);
+  return video ? { '@context': 'https://schema.org', ...video } : undefined;
+};
 
 const generateCreativeWorkSchema = (data: any) => {
   const schema: any = {
