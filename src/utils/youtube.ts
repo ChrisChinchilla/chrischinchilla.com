@@ -11,6 +11,10 @@ export interface YouTubePlaylistItem {
     thumbnails?: Record<string, unknown>;
     [key: string]: unknown;
   };
+  contentDetails?: {
+    videoId?: string;
+    videoPublishedAt?: string;
+  };
   [key: string]: unknown;
 }
 
@@ -27,7 +31,7 @@ async function fetchAllYouTubeVideos(): Promise<YouTubePlaylistItem[]> {
 
   try {
     do {
-      const url: string = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${PLAYLIST_ID}&key=${apiKey}${
+      const url: string = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=50&playlistId=${PLAYLIST_ID}&key=${apiKey}${
         nextPageToken ? `&pageToken=${nextPageToken}` : ''
       }`;
 

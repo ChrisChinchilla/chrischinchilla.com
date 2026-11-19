@@ -9,6 +9,7 @@ import { getCollection } from 'astro:content';
 import { getAllYouTubeVideos } from '~/utils/youtube';
 import { matchVideosToArticles } from '~/utils/video-match.mjs';
 import ignoredVideos from '~/data/video-matching-ignore.json';
+import { normalizeVideoUploadDate } from '~/utils/video-schema.mjs';
 import {
   durationToSeconds,
   embedUrl,
@@ -48,11 +49,17 @@ async function build(): Promise<VideoArticleMap> {
   ]);
 
   const videos = playlist
-    .map((v) => ({
-      id: v.snippet.resourceId?.videoId ?? '',
-      title: v.snippet.title,
-      date: (v.snippet.publishedAt ?? '').slice(0, 10),
-    }))
+    .map((v) => {
+      const id = v.snippet.resourceId?.videoId ?? '';
+      const uploadDate =
+        normalizeVideoUploadDate(v.contentDetails?.videoPublishedAt) ??
+        normalizeVideoUploadDate(getVideoMeta(id)?.uploadDate);
+      return {
+        id,
+        title: v.snippet.title,
+        date: uploadDate?.slice(0, 10) ?? '',
+      };
+    })
     .filter((v) => v.id);
 
   const articles = posts.map((p) => {
@@ -76,13 +83,13 @@ async function build(): Promise<VideoArticleMap> {
   for (const w of podcastWarnings) {
     console.warn(
       `[video-articles] ${w.videoId} <-> ${w.articleId} is paired explicitly but its ${w.of} looks like ` +
-        `podcast episode "${w.podcastId}" (${w.score}). Podcast episodes are not normally paired.`,
+        `podcast episode "${w.podcastId}" (${w.score}). Podcast episodes are not normally paired.`
     );
   }
   if (conflicts.length) {
     throw new Error(
       `Several articles claim the same YouTube video: ${JSON.stringify(conflicts)}. ` +
-        'Each video can have only one canonical article.',
+        'Each video can have only one canonical article.'
     );
   }
 
@@ -125,16 +132,14 @@ export interface ArticleVideo {
  * baseline so this works without the YouTube API; the live playlist adds the description (the
  * source of chapters) and the canonical title/date when it is available.
  */
-export async function getArticleVideos(
-  articleId: string,
-  fallback: { title: string },
-): Promise<ArticleVideo[]> {
+export async function getArticleVideos(articleId: string, fallback: { title: string }): Promise<ArticleVideo[]> {
   const [map, playlist] = await Promise.all([getVideoArticleMap(), getAllYouTubeVideos()]);
-  const live = new Map(playlist.map((v) => [v.snippet.resourceId?.videoId ?? '', v.snippet]));
+  const live = new Map(playlist.map((v) => [v.snippet.resourceId?.videoId ?? '', v]));
 
   return (map.byArticleId.get(articleId) ?? []).map((pair) => {
     const meta = getVideoMeta(pair.videoId);
-    const snippet = live.get(pair.videoId);
+    const video = live.get(pair.videoId);
+    const snippet = video?.snippet;
     const description = snippet?.description;
     const duration = meta?.duration;
     const total = durationToSeconds(duration);
@@ -150,7 +155,8 @@ export async function getArticleVideos(
       role: pair.role,
       title: snippet?.title ?? meta?.title ?? fallback.title,
       description,
-      uploadDate: snippet?.publishedAt ?? meta?.uploadDate,
+      uploadDate:
+        normalizeVideoUploadDate(video?.contentDetails?.videoPublishedAt) ?? normalizeVideoUploadDate(meta?.uploadDate),
       duration,
       watchUrl: watchUrl(pair.videoId),
       embedUrl: embedUrl(pair.videoId),

@@ -7,12 +7,18 @@ import Breadcrumb from '~/components/common/Breadcrumb.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import ShareLinks from '~/components/common/ShareLinks.astro';
 import { Icon } from 'astro-icon/components';
-import { YouTube } from "@astro-community/astro-embed-youtube";
+import { YouTube } from '@astro-community/astro-embed-youtube';
 import type { MetaSEO } from '~/types';
 import { SITE } from '~/config.mjs';
+import { normalizeVideoUploadDate } from '~/utils/video-schema.mjs';
+import { getVideoMeta } from '~/utils/video-data';
 
 const { video } = Astro.props;
 const snippet = video.snippet;
+const videoId = snippet.resourceId.videoId;
+const uploadDate =
+  normalizeVideoUploadDate(video.contentDetails?.videoPublishedAt) ??
+  normalizeVideoUploadDate(getVideoMeta(videoId)?.uploadDate);
 
 // sub_confirmation=1 only has an effect on channel URLs, not watch?v= links.
 const channelSubscribeUrl = 'https://www.youtube.com/channel/UCgnrx8qi4qhmN6sBebdDrmg?sub_confirmation=1';
@@ -34,10 +40,7 @@ const meta: MetaSEO = {
 };
 
 function linkifyDescription(text: string, videoId: string): string {
-  const escaped = text
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
+  const escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   return escaped
     .replace(/\n/g, '<br>')
     .replace(/(https?:\/\/[^\s<]+)/g, (match) => {
@@ -46,31 +49,28 @@ function linkifyDescription(text: string, videoId: string): string {
     })
     .replace(/\b(\d{1,2}:\d{2}(?::\d{2})?)\b/g, (match) => {
       const parts = match.split(':').map(Number);
-      const seconds = parts.length === 3
-        ? parts[0] * 3600 + parts[1] * 60 + parts[2]
-        : parts[0] * 60 + parts[1];
+      const seconds = parts.length === 3 ? parts[0] * 3600 + parts[1] * 60 + parts[2] : parts[0] * 60 + parts[1];
       const safeVideoId = String(videoId).replace(/"/g, '&quot;');
       return `<a href="https://youtu.be/${safeVideoId}?t=${seconds}" target="_blank" rel="noopener noreferrer">${match}</a>`;
     });
 }
 
-const breadcrumbItems = [
-  { label: 'Home', href: '/' },
-  { label: 'Videos', href: '/videos' },
-  { label: snippet.title },
-];
+const breadcrumbItems = [{ label: 'Home', href: '/' }, { label: 'Videos', href: '/videos' }, { label: snippet.title }];
 ---
 
 <Layout {meta}>
   <Fragment slot="head">
-    <StructuredData type="VideoObject" data={{
-      title: snippet.title,
-      description: snippet.description,
-      thumbnailUrl: thumbnail,
-      uploadDate: snippet.publishedAt,
-      videoId: snippet.resourceId.videoId,
-      canonical,
-    }} />
+    <StructuredData
+      type="VideoObject"
+      data={{
+        title: snippet.title,
+        description: snippet.description,
+        thumbnailUrl: thumbnail,
+        uploadDate,
+        videoId,
+        canonical,
+      }}
+    />
   </Fragment>
   <Announcement />
   <Header />
@@ -78,9 +78,7 @@ const breadcrumbItems = [
     <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
       <Breadcrumb items={breadcrumbItems} />
       <h1 class="font-bold font-heading text-3xl md:text-4xl leading-tighter tracking-tighter mb-6">{snippet.title}</h1>
-      <div
-        class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400"
-      >
+      <div class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400">
         <article class="max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 md:grid-cols-2">
           <div>
             <div class="overflow-hidden rounded drop-shadow-lg">
@@ -94,16 +92,23 @@ const breadcrumbItems = [
                 class="inline-flex items-center gap-1.5 hover:text-primary transition ease-in duration-200"
               >
                 <Icon name="tabler:brand-youtube" class="w-5 h-5" aria-hidden="true" />
-                <span class="underline">Subscribe to my channel</span><span class="sr-only"> on YouTube (opens in a new tab)</span>
+                <span class="underline">Subscribe to my channel</span>
+                <span class="sr-only"> on YouTube (opens in a new tab)</span>
               </a>
             </p>
-            <ShareLinks title={snippet.title} url={canonical} summary={snippet.description.slice(0, 200)} class="mt-4" />
+            <ShareLinks
+              title={snippet.title}
+              url={canonical}
+              summary={snippet.description.slice(0, 200)}
+              class="mt-4"
+            />
           </div>
           <div class="mt-2">
             <p set:html={linkifyDescription(snippet.description, snippet.resourceId.videoId)} />
-            {snippet.publishedAt && (
+            {uploadDate && (
               <p class="text-sm text-gray-500 dark:text-gray-400 mt-4">
-                Published: {new Date(snippet.publishedAt).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
+                Published:{' '}
+                {new Date(uploadDate).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
               </p>
             )}
           </div>

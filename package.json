@@ -17,6 +17,7 @@
     "lint:fix": "eslint . --fix",
     "lint:eslint": "eslint .",
     "check": "astro check",
+    "check:video-schemas": "node scripts/check-video-schemas.mjs",
     "match-videos": "node scripts/match-videos.mjs",
     "merge-qa": "node scripts/merge-qa-into-podcast.mjs",
     "merge-qa:apply": "node scripts/merge-qa-into-podcast.mjs --apply"
