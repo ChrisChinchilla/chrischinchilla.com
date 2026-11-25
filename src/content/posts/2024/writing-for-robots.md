@@ -13,6 +13,7 @@ image: articles/1*WUfhLdT4ewEz0_trgoqFow.webp
 summary: >-
   Who do you think reads most of your technical writing? Customers? Potential
   customers?
+
 ---
 Who do you think reads most of your technical writing? Customers? Potential customers?
 
@@ -29,7 +30,7 @@ In this post, based on a recent presentation I will record a video of soon, I re
 
 I wrote this post mostly for people who write technical documentation and blog posts. However, much of the advice is useful for anyone writing online.
 
-## Stop the bots!
+## Stop the bots!
 
 It's a good idea to recap what benefits you might receive from allowing the robots to trawl your content.
 
@@ -57,7 +58,7 @@ Let's recap some of these (you should be doing these already).
 
 ### Headings
 
-Any web page, in fact, most pages in any format, begin with a title or heading. Regarding HTML, this should be an <h1></h1>, or heading level 1 for however your tool of choice represents headings.
+Any web page, in fact, most pages in any format, begin with a title or heading. Regarding HTML, this should be an `<h1></h1>`, or heading level 1 for however your tool of choice represents headings.
 
 Every page should have only one h1, but unfortunately, many tools and people break this rule to the page's detriment.
 Typically, right after an h1 is some opening text, and then every following sub-heading should be an h2. Then, every sub-heading is underneath an h2, an h3, etc. Most browsers comfortably handle everything down to an h5, but theoretically, you could keep going down the levels. However, if you have that many sub-headings, your content probably needs reorganising.
@@ -94,7 +95,7 @@ At a minimum, you need to add an alt attribute to the image that tells a screen 
 
 For example, instead of "screenshot of settings," use something like, "The screenshot shows how to change the text size using the value in settings.
 
-### Describe other elements
+### Describe other elements
 
 If you want to take accessibility a step further, remember my point about images and text complimenting each other. An image added with little context in the text around it may give enough information to someone who can see it, but with no context around an image, even good alt attribute text gives little help to someone who can't see the image.
 
@@ -102,7 +103,7 @@ The same applies to all other non-textual images. If you add a table, describe w
 
 This means that when an LLM encounters media, it can't fully understand (yet), but it at least understands what the item is supposed to show and could possibly suggest where you might find the element if you're interested.
 
-### Large Language Language
+### Large Language Language
 
 I won't go into too much detail here about writing good technical copy. If you're reading this, I assume you already have a rough idea of how to do that, and if not, well, there's a lot of content out there on the topic. Plug, I even have a book you can read… 😬
 
@@ -112,7 +113,7 @@ Keep things clear and concise. Set aside assumptions. Use good grammar. Test tha
 
 Maybe one point to pay extra attention to is expanding and explaining custom terminology. Just because you and (hopefully) your users understand your own custom industry or project language doesn't mean an LLM will do.
 
-## Feed the machine
+## Feed the machine
 
 Optimising technical copy for LLMs is, much like the LLM space more broadly, in an active state of flux. There's a lot more detail this article could have gone into, and best practices will change. However, I hope the advice and ideas here at least get you started, and any of you who made it this far have already realised that, for the most part, anything good for humans is also good for robots.
 For now…
