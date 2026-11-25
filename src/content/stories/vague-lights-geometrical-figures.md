@@ -2,7 +2,7 @@
 date: 2023-02-23
 title: "Vague Lights Geometrical Figures"
 summary: "A regular client visits Jerry Kolynski — psychic slug and therapist — for a 20-minute session of transcendent visions, only to be judged for it by a stranger on the street."
-tags: ["Fiction", "Science Fiction", "Humor", "absurdist"]
+tags: ["Fiction", "Science Fiction", "Humour", "Absurdist"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Documentation
-  - Rest Api
+  - REST API
   - Markdown
   - Integration
 publication_url: 'https://dzone.com/articles/docfx-the-next-documentation-tool-to-consider'

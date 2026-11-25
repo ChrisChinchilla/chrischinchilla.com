@@ -7,8 +7,8 @@ categories:
   - dzone
 tags:
   - GraphQL
-  - Rest Api
-  - Api Documentation
+  - REST API
+  - API Documentation
   - Documentation
   - Integration
 publication_url: 'https://dzone.com/articles/does-graphql-reduce-the-need-for-documentation'

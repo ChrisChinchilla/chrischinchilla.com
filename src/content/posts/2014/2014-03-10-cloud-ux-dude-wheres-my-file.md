@@ -6,7 +6,7 @@ categories:
   - tech
   - sitepoint
 tags:
-  - Cloud
+  - Cloud Computing
   - Life
   - Software
   - Design

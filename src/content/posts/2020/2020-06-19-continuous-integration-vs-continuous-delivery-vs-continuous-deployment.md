@@ -9,7 +9,7 @@ categories:
   - writing humanitec
 tags:
   - CD
-  - CI
+  - Continuous Integration
   - DevOps
 publication_url: >-
   https://humanitec.com/blog/continuous-integration-vs-continuous-delivery-vs-continuous-deployment

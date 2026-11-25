@@ -6,7 +6,7 @@ categories:
   - projects
   - software
 tags:
-  - dash
+  - Dash
   - Documentation
 image: articles/dash_trello.png
 summary: >-

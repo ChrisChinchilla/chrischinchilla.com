@@ -6,9 +6,8 @@ categories:
   - tech
   - writing chronosphere
 tags:
-  - Alerting
-  - Triage
   - Observability
+  - Triage
 publication_url: >-
   https://chronosphere.io/learn/how-pagerduty-and-chronosphere-work-together-to-help-you-get-alerted-faster/
 image: /src/assets/images/defaults/blog-chinchilla.jpg

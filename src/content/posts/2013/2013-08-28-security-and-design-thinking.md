@@ -6,7 +6,7 @@ categories:
   - chrischinchilla
 tags:
   - Events
-  - Ux
+  - UX
   - Security
 summary: >-
   Tuesday was a productive day capped by two intriguing events. A stupendously

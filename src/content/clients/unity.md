@@ -5,7 +5,7 @@ image: clients/unity.png
 category: Chris
 tags:
   - AR
-  - gaming
+  - Gaming
 current: false
 company_url: 'https://unity.com/products/mars'
 start_date: 2020

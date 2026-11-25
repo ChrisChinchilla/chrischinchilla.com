@@ -8,8 +8,8 @@ categories:
   - sitepoint
 tags:
   - Indesign
-  - Json
-  - Xml
+  - JSON
+  - XML
 summary: >-
   As a coder of many years, I am a keen believer in writing everything once and
   being able to use it in multiple places. In the coding world, thanks to open

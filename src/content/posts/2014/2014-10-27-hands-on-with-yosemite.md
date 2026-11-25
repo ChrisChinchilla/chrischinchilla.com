@@ -7,7 +7,7 @@ categories:
 tags:
   - Mac
   - Intel
-  - 90S
+  - 90s
 summary: >-
   I have been Macs for a very long time, since the dark days of the mid 90s and
   the days of <a href="https://en.wikipedia.org/wiki/Macintosh_Performa"

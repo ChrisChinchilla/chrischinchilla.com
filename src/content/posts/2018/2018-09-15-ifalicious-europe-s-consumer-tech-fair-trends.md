@@ -9,7 +9,7 @@ tags:
   - IFA
   - IoT
   - Smart Home
-  - Robots
+  - Robotics
   - Computers
   - China
   - Consumer Electronics

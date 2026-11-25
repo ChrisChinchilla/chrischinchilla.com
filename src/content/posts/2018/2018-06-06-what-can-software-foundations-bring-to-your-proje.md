@@ -8,7 +8,6 @@ categories:
 tags:
   - Open Source
   - Software Foundations
-  - Foss
   - Governance
   - Community
   - JavaScript

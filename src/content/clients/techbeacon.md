@@ -8,7 +8,7 @@ category: Chris writing
 start_date: 2017
 end_date: 2019
 tags:
-  - Technology
+  - Tech
   - Development
 ---
 

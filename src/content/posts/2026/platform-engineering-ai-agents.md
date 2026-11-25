@@ -5,8 +5,8 @@ image: https://dz2cdn1.dzone.com/storage/temp/19090457-1783954557854.png
 categories:
   - tech
 tags:
-  - Platform engineering
-  - Internal developer platforms
+  - Platform Engineering
+  - Internal Developer Platforms
 publication_url: 'https://dzone.com/articles/platform-engineering-ai-agents'
 summary: >-
   Al has blindsided cloud native infrastructure management, rendering established platform engineering woefully inadequate. Original platform engineering often suffers from a developer-only focus, but a platform that serves only one persona in a multi-persona organization ultimately delivers a shrinking fraction of its potential enterprise value.

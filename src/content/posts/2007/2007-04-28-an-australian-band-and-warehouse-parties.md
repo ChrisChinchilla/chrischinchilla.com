@@ -2,7 +2,8 @@
 title: An Australian Band and Warehouse Parties
 publishDate: '2007-04-28T20:15:38+00:00'
 tags:
-  - Melbourne Music
+  - Melbourne
+  - Music
 categories:
   - music
   - chrischinchilla

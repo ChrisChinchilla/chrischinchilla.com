@@ -7,7 +7,7 @@ categories:
 tags:
   - Health
   - Devices
-  - Review
+  - Reviews
   - Vivoo
 summary: >-
   Vivoo makes at-home urine test strips that you scan with a phone app. I tried two to see what they can tell you if you hate needles, and how to get a usable scan.

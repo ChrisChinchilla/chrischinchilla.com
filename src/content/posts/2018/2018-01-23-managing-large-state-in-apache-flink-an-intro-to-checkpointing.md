@@ -6,7 +6,7 @@ categories:
   - tech
   - writing dataartisans
 tags:
-  - Flink Features
+  - Apache Flink
   - Resources
 publication_url: >-
   https://data-artisans.com/blog/managing-large-state-apache-flink-incremental-checkpointing-overview

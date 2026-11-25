@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Google
-  - Cloud
+  - Cloud Computing
   - Events
 publication_url: 'https://dzone.com/articles/whats-next-google-announces-new-features-for-its-c'
 summary: >-

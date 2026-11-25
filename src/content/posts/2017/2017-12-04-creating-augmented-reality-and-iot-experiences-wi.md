@@ -7,9 +7,9 @@ categories:
   - dzone
 tags:
   - IoT
-  - Augmented Reality
+  - AR
   - Thingworx
-  - Industrial Iot
+  - Industrial IoT
 publication_url: 'https://dzone.com/articles/creating-augmented-reality-and-iot-experiences-wit'
 image: articles/7443105.jpeg
 summary: >-

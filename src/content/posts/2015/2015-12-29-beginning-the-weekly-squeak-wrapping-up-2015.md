@@ -7,9 +7,8 @@ categories:
   - writing
   - theweeklysqueak
 tags:
-  - '2015'
   - Life
-  - personal
+  - Personal
 image: articles/image-farewell-2015.jpg
 summary: >-
   What better way to start my new blog post and podcast of semi-random uttering

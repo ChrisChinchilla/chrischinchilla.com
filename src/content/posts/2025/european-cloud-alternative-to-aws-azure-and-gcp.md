@@ -6,7 +6,7 @@ publication_url: 'https://thenextweb.com/news/european-cloud-alternative-to-aws-
 categories:
   - tech
 tags:
-  - Cloud
+  - Cloud Computing
   - Europe
 image: articles/eucloud.jpeg
 summary: >-

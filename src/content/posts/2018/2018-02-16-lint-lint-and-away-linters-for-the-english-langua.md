@@ -12,10 +12,10 @@ tags:
   - Code Analysis
   - Text Editors
   - Atom
-  - Sublime
+  - Sublime Text
   - Vim
   - Emacs
-  - Visual Studio Code
+  - VS Code
 publication_url: 'https://dzone.com/articles/lint-lint-and-away-linters-for-the-english-languag'
 image: articles/8152919.jpeg
 summary: >-

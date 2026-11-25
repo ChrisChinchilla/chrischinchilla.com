@@ -7,7 +7,7 @@ categories:
 tags:
   - Writing
   - Technical Writing
-  - medium
+  - Medium
   - Atom
 image: articles/projects/medium-export.png
 publication_url: >-

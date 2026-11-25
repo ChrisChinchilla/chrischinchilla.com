@@ -16,7 +16,7 @@ summary: A Visual Studio Code extension I created that integrates the Vale prose
 project_url: https://github.com/ChrisChinchilla/vale-vscode
 tags:
   - Vale
-  - VSCode
+  - VS Code
   - Software
 ---
 

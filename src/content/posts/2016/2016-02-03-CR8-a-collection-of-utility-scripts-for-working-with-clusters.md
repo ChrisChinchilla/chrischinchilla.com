@@ -7,7 +7,7 @@ categories:
   - tech
   - crate
 tags:
-  - Cli
+  - CLI
   - Tools
 summary: >-
   Meet Mathias Fußenegger, aka 'Jordi', one of Crate's core engineers and a

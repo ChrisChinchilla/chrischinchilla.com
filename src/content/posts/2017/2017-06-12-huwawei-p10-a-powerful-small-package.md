@@ -8,7 +8,8 @@ categories:
 tags:
   - Android
   - Devices
-  - Reviews Phones
+  - Phones
+  - Reviews
 summary: >-
   Like any modern citizen, I love my smartphone, but I wouldn't describe myself
   as a power user, my phone is supplemental to my computer, not a replacement

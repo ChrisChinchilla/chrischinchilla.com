@@ -8,7 +8,7 @@ categories:
 tags:
   - Open Source
   - Monitoring
-  - Metrics
+  - Observability
 publication_url: 'https://dzone.com/articles/open-source-monitoring-and-metrics-landscape'
 image: articles/16000730.jpeg
 summary: >-

@@ -7,11 +7,11 @@ categories:
   - dzone
 tags:
   - API
-  - Rest Api
-  - Grpc
+  - REST API
+  - gRPC
   - GraphQL
   - Postman
-  - Http
+  - HTTP
 publication_url: 'https://dzone.com/articles/-preaching-the-api-gospel-an-interview-with-the-ap'
 image: articles/13074677.jpeg
 summary: >-

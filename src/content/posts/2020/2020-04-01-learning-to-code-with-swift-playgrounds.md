@@ -8,10 +8,10 @@ categories:
 tags:
   - Swift
   - Apple
-  - Ipad
+  - iPad
   - Education
-  - Learning To Code
-  - Kids
+  - Learn to Code
+  - Children
   - Programming
 publication_url: 'https://dzone.com/articles/-learning-to-code-with-swift-playgrounds'
 image: articles/13186525.jpeg

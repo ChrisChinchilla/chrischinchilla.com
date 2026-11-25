@@ -7,8 +7,7 @@ categories:
   - dzone
 tags:
   - Cybersecurity
-  - Coronavirus
-  - Covid-19
+  - COVID-19
   - Phishing
   - Zero Day Vulnerability
   - Penetration Testing

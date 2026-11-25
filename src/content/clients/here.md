@@ -10,7 +10,7 @@ start_date: 2017
 end_date: 2018
 tags:
   - IoT
-  - Visualization
+  - Visualisation
 ---
 
 HERE provides mapping data and related services to individuals and companies. I helped their innovation team with documentation, examples and developer experience.

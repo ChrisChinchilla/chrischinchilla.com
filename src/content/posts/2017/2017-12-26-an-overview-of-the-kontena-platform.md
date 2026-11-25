@@ -6,9 +6,9 @@ categories:
   - tech
   - dzone
 tags:
-  - Cloud
+  - Cloud Computing
   - Kontena
-  - Docker Containers
+  - Containers
   - Application Stack
   - Tutorials
 publication_url: 'https://dzone.com/articles/an-overview-of-the-kontena-platform'

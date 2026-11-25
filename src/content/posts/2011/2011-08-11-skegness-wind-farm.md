@@ -6,7 +6,7 @@ categories:
   - writing
 tags:
   - Travel
-  - Uk
+  - UK
   - Great Idea
 summary: >-
   The <a href="https://www.skegnesspier.co.uk/windfarm.html"

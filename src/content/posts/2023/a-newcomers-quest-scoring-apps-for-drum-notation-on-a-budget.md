@@ -9,7 +9,7 @@ categories:
   - tech
 tags:
   - Music
-  - notation
+  - Notation
 image: articles/newzik.png
 summary: >-
   I have a past life in music. In the late 1990s, I produced one of the first

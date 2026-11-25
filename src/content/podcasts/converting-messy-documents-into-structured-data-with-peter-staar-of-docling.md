@@ -13,7 +13,7 @@ tags:
   - AI
   - Documents
   - PyTorch
-  - Open source
+  - Open Source
   - PDF
 youtubeId: vRg6StHiMdI
 oldVideoPath: >-

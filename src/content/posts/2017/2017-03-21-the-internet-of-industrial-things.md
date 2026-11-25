@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Iiot
+  - Industrial IoT
   - IoT
   - Industrial
   - Maintenance

@@ -7,7 +7,6 @@ categories:
   - dzone
 tags:
   - CMS
-  - Content Management System
   - Static Site Generator
   - Git
   - Web Development

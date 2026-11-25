@@ -7,7 +7,7 @@ categories:
 tags:
   - Documentation
   - Mac
-  - dash
+  - Dash
   - Browsers
 image: articles/dash.png
 summary: >-

@@ -6,7 +6,7 @@ categories:
   - chrischinchilla
 tags:
   - Drupal
-  - Crm
+  - CRM
   - Conferences
 summary: >-
   An event that can be as specific as an event for the use of Drupal within

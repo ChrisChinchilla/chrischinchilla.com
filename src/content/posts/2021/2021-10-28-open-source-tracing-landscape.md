@@ -8,7 +8,6 @@ categories:
 tags:
   - Observability
   - Open Source
-  - Tracing
 publication_url: 'https://chronosphere.io/learn/the-open-source-tracing-landscape/'
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 summary: >-

@@ -8,7 +8,7 @@ categories:
 tags:
   - Technical Writing
   - Atom
-  - Visual Studio Code
+  - VS Code
   - Markdown
   - Integration
 publication_url: 'https://dzone.com/articles/customizing-visual-studio-code-for-writing'

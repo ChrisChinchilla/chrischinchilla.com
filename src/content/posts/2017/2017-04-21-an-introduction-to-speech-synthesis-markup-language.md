@@ -8,7 +8,7 @@ categories:
 tags:
   - Speech
   - Synthesis
-  - Ssml
+  - SSML
   - Tutorials
 publication_url: 'https://dzone.com/articles/an-introduction-to-speech-synthesis-markup-languag'
 summary: >-

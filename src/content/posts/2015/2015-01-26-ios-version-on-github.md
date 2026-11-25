@@ -8,7 +8,7 @@ tags:
   - iOS
   - GitHub
   - Swift
-  - App
+  - Apps
 summary: >-
   I have completed the iOS version of Answers Against Humanity, it is currently
   in the App Store submission process, but I am thinking it might be rejected

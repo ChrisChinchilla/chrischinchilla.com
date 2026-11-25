@@ -12,7 +12,7 @@ tags:
   - Micropass
   - MicroK8s
   - Kubernetes
-  - Dzone
+  - DZone
   - AI
   - Interview
 publication_url: 'https://dzone.com/articles/-stories-from-kubecon-carmine-rimi-of-canonical'

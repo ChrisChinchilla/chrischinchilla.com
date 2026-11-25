@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Agile
-  - Communication &Amp;Amp; Collaboration
+  - Communication & Collaboration
   - Operational Agility
   - Knowledge Base
   - Tools And Techniques

@@ -7,8 +7,8 @@ categories:
   - software
 tags:
   - Atom
-  - medium
-  - export
+  - Medium
+  - Export
   - Markdown
 image: articles/projects/medium-export.png
 summary: >-

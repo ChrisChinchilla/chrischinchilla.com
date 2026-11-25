@@ -7,9 +7,9 @@ image: clients/gitlab.png
 start_date: 2020
 end_date: 2020
 tags:
-  - Technology
+  - Tech
   - Development
-  - CI
+  - Continuous Integration
   - CD
   - DevOps
 ---

@@ -4,7 +4,7 @@ categories:
   - tech
 tags:
   - API
-  - Api Management
+  - API Management
   - Business
 publishDate: 2014-02-20T23:42:44.000Z
 summary: >-

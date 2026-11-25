@@ -11,7 +11,7 @@ tags:
   - Multipass
   - MicroK8s
   - Cloud Computing
-  - Vm
+  - Virtual Machines
   - Canonical
 publication_url: 'https://dzone.com/articles/-multipass-and-microk8s-the-quickest-route-to-ubun'
 image: articles/12538752.jpeg

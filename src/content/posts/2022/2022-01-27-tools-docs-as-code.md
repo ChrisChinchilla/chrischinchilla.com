@@ -7,7 +7,7 @@ categories:
   - writing knowledgeowl
 tags:
   - Editors
-  - Docs As Code
+  - Docs as Code
   - Tools
 publication_url: 'https://www.knowledgeowl.com/home/toolsforeditingdocsascode'
 image: articles/tools-for-editing-docs-as-code.png

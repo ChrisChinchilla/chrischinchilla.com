@@ -8,7 +8,7 @@ categories:
 tags:
   - GitHub
   - Git
-  - Visual Studio Code
+  - VS Code
   - Code Scanning
   - Security
   - Community

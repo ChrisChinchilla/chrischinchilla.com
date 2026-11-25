@@ -2,19 +2,19 @@
 import PodcastLayout from '~/layouts/PodcastLayout.astro';
 import { getEntry, render } from 'astro:content';
 import { slugify } from '~/utils/slugify';
-import { getAllPodcastEpisodes } from '~/utils/podcast-feed';
+import { getAllPodcastEpisodes, getPodcastEpisodeTitle } from '~/utils/podcast-feed';
 
 export async function getStaticPaths() {
   const allEpisodes = await getAllPodcastEpisodes();
 
   return await Promise.all(
     allEpisodes.map(async (episode) => {
-      const additionalData = await getEntry('podcasts', slugify(episode.title[0]));
+      const additionalData = await getEntry('podcasts', slugify(getPodcastEpisodeTitle(episode)));
       // A stub with a Markdown body is the episode's condensed Q&A.
       const hasQa = Boolean(additionalData?.body?.trim());
       const rendered = hasQa && additionalData ? await render(additionalData) : undefined;
       return {
-        params: { id: slugify(episode.title[0]) },
+        params: { id: slugify(getPodcastEpisodeTitle(episode)) },
         props: {
           episode,
           episodeData: additionalData?.data,

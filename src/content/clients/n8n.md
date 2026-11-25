@@ -6,7 +6,7 @@ category: Chris
 tags:
   - Documentation
   - Automation
-  - hosting
+  - Hosting
   - Containers
 current: false
 company_url: 'https://n8n.io'

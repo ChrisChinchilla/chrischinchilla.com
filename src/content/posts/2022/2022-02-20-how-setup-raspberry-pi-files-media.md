@@ -5,10 +5,10 @@ categories:
   - tech
   - chrischinchilla
 tags:
-  - ebooks
-  - calibre
-  - nextcloud
-  - minidnla
+  - eBooks
+  - Calibre
+  - Nextcloud
+  - MiniDLNA
 image: articles/raspberry-pi.jpeg
 summary: >-
   Over the past months, I've been slowly assembling a suite of self-hosted tools

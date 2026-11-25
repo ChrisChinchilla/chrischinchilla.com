@@ -1,5 +1,4 @@
 ---
-import { GoogleAnalytics } from '@astrolib/analytics';
 import { getImage } from 'astro:assets';
 
 import { SITE } from '~/config.mjs';
@@ -8,7 +7,6 @@ import { getCanonical, getAsset } from '~/utils/permalinks';
 import { getRelativeUrlByFilePath } from '~/utils/directories';
 
 import Fonts from '~/components/common/Fonts.astro';
-import SplitbeeAnalytics from './SplitbeeAnalytics.astro';
 
 export interface Props extends MetaSEO {
   dontUseTitleTemplate?: boolean;
@@ -24,12 +22,8 @@ const defaultImage = SITE.defaultImage
       })
     ).src
   : '';
-// Optional analytics settings that config.mjs doesn't define yet.
-const { googleSiteVerificationId, googleAnalyticsId, splitbeeAnalytics } = SITE as typeof SITE & {
-  googleSiteVerificationId?: string;
-  googleAnalyticsId?: string;
-  splitbeeAnalytics?: { enabled?: boolean };
-};
+// Optional setting that config.mjs doesn't define yet.
+const { googleSiteVerificationId } = SITE as typeof SITE & { googleSiteVerificationId?: string };
 const canonicalURL = String(Astro.props.publication_url || getCanonical(String(Astro.url.pathname)));
 const {
   title = SITE.name,
@@ -125,11 +119,6 @@ const renderedTitle = dontUseTitleTemplate ? title : `${title} — ${SITE.name}`
 
 <!-- Google Site Verification -->
 {googleSiteVerificationId && <meta name="google-site-verification" content={googleSiteVerificationId} />}
-
-<!-- Google Analytics -->
-{googleAnalyticsId && <GoogleAnalytics id={String(googleAnalyticsId)} partytown={true} />}
-
-{splitbeeAnalytics?.enabled && <SplitbeeAnalytics {...splitbeeAnalytics} />}
 
 <link rel="shortcut icon" href={getAsset('/favicon.ico')} />
 <link rel="icon" type="image/svg+xml" href={getAsset('/favicon.svg')} />

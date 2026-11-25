@@ -7,7 +7,7 @@ categories:
   - writing gitlab
 tags:
   - Compliance
-  - Gitlab
+  - GitLab
   - DevOps
 publication_url: >-
   https://about.gitlab.com/blog/2020/03/11/make-tracking-agreements-simple-compliance-dashboard/

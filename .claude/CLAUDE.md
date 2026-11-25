@@ -164,15 +164,29 @@ One-off/manual scripts operating on `src/content/**` frontmatter, run by hand as
 not invoked by `npm run build` or CI:
 
 - `fix_frontmatter.py` — repairs YAML frontmatter missing a newline before the closing `---`
-- `normalize_tags.py` — normalizes tag casing/naming via a `TAG_MAPPING` table (acronyms
-  like AI/API/IDE, brand names like GitHub/macOS, title-cased topics)
+- `normalize_tags.py` — normalizes tags via the `TAG_GROUPS` (merge), `TAG_SPLITS` and
+  `TAG_DROP` tables; `--check` reports files needing changes; `--redirects-from <git-ref>`
+  records old tag → new tag in `src/data/tag-redirects.json`, which `src/utils/tag-redirects.ts`
+  turns into 301s in `_redirects` (plus US-spelling → British-spelling tag redirects). Tags are
+  British-spelt Title Case. Conventions and open items: `.claude/TAGS-FOLLOWUPS.md`. A tag
+  named `Tech`, `Writing`, `Music` or `Games` also sets the entry's site category.
+  Run Astro with `/opt/homebrew/opt/node@22/bin` first on `PATH` if the default Node is too old.
 - `scripts/add-summaries.mjs` — backfills `summary` frontmatter
+
+### Build-time feeds and search index
+
+`src/utils/youtube.ts` and `src/utils/podcast-feed.ts` fail a production build when a feed
+can't be read (via `src/utils/feed-failure.ts`), so Netlify keeps the last good deploy instead of
+publishing a site with no episode/video pages or video redirects. Set `ALLOW_EMPTY_FEEDS=1` to
+build offline. Site search loads `/search.json` (`src/pages/search.json.ts`) the first time it is
+opened; the index is no longer inlined into every page. Analytics (GA, Splitbee, Partytown) was
+removed because nothing configured it; re-add deliberately if wanted.
 
 ### Deployment
 
 Netlify, building on push to `main` (`netlify.toml` — esbuild bundler, plus two path
 redirects). `netlify/functions/scheduled-deploy.js` is unrelated to normal deploys: a
-scheduled function (cron `0 0 * * 2,4,6`) that POSTs to a Netlify build hook URL, used to
+scheduled function (cron `0 0 * * 2,4,6`) that POSTs to the build hook URL in the `BUILD_HOOK_URL` env var, used to
 force periodic rebuilds independent of content pushes (e.g. so time-sensitive content like
 "current" client badges stay fresh).
 
@@ -232,7 +246,7 @@ Branch: `chrischinch/reorg`. Started at commit `5367b01e` "Start of design chang
 - `src/utils/content-categories.ts` — `SITE_CATEGORIES` = tech, writing, music, games. `CATEGORY_CONTENT_TYPES` maps each content collection (posts, books, podcasts, av, stories, games, clients, newsletters, music) to a content-type slug (blog, books, podcasts, videos, stories, games, clients, newsletters, music), each with a `listStyle` of `'grid'` or `'list'`.
 - `getEntryCategories()` derives an entry's site categories from its `categories`/`category`/`tags` frontmatter fields (matched via `cleanSlug` against the 4 `SITE_CATEGORIES` slugs), with hardcoded fallbacks: entries in the `games` collection always get `'games'`, entries in `music` always get `'music'`.
 - Dynamic route `src/pages/[category]/[contentType]/[...page].astro` renders paginated archives per category+content-type combo, built from `getCategoryContentTypes()`.
-- `Header.astro` / `HeaderNoLogo.astro` nav is built from `SITE_CATEGORIES` dropdown menus (via `getCategoryMenuLinks`). "About" (Contact/Community/Gear), "Support", "Events", "Newsletters" remain separate top-level items outside the category system.
+- `Header.astro` nav is built from `SITE_CATEGORIES` dropdown menus (via `getCategoryMenuLinks`). "About" (Contact/Community/Gear), "Support", "Events", "Newsletters" remain separate top-level items outside the category system.
 
 ### Done: grid layouts for books, music, games (2026-08-02)
 

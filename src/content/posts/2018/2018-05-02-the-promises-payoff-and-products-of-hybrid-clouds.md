@@ -6,10 +6,8 @@ categories:
   - tech
   - dzone
 tags:
-  - Cloud
+  - Cloud Computing
   - Hybrid Cloud
-  - Cloud Vendors
-  - Hybrid Cloud Management Solutions
   - Cloud Considerations
 publication_url: 'https://dzone.com/articles/the-promises-payoff-and-products-of-hybrid-clouds'
 image: articles/8992384.jpeg

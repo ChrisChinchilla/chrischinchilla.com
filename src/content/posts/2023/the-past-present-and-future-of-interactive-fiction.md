@@ -8,7 +8,7 @@ categories:
   - tech
 tags:
   - Jekyll
-  - websites
+  - Websites
   - Web Development
 image: articles/1*UutqlqFpWNkLpDK3fDcIJw.webp
 summary: >-

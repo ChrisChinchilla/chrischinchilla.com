@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Openstack
+  - OpenStack
   - Ussuri
   - Infrastructure
   - Cloud Computing

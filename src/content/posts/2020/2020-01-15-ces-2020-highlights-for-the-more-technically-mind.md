@@ -6,9 +6,8 @@ categories:
   - tech
   - dzone
 tags:
-  - Ces 2020
-  - Ces
-  - Techology News
+  - CES
+  - Tech News
   - Laptops
   - IoT
   - Arduino

@@ -8,7 +8,7 @@ tags:
   - AI
   - Transcription
   - Devices
-  - Review
+  - Reviews
 image: articles/speaker-chinchilla.png
 summary: >-
     In this post I compare two AI-powered transcription devices, EurekaMind and Plaude, and discuss whether you need a dedicated device at all.

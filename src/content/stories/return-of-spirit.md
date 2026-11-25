@@ -2,7 +2,7 @@
 date: 2023-02-01
 title: "Return of Spirit"
 summary: "A secret service chief reinstates ghosts as agents, only to discover their first mission has an unexpected obstacle."
-tags: ["Fiction", "Humor", "supernatural", "espionage"]
+tags: ["Fiction", "Humour", "Supernatural", "Espionage"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

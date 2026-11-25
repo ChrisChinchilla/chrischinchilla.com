@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Openstack
+  - OpenStack
   - Kubernetes
   - Bare Metal
   - Containers

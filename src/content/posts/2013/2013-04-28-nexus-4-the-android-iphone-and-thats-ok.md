@@ -6,8 +6,8 @@ categories:
   - chrischinchilla
 tags:
   - Android
-  - nexus
-  - phones
+  - Nexus
+  - Phones
 image: articles/nexus-4.jpg
 summary: >-
   I decided to upgrade my Samsung S2 to a Nexus 4, there were several reasons

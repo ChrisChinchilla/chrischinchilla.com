@@ -8,7 +8,7 @@ categories:
 tags:
   - Openback
   - SDK
-  - App
+  - Apps
   - Tutorials
   - Notifications
 publication_url: 'https://dzone.com/articles/smarter-app-notifications-with-openback'

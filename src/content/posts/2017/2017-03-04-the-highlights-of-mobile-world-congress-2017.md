@@ -11,7 +11,6 @@ tags:
   - Mobile
   - IoT
   - MWC
-  - Mwc2017
 publication_url: 'https://dzone.com/articles/the-highlights-of-mobile-world-congress-2017'
 summary: >-
   There is a lot to see, hear, and discover at Mobile World Congress (MWC) and

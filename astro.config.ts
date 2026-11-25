@@ -5,7 +5,6 @@ import tailwindcss from '@tailwindcss/vite';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
-import partytown from '@astrojs/partytown';
 import { unified } from '@astrojs/markdown-remark';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
@@ -18,11 +17,6 @@ import { customizeSitemapItem } from './src/utils/sitemap';
 import { SITE } from './src/config.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-const hasExternalScripts = false;
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const whenExternalScripts = (items: (() => any) | (() => any)[] = []) =>
-  hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 // https://astro.build/config
 export default defineConfig({
@@ -75,14 +69,6 @@ export default defineConfig({
     }),
 
     mdx(),
-
-    ...whenExternalScripts(() =>
-      partytown({
-        config: {
-          forward: ['dataLayer.push'],
-        },
-      })
-    ),
   ],
 
   markdown: {

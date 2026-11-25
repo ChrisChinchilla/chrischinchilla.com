@@ -8,8 +8,8 @@ categories:
 tags:
   - Smart Contracts
   - Ethereum
-  - Getting-Started
-  - Dapp
+  - Getting Started
+  - DApps
   - Web3Js
   - On-Boarding
   - Solidity

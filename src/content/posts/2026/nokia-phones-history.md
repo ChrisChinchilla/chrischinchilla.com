@@ -8,7 +8,7 @@ categories:
 tags:
   - Nokia
   - History
-  - Mobile phones
+  - Phones
 image: "https://spectrum.ieee.org/media-library/two-young-girls-stand-in-front-of-a-glass-case-containing-2000-era-cellphones-behind-them-is-a-display-that-says-nokia.jpg?id=67118775&width=2400&height=3457"
 summary: >-
  IN 2005, NOKIA SOLD its billionth mobile phone, a budget-friendly device that went to a customer in Nigeria. By then, the company, based in Espoo, Finland, was making one of every three cellphones globally.

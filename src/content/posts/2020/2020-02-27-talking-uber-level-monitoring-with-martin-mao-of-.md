@@ -12,7 +12,6 @@ tags:
   - Time-series Data
   - Monitoring
   - Big Data
-  - Monitoring And Alerting
   - Interview
 publication_url: 'https://dzone.com/articles/-talking-uber-level-monitoring-with-martin-mao-of'
 image: articles/13014178.jpeg

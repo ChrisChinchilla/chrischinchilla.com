@@ -7,7 +7,7 @@ categories:
   - writing chrischinchilla
 tags:
   - Board Games
-  - toleplay
+  - Roleplaying
   - Tools
 image: articles/dice.jpeg
 summary: >-

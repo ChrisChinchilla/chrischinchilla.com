@@ -3,9 +3,8 @@ title: Predicted Increase in International Students - News Feature
 categories:
   - tech
 tags:
-  - Students
-  - News
   - Education
+  - News
   - Australia
 publishDate: 2007-10-04T16:21:33.000Z
 summary: >-

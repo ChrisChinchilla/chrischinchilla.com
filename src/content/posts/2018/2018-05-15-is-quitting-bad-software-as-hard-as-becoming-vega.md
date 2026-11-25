@@ -7,8 +7,8 @@ categories:
   - dzone
 tags:
   - Ethics
-  - Technology
-  - Artificial Intelligence
+  - Tech
+  - AI
   - Malware
   - Open Source
   - Surveillance Capitalism

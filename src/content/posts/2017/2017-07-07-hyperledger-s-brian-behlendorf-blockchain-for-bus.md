@@ -12,7 +12,7 @@ tags:
   - Distributed Systems
   - Business
   - Enterprise
-  - Cloud
+  - Cloud Computing
 publication_url: 'https://dzone.com/articles/hyperledgers-brian-behlendorf-blockchain-for-busin'
 image: articles/5836562.jpeg
 summary: >-

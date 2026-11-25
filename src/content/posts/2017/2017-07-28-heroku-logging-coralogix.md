@@ -6,7 +6,7 @@ categories:
   - tech
   - coralogix
 tags:
-  - Logging
+  - Observability
   - Heroku
   - Errors
 publication_url: 'https://coralogix.com/heroku-logging-coralogix/'

@@ -7,8 +7,8 @@ categories:
   - tech
   - writing exoscale
 tags:
-  - Cloud
-  - Hybrid
+  - Cloud Computing
+  - Hybrid Cloud
   - Network
   - Performance
   - Services

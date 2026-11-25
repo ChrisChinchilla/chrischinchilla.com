@@ -9,7 +9,7 @@ tags:
   - Security
   - Politics
   - News
-  - Technology
+  - Tech
   - Society
 publication_url: >-
   https://thenextweb.com/contributors/2017/07/20/affect-tech-society-interview-yael-eisenstat/#.tnw_XBsuxwMl

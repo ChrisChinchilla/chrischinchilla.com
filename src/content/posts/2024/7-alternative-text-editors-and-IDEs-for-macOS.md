@@ -8,7 +8,7 @@ tags:
   - IDE
   - Text Editors
   - Writing Tools
-  - Programming tool
+  - Programming Tool
 image: articles/7-alternative-text-editors-and-IDEs-for-macOS.jpg
 summary: >-
   I've been a mostly happy VSCode user for a few years now. So much so that I

@@ -8,7 +8,7 @@ categories:
 tags:
   - Robotics
   - AI
-  - Natural Language Processing
+  - NLP
   - Machine Learning
 publication_url: 'https://dzone.com/articles/how-to-program-a-robot'
 image: articles/7032986.jpeg

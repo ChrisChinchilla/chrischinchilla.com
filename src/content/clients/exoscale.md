@@ -4,7 +4,7 @@ title: Exoscale
 image: clients/exoscale-card.png
 category: Chris
 tags:
-  - Cloud
+  - Cloud Computing
   - Kubernetes
 current: false
 company_url: 'https://www.exoscale.com/'

@@ -9,7 +9,7 @@ categories:
 tags:
   - Android
   - Video
-  - App
+  - Apps
 summary: >-
   Any Android app that requires even a basic interface will need the basic
   building blocks of activities and intents to manage interface screens and the

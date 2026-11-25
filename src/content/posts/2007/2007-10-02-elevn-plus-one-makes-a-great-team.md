@@ -5,7 +5,8 @@ categories:
   - music
   - chrischinchilla
 tags:
-  - Life Music
+  - Music
+  - Life
 summary: This could be a long post...
 ---
 This could be a long post...

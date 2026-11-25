@@ -7,7 +7,7 @@ import Podcast from '~/components/Podcast.astro';
 import { Pagination } from 'accessible-astro-components';
 import Content from '~/components/widgets/Content.astro';
 import { slugify } from '~/utils/slugify';
-import { getAllPodcastEpisodes, type PodcastEpisode } from '~/utils/podcast-feed';
+import { getAllPodcastEpisodes, getPodcastEpisodeTitle, type PodcastEpisode } from '~/utils/podcast-feed';
 import showImage from '../../assets/images/tech-lounge.png';
 import type { GetStaticPaths, Page } from 'astro';
 
@@ -30,7 +30,7 @@ const itemListData = {
   name: meta.title,
   description: meta.description,
   items: page.data.map((episode) => {
-    const title = Array.isArray(episode.title) ? episode.title[0] : episode.title;
+    const title = getPodcastEpisodeTitle(episode);
     return {
       name: title,
       url: `/podcast/${slugify(title)}`,

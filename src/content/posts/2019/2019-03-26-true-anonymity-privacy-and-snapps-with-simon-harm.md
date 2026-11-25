@@ -9,7 +9,7 @@ tags:
   - Tor
   - Privacy
   - Security
-  - Decentralized
+  - Decentralised
   - Blockchain
   - Encryption
   - Messaging

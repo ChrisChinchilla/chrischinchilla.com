@@ -2,7 +2,7 @@
 date: 2024-02-02
 title: "A World I Will Know"
 summary: "A person chooses to experience the future firsthand by entering a cryogenic facility, exploring the unknown changes that time will bring."
-tags: ["Fiction", "Science Fiction", "adventure"]
+tags: ["Fiction", "Science Fiction", "Adventure"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

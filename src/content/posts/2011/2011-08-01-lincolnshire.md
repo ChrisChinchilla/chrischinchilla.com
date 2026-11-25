@@ -7,7 +7,7 @@ categories:
   - chrischinchilla
 tags:
   - Travel
-  - Uk
+  - UK
 summary: It's amazing what you can find in the country with a little digging...
 ---
 It's amazing what you can find in the country with a little digging...

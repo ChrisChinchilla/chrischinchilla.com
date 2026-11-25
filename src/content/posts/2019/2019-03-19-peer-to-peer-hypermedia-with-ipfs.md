@@ -7,7 +7,7 @@ categories:
   - writing kauri
 tags:
   - Server
-  - Ipfs
+  - IPFS
   - Web
   - Peer2Peer
 publication_url: 'https://dev2.kauri.io/article/a6a0de7d0a914259a4613479f8f2d13f'

@@ -10,7 +10,7 @@ tags:
   - Markdown
   - Pandoc
   - Latex
-  - Pdf
+  - PDF
 summary: >-
   The main reason for a lack of small posts on the progress of Chip Shop is that
   behind the scenes we have been working on some large stumbling blocks to push

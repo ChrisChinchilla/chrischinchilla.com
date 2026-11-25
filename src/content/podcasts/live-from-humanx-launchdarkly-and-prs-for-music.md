@@ -12,7 +12,7 @@ tags:
   - AI
   - Music
   - Events
-  - Feature flags
+  - Feature Flags
 youtubeId: nKwsyZRa7xE
 oldVideoPath: >-
   /videos/live-from-humanx-launchdarkly-and-prs-for-music-nKwsyZRa7xE

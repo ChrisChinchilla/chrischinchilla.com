@@ -2,6 +2,8 @@
 // system (content-categories.ts). Both need the same data; this keeps the
 // fetch and its build-time cache in one place instead of duplicated per page.
 
+import { handleFeedFailure } from '~/utils/feed-failure';
+
 export interface YouTubePlaylistItem {
   snippet: {
     title: string;
@@ -36,16 +38,19 @@ async function fetchAllYouTubeVideos(): Promise<YouTubePlaylistItem[]> {
       }`;
 
       const response: Response = await fetch(url);
-      const data: { items?: YouTubePlaylistItem[]; nextPageToken?: string } = await response.json();
-
-      if (data.items) {
-        allVideos = allVideos.concat(data.items);
+      const data: { items?: YouTubePlaylistItem[]; nextPageToken?: string; error?: { message?: string } } =
+        await response.json();
+      if (!response.ok || data.error) {
+        throw new Error(data.error?.message ?? `YouTube API responded ${response.status}`);
       }
 
+      allVideos = allVideos.concat(data.items ?? []);
       nextPageToken = data.nextPageToken || null;
     } while (nextPageToken);
   } catch (error) {
-    console.warn('Unable to fetch YouTube playlist during build:', error);
+    handleFeedFailure('the YouTube playlist', error);
+    // A partial list would drop videos (and their redirects), so return none.
+    return [];
   }
 
   return allVideos;

@@ -6,7 +6,7 @@ categories:
   - tech
 tags:
   - AI
-  - agentic browsers
+  - Agentic Browsers
   - Opera
   - Browsers
 image: articles/opera-chinchilla.png

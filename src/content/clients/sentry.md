@@ -5,7 +5,7 @@ image: clients/sentry.png
 category: Chris
 tags:
   - Security
-  - debug
+  - Debug
   - Programming
 current: false
 company_url: 'https://sentry.io/welcome/'

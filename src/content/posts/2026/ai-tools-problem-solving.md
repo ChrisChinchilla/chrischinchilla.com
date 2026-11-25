@@ -7,7 +7,7 @@ categories:
 tags:
   - AI
   - Software Development
-  - problem-solving
+  - Problem-Solving
   - Ethics
 image: https://images.pexels.com/photos/16129724/pexels-photo-16129724.jpeg
 summary: >-

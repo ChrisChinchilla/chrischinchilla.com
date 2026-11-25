@@ -13,7 +13,7 @@ tags:
   - Snaps
   - Bare Metal
   - Hybrid Cloud
-  - Cloud
+  - Cloud Computing
   - DevOps
 publication_url: 'https://dzone.com/articles/ready-for-bionic-beaver-whats-new-in-ubuntu-1804'
 image: articles/8983114.jpeg

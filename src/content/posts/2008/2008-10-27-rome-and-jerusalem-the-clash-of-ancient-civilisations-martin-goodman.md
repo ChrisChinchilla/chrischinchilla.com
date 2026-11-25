@@ -6,7 +6,8 @@ categories:
   - chrischinchilla
 tags:
   - Books
-  - Reviews History
+  - History
+  - Reviews
 summary: >-
   This book took me a very long time to read, months in fact, the topic is a
   weighty one, not hard to understand or absorb, just one that can only be

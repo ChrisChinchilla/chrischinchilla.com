@@ -7,7 +7,7 @@ categories:
   - writing kauri
 tags:
   - Opera
-  - Ux
+  - UX
   - Wallet
   - UI
   - Browsers

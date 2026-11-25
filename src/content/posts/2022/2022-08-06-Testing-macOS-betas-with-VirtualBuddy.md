@@ -8,7 +8,7 @@ categories:
   - tech
 tags:
   - macOS
-  - web browsers
+  - Browsers
 image: articles/1*IDZ9dnAvGi9SL5kIBt9jLg.png
 summary: 'Every time Apple announces a new macOS beta, I am tempted to somehow'
 ---

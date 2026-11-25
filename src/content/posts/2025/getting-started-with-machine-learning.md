@@ -6,7 +6,7 @@ publication_url: 'https://blog.bacalhau.org/p/getting-started-with-machine-learn
 categories:
   - tech
 tags:
-  - Cloud
+  - Cloud Computing
   - Machine Learning
   - Data
 image: "articles/97ef2b9a-50f6-42f3-a608-687b10193c92_2626x1876.png"

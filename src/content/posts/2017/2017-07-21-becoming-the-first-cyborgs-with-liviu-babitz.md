@@ -9,7 +9,7 @@ tags:
   - Wearables
   - Cyborgs
   - Implants
-  - Robots
+  - Robotics
 publication_url: 'https://dzone.com/articles/becoming-the-first-cyborgs-with-liviu-babitz'
 summary: >-
   While sci-fi predicted sweeping changes in cyborgs, like limb replacement, the

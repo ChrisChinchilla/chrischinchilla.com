@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Sxsw
+  - SXSW
   - Blockchain
   - AI
   - Chatbots

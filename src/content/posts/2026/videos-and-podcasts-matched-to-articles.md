@@ -7,8 +7,8 @@ author: Chris Ward
 categories:
   - tech
 tags:
-  - Site updates
-  - Podcast
+  - Site Updates
+  - Podcasts
   - Video
   - Astro
   - YouTube

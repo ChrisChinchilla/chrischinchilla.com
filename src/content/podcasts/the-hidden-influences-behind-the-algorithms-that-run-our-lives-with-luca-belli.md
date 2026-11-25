@@ -13,7 +13,7 @@ tags:
   - AI
   - Ethics
   - Algorithms
-  - Recommender systems
+  - Recommender Systems
   - Books
 youtubeId: 2w9EzGI9OZY
 oldVideoPath: >-

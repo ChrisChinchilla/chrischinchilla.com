@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Blockchain
-  - Dns
+  - DNS
   - Tokens
   - Oracles
   - State Channels

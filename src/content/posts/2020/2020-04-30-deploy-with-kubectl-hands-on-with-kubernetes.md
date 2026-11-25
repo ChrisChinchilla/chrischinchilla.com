@@ -7,7 +7,7 @@ categories:
   - writing humanitec
 tags:
   - CD
-  - CI
+  - Continuous Integration
   - Kubernetes
   - DevOps
 publication_url: 'https://humanitec.com/blog/deploy-with-kubectl-hands-on-with-kubernetes'

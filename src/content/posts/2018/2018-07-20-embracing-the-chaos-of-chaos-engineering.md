@@ -7,7 +7,6 @@ categories:
   - dzone
 tags:
   - DevOps
-  - Automated Testing
   - Test Automation
   - Chaos Engineering
   - Tutorials

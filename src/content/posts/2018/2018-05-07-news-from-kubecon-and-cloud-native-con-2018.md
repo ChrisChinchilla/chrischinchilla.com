@@ -12,7 +12,7 @@ tags:
   - Service Mesh
   - Containers
   - Dependency Management
-  - Cloud
+  - Cloud Computing
   - KubeCon
   - Cloud Native Con
 publication_url: 'https://dzone.com/articles/news-from-kubecon-and-cloud-native-con-2018'

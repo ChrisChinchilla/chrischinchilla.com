@@ -7,7 +7,7 @@ categories:
   - tech
 tags:
   - Ukraine
-  - Defense tech
+  - Defence Tech
   - Startups
   - Events
 image: "https://spectrum.ieee.org/media-library/a-tablet-computer-sits-in-front-of-a-large-drone-perched-on-a-table-with-a-young-man-walking-in-the-background.jpg?id=62094645&width=2400&height=1499"

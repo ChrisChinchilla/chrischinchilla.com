@@ -7,7 +7,7 @@ categories:
 image: articles/edge-vs-cloud-video-storage.png
 tags:
   - Storage
-  - Cloud
+  - Cloud Computing
   - Edge Computing
   - Security
   - Video

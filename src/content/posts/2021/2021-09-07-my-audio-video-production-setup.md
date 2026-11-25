@@ -9,7 +9,7 @@ tags:
   - Video
   - Audio
   - Podcasts
-  - streaming
+  - Streaming
 image: articles/IMG_20210609_172640.jpeg
 summary: >-
   I’ve been running podcasts for years, and while I worked on some video courses

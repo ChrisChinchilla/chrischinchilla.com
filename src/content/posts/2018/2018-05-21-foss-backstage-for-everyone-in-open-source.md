@@ -9,7 +9,6 @@ tags:
   - Berlin
   - Conferences
   - Open Source
-  - Foss
   - Governance
   - Community
   - Licensing

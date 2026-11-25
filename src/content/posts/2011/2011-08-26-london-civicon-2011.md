@@ -7,7 +7,7 @@ categories:
   - chrischinchilla
 tags:
   - CiviCRM
-  - Crm
+  - CRM
 summary: >-
   At the time of writing this website isn't quite finished and maybe you can't
   quite tell that I love <a href="https://www.civicrm.org"

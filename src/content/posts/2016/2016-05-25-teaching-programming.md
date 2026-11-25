@@ -9,7 +9,6 @@ categories:
   - sitepoint
 tags:
   - Education
-  - Learning
   - Programming
 summary: >-
   Like many of my age and generation, I started learning to program with BASIC.

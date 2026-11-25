@@ -9,7 +9,7 @@ tags:
   - Ethics
   - Design
   - Best Practices
-  - Ux
+  - UX
   - Engineering
   - Good Technology
   - Agile

@@ -9,7 +9,7 @@ categories:
   - sitepoint
 tags:
   - iOS
-  - Css
+  - CSS
 summary: >-
   Classy is an intriguing project hoping to bridge some gaps between designers
   more used to web or front end projects and app developers. Classy allows for

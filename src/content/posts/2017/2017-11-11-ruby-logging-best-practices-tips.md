@@ -6,7 +6,7 @@ categories:
   - tech
   - coralogix
 tags:
-  - Logging
+  - Observability
   - Ruby
   - Rails
 publication_url: 'https://coralogix.com/log-analytics-blog/ruby-logging-best-practices-tips/'

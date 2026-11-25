@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Ocr
+  - OCR
   - iOS
   - Android
   - Mobile

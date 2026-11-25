@@ -8,7 +8,7 @@ categories:
   - crate
 tags:
   - Azure
-  - Cloud
+  - Cloud Computing
 summary: >-
   Crate.io focuses on database simplicity and horizontal scalability. We aim to
   make scaling your data from millions to billions of records and beyond as

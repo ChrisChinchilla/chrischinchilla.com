@@ -11,7 +11,7 @@ tags:
   - Entrepreneur
   - Conferences
   - Events
-  - Cloud
+  - Cloud Computing
   - AI
   - Fintech
 publication_url: 'https://dzone.com/articles/afrolynk-african-tech-and-entrepreneurship'

@@ -9,9 +9,8 @@ author: Chris Ward
 tags:
   - DevOps
   - Tutorials
-  - CI
-  - CD
   - Continuous Integration
+  - CD
   - Software Development
   - Deployment
   - Automation

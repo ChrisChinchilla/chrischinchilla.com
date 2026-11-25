@@ -6,7 +6,7 @@ categories:
   - tech
   - chrischinchilla
 tags:
-  - websites
+  - Websites
   - Design
 summary: >-
   I've been sitting on the post for a while, a series of (comical) screen shots

@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Internet Of Things
+  - IoT
   - Biotech
   - Blockchain
   - Agile

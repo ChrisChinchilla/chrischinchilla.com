@@ -6,7 +6,6 @@ categories:
   - tech
   - dzone
 tags:
-  - Atom.Io
   - Atom
   - Text Editors
   - Mac
@@ -14,7 +13,7 @@ tags:
   - Touch Bar
   - JavaScript
   - Coffeescript
-  - Node Js
+  - Node.js
   - Electron
 publication_url: 'https://dzone.com/articles/bringing-touch-bar-support-to-the-atom-text-editor'
 image: articles/6430600.jpeg

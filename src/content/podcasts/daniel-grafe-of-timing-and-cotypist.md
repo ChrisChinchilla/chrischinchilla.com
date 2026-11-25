@@ -11,7 +11,7 @@ summary: >-
 publishDate: '2026-11-14T00:00:00.000Z'
 tags:
   - macOS
-  - Indie development
+  - Indie Development
   - AI
   - Productivity
 youtubeId: 4J1HKrfnt1A

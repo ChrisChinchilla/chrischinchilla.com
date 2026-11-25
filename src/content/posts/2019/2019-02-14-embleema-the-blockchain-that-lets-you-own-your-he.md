@@ -9,7 +9,6 @@ tags:
   - Blockchain
   - Big Data
   - Data Privacy
-  - Big Data Sets
 publication_url: 'https://dzone.com/articles/embleema-the-blockchain-that-lets-you-own-your-hea'
 image: articles/11268343.jpeg
 summary: >-

@@ -7,7 +7,7 @@ categories:
   - writing gitlab
 tags:
   - Code Review
-  - Gitlab
+  - GitLab
   - DevOps
 publication_url: >-
   https://about.gitlab.com/blog/2020/03/18/troubleshoot-delays-with-code-review-analytics/

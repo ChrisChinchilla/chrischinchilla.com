@@ -6,12 +6,12 @@ categories:
   - tech
   - dzone
 tags:
-  - Openstack
+  - OpenStack
   - Starling
   - Containers
   - Kubernetes
   - Hybrid Cloud
-  - Cloud
+  - Cloud Computing
 publication_url: 'https://dzone.com/articles/-introducing-starlingx-30-for-edge-computing-and-i'
 image: articles/12975327.jpeg
 summary: >-

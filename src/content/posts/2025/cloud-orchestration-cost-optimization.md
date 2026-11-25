@@ -6,8 +6,8 @@ publication_url: 'https://blog.bacalhau.org/p/cloud-orchestration-cost-optimizat
 categories:
   - tech
 tags:
-  - Cloud
-  - Cost Optimization
+  - Cloud Computing
+  - Cost Optimisation
   - Cloud Native
 image: "articles/b7f29f87-4dca-4ee0-a7a1-f674fbbcd143_2626x1876.png"
 summary: >-

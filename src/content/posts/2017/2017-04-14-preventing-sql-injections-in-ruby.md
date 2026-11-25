@@ -6,7 +6,7 @@ categories:
   - tech
   - sqreen
 tags:
-  - Sql
+  - SQL
   - Ruby
   - Security
   - Rails

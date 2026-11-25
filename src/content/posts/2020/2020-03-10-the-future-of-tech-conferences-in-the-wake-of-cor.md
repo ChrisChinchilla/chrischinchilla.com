@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Coronavirus
+  - COVID-19
   - Conferences
   - Travel
   - Business

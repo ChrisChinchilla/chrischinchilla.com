@@ -6,9 +6,9 @@ categories:
   - tech
   - writing chronosphere
 tags:
-  - Alerting
+  - Observability
   - Kubernetes
-  - Cloud
+  - Cloud Computing
 publication_url: >-
   https://chronosphere.io/learn/how-to-use-chronosphere-to-monitor-your-gke-autopilot-deployment/
 image: /src/assets/images/defaults/blog-chinchilla.jpg

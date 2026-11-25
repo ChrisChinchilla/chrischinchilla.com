@@ -6,12 +6,10 @@ categories:
   - tech
   - dzone
 tags:
-  - Runc
-  - Runv
+  - Containers
   - Hyper.Sh
   - Kubernetes
-  - Cloud
-  - Kata Containers
+  - Cloud Computing
 publication_url: 'https://dzone.com/articles/removing-the-lid-on-kata-containers'
 image: articles/11677471.jpeg
 summary: >-

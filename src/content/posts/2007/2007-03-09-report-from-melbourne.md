@@ -5,7 +5,8 @@ categories:
   - writing
   - chrischinchilla
 tags:
-  - Life Melbourne
+  - Melbourne
+  - Life
 summary: >-
   Been a while, now seems a natural point to update you all on what I've been up
   to...<br><br>As now I have a home, and not only a home, but my first permanent

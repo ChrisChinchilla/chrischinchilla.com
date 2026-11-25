@@ -6,7 +6,7 @@ categories:
   - tech
 tags:
   - Databases
-  - Mysql
+  - MySQL
   - AI
 image: posts/mysql.jpg
 summary: >-

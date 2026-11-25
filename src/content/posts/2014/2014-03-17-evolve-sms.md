@@ -7,7 +7,6 @@ categories:
   - chrischinchilla
 tags:
   - Android
-  - App
   - Apps
 summary: >-
   One of the peculiar aspects of Android is that theoretically, everything is

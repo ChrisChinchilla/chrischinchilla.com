@@ -9,7 +9,7 @@ categories:
 tags:
   - Development
   - Deployment
-  - Saas
+  - SaaS
   - Web
 summary: >-
   Not so long ago, many of us were satisfied handling deployment of our projects

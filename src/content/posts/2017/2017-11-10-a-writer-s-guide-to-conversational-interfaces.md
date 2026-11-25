@@ -9,7 +9,7 @@ tags:
   - AI
   - Chatbots
   - Conversational Interfaces
-  - Bot Development
+  - Bots
   - Machine Learning
 publication_url: 'https://dzone.com/articles/a-writers-guide-to-conversational-interfaces'
 image: articles/7164056.jpeg

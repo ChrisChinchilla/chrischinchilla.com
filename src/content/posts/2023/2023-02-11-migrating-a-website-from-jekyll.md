@@ -7,7 +7,7 @@ categories:
   - tech
 tags:
   - Jekyll
-  - websites
+  - Websites
   - Web Development
 image: articles/1*Q3r-jIt5lGDBYfRv_Z-SnQ.png
 summary: I have stuffed so much into my website over the years it was starting to creak

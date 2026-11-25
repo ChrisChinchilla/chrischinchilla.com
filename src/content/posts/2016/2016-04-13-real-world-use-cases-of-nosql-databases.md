@@ -8,7 +8,7 @@ categories:
   - tech
   - sitepoint
 tags:
-  - Nosql
+  - NoSQL
   - Databases
 summary: A modern and flexible alternative to databases
 ---

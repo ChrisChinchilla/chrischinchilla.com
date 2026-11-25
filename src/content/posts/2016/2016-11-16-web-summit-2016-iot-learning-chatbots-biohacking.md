@@ -10,7 +10,7 @@ categories:
 tags:
   - Events
   - Startups
-  - Technology
+  - Tech
 summary: >-
   53,056 people from 166 countries descended on Lisbon for this year’s Web
   Summit. I’m not sure if this makes it the world’s largest startup event, but

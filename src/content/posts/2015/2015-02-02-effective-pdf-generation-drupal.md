@@ -7,8 +7,8 @@ categories:
   - sitepoint
 tags:
   - Drupal
-  - Pdf
-  - personal
+  - PDF
+  - Personal
 summary: >-
   A few months ago I had a client requirement for PDF generation, in this case
   to generate certificates that could be viewed online or printed. I spent some

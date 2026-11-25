@@ -6,9 +6,8 @@ categories:
   - tech
   - hackernoon
 tags:
-  - Unit2017
   - Events
-  - Technology
+  - Tech
   - Culture
   - History
 publication_url: >-

@@ -8,7 +8,7 @@ categories:
 tags:
   - macOS
   - Virtual Machines
-  - Virtualization
+  - Virtualisation
   - Emulation
 publication_url: 'https://hackernoon.com/virtualization-and-emulation-on-macos'
 image: articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-06c36e9.png

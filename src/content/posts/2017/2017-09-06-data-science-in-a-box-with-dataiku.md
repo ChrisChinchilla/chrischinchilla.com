@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Data Science
-  - Data Analysis
+  - Data Analytics
   - Python
   - R
   - Big Data

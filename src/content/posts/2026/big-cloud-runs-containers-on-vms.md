@@ -4,7 +4,7 @@ publishDate: '2026-02-27 18:13:30 +0100'
 categories:
   - tech
 tags:
-  - Cloud
+  - Cloud Computing
   - Bare Metal
   - Containers
 publication_url: 'https://dzone.com/articles/big-cloud-runs-containers-on-vms'

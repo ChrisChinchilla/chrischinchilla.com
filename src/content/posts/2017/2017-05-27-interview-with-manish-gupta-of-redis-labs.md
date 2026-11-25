@@ -9,7 +9,7 @@ tags:
   - Redis
   - Databases
   - Storage
-  - Nosql
+  - NoSQL
 publication_url: 'https://dzone.com/articles/interview-with-manish-gupta-of-redis-labs'
 summary: >-
   Check out an interview with Manish Gupta, Chief Marketing Officer of Redis

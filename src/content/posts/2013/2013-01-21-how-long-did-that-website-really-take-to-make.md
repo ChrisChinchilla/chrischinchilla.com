@@ -7,7 +7,7 @@ categories:
 tags:
   - Web
   - HTML
-  - internet
+  - Internet
 image: articles/Internet_map_1024_0.jpg
 summary: >-
   That snazzy website your looking at took a while to make didn't it? What do

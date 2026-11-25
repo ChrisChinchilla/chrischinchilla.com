@@ -7,8 +7,8 @@ categories:
   - dzone
 tags:
   - Red Hat
-  - Coreos
-  - Open Shift
+  - CoreOS
+  - OpenShift
   - Kubernetes
   - Containers
   - DevOps

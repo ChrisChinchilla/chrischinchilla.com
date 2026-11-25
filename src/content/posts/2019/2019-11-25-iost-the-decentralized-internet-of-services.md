@@ -10,7 +10,7 @@ tags:
   - Iost
   - JavaScript
   - Consensus Algorithm
-  - Go Lang
+  - Go
   - Agile
   - Interview
 publication_url: 'https://dzone.com/articles/-iost-the-decentralized-internet-of-services'

@@ -11,13 +11,13 @@ summary: >-
   like to run a developer event in Berlin in 2026.
 publishDate: '2026-09-25T09:00:00.000Z'
 tags:
-  - Mobile development
+  - Mobile Development
   - Android
   - Flutter
   - iOS
   - Swift
   - Kotlin
-  - droidcon
+  - Droidcon
   - Events
   - Berlin
   - AI

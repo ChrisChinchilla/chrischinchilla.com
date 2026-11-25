@@ -8,7 +8,7 @@ category: Chris writing
 start_date: 2017
 end_date: 2018
 tags:
-  - Technology
+  - Tech
   - Development
   - Java
   - Containers

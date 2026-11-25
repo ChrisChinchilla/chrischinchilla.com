@@ -6,7 +6,7 @@ categories:
   - tech
   - writing kauri
 tags:
-  - Ipfs
+  - IPFS
   - Web
   - Installation
   - Peer2Peer

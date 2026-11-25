@@ -5,9 +5,8 @@ author: Chris Ward
 categories:
   - writing
 tags:
-  - nostalgia
+  - Nostalgia
   - Links
-  - "2016"
 image: articles/2016.png
 summary: >-
   Revisiting links saved ten years ago, exploring what captured my attention and the world's interests back in 2016.

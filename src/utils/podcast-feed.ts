@@ -3,6 +3,7 @@
 // the feed once per build instead of duplicating the fetch per page.
 
 import { XMLParser } from 'fast-xml-parser';
+import { handleFeedFailure } from '~/utils/feed-failure';
 
 export interface PodcastEpisode {
   title: string | string[];
@@ -28,11 +29,13 @@ let cachedEpisodes: Promise<PodcastEpisode[]> | undefined;
 async function fetchAllPodcastEpisodes(): Promise<PodcastEpisode[]> {
   try {
     const response = await fetch(FEED_URL);
-    const rssFeedData = await response.text();
-    const parsedFeed = parser.parse(rssFeedData);
-    return parsedFeed?.rss?.channel?.item ?? [];
+    if (!response.ok) throw new Error(`Feed responded ${response.status}`);
+    const parsedFeed = parser.parse(await response.text());
+    const items = parsedFeed?.rss?.channel?.item;
+    if (!Array.isArray(items) || items.length === 0) throw new Error('Feed has no episodes');
+    return items;
   } catch (error) {
-    console.warn('Unable to fetch podcast feed during build:', error);
+    handleFeedFailure('the podcast feed', error);
     return [];
   }
 }
@@ -46,5 +49,5 @@ export const getAllPodcastEpisodes = (): Promise<PodcastEpisode[]> => {
   return cachedEpisodes;
 };
 
-export const getPodcastEpisodeTitle = (episode: PodcastEpisode): string =>
+export const getPodcastEpisodeTitle = (episode: { title: string | string[] }): string =>
   Array.isArray(episode.title) ? episode.title[0] : episode.title;

@@ -2,7 +2,7 @@
 date: 2023-02-14
 title: "Ancient Colossus"
 summary: "After months crossing a lethal desert, a desperate traveller arrives at a mysterious ancient colossus and begins the perilous climb to claim the legendary Bloodstone held in its grasp."
-tags: ["Fiction", "fantasy", "adventure"]
+tags: ["Fiction", "Fantasy", "Adventure"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

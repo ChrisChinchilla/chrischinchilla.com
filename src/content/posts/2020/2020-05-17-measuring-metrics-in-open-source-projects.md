@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Open Source
-  - Metrics
+  - Observability
   - Community
   - Analysis
   - Monitoring

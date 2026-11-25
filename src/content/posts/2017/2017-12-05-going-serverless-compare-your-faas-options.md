@@ -6,10 +6,9 @@ categories:
   - tech
   - dzone
 tags:
-  - Cloud
+  - Cloud Computing
   - Serverless
-  - Faas
-  - Cloud Providers
+  - FaaS
 publication_url: 'https://dzone.com/articles/going-serverless-compare-your-faas-options'
 image: articles/7425805.jpeg
 summary: >-

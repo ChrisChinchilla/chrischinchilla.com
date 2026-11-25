@@ -12,7 +12,7 @@ tags:
   - Adblocker
   - Eyeo
   - Flattr
-  - Micropayments
+  - Payments
   - Adblock Plus
 publication_url: 'https://dzone.com/articles/eyeo-adblocker-plus-and-the-future-of-funding'
 image: articles/10029936.jpeg

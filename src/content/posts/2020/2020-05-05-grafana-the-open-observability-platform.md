@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Visualization
+  - Visualisation
   - Monitoring
   - Grafana
   - Prometheus

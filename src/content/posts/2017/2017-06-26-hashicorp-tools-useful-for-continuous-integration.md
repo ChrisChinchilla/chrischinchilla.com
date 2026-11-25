@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Hashicorp
+  - HashiCorp
   - Continuous Integration
   - DevOps
   - Vagrant

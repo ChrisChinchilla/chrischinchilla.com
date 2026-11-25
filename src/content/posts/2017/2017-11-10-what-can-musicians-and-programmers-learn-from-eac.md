@@ -9,7 +9,7 @@ tags:
   - Agile
   - Devlife
   - Career Growth
-  - Learning And Development
+  - Education
 publication_url: 'https://dzone.com/articles/what-can-musicians-and-programmers-learn-from-each'
 image: articles/7164684.jpeg
 summary: >-

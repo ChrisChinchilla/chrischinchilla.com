@@ -8,7 +8,7 @@ categories:
 tags:
   - Operating Systems
   - Serenityos
-  - 90S
+  - 90s
 publication_url: 'https://hackernoon.com/running-serenityos-a-love-letter-to-90s-user-interfaces'
 image: articles/KhFtC9YYgyQb0IquXuMbz7WYhPH2-26937di.jpeg
 summary: >-

@@ -6,8 +6,6 @@ categories:
   - tech
   - writing dataartisans
 tags:
-  - Flink Community
-  - Flink Features
   - Apache Flink
   - Year In Review
 publication_url: 'https://data-artisans.com/blog/apache-flink-in-2017-year-in-review'

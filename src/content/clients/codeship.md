@@ -7,7 +7,7 @@ image: 'clients/codeship.png'
 start_date: 2016
 end_date: 2018
 tags:
-  - Technology
+  - Tech
   - Development
   - Containers
   - DevOps

@@ -11,7 +11,7 @@ tags:
   - JavaScript
   - Cross-platform
   - Mobile
-  - Mobile App Development
+  - Mobile Development
   - Web Development
 publication_url: 'https://dzone.com/articles/sencha-releases-extreact-bringing-their-custom-com'
 image: articles/6602816.jpeg

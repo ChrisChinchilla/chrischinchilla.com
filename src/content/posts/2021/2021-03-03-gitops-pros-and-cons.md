@@ -7,7 +7,7 @@ categories:
   - writing humanitec
 tags:
   - Kubernetes
-  - Gitops
+  - GitOps
   - DevOps
 publication_url: 'https://humanitec.com/blog/gitops-pros-and-cons'
 image: >-

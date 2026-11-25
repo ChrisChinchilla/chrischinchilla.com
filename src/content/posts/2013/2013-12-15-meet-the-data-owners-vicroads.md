@@ -5,7 +5,7 @@ categories:
   - tech
   - chrischinchilla
 tags:
-  - Opendata
+  - Open Data
 summary: >-
   I've been learning to drive (again) recently, with an aim to finally actually
   take my driving test, I'm also a keen (legal) cyclist… None of this has any

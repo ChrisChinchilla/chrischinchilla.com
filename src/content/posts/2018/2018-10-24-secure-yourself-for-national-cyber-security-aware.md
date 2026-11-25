@@ -7,8 +7,8 @@ categories:
   - dzone
 tags:
   - Malware
-  - Https
-  - Vpn
+  - HTTP
+  - VPN
   - Secrets Management
   - Tokens
   - Encryption

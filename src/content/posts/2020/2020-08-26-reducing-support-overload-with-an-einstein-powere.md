@@ -7,8 +7,7 @@ categories:
   - dzone
 tags:
   - Chatbots
-  - Nlp
-  - Natural Language Processing
+  - NLP
   - Salesforce
   - Heroku
   - Image Analysis

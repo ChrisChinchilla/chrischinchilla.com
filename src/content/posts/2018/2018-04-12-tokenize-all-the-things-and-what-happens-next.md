@@ -7,9 +7,9 @@ categories:
   - dzone
 tags:
   - Blockchain
-  - Cryptocurrencies
+  - Cryptocurrency
   - Security
-  - Decentralized Exchange
+  - Decentralised Exchange
 publication_url: 'https://dzone.com/articles/tokenize-all-the-things-and-what-happens-next'
 image: articles/8740072.jpeg
 summary: >-

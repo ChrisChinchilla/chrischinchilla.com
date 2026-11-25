@@ -8,7 +8,7 @@ categories:
 tags:
   - Education
   - Coding
-  - Learn To Code
+  - Learn to Code
   - Screencasts
 publication_url: 'https://dzone.com/articles/scrimba-a-new-way-to-teach-and-learn-code'
 image: articles/6212136.jpeg

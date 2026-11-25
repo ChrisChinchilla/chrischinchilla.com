@@ -2,7 +2,7 @@
 date: 2024-02-05
 title: "King of bores"
 summary: "A minstrel performing for his life before Malfor the Mighty — a tyrant who executes anyone who bores him — talks his way off the chopping block by offering the one thing the jaded king truly craves."
-tags: ["Fiction", "fantasy", "Humor", "dark"]
+tags: ["Fiction", "Fantasy", "Humour", "Dark"]
 image: /src/assets/images/defaults/blog-chinchilla.jpg
 
 # Optional: If published elsewhere

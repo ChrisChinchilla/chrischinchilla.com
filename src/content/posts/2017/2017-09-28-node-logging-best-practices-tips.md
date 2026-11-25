@@ -6,8 +6,8 @@ categories:
   - tech
   - coralogix
 tags:
-  - Logging
-  - Nodejs
+  - Observability
+  - Node.js
   - JavaScript
 publication_url: 'https://coralogix.com/log-analytics-blog/node-logging-best-practices-tips/'
 summary: >-

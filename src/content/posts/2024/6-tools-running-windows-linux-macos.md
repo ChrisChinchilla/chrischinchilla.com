@@ -6,7 +6,7 @@ categories:
   - tech
 tags:
   - Emulation
-  - Virtualization
+  - Virtualisation
   - Containers
 image: articles/6-tools.jpg
 summary: >-

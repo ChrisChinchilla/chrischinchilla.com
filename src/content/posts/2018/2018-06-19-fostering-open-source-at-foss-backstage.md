@@ -6,15 +6,12 @@ categories:
   - tech
   - dzone
 tags:
-  - Foss
   - Open Source
   - Governance
   - Legal
   - Empathy
   - Contribute
   - Marketing
-  - Oss
-  - Foss Backstage
 publication_url: 'https://dzone.com/articles/fostering-open-source-at-foss-backstage'
 image: articles/9478101.jpeg
 summary: >-

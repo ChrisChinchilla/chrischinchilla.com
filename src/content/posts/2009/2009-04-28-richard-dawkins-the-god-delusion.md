@@ -6,7 +6,8 @@ categories:
   - chrischinchilla
 tags:
   - Books
-  - Reviews Religion
+  - Religion
+  - Reviews
 summary: >-
   Whilst I do not believe in God by any means and would certainly describe
   myself as an Atheist, my biggest issue with 'The God Delusion' is what Richard

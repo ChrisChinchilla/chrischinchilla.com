@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Chef
-  - Cloud
+  - Cloud Computing
   - Deployment
   - Continuous Delivery
   - DevOps

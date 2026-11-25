@@ -11,10 +11,10 @@ summary: >-
 publishDate: '2026-11-14T00:00:00.000Z'
 tags:
   - AI
-  - Video generation
+  - Video Generation
   - PyTorch
   - vLLM
-  - Open source
+  - Open Source
 youtubeId: 7KwTYjCBvxs
 oldVideoPath: >-
   /videos/video-generation-as-a-service-with-ricardo-noriega-and-doug-smith-7KwTYjCBvxs

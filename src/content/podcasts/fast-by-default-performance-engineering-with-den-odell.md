@@ -12,7 +12,7 @@ tags:
   - Performance
   - Books
   - AI
-  - Web development
+  - Web Development
 youtubeId: IQG8qLv60Cw
 oldVideoPath: /videos/fast-by-default-performance-engineering-with-den-odell-IQG8qLv60Cw
 modifiedDate: '2026-11-15'

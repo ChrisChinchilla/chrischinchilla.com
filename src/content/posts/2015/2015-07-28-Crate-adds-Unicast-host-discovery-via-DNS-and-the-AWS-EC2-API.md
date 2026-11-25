@@ -8,7 +8,7 @@ categories:
   - crate
 tags:
   - API
-  - Dns
+  - DNS
   - Services
 summary: >-
   A well functioning Crate cluster relies on its nodes being able to utilize

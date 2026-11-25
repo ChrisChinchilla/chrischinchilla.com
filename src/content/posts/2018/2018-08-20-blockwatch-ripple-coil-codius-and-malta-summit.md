@@ -11,10 +11,10 @@ tags:
   - Ripple
   - Interledger
   - Docker
-  - Distributed
-  - Decentralized
+  - Distributed Systems
+  - Decentralised
   - Payments
-  - Cryptocurrencies
+  - Cryptocurrency
   - Security
 publication_url: 'https://dzone.com/articles/blockwatch-ripple-coil-codius-and-malta-summit'
 image: articles/10019354.jpeg

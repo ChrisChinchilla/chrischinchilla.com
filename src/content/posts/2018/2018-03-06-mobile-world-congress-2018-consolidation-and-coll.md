@@ -6,10 +6,9 @@ categories:
   - tech
   - dzone
 tags:
-  - Mobile World Congress
   - MWC
   - AI
-  - Robots
+  - Robotics
   - Android
   - Mobile
   - Conferences

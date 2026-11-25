@@ -8,6 +8,6 @@ categories:
 tags:
   - Docker
   - Databases
-  - Distributed
+  - Distributed Systems
 ---
 [Read more](/)

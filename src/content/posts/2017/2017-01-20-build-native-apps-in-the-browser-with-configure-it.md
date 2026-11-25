@@ -9,7 +9,7 @@ categories:
 tags:
   - Events
   - Startups
-  - Technology
+  - Tech
 summary: >-
   Creating a modern and feature-rich mobile app has never been a simple task,
   but is now more complex than ever. There are a plethora of platforms,

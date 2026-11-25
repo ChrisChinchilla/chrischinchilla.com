@@ -8,7 +8,7 @@ categories:
 tags:
   - DevOps
   - Infrastructure
-  - Cloud
+  - Cloud Computing
 publication_url: 'https://dzone.com/articles/chip-childers-cto-of-cloud-foundry'
 summary: >-
   This talk with Cloud Foundry's Chip Childers covers the company's history, its

@@ -6,8 +6,8 @@ categories:
   - tech
   - dzone
 tags:
-  - Openstack
-  - Cloud
+  - OpenStack
+  - Cloud Computing
   - Kubernetes
   - Public Cloud
   - Private Cloud

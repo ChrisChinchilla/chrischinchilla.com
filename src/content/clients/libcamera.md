@@ -5,7 +5,7 @@ image: clients/libcamera.png
 category: Chris
 tags:
   - Linux
-  - camera
+  - Camera
   - 'C++'
 current: false
 company_url: 'http://libcamera.org/index.html'

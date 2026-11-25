@@ -7,9 +7,9 @@ categories:
   - sitepoint
 tags:
   - Drupal
-  - Crm
+  - CRM
   - Programming
-  - Learning
+  - Education
 summary: >-
   I love Drupal and end up undertaking most of my programming projects with it.
   I have been using it for so long that I find it far easier to push out

@@ -7,7 +7,7 @@ categories:
   - dzone
 tags:
   - Blockchain
-  - Ico
+  - ICO
   - Bitcoin
   - Ethereum
   - Security

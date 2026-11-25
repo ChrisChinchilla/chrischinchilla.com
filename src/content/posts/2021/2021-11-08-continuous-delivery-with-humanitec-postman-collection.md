@@ -8,7 +8,7 @@ categories:
 tags:
   - Postman
   - API
-  - Gitops
+  - GitOps
   - DevOps
 publication_url: >-
   https://humanitec.com/blog/continuous-delivery-with-humanitec-postman-collection

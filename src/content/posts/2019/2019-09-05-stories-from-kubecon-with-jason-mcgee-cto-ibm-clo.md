@@ -9,10 +9,10 @@ tags:
   - Kubernetes
   - Cloud Native
   - Hybrid Cloud
-  - Cloud
-  - Ibm
+  - Cloud Computing
+  - IBM
   - Enterprise Development
-  - Ibm Cloud
+  - IBM Cloud
 publication_url: 'https://dzone.com/articles/-stories-from-kubecon-jason-mcgee-cto-ibm-cloud-pl'
 image: articles/12422438.jpeg
 summary: >-

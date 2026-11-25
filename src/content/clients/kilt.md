@@ -7,7 +7,7 @@ image: 'clients/kilt.png'
 start_date: 2023
 end_date: 2024
 tags:
-  - identity
+  - Identity
   - SDK
   - Blockchain
 ---

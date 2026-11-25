@@ -15,7 +15,7 @@ license_url: 'https://github.com/ChrisChinchilla/vscode-pandoc/blob/main/package
 summary: A Visual Studio Code extension I created for rendering markdown to PDF, Word, or HTML using Pandoc, without leaving the editor.
 project_url: https://github.com/ChrisChinchilla/vscode-pandoc
 tags:
-  - VSCode
+  - VS Code
   - Markdown
   - Software
 ---

@@ -6,10 +6,9 @@ categories:
   - tech
   - dzone
 tags:
-  - Circleci
+  - CircleCI
   - Testing
   - Deployment
-  - CI
   - Continuous Integration
   - Continuous Deployment
   - DevOps

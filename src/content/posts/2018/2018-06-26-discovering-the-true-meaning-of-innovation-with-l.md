@@ -11,7 +11,7 @@ tags:
   - Vilnius
   - Big Data
   - Empathy
-  - Robots
+  - Robotics
   - Futurism
   - Blockchain
   - Agile

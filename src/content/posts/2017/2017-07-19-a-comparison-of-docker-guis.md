@@ -8,7 +8,7 @@ categories:
 tags:
   - DevOps
   - Docker
-  - Gui
+  - GUI
 publication_url: 'https://dzone.com/articles/a-comparison-of-docker-guis'
 image: articles/5965129.jpeg
 summary: >-

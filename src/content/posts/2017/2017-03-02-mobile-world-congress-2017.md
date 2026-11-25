@@ -11,7 +11,6 @@ tags:
   - Mobile
   - IoT
   - MWC
-  - Mwc2017
 publication_url: 'https://dzone.com/articles/mobile-world-congress-2017'
 summary: >-
   2016 was quite a year for technology and its impact on the world.

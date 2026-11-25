@@ -8,7 +8,8 @@ categories:
   - sitepoint
 tags:
   - Revealjs
-  - Presentations - Open-Source
+  - Presentations
+  - Open Source
 summary: >-
   Powerpoint and Keynote are powerful, but also a dead-end for your data. I
   shows-off the growing power and flexibility of open source presentation tools.

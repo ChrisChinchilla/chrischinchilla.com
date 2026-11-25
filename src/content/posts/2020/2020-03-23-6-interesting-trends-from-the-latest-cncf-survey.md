@@ -9,7 +9,7 @@ tags:
   - Kubernetes
   - Service Mesh
   - Containers
-  - Cncf
+  - CNCF
   - Cloud Native
   - Serverless
 publication_url: 'https://dzone.com/articles/-6-interesting-trends-from-the-latest-cncf-survey'

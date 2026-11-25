@@ -6,15 +6,15 @@ categories:
   - tech
   - dzone
 tags:
-  - Cloud
+  - Cloud Computing
   - Cloud Native
   - DevOps
   - Containers
   - Kubernetes
   - Mesos
   - Virtual Machines
-  - Data Center
-  - Optimization
+  - Data Centre
+  - Optimisation
 publication_url: 'https://dzone.com/articles/optimize-your-cloud-native-infrastructure-with-rep'
 image: articles/8003560.jpeg
 summary: >-

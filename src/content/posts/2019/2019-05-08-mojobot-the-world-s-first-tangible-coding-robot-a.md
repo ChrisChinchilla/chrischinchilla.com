@@ -9,7 +9,7 @@ categories:
 tags:
   - Coding
   - Education
-  - Kids
+  - Children
   - Programming
   - Games
   - Board Games

@@ -7,7 +7,7 @@ categories:
   - writing
 tags:
   - AI
-  - Llm
+  - LLM
   - Writing
 image: articles/1*WUfhLdT4ewEz0_trgoqFow.webp
 summary: >-

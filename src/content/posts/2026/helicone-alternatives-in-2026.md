@@ -6,9 +6,9 @@ categories:
   - tech
 image: articles/helicone.png
 tags:
-  - helicone
-  - llm
-  - proxy
+  - Helicone
+  - LLM
+  - Proxy
 summary: >-
     Helicone joined Mintlify in March 2026. Its announcement says the service will stay live "in maintenance mode". It still gets security fixes, bug fixes and support for new models, but it gets no new features. Nothing is shutting down, so there is no deadline. But if every model call in your app passes through Helicone, you should know where you would move it.
 ---

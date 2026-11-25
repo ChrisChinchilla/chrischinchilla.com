@@ -9,7 +9,7 @@ tags:
   - DevOps
   - Automation
   - AI
-  - Business Inteligence
+  - Business Intelligence
 publication_url: 'https://dzone.com/articles/lucas-carlson-of-automic-taking-devops-beyond-deve'
 image: articles/5950132.jpeg
 summary: >-

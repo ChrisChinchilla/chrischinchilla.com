@@ -8,7 +8,7 @@ categories:
 tags:
   - Blockchain
   - Cryptocurrency
-  - Ico
+  - ICO
   - Security
 publication_url: 'https://dzone.com/articles/blockwatch-7th-september-demystifying-the-ico'
 image: articles/6517050.jpeg

@@ -4,7 +4,7 @@ title: Weave
 image: clients/weave.png
 category: Chris
 tags:
-  - Cloud
+  - Cloud Computing
   - DevOps
   - Docker
   - Kubernetes

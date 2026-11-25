@@ -7,9 +7,9 @@ categories:
 tags:
   - JetBrains
   - IDE
-  - Grammar checking
+  - Grammar Checking
   - Linting
-  - Spell checking
+  - Spell Checking
 image: articles/jb-overview.png
 publication_url: >-
   https://medium.com/geekculture/technical-writing-with-jetbrains-writerside-and-grazie-2009208f1d4b?source=rss-------1

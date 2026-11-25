@@ -9,12 +9,11 @@ tags:
   - Alibaba Cloud
   - IoT
   - 5G
-  - Cloud Hosting
   - Cloud Computing
   - Containers
   - Docker
   - Kubernetes
-  - Infrastructure As A Code
+  - Infrastructure as Code
 publication_url: 'https://dzone.com/articles/5g-and-alibaba-cloud-with-tony-cheng'
 image: articles/10734974.jpeg
 summary: >-

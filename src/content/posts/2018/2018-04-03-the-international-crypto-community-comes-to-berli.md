@@ -7,9 +7,9 @@ categories:
   - dzone
 tags:
   - Blockchain
-  - Cryptocurrencies
+  - Cryptocurrency
   - Berlin
-  - Ico
+  - ICO
   - Smart Contracts
 publication_url: 'https://dzone.com/articles/the-international-crypto-community-comes-to-berlin'
 image: articles/8685087.jpeg

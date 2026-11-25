@@ -4,7 +4,7 @@ publishDate: '2025-08-15 18:13:30 +0100'
 categories:
   - tech
 tags:
-  - Cloud
+  - Cloud Computing
   - Bare Metal
   - Containers
 publication_url: 'https://dzone.com/articles/virtualized-containers-vs-bare-metal'

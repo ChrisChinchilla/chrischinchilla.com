@@ -6,12 +6,9 @@ categories:
   - tech
   - writing dataartisans
 tags:
-  - Flink Features
+  - Apache Flink
   - Use Cases
-  - Alerting
-  - Cep
-  - Complex Event Processing
-  - Flinkcep
+  - Observability
   - Pattern Matching
 publication_url: 'https://data-artisans.com/blog/complex-event-processing-flink-cep-update'
 image: articles/flink-cep-post-image1.png

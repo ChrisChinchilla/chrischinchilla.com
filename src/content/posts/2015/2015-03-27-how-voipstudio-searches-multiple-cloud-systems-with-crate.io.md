@@ -8,9 +8,9 @@ categories:
   - tech
   - crate
 tags:
-  - Cloud
+  - Cloud Computing
   - Data
-  - Data Center
+  - Data Centre
   - Backup
 summary: >-
   The VoIPstudio Telecom system is a unique cloud system running on a large

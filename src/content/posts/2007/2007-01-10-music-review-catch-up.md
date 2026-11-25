@@ -3,7 +3,8 @@ title: Music Review Catch Up
 publishDate: '2007-01-10T11:14:57+00:00'
 tags:
   - Music
-  - Life Travel
+  - Travel
+  - Life
 categories:
   - music
   - chrischinchilla

@@ -10,8 +10,8 @@ tags:
   - Developer Tools
   - Bazel
   - Build
-  - Test
-  - CI
+  - Testing
+  - Continuous Integration
   - CD
 ---
 

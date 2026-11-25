@@ -10,11 +10,10 @@ tags:
   - iOS
   - Watchos
   - macOS
-  - Iphone
-  - Ipad
+  - iPhone
+  - iPad
   - AR
   - Machine Learning
-  - Augmented Reality
 publication_url: 'https://dzone.com/articles/what-apples-september-announcements-might-mean-for'
 image: articles/10227134.jpeg
 summary: >-

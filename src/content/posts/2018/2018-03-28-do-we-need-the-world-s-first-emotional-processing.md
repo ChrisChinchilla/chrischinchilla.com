@@ -8,7 +8,7 @@ categories:
 tags:
   - AI
   - Emotions
-  - Gpu
+  - GPU
   - Machine Learning
 publication_url: 'https://dzone.com/articles/do-we-need-the-worlds-first-emotional-processing-u'
 image: articles/8606605.jpeg

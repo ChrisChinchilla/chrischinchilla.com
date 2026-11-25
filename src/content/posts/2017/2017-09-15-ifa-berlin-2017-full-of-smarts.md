@@ -6,7 +6,7 @@ categories:
   - tech
   - dzone
 tags:
-  - Robots
+  - Robotics
   - Voice Assistants
   - Virtual Reality
   - IoT

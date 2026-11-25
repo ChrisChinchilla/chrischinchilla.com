@@ -6,7 +6,7 @@ publication_url: 'https://blog.bacalhau.org/p/cross-border-data-processing-with'
 categories:
   - tech
 tags:
-  - Cloud
+  - Cloud Computing
   - Privacy
   - Data
 image: "articles/5e5fdabb-a2f1-4098-9234-f6d089ec2a6f_2048x1463.png"

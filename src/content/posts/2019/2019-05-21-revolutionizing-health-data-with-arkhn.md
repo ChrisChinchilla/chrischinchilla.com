@@ -7,11 +7,10 @@ categories:
   - dzone
 tags:
   - API
-  - Rest
+  - REST API
   - Digital Transformation
   - Big Data
   - Open Data
-  - Big Data Use Cases
 publication_url: 'https://dzone.com/articles/-revolutionizing-health-data-with-arkhn'
 image: articles/11886056.jpeg
 summary: >-

@@ -7,7 +7,7 @@ categories:
 tags:
   - Apple
   - Events
-  - Wwdc
+  - WWDC
 summary: 'This is the latest editorial from my newsletter, [*subscribe'
 ---
 *This is the latest editorial from my newsletter,* [*subscribe

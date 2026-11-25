@@ -7,10 +7,10 @@ categories:
   - writing kauri
 tags:
   - Smart Contracts
-  - Getting-Started
-  - Dapp
-  - Erc-20
-  - Token-Standard
+  - Getting Started
+  - DApps
+  - ERC-20
+  - Tokens
   - Solidity
 publication_url: 'https://kauri.io/article/bdd65d6155a74b8aa52672b46b7230a8'
 image: articles/QmWUTMmZAbbLYUhZv9ZzR9R1Ey2R4xgcxQQoFRoNdBPW85.png

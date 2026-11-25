@@ -7,7 +7,6 @@ categories:
   - techbeacon
 tags:
   - Podcasts
-  - Learning
   - Education
   - Coding
 publication_url: 'https://techbeacon.com/12-must-listen-software-engineering-podcast-episodes'

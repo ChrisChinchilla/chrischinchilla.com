@@ -4,7 +4,7 @@ import ShareLinks from '~/components/common/ShareLinks.astro';
 import { stripHtml } from '~/utils/social-share';
 import { formatShortDate } from '~/utils/utils';
 import { slugify } from '~/utils/slugify';
-import type { PodcastEpisode } from '~/utils/podcast-feed';
+import { getPodcastEpisodeTitle, type PodcastEpisode } from '~/utils/podcast-feed';
 import techLoungeImage from '../assets/images/tech-lounge.png';
 
 export interface Props {
@@ -14,8 +14,7 @@ export interface Props {
 }
 const { podcast } = Astro.props;
 
-// For some reason one feed returns the title as a duplicate array
-const podcastTitle = Array.isArray(podcast.title) ? podcast.title[0] : podcast.title;
+const podcastTitle = getPodcastEpisodeTitle(podcast);
 
 const url = '/podcast/' + slugify(podcastTitle);
 const formattedDate = formatShortDate(podcast.pubDate);
