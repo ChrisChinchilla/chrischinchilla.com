@@ -13,11 +13,7 @@ summary: >-
   Vale MCP 0.3.0 adds tools to list and explain Vale rules, an MCP resource for your active configuration, three prompts, and a set of fixes to path handling and error output.
 ---
 
-%% TODO: Set the real publishDate, add an image, and check the tags against existing ones. %%
-
 [Vale MCP](https://github.com/ChrisChinchilla/Vale-MCP) is an MCP server that lets AI assistants such as Claude Desktop and Cursor lint text with [Vale](https://vale.sh/). [Version 0.3.0](https://github.com/ChrisChinchilla/Vale-MCP/releases/tag/v0.3.0) is out. It adds ways for an assistant to understand your style rules, not only see the alerts they produce.
-
-%% TODO: Add a sentence on why I built this or how I use it. The release notes don't say. %%
 
 ## Understanding rules
 
