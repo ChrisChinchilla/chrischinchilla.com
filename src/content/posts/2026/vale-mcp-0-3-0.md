@@ -13,7 +13,7 @@ summary: >-
   Vale MCP 0.3.0 adds tools to list and explain Vale rules, an MCP resource for your active configuration, three prompts, and a set of fixes to path handling and error output.
 ---
 
-[Vale MCP](https://github.com/ChrisChinchilla/Vale-MCP) is an MCP server that lets AI assistants such as Claude Desktop and Cursor lint text with [Vale](https://vale.sh/). [Version 0.3.0](https://github.com/ChrisChinchilla/Vale-MCP/releases/tag/v0.3.0) is out. It adds ways for an assistant to understand your style rules, not only see the alerts they produce.
+[Vale MCP](/software/vale-mcp) is an MCP server that lets AI assistants such as Claude Desktop and Cursor lint text with [Vale](https://vale.sh/). [Version 0.3.0](https://github.com/ChrisChinchilla/Vale-MCP/releases/tag/v0.3.0) is out. It adds ways for an assistant to understand your style rules, not only see the alerts they produce.
 
 ## Understanding rules
 
@@ -29,8 +29,6 @@ Two new tools help an assistant explain an alert:
 The server now exposes the active `.vale.ini` as an MCP resource, `vale://config`.
 
 It also ships three prompts: `fix_style_issues`, `review_text` and `explain_style_rule`. They are instruction templates that tell the assistant which tools to call.
-
-%% TODO: Say how these appear in a client (for example, slash commands in a particular tool) once checked. %%
 
 ## Fixes and hardening
 
@@ -56,5 +54,3 @@ npx vale-mcp@latest
 ```
 
 You need Node.js 22 or later and Vale 3.0 or later. See the [README](https://github.com/ChrisChinchilla/Vale-MCP#readme) for setup in specific assistants, and the [release notes](https://github.com/ChrisChinchilla/Vale-MCP/releases/tag/v0.3.0) for the full list of changes.
-
-%% TODO: The site has no page for Vale MCP under /software. Decide whether to add one and link to it here. %%
