@@ -17,6 +17,9 @@ summary: >-
   Chef recently introduced the Habitat tool, bringing Chef's advantages to
   automation and continuous integration. Learn about the suite of tools that
   make it possible.
+heroimage: articles/7625905.jpeg
+herotext: >-
+  From the archives: a 2017 look at Habitat, Chef's tool for building, deploying and managing cloud services.
 ---
 Chef recently introduced the Habitat tool, bringing Chef's advantages to automation and continuous integration. Learn about the suite of tools that make it possible.
 

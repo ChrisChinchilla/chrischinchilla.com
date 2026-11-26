@@ -18,6 +18,9 @@ stream_urls:
     url: https://open.spotify.com/album/2zkpux4R9XWLGsYbv4zoXo
   - label: All others
     url: https://distrokid.com/hyperfollow/aeonv/antony--cleopatra-love-is-war-theatre-soundtrack?ref=release
+heroimage: https://f4.bcbits.com/img/a1148751678_1x1_700.avif
+herotext: >-
+  My soundtrack for the theatre production Antony & Cleopatra - Love is War, out now with Aeon V.
 ---
 
 Antony & Cleopatra: Love is War was a fast-paced contemporary adaptation of Shakespeare’s tragedy, combining classical text with modern theatrical storytelling. Through confessionals, voiceovers, direct audience address, and stylized staging, the production explored the emotional and political collapse of two people whose love reshapes empires.

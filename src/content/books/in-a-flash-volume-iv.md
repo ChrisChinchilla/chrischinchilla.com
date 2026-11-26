@@ -10,6 +10,9 @@ image: https://d1vzi28wh99zvq.cloudfront.net/images/19170/585931.webp
 store_urls:
   - label: Drive Thru Fiction
     url: https://www.drivethrufiction.com/en/product/585931/in-a-flash-volume-iv
+heroimage: https://d1vzi28wh99zvq.cloudfront.net/images/19170/585931.webp
+herotext: >-
+  My flash fiction appears in the latest Storytelling Collective anthology.
 ---
 
 In a Flash is a collection of flash fiction (short stories under 1,500 words) written during the Storytelling Collective's annual "Flash Fiction February" challenge. Writers receive simple prompts and write a piece of flash fiction every day throughout the month.

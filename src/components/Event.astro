@@ -3,7 +3,7 @@ import { Icon } from 'astro-icon/components';
 import { buildEventIcs } from '~/utils/ics';
 
 export interface Props {
-  type: 'speaking' | 'attending' | 'organizing';
+  type: 'speaking' | 'attending' | 'organizing' | 'volunteering' | 'gming';
   title?: string;
   event: string;
   summary?: string;
@@ -40,7 +40,13 @@ const currentDate = new Date();
 const eventDate = new Date(start_date);
 const eventFormat = currentDate < eventDate ? 'opacity-100' : 'opacity-45';
 
-const typeLabel = type === 'organizing' ? 'Organizing' : type === 'speaking' ? 'Speaking' : null;
+const TYPE_LABELS: Partial<Record<Props['type'], string>> = {
+  organizing: 'Organizing',
+  speaking: 'Speaking',
+  volunteering: 'Volunteering',
+  gming: 'Game master',
+};
+const typeLabel = TYPE_LABELS[type] ?? null;
 
 const icsHref = buildEventIcs({ title: title ?? event, event, summary, venue, url: pres_url, start_date, end_date });
 ---

@@ -8,6 +8,9 @@ role: Designer
 store_urls:
   - label: itch.io
     url: https://chrischinchilla.itch.io/karaoke-vampire
+heroimage: /src/assets/images/defaults/game-chinchilla.jpg
+herotext: >-
+  My newest game: a rules-light roleplaying game for players who love to sing, sparkle and suck blood.
 ---
 
 You are vampires. Creatures of the night. Bloodsuckers. Feared, respected, hunted, and eternal.  But you also love to sing. Loudly, in dingy karaoke bars.

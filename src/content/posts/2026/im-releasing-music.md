@@ -12,8 +12,6 @@ image: /src/assets/images/articles/kid-chris.jpeg
 summary: >-
   Today I am 45, so I am releasing music for the first time in about 15 years. A look at my musical journey and the new EP I am releasing.
 heroimage: https://f4.bcbits.com/img/a3762217678_16.jpg
-herotext: >-
-  I am releasing music for the first time in 15 years
 ---
 
 _This picture is one of the first gigs I played. That's my friend Richard on bass who I still know today!_

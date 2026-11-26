@@ -16,6 +16,9 @@ tags:
   - AIMusic
 summary: >-
   How creators who don't compose can get music for podcasts, streams and indie games: stock libraries, commissioning a composer or AI generators, plus licensing checks and editing tips.
+heroimage: articles/pexels-anna-pou-8133244.jpg
+herotext: >-
+  Not a composer? A practical guide to getting music for your podcast, stream or indie game.
 ---
 
 # Music for Your Podcast, Stream or Indie Game: A Practical Guide for Creators Who Are Not Composers

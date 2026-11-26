@@ -102,7 +102,7 @@ const events = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string().optional(),
-      type: z.enum(['speaking', 'attending', 'organizing']).default('attending'),
+      type: z.enum(['speaking', 'attending', 'organizing', 'volunteering', 'gming']).default('attending'),
       event: z.string(),
       summary: z.string().optional(),
       start_date: z.date(),

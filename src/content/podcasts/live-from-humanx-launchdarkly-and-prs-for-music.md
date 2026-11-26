@@ -16,6 +16,9 @@ tags:
 youtubeId: nKwsyZRa7xE
 oldVideoPath: >-
   /videos/live-from-humanx-launchdarkly-and-prs-for-music-nKwsyZRa7xE
+heroimage: /src/assets/images/tech-lounge.png
+herotext: >-
+  Live from HumanX Amsterdam: LaunchDarkly on shipping at AI speed, and how PRS for Music is adapting to AI.
 ---
 
 For this episode of the Tech Lounge, I recorded live at HumanX in Amsterdam with two guests doing quite different things. Edith Harbaugh is CEO and co-founder of [LaunchDarkly](https://launchdarkly.com), and Andrea Czapary Martin is the outgoing CEO of [PRS for Music](https://www.prsformusic.com), the UK's collection society for musicians. I used to be a PRS member, so I'm a weird connector between the two. This episode is also available as [video](https://www.youtube.com/watch?v=nKwsyZRa7xE), and was sponsored by [NoteGPT](https://go.chrischinchilla.com/notegpt), an AI tool that summarises documents, recordings and notes. This is a condensed Q&A of our conversation.
