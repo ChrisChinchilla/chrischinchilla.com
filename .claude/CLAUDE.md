@@ -184,6 +184,10 @@ removed because nothing configured it; re-add deliberately if wanted.
 
 ### Deployment
 
+`.nvmrc` pins the Node version Netlify builds with. Keep it: without it Netlify falls back to
+its default Node, which is older than Astro requires (`>=22.23.4`, mirrored in `package.json`
+`engines`), and the build fails there while passing locally.
+
 Netlify, building on push to `main` (`netlify.toml` — esbuild bundler, plus two path
 redirects). `netlify/functions/scheduled-deploy.js` is unrelated to normal deploys: a
 scheduled function (cron `0 0 * * 2,4,6`) that POSTs to the build hook URL in the `BUILD_HOOK_URL` env var, used to

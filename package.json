@@ -4,6 +4,9 @@
   "description": "Chris Chinchilla's personal website",
   "version": "1.2.0",
   "private": true,
+  "engines": {
+    "node": ">=22.23.4"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
